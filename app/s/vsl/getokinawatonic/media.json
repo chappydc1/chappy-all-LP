@@ -1,0 +1,158 @@
+{
+  "images": [
+    {
+      "id": "hero-background",
+      "localPath": "/images/light-background.jpg",
+      "originalUrl": "https://getokinawatonic.com/sp-vsl-1/images/light-background.jpg?v=1.27",
+      "description": "Hero section background — light gradient/texture",
+      "usedIn": ["HeroSection"]
+    },
+    {
+      "id": "video-cover-desktop",
+      "localPath": "/images/video-cover.png",
+      "originalUrl": "https://getokinawatonic.com/sp-vsl-1/images/video-cover.png?v2",
+      "description": "Video player thumbnail/cover for desktop",
+      "usedIn": ["HeroContent", "VideoPlayer"]
+    },
+    {
+      "id": "video-cover-mobile",
+      "localPath": "/images/alt-player-continue-2-m.png",
+      "originalUrl": "https://getokinawatonic.com/sp-m/images/alt-player-continue-2-m.png",
+      "description": "Video player thumbnail/cover for mobile",
+      "usedIn": ["HeroContent", "VideoPlayer"]
+    },
+    {
+      "id": "video-tap-sound",
+      "localPath": "/images/tap-sound.png",
+      "originalUrl": "https://getokinawatonic.com/sp-vsl-1/images/tap-sound.png?v2",
+      "description": "Tap-to-unmute sound overlay on video player",
+      "usedIn": ["HeroContent", "VideoPlayer"]
+    },
+    {
+      "id": "product-1-bottle",
+      "localPath": "/images/product-bottles-1.png",
+      "originalUrl": "https://getokinawatonic.com/sp-vsl-1/images/product-bottles-1.png?v2",
+      "description": "1-bottle product image for desktop pricing cards",
+      "usedIn": ["SalesNotice", "ProductCard"]
+    },
+    {
+      "id": "product-3-bottle",
+      "localPath": "/images/product-bottles-3-extra.png",
+      "originalUrl": "https://getokinawatonic.com/sp-vsl-1/images/product-bottles-3-extra.png?v3",
+      "description": "3-bottle product image for desktop pricing cards",
+      "usedIn": ["SalesNotice", "ProductCard"]
+    },
+    {
+      "id": "product-6-bottle",
+      "localPath": "/images/product-bottles-6-extra.png",
+      "originalUrl": "https://getokinawatonic.com/sp-vsl-1/images/product-bottles-6-extra.png?v4",
+      "description": "6-bottle product image for desktop pricing cards",
+      "usedIn": ["SalesNotice", "ProductCard"]
+    },
+    {
+      "id": "mobile-package-3-bottle",
+      "localPath": "/images/package-3-np3-blue-nw-new.png",
+      "originalUrl": "https://getokinawatonic.com/sp-m/images/package-3-np3-blue-nw-new.png?v5",
+      "description": "3-bottle package card for mobile pricing section",
+      "usedIn": ["SalesNotice", "MobileProductPricingSection"]
+    },
+    {
+      "id": "mobile-package-6-bottle",
+      "localPath": "/images/package-6-np3-red-n-new.png",
+      "originalUrl": "https://getokinawatonic.com/sp-m/images/package-6-np3-red-n-new.png?v3",
+      "description": "6-bottle package card for mobile pricing section",
+      "usedIn": ["SalesNotice", "MobileProductPricingSection"]
+    },
+    {
+      "id": "mobile-package-1-bottle",
+      "localPath": "/images/package-1-np3-grey-nw.png",
+      "originalUrl": "https://getokinawatonic.com/sp-m/images/package-1-np3-grey-nw.png?v3",
+      "description": "1-bottle package card for mobile pricing section",
+      "usedIn": ["SalesNotice", "MobileProductPricingSection"]
+    },
+    {
+      "id": "buy-now-button",
+      "localPath": "/images/buy-now.svg",
+      "originalUrl": "https://getokinawatonic.com/sp-vsl-1/images/buy-now.svg",
+      "description": "Buy Now CTA button (SVG) used inside product cards",
+      "usedIn": ["ProductCard", "SalesNotice"]
+    },
+    {
+      "id": "buy-now-large",
+      "localPath": "/images/buynow.png",
+      "originalUrl": "https://getokinawatonic.com/sp-vsl-1/images/buynow.png?v2",
+      "description": "Large Buy Now banner button between sections",
+      "usedIn": ["SalesNotice"]
+    },
+    {
+      "id": "free-shipping-bonus",
+      "localPath": "/images/free-shippng-bounus-us.png",
+      "originalUrl": "https://getokinawatonic.com/sp-vsl-1/images/free-shippng-bounus-us.png?v2",
+      "description": "Free shipping + bonus badge shown on 3 and 6 bottle cards",
+      "usedIn": ["SalesNotice", "ProductCard"]
+    },
+    {
+      "id": "payment-methods",
+      "localPath": "/images/credit-card.jpg",
+      "originalUrl": "https://getokinawatonic.com/sp-vsl-1/images/credit-card.jpg",
+      "description": "Accepted payment methods (Visa, Mastercard, etc.)",
+      "usedIn": ["SalesNotice", "ProductCard"]
+    },
+    {
+      "id": "guarantee-badge",
+      "localPath": "/images/grt.png",
+      "originalUrl": "https://getokinawatonic.com/sp-vsl-1/images/grt.png",
+      "description": "90-day money back guarantee seal/badge",
+      "usedIn": ["SalesNotice", "GuaranteeSection"]
+    },
+    {
+      "id": "testimonial-courtney",
+      "localPath": "/images/courtney.jpg",
+      "originalUrl": "https://getokinawatonic.com/sp-vsl-1/images/courtney.jpg?v1",
+      "description": "Testimonial photo — Courtney from Pennsylvania",
+      "usedIn": ["SalesNotice", "TestimonialSection"]
+    },
+    {
+      "id": "testimonial-john",
+      "localPath": "/images/john.jpg",
+      "originalUrl": "https://getokinawatonic.com/sp-vsl-1/images/john.jpg?v1",
+      "description": "Testimonial photo — John from New Jersey",
+      "usedIn": ["SalesNotice", "TestimonialSection"]
+    },
+    {
+      "id": "testimonial-rina",
+      "localPath": "/images/rina.jpg",
+      "originalUrl": "https://getokinawatonic.com/sp-vsl-1/images/rina.jpg?v1",
+      "description": "Testimonial photo — Rina from Texas",
+      "usedIn": ["SalesNotice", "TestimonialSection"]
+    },
+    {
+      "id": "decorative-underline",
+      "localPath": "/images/line.png",
+      "originalUrl": "https://getokinawatonic.com/sp-vsl-1/images/line.png",
+      "description": "Decorative underline used beneath the bonuses headline",
+      "usedIn": ["SalesNotice"]
+    },
+    {
+      "id": "bonus-1-cover",
+      "localPath": "/images/bonus-1.png",
+      "originalUrl": "https://getokinawatonic.com/sp-vsl-1/images/bonus-1.png",
+      "description": "Bonus 1 book cover — Sleep The Fat Off",
+      "usedIn": ["SalesNotice", "BonusCard"]
+    },
+    {
+      "id": "bonus-2-cover",
+      "localPath": "/images/bonus-2.png",
+      "originalUrl": "https://getokinawatonic.com/sp-vsl-1/images/bonus-2.png",
+      "description": "Bonus 2 book cover — Flat Belly Smoothies",
+      "usedIn": ["SalesNotice", "BonusCard"]
+    },
+    {
+      "id": "bonus-3-membership",
+      "localPath": "/images/membership.png",
+      "originalUrl": "https://getokinawatonic.com/sp-vsl-1/images/membership.png",
+      "description": "Bonus 3 membership image — 14 Days FREE VIP Health Coaching",
+      "usedIn": ["SalesNotice", "BonusCard"]
+    }
+  ]
+}

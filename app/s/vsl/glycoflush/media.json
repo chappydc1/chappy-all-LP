@@ -1,0 +1,219 @@
+{
+  "images": [
+    {
+      "key": "logo_wide",
+      "localPath": "https://cnbanetworks.com/glycoflush-36cad7c7-6174-46ca-a980-7acc87e61ad5/assets/img/logo-wide-transparent-500-1024x96.png",
+      "originalUrl": "https://cnbanetworks.com/glycoflush-36cad7c7-6174-46ca-a980-7acc87e61ad5/assets/img/logo-wide-transparent-500-1024x96.png",
+      "usage": "Header top-nav logo",
+      "dimensions": "1024x96"
+    },
+    {
+      "key": "logo_gemini",
+      "localPath": "https://cnbanetworks.com/glycoflush-36cad7c7-6174-46ca-a980-7acc87e61ad5/assets/img/Gemini_Generated_Image_w91y8pw91y8pw91y-removebg-preview-e1761079336701.png",
+      "originalUrl": "https://cnbanetworks.com/glycoflush-36cad7c7-6174-46ca-a980-7acc87e61ad5/assets/img/Gemini_Generated_Image_w91y8pw91y8pw91y-removebg-preview-e1761079336701.png",
+      "usage": "Header center logo",
+      "dimensions": "800x203"
+    },
+    {
+      "key": "header_bg",
+      "localPath": "https://cnbanetworks.com/glycoflush-36cad7c7-6174-46ca-a980-7acc87e61ad5/assets/img/show-header-cbsnews-60minutes-3200-scaled-1.webp",
+      "originalUrl": "https://cnbanetworks.com/glycoflush-36cad7c7-6174-46ca-a980-7acc87e61ad5/assets/img/show-header-cbsnews-60minutes-3200-scaled-1.webp",
+      "usage": "Header section background image",
+      "dimensions": "3200x~"
+    },
+    {
+      "key": "kit_2bottle",
+      "localPath": "https://cnbanetworks.com/glycoflush-36cad7c7-6174-46ca-a980-7acc87e61ad5/assets/img/kits/2.png",
+      "originalUrl": "https://cnbanetworks.com/glycoflush-36cad7c7-6174-46ca-a980-7acc87e61ad5/assets/img/kits/2.png",
+      "usage": "Pricing card — 2 bottle kit product image",
+      "dimensions": "800x800"
+    },
+    {
+      "key": "kit_6bottle",
+      "localPath": "https://cnbanetworks.com/glycoflush-36cad7c7-6174-46ca-a980-7acc87e61ad5/assets/img/kits/3e3.png",
+      "originalUrl": "https://cnbanetworks.com/glycoflush-36cad7c7-6174-46ca-a980-7acc87e61ad5/assets/img/kits/3e3.png",
+      "usage": "Pricing card — 6 bottle kit product image",
+      "dimensions": "800x800"
+    },
+    {
+      "key": "kit_3bottle",
+      "localPath": "https://cnbanetworks.com/glycoflush-36cad7c7-6174-46ca-a980-7acc87e61ad5/assets/img/kits/2e1.png",
+      "originalUrl": "https://cnbanetworks.com/glycoflush-36cad7c7-6174-46ca-a980-7acc87e61ad5/assets/img/kits/2e1.png",
+      "usage": "Pricing card — 3 bottle kit product image",
+      "dimensions": "800x800"
+    },
+    {
+      "key": "cards_payment",
+      "localPath": "https://cnbanetworks.com/glycoflush-36cad7c7-6174-46ca-a980-7acc87e61ad5/assets/img/cards-1.webp",
+      "originalUrl": "https://cnbanetworks.com/glycoflush-36cad7c7-6174-46ca-a980-7acc87e61ad5/assets/img/cards-1.webp",
+      "usage": "Pricing card CTA — accepted payment cards",
+      "dimensions": "391x57"
+    },
+    {
+      "key": "emoji_gift",
+      "localPath": "https://cnbanetworks.com/glycoflush-36cad7c7-6174-46ca-a980-7acc87e61ad5/assets/img/1f381.svg",
+      "originalUrl": "https://cnbanetworks.com/glycoflush-36cad7c7-6174-46ca-a980-7acc87e61ad5/assets/img/1f381.svg",
+      "usage": "Pricing card — surprise gift emoji SVG",
+      "dimensions": "18x18"
+    },
+    {
+      "key": "guarantee_badge",
+      "localPath": "https://cnbanetworks.com/glycoflush-36cad7c7-6174-46ca-a980-7acc87e61ad5/assets/img/guarantee-badge-1-1.webp",
+      "originalUrl": "https://cnbanetworks.com/glycoflush-36cad7c7-6174-46ca-a980-7acc87e61ad5/assets/img/guarantee-badge-1-1.webp",
+      "usage": "Guarantee section — 60-day money back badge",
+      "dimensions": "250x250"
+    },
+    {
+      "key": "badge_gmp",
+      "localPath": "https://cnbanetworks.com/glycoflush-36cad7c7-6174-46ca-a980-7acc87e61ad5/assets/img/gmp-1-1.png",
+      "originalUrl": "https://cnbanetworks.com/glycoflush-36cad7c7-6174-46ca-a980-7acc87e61ad5/assets/img/gmp-1-1.png",
+      "usage": "Guarantee section — GMP certified badge",
+      "dimensions": "319x319"
+    },
+    {
+      "key": "badge_natural",
+      "localPath": "https://cnbanetworks.com/glycoflush-36cad7c7-6174-46ca-a980-7acc87e61ad5/assets/img/nat-1-1.png",
+      "originalUrl": "https://cnbanetworks.com/glycoflush-36cad7c7-6174-46ca-a980-7acc87e61ad5/assets/img/nat-1-1.png",
+      "usage": "Guarantee section — All Natural badge",
+      "dimensions": "319x319"
+    },
+    {
+      "key": "badge_usa",
+      "localPath": "https://cnbanetworks.com/glycoflush-36cad7c7-6174-46ca-a980-7acc87e61ad5/assets/img/usa-1-1.png",
+      "originalUrl": "https://cnbanetworks.com/glycoflush-36cad7c7-6174-46ca-a980-7acc87e61ad5/assets/img/usa-1-1.png",
+      "usage": "Guarantee section — Made in USA badge",
+      "dimensions": "319x319"
+    },
+    {
+      "key": "badge_gmo",
+      "localPath": "https://cnbanetworks.com/glycoflush-36cad7c7-6174-46ca-a980-7acc87e61ad5/assets/img/gmo-1-1.png",
+      "originalUrl": "https://cnbanetworks.com/glycoflush-36cad7c7-6174-46ca-a980-7acc87e61ad5/assets/img/gmo-1-1.png",
+      "usage": "Guarantee section — Non-GMO badge",
+      "dimensions": "319x319"
+    },
+    {
+      "key": "avatar_linda",
+      "localPath": "https://cnbanetworks.com/glycoflush-36cad7c7-6174-46ca-a980-7acc87e61ad5/assets/img/Screenshot_9-1.png",
+      "originalUrl": "https://cnbanetworks.com/glycoflush-36cad7c7-6174-46ca-a980-7acc87e61ad5/assets/img/Screenshot_9-1.png",
+      "usage": "Comment avatar — Linda M.",
+      "dimensions": "43x49"
+    },
+    {
+      "key": "avatar_samantha",
+      "localPath": "https://cnbanetworks.com/glycoflush-36cad7c7-6174-46ca-a980-7acc87e61ad5/assets/img/Screenshot_10-1.png",
+      "originalUrl": "https://cnbanetworks.com/glycoflush-36cad7c7-6174-46ca-a980-7acc87e61ad5/assets/img/Screenshot_10-1.png",
+      "usage": "Comment avatar — Samantha R.",
+      "dimensions": "43x50"
+    },
+    {
+      "key": "avatar_ben",
+      "localPath": "https://cnbanetworks.com/glycoflush-36cad7c7-6174-46ca-a980-7acc87e61ad5/assets/img/Screenshot_11-1.png",
+      "originalUrl": "https://cnbanetworks.com/glycoflush-36cad7c7-6174-46ca-a980-7acc87e61ad5/assets/img/Screenshot_11-1.png",
+      "usage": "Comment avatar — Ben H.",
+      "dimensions": "42x48"
+    },
+    {
+      "key": "avatar_amy",
+      "localPath": "https://cnbanetworks.com/glycoflush-36cad7c7-6174-46ca-a980-7acc87e61ad5/assets/img/Screenshot_12-1.png",
+      "originalUrl": "https://cnbanetworks.com/glycoflush-36cad7c7-6174-46ca-a980-7acc87e61ad5/assets/img/Screenshot_12-1.png",
+      "usage": "Comment avatar — Amy D.",
+      "dimensions": "39x46"
+    },
+    {
+      "key": "avatar_carlos",
+      "localPath": "https://cnbanetworks.com/glycoflush-36cad7c7-6174-46ca-a980-7acc87e61ad5/assets/img/prtdepo01-3-1.webp",
+      "originalUrl": "https://cnbanetworks.com/glycoflush-36cad7c7-6174-46ca-a980-7acc87e61ad5/assets/img/prtdepo01-3-1.webp",
+      "usage": "Comment avatar — Carlos R.",
+      "dimensions": "800x800"
+    },
+    {
+      "key": "avatar_deborah",
+      "localPath": "https://cnbanetworks.com/glycoflush-36cad7c7-6174-46ca-a980-7acc87e61ad5/assets/img/Screenshot_14-1.png",
+      "originalUrl": "https://cnbanetworks.com/glycoflush-36cad7c7-6174-46ca-a980-7acc87e61ad5/assets/img/Screenshot_14-1.png",
+      "usage": "Comment avatar — Deborah W.",
+      "dimensions": "39x47"
+    },
+    {
+      "key": "fb_reaction",
+      "localPath": "https://cnbanetworks.com/glycoflush-36cad7c7-6174-46ca-a980-7acc87e61ad5/assets/img/@fbreaction.webp",
+      "originalUrl": "https://cnbanetworks.com/glycoflush-36cad7c7-6174-46ca-a980-7acc87e61ad5/assets/img/@fbreaction.webp",
+      "usage": "Comment reaction — Facebook emoji strip",
+      "dimensions": "439x217"
+    }
+  ],
+  "icons": [
+    {
+      "key": "icon_nav",
+      "url": "https://c.animaapp.com/mosigj9wn0Q2CB/assets/icon-1.svg",
+      "usage": "Desktop nav menu item bullet icon"
+    },
+    {
+      "key": "icon_hamburger",
+      "url": "https://c.animaapp.com/mosigj9wn0Q2CB/assets/icon-2.svg",
+      "usage": "Mobile hamburger menu icon"
+    },
+    {
+      "key": "icon_search",
+      "url": "https://c.animaapp.com/mosigj9wn0Q2CB/assets/icon-3.svg",
+      "usage": "Search button icon"
+    },
+    {
+      "key": "icon_player_bezel",
+      "url": "https://c.animaapp.com/mosigj9wn0Q2CB/assets/icon-4.svg",
+      "usage": "Video player bezel icon"
+    },
+    {
+      "key": "icon_player_play",
+      "url": "https://c.animaapp.com/mosigj9wn0Q2CB/assets/icon-5.svg",
+      "usage": "Video player play icon"
+    },
+    {
+      "key": "icon_player_pause",
+      "url": "https://c.animaapp.com/mosigj9wn0Q2CB/assets/icon-6.svg",
+      "usage": "Video player play/pause button icon"
+    },
+    {
+      "key": "icon_strikethrough",
+      "url": "https://c.animaapp.com/mosigj9wn0Q2CB/assets/icon-7.svg",
+      "usage": "Pricing card per-bottle price strikethrough icon"
+    },
+    {
+      "key": "icon_checkmark_blue",
+      "url": "https://c.animaapp.com/mosigj9wn0Q2CB/assets/icon-8.svg",
+      "usage": "Pricing card benefit checkmark (blue variant)"
+    },
+    {
+      "key": "icon_checkmark_default",
+      "url": "https://c.animaapp.com/mosigj9wn0Q2CB/assets/icon-9.svg",
+      "usage": "Pricing card benefit checkmark (default)"
+    },
+    {
+      "key": "icon_checkmark_yellow",
+      "url": "https://c.animaapp.com/mosigj9wn0Q2CB/assets/icon-10.svg",
+      "usage": "Pricing card benefit checkmark (yellow variant)"
+    },
+    {
+      "key": "icon_checkmark_white",
+      "url": "https://c.animaapp.com/mosigj9wn0Q2CB/assets/icon-11.svg",
+      "usage": "Pricing card benefit checkmark (white variant)"
+    }
+  ],
+  "video": {
+    "cover": {
+      "url": "https://images.converteai.net/b5e8472d-3421-4675-a219-1ae1b636b21f/players/69e16f36ed35062270c606c2/cover.jpg",
+      "usage": "VSL player cover image"
+    },
+    "poster": {
+      "url": "https://cdn.converteai.net/b5e8472d-3421-4675-a219-1ae1b636b21f/69e16ee9750b24d3132e385e/poster.jpg",
+      "usage": "VSL video poster/thumbnail"
+    },
+    "thumbnail": {
+      "url": "https://cdn.converteai.net/b5e8472d-3421-4675-a219-1ae1b636b21f/players/69e16f36ed35062270c606c2/thumbnail.jpg",
+      "usage": "VSL player thumbnail"
+    },
+    "smartAutoplayImage": {
+      "url": "https://cdn.converteai.net/b5e8472d-3421-4675-a219-1ae1b636b21f/2024/09/01/66d4ba69507027000167e791.png",
+      "usage": "VSL smart autoplay overlay image"
+    }
+  }
+}

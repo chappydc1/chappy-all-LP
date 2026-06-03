@@ -1,0 +1,47 @@
+{
+  "infoIcon": "https://c.animaapp.com/mpy7gdv4CYHnsu/assets/1716537244-1711367301667_info.png",
+  "starsImage": "https://c.animaapp.com/mpy7gdv4CYHnsu/assets/1716272284-stars.png",
+  "heroImage": "https://c.animaapp.com/mpy7gdv4CYHnsu/assets/1743056762-Frame_35.png",
+  "rosabellaWebp": "https://c.animaapp.com/mpy7gdv4CYHnsu/assets/1739526719-Rosabella.webp",
+  "reason1ImageDesktop": "https://c.animaapp.com/mpy7gdv4CYHnsu/assets/1742309646-unnamed.png",
+  "reason1ImageMobile": "https://c.animaapp.com/mpy7gdv4CYHnsu/assets/image-1.gif",
+  "dividerGif": "https://c.animaapp.com/mpy7gdv4CYHnsu/assets/1716540509-1711466088389_2_min.gif",
+  "productBottleImage": "https://c.animaapp.com/mpy7gdv4CYHnsu/assets/1736682560-Moringa_Capsules.webp",
+  "updateOfferProductImage": "https://c.animaapp.com/mpy7gdv4CYHnsu/assets/image-1.gif",
+  "trustBadgeIcons": {
+    "moneyBack": "https://c.animaapp.com/mpy7gdv4CYHnsu/assets/1716288384-1711461897636_4.png",
+    "secureCheckout": "https://c.animaapp.com/mpy7gdv4CYHnsu/assets/1716288491-1711461935757_3.png",
+    "noHassle": "https://c.animaapp.com/mpy7gdv4CYHnsu/assets/1716288513-1711461945141_1.png",
+    "fastShipping": "https://c.animaapp.com/mpy7gdv4CYHnsu/assets/1716288470-1711461923065_2.png"
+  },
+  "defaultProductImage": "https://c.animaapp.com/mpy7gdv4CYHnsu/assets/image-1.gif",
+  "videos": {
+    "video1": {
+      "poster": "https://c.animaapp.com/mpy7gdv4CYHnsu/assets/80.jpg",
+      "src": "https://videos.funnelish.com/4224/1725013470-fea58851-73ae-4c49-8a87-4736da26dcfb.mp4?token=1780506741_0x01134ea559345574629cacfe7e83f37b54e8f0ef&page=F_55043_755543_2631859_3028729"
+    },
+    "video2": {
+      "poster": "https://c.animaapp.com/mpy7gdv4CYHnsu/assets/81.jpg",
+      "src": "https://videos.funnelish.com/4224/1725013493-76e7549e-5724-4360-9222-f2db4b3da2e6.mp4?token=1780506741_0x01134ea559345574629cacfe7e83f37b54e8f0ef&page=F_55043_755543_2631859_3028729"
+    },
+    "video3": {
+      "poster": "https://c.animaapp.com/mpy7gdv4CYHnsu/assets/69.jpg",
+      "src": "https://videos.funnelish.com/4224/1725013486-08b819a6-b4d3-435b-b7fa-b5ff1e0da466.mp4?token=1780506741_0x01134ea559345574629cacfe7e83f37b54e8f0ef&page=F_55043_755543_2631859_3028729"
+    }
+  },
+  "sidebarReviewsImage": "https://c.animaapp.com/mpy7gdv4CYHnsu/assets/1716543959-reviews.png",
+  "likeIcon": "https://c.animaapp.com/mpy7gdv4CYHnsu/assets/1717662735-download.avif",
+  "commentAvatars": {
+    "wilma": "https://c.animaapp.com/mpy7gdv4CYHnsu/assets/1717808556-axo8pjK_460s.jpg",
+    "mary": "https://c.animaapp.com/mpy7gdv4CYHnsu/assets/1717808600-random_selfie_by_starlight_enterprise_dd8ogv7-fullview.jpg",
+    "doris": "https://c.animaapp.com/mpy7gdv4CYHnsu/assets/1717808607-unnamed.jpg",
+    "skyler": "https://c.animaapp.com/mpy7gdv4CYHnsu/assets/1717808622-images.jpg",
+    "marie": "https://c.animaapp.com/mpy7gdv4CYHnsu/assets/1717808615-ace9b480624304023e6675fc705422de.jpg",
+    "leonard": "https://c.animaapp.com/mpy7gdv4CYHnsu/assets/1717808563-14514434211_15045859f0_z.jpg",
+    "emma": "https://c.animaapp.com/mpy7gdv4CYHnsu/assets/1717809409-random-pics.jpg",
+    "louis": "https://c.animaapp.com/mpy7gdv4CYHnsu/assets/1717809436-danual-berkley-pic.jpg",
+    "alfred": "https://c.animaapp.com/mpy7gdv4CYHnsu/assets/1717809443-92766295b35fcd509bf3366e75acb283-3977122341.jpg",
+    "editha": "https://c.animaapp.com/mpy7gdv4CYHnsu/assets/1717809460-random_selfie_2017-1707495390.jpg",
+    "debra": "https://c.animaapp.com/mpy7gdv4CYHnsu/assets/1717809449-opx5fvrfetl81-1229124921.jpg"
+  }
+}

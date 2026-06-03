@@ -1,0 +1,235 @@
+{
+  "topBar": {
+    "brandName": "HEALTH"
+  },
+  "alertBanner": {
+    "prefix": "This video is causing a stir in",
+    "city": "Boardman",
+    "suffix": "— watch before it's taken down"
+  },
+  "headline": {
+    "line1": "NO OZEMPIC... Just 4 Ingredients!",
+    "line2_prefix": "This is the",
+    "line2_accent": "new recipe",
+    "line2_suffix": "celebrities are using to drop up to",
+    "line2_highlight": "14 pounds in just 10 days!"
+  },
+  "videoSection": {
+    "errorPrefix": "Video not found, contact the support of",
+    "errorBrand": "VTurb"
+  },
+  "doctorBio": {
+    "badge": "Top Gastroenterologist 2024",
+    "name": "Dr. Gina Sam M.D",
+    "bioIntro": "Dr. Gina Sam, MD, is a leading NYC gastroenterologist and former director of the Mount Sinai Gastrointestinal Motility Center",
+    "bioBody": "Over her 20-year career, Dr. Sam has specialized in treating digestive and metabolic disorders, founding the Institute of Gastrointestinal Motility Disorders and Integrative Health in New York City.",
+    "bioEmphasis": "obesity, fatigue and other metabolic dysfunctions.",
+    "commentsCount": "36,158 Comments",
+    "comments": [
+      { "name": "Emily",     "img": "commemily",    "comment": "Wow, just wow. This video completely changed my understanding of digestion. If you've been struggling with bloating or constipation, you *need* to watch this." },
+      { "name": "Josh",      "img": "commjosh",     "comment": "All these years, I thought fiber was the solution. Dr. Sam blew my mind with her explanation of what's really going on in the gut. Total eye-opener." },
+      { "name": "Ava",       "img": "commava",      "comment": "I've been suffering from digestive issues for ages, and this video finally gave me the answers I've been searching for. This info could change lives. The little section about parasites was crazy." },
+      { "name": "Matthew",   "img": "commmatthew",  "comment": "Just finished watching—never realized how much my gut health was impacting my energy levels. I'm making changes right away. 10/10 video." },
+      { "name": "Sophia",    "img": "commsophia",   "comment": "Dr. Sam's 7-second ritual is a game-changer. My bloating is already better, and I've only been trying it for a few days." },
+      { "name": "Leo",       "img": "commleo",      "comment": "This video explains everything that no other doctor told me. I thought I knew about gut health, but this just took it to another level. The thing she said at the end about toxins in your blood was mind blowing. Highly recommend." },
+      { "name": "Grace",     "img": "commgrace",    "comment": "Honestly, this video is a must-watch for anyone struggling with their digestion. Dr. Sam breaks it down so simply. I can't believe I was doing everything wrong." },
+      { "name": "James",     "img": "commjames",    "comment": "I was skeptical at first, but this blew me away. So much valuable info packed into one video. I stopped eating the 3 foods she mentioned and my stomach's been thanking me ever since." },
+      { "name": "Samantha",  "img": "commsamantha", "comment": "This totally changed my mindset about gut health. I had no idea that constipation could be linked to so many other problems. Thanks, Dr. Sam." },
+      { "name": "Oliver",    "img": "commoliver",   "comment": "If you're tired of feeling sluggish, bloated, and stuck, watch this video NOW. It's honestly the best thing I've seen on digestive health." },
+      { "name": "Megan",     "img": "commmegan",    "comment": "I had no idea parasites could be living in my gut, wreaking havoc on my health. This video opened my eyes in ways I never expected. You HAVE to see it!" },
+      { "name": "Noah",      "img": "commnoah",     "comment": "Just finished the video… I'm speechless. The ending left me totally shocked. I never thought my gut was connected to all these issues." },
+      { "name": "Isabella",  "img": "commisabella", "comment": "The part about parasites in the gut seriously blew my mind. I've never heard anyone explain it like this before. Everyone needs to watch this." },
+      { "name": "Ryan",      "img": "commryan",     "comment": "The way Dr. Sam connects gut health to almost every other part of the body is insane. The last few minutes of the video are a real eye-opener. Don't miss it!" },
+      { "name": "Jessica",   "img": "commjessica",  "comment": "If you think your digestive issues are just 'normal,' watch this video. Dr. Sam breaks down why it could be something way more serious. I'm rethinking everything!" },
+      { "name": "Alex",      "img": "commalex",     "comment": "What she said about parasites freaked me out at first, but the solutions are so simple and natural. This video is a must-watch if you want to take control of your health." },
+      { "name": "Ella",      "img": "commella",     "comment": "I thought I knew everything about gut health, but the end of this video? Wow. It completely turned everything I thought I knew upside down." },
+      { "name": "Tyler",     "img": "commtyler",    "comment": "I've watched tons of health videos, but the last 5 minutes of this one were next-level. You won't believe what Dr. Sam reveals at the end!" },
+      { "name": "Chloe",     "img": "commchloe",    "comment": "I've always struggled with bloating and fatigue. Turns out, the root cause could be parasites? I never would have known if I didn't watch this video!" },
+      { "name": "Zack",      "img": "commzack",     "comment": "Just finished watching and the ending completely floored me. There's so much more to gut health than I realized. Dr. Sam really knows her stuff." }
+    ]
+  },
+  "commentsSection": {
+    "count": "959 Comments",
+    "comments": [
+      {
+        "name": "Sarah Smith",
+        "comment": "OMG! My doctor couldn't believe it. I lost so much weight that he thought I was anorexic. But when the test results came back, I was healthier than ever!",
+        "actionText": "15m – 1h",
+        "replies": [
+          {
+            "name": "Jennifer Taylor",
+            "comment": "Sarah Smith Girl, I lost 11 pounds in a week! This natural Zepbound is unreal!",
+            "actionText": "Reply – 15m – 1h"
+          }
+        ]
+      },
+      {
+        "name": "Olivia Moore",
+        "comment": "I've been using this natural Zepbound for just over 3 weeks, and my pants are already falling off! Even my husband complimented me today! Thank you for helping so many people without asking for anything in return.",
+        "actionText": "15m – 1h",
+        "replies": [
+          {
+            "name": "Emily Johnson",
+            "comment": "Olivia Moore That's unreal, beautiful! Did you do anything in your routine besides the recipe?",
+            "actionText": "33 – 1h"
+          },
+          {
+            "name": "Olivia Moore",
+            "comment": "Emily Johnson No, just the recipe! I didn't do any diets or step foot in the gym. It's crazy how something so simple is making me lose so much weight!",
+            "actionText": "33 – 1h"
+          }
+        ]
+      },
+      {
+        "name": "Elizabeth Miller",
+        "comment": "I found this video before considering bariatric surgery! It's only been 29 days since I started, but I've already lost 28 pounds! It feels like I have my 19-year-old body back, and I have so much energy to play with my kids and grandkids!",
+        "actionText": "23 – 1h"
+      },
+      {
+        "name": "Abigail Martinez",
+        "comment": "This is the most honest and well-explained solution I've ever seen! No long videos and no asking for anything at the end! Thank you so much!",
+        "actionText": "13 – 1h",
+        "replies": [
+          {
+            "name": "Natalie Clark",
+            "comment": "Abigail Martinez I researched online and found several scientific articles that prove this natural Zepbound really works! Here, the numbers on the scale keep dropping, you should try it too!",
+            "actionText": "Reply – 13 – 1h"
+          }
+        ]
+      },
+      {
+        "name": "Jessica Brown",
+        "comment": "Finally, someone who explains everything in just a few minutes without medical jargon! I'm starting this morning! Thank you for being so clear and direct.",
+        "actionText": "13 – 1h",
+        "replies": [
+          {
+            "name": "Chloe Garcia",
+            "comment": "After 3 weeks, my belly is finally flat like a board, I've lost 26 pounds without even dieting! I already feel lighter and more beautiful!",
+            "actionText": "13 – 1h"
+          }
+        ]
+      }
+    ]
+  },
+  "pricing": {
+    "links": {
+      "onePack": "https://go.gutrenewalformula.com/products/emma-1-pack-grf-er-vslrmb/?_raclid=9a1a687b-c0c6-4856-8ff8-e09031df5b2d&ad_id=269813",
+      "threePack": "https://go.gutrenewalformula.com/products/emma-3-pack-grf-er-vslrmb/?_raclid=9a1a687b-c0c6-4856-8ff8-e09031df5b2d&ad_id=269813",
+      "sixPack": "https://go.gutrenewalformula.com/products/emma-6-pack-grf-er-vslrmb/?_raclid=9a1a687b-c0c6-4856-8ff8-e09031df5b2d&ad_id=269813"
+    },
+    "cards": {
+      "starter": {
+        "title": "STARTER",
+        "supply": "30 Day Supply",
+        "bottles": "(1 Bottle)",
+        "pricePerBottle": "$59",
+        "originalPrice": "$99"
+      },
+      "doctorsChoice": {
+        "title": "DOCTOR'S CHOICE",
+        "supply": "90 Day Supply",
+        "bottles": "(3 Bottles)",
+        "pricePerBottle": "$49",
+        "originalPrice": "$297"
+      },
+      "gutSuperhero": {
+        "title": "GUT SUPERHERO",
+        "supply": "180 Day Supply",
+        "bottles": "(6 Bottles)",
+        "pricePerBottle": "$39",
+        "originalPrice": "$594"
+      }
+    },
+    "mobile": {
+      "sixPack": {
+        "title": "Best Value",
+        "pricePerBottle": "$39",
+        "originalPrice": "$594",
+        "discountedPrice": "$234"
+      },
+      "threePack": {
+        "title": "Doctor's Choice",
+        "pricePerBottle": "$49",
+        "originalPrice": "$297",
+        "discountedPrice": "$147"
+      },
+      "onePack": {
+        "title": "Starter",
+        "pricePerBottle": "$59",
+        "originalPrice": "$99",
+        "discountedPrice": "$59"
+      }
+    }
+  },
+  "faqs": [
+    {
+      "question": "How many bottles should I order?",
+      "answer": "Most customers choose the 3 or 6 bottle packages so they can follow the full recommended routine while securing the best price per bottle."
+    },
+    {
+      "question": "Is there a guarantee?",
+      "answer": "Yes. Every order is backed by a 60-day satisfaction guarantee, so you can try it without risk."
+    },
+    {
+      "question": "When will my order ship?",
+      "answer": "Orders are processed quickly, and shipping details are provided after checkout."
+    }
+  ],
+  "guarantee": {
+    "badge": "Full Industry Best 90 Day No Questions Asked",
+    "headline": "100% Money Back Satisfaction Guarantee",
+    "body1": "You are going to love what Emma does for your gut. You'll love the regular poops, the relief of complete bowel elimination and the trim waistline that comes from reduced bloating.",
+    "body2": "Otherwise, just send it back for a full, no questions asked refund. You can even send back an empty bottle. Just call us at 1-888-808-EMMA (3662) and our friendly customer support team will take care of you, promptly.",
+    "body3": "Your satisfaction is of utmost importance to us. It's not just our company creed but a personal policy. We are here to support your journey to better health and an improved quality of life.",
+    "phone": "1-888-808-EMMA (3662)"
+  },
+  "bonus": {
+    "headline": "NEW! \"Lean Belly Shakes\"",
+    "subheadline": "Yours FREE with any multipack purchase - Instant access",
+    "body1": "Lean Belly Shakes is a delicious way to help slim down and clean out your gut.",
+    "body2": "Each one of the Shakes in this recipe book is specially designed to gently eliminate waste, while nourishing your body.",
+    "body3": "See a flatter tummy in the mirror in just a week with these creamy smoothies!"
+  },
+  "testimonials": {
+    "headline": "Your Story Can Be Next",
+    "items": [
+      {
+        "key": "natasha",
+        "name": "Natasha K",
+        "title": "\"This has given me my life back...\"",
+        "text": "\"I have struggled with IBS for 6+ years now and this has made my symptoms much more manageable. I don't have an urgency to go all the time anymore and I don't feel sick like I used to. My body digests at a normal pace, and in turn, my anxiety has slowly started to decrease in regards to my bathroom habits. I look fresher and more vibrant and in some ways, this has given me my life back.\""
+      },
+      {
+        "key": "lucy",
+        "name": "Lucy C",
+        "title": "\"The feeling I get when it enters into my body it's better than coffee...\"",
+        "text": "\"Taking supplements is completely new to me. I've made it a habit to drink this first thing in the morning like the instructions recommend. The feeling I get when it enters into my body, it's better than coffee! I'm enjoying more regular bathroom visits which is helping me get out more and do things.\""
+      },
+      {
+        "key": "amberlyn",
+        "name": "Amberlyn F",
+        "title": "\"My stomach is noticeably flatter...\"",
+        "text": "\"I have a lot of stomach issues and taking this each day with Emma has all but erased my issues. I noticed a difference within the first few days. To me, my stomach is noticeably flatter. Thankfully no more bloat and it's helping to repair my digestive system.\""
+      },
+      {
+        "key": "patricia",
+        "name": "Patricia G",
+        "title": "\"No bloat and it's helping clean out my body in a natural way (Pooping!)...\"",
+        "text": "\"I got this product recently and love it. Supreme Greens and Emma are a great combination. No bloat and it's helping clean out my body in a natural way (Pooping!) I feel so great! I've also stopped craving sugar. Even my husband has noticed how much it's helped me and wants his own supply.\""
+      }
+    ]
+  },
+  "footer": {
+    "disclaimer": "*These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure or prevent any disease. Use only as directed. The information provided herein is intended for your general knowledge only and is not intended to be, nor is it, medical advice or a substitute for medical advice. If you have or suspect you have, a specific medical condition or disease, please consult your healthcare provider.",
+    "copyright": "© Emma 2026. All Rights Reserved",
+    "copyright": "© GlycoCept Research 2026. All Rights Reserved.",
+    "support": "For Product Support, please contact the vendor HERE.",
+    "links": {
+      "terms": "#",
+      "privacy": "#",
+      "returnPolicy": "#",
+      "contactUs": "#",
+      "supportHere": "#"
+    }
+  }
+}

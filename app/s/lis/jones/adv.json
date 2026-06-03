@@ -1,0 +1,144 @@
+{
+  "meta": {
+    "title": "Jones Road Beauty - What The Foundation"
+  },
+  "cookie": {
+    "body": "We use cookies on our website to give you the best experience possible.",
+    "privacyLabel": "Privacy Policy",
+    "privacyUrl": "https://www.jonesroadbeauty.com/pages/privacy-policy",
+    "preferences": "Preferences",
+    "acceptAll": "Accept All"
+  },
+  "nav": {
+    "shopNowLabel": "SHOP NOW",
+    "shopNowUrl": "https://www.jonesroadbeauty.com/pages/what-the-foundation-custom-quiz",
+    "findShadeLabel": "FIND MY SHADE",
+    "findShadeUrl": "https://jonesroadbeauty.com/pages/miracle-balm-quiz/"
+  },
+  "hero": {
+    "heading": "5 Ways WTF Will Change the Way You Think About Foundation",
+    "reviewCount": "Over 11,000 5-Star Reviews"
+  },
+  "features": [
+    {
+      "number": "1.",
+      "title": "Flawless Look, Barely-There Feel",
+      "description": "Wish your skin looked naturally even and radiant without piling on product? WTF smooths out redness and dark spots without settling into lines or clinging to dry spots. It's that \"no-makeup makeup\" look everyone's after - without feeling like you're wearing anything at all.",
+      "testimonial": {
+        "title": "\"So Silky!\"",
+        "author": "Lauri G.",
+        "badge": "Verified Buyer",
+        "body": "\"So silky, soft, light and smooth. I never feel like I'm wearing foundation. It blends like magic ! I've tried MANY foundations. Will never use anything else again. A beautiful and dewey young look for this 58 year old.\""
+      }
+    },
+    {
+      "number": "2.",
+      "title": "Shade Matching That Actually Works",
+      "description": "Finding your perfect match online can be tricky - we get it. That's why we made it simple. Just use your Face Pencil shade and the chart below to find your perfect WTF match or take our quiz to get a natural finish that actually looks like your skin.",
+      "testimonial": {
+        "title": "\"Amazing!\"",
+        "author": "Anneka A.",
+        "badge": "Verified Buyer",
+        "body": "\"A little truly goes a long way with this one. Love how it blends well, keeps face moisturized and adds a very natural glow.\""
+      }
+    },
+    {
+      "number": "3.",
+      "title": "Foundation That Acts Like Skincare",
+      "description": "If traditional foundations feel too dry, too flat, or accentuate every line - meet the one that doesn't. WTF blends like skincare, hydrates like a dream, and leaves you with a healthy, natural-looking glow.",
+      "testimonial": {
+        "title": "\"Must Have!\"",
+        "author": "Kylene A.",
+        "badge": "Verified Buyer",
+        "body": "\"Love this foundation - will definitely continue to reorder. It has a light to medium coverage that perfectly blurs any imperfections, but still looks natural and feels moisturizing to wear.\""
+      }
+    },
+    {
+      "number": "4.",
+      "title": "Made for Real Women, by the Woman Who Gets It",
+      "description": "This isn't just another foundation. It's the result of decades of real beauty know-how from Bobbi Brown - designed for real skin, real women, and real life. You'll see the difference from the first swipe.",
+      "testimonial": {
+        "title": "\"Best Foundation For Mature Skin!\"",
+        "author": "Kat W.",
+        "badge": "Verified Buyer",
+        "body": "\"This is the only foundation I have found that feels and looks dewy on my 60 year old skin. All others look cakey and emphasize all my lines and pores. I love this product!\""
+      }
+    },
+    {
+      "number": "5.",
+      "title": "The Only Foundation That Doesn't Feel Like One",
+      "description": "No more tight, dry, or sticky foundation. WTF is rich and creamy, but still lightweight - leaving skin soft, bouncy, and radiant. For many, you can even skip your moisturizer altogether. If your skin gets drier with age, WTF is your new go-to.",
+      "testimonial": {
+        "title": "\"Moisturizing, Natural Finish!\"",
+        "author": "Betsy H.",
+        "badge": "Verified Buyer",
+        "body": "\"Love this product. Coverage is very natural, and the moisturizing formula feels great on my dry skin.\""
+      }
+    }
+  ],
+  "findShade": {
+    "label": "FIND MY SHADE",
+    "url": "https://www.jonesroadbeauty.com/pages/what-the-foundation-custom-quiz"
+  },
+  "shopNow": {
+    "label": "SHOP NOW",
+    "url": "https://www.jonesroadbeauty.com/pages/what-the-foundation-custom-quiz"
+  },
+  "finalCta": {
+    "heading": "Ready To Say WTF?",
+    "button": "SHOP NOW",
+    "url": "https://www.jonesroadbeauty.com/pages/what-the-foundation-custom-quiz"
+  },
+  "footer": {
+    "newsletter": {
+      "heading": "Stay up to date about product launches, makeup tips, and all things Jones Road",
+      "emailPlaceholder": "Email Address",
+      "submitLabel": "Submit",
+      "promoText": "Sign Up For Free Shipping On Orders Over $55 USD",
+      "successText": "Thank you for subscribing"
+    },
+    "columns": {
+      "help": {
+        "title": "Help",
+        "links": [
+          { "href": "https://jonesroadbeauty.customerdesk.io/#rp-customer-widget-home", "label": "Help Center" },
+          { "href": "https://www.jonesroadbeauty.com/pages/tracking-v2", "label": "Track My Order" },
+          { "href": "/pages/quiz-landing", "label": "Find Your Shade" },
+          { "href": "/pages/shipping-returns", "label": "Shipping + Returns" },
+          { "href": "/pages/faq", "label": "FAQ" },
+          { "href": "/pages/contact-us", "label": "Contact Us" },
+          { "href": "/pages/careers", "label": "Careers" }
+        ]
+      },
+      "about": {
+        "title": "About",
+        "links": [
+          { "href": "/pages/about", "label": "Our Story" },
+          { "href": "/blogs/justbobbi", "label": "justBOBBI" }
+        ]
+      },
+      "connect": {
+        "title": "Connect",
+        "links": [
+          { "href": "https://www.instagram.com/jonesroadbeauty/", "label": "Instagram" },
+          { "href": "https://www.facebook.com/jonesroadbeauty", "label": "Facebook" },
+          { "href": "https://twitter.com/jonesroadbeauty", "label": "Twitter" },
+          { "href": "https://www.pinterest.com/jonesroadbeauty/", "label": "Pinterest" }
+        ]
+      },
+      "stores": {
+        "title": "Stores",
+        "links": [
+          { "href": "/pages/our-stores", "label": "Our Stores" }
+        ]
+      }
+    },
+    "legal": "Bobbi Brown left her namesake company in 2016 and is no longer affiliated or associated with the Bobbi Brown Cosmetics company or the Bobbi Brown branded products",
+    "policies": [
+      { "href": "/pages/privacy-policy", "label": "Privacy Policy" },
+      { "href": "/pages/terms-conditions", "label": "Terms & Conditions" },
+      { "href": "/pages/ccpa-opt-out", "label": "Do not sell my personal information" }
+    ],
+    "copyright": "© JustSteven LLC 2026"
+  }
+}

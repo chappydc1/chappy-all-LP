@@ -1,0 +1,164 @@
+{
+  "meta": {
+    "title": "Why this tiny German hearing aid is taking the U.S. by storm",
+    "description": "German hearing aid Horizon IX by hear.com is revolutionizing how Americans treat hearing loss. Discover the technology behind 540,000 happy customers."
+  },
+  "header": {
+    "logoAlt": "Hearcom logo",
+    "advertorialLabel": "advertorial",
+    "sectionLabel": "TECHNOLOGY",
+    "featuredOnLabel": "FEATURED ON",
+    "featuredOnLogosAlt": "horizon hearing aids"
+  },
+  "articleIntro": {
+    "heading": "This \"miracle hearing aid\" is shocking experts… and the thousands of Americans who wear them",
+    "byline": "By Kate McNamara | Reviewed by Dr. Emily Russell, Au.D.",
+    "paragraphs": [
+      "You've seen it before—bold claims about the latest \"life-changing\" gadget, only to be underwhelmed.",
+      "But every once in a while, something comes along that truly rewrites the rules…",
+      "Enter Horizon IX: <mark class=\"font-bold bg-orange-200\">the hearing aid that's not just an upgrade, it's a revelation.</mark>",
+      "We're talking double the processing power, A.I. that adapts to your world in real time, and clarity that patients and audiologists are calling \"<em>insane.</em>\"",
+      "Dr. Emily Russell, Lead Audiologist, has never seen anything like it:",
+      "<mark class=\"font-bold bg-orange-200\">\"It's the first time I've seen patients genuinely speechless. They go from struggling to hear to 'wow' in seconds.\"</mark>",
+      "It's no wonder Horizon IX has taken the U.S. by storm since its release earlier this year, offering hope, wonder, and unprecedented clarity to thousands across America…"
+    ]
+  },
+  "mediaBlock": {
+    "imageAlt": "horizon hearing aids",
+    "caption": "Horizon IX hearing aids combine powerful German technology with a tiny design."
+  },
+  "articleSection": {
+    "heading": "What is Horizon IX?",
+    "paragraphs": [
+      "Horizon IX is the latest release from renowned U.S. company, hear.com, and was developed in collaboration with top audio engineers from Signia (formerly Siemens).",
+      "hear.com co-founders Dr. Marco Vietor and Paul Crusius had a vision: to deliver <mark class=\"font-bold bg-orange-200\">a whole new level of clarity in a device so small it completely disappears inside or behind your ear.</mark>",
+      "But they never expected the overwhelming effect it would have—not just on paper, but in real people's lives…",
+      "Dr. Vietor explains, \"We knew we were onto something when our engineers came to us with this device. <mark class=\"font-bold bg-orange-200\">It outperformed every other hearing aid, in every single test we ran… sometimes by 2x.\"</mark>",
+      "\"But the way it's changing lives? That's something we could never have predicted. It's been really humbling to see.\""
+    ]
+  },
+  "videos": [
+    {
+      "description": "With Horizon IX hearing aids, conversation is completely effortless."
+    },
+    {
+      "description": "The hear.com team ships thousands of Horizon IX hearing aids to happy customers nationwide."
+    }
+  ],
+  "featuresList": {
+    "heading": "What makes Horizon IX so special?",
+    "paragraphs": [
+      "It's one of the <mark class=\"font-bold bg-orange-200\">world's first hearing aids with dual processing.</mark>",
+      "This is special because it's the first time engineers have been able to pack not one, but two state-of-the-art computer chips into a device this small.",
+      "The result? <strong>An unprecedented amount of power and clarity.</strong>",
+      "This means that Horizon IX offers all of the usual benefits of modern hearing aids—from smartphone connectivity to Bluetooth streaming—with the added bonus of something completely new: they can process speech and background noise independently, then recombine them for <strong>unparalleled, crystal clear sound.</strong>",
+      "\"It's not just about volume,\" explains hear.com founder Paul Crusius.",
+      "\"It's about <em>speech clarity.</em> And that's precisely what Horizon IX delivers—beyond anything we ever thought possible.\"",
+      "In other words: <mark class=\"font-bold bg-orange-200\">with double the power comes double the clarity—and all that in a virtually invisible design!</mark>"
+    ],
+    "featuresSubheading": "What exactly does Horizon IX have to offer?",
+    "featuresSubheadingBody": "More than you think!",
+    "features": [
+      { "title": "Amazing Speech Clarity™", "desc": "Effortlessly understand even with background noise, thanks to dual-processing", "sup": null },
+      { "title": "Bluetooth connectivity", "desc": "Stream music and phone calls directly to your hearing aids", "sup": "[1]" },
+      { "title": "Rechargeable lithium-ion batteries", "desc": "No expensive batteries needed, simply charge overnight", "sup": null },
+      { "title": "Virtually invisible design", "desc": "Disappears inside or behind the ear", "sup": null },
+      { "title": "Backed by audiologists", "desc": "Recommended by thousands of hearing specialists across the U.S.", "sup": null },
+      { "title": "Loved by long-time hearing aid wearers", "desc": "Significant improvements in speech clarity with IX technology platform", "sup": "[2]" },
+      { "title": "Easy, comfortable fit", "desc": "All-day wearing comfort, easy to combine with glasses", "sup": null },
+      { "title": "Free smartphone app", "desc": "Adjust settings for every listening situation easily via smartphone", "sup": null },
+      { "title": "Ultra HD sound", "desc": "For maximum sound quality & clarity", "sup": null },
+      { "title": "German technology", "desc": "Developed by top audio engineers from Signia (formerly Siemens)", "sup": null }
+    ]
+  },
+  "stateSelector": {
+    "heading": "Where can I get Horizon IX?",
+    "paragraphs": [
+      "As of <span>April 2026</span>, hear.com has partnered with over 2,000 specialists to ensure <strong>Horizon IX devices are available across the U.S.</strong>",
+      "Now, Americans everywhere can experience <mark class=\"font-bold bg-orange-200\">effortless hearing in any situation</mark>—from crowded restaurants to cherished family gatherings—all with a device so discreet and comfortable, you'll completely forget you're wearing it.",
+      "\"For those who've experienced it, <mark class=\"font-bold bg-orange-200\">Horizon IX feels like nothing short of a miracle,</mark>\" says Lead Audiologist, Dr. Emily Russell.",
+      "And most people who try Horizon IX report the same thing: <strong>\"I wish I had done this sooner.\"</strong>",
+      "So don't wait—this could be the life-changing solution you've been searching for.",
+      "<span>Click</span> on your state below to check if you qualify for a <mark class=\"font-bold bg-orange-200\">45-day no-risk trial</mark> today."
+    ],
+    "stateSelectorLabel": "Click on the state you live in:",
+    "stateAvailableMessage": "is available! You may qualify for a 45-day no-risk trial.",
+    "stateAvailableCta": "Check your eligibility →",
+    "dontSeeStateText": "Don't see your state? Click here",
+    "states": [
+      { "name": "Oregon" },
+      { "name": "Georgia" },
+      { "name": "Alaska" },
+      { "name": "Connecticut" },
+      { "name": "Michigan" },
+      { "name": "Arkansas" }
+    ],
+    "reviewsHeading": "Join 540,000 happy customers who trust hear.com",
+    "reviewsSubheadingHighlight": "Over 540,000 wearers",
+    "reviewsSubheadingBody": "can't be wrong. Here's what they have to say:",
+    "reviews": [
+      {
+        "title": "Great product, great service",
+        "body": "This is my first experience with hearing aids and I have to say that with hear.com it has been a breeze",
+        "author": "Jeanne DiPrima, US 🇺🇸"
+      },
+      {
+        "title": "I am amazed at how well I hear now",
+        "body": "The audiologist was great, and the whole experience was simple. I wish I hadn't waited so long to get hearing aids!",
+        "author": "Ernest Hiscox, US 🇺🇸"
+      },
+      {
+        "title": "A company that cares",
+        "body": "I found the level of care to be exceptional. I am hearing so much more clearly.",
+        "author": "Bill Ditto, US 🇺🇸"
+      }
+    ]
+  },
+  "relatedStories": {
+    "label": "Related Stories",
+    "stories": [
+      {
+        "category": "TECHNOLOGY",
+        "description": "Why this secret weapon against hearing loss is changing America.",
+        "linkHref": "#"
+      },
+      {
+        "category": "SCIENCE",
+        "description": "The shocking Harvard study that links hearing loss to memory.",
+        "linkHref": "#"
+      },
+      {
+        "category": "TECHNOLOGY",
+        "description": "This is the biggest upgrade the industry has ever seen. Are you ready?",
+        "linkHref": "#"
+      }
+    ]
+  },
+  "newsletter": {
+    "curiosityLabel": "Curious about hearing aids?",
+    "freeGuideLabel": "Get your free guide today:",
+    "emailPlaceholder": "Enter your email address",
+    "subscribeLabel": "Subscribe",
+    "successMessage": "✅ Your free guide is on the way!",
+    "errorMessage": "Please enter a valid email address.",
+    "disclaimer": "By signing up to receive our guide, you'll be opted in to receive marketing emails from hear.com",
+    "companyDescription": "hear.com is the nation's most trusted hearing aid company, empowering people with cutting-edge technology and expert advice since 2012. As the #1 global leader in online hearing care, hear.com has over 540,000 happy customers and counting.",
+    "footnotes": [
+      "1 Bluetooth technology is only available with the behind-the-ear Horizon Go IX model, which sits discreetly behind the ear.",
+      "2 Jensen, Niels Søgaard, Barinder Samra, Homayoun Kamkar Parsi, Sascha Bilert, and Brian Taylor. \"Signia White Paper: Power The Conversation with Signia Integrated Xperience.\" Signia Pro, December 4, 2023."
+    ],
+    "footerLinks": [
+      { "label": "Imprint", "href": "#" },
+      { "label": "Privacy Policy", "href": "#" },
+      { "label": "Do Not Sell My Personal Information", "href": "#" },
+      { "label": "HIPAA Notice of Privacy Practices", "href": "#" },
+      { "label": "AdChoices", "href": "#" },
+      { "label": "Terms & Conditions", "href": "#" }
+    ],
+    "copyrightYear": "2026",
+    "logoAlt": "hearcom logo"
+  },
+  "footer": {
+    "text": "hear.com — Empowering better hearing since 2012."
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "images": [
+    {
+      "id": "article-hero",
+      "localPath": "/media/hike/2.png",
+      "originalUrl": "https://c.animaapp.com/mpkdc2w7URxoYV/assets/68cb9d4d325d91cad8b9e969_2.png",
+      "alt": "HF Shade barefoot shoes hero image",
+      "usedIn": "ArticleIntro"
+    },
+    {
+      "id": "feature-1-lightweight",
+      "localPath": "/media/hike/3.png",
+      "originalUrl": "https://c.animaapp.com/mpkdc2w7URxoYV/assets/68c430577138253372109a99_3.png",
+      "alt": "Lightweight HF Shade shoe",
+      "usedIn": "ArticleIntro — feature 1"
+    },
+    {
+      "id": "feature-2-foot-pain",
+      "localPath": "/media/hike/comfortwear_footpain.webp",
+      "originalUrl": "https://c.animaapp.com/mpkdc2w7URxoYV/assets/67c808106de1d18b9acff177_1711587258-comfortwear_footpain-1664579439429.webp",
+      "alt": "Foot pain relief with barefoot shoes",
+      "usedIn": "FeatureSection — feature 2"
+    },
+    {
+      "id": "feature-3-posture",
+      "localPath": "/media/hike/6.png",
+      "originalUrl": "https://c.animaapp.com/mpkdc2w7URxoYV/assets/68c43054c0cb79e4c454105c_6.png",
+      "alt": "Posture correction with zero-drop shoes",
+      "usedIn": "FeatureSection — feature 3"
+    },
+    {
+      "id": "feature-4-grip",
+      "localPath": "/media/hike/4.png",
+      "originalUrl": "https://c.animaapp.com/mpkdc2w7URxoYV/assets/68c4305c850ef071a5f772f8_4.png",
+      "alt": "Non-slip rubber sole",
+      "usedIn": "FeatureSection — feature 4"
+    },
+    {
+      "id": "feature-5-toe-box",
+      "localPath": "/media/hike/7.png",
+      "originalUrl": "https://c.animaapp.com/mpkdc2w7URxoYV/assets/68c43056253e86791a069e92_7.png",
+      "alt": "Wide toe box design",
+      "usedIn": "FeatureSection — feature 5"
+    },
+    {
+      "id": "feature-6-reflective",
+      "localPath": "/media/hike/8.png",
+      "originalUrl": "https://c.animaapp.com/mpkdc2w7URxoYV/assets/68c4305c3f37598c1fa5e3b8_8.png",
+      "alt": "Reflective laces for visibility",
+      "usedIn": "FeatureSection — feature 6"
+    },
+    {
+      "id": "feature-7-breathable",
+      "localPath": "/media/hike/10.png",
+      "originalUrl": "https://c.animaapp.com/mpkdc2w7URxoYV/assets/68c430578e3e5b180d2f1367_10.png",
+      "alt": "Breathable knit upper",
+      "usedIn": "FeatureSection — feature 7"
+    },
+    {
+      "id": "feature-8-travel",
+      "localPath": "/media/hike/9.png",
+      "originalUrl": "https://c.animaapp.com/mpkdc2w7URxoYV/assets/68c4305c69bbe8b523e5276c_9.png",
+      "alt": "Versatile travel shoe",
+      "usedIn": "FeatureSection — feature 8"
+    },
+    {
+      "id": "feature-9-bonus-laces",
+      "localPath": "/media/hike/12.png",
+      "originalUrl": "https://c.animaapp.com/mpkdc2w7URxoYV/assets/68c43057844b9c9a52f48887_12.png",
+      "alt": "Free bonus second pair of laces",
+      "usedIn": "FeatureSection — feature 9"
+    },
+    {
+      "id": "feature-10-customers",
+      "localPath": "/media/hike/14.png",
+      "originalUrl": "https://c.animaapp.com/mpkdc2w7URxoYV/assets/68cb9d4ab48a722d6f099415_14.png",
+      "alt": "Happy customers wearing HF Shade",
+      "usedIn": "FeatureSection — feature 10"
+    },
+    {
+      "id": "product-thumbnail",
+      "localPath": "/media/hike/product-thumbnail.png",
+      "originalUrl": "https://c.animaapp.com/mpkdc2w7URxoYV/assets/67ee1ed253edfae360954d76_1711197694-pngwing.png",
+      "alt": "HF Shade product thumbnail",
+      "usedIn": "RecommendedProduct"
+    },
+    {
+      "id": "hike-logo",
+      "localPath": "/media/hike/HIKE_LOGO.webp",
+      "originalUrl": "https://c.animaapp.com/mpkdc2w7URxoYV/assets/67cc497332f78191cff65032_HIKE_LOGO.webp",
+      "alt": "Hike Footwear logo",
+      "usedIn": "RecommendedProduct"
+    },
+    {
+      "id": "product-photo",
+      "localPath": "/media/hike/DSC0006-6.jpg",
+      "originalUrl": "https://c.animaapp.com/mpkdc2w7URxoYV/assets/68c43ef1da31f27ef7e505bb__DSC0006-6.jpg",
+      "alt": "HF Shade product photo",
+      "usedIn": "RecommendedProduct"
+    },
+    {
+      "id": "check-icon",
+      "localPath": "/media/hike/Check_HK.webp",
+      "originalUrl": "https://c.animaapp.com/mpkdc2w7URxoYV/assets/67cc54d88dcac0c62085247e_Check_HK.webp",
+      "alt": "",
+      "usedIn": "RecommendedProduct — benefit checklist"
+    }
+  ]
+}

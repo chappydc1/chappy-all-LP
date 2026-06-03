@@ -1,0 +1,74 @@
+{
+  "meta": {
+    "title": "Nebroo PRO 2.0 Hearing Aids - 70% OFF Today",
+    "description": "Revolutionary hearing aids with advanced noise-canceling technology. Try risk-free for 120 days."
+  },
+  "saleBanner": {
+    "text": "FREE Shipping + 70% OFF",
+    "emoji": "🔥",
+    "label": "SALE:"
+  },
+  "hero": {
+    "ctaButton": "GET 70% OFF TODAY!",
+    "ctaNote": "Not Available on Amazon or eBay",
+    "ctaNoteLabel": "Note:"
+  },
+  "trustBadges": {
+    "headline": "Over 100,000 Real Satisfied Customers",
+    "badge1": {
+      "title": "RESULTS OR MONEY BACK GUARANTEE",
+      "description": "If you're not absolutely thrilled with the results within 120 days, we don't want your money. No hassles, no questions asked."
+    },
+    "badge2": {
+      "title": "FREE SHIPPING",
+      "description": "We offer free shipping & handling on all orders."
+    },
+    "badge3": {
+      "title": "GUARANTEED HIGH QUALITY",
+      "description": "Nebroo PRO 2.0 Hearing Aids are made of high quality materials so that you can enjoy consistent, trouble-free performance."
+    }
+  },
+  "asSeen": {
+    "headline": "As Seen On",
+    "disclaimer": "\"Paid Advertisements\""
+  },
+  "faq": {
+    "headline": "Have a Question?",
+    "subheadline": "We Can Help!",
+    "items": [
+      {
+        "question": "Do I need to take a hearing test before buying?",
+        "answer": "No, you do not have to take a hearing test before purchasing. Our hearing aids are developed to work for Americans that suffer from mild to moderate hearing loss."
+      },
+      {
+        "question": "Do I need a prescription before purchasing?",
+        "answer": "No. There is no prescription needed for purchasing the Nebroo PRO 2.0 Hearing Aids. Anyone with perceived mild to moderate hearing loss can order them, as long as they are at least 18 years old."
+      },
+      {
+        "question": "What if it doesn't work for me?",
+        "answer": "Our device comes with a 120-Day Money Back Guarantee. If they don't improve your hearing, contact info@nebroo.com within 120 days of receiving the product and we will issue you a refund."
+      }
+    ]
+  },
+  "offer": {
+    "headline": "Special Offer On Now!",
+    "subheadline": "Try Your Nebroo PRO 2.0 Hearing Aids NOW at an All Time Low Price!",
+    "actNowLabel": "Act Now and You'll Get:",
+    "items": [
+      "70% OFF - Nebroo PRO 2.0 Hearing Aids",
+      "FREE Shipping & Handling",
+      "FREE Premium Carry Case",
+      "FREE Cleaning Kit",
+      "120-Day Money Back Guarantee"
+    ]
+  },
+  "reviews": {
+    "headline": "Our Customers Love The Nebroo Hearing Aids!",
+    "disclaimer": "*All individuals are unique, results may vary."
+  },
+  "stickyFooter": {
+    "ctaText": "🛒 Apply Discount & Check Availability"
+  },
+  "productName": "Nebroo PRO 2.0",
+  "ctaUrl": "#offer"
+}

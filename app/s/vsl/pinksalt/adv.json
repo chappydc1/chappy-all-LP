@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "title": "Pink Salt VSL",
+    "description": "Discover the 4-ingredient recipe celebrities are using to drop up to 14 pounds in just 10 days."
+  },
+  "alertBanner": {
+    "city": "Boardman",
+    "text": "This video is causing a stir in {city} — watch before it’s taken down"
+  },
+  "headline": {
+    "bold": "NO OZEMPIC... Just 4 Ingredients!",
+    "intro": "This is the",
+    "highlight": "new recipe",
+    "middle": "celebrities are using to drop up to",
+    "badge": "14 pounds in just 10 days!"
+  },
+  "video": {
+    "errorText": "Video not found, contact the support of",
+    "brand": "VTurb"
+  },
+  "viewerCount": {
+    "label": "viewers are watching right now...",
+    "baseCount": 575,
+    "min": 540,
+    "max": 620,
+    "interval": 3500,
+    "delta": 3
+  },
+  "scientificReferences": {
+    "title": "Scientific References"
+  },
+  "commentsSection": {
+    "header": "959 Comments",
+    "comments": [
+      {
+        "id": "sarah-smith",
+        "name": "Sarah Smith",
+        "text": "OMG! My doctor couldn’t believe it. I lost so much weight that he thought I was anorexic. But when the test results came back, I was healthier than ever!",
+        "actionText": "15m – 1h",
+        "replies": [
+          {
+            "id": "jennifer-taylor",
+            "type": "comment",
+            "name": "Jennifer Taylor",
+            "text": "Sarah Smith Girl, I lost 11 pounds in a week! This natural Zepbound is unreal!"
+          },
+          {
+            "type": "actions",
+            "actionText": "Reply – 15m – 1h"
+          }
+        ]
+      },
+      {
+        "id": "olivia-moore",
+        "name": "Olivia Moore",
+        "text": "I’ve been using this natural Zepbound for just over 3 weeks, and my pants are already falling off! Even my husband complimented me today! Thank you for helping so many people without asking for anything in return.",
+        "actionText": "15m – 1h",
+        "replies": [
+          {
+            "id": "emily-johnson",
+            "type": "nested",
+            "name": "Emily Johnson",
+            "text": "Olivia Moore That’s unreal, beautiful! Did you do anything in your routine besides the recipe?",
+            "actionText": "33 – 1h"
+          },
+          {
+            "id": "olivia-moore-reply",
+            "type": "nested",
+            "name": "Olivia Moore",
+            "text": "Emily Johnson No, just the recipe! I didn’t do any diets or step foot in the gym. It’s crazy how something so simple is making me lose so much weight!",
+            "actionText": "33 – 1h"
+          },
+          {
+            "type": "actions",
+            "actionText": "Reply – 15 – 1h"
+          }
+        ]
+      },
+      {
+        "id": "elizabeth-miller",
+        "name": "Elizabeth Miller",
+        "text": "I found this video before considering bariatric surgery! It’s only been 29 days since I started, but I’ve already lost 28 pounds! It feels like I have my 19-year-old body back, and I have so much energy to play with my kids and grandkids!",
+        "actionText": "23 – 1h"
+      },
+      {
+        "id": "abigail-martinez",
+        "name": "Abigail Martinez",
+        "text": "This is the most honest and well-explained solution I’ve ever seen! No long videos and no asking for anything at the end! Thank you so much!",
+        "actionText": "13 – 1h",
+        "replies": [
+          {
+            "id": "natalie-clark",
+            "type": "comment",
+            "name": "Natalie Clark",
+            "text": "Abigail Martinez I researched online and found several scientific articles that prove this natural Zepbound really works! Here, the numbers on the scale keep dropping, you should try it too!"
+          },
+          {
+            "type": "actions",
+            "actionText": "Reply – 13 – 1h"
+          }
+        ]
+      },
+      {
+        "id": "jessica-brown",
+        "name": "Jessica Brown",
+        "text": "Finally, someone who explains everything in just a few minutes without medical jargon! I’m starting this morning! Thank you for being so clear and direct.",
+        "actionText": "13 – 1h",
+        "replies": [
+          {
+            "id": "chloe-garcia",
+            "type": "nested",
+            "name": "Chloe Garcia",
+            "text": "After 3 weeks, my belly is finally flat like a board, I’ve lost 26 pounds without even dieting! I already feel lighter and more beautiful!",
+            "actionText": "13 – 1h"
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "links": [
+      { "text": "Terms of Use", "href": "#" },
+      { "text": "Privacy Policy", "href": "#" }
+    ],
+    "disclaimer": "The result of this content may vary from person to person, depending on each organism. Copying or reproducing all images and text on this site is expressly prohibited, and violators subject to appropriate sanctions. The information contained on this website or in emails sent is prepared for educational purposes only. It is not intended to replace advice or treatment from professionals in the area. Some reviews or testimonials may be fictitious."
+  }
+}

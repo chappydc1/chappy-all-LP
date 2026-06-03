@@ -1,0 +1,141 @@
+{
+  "meta": {
+    "title": "6 Reasons Americans Are Ditching Alcohol For BRĒZ",
+    "description": "BRĒZ is the hangover-free alternative that 200,000+ customers love. Hemp, Lion's Mane, and zero alcohol."
+  },
+  "announcement": {
+    "text": "BOGO OG MICRO 12PK+",
+    "href": "https://www.drinkbrez.com/products/og-micro?variant=50302556569897"
+  },
+  "hero": {
+    "headline": "6 Reasons Americans Are Ditching Alcohol For BRĒZ",
+    "subheadline": "The non-alcoholic, microdosed tonic that's taking the nation by storm.",
+    "ctaText": "Shop Now",
+    "ctaHref": "https://www.drinkbrez.com/products/lemon-bundle",
+    "benefitItems": [
+      { "id": "vegan",        "label": "Vegan" },
+      { "id": "no-gmo",      "label": "No GMO" },
+      { "id": "organic",     "label": "Organic Ingredients" },
+      { "id": "gluten-free", "label": "Gluten Free" },
+      { "id": "calories",    "label": "Low Calories" },
+      { "id": "made-in-usa", "label": "Made in the USA" }
+    ]
+  },
+  "reasons": [
+    {
+      "id": "reason-1",
+      "title": "Celebrating The Moment, Minus The Hangover",
+      "description": "Life is for living, not for losing the next day to a hangover. BRĒZ is your secret to indulging in a hangover-free alternative that offers a joyful effect. It's the perfect harmony of full spectrum hemp and Lion's Mane, crafted to enhance your social experience with brighter colors, louder laughs, and tastier snacks—all reported by our community of 200,000+ customers.",
+      "descriptionHighlights": [
+        "Life is for living, not for losing the next day to a hangover",
+        "200,000+ customers."
+      ],
+      "showCta": true,
+      "ctaText": "Say Goodbye To Hangovers",
+      "ctaHref": "https://www.drinkbrez.com/products/lemon-bundle"
+    },
+    {
+      "id": "reason-2",
+      "title": "It's the Socially Inclusive Choice",
+      "description": "Wave goodbye to the pressure of drinking and embrace a new era of inclusivity. BRĒZ's microdosed, non-alcoholic tonic means nobody has to feel left out. It's the perfect companion for those moments that call for a toast without the spirits.",
+      "descriptionHighlights": [
+        "Wave goodbye to the pressure of drinking",
+        "toast without the spirits"
+      ],
+      "showCta": false,
+      "ctaText": null,
+      "ctaHref": null
+    },
+    {
+      "id": "reason-3",
+      "title": "Experience Pure Fun without Losing Control",
+      "description": "You're in the driver's seat — not your drink. BRĒZ offers the perfect buzz that will keep you feeling like yourself. As Sharon F., a verified buyer, exclaims, \"This BRĒZ drink has completely replaced alcohol for my husband and no more alcohol bloat, empty calories, or hangovers. Why would anyone drink alcohol when such a great alternative is available?\"",
+      "descriptionHighlights": [
+        "not your drink",
+        "Why would anyone drink alcohol when such a great alternative is available?"
+      ],
+      "showCta": true,
+      "ctaText": "Try BRĒZ Today",
+      "ctaHref": "https://www.drinkbrez.com/products/lemon-bundle"
+    },
+    {
+      "id": "reason-4",
+      "title": "A Taste of True Freedom",
+      "description": "Enjoy the refreshing taste of Lemon Elderflower or the focus-enhancing power of Lion's Mane without compromising. With BRĒZ, you're always in control, choosing to amplify your evenings or unwind after a long day.",
+      "descriptionHighlights": [
+        "Lemon Elderflower",
+        "Lion's Mane",
+        "always in control"
+      ],
+      "showCta": false,
+      "ctaText": null,
+      "ctaHref": null
+    },
+    {
+      "id": "reason-5",
+      "title": "Authenticated by Stories of Transformation",
+      "description": "Real people, real transformations: this isn't just a beverage, it's a movement. From social butterflies to go-getters, our customers share stories of reclaiming their social lives and productivity with BRĒZ. Their testimonials are not just reviews; they are votes for a lifestyle revolution.",
+      "descriptionHighlights": [
+        "isn't just a beverage, it's a movement",
+        "they are votes for a lifestyle revolution."
+      ],
+      "showCta": true,
+      "ctaText": "Join The Movement",
+      "ctaHref": "https://www.drinkbrez.com/products/lemon-bundle"
+    },
+    {
+      "id": "reason-6",
+      "title": null,
+      "description": null,
+      "descriptionHighlights": [],
+      "showCta": false,
+      "ctaText": null,
+      "ctaHref": null
+    }
+  ],
+  "reviews": {
+    "sectionTitle": "See Why Our Customers Choose BRĒZ",
+    "ratingLabel": "6,500+ Happy Customers",
+    "items": [
+      {
+        "id": "review-1",
+        "reviewerImageId": "reviewer-1",
+        "title": "Imma Fan!",
+        "body": "I really like it! Has a good carbonation burn with a bite to it! And the affects are great! Totally felt chill and slept like a baby!",
+        "author": "Rebecca I."
+      },
+      {
+        "id": "review-2",
+        "reviewerImageId": "reviewer-2",
+        "title": "Chill Feels",
+        "body": "Love the feeling of drinking Brēz. Super relaxing and no hangover is the best!",
+        "author": "Alejandra J."
+      },
+      {
+        "id": "review-3",
+        "reviewerImageId": "reviewer-3",
+        "title": "Game Changer",
+        "body": "Switched from wine to BRĒZ for my evening wind-down and I feel so much better. Clear head every morning!",
+        "author": "Sharon F."
+      }
+    ]
+  },
+  "cta": {
+    "headline": "Are You Ready to Reimagine Drinking?",
+    "body": "It's time to change gears and explore pure fun without the next-day regrets. Try BRĒZ today and join our customers across the nation.",
+    "bodyHighlights": [
+      "without the next-day regrets.",
+      "customers across the nation."
+    ],
+    "ctaText": "Shop BRĒZ Now",
+    "ctaHref": "https://www.drinkbrez.com/products/lemon-bundle"
+  },
+  "footer": {
+    "copyrightText": "© 2024 BRĒZ. All rights reserved.",
+    "links": [
+      { "label": "Privacy Policy", "href": "https://www.drinkbrez.com/policies/privacy-policy" },
+      { "label": "Terms of Service", "href": "https://www.drinkbrez.com/policies/terms-of-service" },
+      { "label": "Refund Policy", "href": "https://www.drinkbrez.com/policies/refund-policy" }
+    ]
+  }
+}

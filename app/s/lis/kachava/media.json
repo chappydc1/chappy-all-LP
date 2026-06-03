@@ -1,0 +1,195 @@
+{
+  "basePath": "/kachava",
+  "images": [
+    {
+      "id": "hero",
+      "file": "3.webp",
+      "path": "/kachava/3.webp",
+      "alt": "Man sipping chocolate Ka'Chava shake",
+      "width": 420,
+      "height": 420
+    },
+    {
+      "id": "reason1",
+      "file": "1.webp",
+      "path": "/kachava/1.webp",
+      "alt": "Woman sipping chocolate Ka'Chava shake",
+      "width": 420,
+      "height": 420
+    },
+    {
+      "id": "reason2",
+      "file": "2.webp",
+      "path": "/kachava/2.webp",
+      "alt": "Man leaning on counter holding a delicious Ka'Chava shake",
+      "width": 420,
+      "height": 420
+    },
+    {
+      "id": "reason3",
+      "file": "4.webp",
+      "path": "/kachava/4.webp",
+      "alt": "Woman making Ka'Chava shake",
+      "width": 420,
+      "height": 420
+    },
+    {
+      "id": "reason4",
+      "file": "6.webp",
+      "path": "/kachava/6.webp",
+      "alt": "Vanilla Ka'Chava shake held by man in an orange shirt",
+      "width": 420,
+      "height": 420
+    },
+    {
+      "id": "reason5",
+      "file": "5.webp",
+      "path": "/kachava/5.webp",
+      "alt": "Woman holding Ka'Chava shake",
+      "width": 420,
+      "height": 420
+    },
+    {
+      "id": "reason6",
+      "file": "7.webp",
+      "path": "/kachava/7.webp",
+      "alt": "Plant-based ingredients representing environmental sustainability",
+      "width": 420,
+      "height": 420
+    },
+    {
+      "id": "reason7",
+      "file": "8.webp",
+      "path": "/kachava/8.webp",
+      "alt": "Easy Ka'Chava shake preparation",
+      "width": 420,
+      "height": 420
+    },
+    {
+      "id": "reason8",
+      "file": "10.webp",
+      "path": "/kachava/10.webp",
+      "alt": "Ka'Chava bag showing value",
+      "width": 420,
+      "height": 420
+    },
+    {
+      "id": "reason9",
+      "file": "9.webp",
+      "path": "/kachava/9.webp",
+      "alt": "Bag of Chocolate Ka'Chava on a tan background",
+      "width": 420,
+      "height": 420
+    }
+  ],
+  "icons": [
+    {
+      "id": "logo",
+      "file": "icon-1.svg",
+      "path": "/kachava/icon-1.svg",
+      "alt": "Ka'Chava"
+    },
+    {
+      "id": "account",
+      "file": "icon-2.svg",
+      "path": "/kachava/icon-2.svg",
+      "alt": "Account"
+    },
+    {
+      "id": "cart",
+      "file": "icon-3.svg",
+      "path": "/kachava/icon-3.svg",
+      "alt": "Cart"
+    },
+    {
+      "id": "brandReview",
+      "file": "icon-4.svg",
+      "path": "/kachava/icon-4.svg",
+      "alt": "Brand review badge"
+    },
+    {
+      "id": "star",
+      "file": "icon-5.svg",
+      "path": "/kachava/icon-5.svg",
+      "alt": "Star"
+    },
+    {
+      "id": "paymentVisa",
+      "file": "icon-6.svg",
+      "path": "/kachava/icon-6.svg",
+      "alt": "Visa"
+    },
+    {
+      "id": "paymentMastercard",
+      "file": "icon-7.svg",
+      "path": "/kachava/icon-7.svg",
+      "alt": "Mastercard"
+    },
+    {
+      "id": "paymentAmex",
+      "file": "icon-8.svg",
+      "path": "/kachava/icon-8.svg",
+      "alt": "American Express"
+    },
+    {
+      "id": "paymentDiscover",
+      "file": "icon-9.svg",
+      "path": "/kachava/icon-9.svg",
+      "alt": "Discover"
+    },
+    {
+      "id": "paymentPaypal",
+      "file": "icon-10.svg",
+      "path": "/kachava/icon-10.svg",
+      "alt": "PayPal"
+    },
+    {
+      "id": "paymentShopPay",
+      "file": "icon-11.svg",
+      "path": "/kachava/icon-11.svg",
+      "alt": "Shop Pay"
+    },
+    {
+      "id": "chatOpen",
+      "file": "icon-12.svg",
+      "path": "/kachava/icon-12.svg",
+      "alt": "Open live chat"
+    },
+    {
+      "id": "chatClose",
+      "file": "icon-13.svg",
+      "path": "/kachava/icon-13.svg",
+      "alt": "Close live chat"
+    },
+    {
+      "id": "socialYoutube",
+      "file": "11.svg",
+      "path": "/kachava/11.svg",
+      "alt": "YouTube"
+    },
+    {
+      "id": "socialFacebook",
+      "file": "12.svg",
+      "path": "/kachava/12.svg",
+      "alt": "Facebook"
+    },
+    {
+      "id": "socialInstagram",
+      "file": "13.svg",
+      "path": "/kachava/13.svg",
+      "alt": "Instagram"
+    },
+    {
+      "id": "socialPinterest",
+      "file": "14.svg",
+      "path": "/kachava/14.svg",
+      "alt": "Pinterest"
+    },
+    {
+      "id": "privacyChoices",
+      "file": "15.svg",
+      "path": "/kachava/15.svg",
+      "alt": "Privacy Choices"
+    }
+  ]
+}

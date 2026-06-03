@@ -1,0 +1,175 @@
+{
+  "announcement_bar": {
+    "badge": "🌼 SPRING SPECIAL 🌸",
+    "offer": "UP TO 58% OFF WITH FREE GIFTS",
+    "timer_minutes": 122
+  },
+  "article_header": {
+    "title": "11 Reasons Why This High-Protein Iced Coffee is the #1 Trending Drink for Spring 2026",
+    "callout": "\"Read this BEFORE your next coffee run!\"",
+    "tldr": "Drinking Javvy Protein Coffee has 11+ life changing benefits 👇",
+    "author": {
+      "name": "Jade M.",
+      "updated": "Apr 7, 2026"
+    }
+  },
+  "comparison_table": {
+    "metrics": [
+      { "emoji": "📋", "label": "Calories" },
+      { "emoji": "💪", "label": "Protein" },
+      { "emoji": "🥄", "label": "Sugar" },
+      { "emoji": "💰", "label": "Price" }
+    ],
+    "rows": [
+      {
+        "variant": "javvy",
+        "calories": "120cal",
+        "calories_subtext": "in 2 scoops",
+        "protein": "20g",
+        "protein_subtext": "in 2 scoops",
+        "sugar": "<1g",
+        "sentiment": "positive"
+      },
+      {
+        "variant": "mainstream",
+        "brand_name": "Mainstream Coffees",
+        "calories": "150-400cal",
+        "protein": "2-12g",
+        "sugar": "20-50g",
+        "sentiment": "negative"
+      },
+      {
+        "variant": "mainstream",
+        "brand_name": "Protein Drinks",
+        "calories": "160-200cal",
+        "protein": "20g",
+        "sugar": "5g",
+        "sugar_subtext": "or artificial sweeteners",
+        "sentiment": "negative"
+      }
+    ]
+  },
+  "reasons": [
+    {
+      "number": 1,
+      "badge": "☕ Coffee. Reinvented.",
+      "heading": "1. NEW innovative guilt-free formula designed to kick your body into shape",
+      "description": "Javvy created the perfect Iced Coffee that works for your body instead of against it. The combination of protein, coffee, and these key functional ingredients are essential to feeling your best, recovering faster, and boosting your youthfulness.*",
+      "has_double_video": true
+    },
+    {
+      "number": 2,
+      "badge": "🔒 Craving Control",
+      "heading": "2. Beats the sugar cravings to keep you feeling satisfied",
+      "description": "The balanced blend of protein and caffeine naturally reduces sugar cravings, helping you maintain a healthier diet. This unique combination keeps your blood sugar levels stable, preventing those all-too-common sugar spikes and crashes.\n\nOur Protein Coffee is naturally flavored to perfection."
+    },
+    {
+      "number": 3,
+      "badge": "🌿 Better Digestion Support",
+      "heading": "3. It's your gut's new best friend thanks to prebiotics inside",
+      "description": "Support your gut health with this coffee crafted for wellness. The high protein, lack of artificial ingredients and added prebiotics, promote smoother digestion and a happy, healthy gut. It's a delicious way to show your digestive system some love.*",
+      "link_text": "Better Digestion Support Starts Here",
+      "link_href": "/pc84"
+    },
+    {
+      "number": 4,
+      "badge": "🚫 No Chalky Shakes",
+      "heading": "4. It tastes like your favorite coffee, not a protein shake",
+      "description": "While our competitors flavor their protein to taste like coffee, we actually use real 100% arabica coffee! Our unique formula gives you all of the same flavor, texture, and aroma that you'd normally get when ordering or making your favorite coffee. No more chalky, gritty, or dull tasting protein shakes!",
+      "link_text": "Enjoy Real Coffee Taste, Every Time",
+      "link_href": "/pc84"
+    },
+    {
+      "number": 5,
+      "badge": "🤑 Save Big Yearly",
+      "heading": "5. It easily replaces your unhealthy coffee routine and saves you $1000s every year",
+      "description": "Did you know the average person spends $2,400+ on coffee from cafes or coffee shops each year? Skip the café lines, save both time and cash, and elevate your iced coffee game with Javvy Coffee today!",
+      "link_text": "Start Saving With Every Cup",
+      "link_href": "/pc84"
+    },
+    {
+      "number": 6,
+      "badge": "🎯 Effortless Perfection",
+      "heading": "6. It makes the perfect iced coffee in just seconds — no more waiting in lines",
+      "description": "Make your favorite coffees right from home with just one scoop mixed into water or your favorite milk (mylk). Personalize your coffee by adding any of your other favorite ingredients and enjoy — we suggest our low-sugar flavored syrups of course!",
+      "link_text": "Skip The Line, Brew At Home Or Anywhere",
+      "link_href": "/pc84"
+    },
+    {
+      "number": 7,
+      "badge": "⚡ No Crash, Just Clarity",
+      "heading": "7. You can avoid mid morning crash and enjoy long lasting mental clarity",
+      "description": "The caffeine gives you an initial energy boost, while the protein ensures a stable and lasting source of energy. This synergy helps maintain steady energy levels without the jitters or crash associated with high-caffeine beverages.",
+      "link_text": "Stay Clear, Stay Focused",
+      "link_href": "/pc84"
+    },
+    {
+      "number": 8,
+      "badge": "💪 Extra Protein, Zero Effort",
+      "heading": "8. It helps you consume 20% more protein during the day on average",
+      "description": "Starting your day with this protein coffee means you'll have already met 20% of your daily protein needs before lunchtime. It's the perfect boost for anyone looking to optimize their nutrition without sacrificing convenience or flavor.*",
+      "link_text": "Fuel Your Day With Every Sip",
+      "link_href": "/pc84"
+    },
+    {
+      "number": 9,
+      "badge": "👍 Risk-Free Choice",
+      "heading": "9. Great reviews and 30-Day Money-Back Guarantee",
+      "description": "It's hard to change coffee habits, but we are so confident that you can do it with Javvy because of all the incredible benefits that it comes with. You won't think twice about an unhealthy, inconvenient cup of coffee again. If for any reason you're not satisfied, simply let us know and we'll happily refund your purchase!",
+      "link_text": "Start Your Risk-Free Coffee Journey",
+      "link_href": "/pc84"
+    },
+    {
+      "number": 10,
+      "badge": "🌍 Coffee Without Limits",
+      "heading": "10. Join the community that's made over 100 MILLION coffees",
+      "description": "In just seconds you can quickly and easily personalize your favorite coffees right from home when you select one of Javvy's flavorful Iced Protein Coffees. Choose from 1,000s of quick and easy recipes and join the fastest growing better-for-you coffee community!",
+      "link_text": "Step Into The Coffee Revolution",
+      "link_href": "/pc84"
+    }
+  ],
+  "offer_section": {
+    "section_heading": "Reaching #11 means one thing: you're truly serious about a better morning coffee routine.",
+    "section_subheading": "✨ We don't hand these out every day… consider this an exclusive Javvy hookup, just for you.",
+    "sale_banner": "🌼 SPRING SPECIAL 🌸",
+    "free_gifts_label": "FREE GIFTS WITH YOUR ORDER",
+    "headline_discount": "UP TO 58% OFF",
+    "headline_suffix": "FOR A LIMITED TIME ONLY!",
+    "stock_warning": "This limited-time deal is in high demand and stock keeps selling out.",
+    "button_text": "GET 58% OFF",
+    "deal_ending_label": "DEAL ENDING IN:",
+    "sell_out_risk": "High",
+    "shipping": "FREE shipping",
+    "guarantee": "Try it today with a 30-Day Money-Back Guarantee!",
+    "deal_seconds_init": 68471
+  },
+  "sticky_buy_bar": {
+    "button_text": "YES, GET 58% OFF",
+    "badge": "SPRING DISCOUNT ACTIVE",
+    "scroll_threshold_px": 300
+  },
+  "spin_wheel_modal": {
+    "title": "Spin the Wheel to Win Up to 58% OFF",
+    "badge": "🌼 SPRING SPECIAL 🌸",
+    "segments": [
+      { "label": "58%\nOff", "always_wins": true },
+      { "label": "15%\nOff" },
+      { "label": "Free\nGift" },
+      { "label": "10%\nOff" },
+      { "label": "38%\nOff" },
+      { "label": "15%\nOff" },
+      { "label": "Free\nGift" },
+      { "label": "10%\nOff" }
+    ],
+    "delay_ms": 1200,
+    "spin_duration_ms": 3200
+  },
+  "footer": {
+    "disclaimer": "*Special sale discount is valid only on the first delivery of a new Javvy Coffee subscription created on https://try.javvycoffee.com/ps by 04/10/2026 at 11:59pm PST and includes the price of free gifts. Javvy Coffee subscription renews every 30 days at a discounted rate of the price listed at checkout. Max one offer per customer; cannot be combined with any other offers or sales.",
+    "copyright": "© 2026 Javvy Coffee Company. All right reserved.",
+    "links": [
+      { "label": "Terms of Service", "href": "#" },
+      { "label": "Privacy Policy", "href": "#" }
+    ]
+  }
+}

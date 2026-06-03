@@ -1,0 +1,144 @@
+{
+  "meta": {
+    "title": "GlycoFlush VSL",
+    "description": "GlycoFlush Video Sales Letter Landing Page"
+  },
+  "header": {
+    "broadcastLine1": "Sunday at 7 p.m. ET on CBS and Paramount+",
+    "broadcastLine2": "Sunday starting at 4 p.m. ET on the CBS News app",
+    "nav": ["Latest", "Local News", "Live", "Shows"]
+  },
+  "offerBanner": {
+    "headline": "Claim your Discounted Glyco Lean now",
+    "urgency": "While Supplies Last!",
+    "countdown": "15:00"
+  },
+  "pricing": {
+    "sectionTitle": "Choose Your Package",
+    "cards": [
+      {
+        "id": "basic",
+        "badge": "Basic",
+        "title": "2 BOTTLES",
+        "supply": "60 Day Supply",
+        "originalPrice": "$217",
+        "discountedPrice": "$158",
+        "perBottle": "$79 Per Bottle",
+        "shipping": "+ $9,99 SHIPPING",
+        "benefits": [
+          "YOU SAVE $28!",
+          "15% DISCOUNT",
+          "60 DAYS GUARANTEE"
+        ],
+        "cta": "BUY NOW",
+        "ctaTotal": "TOTAL:",
+        "ctaOriginalPrice": "$217",
+        "ctaDiscountedPrice": "$158",
+        "ctaShipping": "+ $9.99 SHIPPING"
+      },
+      {
+        "id": "best-value",
+        "badge": "BEST VALUE!",
+        "title": "6 BOTTLES",
+        "supply": "180 Day Supply",
+        "originalPrice": "$588",
+        "discountedPrice": "$294",
+        "perBottle": "$49 Per Bottle",
+        "shipping": "FREE SHIPPING",
+        "benefits": [
+          "YOU SAVE $294",
+          "50% DISCOUNT",
+          "3 FREE BOTTLES"
+        ],
+        "guarantee": "60 DAY GUARANTEE",
+        "surprise": "+SURPRISE",
+        "cta": "BUY NOW",
+        "ctaFooterGuarantee": "60 DAYS GUARANTEE",
+        "ctaFooterShipping": "+FREE SHIPPING"
+      },
+      {
+        "id": "good-value",
+        "badge": "Good value!",
+        "title": "3 BOTTLES",
+        "supply": "90 Day Supply",
+        "originalPrice": "294",
+        "discountedPrice": "$207",
+        "perBottle": "$69 Per Bottle",
+        "shipping": "FREE SHIPPING",
+        "benefits": [
+          "YOU SAVE $98!",
+          "1 FREE BOTTLE",
+          "30% DISCOUNT",
+          "60 DAYS GUARANTEE"
+        ],
+        "cta": "BUY NOW",
+        "ctaTotal": "TOTAL:",
+        "ctaOriginalPrice": "$294",
+        "ctaDiscountedPrice": "$207",
+        "ctaShippingHighlight": "+FREE",
+        "ctaShipping": "SHIPPING"
+      }
+    ]
+  },
+  "guarantee": {
+    "headline1": "100% Satisfaction Guaranteed",
+    "headline2": "60-Days Money Back Guarantee",
+    "body": "Our supplements are backed by a 60-day money-back guarantee from the date of purchase. If, after at least 30 days of use, you are not completely satisfied with your results, the product, or your overall experience, simply contact us at contact@getglycolean.com.\n\nWe'll be ready to offer you all the guidance and support you need.\n\nThis is how confident we are in the quality and effectiveness of our products. Order your kit today, completely risk-free. We'll be by your side every step of your wellness journey!",
+    "contactEmail": "contact@getglycolean.com",
+    "badgeLabels": ["GMP Certified", "All Natural", "Made in USA", "Non-GMO"]
+  },
+  "comments": {
+    "header": "Showing 16 of 552 comments",
+    "footer": "This post is no longer receiving comments!",
+    "items": [
+      {
+        "name": "Linda M.",
+        "comment": "Day 7 and my sugar dropped to 97. I honestly cried when I saw the meter. Thank you, Dr. Phill.",
+        "reactions": "92",
+        "time": "4h"
+      },
+      {
+        "name": "Samantha R.",
+        "comment": "I've seen a ton of diabetes 'cures' online. This one hit different. Feels legit for the first time.",
+        "reactions": "18",
+        "time": "4h"
+      },
+      {
+        "name": "Ben H.",
+        "comment": "Okay… I usually skip these long videos. But I watched every second of this. Something about her story just felt real.",
+        "reactions": "20",
+        "time": "4h"
+      },
+      {
+        "name": "Amy D.",
+        "comment": "Not gonna lie — I thought this was a scam at first. But I just made it. It's worth a shot. I just reversed my diabetes in less than 7 days...",
+        "reactions": "23",
+        "time": "4h"
+      },
+      {
+        "name": "Carlos R.",
+        "comment": "My dad has been on insulin for 12 years. After 2 weeks on this, his doctor said 'I don't know what you're doing, but keep doing it.",
+        "reactions": "23",
+        "time": "4h"
+      },
+      {
+        "name": "Deborah W.",
+        "comment": "Didn't change my diet, didn't start exercising. Just started this recipe. My energy is coming back. This is real.",
+        "reactions": "32",
+        "time": "4h"
+      }
+    ]
+  },
+  "footer": {
+    "copyright": "Copyright 2026 by 60 Minutes. All rights reserved."
+  },
+  "video": {
+    "playerId": "69e16f36ed35062270c606c2",
+    "orgId": "b5e8472d-3421-4675-a219-1ae1b636b21f",
+    "videoId": "69e16ee9750b24d3132e385e",
+    "resumeTitle": "You have already started watching this video",
+    "resumePlay": "Continue watching?",
+    "resumeReplay": "Start from beginning?",
+    "pitchTimeSeconds": 3360
+  }
+}

@@ -1,0 +1,92 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Self-hosted Roboto */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/morningvitality/Roboto-400-latin.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url('/fonts/morningvitality/Roboto-900-latin.woff2') format('woff2');
+}
+
+/* Self-hosted Open Sans */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/fonts/morningvitality/OpenSans-700-latin.woff2') format('woff2');
+}
+
+/* Self-hosted Inter UI */
+@font-face {
+  font-family: 'Inter UI';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/morningvitality/Inter-UI-Regular.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Inter UI';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/morningvitality/Inter-UI-Italic.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Inter UI';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('/fonts/morningvitality/Inter-UI-Medium.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Inter UI';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/fonts/morningvitality/Inter-UI-Bold.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Inter UI';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url('/fonts/morningvitality/Inter-UI-Black.woff2') format('woff2');
+}
+
+/* Base resets matching live site */
+*, *::before, *::after { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+  background-color: #fff;
+}
+
+img { max-width: 100%; height: auto; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-weight: 500;
+  line-height: 1.1;
+}
+
+h2 { margin-bottom: 15px; line-height: 1.2em; }
+
+p { margin: 0 0 10px; }
+
+ul, ol { margin-top: 0; margin-bottom: 10px; }

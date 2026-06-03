@@ -1,0 +1,326 @@
+{
+  "meta": {
+    "title": "GlycoCept – Reverse Type 2 Diabetes Naturally",
+    "description": "Harvard-trained physician Dr. William Li reveals the natural honey blend helping thousands reverse type 2 diabetes in 21 days."
+  },
+  "header": {
+    "siteTitle": "HEALTH"
+  },
+  "newsTicker": {
+    "text": "Daily updates on wellness and health"
+  },
+  "hero": {
+    "author": "Dr. William Li",
+    "updatedLabel": "Updated 30 minutes ago",
+    "date": "05/23/2026",
+    "headlineParts": {
+      "badge": "No Insulin, No Metformin...",
+      "main": "Just a Natural Honey Blend! More than 4,847 Americans are Using this Recipe to",
+      "emphasis": "Reverse Type 2 Diabetes in 21 Days."
+    }
+  },
+  "salesPage": {
+    "offerHeader": {
+      "title": "Choose Your Discounted GlycoCept Package With Our Special Time-Limited Offer!",
+      "bottlesRemainingLabel": "GlycoCept Bottles Remaining:",
+      "bottlesRemaining": "218"
+    },
+    "shipping": {
+      "text": "Enjoy",
+      "highlight": "FREE SHIPPING",
+      "orderText": "on 3 and 6-Bottle Orders!",
+      "recommendation": "*For long-term results, we recommend choosing the 6 bottle option"
+    },
+    "packages": [
+      {
+        "id": "6-bottle",
+        "badge": "BEST VALUE!",
+        "title": "BUY 3 GET + 3 FREE",
+        "supply": "180 DAY SUPPLY",
+        "price": "$49",
+        "unit": "PER BOTTLE",
+        "savings": "YOU SAVE $600!",
+        "discount": "BIGGEST DISCOUNT",
+        "guarantee": "60 DAYS GUARANTEE",
+        "totalOriginal": "$894",
+        "total": "$294",
+        "freeShipping": true,
+        "cta": "Add to cart",
+        "href": "https://glycoceptt.pay.clickbank.net/?cbitems=FE-GLC-06B-C&cbfid=62887&template=6bottles&param=vsl"
+      },
+      {
+        "id": "3-bottle",
+        "badge": "Most Popular",
+        "title": "BUY 2 GET + 1 FREE",
+        "supply": "90 DAY SUPPLY",
+        "price": "$59",
+        "unit": "PER BOTTLE",
+        "savings": "YOU SAVE $300!",
+        "discount": "",
+        "guarantee": "60 DAYS GUARANTEE",
+        "totalOriginal": "$447",
+        "total": "$177",
+        "freeShipping": true,
+        "cta": "Add to cart",
+        "href": "https://glycoceptt.pay.clickbank.net/?cbitems=FE-GLC-03B-C&cbfid=62886&template=3bottles&param=vsl"
+      },
+      {
+        "id": "1-bottle",
+        "badge": "",
+        "title": "1 BOTTLE",
+        "supply": "30 DAY SUPPLY",
+        "price": "$79",
+        "unit": "PER BOTTLE",
+        "savings": "",
+        "discount": "",
+        "guarantee": "60 DAYS GUARANTEE",
+        "totalOriginal": "$149",
+        "total": "$79",
+        "freeShipping": false,
+        "cta": "Add to cart",
+        "href": "https://glycoceptt.pay.clickbank.net/?cbitems=FE-GLC-01B-C&template=1bottle&param=vsl"
+      }
+    ],
+    "guarantee": {
+      "title": "100% Satisfaction or Your Money Back",
+      "subtitle": "60-Day Unconditional Guarantee",
+      "body": [
+        "If for any reason within 60 days you're not satisfied with the product, just send an email to contact@glycocept.com and we'll immediately buy back all the bottles from you at the same price you paid — no questions asked and no hassles.",
+        "Simply return the unused bottles, and we'll buy them all back — even if they're damaged. No questions asked — it's an unconditional guarantee! That's how confident we are in Glycocept.",
+        "And if you choose the 6-bottle package, your guarantee becomes even more powerful:",
+        "You'll be automatically covered by our 60-Day guarantee — meaning you can ask for your money back at any time in the future, if you're not completely satisfied.",
+        "So, click below and order your Glycocept kit today, completely risk-free. We guarantee your results with our own money — for life."
+      ],
+      "contactEmail": "contact@glycocept.com"
+    },
+    "promoBanner": {
+      "title": "Transform Your Body Faster With Our 3 Or 6 Month GlycoCept Package"
+    },
+    "reviews": {
+      "title": "What People Are Saying About Glycocept?",
+      "subtitle": "Real Life-Changing Results!",
+      "regionLabel": "Top reviews from the United States",
+      "items": [
+        {
+          "reviewer": "Linda M.",
+          "location": "Montclair, NJ",
+          "title": "Glycocept saved my life",
+          "text": "Last Sunday, my 6-year-old granddaughter asked me to join her for a walk in the park. Her smile brought me to tears because, for the first time in years, I could walk beside her without worrying about my blood sugar crashing. Without Glycocept, I'm sure this wouldn't have been possible. Before taking it, I couldn't even make it down my driveway without exhaustion and burning feet stopping me.",
+          "helpful": "26 people found this helpful",
+          "image": "/img/depoimento/1f.jpg"
+        },
+        {
+          "reviewer": "Karen R.",
+          "location": "Boulder, CO",
+          "title": "I Feel Like Myself Again!",
+          "text": "Five months ago, my daughter wouldn't let me go to the grocery store alone. She always said it was 'too dangerous' and that I might faint or lose control of my sugar levels. But now, thanks to Glycocept, I'm going to the market by myself, doing chores at home, and even going to church every Sunday. I'm no longer reliant on anyone!",
+          "helpful": "21 people found this helpful",
+          "image": "/img/depoimento/102.jpg"
+        },
+        {
+          "reviewer": "Barbara B.",
+          "location": "Charleston, SC",
+          "title": "The Best Support I've Tried",
+          "text": "Do you know how it feels to grow more limited and frustrated with each passing day? I lived like that for over eight years. That's why I thank God every single day for finding Glycocept. Now I no longer struggle with constant sugar spikes, restless nights, or the fear that my health would never get better.",
+          "helpful": "19 people found this helpful",
+          "image": "/img/depoimento/4f.jpg"
+        },
+        {
+          "reviewer": "Emily B.",
+          "location": "Brookline, MA",
+          "title": "A Game-Changer for My Health",
+          "text": "I used to sit silently at family dinners, terrified to eat because I'd feel dizzy or spike in front of everyone. The shame and fear were unbearable — I'll never forget it. But after discovering Glycocept, everything changed. Just last week, I stood up and danced with my husband at our grandson's birthday party. I went from being the one everyone worried about to being the one inspiring hope — a miracle I never thought possible.",
+          "helpful": "21 people found this helpful",
+          "image": "/img/depoimento/5f.jpg"
+        }
+      ]
+    },
+    "doctor": {
+      "sectionTitle": "Who Is Dr. William Li?",
+      "bio": [
+        "Dr. Li is a Harvard-trained internal medicine physician, metabolic researcher, President of the Angiogenesis Foundation, and #1 New York Times bestselling author of Eat to Beat Disease. With over 30 years of medical research, more than 40 medical innovations developed under his leadership, and millions of followers worldwide, he is internationally recognized for his groundbreaking work in metabolic health and disease reversal.",
+        "During his research at Harvard Medical School, Dr. Li uncovered the hidden root cause of type 2 diabetes — a toxic buildup he calls pancreatic sludge, formed by environmental chemicals that suffocate insulin-producing cells and disrupt natural GLP-1 production. His discovery led to the development of Glycocept, a scientifically formulated blend designed to dissolve pancreatic sludge, restore the body's natural GLP-1 levels, and reactivate healthy blood sugar regulation."
+      ]
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "items": [
+        {
+          "question": "Is Glycocept safe to use?",
+          "answer": "Absolutely. Glycocept is made with 100% natural, plant-based ingredients, blended in clinically precise doses. It's manufactured in a U.S.–based, FDA-verified lab that follows strict safety and quality regulations. Still, if you have any medical conditions or are taking medications, it's always a good idea to consult your healthcare provider before starting."
+        },
+        {
+          "question": "How long will it take to see results?",
+          "answer": "Some users notice improvements in energy, fewer sugar spikes, and reduced burning feet within the first few days. Noticeable improvements in blood sugar control often begin within the first week, and many people report significant progress within the first 10 days. For long-lasting results and full blood sugar stabilization, the full 6-month treatment is strongly recommended."
+        },
+        {
+          "question": "Is Glycocept sold on Amazon?",
+          "answer": "No. Glycocept is only sold on this page, through the official website. Buying elsewhere may expose you to counterfeit or expired products. Always purchase directly here to ensure authenticity and guarantee coverage."
+        },
+        {
+          "question": "Will I need to follow strict diets or complicated routines?",
+          "answer": "Not at all. Glycocept was designed for people who want to reverse type 2 diabetes naturally without complicated routines. The formula works even if you continue with your normal lifestyle. Of course, healthy habits may enhance your results, but they're not required."
+        },
+        {
+          "question": "What if I'm older or have a slow metabolism?",
+          "answer": "That's totally fine. Glycocept works for men and women of all ages, including those over 60, 70, or even 80. Many older users report stabilized blood sugar, improved energy, and reduced diabetic discomfort — even after years of struggling. The formula is gentle yet powerful, regardless of age or stage."
+        },
+        {
+          "question": "Can I use Glycocept with other supplements?",
+          "answer": "In general, yes. But since Glycocept already contains a complete, clinically tested blend for blood sugar and pancreatic support, we recommend checking with your doctor if you're taking similar products — to avoid overlap or excessive intake."
+        },
+        {
+          "question": "How many bottles should I order?",
+          "answer": "To unlock permanent results, we recommend the 6-bottle package. That's the ideal duration to allow your body to eliminate the sticky pancreatic sludge, restore the GLP-1 pathway, and stabilize blood sugar long-term — maintaining the results even after you stop taking it. Plus, you'll get exclusive bonuses and free shipping when you order today."
+        },
+        {
+          "question": "Will my results last once I stop taking Glycocept?",
+          "answer": "Yes — as long as you complete the full 6-month treatment. Glycocept is formulated to help you maintain your results and protect your body from future blood sugar complications."
+        },
+        {
+          "question": "What if Glycocept doesn't work for me?",
+          "answer": "We're so confident in Glycocept that we offer a 60-day money-back guarantee. If you're not completely satisfied — even after finishing the full treatment — just send us an email and we'll refund every penny. And yes, you keep the bottles as a thank-you for giving it a try."
+        },
+        {
+          "question": "How fast will I receive my order?",
+          "answer": "Most Glycocept orders are processed within 1–2 business days. Shipping usually takes 3–5 days within the U.S. Orders that include the 6-bottle package receive priority fulfillment for faster delivery."
+        },
+        {
+          "question": "What's the best way to take Glycocept?",
+          "answer": "Each morning, simply take 1 capsule of Glycocept with a glass of water before breakfast for optimal absorption and maximum blood sugar–balancing and GLP-1–supporting effect. That's it — no mixing, no prepping, no hassle. Just stay consistent and let the formula do the work for you."
+        }
+      ]
+    },
+    "comments": {
+      "title": "36,158 Comments",
+      "closedNotice": "This post is no longer receiving comments!",
+      "items": [
+        {
+          "author": "Sophie Reynolds",
+          "text": "I swear I thought it was just another one of those loooong, boring vids. Congrats, Dr. William Li, for sharing something that actually WORKS!",
+          "time": "2h",
+          "likes": "41",
+          "image": "/img/coments/woman/03.jpg"
+        },
+        {
+          "author": "Olivia Cooper",
+          "text": "Dr. Li is amazingggg 👏",
+          "time": "1h",
+          "likes": "52",
+          "image": "/img/coments/man/03.jpg"
+        },
+        {
+          "author": "Marcus Harris",
+          "text": "He's an angel, seriously. I tried the natural honey blend and haven't had a single sugar spike in months.",
+          "time": "50 min",
+          "likes": "68",
+          "image": "/img/coments/man/04.jpg"
+        },
+        {
+          "author": "Laura Mitchell",
+          "text": "Exactly!! I'm walking more, sleeping better, and honestly feel years younger.",
+          "time": "45 min",
+          "likes": "57",
+          "image": "/img/coments/woman/04.jpg"
+        },
+        {
+          "author": "Dylan Foster",
+          "text": "Same here! My feet don't burn anymore — I feel like 30 years younger 😂",
+          "time": "30 min",
+          "likes": "33",
+          "image": "/img/coments/man/05.jpg"
+        },
+        {
+          "author": "Nathan Brooks",
+          "text": "I dunno guys, is it legit or just marketing hype??",
+          "time": "20 min",
+          "likes": "25",
+          "image": "/img/coments/man/06.jpg"
+        },
+        {
+          "author": "Amber Jenkinss",
+          "text": "Nathan, I was super skeptical too, but it's real. Try it for a few days and you'll see. I couldn't believe how fast it helped my vision and stopped that burning in my feet…",
+          "time": "15 min",
+          "likes": "44",
+          "image": "/img/coments/woman/05.jpg"
+        },
+        {
+          "author": "Eli Daniels",
+          "text": "Same here. I hesitated too, but my sugar swings were getting unbearable. Could barely button my shirt without shaking, that video from Dr. William Li about the natural honey blend finally gave me relief from that pancreatic sludge he talked about.",
+          "time": "10 min",
+          "likes": "39",
+          "image": "/img/coments/man/07.jpg"
+        },
+        {
+          "author": "Hannah Scott",
+          "text": "Congrats, Dr. William Li! With so many scams online, it's rare to find something truly helpful. You deserve all the success 👏👏",
+          "time": "just now",
+          "likes": "72",
+          "image": "/img/coments/woman/07.jpg"
+        },
+        {
+          "author": "Samantha Edwards",
+          "text": "Dr. Li, I've been following you for years, but this natural honey blend is by far your best discovery. Been doing it daily for 3 months and I feel stronger than my kids 😂😂",
+          "time": "just now",
+          "likes": "72",
+          "image": "/img/coments/woman/08.jpg"
+        },
+        {
+          "author": "Brian Turner",
+          "text": "So glad I watched the video until the end! Thought it was another internet trick, but wow… it's legit. Starting my honey morning blend tomorrow 😙",
+          "time": "just now",
+          "likes": "44",
+          "image": "/img/coments/woman/09.jpg"
+        },
+        {
+          "author": "Natalie Parker",
+          "text": "Wait, what exactly is this natural honey blend?",
+          "time": "just now",
+          "likes": "12",
+          "image": "/img/coments/woman/10.jpg"
+        },
+        {
+          "author": "Jacob Morgan",
+          "text": "He explains it near the beginning, it's what helps dissolve the pancreatic sludge and got rid of all my sugar spikes and that weird burning in my feet 😍",
+          "time": "just now",
+          "likes": "5",
+          "image": "/img/coments/man/09.jpg"
+        },
+        {
+          "author": "Robert Hughes",
+          "text": "Same thing happened to me too!!",
+          "time": "just now",
+          "likes": "20",
+          "image": "/img/coments/man/10.jpg"
+        },
+        {
+          "author": "Natalie Parker",
+          "text": "That's awesome, thanks for the heads-up. Totally gonna try it!",
+          "time": "just now",
+          "likes": "8",
+          "image": "/img/coments/woman/10.jpg"
+        },
+        {
+          "author": "Ethan Ross",
+          "text": "Dr. William Li, you're WONDERFUL! This made my dad's diabetes disappear!! Shared your video with my whole family 🙏",
+          "time": "just now",
+          "likes": "15",
+          "image": "/img/coments/man/11.jpg"
+        }
+      ]
+    }
+  },
+  "footer": {
+    "links": [
+      { "label": "Terms", "href": "https://glycocept.com/terms" },
+      { "label": "Privacy", "href": "https://glycocept.com/privacy" },
+      { "label": "Return Policy", "href": "https://glycocept.com/refunds" },
+      { "label": "Contact Us", "href": "https://glycocept.com/contact-us" }
+    ],
+    "support": {
+      "text": "For Product Support, please contact the vendor",
+      "email": "contact@glycocept.com"
+    },
+    "copyright": "© GlycoCept Research 2026. All Rights Reserved."
+  }
+}

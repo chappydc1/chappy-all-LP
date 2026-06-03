@@ -1,0 +1,193 @@
+{
+  "promoBar": {
+    "text": "Single Serve Variety Packs are here!",
+    "cta": {
+      "label": "Shop now",
+      "href": "/products/15-serving-variety-pack-shake"
+    }
+  },
+  "navbar": {
+    "dropdownLinks": [
+      { "label": "Products" },
+      { "label": "Explore" }
+    ],
+    "rewardsLink": { "label": "Rewards", "href": "/rewards" },
+    "accountLink": { "label": "Account", "href": "/account" },
+    "shopCta": { "label": "Shop", "href": "/products/shakes" }
+  },
+  "hero": {
+    "headline": "9 Reasons Why People Love This Shake",
+    "subheadline": "Here's why health conscious people are trying and sticking with this plant-based all-in-one nutrition shake over others..."
+  },
+  "reasons": [
+    {
+      "number": 1,
+      "title": "Reason #1: It's so much more than a protein shake",
+      "paragraphs": [
+        "It's got 25g of Protein and over 37g of food blends that include Fiber, Omegas, Greens, Super Fruits, Probiotics, Adaptogens, Essential Vitamins Minerals…",
+        "What other ready-to-go meal has all that?"
+      ],
+      "cta": { "label": "Try Ka'Chava", "href": "/products/shakes" },
+      "imageId": "reason1",
+      "layout": "imageRight"
+    },
+    {
+      "number": 2,
+      "title": "Reason #2: It's loaded with over 85 superfoods, nutrients & plant-based ingredients",
+      "paragraphs": [
+        "The Ka'Chava team has scoured the globe for the most nutrient-dense ingredients imaginable. This shake offers powerhouses like sacha inchi, maca root, chia seeds, and camu camu berry, plus so many more."
+      ],
+      "cta": null,
+      "imageId": "reason2",
+      "layout": "imageLeft"
+    },
+    {
+      "number": 3,
+      "title": "Reason #3: It helps keep you satisfied",
+      "paragraphs": [
+        "Ka'Chava is a nutrient dense shake that contains a blend of nutrients and satisfying ingredients to help you feel full, support a healthy metabolism, and keep digestion humming."
+      ],
+      "cta": { "label": "Try Ka'Chava", "href": "/products/shakes" },
+      "imageId": "reason3",
+      "layout": "imageRight"
+    },
+    {
+      "number": 4,
+      "title": "Reason #4: It's clean and pure. No added fillers, no nonsense",
+      "paragraphs": [
+        "They wanted it to be the cleanest, most natural product on the market – for health purists and label readers like themselves. That means No Animal Products, No Gluten, No Soy, No Dairy, No Artificial Sweeteners, Flavors, or Colors, and No Preservatives."
+      ],
+      "cta": null,
+      "imageId": "reason4",
+      "layout": "imageLeft"
+    },
+    {
+      "number": 5,
+      "title": "Reason #5: It's surprisingly delicious... for something this healthy",
+      "paragraphs": [
+        "No need to choke down those gritty, chalky, grass-tasting health shakes any longer! At Ka'Chava, we believe that creating a healthy product is only half the job. It has to be an enjoyable, delicious part of your daily routine. That's why we spent over TEN YEARS flavor-testing and obsessively refining until everyone was happy with the taste."
+      ],
+      "cta": { "label": "Try Ka'Chava", "href": "/products/shakes" },
+      "imageId": "reason5",
+      "layout": "imageRight"
+    },
+    {
+      "number": 6,
+      "title": "Reason #6: It helps to save our planet.",
+      "paragraphs": [
+        "Did you know that eating plant-based meals is the #1 way to help save our planet? No \"whey\" you say? It's true. Oftentimes, animal farming causes clear-cutting of our forests, methane pollution to our air, and draining of our freshwater supply. So even switching just 1 meal a day to plant-based reduces your environmental impact by almost 1/3. That's more effective than buying an electric car!"
+      ],
+      "cta": null,
+      "imageId": "reason6",
+      "layout": "imageLeft"
+    },
+    {
+      "number": 7,
+      "title": "Reason #7: It's almost too easy",
+      "paragraphs": [
+        "Breakfast, Lunch or Dinner in seconds! Just add water, 2 scoops of Ka'Chava, mix well and enjoy. We're here to support your whole body nutrition when you're too busy to shop, chop, cook and clean your way to a healthy meal. If that's not already easy enough, subscribe now to have your Ka'Chava auto-delivered right to your door each month."
+      ],
+      "cta": { "label": "Try Ka'Chava", "href": "/products/shakes" },
+      "imageId": "reason7",
+      "layout": "imageRight"
+    },
+    {
+      "number": 8,
+      "title": "Reason #8: It's the most nutrient-rich bang for your buck",
+      "paragraphs": [
+        "Unlike some companies that cut costs with substandard ingredients, we source only the highest-quality ingredients and set our pricing to match. One serving of Ka'Chava is only about $4! So compared to the cost of most on-the-go meal options, you may even save money in the long run. Plus, subscribers get $10/off every bag."
+      ],
+      "cta": null,
+      "imageId": "reason8",
+      "layout": "imageLeft"
+    },
+    {
+      "number": 9,
+      "title": "Reason #9: The quality is unmatched",
+      "paragraphs": [
+        "We refuse to compromise on the quality of our ingredients. In addition to consciously sourcing and rigorously testing each ingredient in our shakes, we use certified and accredited third party testing labs to ensure you're getting the absolute best. That means you can rest assured that every sip of Ka'Chava is here for your whole health."
+      ],
+      "cta": { "label": "Try Ka'Chava", "href": "/products/shakes" },
+      "imageId": "reason9",
+      "layout": "imageRight"
+    }
+  ],
+  "footer": {
+    "newsletter": {
+      "headline": "Unlock 10% off",
+      "subtext": "Join our mailing list and save on your first order of Ka'Chava.",
+      "emailPlaceholder": "you@example.com",
+      "ctaLabel": "Submit",
+      "disclaimer": "*By entering my email address, I consent to Ka'Chava sending me promotional email messages, and I know I can opt-out of receiving such emails at any time through the \"unsubscribe\" link in each message."
+    },
+    "reviews": {
+      "count": "66k+",
+      "stars": 5,
+      "label": "five-star reviews"
+    },
+    "navigation": {
+      "columns": [
+        {
+          "title": "Product",
+          "items": [
+            { "type": "link", "label": "How To Make", "href": "/how-to-make-kachava" },
+            { "type": "link", "label": "Ingredients", "href": "/ingredients" },
+            { "type": "link", "label": "Benefits", "href": "/benefits" },
+            { "type": "link", "label": "Quality", "href": "/quality" },
+            { "type": "link", "label": "Compare", "href": "/compare" },
+            { "type": "link", "label": "Recipes", "href": "/recipes" },
+            { "type": "link", "label": "Reviews", "href": "/reviews" },
+            { "type": "link", "label": "Blog", "href": "/blog/health-wellness" },
+            { "type": "link", "label": "Gift Cards", "href": "/products/gift-cards" }
+          ]
+        },
+        {
+          "title": "Support",
+          "items": [
+            { "type": "link", "label": "HSA/FSA Eligible", "href": "/hsa-fsa" },
+            { "type": "link", "label": "Help Center", "href": "https://support.kachava.com/" },
+            { "type": "button", "label": "Contact Us" },
+            { "type": "link", "label": "Our Guarantee", "href": "https://support.kachava.com/hc/en-us/articles/204678165-Our-Love-It-Guarantee-" },
+            { "type": "link", "label": "Track Order", "href": "/track-order" },
+            { "type": "link", "label": "Accessibility", "href": "/accessibility" }
+          ]
+        },
+        {
+          "title": "About",
+          "items": [
+            { "type": "link", "label": "Our Story", "href": "/our-story" },
+            { "type": "link", "label": "Our Cause", "href": "/our-cause" },
+            { "type": "link", "label": "Refer a friend", "href": "/refer-a-friend" },
+            { "type": "link", "label": "Find us in store", "href": "/retail" }
+          ]
+        },
+        {
+          "title": "Account",
+          "items": [
+            { "type": "link", "label": "Dashboard", "href": "/account" },
+            { "type": "link", "label": "Subscriptions", "href": "/account/subscriptions" },
+            { "type": "link", "label": "Billing & Account", "href": "/account/profile" },
+            { "type": "link", "label": "Order History", "href": "/account/orders" },
+            { "type": "link", "label": "Rewards", "href": "/account/rewards" }
+          ],
+          "socialLinks": [
+            { "id": "facebook", "label": "Facebook", "href": "https://www.facebook.com/kachavatribe/" },
+            { "id": "instagram", "label": "Instagram", "href": "https://www.instagram.com/kachava/" },
+            { "id": "pinterest", "label": "Pinterest", "href": "https://www.pinterest.com/kachavatribe/" },
+            { "id": "youtube", "label": "YouTube", "href": "https://www.youtube.com/channel/UCtYDNWODTkuPQp4dnmPHlgA" }
+          ]
+        }
+      ]
+    },
+    "bottom": {
+      "copyright": "© 2026 Tribal Nutrition",
+      "legalLinks": [
+        { "label": "Terms of Service", "href": "/terms-of-service" },
+        { "label": "Privacy Policy", "href": "/privacy-policy" },
+        { "label": "Return Policy", "href": "/return-policy" },
+        { "label": "Terms of Sale", "href": "/terms-of-sale" },
+        { "label": "Privacy Choices", "type": "button" }
+      ]
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "logo": {
+    "src": "https://c.animaapp.com/mpggmao05pPIrc/assets/mainlogo.svg",
+    "alt": "company-logo"
+  },
+  "logoScroll": {
+    "src": "https://c.animaapp.com/mpggmao05pPIrc/assets/logoscroll.svg",
+    "alt": "company-logo"
+  },
+  "featured": {
+    "src": "https://c.animaapp.com/mpggmao05pPIrc/assets/Advertorial-featured-pics-1286-x-600-px-1-optimized.webp",
+    "alt": "Featured article image"
+  },
+  "cortisol": {
+    "src": "https://c.animaapp.com/mpggmao05pPIrc/assets/blog_cortisolsupp_body-1-optimized.webp",
+    "alt": "Cortisol and weight gain chart"
+  },
+  "supplementComparison": {
+    "src": "https://c.animaapp.com/mpggmao05pPIrc/assets/image-3.svg",
+    "alt": "Supplement comparison results"
+  },
+  "newsletterIcon": {
+    "src": "https://c.animaapp.com/mpggmao05pPIrc/assets/image-14.svg",
+    "alt": "Newsletter"
+  },
+  "footerLogo": {
+    "src": "https://c.animaapp.com/mpggmao05pPIrc/assets/image-15.svg",
+    "alt": "company-logo"
+  },
+  "icons": {
+    "search": "https://c.animaapp.com/mpggmao05pPIrc/assets/search.svg",
+    "closeBlack": "https://c.animaapp.com/mpggmao05pPIrc/assets/image-2.svg",
+    "closeWhite": "https://c.animaapp.com/mpggmao05pPIrc/assets/image-1.svg",
+    "comments": "https://c.animaapp.com/mpggmao05pPIrc/assets/comments.svg",
+    "views": "https://c.animaapp.com/mpggmao05pPIrc/assets/views.svg",
+    "readingTime": "https://c.animaapp.com/mpggmao05pPIrc/assets/reading-time.svg",
+    "plus": "https://c.animaapp.com/mpggmao05pPIrc/assets/image-4.svg",
+    "facebookShare": "https://c.animaapp.com/mpggmao05pPIrc/assets/image-5.svg",
+    "twitterShare": "https://c.animaapp.com/mpggmao05pPIrc/assets/image-6.svg",
+    "pinterestShare": "https://c.animaapp.com/mpggmao05pPIrc/assets/image-7.svg",
+    "linkedinShare": "https://c.animaapp.com/mpggmao05pPIrc/assets/image-8.svg",
+    "avatar": "https://c.animaapp.com/mpggmao05pPIrc/assets/image-9.svg",
+    "commentPhoto": "https://c.animaapp.com/mpggmao05pPIrc/assets/image-10.svg",
+    "replyArrow": "https://c.animaapp.com/mpggmao05pPIrc/assets/image-11.svg",
+    "checkmark": "https://c.animaapp.com/mpggmao05pPIrc/assets/image-12.svg",
+    "arrowTop": "https://c.animaapp.com/mpggmao05pPIrc/assets/image-13.svg",
+    "facebookFooter": "https://c.animaapp.com/mpggmao05pPIrc/assets/image-5.svg",
+    "twitterFooter": "https://c.animaapp.com/mpggmao05pPIrc/assets/image-16.svg",
+    "pinterestFooter": "https://c.animaapp.com/mpggmao05pPIrc/assets/image-17.svg",
+    "youtubeFooter": "https://c.animaapp.com/mpggmao05pPIrc/assets/image-18.svg",
+    "instagramFooter": "https://c.animaapp.com/mpggmao05pPIrc/assets/image-19.svg",
+    "chevron": "https://c.animaapp.com/mpggmao05pPIrc/assets/image-20.svg"
+  }
+}

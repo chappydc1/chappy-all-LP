@@ -1,0 +1,70 @@
+{
+  "logoStrip": "/vsl/oprah/media/jhbmyD1749942.webp",
+  "videoIcon": "/vsl/oprah/media/icon-1.svg",
+  "closeIcon": "/vsl/oprah/media/icon-7.svg",
+  "likeEmoji": "/vsl/oprah/media/1f44d.svg",
+  "replyEmoji": "/vsl/oprah/media/1f501.svg",
+  "doctor": {
+    "photo": "/vsl/oprah/media/drginasam.webp"
+  },
+  "doctorCommentAvatars": {
+    "emily": "/vsl/oprah/media/commemily.webp",
+    "josh": "/vsl/oprah/media/commjosh.webp",
+    "ava": "/vsl/oprah/media/commava.webp",
+    "matthew": "/vsl/oprah/media/commmatthew.webp",
+    "sophia": "/vsl/oprah/media/commsophia.webp",
+    "leo": "/vsl/oprah/media/commleo.webp",
+    "grace": "/vsl/oprah/media/commgrace.webp",
+    "james": "/vsl/oprah/media/commjames.webp",
+    "samantha": "/vsl/oprah/media/commsamantha.webp",
+    "oliver": "/vsl/oprah/media/commoliver.webp",
+    "megan": "/vsl/oprah/media/commmegan.webp",
+    "noah": "/vsl/oprah/media/commnoah.webp",
+    "isabella": "/vsl/oprah/media/commisabella.webp",
+    "ryan": "/vsl/oprah/media/commryan.webp",
+    "jessica": "/vsl/oprah/media/commjessica.webp",
+    "alex": "/vsl/oprah/media/commalex.webp",
+    "ella": "/vsl/oprah/media/commella.webp",
+    "tyler": "/vsl/oprah/media/commtyler.webp",
+    "chloe": "/vsl/oprah/media/commchloe.webp",
+    "zack": "/vsl/oprah/media/commzack.webp"
+  },
+  "commentAvatars": {
+    "sarahSmith": "/vsl/oprah/media/hEMtnu2001596.webp",
+    "jenniferTaylor": "/vsl/oprah/media/kbPeho2025190.webp",
+    "oliviaMoore": "/vsl/oprah/media/aAtbjA2058308.webp",
+    "emilyJohnson": "/vsl/oprah/media/cIxqDb2133076.webp",
+    "elizabethMiller": "/vsl/oprah/media/IeAIgy2205219.webp",
+    "abigailMartinez": "/vsl/oprah/media/KtysvY2314645.webp",
+    "natalieClark": "/vsl/oprah/media/JSKEQM2241629.webp",
+    "jessicaBrown": "/vsl/oprah/media/pberKS2391370.webp",
+    "chloeGarcia": "/vsl/oprah/media/FEksgJ2345870.webp"
+  },
+  "bottles": {
+    "one": "/vsl/oprah/media/emma-bottle-1.webp",
+    "three": "/vsl/oprah/media/emma-bottle-3.webp",
+    "six": "/vsl/oprah/media/emma-bottle-6.webp"
+  },
+  "pricing": {
+    "header": "/vsl/oprah/media/Header.webp",
+    "checkmark": "/vsl/oprah/media/check-Copy.webp",
+    "cta": "/vsl/oprah/media/CTA.webp",
+    "paymentMethods": "/vsl/oprah/media/paymentmethod.webp"
+  },
+  "guarantee": {
+    "badge": "/vsl/oprah/media/guaranteed.webp"
+  },
+  "bonus": {
+    "leanBellyShakes": "/vsl/oprah/media/leanbellyshakebook.webp"
+  },
+  "testimonials": {
+    "natasha": "/vsl/oprah/media/ava1.webp",
+    "lucy": "/vsl/oprah/media/lucy.webp",
+    "amberlyn": "/vsl/oprah/media/amberlyn.webp",
+    "patricia": "/vsl/oprah/media/patricia.webp"
+  },
+  "ratings": {
+    "checkMark": "/vsl/oprah/media/check-mark.webp",
+    "stars": "/vsl/oprah/media/storystars.webp"
+  }
+}

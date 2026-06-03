@@ -1,0 +1,483 @@
+{
+  "meta": {
+    "title": "Healthinsider | Gynecologist",
+    "description": "Expert gynecological care and women's health information."
+  },
+  "nav": {
+    "logoHref": "https://healthinsider.news/",
+    "categories": [
+      { "label": "Keto Diet", "href": "https://healthinsider.news/category/keto-diet/" },
+      { "label": "Diabetes", "href": "https://healthinsider.news/category/diabetes/" },
+      { "label": "Fasting", "href": "https://healthinsider.news/category/fasting/" },
+      { "label": "Lifestyle", "href": "https://healthinsider.news/category/lifestyle/", "active": true },
+      { "label": "Sport", "href": "https://healthinsider.news/category/sport/" },
+      { "label": "Gastro", "href": "https://healthinsider.news/category/gastro/" },
+      { "label": "Beauty", "href": "https://healthinsider.news/category/beauty/" },
+      { "label": "Psychology", "href": "https://healthinsider.news/category/psychology/" }
+    ],
+    "languages": [
+      { "code": "nl", "href": "https://healthinsider.news/nl/" },
+      { "code": "fr", "href": "https://healthinsider.news/fr/" },
+      { "code": "de", "href": "https://healthinsider.news/de/" },
+      { "code": "it", "href": "https://healthinsider.news/it/" },
+      { "code": "no", "href": "https://healthinsider.news/no/" },
+      { "code": "pl", "href": "https://healthinsider.news/pl/" },
+      { "code": "es", "href": "https://healthinsider.news/es/" },
+      { "code": "tr", "href": "https://healthinsider.news/tr/" },
+      { "code": "pt", "href": "https://healthinsider.news/pt/" },
+      { "code": "se", "href": "https://healthinsider.news/se/" }
+    ],
+    "searchPlaceholder": "Search text"
+  },
+  "disclosure": {
+    "text": "Commissions may be earned on purchases made through links.",
+    "linkText": "Learn More",
+    "linkHref": "https://healthinsider.news/terms-of-service/#affiliate-advertising-disclosure"
+  },
+  "breadcrumbs": [
+    { "label": "Home", "href": "https://healthinsider.news/" },
+    { "label": "Lifestyle", "href": "https://healthinsider.news/category/lifestyle/" },
+    { "label": "Gynecologists Tested 5 Menopause Supplements: Only 1 Helped With Weight Loss. Here’s Why." }
+  ],
+  "article": {
+    "headline": "Gynecologists Tested 5 Menopause Supplements: Only 1 Helped With Weight Loss. Here’s Why.",
+    "meta": {
+      "publishedBy": "Alexandra Pierce, MD",
+      "category": "Lifestyle",
+      "categoryHref": "https://healthinsider.news/category/lifestyle/",
+      "lastUpdate": "Apr 22",
+      "commentsCount": "4",
+      "viewsCount": "178493",
+      "readTime": "5 min"
+    },
+    "body": [
+      {
+        "type": "p",
+        "html": "Something is happening to women over 50 that the wellness industry has been getting wrong for decades."
+      },
+      {
+        "type": "p",
+        "html": "Gynecologists see it every day."
+      },
+      {
+        "type": "p",
+        "html": "Women entering menopause who are doing everything right – eating well, staying active, managing their stress – still gaining weight. Still struggling. Still not feeling like themselves."
+      },
+      {
+        "type": "p",
+        "html": "It’s not just hot flashes, night sweats, and mood swings anymore."
+      },
+      {
+        "type": "p",
+        "html": "For most women, menopause brings the shift nobody warned them about: <strong>stubborn weight that won’t move, no matter what they try.</strong>"
+      },
+      {
+        "type": "p",
+        "html": "And there’s one reason almost nobody is talking about."
+      },
+      {
+        "type": "p",
+        "html": "<strong>A single hormone.</strong>"
+      },
+      {
+        "type": "p",
+        "html": "One that spikes during menopause and flies completely under the radar is responsible for the belly fat, the cravings, and the weight that keeps coming back."
+      },
+      {
+        "type": "p",
+        "html": "But managing it is possible."
+      },
+      {
+        "type": "p",
+        "html": "We stopped looking at the obvious answers and started looking at what mainstream medicine keeps missing."
+      },
+      {
+        "type": "p",
+        "html": "A group of gynecologists spent 12 months testing the top 5 menopause supplements on their own patients to find out which ones actually work and which ones completely miss the point."
+      },
+      {
+        "type": "p",
+        "html": "Here’s what they found."
+      },
+      {
+        "type": "h2",
+        "text": "If You’re Doing Everything Right But Still Gaining Weight, This Stress Hormone Could Be to Blame—Here’s Why:"
+      },
+      {
+        "type": "p",
+        "html": "When menopause hits, the body goes through a multitude of hormonal changes."
+      },
+      {
+        "type": "p",
+        "html": "While estrogen and progesterone levels drop, cortisol—the body’s natural stress hormone—can go into overdrive. <a href=\"https://www.frontiersin.org/journals/global-womens-health/articles/10.3389/fgwh.2021.774308/full\" class=\"text-cyan-600\"><sup>1</sup></a>"
+      },
+      {
+        "type": "p",
+        "html": "This is a problem, because <strong>high cortisol levels trigger fat storage</strong>, especially in the abdominal area. <a href=\"https://pubmed.ncbi.nlm.nih.gov/16353426/\" class=\"text-cyan-600\"><sup>2</sup></a>"
+      },
+      {
+        "type": "p",
+        "html": "The more stressed your body is, the more fat you may retain, making it harder to lose weight."
+      },
+      {
+        "type": "figure",
+        "mediaKey": "cortisol"
+      },
+      {
+        "type": "p",
+        "html": "You might be doing everything right—dieting, exercising, even meditating."
+      },
+      {
+        "type": "p",
+        "html": "But if you’re not addressing <strong>cortisol</strong>, it’s like trying to fill a bucket with a hole in the bottom."
+      },
+      {
+        "type": "p",
+        "html": "Cortisol can increase your appetite, disrupt your sleep, and hinder your metabolism <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC5958156/\" class=\"text-cyan-600\"><sup>3</sup></a>, <strong>making it nearly impossible to shed that stubborn weight, especially around the belly</strong>."
+      },
+      {
+        "type": "h2",
+        "text": "When Diet And Exercise Fail to Address Cortisol, Targeted Supplementation Becomes the Smartest Next Step"
+      },
+      {
+        "type": "p",
+        "html": "Let’s be clear: if cortisol is driving the weight gain, no amount of dieting or exercise will fix it."
+      },
+      {
+        "type": "p",
+        "html": "This is where <strong>supplements</strong> come in."
+      },
+      {
+        "type": "p",
+        "html": "We’re past the point of pretending food alone can cover our needs—even basic health often requires extra support."
+      },
+      {
+        "type": "p",
+        "html": "Supplements can help you manage cortisol levels, support your metabolism, and balance the hormones that affect weight gain."
+      },
+      {
+        "type": "p",
+        "html": "When chosen carefully, they are a game-changer—offering much-needed relief and helping you take control of your body again."
+      },
+      {
+        "type": "p",
+        "html": "But here’s the key: <strong>not all supplements are created equal</strong>."
+      },
+      {
+        "type": "p",
+        "html": "The right supplement should address the root cause of your weight gain, not just mask symptoms."
+      },
+      {
+        "type": "p",
+        "html": "A good menopause supplement must be 100% natural and should focus on <strong>cortisol reduction</strong>, <strong>metabolic support</strong>, and <strong>hormonal balance</strong>."
+      },
+      {
+        "type": "h2",
+        "text": "Results of the Experiment: Which Popular Menopause Supplements Actually Reduced Cortisol Among Patients?"
+      },
+      {
+        "type": "p",
+        "html": "A group of gynecologists noticed their patients repeatedly asking for effective supplements to manage menopause-related weight gain."
+      },
+      {
+        "type": "p",
+        "html": "To provide reliable answers, they decided to run a year-long experiment involving hundreds of voluntary patients."
+      },
+      {
+        "type": "p",
+        "html": "<strong>Each patient chose one of the five most popular supplements</strong>, and the doctors carefully tracked their progress."
+      },
+      {
+        "type": "h3",
+        "text": "1. Provitalize"
+      },
+      {
+        "type": "p",
+        "html": "Provitalize is often chosen by patients attracted to its anti-inflammatory properties. It contains <strong>turmeric</strong> and <strong>bioperine</strong>—ingredients commonly praised for reducing inflammation. <a href=\"https://www.mdpi.com/2076-3921/13/3/331\" class=\"text-cyan-600\"><sup>4</sup></a>"
+      },
+      {
+        "type": "p",
+        "html": "However, it showed little to no effect on cortisol levels or cortisol-related weight gain."
+      },
+      {
+        "type": "p",
+        "html": "<strong>Verdict: Effective for managing inflammation</strong>, but insufficient for cortisol reduction or hormonal weight loss."
+      },
+      {
+        "type": "h3",
+        "text": "2. Happy Mammoth"
+      },
+      {
+        "type": "p",
+        "html": "Happy Mammoth was another popular choice, primarily due to its comprehensive menopause-support formula featuring ingredients like <strong>Black Cohosh</strong>, <strong>Maca</strong>, and <strong>L-Theanine</strong>."
+      },
+      {
+        "type": "p",
+        "html": "Patients noted some improvement in overall energy and skin appearance—subtle but visible differences, as you’ll see in the before-and-after photo from Clara."
+      },
+      {
+        "type": "p",
+        "html": "Also, it did offer some relief from hot flashes and mood swings, but did not effectively target cortisol levels, the crucial factor for reducing menopause-related weight. <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC1764641/\" class=\"text-cyan-600\"><sup>6</sup></a> <a href=\"https://www.goodrx.com/conditions/menopause/supplements-and-otc-meds\" class=\"text-cyan-600\"><sup>7</sup></a><br/><br/><strong>Verdict: Good for general symptom relief</strong>, but lacks targeted cortisol-reducing ingredients."
+      },
+      {
+        "type": "figure",
+        "mediaKey": "supplementComparison"
+      },
+      {
+        "type": "h3",
+        "text": "3. Estroven"
+      },
+      {
+        "type": "p",
+        "html": "Estroven was popular among patients who primarily struggled with mood swings and hot flashes. After several months, participants reported noticeable improvements in <strong>estrogen-related symptoms</strong>. <a href=\"https://e-nrp.org/DOIx.php?id=10.4162%2Fnrp.2022.16.S1.S147\" class=\"text-cyan-600\"><sup>5</sup></a>"
+      },
+      {
+        "type": "p",
+        "html": "However, doctors tracking cortisol found no clear benefit in stress-related weight management or belly fat reduction."
+      },
+      {
+        "type": "p",
+        "html": "<strong>Verdict: Reliable for estrogen relief</strong>, but not effective for cortisol-driven weight loss."
+      },
+      {
+        "type": "h3",
+        "text": "4. O-Positive"
+      },
+      {
+        "type": "p",
+        "html": "O-Positive was tested due to patient interest in its hormonal support ingredients (<strong>Black Cohosh</strong> and <strong>Dong Quai</strong>). Feedback collected during follow-ups highlighted relief from hot flashes and mood stability. <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC1764641/\" class=\"text-cyan-600\"><sup>6</sup></a> <a href=\"https://www.webmd.com/vitamins/ai/ingredientmono-936/dong-quai\" class=\"text-cyan-600\"><sup>8</sup></a>"
+      },
+      {
+        "type": "p",
+        "html": "Yet, monthly cortisol measurements remained unchanged, and weight-loss progress stalled."
+      },
+      {
+        "type": "p",
+        "html": "<strong>Verdict: Helpful for symptom relief</strong>, but lacks impact on cortisol or metabolism."
+      },
+      {
+        "type": "h3",
+        "text": "5. Her Bodhi"
+      },
+      {
+        "type": "p",
+        "html": "Unlike the other supplements tested, <strong>Her Bodhi</strong> directly targets cortisol—the core issue behind menopausal weight gain."
+      },
+      {
+        "type": "p",
+        "html": "Throughout the year-long experiment, patients consistently reported noticeable progress, especially regarding stubborn belly fat and overall energy."
+      },
+      {
+        "type": "p",
+        "html": "Doctors observed significantly <strong>reduced cortisol</strong> levels, particularly highlighting Ashwagandha—the key ingredient in Her Bodhi, well-documented for naturally reducing cortisol. <a href=\"https://www.naturalmedicinejournal.com/journal/ashwagandha-helps-manage-stress-related-weight-gain\" class=\"text-cyan-600\"><sup>9</sup></a>"
+      },
+      {
+        "type": "p",
+        "html": "Black Cohosh provided additional hormonal support, while Flaxseed boosted metabolism. This combination appeared uniquely effective in addressing all hormonal challenges simultaneously. <a href=\"https://pubmed.ncbi.nlm.nih.gov/33856729/\" class=\"text-cyan-600\"><sup>10</sup></a>"
+      },
+      {
+        "type": "p",
+        "html": "Several participants—including Mary, whose results you can see in the photo below—noticed visible improvements, reporting reduced belly fat and eased menopause symptoms."
+      },
+      {
+        "type": "p",
+        "html": "<strong>Verdict: A balanced, highly effective approach to managing cortisol</strong> and supporting overall hormonal health during menopause."
+      },
+      {
+        "type": "figure",
+        "mediaKey": "supplementComparison"
+      },
+      {
+        "type": "h2",
+        "text": "The Bottom Line on Cortisol and Menopause: What Actually Works?"
+      },
+      {
+        "type": "p",
+        "html": "Among menopause supplements, Her Bodhi stands apart primarily due to its <strong>targeted cortisol approach</strong>, combined with broader hormonal support."
+      },
+      {
+        "type": "p",
+        "html": "It systematically tackles the primary drivers behind menopausal <strong>weight gain, hot flashes, and mood swings</strong>."
+      },
+      {
+        "type": "p",
+        "html": "With clinically supported ingredients, Her Bodhi’s all-natural formula provides clear advantages over synthetic hormones, without the associated health risks."
+      },
+      {
+        "type": "p",
+        "html": "Here’s what clinical research says about Her Bodhi ingredients:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Delivered <strong>measurable weight loss</strong> in 8 weeks. <a href=\"https://pubmed.ncbi.nlm.nih.gov/27055824/\" class=\"text-cyan-600\"><sup>11</sup></a>",
+          "<strong>Lowered BMI</strong> within 12 weeks compared to placebo. <a href=\"https://pubmed.ncbi.nlm.nih.gov/34119421/\" class=\"text-cyan-600\"><sup>12</sup></a>",
+          "Reduced <strong>stress-related cravings</strong> within just 8 weeks. <a href=\"https://pubmed.ncbi.nlm.nih.gov/27055824/\" class=\"text-cyan-600\"><sup>13</sup></a>",
+          "Have been clinically shown to promote weight loss by <strong>boosting satiety</strong>. <a href=\"https://pubmed.ncbi.nlm.nih.gov/28635182/\" class=\"text-cyan-600\"><sup>14</sup></a>",
+          "<strong>Zero serious side effects</strong> reported, verified by third-party laboratories."
+        ]
+      },
+      {
+        "type": "p",
+        "html": "Given its evidence-based composition and comprehensive approach, <strong>Her Bodhi emerges as a logical choice</strong> for those seeking effective menopause management without unnecessary risks."
+      }
+    ],
+    "importantUpdate": {
+      "label": "IMPORTANT UPDATE",
+      "text": "Since this article was published on Health Insider, Her Bodhi has gained tremendous attention and interest. The company has reached out to our editorial team to inform us that, for a limited time, they’re offering our readers who complete the short quiz below an exclusive 60% discount on Her Bodhi. Plus, every order comes with free shipping and 3 free gifts, and a money-back guarantee."
+    },
+    "cta": {
+      "heading": "Complete This Quick Quiz to Secure Your Exclusive 60% Discount, Free Shipping, and Risk-Free Money-Back Guarantee",
+      "buttonText": "TAKE THE QUIZ",
+      "buttonHref": "http://quiz.herbodhi.com/?flow=adv&utm_source=healthinsider-direct&utm_medium=referral&utm_term=blog_cortisolsuppv2_cv_en",
+      "disclaimer": "Results may vary due to personal features"
+    },
+    "sourcesLabel": "14 sources",
+    "sources": [
+      {
+        "text": "Steroid Hormone Secretion Over the Course of the Perimenopause: Findings From the Swiss Perimenopause Study:",
+        "href": "https://www.frontiersin.org/journals/global-womens-health/articles/10.3389/fgwh.2021.774308/full"
+      },
+      {
+        "text": "Stress-induced cortisol response and fat distribution in women:",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/16353426/"
+      },
+      {
+        "text": "Stress and Obesity: Are There More Susceptible Individuals?:",
+        "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5958156/"
+      },
+      {
+        "text": "Enhancing the Bioavailability and Bioactivity of Curcumin for Disease Prevention and Treatment:",
+        "href": "https://www.mdpi.com/2076-3921/13/3/331"
+      },
+      {
+        "text": "Effect of isoflavone supplementation on menopausal symptoms: a systematic review and meta-analysis of randomized controlled trials:",
+        "href": "https://e-nrp.org/DOIx.php?id=10.4162%2Fnrp.2022.16.S1.S147"
+      },
+      {
+        "text": "Botanical and Dietary Supplements for Menopausal Symptoms: What Works, What Doesn't:",
+        "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1764641/"
+      },
+      {
+        "text": "Menopause Supplements and Over-the-Counter Medications: 20 Top Picks and What Science Says:",
+        "href": "https://www.goodrx.com/conditions/menopause/supplements-and-otc-meds"
+      },
+      {
+        "text": "Dong Quai – Uses, Side Effects, and More:",
+        "href": "https://www.webmd.com/vitamins/ai/ingredientmono-936/dong-quai"
+      },
+      {
+        "text": "Ashwagandha Helps Manage Stress-Related Weight Gain:",
+        "href": "https://www.naturalmedicinejournal.com/journal/ashwagandha-helps-manage-stress-related-weight-gain"
+      },
+      {
+        "text": "The effects of flaxseed supplementation on metabolic syndrome parameters, insulin resistance and inflammation in ulcerative colitis patients: An open-labeled randomized controlled trial.",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/33856729/"
+      },
+      {
+        "text": "Clinical trial on Ashwagandha reducing stress-related eating and weight.",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/27055824/"
+      },
+      {
+        "text": "Clinical trial showing flaxseed supplementation lowered BMI within 12 weeks.",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/34119421/"
+      },
+      {
+        "text": "Study on Ashwagandha reducing cravings in 8 weeks.",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/27055824/"
+      },
+      {
+        "text": "Meta-analysis showing flaxseed fiber promotes satiety.",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/28635182/"
+      }
+    ],
+    "shareBar": {
+      "label": "Share on",
+      "facebook": "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fhealthinsider.news%2Fgynecologists-tested-best-supplements-on-patients-to-reduce-cortisol-meno-supplements-en%2F",
+      "twitter": "https://twitter.com/intent/tweet?text=Gynecologists%20Tested%205%20Menopause%20Supplements%3A%20Only%201%20Helped%20With%20Weight%20Loss.%20Here%E2%80%99s%20Why.&url=https%3A%2F%2Fhealthinsider.news%2Fgynecologists-tested-best-supplements-on-patients-to-reduce-cortisol-meno-supplements-en%2F",
+      "pinterest": "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fhealthinsider.news%2Fgynecologists-tested-best-supplements-on-patients-to-reduce-cortisol-meno-supplements-en%2F&media=https%3A%2F%2Fhealthinsider.news%2Fapp%2Fuploads%2F2025%2F07%2FAdvertorial-featured-pics-1286-x-600-px-1.webp",
+      "linkedin": "https://www.linkedin.com/cws/share?url=https%3A%2F%2Fhealthinsider.news%2Fgynecologists-tested-best-supplements-on-patients-to-reduce-cortisol-meno-supplements-en%2F"
+    },
+    "comments": {
+      "heading": "Comments",
+      "count": "4",
+      "leaveCommentHeading": "Leave a comment",
+      "cancelReplyText": "Cancel reply",
+      "emailNotPublished": "Your email address will not be published. Required fields are marked *",
+      "namePlaceholder": "Name *",
+      "emailPlaceholder": "Email *",
+      "commentPlaceholder": "Comment *",
+      "saveLabel": "Save my name, email, and website in this browser for the next time I comment.",
+      "attachmentsLabel": "Attachments",
+      "attachmentsNote": "The maximum upload file size: 100 MB.",
+      "attachmentsTypes": "You can upload: image.",
+      "submitButtonText": "Post comment",
+      "thankYouHeading": "Thank you for your comment",
+      "thankYouBody": "We will review it as soon as possible",
+      "items": [
+        {
+          "username": "KathyP",
+          "date": "18 Jul, 2025 at 12:40 pm",
+          "text": "I’ve been on Her Bodhi for 3 months and I feel fantastic. 26 lbs down and no more hot flashes. Highly recommend if menopause kicks you in the… every day!! My goal is to lose 10lbs more, so fingers crossed, ladies!",
+          "avatarColor": "bg-sky-300",
+          "commentId": "57895"
+        },
+        {
+          "username": "Margaret909",
+          "date": "4 Jul, 2025 at 1:23 pm",
+          "text": "Thank you for this review.. Cortisol is all over the internet!! Didn’t know what to choose.",
+          "avatarColor": "bg-sky-300",
+          "commentId": "57896"
+        },
+        {
+          "username": "Pegasus7",
+          "date": "29 Jun, 2025 at 5:09 pm",
+          "text": "Tried it and HerBodhi works! Lost 17 lbs so far, feeling great.",
+          "avatarColor": "bg-sky-300",
+          "commentId": "57897",
+          "showReplies": "Show all replies (1)"
+        }
+      ]
+    }
+  },
+  "newsletter": {
+    "heading": "Newsletter",
+    "description": "Subscribe to our health and wellness newsletter where we share healthy living tips, news, and wellness ideas.",
+    "emailPlaceholder": "Enter your email",
+    "buttonText": "Subscribe",
+    "successHeading": "Thank you, you have successfully subscribed to our newsletter"
+  },
+  "footer": {
+    "logoHref": "https://healthinsider.news/",
+    "social": {
+      "facebook": "https://www.facebook.com/HealthInsiderNew/",
+      "twitter": "https://twitter.com/Health_Insider_/",
+      "pinterest": "https://www.pinterest.com/HealthInsiderNews/",
+      "youtube": "https://www.youtube.com/channel/UCSYsQCFyN-0-smOTByy0xZA",
+      "instagram": "https://www.instagram.com/healthinsidernews/"
+    },
+    "categories": [
+      { "label": "Keto Diet", "href": "https://healthinsider.news/category/keto-diet/" },
+      { "label": "Diabetes", "href": "https://healthinsider.news/category/diabetes/" },
+      { "label": "Fasting", "href": "https://healthinsider.news/category/fasting/" },
+      { "label": "Lifestyle", "href": "https://healthinsider.news/category/lifestyle/" },
+      { "label": "Sport", "href": "https://healthinsider.news/category/sport/" },
+      { "label": "Gastro", "href": "https://healthinsider.news/category/gastro/" },
+      { "label": "Beauty", "href": "https://healthinsider.news/category/beauty/" },
+      { "label": "Psychology", "href": "https://healthinsider.news/category/psychology/" }
+    ],
+    "links": [
+      { "label": "Contact Us", "href": "https://healthinsider.news/contact-us/" },
+      { "label": "Medical Team", "href": "https://healthinsider.news/medical-team/" },
+      { "label": "Editorial process", "href": "https://healthinsider.news/editorial-process/" },
+      { "label": "About us", "href": "https://healthinsider.news/about/" },
+      { "label": "Terms of Service", "href": "https://healthinsider.news/terms-of-service/" },
+      { "label": "Cookie policy", "href": "https://healthinsider.news/cookie-policy/" },
+      { "label": "Cookie Settings", "href": "#" }
+    ],
+    "copyright": "Copyright © 2026 Health Insider. All rights reserved. Health Insider does not provide medical advice, diagnosis, or treatment. See",
+    "additionalInfoHref": "https://healthinsider.news/additional-information/",
+    "additionalInfoText": "Additional Information",
+    "privacyPolicy": { "label": "Privacy Policy", "href": "https://healthinsider.news/privacy-policy/" }
+  }
+}

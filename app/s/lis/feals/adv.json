@@ -1,0 +1,134 @@
+{
+  "announcementBar": {
+    "text": "Free Shipping on Subscriptions and Orders $70+",
+    "url": "/collections/all"
+  },
+  "heroAnnouncement": {
+    "text": "Feel better or it's free — Try Now",
+    "url": "/pages/gummies-offer-alc-lp"
+  },
+  "hero": {
+    "headline": [
+      "5 Reasons Why",
+      "People are Switching to Microdosed Gummies."
+    ],
+    "subheadline": "Get the relaxing buzz without the hangover, calories, or regret.",
+    "cta": {
+      "text": "Try The Gummies →",
+      "url": "/pages/gummies-offer-alc-lp"
+    },
+    "socialProof": "400,000+ Happy Customers"
+  },
+  "reasons": [
+    {
+      "number": "1",
+      "title": "Less stress, more calm with just one gummy.",
+      "description": [
+        "Long days, packed schedules, and everyday stress often lead people to reach for a drink to unwind. But cutting back on alcohol doesn't have to suck.",
+        "Feals Gummies deliver a balanced microdose of hemp to help ease your mind and body, so you can unwind without feeling glued to the couch or out of control. Plus, their bright, juicy tangerine flavor has no grassy aftertaste, making them a feel-good ritual you'll actually look forward to at the end of the day."
+      ],
+      "showIngredientButton": false,
+      "cta": {
+        "text": "Try The Gummies →",
+        "url": "/pages/gummies-offer-alc-lp"
+      }
+    },
+    {
+      "number": "2",
+      "title": "Low-dose, lab-tested, and made with clean, natural ingredients.",
+      "description": [
+        "These aren't your typical college edibles that send you to outer space or make you paranoid. Feals Gummies are scientifically microdosed to relax your mind and body without overwhelming your system or altering your clarity.",
+        "Plus, every batch is triple-tested for purity and potency. Certified lab results can be viewed by scanning the QR code found on the back of each pack."
+      ],
+      "showIngredientButton": true,
+      "cta": {
+        "text": "Try The Gummies →",
+        "url": "/pages/gummies-offer-alc-lp"
+      }
+    },
+    {
+      "number": "3",
+      "title": "Same relaxing buzz as wine without the tradeoffs.",
+      "description": [
+        "Gummies deliver the same wind-down feeling as a glass of wine—minus the hangover, next-day fog, and empty calories.",
+        "• $1.83 per gummy versus $8+ glass of wine",
+        "• 10 calories versus roughly 120 calories in wine",
+        "With gummies, you still get the relaxing buzz and stress relief. Same ritual, far fewer consequences."
+      ],
+      "showIngredientButton": false,
+      "cta": {
+        "text": "Try The Gummies →",
+        "url": "/pages/gummies-offer-alc-lp"
+      }
+    },
+    {
+      "number": "4",
+      "title": "Trusted by more than 400,000 happy customers.",
+      "description": [
+        "With over 400,000 customers and 7,000+ five-star reviews, Feals Gummies have become a go-to swap for people who want to unwind without relying on alcohol.",
+        "Whether it's after a stressful workday, during a night out with friends, or as part of a healthier evening routine, these gummies make it easy to relax, stay present, and enjoy the moment without the hangovers and other downsides of alcohol."
+      ],
+      "showIngredientButton": false,
+      "cta": {
+        "text": "Try The Gummies →",
+        "url": "/pages/gummies-offer-alc-lp"
+      }
+    },
+    {
+      "number": "5",
+      "title": "Feel better or your money back.",
+      "description": [
+        "Try Feals risk-free for 30 days or your money back.",
+        "Each pack includes 30 gummies, giving you plenty of time to find a more mindful way to unwind and cut back on drinking. They're vegan, low sugar (2g), non-GMO, and gluten-free—making them an easy, feel-good alternative to your nightly wine or cocktail. And if you don't love them, you'll get a full refund—no strings attached."
+      ],
+      "showIngredientButton": false,
+      "cta": {
+        "text": "Try The Gummies →",
+        "url": "/pages/gummies-offer-alc-lp"
+      }
+    }
+  ],
+  "testimonials": {
+    "headline": "Join over 400,000 happy Feals customers.",
+    "items": [
+      {
+        "title": "I was very reluctant to try but...",
+        "quote": "I was very reluctant to try because of my last 2 experiences magnified my anxiety. These are a COMPLETELY positive experience because I have control over the effect based on the dosage guidance.",
+        "author": "Reagan T.",
+        "verified": "Verified Buyer"
+      },
+      {
+        "title": "Alcohol is OUT",
+        "quote": "As someone who is looking to cut way back on my drinking, but achieve that \"feel-good\" relaxation… these are IT. I love how I can alter how strong the feeling is by how many gummies taken. I sleep better and wake up refreshed with no hangover!",
+        "author": "Sarah F.",
+        "verified": "Verified Buyer"
+      },
+      {
+        "title": "Love these relaxing gummies",
+        "quote": "I love these gummies. They help me feel relaxed in about 30 minutes after I take just one. I replaced my evening glass of wine- minus the morning headache. They also help ease some muscle aches I commonly have and just help with an overall sense of calm.",
+        "author": "Emily O.",
+        "verified": "Verified Buyer"
+      },
+      {
+        "title": "A must for your self care toolbox!",
+        "quote": "Great addition to my self care tool box! The gummies give me a sense of calm to help with daily tasks. Using them for social settings such as concerts or going out to busy places help keep me grounded and in-tune with myself and focused on the present moment. Has a good taste and gummy consistency is on point!",
+        "author": "Nichole R.",
+        "verified": "Verified Buyer"
+      },
+      {
+        "title": "Chew and chill",
+        "quote": "I needed something to help with what had become an after work happy hour habit and the feals gummies are working! Whenever I have a stressful day I chew a couple of gummies and feel less stressed and more \"chill\". No fuzzy brain feeling just more relaxed and less wound up.",
+        "author": "Rachel R.",
+        "verified": "Verified Buyer"
+      }
+    ]
+  },
+  "finalCta": {
+    "headline": "Ready to take a break from alcohol?",
+    "subheadline": "Try Feals Relax Gummies risk-free and make the switch to feel better today.",
+    "cta": {
+      "text": "Try The Gummies →",
+      "url": "/pages/gummies-offer-alc-lp"
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "logo": {
+    "src": "/images/derila/logo.svg",
+    "alt": "Derila Pillow"
+  },
+  "footerLogo": {
+    "src": "/images/derila/icon-2.svg",
+    "alt": "Derila"
+  },
+  "stars": {
+    "src": "/images/derila/stars.png",
+    "alt": "Star rating"
+  },
+  "articleImages": [
+    { "src": "/images/derila/1.jpg", "alt": "Derila Memory Foam Pillow" },
+    { "src": "/images/derila/2.jpg", "alt": "Derila Pillow - Sleep Better" },
+    { "src": "/images/derila/3.jpg", "alt": "Derila Pillow - Ergonomic Design" },
+    { "src": "/images/derila/4.jpg", "alt": "Derila Pillow - Undo Sleep Damage" },
+    { "src": "", "alt": "Derila Pillow - Memory Foam Technology" },
+    { "src": "", "alt": "Derila Pillow - Posture Support" },
+    { "src": "", "alt": "Derila Pillow - Comfort" },
+    { "src": "", "alt": "Derila Pillow - Customer Results" }
+  ],
+  "testimonialImages": [
+    { "src": "", "alt": "Customer review" },
+    { "src": "", "alt": "Customer review" },
+    { "src": "", "alt": "Customer review" }
+  ],
+  "sidebarImage": {
+    "src": "/images/derila/12-2.jpg",
+    "alt": "Derila Memory Foam Pillow"
+  },
+  "icons": {
+    "mobileMenu": { "src": "/images/derila/icon-1.svg", "alt": "Menu" },
+    "privacy": { "src": "/images/derila/icon-3.svg", "alt": "Privacy" },
+    "phone": { "src": "/images/derila/icon-4.svg", "alt": "Phone" },
+    "email": { "src": "/images/derila/icon-5.svg", "alt": "Email" },
+    "payment1": { "src": "/images/derila/icon-6.svg", "alt": "Payment method" },
+    "payment2": { "src": "/images/derila/icon-7.svg", "alt": "Payment method" },
+    "payment3": { "src": "/images/derila/icon-8.svg", "alt": "Payment method" },
+    "payment4": { "src": "/images/derila/icon-9.svg", "alt": "Payment method" },
+    "cookieClose": { "src": "/images/derila/icon-10.svg", "alt": "Close" },
+    "cookieOn": { "src": "/images/derila/icon-11.svg", "alt": "Enabled" },
+    "cookieOff": { "src": "/images/derila/icon-12.svg", "alt": "Disabled" },
+    "chat": { "src": "/images/derila/icon-14.svg", "alt": "Chat" }
+  }
+}

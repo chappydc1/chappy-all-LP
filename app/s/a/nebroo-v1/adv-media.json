@@ -1,0 +1,52 @@
+{
+  "flagIcon": "https://assets.checkoutchamp.com/0fae3c70-45dd-11ee-86e4-45d907ee05ed/1711366759829_bitmap.png",
+  "sidebarProductImage": "https://assets.checkoutchamp.com/4f769c70-e97a-11ef-954e-ddcb7f30f874/1763879193523_1759982473993_CN130S_Checkout_Image.webp",
+  "sidebarArrowIcon": "https://c.animaapp.com/mnykowdxYMGwF3/assets/1711370973556_3.png",
+  "starsImage": "https://assets.checkoutchamp.com/51125ed0-fc6c-11ee-83a5-1d9004fa3081/1721395544413_stars_5.png",
+  "paymentMethods": "https://assets.checkoutchamp.com/51125ed0-fc6c-11ee-83a5-1d9004fa3081/1719483630013_1718789453182_f1e052fc3f19b3c0bf6479b1c7f772a2.webp",
+  "asSeenOnDesktop": "https://assets.checkoutchamp.com/0415d360-e677-11ee-a7b2-eb6e26f0128b/1739406878598_1735824290045_3.webp",
+  "asSeenOnMobile": "https://assets.checkoutchamp.com/0415d360-e677-11ee-a7b2-eb6e26f0128b/1738651192369_As_seen_on_v2_1_.webp",
+  "videos": {
+    "v1": { "format": "wistia", "id": "tg55gmif1y" },
+    "v2": { "format": "wistia", "id": "ycstdg4v3k" },
+    "v3": { "format": "wistia", "id": "8k9htk6g5z" },
+    "v4": { "format": "wistia", "id": "av93633sy4" },
+    "v5": { "format": "wistia", "id": "knayatckbp" },
+    "v6": { "format": "wistia", "id": "m70qb73mrn" },
+    "v7": { "format": "wistia", "id": "z07ph1z7j6", "layout": "alternate" },
+    "v8": { "format": "mp4", "src": "https://embed-ssl.wistia.com/deliveries/41656e1559979f696535cf4d760cb001314039dd/file.mp4" },
+    "v9": { "format": "mp4", "src": "https://embed-ssl.wistia.com/deliveries/633eb708311a3a183cdf4497669e69a1bbb7a2d0/file.mp4" },
+    "v10": { "format": "wistia", "id": "xg341uibrl", "layout": "alternate" }
+  },
+  "images": {
+    "optionsImg": "https://assets.checkoutchamp.com/0415d360-e677-11ee-a7b2-eb6e26f0128b/1739334351801_So_what_are_my_options.webp",
+    "costImg": "https://assets.checkoutchamp.com/0415d360-e677-11ee-a7b2-eb6e26f0128b/1725110900577_Image_11_v3.webp",
+    "purchaseImg": "https://assets.checkoutchamp.com/4f769c70-e97a-11ef-954e-ddcb7f30f874/1767160116499_adv_v1_Pro_3.0.webp",
+    "chooseSizeImg": "https://assets.checkoutchamp.com/0415d360-e677-11ee-a7b2-eb6e26f0128b/1739604053983_Choose_the_perfect_size.webp",
+    "warrantyImg": "https://assets.checkoutchamp.com/0415d360-e677-11ee-a7b2-eb6e26f0128b/1733710932983_120_Day_v2_1_.webp"
+  },
+  "reviewAvatars": {
+    "reviewLynne": "https://assets.checkoutchamp.com/51125ed0-fc6c-11ee-83a5-1d9004fa3081/1721396859824_avatar_2_cropped.webp",
+    "reviewBobby": "https://assets.checkoutchamp.com/51125ed0-fc6c-11ee-83a5-1d9004fa3081/1721396910855_avatar_3_cropped.webp",
+    "reviewDan": "https://assets.checkoutchamp.com/51125ed0-fc6c-11ee-83a5-1d9004fa3081/1721397057307_avatar_4_cropped.webp"
+  },
+  "commentAvatars": {
+    "cBarbara": "https://assets.checkoutchamp.com/0415d360-e677-11ee-a7b2-eb6e26f0128b/1733617084175_Marcella_Hastings.webp",
+    "cRichard": "https://assets.checkoutchamp.com/0415d360-e677-11ee-a7b2-eb6e26f0128b/1733617237015_Richard_Wilson.webp",
+    "cDoug": "https://assets.checkoutchamp.com/0415d360-e677-11ee-a7b2-eb6e26f0128b/1733617234876_Doug_Johnson.webp",
+    "cJose": "https://assets.checkoutchamp.com/0415d360-e677-11ee-a7b2-eb6e26f0128b/1733617232938_Franklin_Monroe.webp",
+    "cLionel": "https://assets.checkoutchamp.com/0415d360-e677-11ee-a7b2-eb6e26f0128b/1712227680885_Screenshot_2024_04_04_at_6.47.28_PM.webp",
+    "cMark": "https://assets.checkoutchamp.com/0415d360-e677-11ee-a7b2-eb6e26f0128b/1733617143932_Winston_Harper.webp",
+    "cRowena": "https://assets.checkoutchamp.com/0415d360-e677-11ee-a7b2-eb6e26f0128b/1733616910188_Zelda_Montgomery.webp",
+    "cCecelia": "https://assets.checkoutchamp.com/0415d360-e677-11ee-a7b2-eb6e26f0128b/1733617318212_Cecillia_Pruitt.webp",
+    "cLucille": "https://assets.checkoutchamp.com/0415d360-e677-11ee-a7b2-eb6e26f0128b/1733617055645_Rowena_Baron.webp",
+    "cSharon": "https://assets.checkoutchamp.com/0415d360-e677-11ee-a7b2-eb6e26f0128b/1733617058554_Sharon_Harper.webp",
+    "cZelda": "https://assets.checkoutchamp.com/0415d360-e677-11ee-a7b2-eb6e26f0128b/1733617019729_Barbara_Miller.webp",
+    "cCurtis": "https://assets.checkoutchamp.com/0415d360-e677-11ee-a7b2-eb6e26f0128b/1733617003166_Curtis_Reynolds.webp",
+    "cWinston": "https://assets.checkoutchamp.com/0415d360-e677-11ee-a7b2-eb6e26f0128b/1733616985161_Desmond_Vaughn.webp",
+    "cFranklin": "https://assets.checkoutchamp.com/0415d360-e677-11ee-a7b2-eb6e26f0128b/1733616961643_Mark_Owens.webp",
+    "cMarcella": "https://assets.checkoutchamp.com/0415d360-e677-11ee-a7b2-eb6e26f0128b/1733616940914_Betty_Martinez.webp",
+    "cGwendolyn": "https://assets.checkoutchamp.com/0415d360-e677-11ee-a7b2-eb6e26f0128b/1733617139898_Lucille_Langley.webp",
+    "cDesmond": "https://assets.checkoutchamp.com/0415d360-e677-11ee-a7b2-eb6e26f0128b/1733616887966_Lionel_Beckett.webp"
+  }
+}

@@ -1,0 +1,183 @@
+{
+  "meta": {
+    "product": "Emma",
+    "brand": "Gut Renewal Formula",
+    "doctor": "Dr. Gina Sam, M.D.",
+    "doctorTitle": "Top Gastroenterologist 2024",
+    "doctorCredentials": "Leading NYC gastroenterologist, former director of the Mount Sinai Gastrointestinal Motility Center",
+    "phone": "1-888-808-EMMA (3662)",
+    "copyright": "© Emma 2026. All Rights Reserved",
+    "disclaimer": "*These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure or prevent any disease. Use only as directed. The information provided herein is intended for your general knowledge only and is not intended to be, nor is it, medical advice or a substitute for medical advice. If you have or suspect you have, a specific medical condition or disease, please consult your healthcare provider."
+  },
+  "hero": {
+    "preHeadline": "Top NYC Gut Doctor:",
+    "headline": "\"Do This Once A Day To Empty Your Bowels Like Clockwork...\"",
+    "videoNotice": "IMPORTANT: Your video may take 10 seconds to load. Make sure your sound is on.",
+    "doctorBio": "Dr. Gina Sam, MD, is a leading NYC gastroenterologist and former director of the Mount Sinai Gastrointestinal Motility Center. Over her 20-year career, Dr. Sam has specialized in treating digestive and metabolic disorders, founding the Institute of Gastrointestinal Motility Disorders and Integrative Health in New York City. Dr. Sam's research has positioned her at the forefront of understanding obesity, fatigue and other metabolic dysfunctions."
+  },
+  "pricing": {
+    "headline": "Select Your Package",
+    "packages": [
+      {
+        "id": "1-pack",
+        "tier": "STARTER",
+        "supply": "30 Day Supply",
+        "bottles": 1,
+        "pricePerBottle": "$59",
+        "originalPrice": "$99",
+        "totalPrice": "$59",
+        "discountedTotal": "$59",
+        "features": [],
+        "ctaHref": "https://go.gutrenewalformula.com/products/emma-1-pack-grf-er-vslrmb/?_raclid=9a1a687b-c0c6-4856-8ff8-e09031df5b2d&ad_id=269813",
+        "isBestValue": false
+      },
+      {
+        "id": "3-pack",
+        "tier": "DOCTOR'S CHOICE",
+        "supply": "90 Day Supply",
+        "bottles": 3,
+        "pricePerBottle": "$49",
+        "originalPrice": "$297",
+        "totalPrice": "$147",
+        "discountedTotal": "$147",
+        "features": ["LEAN BELLY SHAKES RECIPES"],
+        "ctaHref": "https://go.gutrenewalformula.com/products/emma-3-pack-grf-er-vslrmb/?_raclid=9a1a687b-c0c6-4856-8ff8-e09031df5b2d&ad_id=269813",
+        "isBestValue": false
+      },
+      {
+        "id": "6-pack",
+        "tier": "BEST VALUE",
+        "supply": "180 Day Supply",
+        "bottles": 6,
+        "pricePerBottle": "$39",
+        "originalPrice": "$594",
+        "totalPrice": "$234",
+        "discountedTotal": "$234",
+        "features": ["BIGGEST DISCOUNT", "LEAN BELLY SHAKES RECIPES"],
+        "ctaHref": "https://go.gutrenewalformula.com/products/emma-6-pack-grf-er-vslrmb/?_raclid=9a1a687b-c0c6-4856-8ff8-e09031df5b2d&ad_id=269813",
+        "isBestValue": true
+      }
+    ]
+  },
+  "guarantee": {
+    "badgeText": "Full Industry Best 90 Day No Questions Asked",
+    "headline": "100% Money Back Satisfaction Guarantee",
+    "body": [
+      "You are going to love what Emma does for your gut. You'll love the regular poops, the relief of complete bowel elimination and the trim waistline that comes from reduced bloating.",
+      "Otherwise, just send it back for a full, no questions asked refund. You can even send back an empty bottle. Just call us at 1-888-808-EMMA (3662) and our friendly customer support team will take care of you, promptly.",
+      "Your satisfaction is of utmost importance to us. It's not just our company creed but a personal policy. We are here to support your journey to better health and an improved quality of life."
+    ]
+  },
+  "bonus": {
+    "headline": "NEW! \"Lean Belly Shakes\"",
+    "subheadline": "Yours FREE with any multipack purchase - Instant access",
+    "body": [
+      "Lean Belly Shakes is a delicious way to help slim down and clean out your gut.",
+      "Each one of the Shakes in this recipe book is specially designed to gently eliminate waste, while nourishing your body.",
+      "See a flatter tummy in the mirror in just a week with these creamy smoothies!",
+      "Everyone gets cravings for sweet things. Simply blend up one of these shakes to satisfy your sweet tooth and lean out at the same time.",
+      "Ramp up your metabolism with our Blueberry Açaí Smoothie, the Happy Belly Green Smoothie, Coconut Mint Smoothie or Creamy Turmeric Smoothie!",
+      "Looking to accelerate your gut restoration progress? Just try our Strawberry and Blueberry Chia Smoothie, or Heavenly Green Smoothie.",
+      "Trying to flatten your tummy for an important wedding or vacation? Just blend up our Creamy Pumpkin Chia Smoothie, Avocado and Lime Shake-Up, Choco Avo Milkshake or Cinnamon Keto Smoothie and blast away that belly fat. Fast!",
+      "...And it's free with ANY multipack purchase on this page today."
+    ]
+  },
+  "testimonials": [
+    {
+      "name": "Natasha K",
+      "image": "ava1",
+      "title": "\"This has given me my life back...\"",
+      "text": "\"I have struggled with IBS for 6+ years now and this has made my symptoms much more manageable. I don't have an urgency to go all the time anymore and I don't feel sick like I used to. My body digests at a normal pace, and in turn, my anxiety has slowly started to decrease in regards to my bathroom habits. I look fresher and more vibrant and in some ways, this has given me my life back.\""
+    },
+    {
+      "name": "Lucy C",
+      "image": "lucy",
+      "title": "\"The feeling I get when it enters into my body it's better than coffee...\"",
+      "text": "\"Taking supplements is completely new to me. I've made it a habit to drink this first thing in the morning like the instructions recommend. The feeling I get when it enters into my body, it's better than coffee! I'm enjoying more regular bathroom visits which is helping me get out more and do things.\""
+    },
+    {
+      "name": "Amberlyn F",
+      "image": "amberlyn",
+      "title": "\"My stomach is noticeably flatter...\"",
+      "text": "\"I have a lot of stomach issues and taking this each day with Emma has all but erased my issues. I noticed a difference within the first few days. To me, my stomach is noticeably flatter. Thankfully no more bloat and it's helping to repair my digestive system.\""
+    },
+    {
+      "name": "Patricia G",
+      "image": "patricia",
+      "title": "\"No bloat and it's helping clean out my body in a natural way (Pooping!)...\"",
+      "text": "\"I got this product recently and love it. Supreme Greens and Emma are a great combination. No bloat and it's helping clean out my body in a natural way (Pooping!) I feel so great! I've also stopped craving sugar. Even my husband has noticed how much it's helped me and wants his own supply.\""
+    }
+  ],
+  "comments": [
+    { "name": "Emily",    "text": "Wow, just wow. This video completely changed my understanding of digestion. If you've been struggling with bloating or constipation, you *need* to watch this." },
+    { "name": "Josh",     "text": "All these years, I thought fiber was the solution. Dr. Sam blew my mind with her explanation of what's really going on in the gut. Total eye-opener." },
+    { "name": "Ava",      "text": "I've been suffering from digestive issues for ages, and this video finally gave me the answers I've been searching for. This info could change lives. The little section about parasites was crazy." },
+    { "name": "Matthew",  "text": "Just finished watching—never realized how much my gut health was impacting my energy levels. I'm making changes right away. 10/10 video." },
+    { "name": "Sophia",   "text": "Dr. Sam's 7-second ritual is a game-changer. My bloating is already better, and I've only been trying it for a few days." },
+    { "name": "Leo",      "text": "This video explains everything that no other doctor told me. I thought I knew about gut health, but this just took it to another level. The thing she said at the end about toxins in your blood was mind blowing. Highly recommend." },
+    { "name": "Grace",    "text": "Honestly, this video is a must-watch for anyone struggling with their digestion. Dr. Sam breaks it down so simply. I can't believe I was doing everything wrong." },
+    { "name": "James",    "text": "I was skeptical at first, but this blew me away. So much valuable info packed into one video. I stopped eating the 3 foods she mentioned and my stomach's been thanking me ever since." },
+    { "name": "Samantha", "text": "This totally changed my mindset about gut health. I had no idea that constipation could be linked to so many other problems. Thanks, Dr. Sam." },
+    { "name": "Oliver",   "text": "If you're tired of feeling sluggish, bloated, and stuck, watch this video NOW. It's honestly the best thing I've seen on digestive health." },
+    { "name": "Megan",    "text": "I had no idea parasites could be living in my gut, wreaking havoc on my health. This video opened my eyes in ways I never expected. You HAVE to see it!" },
+    { "name": "Noah",     "text": "Just finished the video… I'm speechless. The ending left me totally shocked. I never thought my gut was connected to all these issues." },
+    { "name": "Isabella", "text": "The part about parasites in the gut seriously blew my mind. I've never heard anyone explain it like this before. Everyone needs to watch this." },
+    { "name": "Ryan",     "text": "The way Dr. Sam connects gut health to almost every other part of the body is insane. The last few minutes of the video are a real eye-opener. Don't miss it!" },
+    { "name": "Jessica",  "text": "If you think your digestive issues are just 'normal,' watch this video. Dr. Sam breaks down why it could be something way more serious. I'm rethinking everything!" },
+    { "name": "Alex",     "text": "What she said about parasites freaked me out at first, but the solutions are so simple and natural. This video is a must-watch if you want to take control of your health." },
+    { "name": "Ella",     "text": "I thought I knew everything about gut health, but the end of this video? Wow. It completely turned everything I thought I knew upside down." },
+    { "name": "Tyler",    "text": "I've watched tons of health videos, but the last 5 minutes of this one were next-level. You won't believe what Dr. Sam reveals at the end!" },
+    { "name": "Chloe",    "text": "I've always struggled with bloating and fatigue. Turns out, the root cause could be parasites? I never would have known if I didn't watch this video!" },
+    { "name": "Zack",     "text": "Just finished watching and the ending completely floored me. There's so much more to gut health than I realized. Dr. Sam really knows her stuff." }
+  ],
+  "faq": [
+    {
+      "number": 1,
+      "question": "Hey Dr. Sam, I've tried everything from laxatives, to cleanses to probiotics. And probiotics are quite popular these days so what makes Emma superior to probiotics?"
+    },
+    {
+      "number": 2,
+      "question": "I've always kinda suspected that my weight gain as I've gotten older is related to my digestion problems, and your presentation confirms this. So my question is, will Emma help me lose weight?"
+    },
+    {
+      "number": 3,
+      "question": "Are there any side effects? Is it safe to take long term?"
+    },
+    {
+      "number": 4,
+      "question": "I don't have constipation very often, but I do struggle with food allergies."
+    },
+    {
+      "number": 5,
+      "question": "Will Emma help with bloating and constipation?"
+    },
+    {
+      "number": 6,
+      "question": "Will Emma help with diarrhea?"
+    },
+    {
+      "number": 7,
+      "question": "How fast will I see results?"
+    },
+    {
+      "number": 8,
+      "question": "Is Emma available anywhere else for a lower price?"
+    }
+  ],
+  "footer": {
+    "links": [
+      { "label": "Terms & Conditions", "href": "#" },
+      { "label": "Privacy Policy", "href": "#" },
+      {
+        "label": "Click here to view text",
+        "href": "https://gutrenewalformula.com/pages/er-vslyt-inter-text/?_raclid=9a1a687b-c0c6-4856-8ff8-e09031df5b2d&ad_id=269813",
+        "external": true
+      },
+      {
+        "label": "Privacy Options",
+        "href": "https://privacy.konscious.us/opt-out",
+        "external": true
+      }
+    ]
+  }
+}

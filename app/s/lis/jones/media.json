@@ -1,0 +1,194 @@
+{
+  "baseLocal": "/s/lis/jones",
+  "baseCdn": "https://c.animaapp.com/mpke0433qmtH28/assets",
+  "images": [
+    {
+      "id": "icon-close",
+      "local": "/s/lis/jones/icon-1.svg",
+      "cdn": "https://c.animaapp.com/mpke0433qmtH28/assets/icon-1.svg",
+      "usage": "Cookie consent close button"
+    },
+    {
+      "id": "icon-bg",
+      "local": "/s/lis/jones/icon-2.svg",
+      "cdn": "https://c.animaapp.com/mpke0433qmtH28/assets/icon-2.svg",
+      "usage": "Background decoration icon"
+    },
+    {
+      "id": "image-bg",
+      "local": "/s/lis/jones/image-1.svg",
+      "cdn": "https://c.animaapp.com/mpke0433qmtH28/assets/image-1.svg",
+      "usage": "Page background gradient overlay"
+    },
+    {
+      "id": "ccpa-icon",
+      "local": "/s/lis/jones/image-2.svg",
+      "cdn": "https://c.animaapp.com/mpke0433qmtH28/assets/image-2.svg",
+      "usage": "CCPA opt-out icon in footer"
+    },
+    {
+      "id": "logo",
+      "local": "/s/lis/jones/134.png",
+      "cdn": "https://c.animaapp.com/mpke0433qmtH28/assets/134.png",
+      "usage": "Jones Road Beauty logo in header"
+    },
+    {
+      "id": "nav-open",
+      "local": "/s/lis/jones/141.png",
+      "cdn": "https://c.animaapp.com/mpke0433qmtH28/assets/141.png",
+      "usage": "Mobile nav hamburger open icon"
+    },
+    {
+      "id": "nav-close",
+      "local": "/s/lis/jones/144.png",
+      "cdn": "https://c.animaapp.com/mpke0433qmtH28/assets/144.png",
+      "usage": "Mobile nav close icon"
+    },
+    {
+      "id": "hero-main",
+      "local": "/s/lis/jones/146.png",
+      "cdn": "https://c.animaapp.com/mpke0433qmtH28/assets/146.png",
+      "usage": "Hero main image - foundation jars in rows"
+    },
+    {
+      "id": "hero-stars",
+      "local": "/s/lis/jones/142.png",
+      "cdn": "https://c.animaapp.com/mpke0433qmtH28/assets/142.png",
+      "usage": "Hero star rating graphic"
+    },
+    {
+      "id": "star-icon",
+      "local": "/s/lis/jones/139.png",
+      "cdn": "https://c.animaapp.com/mpke0433qmtH28/assets/139.png",
+      "usage": "Individual star icon used in testimonial ratings"
+    },
+    {
+      "id": "separator",
+      "local": "/s/lis/jones/129.svg",
+      "cdn": "https://c.animaapp.com/mpke0433qmtH28/assets/129.svg",
+      "usage": "Testimonial separator dot between author and badge"
+    },
+    {
+      "id": "zoom-icon",
+      "local": "/s/lis/jones/icon-3.svg",
+      "cdn": "https://c.animaapp.com/mpke0433qmtH28/assets/icon-3.svg",
+      "usage": "Image zoom/expand button icon"
+    },
+    {
+      "id": "feature1-mobile",
+      "local": "/s/lis/jones/137.jpg",
+      "cdn": "https://c.animaapp.com/mpke0433qmtH28/assets/137.jpg",
+      "usage": "Feature 1 mobile image - close-up of woman with freckles and blue eyes"
+    },
+    {
+      "id": "feature2-desktop",
+      "local": "/s/lis/jones/143.png",
+      "cdn": "https://c.animaapp.com/mpke0433qmtH28/assets/143.png",
+      "usage": "Feature 2 desktop image - foundation shades chart with face pencil numbers"
+    },
+    {
+      "id": "feature2-mobile",
+      "local": "/s/lis/jones/132.jpg",
+      "cdn": "https://c.animaapp.com/mpke0433qmtH28/assets/132.jpg",
+      "usage": "Feature 2 mobile image - foundation shade chart"
+    },
+    {
+      "id": "feature4-desktop",
+      "local": "/s/lis/jones/149.png",
+      "cdn": "https://c.animaapp.com/mpke0433qmtH28/assets/149.png",
+      "usage": "Feature 4 desktop image - person on blue couch with makeup items and Makeup Manual book"
+    },
+    {
+      "id": "feature4-mobile",
+      "local": "/s/lis/jones/133.jpg",
+      "cdn": "https://c.animaapp.com/mpke0433qmtH28/assets/133.jpg",
+      "usage": "Feature 4 mobile image - woman sitting on blue couch with makeup items"
+    },
+    {
+      "id": "feature5-desktop",
+      "local": "/s/lis/jones/147.jpg",
+      "cdn": "https://c.animaapp.com/mpke0433qmtH28/assets/147.jpg",
+      "usage": "Feature 5 desktop image"
+    },
+    {
+      "id": "feature5-mobile",
+      "local": "/s/lis/jones/138.jpg",
+      "cdn": "https://c.animaapp.com/mpke0433qmtH28/assets/138.jpg",
+      "usage": "Feature 5 mobile image - smiling person holding jar of cosmetic cream"
+    },
+    {
+      "id": "press1",
+      "local": "/s/lis/jones/136.png",
+      "cdn": "https://c.animaapp.com/mpke0433qmtH28/assets/136.png",
+      "usage": "Press logo 1"
+    },
+    {
+      "id": "press2",
+      "local": "/s/lis/jones/135.png",
+      "cdn": "https://c.animaapp.com/mpke0433qmtH28/assets/135.png",
+      "usage": "Press logo 2"
+    },
+    {
+      "id": "press3",
+      "local": "/s/lis/jones/131.png",
+      "cdn": "https://c.animaapp.com/mpke0433qmtH28/assets/131.png",
+      "usage": "Press logo 3"
+    },
+    {
+      "id": "press4",
+      "local": "/s/lis/jones/130.png",
+      "cdn": "https://c.animaapp.com/mpke0433qmtH28/assets/130.png",
+      "usage": "Press logo 4 (desktop only)"
+    },
+    {
+      "id": "press5",
+      "local": "/s/lis/jones/140.png",
+      "cdn": "https://c.animaapp.com/mpke0433qmtH28/assets/140.png",
+      "usage": "Press logo 5 (desktop only)"
+    },
+    {
+      "id": "final-cta",
+      "local": "/s/lis/jones/145.png",
+      "cdn": "https://c.animaapp.com/mpke0433qmtH28/assets/145.png",
+      "usage": "Final CTA section image - woman applying foundation on cheek with finger"
+    },
+    {
+      "id": "icon-instagram",
+      "local": "/s/lis/jones/icon-4.svg",
+      "cdn": "https://c.animaapp.com/mpke0433qmtH28/assets/icon-4.svg",
+      "usage": "Instagram social icon in footer"
+    },
+    {
+      "id": "icon-facebook",
+      "local": "/s/lis/jones/icon-5.svg",
+      "cdn": "https://c.animaapp.com/mpke0433qmtH28/assets/icon-5.svg",
+      "usage": "Facebook social icon in footer"
+    },
+    {
+      "id": "icon-twitter",
+      "local": "/s/lis/jones/icon-6.svg",
+      "cdn": "https://c.animaapp.com/mpke0433qmtH28/assets/icon-6.svg",
+      "usage": "Twitter social icon in footer"
+    },
+    {
+      "id": "icon-pinterest",
+      "local": "/s/lis/jones/icon-7.svg",
+      "cdn": "https://c.animaapp.com/mpke0433qmtH28/assets/icon-7.svg",
+      "usage": "Pinterest social icon in footer"
+    }
+  ],
+  "videos": [
+    {
+      "id": "feature3-desktop",
+      "src": "https://assets.replocdn.com/projects/32f42d43-36fa-41a0-9362-ba9e1c289321/6367dd54-1892-4c01-ac08-144a1dbd9e12",
+      "usage": "Feature 3 desktop video - foundation application",
+      "note": "External CDN - download and place in public/s/lis/jones/ to self-host"
+    },
+    {
+      "id": "feature3-mobile",
+      "src": "https://cdn.shopify.com/videos/c/o/v/57ca12a825024eeba24fca4b3e00166a.mp4",
+      "usage": "Feature 3 mobile video - foundation application",
+      "note": "External CDN - download and place in public/s/lis/jones/ to self-host"
+    }
+  ]
+}

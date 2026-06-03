@@ -1,0 +1,267 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Work Sans';
+  src: url('https://fonts.gstatic.com/s/worksans/v24/QGYsz_wNahGAdqQ43Rh_fKDp.woff2') format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Work Sans';
+  src: url('https://fonts.gstatic.com/s/worksans/v24/QGYsz_wNahGAdqQ43Rh_fKDp.woff2') format("woff2");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Work Sans';
+  src: url('https://fonts.gstatic.com/s/worksans/v24/QGYsz_wNahGAdqQ43Rh_fKDp.woff2') format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'myriad-pro';
+  src: url('https://s3.amazonaws.com/konsciousketo.com/fonts/Myriad+Pro+Regular.ttf') format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'myriad-pro';
+  src: url('https://s3.amazonaws.com/konsciousketo.com/fonts/Myriad+Pro+Bold.ttf') format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'WistiaPlayerInter';
+  src: url('https://fast.wistia.com/assets/external/fonts/Inter-Extended.woff') format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.animate-fade-in-up {
+  animation: fade-in-up 0.6s ease-out forwards;
+  opacity: 0;
+}
+
+.animate-fade-in {
+  animation: fade-in 0.6s ease-out forwards;
+  opacity: 0;
+}
+
+.delay-100 { animation-delay: 100ms; transition-delay: 0.1s; }
+.delay-200 { animation-delay: 200ms; transition-delay: 0.2s; }
+.delay-300 { animation-delay: 300ms; transition-delay: 0.3s; }
+.delay-400 { animation-delay: 400ms; transition-delay: 0.4s; }
+.delay-500 { animation-delay: 500ms; transition-delay: 0.5s; }
+.delay-600 { animation-delay: 600ms; transition-delay: 0.6s; }
+.delay-700 { animation-delay: 700ms; transition-delay: 0.7s; }
+
+@keyframes fade-in-up {
+  from { opacity: 0; transform: translateY(24px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@keyframes pulse-dot {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50%       { opacity: 0.5; transform: scale(1.4); }
+}
+
+.live-dot {
+  animation: pulse-dot 1.4s ease-in-out infinite;
+}
+
+.hover-lift {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.hover-lift:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+}
+
+.like-btn {
+  transition: transform 0.15s ease, color 0.15s ease;
+  cursor: pointer;
+}
+.like-btn:hover {
+  transform: scale(1.15);
+}
+.like-btn:active {
+  transform: scale(0.92);
+}
+
+@font-face {
+  font-family: 'Arial';
+  src: local('Arial');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Helvetica';
+  src: local('Helvetica'), local('Arial');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Fredoka';
+  src: url('https://fonts.gstatic.com/s/fredoka/v14/X7nP4b87HvSqjb_WIi2yDCRwoQ.woff2') format("woff2");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('https://fonts.gstatic.com/s/roboto/v47/KFOMCnqEu92Fr1ME5WNMmhU.woff2') format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('https://fonts.gstatic.com/s/roboto/v47/KFOMCnqEu92Fr1ME5WNMmhU.woff2') format("woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('https://fonts.gstatic.com/s/roboto/v47/KFOMCnqEu92Fr1ME5WNMmhU.woff2') format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLEj6Z1xlFQ.woff2') format("woff2");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLBT5Z1xlFQ.woff2') format("woff2");
+  font-weight: 900;
+  font-style: normal;
+}
+
+/* Scroll reveal utility — transitions disabled, everything visible immediately */
+.scroll-reveal,
+.scroll-reveal.revealed {
+  opacity: 1;
+  transform: none;
+  transition: none;
+}
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 47.4% 11.2%;
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 47.4% 11.2%;
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --card: transparent;
+    --card-foreground: 222.2 47.4% 11.2%;
+    --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+    --destructive: 0 100% 50%;
+    --destructive-foreground: 210 40% 98%;
+    --ring: 215 20.2% 65.1%;
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 224 71% 4%;
+    --foreground: 213 31% 91%;
+    --muted: 223 47% 11%;
+    --muted-foreground: 215.4 16.3% 56.9%;
+    --accent: 216 34% 17%;
+    --accent-foreground: 210 40% 98%;
+    --popover: 224 71% 4%;
+    --popover-foreground: 215 20.2% 65.1%;
+    --border: 216 34% 17%;
+    --input: 216 34% 17%;
+    --card: transparent;
+    --card-foreground: 213 31% 91%;
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 1.2%;
+    --secondary: 222.2 47.4% 11.2%;
+    --secondary-foreground: 210 40% 98%;
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 210 40% 98%;
+    --ring: 216 34% 17%;
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
+/* ── Scroll-reveal utility — transitions disabled, everything visible immediately ── */
+.reveal,
+.reveal.visible,
+.reveal-left,
+.reveal-left.visible,
+.reveal-right,
+.reveal-right.visible,
+.reveal-scale,
+.reveal-scale.visible {
+  opacity: 1;
+  transform: none;
+  transition: none;
+}
+
+/* pulse ring on CTA buttons */
+@keyframes pulse-ring {
+  0%   { box-shadow: 0 0 0 0 rgba(220,38,38,0.55); }
+  70%  { box-shadow: 0 0 0 12px rgba(220,38,38,0); }
+  100% { box-shadow: 0 0 0 0 rgba(220,38,38,0); }
+}
+.cta-pulse {
+  animation: pulse-ring 2s ease-out infinite;
+}
+
+/* bounce arrow */
+@keyframes bounceY {
+  0%, 100% { transform: translateY(0); }
+  50%       { transform: translateY(6px); }
+}
+.bounce-y {
+  animation: bounceY 1.4s ease-in-out infinite;
+}
+
+/* FAQ slide-down */
+@keyframes slideDown {
+  from { max-height: 0; opacity: 0; }
+  to   { max-height: 3000px; opacity: 1; }
+}
+@keyframes slideUp {
+  from { max-height: 3000px; opacity: 1; }
+  to   { max-height: 0; opacity: 0; }
+}
+.faq-open  { animation: slideDown 0.4s ease forwards; overflow: hidden; }
+.faq-close { animation: slideUp  0.3s ease forwards; overflow: hidden; }

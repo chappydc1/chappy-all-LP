@@ -1,0 +1,83 @@
+{
+  "hero": {
+    "bgDesktop": "https://assets.checkoutchamp.com/0415d360-e677-11ee-a7b2-eb6e26f0128b/1739335664233_BG_Desktop_v1.webp",
+    "bgMobile": "https://c.animaapp.com/mnsbh2exJLSZhk/assets/1739335662047_BG_Mobile_v1.webp",
+    "productDesktop": "https://c.animaapp.com/mnsbh2exJLSZhk/assets/1740397514621_Patricia_Green_Desktop_v3.1.webp",
+    "productMobile": "https://c.animaapp.com/mnsbh2exJLSZhk/assets/1740116482834_1729153699510_1727912647492_Top_Comment_WEBP_50Kb.webp"
+  },
+  "trustBadges": {
+    "badge1": "https://c.animaapp.com/mnsbh2exJLSZhk/assets/1729160735276_120_days.webp",
+    "badge2": "https://c.animaapp.com/mnsbh2exJLSZhk/assets/1729160748904_Free_shipping.webp",
+    "badge3": "https://c.animaapp.com/mnsbh2exJLSZhk/assets/1729160838424_Guaranteed_High_Quality.webp"
+  },
+  "asSeen": {
+    "mobile": "https://c.animaapp.com/mnsbh2exJLSZhk/assets/1739604282346_Mobile.png",
+    "desktop": "https://c.animaapp.com/mnsbh2exJLSZhk/assets/1739604284621_Desktop.png"
+  },
+  "reviews": {
+    "starIcon": "https://c.animaapp.com/mnsbh2exJLSZhk/assets/1729142692703_star__1_.webp",
+    "reviewer1": "https://c.animaapp.com/mnsbh2exJLSZhk/assets/1729153936072_1727787054724_Dorothy_J._Reviews.webp",
+    "reviewer2": "https://c.animaapp.com/mnsbh2exJLSZhk/assets/1729153940047_1727912760317_Wilford_C.webp",
+    "reviewer3": "https://c.animaapp.com/mnsbh2exJLSZhk/assets/1729153945802_1727912762728_James_M._Reviews_copy.webp"
+  },
+  "icons": {
+    "checkBlue": "https://c.animaapp.com/mnsbh2exJLSZhk/assets/1729048495546_bluetick_1_.webp",
+    "checkGreen": "https://c.animaapp.com/mnsbh2exJLSZhk/assets/1700045980939_1666773712_check_1check_v1642658295149.png",
+    "cross": "https://c.animaapp.com/mnsbh2exJLSZhk/assets/1700045983205_1666773955_cross_v1642658299531_svg.png"
+  },
+  "offer": {
+    "badge": "https://c.animaapp.com/mnsbh2exJLSZhk/assets/1739451115452_Special_Offer_Now_2_.webp"
+  },
+  "noisy": {
+    "image": "https://c.animaapp.com/mnsbh2exJLSZhk/assets/1739604908898_Effective_even_in_noisy_environments_v3.webp"
+  },
+  "productIntro": {
+    "videoSrc": "https://fast.wistia.com/embed/medias/r24m921dxe.m3u8",
+    "videoPoster": "https://c.animaapp.com/mnsbh2exJLSZhk/assets/blank.gif",
+    "soundIcon": "https://c.animaapp.com/mnsbh2exJLSZhk/assets/icon-1.svg"
+  },
+  "howToUse": {
+    "step1Video": "https://fast.wistia.com/embed/medias/4ii8zb0918.m3u8",
+    "step2Video": "https://fast.wistia.com/embed/medias/ueuyl4ec02.m3u8",
+    "step3Video": "https://fast.wistia.com/embed/medias/uds0h3kcyt.m3u8",
+    "videoPoster": "https://c.animaapp.com/mnsbh2exJLSZhk/assets/blank.gif"
+  },
+  "comparisonTable": {
+    "nebrooProduct1": "https://c.animaapp.com/mnsbh2exJLSZhk/assets/1712304472184_nebroo.webp",
+    "nebrooProduct2": "https://c.animaapp.com/mnsbh2exJLSZhk/assets/1712391520633_nebroo.webp",
+    "competitor": "https://c.animaapp.com/mnsbh2exJLSZhk/assets/1719483630013_1718789453182_f1e052fc3f19b3c0bf6479b1c7f772a2.webp"
+  },
+  "moneyBack": {
+    "badge": "https://c.animaapp.com/mnsbh2exJLSZhk/assets/1729154027441_1727912788821_120_Day_PNG_COMP_copy.webp",
+    "image": "https://c.animaapp.com/mnsbh2exJLSZhk/assets/1739604906705_Money_back_guarantee_v2.webp"
+  },
+  "socialProof": {
+    "image": "https://c.animaapp.com/mnsbh2exJLSZhk/assets/1739604866247_One_Step_Away_v3.webp",
+    "soundFits": "https://c.animaapp.com/mnsbh2exJLSZhk/assets/1739605028190_Sound_that_fits_v7.webp"
+  },
+  "battery": {
+    "image": "https://c.animaapp.com/mnsbh2exJLSZhk/assets/1739407847287_16h_Battery.webp"
+  },
+  "invisible": {
+    "image": "https://c.animaapp.com/mnsbh2exJLSZhk/assets/1739407843738_Nearly_Invisible_1_.webp"
+  },
+  "warranty": {
+    "image": "https://c.animaapp.com/mnsbh2exJLSZhk/assets/1729153931349_1712659679515_1_YR_WARRANTY_W_BG.webp"
+  },
+  "breakthrough": {
+    "image": "https://c.animaapp.com/mnsbh2exJLSZhk/assets/1729153692689_1712407440934_Breakthrough_Discovery.webp"
+  },
+  "noPrescription": {
+    "image": "https://c.animaapp.com/mnsbh2exJLSZhk/assets/1729153792697_1712406903426_Get_Them_Without_a_Prescription_And_Without_Going_Trough_Costly_Exams.webp"
+  },
+  "socialProofReviews": {
+    "desktop1": "https://c.animaapp.com/mnsbh2exJLSZhk/assets/1740397539527_Eileen_Bralin_Desktop_v3.1.webp",
+    "desktop2": "https://c.animaapp.com/mnsbh2exJLSZhk/assets/1740397551768_Barbara_Myers_Desktop_v3.1.webp",
+    "desktop3": "https://c.animaapp.com/mnsbh2exJLSZhk/assets/1740397575789_Wendy_Sylvia_Desktop_v3.1.webp"
+  },
+  "ctaLinks": {
+    "offer1": "https://offer.nebroo.com/405ea2f7-65a5-4b68-a896-eb363bee8231",
+    "offer2": "https://offer.nebroo.com/75b35be4-1985-4b88-8a5d-b4735f6f03a7",
+    "offer3": "https://offer.nebroo.com/76627d0c-9a42-47d4-9db6-666ff5d1c23b"
+  }
+}

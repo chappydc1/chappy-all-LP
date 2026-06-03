@@ -1,0 +1,20 @@
+{
+  "images": {
+    "hero": "/images/morningvitality/image3.jpg",
+    "section_night": "/images/morningvitality/image7.jpg",
+    "section_patient": "/images/morningvitality/image4.jpg",
+    "section_discovery": "/images/morningvitality/image8.jpg",
+    "section_nerve": "/images/morningvitality/image13.jpg",
+    "section_miracle": "/images/morningvitality/image6.jpg",
+    "section_results": "/images/morningvitality/image12.jpg",
+    "section_threats": "/images/morningvitality/image17.jpg",
+    "section_product": "/images/morningvitality/image15.jpg",
+    "section_howit": "/images/morningvitality/image2.jpg",
+    "section_testimonials": "/images/morningvitality/image16.jpg",
+    "section_price": "/images/morningvitality/image1.jpg",
+    "section_scarcity": "/images/morningvitality/image9.jpg",
+    "section_guarantee": "/images/morningvitality/image10.jpg",
+    "cta_product": "/images/morningvitality/image11.jpg",
+    "section_healthy_vs_starving": "/images/morningvitality/image14.jpg"
+  }
+}

@@ -1,0 +1,111 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Work Sans';
+  src: url('https://fonts.gstatic.com/s/worksans/v24/QGYsz_wNahGAdqQ43Rh_fKDp.woff2') format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Work Sans';
+  src: url('https://fonts.gstatic.com/s/worksans/v24/QGYsz_wNahGAdqQ43Rh_fKDp.woff2') format("woff2");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Work Sans';
+  src: url('https://fonts.gstatic.com/s/worksans/v24/QGYsz_wNahGAdqQ43Rh_fKDp.woff2') format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'myriad-pro';
+  src: url('https://s3.amazonaws.com/konsciousketo.com/fonts/Myriad+Pro+Regular.ttf') format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'myriad-pro';
+  src: url('https://s3.amazonaws.com/konsciousketo.com/fonts/Myriad+Pro+Bold.ttf') format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'WistiaPlayerInter';
+  src: url('https://fast.wistia.com/assets/external/fonts/Inter-Extended.woff') format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+/* pulse ring on CTA buttons */
+@keyframes pulse-ring {
+  0%   { box-shadow: 0 0 0 0 rgba(220,38,38,0.55); }
+  70%  { box-shadow: 0 0 0 12px rgba(220,38,38,0); }
+  100% { box-shadow: 0 0 0 0 rgba(220,38,38,0); }
+}
+.cta-pulse {
+  animation: pulse-ring 2s ease-out infinite;
+}
+
+/* bounce arrow */
+@keyframes bounceY {
+  0%, 100% { transform: translateY(0); }
+  50%       { transform: translateY(6px); }
+}
+.bounce-y {
+  animation: bounceY 1.4s ease-in-out infinite;
+}
+
+/* FAQ slide-down */
+@keyframes slideDown {
+  from { max-height: 0; opacity: 0; }
+  to   { max-height: 3000px; opacity: 1; }
+}
+@keyframes slideUp {
+  from { max-height: 3000px; opacity: 1; }
+  to   { max-height: 0; opacity: 0; }
+}
+.faq-open  { animation: slideDown 0.4s ease forwards; overflow: hidden; }
+.faq-close { animation: slideUp  0.3s ease forwards; overflow: hidden; }
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 47.4% 11.2%;
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 47.4% 11.2%;
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --card: transparent;
+    --card-foreground: 222.2 47.4% 11.2%;
+    --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+    --destructive: 0 100% 50%;
+    --destructive-foreground: 210 40% 98%;
+    --ring: 215 20.2% 65.1%;
+    --radius: 0.5rem;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
