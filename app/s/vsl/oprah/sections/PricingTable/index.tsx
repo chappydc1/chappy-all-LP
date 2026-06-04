@@ -23,7 +23,7 @@ const PricingCards = () => (
             title="STARTER"
             supplyText="30 Day Supply"
             supplyBottleText="(1 Bottle)"
-            bottleImageSrc="/vsl/oprah/media/emma-bottle-1.webp"
+            bottleImageSrc="/images/oprah/emma-bottle-1.webp"
             bottleImageClassName="w-[234px]"
             price="$59"
             originalPrice="$99"
@@ -33,7 +33,7 @@ const PricingCards = () => (
             outerClassName="px-3 delay-200"
             headerClassName=""
             contentClassName="bg-[linear-gradient(rgb(255,247,218),rgb(255,255,255))]"
-            bottleImageSrc="/vsl/oprah/media/emma-bottle-6.webp"
+            bottleImageSrc="/images/oprah/emma-bottle-6.webp"
             bottleImageClassName="w-[360px]"
             price="$39"
             originalPrice="$594"
@@ -49,7 +49,7 @@ const PricingCards = () => (
             title="DOCTOR&#39;S CHOICE"
             supplyText="90 Day Supply"
             supplyBottleText="(3 Bottles)"
-            bottleImageSrc="/vsl/oprah/media/emma-bottle-3.webp"
+            bottleImageSrc="/images/oprah/emma-bottle-3.webp"
             bottleImageClassName="w-[302px]"
             price="$49"
             originalPrice="$297"
@@ -59,13 +59,13 @@ const PricingCards = () => (
         </div>
       </div>
       <MobilePricingCards
-        headerImageSrc="/vsl/oprah/media/Header.webp"
-        bottleSixImageSrc="/vsl/oprah/media/emma-bottle-6.webp"
-        bottleThreeImageSrc="/vsl/oprah/media/emma-bottle-3.webp"
-        bottleOneImageSrc="/vsl/oprah/media/emma-bottle-1.webp"
-        checkImageSrc="/vsl/oprah/media/check-Copy.webp"
-        ctaImageSrc="/vsl/oprah/media/CTA.webp"
-        paymentMethodImageSrc="/vsl/oprah/media/paymentmethod.webp"
+        headerImageSrc="/images/oprah/Header.webp"
+        bottleSixImageSrc="/images/oprah/emma-bottle-6.webp"
+        bottleThreeImageSrc="/images/oprah/emma-bottle-3.webp"
+        bottleOneImageSrc="/images/oprah/emma-bottle-1.webp"
+        checkImageSrc="/images/oprah/check-Copy.webp"
+        ctaImageSrc="/images/oprah/CTA.webp"
+        paymentMethodImageSrc="/images/oprah/paymentmethod.webp"
         sixPackHref={sixPackHref}
         threePackHref={threePackHref}
         onePackHref={onePackHref}

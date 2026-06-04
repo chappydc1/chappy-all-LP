@@ -2,67 +2,67 @@
   "_note": "local paths are relative to /public — place downloaded files there. cdn values are the original source URLs.",
   "images": {
     "author_avatar": {
-      "local": "/s/lis/javy/images/author-avatar.webp",
+      "local": "/images/javy/author-avatar.webp",
       "cdn": "/images/javy/66e0a9b786f105ff696cfcb1_ps02-avi.webp",
       "alt": "Jade M. — Javvy Buzz Writer",
       "type": "webp"
     },
     "javvy_logo": {
-      "local": "/s/lis/javy/images/javvy-logo.svg",
+      "local": "/images/javy/javvy-logo.svg",
       "cdn": "/images/javy/673f5ae58cfb1d06dd96a4e3_javvy-blu.svg",
       "alt": "Javvy Coffee",
       "type": "svg"
     },
     "javvy_logo_sparkles": {
-      "local": "/s/lis/javy/images/javvy-logo-sparkles.svg",
+      "local": "/images/javy/javvy-logo-sparkles.svg",
       "cdn": "/images/javy/javvylogoblueyellowsparkles.svg-1753727812740.svg",
       "alt": "Javvy Coffee Logo",
       "type": "svg"
     },
     "face_happy_green": {
-      "local": "/s/lis/javy/images/face-happy-green.svg",
+      "local": "/images/javy/face-happy-green.svg",
       "cdn": "/images/javy/67c74543a7ab85d00fb14d24_facehappy-green.svg",
       "alt": "",
       "type": "svg"
     },
     "face_happy_grey": {
-      "local": "/s/lis/javy/images/face-happy-grey.svg",
+      "local": "/images/javy/face-happy-grey.svg",
       "cdn": "/images/javy/67c7454306143bacf213c118_facehappy-grey.svg",
       "alt": "",
       "type": "svg"
     },
     "bundle": {
-      "local": "/s/lis/javy/images/bundle.webp",
+      "local": "/images/javy/bundle.webp",
       "cdn": "/images/javy/68470eec6dd64134a92d3453_9b5f16eb10a1546abe03c5cf5ed424f8_v3-pc-bundle-img.webp",
       "alt": "Javvy Coffee Bundle",
       "type": "webp"
     },
     "modal_bg": {
-      "local": "/s/lis/javy/images/modal-bg.webp",
+      "local": "/images/javy/modal-bg.webp",
       "cdn": "/images/javy/desktopbgmin21380beb8da5188c.webp-1754589668126.webp",
       "alt": "",
       "type": "webp"
     },
     "icon_arrow": {
-      "local": "/s/lis/javy/images/icon-arrow.svg",
+      "local": "/images/javy/icon-arrow.svg",
       "cdn": "/images/javy/icon-1.svg",
       "alt": "Arrow",
       "type": "svg"
     },
     "icon_discount": {
-      "local": "/s/lis/javy/images/icon-discount.svg",
+      "local": "/images/javy/icon-discount.svg",
       "cdn": "/images/javy/icon-4.svg",
       "alt": "",
       "type": "svg"
     },
     "icon_close": {
-      "local": "/s/lis/javy/images/icon-close.svg",
+      "local": "/images/javy/icon-close.svg",
       "cdn": "/images/javy/icon-5.svg",
       "alt": "Close",
       "type": "svg"
     },
     "icon_gift": {
-      "local": "/s/lis/javy/images/icon-gift.svg",
+      "local": "/images/javy/icon-gift.svg",
       "cdn": "/images/javy/6724fdda94d57f82bf0c2f9a_bf-gift-icon.svg",
       "alt": "",
       "type": "svg"
@@ -70,65 +70,65 @@
   },
   "videos": {
     "reason_1": {
-      "poster_local": "/s/lis/javy/images/poster-1.png",
+      "poster_local": "/images/javy/poster-1.png",
       "poster_cdn": "/images/javy/1_rl7uzn.png",
-      "src_local": "/s/lis/javy/videos/reason-1.mp4",
+      "src_local": "/video/javy/reason-1.mp4",
       "src_cdn": "https://vz-318e2430-7a3.b-cdn.net/6bdd6b94-d2e7-4a48-b249-0f744f657a62/play_480p.mp4",
-      "secondary_src_local": "/s/lis/javy/videos/reason-1b.mp4",
+      "secondary_src_local": "/video/javy/reason-1b.mp4",
       "secondary_src_cdn": "https://vz-318e2430-7a3.b-cdn.net/88d134cd-a4f9-495b-8be8-972b59993198/play_480p.mp4"
     },
     "reason_2": {
-      "poster_local": "/s/lis/javy/images/poster-2.png",
+      "poster_local": "/images/javy/poster-2.png",
       "poster_cdn": "/images/javy/2_vwvosm.png",
-      "src_local": "/s/lis/javy/videos/reason-2.mp4",
+      "src_local": "/video/javy/reason-2.mp4",
       "src_cdn": "https://vz-318e2430-7a3.b-cdn.net/f4e9573e-2b2d-4839-a104-70a9c0b291f9/play_480p.mp4"
     },
     "reason_3": {
-      "poster_local": "/s/lis/javy/images/poster-3.png",
+      "poster_local": "/images/javy/poster-3.png",
       "poster_cdn": "/images/javy/4_jwtjn5.png",
-      "src_local": "/s/lis/javy/videos/reason-3.mp4",
+      "src_local": "/video/javy/reason-3.mp4",
       "src_cdn": "https://vz-318e2430-7a3.b-cdn.net/04f846de-ddb0-49fe-a550-bb722e9a0c24/play_480p.mp4"
     },
     "reason_4": {
-      "poster_local": "/s/lis/javy/images/poster-4.png",
+      "poster_local": "/images/javy/poster-4.png",
       "poster_cdn": "/images/javy/4_omf53s.png",
-      "src_local": "/s/lis/javy/videos/reason-4.mp4",
+      "src_local": "/video/javy/reason-4.mp4",
       "src_cdn": "https://vz-318e2430-7a3.b-cdn.net/f11494a3-8151-466b-af35-8f569438dad3/play_480p.mp4"
     },
     "reason_5": {
-      "poster_local": "/s/lis/javy/images/poster-5.png",
+      "poster_local": "/images/javy/poster-5.png",
       "poster_cdn": "/images/javy/5_abhdr9.png",
-      "src_local": "/s/lis/javy/videos/reason-5.mp4",
+      "src_local": "/video/javy/reason-5.mp4",
       "src_cdn": "https://vz-318e2430-7a3.b-cdn.net/f102abdc-bbe9-471e-92ed-2e90668f545d/play_480p.mp4"
     },
     "reason_6": {
-      "poster_local": "/s/lis/javy/images/poster-6.png",
+      "poster_local": "/images/javy/poster-6.png",
       "poster_cdn": "/images/javy/6_yeyl4s.png",
-      "src_local": "/s/lis/javy/videos/reason-6.mp4",
+      "src_local": "/video/javy/reason-6.mp4",
       "src_cdn": "https://vz-318e2430-7a3.b-cdn.net/e0781a69-5409-4aee-a147-e86a613a2ae7/play_480p.mp4"
     },
     "reason_7": {
-      "poster_local": "/s/lis/javy/images/poster-7.png",
+      "poster_local": "/images/javy/poster-7.png",
       "poster_cdn": "/images/javy/7_tuexv2.png",
-      "src_local": "/s/lis/javy/videos/reason-7.mp4",
+      "src_local": "/video/javy/reason-7.mp4",
       "src_cdn": "https://vz-318e2430-7a3.b-cdn.net/729b9cb6-4758-4c78-a75d-3bae14d771c6/play_480p.mp4"
     },
     "reason_8": {
-      "poster_local": "/s/lis/javy/images/poster-8.png",
+      "poster_local": "/images/javy/poster-8.png",
       "poster_cdn": "/images/javy/8_p1pmld.png",
-      "src_local": "/s/lis/javy/videos/reason-8.mp4",
+      "src_local": "/video/javy/reason-8.mp4",
       "src_cdn": "https://vz-318e2430-7a3.b-cdn.net/96c709f9-7eb9-4417-ae8d-ecb481e722d4/play_480p.mp4"
     },
     "reason_9": {
-      "poster_local": "/s/lis/javy/images/poster-9.png",
+      "poster_local": "/images/javy/poster-9.png",
       "poster_cdn": "/images/javy/9_zwohnt.png",
-      "src_local": "/s/lis/javy/videos/reason-9.mp4",
+      "src_local": "/video/javy/reason-9.mp4",
       "src_cdn": "https://vz-318e2430-7a3.b-cdn.net/ecea6ee1-57b6-402d-98c2-f7ecfba25a75/play_480p.mp4"
     },
     "reason_10": {
-      "poster_local": "/s/lis/javy/images/poster-10.png",
+      "poster_local": "/images/javy/poster-10.png",
       "poster_cdn": "/images/javy/10_rgnxtv.png",
-      "src_local": "/s/lis/javy/videos/reason-10.mp4",
+      "src_local": "/video/javy/reason-10.mp4",
       "src_cdn": "https://vz-318e2430-7a3.b-cdn.net/52a9a29d-f274-45a5-9efd-e423516d4887/play_480p.mp4"
     }
   }

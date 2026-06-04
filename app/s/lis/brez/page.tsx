@@ -248,9 +248,9 @@ export default function BrezLandingPage() {
 
 /* ── AS SEEN IN infinite marquee slider ── */
 const PRESS_LOGOS = [
-  { src: "/brez/003_logo-1.png", alt: "Vogue" },
-  { src: "/brez/004_logo-3.png", alt: "Cosmopolitan" },
-  { src: "/brez/005_logo-2.png", alt: "Poppdus" },
+  { src: "/images/brez/003_logo-1.png", alt: "Vogue" },
+  { src: "/images/brez/004_logo-3.png", alt: "Cosmopolitan" },
+  { src: "/images/brez/005_logo-2.png", alt: "Poppdus" },
 ];
 
 function AsSeenIn() {

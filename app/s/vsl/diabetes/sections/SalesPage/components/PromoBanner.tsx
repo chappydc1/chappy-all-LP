@@ -6,7 +6,7 @@ export const DiabetesPromoBanner = () => {
           <div className="box-border caret-transparent flex flex-wrap outline-[3px] -mx-3">
             <div className="box-border caret-transparent shrink-0 max-w-full outline-[3px] w-full px-3 md:w-[16.6667%]">
               <img
-                src="/img/shopping.png?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
+                src="/images/img/shopping.png?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
                 alt=""
                 className="box-border caret-transparent inline invert-[1] max-w-[100px] outline-[3px] md:max-w-[180px]"
               />

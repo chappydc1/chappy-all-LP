@@ -1,26 +1,26 @@
 {
-  "logo": "/media/shilajit/13.png",
-  "amazonBadge": "/media/shilajit/14.png",
-  "footerBg": "/media/shilajit/27.png",
-  "footerLogo": "/media/shilajit/26.png",
+  "logo": "/images/shilajit/13.png",
+  "amazonBadge": "/images/shilajit/14.png",
+  "footerBg": "/images/shilajit/27.png",
+  "footerLogo": "/images/shilajit/26.png",
   "icons": {
-    "nav": "/media/shilajit/icon-1.svg",
-    "dropdown": "/media/shilajit/icon-2.svg",
-    "disclosure": "/media/shilajit/icon-3.svg",
-    "check": "/media/shilajit/icon-4.svg",
-    "starFull": "/media/shilajit/icon-5.svg",
-    "starHalf": "/media/shilajit/icon-6.svg"
+    "nav": "/images/shilajit/icon-1.svg",
+    "dropdown": "/images/shilajit/icon-2.svg",
+    "disclosure": "/images/shilajit/icon-3.svg",
+    "check": "/images/shilajit/icon-4.svg",
+    "starFull": "/images/shilajit/icon-5.svg",
+    "starHalf": "/images/shilajit/icon-6.svg"
   },
   "products": [
-    "/media/shilajit/17.jpg",
-    "/media/shilajit/18.jpg",
-    "/media/shilajit/20.jpg",
-    "/media/shilajit/15.jpg"
+    "/images/shilajit/17.jpg",
+    "/images/shilajit/18.jpg",
+    "/images/shilajit/20.jpg",
+    "/images/shilajit/15.jpg"
   ],
   "relatedCategories": [
-    "/media/shilajit/23.jpg",
-    "/media/shilajit/25.jpg",
-    "/media/shilajit/24.jpg",
-    "/media/shilajit/28.jpg"
+    "/images/shilajit/23.jpg",
+    "/images/shilajit/25.jpg",
+    "/images/shilajit/24.jpg",
+    "/images/shilajit/28.jpg"
   ]
 }

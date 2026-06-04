@@ -106,7 +106,7 @@ export const ProductItem = (props: ProductItemProps) => {
             >
               <span className="group-hover:underline">Visit Site</span>
               <img
-                src="/forbes/right-arrow.svg"
+                src="/images/forbes/right-arrow.svg"
                 className="h-6 w-6 shrink-0"
                 alt=""
               />

@@ -5,209 +5,209 @@
   "images": {
     "doctor": {
       "file": "drginasam.webp",
-      "local": "/vsl/emma/drginasam.webp",
+      "local": "/images/emma/drginasam.webp",
       "cdn": "/images/emma/drginasam.webp",
       "alt": "Dr. Gina Sam M.D",
       "usage": "Doctor profile photo — HeroSection (desktop sidebar), DoctorBio (mobile), VideoSection"
     },
     "videoThumbnailDesktop": {
       "file": "V4-Desktop-25.webp",
-      "local": "/vsl/emma/V4-Desktop-25.webp",
+      "local": "/images/emma/V4-Desktop-25.webp",
       "cdn": "/images/emma/V4-Desktop-25.webp",
       "alt": "Video thumbnail desktop",
       "usage": "Video player thumbnail — desktop"
     },
     "videoThumbnailMobile": {
       "file": "V4-Mobile-25.webp",
-      "local": "/vsl/emma/V4-Mobile-25.webp",
+      "local": "/images/emma/V4-Mobile-25.webp",
       "cdn": "/images/emma/V4-Mobile-25.webp",
       "alt": "Video thumbnail mobile",
       "usage": "Video player thumbnail — mobile"
     },
     "soundIcon": {
       "file": "charm_sound.webp",
-      "local": "/vsl/emma/charm_sound.webp",
+      "local": "/images/emma/charm_sound.webp",
       "cdn": "/images/emma/charm_sound.webp",
       "alt": "Sound icon",
       "usage": "Sound reminder notice below video"
     },
     "greenArrowDown": {
       "file": "greenarrowdown.webp",
-      "local": "/vsl/emma/greenarrowdown.webp",
+      "local": "/images/emma/greenarrowdown.webp",
       "cdn": "/images/emma/greenarrowdown.webp",
       "alt": "Arrow pointing down",
       "usage": "Animated bounce arrow below video on mobile"
     },
     "bottleOne": {
       "file": "emma-bottle-1.webp",
-      "local": "/vsl/emma/emma-bottle-1.webp",
+      "local": "/images/emma/emma-bottle-1.webp",
       "cdn": "/images/emma/emma-bottle-1.webp",
       "alt": "Emma 1-bottle (30-day supply)",
       "usage": "Pricing cards — Starter / 1-pack"
     },
     "bottleThree": {
       "file": "emma-bottle-3.webp",
-      "local": "/vsl/emma/emma-bottle-3.webp",
+      "local": "/images/emma/emma-bottle-3.webp",
       "cdn": "/images/emma/emma-bottle-3.webp",
       "alt": "Emma 3-bottle (90-day supply)",
       "usage": "Pricing cards — Doctor's Choice / 3-pack"
     },
     "bottleSix": {
       "file": "emma-bottle-6.webp",
-      "local": "/vsl/emma/emma-bottle-6.webp",
+      "local": "/images/emma/emma-bottle-6.webp",
       "cdn": "/images/emma/emma-bottle-6.webp",
       "alt": "Emma 6-bottle (180-day supply)",
       "usage": "Pricing cards — Best Value / 6-pack"
     },
     "pricingHeader": {
       "file": "Header.webp",
-      "local": "/vsl/emma/Header.webp",
+      "local": "/images/emma/Header.webp",
       "cdn": "/images/emma/Header.webp",
       "alt": "Best Value pricing header",
       "usage": "6-pack pricing card header banner"
     },
     "checkmark": {
       "file": "check-Copy.webp",
-      "local": "/vsl/emma/check-Copy.webp",
+      "local": "/images/emma/check-Copy.webp",
       "cdn": "/images/emma/check-Copy.webp",
       "alt": "Checkmark",
       "usage": "Pricing card badges — Biggest Discount, Lean Belly Shakes"
     },
     "cta": {
       "file": "CTA.webp",
-      "local": "/vsl/emma/CTA.webp",
+      "local": "/images/emma/CTA.webp",
       "cdn": "/images/emma/CTA.webp",
       "alt": "Add to cart CTA button",
       "usage": "Pricing cards — call-to-action button image"
     },
     "paymentMethod": {
       "file": "paymentmethod.webp",
-      "local": "/vsl/emma/paymentmethod.webp",
+      "local": "/images/emma/paymentmethod.webp",
       "cdn": "/images/emma/paymentmethod.webp",
       "alt": "Accepted payment methods",
       "usage": "Pricing cards — payment icons below CTA"
     },
     "guaranteed": {
       "file": "guaranteed.webp",
-      "local": "/vsl/emma/guaranteed.webp",
+      "local": "/images/emma/guaranteed.webp",
       "cdn": "/images/emma/guaranteed.webp",
       "alt": "90-day money back guarantee seal",
       "usage": "Guarantee section — floating badge"
     },
     "leanBellyBook": {
       "file": "leanbellyshakebook.webp",
-      "local": "/vsl/emma/leanbellyshakebook.webp",
+      "local": "/images/emma/leanbellyshakebook.webp",
       "cdn": "/images/emma/leanbellyshakebook.webp",
       "alt": "Lean Belly Shakes recipe book",
       "usage": "Bonus section — book cover (mobile)"
     },
     "storyStars": {
       "file": "storystars.webp",
-      "local": "/vsl/emma/storystars.webp",
+      "local": "/images/emma/storystars.webp",
       "cdn": "/images/emma/storystars.webp",
       "alt": "5-star rating",
       "usage": "Testimonial cards — star rating"
     },
     "verifiedCheck": {
       "file": "check-mark.webp",
-      "local": "/vsl/emma/check-mark.webp",
+      "local": "/images/emma/check-mark.webp",
       "cdn": "/images/emma/check-mark.webp",
       "alt": "Verified customer check",
       "usage": "Testimonial cards — verified badge"
     },
     "asSeenOnDesktop": {
       "file": "asseenond.webp",
-      "local": "/vsl/emma/asseenond.webp",
+      "local": "/images/emma/asseenond.webp",
       "cdn": "/images/emma/asseenond.webp",
       "alt": "As Seen On media logos — desktop",
       "usage": "As Seen On section — desktop"
     },
     "asSeenOnMobile": {
       "file": "asseenonm.webp",
-      "local": "/vsl/emma/asseenonm.webp",
+      "local": "/images/emma/asseenonm.webp",
       "cdn": "/images/emma/asseenonm.webp",
       "alt": "As Seen On media logos — mobile",
       "usage": "As Seen On section — mobile"
     },
     "testimonialAva": {
       "file": "ava1.webp",
-      "local": "/vsl/emma/ava1.webp",
+      "local": "/images/emma/ava1.webp",
       "cdn": "/images/emma/ava1.webp",
       "alt": "Natasha K",
       "usage": "Testimonial photo — Natasha K"
     },
     "testimonialLucy": {
       "file": "lucy.webp",
-      "local": "/vsl/emma/lucy.webp",
+      "local": "/images/emma/lucy.webp",
       "cdn": "/images/emma/lucy.webp",
       "alt": "Lucy C",
       "usage": "Testimonial photo — Lucy C"
     },
     "testimonialAmberlyn": {
       "file": "amberlyn.webp",
-      "local": "/vsl/emma/amberlyn.webp",
+      "local": "/images/emma/amberlyn.webp",
       "cdn": "/images/emma/amberlyn.webp",
       "alt": "Amberlyn F",
       "usage": "Testimonial photo — Amberlyn F"
     },
     "testimonialPatricia": {
       "file": "patricia.webp",
-      "local": "/vsl/emma/patricia.webp",
+      "local": "/images/emma/patricia.webp",
       "cdn": "/images/emma/patricia.webp",
       "alt": "Patricia G",
       "usage": "Testimonial photo — Patricia G"
     }
   },
   "commentAvatars": {
-    "Emily":    { "file": "commemily.webp",    "local": "/vsl/emma/commemily.webp",    "cdn": "/images/emma/commemily.webp" },
-    "Josh":     { "file": "commjosh.webp",     "local": "/vsl/emma/commjosh.webp",     "cdn": "/images/emma/commjosh.webp" },
-    "Ava":      { "file": "commava.webp",      "local": "/vsl/emma/commava.webp",      "cdn": "/images/emma/commava.webp" },
-    "Matthew":  { "file": "commmatthew.webp",  "local": "/vsl/emma/commmatthew.webp",  "cdn": "/images/emma/commmatthew.webp" },
-    "Sophia":   { "file": "commsophia.webp",   "local": "/vsl/emma/commsophia.webp",   "cdn": "/images/emma/commsophia.webp" },
-    "Leo":      { "file": "commleo.webp",      "local": "/vsl/emma/commleo.webp",      "cdn": "/images/emma/commleo.webp" },
-    "Grace":    { "file": "commgrace.webp",    "local": "/vsl/emma/commgrace.webp",    "cdn": "/images/emma/commgrace.webp" },
-    "James":    { "file": "commjames.webp",    "local": "/vsl/emma/commjames.webp",    "cdn": "/images/emma/commjames.webp" },
-    "Samantha": { "file": "commsamantha.webp", "local": "/vsl/emma/commsamantha.webp", "cdn": "/images/emma/commsamantha.webp" },
-    "Oliver":   { "file": "commoliver.webp",   "local": "/vsl/emma/commoliver.webp",   "cdn": "/images/emma/commoliver.webp" },
-    "Megan":    { "file": "commmegan.webp",    "local": "/vsl/emma/commmegan.webp",    "cdn": "/images/emma/commmegan.webp" },
-    "Noah":     { "file": "commnoah.webp",     "local": "/vsl/emma/commnoah.webp",     "cdn": "/images/emma/commnoah.webp" },
-    "Isabella": { "file": "commisabella.webp", "local": "/vsl/emma/commisabella.webp", "cdn": "/images/emma/commisabella.webp" },
-    "Ryan":     { "file": "commryan.webp",     "local": "/vsl/emma/commryan.webp",     "cdn": "/images/emma/commryan.webp" },
-    "Jessica":  { "file": "commjessica.webp",  "local": "/vsl/emma/commjessica.webp",  "cdn": "/images/emma/commjessica.webp" },
-    "Alex":     { "file": "commalex.webp",     "local": "/vsl/emma/commalex.webp",     "cdn": "/images/emma/commalex.webp" },
-    "Ella":     { "file": "commella.webp",     "local": "/vsl/emma/commella.webp",     "cdn": "/images/emma/commella.webp" },
-    "Tyler":    { "file": "commtyler.webp",    "local": "/vsl/emma/commtyler.webp",    "cdn": "/images/emma/commtyler.webp" },
-    "Chloe":    { "file": "commchloe.webp",    "local": "/vsl/emma/commchloe.webp",    "cdn": "/images/emma/commchloe.webp" },
-    "Zack":     { "file": "commzack.webp",     "local": "/vsl/emma/commzack.webp",     "cdn": "/images/emma/commzack.webp" }
+    "Emily":    { "file": "commemily.webp",    "local": "/images/emma/commemily.webp",    "cdn": "/images/emma/commemily.webp" },
+    "Josh":     { "file": "commjosh.webp",     "local": "/images/emma/commjosh.webp",     "cdn": "/images/emma/commjosh.webp" },
+    "Ava":      { "file": "commava.webp",      "local": "/images/emma/commava.webp",      "cdn": "/images/emma/commava.webp" },
+    "Matthew":  { "file": "commmatthew.webp",  "local": "/images/emma/commmatthew.webp",  "cdn": "/images/emma/commmatthew.webp" },
+    "Sophia":   { "file": "commsophia.webp",   "local": "/images/emma/commsophia.webp",   "cdn": "/images/emma/commsophia.webp" },
+    "Leo":      { "file": "commleo.webp",      "local": "/images/emma/commleo.webp",      "cdn": "/images/emma/commleo.webp" },
+    "Grace":    { "file": "commgrace.webp",    "local": "/images/emma/commgrace.webp",    "cdn": "/images/emma/commgrace.webp" },
+    "James":    { "file": "commjames.webp",    "local": "/images/emma/commjames.webp",    "cdn": "/images/emma/commjames.webp" },
+    "Samantha": { "file": "commsamantha.webp", "local": "/images/emma/commsamantha.webp", "cdn": "/images/emma/commsamantha.webp" },
+    "Oliver":   { "file": "commoliver.webp",   "local": "/images/emma/commoliver.webp",   "cdn": "/images/emma/commoliver.webp" },
+    "Megan":    { "file": "commmegan.webp",    "local": "/images/emma/commmegan.webp",    "cdn": "/images/emma/commmegan.webp" },
+    "Noah":     { "file": "commnoah.webp",     "local": "/images/emma/commnoah.webp",     "cdn": "/images/emma/commnoah.webp" },
+    "Isabella": { "file": "commisabella.webp", "local": "/images/emma/commisabella.webp", "cdn": "/images/emma/commisabella.webp" },
+    "Ryan":     { "file": "commryan.webp",     "local": "/images/emma/commryan.webp",     "cdn": "/images/emma/commryan.webp" },
+    "Jessica":  { "file": "commjessica.webp",  "local": "/images/emma/commjessica.webp",  "cdn": "/images/emma/commjessica.webp" },
+    "Alex":     { "file": "commalex.webp",     "local": "/images/emma/commalex.webp",     "cdn": "/images/emma/commalex.webp" },
+    "Ella":     { "file": "commella.webp",     "local": "/images/emma/commella.webp",     "cdn": "/images/emma/commella.webp" },
+    "Tyler":    { "file": "commtyler.webp",    "local": "/images/emma/commtyler.webp",    "cdn": "/images/emma/commtyler.webp" },
+    "Chloe":    { "file": "commchloe.webp",    "local": "/images/emma/commchloe.webp",    "cdn": "/images/emma/commchloe.webp" },
+    "Zack":     { "file": "commzack.webp",     "local": "/images/emma/commzack.webp",     "cdn": "/images/emma/commzack.webp" }
   },
   "icons": {
     "soundToggle": {
       "file": "icon-1.svg",
-      "local": "/vsl/emma/icon-1.svg",
+      "local": "/images/emma/icon-1.svg",
       "cdn": "/images/emma/icon-1.svg",
       "usage": "Video player sound toggle button"
     },
     "closeModal": {
       "file": "icon-7.svg",
-      "local": "/vsl/emma/icon-7.svg",
+      "local": "/images/emma/icon-7.svg",
       "cdn": "/images/emma/icon-7.svg",
       "usage": "VideoModal close button"
     },
     "play": {
       "file": "icon-4.svg",
-      "local": "/vsl/emma/icon-4.svg",
+      "local": "/images/emma/icon-4.svg",
       "cdn": "/images/emma/icon-4.svg",
       "usage": "Video player play button"
     },
     "mute": {
       "file": "icon-5.svg",
-      "local": "/vsl/emma/icon-5.svg",
+      "local": "/images/emma/icon-5.svg",
       "cdn": "/images/emma/icon-5.svg",
       "usage": "Video player mute button"
     },
     "fullscreen": {
       "file": "icon-6.svg",
-      "local": "/vsl/emma/icon-6.svg",
+      "local": "/images/emma/icon-6.svg",
       "cdn": "/images/emma/icon-6.svg",
       "usage": "Video player fullscreen button"
     }

@@ -8,7 +8,7 @@ export const Sidebar = () => {
         <SidebarScorePanel
           variant="review"
           score="9.8"
-          starsImageUrl="/assets/primepicks/green-stars.svg"
+          starsImageUrl="/images/primepicks/green-stars.svg"
           rating="Excellent"
           reviewCount="9,137 Customer Reviews"
         />
@@ -50,52 +50,52 @@ export const Sidebar = () => {
           items={[
             {
               iconSrc:
-                "/assets/primepicks/icon-3.svg",
+                "/images/primepicks/icon-3.svg",
               text: "Ultra-slim 1.8mm profile",
             },
             {
               iconSrc:
-                "/assets/primepicks/icon-3.svg",
+                "/images/primepicks/icon-3.svg",
               text: "5-month battery life",
             },
             {
               iconSrc:
-                "/assets/primepicks/icon-3.svg",
+                "/images/primepicks/icon-3.svg",
               text: "Fast wireless charging",
             },
             {
               iconSrc:
-                "/assets/primepicks/icon-3.svg",
+                "/images/primepicks/icon-3.svg",
               text: "Left-behind alerts",
             },
             {
               iconSrc:
-                "/assets/primepicks/icon-3.svg",
+                "/images/primepicks/icon-3.svg",
               text: "No subscription fees",
             },
             {
               iconSrc:
-                "/assets/primepicks/icon-3.svg",
+                "/images/primepicks/icon-3.svg",
               text: "IP68 water resistant",
             },
             {
               iconSrc:
-                "/assets/primepicks/icon-3.svg",
+                "/images/primepicks/icon-3.svg",
               text: "Apple Find My certified",
             },
             {
               iconSrc:
-                "/assets/primepicks/icon-3.svg",
+                "/images/primepicks/icon-3.svg",
               text: "Global tracking network",
             },
             {
               iconSrc:
-                "/assets/primepicks/icon-3.svg",
+                "/images/primepicks/icon-3.svg",
               text: "Premium card material",
             },
             {
               iconSrc:
-                "/assets/primepicks/icon-3.svg",
+                "/images/primepicks/icon-3.svg",
               text: "Loud ring-to-find sound",
             },
           ]}
@@ -107,7 +107,7 @@ export const Sidebar = () => {
           items={[
             {
               iconSrc:
-                "/assets/primepicks/icon-4.svg",
+                "/images/primepicks/icon-4.svg",
               text: "Often out of stock due to high demand",
             },
           ]}
@@ -122,7 +122,7 @@ export const Sidebar = () => {
           </span>
           <span className="box-border caret-transparent block min-h-0 min-w-0 md:min-h-[auto] md:min-w-[auto]">
             <img
-              src="/assets/primepicks/icon-1.svg"
+              src="/images/primepicks/icon-1.svg"
               alt="Icon"
               className="box-border caret-transparent h-3.5 w-[15px]"
             />

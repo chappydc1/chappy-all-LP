@@ -4,7 +4,7 @@ export const StickyCtaBar = () => {
       <div className="[align-items:normal] box-border caret-transparent block justify-normal max-w-[420px] outline-[3px] w-auto mx-auto md:items-center md:flex md:justify-between md:max-w-[1140px] md:w-full">
         <div className="box-border caret-transparent hidden min-h-0 min-w-0 order-none outline-[3px] md:block md:min-h-[auto] md:min-w-[auto] md:order-1">
           <img
-            src="/s/lis/gruns/media/icon-8.svg"
+            src="/images/gruns/icon-8.svg"
             alt="Icon"
             className="box-border caret-transparent h-[30px] outline-[3px] w-[70px]"
           />
@@ -18,27 +18,27 @@ export const StickyCtaBar = () => {
         <div className="items-center box-border caret-transparent gap-x-2 flex justify-center min-h-0 min-w-0 order-none outline-[3px] gap-y-2 md:gap-x-3 md:justify-between md:min-h-[auto] md:min-w-[auto] md:order-2 md:gap-y-3">
           <div className="items-center box-border caret-transparent gap-x-0.5 flex min-h-[auto] min-w-[auto] outline-[3px] gap-y-0.5">
             <img
-              src="/s/lis/gruns/media/icon-9.svg"
+              src="/images/gruns/icon-9.svg"
               alt="Icon"
               className="box-border caret-transparent h-3.5 outline-[3px] w-3.5"
             />
             <img
-              src="/s/lis/gruns/media/icon-9.svg"
+              src="/images/gruns/icon-9.svg"
               alt="Icon"
               className="box-border caret-transparent h-3.5 outline-[3px] w-3.5"
             />
             <img
-              src="/s/lis/gruns/media/icon-9.svg"
+              src="/images/gruns/icon-9.svg"
               alt="Icon"
               className="box-border caret-transparent h-3.5 outline-[3px] w-3.5"
             />
             <img
-              src="/s/lis/gruns/media/icon-9.svg"
+              src="/images/gruns/icon-9.svg"
               alt="Icon"
               className="box-border caret-transparent h-3.5 outline-[3px] w-3.5"
             />
             <img
-              src="/s/lis/gruns/media/icon-9.svg"
+              src="/images/gruns/icon-9.svg"
               alt="Icon"
               className="box-border caret-transparent h-3.5 outline-[3px] w-3.5"
             />

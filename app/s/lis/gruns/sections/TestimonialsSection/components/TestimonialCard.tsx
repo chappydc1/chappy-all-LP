@@ -14,27 +14,27 @@ export const TestimonialCard = (props: TestimonialCardProps) => {
         <div className="items-center box-border caret-transparent gap-x-4 flex flex-col min-h-[auto] min-w-[auto] outline-[3px] gap-y-4 w-full">
           <div className="items-center box-border caret-transparent gap-x-1 flex min-h-[auto] min-w-[auto] outline-[3px] gap-y-1">
             <img
-              src="/s/lis/gruns/media/icon-21.svg"
+              src="/images/gruns/icon-21.svg"
               alt="Icon"
               className="box-border caret-transparent h-4 outline-[3px] w-4"
             />
             <img
-              src="/s/lis/gruns/media/icon-21.svg"
+              src="/images/gruns/icon-21.svg"
               alt="Icon"
               className="box-border caret-transparent h-4 outline-[3px] w-4"
             />
             <img
-              src="/s/lis/gruns/media/icon-21.svg"
+              src="/images/gruns/icon-21.svg"
               alt="Icon"
               className="box-border caret-transparent h-4 outline-[3px] w-4"
             />
             <img
-              src="/s/lis/gruns/media/icon-21.svg"
+              src="/images/gruns/icon-21.svg"
               alt="Icon"
               className="box-border caret-transparent h-4 outline-[3px] w-4"
             />
             <img
-              src="/s/lis/gruns/media/icon-21.svg"
+              src="/images/gruns/icon-21.svg"
               alt="Icon"
               className="box-border caret-transparent h-4 outline-[3px] w-4"
             />
@@ -54,7 +54,7 @@ export const TestimonialCard = (props: TestimonialCardProps) => {
           </p>
           <div className="items-center box-border caret-transparent gap-x-2 flex min-h-[auto] min-w-[auto] outline-[3px] gap-y-2">
             <img
-              src="/s/lis/gruns/media/icon-22.svg"
+              src="/images/gruns/icon-22.svg"
               alt="Icon"
               className="box-border caret-transparent h-5 outline-[3px] w-5"
             />

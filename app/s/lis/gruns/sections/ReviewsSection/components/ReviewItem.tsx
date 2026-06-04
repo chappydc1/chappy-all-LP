@@ -36,7 +36,7 @@ export const ReviewItem = (props: ReviewItemProps) => {
               >
                 <div className="box-border caret-transparent outline-[3px]">
                   <img
-                    src="/s/lis/gruns/media/icon-27.svg"
+                    src="/images/gruns/icon-27.svg"
                     alt="Icon"
                     className="box-border caret-transparent h-3 outline-[3px] w-3"
                   />
@@ -51,7 +51,7 @@ export const ReviewItem = (props: ReviewItemProps) => {
               <div className="text-sm items-center box-border caret-transparent flex leading-[14px] outline-[3px] mt-1">
                 <div className="items-start box-border caret-transparent flex h-3.5 min-h-[auto] min-w-[auto] outline-[3px] w-3.5">
                   <img
-                    src="/s/lis/gruns/media/icon-28.svg"
+                    src="/images/gruns/icon-28.svg"
                     alt="Icon"
                     className="box-border caret-transparent h-3.5 outline-[3px] w-3.5"
                   />
@@ -75,35 +75,35 @@ export const ReviewItem = (props: ReviewItemProps) => {
               <div className="items-center box-border caret-transparent gap-x-1 flex min-h-[auto] min-w-[auto] outline-[3px] gap-y-1">
                 <div className="box-border caret-transparent h-[18px] min-h-[auto] min-w-[auto] outline-[3px] w-[18px]">
                   <img
-                    src="/s/lis/gruns/media/icon-25.svg"
+                    src="/images/gruns/icon-25.svg"
                     alt="Icon"
                     className="box-border caret-transparent outline-[3px] m-auto"
                   />
                 </div>
                 <div className="box-border caret-transparent h-[18px] min-h-[auto] min-w-[auto] outline-[3px] w-[18px]">
                   <img
-                    src="/s/lis/gruns/media/icon-25.svg"
+                    src="/images/gruns/icon-25.svg"
                     alt="Icon"
                     className="box-border caret-transparent outline-[3px] m-auto"
                   />
                 </div>
                 <div className="box-border caret-transparent h-[18px] min-h-[auto] min-w-[auto] outline-[3px] w-[18px]">
                   <img
-                    src="/s/lis/gruns/media/icon-25.svg"
+                    src="/images/gruns/icon-25.svg"
                     alt="Icon"
                     className="box-border caret-transparent outline-[3px] m-auto"
                   />
                 </div>
                 <div className="box-border caret-transparent h-[18px] min-h-[auto] min-w-[auto] outline-[3px] w-[18px]">
                   <img
-                    src="/s/lis/gruns/media/icon-25.svg"
+                    src="/images/gruns/icon-25.svg"
                     alt="Icon"
                     className="box-border caret-transparent outline-[3px] m-auto"
                   />
                 </div>
                 <div className="box-border caret-transparent h-[18px] min-h-[auto] min-w-[auto] outline-[3px] w-[18px]">
                   <img
-                    src="/s/lis/gruns/media/icon-25.svg"
+                    src="/images/gruns/icon-25.svg"
                     alt="Icon"
                     className="box-border caret-transparent outline-[3px] m-auto"
                   />
@@ -112,35 +112,35 @@ export const ReviewItem = (props: ReviewItemProps) => {
               <div className="absolute items-center box-border caret-transparent gap-x-1 flex h-full outline-[3px] gap-y-1 w-full overflow-hidden left-0 top-0">
                 <div className="box-border caret-transparent shrink-0 h-[18px] min-h-[auto] min-w-[auto] outline-[3px] w-[18px]">
                   <img
-                    src="/s/lis/gruns/media/icon-26.svg"
+                    src="/images/gruns/icon-26.svg"
                     alt="Icon"
                     className="box-border caret-transparent outline-[3px] m-auto"
                   />
                 </div>
                 <div className="box-border caret-transparent shrink-0 h-[18px] min-h-[auto] min-w-[auto] outline-[3px] w-[18px]">
                   <img
-                    src="/s/lis/gruns/media/icon-26.svg"
+                    src="/images/gruns/icon-26.svg"
                     alt="Icon"
                     className="box-border caret-transparent outline-[3px] m-auto"
                   />
                 </div>
                 <div className="box-border caret-transparent shrink-0 h-[18px] min-h-[auto] min-w-[auto] outline-[3px] w-[18px]">
                   <img
-                    src="/s/lis/gruns/media/icon-26.svg"
+                    src="/images/gruns/icon-26.svg"
                     alt="Icon"
                     className="box-border caret-transparent outline-[3px] m-auto"
                   />
                 </div>
                 <div className="box-border caret-transparent shrink-0 h-[18px] min-h-[auto] min-w-[auto] outline-[3px] w-[18px]">
                   <img
-                    src="/s/lis/gruns/media/icon-26.svg"
+                    src="/images/gruns/icon-26.svg"
                     alt="Icon"
                     className="box-border caret-transparent outline-[3px] m-auto"
                   />
                 </div>
                 <div className="box-border caret-transparent shrink-0 h-[18px] min-h-[auto] min-w-[auto] outline-[3px] w-[18px]">
                   <img
-                    src="/s/lis/gruns/media/icon-26.svg"
+                    src="/images/gruns/icon-26.svg"
                     alt="Icon"
                     className="box-border caret-transparent outline-[3px] m-auto"
                   />
@@ -213,7 +213,7 @@ export const ReviewItem = (props: ReviewItemProps) => {
             >
               <div className="items-end box-border caret-transparent flex h-3.5 min-h-[auto] min-w-[auto] outline-[3px] w-3.5">
                 <img
-                  src="/s/lis/gruns/media/icon-29.svg"
+                  src="/images/gruns/icon-29.svg"
                   alt="Icon"
                   className="box-border caret-transparent h-3.5 outline-[3px] w-3.5"
                 />
@@ -229,7 +229,7 @@ export const ReviewItem = (props: ReviewItemProps) => {
             >
               <div className="items-end box-border caret-transparent flex h-3.5 min-h-[auto] min-w-[auto] outline-[3px] w-3.5">
                 <img
-                  src="/s/lis/gruns/media/icon-30.svg"
+                  src="/images/gruns/icon-30.svg"
                   alt="Icon"
                   className="box-border caret-transparent h-3.5 outline-[3px] w-3.5"
                 />

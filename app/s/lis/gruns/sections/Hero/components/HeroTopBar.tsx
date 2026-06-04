@@ -15,7 +15,7 @@ export const HeroTopBar = () => {
       </div>
       <div className="items-center box-border caret-transparent flex justify-center outline-[3px] py-4">
         <img
-          src="/s/lis/gruns/media/icon-7.svg"
+          src="/images/gruns/icon-7.svg"
           alt="Icon"
           className="box-border caret-transparent outline-[3px] w-[125px]"
         />

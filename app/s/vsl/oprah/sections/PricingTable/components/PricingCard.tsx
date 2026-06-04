@@ -15,8 +15,8 @@ export type PricingCardProps = {
   isBestValue?: boolean;
 };
 
-const ctaImageSrc = "/vsl/oprah/media/CTA.webp";
-const paymentMethodImageSrc = "/vsl/oprah/media/paymentmethod.webp";
+const ctaImageSrc = "/images/oprah/CTA.webp";
+const paymentMethodImageSrc = "/images/oprah/paymentmethod.webp";
 
 export const PricingCard = ({
   outerClassName = "",

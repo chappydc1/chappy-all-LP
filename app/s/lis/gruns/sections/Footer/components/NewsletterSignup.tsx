@@ -47,7 +47,7 @@ export const NewsletterSignup = () => {
                 </form>
                 <div className="items-center bg-slate-200 box-border caret-transparent gap-x-2 hidden outline-[3px] w-full overflow-hidden mt-4 p-3 rounded-bl rounded-br rounded-tl rounded-tr md:w-fit">
                   <img
-                    src="/s/lis/gruns/media/icon-31.svg"
+                    src="/images/gruns/icon-31.svg"
                     alt="Icon"
                     className="box-border caret-transparent h-4 outline-[3px] w-4"
                   />

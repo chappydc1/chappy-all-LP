@@ -29,7 +29,7 @@ export const FooterNavColumn = (props: FooterNavColumnProps) => {
         )}
         <span className="relative box-border caret-transparent flex shrink-0 min-h-[auto] min-w-[auto] outline-[3px] pointer-events-auto md:hidden md:min-h-0 md:min-w-0 md:pointer-events-none">
           <img
-            src="/s/lis/gruns/media/icon-32.svg"
+            src="/images/gruns/icon-32.svg"
             alt="Icon"
             className="box-border caret-transparent h-6 outline-[3px] pointer-events-auto w-6 md:pointer-events-none"
           />

@@ -15,7 +15,7 @@ export const ReviewCard = () => {
               className="relative text-blue-600 font-semibold box-border caret-transparent block min-h-[auto] min-w-[auto] w-6/12 md:w-auto"
             >
               <img
-                src="/assets/primepicks/MV8uanBn.jpg"
+                src="/images/primepicks/MV8uanBn.jpg"
                 alt="product"
                 className="aspect-[auto_120_/_120] box-border caret-transparent max-h-[120px] max-w-[120px] w-full mx-auto md:w-[120px] md:mx-0"
               />
@@ -30,7 +30,7 @@ export const ReviewCard = () => {
                 9.8
               </h4>
               <img
-                src="/assets/primepicks/green-stars.svg"
+                src="/images/primepicks/green-stars.svg"
                 alt="Stars Rating"
                 className="aspect-[auto_98_/_18] box-border caret-transparent max-w-full w-[98px] mx-auto my-1"
               />
@@ -128,7 +128,7 @@ export const ReviewCard = () => {
             </span>
             <span className="box-border caret-transparent block min-h-[auto] min-w-[auto]">
               <img
-                src="/assets/primepicks/icon-1.svg"
+                src="/images/primepicks/icon-1.svg"
                 alt="Icon"
                 className="box-border caret-transparent h-3.5 w-[15px]"
               />
@@ -136,7 +136,7 @@ export const ReviewCard = () => {
           </a>
           <div className="relative items-start bg-white shadow-[rgba(0,0,0,0.15)_0px_1px_10px_0px] box-border caret-transparent flex w-fit mx-auto p-2 rounded-[10px] after:accent-auto after:box-border after:caret-transparent after:text-black after:block after:text-base after:not-italic after:normal-nums after:font-normal after:tracking-[normal] after:leading-6 after:list-outside after:list-disc after:pointer-events-auto after:absolute after:text-start after:no-underline after:indent-[0px] after:normal-case after:translate-x-[-5px] after:visible after:border-b-white after:border-b-[10px] after:border-x-transparent after:border-x-[5px] after:border-separate after:border-solid after:left-2/4 after:-top-2.5 after:font-open_sans">
             <img
-              src="/assets/primepicks/subtract.svg"
+              src="/images/primepicks/subtract.svg"
               alt="PrimePicks.Review"
               className="aspect-[auto_16_/_16] box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] w-4 mr-1"
             />

@@ -35,7 +35,7 @@ export const FeaturedProductCard = () => {
                   className="relative text-blue-600 font-bold box-border caret-transparent block text-center underline"
                 >
                   <img
-                    src="/assets/primepicks/MV8uanBn.jpg"
+                    src="/images/primepicks/MV8uanBn.jpg"
                     alt="PrimePicks.Review"
                     className="aspect-[auto_220_/_220] box-border caret-transparent max-w-[218px] w-full mb-6 md:mb-5"
                   />
@@ -51,7 +51,7 @@ export const FeaturedProductCard = () => {
                         className="relative text-blue-600 font-semibold box-border caret-transparent block max-w-[148px] min-h-[auto] min-w-[auto] md:min-h-0 md:min-w-0"
                       >
                         <img
-                          src="/assets/primepicks/MV8uanBn.jpg"
+                          src="/images/primepicks/MV8uanBn.jpg"
                           alt="PrimePicks.Review"
                           className="box-border caret-transparent max-w-full"
                         />
@@ -66,7 +66,7 @@ export const FeaturedProductCard = () => {
                       </div>
                       <div className="box-border caret-transparent h-[18px] text-center mb-1">
                         <img
-                          src="/assets/primepicks/TrustRate-5-stars-1-1-2-6.svg"
+                          src="/images/primepicks/TrustRate-5-stars-1-1-2-6.svg"
                           alt="Tagsley"
                           className="box-border caret-transparent h-full max-w-full w-full"
                         />
@@ -105,7 +105,7 @@ export const FeaturedProductCard = () => {
                       </span>
                       <span className="box-border caret-transparent block min-h-[auto] min-w-[auto] md:min-h-0 md:min-w-0">
                         <img
-                          src="/assets/primepicks/icon-1.svg"
+                          src="/images/primepicks/icon-1.svg"
                           alt="Icon"
                           className="box-border caret-transparent h-3.5 w-[15px]"
                         />
@@ -113,7 +113,7 @@ export const FeaturedProductCard = () => {
                     </a>
                     <div className="relative items-start bg-white shadow-[rgba(0,0,0,0.15)_0px_1px_10px_0px] box-border caret-transparent flex min-h-[auto] min-w-[auto] mt-[22px] p-2 rounded-[10px] md:min-h-0 md:min-w-0 after:accent-auto after:box-border after:caret-transparent after:text-black after:block after:text-base after:not-italic after:normal-nums after:font-normal after:tracking-[normal] after:leading-6 after:list-outside after:list-disc after:pointer-events-auto after:absolute after:text-start after:no-underline after:indent-[0px] after:normal-case after:translate-x-[-5px] after:visible after:border-b-white after:border-b-[10px] after:border-x-transparent after:border-x-[5px] after:border-separate after:border-solid after:left-2/4 after:-top-2.5 after:font-open_sans after:md:transform-none">
                       <img
-                        src="/assets/primepicks/subtract.svg"
+                        src="/images/primepicks/subtract.svg"
                         alt="PrimePicks.Review"
                         className="aspect-[auto_16_/_16] box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] w-4 mr-1 md:min-h-0 md:min-w-0"
                       />
@@ -132,7 +132,7 @@ export const FeaturedProductCard = () => {
               <ul className="box-border caret-transparent flex flex-col justify-center list-none pl-0">
                 <li className="items-start box-border caret-transparent flex min-h-[auto] min-w-[auto] mb-2">
                   <img
-                    src="/assets/primepicks/fe_checked-icon.svg"
+                    src="/images/primepicks/fe_checked-icon.svg"
                     alt="PrimePicks.Review"
                     className="aspect-[auto_16_/_16] box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] w-4 mr-2"
                   />
@@ -142,7 +142,7 @@ export const FeaturedProductCard = () => {
                 </li>
                 <li className="items-start box-border caret-transparent flex min-h-[auto] min-w-[auto] mb-2">
                   <img
-                    src="/assets/primepicks/fe_checked-icon.svg"
+                    src="/images/primepicks/fe_checked-icon.svg"
                     alt="PrimePicks.Review"
                     className="aspect-[auto_16_/_16] box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] w-4 mr-2"
                   />
@@ -152,7 +152,7 @@ export const FeaturedProductCard = () => {
                 </li>
                 <li className="items-start box-border caret-transparent flex min-h-[auto] min-w-[auto] mb-2">
                   <img
-                    src="/assets/primepicks/fe_checked-icon.svg"
+                    src="/images/primepicks/fe_checked-icon.svg"
                     alt="PrimePicks.Review"
                     className="aspect-[auto_16_/_16] box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] w-4 mr-2"
                   />
@@ -162,7 +162,7 @@ export const FeaturedProductCard = () => {
                 </li>
                 <li className="items-start box-border caret-transparent flex min-h-[auto] min-w-[auto] mb-2">
                   <img
-                    src="/assets/primepicks/fe_checked-icon.svg"
+                    src="/images/primepicks/fe_checked-icon.svg"
                     alt="PrimePicks.Review"
                     className="aspect-[auto_16_/_16] box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] w-4 mr-2"
                   />
@@ -172,7 +172,7 @@ export const FeaturedProductCard = () => {
                 </li>
                 <li className="items-start box-border caret-transparent flex min-h-[auto] min-w-[auto] mb-2">
                   <img
-                    src="/assets/primepicks/fe_checked-icon.svg"
+                    src="/images/primepicks/fe_checked-icon.svg"
                     alt="PrimePicks.Review"
                     className="aspect-[auto_16_/_16] box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] w-4 mr-2"
                   />
@@ -182,7 +182,7 @@ export const FeaturedProductCard = () => {
                 </li>
                 <li className="items-start box-border caret-transparent flex min-h-[auto] min-w-[auto] mb-2">
                   <img
-                    src="/assets/primepicks/fe_checked-icon.svg"
+                    src="/images/primepicks/fe_checked-icon.svg"
                     alt="PrimePicks.Review"
                     className="aspect-[auto_16_/_16] box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] w-4 mr-2"
                   />
@@ -192,7 +192,7 @@ export const FeaturedProductCard = () => {
                 </li>
                 <li className="items-start box-border caret-transparent flex min-h-[auto] min-w-[auto] mb-2">
                   <img
-                    src="/assets/primepicks/fe_checked-icon.svg"
+                    src="/images/primepicks/fe_checked-icon.svg"
                     alt="PrimePicks.Review"
                     className="aspect-[auto_16_/_16] box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] w-4 mr-2"
                   />
@@ -202,7 +202,7 @@ export const FeaturedProductCard = () => {
                 </li>
                 <li className="items-start box-border caret-transparent flex min-h-[auto] min-w-[auto] mb-2">
                   <img
-                    src="/assets/primepicks/fe_checked-icon.svg"
+                    src="/images/primepicks/fe_checked-icon.svg"
                     alt="PrimePicks.Review"
                     className="aspect-[auto_16_/_16] box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] w-4 mr-2"
                   />
@@ -212,7 +212,7 @@ export const FeaturedProductCard = () => {
                 </li>
                 <li className="items-start box-border caret-transparent flex min-h-[auto] min-w-[auto] mb-2">
                   <img
-                    src="/assets/primepicks/fe_checked-icon.svg"
+                    src="/images/primepicks/fe_checked-icon.svg"
                     alt="PrimePicks.Review"
                     className="aspect-[auto_16_/_16] box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] w-4 mr-2"
                   />
@@ -222,7 +222,7 @@ export const FeaturedProductCard = () => {
                 </li>
                 <li className="items-start box-border caret-transparent flex min-h-[auto] min-w-[auto]">
                   <img
-                    src="/assets/primepicks/fe_checked-icon.svg"
+                    src="/images/primepicks/fe_checked-icon.svg"
                     alt="PrimePicks.Review"
                     className="aspect-[auto_16_/_16] box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] w-4 mr-2"
                   />
@@ -239,7 +239,7 @@ export const FeaturedProductCard = () => {
               <ul className="box-border caret-transparent flex flex-col justify-center list-none pl-0">
                 <li className="items-start box-border caret-transparent flex min-h-[auto] min-w-[auto]">
                   <img
-                    src="/assets/primepicks/con-x.svg"
+                    src="/images/primepicks/con-x.svg"
                     alt="PrimePicks.Review"
                     className="aspect-[auto_16_/_17] box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] w-4 mr-2"
                   />
@@ -259,7 +259,7 @@ export const FeaturedProductCard = () => {
                 </div>
                 <div className="box-border caret-transparent h-[18px] min-h-0 min-w-0 mb-1 md:min-h-[auto] md:min-w-[auto] md:mb-2">
                   <img
-                    src="/assets/primepicks/TrustRate-5-stars-1-1-2-6.svg"
+                    src="/images/primepicks/TrustRate-5-stars-1-1-2-6.svg"
                     alt="Tagsley"
                     className="aspect-[auto_95_/_18] box-border caret-transparent h-full max-w-full w-[95px]"
                   />
@@ -295,7 +295,7 @@ export const FeaturedProductCard = () => {
                   </span>
                   <span className="box-border caret-transparent block min-h-0 min-w-0 md:min-h-[auto] md:min-w-[auto]">
                     <img
-                      src="/assets/primepicks/icon-1.svg"
+                      src="/images/primepicks/icon-1.svg"
                       alt="Icon"
                       className="box-border caret-transparent h-3.5 w-[15px]"
                     />
@@ -303,7 +303,7 @@ export const FeaturedProductCard = () => {
                 </a>
                 <div className="relative items-start bg-white shadow-[rgba(0,0,0,0.15)_0px_1px_10px_0px] box-border caret-transparent flex min-h-0 min-w-0 mt-[22px] p-2 rounded-[10px] md:min-h-[auto] md:min-w-[auto] after:accent-auto after:box-border after:caret-transparent after:text-black after:block after:text-base after:not-italic after:normal-nums after:font-normal after:tracking-[normal] after:leading-6 after:list-outside after:list-disc after:pointer-events-auto after:absolute after:text-center after:no-underline after:indent-[0px] after:normal-case after:transform-none after:visible after:border-b-white after:border-b-[10px] after:border-x-transparent after:border-x-[5px] after:border-separate after:border-solid after:left-2/4 after:-top-2.5 after:font-open_sans after:md:translate-x-[-5px]">
                   <img
-                    src="/assets/primepicks/subtract.svg"
+                    src="/images/primepicks/subtract.svg"
                     alt="PrimePicks.Review"
                     className="aspect-[auto_16_/_16] box-border caret-transparent max-w-full min-h-0 min-w-0 w-4 mr-1 md:min-h-[auto] md:min-w-[auto]"
                   />

@@ -53,7 +53,7 @@ const ActionBar = ({
           <img
             role="img"
             alt="👍"
-            src="/media/vsl/pinksalt/1f44d.svg"
+            src="/images/pinksalt/1f44d.svg"
             className="box-border caret-transparent inline max-w-full h-3.5 w-3.5 mx-[0.98px]"
           />
           {" Like"}
@@ -66,7 +66,7 @@ const ActionBar = ({
           <img
             role="img"
             alt="🔁"
-            src="/media/vsl/pinksalt/1f501.svg"
+            src="/images/pinksalt/1f501.svg"
             className="box-border caret-transparent inline max-w-full h-3.5 w-3.5 mx-[0.98px]"
           />
           {` Reply – ${actionText}`}

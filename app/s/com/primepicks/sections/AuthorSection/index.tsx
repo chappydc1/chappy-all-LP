@@ -4,13 +4,13 @@ export const AuthorSection = () => {
       <section className="font-bold bg-zinc-100 box-border caret-transparent border border-neutral-200 mt-[22px] px-8 py-6 border-solid">
         <div className="box-border caret-transparent gap-x-4 grid grid-cols-[auto_1fr] mb-4">
           <img
-            src="/assets/primepicks/ZXhwZXJ0LTQ0LmpwZw.jpg"
+            src="/images/primepicks/ZXhwZXJ0LTQ0LmpwZw.jpg"
             alt="PrimePicks.Review"
             className="aspect-[auto_84_/_84] box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] w-[84px]"
           />
           <div className="box-border caret-transparent min-h-[auto] min-w-[auto]">
             <img
-              src="/assets/primepicks/Testimonials-stars-icons-7-4-1-1.svg"
+              src="/images/primepicks/Testimonials-stars-icons-7-4-1-1.svg"
               alt="PrimePicks.Review"
               className="aspect-[auto_84_/_16] box-border caret-transparent max-w-full w-[84px] mb-1"
             />

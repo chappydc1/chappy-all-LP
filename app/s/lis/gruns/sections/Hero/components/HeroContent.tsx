@@ -26,7 +26,7 @@ export const HeroContent = () => {
       <div className="box-border caret-transparent max-w-[420px] outline-[3px] mx-auto md:mx-0">
         <div className="box-border caret-transparent hidden outline-[3px]">
           <img
-            src="/s/lis/gruns/media/icon-8.svg"
+            src="/images/gruns/icon-8.svg"
             alt="Icon"
             className="box-border caret-transparent h-[30px] outline-[3px] w-[70px]"
           />
@@ -40,27 +40,27 @@ export const HeroContent = () => {
         <div className="items-center box-border caret-transparent gap-x-2 flex justify-center outline-[3px] gap-y-2 md:gap-x-0 md:justify-between md:gap-y-0">
           <div className="items-center box-border caret-transparent gap-x-0.5 flex min-h-[auto] min-w-[auto] outline-[3px] gap-y-0.5">
             <img
-              src="/s/lis/gruns/media/icon-9.svg"
+              src="/images/gruns/icon-9.svg"
               alt="Icon"
               className="box-border caret-transparent h-3.5 outline-[3px] w-3.5"
             />
             <img
-              src="/s/lis/gruns/media/icon-9.svg"
+              src="/images/gruns/icon-9.svg"
               alt="Icon"
               className="box-border caret-transparent h-3.5 outline-[3px] w-3.5"
             />
             <img
-              src="/s/lis/gruns/media/icon-9.svg"
+              src="/images/gruns/icon-9.svg"
               alt="Icon"
               className="box-border caret-transparent h-3.5 outline-[3px] w-3.5"
             />
             <img
-              src="/s/lis/gruns/media/icon-9.svg"
+              src="/images/gruns/icon-9.svg"
               alt="Icon"
               className="box-border caret-transparent h-3.5 outline-[3px] w-3.5"
             />
             <img
-              src="/s/lis/gruns/media/icon-9.svg"
+              src="/images/gruns/icon-9.svg"
               alt="Icon"
               className="box-border caret-transparent h-3.5 outline-[3px] w-3.5"
             />

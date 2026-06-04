@@ -12,35 +12,35 @@ export const ProductDetails = () => {
                 <span className="text-sm items-center box-border caret-transparent flex h-4 justify-start leading-[22.4px] outline-[3px] md:text-base md:leading-[25.6px]">
                   <span className="text-green-700 text-sm box-border caret-transparent block h-4 leading-[22.4px] min-h-[auto] min-w-[auto] outline-[3px] w-4 overflow-clip md:text-base md:leading-[25.6px]">
                     <img
-                      src="/s/lis/gruns/media/icon-15.svg"
+                      src="/images/gruns/icon-15.svg"
                       alt="Icon"
                       className="text-sm box-border caret-transparent h-4 leading-[22.4px] outline-[3px] w-4 md:text-base md:leading-[25.6px]"
                     />
                   </span>
                   <span className="text-green-700 text-sm box-border caret-transparent block h-4 leading-[22.4px] min-h-[auto] min-w-[auto] outline-[3px] w-4 overflow-clip md:text-base md:leading-[25.6px]">
                     <img
-                      src="/s/lis/gruns/media/icon-15.svg"
+                      src="/images/gruns/icon-15.svg"
                       alt="Icon"
                       className="text-sm box-border caret-transparent h-4 leading-[22.4px] outline-[3px] w-4 md:text-base md:leading-[25.6px]"
                     />
                   </span>
                   <span className="text-green-700 text-sm box-border caret-transparent block h-4 leading-[22.4px] min-h-[auto] min-w-[auto] outline-[3px] w-4 overflow-clip md:text-base md:leading-[25.6px]">
                     <img
-                      src="/s/lis/gruns/media/icon-15.svg"
+                      src="/images/gruns/icon-15.svg"
                       alt="Icon"
                       className="text-sm box-border caret-transparent h-4 leading-[22.4px] outline-[3px] w-4 md:text-base md:leading-[25.6px]"
                     />
                   </span>
                   <span className="text-green-700 text-sm box-border caret-transparent block h-4 leading-[22.4px] min-h-[auto] min-w-[auto] outline-[3px] w-4 overflow-clip md:text-base md:leading-[25.6px]">
                     <img
-                      src="/s/lis/gruns/media/icon-15.svg"
+                      src="/images/gruns/icon-15.svg"
                       alt="Icon"
                       className="text-sm box-border caret-transparent h-4 leading-[22.4px] outline-[3px] w-4 md:text-base md:leading-[25.6px]"
                     />
                   </span>
                   <span className="text-green-700 text-sm box-border caret-transparent block h-4 leading-[22.4px] min-h-[auto] min-w-[auto] outline-[3px] w-4 overflow-clip md:text-base md:leading-[25.6px]">
                     <img
-                      src="/s/lis/gruns/media/icon-15.svg"
+                      src="/images/gruns/icon-15.svg"
                       alt="Icon"
                       className="text-sm box-border caret-transparent h-4 leading-[22.4px] outline-[3px] w-4 md:text-base md:leading-[25.6px]"
                     />
@@ -88,7 +88,7 @@ export const ProductDetails = () => {
               <button className="text-base font-medium items-center bg-transparent caret-transparent gap-x-0.5 hidden justify-start leading-[19.2px] outline-[3px] gap-y-0.5 text-center p-0 border-b border-black">
                 Tastes Like{" "}
                 <img
-                  src="/s/lis/gruns/media/icon-16.svg"
+                  src="/images/gruns/icon-16.svg"
                   alt="Icon"
                   className="box-border caret-transparent inline-block h-4 outline-[3px] w-4"
                 />
@@ -109,7 +109,7 @@ export const ProductDetails = () => {
               >
                 <div className="relative bg-neutral-200 box-border caret-transparent h-[88px] min-h-[auto] min-w-[auto] outline-[3px] w-[88px] z-0 border overflow-clip rounded-[88px] border-solid">
                   <img
-                    src="/s/lis/gruns/media/16.avif"
+                    src="/images/gruns/16.avif"
                     alt="Grüns"
                     className="absolute aspect-[auto_108_/_108] box-border caret-transparent h-[108px] max-w-full min-w-[108px] outline-[3px] w-[108px] -left-2.5 top-0"
                   />
@@ -124,7 +124,7 @@ export const ProductDetails = () => {
               >
                 <div className="relative bg-white box-border caret-transparent h-[88px] min-h-[auto] min-w-[auto] outline-[3px] w-[88px] z-0 border overflow-clip rounded-[88px] border-solid">
                   <img
-                    src="/s/lis/gruns/media/15.avif"
+                    src="/images/gruns/15.avif"
                     alt="Popsicle® Firecracker Grüns"
                     className="absolute aspect-[auto_108_/_108] box-border caret-transparent h-[108px] max-w-full min-w-[108px] outline-[3px] w-[108px] -left-2.5 top-0"
                   />
@@ -143,7 +143,7 @@ export const ProductDetails = () => {
               <div className="relative bg-white box-border caret-transparent outline-[3px] m-5 px-5 py-[34px] rounded-xl md:m-40 md:p-8">
                 <button className="absolute bg-transparent caret-transparent block shrink-0 h-5 outline-[3px] text-center w-5 p-0 right-2 top-2">
                   <img
-                    src="/s/lis/gruns/media/icon-17.svg"
+                    src="/images/gruns/icon-17.svg"
                     alt="Icon"
                     className="box-border caret-transparent outline-[3px]"
                   />
@@ -152,13 +152,13 @@ export const ProductDetails = () => {
                   <div className="box-border caret-transparent outline-[3px]">
                     <div className="box-border caret-transparent outline-[3px]">
                       <img
-                        src="/s/lis/gruns/media/58.webp"
+                        src="/images/gruns/58.webp"
                         className="aspect-[auto_2400_/_1098] box-border caret-transparent max-w-full outline-[3px] w-[2400px]"
                       />
                     </div>
                     <div className="box-border caret-transparent block outline-[3px] md:hidden">
                       <img
-                        src="/s/lis/gruns/media/54.webp"
+                        src="/images/gruns/54.webp"
                         className="aspect-[auto_1200_/_2013] box-border caret-transparent max-w-full outline-[3px] w-[1200px]"
                       />
                     </div>
@@ -168,13 +168,13 @@ export const ProductDetails = () => {
                   <div className="box-border caret-transparent outline-[3px]">
                     <div className="box-border caret-transparent outline-[3px]">
                       <img
-                        src="/s/lis/gruns/media/59.webp"
+                        src="/images/gruns/59.webp"
                         className="aspect-[auto_1632_/_746] box-border caret-transparent max-w-full outline-[3px] w-[1632px]"
                       />
                     </div>
                     <div className="box-border caret-transparent block outline-[3px] md:hidden">
                       <img
-                        src="/s/lis/gruns/media/55.webp"
+                        src="/images/gruns/55.webp"
                         className="aspect-[auto_652_/_1032] box-border caret-transparent max-w-full outline-[3px] w-[652px]"
                       />
                     </div>
@@ -195,7 +195,7 @@ export const ProductDetails = () => {
               <button className="items-center bg-transparent caret-transparent gap-x-0.5 hidden justify-start leading-5 outline-[3px] gap-y-0.5 text-center p-0 border-b border-black">
                 Learn more{" "}
                 <img
-                  src="/s/lis/gruns/media/icon-16.svg"
+                  src="/images/gruns/icon-16.svg"
                   alt="Icon"
                   className="box-border caret-transparent inline-block h-4 outline-[3px] w-4"
                 />
@@ -223,7 +223,7 @@ export const ProductDetails = () => {
               <div className="relative bg-white box-border caret-transparent outline-[3px] m-5 px-5 py-[34px] rounded-xl md:m-40 md:p-8">
                 <button className="absolute bg-transparent caret-transparent block shrink-0 h-5 outline-[3px] text-center w-5 p-0 right-2 top-2">
                   <img
-                    src="/s/lis/gruns/media/icon-17.svg"
+                    src="/images/gruns/icon-17.svg"
                     alt="Icon"
                     className="box-border caret-transparent outline-[3px]"
                   />
@@ -232,13 +232,13 @@ export const ProductDetails = () => {
                   <div className="box-border caret-transparent outline-[3px]">
                     <div className="box-border caret-transparent outline-[3px]">
                       <img
-                        src="/s/lis/gruns/media/49.webp"
+                        src="/images/gruns/49.webp"
                         className="box-border caret-transparent max-w-full outline-[3px]"
                       />
                     </div>
                     <div className="box-border caret-transparent block outline-[3px] md:hidden">
                       <img
-                        src="/s/lis/gruns/media/50.webp"
+                        src="/images/gruns/50.webp"
                         className="box-border caret-transparent max-w-full outline-[3px]"
                       />
                     </div>
@@ -248,13 +248,13 @@ export const ProductDetails = () => {
                   <div className="box-border caret-transparent outline-[3px]">
                     <div className="box-border caret-transparent outline-[3px]">
                       <img
-                        src="/s/lis/gruns/media/51.webp"
+                        src="/images/gruns/51.webp"
                         className="box-border caret-transparent max-w-full outline-[3px]"
                       />
                     </div>
                     <div className="box-border caret-transparent block outline-[3px] md:hidden">
                       <img
-                        src="/s/lis/gruns/media/56.webp"
+                        src="/images/gruns/56.webp"
                         className="box-border caret-transparent max-w-full outline-[3px]"
                       />
                     </div>
@@ -275,7 +275,7 @@ export const ProductDetails = () => {
               <span className="text-green-950 text-sm font-medium items-center box-border caret-transparent gap-x-1 flex leading-[16.8px] min-h-[auto] min-w-[auto] opacity-50 outline-[3px] gap-y-1 border border-green-950 px-2 py-1 rounded-bl rounded-br rounded-tl rounded-tr border-dashed">
                 <span className="box-border caret-transparent block h-4 min-h-[auto] min-w-[auto] outline-[3px] w-4">
                   <img
-                    src="/s/lis/gruns/media/icon-18.svg"
+                    src="/images/gruns/icon-18.svg"
                     alt="Icon"
                     className="box-border caret-transparent h-4 outline-[3px] w-4"
                   />
@@ -427,7 +427,7 @@ export const ProductDetails = () => {
                                 <div className="items-center box-border caret-transparent gap-x-2 flex justify-start outline-[3px] gap-y-2">
                                   <span className="box-border caret-transparent block h-[18px] min-h-[auto] min-w-[auto] outline-[3px] w-[18px]">
                                     <img
-                                      src="/s/lis/gruns/media/35.svg"
+                                      src="/images/gruns/35.svg"
                                       alt="FAST & FREE Shipping On First Order"
                                       className="aspect-[auto_48_/_48] box-border caret-transparent max-w-full outline-[3px] w-12"
                                     />
@@ -441,7 +441,7 @@ export const ProductDetails = () => {
                                 <div className="items-center box-border caret-transparent gap-x-2 flex justify-start outline-[3px] gap-y-2">
                                   <span className="box-border caret-transparent block h-[18px] min-h-[auto] min-w-[auto] outline-[3px] w-[18px]">
                                     <img
-                                      src="/s/lis/gruns/media/35.svg"
+                                      src="/images/gruns/35.svg"
                                       alt="Pause Or Cancel Any Time"
                                       className="aspect-[auto_48_/_48] box-border caret-transparent max-w-full outline-[3px] w-12"
                                     />
@@ -455,7 +455,7 @@ export const ProductDetails = () => {
                                 <div className="items-center box-border caret-transparent gap-x-2 flex justify-start outline-[3px] gap-y-2">
                                   <span className="box-border caret-transparent block h-[18px] min-h-[auto] min-w-[auto] outline-[3px] w-[18px]">
                                     <img
-                                      src="/s/lis/gruns/media/35.svg"
+                                      src="/images/gruns/35.svg"
                                       alt="30-Day Money-Back Guarantee"
                                       className="aspect-[auto_48_/_48] box-border caret-transparent max-w-full outline-[3px] w-12"
                                     />
@@ -508,7 +508,7 @@ export const ProductDetails = () => {
                                 <div className="items-center box-border caret-transparent gap-x-2 flex justify-start outline-[3px] gap-y-2">
                                   <span className="box-border caret-transparent block h-[18px] min-h-[auto] min-w-[auto] outline-[3px] w-[18px]">
                                     <img
-                                      src="/s/lis/gruns/media/33.svg"
+                                      src="/images/gruns/33.svg"
                                       alt="No Free Shipping"
                                       className="aspect-[auto_48_/_48] box-border caret-transparent max-w-full outline-[3px] w-12"
                                     />
@@ -522,7 +522,7 @@ export const ProductDetails = () => {
                                 <div className="items-center box-border caret-transparent gap-x-2 flex justify-start outline-[3px] gap-y-2">
                                   <span className="box-border caret-transparent block h-[18px] min-h-[auto] min-w-[auto] outline-[3px] w-[18px]">
                                     <img
-                                      src="/s/lis/gruns/media/33.svg"
+                                      src="/images/gruns/33.svg"
                                       alt="Discount on first order only"
                                       className="aspect-[auto_48_/_48] box-border caret-transparent max-w-full outline-[3px] w-12"
                                     />
@@ -587,7 +587,7 @@ export const ProductDetails = () => {
                                 <div className="items-center box-border caret-transparent gap-x-2 flex justify-start outline-[3px] gap-y-2">
                                   <span className="box-border caret-transparent block h-[18px] outline-[3px] w-[18px]">
                                     <img
-                                      src="/s/lis/gruns/media/35.svg"
+                                      src="/images/gruns/35.svg"
                                       alt="FAST & FREE Shipping On First Order"
                                       className="aspect-[auto_48_/_48] box-border caret-transparent max-w-full outline-[3px] w-12"
                                     />
@@ -601,7 +601,7 @@ export const ProductDetails = () => {
                                 <div className="items-center box-border caret-transparent gap-x-2 flex justify-start outline-[3px] gap-y-2">
                                   <span className="box-border caret-transparent block h-[18px] outline-[3px] w-[18px]">
                                     <img
-                                      src="/s/lis/gruns/media/35.svg"
+                                      src="/images/gruns/35.svg"
                                       alt="Pause Or Cancel Any Time"
                                       className="aspect-[auto_48_/_48] box-border caret-transparent max-w-full outline-[3px] w-12"
                                     />
@@ -615,7 +615,7 @@ export const ProductDetails = () => {
                                 <div className="items-center box-border caret-transparent gap-x-2 flex justify-start outline-[3px] gap-y-2">
                                   <span className="box-border caret-transparent block h-[18px] outline-[3px] w-[18px]">
                                     <img
-                                      src="/s/lis/gruns/media/35.svg"
+                                      src="/images/gruns/35.svg"
                                       alt="30-Day Money-Back Guarantee"
                                       className="aspect-[auto_48_/_48] box-border caret-transparent max-w-full outline-[3px] w-12"
                                     />
@@ -668,7 +668,7 @@ export const ProductDetails = () => {
                                 <div className="items-center box-border caret-transparent gap-x-2 flex justify-start outline-[3px] gap-y-2">
                                   <span className="box-border caret-transparent block h-[18px] outline-[3px] w-[18px]">
                                     <img
-                                      src="/s/lis/gruns/media/33.svg"
+                                      src="/images/gruns/33.svg"
                                       alt="No Free Shipping"
                                       className="aspect-[auto_48_/_48] box-border caret-transparent max-w-full outline-[3px] w-12"
                                     />
@@ -682,7 +682,7 @@ export const ProductDetails = () => {
                                 <div className="items-center box-border caret-transparent gap-x-2 flex justify-start outline-[3px] gap-y-2">
                                   <span className="box-border caret-transparent block h-[18px] outline-[3px] w-[18px]">
                                     <img
-                                      src="/s/lis/gruns/media/33.svg"
+                                      src="/images/gruns/33.svg"
                                       alt="Discount on first order only"
                                       className="aspect-[auto_48_/_48] box-border caret-transparent max-w-full outline-[3px] w-12"
                                     />
@@ -811,7 +811,7 @@ export const ProductDetails = () => {
                                 <div className="items-center box-border caret-transparent gap-x-2 flex justify-start outline-[3px] gap-y-2">
                                   <span className="box-border caret-transparent block brightness-0 saturate-100 invert-[0.11] sepia-[0.91] saturate-[52.6] hue-rotate-[353deg] brightness-[0.89] contrast-[0.92] h-[18px] outline-[3px] w-[18px]">
                                     <img
-                                      src="/s/lis/gruns/media/35.svg"
+                                      src="/images/gruns/35.svg"
                                       alt="FAST & FREE Shipping On First Order"
                                       className="aspect-[auto_48_/_48] box-border caret-transparent max-w-full outline-[3px] w-12"
                                     />
@@ -825,7 +825,7 @@ export const ProductDetails = () => {
                                 <div className="items-center box-border caret-transparent gap-x-2 flex justify-start outline-[3px] gap-y-2">
                                   <span className="box-border caret-transparent block brightness-0 saturate-100 invert-[0.11] sepia-[0.91] saturate-[52.6] hue-rotate-[353deg] brightness-[0.89] contrast-[0.92] h-[18px] outline-[3px] w-[18px]">
                                     <img
-                                      src="/s/lis/gruns/media/35.svg"
+                                      src="/images/gruns/35.svg"
                                       alt="Pause Or Cancel Any Time"
                                       className="aspect-[auto_48_/_48] box-border caret-transparent max-w-full outline-[3px] w-12"
                                     />
@@ -839,7 +839,7 @@ export const ProductDetails = () => {
                                 <div className="items-center box-border caret-transparent gap-x-2 flex justify-start outline-[3px] gap-y-2">
                                   <span className="box-border caret-transparent block brightness-0 saturate-100 invert-[0.11] sepia-[0.91] saturate-[52.6] hue-rotate-[353deg] brightness-[0.89] contrast-[0.92] h-[18px] outline-[3px] w-[18px]">
                                     <img
-                                      src="/s/lis/gruns/media/35.svg"
+                                      src="/images/gruns/35.svg"
                                       alt="30-Day Money-Back Guarantee"
                                       className="aspect-[auto_48_/_48] box-border caret-transparent max-w-full outline-[3px] w-12"
                                     />
@@ -892,7 +892,7 @@ export const ProductDetails = () => {
                                 <div className="items-center box-border caret-transparent gap-x-2 flex justify-start outline-[3px] gap-y-2">
                                   <span className="box-border caret-transparent block brightness-0 saturate-100 invert-[0.11] sepia-[0.91] saturate-[52.6] hue-rotate-[353deg] brightness-[0.89] contrast-[0.92] h-[18px] outline-[3px] w-[18px]">
                                     <img
-                                      src="/s/lis/gruns/media/33.svg"
+                                      src="/images/gruns/33.svg"
                                       alt="No Free Shipping"
                                       className="aspect-[auto_48_/_48] box-border caret-transparent max-w-full outline-[3px] w-12"
                                     />
@@ -906,7 +906,7 @@ export const ProductDetails = () => {
                                 <div className="items-center box-border caret-transparent gap-x-2 flex justify-start outline-[3px] gap-y-2">
                                   <span className="box-border caret-transparent block brightness-0 saturate-100 invert-[0.11] sepia-[0.91] saturate-[52.6] hue-rotate-[353deg] brightness-[0.89] contrast-[0.92] h-[18px] outline-[3px] w-[18px]">
                                     <img
-                                      src="/s/lis/gruns/media/33.svg"
+                                      src="/images/gruns/33.svg"
                                       alt="Discount on first order only"
                                       className="aspect-[auto_48_/_48] box-border caret-transparent max-w-full outline-[3px] w-12"
                                     />
@@ -971,7 +971,7 @@ export const ProductDetails = () => {
                                 <div className="items-center box-border caret-transparent gap-x-2 flex justify-start outline-[3px] gap-y-2">
                                   <span className="box-border caret-transparent block brightness-0 saturate-100 invert-[0.11] sepia-[0.91] saturate-[52.6] hue-rotate-[353deg] brightness-[0.89] contrast-[0.92] h-[18px] outline-[3px] w-[18px]">
                                     <img
-                                      src="/s/lis/gruns/media/35.svg"
+                                      src="/images/gruns/35.svg"
                                       alt="FAST & FREE Shipping On First Order"
                                       className="aspect-[auto_48_/_48] box-border caret-transparent max-w-full outline-[3px] w-12"
                                     />
@@ -985,7 +985,7 @@ export const ProductDetails = () => {
                                 <div className="items-center box-border caret-transparent gap-x-2 flex justify-start outline-[3px] gap-y-2">
                                   <span className="box-border caret-transparent block brightness-0 saturate-100 invert-[0.11] sepia-[0.91] saturate-[52.6] hue-rotate-[353deg] brightness-[0.89] contrast-[0.92] h-[18px] outline-[3px] w-[18px]">
                                     <img
-                                      src="/s/lis/gruns/media/35.svg"
+                                      src="/images/gruns/35.svg"
                                       alt="Pause Or Cancel Any Time"
                                       className="aspect-[auto_48_/_48] box-border caret-transparent max-w-full outline-[3px] w-12"
                                     />
@@ -999,7 +999,7 @@ export const ProductDetails = () => {
                                 <div className="items-center box-border caret-transparent gap-x-2 flex justify-start outline-[3px] gap-y-2">
                                   <span className="box-border caret-transparent block brightness-0 saturate-100 invert-[0.11] sepia-[0.91] saturate-[52.6] hue-rotate-[353deg] brightness-[0.89] contrast-[0.92] h-[18px] outline-[3px] w-[18px]">
                                     <img
-                                      src="/s/lis/gruns/media/35.svg"
+                                      src="/images/gruns/35.svg"
                                       alt="30-Day Money-Back Guarantee"
                                       className="aspect-[auto_48_/_48] box-border caret-transparent max-w-full outline-[3px] w-12"
                                     />
@@ -1052,7 +1052,7 @@ export const ProductDetails = () => {
                                 <div className="items-center box-border caret-transparent gap-x-2 flex justify-start outline-[3px] gap-y-2">
                                   <span className="box-border caret-transparent block brightness-0 saturate-100 invert-[0.11] sepia-[0.91] saturate-[52.6] hue-rotate-[353deg] brightness-[0.89] contrast-[0.92] h-[18px] outline-[3px] w-[18px]">
                                     <img
-                                      src="/s/lis/gruns/media/33.svg"
+                                      src="/images/gruns/33.svg"
                                       alt="No Free Shipping"
                                       className="aspect-[auto_48_/_48] box-border caret-transparent max-w-full outline-[3px] w-12"
                                     />
@@ -1066,7 +1066,7 @@ export const ProductDetails = () => {
                                 <div className="items-center box-border caret-transparent gap-x-2 flex justify-start outline-[3px] gap-y-2">
                                   <span className="box-border caret-transparent block brightness-0 saturate-100 invert-[0.11] sepia-[0.91] saturate-[52.6] hue-rotate-[353deg] brightness-[0.89] contrast-[0.92] h-[18px] outline-[3px] w-[18px]">
                                     <img
-                                      src="/s/lis/gruns/media/33.svg"
+                                      src="/images/gruns/33.svg"
                                       alt="Discount on first order only"
                                       className="aspect-[auto_48_/_48] box-border caret-transparent max-w-full outline-[3px] w-12"
                                     />
@@ -1116,7 +1116,7 @@ export const ProductDetails = () => {
                 <div className="items-center box-border caret-transparent gap-x-2 flex flex-col justify-start outline-[3px] gap-y-2">
                   <span className="box-border caret-transparent block h-9 min-h-[auto] min-w-[auto] outline-[3px] w-9">
                     <img
-                      src="/s/lis/gruns/media/34.svg"
+                      src="/images/gruns/34.svg"
                       alt="30-Day Money-Back Guarantee"
                       className="aspect-[auto_48_/_48] box-border caret-transparent max-w-full outline-[3px] w-12"
                     />
@@ -1130,7 +1130,7 @@ export const ProductDetails = () => {
                 <div className="items-center box-border caret-transparent gap-x-2 flex flex-col justify-start outline-[3px] gap-y-2">
                   <span className="box-border caret-transparent block h-9 min-h-[auto] min-w-[auto] outline-[3px] w-9">
                     <img
-                      src="/s/lis/gruns/media/36.svg"
+                      src="/images/gruns/36.svg"
                       alt="Clinically and 3rd party tested"
                       className="aspect-[auto_48_/_48] box-border caret-transparent max-w-full outline-[3px] w-12"
                     />
@@ -1144,7 +1144,7 @@ export const ProductDetails = () => {
                 <div className="items-center box-border caret-transparent gap-x-2 flex flex-col justify-start outline-[3px] gap-y-2">
                   <span className="box-border caret-transparent block h-9 min-h-[auto] min-w-[auto] outline-[3px] w-9">
                     <img
-                      src="/s/lis/gruns/media/37.svg"
+                      src="/images/gruns/37.svg"
                       alt="HSA/FSA eligible with Truemed"
                       className="aspect-[auto_48_/_48] box-border caret-transparent max-w-full outline-[3px] w-12"
                     />
@@ -1169,7 +1169,7 @@ export const ProductDetails = () => {
                               HSA/FSA eligible{" "}
                             </span>
                             <img
-                              src="/s/lis/gruns/media/icon-19.svg"
+                              src="/images/gruns/icon-19.svg"
                               alt="Icon"
                               className="box-border caret-transparent h-3 outline-[3px] w-[15px]"
                             />
@@ -1205,7 +1205,7 @@ export const ProductDetails = () => {
                     </span>
                     <span className="box-border caret-transparent block shrink-0 h-6 min-h-[auto] min-w-[auto] outline-[3px] w-6 ml-10 mt-1">
                       <img
-                        src="/s/lis/gruns/media/icon-20.svg"
+                        src="/images/gruns/icon-20.svg"
                         alt="Icon"
                         className="box-border caret-transparent outline-[3px]"
                       />
@@ -1263,7 +1263,7 @@ export const ProductDetails = () => {
                     </span>
                     <span className="box-border caret-transparent block shrink-0 h-6 min-h-[auto] min-w-[auto] outline-[3px] w-6 ml-10 mt-1">
                       <img
-                        src="/s/lis/gruns/media/icon-20.svg"
+                        src="/images/gruns/icon-20.svg"
                         alt="Icon"
                         className="box-border caret-transparent outline-[3px]"
                       />
@@ -1340,7 +1340,7 @@ export const ProductDetails = () => {
                     </span>
                     <span className="box-border caret-transparent block shrink-0 h-6 min-h-[auto] min-w-[auto] outline-[3px] w-6 ml-10 mt-1">
                       <img
-                        src="/s/lis/gruns/media/icon-20.svg"
+                        src="/images/gruns/icon-20.svg"
                         alt="Icon"
                         className="box-border caret-transparent outline-[3px]"
                       />
@@ -1354,7 +1354,7 @@ export const ProductDetails = () => {
                   <div className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] overflow-hidden">
                     <div className="box-border caret-transparent outline-[3px] pr-10 pt-4">
                       <img
-                        src="/s/lis/gruns/media/60.webp"
+                        src="/images/gruns/60.webp"
                         alt=""
                         className="aspect-[auto_600_/_600] box-border caret-transparent max-w-full object-[50%_17.578%] outline-[3px] w-full mt-4"
                       />
@@ -1372,7 +1372,7 @@ export const ProductDetails = () => {
                     </span>
                     <span className="box-border caret-transparent block shrink-0 h-6 min-h-[auto] min-w-[auto] outline-[3px] w-6 ml-10 mt-1">
                       <img
-                        src="/s/lis/gruns/media/icon-20.svg"
+                        src="/images/gruns/icon-20.svg"
                         alt="Icon"
                         className="box-border caret-transparent outline-[3px]"
                       />
@@ -1441,7 +1441,7 @@ export const ProductDetails = () => {
                     </span>
                     <span className="box-border caret-transparent block shrink-0 h-6 min-h-[auto] min-w-[auto] outline-[3px] w-6 ml-10 mt-1">
                       <img
-                        src="/s/lis/gruns/media/icon-20.svg"
+                        src="/images/gruns/icon-20.svg"
                         alt="Icon"
                         className="box-border caret-transparent outline-[3px]"
                       />
@@ -1473,7 +1473,7 @@ export const ProductDetails = () => {
                     </span>
                     <span className="box-border caret-transparent block shrink-0 h-6 min-h-[auto] min-w-[auto] outline-[3px] w-6 ml-10 mt-1">
                       <img
-                        src="/s/lis/gruns/media/icon-20.svg"
+                        src="/images/gruns/icon-20.svg"
                         alt="Icon"
                         className="box-border caret-transparent outline-[3px]"
                       />
@@ -1641,7 +1641,7 @@ export const ProductDetails = () => {
                 <div className="items-center box-border caret-transparent flex flex-col justify-center outline-[3px] text-nowrap w-[115px]">
                   <div className="relative bg-rose-100 box-border caret-transparent h-14 outline-[3px] text-nowrap w-14 overflow-hidden rounded-[3.35544e+07px]">
                     <img
-                      src="/s/lis/gruns/media/79.png"
+                      src="/images/gruns/79.png"
                       alt=""
                       sizes="56px"
                       className="aspect-[auto_112_/_112] box-border caret-transparent h-full max-w-full object-contain outline-[3px] text-nowrap w-full p-2"

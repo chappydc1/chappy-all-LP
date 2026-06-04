@@ -1,24 +1,24 @@
 {
   "video": {
-    "icon": "/media/vsl/pinksalt/icon-1.svg"
+    "icon": "/images/pinksalt/icon-1.svg"
   },
   "scientificReferences": {
-    "image": "/media/vsl/pinksalt/jhbmyD1749942.webp"
+    "image": "/images/pinksalt/jhbmyD1749942.webp"
   },
   "icons": {
-    "like": "/media/vsl/pinksalt/1f44d.svg",
-    "reply": "/media/vsl/pinksalt/1f501.svg"
+    "like": "/images/pinksalt/1f44d.svg",
+    "reply": "/images/pinksalt/1f501.svg"
   },
   "avatars": {
-    "sarah-smith": "/media/vsl/pinksalt/hEMtnu2001596.webp",
-    "jennifer-taylor": "/media/vsl/pinksalt/kbPeho2025190.webp",
-    "olivia-moore": "/media/vsl/pinksalt/aAtbjA2058308.webp",
-    "emily-johnson": "/media/vsl/pinksalt/cIxqDb2133076.webp",
-    "elizabeth-miller": "/media/vsl/pinksalt/IeAIgy2205219.webp",
-    "abigail-martinez": "/media/vsl/pinksalt/KtysvY2314645.webp",
-    "natalie-clark": "/media/vsl/pinksalt/JSKEQM2241629.webp",
-    "jessica-brown": "/media/vsl/pinksalt/pberKS2391370.webp",
-    "chloe-garcia": "/media/vsl/pinksalt/FEksgJ2345870.webp",
-    "olivia-moore-reply": "/media/vsl/pinksalt/aAtbjA2058308.webp"
+    "sarah-smith": "/images/pinksalt/hEMtnu2001596.webp",
+    "jennifer-taylor": "/images/pinksalt/kbPeho2025190.webp",
+    "olivia-moore": "/images/pinksalt/aAtbjA2058308.webp",
+    "emily-johnson": "/images/pinksalt/cIxqDb2133076.webp",
+    "elizabeth-miller": "/images/pinksalt/IeAIgy2205219.webp",
+    "abigail-martinez": "/images/pinksalt/KtysvY2314645.webp",
+    "natalie-clark": "/images/pinksalt/JSKEQM2241629.webp",
+    "jessica-brown": "/images/pinksalt/pberKS2391370.webp",
+    "chloe-garcia": "/images/pinksalt/FEksgJ2345870.webp",
+    "olivia-moore-reply": "/images/pinksalt/aAtbjA2058308.webp"
   }
 }
