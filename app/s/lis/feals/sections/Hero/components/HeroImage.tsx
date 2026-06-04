@@ -6,7 +6,7 @@ export const HeroImage = () => {
         className="items-center self-stretch box-border caret-transparent flex basis-0 grow h-auto object-cover outline-[3px] overflow-x-auto overflow-y-hidden md:h-full"
       >
         <img
-          src="https://c.animaapp.com/mpkdzooupOfzIE/assets/74.png"
+          src="/images/feals/74.png"
           className="box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-cover outline-[3px] align-baseline"
         />
       </picture>

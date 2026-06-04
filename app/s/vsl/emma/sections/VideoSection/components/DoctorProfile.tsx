@@ -4,7 +4,7 @@ export const DoctorProfile = () => {
       <div className="box-border caret-transparent gap-x-2.5 flex flex-row gap-y-2.5 md:flex-col">
         <div className="box-border caret-transparent min-h-0 min-w-0 md:min-h-[auto] md:min-w-[auto]">
           <img
-            src="https://c.animaapp.com/mnsem251Wpf2gA/assets/drginasam.webp"
+            src="/images/emma/drginasam.webp"
             className="box-border caret-transparent inline w-[81.96px] md:w-[147.2px]"
           />
         </div>

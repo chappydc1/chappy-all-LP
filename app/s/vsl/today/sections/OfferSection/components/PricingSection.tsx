@@ -16,7 +16,7 @@ export const PricingSection = () => {
             titleClass="text-sky-950"
             supplyText="60 Day Supply"
             imageWrapperClass="overflow-visible pt-2.5 md:overflow-hidden md:pt-0 before:accent-auto before:bg-[linear-gradient(190deg,rgb(19,97,153)_0.64%,rgb(22,121,218)_41.87%,rgb(19,97,153)_99.99%)] before:box-border before:caret-transparent before:text-black before:block before:text-base before:not-italic before:normal-nums before:font-normal before:h-[120px] before:tracking-[normal] before:leading-6 before:list-outside before:list-none before:outline-[3px] before:pointer-events-auto before:absolute before:text-center before:no-underline before:indent-[0px] before:normal-case before:visible before:w-[120px] before:z-[1] before:rounded-[50%] before:border-separate before:left-2/4 before:top-0 before:font-montserrat before:md:h-60 before:md:w-60"
-            imageSrc="https://sugarhealthnotice.com/news/begin/watch/wtc-2/assets/img/2 BOTTLES.png"
+            imageSrc="/images/today/2_BOTTLES.png"
             imageAlt="2 Bottles"
             showFreeIcon="false"
             freeIconSrc=""
@@ -35,12 +35,12 @@ export const PricingSection = () => {
             feature2="FAST SHIPPING"
             feature3="FREE SHIPPING"
             buttonVariantClass="max-w-[200px]"
-            buttonImageSrc="https://sugarhealthnotice.com/news/begin/watch/wtc-2/assets/img/button.webp"
+            buttonImageSrc="/images/today/button.webp
             buttonImageAlt="Add To Cart"
             showCursorImage="false"
             cursorImageSrc=""
             cursorImageAlt=""
-            cardImageSrc="https://sugarhealthnotice.com/news/begin/watch/wtc-2/assets/img/card.png"
+            cardImageSrc="/images/today/card.png
             cardImageAlt="Credit Cards"
             totalTextClass="text-sky-950"
             totalLabelClass=""
@@ -59,10 +59,10 @@ export const PricingSection = () => {
             titleClass=""
             supplyText="180 Day Supply"
             imageWrapperClass="overflow-visible md:overflow-hidden before:accent-auto before:bg-[linear-gradient(190deg,rgb(19,97,153)_0.64%,rgb(22,121,218)_41.87%,rgb(19,97,153)_99.99%)] before:box-border before:caret-transparent before:text-white before:hidden before:text-base before:not-italic before:normal-nums before:font-normal before:h-[120px] before:tracking-[normal] before:leading-6 before:list-outside before:list-none before:outline-[3px] before:pointer-events-auto before:absolute before:text-center before:no-underline before:indent-[0px] before:normal-case before:visible before:w-[120px] before:z-[1] before:rounded-[50%] before:border-separate before:left-2/4 before:top-0 before:font-montserrat before:md:h-60 before:md:w-60"
-            imageSrc="https://sugarhealthnotice.com/news/begin/watch/wtc-2/assets/img/6 BOTTLES.png"
+            imageSrc="/images/today/6_BOTTLES.png"
             imageAlt="6 Bottles"
             showFreeIcon="true"
-            freeIconSrc="https://sugarhealthnotice.com/news/begin/watch/wtc-2/assets/img/free.svg"
+            freeIconSrc="/images/today/free.svg
             freeIconAlt=""
             saveBadgeClass="right-[5%]"
             saveTextClass="text-[15px] font-bold box-border caret-transparent block leading-[15px] outline-[3px] uppercase"
@@ -78,12 +78,12 @@ export const PricingSection = () => {
             feature2="FAST & FREE SHIPPING"
             feature3="60 DAYS GUARANTEE"
             buttonVariantClass="max-w-full"
-            buttonImageSrc="https://sugarhealthnotice.com/news/begin/watch/wtc-2/assets/img/button.webp"
+            buttonImageSrc="/images/today/button.webp
             buttonImageAlt="Add To Cart"
             showCursorImage="true"
-            cursorImageSrc="https://sugarhealthnotice.com/news/begin/watch/wtc-2/assets/img/cursor.png"
+            cursorImageSrc="/images/today/cursor.png
             cursorImageAlt=""
-            cardImageSrc="https://sugarhealthnotice.com/news/begin/watch/wtc-2/assets/img/card.png"
+            cardImageSrc="/images/today/card.png
             cardImageAlt="Credit Cards"
             totalTextClass=""
             totalLabelClass=""
@@ -102,10 +102,10 @@ export const PricingSection = () => {
             titleClass="text-sky-950"
             supplyText="90 Day Supply"
             imageWrapperClass="overflow-visible md:overflow-hidden before:accent-auto before:bg-[linear-gradient(190deg,rgb(19,97,153)_0.64%,rgb(22,121,218)_41.87%,rgb(19,97,153)_99.99%)] before:box-border before:caret-transparent before:text-black before:block before:text-base before:not-italic before:normal-nums before:font-normal before:h-[120px] before:tracking-[normal] before:leading-6 before:list-outside before:list-none before:outline-[3px] before:pointer-events-auto before:absolute before:text-center before:no-underline before:indent-[0px] before:normal-case before:visible before:w-[120px] before:z-[1] before:rounded-[50%] before:border-separate before:left-2/4 before:top-0 before:font-montserrat before:md:h-60 before:md:w-60"
-            imageSrc="https://sugarhealthnotice.com/news/begin/watch/wtc-2/assets/img/3 BOTTLES .png"
+            imageSrc="/images/today/3_BOTTLES.png"
             imageAlt="3 Bottles"
             showFreeIcon="true"
-            freeIconSrc="https://sugarhealthnotice.com/news/begin/watch/wtc-2/assets/img/free.svg"
+            freeIconSrc="/images/today/free.svg
             freeIconAlt=""
             saveBadgeClass="right-0 md:right-[15%]"
             saveTextClass="text-white text-[15px] font-bold box-border caret-transparent block leading-[15px] outline-[3px] uppercase"
@@ -121,12 +121,12 @@ export const PricingSection = () => {
             feature2="FAST & FREE SHIPPING"
             feature3="60 DAYS GUARANTEE"
             buttonVariantClass="max-w-[200px]"
-            buttonImageSrc="https://sugarhealthnotice.com/news/begin/watch/wtc-2/assets/img/button.webp"
+            buttonImageSrc="/images/today/button.webp
             buttonImageAlt="Add To Cart"
             showCursorImage="false"
             cursorImageSrc=""
             cursorImageAlt=""
-            cardImageSrc="https://sugarhealthnotice.com/news/begin/watch/wtc-2/assets/img/card.png"
+            cardImageSrc="/images/today/card.png
             cardImageAlt="Credit Cards"
             totalTextClass="text-sky-950"
             totalLabelClass=""
@@ -136,7 +136,7 @@ export const PricingSection = () => {
           />
         </ul>
         <img
-          src="https://sugarhealthnotice.com/news/begin/watch/wtc-2/assets/img/medalhas.png"
+          src="/images/today/medalhas.png
           alt=""
           className="box-border caret-transparent max-w-full object-contain outline-[3px]"
         />

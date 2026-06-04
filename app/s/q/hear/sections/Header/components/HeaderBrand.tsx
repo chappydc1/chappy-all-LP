@@ -3,7 +3,7 @@ export const HeaderBrand = () => {
     <div className="items-center caret-transparent flex justify-between outline-[3px] pl-10 pr-[25px] md:px-[65px]">
       <div className="caret-transparent min-h-[auto] min-w-[auto] outline-[3px] w-[85px] md:w-[145px]">
         <img
-          src="https://c.animaapp.com/mpgprp8nfS9gmT/assets/hearcom-v2.svg"
+          src="/images/hear/hearcom-v2.svg"
           alt="hear.com logo"
           className="caret-transparent inline outline-[3px] align-bottom w-full"
         />

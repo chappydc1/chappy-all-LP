@@ -22,11 +22,11 @@
   },
   "ui": {
     "rightArrow": "/forbes/right-arrow.svg",
-    "starEmpty": "https://www.forbes.com/wui/assets/shared/star-empty-slim.svg",
-    "starFull": "https://www.forbes.com/wui/assets/shared/star-slim.svg",
-    "trophyPrimary": "https://www.forbes.com/wui/assets/superlative/trophy-primary.svg",
-    "trophyHealth": "https://www.forbes.com/wui/assets/health-icons/superlative-trophy.svg",
-    "circleTick": "https://www.forbes.com/wui/assets/shared/circle-tick-dark.svg"
+    "starEmpty": "/images/forbes/star-empty-slim.svg",
+    "starFull": "/images/forbes/star-slim.svg",
+    "trophyPrimary": "/images/forbes/trophy-primary.svg",
+    "trophyHealth": "/images/forbes/superlative-trophy.svg",
+    "circleTick": "/images/forbes/circle-tick-dark.svg"
   },
   "fonts": {
     "euclidCircularB": {

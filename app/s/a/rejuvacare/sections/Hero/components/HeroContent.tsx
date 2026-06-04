@@ -79,7 +79,7 @@ export const HeroContent = () => {
         containerVariant="bg-white min-h-[auto] min-w-[auto] rounded-[10px] md:rounded-[5px]"
         badgeVariant="leading-[19.2px]"
       />
-      <div className="bg-white bg-[url('https://assets.imagehub.io/0fae3c70-45dd-11ee-86e4-45d907ee05ed/1713781536653_1713532949416_2_1_.png')] bg-no-repeat bg-contain box-border caret-transparent flex min-h-[auto] min-w-[auto] outline-[3px] w-full bg-right-bottom mt-[15px] rounded-[10px] md:mt-4"></div>
+      <div className="bg-white bg-[url('/images/rejuvacare/1713781536653_1713532949416_2_1_.png"></div>
     </div>
   );
 };

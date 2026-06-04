@@ -34,7 +34,7 @@ export const CartDrawer = () => {
               <div className="items-center box-border caret-transparent flex flex-col justify-center outline-[3px] w-full px-[3px]">
                 <div className="items-center bg-slate-300 box-border caret-transparent flex h-6 justify-center outline-[3px] w-6 rounded-[50%]">
                   <img
-                    src="https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-45.svg"
+                    src="/images/feals/icon-45.svg"
                     alt="Icon"
                     className="box-border caret-transparent h-[55.56%] outline-[3px] align-baseline w-[55.56%]"
                   />
@@ -81,7 +81,7 @@ export const CartDrawer = () => {
                 className="box-border caret-transparent outline-[3px]"
               >
                 <img
-                  src="https://c.animaapp.com/mpkdzooupOfzIE/assets/67.png"
+                  src="/images/feals/67.png"
                   className="box-border caret-transparent inline h-full outline-[3px] align-baseline w-full"
                 />
               </a>
@@ -115,7 +115,7 @@ export const CartDrawer = () => {
                               className="text-[0px] box-border caret-transparent block leading-[0px] max-w-full outline-[3px] mx-auto"
                             >
                               <img
-                                src="https://c.animaapp.com/mpkdzooupOfzIE/assets/68.jpg"
+                                src="/images/feals/68.jpg"
                                 alt="View The Relax Gummies"
                                 className="box-border caret-transparent max-h-full max-w-full object-contain outline-[3px] align-baseline ml-auto"
                               />
@@ -187,7 +187,7 @@ export const CartDrawer = () => {
                               className="text-[0px] box-border caret-transparent block leading-[0px] max-w-full outline-[3px] mx-auto"
                             >
                               <img
-                                src="https://c.animaapp.com/mpkdzooupOfzIE/assets/69.jpg"
+                                src="/images/feals/69.jpg"
                                 alt="View The Sleep Gummies"
                                 className="box-border caret-transparent max-h-full max-w-full object-contain outline-[3px] align-baseline ml-auto"
                               />

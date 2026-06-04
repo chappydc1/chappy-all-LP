@@ -4,7 +4,7 @@ export const HsaFsaSection = () => {
       {/* Image — left */}
       <div className="w-full md:flex-1 shrink-0">
         <img
-          src="https://assets.imagehub.io/0415d360-e677-11ee-a7b2-eb6e26f0128b/1756189641488_HSA_FSA_Eligible_Squared_v4_1_.webp"
+          src="/images/nebroo/1756189641488_HSA_FSA_Eligible_Squared_v4_1_.webp"
           alt="HSA/FSA Eligible"
           className="w-full rounded-[10px] object-cover"
         />

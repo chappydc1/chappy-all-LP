@@ -24,7 +24,7 @@ export const DoctorReview = (props: DoctorReviewProps) => {
           </i>
         </div>
       </div>
-      <div className="items-center bg-[url('https://assets.imagehub.io/bb6d9900-4f98-11ef-a365-7332b5bb1723/1722821367050_dr_james_barkley.webp')] bg-no-repeat bg-cover box-border caret-transparent flex flex-col h-[210px] justify-end min-h-[auto] min-w-[auto] outline-[3px] w-[300px] bg-[position:left_100%] -ml-2.5 md:items-end md:flex-row md:h-[177px] md:w-[175px]"></div>
+      <div className="items-center bg-[url('/images/rejuvacare/1722821367050_dr_james_barkley.webp"></div>
     </div>
   );
 };

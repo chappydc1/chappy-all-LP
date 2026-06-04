@@ -7,7 +7,7 @@ export const DoctorBio = () => {
           <div className="box-border gap-x-2.5 flex flex-row gap-y-2.5 md:flex-col">
             <div className="box-border min-h-[auto] min-w-[auto] md:min-h-0 md:min-w-0">
               <img
-                src="https://c.animaapp.com/mnsem251Wpf2gA/assets/drginasam.webp"
+                src="/images/emma/drginasam.webp"
                 className="box-border inline h-[81.96px] w-[81.96px]"
               />
             </div>
@@ -71,7 +71,7 @@ export const DoctorBio = () => {
             ].map((c, i) => (
               <div key={c.name} className={`items-start box-border gap-x-[13.2px] flex gap-y-[13.2px] reveal${i === 0 ? " mt-4" : ""}`} style={{ transitionDelay: `${Math.min(i * 0.04, 0.5)}s` }}>
                 <img
-                  src={`https://c.animaapp.com/mnsem251Wpf2gA/assets/${c.img}.webp`}
+                  src={`/images/emma/${c.img}.webp`}
                   className="box-border w-[44.35px] md:w-[63.36px] flex-shrink-0"
                   alt={c.name}
                 />
@@ -97,11 +97,11 @@ export const DoctorBio = () => {
             <div className="box-border flex flex-wrap -mx-3 pt-6">
               <div className="box-border shrink-0 max-w-full w-full px-3">
                 <img
-                  src="https://c.animaapp.com/mnsem251Wpf2gA/assets/asseenond.webp"
+                  src="/images/emma/asseenond.webp"
                   className="box-border hidden max-w-[772px] w-full m-auto md:block"
                 />
                 <img
-                  src="https://c.animaapp.com/mnsem251Wpf2gA/assets/asseenonm.webp"
+                  src="/images/emma/asseenonm.webp"
                   className="box-border block max-w-[343px] w-full m-auto md:hidden"
                 />
               </div>

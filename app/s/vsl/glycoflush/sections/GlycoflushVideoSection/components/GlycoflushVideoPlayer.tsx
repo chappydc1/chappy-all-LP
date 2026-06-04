@@ -13,7 +13,7 @@ export const GlycoflushVideoPlayer = () => {
             id="69e16f36ed35062270c606c2"
             playsInline
             preload="metadata"
-            poster="https://cdn.converteai.net/b5e8472d-3421-4675-a219-1ae1b636b21f/69e16ee9750b24d3132e385e/poster.jpg"
+            poster="/images/glycoflush/poster.jpg"
             className="w-full h-full"
           />
         </div>

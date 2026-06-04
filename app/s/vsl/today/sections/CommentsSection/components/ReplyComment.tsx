@@ -2,7 +2,7 @@ export const ReplyComment = () => {
   return (
     <div className="items-start box-border caret-transparent gap-x-2 flex outline-[3px] gap-y-2 border-gray-100 ml-4 mt-3 pl-3 border-l-2 border-solid">
       <img
-        src="https://sugarhealthnotice.com/news/begin/watch/wtc-2/assets/img/fb/foto1 (1).jpg"
+        src="/images/today/foto1_1.jpg"
         alt="Bonnie Walker verified user"
         className="box-border caret-transparent h-8 max-w-full min-h-[auto] min-w-[auto] object-contain outline-[3px] w-8 rounded-sm"
       />

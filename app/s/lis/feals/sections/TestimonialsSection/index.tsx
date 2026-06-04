@@ -14,17 +14,17 @@ export const TestimonialsSection = () => {
         </div>
         <div className="relative items-center box-border caret-transparent gap-x-0 flex flex-col shrink-0 justify-start max-w-none min-h-px min-w-[auto] outline-[3px] gap-y-0 w-full md:gap-x-[normal] md:max-w-[80%] md:gap-y-[normal]">
           <TestimonialCard
-            iconSrc="https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-10.svg"
+            iconSrc="/images/feals/icon-10.svg"
             title="I was very reluctant to try but..."
             quote={
               '"I was very reluctant to try because of my last 2 experiences magnified my anxiety. These are a COMPLETELY positive experience because I have control over the effect based on the dosage guidance."'
             }
             authorName="Reagan T."
-            verificationIconSrc="https://c.animaapp.com/mpkdzooupOfzIE/assets/45.svg"
+            verificationIconSrc="/images/feals/45.svg"
             verificationText="Verified Buyer"
           />
           <TestimonialCard
-            iconSrc="https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-11.svg"
+            iconSrc="/images/feals/icon-11.svg"
             title="Alcohol is OUT"
             quote={
               <span className="text-lg box-border caret-transparent leading-[25.2px] outline-[3px] break-words md:text-xl md:leading-7">
@@ -36,33 +36,33 @@ export const TestimonialsSection = () => {
               </span>
             }
             authorName="Sarah F."
-            verificationIconSrc="https://c.animaapp.com/mpkdzooupOfzIE/assets/45.svg"
+            verificationIconSrc="/images/feals/45.svg"
             verificationText="Verified Buyer"
           />
           <TestimonialCard
-            iconSrc="https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-12.svg"
+            iconSrc="/images/feals/icon-12.svg"
             title="Love these relaxing gummies"
             quote="&quot;I love these gummies. They help me feel relaxed in about 30 minutes after I take just one. I replaced my evening glass of wine- minus the morning headache. They also help ease some muscle aches I commonly have and just help with an overall sense of calm.&quot;"
             authorName="Emily O."
-            verificationIconSrc="https://c.animaapp.com/mpkdzooupOfzIE/assets/45.svg"
+            verificationIconSrc="/images/feals/45.svg"
             verificationText="Verified Buyer"
           />
           <TestimonialCard
-            iconSrc="https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-13.svg"
+            iconSrc="/images/feals/icon-13.svg"
             title="A must for your self care toolbox!"
             quote={
               '"Great addition to my self care tool box! The gummies give me a sense of calm to help with daily tasks. Using them for social settings such as concerts or going out to busy places help keep me grounded and in-tune with myself and focused on the present moment. Has a good taste and gummy consistency is on point!"'
             }
             authorName="Nichole R."
-            verificationIconSrc="https://c.animaapp.com/mpkdzooupOfzIE/assets/45.svg"
+            verificationIconSrc="/images/feals/45.svg"
             verificationText="Verified Buyer"
           />
           <TestimonialCard
-            iconSrc="https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-14.svg"
+            iconSrc="/images/feals/icon-14.svg"
             title="Chew and chill"
             quote="&quot;I needed something to help with what had become an after work happy hour habit and the feals gummies are working! Whenever I have a stressful day I chew a couple of gummies and feel less stressed and more &quot;chill&quot;. No fuzzy brain feeling just more relaxed and less wound up.&quot;"
             authorName="Rachel R."
-            verificationIconSrc="https://c.animaapp.com/mpkdzooupOfzIE/assets/45.svg"
+            verificationIconSrc="/images/feals/45.svg"
             verificationText="Verified Buyer"
           />
           <TestimonialGallery />

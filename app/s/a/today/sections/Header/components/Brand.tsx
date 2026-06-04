@@ -3,12 +3,12 @@ export const Brand = () => {
     <div className="items-center box-border caret-transparent flex min-h-[auto] min-w-[auto] outline-[3px] overflow-hidden">
       <a className="text-red-600 text-sm font-semibold items-center box-border caret-transparent flex shrink-0 leading-[21px] min-h-[auto] min-w-[auto] outline-[3px] mr-6 hover:underline">
         <img
-          src="https://c.animaapp.com/mp1so458wGF4jN/assets/icon-1.svg"
+          src="/images/today/icon-1.svg"
           alt="Icon"
           className="text-red-500 box-border caret-transparent h-4 outline-[3px] w-7 mr-1.5 md:h-5 md:w-9"
         />
         <img
-          src="https://c.animaapp.com/mp1so458wGF4jN/assets/icon-2.svg"
+          src="/images/today/icon-2.svg"
           alt="Icon"
           className="text-black box-border caret-transparent h-5 outline-[3px] md:h-6"
         />

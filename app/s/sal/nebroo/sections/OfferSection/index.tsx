@@ -10,7 +10,7 @@ export const OfferSection = () => {
           <img
             alt="SKU-green bg.webp"
             title=""
-            src="https://c.animaapp.com/mnsbh2exJLSZhk/assets/1739451115452_Special_Offer_Now_2_.webp"
+            src="/images/nebroo/1739451115452_Special_Offer_Now_2_.webp"
             
             className="box-border caret-transparent inline max-w-full mx-auto md:mx-0"
           />
@@ -38,7 +38,7 @@ export const OfferSection = () => {
                   <div className="box-border caret-transparent basis-[6.57%] grow min-h-[25px] min-w-[auto]">
                     <img
                       title=""
-                      src="https://c.animaapp.com/mnsbh2exJLSZhk/assets/1700045980939_1666773712_check_1check_v1642658295149.png"
+                      src="/images/nebroo/1700045980939_1666773712_check_1check_v1642658295149.png"
                       
                       alt=""
                       className="text-black box-border caret-transparent inline max-w-full w-[25px] p-px"
@@ -57,7 +57,7 @@ export const OfferSection = () => {
                   <div className="box-border caret-transparent basis-[6.57%] grow min-h-[25px] min-w-[auto]">
                     <img
                       title=""
-                      src="https://c.animaapp.com/mnsbh2exJLSZhk/assets/1700045980939_1666773712_check_1check_v1642658295149.png"
+                      src="/images/nebroo/1700045980939_1666773712_check_1check_v1642658295149.png"
                       
                       alt=""
                       className="text-black box-border caret-transparent inline max-w-full w-[25px] p-px"
@@ -75,7 +75,7 @@ export const OfferSection = () => {
                   <div className="box-border caret-transparent basis-[6.57%] grow min-h-[25px] min-w-[auto]">
                     <img
                       title=""
-                      src="https://c.animaapp.com/mnsbh2exJLSZhk/assets/1700045980939_1666773712_check_1check_v1642658295149.png"
+                      src="/images/nebroo/1700045980939_1666773712_check_1check_v1642658295149.png"
                       
                       alt=""
                       className="text-black box-border caret-transparent inline max-w-full w-[25px] p-px"
@@ -93,7 +93,7 @@ export const OfferSection = () => {
                   <div className="box-border caret-transparent basis-[6.57%] grow min-h-[25px] min-w-[auto]">
                     <img
                       title=""
-                      src="https://c.animaapp.com/mnsbh2exJLSZhk/assets/1700045980939_1666773712_check_1check_v1642658295149.png"
+                      src="/images/nebroo/1700045980939_1666773712_check_1check_v1642658295149.png"
                       
                       alt=""
                       className="text-black box-border caret-transparent inline max-w-full w-[25px] p-px"

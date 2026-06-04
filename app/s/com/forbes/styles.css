@@ -306,13 +306,13 @@
   height: 12px;
   width: 65px;
   overflow: hidden;
-  background-image: url('https://www.forbes.com/wui/assets/shared/star-empty-slim.svg');
+  background-image: url('/images/forbes/star-empty-slim.svg');
   background-repeat: repeat-x;
 }
 .forbes-stars__fill {
   height: 12px;
   max-width: 100%;
-  background-image: url('https://www.forbes.com/wui/assets/shared/star-slim.svg');
+  background-image: url('/images/forbes/star-slim.svg');
 }
 
 /* Product card */
@@ -354,10 +354,10 @@
   background: no-repeat center / contain;
 }
 .forbes-badge__icon--trophy {
-  background-image: url('https://www.forbes.com/wui/assets/superlative/trophy-primary.svg');
+  background-image: url('/images/forbes/trophy-primary.svg');
 }
 .forbes-badge__icon--trophy-health {
-  background-image: url('https://www.forbes.com/wui/assets/health-icons/superlative-trophy.svg');
+  background-image: url('/images/forbes/superlative-trophy.svg');
 }
 .forbes-badge__text {
   color: #fff;
@@ -454,7 +454,7 @@
   height: 17px;
   width: 17px;
   margin-top: 4px;
-  background: url('https://www.forbes.com/wui/assets/shared/circle-tick-dark.svg') no-repeat center / contain;
+  background: url('/images/forbes/circle-tick-dark.svg') no-repeat center / contain;
 }
 @media (min-width: 768px) {
   .forbes-feature-tick { display: block; }

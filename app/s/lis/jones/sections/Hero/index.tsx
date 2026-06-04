@@ -6,7 +6,7 @@ export const Hero = () => {
           <div className="relative items-start self-stretch box-border caret-transparent flex basis-auto grow justify-start max-w-full min-h-px outline-[3px] md:basis-0">
             <picture className="items-center self-start box-border caret-transparent flex basis-0 grow h-[350px] object-cover outline-[3px] overflow-x-auto overflow-y-hidden md:h-[587px]">
               <img
-                src="https://c.animaapp.com/mpke0433qmtH28/assets/146.png"
+                src="/images/jones/146.png"
                 alt="Various shades of foundation cream in glass jars arranged neatly in rows."
                 className="box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-cover outline-[3px] align-baseline"
               />
@@ -34,7 +34,7 @@ export const Hero = () => {
             <div className="relative items-center self-center box-border caret-transparent gap-x-2 flex shrink-0 h-6 justify-center max-w-full min-h-px min-w-[auto] outline-[3px] gap-y-2 mb-2.5 md:self-stretch md:h-[18px] md:mb-[30px]">
               <picture className="items-center self-center box-border caret-transparent flex shrink-0 h-[18px] object-contain outline-[3px] overflow-x-auto overflow-y-hidden w-[81px]">
                 <img
-                  src="https://c.animaapp.com/mpke0433qmtH28/assets/142.png"
+                  src="/images/jones/142.png"
                   className="box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-contain outline-[3px] align-baseline"
                 />
               </picture>

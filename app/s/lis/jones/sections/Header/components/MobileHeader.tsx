@@ -4,7 +4,7 @@ export const MobileHeader = () => {
       <div className="relative items-center self-auto box-border caret-transparent flex basis-0 grow shrink justify-center max-w-full min-h-px outline-[3px] w-auto md:self-stretch md:basis-auto md:grow-0 md:shrink-0 md:justify-between md:w-1/5">
         <picture className="items-center box-border caret-transparent flex basis-auto grow-0 shrink-0 object-cover outline-[3px] overflow-x-auto overflow-y-hidden w-[210px] rounded-[50px] md:basis-0 md:grow md:shrink md:w-auto">
           <img
-            src="https://c.animaapp.com/mpke0433qmtH28/assets/134.png"
+            src="/images/jones/134.png"
             className="box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-cover outline-[3px] align-baseline"
           />
         </picture>
@@ -14,7 +14,7 @@ export const MobileHeader = () => {
         className="absolute items-center box-border caret-transparent flex shrink-0 max-w-[400px] object-cover outline-[3px] overflow-x-auto overflow-y-hidden translate-y-[-50.0%] z-[1000000] left-[30px] top-[45%] md:static md:hidden md:transform-none md:z-auto md:left-auto md:top-auto"
       >
         <img
-          src="https://c.animaapp.com/mpke0433qmtH28/assets/141.png"
+          src="/images/jones/141.png"
           className="box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-cover outline-[3px] align-baseline"
         />
       </picture>
@@ -23,7 +23,7 @@ export const MobileHeader = () => {
         className="absolute items-center box-border caret-transparent hidden shrink-0 max-w-[400px] object-cover opacity-0 outline-[3px] overflow-x-auto overflow-y-hidden z-0 ml-[5px] left-[30px] top-[43%] md:static md:opacity-100 md:z-auto md:ml-0 md:left-auto md:top-auto"
       >
         <img
-          src="https://c.animaapp.com/mpke0433qmtH28/assets/144.png"
+          src="/images/jones/144.png"
           className="box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-cover outline-[3px] align-baseline"
         />
       </picture>

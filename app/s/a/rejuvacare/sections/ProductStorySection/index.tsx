@@ -46,7 +46,7 @@ export const ProductStorySection = () => {
           media={
             <img
               title=""
-              src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722828163832_professionally_designed_and_recommended.webp"
+              src="/images/rejuvacare/1722828163832_professionally_designed_and_recommended.webp"
               alt=""
               className="text-black box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] rounded-[15px]"
             />
@@ -137,7 +137,7 @@ export const ProductStorySection = () => {
                 playsInline
                 muted
                 src="https://cdn.shopify.com/videos/c/o/v/bf8b375446284d91a5ac1600b3d0f9f5.mp4"
-                poster="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1728702670063_the_perfect_therapy_poster.webp"
+                poster="/images/rejuvacare/1728702670063_the_perfect_therapy_poster.webp"
                 className="absolute box-border caret-transparent h-auto max-w-full outline-[3px] align-baseline w-full rounded-[15px] left-0 inset-y-0 md:h-full"
               ></video>
               <div className="box-border caret-transparent hidden outline-[3px] w-full mt-4 p-px">

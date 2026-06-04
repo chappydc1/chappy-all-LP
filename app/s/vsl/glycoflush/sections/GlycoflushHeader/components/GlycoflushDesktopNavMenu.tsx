@@ -5,7 +5,7 @@ export const GlycoflushDesktopNavMenu = () => {
         <li className="relative items-center box-border caret-transparent flex min-h-0 min-w-0 outline-[3px] mx-2 md:min-h-[auto] md:min-w-[auto]">
           <span className="relative box-border caret-transparent flex min-h-0 min-w-0 order-2 outline-[3px] text-left ml-[5px] top-0 md:min-h-[auto] md:min-w-[auto]">
             <img
-              src="https://c.animaapp.com/mosigj9wn0Q2CB/assets/icon-1.svg"
+              src="/images/glycoflush/icon-1.svg"
               alt="Icon"
               className="box-border caret-transparent h-3.5 outline-[3px] align-baseline w-3.5 mr-[3.5px]"
             />
@@ -17,7 +17,7 @@ export const GlycoflushDesktopNavMenu = () => {
         <li className="relative items-center box-border caret-transparent flex min-h-0 min-w-0 outline-[3px] mx-2 md:min-h-[auto] md:min-w-[auto]">
           <span className="relative box-border caret-transparent flex min-h-0 min-w-0 order-2 outline-[3px] text-left ml-[5px] top-0 md:min-h-[auto] md:min-w-[auto]">
             <img
-              src="https://c.animaapp.com/mosigj9wn0Q2CB/assets/icon-1.svg"
+              src="/images/glycoflush/icon-1.svg"
               alt="Icon"
               className="box-border caret-transparent h-3.5 outline-[3px] align-baseline w-3.5 mr-[3.5px]"
             />
@@ -29,7 +29,7 @@ export const GlycoflushDesktopNavMenu = () => {
         <li className="relative items-center box-border caret-transparent flex min-h-0 min-w-0 outline-[3px] mx-2 md:min-h-[auto] md:min-w-[auto]">
           <span className="relative box-border caret-transparent flex min-h-0 min-w-0 order-2 outline-[3px] text-left ml-[5px] top-0 md:min-h-[auto] md:min-w-[auto]">
             <img
-              src="https://c.animaapp.com/mosigj9wn0Q2CB/assets/icon-1.svg"
+              src="/images/glycoflush/icon-1.svg"
               alt="Icon"
               className="box-border caret-transparent h-3.5 outline-[3px] align-baseline w-3.5 mr-[3.5px]"
             />
@@ -41,7 +41,7 @@ export const GlycoflushDesktopNavMenu = () => {
         <li className="relative items-center box-border caret-transparent flex min-h-0 min-w-0 outline-[3px] mx-2 md:min-h-[auto] md:min-w-[auto]">
           <span className="relative box-border caret-transparent flex min-h-0 min-w-0 order-2 outline-[3px] text-left ml-[5px] top-0 md:min-h-[auto] md:min-w-[auto]">
             <img
-              src="https://c.animaapp.com/mosigj9wn0Q2CB/assets/icon-1.svg"
+              src="/images/glycoflush/icon-1.svg"
               alt="Icon"
               className="box-border caret-transparent h-3.5 outline-[3px] align-baseline w-3.5 mr-[3.5px]"
             />

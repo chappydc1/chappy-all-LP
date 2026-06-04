@@ -24,9 +24,9 @@ export const PricingCard = (props: PricingCardProps) => {
       <div className="shadow-[rgba(0,0,0,0.2)_0px_0px_5px_0px] box-border border border-teal-800 overflow-hidden rounded-[10px] border-solid transition-transform duration-300 hover:-translate-y-1 hover:shadow-[rgba(0,0,0,0.3)_0px_8px_24px_0px]">
         <div className={`box-border ${props.headerClassName}`}>
           {props.isBestValue ? (
-            <div className="bg-amber-300 bg-[url('https://gutrenewalformula.com/pages/er-vslyt-inter/assets/images/bestvalue.png')] bg-no-repeat bg-contain box-border text-center bg-[position:left_50%] rounded-t-sm">
+            <div className="bg-amber-300 bg-[url('/images/emma/bestvalue.png')] bg-no-repeat bg-contain box-border text-center bg-[position:left_50%] rounded-t-sm">
               <img
-                src="https://c.animaapp.com/mnsem251Wpf2gA/assets/Header.webp"
+                src="/images/emma/Header.webp"
                 className="box-border inline w-full"
               />
             </div>
@@ -63,7 +63,7 @@ export const PricingCard = (props: PricingCardProps) => {
                 {props.showBiggestDiscount && (
                   <span className="text-white font-extrabold box-border block max-w-[315px] text-left w-full px-6 py-1 font-inter bg-red-500 m-auto">
                     <img
-                      src="https://c.animaapp.com/mnsem251Wpf2gA/assets/check-Copy.webp"
+                      src="/images/emma/check-Copy.webp"
                       className="box-border inline"
                     />
                     BIGGEST DISCOUNT
@@ -72,7 +72,7 @@ export const PricingCard = (props: PricingCardProps) => {
                 {props.showLeanBellyRecipes && (
                   <span className="text-white font-extrabold bg-blue-500 box-border block max-w-[315px] text-left w-full mt-1 mb-auto mx-auto px-6 py-1 font-inter">
                     <img
-                      src="https://c.animaapp.com/mnsem251Wpf2gA/assets/check-Copy.webp"
+                      src="/images/emma/check-Copy.webp"
                       className="box-border inline"
                     />
                     LEAN BELLY SHAKES RECIPES
@@ -87,12 +87,12 @@ export const PricingCard = (props: PricingCardProps) => {
               className="text-blue-600 box-border underline inline-block cta-pulse rounded-sm transition-opacity duration-200 hover:opacity-90 active:scale-95"
             >
               <img
-                src="https://c.animaapp.com/mnsem251Wpf2gA/assets/CTA.webp"
+                src="/images/emma/CTA.webp"
                 className="box-border inline"
               />
             </a>
             <img
-              src="https://c.animaapp.com/mnsem251Wpf2gA/assets/paymentmethod.webp"
+              src="/images/emma/paymentmethod.webp"
               className="box-border inline"
             />
           </div>

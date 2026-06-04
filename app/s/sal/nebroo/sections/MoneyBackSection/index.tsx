@@ -5,7 +5,7 @@ export const MoneyBackSection = () => {
         <img
           alt="Try It for 120 Days, 100% Risk-Free.webp"
           title=""
-          src="https://c.animaapp.com/mnsbh2exJLSZhk/assets/1739604906705_Money_back_guarantee_v2.webp"
+          src="/images/nebroo/1739604906705_Money_back_guarantee_v2.webp"
           
           className="self-center box-border caret-transparent inline max-w-full mx-auto rounded-[10px] md:self-auto"
         />
@@ -19,7 +19,7 @@ export const MoneyBackSection = () => {
         <img
           alt="Try It for 120 Days, 100% Risk-Free.webp"
           title=""
-          src="https://c.animaapp.com/mnsbh2exJLSZhk/assets/1739604906705_Money_back_guarantee_v2.webp"
+          src="/images/nebroo/1739604906705_Money_back_guarantee_v2.webp"
           
           className="self-center box-border caret-transparent block float-left max-w-full min-h-[auto] min-w-[auto] w-full mt-5 rounded-[10px] md:self-auto md:hidden md:min-h-0 md:min-w-0 md:w-auto"
         />

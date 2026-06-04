@@ -1,49 +1,49 @@
 {
   "header": {
-    "logoSrc": "https://c.animaapp.com/mnsctxd6cckxuq/assets/hearcom-v2.svg",
-    "heroImageSrc": "https://c.animaapp.com/mnsctxd6cckxuq/assets/founders-25-desk.jpg",
+    "logoSrc": "/images/hear/hearcom-v2.svg",
+    "heroImageSrc": "/images/hear/founders-25-desk.jpg",
     "heroImageAlt": "Hearing aids",
-    "featuredOnLogosSrc": "https://c.animaapp.com/mnsctxd6cckxuq/assets/static-logos-desk.png"
+    "featuredOnLogosSrc": "/images/hear/static-logos-desk.png"
   },
   "mediaBlock": {
-    "imageSrc": "https://c.animaapp.com/mnsctxd6cckxuq/assets/ha-25-desk.jpg"
+    "imageSrc": "/images/hear/ha-25-desk.jpg"
   },
   "videos": [
     {
-      "poster": "https://c.animaapp.com/mnsctxd6cckxuq/assets/clear-sound-25.jpg",
+      "poster": "/images/hear/clear-sound-25.jpg",
       "src": "https://media.audibene.net/dhqvlsb3l/video/upload/f_auto,q_auto,vc_auto,w_auto,c_limit/v1/assets/na/video/clear-sound-25.mp4"
     },
     {
-      "poster": "https://c.animaapp.com/mnsctxd6cckxuq/assets/store-room-25.jpg",
+      "poster": "/images/hear/store-room-25.jpg",
       "src": "https://media.audibene.net/dhqvlsb3l/video/upload/f_auto,q_auto,vc_auto,w_auto,c_limit/v1/assets/na/video/store-room-25.mp4"
     }
   ],
   "featuresList": {
-    "checkmarkIconSrc": "https://media.audibene.net/dhqvlsb3l/image/upload/f_auto,fl_lossy,q_auto:eco,w_auto,dpr_auto/v1/assets/na/assets/miracle.png"
+    "checkmarkIconSrc": "/images/hear/miracle.png"
   },
   "stateSelector": {
     "states": [
-      { "name": "Oregon",      "imgSrc": "https://c.animaapp.com/mnsctxd6cckxuq/assets/oregon-yellow.svg" },
-      { "name": "Georgia",     "imgSrc": "https://c.animaapp.com/mnsctxd6cckxuq/assets/georgia-red.svg" },
-      { "name": "Alaska",      "imgSrc": "https://c.animaapp.com/mnsctxd6cckxuq/assets/alaska-lightblue.svg" },
-      { "name": "Connecticut", "imgSrc": "https://c.animaapp.com/mnsctxd6cckxuq/assets/connecticut-lightgreen.svg" },
-      { "name": "Michigan",    "imgSrc": "https://c.animaapp.com/mnsctxd6cckxuq/assets/michigan-blue.svg" },
-      { "name": "Arkansas",    "imgSrc": "https://c.animaapp.com/mnsctxd6cckxuq/assets/arkansas-green.svg" }
+      { "name": "Oregon",      "imgSrc": "/images/hear/oregon-yellow.svg" },
+      { "name": "Georgia",     "imgSrc": "/images/hear/georgia-red.svg" },
+      { "name": "Alaska",      "imgSrc": "/images/hear/alaska-lightblue.svg" },
+      { "name": "Connecticut", "imgSrc": "/images/hear/connecticut-lightgreen.svg" },
+      { "name": "Michigan",    "imgSrc": "/images/hear/michigan-blue.svg" },
+      { "name": "Arkansas",    "imgSrc": "/images/hear/arkansas-green.svg" }
     ],
-    "doubleArrowSrc": "https://c.animaapp.com/mnsctxd6cckxuq/assets/double-arrow.svg",
-    "trustLogosSrc": "https://c.animaapp.com/mnsctxd6cckxuq/assets/trust-logos-new-desk.png",
+    "doubleArrowSrc": "/images/hear/double-arrow.svg",
+    "trustLogosSrc": "/images/hear/trust-logos-new-desk.png",
     "trustLogosAlt": "happy customers",
-    "starsImageSrc": "https://c.animaapp.com/mnsctxd6cckxuq/assets/stars.svg"
+    "starsImageSrc": "/images/hear/stars.svg"
   },
   "relatedStories": {
     "stories": [
-      { "imageSrc": "https://c.animaapp.com/mnsctxd6cckxuq/assets/hearing-aids-and-flag-25.jpg" },
-      { "imageSrc": "https://c.animaapp.com/mnsctxd6cckxuq/assets/harvard-25.jpg" },
-      { "imageSrc": "https://c.animaapp.com/mnsctxd6cckxuq/assets/aids-in-hands-25.jpg" }
+      { "imageSrc": "/images/hear/hearing-aids-and-flag-25.jpg" },
+      { "imageSrc": "/images/hear/harvard-25.jpg" },
+      { "imageSrc": "/images/hear/aids-in-hands-25.jpg" }
     ]
   },
   "newsletter": {
-    "logoSrc": "https://c.animaapp.com/mnsctxd6cckxuq/assets/hearcom-logo.svg",
+    "logoSrc": "/images/hear/hearcom-logo.svg",
     "logoAlt": "hearcom logo"
   }
 }

@@ -5,7 +5,7 @@ export const Disclaimer = () => {
         <img
           alt="nebroo.webp"
           title=""
-          src="https://c.animaapp.com/mnsbh2exJLSZhk/assets/1712304472184_nebroo.webp"
+          src="/images/nebroo/1712304472184_nebroo.webp"
           
           className="box-border caret-transparent inline h-[56.586px] max-w-full min-h-0 min-w-0 w-[164px] md:block md:min-h-[auto] md:min-w-[auto]"
         />
@@ -134,7 +134,7 @@ export const Disclaimer = () => {
           <img
             alt="Payment Methods"
             title=""
-            src="https://c.animaapp.com/mnsbh2exJLSZhk/assets/1719483630013_1718789453182_f1e052fc3f19b3c0bf6479b1c7f772a2.webp"
+            src="/images/nebroo/1719483630013_1718789453182_f1e052fc3f19b3c0bf6479b1c7f772a2.webp"
             
             className="box-border caret-transparent inline max-w-full w-[280px]"
           />

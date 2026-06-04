@@ -15,35 +15,35 @@ export const SocialProof = () => {
         <div className="box-border caret-transparent flex justify-center min-h-0 min-w-0 text-center w-full my-2.5 md:min-h-[auto] md:min-w-[auto]">
           <img
             title=""
-            src="https://c.animaapp.com/mnsbh2exJLSZhk/assets/1729142692703_star__1_.webp"
+            src="/images/nebroo/1729142692703_star__1_.webp"
             alt=""
             
             className="text-black box-border caret-transparent float-left max-w-full min-h-[auto] min-w-[auto] w-5"
           />
           <img
             title=""
-            src="https://c.animaapp.com/mnsbh2exJLSZhk/assets/1729142692703_star__1_.webp"
+            src="/images/nebroo/1729142692703_star__1_.webp"
             alt=""
             
             className="text-black box-border caret-transparent float-left max-w-full min-h-[auto] min-w-[auto] w-5"
           />
           <img
             title=""
-            src="https://c.animaapp.com/mnsbh2exJLSZhk/assets/1729142692703_star__1_.webp"
+            src="/images/nebroo/1729142692703_star__1_.webp"
             alt=""
             
             className="text-black box-border caret-transparent float-left max-w-full min-h-[auto] min-w-[auto] w-5"
           />
           <img
             title=""
-            src="https://c.animaapp.com/mnsbh2exJLSZhk/assets/1729142692703_star__1_.webp"
+            src="/images/nebroo/1729142692703_star__1_.webp"
             alt=""
             
             className="text-black box-border caret-transparent float-left max-w-full min-h-[auto] min-w-[auto] w-5"
           />
           <img
             title=""
-            src="https://c.animaapp.com/mnsbh2exJLSZhk/assets/1729142692703_star__1_.webp"
+            src="/images/nebroo/1729142692703_star__1_.webp"
             alt=""
             
             className="text-black box-border caret-transparent float-left max-w-full min-h-[auto] min-w-[auto] w-5"
@@ -54,7 +54,7 @@ export const SocialProof = () => {
             <img
               alt="0 Michael Johnson.webp"
               title=""
-              src="https://c.animaapp.com/mnsbh2exJLSZhk/assets/1740397539527_Eileen_Bralin_Desktop_v3.1.webp"
+              src="/images/nebroo/1740397539527_Eileen_Bralin_Desktop_v3.1.webp"
               
               className="box-border caret-transparent inline max-w-full"
             />
@@ -63,7 +63,7 @@ export const SocialProof = () => {
             <img
               alt="0 Elizabeth Miller.webp"
               title=""
-              src="https://c.animaapp.com/mnsbh2exJLSZhk/assets/1740397551768_Barbara_Myers_Desktop_v3.1.webp"
+              src="/images/nebroo/1740397551768_Barbara_Myers_Desktop_v3.1.webp"
               
               className="box-border caret-transparent inline max-w-full"
             />
@@ -72,7 +72,7 @@ export const SocialProof = () => {
             <img
               alt="0 James Anderson.webp"
               title=""
-              src="https://c.animaapp.com/mnsbh2exJLSZhk/assets/1740397575789_Wendy_Sylvia_Desktop_v3.1.webp"
+              src="/images/nebroo/1740397575789_Wendy_Sylvia_Desktop_v3.1.webp"
               
               className="box-border caret-transparent inline max-w-full"
             />

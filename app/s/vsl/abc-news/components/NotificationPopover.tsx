@@ -4,7 +4,7 @@ export const NotificationPopover = () => {
       <div className="box-border caret-transparent outline-[3px]">
         <button className="bg-transparent caret-transparent h-[43px] outline-[3px] text-center text-nowrap w-[45px] mx-px rounded-[50%] font-sansseriffont hover:bg-indigo-200">
           <img
-            src="https://c.animaapp.com/mov1hivmUrwXF6/assets/icon-3.svg"
+            src="/images/abc-news/icon-3.svg"
             alt="Icon"
             className="box-border caret-transparent inline h-6 outline-[3px] pointer-events-none text-nowrap align-baseline w-6"
           />

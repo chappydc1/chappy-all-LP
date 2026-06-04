@@ -45,7 +45,7 @@ export const CookieConsent = () => {
                   className="absolute box-border caret-transparent flex h-3.5 outline-[3px] w-3.5 right-[8.4px] top-[8.4px]"
                 >
                   <img
-                    src="https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-1.svg"
+                    src="/images/feals/icon-1.svg"
                     alt="Icon"
                     className="box-border caret-transparent outline-[3px] align-baseline"
                   />

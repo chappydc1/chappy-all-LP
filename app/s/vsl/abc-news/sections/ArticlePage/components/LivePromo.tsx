@@ -12,7 +12,7 @@ export const LivePromo = () => {
         <div className="absolute box-border caret-transparent outline-[3px] w-full z-[2] inset-0">
           <img
             alt="ABC News Live"
-            src="https://c.animaapp.com/mov1hivmUrwXF6/assets/53.jpg"
+            src="/images/abc-news/53.jpg"
             className="box-border caret-transparent inline outline-[3px] align-top w-full"
           />
         </div>

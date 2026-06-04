@@ -16,7 +16,7 @@ export const BenefitList = (props: BenefitListProps) => {
       <div className="items-center box-border caret-transparent flex justify-start min-h-[auto] min-w-[auto] outline-[3px] w-9">
         <img
           title=""
-          src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722846383829_icon_check.webp"
+          src="/images/rejuvacare/1722846383829_icon_check.webp"
           alt=""
           className={`text-black box-border caret-transparent h-[26px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-[26px] mb-px md:my-0 ${props.imageVariant}`}
         />

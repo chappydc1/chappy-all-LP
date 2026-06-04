@@ -128,7 +128,7 @@ export const FeaturesList = () => {
           <li
             key={i}
             className={`reveal reveal-delay-${Math.min(i + 1, 5)} bg-no-repeat caret-transparent pl-16 pb-[35px] md:pl-[74px]`}
-            style={{ backgroundImage: "url('https://media.audibene.net/dhqvlsb3l/image/upload/f_auto,fl_lossy,q_auto:eco,w_auto,dpr_auto/v1/assets/na/assets/miracle.png')", backgroundSize: "39px 28px", backgroundPosition: "left 0%", }}>
+            style={{ backgroundImage: "url('/images/hear/miracle.png", backgroundSize: "39px 28px", backgroundPosition: "left 0%", }}>
             <strong className="font-bold caret-transparent">
               {f.title}
               {f.sup && <sup className="text-xs caret-transparent leading-[15.96px]">{f.sup}</sup>}

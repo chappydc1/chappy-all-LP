@@ -27,7 +27,7 @@ export const ArticlePage = () => {
                     href="/"
                     className="text-sky-900 box-border caret-transparent flex h-full items-center md:block md:h-auto hover:text-blue-900 hover:border-blue-900"
                   >
-                    <div className="bg-[url('https://c.animaapp.com/mov1hivmUrwXF6/assets/logo.svg')] bg-no-repeat bg-contain box-border caret-transparent brightness-[0.1] h-[38px] outline-[3px] w-[108px] bg-center md:h-[46px] md:w-[116px]"></div>
+                    <div className="bg-[url('/images/abc-news/logo.svg')] bg-no-repeat bg-contain box-border caret-transparent brightness-[0.1] h-[38px] outline-[3px] w-[108px] bg-center md:h-[46px] md:w-[116px]"></div>
                     <span className="text-transparent text-[0px] box-border leading-[0px] outline-[3px]">
                       ABC News
                     </span>
@@ -81,7 +81,7 @@ export const ArticlePage = () => {
                         </h2>
                         <span className="text-black [align-items:normal] box-content caret-black inline justify-normal min-h-0 min-w-0 outline-0 text-wrap pr-0 md:text-neutral-900 md:items-center md:aspect-auto md:box-border md:caret-transparent md:flex md:justify-center md:min-h-[auto] md:min-w-[auto] md:outline-[3px] md:overscroll-x-auto md:overscroll-y-auto md:snap-align-none md:snap-normal md:snap-none md:decoration-auto md:underline-offset-auto md:text-nowrap md:[mask-position:0%] md:bg-left-top md:pr-[9px] md:scroll-m-0 md:scroll-p-[auto]">
                           <img
-                            src="https://c.animaapp.com/mov1hivmUrwXF6/assets/icon-1.svg"
+                            src="/images/abc-news/icon-1.svg"
                             alt="Icon"
                             className="box-content caret-black h-auto outline-0 text-wrap align-middle w-auto md:aspect-auto md:box-border md:caret-transparent md:h-4 md:outline-[3px] md:overscroll-x-auto md:overscroll-y-auto md:snap-align-none md:snap-normal md:snap-none md:decoration-auto md:underline-offset-auto md:text-nowrap md:align-baseline md:w-4 md:[mask-position:0%] md:bg-left-top md:scroll-m-0 md:scroll-p-[auto]"
                           />
@@ -123,7 +123,7 @@ export const ArticlePage = () => {
                   <span className="text-sm items-center box-border caret-transparent flex tracking-[1px] leading-[16.1px] min-h-[auto] min-w-[auto] outline-[3px]">
                     <div className="content-center box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] px-[11px] py-2.5 rounded-[50%]">
                       <img
-                        src="https://c.animaapp.com/mov1hivmUrwXF6/assets/icon-2.svg"
+                        src="/images/abc-news/icon-2.svg"
                         alt="Icon"
                         className="relative bg-no-repeat bg-contain box-border caret-transparent h-6 outline-[3px] align-baseline w-6 bg-center"
                       />
@@ -139,7 +139,7 @@ export const ArticlePage = () => {
                   <div className="box-border caret-transparent outline-[3px]">
                     <button className="bg-transparent caret-transparent h-[43px] outline-[3px] text-center text-nowrap w-[45px] mx-px rounded-[50%] font-sansseriffont hover:bg-indigo-200">
                       <img
-                        src="https://c.animaapp.com/mov1hivmUrwXF6/assets/icon-3.svg"
+                        src="/images/abc-news/icon-3.svg"
                         alt="Icon"
                         className="box-border caret-transparent inline h-6 outline-[3px] pointer-events-none text-nowrap align-baseline w-6"
                       />
@@ -181,7 +181,7 @@ export const ArticlePage = () => {
                       className="relative box-border caret-transparent block h-10 leading-[0px] min-h-[auto] min-w-[auto] w-10 p-2 rounded-[80px]"
                     >
                       <img
-                        src="https://c.animaapp.com/mov1hivmUrwXF6/assets/icon-4.svg"
+                        src="/images/abc-news/icon-4.svg"
                         alt="Icon"
                         className="box-border caret-transparent inline h-6 outline-[3px] align-baseline w-6"
                       />
@@ -199,7 +199,7 @@ export const ArticlePage = () => {
                     Stream on
                   </h2>
                   <img
-                    src="https://c.animaapp.com/mov1hivmUrwXF6/assets/DisneyPlus.svg"
+                    src="/images/abc-news/DisneyPlus.svg"
                     alt="stream logo"
                     className="box-content caret-black min-h-0 min-w-0 outline-0 align-middle w-auto md:aspect-auto md:box-border md:caret-transparent md:min-h-[auto] md:min-w-[auto] md:outline-[3px] md:overscroll-x-auto md:overscroll-y-auto md:snap-align-none md:snap-normal md:snap-none md:decoration-auto md:underline-offset-auto md:align-baseline md:w-[45px] md:[mask-position:0%] md:bg-left-top md:scroll-m-0 md:scroll-p-[auto]"
                   />

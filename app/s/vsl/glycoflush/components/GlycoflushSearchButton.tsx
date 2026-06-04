@@ -4,7 +4,7 @@ export const GlycoflushSearchButton = () => {
       <div className="box-border caret-transparent outline-[3px] text-end">
         <div className="text-white text-xl box-border caret-transparent inline-block leading-5 outline-[3px] text-center">
           <img
-            src="https://c.animaapp.com/mosigj9wn0Q2CB/assets/icon-3.svg"
+            src="/images/glycoflush/icon-3.svg"
             alt="Icon"
             className="relative box-border caret-transparent h-5 outline-[3px] align-baseline w-5"
           />

@@ -13,7 +13,7 @@ export const ReasonsSection = () => {
                 className="text-stone-600 items-center self-auto box-border caret-transparent flex basis-0 grow h-[300px] object-cover outline-[3px] overflow-x-auto overflow-y-hidden md:text-black md:self-stretch md:h-full"
               >
                 <img
-                  src="https://c.animaapp.com/mpkdzooupOfzIE/assets/65.jpg"
+                  src="/images/feals/65.jpg"
                   className="text-stone-600 box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-cover outline-[3px] align-baseline md:text-black"
                 />
               </picture>
@@ -53,7 +53,7 @@ export const ReasonsSection = () => {
                 className="text-stone-600 items-center self-auto box-border caret-transparent flex basis-0 grow h-[300px] object-cover object-[50%_40%] outline-[3px] overflow-x-auto overflow-y-hidden md:text-black md:self-stretch md:h-full"
               >
                 <img
-                  src="https://c.animaapp.com/mpkdzooupOfzIE/assets/78.gif"
+                  src="/images/feals/78.gif"
                   className="text-stone-600 box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-cover object-[50%_40%] outline-[3px] align-baseline md:text-black"
                 />
               </picture>
@@ -92,7 +92,7 @@ export const ReasonsSection = () => {
                 className="text-stone-600 items-center self-auto box-border caret-transparent flex basis-0 grow h-auto object-cover outline-[3px] overflow-x-auto overflow-y-hidden md:text-black md:self-stretch md:h-full"
               >
                 <img
-                  src="https://c.animaapp.com/mpkdzooupOfzIE/assets/71.png"
+                  src="/images/feals/71.png"
                   className="text-stone-600 box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-cover outline-[3px] align-baseline md:text-black"
                 />
               </picture>
@@ -133,25 +133,25 @@ export const ReasonsSection = () => {
             >
               <picture className="text-stone-600 items-center self-auto box-border caret-transparent flex basis-0 grow h-full max-h-none max-w-[400px] min-h-[auto] object-cover outline-[3px] overflow-x-auto overflow-y-hidden md:text-black md:self-stretch md:basis-auto md:max-h-[291px] md:min-h-0">
                 <img
-                  src="https://c.animaapp.com/mpkdzooupOfzIE/assets/77.jpg"
+                  src="/images/feals/77.jpg"
                   className="text-stone-600 box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-cover outline-[3px] align-baseline md:text-black"
                 />
               </picture>
               <picture className="text-stone-600 items-center self-auto box-border caret-transparent flex basis-0 grow h-full max-h-none max-w-[400px] min-h-[auto] object-cover outline-[3px] overflow-x-auto overflow-y-hidden md:text-black md:self-stretch md:basis-auto md:max-h-[291px] md:min-h-0">
                 <img
-                  src="https://c.animaapp.com/mpkdzooupOfzIE/assets/49.jpg"
+                  src="/images/feals/49.jpg"
                   className="text-stone-600 box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-cover outline-[3px] align-baseline md:text-black"
                 />
               </picture>
               <picture className="text-stone-600 items-center self-auto box-border caret-transparent flex basis-0 grow h-full max-h-none max-w-[400px] min-h-[auto] object-cover outline-[3px] overflow-x-auto overflow-y-hidden md:text-black md:self-stretch md:basis-auto md:max-h-[291px] md:min-h-0">
                 <img
-                  src="https://c.animaapp.com/mpkdzooupOfzIE/assets/76.png"
+                  src="/images/feals/76.png"
                   className="text-stone-600 box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-cover outline-[3px] align-baseline md:text-black"
                 />
               </picture>
               <picture className="text-stone-600 items-center self-auto box-border caret-transparent flex basis-0 grow h-full max-h-none max-w-[400px] min-h-[auto] object-cover outline-[3px] overflow-x-auto overflow-y-hidden md:text-black md:self-stretch md:basis-auto md:max-h-[291px] md:min-h-0">
                 <img
-                  src="https://c.animaapp.com/mpkdzooupOfzIE/assets/73.jpg"
+                  src="/images/feals/73.jpg"
                   className="text-stone-600 box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-cover outline-[3px] align-baseline md:text-black"
                 />
               </picture>
@@ -190,13 +190,13 @@ export const ReasonsSection = () => {
             >
               <picture className="absolute text-stone-600 items-center box-border caret-transparent flex shrink-0 object-contain outline-[3px] overflow-x-auto overflow-y-hidden pointer-events-none w-20 z-[1] left-[15%] top-[5%] md:text-black md:w-[120px] md:left-[20.51%] md:top-[10%]">
                 <img
-                  src="https://c.animaapp.com/mpkdzooupOfzIE/assets/16.svg"
+                  src="/images/feals/16.svg"
                   className="text-stone-600 box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-contain outline-[3px] align-baseline md:text-black"
                 />
               </picture>
               <picture className="text-stone-600 items-center self-auto box-border caret-transparent flex basis-0 grow h-[300px] object-contain object-[50%_45%] outline-[3px] overflow-x-auto overflow-y-hidden px-4 md:text-black md:self-stretch md:h-full md:object-[50%_50%]">
                 <img
-                  src="https://c.animaapp.com/mpkdzooupOfzIE/assets/72.png"
+                  src="/images/feals/72.png"
                   className="text-stone-600 box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-contain object-[50%_45%] outline-[3px] align-baseline md:text-black md:object-[50%_50%]"
                 />
               </picture>

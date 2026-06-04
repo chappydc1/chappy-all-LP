@@ -25,7 +25,7 @@ export const FeatureSection = () => {
     <div className="relative items-center box-border caret-transparent gap-x-[70px] flex shrink-0 justify-center min-h-px min-w-[auto] outline-[3px] gap-y-[70px] w-full md:hidden md:min-w-0">
       <picture className="relative items-center self-auto box-border caret-transparent flex basis-0 grow object-cover outline-[3px] overflow-x-auto overflow-y-hidden z-[1000000] md:self-stretch md:hidden">
         <img
-          src="https://c.animaapp.com/mpke0433qmtH28/assets/137.jpg"
+          src="/images/jones/137.jpg"
           alt="Close-up of a woman's face with freckles and blue eyes, wearing a green sweater and gold earring."
           className="box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-cover outline-[3px] align-baseline"
         />
@@ -54,7 +54,7 @@ export const FeatureSection = () => {
     <div className="relative items-center self-stretch box-border caret-transparent hidden flex-col shrink-0 justify-center max-w-full min-h-px min-w-0 outline-[3px] md:flex md:min-w-[auto]">
       <picture className="relative items-center self-auto box-border caret-transparent hidden grow object-cover outline-[3px] overflow-x-auto overflow-y-hidden z-[1000000] md:self-stretch md:flex">
         <img
-          src="https://c.animaapp.com/mpke0433qmtH28/assets/143.png"
+          src="/images/jones/143.png"
           alt="Foundation shades chart with descriptions and corresponding face pencil numbers."
           className="box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-cover outline-[3px] align-baseline"
         />
@@ -69,7 +69,7 @@ export const FeatureSection = () => {
             className="absolute appearance-none text-[13.3333px] items-center bg-white bottom-[-25px] caret-transparent flex h-[30px] justify-center tracking-[normal] leading-[normal] outline-[3px] text-center w-[30px] z-[9999999] border p-0 rounded-[50%] border-black/10 right-0 font-arial"
           >
             <img
-              src="https://c.animaapp.com/mpke0433qmtH28/assets/icon-3.svg"
+              src="/images/jones/icon-3.svg"
               alt="Icon"
               className="box-border caret-transparent h-4 outline-[3px] align-baseline w-4"
             />
@@ -82,7 +82,7 @@ export const FeatureSection = () => {
     <div className="relative items-center box-border caret-transparent gap-x-2 flex flex-col shrink-0 justify-center min-h-px min-w-[auto] outline-[3px] gap-y-2 w-full md:gap-x-[70px] md:hidden md:flex-row md:min-w-0 md:gap-y-[70px]">
       <picture className="relative items-center self-auto box-border caret-transparent flex basis-auto grow object-cover outline-[3px] overflow-x-auto overflow-y-hidden z-[1000000] md:self-stretch md:hidden md:basis-0">
         <img
-          src="https://c.animaapp.com/mpke0433qmtH28/assets/132.jpg"
+          src="/images/jones/132.jpg"
           alt="Foundation shade chart with descriptions and corresponding face pencils."
           className="box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-cover outline-[3px] align-baseline"
         />
@@ -97,7 +97,7 @@ export const FeatureSection = () => {
             className="absolute appearance-none text-[13.3333px] items-center bg-white bottom-[-25px] caret-transparent flex h-[30px] justify-center tracking-[normal] leading-[normal] outline-[3px] text-center w-[30px] z-[9999999] border p-0 rounded-[50%] border-black/10 right-0 font-arial"
           >
             <img
-              src="https://c.animaapp.com/mpke0433qmtH28/assets/icon-3.svg"
+              src="/images/jones/icon-3.svg"
               alt="Icon"
               className="box-border caret-transparent h-4 outline-[3px] align-baseline w-4"
             />
@@ -151,7 +151,7 @@ export const FeatureSection = () => {
   topMedia={(
     <picture className="relative items-center self-auto box-border caret-transparent hidden grow object-cover outline-[3px] overflow-x-auto overflow-y-hidden z-[1000000] md:self-stretch md:flex">
       <img
-        src="https://c.animaapp.com/mpke0433qmtH28/assets/149.png"
+        src="/images/jones/149.png"
         alt="Person sitting on a blue leather couch with makeup items and a book titled 'Makeup Manual.'"
         className="box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-cover outline-[3px] align-baseline"
       />
@@ -161,7 +161,7 @@ export const FeatureSection = () => {
     <div className="relative items-center box-border caret-transparent gap-x-[70px] flex shrink-0 justify-center min-h-px min-w-[auto] outline-[3px] gap-y-[70px] w-full md:hidden md:min-w-0">
       <picture className="relative items-center self-auto box-border caret-transparent flex basis-0 grow object-cover outline-[3px] overflow-x-auto overflow-y-hidden z-[1000000] md:self-stretch md:hidden">
         <img
-          src="https://c.animaapp.com/mpke0433qmtH28/assets/133.jpg"
+          src="/images/jones/133.jpg"
           alt="Woman sitting on a blue couch with makeup items on the table."
           className="box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-cover outline-[3px] align-baseline"
         />
@@ -182,7 +182,7 @@ export const FeatureSection = () => {
   topMedia={
     <picture className="relative items-center self-auto box-border caret-transparent hidden grow object-cover outline-[3px] overflow-x-auto overflow-y-hidden z-[1000000] md:self-stretch md:flex">
       <img
-        src="https://c.animaapp.com/mpke0433qmtH28/assets/147.jpg"
+        src="/images/jones/147.jpg"
         className="box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-cover outline-[3px] align-baseline"
       />
     </picture>
@@ -191,7 +191,7 @@ export const FeatureSection = () => {
     <div className="relative items-center box-border caret-transparent gap-x-[70px] flex shrink-0 justify-center min-h-px min-w-[auto] outline-[3px] gap-y-[70px] w-full">
       <picture className="relative items-center self-auto box-border caret-transparent flex basis-0 grow object-cover outline-[3px] overflow-x-auto overflow-y-hidden z-[1000000] md:self-stretch md:hidden">
         <img
-          src="https://c.animaapp.com/mpke0433qmtH28/assets/138.jpg"
+          src="/images/jones/138.jpg"
           alt="Smiling person holding a jar of brown cosmetic cream."
           className="box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-cover outline-[3px] align-baseline"
         />

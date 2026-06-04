@@ -40,7 +40,7 @@ export const WhyCheaper = () => {
               <div className="box-border caret-transparent basis-[6.57%] grow min-h-[25px] min-w-[auto] font-montserrat md:font-apple_system">
                 <img
                   title=""
-                  src="https://c.animaapp.com/mnsbh2exJLSZhk/assets/1700045983205_1666773955_cross_v1642658299531_svg.png"
+                  src="/images/nebroo/1700045983205_1666773955_cross_v1642658299531_svg.png"
                   
                   alt=""
                   className="text-black box-border caret-transparent inline max-w-full w-[25px] p-px font-montserrat md:font-apple_system"
@@ -62,7 +62,7 @@ export const WhyCheaper = () => {
               <div className="box-border caret-transparent basis-[6.57%] grow min-h-[25px] min-w-[auto] font-montserrat md:font-apple_system">
                 <img
                   title=""
-                  src="https://c.animaapp.com/mnsbh2exJLSZhk/assets/1700045983205_1666773955_cross_v1642658299531_svg.png"
+                  src="/images/nebroo/1700045983205_1666773955_cross_v1642658299531_svg.png"
                   
                   alt=""
                   className="text-black box-border caret-transparent inline max-w-full w-[25px] p-px font-montserrat md:font-apple_system"
@@ -88,7 +88,7 @@ export const WhyCheaper = () => {
               <div className="box-border caret-transparent basis-[6.57%] grow min-h-[25px] min-w-[auto] font-montserrat md:font-apple_system">
                 <img
                   title=""
-                  src="https://c.animaapp.com/mnsbh2exJLSZhk/assets/1700045983205_1666773955_cross_v1642658299531_svg.png"
+                  src="/images/nebroo/1700045983205_1666773955_cross_v1642658299531_svg.png"
                   
                   alt=""
                   className="text-black box-border caret-transparent inline max-w-full w-[25px] p-px font-montserrat md:font-apple_system"
@@ -110,7 +110,7 @@ export const WhyCheaper = () => {
               <div className="box-border caret-transparent basis-[6.57%] grow min-h-[25px] min-w-[auto] font-montserrat md:font-apple_system">
                 <img
                   title=""
-                  src="https://c.animaapp.com/mnsbh2exJLSZhk/assets/1700045983205_1666773955_cross_v1642658299531_svg.png"
+                  src="/images/nebroo/1700045983205_1666773955_cross_v1642658299531_svg.png"
                   
                   alt=""
                   className="text-black box-border caret-transparent inline max-w-full w-[25px] p-px font-montserrat md:font-apple_system"

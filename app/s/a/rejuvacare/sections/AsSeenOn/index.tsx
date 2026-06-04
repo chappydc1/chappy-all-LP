@@ -8,7 +8,7 @@ export const AsSeenOn = () => {
         <div className="box-border caret-transparent h-full outline-[3px] w-full px-px py-0 md:w-[85%] md:px-2.5 md:py-3">
           <img
             title=""
-            src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1723008768398_trusted_by_brands_mobile.webp"
+            src="/images/rejuvacare/1723008768398_trusted_by_brands_mobile.webp"
             alt=""
             className="text-black box-border caret-transparent inline h-auto max-w-full outline-[3px] w-full px-px md:h-full md:w-auto md:px-0"
           />

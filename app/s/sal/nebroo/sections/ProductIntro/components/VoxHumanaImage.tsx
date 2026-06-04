@@ -4,7 +4,7 @@ export const VoxHumanaImage = () => {
       <img
         alt="Breakthrough Discovery.webp"
         title=""
-        src="https://c.animaapp.com/mnsbh2exJLSZhk/assets/1729153692689_1712407440934_Breakthrough_Discovery.webp"
+        src="/images/nebroo/1729153692689_1712407440934_Breakthrough_Discovery.webp"
         
         className="self-center box-border caret-transparent inline max-w-full mx-auto rounded-[10px] md:self-auto"
       />

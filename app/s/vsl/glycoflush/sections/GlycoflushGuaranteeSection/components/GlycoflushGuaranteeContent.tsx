@@ -4,7 +4,7 @@ export const GlycoflushGuaranteeContent = () => {
       <div className="relative items-center self-center bg-[linear-gradient(rgba(48,198,255,0)_0%,rgba(0,80,111,0)_100%)] box-border caret-transparent gap-x-5 flex flex-col flex-wrap justify-center min-h-[150px] outline-[3px] gap-y-5 w-[150px] rounded-[1000px] md:[align-items:normal] md:flex-nowrap md:w-[30%]">
         <div className="relative box-border caret-transparent gap-x-5 max-w-full outline-[3px] gap-y-5 text-center">
           <img
-            src="https://cnbanetworks.com/glycoflush-36cad7c7-6174-46ca-a980-7acc87e61ad5/assets/img/guarantee-badge-1-1.webp"
+            src="/images/glycoflush/guarantee-badge-1-1.webp"
             alt=""
             sizes="(max-width: 250px) 100vw, 250px"
             className="aspect-[auto_250_/_250] box-border caret-transparent inline-block max-w-full outline-[3px] w-full"
@@ -41,7 +41,7 @@ export const GlycoflushGuaranteeContent = () => {
         <div className="relative box-border caret-transparent gap-x-[5px] flex flex-wrap justify-evenly outline-[3px] gap-y-[5px] w-full p-2.5 md:gap-x-8 md:flex-nowrap md:justify-center md:gap-y-8">
           <div className="relative self-center box-border caret-transparent gap-x-[5px] max-w-full outline-[3px] gap-y-[5px] text-center w-10 md:gap-x-8 md:gap-y-8 md:w-[6%]">
             <img
-              src="https://cnbanetworks.com/glycoflush-36cad7c7-6174-46ca-a980-7acc87e61ad5/assets/img/gmp-1-1.png"
+              src="/images/glycoflush/gmp-1-1.png"
               alt=""
               sizes="(max-width: 319px) 100vw, 319px"
               className="aspect-[auto_319_/_319] box-border caret-transparent inline-block max-w-full outline-[3px] w-[319px]"
@@ -49,7 +49,7 @@ export const GlycoflushGuaranteeContent = () => {
           </div>
           <div className="relative self-center box-border caret-transparent gap-x-[5px] max-w-full outline-[3px] gap-y-[5px] text-center w-10 md:gap-x-8 md:gap-y-8 md:w-[6%]">
             <img
-              src="https://cnbanetworks.com/glycoflush-36cad7c7-6174-46ca-a980-7acc87e61ad5/assets/img/nat-1-1.png"
+              src="/images/glycoflush/nat-1-1.png"
               alt=""
               sizes="(max-width: 319px) 100vw, 319px"
               className="aspect-[auto_319_/_319] box-border caret-transparent inline-block max-w-full outline-[3px] w-[319px]"
@@ -57,7 +57,7 @@ export const GlycoflushGuaranteeContent = () => {
           </div>
           <div className="relative self-center box-border caret-transparent gap-x-[5px] max-w-full outline-[3px] gap-y-[5px] text-center w-10 md:gap-x-8 md:gap-y-8 md:w-[6%]">
             <img
-              src="https://cnbanetworks.com/glycoflush-36cad7c7-6174-46ca-a980-7acc87e61ad5/assets/img/usa-1-1.png"
+              src="/images/glycoflush/usa-1-1.png"
               alt=""
               sizes="(max-width: 319px) 100vw, 319px"
               className="aspect-[auto_319_/_319] box-border caret-transparent inline-block max-w-full outline-[3px] w-[319px]"
@@ -65,7 +65,7 @@ export const GlycoflushGuaranteeContent = () => {
           </div>
           <div className="relative self-center box-border caret-transparent gap-x-[5px] max-w-full outline-[3px] gap-y-[5px] text-center w-10 md:gap-x-8 md:gap-y-8 md:w-[6%]">
             <img
-              src="https://cnbanetworks.com/glycoflush-36cad7c7-6174-46ca-a980-7acc87e61ad5/assets/img/gmo-1-1.png"
+              src="/images/glycoflush/gmo-1-1.png"
               alt=""
               sizes="(max-width: 319px) 100vw, 319px"
               className="aspect-[auto_319_/_319] box-border caret-transparent inline-block max-w-full outline-[3px] w-[319px]"

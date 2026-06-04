@@ -9,10 +9,10 @@ export const BonusSection = () => {
           Yours FREE with any multipack purchase - Instant access
         </h2>
       </div>
-      <div className="bg-white bg-none bg-no-repeat bg-size-[272px] shadow-[rgba(0,0,0,0.4)_0px_4px_10px_0px] box-border caret-transparent flex flex-wrap max-w-[870px] w-full bg-right m-auto px-2 rounded-b-[5px] md:bg-[url('https://gutrenewalformula.com/pages/er-vslyt-inter/assets/leanbellyshakebook.png')]">
+      <div className="bg-white bg-none bg-no-repeat bg-size-[272px] shadow-[rgba(0,0,0,0.4)_0px_4px_10px_0px] box-border caret-transparent flex flex-wrap max-w-[870px] w-full bg-right m-auto px-2 rounded-b-[5px] md:bg-[url('/images/emma/leanbellyshakebook.png')]">
         <div className="box-border caret-transparent block shrink-0 max-w-[485px] text-center w-full m-auto pt-6 px-3 md:hidden md:w-6/12">
           <img
-            src="https://c.animaapp.com/mnsem251Wpf2gA/assets/leanbellyshakebook.webp"
+            src="/images/emma/leanbellyshakebook.webp"
             className="box-border caret-transparent inline max-w-[220px] w-full"
           />
         </div>

@@ -104,7 +104,7 @@ function FAQItem({ q, a }: { q: string; a: string }) {
 function ReviewCard({ title, body, date }: { title: string; body: string; date: string }) {
   return (
     <div className="review-card bg-white rounded-2xl shadow-sm p-5 border border-zinc-100 flex flex-col min-h-[200px] w-[300px] flex-shrink-0 md:w-[280px]">
-      <img src="https://c.animaapp.com/mnsb9erlNWPLJ4/assets/54.png" alt="5 stars" className="h-5 mb-2" />
+      <img src="/images/smoothspine/54.png" alt="5 stars" className="h-5 mb-2" />
       <p className="font-semibold text-[15px] mb-2">{title}</p>
       <p className="text-neutral-600 text-[14px] leading-relaxed flex-1">{body}</p>
       <p className="text-xs text-stone-400 mt-3">Date of experience: <span className="font-medium">{date}</span></p>

@@ -17,27 +17,27 @@ export const HeroCta = () => {
       <div className="relative items-center self-center box-border caret-transparent gap-x-[5px] flex grow shrink justify-start max-w-full min-h-px min-w-[auto] outline-[3px] gap-y-[5px] mt-0 md:self-auto md:gap-x-0.5 md:grow-0 md:shrink-0 md:gap-y-0.5 md:mt-1">
         <div className="items-center self-stretch box-border caret-transparent gap-x-0.5 flex shrink-0 justify-start min-h-[auto] min-w-[auto] outline-[3px] gap-y-0.5">
           <img
-            src="https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-9.svg"
+            src="/images/feals/icon-9.svg"
             alt="Icon"
             className="box-border caret-transparent h-3.5 outline-[3px] align-baseline w-3.5"
           />
           <img
-            src="https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-9.svg"
+            src="/images/feals/icon-9.svg"
             alt="Icon"
             className="box-border caret-transparent h-3.5 outline-[3px] align-baseline w-3.5"
           />
           <img
-            src="https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-9.svg"
+            src="/images/feals/icon-9.svg"
             alt="Icon"
             className="box-border caret-transparent h-3.5 outline-[3px] align-baseline w-3.5"
           />
           <img
-            src="https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-9.svg"
+            src="/images/feals/icon-9.svg"
             alt="Icon"
             className="box-border caret-transparent h-3.5 outline-[3px] align-baseline w-3.5"
           />
           <img
-            src="https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-9.svg"
+            src="/images/feals/icon-9.svg"
             alt="Icon"
             className="box-border caret-transparent h-3.5 outline-[3px] align-baseline w-3.5"
           />

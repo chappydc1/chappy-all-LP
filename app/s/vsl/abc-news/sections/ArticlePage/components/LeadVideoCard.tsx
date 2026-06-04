@@ -26,7 +26,7 @@ export const LeadVideoCard = () => {
               </div>
               <div className="StoryDivider StoryDivider--logo box-border caret-transparent flex h-16 items-center justify-center outline-[3px] w-full md:h-28">
                 <img
-                  src="https://c.animaapp.com/mnsdtfvhZXk5q4/assets/jhbmyD1749942.webp"
+                  src="/images/abc-news/jhbmyD1749942.webp"
                   alt="Logo"
                   className="box-border caret-transparent block h-auto max-w-full outline-[3px] align-baseline w-[90%]"
                 />

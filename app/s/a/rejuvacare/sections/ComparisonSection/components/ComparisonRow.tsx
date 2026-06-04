@@ -26,7 +26,7 @@ export const ComparisonRow = (props: ComparisonRowProps) => {
         >
           <img
             title=""
-            src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722846383829_icon_check.webp"
+            src="/images/rejuvacare/1722846383829_icon_check.webp"
             {...{ href: "" }}
             alt=""
             className="text-black box-border caret-transparent inline max-w-full outline-[3px] w-[25px] mx-px"
@@ -35,7 +35,7 @@ export const ComparisonRow = (props: ComparisonRowProps) => {
         <div className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] w-full p-2.5">
           <img
             title=""
-            src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722907474978_icon_ex_circle_gray.webp"
+            src="/images/rejuvacare/1722907474978_icon_ex_circle_gray.webp"
             {...{ href: "" }}
             alt=""
             className="text-black box-border caret-transparent inline max-w-full outline-[3px] w-[25px] mx-px"
@@ -44,7 +44,7 @@ export const ComparisonRow = (props: ComparisonRowProps) => {
         <div className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] w-full p-2.5">
           <img
             title=""
-            src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722907474978_icon_ex_circle_gray.webp"
+            src="/images/rejuvacare/1722907474978_icon_ex_circle_gray.webp"
             {...{ href: "" }}
             alt=""
             className="text-black box-border caret-transparent inline max-w-full outline-[3px] w-[25px] mx-px"

@@ -12,7 +12,7 @@ export const CallToAction = () => {
       <div className="box-border caret-transparent flex justify-around min-h-[auto] min-w-[auto] outline-[3px] w-full my-2.5 p-px md:justify-normal md:my-[22px]">
         <img
           title=""
-          src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722821080411_cc_payment_options.webp"
+          src="/images/rejuvacare/1722821080411_cc_payment_options.webp"
           alt=""
           className="text-black box-border caret-transparent justify-start max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-[276px] my-px md:w-auto"
         />

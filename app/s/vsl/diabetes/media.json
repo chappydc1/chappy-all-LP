@@ -58,9 +58,9 @@
     "playerId": "69cc2d96a987917cc95e93c3",
     "oid": "b5e8472d-3421-4675-a219-1ae1b636b21f",
     "videoId": "69cc2cb4bdeb86fbc2c1f6b2",
-    "poster": "https://cdn.converteai.net/b5e8472d-3421-4675-a219-1ae1b636b21f/69cc2cb4bdeb86fbc2c1f6b2/poster.jpg",
-    "cover": "https://images.converteai.net/b5e8472d-3421-4675-a219-1ae1b636b21f/players/69cc2d96a987917cc95e93c3/cover.jpg",
-    "thumbnail": "https://cdn.converteai.net/b5e8472d-3421-4675-a219-1ae1b636b21f/players/69cc2d96a987917cc95e93c3/thumbnail.jpg",
+    "poster": "/images/diabetes/poster.jpg",
+    "cover": "/images/diabetes/cover.jpg",
+    "thumbnail": "/images/diabetes/thumbnail.jpg",
     "embedScript": "https://scripts.converteai.net/b5e8472d-3421-4675-a219-1ae1b636b21f/players/69cc2d96a987917cc95e93c3/player.js"
   },
   "fonts": {

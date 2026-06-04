@@ -66,7 +66,7 @@ export const ArticleContent = () => {
         expertText=""
         headlineText=""
         subheadlineText=""
-        ratingsImageSrc="https://c.animaapp.com/mpy7krbtwlu4la/assets/1729049065435_1716978858_1711369581080_stars.webp"
+        ratingsImageSrc="/images/nexa/1729049065435_1716978858_1711369581080_stars.webp"
         ratingsText="3,791 Ratings"
         mainImageSrc=""
         authorImageSrc=""
@@ -76,7 +76,7 @@ export const ArticleContent = () => {
       />
       <ArticleHeader
         variant="mainImage"
-        mainImageSrc="https://c.animaapp.com/mpy7krbtwlu4la/assets/1739882427680_22.jpg"
+        mainImageSrc="/images/nexa/1739882427680_22.jpg"
       />
       <ArticleHeader
         variant="author"
@@ -88,9 +88,9 @@ export const ArticleContent = () => {
         ratingsImageSrc=""
         ratingsText=""
         mainImageSrc=""
-        authorImageSrc="https://c.animaapp.com/mpy7krbtwlu4la/assets/1732491029178_1724369471_1723971044_1718091346_avatar_2.jpg.webp"
+        authorImageSrc="/images/nexa/1732491029178_1724369471_1723971044_1718091346_avatar_2.jpg.webp"
         authorText=" By John Martin"
-        verifiedImageSrc="https://c.animaapp.com/mpy7krbtwlu4la/assets/1729049957051_1718032241_1707336831448_greentick.webp"
+        verifiedImageSrc="/images/nexa/1729049957051_1718032241_1707336831448_greentick.webp"
         dateText="August 18, 2025"
       />
       <ArticleSection
@@ -156,7 +156,7 @@ export const ArticleContent = () => {
         variant="image"
         className="box-border caret-transparent flex outline-[3px] w-full pr-px pt-0 pb-2.5 md:pr-2.5 md:pt-[5px]"
         imageClassName="text-black items-center self-center box-border caret-transparent h-[151px] justify-start max-w-full min-h-[auto] min-w-[auto] outline-[3px] align-baseline w-screen mt-4 rounded-[25px] md:h-[331px] md:w-[811px]"
-        src="https://c.animaapp.com/mpy7krbtwlu4la/assets/1739889840242_7777.webp"
+        src="/images/nexa/1739889840242_7777.webp"
       />
       <ArticleSection
         variant="paragraph"
@@ -210,7 +210,7 @@ export const ArticleContent = () => {
         variant="image"
         className="box-border caret-transparent flex outline-[3px] w-full pr-px pt-0 pb-2.5 md:pr-2.5 md:pt-[5px]"
         imageClassName="text-black items-center self-center box-border caret-transparent h-[157px] justify-start max-w-full min-h-[auto] min-w-[auto] outline-[3px] align-baseline w-screen mt-4 rounded-[25px] md:h-[387px] md:w-[810px]"
-        src="https://c.animaapp.com/mpy7krbtwlu4la/assets/1739889949798_9909990.webp"
+        src="/images/nexa/1739889949798_9909990.webp"
       />
       <div className="box-border caret-transparent outline-[3px] text-left"></div>
       <p className="box-border caret-transparent outline-[3px]"></p>
@@ -330,7 +330,7 @@ export const ArticleContent = () => {
       <ArticleSection
         variant="image"
         className="box-border caret-transparent flex outline-[3px] w-full pr-px pt-0 pb-2.5 md:pr-2.5 md:pt-[5px]"
-        src="https://c.animaapp.com/mpy7krbtwlu4la/assets/1739890412191_modern_black_automobile_before_a.jpg"
+        src="/images/nexa/1739890412191_modern_black_automobile_before_a.jpg"
         imageClassName="text-black items-center self-center box-border caret-transparent h-[134px] justify-start max-w-full min-h-[auto] min-w-[auto] outline-[3px] align-baseline w-screen mt-4 rounded-[25px] md:h-[243px] md:w-[825px]"
       />
       <p className="box-border caret-transparent outline-[3px]"></p>
@@ -386,7 +386,7 @@ export const ArticleContent = () => {
         variant="image"
         className="box-border caret-transparent flex outline-[3px] w-full pr-px pt-0 pb-2.5 md:pr-2.5 md:pt-[5px]"
         imageClassName="text-black items-center self-center box-border caret-transparent h-[133px] justify-start max-w-full min-h-[auto] min-w-[auto] outline-[3px] align-baseline w-[350px] mt-4 rounded-[25px] md:h-[298px] md:w-[809px]"
-        src="https://c.animaapp.com/mpy7krbtwlu4la/assets/1765200510686_9.webp"
+        src="/images/nexa/1765200510686_9.webp"
       />
       <ArticleSection
         variant="paragraph"
@@ -440,7 +440,7 @@ export const ArticleContent = () => {
       <ArticleSection
         variant="standaloneImage"
         className="text-black items-center self-center box-border caret-transparent inline h-[163px] justify-start max-w-full outline-[3px] align-baseline w-screen mt-[21px] rounded-[25px] md:h-[312px] md:w-[812px]"
-        src="https://c.animaapp.com/mpy7krbtwlu4la/assets/1739890637695_honda_civic_before_and_after.jpg"
+        src="/images/nexa/1739890637695_honda_civic_before_and_after.jpg"
       />
       <div className="box-border caret-transparent flex outline-[3px] w-full pr-2.5 pt-0 pb-2.5 md:pt-[5px]"></div>
       <ArticleSection
@@ -566,7 +566,7 @@ export const ArticleContent = () => {
         <div className="box-border caret-transparent basis-[30%] shrink-0 min-h-0 min-w-0 outline-[3px] w-full pt-0 pb-3 px-0 md:min-h-[auto] md:min-w-[auto] md:pt-3 md:px-[5px]">
           <img
             title=""
-            src="https://c.animaapp.com/mpy7krbtwlu4la/assets/1739865958181_1731307929_1731236016_before_and_after_blac.webp"
+            src="/images/nexa/1739865958181_1731307929_1731236016_before_and_after_blac.webp"
             href=""
             alt=""
             className="text-black box-border caret-transparent inline h-auto max-w-full outline-[3px] align-baseline w-auto md:h-[120px] md:w-[244px]"
@@ -576,7 +576,7 @@ export const ArticleContent = () => {
           <div className="items-center self-center box-border caret-transparent flex outline-[3px] w-full pt-3 pb-[5px] px-2.5">
             <img
               title=""
-              src="https://c.animaapp.com/mpy7krbtwlu4la/assets/1732520123546_1723972557_user_approve.webp"
+              src="/images/nexa/1732520123546_1723972557_user_approve.webp"
               href=""
               alt=""
               className="text-black box-border caret-transparent h-[25px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] align-baseline w-[25px] md:h-[35px] md:w-[35px]"
@@ -616,7 +616,7 @@ export const ArticleContent = () => {
         <div className="box-border caret-transparent basis-[30%] shrink-0 min-h-0 min-w-0 outline-[3px] w-full pt-0 pb-3 px-0 md:min-h-[auto] md:min-w-[auto] md:pt-3 md:px-[5px]">
           <img
             title=""
-            src="https://c.animaapp.com/mpy7krbtwlu4la/assets/1739865959763_1731307930_1731236124_333.webp"
+            src="/images/nexa/1739865959763_1731307930_1731236124_333.webp"
             href=""
             alt=""
             className="text-black box-border caret-transparent inline h-[261px] max-w-full outline-[3px] align-baseline w-[348.5px] md:h-[169px] md:w-[246px]"
@@ -626,7 +626,7 @@ export const ArticleContent = () => {
           <div className="items-center self-center box-border caret-transparent flex outline-[3px] w-full pt-3 pb-[5px] px-2.5">
             <img
               title=""
-              src="https://c.animaapp.com/mpy7krbtwlu4la/assets/1732520123546_1723972557_user_approve.webp"
+              src="/images/nexa/1732520123546_1723972557_user_approve.webp"
               href=""
               alt=""
               className="text-black box-border caret-transparent h-[25px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] align-baseline w-[25px] md:h-[35px] md:w-[35px]"
@@ -666,7 +666,7 @@ export const ArticleContent = () => {
         <div className="box-border caret-transparent basis-[30%] shrink-0 min-h-0 min-w-0 outline-[3px] w-full pt-0 pb-3 px-0 md:min-h-[auto] md:min-w-[auto] md:pt-3 md:px-[5px]">
           <img
             title=""
-            src="https://c.animaapp.com/mpy7krbtwlu4la/assets/1739865961726_1731307932_1731236019_Before_and_After_red.webp"
+            src="/images/nexa/1739865961726_1731307932_1731236019_Before_and_After_red.webp"
             href=""
             alt=""
             className="text-black box-border caret-transparent inline h-[232px] max-w-full outline-[3px] align-baseline w-[352.594px] md:h-[139px] md:w-[246px]"
@@ -676,7 +676,7 @@ export const ArticleContent = () => {
           <div className="items-center self-center box-border caret-transparent flex outline-[3px] w-full pt-3 pb-[5px] px-2.5">
             <img
               title=""
-              src="https://c.animaapp.com/mpy7krbtwlu4la/assets/1732520123546_1723972557_user_approve.webp"
+              src="/images/nexa/1732520123546_1723972557_user_approve.webp"
               href=""
               alt=""
               className="text-black box-border caret-transparent h-[25px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] align-baseline w-[25px] md:h-[35px] md:w-[35px]"
@@ -974,7 +974,7 @@ export const ArticleContent = () => {
         <div className="relative box-border caret-transparent flex basis-full grow max-w-full min-h-[25px] outline-[3px] w-min mt-5 p-px md:basis-0">
           <img
             title=""
-            src="https://c.animaapp.com/mpy7krbtwlu4la/assets/1729072653432_1689522054_1.webp"
+            src="/images/nexa/1729072653432_1689522054_1.webp"
             href=""
             alt=""
             className="text-black box-border caret-transparent h-[55px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] align-baseline w-[55px] mt-0.5"
@@ -1019,7 +1019,7 @@ export const ArticleContent = () => {
         <div className="relative box-border caret-transparent flex basis-full grow max-w-full min-h-[25px] outline-[3px] w-min p-px md:basis-0">
           <img
             title=""
-            src="https://c.animaapp.com/mpy7krbtwlu4la/assets/1729172389910_1689523955_9_1_120x120.webp"
+            src="/images/nexa/1729172389910_1689523955_9_1_120x120.webp"
             href=""
             alt=""
             className="text-black box-border caret-transparent h-[55px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] align-baseline w-[55px] mt-0.5"
@@ -1079,7 +1079,7 @@ export const ArticleContent = () => {
       <div className="box-border caret-transparent flex outline-[3px] w-full pr-0 md:pr-2.5">
         <img
           title=""
-          src="https://c.animaapp.com/mpy7krbtwlu4la/assets/1729172608070_1689524009_4_120x120.webp"
+          src="/images/nexa/1729172608070_1689524009_4_120x120.webp"
           href=""
           alt=""
           className="text-black box-border caret-transparent h-[55px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] align-baseline w-[55px] mt-0.5"
@@ -1118,7 +1118,7 @@ export const ArticleContent = () => {
           <div className="box-border caret-transparent flex outline-[3px] w-full pr-2.5 pt-[5px]">
             <img
               title=""
-              src="https://c.animaapp.com/mpy7krbtwlu4la/assets/1729172681324_1689524278_5_120x120.webp"
+              src="/images/nexa/1729172681324_1689524278_5_120x120.webp"
               href=""
               alt=""
               className="text-black box-border caret-transparent h-[45px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] align-baseline w-[45px] mt-0.5"
@@ -1160,7 +1160,7 @@ export const ArticleContent = () => {
       <div className="box-border caret-transparent flex outline-[3px] w-full pr-0 md:pr-2.5">
         <img
           title=""
-          src="https://c.animaapp.com/mpy7krbtwlu4la/assets/1729276565818_1690673126_thumb_Irina_Travkina_executive_r.webp"
+          src="/images/nexa/1729276565818_1690673126_thumb_Irina_Travkina_executive_r.webp"
           href=""
           alt=""
           className="text-black box-border caret-transparent h-[55px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] align-baseline w-[55px] mt-0.5"
@@ -1201,7 +1201,7 @@ export const ArticleContent = () => {
       <div className="box-border caret-transparent flex outline-[3px] w-full pr-0 md:pr-2.5">
         <img
           title=""
-          src="https://c.animaapp.com/mpy7krbtwlu4la/assets/1729276716603_1689524233_7_120x120.webp"
+          src="/images/nexa/1729276716603_1689524233_7_120x120.webp"
           href=""
           alt=""
           className="text-black box-border caret-transparent h-[55px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] align-baseline w-[55px] mt-0.5"
@@ -1245,7 +1245,7 @@ export const ArticleContent = () => {
       <div className="box-border caret-transparent flex outline-[3px] w-full pr-0 md:pr-2.5">
         <img
           title=""
-          src="https://c.animaapp.com/mpy7krbtwlu4la/assets/1729277064849_1689524495_9_120x120.webp"
+          src="/images/nexa/1729277064849_1689524495_9_120x120.webp"
           href=""
           alt=""
           className="text-black box-border caret-transparent h-[55px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] align-baseline w-[55px] mt-0.5"
@@ -1284,7 +1284,7 @@ export const ArticleContent = () => {
           <div className="box-border caret-transparent flex outline-[3px] w-full pr-2.5 pt-[5px]">
             <img
               title=""
-              src="https://c.animaapp.com/mpy7krbtwlu4la/assets/1729277123750_1689524512_1_1_120x120.webp"
+              src="/images/nexa/1729277123750_1689524512_1_1_120x120.webp"
               href=""
               alt=""
               className="text-black box-border caret-transparent h-[45px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] align-baseline w-[45px] mt-0.5"
@@ -1326,7 +1326,7 @@ export const ArticleContent = () => {
       <div className="box-border caret-transparent flex outline-[3px] w-full pr-0 md:pr-2.5">
         <img
           title=""
-          src="https://c.animaapp.com/mpy7krbtwlu4la/assets/1729277189377_1691413209_Anabel_Lorenzo.webp"
+          src="/images/nexa/1729277189377_1691413209_Anabel_Lorenzo.webp"
           href=""
           alt=""
           className="text-black box-border caret-transparent h-[55px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] align-baseline w-[55px] mt-0.5"
@@ -1366,7 +1366,7 @@ export const ArticleContent = () => {
       <div className="box-border caret-transparent flex outline-[3px] w-full pr-0 md:pr-2.5">
         <img
           title=""
-          src="https://c.animaapp.com/mpy7krbtwlu4la/assets/1729277325463_1689524881_3_1_120x120.webp"
+          src="/images/nexa/1729277325463_1689524881_3_1_120x120.webp"
           href=""
           alt=""
           className="text-black box-border caret-transparent h-[55px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] align-baseline w-[55px] mt-0.5"
@@ -1405,7 +1405,7 @@ export const ArticleContent = () => {
       <div className="box-border caret-transparent flex outline-[3px] w-full pr-0 md:pr-2.5">
         <img
           title=""
-          src="https://c.animaapp.com/mpy7krbtwlu4la/assets/1729277531271_1689525035_21_120x120.webp"
+          src="/images/nexa/1729277531271_1689525035_21_120x120.webp"
           href=""
           alt=""
           className="text-black box-border caret-transparent h-[55px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] align-baseline w-[55px] mt-0.5"
@@ -1445,7 +1445,7 @@ export const ArticleContent = () => {
       <div className="box-border caret-transparent flex outline-[3px] w-full pr-0 md:pr-2.5">
         <img
           title=""
-          src="https://c.animaapp.com/mpy7krbtwlu4la/assets/1729277610957_1689524987_19_120x120.webp"
+          src="/images/nexa/1729277610957_1689524987_19_120x120.webp"
           href=""
           alt=""
           className="text-black box-border caret-transparent h-[55px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] align-baseline w-[55px] mt-0.5"
@@ -1485,7 +1485,7 @@ export const ArticleContent = () => {
       <div className="box-border caret-transparent flex outline-[3px] w-full pr-0 md:pr-2.5">
         <img
           title=""
-          src="https://c.animaapp.com/mpy7krbtwlu4la/assets/1729277679683_1689525025_20_120x120.webp"
+          src="/images/nexa/1729277679683_1689525025_20_120x120.webp"
           href=""
           alt=""
           className="text-black box-border caret-transparent h-[55px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] align-baseline w-[55px] mt-0.5"
@@ -1525,7 +1525,7 @@ export const ArticleContent = () => {
       <div className="box-border caret-transparent flex outline-[3px] w-full pr-0 md:pr-2.5">
         <img
           title=""
-          src="https://c.animaapp.com/mpy7krbtwlu4la/assets/1729277723585_1689524890_5_1_120x120.webp"
+          src="/images/nexa/1729277723585_1689524890_5_1_120x120.webp"
           href=""
           alt=""
           className="text-black box-border caret-transparent h-[55px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] align-baseline w-[55px] mt-0.5"
@@ -1566,7 +1566,7 @@ export const ArticleContent = () => {
       <div className="box-border caret-transparent flex outline-[3px] w-full pr-0 md:pr-2.5">
         <img
           title=""
-          src="https://c.animaapp.com/mpy7krbtwlu4la/assets/1729277725437_1689525125_6_1_120x120.webp"
+          src="/images/nexa/1729277725437_1689525125_6_1_120x120.webp"
           href=""
           alt=""
           className="text-black box-border caret-transparent h-[55px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] align-baseline w-[55px] mt-0.5"
@@ -1606,7 +1606,7 @@ export const ArticleContent = () => {
       <div className="box-border caret-transparent flex outline-[3px] w-full pr-0 md:pr-2.5">
         <img
           title=""
-          src="https://c.animaapp.com/mpy7krbtwlu4la/assets/1729277728866_1690673012_brave_woman.webp"
+          src="/images/nexa/1729277728866_1690673012_brave_woman.webp"
           href=""
           alt=""
           className="text-black box-border caret-transparent h-[55px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] align-baseline w-[55px] mt-0.5"
@@ -1646,7 +1646,7 @@ export const ArticleContent = () => {
       <div className="box-border caret-transparent flex outline-[3px] w-full pr-0 md:pr-2.5">
         <img
           title=""
-          src="https://c.animaapp.com/mpy7krbtwlu4la/assets/1729277730999_1690673025_eyJwYXRoIjoiaWhoLWhlYWx0aGNhcmUt.webp"
+          src="/images/nexa/1729277730999_1690673025_eyJwYXRoIjoiaWhoLWhlYWx0aGNhcmUt.webp"
           href=""
           alt=""
           className="text-black box-border caret-transparent h-[55px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] align-baseline w-[55px] mt-0.5"
@@ -1685,7 +1685,7 @@ export const ArticleContent = () => {
       <div className="box-border caret-transparent flex outline-[3px] w-full pr-0 md:pr-2.5">
         <img
           title=""
-          src="https://c.animaapp.com/mpy7krbtwlu4la/assets/1729277738316_1690673034_depositphotos_90874904_stock_pho.webp"
+          src="/images/nexa/1729277738316_1690673034_depositphotos_90874904_stock_pho.webp"
           href=""
           alt=""
           className="text-black box-border caret-transparent h-[55px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] align-baseline w-[55px] mt-0.5"
@@ -1726,7 +1726,7 @@ export const ArticleContent = () => {
       <div className="box-border caret-transparent flex outline-[3px] w-full pr-0 md:pr-2.5">
         <img
           title=""
-          src="https://c.animaapp.com/mpy7krbtwlu4la/assets/1729277745835_1690673046_smiling_woman.webp"
+          src="/images/nexa/1729277745835_1690673046_smiling_woman.webp"
           href=""
           alt=""
           className="text-black box-border caret-transparent h-[55px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] align-baseline w-[55px] mt-0.5"

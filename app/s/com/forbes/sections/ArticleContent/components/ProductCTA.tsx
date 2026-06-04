@@ -31,7 +31,7 @@ export const ProductCTA = () => {
                           <span className="[align-items:normal] bg-repeat bg-auto box-content caret-black inline justify-normal md:items-center md:aspect-auto md:bg-no-repeat md:bg-contain md:box-border md:caret-transparent md:inline-flex md:justify-center md:overscroll-x-auto md:overscroll-y-auto md:snap-align-none md:snap-normal md:snap-none md:decoration-auto md:underline-offset-auto md:[mask-position:0%] md:bg-center md:scroll-m-0 md:scroll-p-[auto]">
                             <img
                               alt="Right arrow"
-                              src="https://c.animaapp.com/mnsdpkiu3I801d/assets/right-arrow.svg"
+                              src="/images/forbes/right-arrow.svg"
                               className="box-content caret-black max-w-none align-middle md:aspect-auto md:box-border md:caret-transparent md:max-w-full md:overscroll-x-auto md:overscroll-y-auto md:snap-align-none md:snap-normal md:snap-none md:decoration-auto md:underline-offset-auto md:align-baseline md:[mask-position:0%] md:bg-left-top md:scroll-m-0 md:scroll-p-[auto]"
                             />
                           </span>

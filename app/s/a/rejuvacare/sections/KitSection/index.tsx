@@ -7,7 +7,7 @@ export const KitSection = () => {
         <div className="box-border caret-transparent min-h-0 min-w-0 outline-[3px] w-full p-0 md:min-h-[auto] md:min-w-[auto] md:px-2.5 md:py-3">
           <img
             title=""
-            src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1723110728696_rejuvaknee_kit_desktop2.png"
+            src="/images/rejuvacare/1723110728696_rejuvaknee_kit_desktop2.png"
             alt=""
             className="text-black box-border caret-transparent inline h-auto max-w-full object-cover outline-[3px] w-full md:h-full md:object-fill"
           />
@@ -18,28 +18,28 @@ export const KitSection = () => {
           </div>
           <KitItem
             rootVariant="mt-5"
-            imageSrc="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722826373249_num_circle_1.webp"
+            imageSrc="/images/rejuvacare/1722826373249_num_circle_1.webp"
             label="High Quality Gift Box"
             labelVariant="leading-6"
             spacerCount="0"
           />
           <KitItem
             rootVariant="mt-2.5"
-            imageSrc="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722826366022_num_circle_2.webp"
+            imageSrc="/images/rejuvacare/1722826366022_num_circle_2.webp"
             label='The RejuvaKnee "Triple Method" Massager'
             labelVariant="leading-[22px]"
             spacerCount="1"
           />
           <KitItem
             rootVariant="mt-2.5"
-            imageSrc="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722826593777_num_circle_3.webp"
+            imageSrc="/images/rejuvacare/1722826593777_num_circle_3.webp"
             label="User Guide (set up within 30 seconds)"
             labelVariant="leading-[22px]"
             spacerCount="2"
           />
           <KitItem
             rootVariant="mt-2.5"
-            imageSrc="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722833788239_num_circle_4.webp"
+            imageSrc="/images/rejuvacare/1722833788239_num_circle_4.webp"
             label="Your RejuvaKnee USB C Charger"
             labelVariant="leading-6"
             spacerCount="2"

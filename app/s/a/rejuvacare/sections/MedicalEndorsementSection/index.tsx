@@ -31,7 +31,7 @@ export const MedicalEndorsementSection = () => {
             <div className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] w-full p-0 md:px-2.5 md:py-3">
               <img
                 title=""
-                src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722924582232_endorser_1.webp"
+                src="/images/rejuvacare/1722924582232_endorser_1.webp"
                 alt=""
                 className="text-black box-border caret-transparent inline h-full max-w-full outline-[3px] w-[95%] mb-px md:w-full md:mb-0"
               />
@@ -39,7 +39,7 @@ export const MedicalEndorsementSection = () => {
             <div className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] w-full p-0 md:px-2.5 md:py-3">
               <img
                 title=""
-                src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722924562849_endorser_2.webp"
+                src="/images/rejuvacare/1722924562849_endorser_2.webp"
                 alt=""
                 className="text-black box-border caret-transparent inline h-auto max-w-full outline-[3px] w-[95%] md:h-full md:w-full"
               />

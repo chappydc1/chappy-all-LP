@@ -195,7 +195,7 @@ export const ReviewItem = (props: ReviewItemProps) => {
         </div>
         <div className="box-border caret-transparent gap-x-4 flex outline-[3px] gap-y-4 mt-6">
           <div className="text-sm items-center box-border caret-transparent flex leading-[14px] min-h-[auto] min-w-[auto] outline-[3px]">
-            <div className="items-center bg-[url('https://widgets.juniphq.com/v1/images/4402299c7b701bcfc128.svg')] bg-no-repeat bg-size-[100%] box-border caret-transparent flex h-3.5 min-h-[auto] min-w-[auto] outline-[3px] w-3 bg-center mr-1.5">
+            <div className="items-center bg-[url('/images/gruns/4402299c7b701bcfc128.svg">
                
             </div>
             <div className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px]">

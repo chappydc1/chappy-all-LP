@@ -6,7 +6,7 @@ export const FinalCta = () => {
           <div className="relative items-center self-center box-border caret-transparent flex shrink-0 justify-center mt-[-15px] max-w-full min-h-px min-w-[auto] outline-[3px] w-[400px] md:self-stretch md:w-[680px] md:mt-0">
             <picture className="items-center box-border caret-transparent flex basis-0 grow max-w-[531px] outline-[3px] overflow-x-auto overflow-y-hidden my-[15px] md:my-0">
               <img
-                src="https://c.animaapp.com/mpke0433qmtH28/assets/145.png"
+                src="/images/jones/145.png"
                 alt="Woman applying foundation on cheek with finger."
                 className="box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full outline-[3px] align-baseline"
               />

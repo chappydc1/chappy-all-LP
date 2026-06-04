@@ -8,7 +8,7 @@ export const ArticleSection = () => {
           <div className="box-border caret-transparent py-8 md:py-[46px]">
             <div className="box-border caret-transparent flex flex-col gap-y-12 md:gap-y-16">
               <ReasonCard
-                videoPoster="https://c.animaapp.com/mnsfe353KCVMX6/assets/1_rl7uzn.png"
+                videoPoster="/images/javy/1_rl7uzn.png"
                 videoSrc="https://vz-318e2430-7a3.b-cdn.net/6bdd6b94-d2e7-4a48-b249-0f744f657a62/play_480p.mp4"
                 secondaryVideoSrc="https://vz-318e2430-7a3.b-cdn.net/88d134cd-a4f9-495b-8be8-972b59993198/play_480p.mp4"
                 badgeContainerClass="top-[-3px] md:-top-0.5"
@@ -35,7 +35,7 @@ export const ArticleSection = () => {
                 isVariantWithDoubleVideo={true}
               />
               <ReasonCard
-                videoPoster="https://c.animaapp.com/mnsfe353KCVMX6/assets/2_vwvosm.png"
+                videoPoster="/images/javy/2_vwvosm.png"
                 videoSrc="https://vz-318e2430-7a3.b-cdn.net/f4e9573e-2b2d-4839-a104-70a9c0b291f9/play_480p.mp4"
                 videoSrcType="video/mp4"
                 badgeText="🔒 Craving Control"
@@ -61,7 +61,7 @@ export const ArticleSection = () => {
                 }
               />
               <ReasonCard
-                videoPoster="https://c.animaapp.com/mnsfe353KCVMX6/assets/4_jwtjn5.png"
+                videoPoster="/images/javy/4_jwtjn5.png"
                 videoSrc="https://vz-318e2430-7a3.b-cdn.net/04f846de-ddb0-49fe-a550-bb722e9a0c24/play_480p.mp4"
                 videoSrcType="video/mp4"
                 badgeText="🌿 Better Digestion Support"
@@ -83,7 +83,7 @@ export const ArticleSection = () => {
                 linkText="Better Digestion Support Starts Here"
               />
               <ReasonCard
-                videoPoster="https://c.animaapp.com/mnsfe353KCVMX6/assets/4_omf53s.png"
+                videoPoster="/images/javy/4_omf53s.png"
                 videoSrc="https://vz-318e2430-7a3.b-cdn.net/f11494a3-8151-466b-af35-8f569438dad3/play_480p.mp4"
                 videoSrcType="video/mp4"
                 badgeText="🚫 No Chalky Shakes"
@@ -111,7 +111,7 @@ export const ArticleSection = () => {
                 linkText="Enjoy Real Coffee Taste, Every Time"
               />
               <ReasonCard
-                videoPoster="https://c.animaapp.com/mnsfe353KCVMX6/assets/5_abhdr9.png"
+                videoPoster="/images/javy/5_abhdr9.png"
                 videoSrc="https://vz-318e2430-7a3.b-cdn.net/f102abdc-bbe9-471e-92ed-2e90668f545d/play_480p.mp4"
                 videoSrcType="video/mp4"
                 badgeText="🤑 Save Big Yearly"
@@ -132,7 +132,7 @@ export const ArticleSection = () => {
                 linkText="Start Saving With Every Cup"
               />
               <ReasonCard
-                videoPoster="https://c.animaapp.com/mnsfe353KCVMX6/assets/6_yeyl4s.png"
+                videoPoster="/images/javy/6_yeyl4s.png"
                 videoSrc="https://vz-318e2430-7a3.b-cdn.net/e0781a69-5409-4aee-a147-e86a613a2ae7/play_480p.mp4"
                 videoSrcType="video/mp4"
                 badgeText="🎯 Effortless Perfection"
@@ -151,7 +151,7 @@ export const ArticleSection = () => {
                 linkText="Skip The Line, Brew At Home Or Anywhere"
               />
               <ReasonCard
-                videoPoster="https://c.animaapp.com/mnsfe353KCVMX6/assets/7_tuexv2.png"
+                videoPoster="/images/javy/7_tuexv2.png"
                 videoSrc="https://vz-318e2430-7a3.b-cdn.net/729b9cb6-4758-4c78-a75d-3bae14d771c6/play_480p.mp4"
                 videoSrcType="video/mp4"
                 badgeText="⚡ No Crash, Just Clarity"
@@ -175,7 +175,7 @@ export const ArticleSection = () => {
                 linkText="Stay Clear, Stay Focused"
               />
               <ReasonCard
-                videoPoster="https://c.animaapp.com/mnsfe353KCVMX6/assets/8_p1pmld.png"
+                videoPoster="/images/javy/8_p1pmld.png"
                 videoSrc="https://vz-318e2430-7a3.b-cdn.net/96c709f9-7eb9-4417-ae8d-ecb481e722d4/play_480p.mp4"
                 videoSrcType="video/mp4"
                 badgeText="💪 Extra Protein, Zero Effort"
@@ -203,7 +203,7 @@ export const ArticleSection = () => {
                 linkText="Fuel Your Day With Every Sip"
               />
               <ReasonCard
-                videoPoster="https://c.animaapp.com/mnsfe353KCVMX6/assets/9_zwohnt.png"
+                videoPoster="/images/javy/9_zwohnt.png"
                 videoSrc="https://vz-318e2430-7a3.b-cdn.net/ecea6ee1-57b6-402d-98c2-f7ecfba25a75/play_480p.mp4"
                 videoSrcType="video/mp4"
                 badgeText="👍 Risk-Free Choice"
@@ -223,7 +223,7 @@ export const ArticleSection = () => {
                 linkText="Start Your Risk-Free Coffee Journey"
               />
               <ReasonCard
-                videoPoster="https://c.animaapp.com/mnsfe353KCVMX6/assets/10_rgnxtv.png"
+                videoPoster="/images/javy/10_rgnxtv.png"
                 videoSrc="https://vz-318e2430-7a3.b-cdn.net/52a9a29d-f274-45a5-9efd-e423516d4887/play_480p.mp4"
                 videoSrcType="video/mp4"
                 badgeText="🌍 Coffee Without Limits"

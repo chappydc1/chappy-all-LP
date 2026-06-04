@@ -12,7 +12,7 @@ export const MainArticle = () => {
         </div>
       </div>
       <img
-        src="https://cdn.prod.website-files.com/placeholder.svg"
+        src="/images/hike/placeholder.svg"
         alt=""
         className="box-border caret-transparent inline-block max-w-full outline-[3px]"
       />
@@ -23,7 +23,7 @@ export const MainArticle = () => {
           <div className="box-border caret-transparent gap-x-[23px] grid auto-cols-[1fr] grid-cols-[1fr] grid-rows-[auto_auto_auto_auto_auto_auto_auto_auto_auto] outline-[3px] gap-y-[23px] md:gap-x-10 md:grid-cols-[1fr_1fr] md:gap-y-[50px]">
             <div className="box-border caret-transparent hidden min-h-0 min-w-0 outline-[3px] md:block md:min-h-[auto] md:min-w-[auto]">
               <img
-                src="https://c.animaapp.com/mpkdc2w7URxoYV/assets/67c808106de1d18b9acff177_1711587258-comfortwear_footpain-1664579439429.webp"
+                src="/images/hike/67c808106de1d18b9acff177_1711587258-comfortwear_footpain-1664579439429.webp"
                 alt=""
                 className="box-border caret-transparent inline-block max-w-full outline-[3px]"
               />
@@ -37,7 +37,7 @@ export const MainArticle = () => {
                 </h2>
                 <div className="box-border caret-transparent block outline-[3px] my-2.5 md:hidden md:my-0">
                   <img
-                    src="https://c.animaapp.com/mpkdc2w7URxoYV/assets/67c808106de1d18b9acff177_1711587258-comfortwear_footpain-1664579439429.webp"
+                    src="/images/hike/67c808106de1d18b9acff177_1711587258-comfortwear_footpain-1664579439429.webp"
                     alt=""
                     className="box-border caret-transparent inline-block max-w-full outline-[3px]"
                   />
@@ -62,7 +62,7 @@ export const MainArticle = () => {
               <img
                 sizes="(max-width: 479px) 100vw, 240px"
                 alt=""
-                src="https://c.animaapp.com/mpkdc2w7URxoYV/assets/68c43054c0cb79e4c454105c_6.png"
+                src="/images/hike/68c43054c0cb79e4c454105c_6.png"
                 className="box-border caret-transparent inline-block max-w-full outline-[3px]"
               />
             </div>
@@ -78,7 +78,7 @@ export const MainArticle = () => {
                     <img
                       sizes="(max-width: 479px) 100vw, 240px"
                       alt=""
-                      src="https://c.animaapp.com/mpkdc2w7URxoYV/assets/68c43054c0cb79e4c454105c_6.png"
+                      src="/images/hike/68c43054c0cb79e4c454105c_6.png"
                       className="box-border caret-transparent inline-block max-w-full outline-[3px]"
                     />
                   </div>
@@ -99,7 +99,7 @@ export const MainArticle = () => {
             </div>
             <div className="box-border caret-transparent hidden min-h-0 min-w-0 outline-[3px] md:block md:min-h-[auto] md:min-w-[auto]">
               <img
-                src="https://c.animaapp.com/mpkdc2w7URxoYV/assets/68c4305c850ef071a5f772f8_4.png"
+                src="/images/hike/68c4305c850ef071a5f772f8_4.png"
                 alt=""
                 className="box-border caret-transparent inline-block max-w-full outline-[3px]"
               />
@@ -113,7 +113,7 @@ export const MainArticle = () => {
                 </h2>
                 <div className="box-border caret-transparent block outline-[3px] my-2.5 md:hidden md:my-0">
                   <img
-                    src="https://c.animaapp.com/mpkdc2w7URxoYV/assets/68c4305c850ef071a5f772f8_4.png"
+                    src="/images/hike/68c4305c850ef071a5f772f8_4.png"
                     alt=""
                     className="box-border caret-transparent inline-block max-w-full outline-[3px]"
                   />
@@ -134,7 +134,7 @@ export const MainArticle = () => {
             </div>
             <div className="box-border caret-transparent hidden min-h-0 min-w-0 outline-[3px] md:block md:min-h-[auto] md:min-w-[auto]">
               <img
-                src="https://c.animaapp.com/mpkdc2w7URxoYV/assets/68c43056253e86791a069e92_7.png"
+                src="/images/hike/68c43056253e86791a069e92_7.png"
                 sizes="(max-width: 479px) 100vw, 323.99737548828125px"
                 alt=""
                 className="box-border caret-transparent inline-block max-w-full outline-[3px]"
@@ -149,7 +149,7 @@ export const MainArticle = () => {
                 </h2>
                 <div className="box-border caret-transparent block outline-[3px] my-2.5 md:hidden md:my-0">
                   <img
-                    src="https://c.animaapp.com/mpkdc2w7URxoYV/assets/68c43056253e86791a069e92_7.png"
+                    src="/images/hike/68c43056253e86791a069e92_7.png"
                     alt=""
                     className="box-border caret-transparent inline-block max-w-full outline-[3px]"
                   />
@@ -171,7 +171,7 @@ export const MainArticle = () => {
             </div>
             <div className="box-border caret-transparent hidden min-h-0 min-w-0 outline-[3px] md:block md:min-h-[auto] md:min-w-[auto]">
               <img
-                src="https://c.animaapp.com/mpkdc2w7URxoYV/assets/68c4305c3f37598c1fa5e3b8_8.png"
+                src="/images/hike/68c4305c3f37598c1fa5e3b8_8.png"
                 alt=""
                 className="box-border caret-transparent inline-block max-w-[1000px] outline-[3px] w-[1000px] md:max-w-full"
               />
@@ -185,7 +185,7 @@ export const MainArticle = () => {
                 </h2>
                 <div className="box-border caret-transparent block outline-[3px] md:hidden">
                   <img
-                    src="https://c.animaapp.com/mpkdc2w7URxoYV/assets/68c4305c3f37598c1fa5e3b8_8.png"
+                    src="/images/hike/68c4305c3f37598c1fa5e3b8_8.png"
                     alt=""
                     className="box-border caret-transparent inline-block max-w-full outline-[3px] w-auto md:w-[1000px]"
                   />
@@ -205,7 +205,7 @@ export const MainArticle = () => {
             </div>
             <div className="box-border caret-transparent hidden min-h-0 min-w-0 outline-[3px] md:block md:min-h-[auto] md:min-w-[auto]">
               <img
-                src="https://c.animaapp.com/mpkdc2w7URxoYV/assets/68c430578e3e5b180d2f1367_10.png"
+                src="/images/hike/68c430578e3e5b180d2f1367_10.png"
                 alt=""
                 className="box-border caret-transparent inline-block max-w-[1000px] outline-[3px] w-[1000px] md:max-w-full"
               />
@@ -219,7 +219,7 @@ export const MainArticle = () => {
                 </h2>
                 <div className="box-border caret-transparent block outline-[3px] my-2.5 md:hidden md:my-0">
                   <img
-                    src="https://c.animaapp.com/mpkdc2w7URxoYV/assets/68c430578e3e5b180d2f1367_10.png"
+                    src="/images/hike/68c430578e3e5b180d2f1367_10.png"
                     alt=""
                     className="box-border caret-transparent inline-block max-w-full outline-[3px] w-auto md:w-[1000px]"
                   />
@@ -244,7 +244,7 @@ export const MainArticle = () => {
             </div>
             <div className="box-border caret-transparent hidden min-h-0 min-w-0 outline-[3px] md:block md:min-h-[auto] md:min-w-[auto]">
               <img
-                src="https://c.animaapp.com/mpkdc2w7URxoYV/assets/68c4305c69bbe8b523e5276c_9.png"
+                src="/images/hike/68c4305c69bbe8b523e5276c_9.png"
                 alt=""
                 className="box-border caret-transparent inline-block max-w-[1000px] outline-[3px] w-[1000px] md:max-w-full"
               />
@@ -258,7 +258,7 @@ export const MainArticle = () => {
                 </h2>
                 <div className="box-border caret-transparent block outline-[3px] my-2.5 md:hidden md:my-0">
                   <img
-                    src="https://c.animaapp.com/mpkdc2w7URxoYV/assets/68c4305c69bbe8b523e5276c_9.png"
+                    src="/images/hike/68c4305c69bbe8b523e5276c_9.png"
                     alt=""
                     className="box-border caret-transparent inline-block max-w-full outline-[3px] w-auto md:w-[1000px]"
                   />
@@ -279,7 +279,7 @@ export const MainArticle = () => {
             </div>
             <div className="box-border caret-transparent hidden min-h-0 min-w-0 outline-[3px] md:block md:min-h-[auto] md:min-w-[auto]">
               <img
-                src="https://c.animaapp.com/mpkdc2w7URxoYV/assets/68c43057844b9c9a52f48887_12.png"
+                src="/images/hike/68c43057844b9c9a52f48887_12.png"
                 alt=""
                 className="box-border caret-transparent inline-block max-w-[1000px] outline-[3px] w-[1000px] md:max-w-full"
               />
@@ -293,7 +293,7 @@ export const MainArticle = () => {
                 </h2>
                 <div className="box-border caret-transparent block outline-[3px] my-2.5 md:hidden md:my-0">
                   <img
-                    src="https://c.animaapp.com/mpkdc2w7URxoYV/assets/68c43057844b9c9a52f48887_12.png"
+                    src="/images/hike/68c43057844b9c9a52f48887_12.png"
                     alt=""
                     className="box-border caret-transparent inline-block max-w-full outline-[3px] w-auto md:w-[1000px]"
                   />
@@ -313,7 +313,7 @@ export const MainArticle = () => {
             </div>
             <div className="box-border caret-transparent hidden min-h-0 min-w-0 outline-[3px] md:block md:min-h-[auto] md:min-w-[auto]">
               <img
-                src="https://c.animaapp.com/mpkdc2w7URxoYV/assets/68cb9d4ab48a722d6f099415_14.png"
+                src="/images/hike/68cb9d4ab48a722d6f099415_14.png"
                 alt=""
                 className="box-border caret-transparent inline-block max-w-[1000px] outline-[3px] w-[1000px] md:max-w-full"
               />
@@ -327,7 +327,7 @@ export const MainArticle = () => {
                 </h2>
                 <div className="box-border caret-transparent block outline-[3px] my-2.5 md:hidden md:my-0">
                   <img
-                    src="https://c.animaapp.com/mpkdc2w7URxoYV/assets/68cb9d4ab48a722d6f099415_14.png"
+                    src="/images/hike/68cb9d4ab48a722d6f099415_14.png"
                     alt=""
                     className="box-border caret-transparent inline-block max-w-full outline-[3px] w-auto md:w-[1000px]"
                   />

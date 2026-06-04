@@ -4,7 +4,7 @@ export const Benefits = () => {
       <div className="caret-transparent flex outline-[3px]">
         <div className="border-r-stone-300 caret-transparent min-h-[auto] min-w-[auto] outline-[3px] w-full px-2.5 py-[25px] border-r md:px-5">
           <img
-            src="https://c.animaapp.com/mpgprp8nfS9gmT/assets/45-day-trial.svg"
+            src="/images/hear/45-day-trial.svg"
             alt=""
             className="caret-transparent outline-[3px] align-baseline w-[30px] mb-2.5 mx-auto md:w-10 md:mb-[15px]"
           />
@@ -16,7 +16,7 @@ export const Benefits = () => {
         </div>
         <div className="border-r-stone-300 caret-transparent min-h-[auto] min-w-[auto] outline-[3px] w-full px-2.5 py-[25px] border-r md:px-5">
           <img
-            src="https://c.animaapp.com/mpgprp8nfS9gmT/assets/money-back.svg"
+            src="/images/hear/money-back.svg"
             alt=""
             className="caret-transparent outline-[3px] align-baseline w-[30px] mb-2.5 mx-auto md:w-10 md:mb-[15px]"
           />
@@ -28,7 +28,7 @@ export const Benefits = () => {
         </div>
         <div className="caret-transparent min-h-[auto] min-w-[auto] outline-[3px] w-full px-2.5 py-[25px] md:px-5">
           <img
-            src="https://c.animaapp.com/mpgprp8nfS9gmT/assets/warranty.svg"
+            src="/images/hear/warranty.svg"
             alt=""
             className="caret-transparent outline-[3px] align-baseline w-[30px] mb-2.5 mx-auto md:w-10 md:mb-[15px]"
           />

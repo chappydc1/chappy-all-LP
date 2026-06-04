@@ -50,7 +50,7 @@ export const SpinWheelModal = () => {
             className="absolute z-20 right-4 top-4 w-8 h-8 flex items-center justify-center rounded-full bg-black/10 hover:bg-black/20 transition-colors duration-200 cursor-pointer"
           >
             <img
-              src="https://c.animaapp.com/mnsfe353KCVMX6/assets/icon-5.svg"
+              src="/images/javy/icon-5.svg"
               alt="Close"
               className="h-5 w-5"
             />
@@ -59,12 +59,12 @@ export const SpinWheelModal = () => {
           {/* Background image for mobile feel */}
           <div
             className="absolute inset-0 opacity-10"
-            style={{ backgroundImage: "url('https://c.animaapp.com/mnsfe353KCVMX6/assets/desktopbgmin21380beb8da5188c.webp-1754589668126.webp')", backgroundSize: "cover", backgroundPosition: "center" }}
+            style={{ backgroundImage: "url('/images/javy/desktopbgmin21380beb8da5188c.webp-1754589668126.webp')", backgroundSize: "cover", backgroundPosition: "center" }}
           />
 
           <div className="relative z-10 flex flex-col items-center gap-4 px-6 py-8">
             <img
-              src="https://c.animaapp.com/mnsfe353KCVMX6/assets/javvylogoblueyellowsparkles.svg-1753727812740.svg"
+              src="/images/javy/javvylogoblueyellowsparkles.svg-1753727812740.svg"
               alt="Javvy Coffee Logo"
               className="w-[110px] mb-2"
             />

@@ -107,7 +107,7 @@ export const JevawellArticleContent = () => {
                       >
                         <span className="text-neutral-900 items-center box-border caret-transparent inline-flex h-[38px] justify-center max-w-full min-w-[38px] outline-[3px] w-[38px] overflow-hidden md:h-11 md:min-w-11 md:w-11">
                           <img
-                            src="https://c.animaapp.com/mpt0zi0nqVnOh3/assets/icon-1.svg"
+                            src="/images/jevawell/icon-1.svg"
                             alt="Icon"
                             className="box-border caret-transparent h-[38px] outline-[3px] md:h-11"
                           />
@@ -126,7 +126,7 @@ export const JevawellArticleContent = () => {
                       >
                         <span className="text-neutral-900 items-center box-border caret-transparent inline-flex h-[38px] justify-center max-w-full min-w-[38px] outline-[3px] w-[38px] overflow-hidden md:h-11 md:min-w-11 md:w-11">
                           <img
-                            src="https://c.animaapp.com/mpt0zi0nqVnOh3/assets/icon-2.svg"
+                            src="/images/jevawell/icon-2.svg"
                             alt="Icon"
                             className="box-border caret-transparent h-[38px] outline-[3px] md:h-11"
                           />
@@ -145,7 +145,7 @@ export const JevawellArticleContent = () => {
                       >
                         <span className="text-neutral-900 items-center box-border caret-transparent inline-flex h-[38px] justify-center max-w-full min-w-[38px] outline-[3px] w-[38px] overflow-hidden md:h-11 md:min-w-11 md:w-11">
                           <img
-                            src="https://c.animaapp.com/mpt0zi0nqVnOh3/assets/icon-3.svg"
+                            src="/images/jevawell/icon-3.svg"
                             alt="Icon"
                             className="box-border caret-transparent h-[38px] outline-[3px] md:h-11"
                           />
@@ -164,7 +164,7 @@ export const JevawellArticleContent = () => {
                       >
                         <span className="text-neutral-900 items-center box-border caret-transparent inline-flex h-[38px] justify-center max-w-full min-w-[38px] outline-[3px] w-[38px] overflow-hidden md:h-11 md:min-w-11 md:w-11">
                           <img
-                            src="https://c.animaapp.com/mpt0zi0nqVnOh3/assets/icon-4.svg"
+                            src="/images/jevawell/icon-4.svg"
                             alt="Icon"
                             className="box-border caret-transparent h-[38px] outline-[3px] md:h-11"
                           />
@@ -183,7 +183,7 @@ export const JevawellArticleContent = () => {
             <div className="box-border caret-transparent flex h-full justify-center max-w-full outline-[3px] w-full">
               <picture className="box-border caret-transparent contents max-w-full outline-[3px]">
                 <img
-                  src="https://c.animaapp.com/mpt0zi0nqVnOh3/assets/veo_flow_202512241618_5pkz7-ezgif.com-video-to-webp-converter_1.webp"
+                  src="/images/jevawell/veo_flow_202512241618_5pkz7-ezgif.com-video-to-webp-converter_1.webp"
                   alt=""
                   className="box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] object-cover outline-[3px] pointer-events-none w-full"
                 />
@@ -381,7 +381,7 @@ export const JevawellArticleContent = () => {
             <div className="box-border caret-transparent flex h-full justify-center max-w-full outline-[3px] w-full">
               <picture className="box-border caret-transparent contents max-w-full outline-[3px]">
                 <img
-                  src="https://c.animaapp.com/mpt0zi0nqVnOh3/assets/2_edema.webp"
+                  src="/images/jevawell/2_edema.webp"
                   alt=""
                   className="box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] object-cover outline-[3px] pointer-events-none w-full"
                 />
@@ -516,7 +516,7 @@ export const JevawellArticleContent = () => {
             <div className="box-border caret-transparent flex h-full justify-center max-w-full outline-[3px] w-full">
               <picture className="box-border caret-transparent contents max-w-full outline-[3px]">
                 <img
-                  src="https://c.animaapp.com/mpt0zi0nqVnOh3/assets/3_edema.webp"
+                  src="/images/jevawell/3_edema.webp"
                   alt=""
                   className="box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] object-cover outline-[3px] pointer-events-none w-full"
                 />
@@ -779,7 +779,7 @@ export const JevawellArticleContent = () => {
             <div className="box-border caret-transparent flex h-full justify-center max-w-full outline-[3px] w-full">
               <picture className="box-border caret-transparent contents max-w-full outline-[3px]">
                 <img
-                  src="https://c.animaapp.com/mpt0zi0nqVnOh3/assets/5_edema.webp"
+                  src="/images/jevawell/5_edema.webp"
                   alt=""
                   className="box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] object-cover outline-[3px] pointer-events-none w-full"
                 />
@@ -954,7 +954,7 @@ export const JevawellArticleContent = () => {
             <div className="box-border caret-transparent flex h-full justify-center max-w-full outline-[3px] w-full">
               <picture className="box-border caret-transparent contents max-w-full outline-[3px]">
                 <img
-                  src="https://c.animaapp.com/mpt0zi0nqVnOh3/assets/hf_20260401_114548_14d91cc3-2470-46a4-984b-b7acca28b560.png"
+                  src="/images/jevawell/hf_20260401_114548_14d91cc3-2470-46a4-984b-b7acca28b560.png"
                   alt=""
                   className="box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] object-cover outline-[3px] pointer-events-none w-full"
                 />
@@ -1126,7 +1126,7 @@ export const JevawellArticleContent = () => {
             <div className="box-border caret-transparent flex h-full justify-center max-w-full outline-[3px] w-full">
               <picture className="box-border caret-transparent contents max-w-full outline-[3px]">
                 <img
-                  src="https://c.animaapp.com/mpt0zi0nqVnOh3/assets/4_edema.webp"
+                  src="/images/jevawell/4_edema.webp"
                   alt=""
                   className="box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] object-cover outline-[3px] pointer-events-none w-full"
                 />
@@ -1238,7 +1238,7 @@ export const JevawellArticleContent = () => {
             <div className="box-border caret-transparent flex h-full justify-center max-w-full outline-[3px] w-full">
               <picture className="box-border caret-transparent contents max-w-full outline-[3px]">
                 <img
-                  src="https://c.animaapp.com/mpt0zi0nqVnOh3/assets/veo_flow_202512241650_gjs64-ezgif.com-video-to-webp-converter.webp"
+                  src="/images/jevawell/veo_flow_202512241650_gjs64-ezgif.com-video-to-webp-converter.webp"
                   alt=""
                   className="box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] object-cover outline-[3px] pointer-events-none w-full"
                 />
@@ -1442,7 +1442,7 @@ export const JevawellArticleContent = () => {
             <div className="box-border caret-transparent flex h-full justify-center max-w-full outline-[3px] w-full">
               <picture className="box-border caret-transparent contents max-w-full outline-[3px]">
                 <img
-                  src="https://c.animaapp.com/mpt0zi0nqVnOh3/assets/image-1.svg"
+                  src="/images/jevawell/image-1.svg"
                   alt=""
                   className="box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] object-cover outline-[3px] pointer-events-none w-full"
                 />
@@ -1632,7 +1632,7 @@ export const JevawellArticleContent = () => {
             <div className="box-border caret-transparent flex h-full justify-center max-w-full outline-[3px] w-full">
               <picture className="box-border caret-transparent contents max-w-full outline-[3px]">
                 <img
-                  src="https://c.animaapp.com/mpt0zi0nqVnOh3/assets/image-2.svg"
+                  src="/images/jevawell/image-2.svg"
                   alt=""
                   className="box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] object-cover outline-[3px] pointer-events-none w-full"
                 />
@@ -1859,7 +1859,7 @@ export const JevawellArticleContent = () => {
             <div className="box-border caret-transparent flex h-full justify-center max-w-full outline-[3px] w-full">
               <picture className="box-border caret-transparent contents max-w-full outline-[3px]">
                 <img
-                  src="https://c.animaapp.com/mpt0zi0nqVnOh3/assets/image-3.svg"
+                  src="/images/jevawell/image-3.svg"
                   alt=""
                   className="box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] object-cover outline-[3px] pointer-events-none w-full"
                 />
@@ -2003,7 +2003,7 @@ export const JevawellArticleContent = () => {
             <div className="box-border caret-transparent flex h-full justify-center max-w-full outline-[3px] w-full">
               <picture className="box-border caret-transparent contents max-w-full outline-[3px]">
                 <img
-                  src="https://c.animaapp.com/mpt0zi0nqVnOh3/assets/image-4.svg"
+                  src="/images/jevawell/image-4.svg"
                   alt=""
                   className="box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] object-cover outline-[3px] pointer-events-none w-full"
                 />
@@ -2145,7 +2145,7 @@ export const JevawellArticleContent = () => {
             <div className="box-border caret-transparent flex h-full justify-center max-w-full outline-[3px] w-full">
               <picture className="box-border caret-transparent contents max-w-full outline-[3px]">
                 <img
-                  src="https://c.animaapp.com/mpt0zi0nqVnOh3/assets/image-5.svg"
+                  src="/images/jevawell/image-5.svg"
                   alt=""
                   className="box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] object-cover outline-[3px] pointer-events-none w-full"
                 />
@@ -2429,7 +2429,7 @@ export const JevawellArticleContent = () => {
             <div className="box-border caret-transparent flex h-full justify-center max-w-full outline-[3px] w-full">
               <picture className="box-border caret-transparent contents max-w-full outline-[3px]">
                 <img
-                  src="https://c.animaapp.com/mpt0zi0nqVnOh3/assets/image-4.svg"
+                  src="/images/jevawell/image-4.svg"
                   alt=""
                   className="box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] object-cover outline-[3px] pointer-events-none w-full"
                 />
@@ -2609,7 +2609,7 @@ export const JevawellArticleContent = () => {
             <div className="box-border caret-transparent flex h-full justify-center max-w-full outline-[3px] w-full">
               <picture className="box-border caret-transparent contents max-w-full outline-[3px]">
                 <img
-                  src="https://c.animaapp.com/mpt0zi0nqVnOh3/assets/image-1.svg"
+                  src="/images/jevawell/image-1.svg"
                   alt=""
                   className="box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] object-cover outline-[3px] pointer-events-none w-full"
                 />
@@ -2747,7 +2747,7 @@ export const JevawellArticleContent = () => {
             <div className="box-border caret-transparent flex h-full justify-center max-w-full outline-[3px] w-full">
               <picture className="box-border caret-transparent contents max-w-full outline-[3px]">
                 <img
-                  src="https://c.animaapp.com/mpt0zi0nqVnOh3/assets/image-5.svg"
+                  src="/images/jevawell/image-5.svg"
                   alt=""
                   className="box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] object-cover outline-[3px] pointer-events-none w-full"
                 />
@@ -2952,7 +2952,7 @@ export const JevawellArticleContent = () => {
             <div className="box-border caret-transparent flex h-full justify-center max-w-full outline-[3px] w-full">
               <picture className="box-border caret-transparent contents max-w-full outline-[3px]">
                 <img
-                  src="https://c.animaapp.com/mpt0zi0nqVnOh3/assets/image-6.svg"
+                  src="/images/jevawell/image-6.svg"
                   alt=""
                   className="box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] object-cover outline-[3px] pointer-events-none w-full"
                 />
@@ -3130,7 +3130,7 @@ export const JevawellArticleContent = () => {
             <div className="box-border caret-transparent flex h-full justify-center max-w-full outline-[3px] w-full">
               <picture className="box-border caret-transparent contents max-w-full outline-[3px]">
                 <img
-                  src="https://c.animaapp.com/mpt0zi0nqVnOh3/assets/image-1.svg"
+                  src="/images/jevawell/image-1.svg"
                   alt=""
                   className="box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] object-cover outline-[3px] pointer-events-none w-full"
                 />
@@ -3329,7 +3329,7 @@ export const JevawellArticleContent = () => {
                 <div className="text-sm font-light box-border caret-transparent flex flex-row-reverse leading-[18.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] md:text-base md:leading-[20.8px]">
                   <span className="text-sm font-semibold items-center box-border caret-transparent flex shrink-0 justify-center leading-[18.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] z-[1] ml-2 rounded-[40px] md:text-base md:leading-[20.8px]">
                     <img
-                      src="https://c.animaapp.com/mpt0zi0nqVnOh3/assets/icon-5.svg"
+                      src="/images/jevawell/icon-5.svg"
                       alt="Icon"
                       className="text-sm box-border caret-transparent h-3.5 leading-[18.2px] outline-[3px] md:text-base md:h-4 md:leading-[20.8px]"
                     />
@@ -3350,7 +3350,7 @@ export const JevawellArticleContent = () => {
             <div className="box-border caret-transparent flex h-full justify-center max-w-full outline-[3px] w-full">
               <picture className="box-border caret-transparent contents max-w-full outline-[3px]">
                 <img
-                  src="https://c.animaapp.com/mpt0zi0nqVnOh3/assets/image-4.svg"
+                  src="/images/jevawell/image-4.svg"
                   alt=""
                   className="box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] object-cover outline-[3px] pointer-events-none w-full"
                 />
@@ -3517,7 +3517,7 @@ export const JevawellArticleContent = () => {
                 <div className="box-border caret-transparent flex h-full justify-center max-w-full outline-[3px] w-full">
                   <picture className="box-border caret-transparent contents max-w-full outline-[3px]">
                     <img
-                      src="https://c.animaapp.com/mpt0zi0nqVnOh3/assets/hf_20260329_054249_fbab2153-527d-4edf-aefc-6b9210afb9ce_2.png"
+                      src="/images/jevawell/hf_20260329_054249_fbab2153-527d-4edf-aefc-6b9210afb9ce_2.png"
                       alt=""
                       className="box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] object-cover outline-[3px] pointer-events-none w-full"
                     />
@@ -3549,7 +3549,7 @@ export const JevawellArticleContent = () => {
                 <div className="box-border caret-transparent flex h-full justify-center max-w-full outline-[3px] w-full">
                   <picture className="box-border caret-transparent contents max-w-full outline-[3px]">
                     <img
-                      src="https://c.animaapp.com/mpt0zi0nqVnOh3/assets/image_1.webp"
+                      src="/images/jevawell/image_1.webp"
                       alt=""
                       className="box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] object-cover outline-[3px] pointer-events-none w-full"
                     />
@@ -3596,7 +3596,7 @@ export const JevawellArticleContent = () => {
                 <div className="box-border caret-transparent flex h-full justify-center max-w-full outline-[3px] w-full">
                   <picture className="box-border caret-transparent contents max-w-full outline-[3px]">
                     <img
-                      src="https://c.animaapp.com/mpt0zi0nqVnOh3/assets/hf_20260401_112822_6413c67a-8490-4996-84eb-e53a9c61ae9d_1.png"
+                      src="/images/jevawell/hf_20260401_112822_6413c67a-8490-4996-84eb-e53a9c61ae9d_1.png"
                       alt=""
                       className="box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] object-cover outline-[3px] pointer-events-none w-full"
                     />
@@ -3657,7 +3657,7 @@ export const JevawellArticleContent = () => {
                     <div className="text-sm font-light box-border caret-transparent flex flex-row-reverse leading-[18.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] md:text-base md:leading-[20.8px]">
                       <span className="text-sm font-semibold items-center box-border caret-transparent flex shrink-0 justify-center leading-[18.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] z-[1] ml-2 rounded-[40px] md:text-base md:leading-[20.8px]">
                         <img
-                          src="https://c.animaapp.com/mpt0zi0nqVnOh3/assets/icon-5.svg"
+                          src="/images/jevawell/icon-5.svg"
                           alt="Icon"
                           className="text-sm box-border caret-transparent h-3.5 leading-[18.2px] outline-[3px] md:text-base md:h-4 md:leading-[20.8px]"
                         />
@@ -3682,7 +3682,7 @@ export const JevawellArticleContent = () => {
                 <div className="box-border caret-transparent flex h-full justify-center max-w-full outline-[3px] w-full">
                   <picture className="box-border caret-transparent contents max-w-full outline-[3px]">
                     <img
-                      src="https://c.animaapp.com/mpt0zi0nqVnOh3/assets/hf_20260401_113416_c876d69e-f739-469d-ad29-a0b04c62d940.png"
+                      src="/images/jevawell/hf_20260401_113416_c876d69e-f739-469d-ad29-a0b04c62d940.png"
                       alt=""
                       className="box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] object-cover outline-[3px] pointer-events-none w-full"
                     />
@@ -3732,7 +3732,7 @@ export const JevawellArticleContent = () => {
                     <div className="text-sm font-light box-border caret-transparent flex flex-row-reverse leading-[18.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] md:text-base md:leading-[20.8px]">
                       <span className="text-sm font-semibold items-center box-border caret-transparent flex shrink-0 justify-center leading-[18.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] z-[1] ml-2 rounded-[40px] md:text-base md:leading-[20.8px]">
                         <img
-                          src="https://c.animaapp.com/mpt0zi0nqVnOh3/assets/icon-5.svg"
+                          src="/images/jevawell/icon-5.svg"
                           alt="Icon"
                           className="text-sm box-border caret-transparent h-3.5 leading-[18.2px] outline-[3px] md:text-base md:h-4 md:leading-[20.8px]"
                         />
@@ -3757,7 +3757,7 @@ export const JevawellArticleContent = () => {
                 <div className="box-border caret-transparent flex h-full justify-center max-w-full outline-[3px] w-full">
                   <picture className="box-border caret-transparent contents max-w-full outline-[3px]">
                     <img
-                      src="https://c.animaapp.com/mpt0zi0nqVnOh3/assets/hf_20260401_113401_b1245e61-2d74-4b58-b6ec-851ea058a902.png"
+                      src="/images/jevawell/hf_20260401_113401_b1245e61-2d74-4b58-b6ec-851ea058a902.png"
                       alt=""
                       className="box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] object-cover outline-[3px] pointer-events-none w-full"
                     />
@@ -3809,7 +3809,7 @@ export const JevawellArticleContent = () => {
                     <div className="text-sm font-light box-border caret-transparent flex flex-row-reverse leading-[18.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] md:text-base md:leading-[20.8px]">
                       <span className="text-sm font-semibold items-center box-border caret-transparent flex shrink-0 justify-center leading-[18.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] z-[1] ml-2 rounded-[40px] md:text-base md:leading-[20.8px]">
                         <img
-                          src="https://c.animaapp.com/mpt0zi0nqVnOh3/assets/icon-5.svg"
+                          src="/images/jevawell/icon-5.svg"
                           alt="Icon"
                           className="text-sm box-border caret-transparent h-3.5 leading-[18.2px] outline-[3px] md:text-base md:h-4 md:leading-[20.8px]"
                         />

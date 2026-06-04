@@ -22,14 +22,14 @@ export const Navbar = () => {
             containerClassName="items-center box-border caret-transparent flex h-full justify-evenly min-h-[auto] min-w-[auto] outline-[3px]"
             showNotificationPopover={true}
             notificationPopover={<NotificationPopover />}
-            profileIconSrc="https://c.animaapp.com/mov1hivmUrwXF6/assets/icon-4.svg"
+            profileIconSrc="/images/abc-news/icon-4.svg"
           />
           <NavbarActions
             containerClassName="[align-items:normal] box-content caret-black block min-h-0 min-w-0 outline-0 md:items-center md:aspect-auto md:box-border md:caret-transparent md:flex md:min-h-8 md:min-w-[175px] md:outline-[3px] md:overscroll-x-auto md:overscroll-y-auto md:snap-align-none md:snap-normal md:snap-none md:decoration-auto md:underline-offset-auto md:[mask-position:0%] md:bg-left-top md:m-auto md:scroll-m-0 md:scroll-p-[auto]"
             streamHref="https://www.disneyplus.com/browse/entity-7c160b55-f261-476a-b3f7-f3a6b083cba2?cid=DTCI-Site-ABCNews-Site-Awareness-DisneyPlus-US-DisneyPlus-NA-EN-NavLink-NA-NA"
             streamLinkClassName="[align-items:normal] bg-scroll bg-blend-normal bg-clip-border bg-transparent bg-none bg-origin-padding bg-repeat bg-auto box-content caret-black inline justify-normal min-h-0 min-w-0 ml-0 p-0 rounded-none md:items-end md:aspect-auto md:bg-teal-900 md:bg-[radial-gradient(150%_350%_at_-10%_-150%,rgba(51,221,255,0.7)_0px,rgba(51,221,255,0)_100%),none] md:bg-size-[auto,auto] md:box-border md:caret-transparent md:flex md:justify-center md:min-h-[auto] md:min-w-[auto] md:overscroll-x-auto md:overscroll-y-auto md:snap-align-none md:snap-normal md:snap-none md:decoration-auto md:underline-offset-auto md:[mask-position:0%] md:bg-[position:0%,0%_0%,0%] md:ml-3 md:pt-1.5 md:pb-[9px] md:px-3 md:scroll-m-0 md:scroll-p-[auto] md:rounded-md hover:text-blue-900 hover:border-blue-900"
             streamTextClassName="text-black font-bold box-content caret-black tracking-[normal] leading-[normal] min-h-0 min-w-0 outline-0 pr-0 pb-0 font-times md:text-white md:aspect-auto md:box-border md:caret-transparent md:tracking-[-0.32px] md:leading-[18px] md:min-h-[auto] md:min-w-[auto] md:outline-[3px] md:overscroll-x-auto md:overscroll-y-auto md:snap-align-none md:snap-normal md:snap-none md:decoration-auto md:underline-offset-auto md:[mask-position:0%] md:bg-left-top md:pr-1 md:pb-0.5 md:scroll-m-0 md:scroll-p-[auto] md:font-post_grotesk"
-            streamLogoSrc="https://c.animaapp.com/mov1hivmUrwXF6/assets/DisneyPlus.svg"
+            streamLogoSrc="/images/abc-news/DisneyPlus.svg"
             streamLogoAlt="stream logo"
             streamLogoClassName="box-content caret-black min-h-0 min-w-0 outline-0 align-middle w-auto md:aspect-auto md:box-border md:caret-transparent md:min-h-[auto] md:min-w-[auto] md:outline-[3px] md:overscroll-x-auto md:overscroll-y-auto md:snap-align-none md:snap-normal md:snap-none md:decoration-auto md:underline-offset-auto md:align-baseline md:w-[45px] md:[mask-position:0%] md:bg-left-top md:scroll-m-0 md:scroll-p-[auto]"
           />

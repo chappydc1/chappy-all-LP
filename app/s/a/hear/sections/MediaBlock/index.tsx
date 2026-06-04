@@ -10,7 +10,7 @@ export const MediaBlock = () => {
           <picture className="caret-transparent block overflow-hidden">
             <img
               alt="horizon hearing aids"
-              src="https://c.animaapp.com/mnsctxd6cckxuq/assets/ha-25-desk.jpg"
+              src="/images/hear/ha-25-desk.jpg"
               className="caret-transparent align-baseline w-full transition-transform duration-700 hover:scale-[1.01]"
             />
           </picture>

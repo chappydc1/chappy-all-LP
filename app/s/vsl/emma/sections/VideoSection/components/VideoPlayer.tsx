@@ -3,11 +3,11 @@ export const VideoPlayer = () => {
     <div className="box-border caret-transparent grow min-h-[auto] min-w-[auto]">
       <div className="text-emerald-800 text-xl items-center box-border caret-transparent gap-x-9 hidden flex-col justify-center leading-[30px] gap-y-9 text-center w-full font-inter">
         <img
-          src="https://c.animaapp.com/mnsem251Wpf2gA/assets/V4-Desktop-25.webp"
+          src="/images/emma/V4-Desktop-25.webp"
           className="box-border caret-transparent hidden min-h-[436px] w-full md:block"
         />
         <img
-          src="https://c.animaapp.com/mnsem251Wpf2gA/assets/V4-Mobile-25.webp"
+          src="/images/emma/V4-Mobile-25.webp"
           className="box-border caret-transparent block w-full md:hidden"
         />
       </div>
@@ -24,7 +24,7 @@ export const VideoPlayer = () => {
                     <div className="relative caret-transparent h-full w-full overflow-hidden">
                       <div className="caret-transparent h-full w-full">
                         <video
-                          poster="https://c.animaapp.com/mnsem251Wpf2gA/assets/blank.gif"
+                          poster="/images/emma/blank.gif"
                           aria-label="Emma VSL"
                           src="blob://https://gutrenewalformula.com/7376094f-f21b-4643-9765-b1ce33c9cd14"
                           playsInline
@@ -46,7 +46,7 @@ export const VideoPlayer = () => {
                             <div className="absolute box-border caret-transparent h-full w-full left-0 top-0">
                               <div className="absolute caret-transparent h-full w-full left-0 top-0">
                                 <video
-                                  poster="https://c.animaapp.com/mnsem251Wpf2gA/assets/blank.gif"
+                                  poster="/images/emma/blank.gif"
                                   aria-label="Video"
                                   src="blob://https://gutrenewalformula.com/a38d41aa-1cd3-427d-ad18-7bb1a3c13709"
                                   playsInline
@@ -84,7 +84,7 @@ export const VideoPlayer = () => {
                                         </span>
                                       </div>
                                       <img
-                                        src="https://c.animaapp.com/mnsem251Wpf2gA/assets/icon-1.svg"
+                                        src="/images/emma/icon-1.svg"
                                         alt="Icon"
                                         className="box-border caret-transparent h-[49.875px] w-[49.875px] md:h-[52.5px] md:w-[52.5px]"
                                       />
@@ -117,7 +117,7 @@ export const VideoPlayer = () => {
                                         <div className="relative box-border caret-transparent h-full text-nowrap">
                                           <div className="box-border caret-transparent h-full text-nowrap w-full ml-[1.425px] md:ml-[1.5px]">
                                             <img
-                                              src="https://c.animaapp.com/mnsem251Wpf2gA/assets/icon-4.svg"
+                                              src="/images/emma/icon-4.svg"
                                               alt="Icon"
                                               className="box-border caret-transparent inline h-full text-nowrap align-top w-full left-0 top-0"
                                             />
@@ -143,7 +143,7 @@ export const VideoPlayer = () => {
                                         >
                                           <div className="relative box-border caret-transparent h-full text-nowrap">
                                             <img
-                                              src="https://c.animaapp.com/mnsem251Wpf2gA/assets/icon-5.svg"
+                                              src="/images/emma/icon-5.svg"
                                               alt="Icon"
                                               className="box-border caret-transparent inline h-full text-nowrap w-full left-0 top-0"
                                             />
@@ -160,7 +160,7 @@ export const VideoPlayer = () => {
                                         >
                                           <div className="relative box-border caret-transparent h-full text-nowrap">
                                             <img
-                                              src="https://c.animaapp.com/mnsem251Wpf2gA/assets/icon-6.svg"
+                                              src="/images/emma/icon-6.svg"
                                               alt="Icon"
                                               className="box-border caret-transparent inline h-full text-nowrap w-full left-0 top-0"
                                             />
@@ -213,7 +213,7 @@ export const VideoPlayer = () => {
         <div className="text-xl box-border caret-transparent leading-[30px]">
           <p className="font-semibold box-border caret-transparent max-w-[776px] text-center mt-0 mb-4 mx-0 font-myriad_pro md:m-auto">
             <img
-              src="https://c.animaapp.com/mnsem251Wpf2gA/assets/charm_sound.webp"
+              src="/images/emma/charm_sound.webp"
               className="box-border caret-transparent inline h-4 w-4 mr-[5px] mt-1.5 md:h-6 md:w-6 md:mt-1"
             />
             <span className="text-red-700 text-base font-bold box-border caret-transparent leading-6 align-middle">

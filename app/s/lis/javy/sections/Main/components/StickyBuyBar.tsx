@@ -39,7 +39,7 @@ export const StickyBuyBar = () => {
               </div>
               <div className="absolute items-center box-border flex-col h-6 justify-center w-6 right-6">
                 <img
-                  src="https://c.animaapp.com/mnsfe353KCVMX6/assets/icon-1.svg"
+                  src="/images/javy/icon-1.svg"
                   alt="Arrow"
                   className="box-border inline h-full align-baseline w-full"
                 />
@@ -48,7 +48,7 @@ export const StickyBuyBar = () => {
             <div className="items-center box-border gap-x-1.5 flex justify-center min-h-[auto] min-w-[auto] gap-y-1.5 w-full mt-2">
               <div className="box-border h-[18px] min-h-[auto] min-w-[auto] w-[18px]">
                 <img
-                  src="https://c.animaapp.com/mnsfe353KCVMX6/assets/icon-4.svg"
+                  src="/images/javy/icon-4.svg"
                   alt=""
                   className="box-border inline h-full align-baseline w-full"
                 />

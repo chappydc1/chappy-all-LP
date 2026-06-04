@@ -14,7 +14,7 @@ export const RecommendedProduct = () => {
           <div className="box-border caret-transparent justify-self-center min-h-0 min-w-0 outline-[3px] md:min-h-[auto] md:min-w-[auto]">
             <img
               alt=""
-              src="https://c.animaapp.com/mpkdc2w7URxoYV/assets/67ee1ed253edfae360954d76_1711197694-pngwing.png"
+              src="/images/hike/67ee1ed253edfae360954d76_1711197694-pngwing.png"
               className="box-border caret-transparent inline-block max-w-full outline-[3px] text-center w-[100px]"
             />
           </div>
@@ -27,7 +27,7 @@ export const RecommendedProduct = () => {
             <img
               sizes="80px"
               alt=""
-              src="https://c.animaapp.com/mpkdc2w7URxoYV/assets/67cc497332f78191cff65032_HIKE_LOGO.webp"
+              src="/images/hike/67cc497332f78191cff65032_HIKE_LOGO.webp"
               className="box-border caret-transparent inline-block max-w-full outline-[3px] w-20"
             />
           </div>
@@ -40,7 +40,7 @@ export const RecommendedProduct = () => {
           </div>
           <div className="box-border caret-transparent justify-self-center min-h-0 min-w-0 outline-[3px] md:min-h-[auto] md:min-w-[auto]">
             <img
-              src="https://c.animaapp.com/mpkdc2w7URxoYV/assets/68c43ef1da31f27ef7e505bb__DSC0006-6.jpg"
+              src="/images/hike/68c43ef1da31f27ef7e505bb__DSC0006-6.jpg"
               sizes="(max-width: 479px) 100vw, 170px"
               alt=""
               className="box-border caret-transparent inline-block max-w-full outline-[3px] w-[170px]"
@@ -50,7 +50,7 @@ export const RecommendedProduct = () => {
             <div className="box-border caret-transparent gap-x-3 grid auto-cols-[1fr] grid-cols-[0.25fr_2.5fr] grid-rows-[auto_auto_auto_auto] outline-[3px] gap-y-[9px]">
               <div className="box-border caret-transparent min-h-0 min-w-0 outline-[3px] md:min-h-[auto] md:min-w-[auto]">
                 <img
-                  src="https://c.animaapp.com/mpkdc2w7URxoYV/assets/67cc54d88dcac0c62085247e_Check_HK.webp"
+                  src="/images/hike/67cc54d88dcac0c62085247e_Check_HK.webp"
                   alt=""
                   className="box-border caret-transparent inline-block max-w-full outline-[3px]"
                 />
@@ -62,7 +62,7 @@ export const RecommendedProduct = () => {
               </div>
               <div className="box-border caret-transparent min-h-0 min-w-0 outline-[3px] md:min-h-[auto] md:min-w-[auto]">
                 <img
-                  src="https://c.animaapp.com/mpkdc2w7URxoYV/assets/67cc54d88dcac0c62085247e_Check_HK.webp"
+                  src="/images/hike/67cc54d88dcac0c62085247e_Check_HK.webp"
                   alt=""
                   className="box-border caret-transparent inline-block max-w-full outline-[3px]"
                 />
@@ -74,7 +74,7 @@ export const RecommendedProduct = () => {
               </div>
               <div className="box-border caret-transparent min-h-0 min-w-0 outline-[3px] md:min-h-[auto] md:min-w-[auto]">
                 <img
-                  src="https://c.animaapp.com/mpkdc2w7URxoYV/assets/67cc54d88dcac0c62085247e_Check_HK.webp"
+                  src="/images/hike/67cc54d88dcac0c62085247e_Check_HK.webp"
                   alt=""
                   className="box-border caret-transparent inline-block max-w-full outline-[3px]"
                 />
@@ -86,7 +86,7 @@ export const RecommendedProduct = () => {
               </div>
               <div className="box-border caret-transparent min-h-0 min-w-0 outline-[3px] md:min-h-[auto] md:min-w-[auto]">
                 <img
-                  src="https://c.animaapp.com/mpkdc2w7URxoYV/assets/67cc54d88dcac0c62085247e_Check_HK.webp"
+                  src="/images/hike/67cc54d88dcac0c62085247e_Check_HK.webp"
                   alt=""
                   className="box-border caret-transparent inline-block max-w-full outline-[3px]"
                 />

@@ -10,103 +10,103 @@ export const CommentsSection = () => {
         <div className="box-border caret-transparent gap-x-4 flex flex-col gap-y-4 border-slate-700/10 my-[15px] pt-0 pb-[15px] border-b border-t border-solid md:gap-x-5 md:gap-y-5 md:mt-[30px] md:py-[30px]">
           <CommentItem
             name="Emily"
-            imageUrl="https://c.animaapp.com/mnsem251Wpf2gA/assets/commemily.webp"
+            imageUrl="/images/emma/commemily.webp"
             comment="Wow, just wow. This video completely changed my understanding of digestion. If you've been struggling with bloating or constipation, you *need* to watch this."
             containerClassName="mt-4"
           />
           <CommentItem
             name="Josh"
-            imageUrl="https://c.animaapp.com/mnsem251Wpf2gA/assets/commjosh.webp"
+            imageUrl="/images/emma/commjosh.webp"
             comment="All these years, I thought fiber was the solution. Dr. Sam blew my mind with her explanation of what's really going on in the gut. Total eye-opener."
           />
           <CommentItem
             name="Ava"
-            imageUrl="https://c.animaapp.com/mnsem251Wpf2gA/assets/commava.webp"
+            imageUrl="/images/emma/commava.webp"
             comment="I've been suffering from digestive issues for ages, and this video finally gave me the answers I've been searching for. This info could change lives. The little section about parasites was crazy."
           />
           <CommentItem
             name="Matthew"
-            imageUrl="https://c.animaapp.com/mnsem251Wpf2gA/assets/commmatthew.webp"
+            imageUrl="/images/emma/commmatthew.webp"
             comment="Just finished watching—never realized how much my gut health was impacting my energy levels. I'm making changes right away. 10/10 video."
           />
           <CommentItem
             name="Sophia"
-            imageUrl="https://c.animaapp.com/mnsem251Wpf2gA/assets/commsophia.webp"
+            imageUrl="/images/emma/commsophia.webp"
             comment="Dr. Sam's 7-second ritual is a game-changer. My bloating is already better, and I've only been trying it for a few days."
           />
           <CommentItem
             name="Leo"
-            imageUrl="https://c.animaapp.com/mnsem251Wpf2gA/assets/commleo.webp"
+            imageUrl="/images/emma/commleo.webp"
             comment="This video explains everything that no other doctor told me. I thought I knew about gut health, but this just took it to another level. The thing she said at the end about toxins in your blood was mind blowing. Highly recommend."
           />
           <CommentItem
             name="Grace"
-            imageUrl="https://c.animaapp.com/mnsem251Wpf2gA/assets/commgrace.webp"
+            imageUrl="/images/emma/commgrace.webp"
             comment="Honestly, this video is a must-watch for anyone struggling with their digestion. Dr. Sam breaks it down so simply. I can't believe I was doing everything wrong."
           />
           <CommentItem
             name="James"
-            imageUrl="https://c.animaapp.com/mnsem251Wpf2gA/assets/commjames.webp"
+            imageUrl="/images/emma/commjames.webp"
             comment="I was skeptical at first, but this blew me away. So much valuable info packed into one video. I stopped eating the 3 foods she mentioned and my stomach's been thanking me ever since."
           />
           <CommentItem
             name="Samantha"
-            imageUrl="https://c.animaapp.com/mnsem251Wpf2gA/assets/commsamantha.webp"
+            imageUrl="/images/emma/commsamantha.webp"
             comment="This totally changed my mindset about gut health. I had no idea that constipation could be linked to so many other problems. Thanks, Dr. Sam."
           />
           <CommentItem
             name="Oliver"
-            imageUrl="https://c.animaapp.com/mnsem251Wpf2gA/assets/commoliver.webp"
+            imageUrl="/images/emma/commoliver.webp"
             comment="If you're tired of feeling sluggish, bloated, and stuck, watch this video NOW. It's honestly the best thing I've seen on digestive health."
           />
           <CommentItem
             name="Megan"
-            imageUrl="https://c.animaapp.com/mnsem251Wpf2gA/assets/commmegan.webp"
+            imageUrl="/images/emma/commmegan.webp"
             comment="I had no idea parasites could be living in my gut, wreaking havoc on my health. This video opened my eyes in ways I never expected. You HAVE to see it!"
           />
           <CommentItem
             name="Noah"
-            imageUrl="https://c.animaapp.com/mnsem251Wpf2gA/assets/commnoah.webp"
+            imageUrl="/images/emma/commnoah.webp"
             comment="Just finished the video… I’m speechless. The ending left me totally shocked. I never thought my gut was connected to all these issues."
           />
           <CommentItem
             name="Isabella"
-            imageUrl="https://c.animaapp.com/mnsem251Wpf2gA/assets/commisabella.webp"
+            imageUrl="/images/emma/commisabella.webp"
             comment="The part about parasites in the gut seriously blew my mind. I’ve never heard anyone explain it like this before. Everyone needs to watch this."
           />
           <CommentItem
             name="Ryan"
-            imageUrl="https://c.animaapp.com/mnsem251Wpf2gA/assets/commryan.webp"
+            imageUrl="/images/emma/commryan.webp"
             comment="The way Dr. Sam connects gut health to almost every other part of the body is insane. The last few minutes of the video are a real eye-opener. Don’t miss it!"
           />
           <CommentItem
             name="Jessica"
-            imageUrl="https://c.animaapp.com/mnsem251Wpf2gA/assets/commjessica.webp"
+            imageUrl="/images/emma/commjessica.webp"
             comment="If you think your digestive issues are just ‘normal,’ watch this video. Dr. Sam breaks down why it could be something way more serious. I’m rethinking everything!"
           />
           <CommentItem
             name="Alex"
-            imageUrl="https://c.animaapp.com/mnsem251Wpf2gA/assets/commalex.webp"
+            imageUrl="/images/emma/commalex.webp"
             comment="What she said about parasites freaked me out at first, but the solutions are so simple and natural. This video is a must-watch if you want to take control of your health."
           />
           <CommentItem
             name="Ella"
-            imageUrl="https://c.animaapp.com/mnsem251Wpf2gA/assets/commella.webp"
+            imageUrl="/images/emma/commella.webp"
             comment="I thought I knew everything about gut health, but the end of this video? Wow. It completely turned everything I thought I knew upside down."
           />
           <CommentItem
             name="Tyler"
-            imageUrl="https://c.animaapp.com/mnsem251Wpf2gA/assets/commtyler.webp"
+            imageUrl="/images/emma/commtyler.webp"
             comment="I’ve watched tons of health videos, but the last 5 minutes of this one were next-level. You won’t believe what Dr. Sam reveals at the end!"
           />
           <CommentItem
             name="Chloe"
-            imageUrl="https://c.animaapp.com/mnsem251Wpf2gA/assets/commchloe.webp"
+            imageUrl="/images/emma/commchloe.webp"
             comment="I’ve always struggled with bloating and fatigue. Turns out, the root cause could be parasites? I never would have known if I didn’t watch this video!"
           />
           <CommentItem
             name="Zack"
-            imageUrl="https://c.animaapp.com/mnsem251Wpf2gA/assets/commzack.webp"
+            imageUrl="/images/emma/commzack.webp"
             comment="Just finished watching and the ending completely floored me. There’s so much more to gut health than I realized. Dr. Sam really knows her stuff."
           />
         </div>
@@ -119,11 +119,11 @@ export const CommentsSection = () => {
           <div className="box-border caret-transparent flex flex-wrap -mx-3 pt-6">
             <div className="box-border caret-transparent shrink-0 max-w-full min-h-[auto] min-w-[auto] w-full px-3">
               <img
-                src="https://c.animaapp.com/mnsem251Wpf2gA/assets/asseenond.webp"
+                src="/images/emma/asseenond.webp"
                 className="box-border caret-transparent hidden max-w-[772px] w-full m-auto md:block"
               />
               <img
-                src="https://c.animaapp.com/mnsem251Wpf2gA/assets/asseenonm.webp"
+                src="/images/emma/asseenonm.webp"
                 className="box-border caret-transparent block max-w-[343px] w-full m-auto md:hidden"
               />
             </div>

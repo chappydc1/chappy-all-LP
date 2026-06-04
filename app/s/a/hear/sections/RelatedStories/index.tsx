@@ -3,19 +3,19 @@ import { useScrollReveal } from "../../hooks/useScrollReveal";
 
 const stories = [
   {
-    imageSrc: "https://c.animaapp.com/mnsctxd6cckxuq/assets/hearing-aids-and-flag-25.jpg",
+    imageSrc: "/images/hear/hearing-aids-and-flag-25.jpg",
     category: "TECHNOLOGY",
     description: "Why this secret weapon against hearing loss is changing America.",
     linkHref: "#",
   },
   {
-    imageSrc: "https://c.animaapp.com/mnsctxd6cckxuq/assets/harvard-25.jpg",
+    imageSrc: "/images/hear/harvard-25.jpg",
     category: "SCIENCE",
     description: "The shocking Harvard study that links hearing loss to memory.",
     linkHref: "#",
   },
   {
-    imageSrc: "https://c.animaapp.com/mnsctxd6cckxuq/assets/aids-in-hands-25.jpg",
+    imageSrc: "/images/hear/aids-in-hands-25.jpg",
     category: "TECHNOLOGY",
     description: "This is the biggest upgrade the industry has ever seen. Are you ready?",
     linkHref: "#",

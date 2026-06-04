@@ -13,35 +13,35 @@ export const Reviews = () => {
         <div className="box-border caret-transparent flex justify-center min-h-0 min-w-0 text-center w-full my-[5px] md:min-h-[auto] md:min-w-[auto] md:mt-2.5 md:mb-0">
           <img
             title=""
-            src="https://c.animaapp.com/mnsbh2exJLSZhk/assets/1729142692703_star__1_.webp"
+            src="/images/nebroo/1729142692703_star__1_.webp"
             alt=""
             
             className="text-black box-border caret-transparent float-left max-w-full min-h-[auto] min-w-[auto] w-5"
           />
           <img
             title=""
-            src="https://c.animaapp.com/mnsbh2exJLSZhk/assets/1729142692703_star__1_.webp"
+            src="/images/nebroo/1729142692703_star__1_.webp"
             alt=""
             
             className="text-black box-border caret-transparent float-left max-w-full min-h-[auto] min-w-[auto] w-5"
           />
           <img
             title=""
-            src="https://c.animaapp.com/mnsbh2exJLSZhk/assets/1729142692703_star__1_.webp"
+            src="/images/nebroo/1729142692703_star__1_.webp"
             alt=""
             
             className="text-black box-border caret-transparent float-left max-w-full min-h-[auto] min-w-[auto] w-5"
           />
           <img
             title=""
-            src="https://c.animaapp.com/mnsbh2exJLSZhk/assets/1729142692703_star__1_.webp"
+            src="/images/nebroo/1729142692703_star__1_.webp"
             alt=""
             
             className="text-black box-border caret-transparent float-left max-w-full min-h-[auto] min-w-[auto] w-5"
           />
           <img
             title=""
-            src="https://c.animaapp.com/mnsbh2exJLSZhk/assets/1729142692703_star__1_.webp"
+            src="/images/nebroo/1729142692703_star__1_.webp"
             alt=""
             
             className="text-black box-border caret-transparent float-left max-w-full min-h-[auto] min-w-[auto] w-5"
@@ -56,7 +56,7 @@ export const Reviews = () => {
           <div className={`reveal delay-100 ${visible ? "visible" : ""} w-full md:w-auto md:flex-1`}>
           <ReviewCard
             containerVariantClass="mb-5 font-montserrat md:mb-0"
-            avatarSrc="https://c.animaapp.com/mnsbh2exJLSZhk/assets/1729153936072_1727787054724_Dorothy_J._Reviews.webp"
+            avatarSrc="/images/nebroo/1729153936072_1727787054724_Dorothy_J._Reviews.webp"
             reviewerName="Sally M."
             reviewText={
               <>
@@ -69,31 +69,31 @@ export const Reviews = () => {
                 }
               </>
             }
-            starSrc="https://c.animaapp.com/mnsbh2exJLSZhk/assets/1729142692703_star__1_.webp"
+            starSrc="/images/nebroo/1729142692703_star__1_.webp"
           />
           </div>
           <div className={`reveal delay-200 ${visible ? "visible" : ""} w-full md:w-auto md:flex-1`}>
           <ReviewCard
             containerVariantClass="my-5 md:my-0"
-            avatarSrc="https://c.animaapp.com/mnsbh2exJLSZhk/assets/1729153940047_1727912760317_Wilford_C.webp"
+            avatarSrc="/images/nebroo/1729153940047_1727912760317_Wilford_C.webp"
             reviewerName="Willford C."
             nameExtraClass="font-montserrat"
             reviewText='"I’m really enjoying the hearing aids. They were awesome thank you very much. I recommended anybody that asked me about them. Thank you again"'
             reviewExtraClass="font-montserrat"
-            starSrc="https://c.animaapp.com/mnsbh2exJLSZhk/assets/1729142692703_star__1_.webp"
+            starSrc="/images/nebroo/1729142692703_star__1_.webp"
           />
           </div>
           <div className={`reveal delay-300 ${visible ? "visible" : ""} w-full md:w-auto md:flex-1`}>
           <ReviewCard
             containerVariantClass="mt-5 font-helvetica md:mt-0"
-            avatarSrc="https://c.animaapp.com/mnsbh2exJLSZhk/assets/1729153945802_1727912762728_James_M._Reviews_copy.webp"
+            avatarSrc="/images/nebroo/1729153945802_1727912762728_James_M._Reviews_copy.webp"
             reviewerName="James P."
             nameExtraClass="font-montserrat"
             reviewText={
               "\"Ok, mine got here today! Opened them and inserted in ear. I was astounded! I haven't heard like this in who knows how long. I could not only hear the TV I was watching as it sounded like a megaphone broadcasting but also the TV in the kitchen my wife was watching. Been adjusting the aids trying to get just right..Definitely lowering the volume on aids and TV. TV volume number down from 22 to 14 at low volume on aids. My wife has joined me in my den since the volume is not deafening. This is not my first rodeo but definitely the best horse I've ridden. Thanks, this one actually works\""
             }
             reviewExtraClass="font-montserrat"
-            starSrc="https://c.animaapp.com/mnsbh2exJLSZhk/assets/1729142692703_star__1_.webp"
+            starSrc="/images/nebroo/1729142692703_star__1_.webp"
           />
           </div>
         </div>

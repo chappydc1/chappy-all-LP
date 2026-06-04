@@ -22,7 +22,7 @@ export const OfferDetails = () => {
           </div>
           <img
             title=""
-            src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722845257974_excellent_rating.svg"
+            src="/images/rejuvacare/1722845257974_excellent_rating.svg"
             alt=""
             className="text-black box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-[84px] ml-3 md:w-[150px]"
           />
@@ -33,7 +33,7 @@ export const OfferDetails = () => {
           </div>
           <img
             title=""
-            src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722845332292_trustpilot.svg"
+            src="/images/rejuvacare/1722845332292_trustpilot.svg"
             alt=""
             className="text-black items-center box-border caret-transparent h-5 justify-start max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-[70px] ml-[5px] md:w-20"
           />
@@ -71,7 +71,7 @@ export const OfferDetails = () => {
           <div className="items-start box-border caret-transparent flex justify-start outline-[3px] text-left w-full mt-2.5 md:items-center">
             <img
               title=""
-              src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722846383829_icon_check.webp"
+              src="/images/rejuvacare/1722846383829_icon_check.webp"
               alt=""
               className="text-black box-border caret-transparent h-[25px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left w-[25px] ml-px mr-2.5"
             />
@@ -104,7 +104,7 @@ export const OfferDetails = () => {
       <div className="box-border caret-transparent outline-[3px] w-full mt-5">
         <img
           title=""
-          src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722821080411_cc_payment_options.webp"
+          src="/images/rejuvacare/1722821080411_cc_payment_options.webp"
           alt=""
           className="text-black box-border caret-transparent inline max-w-full outline-[3px] w-full"
         />
@@ -112,7 +112,7 @@ export const OfferDetails = () => {
       <div className="items-start box-border caret-transparent flex justify-start outline-[3px] w-full px-2.5 py-3 md:items-center md:justify-center">
         <img
           title=""
-          src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722847956492_lock.svg"
+          src="/images/rejuvacare/1722847956492_lock.svg"
           alt=""
           className="text-black box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-[15px] mr-2.5 mt-0.5 md:mt-0"
         />
@@ -130,7 +130,7 @@ export const OfferDetails = () => {
             <div className="items-center box-border caret-transparent flex flex-col justify-center min-h-[auto] min-w-[auto] outline-[3px] w-full px-2.5 py-3">
               <img
                 title=""
-                src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722848377355_line_icon_free_shipping.webp"
+                src="/images/rejuvacare/1722848377355_line_icon_free_shipping.webp"
                 alt=""
                 className="text-black box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-10"
               />
@@ -144,7 +144,7 @@ export const OfferDetails = () => {
             <div className="items-center box-border caret-transparent flex flex-col justify-center min-h-[auto] min-w-[auto] outline-[3px] w-full px-2.5 py-3">
               <img
                 title=""
-                src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722848371698_line_icon_90_day_guarantee.webp"
+                src="/images/rejuvacare/1722848371698_line_icon_90_day_guarantee.webp"
                 alt=""
                 className="text-black box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-10"
               />
@@ -157,7 +157,7 @@ export const OfferDetails = () => {
             <div className="items-center box-border caret-transparent flex flex-col justify-center min-h-[auto] min-w-[auto] outline-[3px] w-full px-2.5 py-3">
               <img
                 title=""
-                src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722848366371_line_icon_customer_service.webp"
+                src="/images/rejuvacare/1722848366371_line_icon_customer_service.webp"
                 alt=""
                 className="text-black box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-10"
               />
@@ -168,7 +168,7 @@ export const OfferDetails = () => {
             <div className="items-center box-border caret-transparent flex flex-col justify-center min-h-[auto] min-w-[auto] outline-[3px] w-full px-2.5 py-3">
               <img
                 title=""
-                src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722848354019_line_icon_100k_happy_customers.webp"
+                src="/images/rejuvacare/1722848354019_line_icon_100k_happy_customers.webp"
                 alt=""
                 className="text-black box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-10"
               />
