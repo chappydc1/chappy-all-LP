@@ -19,7 +19,7 @@ export const GuaranteeCard = () => {
                 className="items-center box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full"
               >
                 <img
-                  src="/s/sal/amala/23.webp"
+                  src="/images/amala/23.webp"
                   alt=""
                   sizes="86px"
                   title=""

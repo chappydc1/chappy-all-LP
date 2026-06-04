@@ -126,7 +126,7 @@ function AccordionItem({ title, content }: AccordionItemDef) {
           {title}
         </div>
         <img
-          src="/s/sal/amala/icon-1.svg"
+          src="/images/amala/icon-1.svg"
           alt="Icon"
           className={`text-base box-border caret-transparent h-[15px] leading-6 outline-[3px] w-[15px] mx-[5px] my-auto md:text-[17px] md:leading-[25.5px] transition-transform duration-200 ${isOpen ? "rotate-90" : ""}`}
         />
@@ -216,7 +216,7 @@ export const AddToCart = () => {
                                 className="items-center box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full"
                               >
                                 <img
-                                  src="/s/sal/amala/16.svg"
+                                  src="/images/amala/16.svg"
                                   alt=""
                                   sizes="69px"
                                   title=""
@@ -275,7 +275,7 @@ export const AddToCart = () => {
                                 className="items-center box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full"
                               >
                                 <img
-                                  src="/s/sal/amala/17.svg"
+                                  src="/images/amala/17.svg"
                                   alt=""
                                   sizes="308px"
                                   title=""
@@ -319,7 +319,7 @@ export const AddToCart = () => {
                 className="items-center box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full mt-4"
               >
                 <img
-                  src="/s/sal/amala/22.webp"
+                  src="/images/amala/22.webp"
                   alt=""
                   sizes="565px"
                   title=""
@@ -346,7 +346,7 @@ export const AddToCart = () => {
                         className="items-center box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full"
                       >
                         <img
-                          src="/s/sal/amala/23.webp"
+                          src="/images/amala/23.webp"
                           alt=""
                           sizes="86px"
                           title=""

@@ -1,25 +1,25 @@
 {
   "contentSections": {
     "hiddenDeficiencies": {
-      "mobileImageSrc": "/s/sal/amala/1763721394184_PCH_1.webp",
+      "mobileImageSrc": "/images/amala/1763721394184_PCH_1.webp",
       "mobileImageAlt": "",
-      "desktopImageSrc": "/s/sal/amala/1763721394184_PCH_1.webp",
+      "desktopImageSrc": "/images/amala/1763721394184_PCH_1.webp",
       "desktopImageAlt": "",
-      "bottomDesktopImageSrc": "/s/sal/amala/1763721578564_PCH_2.webp",
+      "bottomDesktopImageSrc": "/images/amala/1763721578564_PCH_2.webp",
       "bottomDesktopImageAlt": "",
-      "topDecorationImageSrc": "/s/sal/amala/18.svg",
+      "topDecorationImageSrc": "/images/amala/18.svg",
       "topDecorationImageAlt": "",
-      "bottomDecorationImageSrc": "/s/sal/amala/19.svg",
+      "bottomDecorationImageSrc": "/images/amala/19.svg",
       "bottomDecorationImageAlt": ""
     },
     "cellularSupport": {
-      "mobileImageSrc": "/s/sal/amala/1763721651460_PCH_3.webp",
+      "mobileImageSrc": "/images/amala/1763721651460_PCH_3.webp",
       "mobileImageAlt": "",
-      "desktopImageSrc": "/s/sal/amala/1763721651460_PCH_3.webp",
+      "desktopImageSrc": "/images/amala/1763721651460_PCH_3.webp",
       "desktopImageAlt": "",
-      "topDecorationImageSrc": "/s/sal/amala/18.svg",
+      "topDecorationImageSrc": "/images/amala/18.svg",
       "topDecorationImageAlt": "",
-      "bottomDecorationImageSrc": "/s/sal/amala/19.svg",
+      "bottomDecorationImageSrc": "/images/amala/19.svg",
       "bottomDecorationImageAlt": ""
     }
   },
