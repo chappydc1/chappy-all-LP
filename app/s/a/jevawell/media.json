@@ -1,37 +1,37 @@
 {
   "base": "https://c.animaapp.com/mpt0zi0nqVnOh3/assets/",
   "shareIcons": [
-    { "src": "https://c.animaapp.com/mpt0zi0nqVnOh3/assets/icon-1.svg", "alt": "Share" },
-    { "src": "https://c.animaapp.com/mpt0zi0nqVnOh3/assets/icon-2.svg", "alt": "Share" },
-    { "src": "https://c.animaapp.com/mpt0zi0nqVnOh3/assets/icon-3.svg", "alt": "Share" },
-    { "src": "https://c.animaapp.com/mpt0zi0nqVnOh3/assets/icon-4.svg", "alt": "Share" }
+    { "src": "/images/jevawell/icon-1.svg", "alt": "Share" },
+    { "src": "/images/jevawell/icon-2.svg", "alt": "Share" },
+    { "src": "/images/jevawell/icon-3.svg", "alt": "Share" },
+    { "src": "/images/jevawell/icon-4.svg", "alt": "Share" }
   ],
-  "ctaIcon": { "src": "https://c.animaapp.com/mpt0zi0nqVnOh3/assets/icon-5.svg", "alt": "Arrow" },
+  "ctaIcon": { "src": "/images/jevawell/icon-5.svg", "alt": "Arrow" },
   "heroVideo": {
-    "src": "https://c.animaapp.com/mpt0zi0nqVnOh3/assets/veo_flow_202512241618_5pkz7-ezgif.com-video-to-webp-converter_1.webp",
+    "src": "/images/jevawell/veo_flow_202512241618_5pkz7-ezgif.com-video-to-webp-converter_1.webp",
     "alt": "Jevawell - Leg Swelling Relief"
   },
   "articleImages": [
-    { "src": "https://c.animaapp.com/mpt0zi0nqVnOh3/assets/2_edema.webp", "alt": "Edema relief" },
-    { "src": "https://c.animaapp.com/mpt0zi0nqVnOh3/assets/3_edema.webp", "alt": "Edema treatment" },
-    { "src": "https://c.animaapp.com/mpt0zi0nqVnOh3/assets/5_edema.webp", "alt": "Edema recovery" },
-    { "src": "https://c.animaapp.com/mpt0zi0nqVnOh3/assets/hf_20260401_114548_14d91cc3-2470-46a4-984b-b7acca28b560.png", "alt": "Jevawell results" },
-    { "src": "https://c.animaapp.com/mpt0zi0nqVnOh3/assets/4_edema.webp", "alt": "Edema solution" },
-    { "src": "https://c.animaapp.com/mpt0zi0nqVnOh3/assets/veo_flow_202512241650_gjs64-ezgif.com-video-to-webp-converter.webp", "alt": "Jevawell in action" }
+    { "src": "/images/jevawell/2_edema.webp", "alt": "Edema relief" },
+    { "src": "/images/jevawell/3_edema.webp", "alt": "Edema treatment" },
+    { "src": "/images/jevawell/5_edema.webp", "alt": "Edema recovery" },
+    { "src": "/images/jevawell/hf_20260401_114548_14d91cc3-2470-46a4-984b-b7acca28b560.png", "alt": "Jevawell results" },
+    { "src": "/images/jevawell/4_edema.webp", "alt": "Edema solution" },
+    { "src": "/images/jevawell/veo_flow_202512241650_gjs64-ezgif.com-video-to-webp-converter.webp", "alt": "Jevawell in action" }
   ],
   "ingredientIcons": [
-    { "src": "https://c.animaapp.com/mpt0zi0nqVnOh3/assets/image-1.svg", "alt": "Ingredient" },
-    { "src": "https://c.animaapp.com/mpt0zi0nqVnOh3/assets/image-2.svg", "alt": "Ingredient" },
-    { "src": "https://c.animaapp.com/mpt0zi0nqVnOh3/assets/image-3.svg", "alt": "Ingredient" },
-    { "src": "https://c.animaapp.com/mpt0zi0nqVnOh3/assets/image-4.svg", "alt": "Ingredient" },
-    { "src": "https://c.animaapp.com/mpt0zi0nqVnOh3/assets/image-5.svg", "alt": "Ingredient" },
-    { "src": "https://c.animaapp.com/mpt0zi0nqVnOh3/assets/image-6.svg", "alt": "Ingredient" }
+    { "src": "/images/jevawell/image-1.svg", "alt": "Ingredient" },
+    { "src": "/images/jevawell/image-2.svg", "alt": "Ingredient" },
+    { "src": "/images/jevawell/image-3.svg", "alt": "Ingredient" },
+    { "src": "/images/jevawell/image-4.svg", "alt": "Ingredient" },
+    { "src": "/images/jevawell/image-5.svg", "alt": "Ingredient" },
+    { "src": "/images/jevawell/image-6.svg", "alt": "Ingredient" }
   ],
   "testimonialImages": [
-    { "src": "https://c.animaapp.com/mpt0zi0nqVnOh3/assets/hf_20260329_054249_fbab2153-527d-4edf-aefc-6b9210afb9ce_2.png", "alt": "Customer" },
-    { "src": "https://c.animaapp.com/mpt0zi0nqVnOh3/assets/image_1.webp", "alt": "Customer" },
-    { "src": "https://c.animaapp.com/mpt0zi0nqVnOh3/assets/hf_20260401_112822_6413c67a-8490-4996-84eb-e53a9c61ae9d_1.png", "alt": "Customer" },
-    { "src": "https://c.animaapp.com/mpt0zi0nqVnOh3/assets/hf_20260401_113416_c876d69e-f739-469d-ad29-a0b04c62d940.png", "alt": "Customer" },
-    { "src": "https://c.animaapp.com/mpt0zi0nqVnOh3/assets/hf_20260401_113401_b1245e61-2d74-4b58-b6ec-851ea058a902.png", "alt": "Customer" }
+    { "src": "/images/jevawell/hf_20260329_054249_fbab2153-527d-4edf-aefc-6b9210afb9ce_2.png", "alt": "Customer" },
+    { "src": "/images/jevawell/image_1.webp", "alt": "Customer" },
+    { "src": "/images/jevawell/hf_20260401_112822_6413c67a-8490-4996-84eb-e53a9c61ae9d_1.png", "alt": "Customer" },
+    { "src": "/images/jevawell/hf_20260401_113416_c876d69e-f739-469d-ad29-a0b04c62d940.png", "alt": "Customer" },
+    { "src": "/images/jevawell/hf_20260401_113401_b1245e61-2d74-4b58-b6ec-851ea058a902.png", "alt": "Customer" }
   ]
 }

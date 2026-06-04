@@ -22,7 +22,7 @@ function AmalaAccordionItem({ title, paragraphs }: AmalaAccordionItemProps) {
           {title}
         </div>
         <img
-          src="https://c.animaapp.com/mohkicncTG3NcI/assets/icon-1.svg"
+          src="/images/amala/icon-1.svg"
           alt="Icon"
           className={`text-base box-border caret-transparent h-[15px] leading-6 outline-[3px] w-[15px] mx-[5px] my-auto md:text-[17px] md:leading-[25.5px] transition-transform duration-200 ${isOpen ? "rotate-90" : ""}`}
         />
@@ -61,7 +61,7 @@ function AmalaBenefitRows({ benefits }: { benefits: AmalaProductHeroBenefit[] })
             <img
               src={
                 benefit.iconSrc ||
-                "https://c.animaapp.com/mohkicncTG3NcI/assets/1763702956506_1730181221_checkIcon.svg"
+                "/images/amala/1763702956506_1730181221_checkIcon.svg"
               }
               alt={benefit.iconAlt || ""}
               sizes="565px"

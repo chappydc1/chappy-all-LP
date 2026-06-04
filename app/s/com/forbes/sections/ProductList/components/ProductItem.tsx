@@ -42,7 +42,7 @@ export const ProductItem = (props: ProductItemProps) => {
               <div
                 className="forbes-badge__icon"
                 style={{
-                  backgroundImage: `url('${props.badgeTrophySrc ?? "https://www.forbes.com/wui/assets/superlative/trophy-primary.svg"}')`,
+                  backgroundImage: `url('${props.badgeTrophySrc ?? "/images/forbes/trophy-primary.svg"}')`,
                 }}
               />
               <span className="text-white text-xs font-bold leading-[18px] z-[1] relative">
@@ -106,7 +106,7 @@ export const ProductItem = (props: ProductItemProps) => {
             >
               <span className="group-hover:underline">Visit Site</span>
               <img
-                src="/forbes/right-arrow.svg"
+                src="/images/forbes/right-arrow.svg"
                 className="h-6 w-6 shrink-0"
                 alt=""
               />

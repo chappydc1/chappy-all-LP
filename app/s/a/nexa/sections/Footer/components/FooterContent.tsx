@@ -6,7 +6,7 @@ export const FooterContent = () => {
         <div className="box-border caret-transparent flex outline-[3px] w-full pr-2.5 py-3">
           <img
             title=""
-            src="https://c.animaapp.com/mpy7krbtwlu4la/assets/1764951851636_v2.png"
+            src="/images/nexa/1764951851636_v2.png"
             href=""
             alt=""
             className="text-black box-border caret-transparent h-5 max-w-full min-h-[auto] min-w-[auto] outline-[3px] align-baseline w-[25px]"

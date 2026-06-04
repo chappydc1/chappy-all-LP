@@ -3,7 +3,7 @@ export const HeaderLogo = () => {
     <div className="items-center caret-transparent flex justify-between">
       <div className="caret-transparent min-h-[auto] min-w-[auto] w-[85px] md:w-[145px]">
         <img
-          src="https://c.animaapp.com/mnsctxd6cckxuq/assets/hearcom-v2.svg"
+          src="/images/hear/hearcom-v2.svg"
           alt="Hearcom logo"
           className="caret-transparent align-baseline w-full"
         />

@@ -1,21 +1,21 @@
 {
-  "logo": "https://c.animaapp.com/mnsaqvaeyL5Z2y/assets/1691133124_309x65(1).png",
-  "authorAvatar": "https://c.animaapp.com/mnsaqvaeyL5Z2y/assets/1718855915_male-3.png",
-  "hero": "https://c.animaapp.com/mnsaqvaeyL5Z2y/assets/1718700657_60-(1).gif",
-  "backPain": "https://c.animaapp.com/mnsaqvaeyL5Z2y/assets/1694172527_02.gif",
-  "sitting": "https://c.animaapp.com/mnsaqvaeyL5Z2y/assets/1718859483_3.jpg",
-  "ergonomicDesign": "https://c.animaapp.com/mnsaqvaeyL5Z2y/assets/1718861242_4.gif",
-  "memoryFoam": "https://c.animaapp.com/mnsaqvaeyL5Z2y/assets/1718850958_Style-1.webp",
-  "hipFit": "https://c.animaapp.com/mnsaqvaeyL5Z2y/assets/1718861174_5.gif",
-  "family": "https://c.animaapp.com/mnsaqvaeyL5Z2y/assets/1718867161_6.jpg",
-  "product": "https://c.animaapp.com/mnsaqvaeyL5Z2y/assets/1718867172_7.jpg",
-  "conclusion": "https://c.animaapp.com/mnsaqvaeyL5Z2y/assets/1718861328_8.jpg",
-  "sidebar": "https://c.animaapp.com/mnsaqvaeyL5Z2y/assets/1718861346_右侧图.jpg",
+  "logo": "/images/zikeey/1691133124_309x65(1).png",
+  "authorAvatar": "/images/zikeey/1718855915_male-3.png",
+  "hero": "/images/zikeey/1718700657_60-(1).gif",
+  "backPain": "/images/zikeey/1694172527_02.gif",
+  "sitting": "/images/zikeey/1718859483_3.jpg",
+  "ergonomicDesign": "/images/zikeey/1718861242_4.gif",
+  "memoryFoam": "/images/zikeey/1718850958_Style-1.webp",
+  "hipFit": "/images/zikeey/1718861174_5.gif",
+  "family": "/images/zikeey/1718867161_6.jpg",
+  "product": "/images/zikeey/1718867172_7.jpg",
+  "conclusion": "/images/zikeey/1718861328_8.jpg",
+  "sidebar": "/images/zikeey/1718861346_右侧图.jpg",
   "reviews": [
-    "https://c.animaapp.com/mnsaqvaeyL5Z2y/assets/1718861284_评论图1.jpg",
-    "https://c.animaapp.com/mnsaqvaeyL5Z2y/assets/1718861294_评论图2.jpg",
-    "https://c.animaapp.com/mnsaqvaeyL5Z2y/assets/1718861308_评论图3.jpg"
+    "/images/zikeey/1718861284_评论图1.jpg",
+    "/images/zikeey/1718861294_评论图2.jpg",
+    "/images/zikeey/1718861308_评论图3.jpg"
   ],
-  "verifiedBadge": "https://c.animaapp.com/mnsaqvaeyL5Z2y/assets/user_approve.png",
-  "starRating": "https://c.animaapp.com/mnsaqvaeyL5Z2y/assets/user_star.png"
+  "verifiedBadge": "/images/zikeey/user_approve.png",
+  "starRating": "/images/zikeey/user_star.png"
 }

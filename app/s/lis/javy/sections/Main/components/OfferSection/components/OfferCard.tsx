@@ -22,7 +22,7 @@ export const OfferCard = () => {
     <div className="relative bg-white shadow-[rgba(0,0,0,0.06)_0px_4px_12px_0px] box-border flex flex-col justify-between min-h-[auto] min-w-[auto] text-left overflow-hidden rounded-lg border-0 border-none border-white md:flex-row md:border-2 md:border-dashed">
       <div className="relative items-center bg-violet-100 box-border flex justify-center min-h-[auto] min-w-[auto] w-full py-5 md:w-6/12 md:py-0">
         <img
-          src="https://c.animaapp.com/mnsfe353KCVMX6/assets/68470eec6dd64134a92d3453_9b5f16eb10a1546abe03c5cf5ed424f8_v3-pc-bundle-img.webp"
+          src="/images/javy/68470eec6dd64134a92d3453_9b5f16eb10a1546abe03c5cf5ed424f8_v3-pc-bundle-img.webp"
           sizes="(max-width: 1200px) 100vw, 1200px"
           alt="Javvy Coffee Bundle"
           className="box-border min-h-[auto] min-w-[auto] w-full transition-transform duration-500 hover:scale-105"
@@ -33,7 +33,7 @@ export const OfferCard = () => {
           <div className="bg-black/10 box-border basis-[0%] grow h-px min-h-[auto] min-w-[auto] w-1/5 md:w-full"></div>
           <div className="box-border gap-x-1.5 flex min-h-[auto] min-w-[auto] gap-y-1.5">
             <img
-              src="https://c.animaapp.com/mnsfe353KCVMX6/assets/6724fdda94d57f82bf0c2f9a_bf-gift-icon.svg"
+              src="/images/javy/6724fdda94d57f82bf0c2f9a_bf-gift-icon.svg"
               alt=""
               className="box-border max-w-full min-h-[auto] min-w-[auto] w-3"
             />
@@ -69,7 +69,7 @@ export const OfferCard = () => {
             </div>
             <div className="items-center box-border flex-col h-6 justify-center min-h-[auto] min-w-[auto] w-6">
               <img
-                src="https://c.animaapp.com/mnsfe353KCVMX6/assets/icon-1.svg"
+                src="/images/javy/icon-1.svg"
                 alt=""
                 className="box-border inline h-full align-baseline w-full"
               />

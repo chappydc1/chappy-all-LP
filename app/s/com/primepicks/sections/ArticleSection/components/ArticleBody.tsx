@@ -8,7 +8,7 @@ export const ArticleBody = () => {
           loop
           autoPlay
           preload="auto"
-          poster="/assets/primepicks/image-160-scaled.jpg"
+          poster="/images/primepicks/image-160-scaled.jpg"
           className="aspect-[auto_840_/_400] box-border caret-transparent max-w-full w-[840px] mb-6"
         >
           <source
@@ -121,7 +121,7 @@ export const ArticleBody = () => {
           loop
           autoPlay
           preload="auto"
-          poster="/assets/primepicks/image-161.jpg"
+          poster="/images/primepicks/image-161.jpg"
           className="aspect-[auto_840_/_400] box-border caret-transparent max-w-full w-[840px] mb-6"
         >
           <source
@@ -291,7 +291,7 @@ export const ArticleBody = () => {
       >
         <picture className="text-lg box-border caret-transparent leading-[27px] md:text-[18.8px] md:leading-[28.2px]">
           <img
-            src="/assets/primepicks/M19UYWdzbGV5X1RyYWNraW5nLUNhcmQuanBn-w_720.jpg"
+            src="/images/primepicks/M19UYWdzbGV5X1RyYWNraW5nLUNhcmQuanBn-w_720.jpg"
             alt=""
             sizes="100vw"
             className="text-lg aspect-[auto_720_/_435] box-border caret-transparent leading-[27px] max-w-full w-full mb-6 md:text-[18.8px] md:leading-[28.2px]"
@@ -448,7 +448,7 @@ export const ArticleBody = () => {
       >
         <picture className="text-lg box-border caret-transparent leading-[27px] md:text-[18.8px] md:leading-[28.2px]">
           <img
-            src="/assets/primepicks/NF9UYWdzbGV5X1RyYWNraW5nLUNhcmQuanBn-w_720.jpg"
+            src="/images/primepicks/NF9UYWdzbGV5X1RyYWNraW5nLUNhcmQuanBn-w_720.jpg"
             alt=""
             sizes="100vw"
             className="text-lg aspect-[auto_720_/_435] box-border caret-transparent leading-[27px] max-w-full w-full mb-6 md:text-[18.8px] md:leading-[28.2px]"

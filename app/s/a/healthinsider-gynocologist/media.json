@@ -1,54 +1,54 @@
 {
   "logo": {
-    "src": "https://c.animaapp.com/mpggmao05pPIrc/assets/mainlogo.svg",
+    "src": "/images/healthinsider-gynocologist/mainlogo.svg",
     "alt": "company-logo"
   },
   "logoScroll": {
-    "src": "https://c.animaapp.com/mpggmao05pPIrc/assets/logoscroll.svg",
+    "src": "/images/healthinsider-gynocologist/logoscroll.svg",
     "alt": "company-logo"
   },
   "featured": {
-    "src": "https://c.animaapp.com/mpggmao05pPIrc/assets/Advertorial-featured-pics-1286-x-600-px-1-optimized.webp",
+    "src": "/images/healthinsider-gynocologist/Advertorial-featured-pics-1286-x-600-px-1-optimized.webp",
     "alt": "Featured article image"
   },
   "cortisol": {
-    "src": "https://c.animaapp.com/mpggmao05pPIrc/assets/blog_cortisolsupp_body-1-optimized.webp",
+    "src": "/images/healthinsider-gynocologist/blog_cortisolsupp_body-1-optimized.webp",
     "alt": "Cortisol and weight gain chart"
   },
   "supplementComparison": {
-    "src": "https://c.animaapp.com/mpggmao05pPIrc/assets/image-3.svg",
+    "src": "/images/healthinsider-gynocologist/image-3.svg",
     "alt": "Supplement comparison results"
   },
   "newsletterIcon": {
-    "src": "https://c.animaapp.com/mpggmao05pPIrc/assets/image-14.svg",
+    "src": "/images/healthinsider-gynocologist/image-14.svg",
     "alt": "Newsletter"
   },
   "footerLogo": {
-    "src": "https://c.animaapp.com/mpggmao05pPIrc/assets/image-15.svg",
+    "src": "/images/healthinsider-gynocologist/image-15.svg",
     "alt": "company-logo"
   },
   "icons": {
-    "search": "https://c.animaapp.com/mpggmao05pPIrc/assets/search.svg",
-    "closeBlack": "https://c.animaapp.com/mpggmao05pPIrc/assets/image-2.svg",
-    "closeWhite": "https://c.animaapp.com/mpggmao05pPIrc/assets/image-1.svg",
-    "comments": "https://c.animaapp.com/mpggmao05pPIrc/assets/comments.svg",
-    "views": "https://c.animaapp.com/mpggmao05pPIrc/assets/views.svg",
-    "readingTime": "https://c.animaapp.com/mpggmao05pPIrc/assets/reading-time.svg",
-    "plus": "https://c.animaapp.com/mpggmao05pPIrc/assets/image-4.svg",
-    "facebookShare": "https://c.animaapp.com/mpggmao05pPIrc/assets/image-5.svg",
-    "twitterShare": "https://c.animaapp.com/mpggmao05pPIrc/assets/image-6.svg",
-    "pinterestShare": "https://c.animaapp.com/mpggmao05pPIrc/assets/image-7.svg",
-    "linkedinShare": "https://c.animaapp.com/mpggmao05pPIrc/assets/image-8.svg",
-    "avatar": "https://c.animaapp.com/mpggmao05pPIrc/assets/image-9.svg",
-    "commentPhoto": "https://c.animaapp.com/mpggmao05pPIrc/assets/image-10.svg",
-    "replyArrow": "https://c.animaapp.com/mpggmao05pPIrc/assets/image-11.svg",
-    "checkmark": "https://c.animaapp.com/mpggmao05pPIrc/assets/image-12.svg",
-    "arrowTop": "https://c.animaapp.com/mpggmao05pPIrc/assets/image-13.svg",
-    "facebookFooter": "https://c.animaapp.com/mpggmao05pPIrc/assets/image-5.svg",
-    "twitterFooter": "https://c.animaapp.com/mpggmao05pPIrc/assets/image-16.svg",
-    "pinterestFooter": "https://c.animaapp.com/mpggmao05pPIrc/assets/image-17.svg",
-    "youtubeFooter": "https://c.animaapp.com/mpggmao05pPIrc/assets/image-18.svg",
-    "instagramFooter": "https://c.animaapp.com/mpggmao05pPIrc/assets/image-19.svg",
-    "chevron": "https://c.animaapp.com/mpggmao05pPIrc/assets/image-20.svg"
+    "search": "/images/healthinsider-gynocologist/search.svg",
+    "closeBlack": "/images/healthinsider-gynocologist/image-2.svg",
+    "closeWhite": "/images/healthinsider-gynocologist/image-1.svg",
+    "comments": "/images/healthinsider-gynocologist/comments.svg",
+    "views": "/images/healthinsider-gynocologist/views.svg",
+    "readingTime": "/images/healthinsider-gynocologist/reading-time.svg",
+    "plus": "/images/healthinsider-gynocologist/image-4.svg",
+    "facebookShare": "/images/healthinsider-gynocologist/image-5.svg",
+    "twitterShare": "/images/healthinsider-gynocologist/image-6.svg",
+    "pinterestShare": "/images/healthinsider-gynocologist/image-7.svg",
+    "linkedinShare": "/images/healthinsider-gynocologist/image-8.svg",
+    "avatar": "/images/healthinsider-gynocologist/image-9.svg",
+    "commentPhoto": "/images/healthinsider-gynocologist/image-10.svg",
+    "replyArrow": "/images/healthinsider-gynocologist/image-11.svg",
+    "checkmark": "/images/healthinsider-gynocologist/image-12.svg",
+    "arrowTop": "/images/healthinsider-gynocologist/image-13.svg",
+    "facebookFooter": "/images/healthinsider-gynocologist/image-5.svg",
+    "twitterFooter": "/images/healthinsider-gynocologist/image-16.svg",
+    "pinterestFooter": "/images/healthinsider-gynocologist/image-17.svg",
+    "youtubeFooter": "/images/healthinsider-gynocologist/image-18.svg",
+    "instagramFooter": "/images/healthinsider-gynocologist/image-19.svg",
+    "chevron": "/images/healthinsider-gynocologist/image-20.svg"
   }
 }

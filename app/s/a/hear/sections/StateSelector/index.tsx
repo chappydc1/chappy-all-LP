@@ -4,12 +4,12 @@ import { useScrollReveal } from "../../hooks/useScrollReveal";
 type State = { name: string; imgSrc: string };
 
 const STATES: State[] = [
-  { name: "Oregon", imgSrc: "https://c.animaapp.com/mnsctxd6cckxuq/assets/oregon-yellow.svg" },
-  { name: "Georgia", imgSrc: "https://c.animaapp.com/mnsctxd6cckxuq/assets/georgia-red.svg" },
-  { name: "Alaska", imgSrc: "https://c.animaapp.com/mnsctxd6cckxuq/assets/alaska-lightblue.svg" },
-  { name: "Connecticut", imgSrc: "https://c.animaapp.com/mnsctxd6cckxuq/assets/connecticut-lightgreen.svg" },
-  { name: "Michigan", imgSrc: "https://c.animaapp.com/mnsctxd6cckxuq/assets/michigan-blue.svg" },
-  { name: "Arkansas", imgSrc: "https://c.animaapp.com/mnsctxd6cckxuq/assets/arkansas-green.svg" },
+  { name: "Oregon", imgSrc: "/images/hear/oregon-yellow.svg" },
+  { name: "Georgia", imgSrc: "/images/hear/georgia-red.svg" },
+  { name: "Alaska", imgSrc: "/images/hear/alaska-lightblue.svg" },
+  { name: "Connecticut", imgSrc: "/images/hear/connecticut-lightgreen.svg" },
+  { name: "Michigan", imgSrc: "/images/hear/michigan-blue.svg" },
+  { name: "Arkansas", imgSrc: "/images/hear/arkansas-green.svg" },
 ];
 
 const reviews = [
@@ -141,7 +141,7 @@ export const StateSelector = () => {
                 <span className="caret-transparent">Click</span>
                 {" "}here{" "}
                 <img
-                  src="https://c.animaapp.com/mnsctxd6cckxuq/assets/double-arrow.svg"
+                  src="/images/hear/double-arrow.svg"
                   alt=""
                   className="caret-transparent inline align-baseline"
                 />
@@ -151,7 +151,7 @@ export const StateSelector = () => {
           <div className="caret-transparent mb-10">
             <picture className="caret-transparent">
               <img
-                src="https://c.animaapp.com/mnsctxd6cckxuq/assets/trust-logos-new-desk.png"
+                src="/images/hear/trust-logos-new-desk.png"
                 alt="happy customers"
                 className="caret-transparent align-baseline w-full"
               />
@@ -186,7 +186,7 @@ export const StateSelector = () => {
                     {review.title}
                   </p>
                   <img
-                    src="https://c.animaapp.com/mnsctxd6cckxuq/assets/stars.svg"
+                    src="/images/hear/stars.svg"
                     alt="5 stars"
                     className="caret-transparent max-w-[100px] min-h-[auto] min-w-[auto] align-baseline w-full"
                   />

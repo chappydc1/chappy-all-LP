@@ -6,7 +6,7 @@ export const HeroText = () => {
       </h1>
       <div className="text-white text-[11px] items-center box-border caret-transparent flex leading-4 min-h-[auto] min-w-[auto] mb-3 md:text-sm md:mb-4">
         <img
-          src="/assets/primepicks/lets-icons_check-fill.svg"
+          src="/images/primepicks/lets-icons_check-fill.svg"
           alt="PrimePicks.Review image"
           className="text-[11px] box-border caret-transparent h-3 max-w-full min-h-[auto] min-w-[auto] w-3 mr-1 md:text-sm md:h-4 md:w-4 md:mr-2"
         />
@@ -26,7 +26,7 @@ export const HeroText = () => {
       </div>
       <div className="items-center box-border caret-transparent flex min-h-[auto] min-w-[auto] mb-3 md:mb-6">
         <img
-          src="/assets/primepicks/ZXhwZXJ0LTQ0LmpwZw.jpg"
+          src="/images/primepicks/ZXhwZXJ0LTQ0LmpwZw.jpg"
           alt="PrimePicks.Review image"
           className="box-border caret-transparent h-3 max-w-full min-h-[auto] min-w-[auto] w-3 mr-1 rounded-[50%] md:h-4 md:w-4 md:mr-2"
         />
@@ -38,7 +38,7 @@ export const HeroText = () => {
           Benjamin Chos
         </span>
         <img
-          src="/assets/primepicks/flag-us.svg"
+          src="/images/primepicks/flag-us.svg"
           alt=""
           className="box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] w-5 ml-1 md:w-8 md:ml-2"
         />
@@ -51,7 +51,7 @@ export const HeroText = () => {
           Consumers' Reviews
         </span>
         <img
-          src="/assets/primepicks/rating-stars.svg"
+          src="/images/primepicks/rating-stars.svg"
           alt=""
           className="aspect-[auto_77_/_12] box-border caret-transparent h-2 max-w-full min-h-[auto] min-w-[auto] w-[77px] md:h-3"
         />

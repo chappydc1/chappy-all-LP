@@ -13,7 +13,7 @@ export const Header = () => {
         <div className="caret-transparent -mx-5 md:mx-0">
           <picture className="caret-transparent block overflow-hidden">
             <img
-              src="https://c.animaapp.com/mnsctxd6cckxuq/assets/founders-25-desk.jpg"
+              src="/images/hear/founders-25-desk.jpg"
               alt="Hearing aids"
               className="caret-transparent align-baseline w-full"
             />
@@ -25,7 +25,7 @@ export const Header = () => {
             <div className="caret-transparent min-h-[auto] min-w-[auto] mx-auto px-2.5 md:px-5">
               <picture className="caret-transparent">
                 <img
-                  src="https://c.animaapp.com/mnsctxd6cckxuq/assets/static-logos-desk.png"
+                  src="/images/hear/static-logos-desk.png"
                   alt="horizon hearing aids"
                   className="caret-transparent align-baseline w-full"
                 />

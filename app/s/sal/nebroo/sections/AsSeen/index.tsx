@@ -12,7 +12,7 @@ export const AsSeen = () => {
         <img
           alt="You Are Just One Step Away From RESTORING Your Hearing....webp"
           title=""
-          src="https://c.animaapp.com/mnsbh2exJLSZhk/assets/1739604282346_Mobile.png"
+          src="/images/nebroo/1739604282346_Mobile.png"
           
           className="self-center shadow-[rgba(255,255,255,0)_0px_1px_0.1px_5px] box-border caret-transparent block max-w-full w-full mt-0 rounded-[10px] md:self-auto md:shadow-none md:hidden md:w-auto md:mt-5"
         />
@@ -21,7 +21,7 @@ export const AsSeen = () => {
             <img
               alt="You Are Just One Step Away From RESTORING Your Hearing....webp"
               title=""
-              src="https://c.animaapp.com/mnsbh2exJLSZhk/assets/1739604284621_Desktop.png"
+              src="/images/nebroo/1739604284621_Desktop.png"
               
               className="self-center box-border caret-transparent block max-w-full mx-auto rounded-[10px] md:self-auto md:inline"
             />

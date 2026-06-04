@@ -32,7 +32,7 @@ export const BundleOption = (props: BundleOptionProps) => {
           </div>
           <img
             title=""
-            src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722845784568_star.svg"
+            src="/images/rejuvacare/1722845784568_star.svg"
             alt=""
             className="text-black box-border caret-transparent h-[18px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-5 ml-[7px]"
           />
@@ -69,7 +69,7 @@ export const BundleOption = (props: BundleOptionProps) => {
         <div className="box-border caret-transparent outline-[3px] items-start flex justify-start text-left w-full mt-2.5 md:items-center">
           <img
             title=""
-            src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722846383829_icon_check.webp"
+            src="/images/rejuvacare/1722846383829_icon_check.webp"
             alt=""
             className="text-black box-border caret-transparent h-[25px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left w-[25px] ml-px mr-2.5"
           />
@@ -90,7 +90,7 @@ export const BundleOption = (props: BundleOptionProps) => {
               <div className="items-center box-border caret-transparent flex justify-start outline-[3px] w-full mt-2.5">
                 <img
                   title=""
-                  src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722846383829_icon_check.webp"
+                  src="/images/rejuvacare/1722846383829_icon_check.webp"
                   alt=""
                   className="text-black box-border caret-transparent h-[25px] max-w-full outline-[3px] w-[25px] ml-px mr-2.5"
                 />
@@ -106,7 +106,7 @@ export const BundleOption = (props: BundleOptionProps) => {
               <div className="items-center box-border caret-transparent flex justify-start outline-[3px] w-full mt-2.5">
                 <img
                   title=""
-                  src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722846383829_icon_check.webp"
+                  src="/images/rejuvacare/1722846383829_icon_check.webp"
                   alt=""
                   className="text-black box-border caret-transparent h-[25px] max-w-full outline-[3px] w-[25px] ml-px mr-2.5"
                 />
@@ -136,7 +136,7 @@ export const BundleOption = (props: BundleOptionProps) => {
             <div className="items-center box-border caret-transparent flex justify-start outline-[3px] w-full mt-2.5">
               <img
                 title=""
-                src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722846383829_icon_check.webp"
+                src="/images/rejuvacare/1722846383829_icon_check.webp"
                 alt=""
                 className="text-black box-border caret-transparent h-[25px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-[25px] ml-px mr-2.5"
               />
@@ -152,7 +152,7 @@ export const BundleOption = (props: BundleOptionProps) => {
             <div className="items-center box-border caret-transparent flex justify-start outline-[3px] w-full mt-2.5">
               <img
                 title=""
-                src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722846383829_icon_check.webp"
+                src="/images/rejuvacare/1722846383829_icon_check.webp"
                 alt=""
                 className="text-black box-border caret-transparent h-[25px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-[25px] ml-px mr-2.5"
               />

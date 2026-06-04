@@ -5,7 +5,7 @@ export const BatterySection = () => {
         <img
           alt="20 Hours of Battery Life.webp"
           title=""
-          src="https://c.animaapp.com/mnsbh2exJLSZhk/assets/1739407847287_16h_Battery.webp"
+          src="/images/nebroo/1739407847287_16h_Battery.webp"
           
           className="self-center box-border caret-transparent inline max-w-full min-h-0 min-w-0 mx-auto rounded-[10px] md:self-auto md:block md:min-h-[auto] md:min-w-[auto]"
         />
@@ -22,7 +22,7 @@ export const BatterySection = () => {
         <img
           alt="20 Hours of Battery Life.webp"
           title=""
-          src="https://c.animaapp.com/mnsbh2exJLSZhk/assets/1739407847287_16h_Battery.webp"
+          src="/images/nebroo/1739407847287_16h_Battery.webp"
           
           className="self-center box-border caret-transparent block justify-start max-w-full mt-5 mx-0 rounded-[10px] md:self-auto md:hidden md:justify-normal md:mx-auto"
         />

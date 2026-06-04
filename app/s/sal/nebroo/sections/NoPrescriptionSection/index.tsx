@@ -5,7 +5,7 @@ export const NoPrescriptionSection = () => {
         <img
           alt="Get Them Without a Prescription, And Without Going Trough Costly Exams.webp"
           title=""
-          src="https://c.animaapp.com/mnsbh2exJLSZhk/assets/1729153792697_1712406903426_Get_Them_Without_a_Prescription_And_Without_Going_Trough_Costly_Exams.webp"
+          src="/images/nebroo/1729153792697_1712406903426_Get_Them_Without_a_Prescription_And_Without_Going_Trough_Costly_Exams.webp"
           
           className="items-end self-center box-border caret-transparent inline justify-start max-w-full min-h-0 min-w-0 mx-auto rounded-[10px] md:[align-items:normal] md:self-auto md:block md:justify-normal md:min-h-[auto] md:min-w-[auto]"
         />
@@ -22,7 +22,7 @@ export const NoPrescriptionSection = () => {
         <img
           alt="Get Them Without a Prescription, And Without Going Trough Costly Exams.webp"
           title=""
-          src="https://c.animaapp.com/mnsbh2exJLSZhk/assets/1729153792697_1712406903426_Get_Them_Without_a_Prescription_And_Without_Going_Trough_Costly_Exams.webp"
+          src="/images/nebroo/1729153792697_1712406903426_Get_Them_Without_a_Prescription_And_Without_Going_Trough_Costly_Exams.webp"
           
           className="items-end self-center box-border caret-transparent flex justify-start max-w-full min-h-[auto] min-w-[auto] mt-5 mx-0 rounded-[10px] md:[align-items:normal] md:self-auto md:hidden md:justify-normal md:min-h-0 md:min-w-0 md:mx-auto"
         />

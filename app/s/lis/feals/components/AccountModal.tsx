@@ -100,7 +100,7 @@ export const AccountModal = () => {
                             <button className="appearance-none text-orange-300 items-center bg-transparent caret-transparent gap-x-2.5 flex justify-center leading-[26px] outline-[3px] gap-y-2.5 text-ellipsis text-nowrap align-middle border-orange-300 px-6 py-3 rounded-bl rounded-br rounded-tl rounded-tr border-2">
                               <span className="box-border caret-transparent flex outline-[3px] text-nowrap">
                                 <img
-                                  src="https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-31.svg"
+                                  src="/images/feals/icon-31.svg"
                                   alt="Icon"
                                   className="box-border caret-transparent h-5 outline-[3px] text-nowrap align-baseline w-5"
                                 />
@@ -158,7 +158,7 @@ export const AccountModal = () => {
                           </span>
                           <span className="items-center box-border caret-transparent flex h-[18px] justify-center outline-[3px] w-[18px] rounded-[50%]">
                             <img
-                              src="https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-32.svg"
+                              src="/images/feals/icon-32.svg"
                               alt="Icon"
                               className="box-border caret-transparent h-3/4 outline-[3px] align-baseline w-[30px]"
                             />
@@ -175,7 +175,7 @@ export const AccountModal = () => {
                           </span>
                           <span className="items-center box-border caret-transparent flex h-[18px] justify-center outline-[3px] w-[18px] rounded-[50%]">
                             <img
-                              src="https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-32.svg"
+                              src="/images/feals/icon-32.svg"
                               alt="Icon"
                               className="box-border caret-transparent h-3/4 outline-[3px] align-baseline w-[30px]"
                             />
@@ -192,7 +192,7 @@ export const AccountModal = () => {
                           </span>
                           <span className="items-center box-border caret-transparent flex h-[18px] justify-center outline-[3px] w-[18px] rounded-[50%]">
                             <img
-                              src="https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-32.svg"
+                              src="/images/feals/icon-32.svg"
                               alt="Icon"
                               className="box-border caret-transparent h-3/4 outline-[3px] align-baseline w-[30px]"
                             />
@@ -209,7 +209,7 @@ export const AccountModal = () => {
                           </span>
                           <span className="items-center box-border caret-transparent flex h-[18px] justify-center outline-[3px] w-[18px] rounded-[50%]">
                             <img
-                              src="https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-32.svg"
+                              src="/images/feals/icon-32.svg"
                               alt="Icon"
                               className="box-border caret-transparent h-3/4 outline-[3px] align-baseline w-[30px]"
                             />
@@ -261,7 +261,7 @@ export const AccountModal = () => {
                       className="appearance-none items-center bg-transparent caret-transparent flex leading-[23.04px] outline-[3px] text-center text-ellipsis text-nowrap p-0"
                     >
                       <img
-                        src="https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-33.svg"
+                        src="/images/feals/icon-33.svg"
                         alt="Icon"
                         className="box-border caret-transparent h-2 outline-[3px] text-nowrap align-baseline"
                       />
@@ -291,7 +291,7 @@ export const AccountModal = () => {
                       className="appearance-none items-center bg-transparent caret-transparent flex leading-[23.04px] outline-[3px] text-center text-ellipsis text-nowrap p-0"
                     >
                       <img
-                        src="https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-33.svg"
+                        src="/images/feals/icon-33.svg"
                         alt="Icon"
                         className="box-border caret-transparent h-2 outline-[3px] text-nowrap align-baseline"
                       />
@@ -375,7 +375,7 @@ export const AccountModal = () => {
                         className="absolute appearance-none text-stone-400 items-center bg-transparent caret-transparent flex h-[30px] justify-center leading-[23.04px] outline-[3px] text-center text-ellipsis text-nowrap w-[30px] rounded-bl rounded-br rounded-tl rounded-tr right-2.5 top-[40%]"
                       >
                         <img
-                          src="https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-34.svg"
+                          src="/images/feals/icon-34.svg"
                           alt="Icon"
                           className="box-border caret-transparent h-6 outline-[3px] text-nowrap align-baseline w-6"
                         />
@@ -440,7 +440,7 @@ export const AccountModal = () => {
                       className="appearance-none items-center bg-transparent caret-transparent flex leading-[23.04px] outline-[3px] text-center text-ellipsis text-nowrap p-0"
                     >
                       <img
-                        src="https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-33.svg"
+                        src="/images/feals/icon-33.svg"
                         alt="Icon"
                         className="box-border caret-transparent h-2 outline-[3px] text-nowrap align-baseline"
                       />
@@ -585,7 +585,7 @@ export const AccountModal = () => {
                             </span>
                             <span className="items-center box-border caret-transparent flex outline-[3px]">
                               <img
-                                src="https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-35.svg"
+                                src="/images/feals/icon-35.svg"
                                 alt="Icon"
                                 className="box-border caret-transparent flex h-1.5 outline-[3px] align-baseline mt-0.5"
                               />
@@ -611,7 +611,7 @@ export const AccountModal = () => {
                             </span>
                             <span className="items-center box-border caret-transparent flex outline-[3px]">
                               <img
-                                src="https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-35.svg"
+                                src="/images/feals/icon-35.svg"
                                 alt="Icon"
                                 className="box-border caret-transparent flex h-1.5 outline-[3px] align-baseline mt-0.5"
                               />
@@ -630,7 +630,7 @@ export const AccountModal = () => {
                             </span>
                             <span className="items-center box-border caret-transparent flex outline-[3px] text-nowrap">
                               <img
-                                src="https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-35.svg"
+                                src="/images/feals/icon-35.svg"
                                 alt="Icon"
                                 className="box-border caret-transparent flex h-1.5 outline-[3px] text-nowrap align-baseline mt-0.5"
                               />
@@ -647,7 +647,7 @@ export const AccountModal = () => {
                           <div className="relative items-center border-l-zinc-800 box-border caret-transparent gap-x-2.5 flex justify-center outline-[3px] gap-y-2.5 text-nowrap w-6/12 p-4 border-r-white border-y-white border-l">
                             <span className="box-border caret-transparent flex outline-[3px] text-nowrap">
                               <img
-                                src="https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-36.svg"
+                                src="/images/feals/icon-36.svg"
                                 alt="Icon"
                                 className="box-border caret-transparent h-5 outline-[3px] text-nowrap align-baseline w-6"
                               />
@@ -704,7 +704,7 @@ export const AccountModal = () => {
                     </div>
                     <span className="items-center box-border caret-transparent flex h-[18px] justify-center outline-[3px] w-[18px] rounded-[50%]">
                       <img
-                        src="https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-32.svg"
+                        src="/images/feals/icon-32.svg"
                         alt="Icon"
                         className="box-border caret-transparent h-3/4 outline-[3px] align-baseline w-[30px]"
                       />
@@ -733,7 +733,7 @@ export const AccountModal = () => {
                     </div>
                     <span className="items-center box-border caret-transparent flex h-[18px] justify-center outline-[3px] w-[18px] rounded-[50%]">
                       <img
-                        src="https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-32.svg"
+                        src="/images/feals/icon-32.svg"
                         alt="Icon"
                         className="box-border caret-transparent h-3/4 outline-[3px] align-baseline w-[30px]"
                       />
@@ -780,7 +780,7 @@ export const AccountModal = () => {
                       </span>
                       <span className="box-border caret-transparent block outline-[3px]">
                         <img
-                          src="https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-38.svg"
+                          src="/images/feals/icon-38.svg"
                           alt="Icon"
                           className="box-border caret-transparent inline h-[11px] outline-[3px] align-baseline"
                         />
@@ -795,7 +795,7 @@ export const AccountModal = () => {
                       </span>
                       <span className="box-border caret-transparent block outline-[3px]">
                         <img
-                          src="https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-38.svg"
+                          src="/images/feals/icon-38.svg"
                           alt="Icon"
                           className="box-border caret-transparent inline h-[11px] outline-[3px] align-baseline"
                         />
@@ -811,7 +811,7 @@ export const AccountModal = () => {
                       >
                         <div className="relative box-border caret-transparent h-[250px] outline-[3px] w-full z-[1] overflow-hidden mb-[5px] rounded-bl rounded-br rounded-tl rounded-tr">
                           <img
-                            src="https://c.animaapp.com/mpkdzooupOfzIE/assets/64.jpg"
+                            src="/images/feals/64.jpg"
                             alt="A better way to feel better"
                             className="box-border caret-transparent inline h-full object-cover outline-[3px] align-baseline w-full rounded-bl rounded-br rounded-tl rounded-tr"
                           />
@@ -896,7 +896,7 @@ export const AccountModal = () => {
                     </div>
                     <span className="items-center box-border caret-transparent flex h-[18px] justify-center outline-[3px] w-[18px] rounded-[50%]">
                       <img
-                        src="https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-32.svg"
+                        src="/images/feals/icon-32.svg"
                         alt="Icon"
                         className="box-border caret-transparent h-3/4 outline-[3px] align-baseline w-[30px]"
                       />
@@ -932,7 +932,7 @@ export const AccountModal = () => {
                     </div>
                     <span className="items-center box-border caret-transparent flex h-[18px] justify-center outline-[3px] w-[18px] rounded-[50%]">
                       <img
-                        src="https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-32.svg"
+                        src="/images/feals/icon-32.svg"
                         alt="Icon"
                         className="box-border caret-transparent h-3/4 outline-[3px] align-baseline w-[30px]"
                       />
@@ -981,7 +981,7 @@ export const AccountModal = () => {
                       className="appearance-none items-center bg-transparent caret-transparent flex leading-[23.04px] outline-[3px] text-center text-ellipsis text-nowrap p-0"
                     >
                       <img
-                        src="https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-33.svg"
+                        src="/images/feals/icon-33.svg"
                         alt="Icon"
                         className="box-border caret-transparent h-2 outline-[3px] text-nowrap align-baseline"
                       />
@@ -1004,7 +1004,7 @@ export const AccountModal = () => {
                       className="appearance-none items-center bg-transparent caret-transparent flex leading-[23.04px] outline-[3px] text-center text-ellipsis text-nowrap p-0"
                     >
                       <img
-                        src="https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-33.svg"
+                        src="/images/feals/icon-33.svg"
                         alt="Icon"
                         className="box-border caret-transparent h-2 outline-[3px] text-nowrap align-baseline"
                       />
@@ -1034,7 +1034,7 @@ export const AccountModal = () => {
                       className="appearance-none items-center bg-transparent caret-transparent flex leading-[23.04px] outline-[3px] text-center text-ellipsis text-nowrap p-0"
                     >
                       <img
-                        src="https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-33.svg"
+                        src="/images/feals/icon-33.svg"
                         alt="Icon"
                         className="box-border caret-transparent h-2 outline-[3px] text-nowrap align-baseline"
                       />
@@ -1086,7 +1086,7 @@ export const AccountModal = () => {
                       className="appearance-none items-center bg-transparent caret-transparent flex leading-[23.04px] outline-[3px] text-center text-ellipsis text-nowrap p-0"
                     >
                       <img
-                        src="https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-33.svg"
+                        src="/images/feals/icon-33.svg"
                         alt="Icon"
                         className="box-border caret-transparent h-2 outline-[3px] text-nowrap align-baseline"
                       />
@@ -1120,7 +1120,7 @@ export const AccountModal = () => {
                       className="appearance-none items-center bg-transparent caret-transparent flex leading-[23.04px] outline-[3px] text-center text-ellipsis text-nowrap p-0"
                     >
                       <img
-                        src="https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-33.svg"
+                        src="/images/feals/icon-33.svg"
                         alt="Icon"
                         className="box-border caret-transparent h-2 outline-[3px] text-nowrap align-baseline"
                       />
@@ -1141,7 +1141,7 @@ export const AccountModal = () => {
                       className="appearance-none items-center bg-transparent caret-transparent flex leading-[23.04px] outline-[3px] text-center text-ellipsis text-nowrap p-0"
                     >
                       <img
-                        src="https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-33.svg"
+                        src="/images/feals/icon-33.svg"
                         alt="Icon"
                         className="box-border caret-transparent h-2 outline-[3px] text-nowrap align-baseline"
                       />
@@ -1162,7 +1162,7 @@ export const AccountModal = () => {
                       className="appearance-none items-center bg-transparent caret-transparent flex leading-[23.04px] outline-[3px] text-center text-ellipsis text-nowrap p-0"
                     >
                       <img
-                        src="https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-33.svg"
+                        src="/images/feals/icon-33.svg"
                         alt="Icon"
                         className="box-border caret-transparent h-2 outline-[3px] text-nowrap align-baseline"
                       />
@@ -1180,7 +1180,7 @@ export const AccountModal = () => {
                       </span>
                       <span className="box-border caret-transparent outline-[3px] text-nowrap">
                         <img
-                          src="https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-39.svg"
+                          src="/images/feals/icon-39.svg"
                           alt="Icon"
                           className="box-border caret-transparent inline h-5 outline-[3px] text-nowrap align-baseline w-5 ml-[5px]"
                         />
@@ -1205,7 +1205,7 @@ export const AccountModal = () => {
                       className="appearance-none items-center bg-transparent caret-transparent flex leading-[23.04px] outline-[3px] text-center text-ellipsis text-nowrap p-0"
                     >
                       <img
-                        src="https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-33.svg"
+                        src="/images/feals/icon-33.svg"
                         alt="Icon"
                         className="box-border caret-transparent h-2 outline-[3px] text-nowrap align-baseline"
                       />
@@ -1226,7 +1226,7 @@ export const AccountModal = () => {
                       className="appearance-none items-center bg-transparent caret-transparent flex leading-[23.04px] outline-[3px] text-center text-ellipsis text-nowrap p-0"
                     >
                       <img
-                        src="https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-33.svg"
+                        src="/images/feals/icon-33.svg"
                         alt="Icon"
                         className="box-border caret-transparent h-2 outline-[3px] text-nowrap align-baseline"
                       />
@@ -1248,7 +1248,7 @@ export const AccountModal = () => {
                       className="appearance-none items-center bg-transparent caret-transparent flex leading-[23.04px] outline-[3px] text-center text-ellipsis text-nowrap p-0"
                     >
                       <img
-                        src="https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-33.svg"
+                        src="/images/feals/icon-33.svg"
                         alt="Icon"
                         className="box-border caret-transparent h-2 outline-[3px] text-nowrap align-baseline"
                       />
@@ -1274,7 +1274,7 @@ export const AccountModal = () => {
               >
                 <div className="box-border caret-transparent hidden outline-[3px]">
                   <img
-                    src="https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-40.svg"
+                    src="/images/feals/icon-40.svg"
                     alt="Icon"
                     className="box-border caret-transparent inline h-5 outline-[3px] align-baseline w-5"
                   />
@@ -1290,7 +1290,7 @@ export const AccountModal = () => {
               >
                 <div className="box-border caret-transparent hidden outline-[3px]">
                   <img
-                    src="https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-41.svg"
+                    src="/images/feals/icon-41.svg"
                     alt="Icon"
                     className="box-border caret-transparent inline h-5 outline-[3px] align-baseline w-5"
                   />
@@ -1306,7 +1306,7 @@ export const AccountModal = () => {
               >
                 <div className="box-border caret-transparent hidden outline-[3px]">
                   <img
-                    src="https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-42.svg"
+                    src="/images/feals/icon-42.svg"
                     alt="Icon"
                     className="box-border caret-transparent inline h-5 outline-[3px] align-baseline w-5"
                   />

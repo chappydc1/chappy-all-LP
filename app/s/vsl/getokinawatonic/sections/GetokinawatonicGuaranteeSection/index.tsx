@@ -5,7 +5,7 @@ export const GetokinawatonicGuaranteeSection = () => {
         <div className="box-border caret-transparent outline-[3px] mx-0 md:ml-[-15px] md:mr-[-15px] before:accent-auto before:box-border before:caret-transparent before:text-black before:table before:text-lg before:not-italic before:normal-nums before:font-normal before:tracking-[normal] before:leading-[25.7143px] before:list-outside before:list-disc before:outline-[3px] before:pointer-events-auto before:text-start before:no-underline before:indent-[0px] before:normal-case before:visible before:border-separate before:font-apple_system after:accent-auto after:box-border after:caret-transparent after:clear-both after:text-black after:table after:text-lg after:not-italic after:normal-nums after:font-normal after:tracking-[normal] after:leading-[25.7143px] after:list-outside after:list-disc after:outline-[3px] after:pointer-events-auto after:text-start after:no-underline after:indent-[0px] after:normal-case after:visible after:border-separate after:font-apple_system">
           <div className="relative box-border caret-transparent float-none min-h-px outline-[3px] w-auto px-[15px] md:float-left md:w-3/12">
             <img
-              src="https://getokinawatonic.com/sp-vsl-1/images/grt.png"
+              src="/images/getokinawatonic/grt.png"
               alt="img"
               className="box-border caret-transparent max-w-full outline-[3px] w-4/5 mx-auto md:w-auto md:mx-0"
             />

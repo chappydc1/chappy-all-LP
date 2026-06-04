@@ -15,7 +15,7 @@ export const DiabetesOfferBlock = () => {
             <div className="box-border caret-transparent shrink-0 max-w-full outline-[3px] w-full px-3 md:w-3/12">
               <figure className="box-border caret-transparent outline-[3px]">
                 <img
-                  src="/img/guarantee-badge.webp?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
+                  src="/images/img/guarantee-badge.webp?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
                   alt="Guarantee"
                   className="box-border caret-transparent inline max-w-[200px] outline-[3px] mb-4"
                 />
@@ -77,35 +77,35 @@ export const DiabetesOfferBlock = () => {
               <div className="items-center box-border caret-transparent gap-x-2 flex flex-wrap justify-center outline-[3px] gap-y-2 mt-4">
                 <figure className="box-border caret-transparent outline-[3px]">
                   <img
-                    src="/img/gmp.png?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
+                    src="/images/img/gmp.png?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
                     alt="Badge"
                     className="bg-white shadow-[rgba(0,0,0,0.25)_2px_2px_10px_0px] box-border caret-transparent inline max-w-[70px] outline-[3px] rounded-[50%] border-[3px] border-solid border-white md:max-w-[100px]"
                   />
                 </figure>
                 <figure className="box-border caret-transparent outline-[3px]">
                   <img
-                    src="/img/fda.png?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
+                    src="/images/img/fda.png?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
                     alt="Badge"
                     className="bg-white shadow-[rgba(0,0,0,0.25)_2px_2px_10px_0px] box-border caret-transparent inline max-w-[70px] outline-[3px] rounded-[50%] border-[3px] border-solid border-white md:max-w-[100px]"
                   />
                 </figure>
                 <figure className="box-border caret-transparent outline-[3px]">
                   <img
-                    src="/img/nat.png?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
+                    src="/images/img/nat.png?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
                     alt="Badge"
                     className="bg-white shadow-[rgba(0,0,0,0.25)_2px_2px_10px_0px] box-border caret-transparent inline max-w-[70px] outline-[3px] rounded-[50%] border-[3px] border-solid border-white md:max-w-[100px]"
                   />
                 </figure>
                 <figure className="box-border caret-transparent outline-[3px]">
                   <img
-                    src="/img/foreign.png?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
+                    src="/images/img/foreign.png?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
                     alt="Badge"
                     className="bg-white shadow-[rgba(0,0,0,0.25)_2px_2px_10px_0px] box-border caret-transparent inline max-w-[70px] outline-[3px] rounded-[50%] border-[3px] border-solid border-white md:max-w-[100px]"
                   />
                 </figure>
                 <figure className="box-border caret-transparent outline-[3px]">
                   <img
-                    src="/img/gmo.png?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
+                    src="/images/img/gmo.png?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
                     alt="Badge"
                     className="bg-white shadow-[rgba(0,0,0,0.25)_2px_2px_10px_0px] box-border caret-transparent inline max-w-[70px] outline-[3px] rounded-[50%] border-[3px] border-solid border-white md:max-w-[100px]"
                   />
@@ -121,7 +121,7 @@ export const DiabetesOfferBlock = () => {
             <div className="box-border caret-transparent flex flex-wrap outline-[3px] -mx-3">
               <div className="box-border caret-transparent shrink-0 max-w-full outline-[3px] w-full px-3 md:w-[16.6667%]">
                 <img
-                  src="/img/shopping.png?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
+                  src="/images/img/shopping.png?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
                   alt=""
                   className="box-border caret-transparent inline invert-[1] max-w-[100px] outline-[3px] md:max-w-[180px]"
                 />
@@ -156,7 +156,7 @@ export const DiabetesOfferBlock = () => {
                   <div className="box-border caret-transparent outline-[3px] break-words">
                     <div className="items-center box-border caret-transparent gap-x-2 flex outline-[3px] break-words gap-y-2 mb-2">
                       <img
-                        src="/img/avatar.webp?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
+                        src="/images/img/avatar.webp?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
                         alt="Profile"
                         className="box-border caret-transparent max-w-[30px] outline-[3px] break-words"
                       />
@@ -185,7 +185,7 @@ export const DiabetesOfferBlock = () => {
                     </div>
                     <div className="box-border caret-transparent max-w-[200px] outline-[3px] break-words mb-0 md:mb-4">
                       <img
-                        src="/img/depoimento/1f.jpg?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
+                        src="/images/img/depoimento/1f.jpg?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
                         alt=""
                         className="box-border caret-transparent inline h-full object-cover outline-[3px] break-words w-full mb-4 md:mb-0"
                       />
@@ -229,7 +229,7 @@ export const DiabetesOfferBlock = () => {
                   <div className="box-border caret-transparent outline-[3px] break-words">
                     <div className="items-center box-border caret-transparent gap-x-2 flex outline-[3px] break-words gap-y-2 mb-2">
                       <img
-                        src="/img/avatar.webp?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
+                        src="/images/img/avatar.webp?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
                         alt="Profile"
                         className="box-border caret-transparent max-w-[30px] outline-[3px] break-words"
                       />
@@ -257,7 +257,7 @@ export const DiabetesOfferBlock = () => {
                     </div>
                     <div className="box-border caret-transparent max-w-[200px] outline-[3px] break-words mb-0 md:mb-4">
                       <img
-                        src="/img/depoimento/102.jpg?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
+                        src="/images/img/depoimento/102.jpg?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
                         alt=""
                         className="box-border caret-transparent inline h-full object-cover outline-[3px] break-words w-full mb-4 md:mb-0"
                       />
@@ -300,7 +300,7 @@ export const DiabetesOfferBlock = () => {
                   <div className="box-border caret-transparent outline-[3px] break-words">
                     <div className="items-center box-border caret-transparent gap-x-2 flex outline-[3px] break-words gap-y-2 mb-2">
                       <img
-                        src="/img/avatar.webp?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
+                        src="/images/img/avatar.webp?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
                         alt="Profile"
                         className="box-border caret-transparent max-w-[30px] outline-[3px] break-words"
                       />
@@ -328,7 +328,7 @@ export const DiabetesOfferBlock = () => {
                     </div>
                     <div className="box-border caret-transparent max-w-[200px] outline-[3px] break-words mb-0 md:mb-4">
                       <img
-                        src="/img/depoimento/3m.jpg?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
+                        src="/images/img/depoimento/3m.jpg?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
                         alt=""
                         className="box-border caret-transparent inline h-full object-cover outline-[3px] break-words w-full mb-4 md:mb-0"
                       />
@@ -372,7 +372,7 @@ export const DiabetesOfferBlock = () => {
                   <div className="box-border caret-transparent outline-[3px] break-words">
                     <div className="items-center box-border caret-transparent gap-x-2 flex outline-[3px] break-words gap-y-2 mb-2">
                       <img
-                        src="/img/avatar.webp?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
+                        src="/images/img/avatar.webp?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
                         alt="Profile"
                         className="box-border caret-transparent max-w-[30px] outline-[3px] break-words"
                       />
@@ -400,7 +400,7 @@ export const DiabetesOfferBlock = () => {
                     </div>
                     <div className="box-border caret-transparent max-w-[200px] outline-[3px] break-words mb-0 md:mb-4">
                       <img
-                        src="/img/depoimento/4f.jpg?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
+                        src="/images/img/depoimento/4f.jpg?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
                         alt=""
                         className="box-border caret-transparent inline h-full object-cover outline-[3px] break-words w-full mb-4 md:mb-0"
                       />
@@ -442,7 +442,7 @@ export const DiabetesOfferBlock = () => {
                   <div className="box-border caret-transparent outline-[3px] break-words">
                     <div className="items-center box-border caret-transparent gap-x-2 flex outline-[3px] break-words gap-y-2 mb-2">
                       <img
-                        src="/img/avatar.webp?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
+                        src="/images/img/avatar.webp?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
                         alt="Profile"
                         className="box-border caret-transparent max-w-[30px] outline-[3px] break-words"
                       />
@@ -470,7 +470,7 @@ export const DiabetesOfferBlock = () => {
                     </div>
                     <div className="box-border caret-transparent max-w-[200px] outline-[3px] break-words mb-0 md:mb-4">
                       <img
-                        src="/img/depoimento/5f.jpg?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
+                        src="/images/img/depoimento/5f.jpg?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
                         alt=""
                         className="box-border caret-transparent inline h-full object-cover outline-[3px] break-words w-full mb-4 md:mb-0"
                       />
@@ -520,7 +520,7 @@ export const DiabetesOfferBlock = () => {
         bottlesRemaining="218"
       />
       <DiabetesPackageSection
-        shippingImageSrc="/img/ship-icon.png?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
+        shippingImageSrc="/images/img/ship-icon.png?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
         shippingImageAlt=""
         shippingText="Enjoy"
         highlightedText="FREE SHIPPING"
@@ -540,7 +540,7 @@ export const DiabetesOfferBlock = () => {
             packageTitle: "BUY 3 GET + 3 FREE",
             supplyText: "180 DAY SUPPLY",
             bottleImageSrc:
-              "/img/bottles/3e3.png?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05",
+              "/images/img/bottles/3e3.png?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05",
             bottleImageAlt: "3 + 3 Bottles",
             bottleImageVariant: "max-h-60",
             price: "49",
@@ -551,7 +551,7 @@ export const DiabetesOfferBlock = () => {
             guaranteeText: "60 DAYS GUARANTEE",
             guaranteeVariant: "border-t-white border-b-white/40 border-x-white",
             cardsImageSrc:
-              "/img/cards-dark.webp?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05",
+              "/images/img/cards-dark.webp?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05",
             totalOriginalPrice: "$894",
             totalPrice: "$294",
             shippingText: " SHIPPING",
@@ -570,7 +570,7 @@ export const DiabetesOfferBlock = () => {
             packageTitle: "BUY 2 GET + 1 FREE",
             supplyText: "90 DAY SUPPLY",
             bottleImageSrc:
-              "/img/bottles/2e1.png?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05",
+              "/images/img/bottles/2e1.png?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05",
             bottleImageAlt: "2 + 1 Bottles",
             bottleImageVariant: "max-h-[200px]",
             price: "69",
@@ -583,7 +583,7 @@ export const DiabetesOfferBlock = () => {
             guaranteeVariant:
               "border-l-zinc-900 border-r-zinc-900 border-t-zinc-900 border-b-black/40",
             cardsImageSrc:
-              "/img/cards.webp?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05",
+              "/images/img/cards.webp?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05",
             totalOriginalPrice: "$447",
             totalPrice: "$207",
             shippingText: "SHIPPING",
@@ -602,7 +602,7 @@ export const DiabetesOfferBlock = () => {
             packageTitle: "2 BOTTLES",
             supplyText: "60 DAY SUPPLY",
             bottleImageSrc:
-              "/img/bottles/2.png?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05",
+              "/images/img/bottles/2.png?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05",
             bottleImageVariant: "max-h-[200px]",
             price: "79",
             savingsText: "YOU SAVE $140!",
@@ -614,7 +614,7 @@ export const DiabetesOfferBlock = () => {
             guaranteeVariant:
               "border-l-zinc-900 border-r-zinc-900 border-t-zinc-900 border-b-black/40",
             cardsImageSrc:
-              "/img/cards.webp?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05",
+              "/images/img/cards.webp?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05",
             totalOriginalPrice: "$298",
             totalPrice: "$158",
             shippingText: "+ SHIPPING",
@@ -849,7 +849,7 @@ export const DiabetesOfferBlock = () => {
                   Who Is Dr. William Li?
                 </h2>
                 <img
-                  src="/img/doctor.jpg?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
+                  src="/images/img/doctor.jpg?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
                   alt="Doctor"
                   className="box-border caret-transparent inline max-w-fit outline-[3px] w-full"
                 />
@@ -902,7 +902,7 @@ export const DiabetesOfferBlock = () => {
             <div className="box-border caret-transparent shrink-0 max-w-full outline-[3px] w-full px-3 md:w-3/12">
               <figure className="box-border caret-transparent outline-[3px]">
                 <img
-                  src="/img/guarantee-badge.webp?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
+                  src="/images/img/guarantee-badge.webp?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
                   alt="Guarantee"
                   className="box-border caret-transparent inline max-w-[200px] outline-[3px] mb-4"
                 />
@@ -964,35 +964,35 @@ export const DiabetesOfferBlock = () => {
               <div className="items-center box-border caret-transparent gap-x-2 flex flex-wrap justify-center outline-[3px] gap-y-2 mt-4">
                 <figure className="box-border caret-transparent outline-[3px]">
                   <img
-                    src="/img/gmp.png?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
+                    src="/images/img/gmp.png?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
                     alt="Badge"
                     className="bg-white shadow-[rgba(0,0,0,0.25)_2px_2px_10px_0px] box-border caret-transparent inline max-w-[70px] outline-[3px] rounded-[50%] border-[3px] border-solid border-white md:max-w-[100px]"
                   />
                 </figure>
                 <figure className="box-border caret-transparent outline-[3px]">
                   <img
-                    src="/img/fda.png?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
+                    src="/images/img/fda.png?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
                     alt="Badge"
                     className="bg-white shadow-[rgba(0,0,0,0.25)_2px_2px_10px_0px] box-border caret-transparent inline max-w-[70px] outline-[3px] rounded-[50%] border-[3px] border-solid border-white md:max-w-[100px]"
                   />
                 </figure>
                 <figure className="box-border caret-transparent outline-[3px]">
                   <img
-                    src="/img/nat.png?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
+                    src="/images/img/nat.png?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
                     alt="Badge"
                     className="bg-white shadow-[rgba(0,0,0,0.25)_2px_2px_10px_0px] box-border caret-transparent inline max-w-[70px] outline-[3px] rounded-[50%] border-[3px] border-solid border-white md:max-w-[100px]"
                   />
                 </figure>
                 <figure className="box-border caret-transparent outline-[3px]">
                   <img
-                    src="/img/foreign.png?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
+                    src="/images/img/foreign.png?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
                     alt="Badge"
                     className="bg-white shadow-[rgba(0,0,0,0.25)_2px_2px_10px_0px] box-border caret-transparent inline max-w-[70px] outline-[3px] rounded-[50%] border-[3px] border-solid border-white md:max-w-[100px]"
                   />
                 </figure>
                 <figure className="box-border caret-transparent outline-[3px]">
                   <img
-                    src="/img/gmo.png?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
+                    src="/images/img/gmo.png?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
                     alt="Badge"
                     className="bg-white shadow-[rgba(0,0,0,0.25)_2px_2px_10px_0px] box-border caret-transparent inline max-w-[70px] outline-[3px] rounded-[50%] border-[3px] border-solid border-white md:max-w-[100px]"
                   />
@@ -1008,7 +1008,7 @@ export const DiabetesOfferBlock = () => {
         bottlesRemaining="218"
       />
       <DiabetesPackageSection
-        shippingImageSrc="/img/ship-icon.png?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
+        shippingImageSrc="/images/img/ship-icon.png?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
         shippingImageAlt=""
         shippingText="Enjoy"
         highlightedText="FREE SHIPPING"
@@ -1028,7 +1028,7 @@ export const DiabetesOfferBlock = () => {
             packageTitle: "BUY 3 GET + 3 FREE",
             supplyText: "180 DAY SUPPLY",
             bottleImageSrc:
-              "/img/bottles/3e3.png?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05",
+              "/images/img/bottles/3e3.png?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05",
             bottleImageAlt: "3 + 3 Bottles",
             bottleImageVariant: "max-h-60",
             price: "49",
@@ -1039,7 +1039,7 @@ export const DiabetesOfferBlock = () => {
             guaranteeText: "60 DAYS GUARANTEE",
             guaranteeVariant: "border-t-white border-b-white/40 border-x-white",
             cardsImageSrc:
-              "/img/cards-dark.webp?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05",
+              "/images/img/cards-dark.webp?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05",
             totalOriginalPrice: "$894",
             totalPrice: "$294",
             shippingText: " SHIPPING",
@@ -1058,7 +1058,7 @@ export const DiabetesOfferBlock = () => {
             packageTitle: "2 BOTTLES",
             supplyText: "60 DAY SUPPLY",
             bottleImageSrc:
-              "/img/bottles/2.png?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05",
+              "/images/img/bottles/2.png?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05",
             bottleImageVariant: "max-h-[200px]",
             price: "79",
             savingsText: "YOU SAVE $140!",
@@ -1070,7 +1070,7 @@ export const DiabetesOfferBlock = () => {
             guaranteeVariant:
               "border-l-zinc-900 border-r-zinc-900 border-t-zinc-900 border-b-black/40",
             cardsImageSrc:
-              "/img/cards.webp?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05",
+              "/images/img/cards.webp?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05",
             totalOriginalPrice: "$298",
             totalPrice: "$158",
             shippingText: "+ SHIPPING",

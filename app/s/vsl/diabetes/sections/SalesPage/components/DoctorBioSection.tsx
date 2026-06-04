@@ -9,7 +9,7 @@ export const DiabetesDoctorBioSection = () => {
                 Who Is Dr. William Li?
               </h2>
               <img
-                src="/img/doctor.jpg?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
+                src="/images/img/doctor.jpg?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
                 alt="Doctor"
                 className="box-border caret-transparent inline max-w-fit outline-[3px] w-full"
               />

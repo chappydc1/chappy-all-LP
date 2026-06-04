@@ -8,7 +8,7 @@ export const HeroMedia = () => {
           playsInline
           muted
           src="https://cdn.shopify.com/videos/c/o/v/c986f679e75e415bbf16e2d849473ecb.mp4"
-          poster="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1728695465026_avoid_knee_surgery_poster.webp"
+          poster="/images/rejuvacare/1728695465026_avoid_knee_surgery_poster.webp"
           className="absolute box-border caret-transparent basis-[0%] shrink-0 h-full max-w-full outline-[3px] align-baseline w-full mx-0 px-0 rounded-none left-0 inset-y-0 md:mx-px md:px-px md:rounded-[15px]"
         ></video>
       </div>

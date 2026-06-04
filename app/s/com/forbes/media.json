@@ -1,32 +1,32 @@
 {
   "logos": {
-    "header": "/forbes/icon-1.svg",
-    "footer": "/forbes/icon-2.svg"
+    "header": "/images/forbes/icon-1.svg",
+    "footer": "/images/forbes/icon-2.svg"
   },
   "hero": {
-    "background": "/forbes/20.jpg"
+    "background": "/images/forbes/20.jpg"
   },
   "products": {
-    "medvi": "/forbes/11.webp",
-    "remedyMeds": "/forbes/13.webp",
-    "noom": "/forbes/14.webp",
-    "hers": "/forbes/15.webp",
-    "hims": "/forbes/16.webp",
-    "sprout": "/forbes/17.webp",
-    "ivim": "/forbes/2.webp",
-    "eden": "/forbes/4.webp",
-    "medviStickyBar": "/forbes/43a5ccbcf58e4857a2e674374aeb981c.png"
+    "medvi": "/images/forbes/11.webp",
+    "remedyMeds": "/images/forbes/13.webp",
+    "noom": "/images/forbes/14.webp",
+    "hers": "/images/forbes/15.webp",
+    "hims": "/images/forbes/16.webp",
+    "sprout": "/images/forbes/17.webp",
+    "ivim": "/images/forbes/2.webp",
+    "eden": "/images/forbes/4.webp",
+    "medviStickyBar": "/images/forbes/43a5ccbcf58e4857a2e674374aeb981c.png"
   },
   "article": {
-    "howItWorks": "/forbes/21.jpg"
+    "howItWorks": "/images/forbes/21.jpg"
   },
   "ui": {
-    "rightArrow": "/forbes/right-arrow.svg",
-    "starEmpty": "https://www.forbes.com/wui/assets/shared/star-empty-slim.svg",
-    "starFull": "https://www.forbes.com/wui/assets/shared/star-slim.svg",
-    "trophyPrimary": "https://www.forbes.com/wui/assets/superlative/trophy-primary.svg",
-    "trophyHealth": "https://www.forbes.com/wui/assets/health-icons/superlative-trophy.svg",
-    "circleTick": "https://www.forbes.com/wui/assets/shared/circle-tick-dark.svg"
+    "rightArrow": "/images/forbes/right-arrow.svg",
+    "starEmpty": "/images/forbes/star-empty-slim.svg",
+    "starFull": "/images/forbes/star-slim.svg",
+    "trophyPrimary": "/images/forbes/trophy-primary.svg",
+    "trophyHealth": "/images/forbes/superlative-trophy.svg",
+    "circleTick": "/images/forbes/circle-tick-dark.svg"
   },
   "fonts": {
     "euclidCircularB": {

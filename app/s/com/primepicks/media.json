@@ -1,56 +1,56 @@
 {
-  "logo": "/assets/primepicks/PrimePicks_logo_black.svg",
-  "heroBg": "/assets/primepicks/aGVyb193ZWIuanBn.jpg",
-  "authorPhoto": "/assets/primepicks/ZXhwZXJ0LTQ0LmpwZw.jpg",
+  "logo": "/images/primepicks/PrimePicks_logo_black.svg",
+  "heroBg": "/images/primepicks/aGVyb193ZWIuanBn.jpg",
+  "authorPhoto": "/images/primepicks/ZXhwZXJ0LTQ0LmpwZw.jpg",
   "icons": {
-    "checkFill": "/assets/primepicks/lets-icons_check-fill.svg",
-    "flagUs": "/assets/primepicks/flag-us.svg",
-    "ratingStars": "/assets/primepicks/rating-stars.svg",
-    "arrowRight": "/assets/primepicks/icon-1.svg",
-    "subtract": "/assets/primepicks/subtract.svg",
-    "proCheck": "/assets/primepicks/fe_checked-icon.svg",
-    "conX": "/assets/primepicks/con-x.svg",
-    "showMore": "/assets/primepicks/icon-2.svg",
-    "sidebarPro": "/assets/primepicks/icon-3.svg",
-    "sidebarCon": "/assets/primepicks/icon-4.svg",
-    "star5": "/assets/primepicks/star-5.svg",
-    "quoteBg": "/assets/primepicks/quote-top-left.svg"
+    "checkFill": "/images/primepicks/lets-icons_check-fill.svg",
+    "flagUs": "/images/primepicks/flag-us.svg",
+    "ratingStars": "/images/primepicks/rating-stars.svg",
+    "arrowRight": "/images/primepicks/icon-1.svg",
+    "subtract": "/images/primepicks/subtract.svg",
+    "proCheck": "/images/primepicks/fe_checked-icon.svg",
+    "conX": "/images/primepicks/con-x.svg",
+    "showMore": "/images/primepicks/icon-2.svg",
+    "sidebarPro": "/images/primepicks/icon-3.svg",
+    "sidebarCon": "/images/primepicks/icon-4.svg",
+    "star5": "/images/primepicks/star-5.svg",
+    "quoteBg": "/images/primepicks/quote-top-left.svg"
   },
   "stars": {
-    "5stars": "/assets/primepicks/TrustRate-5-stars-1-1-2-6.svg",
-    "4halfStars": "/assets/primepicks/TrustRate-4-half-stars-1-1-1-2-2-2.svg",
-    "greenStars": "/assets/primepicks/green-stars.svg",
-    "testimonialStars": "/assets/primepicks/Testimonials-stars-icons-7-4-1-1.svg",
-    "product3Rating": "/assets/primepicks/product-3-rating-2.svg",
-    "product4Rating": "/assets/primepicks/product-4-rating-2.svg",
-    "product5Rating": "/assets/primepicks/product-5-rating-2.svg"
+    "5stars": "/images/primepicks/TrustRate-5-stars-1-1-2-6.svg",
+    "4halfStars": "/images/primepicks/TrustRate-4-half-stars-1-1-1-2-2-2.svg",
+    "greenStars": "/images/primepicks/green-stars.svg",
+    "testimonialStars": "/images/primepicks/Testimonials-stars-icons-7-4-1-1.svg",
+    "product3Rating": "/images/primepicks/product-3-rating-2.svg",
+    "product4Rating": "/images/primepicks/product-4-rating-2.svg",
+    "product5Rating": "/images/primepicks/product-5-rating-2.svg"
   },
   "products": {
     "tagsley": {
-      "image": "/assets/primepicks/MV8uanBn.jpg",
-      "ratingStars": "/assets/primepicks/TrustRate-5-stars-1-1-2-6.svg"
+      "image": "/images/primepicks/MV8uanBn.jpg",
+      "ratingStars": "/images/primepicks/TrustRate-5-stars-1-1-2-6.svg"
     },
     "tilePro": {
-      "image": "/assets/primepicks/Ml8uanBn.jpg",
-      "ratingStars": "/assets/primepicks/TrustRate-4-half-stars-1-1-1-2-2-2.svg"
+      "image": "/images/primepicks/Ml8uanBn.jpg",
+      "ratingStars": "/images/primepicks/TrustRate-4-half-stars-1-1-1-2-2-2.svg"
     },
     "smartTrackCard": {
-      "image": "/assets/primepicks/M18uanBn.jpg",
-      "ratingStars": "/assets/primepicks/product-3-rating-2.svg"
+      "image": "/images/primepicks/M18uanBn.jpg",
+      "ratingStars": "/images/primepicks/product-3-rating-2.svg"
     },
     "cardUniversal": {
-      "image": "/assets/primepicks/NF8uanBn.jpg",
-      "ratingStars": "/assets/primepicks/product-4-rating-2.svg"
+      "image": "/images/primepicks/NF8uanBn.jpg",
+      "ratingStars": "/images/primepicks/product-4-rating-2.svg"
     },
     "trackingCard": {
-      "image": "/assets/primepicks/NV8uanBn.jpg",
-      "ratingStars": "/assets/primepicks/product-5-rating-2.svg"
+      "image": "/images/primepicks/NV8uanBn.jpg",
+      "ratingStars": "/images/primepicks/product-5-rating-2.svg"
     }
   },
   "article": {
-    "videoPoster1": "/assets/primepicks/image-160-scaled.jpg",
-    "videoPoster2": "/assets/primepicks/image-161.jpg",
-    "articleImage1": "/assets/primepicks/M19UYWdzbGV5X1RyYWNraW5nLUNhcmQuanBn-w_720.jpg",
-    "articleImage2": "/assets/primepicks/NF9UYWdzbGV5X1RyYWNraW5nLUNhcmQuanBn-w_720.jpg"
+    "videoPoster1": "/images/primepicks/image-160-scaled.jpg",
+    "videoPoster2": "/images/primepicks/image-161.jpg",
+    "articleImage1": "/images/primepicks/M19UYWdzbGV5X1RyYWNraW5nLUNhcmQuanBn-w_720.jpg",
+    "articleImage2": "/images/primepicks/NF9UYWdzbGV5X1RyYWNraW5nLUNhcmQuanBn-w_720.jpg"
   }
 }

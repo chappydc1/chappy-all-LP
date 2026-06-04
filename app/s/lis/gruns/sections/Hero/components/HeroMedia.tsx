@@ -3,7 +3,7 @@ export const HeroMedia = () => {
     <div className="relative box-border caret-transparent grow-0 max-w-none min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden mb-5 rounded-bl rounded-br rounded-tl rounded-tr md:grow md:max-w-[540px] md:mb-0">
       <picture className="box-border caret-transparent outline-[3px]">
         <img
-          src="/s/lis/gruns/media/63.webp"
+          src="/images/gruns/63.webp"
           alt="Woman holding a green 'grüns' package and gummy bears outdoors"
           className="aspect-[auto_400_/_313] box-border caret-transparent h-auto max-w-full object-[53.906%_16.309%] outline-[3px] w-full md:h-[422px] md:w-[540px]"
         />

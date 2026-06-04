@@ -72,7 +72,7 @@ export const ReplyItem = (props: ReplyItemProps) => {
           <img
             role="img"
             alt="👍"
-            src="/vsl/oprah/media/1f44d.svg"
+            src="/images/oprah/1f44d.svg"
             className={`box-border caret-transparent inline max-w-full ${props.likeIconClass}`}
             style={{ filter: liked ? "none" : undefined }}
           />
@@ -86,7 +86,7 @@ export const ReplyItem = (props: ReplyItemProps) => {
           <img
             role="img"
             alt="🔁"
-            src="/vsl/oprah/media/1f501.svg"
+            src="/images/oprah/1f501.svg"
             className={`box-border caret-transparent inline max-w-full ${props.replyIconClass}`}
           />
           {` ${props.actionText}`}

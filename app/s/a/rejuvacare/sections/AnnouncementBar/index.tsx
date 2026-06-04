@@ -44,7 +44,7 @@ export const AnnouncementBar = () => {
                   <div className="items-center box-border caret-transparent flex justify-start min-h-[auto] min-w-[auto] outline-[3px] w-9">
                     <img
                       title=""
-                      src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722846383829_icon_check.webp"
+                      src="/images/rejuvacare/1722846383829_icon_check.webp"
                       alt=""
                       className="text-black box-border caret-transparent h-[26px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-[26px] mt-[7px] mb-px md:my-0"
                     />
@@ -59,7 +59,7 @@ export const AnnouncementBar = () => {
                   <div className="items-center box-border caret-transparent flex justify-start min-h-[auto] min-w-[auto] outline-[3px] w-9">
                     <img
                       title=""
-                      src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722846383829_icon_check.webp"
+                      src="/images/rejuvacare/1722846383829_icon_check.webp"
                       alt=""
                       className="text-black box-border caret-transparent h-[26px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-[26px] mt-[9px] mb-px md:my-0"
                     />
@@ -74,7 +74,7 @@ export const AnnouncementBar = () => {
                   <div className="items-center box-border caret-transparent flex justify-start min-h-[auto] min-w-[auto] outline-[3px] w-9">
                     <img
                       title=""
-                      src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722846383829_icon_check.webp"
+                      src="/images/rejuvacare/1722846383829_icon_check.webp"
                       alt=""
                       className="text-black box-border caret-transparent h-[26px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-[26px] mt-1.5 mb-px md:my-0"
                     />
@@ -91,7 +91,7 @@ export const AnnouncementBar = () => {
                   <div className="items-center box-border caret-transparent flex justify-start min-h-[auto] min-w-[auto] outline-[3px] w-9">
                     <img
                       title=""
-                      src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722846383829_icon_check.webp"
+                      src="/images/rejuvacare/1722846383829_icon_check.webp"
                       alt=""
                       className="text-black box-border caret-transparent h-[26px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-[26px] mt-1.5 mb-px md:my-0"
                     />
@@ -116,7 +116,7 @@ export const AnnouncementBar = () => {
                   <div className="box-border caret-transparent flex justify-around min-h-[auto] min-w-[auto] outline-[3px] w-full my-2.5 p-px md:justify-normal md:my-[22px]">
                     <img
                       title=""
-                      src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722821080411_cc_payment_options.webp"
+                      src="/images/rejuvacare/1722821080411_cc_payment_options.webp"
                       alt=""
                       className="text-black box-border caret-transparent justify-start max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-[276px] my-px md:w-auto"
                     />
@@ -146,9 +146,9 @@ export const AnnouncementBar = () => {
                       </i>
                     </div>
                   </div>
-                  <div className="items-center bg-[url('https://assets.imagehub.io/bb6d9900-4f98-11ef-a365-7332b5bb1723/1722821367050_dr_james_barkley.webp')] bg-no-repeat bg-cover box-border caret-transparent flex flex-col h-[210px] justify-end min-h-[auto] min-w-[auto] outline-[3px] w-[300px] bg-[position:left_100%] -ml-2.5 md:items-end md:flex-row md:h-[177px] md:w-[175px]"></div>
+                  <div className="items-center bg-[url('/images/rejuvacare/1722821367050_dr_james_barkley.webp"></div>
                 </div>
-                <div className="bg-white bg-[url('https://assets.imagehub.io/0fae3c70-45dd-11ee-86e4-45d907ee05ed/1713781536653_1713532949416_2_1_.png')] bg-no-repeat bg-contain box-border caret-transparent flex min-h-[auto] min-w-[auto] outline-[3px] w-full bg-right-bottom mt-[15px] rounded-[10px] md:mt-4"></div>
+                <div className="bg-white bg-[url('/images/rejuvacare/1713781536653_1713532949416_2_1_.png"></div>
               </div>
               <div className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] w-full md:w-[70%]">
                 <div className="relative box-border caret-transparent outline-[3px] w-full overflow-hidden before:accent-auto before:box-border before:caret-transparent before:text-neutral-800 before:block before:text-base before:not-italic before:normal-nums before:font-normal before:tracking-[normal] before:leading-6 before:list-outside before:list-disc before:outline-[3px] before:pointer-events-auto before:no-underline before:indent-[0px] before:normal-case before:visible before:pt-[100%] before:border-separate before:font-apple_system">
@@ -158,7 +158,7 @@ export const AnnouncementBar = () => {
                     playsInline
                     muted
                     src="https://cdn.shopify.com/videos/c/o/v/c986f679e75e415bbf16e2d849473ecb.mp4"
-                    poster="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1728695465026_avoid_knee_surgery_poster.webp"
+                    poster="/images/rejuvacare/1728695465026_avoid_knee_surgery_poster.webp"
                     className="absolute box-border caret-transparent basis-[0%] shrink-0 h-full max-w-full outline-[3px] align-baseline w-full mx-0 px-0 rounded-none left-0 inset-y-0 md:mx-px md:px-px md:rounded-[15px]"
                   ></video>
                 </div>
@@ -173,7 +173,7 @@ export const AnnouncementBar = () => {
               <div className="box-border caret-transparent h-full outline-[3px] w-full px-px py-0 md:w-[85%] md:px-2.5 md:py-3">
                 <img
                   title=""
-                  src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1723008768398_trusted_by_brands_mobile.webp"
+                  src="/images/rejuvacare/1723008768398_trusted_by_brands_mobile.webp"
                   alt=""
                   className="text-black box-border caret-transparent inline h-auto max-w-full outline-[3px] w-full px-px md:h-full md:w-auto md:px-0"
                 />
@@ -218,7 +218,7 @@ export const AnnouncementBar = () => {
                         <div className="box-border caret-transparent outline-[3px] text-center">
                           <img
                             title=""
-                            src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1713536915312_12_1_.png"
+                            src="/images/rejuvacare/1713536915312_12_1_.png"
                             alt=""
                             className="text-black box-border caret-transparent inline max-w-full outline-[3px] w-5 mr-[5px] mb-[3px]"
                           />
@@ -246,7 +246,7 @@ export const AnnouncementBar = () => {
                         <div className="box-border caret-transparent outline-[3px] text-center">
                           <img
                             title=""
-                            src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1713536915312_12_1_.png"
+                            src="/images/rejuvacare/1713536915312_12_1_.png"
                             alt=""
                             className="text-black box-border caret-transparent inline max-w-full outline-[3px] w-5 mr-[5px] mb-[3px]"
                           />
@@ -276,7 +276,7 @@ export const AnnouncementBar = () => {
                         <div className="box-border caret-transparent outline-[3px] text-center">
                           <img
                             title=""
-                            src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1713536915312_12_1_.png"
+                            src="/images/rejuvacare/1713536915312_12_1_.png"
                             alt=""
                             className="text-black box-border caret-transparent inline max-w-full outline-[3px] w-5 mr-[5px] mb-[3px]"
                           />
@@ -304,7 +304,7 @@ export const AnnouncementBar = () => {
                         <div className="box-border caret-transparent outline-[3px] text-center">
                           <img
                             title=""
-                            src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1713536915312_12_1_.png"
+                            src="/images/rejuvacare/1713536915312_12_1_.png"
                             alt=""
                             className="text-black box-border caret-transparent inline max-w-full outline-[3px] w-5 mr-[5px] mb-[3px]"
                           />
@@ -323,7 +323,7 @@ export const AnnouncementBar = () => {
             </div>
           </div>
           <div className="items-center self-center bg-neutral-100 box-border caret-transparent flex flex-wrap justify-center max-w-full outline-[3px] md:flex-nowrap">
-            <div className="relative bg-[url('https://assets.imagehub.io/bb6d9900-4f98-11ef-a365-7332b5bb1723/1722936415316_bg_gradient.webp')] bg-no-repeat bg-cover box-border caret-transparent basis-full grow max-w-[1400px] min-h-[25px] outline-[3px] w-min m-auto pt-[30px] pb-5 px-[15px] md:basis-0 md:pt-[50px] md:pb-10 md:px-[100px]">
+            <div className="relative bg-[url('/images/rejuvacare/1722936415316_bg_gradient.webp">
               <div className="items-center box-border caret-transparent flex flex-col outline-[3px] w-full p-px md:flex-row-reverse">
                 <div className="box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full pl-0 py-px md:pl-5">
                   <div className="text-neutral-900 text-[23px] font-bold box-border caret-transparent block leading-[33px] min-h-[auto] min-w-[auto] outline-[3px] text-left mb-2.5 pr-[30px] font-montserrat md:text-[33px] md:hidden md:leading-[42px] md:min-h-0 md:min-w-0 md:mb-0 md:pr-0">
@@ -336,7 +336,7 @@ export const AnnouncementBar = () => {
                       playsInline
                       muted
                       src="https://cdn.shopify.com/videos/c/o/v/9d9035fc73f84f1e9b88fff4923b298a.mp4"
-                      poster="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1728697926859_crippling_pain_poster.webp"
+                      poster="/images/rejuvacare/1728697926859_crippling_pain_poster.webp"
                       className="absolute box-border caret-transparent h-auto max-w-full outline-[3px] align-baseline w-full rounded-[15px] left-0 inset-y-0 md:h-full"
                     ></video>
                   </div>
@@ -445,7 +445,7 @@ export const AnnouncementBar = () => {
                       playsInline
                       muted
                       src="https://cdn.shopify.com/videos/c/o/v/f87276f9c80c47d49b99da496add8a00.mp4"
-                      poster="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1728700717503_alleviate_pain_in_minutes.webp"
+                      poster="/images/rejuvacare/1728700717503_alleviate_pain_in_minutes.webp"
                       className="absolute box-border caret-transparent h-full max-w-full outline-[3px] align-baseline w-full rounded-[15px] left-0 inset-y-0"
                     ></video>
                   </div>
@@ -509,7 +509,7 @@ export const AnnouncementBar = () => {
                     <div className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] w-[35px]">
                       <img
                         title=""
-                        src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722826373249_num_circle_1.webp"
+                        src="/images/rejuvacare/1722826373249_num_circle_1.webp"
                         alt=""
                         className="text-black box-border caret-transparent inline max-w-full outline-[3px] pr-2"
                       />
@@ -533,7 +533,7 @@ export const AnnouncementBar = () => {
                     <div className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] w-[35px]">
                       <img
                         title=""
-                        src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722826366022_num_circle_2.webp"
+                        src="/images/rejuvacare/1722826366022_num_circle_2.webp"
                         alt=""
                         className="text-black box-border caret-transparent inline max-w-full outline-[3px] pr-2"
                       />
@@ -560,7 +560,7 @@ export const AnnouncementBar = () => {
                     <div className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] w-[35px]">
                       <img
                         title=""
-                        src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722826593777_num_circle_3.webp"
+                        src="/images/rejuvacare/1722826593777_num_circle_3.webp"
                         alt=""
                         className="text-black box-border caret-transparent inline max-w-full outline-[3px] pr-2"
                       />
@@ -636,7 +636,7 @@ export const AnnouncementBar = () => {
                   </div>
                   <img
                     title=""
-                    src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722828163832_professionally_designed_and_recommended.webp"
+                    src="/images/rejuvacare/1722828163832_professionally_designed_and_recommended.webp"
                     alt=""
                     className="text-black box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] rounded-[15px]"
                   />
@@ -722,7 +722,7 @@ export const AnnouncementBar = () => {
                     <div className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] w-[35px]">
                       <img
                         title=""
-                        src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722828438493_icon_ex_circle.svg"
+                        src="/images/rejuvacare/1722828438493_icon_ex_circle.svg"
                         alt=""
                         className="text-black box-border caret-transparent inline h-full max-w-full outline-[3px] w-[35px] pr-2"
                       />
@@ -737,7 +737,7 @@ export const AnnouncementBar = () => {
                     <div className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] w-[35px]">
                       <img
                         title=""
-                        src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722828438493_icon_ex_circle.svg"
+                        src="/images/rejuvacare/1722828438493_icon_ex_circle.svg"
                         alt=""
                         className="text-black box-border caret-transparent inline h-full max-w-full outline-[3px] w-[35px] pr-2"
                       />
@@ -753,7 +753,7 @@ export const AnnouncementBar = () => {
                     <div className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] w-[35px]">
                       <img
                         title=""
-                        src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722828438493_icon_ex_circle.svg"
+                        src="/images/rejuvacare/1722828438493_icon_ex_circle.svg"
                         alt=""
                         className="text-black box-border caret-transparent inline h-full max-w-full outline-[3px] w-[35px] pr-2"
                       />
@@ -789,7 +789,7 @@ export const AnnouncementBar = () => {
                       playsInline
                       muted
                       src="https://cdn.shopify.com/videos/c/o/v/bf8b375446284d91a5ac1600b3d0f9f5.mp4"
-                      poster="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1728702670063_the_perfect_therapy_poster.webp"
+                      poster="/images/rejuvacare/1728702670063_the_perfect_therapy_poster.webp"
                       className="absolute box-border caret-transparent h-auto max-w-full outline-[3px] align-baseline w-full rounded-[15px] left-0 inset-y-0 md:h-full"
                     ></video>
                     <div className="box-border caret-transparent hidden outline-[3px] w-full mt-4 p-px">
@@ -879,7 +879,7 @@ export const AnnouncementBar = () => {
                   <div className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] mt-px pt-px md:mt-0 md:pt-0">
                     <img
                       title=""
-                      src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1728704835236_how_rejuvaknee_massager_works.webp"
+                      src="/images/rejuvacare/1728704835236_how_rejuvaknee_massager_works.webp"
                       alt=""
                       className="text-black box-border caret-transparent inline max-w-full outline-[3px] w-full rounded-[15px]"
                     />
@@ -968,7 +968,7 @@ export const AnnouncementBar = () => {
               </div>
               <img
                 title=""
-                src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722832035148_5_stars_yellow.png"
+                src="/images/rejuvacare/1722832035148_5_stars_yellow.png"
                 alt=""
                 className="text-black box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-[110px] my-2.5 md:w-[150px] md:mb-[30px]"
               />
@@ -977,7 +977,7 @@ export const AnnouncementBar = () => {
                   <div className="items-start bg-white shadow-[rgba(0,0,0,0.12)_2px_2px_8px_2px] box-border caret-transparent flex flex-col justify-center outline-[3px] w-full rounded-[15px]">
                     <img
                       title=""
-                      src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722832434914_silvia_m.webp"
+                      src="/images/rejuvacare/1722832434914_silvia_m.webp"
                       alt=""
                       className="text-black box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full rounded-t-[15px]"
                     />
@@ -1005,7 +1005,7 @@ export const AnnouncementBar = () => {
                       <div className="box-border caret-transparent flex outline-[3px]">
                         <img
                           title=""
-                          src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722832035148_5_stars_yellow.png"
+                          src="/images/rejuvacare/1722832035148_5_stars_yellow.png"
                           alt=""
                           className="text-black box-border caret-transparent h-[18px] max-w-full min-h-[auto] min-w-[auto] outline-[3px]"
                         />
@@ -1017,7 +1017,7 @@ export const AnnouncementBar = () => {
                   <div className="items-start bg-white shadow-[rgba(0,0,0,0.1)_2px_2px_8px_2px] box-border caret-transparent flex flex-col justify-center outline-[3px] w-full rounded-[15px]">
                     <img
                       title=""
-                      src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1723112828479_andrew_p_middle_card_review.png"
+                      src="/images/rejuvacare/1723112828479_andrew_p_middle_card_review.png"
                       alt=""
                       className="text-black box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full rounded-t-[15px]"
                     />
@@ -1052,7 +1052,7 @@ export const AnnouncementBar = () => {
                       <div className="box-border caret-transparent flex outline-[3px]">
                         <img
                           title=""
-                          src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722832035148_5_stars_yellow.png"
+                          src="/images/rejuvacare/1722832035148_5_stars_yellow.png"
                           alt=""
                           className="text-black box-border caret-transparent h-[18px] max-w-full min-h-[auto] min-w-[auto] outline-[3px]"
                         />
@@ -1064,7 +1064,7 @@ export const AnnouncementBar = () => {
                   <div className="items-start bg-white shadow-[rgba(0,0,0,0.1)_2px_2px_8px_2px] box-border caret-transparent flex flex-col justify-center outline-[3px] w-full rounded-[15px]">
                     <img
                       title=""
-                      src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722832418378_bridget_f.webp"
+                      src="/images/rejuvacare/1722832418378_bridget_f.webp"
                       alt=""
                       className="text-black box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full rounded-t-[15px]"
                     />
@@ -1092,7 +1092,7 @@ export const AnnouncementBar = () => {
                       <div className="box-border caret-transparent flex outline-[3px]">
                         <img
                           title=""
-                          src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722832035148_5_stars_yellow.png"
+                          src="/images/rejuvacare/1722832035148_5_stars_yellow.png"
                           alt=""
                           className="text-black box-border caret-transparent h-[18px] max-w-full min-h-[auto] min-w-[auto] outline-[3px]"
                         />
@@ -1109,7 +1109,7 @@ export const AnnouncementBar = () => {
               <div className="box-border caret-transparent min-h-0 min-w-0 outline-[3px] w-full p-0 md:min-h-[auto] md:min-w-[auto] md:px-2.5 md:py-3">
                 <img
                   title=""
-                  src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1723110728696_rejuvaknee_kit_desktop2.png"
+                  src="/images/rejuvacare/1723110728696_rejuvaknee_kit_desktop2.png"
                   alt=""
                   className="text-black box-border caret-transparent inline h-auto max-w-full object-cover outline-[3px] w-full md:h-full md:object-fill"
                 />
@@ -1122,7 +1122,7 @@ export const AnnouncementBar = () => {
                   <div className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] w-[35px] pr-2">
                     <img
                       title=""
-                      src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722826373249_num_circle_1.webp"
+                      src="/images/rejuvacare/1722826373249_num_circle_1.webp"
                       alt=""
                       className="text-black box-border caret-transparent inline max-w-full outline-[3px] w-[35px]"
                     />
@@ -1139,7 +1139,7 @@ export const AnnouncementBar = () => {
                   <div className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] w-[35px] pr-2">
                     <img
                       title=""
-                      src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722826366022_num_circle_2.webp"
+                      src="/images/rejuvacare/1722826366022_num_circle_2.webp"
                       alt=""
                       className="text-black box-border caret-transparent inline max-w-full outline-[3px] w-[35px]"
                     />
@@ -1157,7 +1157,7 @@ export const AnnouncementBar = () => {
                   <div className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] w-[35px] pr-2">
                     <img
                       title=""
-                      src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722826593777_num_circle_3.webp"
+                      src="/images/rejuvacare/1722826593777_num_circle_3.webp"
                       alt=""
                       className="text-black box-border caret-transparent inline max-w-full outline-[3px] w-[35px]"
                     />
@@ -1176,7 +1176,7 @@ export const AnnouncementBar = () => {
                   <div className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] w-[35px] pr-2">
                     <img
                       title=""
-                      src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722833788239_num_circle_4.webp"
+                      src="/images/rejuvacare/1722833788239_num_circle_4.webp"
                       alt=""
                       className="text-black box-border caret-transparent inline max-w-full outline-[3px] w-[35px]"
                     />
@@ -1221,7 +1221,7 @@ export const AnnouncementBar = () => {
                   <video
                     src="https://cdn.shopify.com/videos/c/o/v/f3561b42fa794e4abd7e94375cf2f506.mp4"
                     controls
-                    poster="https://c.animaapp.com/mpy7eadgYZFUdm/assets/43.jpg"
+                    poster="/images/rejuvacare/43.jpg"
                     className="relative box-border caret-transparent inline max-w-full outline-[3px] align-baseline w-full rounded-[10px] md:rounded-[15px]"
                   ></video>
                 </div>
@@ -1286,7 +1286,7 @@ export const AnnouncementBar = () => {
                       <div className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] w-full p-2.5">
                         <img
                           title=""
-                          src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722846383829_icon_check.webp"
+                          src="/images/rejuvacare/1722846383829_icon_check.webp"
                           alt=""
                           className="text-black box-border caret-transparent inline max-w-full outline-[3px] w-[25px] mx-px"
                         />
@@ -1294,7 +1294,7 @@ export const AnnouncementBar = () => {
                       <div className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] w-full p-2.5">
                         <img
                           title=""
-                          src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722907474978_icon_ex_circle_gray.webp"
+                          src="/images/rejuvacare/1722907474978_icon_ex_circle_gray.webp"
                           alt=""
                           className="text-black box-border caret-transparent inline max-w-full outline-[3px] w-[25px] mx-px"
                         />
@@ -1302,7 +1302,7 @@ export const AnnouncementBar = () => {
                       <div className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] w-full p-2.5">
                         <img
                           title=""
-                          src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722907474978_icon_ex_circle_gray.webp"
+                          src="/images/rejuvacare/1722907474978_icon_ex_circle_gray.webp"
                           alt=""
                           className="text-black box-border caret-transparent inline max-w-full outline-[3px] w-[25px] mx-px"
                         />
@@ -1319,7 +1319,7 @@ export const AnnouncementBar = () => {
                       <div className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] w-full p-2.5">
                         <img
                           title=""
-                          src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722846383829_icon_check.webp"
+                          src="/images/rejuvacare/1722846383829_icon_check.webp"
                           alt=""
                           className="text-black box-border caret-transparent inline max-w-full outline-[3px] w-[25px] mx-px"
                         />
@@ -1327,7 +1327,7 @@ export const AnnouncementBar = () => {
                       <div className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] w-full p-2.5">
                         <img
                           title=""
-                          src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722907474978_icon_ex_circle_gray.webp"
+                          src="/images/rejuvacare/1722907474978_icon_ex_circle_gray.webp"
                           alt=""
                           className="text-black box-border caret-transparent inline max-w-full outline-[3px] w-[25px] mx-px"
                         />
@@ -1335,7 +1335,7 @@ export const AnnouncementBar = () => {
                       <div className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] w-full p-2.5">
                         <img
                           title=""
-                          src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722907474978_icon_ex_circle_gray.webp"
+                          src="/images/rejuvacare/1722907474978_icon_ex_circle_gray.webp"
                           alt=""
                           className="text-black box-border caret-transparent inline max-w-full outline-[3px] w-[25px] mx-px"
                         />
@@ -1352,7 +1352,7 @@ export const AnnouncementBar = () => {
                       <div className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] w-full p-2.5">
                         <img
                           title=""
-                          src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722846383829_icon_check.webp"
+                          src="/images/rejuvacare/1722846383829_icon_check.webp"
                           alt=""
                           className="text-black box-border caret-transparent inline max-w-full outline-[3px] w-[25px] mx-px"
                         />
@@ -1360,7 +1360,7 @@ export const AnnouncementBar = () => {
                       <div className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] w-full p-2.5">
                         <img
                           title=""
-                          src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722907474978_icon_ex_circle_gray.webp"
+                          src="/images/rejuvacare/1722907474978_icon_ex_circle_gray.webp"
                           alt=""
                           className="text-black box-border caret-transparent inline max-w-full outline-[3px] w-[25px] mx-px"
                         />
@@ -1368,7 +1368,7 @@ export const AnnouncementBar = () => {
                       <div className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] w-full p-2.5">
                         <img
                           title=""
-                          src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722907474978_icon_ex_circle_gray.webp"
+                          src="/images/rejuvacare/1722907474978_icon_ex_circle_gray.webp"
                           alt=""
                           className="text-black box-border caret-transparent inline max-w-full outline-[3px] w-[25px] mx-px"
                         />
@@ -1385,7 +1385,7 @@ export const AnnouncementBar = () => {
                       <div className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] w-full p-2.5">
                         <img
                           title=""
-                          src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722846383829_icon_check.webp"
+                          src="/images/rejuvacare/1722846383829_icon_check.webp"
                           alt=""
                           className="text-black box-border caret-transparent inline max-w-full outline-[3px] w-[25px] mx-px"
                         />
@@ -1393,7 +1393,7 @@ export const AnnouncementBar = () => {
                       <div className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] w-full p-2.5">
                         <img
                           title=""
-                          src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722907474978_icon_ex_circle_gray.webp"
+                          src="/images/rejuvacare/1722907474978_icon_ex_circle_gray.webp"
                           alt=""
                           className="text-black box-border caret-transparent inline max-w-full outline-[3px] w-[25px] mx-px"
                         />
@@ -1401,7 +1401,7 @@ export const AnnouncementBar = () => {
                       <div className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] w-full p-2.5">
                         <img
                           title=""
-                          src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722907474978_icon_ex_circle_gray.webp"
+                          src="/images/rejuvacare/1722907474978_icon_ex_circle_gray.webp"
                           alt=""
                           className="text-black box-border caret-transparent inline max-w-full outline-[3px] w-[25px] mx-px"
                         />
@@ -1418,7 +1418,7 @@ export const AnnouncementBar = () => {
                       <div className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] w-full p-2.5">
                         <img
                           title=""
-                          src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722846383829_icon_check.webp"
+                          src="/images/rejuvacare/1722846383829_icon_check.webp"
                           alt=""
                           className="text-black box-border caret-transparent inline max-w-full outline-[3px] w-[25px] mx-px"
                         />
@@ -1426,7 +1426,7 @@ export const AnnouncementBar = () => {
                       <div className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] w-full p-2.5">
                         <img
                           title=""
-                          src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722907474978_icon_ex_circle_gray.webp"
+                          src="/images/rejuvacare/1722907474978_icon_ex_circle_gray.webp"
                           alt=""
                           className="text-black box-border caret-transparent inline max-w-full outline-[3px] w-[25px] mx-px"
                         />
@@ -1434,7 +1434,7 @@ export const AnnouncementBar = () => {
                       <div className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] w-full p-2.5">
                         <img
                           title=""
-                          src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722907474978_icon_ex_circle_gray.webp"
+                          src="/images/rejuvacare/1722907474978_icon_ex_circle_gray.webp"
                           alt=""
                           className="text-black box-border caret-transparent inline max-w-full outline-[3px] w-[25px] mx-px"
                         />
@@ -1451,7 +1451,7 @@ export const AnnouncementBar = () => {
                       <div className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] w-full p-2.5">
                         <img
                           title=""
-                          src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722846383829_icon_check.webp"
+                          src="/images/rejuvacare/1722846383829_icon_check.webp"
                           alt=""
                           className="text-black box-border caret-transparent inline max-w-full outline-[3px] w-[25px] mx-px"
                         />
@@ -1459,7 +1459,7 @@ export const AnnouncementBar = () => {
                       <div className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] w-full p-2.5">
                         <img
                           title=""
-                          src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722907474978_icon_ex_circle_gray.webp"
+                          src="/images/rejuvacare/1722907474978_icon_ex_circle_gray.webp"
                           alt=""
                           className="text-black box-border caret-transparent inline max-w-full outline-[3px] w-[25px] mx-px"
                         />
@@ -1467,7 +1467,7 @@ export const AnnouncementBar = () => {
                       <div className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] w-full p-2.5">
                         <img
                           title=""
-                          src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722907474978_icon_ex_circle_gray.webp"
+                          src="/images/rejuvacare/1722907474978_icon_ex_circle_gray.webp"
                           alt=""
                           className="text-black box-border caret-transparent inline max-w-full outline-[3px] w-[25px] mx-px"
                         />
@@ -1484,7 +1484,7 @@ export const AnnouncementBar = () => {
                       <div className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] w-full p-2.5">
                         <img
                           title=""
-                          src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722846383829_icon_check.webp"
+                          src="/images/rejuvacare/1722846383829_icon_check.webp"
                           alt=""
                           className="text-black box-border caret-transparent inline max-w-full outline-[3px] w-[25px] mx-px"
                         />
@@ -1492,7 +1492,7 @@ export const AnnouncementBar = () => {
                       <div className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] w-full p-2.5">
                         <img
                           title=""
-                          src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722907474978_icon_ex_circle_gray.webp"
+                          src="/images/rejuvacare/1722907474978_icon_ex_circle_gray.webp"
                           alt=""
                           className="text-black box-border caret-transparent inline max-w-full outline-[3px] w-[25px] mx-px"
                         />
@@ -1500,7 +1500,7 @@ export const AnnouncementBar = () => {
                       <div className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] w-full p-2.5">
                         <img
                           title=""
-                          src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722907474978_icon_ex_circle_gray.webp"
+                          src="/images/rejuvacare/1722907474978_icon_ex_circle_gray.webp"
                           alt=""
                           className="text-black box-border caret-transparent inline max-w-full outline-[3px] w-[25px] mx-px"
                         />
@@ -1517,7 +1517,7 @@ export const AnnouncementBar = () => {
                       <div className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] w-full p-2.5 rounded-b-[15px]">
                         <img
                           title=""
-                          src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722846383829_icon_check.webp"
+                          src="/images/rejuvacare/1722846383829_icon_check.webp"
                           alt=""
                           className="text-black box-border caret-transparent inline max-w-full outline-[3px] w-[25px] mx-px"
                         />
@@ -1525,7 +1525,7 @@ export const AnnouncementBar = () => {
                       <div className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] w-full p-2.5">
                         <img
                           title=""
-                          src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722907474978_icon_ex_circle_gray.webp"
+                          src="/images/rejuvacare/1722907474978_icon_ex_circle_gray.webp"
                           alt=""
                           className="text-black box-border caret-transparent inline max-w-full outline-[3px] w-[25px] mx-px"
                         />
@@ -1533,7 +1533,7 @@ export const AnnouncementBar = () => {
                       <div className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] w-full p-2.5">
                         <img
                           title=""
-                          src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722907474978_icon_ex_circle_gray.webp"
+                          src="/images/rejuvacare/1722907474978_icon_ex_circle_gray.webp"
                           alt=""
                           className="text-black box-border caret-transparent inline max-w-full outline-[3px] w-[25px] mx-px"
                         />
@@ -1550,7 +1550,7 @@ export const AnnouncementBar = () => {
               <div className="items-center box-border caret-transparent flex flex-col min-h-0 min-w-0 outline-[3px] w-[90%] mx-px px-0 py-3 md:min-h-[auto] md:min-w-[auto] md:w-full md:mx-0 md:px-10">
                 <img
                   title=""
-                  src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722844015319_90_day_guarantee.webp"
+                  src="/images/rejuvacare/1722844015319_90_day_guarantee.webp"
                   alt=""
                   className="text-black box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-[110px]"
                 />
@@ -1565,7 +1565,7 @@ export const AnnouncementBar = () => {
               <div className="items-center box-border caret-transparent flex flex-col min-h-0 min-w-0 outline-[3px] w-[90%] mt-2.5 px-0 py-3 md:min-h-[auto] md:min-w-[auto] md:w-full md:mt-0 md:px-10">
                 <img
                   title=""
-                  src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722844006854_free_shipping.webp"
+                  src="/images/rejuvacare/1722844006854_free_shipping.webp"
                   alt=""
                   className="text-black box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-[110px]"
                 />
@@ -1580,7 +1580,7 @@ export const AnnouncementBar = () => {
               <div className="items-center box-border caret-transparent flex flex-col min-h-0 min-w-0 outline-[3px] w-[90%] mt-2.5 px-0 py-3 md:min-h-[auto] md:min-w-[auto] md:w-full md:mt-0 md:px-7">
                 <img
                   title=""
-                  src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722843985659_guaranteed_high_quality.webp"
+                  src="/images/rejuvacare/1722843985659_guaranteed_high_quality.webp"
                   alt=""
                   className="text-black box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-[110px]"
                 />
@@ -1605,7 +1605,7 @@ export const AnnouncementBar = () => {
                       >
                         <div className="box-border caret-transparent outline-[3px] m-0 md:m-[5px]">
                           <img
-                            src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722930434548_1.webp"
+                            src="/images/rejuvacare/1722930434548_1.webp"
                             title=""
                             alt=""
                             className="box-border caret-transparent inline max-w-full outline-[3px] w-full"
@@ -1613,7 +1613,7 @@ export const AnnouncementBar = () => {
                         </div>
                         <div className="box-border caret-transparent outline-[3px] w-full m-[5px]">
                           <img
-                            src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722930428614_2.webp"
+                            src="/images/rejuvacare/1722930428614_2.webp"
                             title=""
                             alt=""
                             className="box-border caret-transparent inline max-w-full outline-[3px] w-full"
@@ -1621,7 +1621,7 @@ export const AnnouncementBar = () => {
                         </div>
                         <div className="box-border caret-transparent outline-[3px] w-full m-[5px]">
                           <img
-                            src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722930421180_3.webp"
+                            src="/images/rejuvacare/1722930421180_3.webp"
                             title=""
                             alt=""
                             className="box-border caret-transparent inline max-w-full outline-[3px] w-full"
@@ -1629,7 +1629,7 @@ export const AnnouncementBar = () => {
                         </div>
                         <div className="box-border caret-transparent outline-[3px] w-full m-[5px]">
                           <img
-                            src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722930412931_4.webp"
+                            src="/images/rejuvacare/1722930412931_4.webp"
                             title=""
                             alt=""
                             className="box-border caret-transparent inline max-w-full outline-[3px] w-full"
@@ -1641,7 +1641,7 @@ export const AnnouncementBar = () => {
                       >
                         <div className="box-border caret-transparent outline-[3px] w-full mx-[5px] p-[5px]">
                           <img
-                            src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722930434548_1.webp"
+                            src="/images/rejuvacare/1722930434548_1.webp"
                             title=""
                             alt=""
                             className="box-border caret-transparent inline max-w-full outline-[3px] w-full"
@@ -1649,7 +1649,7 @@ export const AnnouncementBar = () => {
                         </div>
                         <div className="box-border caret-transparent outline-[3px] w-full mx-[5px] p-[5px]">
                           <img
-                            src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722930428614_2.webp"
+                            src="/images/rejuvacare/1722930428614_2.webp"
                             title=""
                             alt=""
                             className="box-border caret-transparent inline max-w-full outline-[3px] w-full"
@@ -1657,7 +1657,7 @@ export const AnnouncementBar = () => {
                         </div>
                         <div className="box-border caret-transparent outline-[3px] w-full mx-[5px] p-[5px]">
                           <img
-                            src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722930421180_3.webp"
+                            src="/images/rejuvacare/1722930421180_3.webp"
                             title=""
                             alt=""
                             className="box-border caret-transparent inline max-w-full outline-[3px] w-full"
@@ -1665,7 +1665,7 @@ export const AnnouncementBar = () => {
                         </div>
                         <div className="box-border caret-transparent outline-[3px] w-full mx-[5px] p-[5px]">
                           <img
-                            src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722930412931_4.webp"
+                            src="/images/rejuvacare/1722930412931_4.webp"
                             title=""
                             alt=""
                             className="box-border caret-transparent inline max-w-full outline-[3px] w-full"
@@ -1680,7 +1680,7 @@ export const AnnouncementBar = () => {
                       >
                         <div className="box-border caret-transparent outline-[3px] w-full m-[5px]">
                           <img
-                            src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722930434548_1.webp"
+                            src="/images/rejuvacare/1722930434548_1.webp"
                             title=""
                             alt=""
                             className="box-border caret-transparent inline max-w-full outline-[3px] w-full"
@@ -1688,7 +1688,7 @@ export const AnnouncementBar = () => {
                         </div>
                         <div className="box-border caret-transparent outline-[3px] w-full m-[5px]">
                           <img
-                            src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722930428614_2.webp"
+                            src="/images/rejuvacare/1722930428614_2.webp"
                             title=""
                             alt=""
                             className="box-border caret-transparent inline max-w-full outline-[3px] w-auto md:w-full"
@@ -1696,7 +1696,7 @@ export const AnnouncementBar = () => {
                         </div>
                         <div className="box-border caret-transparent outline-[3px] w-full m-[5px]">
                           <img
-                            src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722930421180_3.webp"
+                            src="/images/rejuvacare/1722930421180_3.webp"
                             title=""
                             alt=""
                             className="box-border caret-transparent inline max-w-full outline-[3px] w-full"
@@ -1704,7 +1704,7 @@ export const AnnouncementBar = () => {
                         </div>
                         <div className="box-border caret-transparent outline-[3px] w-full m-[5px]">
                           <img
-                            src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722930412931_4.webp"
+                            src="/images/rejuvacare/1722930412931_4.webp"
                             title=""
                             alt=""
                             className="box-border caret-transparent inline max-w-full outline-[3px] w-full"
@@ -1716,7 +1716,7 @@ export const AnnouncementBar = () => {
                       >
                         <div className="box-border caret-transparent outline-[3px] w-full m-[5px] p-[5px]">
                           <img
-                            src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722930434548_1.webp"
+                            src="/images/rejuvacare/1722930434548_1.webp"
                             title=""
                             alt=""
                             className="box-border caret-transparent inline max-w-full outline-[3px] w-full"
@@ -1724,7 +1724,7 @@ export const AnnouncementBar = () => {
                         </div>
                         <div className="box-border caret-transparent outline-[3px] w-full m-[5px] p-[5px]">
                           <img
-                            src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722930428614_2.webp"
+                            src="/images/rejuvacare/1722930428614_2.webp"
                             title=""
                             alt=""
                             className="box-border caret-transparent inline max-w-full outline-[3px] w-full"
@@ -1732,7 +1732,7 @@ export const AnnouncementBar = () => {
                         </div>
                         <div className="box-border caret-transparent outline-[3px] w-full m-[5px] p-[5px]">
                           <img
-                            src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722930421180_3.webp"
+                            src="/images/rejuvacare/1722930421180_3.webp"
                             title=""
                             alt=""
                             className="box-border caret-transparent inline max-w-full outline-[3px] w-full"
@@ -1740,7 +1740,7 @@ export const AnnouncementBar = () => {
                         </div>
                         <div className="box-border caret-transparent outline-[3px] w-full m-[5px] p-[5px]">
                           <img
-                            src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722930412931_4.webp"
+                            src="/images/rejuvacare/1722930412931_4.webp"
                             title=""
                             alt=""
                             className="box-border caret-transparent inline max-w-full outline-[3px] w-full"
@@ -1763,7 +1763,7 @@ export const AnnouncementBar = () => {
                             <div className="box-content caret-black float-none min-h-0 outline-0 w-auto md:aspect-auto md:box-border md:caret-transparent md:float-left md:min-h-px md:outline-[3px] md:overscroll-x-auto md:overscroll-y-auto md:snap-align-none md:snap-normal md:snap-none md:decoration-auto md:underline-offset-auto md:w-[500px] md:[mask-position:0%] md:bg-left-top md:m-[5px] md:scroll-m-0 md:scroll-p-[auto]"></div>
                             <div className="box-border caret-transparent float-left min-h-px outline-[3px] w-[335px] m-[5px] md:w-[500px]">
                               <img
-                                src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1726974932872_1.webp"
+                                src="/images/rejuvacare/1726974932872_1.webp"
                                 title=""
                                 alt=""
                                 className="box-border caret-transparent max-w-full outline-[3px] w-full"
@@ -1771,7 +1771,7 @@ export const AnnouncementBar = () => {
                             </div>
                             <div className="box-border caret-transparent float-left min-h-px outline-[3px] w-[335px] m-[5px] md:w-[500px]">
                               <img
-                                src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1726974926450_2.webp"
+                                src="/images/rejuvacare/1726974926450_2.webp"
                                 title=""
                                 alt=""
                                 className="box-border caret-transparent max-w-full outline-[3px] w-full"
@@ -1779,7 +1779,7 @@ export const AnnouncementBar = () => {
                             </div>
                             <div className="box-border caret-transparent float-left min-h-px outline-[3px] w-[335px] m-[5px] md:w-[500px]">
                               <img
-                                src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1726974920398_3.webp"
+                                src="/images/rejuvacare/1726974920398_3.webp"
                                 title=""
                                 alt=""
                                 className="box-border caret-transparent max-w-full outline-[3px] w-full"
@@ -1787,7 +1787,7 @@ export const AnnouncementBar = () => {
                             </div>
                             <div className="box-border caret-transparent float-left min-h-px outline-[3px] w-[335px] m-[5px] md:w-[500px]">
                               <img
-                                src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1726974912954_4.webp"
+                                src="/images/rejuvacare/1726974912954_4.webp"
                                 title=""
                                 alt=""
                                 className="box-border caret-transparent max-w-full outline-[3px] w-full"
@@ -1796,7 +1796,7 @@ export const AnnouncementBar = () => {
                             <div className="box-border caret-transparent float-left min-h-px outline-[3px] w-[335px] m-[5px] md:w-[500px]"></div>
                             <div className="box-content caret-black float-none min-h-0 outline-0 w-auto md:aspect-auto md:box-border md:caret-transparent md:float-left md:min-h-px md:outline-[3px] md:overscroll-x-auto md:overscroll-y-auto md:snap-align-none md:snap-normal md:snap-none md:decoration-auto md:underline-offset-auto md:w-[500px] md:[mask-position:0%] md:bg-left-top md:m-[5px] md:scroll-m-0 md:scroll-p-[auto]">
                               <img
-                                src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1726974932872_1.webp"
+                                src="/images/rejuvacare/1726974932872_1.webp"
                                 title=""
                                 alt=""
                                 className="box-content caret-black max-w-none outline-0 w-auto md:aspect-auto md:box-border md:caret-transparent md:max-w-full md:outline-[3px] md:overscroll-x-auto md:overscroll-y-auto md:snap-align-none md:snap-normal md:snap-none md:decoration-auto md:underline-offset-auto md:w-full md:[mask-position:0%] md:bg-left-top md:scroll-m-0 md:scroll-p-[auto]"
@@ -1804,7 +1804,7 @@ export const AnnouncementBar = () => {
                             </div>
                             <div className="box-content caret-black float-none min-h-0 outline-0 w-auto md:aspect-auto md:box-border md:caret-transparent md:float-left md:min-h-px md:outline-[3px] md:overscroll-x-auto md:overscroll-y-auto md:snap-align-none md:snap-normal md:snap-none md:decoration-auto md:underline-offset-auto md:w-[500px] md:[mask-position:0%] md:bg-left-top md:m-[5px] md:scroll-m-0 md:scroll-p-[auto]">
                               <img
-                                src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1726974926450_2.webp"
+                                src="/images/rejuvacare/1726974926450_2.webp"
                                 title=""
                                 alt=""
                                 className="box-content caret-black max-w-none outline-0 w-auto md:aspect-auto md:box-border md:caret-transparent md:max-w-full md:outline-[3px] md:overscroll-x-auto md:overscroll-y-auto md:snap-align-none md:snap-normal md:snap-none md:decoration-auto md:underline-offset-auto md:w-full md:[mask-position:0%] md:bg-left-top md:scroll-m-0 md:scroll-p-[auto]"
@@ -1812,7 +1812,7 @@ export const AnnouncementBar = () => {
                             </div>
                             <div className="box-content caret-black float-none min-h-0 outline-0 w-auto md:aspect-auto md:box-border md:caret-transparent md:float-left md:min-h-px md:outline-[3px] md:overscroll-x-auto md:overscroll-y-auto md:snap-align-none md:snap-normal md:snap-none md:decoration-auto md:underline-offset-auto md:w-[500px] md:[mask-position:0%] md:bg-left-top md:m-[5px] md:scroll-m-0 md:scroll-p-[auto]">
                               <img
-                                src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1726974920398_3.webp"
+                                src="/images/rejuvacare/1726974920398_3.webp"
                                 title=""
                                 alt=""
                                 className="box-content caret-black max-w-none outline-0 w-auto md:aspect-auto md:box-border md:caret-transparent md:max-w-full md:outline-[3px] md:overscroll-x-auto md:overscroll-y-auto md:snap-align-none md:snap-normal md:snap-none md:decoration-auto md:underline-offset-auto md:w-full md:[mask-position:0%] md:bg-left-top md:scroll-m-0 md:scroll-p-[auto]"
@@ -1820,7 +1820,7 @@ export const AnnouncementBar = () => {
                             </div>
                             <div className="box-content caret-black float-none min-h-0 outline-0 w-auto md:aspect-auto md:box-border md:caret-transparent md:float-left md:min-h-px md:outline-[3px] md:overscroll-x-auto md:overscroll-y-auto md:snap-align-none md:snap-normal md:snap-none md:decoration-auto md:underline-offset-auto md:w-[500px] md:[mask-position:0%] md:bg-left-top md:m-[5px] md:scroll-m-0 md:scroll-p-[auto]">
                               <img
-                                src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1726974912954_4.webp"
+                                src="/images/rejuvacare/1726974912954_4.webp"
                                 title=""
                                 alt=""
                                 className="box-content caret-black max-w-none outline-0 w-auto md:aspect-auto md:box-border md:caret-transparent md:max-w-full md:outline-[3px] md:overscroll-x-auto md:overscroll-y-auto md:snap-align-none md:snap-normal md:snap-none md:decoration-auto md:underline-offset-auto md:w-full md:[mask-position:0%] md:bg-left-top md:scroll-m-0 md:scroll-p-[auto]"
@@ -1843,7 +1843,7 @@ export const AnnouncementBar = () => {
                           <div className="static box-content caret-black outline-0 w-auto mx-0 left-auto top-auto md:relative md:aspect-auto md:box-border md:caret-transparent md:outline-[3px] md:overscroll-x-auto md:overscroll-y-auto md:snap-align-none md:snap-normal md:snap-none md:decoration-auto md:underline-offset-auto md:w-[508px] md:[mask-position:0%] md:bg-left-top md:mx-auto md:scroll-m-0 md:scroll-p-[auto] md:left-0 md:top-0 before:md:accent-auto before:md:aspect-auto before:md:box-border before:md:caret-transparent before:md:text-neutral-800 before:md:table before:md:text-base before:md:not-italic before:md:normal-nums before:md:font-normal before:md:tracking-[normal] before:md:leading-6 before:md:list-outside before:md:list-disc before:md:outline-[3px] before:md:overscroll-x-auto before:md:overscroll-y-auto before:md:pointer-events-auto before:md:snap-align-none before:md:snap-normal before:md:snap-none before:md:no-underline before:md:decoration-auto before:md:indent-[0px] before:md:normal-case before:md:underline-offset-auto before:md:visible before:md:scroll-m-0 before:md:scroll-p-[auto] before:md:border-separate before:md:font-apple_system after:md:accent-auto after:md:aspect-auto after:md:box-border after:md:caret-transparent after:md:clear-both after:md:text-neutral-800 after:md:table after:md:text-base after:md:not-italic after:md:normal-nums after:md:font-normal after:md:tracking-[normal] after:md:leading-6 after:md:list-outside after:md:list-disc after:md:outline-[3px] after:md:overscroll-x-auto after:md:overscroll-y-auto after:md:pointer-events-auto after:md:snap-align-none after:md:snap-normal after:md:snap-none after:md:no-underline after:md:decoration-auto after:md:indent-[0px] after:md:normal-case after:md:underline-offset-auto after:md:visible after:md:scroll-m-0 after:md:scroll-p-[auto] after:md:border-separate after:md:font-apple_system">
                             <div className="box-border caret-transparent float-left min-h-px outline-[3px] w-[85px] p-[5px] md:w-[127px]">
                               <img
-                                src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1726974932872_1.webp"
+                                src="/images/rejuvacare/1726974932872_1.webp"
                                 title=""
                                 alt=""
                                 className="box-border caret-transparent max-w-full outline-[3px] w-full"
@@ -1851,7 +1851,7 @@ export const AnnouncementBar = () => {
                             </div>
                             <div className="box-border caret-transparent float-left min-h-px outline-[3px] w-[85px] p-[5px] md:w-[127px]">
                               <img
-                                src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1726974926450_2.webp"
+                                src="/images/rejuvacare/1726974926450_2.webp"
                                 title=""
                                 alt=""
                                 className="box-border caret-transparent max-w-full outline-[3px] w-full"
@@ -1859,7 +1859,7 @@ export const AnnouncementBar = () => {
                             </div>
                             <div className="box-border caret-transparent float-left min-h-px outline-[3px] w-[85px] p-[5px] md:w-[127px]">
                               <img
-                                src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1726974920398_3.webp"
+                                src="/images/rejuvacare/1726974920398_3.webp"
                                 title=""
                                 alt=""
                                 className="box-border caret-transparent max-w-full outline-[3px] w-full"
@@ -1867,7 +1867,7 @@ export const AnnouncementBar = () => {
                             </div>
                             <div className="box-border caret-transparent float-left min-h-px outline-[3px] w-[85px] p-[5px] md:w-[127px]">
                               <img
-                                src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1726974912954_4.webp"
+                                src="/images/rejuvacare/1726974912954_4.webp"
                                 title=""
                                 alt=""
                                 className="box-border caret-transparent max-w-full outline-[3px] w-full"
@@ -1901,7 +1901,7 @@ export const AnnouncementBar = () => {
                     </div>
                     <img
                       title=""
-                      src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722845257974_excellent_rating.svg"
+                      src="/images/rejuvacare/1722845257974_excellent_rating.svg"
                       alt=""
                       className="text-black box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-[84px] ml-3 md:w-[150px]"
                     />
@@ -1912,7 +1912,7 @@ export const AnnouncementBar = () => {
                     </div>
                     <img
                       title=""
-                      src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722845332292_trustpilot.svg"
+                      src="/images/rejuvacare/1722845332292_trustpilot.svg"
                       alt=""
                       className="text-black items-center box-border caret-transparent h-5 justify-start max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-[70px] ml-[5px] md:w-20"
                     />
@@ -1940,7 +1940,7 @@ export const AnnouncementBar = () => {
                       </div>
                       <img
                         title=""
-                        src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722845784568_star.svg"
+                        src="/images/rejuvacare/1722845784568_star.svg"
                         alt=""
                         className="text-black box-border caret-transparent h-[18px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-5 ml-[7px]"
                       />
@@ -1971,7 +1971,7 @@ export const AnnouncementBar = () => {
                     <div className="items-start box-border caret-transparent flex justify-start outline-[3px] text-left w-full mt-2.5 md:items-center">
                       <img
                         title=""
-                        src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722846383829_icon_check.webp"
+                        src="/images/rejuvacare/1722846383829_icon_check.webp"
                         alt=""
                         className="text-black box-border caret-transparent h-[25px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left w-[25px] ml-px mr-2.5"
                       />
@@ -1988,7 +1988,7 @@ export const AnnouncementBar = () => {
                     <div className="items-start box-border caret-transparent flex justify-start outline-[3px] text-left w-full mt-2.5 md:items-center">
                       <img
                         title=""
-                        src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722846383829_icon_check.webp"
+                        src="/images/rejuvacare/1722846383829_icon_check.webp"
                         alt=""
                         className="text-black box-border caret-transparent h-[25px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left w-[25px] ml-px mr-2.5"
                       />
@@ -2005,7 +2005,7 @@ export const AnnouncementBar = () => {
                     <div className="items-center box-border caret-transparent flex justify-start outline-[3px] w-full mt-2.5">
                       <img
                         title=""
-                        src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722846383829_icon_check.webp"
+                        src="/images/rejuvacare/1722846383829_icon_check.webp"
                         alt=""
                         className="text-black box-border caret-transparent h-[25px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-[25px] ml-px mr-2.5"
                       />
@@ -2021,7 +2021,7 @@ export const AnnouncementBar = () => {
                     <div className="items-center box-border caret-transparent flex justify-start outline-[3px] w-full mt-2.5">
                       <img
                         title=""
-                        src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722846383829_icon_check.webp"
+                        src="/images/rejuvacare/1722846383829_icon_check.webp"
                         alt=""
                         className="text-black box-border caret-transparent h-[25px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-[25px] ml-px mr-2.5"
                       />
@@ -2042,7 +2042,7 @@ export const AnnouncementBar = () => {
                       </div>
                       <img
                         title=""
-                        src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722845784568_star.svg"
+                        src="/images/rejuvacare/1722845784568_star.svg"
                         alt=""
                         className="text-black box-border caret-transparent h-[18px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-5 ml-[7px]"
                       />
@@ -2073,7 +2073,7 @@ export const AnnouncementBar = () => {
                     <div className="items-start box-border caret-transparent flex justify-start outline-[3px] text-left w-full mt-2.5 md:items-center">
                       <img
                         title=""
-                        src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722846383829_icon_check.webp"
+                        src="/images/rejuvacare/1722846383829_icon_check.webp"
                         alt=""
                         className="text-black box-border caret-transparent h-[25px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left w-[25px] ml-px mr-2.5"
                       />
@@ -2091,7 +2091,7 @@ export const AnnouncementBar = () => {
                       <div className="items-start box-border caret-transparent flex justify-start outline-[3px] text-left w-full mt-2.5 md:items-center">
                         <img
                           title=""
-                          src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722846383829_icon_check.webp"
+                          src="/images/rejuvacare/1722846383829_icon_check.webp"
                           alt=""
                           className="text-black box-border caret-transparent h-[25px] max-w-full outline-[3px] text-left w-[25px] ml-px mr-2.5"
                         />
@@ -2110,7 +2110,7 @@ export const AnnouncementBar = () => {
                       <div className="items-center box-border caret-transparent flex justify-start outline-[3px] w-full mt-2.5">
                         <img
                           title=""
-                          src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722846383829_icon_check.webp"
+                          src="/images/rejuvacare/1722846383829_icon_check.webp"
                           alt=""
                           className="text-black box-border caret-transparent h-[25px] max-w-full outline-[3px] w-[25px] ml-px mr-2.5"
                         />
@@ -2126,7 +2126,7 @@ export const AnnouncementBar = () => {
                       <div className="items-center box-border caret-transparent flex justify-start outline-[3px] w-full mt-2.5">
                         <img
                           title=""
-                          src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722846383829_icon_check.webp"
+                          src="/images/rejuvacare/1722846383829_icon_check.webp"
                           alt=""
                           className="text-black box-border caret-transparent h-[25px] max-w-full outline-[3px] w-[25px] ml-px mr-2.5"
                         />
@@ -2157,7 +2157,7 @@ export const AnnouncementBar = () => {
                       </div>
                       <img
                         title=""
-                        src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722845784568_star.svg"
+                        src="/images/rejuvacare/1722845784568_star.svg"
                         alt=""
                         className="text-black box-border caret-transparent h-[18px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-5 ml-[7px]"
                       />
@@ -2188,7 +2188,7 @@ export const AnnouncementBar = () => {
                     <div className="items-start box-border caret-transparent flex justify-start outline-[3px] text-left w-full mt-2.5 md:items-center">
                       <img
                         title=""
-                        src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722846383829_icon_check.webp"
+                        src="/images/rejuvacare/1722846383829_icon_check.webp"
                         alt=""
                         className="text-black box-border caret-transparent h-[25px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left w-[25px] ml-px mr-2.5"
                       />
@@ -2206,7 +2206,7 @@ export const AnnouncementBar = () => {
                       <div className="items-start box-border caret-transparent flex justify-start outline-[3px] w-full">
                         <img
                           title=""
-                          src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722846383829_icon_check.webp"
+                          src="/images/rejuvacare/1722846383829_icon_check.webp"
                           alt=""
                           className="text-black box-border caret-transparent h-[25px] max-w-full outline-[3px] w-[25px] ml-px mr-2.5"
                         />
@@ -2232,7 +2232,7 @@ export const AnnouncementBar = () => {
                       <div className="items-center box-border caret-transparent flex justify-start outline-[3px] w-full mt-2.5">
                         <img
                           title=""
-                          src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722846383829_icon_check.webp"
+                          src="/images/rejuvacare/1722846383829_icon_check.webp"
                           alt=""
                           className="text-black box-border caret-transparent h-[25px] max-w-full outline-[3px] w-[25px] ml-px mr-2.5"
                         />
@@ -2248,7 +2248,7 @@ export const AnnouncementBar = () => {
                       <div className="items-center box-border caret-transparent flex justify-start outline-[3px] w-full mt-2.5">
                         <img
                           title=""
-                          src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722846383829_icon_check.webp"
+                          src="/images/rejuvacare/1722846383829_icon_check.webp"
                           alt=""
                           className="text-black box-border caret-transparent h-[25px] max-w-full outline-[3px] w-[25px] ml-px mr-2.5"
                         />
@@ -2295,12 +2295,12 @@ export const AnnouncementBar = () => {
                       </i>
                     </div>
                   </div>
-                  <div className="items-center bg-[url('https://assets.imagehub.io/bb6d9900-4f98-11ef-a365-7332b5bb1723/1722821367050_dr_james_barkley.webp')] bg-no-repeat bg-cover box-border caret-transparent flex flex-col h-[210px] justify-end min-h-[auto] min-w-[auto] outline-[3px] w-[300px] bg-[position:left_100%] -ml-2.5 md:items-end md:flex-row md:h-[177px] md:w-[175px]"></div>
+                  <div className="items-center bg-[url('/images/rejuvacare/1722821367050_dr_james_barkley.webp"></div>
                 </div>
                 <div className="box-border caret-transparent outline-[3px] w-full mt-5">
                   <img
                     title=""
-                    src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722821080411_cc_payment_options.webp"
+                    src="/images/rejuvacare/1722821080411_cc_payment_options.webp"
                     alt=""
                     className="text-black box-border caret-transparent inline max-w-full outline-[3px] w-full"
                   />
@@ -2308,7 +2308,7 @@ export const AnnouncementBar = () => {
                 <div className="items-start box-border caret-transparent flex justify-start outline-[3px] w-full px-2.5 py-3 md:items-center md:justify-center">
                   <img
                     title=""
-                    src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722847956492_lock.svg"
+                    src="/images/rejuvacare/1722847956492_lock.svg"
                     alt=""
                     className="text-black box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-[15px] mr-2.5 mt-0.5 md:mt-0"
                   />
@@ -2326,7 +2326,7 @@ export const AnnouncementBar = () => {
                       <div className="items-center box-border caret-transparent flex flex-col justify-center min-h-[auto] min-w-[auto] outline-[3px] w-full px-2.5 py-3">
                         <img
                           title=""
-                          src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722848377355_line_icon_free_shipping.webp"
+                          src="/images/rejuvacare/1722848377355_line_icon_free_shipping.webp"
                           alt=""
                           className="text-black box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-10"
                         />
@@ -2340,7 +2340,7 @@ export const AnnouncementBar = () => {
                       <div className="items-center box-border caret-transparent flex flex-col justify-center min-h-[auto] min-w-[auto] outline-[3px] w-full px-2.5 py-3">
                         <img
                           title=""
-                          src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722848371698_line_icon_90_day_guarantee.webp"
+                          src="/images/rejuvacare/1722848371698_line_icon_90_day_guarantee.webp"
                           alt=""
                           className="text-black box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-10"
                         />
@@ -2353,7 +2353,7 @@ export const AnnouncementBar = () => {
                       <div className="items-center box-border caret-transparent flex flex-col justify-center min-h-[auto] min-w-[auto] outline-[3px] w-full px-2.5 py-3">
                         <img
                           title=""
-                          src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722848366371_line_icon_customer_service.webp"
+                          src="/images/rejuvacare/1722848366371_line_icon_customer_service.webp"
                           alt=""
                           className="text-black box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-10"
                         />
@@ -2364,7 +2364,7 @@ export const AnnouncementBar = () => {
                       <div className="items-center box-border caret-transparent flex flex-col justify-center min-h-[auto] min-w-[auto] outline-[3px] w-full px-2.5 py-3">
                         <img
                           title=""
-                          src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722848354019_line_icon_100k_happy_customers.webp"
+                          src="/images/rejuvacare/1722848354019_line_icon_100k_happy_customers.webp"
                           alt=""
                           className="text-black box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-10"
                         />
@@ -2419,7 +2419,7 @@ export const AnnouncementBar = () => {
                   <div className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] w-full p-0 md:px-2.5 md:py-3">
                     <img
                       title=""
-                      src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722924582232_endorser_1.webp"
+                      src="/images/rejuvacare/1722924582232_endorser_1.webp"
                       alt=""
                       className="text-black box-border caret-transparent inline h-full max-w-full outline-[3px] w-[95%] mb-px md:w-full md:mb-0"
                     />
@@ -2427,7 +2427,7 @@ export const AnnouncementBar = () => {
                   <div className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] w-full p-0 md:px-2.5 md:py-3">
                     <img
                       title=""
-                      src="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722924562849_endorser_2.webp"
+                      src="/images/rejuvacare/1722924562849_endorser_2.webp"
                       alt=""
                       className="text-black box-border caret-transparent inline h-auto max-w-full outline-[3px] w-[95%] md:h-full md:w-full"
                     />

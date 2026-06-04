@@ -16,7 +16,7 @@ export const TimelineSection = () => {
   cardVariant="after:border-l-zinc-800 after:border-r-gray-800 after:border-r-[13px] after:-left-3.5"
   timeLabel="1 Week"
   description="Begin experiencing improved sleep quality, reduced brain fog, and better mental clarity as molecular hydrogen starts protecting your neurons and supporting neurotransmitter balance. Many users report feeling more &quot;grounded&quot; and less reactive to stress within just a few days.*"
-  imageUrl="https://c.animaapp.com/mohkicncTG3NcI/assets/1763714786081_1730128921_Mini_Calendar.webp"
+  imageUrl="/images/amala/1763714786081_1730128921_Mini_Calendar.webp"
 /></div>
 </div>
 <div className="items-center box-border caret-transparent flex justify-center min-w-[auto] outline-[3px]"><div className="box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full"><TimelineItem
@@ -25,7 +25,7 @@ export const TimelineSection = () => {
   cardVariant="after:border-l-gray-800 after:border-r-zinc-800 after:border-l-[13px] after:-right-3.5"
   timeLabel="1 Month"
   description="Notice sustained energy throughout the day without caffeine dependence, faster workout recovery, and improved focus. You may find yourself waking up naturally refreshed, maintaining concentration for longer periods, and feeling less inflamed after training.*"
-  imageUrl="https://c.animaapp.com/mohkicncTG3NcI/assets/1763714786081_1730128921_Mini_Calendar.webp"
+  imageUrl="/images/amala/1763714786081_1730128921_Mini_Calendar.webp"
 /></div>
 </div>
 <div className="items-center box-border caret-transparent flex justify-center min-w-[auto] outline-[3px]"><div className="box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full"><TimelineItem
@@ -34,7 +34,7 @@ export const TimelineSection = () => {
   cardVariant="after:border-r-[13px] after:-left-3.5"
   timeLabel="2 Months"
   description="Experience significant improvements in physical performance, reduced visible signs of aging, and better stress resilience. Joint discomfort may decrease, skin appears more vibrant, and you recover from both physical and mental stress noticeably faster.*"
-  imageUrl="https://c.animaapp.com/mohkicncTG3NcI/assets/1763714786081_1730128921_Mini_Calendar.webp"
+  imageUrl="/images/amala/1763714786081_1730128921_Mini_Calendar.webp"
 /></div>
 </div>
 <div className="items-center box-border caret-transparent flex justify-center min-w-[auto] outline-[3px]"><div className="box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full"><TimelineItem
@@ -43,7 +43,7 @@ export const TimelineSection = () => {
   cardVariant="after:border-l-gray-800 after:border-r-zinc-800 after:border-l-[13px] after:-right-3.5"
   timeLabel="3 Months"
   description="Feel the compound effects of cellular protection. Users often report measurable improvements in biomarkers (reduced inflammatory markers, improved oxidative stress markers), enhanced athletic performance, sharper cognitive function, and visible anti-aging effects that have friends asking &quot;what&#39;s your secret?&quot;*"
-  imageUrl="https://c.animaapp.com/mohkicncTG3NcI/assets/1763714786081_1730128921_Mini_Calendar.webp"
+  imageUrl="/images/amala/1763714786081_1730128921_Mini_Calendar.webp"
 /></div>
 </div>
 <div className="items-center box-border caret-transparent flex justify-center min-w-[auto] outline-[3px]"><div className="box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full"><TimelineItem
@@ -52,7 +52,7 @@ export const TimelineSection = () => {
   cardVariant="after:border-r-[13px] after:-left-3.5"
   timeLabel="6 Months"
   description="Enjoy systemic cellular optimization with improved mitochondrial function, enhanced endogenous antioxidant production (your body is now better at defending itself), sustained high energy levels, optimal recovery capacity, and a biological age that's measurably younger than your chronological age.*"
-  imageUrl="https://c.animaapp.com/mohkicncTG3NcI/assets/1763714786081_1730128921_Mini_Calendar.webp"
+  imageUrl="/images/amala/1763714786081_1730128921_Mini_Calendar.webp"
 /></div>
 </div>
 <div className="items-center box-border caret-transparent flex justify-center min-w-[auto] outline-[3px]"><div className="box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full"><TimelineItem
@@ -61,7 +61,7 @@ export const TimelineSection = () => {
   cardVariant="after:border-l-gray-800 after:border-r-zinc-800 after:-right-3.5"
   timeLabel="12 Months"
   description="Thrive with full cellular rejuvenation and protection. With a year of selective antioxidant defense, your cells are operating at peak efficiency - mitochondria are protected, DNA is preserved, inflammation is balanced, and your body reflects the vitality of someone 10-15 years younger. You're not just slowing aging - you're reversing it at the cellular level.*"
-  imageUrl="https://c.animaapp.com/mohkicncTG3NcI/assets/1763714786081_1730128921_Mini_Calendar.webp"
+  imageUrl="/images/amala/1763714786081_1730128921_Mini_Calendar.webp"
 /></div>
 </div>
 </div>
@@ -82,7 +82,7 @@ export const TimelineSection = () => {
   mediaInnerVariant="min-h-[auto] min-w-[auto]"
   mediaItemVariant="min-h-[auto]"
   imageWrapperVariant="min-h-[auto] min-w-[auto]"
-  imageSrc="https://c.animaapp.com/mohkicncTG3NcI/assets/20.svg"
+  imageSrc="/images/amala/20.svg"
   imageAlt=""
   imageSizes=""
   imageClassName="min-h-[auto] min-w-[auto]"

@@ -5,7 +5,7 @@ export const AdjustableSection = () => {
         <img
           alt="Sound That Fits You Like Your Favourite T-Shirt.webp"
           title=""
-          src="https://c.animaapp.com/mnsbh2exJLSZhk/assets/1739605028190_Sound_that_fits_v7.webp"
+          src="/images/nebroo/1739605028190_Sound_that_fits_v7.webp"
           
           className="self-center box-border caret-transparent inline max-w-full mx-auto rounded-[10px] md:self-auto"
         />
@@ -19,7 +19,7 @@ export const AdjustableSection = () => {
         <img
           alt="Sound That Fits You Like Your Favourite T-Shirt.webp"
           title=""
-          src="https://c.animaapp.com/mnsbh2exJLSZhk/assets/1739605028190_Sound_that_fits_v7.webp"
+          src="/images/nebroo/1739605028190_Sound_that_fits_v7.webp"
           
           className="self-center box-border caret-transparent block max-w-full min-h-[auto] min-w-[auto] mt-5 mx-0 rounded-[10px] md:self-auto md:hidden md:min-h-0 md:min-w-0 md:mx-auto"
         />

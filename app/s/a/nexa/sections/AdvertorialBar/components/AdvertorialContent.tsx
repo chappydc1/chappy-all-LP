@@ -5,7 +5,7 @@ export const AdvertorialContent = () => {
       <div className="self-center bg-transparent box-border caret-transparent flex justify-around outline-[3px] w-full pl-2.5 pr-[15px] py-2 md:justify-between md:py-3">
         <img
           title=""
-          src="https://c.animaapp.com/mpy7krbtwlu4la/assets/1764951851636_v2.png"
+          src="/images/nexa/1764951851636_v2.png"
           href=""
           alt=""
           className="text-black box-border caret-transparent hidden basis-[0%] shrink-0 h-[17px] max-w-full min-h-0 min-w-0 outline-[3px] align-baseline w-[78.414px] rounded-[1px] md:block md:h-5 md:min-h-[auto] md:min-w-[auto] md:w-[35px]"
@@ -18,7 +18,7 @@ export const AdvertorialContent = () => {
         <div className="items-center self-center box-border caret-transparent hidden justify-end min-h-0 min-w-0 outline-[3px] w-[30%] px-2.5 md:flex md:min-h-[auto] md:min-w-[auto]">
           <img
             title=""
-            src="https://c.animaapp.com/mpy7krbtwlu4la/assets/1729690210975_1713260533_1681578148_flag.webp"
+            src="/images/nexa/1729690210975_1713260533_1681578148_flag.webp"
             href=""
             alt=""
             className="text-black box-border caret-transparent inline h-[13px] max-w-full min-h-0 min-w-0 outline-[3px] align-baseline w-[21px] mr-2.5 md:block md:h-4 md:min-h-[auto] md:min-w-[auto] md:w-[27px]"

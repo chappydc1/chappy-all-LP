@@ -5,7 +5,7 @@ export const InsurancePlans = () => {
         We work with all major plans:
       </h2>
       <img
-        src="https://c.animaapp.com/mpgprp8nfS9gmT/assets/logos-grid.svg"
+        src="/images/hear/logos-grid.svg"
         alt=""
         className="caret-transparent inline max-w-[90%] outline-[3px] align-bottom w-full mb-[30px]"
       />

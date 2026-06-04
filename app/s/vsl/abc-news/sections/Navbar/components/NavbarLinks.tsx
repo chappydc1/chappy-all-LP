@@ -47,7 +47,7 @@ export const NavbarLinks = () => {
               </h2>
               <span className="text-black [align-items:normal] box-content caret-black inline justify-normal min-h-0 min-w-0 outline-0 text-wrap pr-0 md:text-neutral-900 md:items-center md:aspect-auto md:box-border md:caret-transparent md:flex md:justify-center md:min-h-[auto] md:min-w-[auto] md:outline-[3px] md:overscroll-x-auto md:overscroll-y-auto md:snap-align-none md:snap-normal md:snap-none md:decoration-auto md:underline-offset-auto md:text-nowrap md:[mask-position:0%] md:bg-left-top md:pr-[9px] md:scroll-m-0 md:scroll-p-[auto]">
                 <img
-                  src="https://c.animaapp.com/mov1hivmUrwXF6/assets/icon-1.svg"
+                  src="/images/abc-news/icon-1.svg"
                   alt="Icon"
                   className="box-content caret-black h-auto outline-0 text-wrap align-middle w-auto md:aspect-auto md:box-border md:caret-transparent md:h-4 md:outline-[3px] md:overscroll-x-auto md:overscroll-y-auto md:snap-align-none md:snap-normal md:snap-none md:decoration-auto md:underline-offset-auto md:text-nowrap md:align-baseline md:w-4 md:[mask-position:0%] md:bg-left-top md:scroll-m-0 md:scroll-p-[auto]"
                 />

@@ -8,11 +8,11 @@ export const AsSeenOn = () => {
         <div className="box-border caret-transparent flex flex-wrap -mx-3 pt-6">
           <div className="box-border caret-transparent shrink-0 max-w-full min-h-[auto] min-w-[auto] w-full px-3">
             <img
-              src="https://c.animaapp.com/mnsem251Wpf2gA/assets/asseenond.webp"
+              src="/images/emma/asseenond.webp"
               className="box-border caret-transparent hidden max-w-[772px] w-full m-auto md:block"
             />
             <img
-              src="https://c.animaapp.com/mnsem251Wpf2gA/assets/asseenonm.webp"
+              src="/images/emma/asseenonm.webp"
               className="box-border caret-transparent block max-w-[343px] w-full m-auto md:hidden"
             />
           </div>

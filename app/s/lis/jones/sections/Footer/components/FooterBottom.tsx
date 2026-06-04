@@ -25,7 +25,7 @@ export const FooterBottom = () => {
           >
             Do not sell my personal information
             <img
-              src="https://c.animaapp.com/mpke0433qmtH28/assets/image-2.svg"
+              src="/images/jones/image-2.svg"
               alt="California Consumer Privacy Act (CCPA) Opt-Out Icon"
               role="presentation"
               className="caret-transparent inline h-[8.4px] max-w-full outline-[3px] text-start ml-[3px] md:text-right"

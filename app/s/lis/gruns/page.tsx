@@ -13,7 +13,7 @@ export default function GrunsLandingPage() {
     <>
       <AccessibilityWidgets
         variant="icon"
-        src="/s/lis/gruns/media/icon-1.svg"
+        src="/images/gruns/icon-1.svg"
         alt="Icon"
         href=""
         linkText=""
@@ -95,7 +95,7 @@ export default function GrunsLandingPage() {
       <div className="box-border caret-transparent h-px outline-[3px] w-px overflow-hidden">
         <img
           alt=""
-          src="/s/lis/gruns/media/92.gif"
+          src="/images/gruns/92.gif"
           className="aspect-[auto_1_/_1] box-border caret-transparent max-w-full opacity-[0.01] outline-[3px] w-px"
         />
       </div>

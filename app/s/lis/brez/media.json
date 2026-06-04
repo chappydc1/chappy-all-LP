@@ -1,42 +1,42 @@
 {
   "hero": {
-    "bg": "/brez/001_BREZ_Mobile_BG_Home_v03_2_copy_1_d1fc85c4-ea37-42b7-8634-492a6ac5ac0f.png",
-    "canBadge": "/brez/can_1.png",
-    "alcoholFreeBadge": "/brez/Group.png",
-    "ctaArrow": "/brez/ph_arrow-down.png"
+    "bg": "/images/brez/001_BREZ_Mobile_BG_Home_v03_2_copy_1_d1fc85c4-ea37-42b7-8634-492a6ac5ac0f.png",
+    "canBadge": "/images/brez/can_1.png",
+    "alcoholFreeBadge": "/images/brez/Group.png",
+    "ctaArrow": "/images/brez/ph_arrow-down.png"
   },
   "logo": {
-    "svg": "/brez/002_BREZ-Logo_1.svg"
+    "svg": "/images/brez/002_BREZ-Logo_1.svg"
   },
   "pressLogos": [
-    { "id": "logo1", "src": "/brez/003_logo-1.png", "alt": "Press logo 1" },
-    { "id": "logo3", "src": "/brez/004_logo-3.png", "alt": "Press logo 3" },
-    { "id": "logo2", "src": "/brez/005_logo-2.png", "alt": "Press logo 2" }
+    { "id": "logo1", "src": "/images/brez/003_logo-1.png", "alt": "Press logo 1" },
+    { "id": "logo3", "src": "/images/brez/004_logo-3.png", "alt": "Press logo 3" },
+    { "id": "logo2", "src": "/images/brez/005_logo-2.png", "alt": "Press logo 2" }
   ],
   "benefits": [
-    { "id": "vegan",        "src": "/brez/006_Vegan.png",               "alt": "Vegan" },
-    { "id": "no-gmo",       "src": "/brez/007_No_GMO.png",              "alt": "No GMO" },
-    { "id": "organic",      "src": "/brez/008_Organic_ingredients.png", "alt": "Organic Ingredients" },
-    { "id": "gluten-free",  "src": "/brez/009_Gluten_free.png",         "alt": "Gluten Free" },
-    { "id": "calories",     "src": "/brez/010_Made_in_USA.png",         "alt": "Low Calories" },
-    { "id": "made-in-usa",  "src": "/brez/011_Made_in_USA_1.png",       "alt": "Made in the USA" }
+    { "id": "vegan",        "src": "/images/brez/006_Vegan.png",               "alt": "Vegan" },
+    { "id": "no-gmo",       "src": "/images/brez/007_No_GMO.png",              "alt": "No GMO" },
+    { "id": "organic",      "src": "/images/brez/008_Organic_ingredients.png", "alt": "Organic Ingredients" },
+    { "id": "gluten-free",  "src": "/images/brez/009_Gluten_free.png",         "alt": "Gluten Free" },
+    { "id": "calories",     "src": "/images/brez/010_Made_in_USA.png",         "alt": "Low Calories" },
+    { "id": "made-in-usa",  "src": "/images/brez/011_Made_in_USA_1.png",       "alt": "Made in the USA" }
   ],
   "reasons": [
-    { "id": "reason-1", "mainImage": "/brez/012_GMHwBt5WAAAm68w.webp",                                      "iconImage": "/brez/013_Frame_54.png" },
-    { "id": "reason-2", "mainImage": "/brez/014_Rectangle_21.png",                                          "iconImage": "/brez/015_Frame_54_1.png" },
-    { "id": "reason-3", "mainImage": "/brez/016_Rectangle_21_1.png",                                        "iconImage": "/brez/017_Frame_54_2.png" },
-    { "id": "reason-4", "mainImage": "/brez/018_Rectangle_21_2.png",                                        "iconImage": "/brez/019_Frame_54_3.png" },
-    { "id": "reason-5", "mainImage": "/brez/020_Rectangle_21_3.png",                                        "iconImage": "/brez/021_Frame_54_4.png" },
-    { "id": "reason-6", "mainImage": "/brez/022_Main_Scene_1_1e7a44ce-a311-4727-b9c3-b2679d43c2c0.jpg",    "iconImage": "/brez/023_Frame_54_5.png" }
+    { "id": "reason-1", "mainImage": "/images/brez/012_GMHwBt5WAAAm68w.webp",                                      "iconImage": "/images/brez/013_Frame_54.png" },
+    { "id": "reason-2", "mainImage": "/images/brez/014_Rectangle_21.png",                                          "iconImage": "/images/brez/015_Frame_54_1.png" },
+    { "id": "reason-3", "mainImage": "/images/brez/016_Rectangle_21_1.png",                                        "iconImage": "/images/brez/017_Frame_54_2.png" },
+    { "id": "reason-4", "mainImage": "/images/brez/018_Rectangle_21_2.png",                                        "iconImage": "/images/brez/019_Frame_54_3.png" },
+    { "id": "reason-5", "mainImage": "/images/brez/020_Rectangle_21_3.png",                                        "iconImage": "/images/brez/021_Frame_54_4.png" },
+    { "id": "reason-6", "mainImage": "/images/brez/022_Main_Scene_1_1e7a44ce-a311-4727-b9c3-b2679d43c2c0.jpg",    "iconImage": "/images/brez/023_Frame_54_5.png" }
   ],
   "reviews": [
-    { "id": "reviewer-1", "src": "/brez/025_Rectangle_21_7.png", "alt": "Rebecca I." },
-    { "id": "reviewer-2", "src": "/brez/026_Rectangle_21_6.png", "alt": "Alejandra J." },
-    { "id": "reviewer-3", "src": "/brez/027_Rectangle_21_9.png", "alt": "Reviewer 3" },
-    { "id": "reviewer-4", "src": "/brez/028_Image_1_857658e4-c2f2-4ed6-b7e9-1a6eca4b2a60_400x400.jpg", "alt": "Reviewer 4" },
-    { "id": "reviewer-5", "src": "/brez/029_Image_1_6_400x400.jpg", "alt": "Reviewer 5" }
+    { "id": "reviewer-1", "src": "/images/brez/025_Rectangle_21_7.png", "alt": "Rebecca I." },
+    { "id": "reviewer-2", "src": "/images/brez/026_Rectangle_21_6.png", "alt": "Alejandra J." },
+    { "id": "reviewer-3", "src": "/images/brez/027_Rectangle_21_9.png", "alt": "Reviewer 3" },
+    { "id": "reviewer-4", "src": "/images/brez/028_Image_1_857658e4-c2f2-4ed6-b7e9-1a6eca4b2a60_400x400.jpg", "alt": "Reviewer 4" },
+    { "id": "reviewer-5", "src": "/images/brez/029_Image_1_6_400x400.jpg", "alt": "Reviewer 5" }
   ],
   "cta": {
-    "productImage": "/brez/024_Can_Scene_1_Desktop.jpg"
+    "productImage": "/images/brez/024_Can_Scene_1_Desktop.jpg"
   }
 }

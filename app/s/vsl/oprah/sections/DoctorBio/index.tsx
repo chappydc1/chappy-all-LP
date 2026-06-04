@@ -29,7 +29,7 @@ export const DoctorBio = ({ showComments = false }: { showComments?: boolean }) 
           <div className="box-border gap-x-2.5 flex flex-row gap-y-2.5 md:flex-col">
             <div className="box-border min-h-[auto] min-w-[auto] md:min-h-0 md:min-w-0">
               <img
-                src="/vsl/oprah/media/drginasam.webp"
+                src="/images/oprah/drginasam.webp"
                 className="box-border inline h-[81.96px] w-[81.96px]"
                 alt="Dr. Gina Sam"
               />

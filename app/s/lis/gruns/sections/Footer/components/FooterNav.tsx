@@ -77,7 +77,7 @@ export const FooterNav = () => {
             { href: "https://juced.co/", label: "Jüced" },
           ]}
           showLogo="true"
-          logoSrc="/s/lis/gruns/media/39.svg"
+          logoSrc="/images/gruns/39.svg"
           logoAlt="U Snacks"
         />
       </ul>

@@ -7,7 +7,7 @@ export const NavbarLogo = () => {
           href="/"
           className="text-sky-900 box-border caret-transparent hover:text-blue-900 hover:border-blue-900"
         >
-          <div className="bg-[url('https://c.animaapp.com/mov1hivmUrwXF6/assets/logo.svg')] bg-no-repeat bg-contain box-border caret-transparent brightness-[0.1] h-[38px] outline-[3px] w-[108px] bg-center md:h-[46px] md:w-[116px]"></div>
+          <div className="bg-[url('/images/abc-news/logo.svg')] bg-no-repeat bg-contain box-border caret-transparent brightness-[0.1] h-[38px] outline-[3px] w-[108px] bg-center md:h-[46px] md:w-[116px]"></div>
           <span className="text-transparent text-[0px] box-border leading-[0px] outline-[3px]">
             ABC News
           </span>

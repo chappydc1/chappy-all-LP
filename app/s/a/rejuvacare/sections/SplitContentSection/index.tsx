@@ -4,7 +4,7 @@ import { SplitText } from "../../components/SplitText";
 export const SplitContentSection = () => {
   return (
     <div className="items-center self-center bg-neutral-100 box-border caret-transparent flex flex-wrap justify-center max-w-full outline-[3px] md:flex-nowrap">
-      <div className="relative bg-[url('https://assets.imagehub.io/bb6d9900-4f98-11ef-a365-7332b5bb1723/1722936415316_bg_gradient.webp')] bg-no-repeat bg-cover box-border caret-transparent basis-full grow max-w-[1400px] min-h-[25px] outline-[3px] w-min m-auto pt-[30px] pb-5 px-[15px] md:basis-0 md:pt-[50px] md:pb-10 md:px-[100px]">
+      <div className="relative bg-[url('/images/rejuvacare/1722936415316_bg_gradient.webp">
         <div className="items-center box-border caret-transparent flex flex-col outline-[3px] w-full p-px md:flex-row-reverse">
           <SplitMedia
             containerVariant="flex flex-col min-h-[auto] min-w-[auto] pl-0 md:pl-5"
@@ -12,7 +12,7 @@ export const SplitContentSection = () => {
             titleVariant="min-h-[auto] min-w-[auto] mb-2.5 pr-[30px] md:min-h-0 md:min-w-0 md:pr-0"
             mediaContainerVariant="flex flex-col-reverse min-h-[auto] min-w-[auto] rounded-[15px] md:flex-col md:mt-0 before:min-h-[auto] before:min-w-[auto]"
             videoSrc="https://cdn.shopify.com/videos/c/o/v/9d9035fc73f84f1e9b88fff4923b298a.mp4"
-            videoPoster="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1728697926859_crippling_pain_poster.webp"
+            videoPoster="/images/rejuvacare/1728697926859_crippling_pain_poster.webp"
             videoVariant="h-auto md:h-full"
           />
           <SplitText

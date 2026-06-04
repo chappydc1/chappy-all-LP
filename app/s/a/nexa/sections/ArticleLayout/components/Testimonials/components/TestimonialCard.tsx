@@ -33,7 +33,7 @@ export const TestimonialCard = (props: TestimonialCardProps) => {
         <div className="items-center self-center box-border caret-transparent flex outline-[3px] w-full pt-3 pb-[5px] px-2.5">
           <img
             title=""
-            src="https://c.animaapp.com/mpy7krbtwlu4la/assets/1732520123546_1723972557_user_approve.webp"
+            src="/images/nexa/1732520123546_1723972557_user_approve.webp"
             href=""
             alt=""
             className="text-black box-border caret-transparent h-[25px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] align-baseline w-[25px] md:h-[35px] md:w-[35px]"

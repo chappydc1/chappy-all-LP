@@ -150,7 +150,7 @@ export const OfferSection = (props: OfferSectionProps) => {
         </button>
         <img
           title=""
-          src="https://c.animaapp.com/mpy7krbtwlu4la/assets/1729171287293_1718042058_1711466088389_2_min.gif"
+          src="/images/nexa/1729171287293_1718042058_1711466088389_2_min.gif"
           {...({ href: "" } as { href: string })}
           alt=""
           className="text-black box-border caret-transparent max-w-full outline-[3px] align-baseline inline h-5 w-[1000px] mt-5"
@@ -204,7 +204,7 @@ export const OfferSection = (props: OfferSectionProps) => {
           </div>
           <img
             title=""
-            src="https://c.animaapp.com/mpy7krbtwlu4la/assets/1765200385645_8.png"
+            src="/images/nexa/1765200385645_8.png"
             {...({ href: "" } as { href: string })}
             alt=""
             className="text-black box-border caret-transparent inline h-[202px] max-w-full min-h-0 min-w-0 outline-[3px] align-baseline w-[125.844px] ml-[11px] mr-[5px] pr-0 md:block md:h-[219px] md:min-h-[auto] md:min-w-[auto] md:w-[154px] md:ml-0 md:mr-[19px] md:pr-2.5"
@@ -235,7 +235,7 @@ export const OfferSection = (props: OfferSectionProps) => {
           <div className="box-border caret-transparent flex justify-center outline-[3px] w-full mb-[5px] pl-[25px] pr-2.5 pt-[5px] pb-3 md:block md:justify-normal md:w-auto md:mb-0 md:p-0">
             <img
               title=""
-              src="https://c.animaapp.com/mpy7krbtwlu4la/assets/1765200385645_8.png"
+              src="/images/nexa/1765200385645_8.png"
               {...({ href: "" } as { href: string })}
               alt=""
               className="text-black box-border caret-transparent block h-[213px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] align-baseline w-[122px] mr-[19px] md:inline md:h-[219px] md:min-h-0 md:min-w-0 md:w-[154px]"
@@ -273,28 +273,28 @@ export const OfferSection = (props: OfferSectionProps) => {
       <div className="box-border caret-transparent outline-[3px] bg-yellow-100 flex justify-between w-full pt-5 pb-[15px] px-2.5 md:pb-5 md:px-[60px]">
         <img
           title=""
-          src="https://c.animaapp.com/mpy7krbtwlu4la/assets/1729170908849_1713302159_1711974144_90_day.webp"
+          src="/images/nexa/1729170908849_1713302159_1711974144_90_day.webp"
           {...({ href: "" } as { href: string })}
           alt=""
           className="text-black box-border caret-transparent h-[65px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] align-baseline w-[65px] md:h-[120px] md:w-[120px]"
         />
         <img
           title=""
-          src="https://c.animaapp.com/mpy7krbtwlu4la/assets/1729170970741_1713302401_1711974157_shipping.webp"
+          src="/images/nexa/1729170970741_1713302401_1711974157_shipping.webp"
           {...({ href: "" } as { href: string })}
           alt=""
           className="text-black box-border caret-transparent h-[65px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] align-baseline w-[65px] md:h-[120px] md:w-[120px]"
         />
         <img
           title=""
-          src="https://c.animaapp.com/mpy7krbtwlu4la/assets/1729170972423_1713302404_1711974169_secure_checkout.webp"
+          src="/images/nexa/1729170972423_1713302404_1711974169_secure_checkout.webp"
           {...({ href: "" } as { href: string })}
           alt=""
           className="text-black box-border caret-transparent h-[65px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] align-baseline w-[65px] md:h-[120px] md:w-[120px]"
         />
         <img
           title=""
-          src="https://c.animaapp.com/mpy7krbtwlu4la/assets/1729170974121_1713302409_1711974180_easy_returns.webp"
+          src="/images/nexa/1729170974121_1713302409_1711974180_easy_returns.webp"
           {...({ href: "" } as { href: string })}
           alt=""
           className="text-black box-border caret-transparent h-[65px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] align-baseline w-[65px] md:h-[120px] md:w-[120px]"

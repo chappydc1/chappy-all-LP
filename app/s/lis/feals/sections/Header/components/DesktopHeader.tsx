@@ -65,7 +65,7 @@ export const DesktopHeader = () => {
               className="relative items-center box-border caret-transparent flex h-full outline-[3px] px-[15px] py-[5px]"
             >
               <img
-                src="https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-4.svg"
+                src="/images/feals/icon-4.svg"
                 alt="Icon"
                 className="box-border caret-transparent h-[30px] outline-[3px] w-[17px]"
               />
@@ -80,7 +80,7 @@ export const DesktopHeader = () => {
               className="relative items-center box-border caret-transparent flex h-full outline-[3px] px-[15px] py-[5px]"
             >
               <img
-                src="https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-5.svg"
+                src="/images/feals/icon-5.svg"
                 alt="Icon"
                 className="box-border caret-transparent h-[30px] outline-[3px] w-[17px]"
               />

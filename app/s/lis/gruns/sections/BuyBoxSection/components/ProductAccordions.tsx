@@ -11,7 +11,7 @@ export const ProductAccordions = () => {
                 </span>
                 <span className="box-border caret-transparent block shrink-0 h-6 min-h-[auto] min-w-[auto] outline-[3px] w-6 ml-10 mt-1">
                   <img
-                    src="/s/lis/gruns/media/icon-20.svg"
+                    src="/images/gruns/icon-20.svg"
                     alt="Icon"
                     className="box-border caret-transparent outline-[3px]"
                   />
@@ -69,7 +69,7 @@ export const ProductAccordions = () => {
                 </span>
                 <span className="box-border caret-transparent block shrink-0 h-6 min-h-[auto] min-w-[auto] outline-[3px] w-6 ml-10 mt-1">
                   <img
-                    src="/s/lis/gruns/media/icon-20.svg"
+                    src="/images/gruns/icon-20.svg"
                     alt="Icon"
                     className="box-border caret-transparent outline-[3px]"
                   />
@@ -144,7 +144,7 @@ export const ProductAccordions = () => {
                 </span>
                 <span className="box-border caret-transparent block shrink-0 h-6 min-h-[auto] min-w-[auto] outline-[3px] w-6 ml-10 mt-1">
                   <img
-                    src="/s/lis/gruns/media/icon-20.svg"
+                    src="/images/gruns/icon-20.svg"
                     alt="Icon"
                     className="box-border caret-transparent outline-[3px]"
                   />
@@ -158,7 +158,7 @@ export const ProductAccordions = () => {
               <div className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] overflow-hidden">
                 <div className="box-border caret-transparent outline-[3px] pr-10 pt-4">
                   <img
-                    src="/s/lis/gruns/media/60.webp"
+                    src="/images/gruns/60.webp"
                     alt=""
                     className="aspect-[auto_600_/_600] box-border caret-transparent max-w-full object-[50%_17.578%] outline-[3px] w-full mt-4"
                   />
@@ -176,7 +176,7 @@ export const ProductAccordions = () => {
                 </span>
                 <span className="box-border caret-transparent block shrink-0 h-6 min-h-[auto] min-w-[auto] outline-[3px] w-6 ml-10 mt-1">
                   <img
-                    src="/s/lis/gruns/media/icon-20.svg"
+                    src="/images/gruns/icon-20.svg"
                     alt="Icon"
                     className="box-border caret-transparent outline-[3px]"
                   />
@@ -244,7 +244,7 @@ export const ProductAccordions = () => {
                 </span>
                 <span className="box-border caret-transparent block shrink-0 h-6 min-h-[auto] min-w-[auto] outline-[3px] w-6 ml-10 mt-1">
                   <img
-                    src="/s/lis/gruns/media/icon-20.svg"
+                    src="/images/gruns/icon-20.svg"
                     alt="Icon"
                     className="box-border caret-transparent outline-[3px]"
                   />
@@ -276,7 +276,7 @@ export const ProductAccordions = () => {
                 </span>
                 <span className="box-border caret-transparent block shrink-0 h-6 min-h-[auto] min-w-[auto] outline-[3px] w-6 ml-10 mt-1">
                   <img
-                    src="/s/lis/gruns/media/icon-20.svg"
+                    src="/images/gruns/icon-20.svg"
                     alt="Icon"
                     className="box-border caret-transparent outline-[3px]"
                   />

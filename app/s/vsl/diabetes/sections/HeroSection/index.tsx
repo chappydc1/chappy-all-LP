@@ -18,7 +18,7 @@ export const DiabetesHeroSection = () => {
                     <ul className="box-border caret-transparent flex flex-wrap justify-center outline-[3px] pl-0 md:pl-8">
                       <li className="relative text-sm box-border caret-transparent leading-5 list-none outline-[3px] mt-4 px-[22px] md:text-xl md:leading-7 after:accent-auto after:bg-stone-200 after:box-border after:caret-transparent after:text-white after:hidden after:text-sm after:not-italic after:normal-nums after:font-normal after:h-[18px] after:tracking-[normal] after:leading-5 after:list-outside after:list-none after:outline-[3px] after:pointer-events-auto after:absolute after:text-center after:no-underline after:indent-[0px] after:normal-case after:visible after:w-0.5 after:border-separate after:right-0 after:top-1.5 after:font-nunito_sans after:md:text-xl after:md:leading-7">
                         <img
-                          src="/img/hour-glass.png?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
+                          src="/images/img/hour-glass.png?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
                           alt=""
                           className="text-sm box-border caret-transparent inline-block invert-[1] leading-5 mt-[-5px] max-w-[25px] outline-[3px] mr-2 md:text-xl md:leading-7"
                         />
@@ -39,7 +39,7 @@ export const DiabetesHeroSection = () => {
                 <div className="relative text-black box-border caret-transparent h-auto max-w-full outline-[3px] w-[370px] border-yellow-600 mx-auto my-6 pl-[98px] pr-[5px] py-2.5 rounded-[14px] border-2 border-solid md:h-[90px] md:max-w-none md:w-[710px] md:my-12 md:pl-[150px] md:pr-[25px] md:pt-[17px] md:pb-[15px]">
                   <div className="absolute bg-yellow-600 box-border caret-transparent h-full outline-[3px] w-[70px] pl-[7px] pr-[5px] py-[19px] rounded-l-xl left-0 top-0 md:h-auto md:w-auto after:accent-auto after:border-l-yellow-600 after:box-border after:caret-transparent after:text-black after:block after:text-base after:not-italic after:normal-nums after:font-normal after:h-0 after:tracking-[normal] after:leading-6 after:list-outside after:list-disc after:outline-[3px] after:pointer-events-auto after:absolute after:right-[-13px] after:text-center after:no-underline after:indent-[0px] after:normal-case after:top-[calc(50%_-_60px)] after:visible after:w-0 after:border-l-[15px] after:border-y-transparent after:border-y-[58px] after:border-separate after:font-nunito_sans after:md:border-y-[45px] after:md:top-0">
                     <img
-                      src="/img/ship-icon.png?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
+                      src="/images/img/ship-icon.png?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
                       alt=""
                       className="absolute box-border caret-transparent max-w-full outline-[3px] top-[calc(50%_-_20px)] w-[65px] mx-auto md:static md:w-auto md:top-auto"
                     />
@@ -77,7 +77,7 @@ export const DiabetesHeroSection = () => {
                             180 DAY SUPPLY
                           </div>
                           <img
-                            src="/img/bottles/3e3.png?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
+                            src="/images/img/bottles/3e3.png?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
                             alt="3 + 3 Bottles"
                             className="box-border caret-transparent inline max-h-60 max-w-full outline-[3px]"
                           />
@@ -118,7 +118,7 @@ export const DiabetesHeroSection = () => {
                             </div>
                           </div>
                           <img
-                            src="/img/cards-dark.webp?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
+                            src="/images/img/cards-dark.webp?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
                             alt="Cards"
                             className="box-border caret-transparent hidden max-w-[220px] outline-[3px] mb-2 md:inline"
                           />
@@ -161,7 +161,7 @@ export const DiabetesHeroSection = () => {
                             90 DAY SUPPLY
                           </div>
                           <img
-                            src="/img/bottles/2e1.png?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
+                            src="/images/img/bottles/2e1.png?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
                             alt="2 + 1 Bottles"
                             className="box-border caret-transparent inline max-h-[200px] max-w-full outline-[3px]"
                           />
@@ -202,7 +202,7 @@ export const DiabetesHeroSection = () => {
                             </div>
                           </div>
                           <img
-                            src="/img/cards.webp?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
+                            src="/images/img/cards.webp?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
                             alt="Cards"
                             className="box-border caret-transparent hidden max-w-[220px] outline-[3px] mb-2 md:inline"
                           />
@@ -245,7 +245,7 @@ export const DiabetesHeroSection = () => {
                             60 DAY SUPPLY
                           </div>
                           <img
-                            src="/img/bottles/2.png?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
+                            src="/images/img/bottles/2.png?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
                             className="box-border caret-transparent inline max-h-[200px] max-w-full outline-[3px]"
                           />
                         </div>
@@ -285,7 +285,7 @@ export const DiabetesHeroSection = () => {
                             </div>
                           </div>
                           <img
-                            src="/img/cards.webp?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
+                            src="/images/img/cards.webp?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
                             alt="Cards"
                             className="box-border caret-transparent hidden max-w-[220px] outline-[3px] mb-2 md:inline"
                           />
@@ -316,7 +316,7 @@ export const DiabetesHeroSection = () => {
                   <div className="box-border caret-transparent shrink-0 max-w-full outline-[3px] w-full px-3 md:w-3/12">
                     <figure className="box-border caret-transparent outline-[3px]">
                       <img
-                        src="/img/guarantee-badge.webp?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
+                        src="/images/img/guarantee-badge.webp?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
                         alt="Guarantee"
                         className="box-border caret-transparent inline max-w-[200px] outline-[3px] mb-4"
                       />
@@ -379,35 +379,35 @@ export const DiabetesHeroSection = () => {
                     <div className="items-center box-border caret-transparent gap-x-2 flex flex-wrap justify-center outline-[3px] gap-y-2 mt-4">
                       <figure className="box-border caret-transparent outline-[3px]">
                         <img
-                          src="/img/gmp.png?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
+                          src="/images/img/gmp.png?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
                           alt="Badge"
                           className="bg-white shadow-[rgba(0,0,0,0.25)_2px_2px_10px_0px] box-border caret-transparent inline max-w-[70px] outline-[3px] rounded-[50%] border-[3px] border-solid border-white md:max-w-[100px]"
                         />
                       </figure>
                       <figure className="box-border caret-transparent outline-[3px]">
                         <img
-                          src="/img/fda.png?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
+                          src="/images/img/fda.png?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
                           alt="Badge"
                           className="bg-white shadow-[rgba(0,0,0,0.25)_2px_2px_10px_0px] box-border caret-transparent inline max-w-[70px] outline-[3px] rounded-[50%] border-[3px] border-solid border-white md:max-w-[100px]"
                         />
                       </figure>
                       <figure className="box-border caret-transparent outline-[3px]">
                         <img
-                          src="/img/nat.png?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
+                          src="/images/img/nat.png?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
                           alt="Badge"
                           className="bg-white shadow-[rgba(0,0,0,0.25)_2px_2px_10px_0px] box-border caret-transparent inline max-w-[70px] outline-[3px] rounded-[50%] border-[3px] border-solid border-white md:max-w-[100px]"
                         />
                       </figure>
                       <figure className="box-border caret-transparent outline-[3px]">
                         <img
-                          src="/img/foreign.png?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
+                          src="/images/img/foreign.png?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
                           alt="Badge"
                           className="bg-white shadow-[rgba(0,0,0,0.25)_2px_2px_10px_0px] box-border caret-transparent inline max-w-[70px] outline-[3px] rounded-[50%] border-[3px] border-solid border-white md:max-w-[100px]"
                         />
                       </figure>
                       <figure className="box-border caret-transparent outline-[3px]">
                         <img
-                          src="/img/gmo.png?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
+                          src="/images/img/gmo.png?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
                           alt="Badge"
                           className="bg-white shadow-[rgba(0,0,0,0.25)_2px_2px_10px_0px] box-border caret-transparent inline max-w-[70px] outline-[3px] rounded-[50%] border-[3px] border-solid border-white md:max-w-[100px]"
                         />
@@ -423,7 +423,7 @@ export const DiabetesHeroSection = () => {
                   <div className="box-border caret-transparent flex flex-wrap outline-[3px] -mx-3">
                     <div className="box-border caret-transparent shrink-0 max-w-full outline-[3px] w-full px-3 md:w-[16.6667%]">
                       <img
-                        src="/img/shopping.png?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
+                        src="/images/img/shopping.png?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
                         alt=""
                         className="box-border caret-transparent inline invert-[1] max-w-[100px] outline-[3px] md:max-w-[180px]"
                       />
@@ -458,7 +458,7 @@ export const DiabetesHeroSection = () => {
                         <div className="box-border caret-transparent outline-[3px] break-words">
                           <div className="items-center box-border caret-transparent gap-x-2 flex outline-[3px] break-words gap-y-2 mb-2">
                             <img
-                              src="/img/avatar.webp?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
+                              src="/images/img/avatar.webp?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
                               alt="Profile"
                               className="box-border caret-transparent max-w-[30px] outline-[3px] break-words"
                             />
@@ -487,7 +487,7 @@ export const DiabetesHeroSection = () => {
                           </div>
                           <div className="box-border caret-transparent max-w-[200px] outline-[3px] break-words mb-0 md:mb-4">
                             <img
-                              src="/img/depoimento/1f.jpg?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
+                              src="/images/img/depoimento/1f.jpg?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
                               alt=""
                               className="box-border caret-transparent inline h-full object-cover outline-[3px] break-words w-full mb-4 md:mb-0"
                             />
@@ -532,7 +532,7 @@ export const DiabetesHeroSection = () => {
                         <div className="box-border caret-transparent outline-[3px] break-words">
                           <div className="items-center box-border caret-transparent gap-x-2 flex outline-[3px] break-words gap-y-2 mb-2">
                             <img
-                              src="/img/avatar.webp?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
+                              src="/images/img/avatar.webp?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
                               alt="Profile"
                               className="box-border caret-transparent max-w-[30px] outline-[3px] break-words"
                             />
@@ -560,7 +560,7 @@ export const DiabetesHeroSection = () => {
                           </div>
                           <div className="box-border caret-transparent max-w-[200px] outline-[3px] break-words mb-0 md:mb-4">
                             <img
-                              src="/img/depoimento/102.jpg?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
+                              src="/images/img/depoimento/102.jpg?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
                               alt=""
                               className="box-border caret-transparent inline h-full object-cover outline-[3px] break-words w-full mb-4 md:mb-0"
                             />
@@ -603,7 +603,7 @@ export const DiabetesHeroSection = () => {
                         <div className="box-border caret-transparent outline-[3px] break-words">
                           <div className="items-center box-border caret-transparent gap-x-2 flex outline-[3px] break-words gap-y-2 mb-2">
                             <img
-                              src="/img/avatar.webp?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
+                              src="/images/img/avatar.webp?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
                               alt="Profile"
                               className="box-border caret-transparent max-w-[30px] outline-[3px] break-words"
                             />
@@ -631,7 +631,7 @@ export const DiabetesHeroSection = () => {
                           </div>
                           <div className="box-border caret-transparent max-w-[200px] outline-[3px] break-words mb-0 md:mb-4">
                             <img
-                              src="/img/depoimento/3m.jpg?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
+                              src="/images/img/depoimento/3m.jpg?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
                               alt=""
                               className="box-border caret-transparent inline h-full object-cover outline-[3px] break-words w-full mb-4 md:mb-0"
                             />
@@ -676,7 +676,7 @@ export const DiabetesHeroSection = () => {
                         <div className="box-border caret-transparent outline-[3px] break-words">
                           <div className="items-center box-border caret-transparent gap-x-2 flex outline-[3px] break-words gap-y-2 mb-2">
                             <img
-                              src="/img/avatar.webp?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
+                              src="/images/img/avatar.webp?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
                               alt="Profile"
                               className="box-border caret-transparent max-w-[30px] outline-[3px] break-words"
                             />
@@ -704,7 +704,7 @@ export const DiabetesHeroSection = () => {
                           </div>
                           <div className="box-border caret-transparent max-w-[200px] outline-[3px] break-words mb-0 md:mb-4">
                             <img
-                              src="/img/depoimento/4f.jpg?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
+                              src="/images/img/depoimento/4f.jpg?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
                               alt=""
                               className="box-border caret-transparent inline h-full object-cover outline-[3px] break-words w-full mb-4 md:mb-0"
                             />
@@ -747,7 +747,7 @@ export const DiabetesHeroSection = () => {
                         <div className="box-border caret-transparent outline-[3px] break-words">
                           <div className="items-center box-border caret-transparent gap-x-2 flex outline-[3px] break-words gap-y-2 mb-2">
                             <img
-                              src="/img/avatar.webp?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
+                              src="/images/img/avatar.webp?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
                               alt="Profile"
                               className="box-border caret-transparent max-w-[30px] outline-[3px] break-words"
                             />
@@ -775,7 +775,7 @@ export const DiabetesHeroSection = () => {
                           </div>
                           <div className="box-border caret-transparent max-w-[200px] outline-[3px] break-words mb-0 md:mb-4">
                             <img
-                              src="/img/depoimento/5f.jpg?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
+                              src="/images/img/depoimento/5f.jpg?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
                               alt=""
                               className="box-border caret-transparent inline h-full object-cover outline-[3px] break-words w-full mb-4 md:mb-0"
                             />
@@ -830,7 +830,7 @@ export const DiabetesHeroSection = () => {
                     <ul className="box-border caret-transparent flex flex-wrap justify-center outline-[3px] pl-0 md:pl-8">
                       <li className="relative text-sm box-border caret-transparent leading-5 list-none outline-[3px] mt-4 px-[22px] md:text-xl md:leading-7 after:accent-auto after:bg-stone-200 after:box-border after:caret-transparent after:text-white after:hidden after:text-sm after:not-italic after:normal-nums after:font-normal after:h-[18px] after:tracking-[normal] after:leading-5 after:list-outside after:list-none after:outline-[3px] after:pointer-events-auto after:absolute after:text-center after:no-underline after:indent-[0px] after:normal-case after:visible after:w-0.5 after:border-separate after:right-0 after:top-1.5 after:font-nunito_sans after:md:text-xl after:md:leading-7">
                         <img
-                          src="/img/hour-glass.png?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
+                          src="/images/img/hour-glass.png?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
                           alt=""
                           className="text-sm box-border caret-transparent inline-block invert-[1] leading-5 mt-[-5px] max-w-[25px] outline-[3px] mr-2 md:text-xl md:leading-7"
                         />
@@ -851,7 +851,7 @@ export const DiabetesHeroSection = () => {
                 <div className="relative text-black box-border caret-transparent h-auto max-w-full outline-[3px] w-[370px] border-yellow-600 mx-auto my-6 pl-[98px] pr-[5px] py-2.5 rounded-[14px] border-2 border-solid md:h-[90px] md:max-w-none md:w-[710px] md:my-12 md:pl-[150px] md:pr-[25px] md:pt-[17px] md:pb-[15px]">
                   <div className="absolute bg-yellow-600 box-border caret-transparent h-full outline-[3px] w-[70px] pl-[7px] pr-[5px] py-[19px] rounded-l-xl left-0 top-0 md:h-auto md:w-auto after:accent-auto after:border-l-yellow-600 after:box-border after:caret-transparent after:text-black after:block after:text-base after:not-italic after:normal-nums after:font-normal after:h-0 after:tracking-[normal] after:leading-6 after:list-outside after:list-disc after:outline-[3px] after:pointer-events-auto after:absolute after:right-[-13px] after:text-center after:no-underline after:indent-[0px] after:normal-case after:top-[calc(50%_-_60px)] after:visible after:w-0 after:border-l-[15px] after:border-y-transparent after:border-y-[58px] after:border-separate after:font-nunito_sans after:md:border-y-[45px] after:md:top-0">
                     <img
-                      src="/img/ship-icon.png?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
+                      src="/images/img/ship-icon.png?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
                       alt=""
                       className="absolute box-border caret-transparent max-w-full outline-[3px] top-[calc(50%_-_20px)] w-[65px] mx-auto md:static md:w-auto md:top-auto"
                     />
@@ -889,7 +889,7 @@ export const DiabetesHeroSection = () => {
                             180 DAY SUPPLY
                           </div>
                           <img
-                            src="/img/bottles/3e3.png?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
+                            src="/images/img/bottles/3e3.png?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
                             alt="3 + 3 Bottles"
                             className="box-border caret-transparent inline max-h-60 max-w-full outline-[3px]"
                           />
@@ -930,7 +930,7 @@ export const DiabetesHeroSection = () => {
                             </div>
                           </div>
                           <img
-                            src="/img/cards-dark.webp?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
+                            src="/images/img/cards-dark.webp?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
                             alt="Cards"
                             className="box-border caret-transparent hidden max-w-[220px] outline-[3px] mb-2 md:inline"
                           />
@@ -973,7 +973,7 @@ export const DiabetesHeroSection = () => {
                             90 DAY SUPPLY
                           </div>
                           <img
-                            src="/img/bottles/2e1.png?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
+                            src="/images/img/bottles/2e1.png?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
                             alt="2 + 1 Bottles"
                             className="box-border caret-transparent inline max-h-[200px] max-w-full outline-[3px]"
                           />
@@ -1014,7 +1014,7 @@ export const DiabetesHeroSection = () => {
                             </div>
                           </div>
                           <img
-                            src="/img/cards.webp?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
+                            src="/images/img/cards.webp?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
                             alt="Cards"
                             className="box-border caret-transparent hidden max-w-[220px] outline-[3px] mb-2 md:inline"
                           />
@@ -1057,7 +1057,7 @@ export const DiabetesHeroSection = () => {
                             60 DAY SUPPLY
                           </div>
                           <img
-                            src="/img/bottles/2.png?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
+                            src="/images/img/bottles/2.png?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
                             className="box-border caret-transparent inline max-h-[200px] max-w-full outline-[3px]"
                           />
                         </div>
@@ -1097,7 +1097,7 @@ export const DiabetesHeroSection = () => {
                             </div>
                           </div>
                           <img
-                            src="/img/cards.webp?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
+                            src="/images/img/cards.webp?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
                             alt="Cards"
                             className="box-border caret-transparent hidden max-w-[220px] outline-[3px] mb-2 md:inline"
                           />
@@ -1358,7 +1358,7 @@ export const DiabetesHeroSection = () => {
                         Who Is Dr. William Li?
                       </h2>
                       <img
-                        src="/img/doctor.jpg?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
+                        src="/images/img/doctor.jpg?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
                         alt="Doctor"
                         className="box-border caret-transparent inline max-w-fit outline-[3px] w-full"
                       />
@@ -1412,7 +1412,7 @@ export const DiabetesHeroSection = () => {
                   <div className="box-border caret-transparent shrink-0 max-w-full outline-[3px] w-full px-3 md:w-3/12">
                     <figure className="box-border caret-transparent outline-[3px]">
                       <img
-                        src="/img/guarantee-badge.webp?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
+                        src="/images/img/guarantee-badge.webp?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
                         alt="Guarantee"
                         className="box-border caret-transparent inline max-w-[200px] outline-[3px] mb-4"
                       />
@@ -1475,35 +1475,35 @@ export const DiabetesHeroSection = () => {
                     <div className="items-center box-border caret-transparent gap-x-2 flex flex-wrap justify-center outline-[3px] gap-y-2 mt-4">
                       <figure className="box-border caret-transparent outline-[3px]">
                         <img
-                          src="/img/gmp.png?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
+                          src="/images/img/gmp.png?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
                           alt="Badge"
                           className="bg-white shadow-[rgba(0,0,0,0.25)_2px_2px_10px_0px] box-border caret-transparent inline max-w-[70px] outline-[3px] rounded-[50%] border-[3px] border-solid border-white md:max-w-[100px]"
                         />
                       </figure>
                       <figure className="box-border caret-transparent outline-[3px]">
                         <img
-                          src="/img/fda.png?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
+                          src="/images/img/fda.png?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
                           alt="Badge"
                           className="bg-white shadow-[rgba(0,0,0,0.25)_2px_2px_10px_0px] box-border caret-transparent inline max-w-[70px] outline-[3px] rounded-[50%] border-[3px] border-solid border-white md:max-w-[100px]"
                         />
                       </figure>
                       <figure className="box-border caret-transparent outline-[3px]">
                         <img
-                          src="/img/nat.png?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
+                          src="/images/img/nat.png?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
                           alt="Badge"
                           className="bg-white shadow-[rgba(0,0,0,0.25)_2px_2px_10px_0px] box-border caret-transparent inline max-w-[70px] outline-[3px] rounded-[50%] border-[3px] border-solid border-white md:max-w-[100px]"
                         />
                       </figure>
                       <figure className="box-border caret-transparent outline-[3px]">
                         <img
-                          src="/img/foreign.png?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
+                          src="/images/img/foreign.png?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
                           alt="Badge"
                           className="bg-white shadow-[rgba(0,0,0,0.25)_2px_2px_10px_0px] box-border caret-transparent inline max-w-[70px] outline-[3px] rounded-[50%] border-[3px] border-solid border-white md:max-w-[100px]"
                         />
                       </figure>
                       <figure className="box-border caret-transparent outline-[3px]">
                         <img
-                          src="/img/gmo.png?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
+                          src="/images/img/gmo.png?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
                           alt="Badge"
                           className="bg-white shadow-[rgba(0,0,0,0.25)_2px_2px_10px_0px] box-border caret-transparent inline max-w-[70px] outline-[3px] rounded-[50%] border-[3px] border-solid border-white md:max-w-[100px]"
                         />
@@ -1524,7 +1524,7 @@ export const DiabetesHeroSection = () => {
                     <ul className="box-border caret-transparent flex flex-wrap justify-center outline-[3px] pl-0 md:pl-8">
                       <li className="relative text-sm box-border caret-transparent leading-5 list-none outline-[3px] mt-4 px-[22px] md:text-xl md:leading-7 after:accent-auto after:bg-stone-200 after:box-border after:caret-transparent after:text-white after:hidden after:text-sm after:not-italic after:normal-nums after:font-normal after:h-[18px] after:tracking-[normal] after:leading-5 after:list-outside after:list-none after:outline-[3px] after:pointer-events-auto after:absolute after:text-center after:no-underline after:indent-[0px] after:normal-case after:visible after:w-0.5 after:border-separate after:right-0 after:top-1.5 after:font-nunito_sans after:md:text-xl after:md:leading-7">
                         <img
-                          src="/img/hour-glass.png?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
+                          src="/images/img/hour-glass.png?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
                           alt=""
                           className="text-sm box-border caret-transparent inline-block invert-[1] leading-5 mt-[-5px] max-w-[25px] outline-[3px] mr-2 md:text-xl md:leading-7"
                         />
@@ -1545,7 +1545,7 @@ export const DiabetesHeroSection = () => {
                 <div className="relative text-black box-border caret-transparent h-auto max-w-full outline-[3px] w-[370px] border-yellow-600 mx-auto my-6 pl-[98px] pr-[5px] py-2.5 rounded-[14px] border-2 border-solid md:h-[90px] md:max-w-none md:w-[710px] md:my-12 md:pl-[150px] md:pr-[25px] md:pt-[17px] md:pb-[15px]">
                   <div className="absolute bg-yellow-600 box-border caret-transparent h-full outline-[3px] w-[70px] pl-[7px] pr-[5px] py-[19px] rounded-l-xl left-0 top-0 md:h-auto md:w-auto after:accent-auto after:border-l-yellow-600 after:box-border after:caret-transparent after:text-black after:block after:text-base after:not-italic after:normal-nums after:font-normal after:h-0 after:tracking-[normal] after:leading-6 after:list-outside after:list-disc after:outline-[3px] after:pointer-events-auto after:absolute after:right-[-13px] after:text-center after:no-underline after:indent-[0px] after:normal-case after:top-[calc(50%_-_60px)] after:visible after:w-0 after:border-l-[15px] after:border-y-transparent after:border-y-[58px] after:border-separate after:font-nunito_sans after:md:border-y-[45px] after:md:top-0">
                     <img
-                      src="/img/ship-icon.png?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
+                      src="/images/img/ship-icon.png?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
                       alt=""
                       className="absolute box-border caret-transparent max-w-full outline-[3px] top-[calc(50%_-_20px)] w-[65px] mx-auto md:static md:w-auto md:top-auto"
                     />
@@ -1583,7 +1583,7 @@ export const DiabetesHeroSection = () => {
                             180 DAY SUPPLY
                           </div>
                           <img
-                            src="/img/bottles/3e3.png?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
+                            src="/images/img/bottles/3e3.png?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
                             alt="3 + 3 Bottles"
                             className="box-border caret-transparent inline max-h-60 max-w-full outline-[3px]"
                           />
@@ -1624,7 +1624,7 @@ export const DiabetesHeroSection = () => {
                             </div>
                           </div>
                           <img
-                            src="/img/cards-dark.webp?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
+                            src="/images/img/cards-dark.webp?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
                             alt="Cards"
                             className="box-border caret-transparent hidden max-w-[220px] outline-[3px] mb-2 md:inline"
                           />
@@ -1667,7 +1667,7 @@ export const DiabetesHeroSection = () => {
                             90 DAY SUPPLY
                           </div>
                           <img
-                            src="/img/bottles/2e1.png?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
+                            src="/images/img/bottles/2e1.png?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
                             alt="2 + 1 Bottles"
                             className="box-border caret-transparent inline max-h-[200px] max-w-full outline-[3px]"
                           />
@@ -1708,7 +1708,7 @@ export const DiabetesHeroSection = () => {
                             </div>
                           </div>
                           <img
-                            src="/img/cards.webp?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
+                            src="/images/img/cards.webp?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
                             alt="Cards"
                             className="box-border caret-transparent hidden max-w-[220px] outline-[3px] mb-2 md:inline"
                           />
@@ -1751,7 +1751,7 @@ export const DiabetesHeroSection = () => {
                             60 DAY SUPPLY
                           </div>
                           <img
-                            src="/img/bottles/2.png?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
+                            src="/images/img/bottles/2.png?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
                             className="box-border caret-transparent inline max-h-[200px] max-w-full outline-[3px]"
                           />
                         </div>
@@ -1791,7 +1791,7 @@ export const DiabetesHeroSection = () => {
                             </div>
                           </div>
                           <img
-                            src="/img/cards.webp?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
+                            src="/images/img/cards.webp?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
                             alt="Cards"
                             className="box-border caret-transparent hidden max-w-[220px] outline-[3px] mb-2 md:inline"
                           />
@@ -1827,7 +1827,7 @@ export const DiabetesHeroSection = () => {
               <div className="text-[13px] box-border caret-transparent gap-x-[16.25px] flex flex-col leading-[19.5px] outline-[3px] gap-y-[16.25px] border border-gray-200 pt-[16.25px] px-[16.25px] rounded-[16.25px] border-solid font-nunito_sans md:text-base md:gap-x-5 md:leading-6 md:gap-y-5 md:pt-5 md:px-5 md:rounded-[20px]">
                 <div className="relative text-[13px] items-start box-border caret-transparent gap-x-[8.125px] flex justify-start leading-[19.5px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] gap-y-[8.125px] w-full md:text-base md:gap-x-2.5 md:leading-6 md:gap-y-2.5">
                   <img
-                    src="/img/coments/woman/03.jpg?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
+                    src="/images/img/coments/woman/03.jpg?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
                     alt=""
                     className="text-[13px] box-border caret-transparent leading-[19.5px] max-h-[39px] max-w-[39px] min-h-[auto] min-w-[auto] object-cover outline-[3px] rounded-[20.3125px] md:text-base md:leading-6 md:max-h-12 md:max-w-12 md:rounded-[25px]"
                   />
@@ -1866,7 +1866,7 @@ export const DiabetesHeroSection = () => {
                 </div>
                 <div className="relative text-[13px] items-start box-border caret-transparent gap-x-[8.125px] flex justify-start leading-[19.5px] max-w-[calc(100%_-_47.125px)] min-h-[auto] min-w-[auto] outline-[3px] gap-y-[8.125px] w-full ml-[47.125px] mb-[9.75px] md:text-base md:gap-x-2.5 md:leading-6 md:max-w-[calc(100%_-_58px)] md:gap-y-2.5 md:ml-[58px] md:mb-3">
                   <img
-                    src="/img/coments/man/03.jpg?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
+                    src="/images/img/coments/man/03.jpg?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
                     alt=""
                     className="text-[13px] box-border caret-transparent leading-[19.5px] max-h-[39px] max-w-[39px] min-h-[auto] min-w-[auto] object-cover outline-[3px] rounded-[20.3125px] md:text-base md:leading-6 md:max-h-12 md:max-w-12 md:rounded-[25px]"
                   />
@@ -1903,7 +1903,7 @@ export const DiabetesHeroSection = () => {
                 </div>
                 <div className="relative text-[13px] items-start box-border caret-transparent gap-x-[8.125px] flex justify-start leading-[19.5px] mt-[-9.75px] max-w-[calc(100%_-_47.125px)] min-h-[auto] min-w-[auto] outline-[3px] gap-y-[8.125px] w-full ml-[47.125px] mb-[9.75px] md:text-base md:gap-x-2.5 md:leading-6 md:max-w-[calc(100%_-_58px)] md:gap-y-2.5 md:ml-[58px] md:-mt-3 md:mb-3">
                   <img
-                    src="/img/coments/man/04.jpg?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
+                    src="/images/img/coments/man/04.jpg?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
                     alt=""
                     className="text-[13px] box-border caret-transparent leading-[19.5px] max-h-[39px] max-w-[39px] min-h-[auto] min-w-[auto] object-cover outline-[3px] rounded-[20.3125px] md:text-base md:leading-6 md:max-h-12 md:max-w-12 md:rounded-[25px]"
                   />
@@ -1941,7 +1941,7 @@ export const DiabetesHeroSection = () => {
                 </div>
                 <div className="relative text-[13px] items-start box-border caret-transparent gap-x-[8.125px] flex justify-start leading-[19.5px] mt-[-9.75px] max-w-[calc(100%_-_47.125px)] min-h-[auto] min-w-[auto] outline-[3px] gap-y-[8.125px] w-full ml-[47.125px] mb-[9.75px] md:text-base md:gap-x-2.5 md:leading-6 md:max-w-[calc(100%_-_58px)] md:gap-y-2.5 md:ml-[58px] md:-mt-3 md:mb-3">
                   <img
-                    src="/img/coments/woman/04.jpg?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
+                    src="/images/img/coments/woman/04.jpg?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
                     alt=""
                     className="text-[13px] box-border caret-transparent leading-[19.5px] max-h-[39px] max-w-[39px] min-h-[auto] min-w-[auto] object-cover outline-[3px] rounded-[20.3125px] md:text-base md:leading-6 md:max-h-12 md:max-w-12 md:rounded-[25px]"
                   />
@@ -1979,7 +1979,7 @@ export const DiabetesHeroSection = () => {
                 </div>
                 <div className="relative text-[13px] items-start box-border caret-transparent gap-x-[8.125px] flex justify-start leading-[19.5px] mt-[-9.75px] max-w-[calc(100%_-_47.125px)] min-h-[auto] min-w-[auto] outline-[3px] gap-y-[8.125px] w-full ml-[47.125px] mb-[9.75px] md:text-base md:gap-x-2.5 md:leading-6 md:max-w-[calc(100%_-_58px)] md:gap-y-2.5 md:ml-[58px] md:-mt-3 md:mb-3">
                   <img
-                    src="/img/coments/man/05.jpg?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
+                    src="/images/img/coments/man/05.jpg?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
                     alt=""
                     className="text-[13px] box-border caret-transparent leading-[19.5px] max-h-[39px] max-w-[39px] min-h-[auto] min-w-[auto] object-cover outline-[3px] rounded-[20.3125px] md:text-base md:leading-6 md:max-h-12 md:max-w-12 md:rounded-[25px]"
                   />
@@ -2017,7 +2017,7 @@ export const DiabetesHeroSection = () => {
                 </div>
                 <div className="relative text-[13px] items-start box-border caret-transparent gap-x-[8.125px] flex justify-start leading-[19.5px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] gap-y-[8.125px] w-full md:text-base md:gap-x-2.5 md:leading-6 md:gap-y-2.5">
                   <img
-                    src="/img/coments/man/06.jpg?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
+                    src="/images/img/coments/man/06.jpg?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
                     alt=""
                     className="text-[13px] box-border caret-transparent leading-[19.5px] max-h-[39px] max-w-[39px] min-h-[auto] min-w-[auto] object-cover outline-[3px] rounded-[20.3125px] md:text-base md:leading-6 md:max-h-12 md:max-w-12 md:rounded-[25px]"
                   />
@@ -2054,7 +2054,7 @@ export const DiabetesHeroSection = () => {
                 </div>
                 <div className="relative text-[13px] items-start box-border caret-transparent gap-x-[8.125px] flex justify-start leading-[19.5px] max-w-[calc(100%_-_47.125px)] min-h-[auto] min-w-[auto] outline-[3px] gap-y-[8.125px] w-full ml-[47.125px] mb-[9.75px] md:text-base md:gap-x-2.5 md:leading-6 md:max-w-[calc(100%_-_58px)] md:gap-y-2.5 md:ml-[58px] md:mb-3">
                   <img
-                    src="/img/coments/woman/05.jpg?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
+                    src="/images/img/coments/woman/05.jpg?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
                     alt=""
                     className="text-[13px] box-border caret-transparent leading-[19.5px] max-h-[39px] max-w-[39px] min-h-[auto] min-w-[auto] object-cover outline-[3px] rounded-[20.3125px] md:text-base md:leading-6 md:max-h-12 md:max-w-12 md:rounded-[25px]"
                   />
@@ -2094,7 +2094,7 @@ export const DiabetesHeroSection = () => {
                 </div>
                 <div className="relative text-[13px] items-start box-border caret-transparent gap-x-[8.125px] flex justify-start leading-[19.5px] mt-[-9.75px] max-w-[calc(100%_-_47.125px)] min-h-[auto] min-w-[auto] outline-[3px] gap-y-[8.125px] w-full ml-[47.125px] mb-[9.75px] md:text-base md:gap-x-2.5 md:leading-6 md:max-w-[calc(100%_-_58px)] md:gap-y-2.5 md:ml-[58px] md:-mt-3 md:mb-3">
                   <img
-                    src="/img/coments/man/07.jpg?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
+                    src="/images/img/coments/man/07.jpg?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
                     alt=""
                     className="text-[13px] box-border caret-transparent leading-[19.5px] max-h-[39px] max-w-[39px] min-h-[auto] min-w-[auto] object-cover outline-[3px] rounded-[20.3125px] md:text-base md:leading-6 md:max-h-12 md:max-w-12 md:rounded-[25px]"
                   />
@@ -2135,7 +2135,7 @@ export const DiabetesHeroSection = () => {
                 </div>
                 <div className="relative text-[13px] items-start box-border caret-transparent gap-x-[8.125px] flex justify-start leading-[19.5px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] gap-y-[8.125px] w-full md:text-base md:gap-x-2.5 md:leading-6 md:gap-y-2.5">
                   <img
-                    src="/img/coments/woman/07.jpg?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
+                    src="/images/img/coments/woman/07.jpg?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
                     alt=""
                     className="text-[13px] box-border caret-transparent leading-[19.5px] max-h-[39px] max-w-[39px] min-h-[auto] min-w-[auto] object-cover outline-[3px] rounded-[20.3125px] md:text-base md:leading-6 md:max-h-12 md:max-w-12 md:rounded-[25px]"
                   />
@@ -2174,7 +2174,7 @@ export const DiabetesHeroSection = () => {
                 </div>
                 <div className="relative text-[13px] items-start box-border caret-transparent gap-x-[8.125px] flex justify-start leading-[19.5px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] gap-y-[8.125px] w-full md:text-base md:gap-x-2.5 md:leading-6 md:gap-y-2.5">
                   <img
-                    src="/img/coments/woman/08.jpg?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
+                    src="/images/img/coments/woman/08.jpg?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
                     alt=""
                     className="text-[13px] box-border caret-transparent leading-[19.5px] max-h-[39px] max-w-[39px] min-h-[auto] min-w-[auto] object-cover outline-[3px] rounded-[20.3125px] md:text-base md:leading-6 md:max-h-12 md:max-w-12 md:rounded-[25px]"
                   />
@@ -2214,7 +2214,7 @@ export const DiabetesHeroSection = () => {
                 </div>
                 <div className="relative text-[13px] items-start box-border caret-transparent gap-x-[8.125px] flex justify-start leading-[19.5px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] gap-y-[8.125px] w-full md:text-base md:gap-x-2.5 md:leading-6 md:gap-y-2.5">
                   <img
-                    src="/img/coments/woman/09.jpg?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
+                    src="/images/img/coments/woman/09.jpg?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
                     alt=""
                     className="text-[13px] box-border caret-transparent leading-[19.5px] max-h-[39px] max-w-[39px] min-h-[auto] min-w-[auto] object-cover outline-[3px] rounded-[20.3125px] md:text-base md:leading-6 md:max-h-12 md:max-w-12 md:rounded-[25px]"
                   />
@@ -2253,7 +2253,7 @@ export const DiabetesHeroSection = () => {
                 </div>
                 <div className="relative text-[13px] items-start box-border caret-transparent gap-x-[8.125px] flex justify-start leading-[19.5px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] gap-y-[8.125px] w-full md:text-base md:gap-x-2.5 md:leading-6 md:gap-y-2.5">
                   <img
-                    src="/img/coments/woman/10.jpg?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
+                    src="/images/img/coments/woman/10.jpg?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
                     alt=""
                     className="text-[13px] box-border caret-transparent leading-[19.5px] max-h-[39px] max-w-[39px] min-h-[auto] min-w-[auto] object-cover outline-[3px] rounded-[20.3125px] md:text-base md:leading-6 md:max-h-12 md:max-w-12 md:rounded-[25px]"
                   />
@@ -2290,7 +2290,7 @@ export const DiabetesHeroSection = () => {
                 </div>
                 <div className="relative text-[13px] items-start box-border caret-transparent gap-x-[8.125px] flex justify-start leading-[19.5px] max-w-[calc(100%_-_47.125px)] min-h-[auto] min-w-[auto] outline-[3px] gap-y-[8.125px] w-full ml-[47.125px] mb-[9.75px] md:text-base md:gap-x-2.5 md:leading-6 md:max-w-[calc(100%_-_58px)] md:gap-y-2.5 md:ml-[58px] md:mb-3">
                   <img
-                    src="/img/coments/man/09.jpg?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
+                    src="/images/img/coments/man/09.jpg?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
                     alt=""
                     className="text-[13px] box-border caret-transparent leading-[19.5px] max-h-[39px] max-w-[39px] min-h-[auto] min-w-[auto] object-cover outline-[3px] rounded-[20.3125px] md:text-base md:leading-6 md:max-h-12 md:max-w-12 md:rounded-[25px]"
                   />
@@ -2329,7 +2329,7 @@ export const DiabetesHeroSection = () => {
                 </div>
                 <div className="relative text-[13px] items-start box-border caret-transparent gap-x-[8.125px] flex justify-start leading-[19.5px] mt-[-9.75px] max-w-[calc(100%_-_47.125px)] min-h-[auto] min-w-[auto] outline-[3px] gap-y-[8.125px] w-full ml-[47.125px] mb-[9.75px] md:text-base md:gap-x-2.5 md:leading-6 md:max-w-[calc(100%_-_58px)] md:gap-y-2.5 md:ml-[58px] md:-mt-3 md:mb-3">
                   <img
-                    src="/img/coments/man/10.jpg?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
+                    src="/images/img/coments/man/10.jpg?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
                     alt=""
                     className="text-[13px] box-border caret-transparent leading-[19.5px] max-h-[39px] max-w-[39px] min-h-[auto] min-w-[auto] object-cover outline-[3px] rounded-[20.3125px] md:text-base md:leading-6 md:max-h-12 md:max-w-12 md:rounded-[25px]"
                   />
@@ -2366,7 +2366,7 @@ export const DiabetesHeroSection = () => {
                 </div>
                 <div className="relative text-[13px] items-start box-border caret-transparent gap-x-[8.125px] flex justify-start leading-[19.5px] mt-[-9.75px] max-w-[calc(100%_-_47.125px)] min-h-[auto] min-w-[auto] outline-[3px] gap-y-[8.125px] w-full ml-[47.125px] mb-[9.75px] md:text-base md:gap-x-2.5 md:leading-6 md:max-w-[calc(100%_-_58px)] md:gap-y-2.5 md:ml-[58px] md:-mt-3 md:mb-3">
                   <img
-                    src="/img/coments/woman/10.jpg?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
+                    src="/images/img/coments/woman/10.jpg?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
                     alt=""
                     className="text-[13px] box-border caret-transparent leading-[19.5px] max-h-[39px] max-w-[39px] min-h-[auto] min-w-[auto] object-cover outline-[3px] rounded-[20.3125px] md:text-base md:leading-6 md:max-h-12 md:max-w-12 md:rounded-[25px]"
                   />
@@ -2404,7 +2404,7 @@ export const DiabetesHeroSection = () => {
                 </div>
                 <div className="relative text-[13px] items-start box-border caret-transparent gap-x-[8.125px] flex justify-start leading-[19.5px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] gap-y-[8.125px] w-full md:text-base md:gap-x-2.5 md:leading-6 md:gap-y-2.5">
                   <img
-                    src="/img/coments/man/11.jpg?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
+                    src="/images/img/coments/man/11.jpg?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
                     alt=""
                     className="text-[13px] box-border caret-transparent leading-[19.5px] max-h-[39px] max-w-[39px] min-h-[auto] min-w-[auto] object-cover outline-[3px] rounded-[20.3125px] md:text-base md:leading-6 md:max-h-12 md:max-w-12 md:rounded-[25px]"
                   />

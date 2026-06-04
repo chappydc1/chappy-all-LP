@@ -1,596 +1,596 @@
 {
   "version": "1.0",
-  "localDir": "/media/feals/",
+  "localDir": "/images/feals/",
   "assets": [
     {
       "id": "hero-product-image",
       "file": "74.png",
-      "local": "/media/feals/74.png",
-      "src": "https://c.animaapp.com/mpkdzooupOfzIE/assets/74.png",
+      "local": "/images/feals/74.png",
+      "src": "/images/feals/74.png",
       "usage": "hero",
       "type": "image"
     },
     {
       "id": "hero-star-icon",
       "file": "icon-9.svg",
-      "local": "/media/feals/icon-9.svg",
-      "src": "https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-9.svg",
+      "local": "/images/feals/icon-9.svg",
+      "src": "/images/feals/icon-9.svg",
       "usage": "hero-rating-stars",
       "type": "icon"
     },
     {
       "id": "reason-1-image",
       "file": "65.jpg",
-      "local": "/media/feals/65.jpg",
-      "src": "https://c.animaapp.com/mpkdzooupOfzIE/assets/65.jpg",
+      "local": "/images/feals/65.jpg",
+      "src": "/images/feals/65.jpg",
       "usage": "reason-1-lifestyle",
       "type": "image"
     },
     {
       "id": "reason-2-gif",
       "file": "78.gif",
-      "local": "/media/feals/78.gif",
-      "src": "https://c.animaapp.com/mpkdzooupOfzIE/assets/78.gif",
+      "local": "/images/feals/78.gif",
+      "src": "/images/feals/78.gif",
       "usage": "reason-2-ingredients",
       "type": "gif"
     },
     {
       "id": "reason-3-image",
       "file": "71.png",
-      "local": "/media/feals/71.png",
-      "src": "https://c.animaapp.com/mpkdzooupOfzIE/assets/71.png",
+      "local": "/images/feals/71.png",
+      "src": "/images/feals/71.png",
       "usage": "reason-3-wine-comparison",
       "type": "image"
     },
     {
       "id": "reason-4-grid-1",
       "file": "77.jpg",
-      "local": "/media/feals/77.jpg",
-      "src": "https://c.animaapp.com/mpkdzooupOfzIE/assets/77.jpg",
+      "local": "/images/feals/77.jpg",
+      "src": "/images/feals/77.jpg",
       "usage": "reason-4-customer-grid",
       "type": "image"
     },
     {
       "id": "reason-4-grid-2",
       "file": "49.jpg",
-      "local": "/media/feals/49.jpg",
-      "src": "https://c.animaapp.com/mpkdzooupOfzIE/assets/49.jpg",
+      "local": "/images/feals/49.jpg",
+      "src": "/images/feals/49.jpg",
       "usage": "reason-4-customer-grid",
       "type": "image"
     },
     {
       "id": "reason-4-grid-3",
       "file": "76.png",
-      "local": "/media/feals/76.png",
-      "src": "https://c.animaapp.com/mpkdzooupOfzIE/assets/76.png",
+      "local": "/images/feals/76.png",
+      "src": "/images/feals/76.png",
       "usage": "reason-4-customer-grid",
       "type": "image"
     },
     {
       "id": "reason-4-grid-4",
       "file": "73.jpg",
-      "local": "/media/feals/73.jpg",
-      "src": "https://c.animaapp.com/mpkdzooupOfzIE/assets/73.jpg",
+      "local": "/images/feals/73.jpg",
+      "src": "/images/feals/73.jpg",
       "usage": "reason-4-customer-grid",
       "type": "image"
     },
     {
       "id": "reason-5-product",
       "file": "72.png",
-      "local": "/media/feals/72.png",
-      "src": "https://c.animaapp.com/mpkdzooupOfzIE/assets/72.png",
+      "local": "/images/feals/72.png",
+      "src": "/images/feals/72.png",
       "usage": "reason-5-product",
       "type": "image"
     },
     {
       "id": "reason-5-badge",
       "file": "16.svg",
-      "local": "/media/feals/16.svg",
-      "src": "https://c.animaapp.com/mpkdzooupOfzIE/assets/16.svg",
+      "local": "/images/feals/16.svg",
+      "src": "/images/feals/16.svg",
       "usage": "reason-5-badge",
       "type": "icon"
     },
     {
       "id": "press-logo-1",
       "file": "53.png",
-      "local": "/media/feals/53.png",
-      "src": "https://c.animaapp.com/mpkdzooupOfzIE/assets/53.png",
+      "local": "/images/feals/53.png",
+      "src": "/images/feals/53.png",
       "usage": "press-logos",
       "type": "image"
     },
     {
       "id": "press-logo-2",
       "file": "55.png",
-      "local": "/media/feals/55.png",
-      "src": "https://c.animaapp.com/mpkdzooupOfzIE/assets/55.png",
+      "local": "/images/feals/55.png",
+      "src": "/images/feals/55.png",
       "usage": "press-logos",
       "type": "image"
     },
     {
       "id": "press-logo-3",
       "file": "50.png",
-      "local": "/media/feals/50.png",
-      "src": "https://c.animaapp.com/mpkdzooupOfzIE/assets/50.png",
+      "local": "/images/feals/50.png",
+      "src": "/images/feals/50.png",
       "usage": "press-logos",
       "type": "image"
     },
     {
       "id": "press-logo-4",
       "file": "51.png",
-      "local": "/media/feals/51.png",
-      "src": "https://c.animaapp.com/mpkdzooupOfzIE/assets/51.png",
+      "local": "/images/feals/51.png",
+      "src": "/images/feals/51.png",
       "usage": "press-logos",
       "type": "image"
     },
     {
       "id": "press-logo-5",
       "file": "56.png",
-      "local": "/media/feals/56.png",
-      "src": "https://c.animaapp.com/mpkdzooupOfzIE/assets/56.png",
+      "local": "/images/feals/56.png",
+      "src": "/images/feals/56.png",
       "usage": "press-logos",
       "type": "image"
     },
     {
       "id": "press-logo-6",
       "file": "52.png",
-      "local": "/media/feals/52.png",
-      "src": "https://c.animaapp.com/mpkdzooupOfzIE/assets/52.png",
+      "local": "/images/feals/52.png",
+      "src": "/images/feals/52.png",
       "usage": "press-logos",
       "type": "image"
     },
     {
       "id": "press-logo-7",
       "file": "54.png",
-      "local": "/media/feals/54.png",
-      "src": "https://c.animaapp.com/mpkdzooupOfzIE/assets/54.png",
+      "local": "/images/feals/54.png",
+      "src": "/images/feals/54.png",
       "usage": "press-logos",
       "type": "image"
     },
     {
       "id": "testimonial-icon-1",
       "file": "icon-10.svg",
-      "local": "/media/feals/icon-10.svg",
-      "src": "https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-10.svg",
+      "local": "/images/feals/icon-10.svg",
+      "src": "/images/feals/icon-10.svg",
       "usage": "testimonial-star-rating",
       "type": "icon"
     },
     {
       "id": "testimonial-icon-2",
       "file": "icon-11.svg",
-      "local": "/media/feals/icon-11.svg",
-      "src": "https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-11.svg",
+      "local": "/images/feals/icon-11.svg",
+      "src": "/images/feals/icon-11.svg",
       "usage": "testimonial-star-rating",
       "type": "icon"
     },
     {
       "id": "testimonial-icon-3",
       "file": "icon-12.svg",
-      "local": "/media/feals/icon-12.svg",
-      "src": "https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-12.svg",
+      "local": "/images/feals/icon-12.svg",
+      "src": "/images/feals/icon-12.svg",
       "usage": "testimonial-star-rating",
       "type": "icon"
     },
     {
       "id": "testimonial-icon-4",
       "file": "icon-13.svg",
-      "local": "/media/feals/icon-13.svg",
-      "src": "https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-13.svg",
+      "local": "/images/feals/icon-13.svg",
+      "src": "/images/feals/icon-13.svg",
       "usage": "testimonial-star-rating",
       "type": "icon"
     },
     {
       "id": "testimonial-icon-5",
       "file": "icon-14.svg",
-      "local": "/media/feals/icon-14.svg",
-      "src": "https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-14.svg",
+      "local": "/images/feals/icon-14.svg",
+      "src": "/images/feals/icon-14.svg",
       "usage": "testimonial-star-rating",
       "type": "icon"
     },
     {
       "id": "verified-buyer-badge",
       "file": "45.svg",
-      "local": "/media/feals/45.svg",
-      "src": "https://c.animaapp.com/mpkdzooupOfzIE/assets/45.svg",
+      "local": "/images/feals/45.svg",
+      "src": "/images/feals/45.svg",
       "usage": "testimonial-verified-badge",
       "type": "icon"
     },
     {
       "id": "testimonial-gallery-1",
       "file": "70.png",
-      "local": "/media/feals/70.png",
-      "src": "https://c.animaapp.com/mpkdzooupOfzIE/assets/70.png",
+      "local": "/images/feals/70.png",
+      "src": "/images/feals/70.png",
       "usage": "testimonial-gallery",
       "type": "image"
     },
     {
       "id": "testimonial-gallery-2",
       "file": "66.jpg",
-      "local": "/media/feals/66.jpg",
-      "src": "https://c.animaapp.com/mpkdzooupOfzIE/assets/66.jpg",
+      "local": "/images/feals/66.jpg",
+      "src": "/images/feals/66.jpg",
       "usage": "testimonial-gallery",
       "type": "image"
     },
     {
       "id": "testimonial-gallery-3",
       "file": "63.jpg",
-      "local": "/media/feals/63.jpg",
-      "src": "https://c.animaapp.com/mpkdzooupOfzIE/assets/63.jpg",
+      "local": "/images/feals/63.jpg",
+      "src": "/images/feals/63.jpg",
       "usage": "testimonial-gallery",
       "type": "image"
     },
     {
       "id": "testimonial-gallery-4",
       "file": "61.jpg",
-      "local": "/media/feals/61.jpg",
-      "src": "https://c.animaapp.com/mpkdzooupOfzIE/assets/61.jpg",
+      "local": "/images/feals/61.jpg",
+      "src": "/images/feals/61.jpg",
       "usage": "testimonial-gallery",
       "type": "image"
     },
     {
       "id": "final-cta-bg-mobile",
       "file": "22.webp",
-      "local": "/media/feals/22.webp",
-      "src": "https://c.animaapp.com/mpkdzooupOfzIE/assets/22.webp",
+      "local": "/images/feals/22.webp",
+      "src": "/images/feals/22.webp",
       "usage": "final-cta-background-mobile",
       "type": "image"
     },
     {
       "id": "final-cta-bg-desktop",
       "file": "dryjanuary-relaxgummies-wine-desktop.png",
-      "local": "/media/feals/dryjanuary-relaxgummies-wine-desktop.png",
-      "src": "https://cdn.shopify.com/s/files/1/0073/3134/8544/files/dryjanuary-relaxgummies-wine-desktop.png?v=1764776780",
+      "local": "/images/feals/dryjanuary-relaxgummies-wine-desktop.png",
+      "src": "/images/feals/dryjanuary-relaxgummies-wine-desktop.png",
       "usage": "final-cta-background-desktop",
       "type": "image"
     },
     {
       "id": "header-logo",
       "file": "image-1.svg",
-      "local": "/media/feals/image-1.svg",
-      "src": "https://c.animaapp.com/mpkdzooupOfzIE/assets/image-1.svg",
+      "local": "/images/feals/image-1.svg",
+      "src": "/images/feals/image-1.svg",
       "usage": "header-logo",
       "type": "icon"
     },
     {
       "id": "header-icon-1",
       "file": "icon-1.svg",
-      "local": "/media/feals/icon-1.svg",
-      "src": "https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-1.svg",
+      "local": "/images/feals/icon-1.svg",
+      "src": "/images/feals/icon-1.svg",
       "usage": "header-nav-icon",
       "type": "icon"
     },
     {
       "id": "header-icon-2",
       "file": "icon-2.svg",
-      "local": "/media/feals/icon-2.svg",
-      "src": "https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-2.svg",
+      "local": "/images/feals/icon-2.svg",
+      "src": "/images/feals/icon-2.svg",
       "usage": "header-nav-icon",
       "type": "icon"
     },
     {
       "id": "header-icon-3",
       "file": "icon-3.svg",
-      "local": "/media/feals/icon-3.svg",
-      "src": "https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-3.svg",
+      "local": "/images/feals/icon-3.svg",
+      "src": "/images/feals/icon-3.svg",
       "usage": "header-nav-icon",
       "type": "icon"
     },
     {
       "id": "header-icon-4",
       "file": "icon-4.svg",
-      "local": "/media/feals/icon-4.svg",
-      "src": "https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-4.svg",
+      "local": "/images/feals/icon-4.svg",
+      "src": "/images/feals/icon-4.svg",
       "usage": "header-nav-icon",
       "type": "icon"
     },
     {
       "id": "header-icon-5",
       "file": "icon-5.svg",
-      "local": "/media/feals/icon-5.svg",
-      "src": "https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-5.svg",
+      "local": "/images/feals/icon-5.svg",
+      "src": "/images/feals/icon-5.svg",
       "usage": "header-nav-icon",
       "type": "icon"
     },
     {
       "id": "footer-icon-15",
       "file": "icon-15.svg",
-      "local": "/media/feals/icon-15.svg",
-      "src": "https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-15.svg",
+      "local": "/images/feals/icon-15.svg",
+      "src": "/images/feals/icon-15.svg",
       "usage": "footer-icon",
       "type": "icon"
     },
     {
       "id": "footer-icon-16",
       "file": "icon-16.svg",
-      "local": "/media/feals/icon-16.svg",
-      "src": "https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-16.svg",
+      "local": "/images/feals/icon-16.svg",
+      "src": "/images/feals/icon-16.svg",
       "usage": "footer-icon",
       "type": "icon"
     },
     {
       "id": "footer-icon-17",
       "file": "icon-17.svg",
-      "local": "/media/feals/icon-17.svg",
-      "src": "https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-17.svg",
+      "local": "/images/feals/icon-17.svg",
+      "src": "/images/feals/icon-17.svg",
       "usage": "footer-icon",
       "type": "icon"
     },
     {
       "id": "footer-icon-18",
       "file": "icon-18.svg",
-      "local": "/media/feals/icon-18.svg",
-      "src": "https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-18.svg",
+      "local": "/images/feals/icon-18.svg",
+      "src": "/images/feals/icon-18.svg",
       "usage": "footer-icon",
       "type": "icon"
     },
     {
       "id": "footer-icon-19",
       "file": "icon-19.svg",
-      "local": "/media/feals/icon-19.svg",
-      "src": "https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-19.svg",
+      "local": "/images/feals/icon-19.svg",
+      "src": "/images/feals/icon-19.svg",
       "usage": "footer-icon",
       "type": "icon"
     },
     {
       "id": "footer-icon-20",
       "file": "icon-20.svg",
-      "local": "/media/feals/icon-20.svg",
-      "src": "https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-20.svg",
+      "local": "/images/feals/icon-20.svg",
+      "src": "/images/feals/icon-20.svg",
       "usage": "footer-icon",
       "type": "icon"
     },
     {
       "id": "footer-icon-21",
       "file": "icon-21.svg",
-      "local": "/media/feals/icon-21.svg",
-      "src": "https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-21.svg",
+      "local": "/images/feals/icon-21.svg",
+      "src": "/images/feals/icon-21.svg",
       "usage": "footer-icon",
       "type": "icon"
     },
     {
       "id": "footer-icon-22",
       "file": "icon-22.svg",
-      "local": "/media/feals/icon-22.svg",
-      "src": "https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-22.svg",
+      "local": "/images/feals/icon-22.svg",
+      "src": "/images/feals/icon-22.svg",
       "usage": "footer-icon",
       "type": "icon"
     },
     {
       "id": "footer-icon-23",
       "file": "icon-23.svg",
-      "local": "/media/feals/icon-23.svg",
-      "src": "https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-23.svg",
+      "local": "/images/feals/icon-23.svg",
+      "src": "/images/feals/icon-23.svg",
       "usage": "footer-icon",
       "type": "icon"
     },
     {
       "id": "footer-icon-24",
       "file": "icon-24.svg",
-      "local": "/media/feals/icon-24.svg",
-      "src": "https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-24.svg",
+      "local": "/images/feals/icon-24.svg",
+      "src": "/images/feals/icon-24.svg",
       "usage": "footer-icon",
       "type": "icon"
     },
     {
       "id": "footer-icon-25",
       "file": "icon-25.svg",
-      "local": "/media/feals/icon-25.svg",
-      "src": "https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-25.svg",
+      "local": "/images/feals/icon-25.svg",
+      "src": "/images/feals/icon-25.svg",
       "usage": "footer-icon",
       "type": "icon"
     },
     {
       "id": "footer-icon-26",
       "file": "icon-26.svg",
-      "local": "/media/feals/icon-26.svg",
-      "src": "https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-26.svg",
+      "local": "/images/feals/icon-26.svg",
+      "src": "/images/feals/icon-26.svg",
       "usage": "footer-icon",
       "type": "icon"
     },
     {
       "id": "footer-icon-27",
       "file": "icon-27.svg",
-      "local": "/media/feals/icon-27.svg",
-      "src": "https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-27.svg",
+      "local": "/images/feals/icon-27.svg",
+      "src": "/images/feals/icon-27.svg",
       "usage": "footer-icon",
       "type": "icon"
     },
     {
       "id": "misc-17",
       "file": "17.svg",
-      "local": "/media/feals/17.svg",
-      "src": "https://c.animaapp.com/mpkdzooupOfzIE/assets/17.svg",
+      "local": "/images/feals/17.svg",
+      "src": "/images/feals/17.svg",
       "usage": "misc",
       "type": "icon"
     },
     {
       "id": "misc-43",
       "file": "43.svg",
-      "local": "/media/feals/43.svg",
-      "src": "https://c.animaapp.com/mpkdzooupOfzIE/assets/43.svg",
+      "local": "/images/feals/43.svg",
+      "src": "/images/feals/43.svg",
       "usage": "misc",
       "type": "icon"
     },
     {
       "id": "misc-46",
       "file": "46.svg",
-      "local": "/media/feals/46.svg",
-      "src": "https://c.animaapp.com/mpkdzooupOfzIE/assets/46.svg",
+      "local": "/images/feals/46.svg",
+      "src": "/images/feals/46.svg",
       "usage": "misc",
       "type": "icon"
     },
     {
       "id": "misc-48",
       "file": "48.svg",
-      "local": "/media/feals/48.svg",
-      "src": "https://c.animaapp.com/mpkdzooupOfzIE/assets/48.svg",
+      "local": "/images/feals/48.svg",
+      "src": "/images/feals/48.svg",
       "usage": "misc",
       "type": "icon"
     },
     {
       "id": "misc-57",
       "file": "57.png",
-      "local": "/media/feals/57.png",
-      "src": "https://c.animaapp.com/mpkdzooupOfzIE/assets/57.png",
+      "local": "/images/feals/57.png",
+      "src": "/images/feals/57.png",
       "usage": "misc",
       "type": "image"
     },
     {
       "id": "misc-58",
       "file": "58.png",
-      "local": "/media/feals/58.png",
-      "src": "https://c.animaapp.com/mpkdzooupOfzIE/assets/58.png",
+      "local": "/images/feals/58.png",
+      "src": "/images/feals/58.png",
       "usage": "misc",
       "type": "image"
     },
     {
       "id": "misc-59",
       "file": "59.png",
-      "local": "/media/feals/59.png",
-      "src": "https://c.animaapp.com/mpkdzooupOfzIE/assets/59.png",
+      "local": "/images/feals/59.png",
+      "src": "/images/feals/59.png",
       "usage": "misc",
       "type": "image"
     },
     {
       "id": "misc-60",
       "file": "60.png",
-      "local": "/media/feals/60.png",
-      "src": "https://c.animaapp.com/mpkdzooupOfzIE/assets/60.png",
+      "local": "/images/feals/60.png",
+      "src": "/images/feals/60.png",
       "usage": "misc",
       "type": "image"
     },
     {
       "id": "misc-62",
       "file": "62.png",
-      "local": "/media/feals/62.png",
-      "src": "https://c.animaapp.com/mpkdzooupOfzIE/assets/62.png",
+      "local": "/images/feals/62.png",
+      "src": "/images/feals/62.png",
       "usage": "misc",
       "type": "image"
     },
     {
       "id": "misc-64",
       "file": "64.jpg",
-      "local": "/media/feals/64.jpg",
-      "src": "https://c.animaapp.com/mpkdzooupOfzIE/assets/64.jpg",
+      "local": "/images/feals/64.jpg",
+      "src": "/images/feals/64.jpg",
       "usage": "misc",
       "type": "image"
     },
     {
       "id": "misc-67",
       "file": "67.png",
-      "local": "/media/feals/67.png",
-      "src": "https://c.animaapp.com/mpkdzooupOfzIE/assets/67.png",
+      "local": "/images/feals/67.png",
+      "src": "/images/feals/67.png",
       "usage": "misc",
       "type": "image"
     },
     {
       "id": "misc-68",
       "file": "68.jpg",
-      "local": "/media/feals/68.jpg",
-      "src": "https://c.animaapp.com/mpkdzooupOfzIE/assets/68.jpg",
+      "local": "/images/feals/68.jpg",
+      "src": "/images/feals/68.jpg",
       "usage": "misc",
       "type": "image"
     },
     {
       "id": "misc-69",
       "file": "69.jpg",
-      "local": "/media/feals/69.jpg",
-      "src": "https://c.animaapp.com/mpkdzooupOfzIE/assets/69.jpg",
+      "local": "/images/feals/69.jpg",
+      "src": "/images/feals/69.jpg",
       "usage": "misc",
       "type": "image"
     },
     {
       "id": "icon-31",
       "file": "icon-31.svg",
-      "local": "/media/feals/icon-31.svg",
-      "src": "https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-31.svg",
+      "local": "/images/feals/icon-31.svg",
+      "src": "/images/feals/icon-31.svg",
       "usage": "misc",
       "type": "icon"
     },
     {
       "id": "icon-32",
       "file": "icon-32.svg",
-      "local": "/media/feals/icon-32.svg",
-      "src": "https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-32.svg",
+      "local": "/images/feals/icon-32.svg",
+      "src": "/images/feals/icon-32.svg",
       "usage": "misc",
       "type": "icon"
     },
     {
       "id": "icon-33",
       "file": "icon-33.svg",
-      "local": "/media/feals/icon-33.svg",
-      "src": "https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-33.svg",
+      "local": "/images/feals/icon-33.svg",
+      "src": "/images/feals/icon-33.svg",
       "usage": "misc",
       "type": "icon"
     },
     {
       "id": "icon-34",
       "file": "icon-34.svg",
-      "local": "/media/feals/icon-34.svg",
-      "src": "https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-34.svg",
+      "local": "/images/feals/icon-34.svg",
+      "src": "/images/feals/icon-34.svg",
       "usage": "misc",
       "type": "icon"
     },
     {
       "id": "icon-35",
       "file": "icon-35.svg",
-      "local": "/media/feals/icon-35.svg",
-      "src": "https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-35.svg",
+      "local": "/images/feals/icon-35.svg",
+      "src": "/images/feals/icon-35.svg",
       "usage": "misc",
       "type": "icon"
     },
     {
       "id": "icon-36",
       "file": "icon-36.svg",
-      "local": "/media/feals/icon-36.svg",
-      "src": "https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-36.svg",
+      "local": "/images/feals/icon-36.svg",
+      "src": "/images/feals/icon-36.svg",
       "usage": "misc",
       "type": "icon"
     },
     {
       "id": "icon-38",
       "file": "icon-38.svg",
-      "local": "/media/feals/icon-38.svg",
-      "src": "https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-38.svg",
+      "local": "/images/feals/icon-38.svg",
+      "src": "/images/feals/icon-38.svg",
       "usage": "misc",
       "type": "icon"
     },
     {
       "id": "icon-39",
       "file": "icon-39.svg",
-      "local": "/media/feals/icon-39.svg",
-      "src": "https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-39.svg",
+      "local": "/images/feals/icon-39.svg",
+      "src": "/images/feals/icon-39.svg",
       "usage": "misc",
       "type": "icon"
     },
     {
       "id": "icon-40",
       "file": "icon-40.svg",
-      "local": "/media/feals/icon-40.svg",
-      "src": "https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-40.svg",
+      "local": "/images/feals/icon-40.svg",
+      "src": "/images/feals/icon-40.svg",
       "usage": "misc",
       "type": "icon"
     },
     {
       "id": "icon-41",
       "file": "icon-41.svg",
-      "local": "/media/feals/icon-41.svg",
-      "src": "https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-41.svg",
+      "local": "/images/feals/icon-41.svg",
+      "src": "/images/feals/icon-41.svg",
       "usage": "misc",
       "type": "icon"
     },
     {
       "id": "icon-42",
       "file": "icon-42.svg",
-      "local": "/media/feals/icon-42.svg",
-      "src": "https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-42.svg",
+      "local": "/images/feals/icon-42.svg",
+      "src": "/images/feals/icon-42.svg",
       "usage": "misc",
       "type": "icon"
     },
     {
       "id": "icon-45",
       "file": "icon-45.svg",
-      "local": "/media/feals/icon-45.svg",
-      "src": "https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-45.svg",
+      "local": "/images/feals/icon-45.svg",
+      "src": "/images/feals/icon-45.svg",
       "usage": "misc",
       "type": "icon"
     }

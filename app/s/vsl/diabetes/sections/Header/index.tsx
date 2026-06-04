@@ -5,7 +5,7 @@ export const DiabetesHeader = () => {
         HEALTH
       </h1>
       <img
-        src="/img/menu-toggle.webp?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
+        src="/images/img/menu-toggle.webp?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
         className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] w-[23px]"
       />
     </header>

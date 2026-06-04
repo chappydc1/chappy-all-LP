@@ -7,7 +7,7 @@ export const ProductIntroText = () => {
       <img
         alt="You Are Just One Step Away From RESTORING Your Hearing....webp"
         title=""
-        src="https://c.animaapp.com/mnsbh2exJLSZhk/assets/1739604866247_One_Step_Away_v3.webp"
+        src="/images/nebroo/1739604866247_One_Step_Away_v3.webp"
         
         className="self-center box-border caret-transparent block max-w-full min-h-[auto] min-w-[auto] w-full mt-5 rounded-[10px] md:self-auto md:hidden md:min-h-0 md:min-w-0 md:w-auto"
       />

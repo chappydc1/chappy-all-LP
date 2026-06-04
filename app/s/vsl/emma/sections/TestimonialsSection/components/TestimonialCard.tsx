@@ -27,12 +27,12 @@ export const TestimonialCard = (props: TestimonialCardProps) => {
             Verified customer
           </span>
           <img
-            src="https://c.animaapp.com/mnsem251Wpf2gA/assets/check-mark.webp"
+            src="/images/emma/check-mark.webp"
             className="box-border caret-transparent inline w-[17px]"
           />
         </div>
         <img
-          src="https://c.animaapp.com/mnsem251Wpf2gA/assets/storystars.webp"
+          src="/images/emma/storystars.webp"
           className="box-border caret-transparent float-right pt-6"
         />
       </div>

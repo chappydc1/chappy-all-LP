@@ -64,7 +64,7 @@ export const TestimonialsSection = () => {
                   className="appearance-none items-center bg-transparent caret-transparent flex h-10 justify-center min-h-[auto] min-w-[auto] outline-[3px] text-center w-10 p-0"
                 >
                   <img
-                    src="/s/lis/gruns/media/icon-23.svg"
+                    src="/images/gruns/icon-23.svg"
                     alt="Icon"
                     className="box-border caret-transparent outline-[3px]"
                   />
@@ -107,7 +107,7 @@ export const TestimonialsSection = () => {
                   className="appearance-none items-center bg-transparent caret-transparent flex h-10 justify-center min-h-[auto] min-w-[auto] outline-[3px] text-center w-10 p-0"
                 >
                   <img
-                    src="/s/lis/gruns/media/icon-24.svg"
+                    src="/images/gruns/icon-24.svg"
                     alt="Icon"
                     className="box-border caret-transparent outline-[3px]"
                   />

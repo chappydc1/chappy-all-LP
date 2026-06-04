@@ -1,55 +1,55 @@
 {
   "images": {
     "ui": {
-      "menuToggle": "/img/menu-toggle.webp",
-      "hourGlass": "/img/hour-glass.png",
-      "shipIcon": "/img/ship-icon.png",
-      "shopping": "/img/shopping.png",
-      "cardsDark": "/img/cards-dark.webp",
-      "cards": "/img/cards.webp",
-      "guaranteeBadge": "/img/guarantee-badge.webp",
-      "newsLogos": "/img/news-logos.webp",
-      "avatar": "/img/avatar.webp",
-      "doctor": "/img/doctor.jpg"
+      "menuToggle": "/images/img/menu-toggle.webp",
+      "hourGlass": "/images/img/hour-glass.png",
+      "shipIcon": "/images/img/ship-icon.png",
+      "shopping": "/images/img/shopping.png",
+      "cardsDark": "/images/img/cards-dark.webp",
+      "cards": "/images/img/cards.webp",
+      "guaranteeBadge": "/images/img/guarantee-badge.webp",
+      "newsLogos": "/images/img/news-logos.webp",
+      "avatar": "/images/img/avatar.webp",
+      "doctor": "/images/img/doctor.jpg"
     },
     "badges": {
-      "gmp": "/img/gmp.png",
-      "fda": "/img/fda.png",
-      "nat": "/img/nat.png",
-      "foreign": "/img/foreign.png",
-      "gmo": "/img/gmo.png"
+      "gmp": "/images/img/gmp.png",
+      "fda": "/images/img/fda.png",
+      "nat": "/images/img/nat.png",
+      "foreign": "/images/img/foreign.png",
+      "gmo": "/images/img/gmo.png"
     },
     "bottles": {
-      "single": "/img/bottles/2.png",
-      "threeBottle": "/img/bottles/2e1.png",
-      "sixBottle": "/img/bottles/3e3.png"
+      "single": "/images/img/bottles/2.png",
+      "threeBottle": "/images/img/bottles/2e1.png",
+      "sixBottle": "/images/img/bottles/3e3.png"
     },
     "testimonials": {
-      "1f": "/img/depoimento/1f.jpg",
-      "102": "/img/depoimento/102.jpg",
-      "3m": "/img/depoimento/3m.jpg",
-      "4f": "/img/depoimento/4f.jpg",
-      "5f": "/img/depoimento/5f.jpg"
+      "1f": "/images/img/depoimento/1f.jpg",
+      "102": "/images/img/depoimento/102.jpg",
+      "3m": "/images/img/depoimento/3m.jpg",
+      "4f": "/images/img/depoimento/4f.jpg",
+      "5f": "/images/img/depoimento/5f.jpg"
     },
     "comments": {
       "men": [
-        "/img/coments/man/03.jpg",
-        "/img/coments/man/04.jpg",
-        "/img/coments/man/05.jpg",
-        "/img/coments/man/06.jpg",
-        "/img/coments/man/07.jpg",
-        "/img/coments/man/09.jpg",
-        "/img/coments/man/10.jpg",
-        "/img/coments/man/11.jpg"
+        "/images/img/coments/man/03.jpg",
+        "/images/img/coments/man/04.jpg",
+        "/images/img/coments/man/05.jpg",
+        "/images/img/coments/man/06.jpg",
+        "/images/img/coments/man/07.jpg",
+        "/images/img/coments/man/09.jpg",
+        "/images/img/coments/man/10.jpg",
+        "/images/img/coments/man/11.jpg"
       ],
       "women": [
-        "/img/coments/woman/03.jpg",
-        "/img/coments/woman/04.jpg",
-        "/img/coments/woman/05.jpg",
-        "/img/coments/woman/07.jpg",
-        "/img/coments/woman/08.jpg",
-        "/img/coments/woman/09.jpg",
-        "/img/coments/woman/10.jpg"
+        "/images/img/coments/woman/03.jpg",
+        "/images/img/coments/woman/04.jpg",
+        "/images/img/coments/woman/05.jpg",
+        "/images/img/coments/woman/07.jpg",
+        "/images/img/coments/woman/08.jpg",
+        "/images/img/coments/woman/09.jpg",
+        "/images/img/coments/woman/10.jpg"
       ]
     }
   },
@@ -58,9 +58,9 @@
     "playerId": "69cc2d96a987917cc95e93c3",
     "oid": "b5e8472d-3421-4675-a219-1ae1b636b21f",
     "videoId": "69cc2cb4bdeb86fbc2c1f6b2",
-    "poster": "https://cdn.converteai.net/b5e8472d-3421-4675-a219-1ae1b636b21f/69cc2cb4bdeb86fbc2c1f6b2/poster.jpg",
-    "cover": "https://images.converteai.net/b5e8472d-3421-4675-a219-1ae1b636b21f/players/69cc2d96a987917cc95e93c3/cover.jpg",
-    "thumbnail": "https://cdn.converteai.net/b5e8472d-3421-4675-a219-1ae1b636b21f/players/69cc2d96a987917cc95e93c3/thumbnail.jpg",
+    "poster": "/images/diabetes/poster.jpg",
+    "cover": "/images/diabetes/cover.jpg",
+    "thumbnail": "/images/diabetes/thumbnail.jpg",
     "embedScript": "https://scripts.converteai.net/b5e8472d-3421-4675-a219-1ae1b636b21f/players/69cc2d96a987917cc95e93c3/player.js"
   },
   "fonts": {

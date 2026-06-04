@@ -40,7 +40,7 @@ export const ArticleBody = () => {
                   <picture className="text-base box-border caret-transparent tracking-[-0.16px] leading-[26px] outline-[3px] md:text-lg md:tracking-[-0.18px] md:leading-7">
                     <img
                       alt=""
-                      src="https://c.animaapp.com/mov1hivmUrwXF6/assets/suicidenote_1778118052036_hpEmbed_19x14.jpg"
+                      src="/images/abc-news/suicidenote_1778118052036_hpEmbed_19x14.jpg"
                       className="text-base box-border caret-transparent tracking-[-0.16px] leading-[26px] max-h-full max-w-full outline-[3px] align-baseline w-full rounded-md md:text-lg md:tracking-[-0.18px] md:leading-7"
                     />
                   </picture>
@@ -95,7 +95,7 @@ export const ArticleBody = () => {
                   >
                     <div className="text-base items-center box-border caret-transparent flex h-4 justify-center tracking-[-0.16px] leading-[26px] min-h-[auto] min-w-[auto] outline-[3px] w-4 md:text-lg md:tracking-[-0.18px] md:leading-7">
                       <img
-                        src="https://c.animaapp.com/mov1hivmUrwXF6/assets/icon-10.svg"
+                        src="/images/abc-news/icon-10.svg"
                         alt="Icon"
                         className="text-blue-700 text-base box-border caret-transparent h-[9.5px] tracking-[-0.16px] leading-[26px] outline-[3px] align-baseline w-[9.5px] md:text-lg md:tracking-[-0.18px] md:leading-7"
                       />
@@ -135,7 +135,7 @@ export const ArticleBody = () => {
                       <div className="absolute text-base box-border caret-transparent tracking-[-0.16px] leading-[26px] outline-[3px] inset-0 md:text-lg md:tracking-[-0.18px] md:leading-7">
                         <img
                           alt=""
-                          src="https://c.animaapp.com/mov1hivmUrwXF6/assets/69.avif"
+                          src="/images/abc-news/69.avif"
                           className="absolute text-base box-border caret-transparent tracking-[-0.16px] leading-[26px] outline-[3px] align-baseline w-full inset-0 md:text-lg md:tracking-[-0.18px] md:leading-7"
                         />
                       </div>
@@ -179,7 +179,7 @@ export const ArticleBody = () => {
                       <div className="absolute text-base box-border caret-transparent tracking-[-0.16px] leading-[26px] outline-[3px] inset-0 md:text-lg md:tracking-[-0.18px] md:leading-7">
                         <img
                           alt=""
-                          src="https://c.animaapp.com/mov1hivmUrwXF6/assets/70.avif"
+                          src="/images/abc-news/70.avif"
                           className="absolute text-base box-border caret-transparent tracking-[-0.16px] leading-[26px] outline-[3px] align-baseline w-full inset-0 md:text-lg md:tracking-[-0.18px] md:leading-7"
                         />
                       </div>
@@ -223,7 +223,7 @@ export const ArticleBody = () => {
                       <div className="absolute text-base box-border caret-transparent tracking-[-0.16px] leading-[26px] outline-[3px] inset-0 md:text-lg md:tracking-[-0.18px] md:leading-7">
                         <img
                           alt=""
-                          src="https://c.animaapp.com/mov1hivmUrwXF6/assets/71.avif"
+                          src="/images/abc-news/71.avif"
                           className="absolute text-base box-border caret-transparent tracking-[-0.16px] leading-[26px] outline-[3px] align-baseline w-full inset-0 md:text-lg md:tracking-[-0.18px] md:leading-7"
                         />
                       </div>
@@ -273,7 +273,7 @@ export const ArticleBody = () => {
                   <picture className="text-base box-border caret-transparent tracking-[-0.16px] leading-[26px] outline-[3px] md:text-lg md:tracking-[-0.18px] md:leading-7">
                     <img
                       alt=""
-                      src="https://c.animaapp.com/mov1hivmUrwXF6/assets/jeffrey-epstein-gty-gmh-251126_1764193635060_hpMain_4x3.jpg"
+                      src="/images/abc-news/jeffrey-epstein-gty-gmh-251126_1764193635060_hpMain_4x3.jpg"
                       className="text-base box-border caret-transparent tracking-[-0.16px] leading-[26px] max-h-full max-w-full outline-[3px] align-baseline w-full rounded-md md:text-lg md:tracking-[-0.18px] md:leading-7"
                     />
                   </picture>

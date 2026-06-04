@@ -27,7 +27,7 @@ export const SetupSection = () => {
             <video
               src="https://cdn.shopify.com/videos/c/o/v/f3561b42fa794e4abd7e94375cf2f506.mp4"
               controls
-              poster="https://c.animaapp.com/mpy7eadgYZFUdm/assets/43.jpg"
+              poster="/images/rejuvacare/43.jpg"
               className="relative box-border caret-transparent inline max-w-full outline-[3px] align-baseline w-full rounded-[10px] md:rounded-[15px]"
             ></video>
           </div>

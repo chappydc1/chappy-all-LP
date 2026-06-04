@@ -12,7 +12,7 @@ export const CookieConsent = () => {
               className="text-zinc-900 font-normal bg-transparent caret-transparent block leading-[normal] mr-[-5px] outline-[3px] text-center p-0 font-dmsans"
             >
               <img
-                src="/s/lis/gruns/media/icon-40.svg"
+                src="/images/gruns/icon-40.svg"
                 alt="Icon"
                 className="caret-transparent inline h-[25px] outline-[3px] align-baseline w-6"
               />
@@ -25,7 +25,7 @@ export const CookieConsent = () => {
             className="text-[13.3333px] font-normal items-center bg-white caret-transparent flex leading-[normal] outline-[3px] text-center p-0 font-arial"
           >
             <img
-              src="/s/lis/gruns/media/icon-41.svg"
+              src="/images/gruns/icon-41.svg"
               alt="Icon"
               className="caret-transparent h-[13px] outline-[3px] align-baseline w-[13px] md:h-3.5 md:w-3.5"
             />
@@ -33,7 +33,7 @@ export const CookieConsent = () => {
               English
             </span>
             <img
-              src="/s/lis/gruns/media/icon-42.svg"
+              src="/images/gruns/icon-42.svg"
               alt="Icon"
               className="caret-transparent h-4 outline-[3px] align-baseline w-4 md:h-5 md:w-5"
             />
@@ -41,7 +41,7 @@ export const CookieConsent = () => {
           <div className="absolute bg-white shadow-[rgba(0,0,0,0.08)_0px_4px_4px_0px] caret-transparent hidden flex-col list-none max-h-[220px] min-w-[120px] outline-[3px] overflow-scroll mt-1 rounded-lg">
             <button className="text-[13.3333px] font-normal items-center bg-white caret-transparent gap-x-1 flex leading-[normal] outline-[3px] gap-y-1 text-center px-2 py-3 rounded-t-lg font-arial">
               <img
-                src="/s/lis/gruns/media/icon-43.svg"
+                src="/images/gruns/icon-43.svg"
                 alt="Icon"
                 className="caret-transparent h-4 outline-[3px] align-baseline w-4"
               />

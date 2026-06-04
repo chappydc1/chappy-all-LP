@@ -42,7 +42,7 @@ export const ArticleHeader = () => {
       <div className="text-zinc-500 text-xs items-center box-border caret-transparent flex justify-between leading-[18px] mt-0 mb-6 md:text-sm md:leading-[21px] md:my-5">
         <div className="relative text-xs box-border caret-transparent leading-[18px] min-h-[auto] min-w-[auto] left-[50px] md:text-sm md:leading-[21px] md:left-auto">
           <img
-            src="/assets/primepicks/Testimonials-stars-icons-7-4-1-1.svg"
+            src="/images/primepicks/Testimonials-stars-icons-7-4-1-1.svg"
             alt="PrimePicks.Review"
             className="text-xs aspect-[auto_80_/_15] box-border caret-transparent hidden leading-[18px] max-w-full w-20 mr-[5px] -mt-1 md:text-sm md:inline md:leading-[21px] md:w-[100px]"
           />
@@ -50,7 +50,7 @@ export const ArticleHeader = () => {
             Written by
           </span>
           <img
-            src="/assets/primepicks/ZXhwZXJ0LTQ0LmpwZw.jpg"
+            src="/images/primepicks/ZXhwZXJ0LTQ0LmpwZw.jpg"
             alt="PrimePicks.Review"
             className="absolute text-xs aspect-[auto_35_/_35] box-border caret-transparent block h-[35px] left-[-50px] leading-[18px] max-w-full object-cover w-[35px] -mt-0.5 mx-[5px] rounded-full top-[3px] md:relative md:text-sm md:inline md:h-[25px] md:leading-[21px] md:w-[25px] md:left-auto md:top-0"
           />
@@ -78,7 +78,7 @@ export const ArticleHeader = () => {
             loop
             autoPlay
             preload="auto"
-            poster="/assets/primepicks/image-160-scaled.jpg"
+            poster="/images/primepicks/image-160-scaled.jpg"
             className="aspect-[auto_840_/_400] box-border caret-transparent max-w-full w-[840px] mb-6"
           >
             <source
@@ -193,7 +193,7 @@ export const ArticleHeader = () => {
             loop
             autoPlay
             preload="auto"
-            poster="/assets/primepicks/image-161.jpg"
+            poster="/images/primepicks/image-161.jpg"
             className="aspect-[auto_840_/_400] box-border caret-transparent max-w-full w-[840px] mb-6"
           >
             <source
@@ -363,7 +363,7 @@ export const ArticleHeader = () => {
         >
           <picture className="text-lg box-border caret-transparent leading-[27px] md:text-[18.8px] md:leading-[28.2px]">
             <img
-              src="/assets/primepicks/M19UYWdzbGV5X1RyYWNraW5nLUNhcmQuanBn-w_720.jpg"
+              src="/images/primepicks/M19UYWdzbGV5X1RyYWNraW5nLUNhcmQuanBn-w_720.jpg"
               alt=""
               sizes="100vw"
               className="text-lg aspect-[auto_720_/_435] box-border caret-transparent leading-[27px] max-w-full w-full mb-6 md:text-[18.8px] md:leading-[28.2px]"
@@ -522,7 +522,7 @@ export const ArticleHeader = () => {
         >
           <picture className="text-lg box-border caret-transparent leading-[27px] md:text-[18.8px] md:leading-[28.2px]">
             <img
-              src="/assets/primepicks/NF9UYWdzbGV5X1RyYWNraW5nLUNhcmQuanBn-w_720.jpg"
+              src="/images/primepicks/NF9UYWdzbGV5X1RyYWNraW5nLUNhcmQuanBn-w_720.jpg"
               alt=""
               sizes="100vw"
               className="text-lg aspect-[auto_720_/_435] box-border caret-transparent leading-[27px] max-w-full w-full mb-6 md:text-[18.8px] md:leading-[28.2px]"
@@ -622,7 +622,7 @@ export const ArticleHeader = () => {
                 className="relative text-blue-600 font-semibold box-border caret-transparent block min-h-[auto] min-w-[auto] w-6/12 md:w-auto"
               >
                 <img
-                  src="/assets/primepicks/MV8uanBn.jpg"
+                  src="/images/primepicks/MV8uanBn.jpg"
                   alt="product"
                   className="aspect-[auto_120_/_120] box-border caret-transparent max-h-[120px] max-w-[120px] w-full mx-auto md:w-[120px] md:mx-0"
                 />
@@ -637,7 +637,7 @@ export const ArticleHeader = () => {
                   9.8
                 </h4>
                 <img
-                  src="/assets/primepicks/green-stars.svg"
+                  src="/images/primepicks/green-stars.svg"
                   alt="Stars Rating"
                   className="aspect-[auto_98_/_18] box-border caret-transparent max-w-full w-[98px] mx-auto my-1"
                 />
@@ -735,7 +735,7 @@ export const ArticleHeader = () => {
               </span>
               <span className="box-border caret-transparent block min-h-[auto] min-w-[auto]">
                 <img
-                  src="/assets/primepicks/icon-1.svg"
+                  src="/images/primepicks/icon-1.svg"
                   alt="Icon"
                   className="box-border caret-transparent h-3.5 w-[15px]"
                 />
@@ -743,7 +743,7 @@ export const ArticleHeader = () => {
             </a>
             <div className="relative items-start bg-white shadow-[rgba(0,0,0,0.15)_0px_1px_10px_0px] box-border caret-transparent flex w-fit mx-auto p-2 rounded-[10px] after:accent-auto after:box-border after:caret-transparent after:text-black after:block after:text-base after:not-italic after:normal-nums after:font-normal after:tracking-[normal] after:leading-6 after:list-outside after:list-disc after:pointer-events-auto after:absolute after:text-start after:no-underline after:indent-[0px] after:normal-case after:translate-x-[-5px] after:visible after:border-b-white after:border-b-[10px] after:border-x-transparent after:border-x-[5px] after:border-separate after:border-solid after:left-2/4 after:-top-2.5 after:font-open_sans">
               <img
-                src="/assets/primepicks/subtract.svg"
+                src="/images/primepicks/subtract.svg"
                 alt="PrimePicks.Review"
                 className="aspect-[auto_16_/_16] box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] w-4 mr-1"
               />

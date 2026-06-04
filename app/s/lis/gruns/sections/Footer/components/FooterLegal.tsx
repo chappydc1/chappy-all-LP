@@ -11,7 +11,7 @@ export const FooterLegal = (props: FooterLegalProps) => {
       "gap-x-[normal] gap-y-[normal] md:gap-x-8 md:gap-y-8" ? (
         <>
           <img
-            src="/s/lis/gruns/media/40.svg"
+            src="/images/gruns/40.svg"
             alt="Grüns Logo in yellow"
             className="aspect-[auto_300_/_112] box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full md:max-w-60"
           />
@@ -27,7 +27,7 @@ export const FooterLegal = (props: FooterLegalProps) => {
                 className="text-white box-border caret-transparent outline-[3px]"
               >
                 <img
-                  src="/s/lis/gruns/media/icon-33.svg"
+                  src="/images/gruns/icon-33.svg"
                   alt="Icon"
                   className="box-border caret-transparent h-[34px] outline-[3px] w-[34px]"
                 />
@@ -40,7 +40,7 @@ export const FooterLegal = (props: FooterLegalProps) => {
                 className="text-white box-border caret-transparent outline-[3px]"
               >
                 <img
-                  src="/s/lis/gruns/media/icon-34.svg"
+                  src="/images/gruns/icon-34.svg"
                   alt="Icon"
                   className="box-border caret-transparent h-[34px] outline-[3px] w-[34px]"
                 />
@@ -53,7 +53,7 @@ export const FooterLegal = (props: FooterLegalProps) => {
                 className="text-white box-border caret-transparent outline-[3px]"
               >
                 <img
-                  src="/s/lis/gruns/media/icon-35.svg"
+                  src="/images/gruns/icon-35.svg"
                   alt="Icon"
                   className="box-border caret-transparent h-[34px] outline-[3px] w-[34px]"
                 />
@@ -66,7 +66,7 @@ export const FooterLegal = (props: FooterLegalProps) => {
                 className="text-white box-border caret-transparent outline-[3px]"
               >
                 <img
-                  src="/s/lis/gruns/media/icon-36.svg"
+                  src="/images/gruns/icon-36.svg"
                   alt="Icon"
                   className="box-border caret-transparent h-[34px] outline-[3px] w-[34px]"
                 />
@@ -144,7 +144,7 @@ export const FooterLegal = (props: FooterLegalProps) => {
               >
                 My Privacy Choices
                 <img
-                  src="/s/lis/gruns/media/datagrail-dnsos-toggle-icon.webp"
+                  src="/images/gruns/datagrail-dnsos-toggle-icon.webp"
                   alt="California Consumer Privacy Act (CCPA) Opt-Out Icon"
                   className="aspect-[auto_30_/_17] box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-[30px] ml-1"
                 />

@@ -118,7 +118,7 @@ export const ProductCard = (props: ProductCardProps) => {
                         className={`box-border caret-transparent block ${props.titleClassName}`}
                       >
                         <img
-                          src="/assets/primepicks/icon-1.svg"
+                          src="/images/primepicks/icon-1.svg"
                           alt="Icon"
                           className="box-border caret-transparent h-3.5 w-[15px]"
                         />
@@ -143,7 +143,7 @@ export const ProductCard = (props: ProductCardProps) => {
                     className={`items-start box-border caret-transparent flex ${props.titleClassName} ${index < props.pros.length - 1 ? "mb-2" : ""}`}
                   >
                     <img
-                      src="/assets/primepicks/fe_checked-icon.svg"
+                      src="/images/primepicks/fe_checked-icon.svg"
                       alt="PrimePicks.Review"
                       className={`aspect-[auto_16_/_16] box-border caret-transparent max-w-full ${props.titleClassName} w-4 mr-2`}
                     />
@@ -171,7 +171,7 @@ export const ProductCard = (props: ProductCardProps) => {
                     className={`items-start box-border caret-transparent flex ${props.titleClassName} ${index < props.cons.length - 1 ? "mb-2" : ""}`}
                   >
                     <img
-                      src="/assets/primepicks/con-x.svg"
+                      src="/images/primepicks/con-x.svg"
                       alt="PrimePicks.Review"
                       className={`aspect-[auto_16_/_17] box-border caret-transparent max-w-full ${props.titleClassName} w-4 mr-2`}
                     />
@@ -232,7 +232,7 @@ export const ProductCard = (props: ProductCardProps) => {
                     className={`box-border caret-transparent block ${props.titleClassName}`}
                   >
                     <img
-                      src="/assets/primepicks/icon-1.svg"
+                      src="/images/primepicks/icon-1.svg"
                       alt="Icon"
                       className="box-border caret-transparent h-3.5 w-[15px]"
                     />

@@ -1,5 +1,12 @@
 import { Open_Sans } from "next/font/google";
+import type { Metadata } from "next";
 import type { ReactNode } from "react";
+
+export const metadata: Metadata = {
+  title: "Find Your Perfect Health Routine | Chappy",
+  description: "Take the 2-minute Chappy quiz and get personalized supplement recommendations built around your energy, gut, and lifestyle goals. Start feeling better today.",
+  icons: { icon: "/favicons/chappy.svg" },
+};
 
 const openSans = Open_Sans({
   subsets: ["latin"],

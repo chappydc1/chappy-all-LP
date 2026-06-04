@@ -9,7 +9,7 @@ export const MoneyBackGuarantee = () => {
         <img
           alt="120 DAY MONEY BACK.webp"
           title=""
-          src="https://c.animaapp.com/mnsbh2exJLSZhk/assets/1729154027441_1727912788821_120_Day_PNG_COMP_copy.webp"
+          src="/images/nebroo/1729154027441_1727912788821_120_Day_PNG_COMP_copy.webp"
           
           className="box-border caret-transparent inline max-w-full min-h-0 min-w-0 w-[200px] md:block md:min-h-[auto] md:min-w-[auto]"
         />

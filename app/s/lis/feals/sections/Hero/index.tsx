@@ -14,7 +14,7 @@ export const Hero = () => {
             <div className="relative items-center self-stretch box-border caret-transparent flex shrink-0 justify-center max-w-full min-h-px min-w-[auto] outline-[3px] w-20 md:w-auto">
               <picture className="items-center box-border caret-transparent flex basis-0 grow h-6 min-w-[auto] object-contain outline-[3px] overflow-x-auto overflow-y-hidden md:basis-auto md:min-w-0">
                 <img
-                  src="https://c.animaapp.com/mpkdzooupOfzIE/assets/53.png"
+                  src="/images/feals/53.png"
                   className="box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-contain outline-[3px] align-baseline"
                 />
               </picture>
@@ -22,7 +22,7 @@ export const Hero = () => {
             <div className="relative items-center self-stretch box-border caret-transparent flex shrink-0 justify-center max-w-full min-h-px min-w-[auto] outline-[3px] w-20 md:w-auto">
               <picture className="items-center box-border caret-transparent flex basis-0 grow h-6 min-w-[auto] object-contain outline-[3px] overflow-x-auto overflow-y-hidden md:basis-auto md:min-w-0">
                 <img
-                  src="https://c.animaapp.com/mpkdzooupOfzIE/assets/55.png"
+                  src="/images/feals/55.png"
                   className="box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-contain outline-[3px] align-baseline"
                 />
               </picture>
@@ -30,7 +30,7 @@ export const Hero = () => {
             <div className="relative items-center self-stretch box-border caret-transparent flex shrink-0 justify-center max-w-full min-h-px min-w-[auto] outline-[3px] w-20 md:w-auto">
               <picture className="items-center box-border caret-transparent flex basis-0 grow h-6 min-w-[auto] object-contain outline-[3px] overflow-x-auto overflow-y-hidden md:basis-auto md:min-w-0">
                 <img
-                  src="https://c.animaapp.com/mpkdzooupOfzIE/assets/50.png"
+                  src="/images/feals/50.png"
                   className="box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-contain outline-[3px] align-baseline"
                 />
               </picture>
@@ -38,7 +38,7 @@ export const Hero = () => {
             <div className="relative items-center self-stretch box-border caret-transparent flex shrink-0 justify-center max-w-full min-h-px min-w-[auto] outline-[3px] w-20 md:w-auto">
               <picture className="items-center box-border caret-transparent flex basis-0 grow h-6 min-w-[auto] object-contain outline-[3px] overflow-x-auto overflow-y-hidden md:basis-auto md:min-w-0">
                 <img
-                  src="https://c.animaapp.com/mpkdzooupOfzIE/assets/51.png"
+                  src="/images/feals/51.png"
                   className="box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-contain outline-[3px] align-baseline"
                 />
               </picture>
@@ -46,7 +46,7 @@ export const Hero = () => {
             <div className="relative items-center self-stretch box-border caret-transparent flex shrink-0 justify-center max-w-full min-h-px min-w-[auto] outline-[3px] w-20 md:w-auto">
               <picture className="items-center box-border caret-transparent flex basis-0 grow h-6 min-w-[auto] object-contain outline-[3px] overflow-x-auto overflow-y-hidden md:basis-auto md:min-w-0">
                 <img
-                  src="https://c.animaapp.com/mpkdzooupOfzIE/assets/56.png"
+                  src="/images/feals/56.png"
                   className="box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-contain outline-[3px] align-baseline"
                 />
               </picture>
@@ -54,7 +54,7 @@ export const Hero = () => {
             <div className="relative items-center self-stretch box-border caret-transparent flex shrink-0 justify-center max-w-full min-h-px min-w-[auto] outline-[3px] w-20 md:w-auto">
               <picture className="items-center box-border caret-transparent flex basis-0 grow h-6 min-w-[auto] object-contain outline-[3px] overflow-x-auto overflow-y-hidden md:basis-auto md:min-w-0">
                 <img
-                  src="https://c.animaapp.com/mpkdzooupOfzIE/assets/52.png"
+                  src="/images/feals/52.png"
                   className="box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-contain outline-[3px] align-baseline"
                 />
               </picture>
@@ -62,7 +62,7 @@ export const Hero = () => {
             <div className="relative items-center self-stretch box-border caret-transparent flex shrink-0 justify-center max-w-full min-h-px min-w-[auto] outline-[3px] w-20 md:w-auto">
               <picture className="items-center box-border caret-transparent flex basis-0 grow h-6 min-w-[auto] object-contain outline-[3px] overflow-x-auto overflow-y-hidden md:basis-auto md:min-w-0">
                 <img
-                  src="https://c.animaapp.com/mpkdzooupOfzIE/assets/54.png"
+                  src="/images/feals/54.png"
                   className="box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-contain outline-[3px] align-baseline"
                 />
               </picture>
@@ -81,7 +81,7 @@ export const Hero = () => {
                     className="text-stone-600 items-center self-auto box-border caret-transparent flex basis-0 grow h-[300px] object-cover outline-[3px] overflow-x-auto overflow-y-hidden md:text-black md:self-stretch md:h-full"
                   >
                     <img
-                      src="https://c.animaapp.com/mpkdzooupOfzIE/assets/65.jpg"
+                      src="/images/feals/65.jpg"
                       className="text-stone-600 box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-cover outline-[3px] align-baseline md:text-black"
                     />
                   </picture>
@@ -153,7 +153,7 @@ export const Hero = () => {
                     className="text-stone-600 items-center self-auto box-border caret-transparent flex basis-0 grow h-[300px] object-cover object-[50%_40%] outline-[3px] overflow-x-auto overflow-y-hidden md:text-black md:self-stretch md:h-full"
                   >
                     <img
-                      src="https://c.animaapp.com/mpkdzooupOfzIE/assets/78.gif"
+                      src="/images/feals/78.gif"
                       className="text-stone-600 box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-cover object-[50%_40%] outline-[3px] align-baseline md:text-black"
                     />
                   </picture>
@@ -237,7 +237,7 @@ export const Hero = () => {
                     className="text-stone-600 items-center self-auto box-border caret-transparent flex basis-0 grow h-auto object-cover outline-[3px] overflow-x-auto overflow-y-hidden md:text-black md:self-stretch md:h-full"
                   >
                     <img
-                      src="https://c.animaapp.com/mpkdzooupOfzIE/assets/71.png"
+                      src="/images/feals/71.png"
                       className="text-stone-600 box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-cover outline-[3px] align-baseline md:text-black"
                     />
                   </picture>
@@ -310,25 +310,25 @@ export const Hero = () => {
                 >
                   <picture className="text-stone-600 items-center self-auto box-border caret-transparent flex basis-0 grow h-full max-h-none max-w-[400px] min-h-[auto] object-cover outline-[3px] overflow-x-auto overflow-y-hidden md:text-black md:self-stretch md:basis-auto md:max-h-[291px] md:min-h-0">
                     <img
-                      src="https://c.animaapp.com/mpkdzooupOfzIE/assets/77.jpg"
+                      src="/images/feals/77.jpg"
                       className="text-stone-600 box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-cover outline-[3px] align-baseline md:text-black"
                     />
                   </picture>
                   <picture className="text-stone-600 items-center self-auto box-border caret-transparent flex basis-0 grow h-full max-h-none max-w-[400px] min-h-[auto] object-cover outline-[3px] overflow-x-auto overflow-y-hidden md:text-black md:self-stretch md:basis-auto md:max-h-[291px] md:min-h-0">
                     <img
-                      src="https://c.animaapp.com/mpkdzooupOfzIE/assets/49.jpg"
+                      src="/images/feals/49.jpg"
                       className="text-stone-600 box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-cover outline-[3px] align-baseline md:text-black"
                     />
                   </picture>
                   <picture className="text-stone-600 items-center self-auto box-border caret-transparent flex basis-0 grow h-full max-h-none max-w-[400px] min-h-[auto] object-cover outline-[3px] overflow-x-auto overflow-y-hidden md:text-black md:self-stretch md:basis-auto md:max-h-[291px] md:min-h-0">
                     <img
-                      src="https://c.animaapp.com/mpkdzooupOfzIE/assets/76.png"
+                      src="/images/feals/76.png"
                       className="text-stone-600 box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-cover outline-[3px] align-baseline md:text-black"
                     />
                   </picture>
                   <picture className="text-stone-600 items-center self-auto box-border caret-transparent flex basis-0 grow h-full max-h-none max-w-[400px] min-h-[auto] object-cover outline-[3px] overflow-x-auto overflow-y-hidden md:text-black md:self-stretch md:basis-auto md:max-h-[291px] md:min-h-0">
                     <img
-                      src="https://c.animaapp.com/mpkdzooupOfzIE/assets/73.jpg"
+                      src="/images/feals/73.jpg"
                       className="text-stone-600 box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-cover outline-[3px] align-baseline md:text-black"
                     />
                   </picture>
@@ -399,13 +399,13 @@ export const Hero = () => {
                 >
                   <picture className="absolute text-stone-600 items-center box-border caret-transparent flex shrink-0 object-contain outline-[3px] overflow-x-auto overflow-y-hidden pointer-events-none w-20 z-[1] left-[15%] top-[5%] md:text-black md:w-[120px] md:left-[20.51%] md:top-[10%]">
                     <img
-                      src="https://c.animaapp.com/mpkdzooupOfzIE/assets/16.svg"
+                      src="/images/feals/16.svg"
                       className="text-stone-600 box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-contain outline-[3px] align-baseline md:text-black"
                     />
                   </picture>
                   <picture className="text-stone-600 items-center self-auto box-border caret-transparent flex basis-0 grow h-[300px] object-contain object-[50%_45%] outline-[3px] overflow-x-auto overflow-y-hidden px-4 md:text-black md:self-stretch md:h-full md:object-[50%_50%]">
                     <img
-                      src="https://c.animaapp.com/mpkdzooupOfzIE/assets/72.png"
+                      src="/images/feals/72.png"
                       className="text-stone-600 box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-contain object-[50%_45%] outline-[3px] align-baseline md:text-black md:object-[50%_50%]"
                     />
                   </picture>
@@ -479,27 +479,27 @@ export const Hero = () => {
             <div className="relative items-center self-auto box-border caret-transparent flex flex-col grow justify-start max-w-full min-h-px min-w-[auto] outline-[3px] border-stone-600 px-6 py-8 border-b md:items-start md:self-stretch md:justify-center md:px-4">
               <div className="self-start box-border caret-transparent gap-x-0.5 flex shrink-0 min-h-[auto] min-w-[auto] outline-[3px] gap-y-0.5 mb-2.5 md:mb-2">
                 <img
-                  src="https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-10.svg"
+                  src="/images/feals/icon-10.svg"
                   alt="Icon"
                   className="box-border caret-transparent h-6 outline-[3px] align-baseline w-6"
                 />
                 <img
-                  src="https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-10.svg"
+                  src="/images/feals/icon-10.svg"
                   alt="Icon"
                   className="box-border caret-transparent h-6 outline-[3px] align-baseline w-6"
                 />
                 <img
-                  src="https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-10.svg"
+                  src="/images/feals/icon-10.svg"
                   alt="Icon"
                   className="box-border caret-transparent h-6 outline-[3px] align-baseline w-6"
                 />
                 <img
-                  src="https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-10.svg"
+                  src="/images/feals/icon-10.svg"
                   alt="Icon"
                   className="box-border caret-transparent h-6 outline-[3px] align-baseline w-6"
                 />
                 <img
-                  src="https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-10.svg"
+                  src="/images/feals/icon-10.svg"
                   alt="Icon"
                   className="box-border caret-transparent h-6 outline-[3px] align-baseline w-6"
                 />
@@ -531,7 +531,7 @@ export const Hero = () => {
               <div className="relative items-center self-start box-border caret-transparent flex shrink-0 justify-center max-w-full min-h-px min-w-[auto] outline-[3px]">
                 <picture className="items-center box-border caret-transparent flex shrink-0 max-w-[400px] object-cover outline-[3px] overflow-x-auto overflow-y-hidden mr-1 md:mr-2">
                   <img
-                    src="https://c.animaapp.com/mpkdzooupOfzIE/assets/45.svg"
+                    src="/images/feals/45.svg"
                     className="box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-cover outline-[3px] align-baseline"
                   />
                 </picture>
@@ -547,27 +547,27 @@ export const Hero = () => {
             <div className="relative items-center self-auto box-border caret-transparent flex flex-col grow justify-start max-w-full min-h-px min-w-[auto] outline-[3px] border-stone-600 px-6 py-8 border-b md:items-start md:self-stretch md:justify-center md:px-4">
               <div className="self-start box-border caret-transparent gap-x-0.5 flex shrink-0 min-h-[auto] min-w-[auto] outline-[3px] gap-y-0.5 mb-2.5 md:mb-2">
                 <img
-                  src="https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-11.svg"
+                  src="/images/feals/icon-11.svg"
                   alt="Icon"
                   className="box-border caret-transparent h-6 outline-[3px] align-baseline w-6"
                 />
                 <img
-                  src="https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-11.svg"
+                  src="/images/feals/icon-11.svg"
                   alt="Icon"
                   className="box-border caret-transparent h-6 outline-[3px] align-baseline w-6"
                 />
                 <img
-                  src="https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-11.svg"
+                  src="/images/feals/icon-11.svg"
                   alt="Icon"
                   className="box-border caret-transparent h-6 outline-[3px] align-baseline w-6"
                 />
                 <img
-                  src="https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-11.svg"
+                  src="/images/feals/icon-11.svg"
                   alt="Icon"
                   className="box-border caret-transparent h-6 outline-[3px] align-baseline w-6"
                 />
                 <img
-                  src="https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-11.svg"
+                  src="/images/feals/icon-11.svg"
                   alt="Icon"
                   className="box-border caret-transparent h-6 outline-[3px] align-baseline w-6"
                 />
@@ -602,7 +602,7 @@ export const Hero = () => {
               <div className="relative items-center self-start box-border caret-transparent flex shrink-0 justify-center max-w-full min-h-px min-w-[auto] outline-[3px]">
                 <picture className="items-center box-border caret-transparent flex shrink-0 max-w-[400px] object-cover outline-[3px] overflow-x-auto overflow-y-hidden mr-1 md:mr-2">
                   <img
-                    src="https://c.animaapp.com/mpkdzooupOfzIE/assets/45.svg"
+                    src="/images/feals/45.svg"
                     className="box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-cover outline-[3px] align-baseline"
                   />
                 </picture>
@@ -618,27 +618,27 @@ export const Hero = () => {
             <div className="relative items-center self-auto box-border caret-transparent flex flex-col grow justify-start max-w-full min-h-px min-w-[auto] outline-[3px] border-stone-600 px-6 py-8 border-b md:items-start md:self-stretch md:justify-center md:px-4">
               <div className="self-start box-border caret-transparent gap-x-0.5 flex shrink-0 min-h-[auto] min-w-[auto] outline-[3px] gap-y-0.5 mb-2.5 md:mb-2">
                 <img
-                  src="https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-12.svg"
+                  src="/images/feals/icon-12.svg"
                   alt="Icon"
                   className="box-border caret-transparent h-6 outline-[3px] align-baseline w-6"
                 />
                 <img
-                  src="https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-12.svg"
+                  src="/images/feals/icon-12.svg"
                   alt="Icon"
                   className="box-border caret-transparent h-6 outline-[3px] align-baseline w-6"
                 />
                 <img
-                  src="https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-12.svg"
+                  src="/images/feals/icon-12.svg"
                   alt="Icon"
                   className="box-border caret-transparent h-6 outline-[3px] align-baseline w-6"
                 />
                 <img
-                  src="https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-12.svg"
+                  src="/images/feals/icon-12.svg"
                   alt="Icon"
                   className="box-border caret-transparent h-6 outline-[3px] align-baseline w-6"
                 />
                 <img
-                  src="https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-12.svg"
+                  src="/images/feals/icon-12.svg"
                   alt="Icon"
                   className="box-border caret-transparent h-6 outline-[3px] align-baseline w-6"
                 />
@@ -671,7 +671,7 @@ export const Hero = () => {
               <div className="relative items-center self-start box-border caret-transparent flex shrink-0 justify-center max-w-full min-h-px min-w-[auto] outline-[3px]">
                 <picture className="items-center box-border caret-transparent flex shrink-0 max-w-[400px] object-cover outline-[3px] overflow-x-auto overflow-y-hidden mr-1 md:mr-2">
                   <img
-                    src="https://c.animaapp.com/mpkdzooupOfzIE/assets/45.svg"
+                    src="/images/feals/45.svg"
                     className="box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-cover outline-[3px] align-baseline"
                   />
                 </picture>
@@ -687,27 +687,27 @@ export const Hero = () => {
             <div className="relative items-center self-auto box-border caret-transparent flex flex-col grow justify-start max-w-full min-h-px min-w-[auto] outline-[3px] border-stone-600 px-6 py-8 border-b md:items-start md:self-stretch md:justify-center md:px-4">
               <div className="self-start box-border caret-transparent gap-x-0.5 flex shrink-0 min-h-[auto] min-w-[auto] outline-[3px] gap-y-0.5 mb-2.5 md:mb-2">
                 <img
-                  src="https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-13.svg"
+                  src="/images/feals/icon-13.svg"
                   alt="Icon"
                   className="box-border caret-transparent h-6 outline-[3px] align-baseline w-6"
                 />
                 <img
-                  src="https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-13.svg"
+                  src="/images/feals/icon-13.svg"
                   alt="Icon"
                   className="box-border caret-transparent h-6 outline-[3px] align-baseline w-6"
                 />
                 <img
-                  src="https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-13.svg"
+                  src="/images/feals/icon-13.svg"
                   alt="Icon"
                   className="box-border caret-transparent h-6 outline-[3px] align-baseline w-6"
                 />
                 <img
-                  src="https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-13.svg"
+                  src="/images/feals/icon-13.svg"
                   alt="Icon"
                   className="box-border caret-transparent h-6 outline-[3px] align-baseline w-6"
                 />
                 <img
-                  src="https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-13.svg"
+                  src="/images/feals/icon-13.svg"
                   alt="Icon"
                   className="box-border caret-transparent h-6 outline-[3px] align-baseline w-6"
                 />
@@ -741,7 +741,7 @@ export const Hero = () => {
               <div className="relative items-center self-start box-border caret-transparent flex shrink-0 justify-center max-w-full min-h-px min-w-[auto] outline-[3px]">
                 <picture className="items-center box-border caret-transparent flex shrink-0 max-w-[400px] object-cover outline-[3px] overflow-x-auto overflow-y-hidden mr-1 md:mr-2">
                   <img
-                    src="https://c.animaapp.com/mpkdzooupOfzIE/assets/45.svg"
+                    src="/images/feals/45.svg"
                     className="box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-cover outline-[3px] align-baseline"
                   />
                 </picture>
@@ -757,27 +757,27 @@ export const Hero = () => {
             <div className="relative items-center self-auto box-border caret-transparent flex flex-col grow justify-start max-w-full min-h-px min-w-[auto] outline-[3px] border-stone-600 px-6 py-8 border-b md:items-start md:self-stretch md:justify-center md:px-4">
               <div className="self-start box-border caret-transparent gap-x-0.5 flex shrink-0 min-h-[auto] min-w-[auto] outline-[3px] gap-y-0.5 mb-2.5 md:mb-2">
                 <img
-                  src="https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-14.svg"
+                  src="/images/feals/icon-14.svg"
                   alt="Icon"
                   className="box-border caret-transparent h-6 outline-[3px] align-baseline w-6"
                 />
                 <img
-                  src="https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-14.svg"
+                  src="/images/feals/icon-14.svg"
                   alt="Icon"
                   className="box-border caret-transparent h-6 outline-[3px] align-baseline w-6"
                 />
                 <img
-                  src="https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-14.svg"
+                  src="/images/feals/icon-14.svg"
                   alt="Icon"
                   className="box-border caret-transparent h-6 outline-[3px] align-baseline w-6"
                 />
                 <img
-                  src="https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-14.svg"
+                  src="/images/feals/icon-14.svg"
                   alt="Icon"
                   className="box-border caret-transparent h-6 outline-[3px] align-baseline w-6"
                 />
                 <img
-                  src="https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-14.svg"
+                  src="/images/feals/icon-14.svg"
                   alt="Icon"
                   className="box-border caret-transparent h-6 outline-[3px] align-baseline w-6"
                 />
@@ -811,7 +811,7 @@ export const Hero = () => {
               <div className="relative items-center self-start box-border caret-transparent flex shrink-0 justify-center max-w-full min-h-px min-w-[auto] outline-[3px]">
                 <picture className="items-center box-border caret-transparent flex shrink-0 max-w-[400px] object-cover outline-[3px] overflow-x-auto overflow-y-hidden mr-1 md:mr-2">
                   <img
-                    src="https://c.animaapp.com/mpkdzooupOfzIE/assets/45.svg"
+                    src="/images/feals/45.svg"
                     className="box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-cover outline-[3px] align-baseline"
                   />
                 </picture>
@@ -830,7 +830,7 @@ export const Hero = () => {
                 className="items-center self-auto box-border caret-transparent flex shrink-0 max-w-[400px] object-cover outline-[3px] overflow-x-auto overflow-y-hidden px-4 md:self-stretch md:max-w-none"
               >
                 <img
-                  src="https://c.animaapp.com/mpkdzooupOfzIE/assets/70.png"
+                  src="/images/feals/70.png"
                   className="box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-cover outline-[3px] align-baseline"
                 />
               </picture>
@@ -839,7 +839,7 @@ export const Hero = () => {
                 className="items-center self-auto box-border caret-transparent flex shrink-0 max-w-[400px] object-cover outline-[3px] overflow-x-auto overflow-y-hidden px-4 md:self-stretch md:max-w-none"
               >
                 <img
-                  src="https://c.animaapp.com/mpkdzooupOfzIE/assets/66.jpg"
+                  src="/images/feals/66.jpg"
                   className="box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-cover outline-[3px] align-baseline"
                 />
               </picture>
@@ -848,7 +848,7 @@ export const Hero = () => {
                 className="items-center self-auto box-border caret-transparent flex shrink-0 max-w-[400px] object-cover outline-[3px] overflow-x-auto overflow-y-hidden px-4 md:self-stretch md:max-w-none"
               >
                 <img
-                  src="https://c.animaapp.com/mpkdzooupOfzIE/assets/63.jpg"
+                  src="/images/feals/63.jpg"
                   className="box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-cover outline-[3px] align-baseline"
                 />
               </picture>
@@ -857,7 +857,7 @@ export const Hero = () => {
                 className="items-center self-auto box-border caret-transparent flex shrink-0 max-w-[400px] object-cover outline-[3px] overflow-x-auto overflow-y-hidden px-4 md:self-stretch md:max-w-none"
               >
                 <img
-                  src="https://c.animaapp.com/mpkdzooupOfzIE/assets/61.jpg"
+                  src="/images/feals/61.jpg"
                   className="box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-cover outline-[3px] align-baseline"
                 />
               </picture>
@@ -867,7 +867,7 @@ export const Hero = () => {
       </div>
       <div
         role="link"
-        className="relative items-center self-stretch bg-stone-50 bg-[url('https://c.animaapp.com/mpkdzooupOfzIE/assets/22.webp')] bg-no-repeat bg-cover box-border caret-transparent gap-x-0 flex flex-col shrink-0 grid-cols-[repeat(2,minmax(0px,1fr))] h-[540px] justify-end max-w-full min-h-px min-w-[auto] outline-[3px] gap-y-0 overflow-hidden bg-[position:left_20%] pb-12 md:bg-[url('https://cdn.shopify.com/s/files/1/0073/3134/8544/files/dryjanuary-relaxgummies-wine-desktop.png?v=1764776780')] md:flex-row md:justify-center md:max-w-none md:overflow-visible md:bg-[position:left_50%] md:pb-0"
+        className="relative items-center self-stretch bg-stone-50 bg-[url('/images/feals/dryjanuary-relaxgummies-wine-desktop.png"
       >
         <div className="relative items-center box-border caret-transparent gap-x-2 flex flex-col shrink-0 justify-start max-w-full min-h-px min-w-[auto] outline-[3px] gap-y-2 w-auto px-4 md:justify-center md:w-6/12 md:px-0">
           <div className="text-stone-600 text-[32px] self-stretch box-border caret-transparent grow shrink tracking-[-1px] leading-9 min-h-[auto] min-w-[auto] outline-[3px] break-words text-center font-bookmania md:text-[40px] md:grow-0 md:shrink-0 md:tracking-[normal] md:leading-[48px] md:font-bookmania">
@@ -902,27 +902,27 @@ export const Hero = () => {
             <div className="relative items-center self-center box-border caret-transparent gap-x-[5px] flex grow shrink justify-start max-w-full min-h-px min-w-[auto] outline-[3px] gap-y-[5px] mt-0 md:self-auto md:gap-x-0.5 md:grow-0 md:shrink-0 md:gap-y-0.5 md:mt-1">
               <div className="items-center self-stretch box-border caret-transparent gap-x-0.5 flex shrink-0 justify-start min-h-[auto] min-w-[auto] outline-[3px] gap-y-0.5">
                 <img
-                  src="https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-15.svg"
+                  src="/images/feals/icon-15.svg"
                   alt="Icon"
                   className="box-border caret-transparent h-3.5 outline-[3px] align-baseline w-3.5"
                 />
                 <img
-                  src="https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-15.svg"
+                  src="/images/feals/icon-15.svg"
                   alt="Icon"
                   className="box-border caret-transparent h-3.5 outline-[3px] align-baseline w-3.5"
                 />
                 <img
-                  src="https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-15.svg"
+                  src="/images/feals/icon-15.svg"
                   alt="Icon"
                   className="box-border caret-transparent h-3.5 outline-[3px] align-baseline w-3.5"
                 />
                 <img
-                  src="https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-15.svg"
+                  src="/images/feals/icon-15.svg"
                   alt="Icon"
                   className="box-border caret-transparent h-3.5 outline-[3px] align-baseline w-3.5"
                 />
                 <img
-                  src="https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-15.svg"
+                  src="/images/feals/icon-15.svg"
                   alt="Icon"
                   className="box-border caret-transparent h-3.5 outline-[3px] align-baseline w-3.5"
                 />
@@ -942,7 +942,7 @@ export const Hero = () => {
         <div className="relative items-center self-center box-border caret-transparent gap-x-2 flex flex-col shrink-0 justify-start max-w-[767px] min-h-px min-w-[auto] outline-[3px] gap-y-2 px-4 md:max-w-[1180px] md:px-0">
           <picture className="items-center box-border caret-transparent flex shrink-0 object-contain outline-[3px] overflow-x-auto overflow-y-hidden w-[90px]">
             <img
-              src="https://c.animaapp.com/mpkdzooupOfzIE/assets/46.svg"
+              src="/images/feals/46.svg"
               className="box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-contain outline-[3px] align-baseline"
             />
           </picture>
@@ -1039,31 +1039,31 @@ export const Hero = () => {
         <div className="relative items-start self-stretch box-border caret-transparent gap-x-4 flex shrink-0 justify-center max-w-full min-h-px min-w-[auto] outline-[3px] gap-y-4 mb-2 md:self-auto">
           <picture className="items-center self-stretch box-border caret-transparent flex shrink-0 object-cover outline-[3px] overflow-x-auto overflow-y-hidden w-10 border rounded-[5px] border-solid">
             <img
-              src="https://c.animaapp.com/mpkdzooupOfzIE/assets/57.png"
+              src="/images/feals/57.png"
               className="box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-cover outline-[3px] align-baseline"
             />
           </picture>
           <picture className="items-center self-stretch box-border caret-transparent flex shrink-0 object-cover outline-[3px] overflow-x-auto overflow-y-hidden w-10 border rounded-[5px] border-solid">
             <img
-              src="https://c.animaapp.com/mpkdzooupOfzIE/assets/62.png"
+              src="/images/feals/62.png"
               className="box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-cover outline-[3px] align-baseline"
             />
           </picture>
           <picture className="items-center self-stretch box-border caret-transparent flex shrink-0 object-cover outline-[3px] overflow-x-auto overflow-y-hidden w-10 border rounded-[5px] border-solid">
             <img
-              src="https://c.animaapp.com/mpkdzooupOfzIE/assets/58.png"
+              src="/images/feals/58.png"
               className="box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-cover outline-[3px] align-baseline"
             />
           </picture>
           <picture className="items-center self-stretch box-border caret-transparent flex shrink-0 object-cover outline-[3px] overflow-x-auto overflow-y-hidden w-10 border rounded-[5px] border-solid">
             <img
-              src="https://c.animaapp.com/mpkdzooupOfzIE/assets/59.png"
+              src="/images/feals/59.png"
               className="box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-cover outline-[3px] align-baseline"
             />
           </picture>
           <picture className="items-center self-stretch box-border caret-transparent flex shrink-0 object-cover outline-[3px] overflow-x-auto overflow-y-hidden w-10 border rounded-[5px] border-solid">
             <img
-              src="https://c.animaapp.com/mpkdzooupOfzIE/assets/60.png"
+              src="/images/feals/60.png"
               className="box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-cover outline-[3px] align-baseline"
             />
           </picture>
@@ -1071,7 +1071,7 @@ export const Hero = () => {
         <div className="relative items-center box-border caret-transparent flex flex-col grow justify-start max-w-[767px] min-h-px min-w-[auto] outline-[3px] w-[calc(100%_-_24px)] border mx-3 px-3 py-4 border-solid border-white/20 md:max-w-[800px] md:w-full md:mx-0 md:px-4">
           <picture className="items-center self-stretch box-border caret-transparent flex grow object-cover outline-[3px] overflow-x-auto overflow-y-hidden">
             <img
-              src="https://c.animaapp.com/mpkdzooupOfzIE/assets/17.svg"
+              src="/images/feals/17.svg"
               className="box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-cover outline-[3px] align-baseline"
             />
           </picture>

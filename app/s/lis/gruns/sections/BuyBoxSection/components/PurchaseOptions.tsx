@@ -35,10 +35,10 @@ export type PurchaseOptionsProps = {
 
 export const PurchaseOptions = (props: PurchaseOptionsProps) => {
   const iconUrl =
-    props.iconUrl ?? "/s/lis/gruns/media/icon-16.svg";
+    props.iconUrl ?? "/images/gruns/icon-16.svg";
   const modalCloseIconUrl =
     props.modalCloseIconUrl ??
-    "/s/lis/gruns/media/icon-17.svg";
+    "/images/gruns/icon-17.svg";
   const sugarPrimaryLabel = props.sugarPrimaryLabel ?? "Low Sugar";
   const sugarSecondaryLabel = props.sugarSecondaryLabel ?? "Sugar-Free";
 
@@ -260,7 +260,7 @@ export const PurchaseOptions = (props: PurchaseOptionsProps) => {
             <span className="text-green-950 text-sm font-medium items-center box-border caret-transparent gap-x-1 flex leading-[16.8px] min-h-[auto] min-w-[auto] opacity-50 outline-[3px] gap-y-1 border border-green-950 px-2 py-1 rounded-bl rounded-br rounded-tl rounded-tr border-dashed">
               <span className="box-border caret-transparent block h-4 min-h-[auto] min-w-[auto] outline-[3px] w-4">
                 <img
-                  src="/s/lis/gruns/media/icon-18.svg"
+                  src="/images/gruns/icon-18.svg"
                   alt="Icon"
                   className="box-border caret-transparent h-4 outline-[3px] w-4"
                 />
@@ -416,7 +416,7 @@ export const PurchaseOptions = (props: PurchaseOptionsProps) => {
                             <div className="items-center box-border caret-transparent gap-x-2 flex justify-start outline-[3px] gap-y-2">
                               <span className="box-border caret-transparent block h-[18px] min-h-[auto] min-w-[auto] outline-[3px] w-[18px]">
                                 <img
-                                  src="/s/lis/gruns/media/35.svg"
+                                  src="/images/gruns/35.svg"
                                   alt="FAST & FREE Shipping On First Order"
                                   className="aspect-[auto_48_/_48] box-border caret-transparent max-w-full outline-[3px] w-12"
                                 />
@@ -430,7 +430,7 @@ export const PurchaseOptions = (props: PurchaseOptionsProps) => {
                             <div className="items-center box-border caret-transparent gap-x-2 flex justify-start outline-[3px] gap-y-2">
                               <span className="box-border caret-transparent block h-[18px] min-h-[auto] min-w-[auto] outline-[3px] w-[18px]">
                                 <img
-                                  src="/s/lis/gruns/media/35.svg"
+                                  src="/images/gruns/35.svg"
                                   alt="Pause Or Cancel Any Time"
                                   className="aspect-[auto_48_/_48] box-border caret-transparent max-w-full outline-[3px] w-12"
                                 />
@@ -444,7 +444,7 @@ export const PurchaseOptions = (props: PurchaseOptionsProps) => {
                             <div className="items-center box-border caret-transparent gap-x-2 flex justify-start outline-[3px] gap-y-2">
                               <span className="box-border caret-transparent block h-[18px] min-h-[auto] min-w-[auto] outline-[3px] w-[18px]">
                                 <img
-                                  src="/s/lis/gruns/media/35.svg"
+                                  src="/images/gruns/35.svg"
                                   alt="30-Day Money-Back Guarantee"
                                   className="aspect-[auto_48_/_48] box-border caret-transparent max-w-full outline-[3px] w-12"
                                 />
@@ -497,7 +497,7 @@ export const PurchaseOptions = (props: PurchaseOptionsProps) => {
                             <div className="items-center box-border caret-transparent gap-x-2 flex justify-start outline-[3px] gap-y-2">
                               <span className="box-border caret-transparent block h-[18px] min-h-[auto] min-w-[auto] outline-[3px] w-[18px]">
                                 <img
-                                  src="/s/lis/gruns/media/33.svg"
+                                  src="/images/gruns/33.svg"
                                   alt="No Free Shipping"
                                   className="aspect-[auto_48_/_48] box-border caret-transparent max-w-full outline-[3px] w-12"
                                 />
@@ -511,7 +511,7 @@ export const PurchaseOptions = (props: PurchaseOptionsProps) => {
                             <div className="items-center box-border caret-transparent gap-x-2 flex justify-start outline-[3px] gap-y-2">
                               <span className="box-border caret-transparent block h-[18px] min-h-[auto] min-w-[auto] outline-[3px] w-[18px]">
                                 <img
-                                  src="/s/lis/gruns/media/33.svg"
+                                  src="/images/gruns/33.svg"
                                   alt="Discount on first order only"
                                   className="aspect-[auto_48_/_48] box-border caret-transparent max-w-full outline-[3px] w-12"
                                 />

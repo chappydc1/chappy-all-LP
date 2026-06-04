@@ -11,7 +11,7 @@ export const LegacyFooter = () => {
             className="text-white box-border caret-transparent block outline-[3px]"
           >
             <img
-              src="https://c.animaapp.com/mpkdzooupOfzIE/assets/48.svg"
+              src="/images/feals/48.svg"
               alt="Feals"
               className="relative aspect-[auto_689_/_226] box-border caret-transparent max-h-20 max-w-[120px] outline-[3px] align-baseline w-[689px]"
             />
@@ -63,7 +63,7 @@ export const LegacyFooter = () => {
                   >
                     Your Privacy Choices
                     <img
-                      src="https://c.animaapp.com/mpkdzooupOfzIE/assets/image-1.svg"
+                      src="/images/feals/image-1.svg"
                       alt="California Consumer Privacy Act (CCPA) Opt-Out Icon"
                       role="presentation"
                       className="box-border caret-transparent inline h-[11.2px] max-w-full outline-[3px] ml-1"
@@ -274,7 +274,7 @@ export const LegacyFooter = () => {
                   className="text-white box-border caret-transparent outline-[3px]"
                 >
                   <img
-                    src="https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-16.svg"
+                    src="/images/feals/icon-16.svg"
                     alt="Icon"
                     className="box-border caret-transparent inline-block h-5 outline-[3px] w-5"
                   />
@@ -287,7 +287,7 @@ export const LegacyFooter = () => {
                   className="text-white box-border caret-transparent outline-[3px]"
                 >
                   <img
-                    src="https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-17.svg"
+                    src="/images/feals/icon-17.svg"
                     alt="Icon"
                     className="box-border caret-transparent inline-block h-5 outline-[3px] w-5"
                   />
@@ -300,7 +300,7 @@ export const LegacyFooter = () => {
                   className="text-white box-border caret-transparent outline-[3px]"
                 >
                   <img
-                    src="https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-18.svg"
+                    src="/images/feals/icon-18.svg"
                     alt="Icon"
                     className="box-border caret-transparent inline-block h-5 outline-[3px] w-5"
                   />
@@ -313,7 +313,7 @@ export const LegacyFooter = () => {
                   className="text-white box-border caret-transparent outline-[3px]"
                 >
                   <img
-                    src="https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-19.svg"
+                    src="/images/feals/icon-19.svg"
                     alt="Icon"
                     className="box-border caret-transparent inline-block h-5 outline-[3px] w-5"
                   />
@@ -326,7 +326,7 @@ export const LegacyFooter = () => {
                   className="text-white box-border caret-transparent outline-[3px]"
                 >
                   <img
-                    src="https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-20.svg"
+                    src="/images/feals/icon-20.svg"
                     alt="Icon"
                     className="box-border caret-transparent inline-block h-5 outline-[3px] w-5"
                   />
@@ -339,7 +339,7 @@ export const LegacyFooter = () => {
                   className="text-white box-border caret-transparent outline-[3px]"
                 >
                   <img
-                    src="https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-21.svg"
+                    src="/images/feals/icon-21.svg"
                     alt="Icon"
                     className="box-border caret-transparent inline-block h-5 outline-[3px] w-5"
                   />
@@ -349,42 +349,42 @@ export const LegacyFooter = () => {
             <ul className="text-[11.4px] box-border caret-transparent tracking-[1px] leading-[16.416px] outline-[3px] uppercase w-full mt-[15px] pl-0 md:mt-0">
               <li className="box-border caret-transparent inline-block outline-[3px] m-[5px] md:m-2.5">
                 <img
-                  src="https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-22.svg"
+                  src="/images/feals/icon-22.svg"
                   alt="Icon"
                   className="box-border caret-transparent inline h-[22px] outline-[3px] align-baseline w-[35px]"
                 />
               </li>
               <li className="box-border caret-transparent inline-block outline-[3px] m-[5px] md:m-2.5">
                 <img
-                  src="https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-23.svg"
+                  src="/images/feals/icon-23.svg"
                   alt="Icon"
                   className="box-border caret-transparent inline h-[22px] outline-[3px] align-baseline w-[35px]"
                 />
               </li>
               <li className="box-border caret-transparent inline-block outline-[3px] m-[5px] md:m-2.5">
                 <img
-                  src="https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-24.svg"
+                  src="/images/feals/icon-24.svg"
                   alt="Icon"
                   className="box-border caret-transparent inline h-[22px] outline-[3px] align-baseline w-[35px]"
                 />
               </li>
               <li className="box-border caret-transparent inline-block outline-[3px] m-[5px] md:m-2.5">
                 <img
-                  src="https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-25.svg"
+                  src="/images/feals/icon-25.svg"
                   alt="Icon"
                   className="box-border caret-transparent inline h-[22px] outline-[3px] align-baseline w-[35px]"
                 />
               </li>
               <li className="box-border caret-transparent inline-block outline-[3px] m-[5px] md:m-2.5">
                 <img
-                  src="https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-26.svg"
+                  src="/images/feals/icon-26.svg"
                   alt="Icon"
                   className="box-border caret-transparent inline h-[22px] outline-[3px] align-baseline w-[35px]"
                 />
               </li>
               <li className="box-border caret-transparent inline-block outline-[3px] m-[5px] md:m-2.5">
                 <img
-                  src="https://c.animaapp.com/mpkdzooupOfzIE/assets/icon-27.svg"
+                  src="/images/feals/icon-27.svg"
                   alt="Icon"
                   className="box-border caret-transparent inline h-[22px] outline-[3px] align-baseline w-[35px]"
                 />

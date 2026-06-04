@@ -12,7 +12,7 @@ export const Header = () => {
             <div className="relative items-start self-stretch box-border caret-transparent flex basis-auto grow justify-start max-w-full min-h-px outline-[3px] md:basis-0">
               <picture className="items-center self-start box-border caret-transparent flex basis-0 grow h-[350px] object-cover outline-[3px] overflow-x-auto overflow-y-hidden md:h-[587px]">
                 <img
-                  src="https://c.animaapp.com/mpke0433qmtH28/assets/146.png"
+                  src="/images/jones/146.png"
                   alt="Various shades of foundation cream in glass jars arranged neatly in rows."
                   className="box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-cover outline-[3px] align-baseline"
                 />
@@ -40,7 +40,7 @@ export const Header = () => {
               <div className="relative items-center self-center box-border caret-transparent gap-x-2 flex shrink-0 h-6 justify-center max-w-full min-h-px min-w-[auto] outline-[3px] gap-y-2 mb-2.5 md:self-stretch md:h-[18px] md:mb-[30px]">
                 <picture className="items-center self-center box-border caret-transparent flex shrink-0 h-[18px] object-contain outline-[3px] overflow-x-auto overflow-y-hidden w-[81px]">
                   <img
-                    src="https://c.animaapp.com/mpke0433qmtH28/assets/142.png"
+                    src="/images/jones/142.png"
                     className="box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-contain outline-[3px] align-baseline"
                   />
                 </picture>
@@ -109,31 +109,31 @@ export const Header = () => {
                         <div className="relative items-center self-center box-border caret-transparent gap-x-0.5 flex shrink-0 justify-center max-w-full min-h-px min-w-[auto] outline-[3px] gap-y-0.5 md:items-start md:self-auto">
                           <picture className="items-center box-border caret-transparent flex shrink-0 object-cover outline-[3px] overflow-x-auto overflow-y-hidden w-2 md:w-[9px]">
                             <img
-                              src="https://c.animaapp.com/mpke0433qmtH28/assets/139.png"
+                              src="/images/jones/139.png"
                               className="box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-cover outline-[3px] align-baseline"
                             />
                           </picture>
                           <picture className="items-center box-border caret-transparent flex shrink-0 object-cover outline-[3px] overflow-x-auto overflow-y-hidden w-2 md:w-[9px]">
                             <img
-                              src="https://c.animaapp.com/mpke0433qmtH28/assets/139.png"
+                              src="/images/jones/139.png"
                               className="box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-cover outline-[3px] align-baseline"
                             />
                           </picture>
                           <picture className="items-center box-border caret-transparent flex shrink-0 object-cover outline-[3px] overflow-x-auto overflow-y-hidden w-2 md:w-[9px]">
                             <img
-                              src="https://c.animaapp.com/mpke0433qmtH28/assets/139.png"
+                              src="/images/jones/139.png"
                               className="box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-cover outline-[3px] align-baseline"
                             />
                           </picture>
                           <picture className="items-center box-border caret-transparent flex shrink-0 object-cover outline-[3px] overflow-x-auto overflow-y-hidden w-2 md:w-[9px]">
                             <img
-                              src="https://c.animaapp.com/mpke0433qmtH28/assets/139.png"
+                              src="/images/jones/139.png"
                               className="box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-cover outline-[3px] align-baseline"
                             />
                           </picture>
                           <picture className="items-center box-border caret-transparent flex shrink-0 object-cover outline-[3px] overflow-x-auto overflow-y-hidden w-2 md:w-[9px]">
                             <img
-                              src="https://c.animaapp.com/mpke0433qmtH28/assets/139.png"
+                              src="/images/jones/139.png"
                               className="box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-cover outline-[3px] align-baseline"
                             />
                           </picture>
@@ -147,7 +147,7 @@ export const Header = () => {
                         </div>
                         <picture className="items-center box-border caret-transparent flex grow-0 shrink-0 object-cover outline-[3px] overflow-x-auto overflow-y-hidden w-2 md:grow md:shrink md:w-auto">
                           <img
-                            src="https://c.animaapp.com/mpke0433qmtH28/assets/129.svg"
+                            src="/images/jones/129.svg"
                             className="box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-cover outline-[3px] align-baseline"
                           />
                         </picture>
@@ -176,7 +176,7 @@ export const Header = () => {
                 <div className="relative items-center box-border caret-transparent gap-x-[70px] flex shrink-0 justify-center min-h-px min-w-[auto] outline-[3px] gap-y-[70px] w-full md:hidden md:min-w-0">
                   <picture className="relative items-center self-auto box-border caret-transparent flex basis-0 grow object-cover outline-[3px] overflow-x-auto overflow-y-hidden z-[1000000] md:self-stretch md:hidden">
                     <img
-                      src="https://c.animaapp.com/mpke0433qmtH28/assets/137.jpg"
+                      src="/images/jones/137.jpg"
                       alt="Close-up of a woman's face with freckles and blue eyes, wearing a green sweater and gold earring."
                       className="box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-cover outline-[3px] align-baseline"
                     />
@@ -189,7 +189,7 @@ export const Header = () => {
                 <div className="relative items-center self-stretch box-border caret-transparent hidden flex-col shrink-0 justify-center max-w-full min-h-px min-w-0 outline-[3px] md:flex md:min-w-[auto]">
                   <picture className="relative items-center self-auto box-border caret-transparent hidden grow object-cover outline-[3px] overflow-x-auto overflow-y-hidden z-[1000000] md:self-stretch md:flex">
                     <img
-                      src="https://c.animaapp.com/mpke0433qmtH28/assets/143.png"
+                      src="/images/jones/143.png"
                       alt="Foundation shades chart with descriptions and corresponding face pencil numbers."
                       className="box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-cover outline-[3px] align-baseline"
                     />
@@ -204,7 +204,7 @@ export const Header = () => {
                         className="absolute appearance-none text-[13.3333px] items-center bg-white bottom-[-25px] caret-transparent flex h-[30px] justify-center tracking-[normal] leading-[normal] outline-[3px] text-center w-[30px] z-[9999999] border p-0 rounded-[50%] border-black/10 right-0 font-arial"
                       >
                         <img
-                          src="https://c.animaapp.com/mpke0433qmtH28/assets/icon-3.svg"
+                          src="/images/jones/icon-3.svg"
                           alt="Icon"
                           className="box-border caret-transparent h-4 outline-[3px] align-baseline w-4"
                         />
@@ -257,31 +257,31 @@ export const Header = () => {
                         <div className="relative items-center self-center box-border caret-transparent gap-x-0.5 flex shrink-0 justify-center max-w-full min-h-px min-w-[auto] outline-[3px] gap-y-0.5 md:items-start md:self-auto">
                           <picture className="items-center box-border caret-transparent flex shrink-0 object-cover outline-[3px] overflow-x-auto overflow-y-hidden w-2 md:w-[9px]">
                             <img
-                              src="https://c.animaapp.com/mpke0433qmtH28/assets/139.png"
+                              src="/images/jones/139.png"
                               className="box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-cover outline-[3px] align-baseline"
                             />
                           </picture>
                           <picture className="items-center box-border caret-transparent flex shrink-0 object-cover outline-[3px] overflow-x-auto overflow-y-hidden w-2 md:w-[9px]">
                             <img
-                              src="https://c.animaapp.com/mpke0433qmtH28/assets/139.png"
+                              src="/images/jones/139.png"
                               className="box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-cover outline-[3px] align-baseline"
                             />
                           </picture>
                           <picture className="items-center box-border caret-transparent flex shrink-0 object-cover outline-[3px] overflow-x-auto overflow-y-hidden w-2 md:w-[9px]">
                             <img
-                              src="https://c.animaapp.com/mpke0433qmtH28/assets/139.png"
+                              src="/images/jones/139.png"
                               className="box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-cover outline-[3px] align-baseline"
                             />
                           </picture>
                           <picture className="items-center box-border caret-transparent flex shrink-0 object-cover outline-[3px] overflow-x-auto overflow-y-hidden w-2 md:w-[9px]">
                             <img
-                              src="https://c.animaapp.com/mpke0433qmtH28/assets/139.png"
+                              src="/images/jones/139.png"
                               className="box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-cover outline-[3px] align-baseline"
                             />
                           </picture>
                           <picture className="items-center box-border caret-transparent flex shrink-0 object-cover outline-[3px] overflow-x-auto overflow-y-hidden w-2 md:w-[9px]">
                             <img
-                              src="https://c.animaapp.com/mpke0433qmtH28/assets/139.png"
+                              src="/images/jones/139.png"
                               className="box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-cover outline-[3px] align-baseline"
                             />
                           </picture>
@@ -295,7 +295,7 @@ export const Header = () => {
                         </div>
                         <picture className="items-center box-border caret-transparent flex grow-0 shrink-0 object-cover outline-[3px] overflow-x-auto overflow-y-hidden w-2 md:grow md:shrink md:w-auto">
                           <img
-                            src="https://c.animaapp.com/mpke0433qmtH28/assets/129.svg"
+                            src="/images/jones/129.svg"
                             className="box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-cover outline-[3px] align-baseline"
                           />
                         </picture>
@@ -322,7 +322,7 @@ export const Header = () => {
                 <div className="relative items-center box-border caret-transparent gap-x-2 flex flex-col shrink-0 justify-center min-h-px min-w-[auto] outline-[3px] gap-y-2 w-full md:gap-x-[70px] md:hidden md:flex-row md:min-w-0 md:gap-y-[70px]">
                   <picture className="relative items-center self-auto box-border caret-transparent flex basis-auto grow object-cover outline-[3px] overflow-x-auto overflow-y-hidden z-[1000000] md:self-stretch md:hidden md:basis-0">
                     <img
-                      src="https://c.animaapp.com/mpke0433qmtH28/assets/132.jpg"
+                      src="/images/jones/132.jpg"
                       alt="Foundation shade chart with descriptions and corresponding face pencils."
                       className="box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-cover outline-[3px] align-baseline"
                     />
@@ -337,7 +337,7 @@ export const Header = () => {
                         className="absolute appearance-none text-[13.3333px] items-center bg-white bottom-[-25px] caret-transparent flex h-[30px] justify-center tracking-[normal] leading-[normal] outline-[3px] text-center w-[30px] z-[9999999] border p-0 rounded-[50%] border-black/10 right-0 font-arial"
                       >
                         <img
-                          src="https://c.animaapp.com/mpke0433qmtH28/assets/icon-3.svg"
+                          src="/images/jones/icon-3.svg"
                           alt="Icon"
                           className="box-border caret-transparent h-4 outline-[3px] align-baseline w-4"
                         />
@@ -415,31 +415,31 @@ export const Header = () => {
                         <div className="relative items-center self-center box-border caret-transparent gap-x-0.5 flex shrink-0 justify-center max-w-full min-h-px min-w-[auto] outline-[3px] gap-y-0.5 md:items-start md:self-auto">
                           <picture className="items-center box-border caret-transparent flex shrink-0 object-cover outline-[3px] overflow-x-auto overflow-y-hidden w-2 md:w-[9px]">
                             <img
-                              src="https://c.animaapp.com/mpke0433qmtH28/assets/139.png"
+                              src="/images/jones/139.png"
                               className="box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-cover outline-[3px] align-baseline"
                             />
                           </picture>
                           <picture className="items-center box-border caret-transparent flex shrink-0 object-cover outline-[3px] overflow-x-auto overflow-y-hidden w-2 md:w-[9px]">
                             <img
-                              src="https://c.animaapp.com/mpke0433qmtH28/assets/139.png"
+                              src="/images/jones/139.png"
                               className="box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-cover outline-[3px] align-baseline"
                             />
                           </picture>
                           <picture className="items-center box-border caret-transparent flex shrink-0 object-cover outline-[3px] overflow-x-auto overflow-y-hidden w-2 md:w-[9px]">
                             <img
-                              src="https://c.animaapp.com/mpke0433qmtH28/assets/139.png"
+                              src="/images/jones/139.png"
                               className="box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-cover outline-[3px] align-baseline"
                             />
                           </picture>
                           <picture className="items-center box-border caret-transparent flex shrink-0 object-cover outline-[3px] overflow-x-auto overflow-y-hidden w-2 md:w-[9px]">
                             <img
-                              src="https://c.animaapp.com/mpke0433qmtH28/assets/139.png"
+                              src="/images/jones/139.png"
                               className="box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-cover outline-[3px] align-baseline"
                             />
                           </picture>
                           <picture className="items-center box-border caret-transparent flex shrink-0 object-cover outline-[3px] overflow-x-auto overflow-y-hidden w-2 md:w-[9px]">
                             <img
-                              src="https://c.animaapp.com/mpke0433qmtH28/assets/139.png"
+                              src="/images/jones/139.png"
                               className="box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-cover outline-[3px] align-baseline"
                             />
                           </picture>
@@ -453,7 +453,7 @@ export const Header = () => {
                         </div>
                         <picture className="items-center box-border caret-transparent flex grow-0 shrink-0 object-cover outline-[3px] overflow-x-auto overflow-y-hidden w-2 md:grow md:shrink md:w-auto">
                           <img
-                            src="https://c.animaapp.com/mpke0433qmtH28/assets/129.svg"
+                            src="/images/jones/129.svg"
                             className="box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-cover outline-[3px] align-baseline"
                           />
                         </picture>
@@ -499,7 +499,7 @@ export const Header = () => {
               <div className="relative items-center self-stretch box-border caret-transparent gap-x-5 flex flex-col shrink-0 grid-cols-[repeat(2,minmax(0px,1fr))] justify-center max-w-full min-h-px min-w-[auto] outline-[3px] gap-y-5 md:gap-x-[70px] md:grid md:gap-y-[70px]">
                 <picture className="relative items-center self-auto box-border caret-transparent hidden grow object-cover outline-[3px] overflow-x-auto overflow-y-hidden z-[1000000] md:self-stretch md:flex">
                   <img
-                    src="https://c.animaapp.com/mpke0433qmtH28/assets/149.png"
+                    src="/images/jones/149.png"
                     alt="Person sitting on a blue leather couch with makeup items and a book titled 'Makeup Manual.'"
                     className="box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-cover outline-[3px] align-baseline"
                   />
@@ -542,31 +542,31 @@ export const Header = () => {
                         <div className="relative items-center self-center box-border caret-transparent gap-x-0.5 flex shrink-0 justify-center max-w-full min-h-px min-w-[auto] outline-[3px] gap-y-0.5 md:items-start md:self-auto">
                           <picture className="items-center box-border caret-transparent flex shrink-0 object-cover outline-[3px] overflow-x-auto overflow-y-hidden w-2 md:w-[9px]">
                             <img
-                              src="https://c.animaapp.com/mpke0433qmtH28/assets/139.png"
+                              src="/images/jones/139.png"
                               className="box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-cover outline-[3px] align-baseline"
                             />
                           </picture>
                           <picture className="items-center box-border caret-transparent flex shrink-0 object-cover outline-[3px] overflow-x-auto overflow-y-hidden w-2 md:w-[9px]">
                             <img
-                              src="https://c.animaapp.com/mpke0433qmtH28/assets/139.png"
+                              src="/images/jones/139.png"
                               className="box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-cover outline-[3px] align-baseline"
                             />
                           </picture>
                           <picture className="items-center box-border caret-transparent flex shrink-0 object-cover outline-[3px] overflow-x-auto overflow-y-hidden w-2 md:w-[9px]">
                             <img
-                              src="https://c.animaapp.com/mpke0433qmtH28/assets/139.png"
+                              src="/images/jones/139.png"
                               className="box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-cover outline-[3px] align-baseline"
                             />
                           </picture>
                           <picture className="items-center box-border caret-transparent flex shrink-0 object-cover outline-[3px] overflow-x-auto overflow-y-hidden w-2 md:w-[9px]">
                             <img
-                              src="https://c.animaapp.com/mpke0433qmtH28/assets/139.png"
+                              src="/images/jones/139.png"
                               className="box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-cover outline-[3px] align-baseline"
                             />
                           </picture>
                           <picture className="items-center box-border caret-transparent flex shrink-0 object-cover outline-[3px] overflow-x-auto overflow-y-hidden w-2 md:w-[9px]">
                             <img
-                              src="https://c.animaapp.com/mpke0433qmtH28/assets/139.png"
+                              src="/images/jones/139.png"
                               className="box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-cover outline-[3px] align-baseline"
                             />
                           </picture>
@@ -580,7 +580,7 @@ export const Header = () => {
                         </div>
                         <picture className="items-center box-border caret-transparent flex grow-0 shrink-0 object-cover outline-[3px] overflow-x-auto overflow-y-hidden w-2 md:grow md:shrink md:w-auto">
                           <img
-                            src="https://c.animaapp.com/mpke0433qmtH28/assets/129.svg"
+                            src="/images/jones/129.svg"
                             className="box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-cover outline-[3px] align-baseline"
                           />
                         </picture>
@@ -608,7 +608,7 @@ export const Header = () => {
                 <div className="relative items-center box-border caret-transparent gap-x-[70px] flex shrink-0 justify-center min-h-px min-w-[auto] outline-[3px] gap-y-[70px] w-full md:hidden md:min-w-0">
                   <picture className="relative items-center self-auto box-border caret-transparent flex basis-0 grow object-cover outline-[3px] overflow-x-auto overflow-y-hidden z-[1000000] md:self-stretch md:hidden">
                     <img
-                      src="https://c.animaapp.com/mpke0433qmtH28/assets/133.jpg"
+                      src="/images/jones/133.jpg"
                       alt="Woman sitting on a blue couch with makeup items on the table."
                       className="box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-cover outline-[3px] align-baseline"
                     />
@@ -620,7 +620,7 @@ export const Header = () => {
               <div className="relative items-center self-stretch box-border caret-transparent gap-x-[30px] flex flex-col shrink-0 grid-cols-[repeat(2,minmax(0px,1fr))] justify-center max-w-full min-h-px min-w-[auto] outline-[3px] gap-y-[30px] md:gap-x-[70px] md:grid md:gap-y-[70px]">
                 <picture className="relative items-center self-auto box-border caret-transparent hidden grow object-cover outline-[3px] overflow-x-auto overflow-y-hidden z-[1000000] md:self-stretch md:flex">
                   <img
-                    src="https://c.animaapp.com/mpke0433qmtH28/assets/147.jpg"
+                    src="/images/jones/147.jpg"
                     className="box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-cover outline-[3px] align-baseline"
                   />
                 </picture>
@@ -663,31 +663,31 @@ export const Header = () => {
                         <div className="relative items-center self-center box-border caret-transparent gap-x-0.5 flex shrink-0 justify-center max-w-full min-h-px min-w-[auto] outline-[3px] gap-y-0.5 md:items-start md:self-auto">
                           <picture className="items-center box-border caret-transparent flex shrink-0 object-cover outline-[3px] overflow-x-auto overflow-y-hidden w-2 md:w-[9px]">
                             <img
-                              src="https://c.animaapp.com/mpke0433qmtH28/assets/139.png"
+                              src="/images/jones/139.png"
                               className="box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-cover outline-[3px] align-baseline"
                             />
                           </picture>
                           <picture className="items-center box-border caret-transparent flex shrink-0 object-cover outline-[3px] overflow-x-auto overflow-y-hidden w-2 md:w-[9px]">
                             <img
-                              src="https://c.animaapp.com/mpke0433qmtH28/assets/139.png"
+                              src="/images/jones/139.png"
                               className="box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-cover outline-[3px] align-baseline"
                             />
                           </picture>
                           <picture className="items-center box-border caret-transparent flex shrink-0 object-cover outline-[3px] overflow-x-auto overflow-y-hidden w-2 md:w-[9px]">
                             <img
-                              src="https://c.animaapp.com/mpke0433qmtH28/assets/139.png"
+                              src="/images/jones/139.png"
                               className="box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-cover outline-[3px] align-baseline"
                             />
                           </picture>
                           <picture className="items-center box-border caret-transparent flex shrink-0 object-cover outline-[3px] overflow-x-auto overflow-y-hidden w-2 md:w-[9px]">
                             <img
-                              src="https://c.animaapp.com/mpke0433qmtH28/assets/139.png"
+                              src="/images/jones/139.png"
                               className="box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-cover outline-[3px] align-baseline"
                             />
                           </picture>
                           <picture className="items-center box-border caret-transparent flex shrink-0 object-cover outline-[3px] overflow-x-auto overflow-y-hidden w-2 md:w-[9px]">
                             <img
-                              src="https://c.animaapp.com/mpke0433qmtH28/assets/139.png"
+                              src="/images/jones/139.png"
                               className="box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-cover outline-[3px] align-baseline"
                             />
                           </picture>
@@ -701,7 +701,7 @@ export const Header = () => {
                         </div>
                         <picture className="items-center box-border caret-transparent flex grow-0 shrink-0 object-cover outline-[3px] overflow-x-auto overflow-y-hidden w-2 md:grow md:shrink md:w-auto">
                           <img
-                            src="https://c.animaapp.com/mpke0433qmtH28/assets/129.svg"
+                            src="/images/jones/129.svg"
                             className="box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-cover outline-[3px] align-baseline"
                           />
                         </picture>
@@ -727,7 +727,7 @@ export const Header = () => {
                   <div className="relative items-center box-border caret-transparent gap-x-[70px] flex shrink-0 justify-center min-h-px min-w-[auto] outline-[3px] gap-y-[70px] w-full">
                     <picture className="relative items-center self-auto box-border caret-transparent flex basis-0 grow object-cover outline-[3px] overflow-x-auto overflow-y-hidden z-[1000000] md:self-stretch md:hidden">
                       <img
-                        src="https://c.animaapp.com/mpke0433qmtH28/assets/138.jpg"
+                        src="/images/jones/138.jpg"
                         alt="Smiling person holding a jar of brown cosmetic cream."
                         className="box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-cover outline-[3px] align-baseline"
                       />
@@ -754,31 +754,31 @@ export const Header = () => {
       <div className="relative items-center self-stretch bg-stone-200 box-border caret-transparent gap-x-8 flex shrink-0 flex-wrap h-auto justify-center min-h-px min-w-[auto] outline-[3px] gap-y-8 px-[6%] py-7 md:gap-x-6 md:h-[100px] md:justify-between md:gap-y-6 md:py-[0%]">
         <picture className="items-center box-border caret-transparent flex shrink-0 h-[18px] object-cover outline-[3px] overflow-x-auto overflow-y-hidden w-[67px] md:h-auto md:w-[100px]">
           <img
-            src="https://c.animaapp.com/mpke0433qmtH28/assets/136.png"
+            src="/images/jones/136.png"
             className="box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-cover outline-[3px] align-baseline"
           />
         </picture>
         <picture className="items-center box-border caret-transparent flex shrink-0 h-[17px] object-cover outline-[3px] overflow-x-auto overflow-y-hidden w-[34px] md:h-auto md:w-[52px]">
           <img
-            src="https://c.animaapp.com/mpke0433qmtH28/assets/135.png"
+            src="/images/jones/135.png"
             className="box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-cover outline-[3px] align-baseline"
           />
         </picture>
         <picture className="items-center box-border caret-transparent flex shrink-0 h-[21px] object-cover outline-[3px] overflow-x-auto overflow-y-hidden w-[165px] md:h-auto md:w-[197px]">
           <img
-            src="https://c.animaapp.com/mpke0433qmtH28/assets/131.png"
+            src="/images/jones/131.png"
             className="box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-cover outline-[3px] align-baseline"
           />
         </picture>
         <picture className="items-center box-border caret-transparent hidden shrink-0 object-cover outline-[3px] overflow-x-auto overflow-y-hidden w-[188px] md:flex">
           <img
-            src="https://c.animaapp.com/mpke0433qmtH28/assets/130.png"
+            src="/images/jones/130.png"
             className="box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-cover outline-[3px] align-baseline"
           />
         </picture>
         <picture className="items-center box-border caret-transparent hidden shrink-0 object-cover outline-[3px] overflow-x-auto overflow-y-hidden w-[95px] md:flex">
           <img
-            src="https://c.animaapp.com/mpke0433qmtH28/assets/140.png"
+            src="/images/jones/140.png"
             className="box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-cover outline-[3px] align-baseline"
           />
         </picture>
@@ -789,7 +789,7 @@ export const Header = () => {
             <div className="relative items-center self-center box-border caret-transparent flex shrink-0 justify-center mt-[-15px] max-w-full min-h-px min-w-[auto] outline-[3px] w-[400px] md:self-stretch md:w-[680px] md:mt-0">
               <picture className="items-center box-border caret-transparent flex basis-0 grow max-w-[531px] outline-[3px] overflow-x-auto overflow-y-hidden my-[15px] md:my-0">
                 <img
-                  src="https://c.animaapp.com/mpke0433qmtH28/assets/145.png"
+                  src="/images/jones/145.png"
                   alt="Woman applying foundation on cheek with finger."
                   className="box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full outline-[3px] align-baseline"
                 />

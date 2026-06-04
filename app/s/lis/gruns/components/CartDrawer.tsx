@@ -14,7 +14,7 @@ export const CartDrawer = () => {
                   </h2>
                   <div className="items-center box-border caret-transparent flex h-[30px] justify-center min-h-[auto] min-w-[auto] outline-[3px] w-[30px] rounded-[35px]">
                     <img
-                      src="/s/lis/gruns/media/icon-37.svg"
+                      src="/images/gruns/icon-37.svg"
                       alt="Icon"
                       className="box-border caret-transparent h-6 outline-[3px] w-6"
                     />
@@ -42,7 +42,7 @@ export const CartDrawer = () => {
                         </h4>
                         <div className="box-border caret-transparent gap-x-2.5 grid grid-cols-[repeat(2,minmax(0px,1fr))] outline-[3px] gap-y-2.5">
                           <CartProductCard
-                            imageUrl="/s/lis/gruns/media/105.png"
+                            imageUrl="/images/gruns/105.png"
                             imageAlt="Grüns"
                             title="Grüns Adults"
                             price="$79.99"
@@ -50,7 +50,7 @@ export const CartDrawer = () => {
                             buttonText="Add to Cart"
                           />
                           <CartProductCard
-                            imageUrl="/s/lis/gruns/media/112.png"
+                            imageUrl="/images/gruns/112.png"
                             imageAlt="Grüns Kids"
                             title="Grüns Kids"
                             price="$66.99"

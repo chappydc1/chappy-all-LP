@@ -25,7 +25,7 @@ export const VideoModal = () => {
           >
             close{" "}
             <img
-              src="https://c.animaapp.com/mnsem251Wpf2gA/assets/icon-7.svg"
+              src="/images/emma/icon-7.svg"
               alt="Close"
               className="box-border h-[15px] w-3.5 ml-1"
             />

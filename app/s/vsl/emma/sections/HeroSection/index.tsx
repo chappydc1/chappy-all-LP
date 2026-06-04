@@ -17,11 +17,11 @@ export const HeroSection = () => {
         <div className="box-border grow min-h-[auto] min-w-[auto] reveal delay-200">
           <div className="text-emerald-800 text-xl items-center box-border gap-x-9 hidden flex-col justify-center leading-[30px] gap-y-9 text-center w-full font-inter">
             <img
-              src="https://c.animaapp.com/mnsem251Wpf2gA/assets/V4-Desktop-25.webp"
+              src="/images/emma/V4-Desktop-25.webp"
               className="box-border hidden min-h-[436px] w-full md:block"
             />
             <img
-              src="https://c.animaapp.com/mnsem251Wpf2gA/assets/V4-Mobile-25.webp"
+              src="/images/emma/V4-Mobile-25.webp"
               className="box-border block w-full md:hidden"
             />
           </div>
@@ -38,7 +38,7 @@ export const HeroSection = () => {
                         <div className="relative h-full w-full overflow-hidden">
                           <div className="h-full w-full">
                             <video
-                              poster="https://c.animaapp.com/mnsem251Wpf2gA/assets/blank.gif"
+                              poster="/images/emma/blank.gif"
                               aria-label="CURRENT LIVE"
                               src="blob://https://gutrenewalformula.com/7376094f-f21b-4643-9765-b1ce33c9cd14"
                               playsInline
@@ -57,7 +57,7 @@ export const HeroSection = () => {
                                 <div className="absolute box-border h-full w-full left-0 top-0">
                                   <div className="absolute h-full w-full left-0 top-0">
                                     <video
-                                      poster="https://c.animaapp.com/mnsem251Wpf2gA/assets/blank.gif"
+                                      poster="/images/emma/blank.gif"
                                       aria-label="Video"
                                       src="blob://https://gutrenewalformula.com/a38d41aa-1cd3-427d-ad18-7bb1a3c13709"
                                       playsInline
@@ -93,7 +93,7 @@ export const HeroSection = () => {
                                             </span>
                                           </div>
                                           <img
-                                            src="https://c.animaapp.com/mnsem251Wpf2gA/assets/icon-1.svg"
+                                            src="/images/emma/icon-1.svg"
                                             alt="Icon"
                                             className="box-border h-[49.875px] w-[49.875px] md:h-[52.5px] md:w-[52.5px]"
                                           />
@@ -120,7 +120,7 @@ export const HeroSection = () => {
             <div className="text-xl box-border leading-[30px]">
               <p className="font-semibold box-border max-w-[776px] text-center mt-0 mb-4 mx-0 font-myriad_pro md:m-auto">
                 <img
-                  src="https://c.animaapp.com/mnsem251Wpf2gA/assets/charm_sound.webp"
+                  src="/images/emma/charm_sound.webp"
                   className="box-border inline h-4 w-4 mr-[5px] mt-1.5 md:h-6 md:w-6 md:mt-1"
                 />
                 <span className="text-red-700 text-base font-bold box-border leading-6 align-middle">
@@ -138,7 +138,7 @@ export const HeroSection = () => {
           <div className="box-border gap-x-2.5 flex flex-row gap-y-2.5 md:flex-col">
             <div className="box-border min-h-0 min-w-0 md:min-h-[auto] md:min-w-[auto]">
               <img
-                src="https://c.animaapp.com/mnsem251Wpf2gA/assets/drginasam.webp"
+                src="/images/emma/drginasam.webp"
                 className="box-border inline w-[81.96px] md:w-[147.2px]"
               />
             </div>
@@ -174,7 +174,7 @@ export const HeroSection = () => {
         <div className="items-center box-border flex flex-col justify-center px-[5px] md:hidden">
           <p className="font-semibold box-border max-w-[776px] text-center mb-4 font-myriad_pro">
             <img
-              src="https://c.animaapp.com/mnsem251Wpf2gA/assets/charm_sound.webp"
+              src="/images/emma/charm_sound.webp"
               className="box-border inline-block h-4 w-4 mr-[5px]"
             />
             <span className="text-red-700 font-bold box-border align-middle">
@@ -186,7 +186,7 @@ export const HeroSection = () => {
             </span>
           </p>
           <img
-            src="https://c.animaapp.com/mnsem251Wpf2gA/assets/greenarrowdown.webp"
+            src="/images/emma/greenarrowdown.webp"
             className="box-border hidden w-[39px] mt-2 mb-4 mx-auto md:mt-6 bounce-y"
           />
         </div>

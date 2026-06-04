@@ -44,19 +44,19 @@ export const Reviews = (props: ReviewsProps) => {
       title: "Great product, great service",
       body: "This is my first experience with hearing aids and I have to say that with hear.com it has been a breeze",
       author: "Jeanne DiPrima, US 🇺🇸",
-      starsImageUrl: "https://c.animaapp.com/mnsctxd6cckxuq/assets/stars.svg",
+      starsImageUrl: "/images/hear/stars.svg",
     },
     {
       title: "I am amazed at how well I hear now",
       body: "The audiologist was great, and the whole experience was simple. I wish I hadn't waited so long to get hearing aids!",
       author: "Ernest Hiscox, US 🇺🇸",
-      starsImageUrl: "https://c.animaapp.com/mnsctxd6cckxuq/assets/stars.svg",
+      starsImageUrl: "/images/hear/stars.svg",
     },
     {
       title: "A company that cares",
       body: "I found the level of care to be exceptional. I am hearing so much more clearly.",
       author: "Bill Ditto, US 🇺🇸",
-      starsImageUrl: "https://c.animaapp.com/mnsctxd6cckxuq/assets/stars.svg",
+      starsImageUrl: "/images/hear/stars.svg",
     },
   ];
 

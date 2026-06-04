@@ -27,7 +27,7 @@ export const NewsletterSignup = () => {
         <div className="reveal caret-transparent mb-[30px]">
           <div className="caret-transparent gap-x-2.5 flex flex-col justify-between gap-y-2.5 md:flex-row">
             <img
-              src="https://c.animaapp.com/mnsctxd6cckxuq/assets/hearcom-logo.svg"
+              src="/images/hear/hearcom-logo.svg"
               alt="hearcom logo"
               className="caret-transparent max-w-[130px] min-h-[auto] min-w-[auto] align-baseline mb-[30px] pb-0 md:max-w-[200px] md:mb-0 md:pb-5"
             />

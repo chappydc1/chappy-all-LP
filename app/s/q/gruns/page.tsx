@@ -18,15 +18,15 @@ const TLIT = "#888888";
 // ── Assets ────────────────────────────────────────────────────────────────────
 
 const LOGO =
-  "https://assets.prd.heyflow.com/flows/OiXU7stvX5g1Tl0kHDT8/www/assets/52e09de0-fb66-4933-bbcf-b34d1fd3300f/original.webp";
+  "/images/chappy2/52e09de0-original.webp";
 const IMG_SUM_A =
-  "https://assets.prd.heyflow.com/flows/OiXU7stvX5g1Tl0kHDT8/www/assets/fae28bb8-60c4-44ea-b682-81cc43cbe5de/original.webp";
+  "/images/chappy2/fae28bb8-original.webp";
 const IMG_SUM_B =
-  "https://assets.prd.heyflow.com/flows/OiXU7stvX5g1Tl0kHDT8/www/assets/1ca733b1-2466-4cc2-9b63-d64d99c1a41f/original.webp";
+  "/images/chappy2/1ca733b1-original.webp";
 const IMG_PRODUCT =
-  "https://assets.prd.heyflow.com/flows/OiXU7stvX5g1Tl0kHDT8/www/assets/82bed9cf-1fea-45bc-a4a8-dbcff295f42e/original.webp";
+  "/images/chappy2/82bed9cf-original.webp";
 const IMG_OFFER =
-  "https://assets.prd.heyflow.com/flows/OiXU7stvX5g1Tl0kHDT8/www/assets/6e36d176-ad02-4f00-a47c-0d3ebd86a8a2/original.webp";
+  "/images/chappy2/6e36d176-original.webp";
 
 // ── Flow definition ───────────────────────────────────────────────────────────
 

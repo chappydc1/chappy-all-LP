@@ -54,25 +54,25 @@ export const FooterContent = () => {
           {
             href: "https://www.instagram.com/jonesroadbeauty/",
             label: "Instagram",
-            iconSrc: "https://c.animaapp.com/mpke0433qmtH28/assets/icon-4.svg",
+            iconSrc: "/images/jones/icon-4.svg",
             iconAlt: "Icon",
           },
           {
             href: "https://www.facebook.com/jonesroadbeauty",
             label: "Facebook",
-            iconSrc: "https://c.animaapp.com/mpke0433qmtH28/assets/icon-5.svg",
+            iconSrc: "/images/jones/icon-5.svg",
             iconAlt: "Icon",
           },
           {
             href: "https://twitter.com/jonesroadbeauty",
             label: "Twitter",
-            iconSrc: "https://c.animaapp.com/mpke0433qmtH28/assets/icon-6.svg",
+            iconSrc: "/images/jones/icon-6.svg",
             iconAlt: "Icon",
           },
           {
             href: "https://www.pinterest.com/jonesroadbeauty/",
             label: "Pinterest",
-            iconSrc: "https://c.animaapp.com/mpke0433qmtH28/assets/icon-7.svg",
+            iconSrc: "/images/jones/icon-7.svg",
             iconAlt: "Icon",
           },
         ]}

@@ -16,7 +16,7 @@ export const BrandHeader = () => {
               className="items-center box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full"
             >
               <img
-                src="https://c.animaapp.com/mohkicncTG3NcI/assets/1763702719034_amalahealth.webp"
+                src="/images/amala/1763702719034_amalahealth.webp"
                 alt=""
                 sizes="155px"
                 title=""

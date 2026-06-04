@@ -10,7 +10,7 @@ export const VideoSection = () => {
         >
           <div className="absolute items-center box-border caret-transparent flex h-full justify-center opacity-[0.035] translate-x-[-50.0%] translate-y-[-50.0%] w-full z-[1] left-2/4 top-2/4">
             <img
-              src="/vsl/oprah/media/icon-1.svg"
+              src="/images/oprah/icon-1.svg"
               alt="Icon"
               className="box-border caret-transparent h-4/5 align-baseline w-4/5"
             />

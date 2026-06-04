@@ -31,7 +31,7 @@ export const QuizViewport = () => {
     return (
       <div className="relative max-w-[568px] min-h-[690px] mx-auto flex flex-col items-center justify-center gap-6 px-6 md:min-h-[640px]">
         <img
-          src="https://media.audibene.net/dhqvlsb3l/image/upload/v1/assets/na/loader-hearcom-logo.svg"
+          src="/images/hear/loader-hearcom-logo.svg"
           alt="hear.com"
           className="h-[52px] w-[140px] object-contain"
         />

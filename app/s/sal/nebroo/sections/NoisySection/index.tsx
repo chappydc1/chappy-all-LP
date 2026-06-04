@@ -16,7 +16,7 @@ export const NoisySection = () => {
             <img
               alt="Effective Also in The Noisiest Environments!.webp"
               title=""
-              src="https://c.animaapp.com/mnsbh2exJLSZhk/assets/1739604908898_Effective_even_in_noisy_environments_v3.webp"
+              src="/images/nebroo/1739604908898_Effective_even_in_noisy_environments_v3.webp"
               
               className="self-center box-border caret-transparent inline max-w-full mx-auto rounded-[10px] md:self-auto"
             />
@@ -28,7 +28,7 @@ export const NoisySection = () => {
             <img
               alt="Effective Also in The Noisiest Environments!.webp"
               title=""
-              src="https://c.animaapp.com/mnsbh2exJLSZhk/assets/1739604908898_Effective_even_in_noisy_environments_v3.webp"
+              src="/images/nebroo/1739604908898_Effective_even_in_noisy_environments_v3.webp"
               
               className="self-center box-border caret-transparent block max-w-full min-h-[auto] min-w-[auto] mt-5 rounded-[10px] md:self-auto md:hidden md:min-h-0 md:min-w-0"
             />
@@ -58,7 +58,7 @@ export const NoisySection = () => {
                       <div className="box-border caret-transparent basis-[6.57%] grow min-h-[25px] min-w-[auto]">
                         <img
                           title=""
-                          src="https://c.animaapp.com/mnsbh2exJLSZhk/assets/1729048495546_bluetick_1_.webp"
+                          src="/images/nebroo/1729048495546_bluetick_1_.webp"
                           
                           alt=""
                           className="text-black box-border caret-transparent inline max-w-full w-[25px]"
@@ -86,7 +86,7 @@ export const NoisySection = () => {
                       <div className="box-border caret-transparent basis-[6.57%] grow min-h-[25px] min-w-[auto]">
                         <img
                           title=""
-                          src="https://c.animaapp.com/mnsbh2exJLSZhk/assets/1729048495546_bluetick_1_.webp"
+                          src="/images/nebroo/1729048495546_bluetick_1_.webp"
                           
                           alt=""
                           className="text-black box-border caret-transparent inline max-w-full w-[25px]"
@@ -111,7 +111,7 @@ export const NoisySection = () => {
                       <div className="box-border caret-transparent basis-[6.57%] grow min-h-[25px] min-w-[auto]">
                         <img
                           title=""
-                          src="https://c.animaapp.com/mnsbh2exJLSZhk/assets/1729048495546_bluetick_1_.webp"
+                          src="/images/nebroo/1729048495546_bluetick_1_.webp"
                           
                           alt=""
                           className="text-black box-border caret-transparent inline max-w-full w-[25px]"
@@ -141,7 +141,7 @@ export const NoisySection = () => {
             <img
               alt="Get Them Without a Prescription, And Without Going Trough Costly Exams.webp"
               title=""
-              src="https://c.animaapp.com/mnsbh2exJLSZhk/assets/1729153792697_1712406903426_Get_Them_Without_a_Prescription_And_Without_Going_Trough_Costly_Exams.webp"
+              src="/images/nebroo/1729153792697_1712406903426_Get_Them_Without_a_Prescription_And_Without_Going_Trough_Costly_Exams.webp"
               
               className="items-end self-center box-border caret-transparent inline justify-start max-w-full min-h-0 min-w-0 mx-auto rounded-[10px] md:[align-items:normal] md:self-auto md:block md:justify-normal md:min-h-[auto] md:min-w-[auto]"
             />
@@ -158,7 +158,7 @@ export const NoisySection = () => {
             <img
               alt="Get Them Without a Prescription, And Without Going Trough Costly Exams.webp"
               title=""
-              src="https://c.animaapp.com/mnsbh2exJLSZhk/assets/1729153792697_1712406903426_Get_Them_Without_a_Prescription_And_Without_Going_Trough_Costly_Exams.webp"
+              src="/images/nebroo/1729153792697_1712406903426_Get_Them_Without_a_Prescription_And_Without_Going_Trough_Costly_Exams.webp"
               
               className="items-end self-center box-border caret-transparent flex justify-start max-w-full min-h-[auto] min-w-[auto] mt-5 mx-0 rounded-[10px] md:[align-items:normal] md:self-auto md:hidden md:justify-normal md:min-h-0 md:min-w-0 md:mx-auto"
             />
@@ -200,7 +200,7 @@ export const NoisySection = () => {
             <img
               alt="Sound That Fits You Like Your Favourite T-Shirt.webp"
               title=""
-              src="https://c.animaapp.com/mnsbh2exJLSZhk/assets/1739605028190_Sound_that_fits_v7.webp"
+              src="/images/nebroo/1739605028190_Sound_that_fits_v7.webp"
               
               className="self-center box-border caret-transparent inline max-w-full mx-auto rounded-[10px] md:self-auto"
             />
@@ -214,7 +214,7 @@ export const NoisySection = () => {
             <img
               alt="Sound That Fits You Like Your Favourite T-Shirt.webp"
               title=""
-              src="https://c.animaapp.com/mnsbh2exJLSZhk/assets/1739605028190_Sound_that_fits_v7.webp"
+              src="/images/nebroo/1739605028190_Sound_that_fits_v7.webp"
               
               className="self-center box-border caret-transparent block max-w-full min-h-[auto] min-w-[auto] mt-5 mx-0 rounded-[10px] md:self-auto md:hidden md:min-h-0 md:min-w-0 md:mx-auto"
             />
@@ -257,7 +257,7 @@ export const NoisySection = () => {
             <img
               alt="20 Hours of Battery Life.webp"
               title=""
-              src="https://c.animaapp.com/mnsbh2exJLSZhk/assets/1739407847287_16h_Battery.webp"
+              src="/images/nebroo/1739407847287_16h_Battery.webp"
               
               className="self-center box-border caret-transparent inline max-w-full min-h-0 min-w-0 mx-auto rounded-[10px] md:self-auto md:block md:min-h-[auto] md:min-w-[auto]"
             />
@@ -274,7 +274,7 @@ export const NoisySection = () => {
             <img
               alt="20 Hours of Battery Life.webp"
               title=""
-              src="https://c.animaapp.com/mnsbh2exJLSZhk/assets/1739407847287_16h_Battery.webp"
+              src="/images/nebroo/1739407847287_16h_Battery.webp"
               
               className="self-center box-border caret-transparent block justify-start max-w-full mt-5 mx-0 rounded-[10px] md:self-auto md:hidden md:justify-normal md:mx-auto"
             />
@@ -320,7 +320,7 @@ export const NoisySection = () => {
             <img
               alt="Try It for 120 Days, 100% Risk-Free.webp"
               title=""
-              src="https://c.animaapp.com/mnsbh2exJLSZhk/assets/1739604906705_Money_back_guarantee_v2.webp"
+              src="/images/nebroo/1739604906705_Money_back_guarantee_v2.webp"
               
               className="self-center box-border caret-transparent inline max-w-full mx-auto rounded-[10px] md:self-auto"
             />
@@ -334,7 +334,7 @@ export const NoisySection = () => {
             <img
               alt="Try It for 120 Days, 100% Risk-Free.webp"
               title=""
-              src="https://c.animaapp.com/mnsbh2exJLSZhk/assets/1739604906705_Money_back_guarantee_v2.webp"
+              src="/images/nebroo/1739604906705_Money_back_guarantee_v2.webp"
               
               className="self-center box-border caret-transparent block float-left max-w-full min-h-[auto] min-w-[auto] w-full mt-5 rounded-[10px] md:self-auto md:hidden md:min-h-0 md:min-w-0 md:w-auto"
             />
@@ -389,7 +389,7 @@ export const NoisySection = () => {
             <img
               alt="1 YR WARRANTY W BG.webp"
               title=""
-              src="https://c.animaapp.com/mnsbh2exJLSZhk/assets/1729153931349_1712659679515_1_YR_WARRANTY_W_BG.webp"
+              src="/images/nebroo/1729153931349_1712659679515_1_YR_WARRANTY_W_BG.webp"
               
               className="self-center box-border caret-transparent inline max-w-full min-h-0 min-w-0 mx-auto rounded-[10px] md:self-auto md:block md:min-h-[auto] md:min-w-[auto]"
             />
@@ -405,7 +405,7 @@ export const NoisySection = () => {
             <img
               alt="1 YR WARRANTY W BG.webp"
               title=""
-              src="https://c.animaapp.com/mnsbh2exJLSZhk/assets/1729153931349_1712659679515_1_YR_WARRANTY_W_BG.webp"
+              src="/images/nebroo/1729153931349_1712659679515_1_YR_WARRANTY_W_BG.webp"
               
               className="self-center box-border caret-transparent block max-w-full mt-5 mx-0 rounded-[10px] md:self-auto md:hidden md:mx-auto"
             />

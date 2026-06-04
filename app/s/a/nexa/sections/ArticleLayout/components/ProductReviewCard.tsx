@@ -9,7 +9,7 @@ export const ProductReviewCard = () => {
         <div className="items-center self-end box-border caret-transparent flex justify-center min-h-0 min-w-0 outline-[3px] w-full pt-[5px] px-2.5 md:min-h-[auto] md:min-w-[auto]">
           <img
             title=""
-            src="https://c.animaapp.com/mpy7krbtwlu4la/assets/1765200385645_8.png"
+            src="/images/nexa/1765200385645_8.png"
             href=""
             alt=""
             className="text-black items-start box-border caret-transparent flex basis-[0%] shrink-0 h-[160.484px] justify-start max-w-full min-h-0 min-w-0 outline-[3px] align-baseline w-[108px] mt-[7px] pt-[5px] rounded-[1px] md:h-[206.328px] md:min-h-[auto] md:min-w-[auto] md:w-[110px]"
@@ -33,7 +33,7 @@ export const ProductReviewCard = () => {
         <div className="box-border caret-transparent flex justify-between min-h-0 min-w-0 outline-[3px] text-left w-full px-[5px] py-3 md:min-h-[auto] md:min-w-[auto]">
           <img
             title=""
-            src="https://c.animaapp.com/mpy7krbtwlu4la/assets/1729108486626_1713260185_1711912960_stars.webp"
+            src="/images/nexa/1729108486626_1713260185_1711912960_stars.webp"
             href=""
             alt=""
             className="text-black box-border caret-transparent h-[15px] max-w-full min-h-0 min-w-0 outline-[3px] align-baseline w-[73px] md:h-4 md:min-h-[auto] md:min-w-[auto] md:w-[83px]"
@@ -51,7 +51,7 @@ export const ProductReviewCard = () => {
           </div>
           <img
             title=""
-            src="https://c.animaapp.com/mpy7krbtwlu4la/assets/1729108873065_1713260298_1711913373_5_star.webp"
+            src="/images/nexa/1729108873065_1713260298_1711913373_5_star.webp"
             href=""
             alt=""
             className="text-black box-border caret-transparent h-[17px] max-w-full min-h-0 min-w-0 outline-[3px] align-baseline w-[90px] pl-2.5 md:h-5 md:min-h-[auto] md:min-w-[auto] md:w-auto md:pl-[21px]"
@@ -66,7 +66,7 @@ export const ProductReviewCard = () => {
           </div>
           <img
             title=""
-            src="https://c.animaapp.com/mpy7krbtwlu4la/assets/1738566304384_1713265630_1711913433_4_star.webp"
+            src="/images/nexa/1738566304384_1713265630_1711913433_4_star.webp"
             href=""
             alt=""
             className="text-black box-border caret-transparent basis-[0%] shrink-0 h-[17px] max-w-full min-h-0 min-w-0 outline-[3px] align-baseline w-[90px] pl-1 pr-[5px] rounded-[1px] md:h-5 md:min-h-[auto] md:min-w-[auto] md:w-auto md:pl-[9px] md:pr-0"
@@ -81,7 +81,7 @@ export const ProductReviewCard = () => {
           </div>
           <img
             title=""
-            src="https://c.animaapp.com/mpy7krbtwlu4la/assets/1738566305836_1713265749_1711913439_3_star.webp"
+            src="/images/nexa/1738566305836_1713265749_1711913439_3_star.webp"
             href=""
             alt=""
             className="text-black box-border caret-transparent h-[17px] max-w-full min-h-0 min-w-0 outline-[3px] align-baseline w-[90px] pl-1 pr-[5px] md:h-5 md:min-h-[auto] md:min-w-[auto] md:w-auto md:pl-[9px] md:pr-0"
@@ -96,7 +96,7 @@ export const ProductReviewCard = () => {
           </div>
           <img
             title=""
-            src="https://c.animaapp.com/mpy7krbtwlu4la/assets/1738566307523_1713265753_1711913445_2_star.webp"
+            src="/images/nexa/1738566307523_1713265753_1711913445_2_star.webp"
             href=""
             alt=""
             className="text-black box-border caret-transparent h-[17px] max-w-full min-h-0 min-w-0 outline-[3px] align-baseline w-[90px] pl-1 pr-[5px] md:h-5 md:min-h-[auto] md:min-w-[auto] md:w-auto md:pl-2.5 md:pr-0"
@@ -111,7 +111,7 @@ export const ProductReviewCard = () => {
           </div>
           <img
             title=""
-            src="https://c.animaapp.com/mpy7krbtwlu4la/assets/1738566309027_1713265827_1711913451_1_star.webp"
+            src="/images/nexa/1738566309027_1713265827_1711913451_1_star.webp"
             href=""
             alt=""
             className="text-black box-border caret-transparent h-[17px] max-w-full min-h-0 min-w-0 outline-[3px] align-baseline w-[90px] pl-1 pr-[5px] md:h-5 md:min-h-[auto] md:min-w-[auto] md:w-auto md:pl-[7px] md:pr-0"
@@ -132,7 +132,7 @@ export const ProductReviewCard = () => {
           <div className="box-border caret-transparent flex justify-end min-h-0 min-w-0 outline-[3px] w-full px-2.5 md:min-h-[auto] md:min-w-[auto]">
             <img
               title=""
-              src="https://c.animaapp.com/mpy7krbtwlu4la/assets/1729108486626_1713260185_1711912960_stars.webp"
+              src="/images/nexa/1729108486626_1713260185_1711912960_stars.webp"
               href=""
               alt=""
               className="text-black box-border caret-transparent h-[15px] justify-start max-w-full min-h-0 min-w-0 outline-[3px] align-baseline w-[70px] md:min-h-[auto] md:min-w-[auto] md:w-[85px]"
@@ -149,7 +149,7 @@ export const ProductReviewCard = () => {
           <div className="box-border caret-transparent flex justify-end min-h-0 min-w-0 outline-[3px] w-full px-2.5 md:min-h-[auto] md:min-w-[auto]">
             <img
               title=""
-              src="https://c.animaapp.com/mpy7krbtwlu4la/assets/1729108486626_1713260185_1711912960_stars.webp"
+              src="/images/nexa/1729108486626_1713260185_1711912960_stars.webp"
               href=""
               alt=""
               className="text-black box-border caret-transparent h-[15px] justify-start max-w-full min-h-0 min-w-0 outline-[3px] align-baseline w-[70px] md:min-h-[auto] md:min-w-[auto] md:w-[85px]"
@@ -166,7 +166,7 @@ export const ProductReviewCard = () => {
           <div className="box-border caret-transparent flex justify-end min-h-0 min-w-0 outline-[3px] w-full pl-[5px] pr-2.5 md:min-h-[auto] md:min-w-[auto] md:pl-2.5">
             <img
               title=""
-              src="https://c.animaapp.com/mpy7krbtwlu4la/assets/1729108486626_1713260185_1711912960_stars.webp"
+              src="/images/nexa/1729108486626_1713260185_1711912960_stars.webp"
               href=""
               alt=""
               className="text-black box-border caret-transparent h-[15px] justify-start max-w-full min-h-0 min-w-0 outline-[3px] align-baseline w-[70px] md:min-h-[auto] md:min-w-[auto] md:w-[85px]"
@@ -183,7 +183,7 @@ export const ProductReviewCard = () => {
           <div className="box-border caret-transparent flex justify-end min-h-0 min-w-0 outline-[3px] w-full px-2.5 md:min-h-[auto] md:min-w-[auto]">
             <img
               title=""
-              src="https://c.animaapp.com/mpy7krbtwlu4la/assets/1729108486626_1713260185_1711912960_stars.webp"
+              src="/images/nexa/1729108486626_1713260185_1711912960_stars.webp"
               href=""
               alt=""
               className="text-black box-border caret-transparent h-[15px] justify-start max-w-full min-h-0 min-w-0 outline-[3px] align-baseline w-[70px] md:min-h-[auto] md:min-w-[auto] md:w-[85px]"

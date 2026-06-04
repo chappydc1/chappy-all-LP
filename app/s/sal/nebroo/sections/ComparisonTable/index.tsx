@@ -1,9 +1,9 @@
 "use client";
 import { useScrollReveal } from "../../hooks/useScrollReveal";
 
-const CHECK = "https://c.animaapp.com/mnsbh2exJLSZhk/assets/1700045980939_1666773712_check_1check_v1642658295149.png";
-const CROSS = "https://c.animaapp.com/mnsbh2exJLSZhk/assets/1700045983205_1666773955_cross_v1642658299531_svg.png";
-const NEBROO_LOGO = "https://c.animaapp.com/mnsbh2exJLSZhk/assets/1712391520633_nebroo.webp";
+const CHECK = "/images/nebroo/1700045980939_1666773712_check_1check_v1642658295149.png";
+const CROSS = "/images/nebroo/1700045983205_1666773955_cross_v1642658299531_svg.png";
+const NEBROO_LOGO = "/images/nebroo/1712391520633_nebroo.webp";
 
 const rows = [
   { label: "Price",                         nebroo: "very-low", other: "price" },

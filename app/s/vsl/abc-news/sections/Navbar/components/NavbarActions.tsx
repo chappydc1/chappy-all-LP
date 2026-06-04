@@ -59,7 +59,7 @@ export const NavbarActions = (props: NavbarActionsProps) => {
               <img
                 src={
                   props.iconSrc ||
-                  "https://c.animaapp.com/mov1hivmUrwXF6/assets/icon-2.svg"
+                  "/images/abc-news/icon-2.svg"
                 }
                 alt={props.iconAlt || "Icon"}
                 className={
@@ -123,7 +123,7 @@ export const NavbarActions = (props: NavbarActionsProps) => {
           <img
             src={
               props.streamLogoSrc ||
-              "https://c.animaapp.com/mov1hivmUrwXF6/assets/DisneyPlus.svg"
+              "/images/abc-news/DisneyPlus.svg"
             }
             alt={props.streamLogoAlt || "stream logo"}
             className={

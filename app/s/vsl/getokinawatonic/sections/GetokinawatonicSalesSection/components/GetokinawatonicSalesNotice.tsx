@@ -32,7 +32,7 @@ export const GetokinawatonicSalesNotice = () => {
                     30 day supply
                   </h3>
                   <img
-                    src="https://getokinawatonic.com/sp-vsl-1/images/product-bottles-1.png?v2"
+                    src="/images/getokinawatonic/product-bottles-1.png"
                     alt="img"
                     className="box-border caret-transparent max-w-full outline-[3px] mx-auto"
                   />
@@ -51,7 +51,7 @@ export const GetokinawatonicSalesNotice = () => {
                     className="text-teal-500 box-border caret-transparent outline-[3px] hover:outline-0 hover:underline"
                   >
                     <img
-                      src="https://getokinawatonic.com/sp-vsl-1/images/buy-now.svg"
+                      src="/images/getokinawatonic/buy-now.svg"
                       alt="img"
                       className="aspect-[auto_227_/_58] shadow-[rgba(0,0,0,0.4)_1px_4px_4px_0px] box-border caret-transparent max-w-full outline-[3px] w-[88%] mt-0 mx-auto rounded-[50px] md:w-[90%] md:mt-[5px]"
                     />
@@ -68,7 +68,7 @@ export const GetokinawatonicSalesNotice = () => {
                     90 days Guarantee
                   </h5>
                   <img
-                    src="https://getokinawatonic.com/sp-vsl-1/images/credit-card.jpg"
+                    src="/images/getokinawatonic/credit-card.jpg"
                     alt="img"
                     className="box-border caret-transparent max-w-full outline-[3px] mb-0 mx-auto md:mb-2.5"
                   />
@@ -83,7 +83,7 @@ export const GetokinawatonicSalesNotice = () => {
                     90 day supply
                   </h3>
                   <img
-                    src="https://getokinawatonic.com/sp-vsl-1/images/product-bottles-3-extra.png?v3"
+                    src="/images/getokinawatonic/product-bottles-3-extra.png"
                     alt="img"
                     className="box-border caret-transparent max-w-full outline-[3px] mx-auto"
                   />
@@ -98,7 +98,7 @@ export const GetokinawatonicSalesNotice = () => {
                     </h4>
                   </div>
                   <img
-                    src="https://getokinawatonic.com/sp-vsl-1/images/free-shippng-bounus-us.png?v2"
+                    src="/images/getokinawatonic/free-shippng-bounus-us.png"
                     alt="img"
                     className="box-border caret-transparent max-w-full outline-[3px] mb-0 mx-auto md:mb-2.5"
                   />
@@ -107,7 +107,7 @@ export const GetokinawatonicSalesNotice = () => {
                     className="text-teal-500 box-border caret-transparent outline-[3px] hover:outline-0 hover:underline"
                   >
                     <img
-                      src="https://getokinawatonic.com/sp-vsl-1/images/buy-now.svg"
+                      src="/images/getokinawatonic/buy-now.svg"
                       alt="img"
                       className="aspect-[auto_225_/_58] shadow-[rgba(0,0,0,0.4)_1px_4px_4px_0px] box-border caret-transparent max-w-full outline-[3px] w-[88%] mt-0 mx-auto rounded-[50px] md:w-[90%] md:mt-[5px]"
                     />
@@ -124,7 +124,7 @@ export const GetokinawatonicSalesNotice = () => {
                     90 days Guarantee
                   </h5>
                   <img
-                    src="https://getokinawatonic.com/sp-vsl-1/images/credit-card.jpg"
+                    src="/images/getokinawatonic/credit-card.jpg"
                     alt="img"
                     className="box-border caret-transparent max-w-full outline-[3px] mb-0 mx-auto md:mb-2.5"
                   />
@@ -139,7 +139,7 @@ export const GetokinawatonicSalesNotice = () => {
                     180 day supply
                   </h3>
                   <img
-                    src="https://getokinawatonic.com/sp-vsl-1/images/product-bottles-6-extra.png?v4"
+                    src="/images/getokinawatonic/product-bottles-6-extra.png"
                     alt="img"
                     className="box-border caret-transparent max-w-full outline-[3px] mx-auto"
                   />
@@ -154,7 +154,7 @@ export const GetokinawatonicSalesNotice = () => {
                     </h4>
                   </div>
                   <img
-                    src="https://getokinawatonic.com/sp-vsl-1/images/free-shippng-bounus-us.png?v2"
+                    src="/images/getokinawatonic/free-shippng-bounus-us.png"
                     alt="img"
                     className="box-border caret-transparent max-w-full outline-[3px] mb-0 mx-auto md:mb-2.5"
                   />
@@ -163,7 +163,7 @@ export const GetokinawatonicSalesNotice = () => {
                     className="text-teal-500 box-border caret-transparent outline-[3px] hover:outline-0 hover:underline"
                   >
                     <img
-                      src="https://getokinawatonic.com/sp-vsl-1/images/buy-now.svg"
+                      src="/images/getokinawatonic/buy-now.svg"
                       alt="img"
                       className="aspect-[auto_227_/_58] shadow-[rgba(0,0,0,0.4)_1px_4px_4px_0px] box-border caret-transparent max-w-full outline-[3px] w-[88%] mt-0 mx-auto rounded-[50px] md:w-[90%] md:mt-[5px]"
                     />
@@ -180,7 +180,7 @@ export const GetokinawatonicSalesNotice = () => {
                     90 days Guarantee
                   </h5>
                   <img
-                    src="https://getokinawatonic.com/sp-vsl-1/images/credit-card.jpg"
+                    src="/images/getokinawatonic/credit-card.jpg"
                     alt="img"
                     className="box-border caret-transparent max-w-full outline-[3px] mb-0 mx-auto md:mb-2.5"
                   />
@@ -197,7 +197,7 @@ export const GetokinawatonicSalesNotice = () => {
                 className="box-border caret-transparent outline-[3px] hover:outline-0 hover:underline"
               >
                 <img
-                  src="https://getokinawatonic.com/sp-m/images/package-3-np3-blue-nw-new.png?v5"
+                  src="/images/getokinawatonic/package-3-np3-blue-nw-new.png"
                   alt="img"
                   className="box-border caret-transparent max-w-full outline-[3px] mb-5 mx-auto md:mb-0 md:mx-0"
                 />
@@ -209,7 +209,7 @@ export const GetokinawatonicSalesNotice = () => {
                 className="box-border caret-transparent outline-[3px] hover:outline-0 hover:underline"
               >
                 <img
-                  src="https://getokinawatonic.com/sp-m/images/package-6-np3-red-n-new.png?v3"
+                  src="/images/getokinawatonic/package-6-np3-red-n-new.png"
                   alt="img"
                   className="box-border caret-transparent max-w-full outline-[3px] mt-0 mb-5 mx-auto md:mt-[-5%] md:mb-0 md:mx-0"
                 />
@@ -221,7 +221,7 @@ export const GetokinawatonicSalesNotice = () => {
                 className="box-border caret-transparent outline-[3px] hover:outline-0 hover:underline"
               >
                 <img
-                  src="https://getokinawatonic.com/sp-m/images/package-1-np3-grey-nw.png?v3"
+                  src="/images/getokinawatonic/package-1-np3-grey-nw.png"
                   alt="img"
                   className="box-border caret-transparent max-w-full outline-[3px] mb-5 mx-auto md:mb-0 md:mx-0"
                 />
@@ -235,7 +235,7 @@ export const GetokinawatonicSalesNotice = () => {
             <div className="box-border caret-transparent outline-[3px] mx-0 md:ml-[-15px] md:mr-[-15px] before:accent-auto before:box-border before:caret-transparent before:text-black before:table before:text-lg before:not-italic before:normal-nums before:font-normal before:tracking-[normal] before:leading-[25.7143px] before:list-outside before:list-disc before:outline-[3px] before:pointer-events-auto before:text-start before:no-underline before:indent-[0px] before:normal-case before:visible before:border-separate before:font-apple_system after:accent-auto after:box-border after:caret-transparent after:clear-both after:text-black after:table after:text-lg after:not-italic after:normal-nums after:font-normal after:tracking-[normal] after:leading-[25.7143px] after:list-outside after:list-disc after:outline-[3px] after:pointer-events-auto after:text-start after:no-underline after:indent-[0px] after:normal-case after:visible after:border-separate after:font-apple_system">
               <div className="relative box-border caret-transparent float-none min-h-px outline-[3px] w-auto px-[15px] md:float-left md:w-3/12">
                 <img
-                  src="https://getokinawatonic.com/sp-vsl-1/images/grt.png"
+                  src="/images/getokinawatonic/grt.png"
                   alt="img"
                   className="box-border caret-transparent max-w-full outline-[3px] w-4/5 mx-auto md:w-auto md:mx-0"
                 />
@@ -281,7 +281,7 @@ export const GetokinawatonicSalesNotice = () => {
               </div>
               <div className="relative box-border caret-transparent float-none min-h-px outline-[3px] w-auto px-[15px] md:float-left md:w-[33.3333%]">
                 <img
-                  src="https://getokinawatonic.com/sp-vsl-1/images/courtney.jpg?v1"
+                  src="/images/getokinawatonic/courtney.jpg"
                   alt="img"
                   className="box-border caret-transparent max-w-full outline-[3px] mx-auto rounded-[50%]"
                 />
@@ -324,7 +324,7 @@ export const GetokinawatonicSalesNotice = () => {
               </div>
               <div className="relative box-border caret-transparent float-none min-h-px outline-[3px] w-auto px-[15px] md:float-left md:w-[33.3333%]">
                 <img
-                  src="https://getokinawatonic.com/sp-vsl-1/images/john.jpg?v1"
+                  src="/images/getokinawatonic/john.jpg"
                   alt="img"
                   className="box-border caret-transparent max-w-full outline-[3px] mx-auto rounded-[50%]"
                 />
@@ -361,7 +361,7 @@ export const GetokinawatonicSalesNotice = () => {
               </div>
               <div className="relative box-border caret-transparent float-none min-h-px outline-[3px] w-auto px-[15px] md:float-left md:w-[33.3333%]">
                 <img
-                  src="https://getokinawatonic.com/sp-vsl-1/images/rina.jpg?v1"
+                  src="/images/getokinawatonic/rina.jpg"
                   alt="img"
                   className="box-border caret-transparent max-w-full outline-[3px] mx-auto rounded-[50%]"
                 />
@@ -387,13 +387,13 @@ export const GetokinawatonicSalesNotice = () => {
           className="box-border caret-transparent outline-[3px] hover:outline-0 hover:underline"
         >
           <img
-            src="https://getokinawatonic.com/sp-vsl-1/images/buynow.png?v2"
+            src="/images/getokinawatonic/buynow.png"
             alt="img"
             className="box-border caret-transparent max-w-full outline-[3px] w-[408px] mx-auto"
           />
         </a>
         <h3 className="text-[29px] font-bold box-border caret-transparent leading-[41.18px] outline-[3px] text-center mt-5 mb-2.5 font-montserrat md:text-4xl md:leading-[51.12px]">
-          <span className="text-[29px] bg-[url('https://getokinawatonic.com/sp-vsl-1/images/line.png')] bg-no-repeat box-border caret-transparent leading-[41.18px] outline-[3px] bg-bottom pb-2.5 md:text-4xl md:leading-[51.12px]">
+          <span className="text-[29px] bg-[url('/images/getokinawatonic/line.png')] bg-no-repeat box-border caret-transparent leading-[41.18px] outline-[3px] bg-bottom pb-2.5 md:text-4xl md:leading-[51.12px]">
             Get 3 FREE Bonuses
           </span>
           <br className="text-[29px] box-border caret-transparent leading-[41.18px] outline-[3px] md:text-4xl md:leading-[51.12px]" />
@@ -408,7 +408,7 @@ export const GetokinawatonicSalesNotice = () => {
           <div className="box-border caret-transparent outline-[3px] mx-0 md:ml-[-15px] md:mr-[-15px] before:accent-auto before:box-border before:caret-transparent before:text-teal-500 before:table before:text-[15px] before:not-italic before:normal-nums before:font-normal before:tracking-[normal] before:leading-[21.4286px] before:list-outside before:list-disc before:outline-[3px] before:pointer-events-auto before:text-start before:no-underline before:indent-[0px] before:normal-case before:visible before:border-separate before:font-apple_system after:accent-auto after:box-border after:caret-transparent after:clear-both after:text-teal-500 after:table after:text-[15px] after:not-italic after:normal-nums after:font-normal after:tracking-[normal] after:leading-[21.4286px] after:list-outside after:list-disc after:outline-[3px] after:pointer-events-auto after:text-start after:no-underline after:indent-[0px] after:normal-case after:visible after:border-separate after:font-apple_system">
             <div className="relative box-border caret-transparent float-none min-h-px outline-[3px] w-auto px-[15px] md:float-left md:w-3/12">
               <img
-                src="https://getokinawatonic.com/sp-vsl-1/images/bonus-1.png"
+                src="/images/getokinawatonic/bonus-1.png"
                 alt="img"
                 className="box-border caret-transparent max-w-full outline-[3px] w-[197px] mx-auto md:mx-0"
               />
@@ -457,7 +457,7 @@ export const GetokinawatonicSalesNotice = () => {
           <div className="box-border caret-transparent outline-[3px] mx-0 md:ml-[-15px] md:mr-[-15px] before:accent-auto before:box-border before:caret-transparent before:text-teal-500 before:table before:text-[15px] before:not-italic before:normal-nums before:font-normal before:tracking-[normal] before:leading-[21.4286px] before:list-outside before:list-disc before:outline-[3px] before:pointer-events-auto before:text-start before:no-underline before:indent-[0px] before:normal-case before:visible before:border-separate before:font-apple_system after:accent-auto after:box-border after:caret-transparent after:clear-both after:text-teal-500 after:table after:text-[15px] after:not-italic after:normal-nums after:font-normal after:tracking-[normal] after:leading-[21.4286px] after:list-outside after:list-disc after:outline-[3px] after:pointer-events-auto after:text-start after:no-underline after:indent-[0px] after:normal-case after:visible after:border-separate after:font-apple_system">
             <div className="relative box-border caret-transparent float-none min-h-px outline-[3px] w-auto px-[15px] md:float-left md:w-3/12">
               <img
-                src="https://getokinawatonic.com/sp-vsl-1/images/bonus-2.png"
+                src="/images/getokinawatonic/bonus-2.png"
                 alt="img"
                 className="box-border caret-transparent max-w-full outline-[3px] w-[197px] mx-auto md:mx-0"
               />
@@ -497,7 +497,7 @@ export const GetokinawatonicSalesNotice = () => {
           <div className="box-border caret-transparent outline-[3px] mx-0 md:ml-[-15px] md:mr-[-15px] before:accent-auto before:box-border before:caret-transparent before:text-teal-500 before:table before:text-[15px] before:not-italic before:normal-nums before:font-normal before:tracking-[normal] before:leading-[21.4286px] before:list-outside before:list-disc before:outline-[3px] before:pointer-events-auto before:text-start before:no-underline before:indent-[0px] before:normal-case before:visible before:border-separate before:font-apple_system after:accent-auto after:box-border after:caret-transparent after:clear-both after:text-teal-500 after:table after:text-[15px] after:not-italic after:normal-nums after:font-normal after:tracking-[normal] after:leading-[21.4286px] after:list-outside after:list-disc after:outline-[3px] after:pointer-events-auto after:text-start after:no-underline after:indent-[0px] after:normal-case after:visible after:border-separate after:font-apple_system">
             <div className="relative box-border caret-transparent float-none min-h-px outline-[3px] w-auto px-[15px] md:float-left md:w-[33.3333%]">
               <img
-                src="https://getokinawatonic.com/sp-vsl-1/images/membership.png"
+                src="/images/getokinawatonic/membership.png"
                 alt="img"
                 className="box-border caret-transparent max-w-full outline-[3px] mx-auto md:mx-0"
               />
@@ -537,7 +537,7 @@ export const GetokinawatonicSalesNotice = () => {
           className="box-border caret-transparent outline-[3px] hover:outline-0 hover:underline"
         >
           <img
-            src="https://getokinawatonic.com/sp-vsl-1/images/buynow.png?v2"
+            src="/images/getokinawatonic/buynow.png"
             alt="img"
             className="box-border caret-transparent max-w-full outline-[3px] w-[408px] mx-auto"
           />
@@ -701,7 +701,7 @@ export const GetokinawatonicSalesNotice = () => {
                     30 day supply
                   </h3>
                   <img
-                    src="https://getokinawatonic.com/sp-vsl-1/images/product-bottles-1.png?v2"
+                    src="/images/getokinawatonic/product-bottles-1.png"
                     alt="img"
                     className="box-border caret-transparent max-w-full outline-[3px] mx-auto"
                   />
@@ -720,7 +720,7 @@ export const GetokinawatonicSalesNotice = () => {
                     className="text-teal-500 box-border caret-transparent outline-[3px] hover:outline-0 hover:underline"
                   >
                     <img
-                      src="https://getokinawatonic.com/sp-vsl-1/images/buy-now.svg"
+                      src="/images/getokinawatonic/buy-now.svg"
                       alt="img"
                       className="aspect-[auto_227_/_58] shadow-[rgba(0,0,0,0.4)_1px_4px_4px_0px] box-border caret-transparent max-w-full outline-[3px] w-[88%] mt-0 mx-auto rounded-[50px] md:w-[90%] md:mt-[5px]"
                     />
@@ -737,7 +737,7 @@ export const GetokinawatonicSalesNotice = () => {
                     90 days Guarantee
                   </h5>
                   <img
-                    src="https://getokinawatonic.com/sp-vsl-1/images/credit-card.jpg"
+                    src="/images/getokinawatonic/credit-card.jpg"
                     alt="img"
                     className="box-border caret-transparent max-w-full outline-[3px] mb-0 mx-auto md:mb-2.5"
                   />
@@ -752,7 +752,7 @@ export const GetokinawatonicSalesNotice = () => {
                     90 day supply
                   </h3>
                   <img
-                    src="https://getokinawatonic.com/sp-vsl-1/images/product-bottles-3-extra.png?v3"
+                    src="/images/getokinawatonic/product-bottles-3-extra.png"
                     alt="img"
                     className="box-border caret-transparent max-w-full outline-[3px] mx-auto"
                   />
@@ -767,7 +767,7 @@ export const GetokinawatonicSalesNotice = () => {
                     </h4>
                   </div>
                   <img
-                    src="https://getokinawatonic.com/sp-vsl-1/images/free-shippng-bounus-us.png?v2"
+                    src="/images/getokinawatonic/free-shippng-bounus-us.png"
                     alt="img"
                     className="box-border caret-transparent max-w-full outline-[3px] mb-0 mx-auto md:mb-2.5"
                   />
@@ -776,7 +776,7 @@ export const GetokinawatonicSalesNotice = () => {
                     className="text-teal-500 box-border caret-transparent outline-[3px] hover:outline-0 hover:underline"
                   >
                     <img
-                      src="https://getokinawatonic.com/sp-vsl-1/images/buy-now.svg"
+                      src="/images/getokinawatonic/buy-now.svg"
                       alt="img"
                       className="aspect-[auto_225_/_58] shadow-[rgba(0,0,0,0.4)_1px_4px_4px_0px] box-border caret-transparent max-w-full outline-[3px] w-[88%] mt-0 mx-auto rounded-[50px] md:w-[90%] md:mt-[5px]"
                     />
@@ -793,7 +793,7 @@ export const GetokinawatonicSalesNotice = () => {
                     90 days Guarantee
                   </h5>
                   <img
-                    src="https://getokinawatonic.com/sp-vsl-1/images/credit-card.jpg"
+                    src="/images/getokinawatonic/credit-card.jpg"
                     alt="img"
                     className="box-border caret-transparent max-w-full outline-[3px] mb-0 mx-auto md:mb-2.5"
                   />
@@ -808,7 +808,7 @@ export const GetokinawatonicSalesNotice = () => {
                     180 day supply
                   </h3>
                   <img
-                    src="https://getokinawatonic.com/sp-vsl-1/images/product-bottles-6-extra.png?v4"
+                    src="/images/getokinawatonic/product-bottles-6-extra.png"
                     alt="img"
                     className="box-border caret-transparent max-w-full outline-[3px] mx-auto"
                   />
@@ -823,7 +823,7 @@ export const GetokinawatonicSalesNotice = () => {
                     </h4>
                   </div>
                   <img
-                    src="https://getokinawatonic.com/sp-vsl-1/images/free-shippng-bounus-us.png?v2"
+                    src="/images/getokinawatonic/free-shippng-bounus-us.png"
                     alt="img"
                     className="box-border caret-transparent max-w-full outline-[3px] mb-0 mx-auto md:mb-2.5"
                   />
@@ -832,7 +832,7 @@ export const GetokinawatonicSalesNotice = () => {
                     className="text-teal-500 box-border caret-transparent outline-[3px] hover:outline-0 hover:underline"
                   >
                     <img
-                      src="https://getokinawatonic.com/sp-vsl-1/images/buy-now.svg"
+                      src="/images/getokinawatonic/buy-now.svg"
                       alt="img"
                       className="aspect-[auto_227_/_58] shadow-[rgba(0,0,0,0.4)_1px_4px_4px_0px] box-border caret-transparent max-w-full outline-[3px] w-[88%] mt-0 mx-auto rounded-[50px] md:w-[90%] md:mt-[5px]"
                     />
@@ -849,7 +849,7 @@ export const GetokinawatonicSalesNotice = () => {
                     90 days Guarantee
                   </h5>
                   <img
-                    src="https://getokinawatonic.com/sp-vsl-1/images/credit-card.jpg"
+                    src="/images/getokinawatonic/credit-card.jpg"
                     alt="img"
                     className="box-border caret-transparent max-w-full outline-[3px] mb-0 mx-auto md:mb-2.5"
                   />
@@ -866,7 +866,7 @@ export const GetokinawatonicSalesNotice = () => {
                 className="box-border caret-transparent outline-[3px] hover:outline-0 hover:underline"
               >
                 <img
-                  src="https://getokinawatonic.com/sp-m/images/package-3-np3-blue-nw-new.png?v5"
+                  src="/images/getokinawatonic/package-3-np3-blue-nw-new.png"
                   alt="img"
                   className="box-border caret-transparent max-w-full outline-[3px] mb-5 mx-auto md:mb-0 md:mx-0"
                 />
@@ -878,7 +878,7 @@ export const GetokinawatonicSalesNotice = () => {
                 className="box-border caret-transparent outline-[3px] hover:outline-0 hover:underline"
               >
                 <img
-                  src="https://getokinawatonic.com/sp-m/images/package-6-np3-red-n-new.png?v3"
+                  src="/images/getokinawatonic/package-6-np3-red-n-new.png"
                   alt="img"
                   className="box-border caret-transparent max-w-full outline-[3px] mt-0 mb-5 mx-auto md:mt-[-5%] md:mb-0 md:mx-0"
                 />
@@ -890,7 +890,7 @@ export const GetokinawatonicSalesNotice = () => {
                 className="box-border caret-transparent outline-[3px] hover:outline-0 hover:underline"
               >
                 <img
-                  src="https://getokinawatonic.com/sp-m/images/package-1-np3-grey-nw.png?v3"
+                  src="/images/getokinawatonic/package-1-np3-grey-nw.png"
                   alt="img"
                   className="box-border caret-transparent max-w-full outline-[3px] mb-5 mx-auto md:mb-0 md:mx-0"
                 />

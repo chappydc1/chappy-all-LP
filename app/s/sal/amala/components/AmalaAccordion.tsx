@@ -30,7 +30,7 @@ export const AmalaAccordion = () => {
                       The Science Behind PrimeCell H2
                     </div>
                     <img
-                      src="https://c.animaapp.com/mohkicncTG3NcI/assets/icon-1.svg"
+                      src="/images/amala/icon-1.svg"
                       alt="Icon"
                       className="text-base box-border caret-transparent h-[15px] leading-6 outline-[3px] w-[15px] mx-[5px] my-auto md:text-[17px] md:leading-[25.5px]"
                     />
@@ -178,7 +178,7 @@ export const AmalaAccordion = () => {
                       What Can PrimeCell H2 Help With?
                     </div>
                     <img
-                      src="https://c.animaapp.com/mohkicncTG3NcI/assets/icon-1.svg"
+                      src="/images/amala/icon-1.svg"
                       alt="Icon"
                       className="text-base box-border caret-transparent h-[15px] leading-6 outline-[3px] w-[15px] mx-[5px] my-auto md:text-[17px] md:leading-[25.5px]"
                     />
@@ -366,7 +366,7 @@ export const AmalaAccordion = () => {
                       When Will I see Results?
                     </div>
                     <img
-                      src="https://c.animaapp.com/mohkicncTG3NcI/assets/icon-1.svg"
+                      src="/images/amala/icon-1.svg"
                       alt="Icon"
                       className="text-base box-border caret-transparent h-[15px] leading-6 outline-[3px] w-[15px] mx-[5px] my-auto md:text-[17px] md:leading-[25.5px]"
                     />
@@ -467,7 +467,7 @@ export const AmalaAccordion = () => {
                       How Long Until I Get It?
                     </div>
                     <img
-                      src="https://c.animaapp.com/mohkicncTG3NcI/assets/icon-1.svg"
+                      src="/images/amala/icon-1.svg"
                       alt="Icon"
                       className="text-base box-border caret-transparent h-[15px] leading-6 outline-[3px] w-[15px] mx-[5px] my-auto md:text-[17px] md:leading-[25.5px]"
                     />
@@ -546,7 +546,7 @@ export const AmalaAccordion = () => {
                       Who Should Take It?
                     </div>
                     <img
-                      src="https://c.animaapp.com/mohkicncTG3NcI/assets/icon-1.svg"
+                      src="/images/amala/icon-1.svg"
                       alt="Icon"
                       className="text-base box-border caret-transparent h-[15px] leading-6 outline-[3px] w-[15px] mx-[5px] my-auto md:text-[17px] md:leading-[25.5px]"
                     />
@@ -714,7 +714,7 @@ export const AmalaAccordion = () => {
                       Results or Full Refund Guarantee
                     </div>
                     <img
-                      src="https://c.animaapp.com/mohkicncTG3NcI/assets/icon-1.svg"
+                      src="/images/amala/icon-1.svg"
                       alt="Icon"
                       className="text-base box-border caret-transparent h-[15px] leading-6 outline-[3px] w-[15px] mx-[5px] my-auto md:text-[17px] md:leading-[25.5px]"
                     />

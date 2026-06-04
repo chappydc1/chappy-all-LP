@@ -22,7 +22,7 @@ export const StickyBanner = () => {
       <div className="bg-white box-border caret-transparent gap-x-6 grid grid-cols-[max-content_1fr] grid-rows-[1fr] justify-between gap-y-6 p-2 md:gap-x-[normal] md:flex md:grid-cols-none md:grid-rows-none md:gap-y-[normal] md:pb-3.5">
         <div className="items-center box-border caret-transparent gap-x-2 grid grid-cols-[40px_1px_1fr] grid-rows-[repeat(2,20px)] min-h-[auto] min-w-[auto] md:min-h-0 md:min-w-0">
           <img
-            src="/assets/primepicks/MV8uanBn.jpg"
+            src="/images/primepicks/MV8uanBn.jpg"
             alt="PrimePicks.Review image"
             className="box-border caret-transparent col-end-2 col-start-1 row-end-3 row-start-1 h-10 max-w-full min-h-[auto] min-w-[auto] w-10 md:min-h-0 md:min-w-0"
           />
@@ -32,7 +32,7 @@ export const StickyBanner = () => {
               9.8
             </span>
             <img
-              src="/assets/primepicks/star-5.svg"
+              src="/images/primepicks/star-5.svg"
               alt="PrimePicks.Review image"
               className="box-border caret-transparent col-end-4 col-start-3 row-end-2 row-start-1 h-3 max-w-full min-h-[auto] min-w-[auto] md:min-h-0 md:min-w-0"
             />

@@ -19,7 +19,7 @@ export const PopularReadsSidebar = () => {
               <div className="absolute box-border caret-transparent outline-[3px] inset-0">
                 <img
                   alt=""
-                  src="https://c.animaapp.com/mov1hivmUrwXF6/assets/70.avif"
+                  src="/images/abc-news/70.avif"
                   className="absolute box-border caret-transparent outline-[3px] align-baseline w-full inset-0"
                 />
               </div>
@@ -63,7 +63,7 @@ export const PopularReadsSidebar = () => {
               <div className="absolute box-border caret-transparent outline-[3px] inset-0">
                 <img
                   alt=""
-                  src="https://c.animaapp.com/mov1hivmUrwXF6/assets/72.avif"
+                  src="/images/abc-news/72.avif"
                   className="absolute box-border caret-transparent outline-[3px] align-baseline w-full inset-0"
                 />
               </div>
@@ -107,7 +107,7 @@ export const PopularReadsSidebar = () => {
               <div className="absolute box-border caret-transparent outline-[3px] inset-0">
                 <img
                   alt=""
-                  src="https://c.animaapp.com/mov1hivmUrwXF6/assets/71.avif"
+                  src="/images/abc-news/71.avif"
                   className="absolute box-border caret-transparent outline-[3px] align-baseline w-full inset-0"
                 />
               </div>
@@ -151,7 +151,7 @@ export const PopularReadsSidebar = () => {
               <div className="absolute box-border caret-transparent outline-[3px] inset-0">
                 <img
                   alt=""
-                  src="https://c.animaapp.com/mov1hivmUrwXF6/assets/69.avif"
+                  src="/images/abc-news/69.avif"
                   className="absolute box-border caret-transparent outline-[3px] align-baseline w-full inset-0"
                 />
               </div>

@@ -5,6 +5,7 @@ export const metadata: Metadata = {
   title: "6 Reasons Why Grüns Is Your Gut's New Bestie",
   description:
     "Your gut is like your second brain. Grüns helps it thrive with 60+ real, nutrient-dense ingredients in a fun-sized snack pack of daily gummies.",
+  icons: { icon: "/favicons/gruns.svg" },
 };
 
 export default function GrunsLayout({

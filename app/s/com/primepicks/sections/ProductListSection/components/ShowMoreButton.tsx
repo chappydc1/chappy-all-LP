@@ -4,7 +4,7 @@ export const ShowMoreButton = () => {
       <button className="appearance-none bg-transparent caret-transparent w-full mx-auto p-0">
         <i className="relative text-stone-300 italic bg-stone-50 box-border caret-transparent block h-12 leading-[44px] w-12 z-[100] border border-stone-300 mx-auto rounded-[50%] border-solid">
           <img
-            src="/assets/primepicks/icon-2.svg"
+            src="/images/primepicks/icon-2.svg"
             alt="Icon"
             className="box-border caret-transparent h-6 w-6 mt-3 mx-auto"
           />

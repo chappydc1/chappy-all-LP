@@ -13,7 +13,7 @@ export const HealingMethodsSection = () => {
             titleVariant="mb-5"
             mediaContainerVariant="md:mt-px"
             videoSrc="https://cdn.shopify.com/videos/c/o/v/f87276f9c80c47d49b99da496add8a00.mp4"
-            videoPoster="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1728700717503_alleviate_pain_in_minutes.webp"
+            videoPoster="/images/rejuvacare/1728700717503_alleviate_pain_in_minutes.webp"
             videoVariant="h-full"
           />
           <SplitText
@@ -67,19 +67,19 @@ export const HealingMethodsSection = () => {
               <div className="box-border caret-transparent outline-[3px]"></div>
             </div>
             <MethodItem
-              imageSrc="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722826373249_num_circle_1.webp"
+              imageSrc="/images/rejuvacare/1722826373249_num_circle_1.webp"
               title="Soothing Heat :"
               description="Heat boosts circulation and brings healing nutrients to damaged cartilage. The warmth relaxes the muscles and tendons around the joint, making them more pliable and less prone to pain."
               showBreak="true"
             />
             <MethodItem
-              imageSrc="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722826366022_num_circle_2.webp"
+              imageSrc="/images/rejuvacare/1722826366022_num_circle_2.webp"
               title="Therapeutic Massage :"
               description="Micro-vibration nodes mimic the hands of a massage therapist to relax muscles, ease stiffness, and promote joint lubrication. Usually, you would need to go to a clinic to achieve these benefits but with RejuvaKnee you can get them from the comfort of your own home."
               showBreak="true"
             />
             <MethodItem
-              imageSrc="https://c.animaapp.com/mpy7eadgYZFUdm/assets/1722826593777_num_circle_3.webp"
+              imageSrc="/images/rejuvacare/1722826593777_num_circle_3.webp"
               title="Dynamic Compression :"
               description="Finally, you have dynamic compression, which applies the ideal amount of pressure, relieving stress on the joint and allowing the cartilage to regenerate. This technique acts as the “Amplifier” or the “Glue” that boosts the effects of all three techniques when combined giving you almost complete relief and massively increasing mobility"
               showBreak="true"
