@@ -1,11 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  async redirects() {
-    return [
-      { source: "/", destination: "/s/a/spartan", permanent: false },
-    ];
-  },
+  output: "export",
+  trailingSlash: true,
   images: {
+    unoptimized: true,
     remotePatterns: [
       { protocol: "https", hostname: "c.animaapp.com" },
       { protocol: "https", hostname: "cdn.shopify.com" },

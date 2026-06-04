@@ -1,7 +1,6 @@
 import { App } from "./App";
 
-// force-dynamic: skip static prerendering (Next.js 16 Turbopack workaround)
-export const dynamic = "force-dynamic";
+export const dynamic = "force-static";
 
 export const metadata = {
   title: "5 Reasons Why People are Switching to Microdosed Gummies | Feals",
