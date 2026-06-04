@@ -136,7 +136,7 @@ export const PricingSection = () => {
           />
         </ul>
         <img
-          src="/images/today/medalhas.png
+          src="/images/today/medalhas.png"
           alt=""
           className="box-border caret-transparent max-w-full object-contain outline-[3px]"
         />

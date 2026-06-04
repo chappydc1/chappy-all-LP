@@ -2,7 +2,7 @@ export const GuaranteeSection = () => {
   return (
     <section className="items-center bg-blue-50 box-border caret-transparent gap-x-0 flex flex-col max-w-[1210px] outline-[3px] gap-y-0 w-full border border-blue-100 mx-auto px-6 py-8 rounded-[20px] border-solid md:gap-x-12 md:flex-row md:max-w-screen-xl md:gap-y-12 md:px-20 md:py-16">
       <img
-        src="/images/today/selo.svg
+        src="/images/today/selo.svg"
         alt="Guarantee"
         className="box-border caret-transparent max-w-full object-contain outline-[3px]"
       />
