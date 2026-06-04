@@ -8,7 +8,7 @@ export const VideoPlayer = () => {
           className="absolute box-border caret-transparent h-full max-w-full object-contain outline-[3px] w-full z-[2] left-0 top-0"
         />
         <video
-          poster="/images/today/thumbnail.jpg
+          poster="/images/today/thumbnail.jpg"
           playsInline
           preload="metadata"
           src="blob://https://sugarhealthnotice.com/36a15415-5021-44dd-b6db-71268e39cf3d"
