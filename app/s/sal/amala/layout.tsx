@@ -5,6 +5,7 @@ export const metadata: Metadata = {
   title: "PrimeCell H2 — Cellular Energy & Anti-Aging Support | Amala",
   description:
     "PrimeCell H2 molecular hydrogen tablets help restore cellular balance, support energy production, and defend against oxidative stress. Trusted by 45,000+ customers.",
+  icons: { icon: "/favicons/amala.svg" },
 };
 
 const libreFranklin = Libre_Franklin({
