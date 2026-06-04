@@ -40,7 +40,7 @@ export const AmalaComparisonSection = () => {
               className="items-center box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full"
             >
               <img
-                src="https://c.animaapp.com/mohkicncTG3NcI/assets/18.svg"
+                src="/s/sal/amala/18.svg"
                 alt=""
                 title=""
                 className="absolute box-border caret-transparent max-w-full outline-[3px] w-full top-0 md:top-[-45px]"
@@ -54,7 +54,7 @@ export const AmalaComparisonSection = () => {
               className="items-center box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full"
             >
               <img
-                src="https://c.animaapp.com/mohkicncTG3NcI/assets/19.svg"
+                src="/s/sal/amala/19.svg"
                 alt=""
                 title=""
                 className="absolute box-border caret-transparent max-w-full outline-[3px] w-full bottom-0 md:bottom-[-45px]"
@@ -112,7 +112,7 @@ export const AmalaComparisonSection = () => {
                                       className="items-center box-border caret-transparent flex flex-col mt-[-55px] min-h-[auto] min-w-[auto] outline-[3px] w-full md:mt-[-175px]"
                                     >
                                       <img
-                                        src="https://c.animaapp.com/mohkicncTG3NcI/assets/1763722198516_PRIME_CELL_H2_hero_.webp"
+                                        src="/s/sal/amala/1763722198516_PRIME_CELL_H2_hero_.webp"
                                         alt=""
                                         title=""
                                         className="aspect-square box-border caret-transparent h-full max-w-full min-h-[auto] min-w-[auto] object-scale-down outline-[3px] w-[225px] md:h-auto"
@@ -188,7 +188,7 @@ export const AmalaComparisonSection = () => {
                                       className="items-center box-border caret-transparent flex flex-col mt-[-55px] min-h-[auto] min-w-[auto] outline-[3px] w-full md:mt-[-175px]"
                                     >
                                       <img
-                                        src="https://c.animaapp.com/mohkicncTG3NcI/assets/2.png"
+                                        src="/s/sal/amala/2.png"
                                         alt=""
                                         title=""
                                         className="aspect-square box-border caret-transparent h-full max-w-full min-h-[auto] min-w-[auto] object-scale-down outline-[3px] w-[225px] md:h-auto"
@@ -234,7 +234,7 @@ export const AmalaComparisonSection = () => {
                         middleInnerClassName="text-white text-[14.0583px] box-border caret-transparent leading-[21.0875px] min-h-[auto] min-w-[auto] outline-[3px] text-center w-full md:text-xl md:leading-[30px]"
                         rightClassName=""
                         rightContentClassName="items-center box-border caret-transparent flex flex-col justify-center min-w-[auto] outline-[3px]"
-                        rightIconSrc="https://c.animaapp.com/mohkicncTG3NcI/assets/1.svg"
+                        rightIconSrc="/s/sal/amala/1.svg"
                         rightText="(Neutralizes beneficial radicals too)"
                         rightTextClassName="text-black text-[10px] box-border caret-transparent leading-[15px] min-h-[auto] min-w-[auto] outline-[3px] text-center mt-px md:text-sm md:leading-[21px] md:mt-[5px]"
                       />
@@ -254,7 +254,7 @@ export const AmalaComparisonSection = () => {
                         middleInnerClassName="text-white text-[14.0583px] box-border caret-transparent leading-[21.0875px] min-h-[auto] min-w-[auto] outline-[3px] text-center w-full md:text-xl md:leading-[30px]"
                         rightClassName="py-px"
                         rightContentClassName="items-center box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full"
-                        rightIconSrc="https://c.animaapp.com/mohkicncTG3NcI/assets/1.svg"
+                        rightIconSrc="/s/sal/amala/1.svg"
                         rightText="(Most cannot penetrate)"
                         rightTextClassName="text-black text-[10px] box-border caret-transparent leading-[15px] min-h-[auto] min-w-[auto] outline-[3px] text-center mt-px md:text-sm md:leading-[21px] md:mt-[5px]"
                       />
@@ -274,7 +274,7 @@ export const AmalaComparisonSection = () => {
                         middleInnerClassName="text-white text-[14.0583px] box-border caret-transparent leading-[21.0875px] min-h-[auto] min-w-[auto] outline-[3px] text-center w-full md:text-xl md:leading-[30px]"
                         rightClassName=""
                         rightContentClassName="items-center box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full"
-                        rightIconSrc="https://c.animaapp.com/mohkicncTG3NcI/assets/1.svg"
+                        rightIconSrc="/s/sal/amala/1.svg"
                         rightText="(Limited or no access)"
                         rightTextClassName="text-black text-[10px] box-border caret-transparent leading-[15px] min-h-[auto] min-w-[auto] outline-[3px] text-center mt-[5px] md:text-sm md:leading-[21px]"
                       />
@@ -294,7 +294,7 @@ export const AmalaComparisonSection = () => {
                         middleInnerClassName="text-white text-[14.0583px] box-border caret-transparent leading-[21.0875px] min-h-[auto] min-w-[auto] outline-[3px] text-center w-full md:text-xl md:leading-[30px]"
                         rightClassName=""
                         rightContentClassName="items-center box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full my-2.5"
-                        rightIconSrc="https://c.animaapp.com/mohkicncTG3NcI/assets/alert-triangle-yellow-512.png"
+                        rightIconSrc="/s/sal/amala/alert-triangle-yellow-512.png"
                         rightText="(Minimal or inconsistent)"
                         rightTextClassName="text-black text-[9px] box-border caret-transparent leading-[13.5px] min-h-[auto] min-w-[auto] outline-[3px] text-center mt-[5px] md:text-sm md:leading-[21px]"
                       />
@@ -314,7 +314,7 @@ export const AmalaComparisonSection = () => {
                         middleText="No pro-oxidant effect at any dose"
                         rightClassName="self-center"
                         rightContentClassName="items-center box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full"
-                        rightIconSrc="https://c.animaapp.com/mohkicncTG3NcI/assets/1.svg"
+                        rightIconSrc="/s/sal/amala/1.svg"
                         rightText="(Can become pro-oxidant)"
                         rightTextClassName="text-black text-[9px] box-border caret-transparent leading-[13.5px] min-h-[auto] min-w-[auto] outline-[3px] text-center mt-[5px] md:text-sm md:leading-[21px]"
                       />
@@ -334,7 +334,7 @@ export const AmalaComparisonSection = () => {
                         middleInnerClassName="text-white text-[14.0583px] box-border caret-transparent leading-[21.0875px] min-h-[auto] min-w-[auto] outline-[3px] text-center w-full md:text-xl md:leading-[30px]"
                         rightClassName=""
                         rightContentClassName="items-center box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full"
-                        rightIconSrc="https://c.animaapp.com/mohkicncTG3NcI/assets/1.svg"
+                        rightIconSrc="/s/sal/amala/1.svg"
                         rightText="(No energy mechanism)"
                         rightTextClassName="text-black text-[10px] box-border caret-transparent leading-[15px] min-h-[auto] min-w-[auto] outline-[3px] text-center mt-[5px] md:text-sm md:leading-[21px]"
                       />
@@ -354,7 +354,7 @@ export const AmalaComparisonSection = () => {
                         middleInnerClassName="text-[14.0583px] box-border caret-transparent leading-[21.0875px] min-h-[auto] min-w-[auto] outline-[3px] text-center w-full md:text-xl md:leading-[30px]"
                         rightClassName=""
                         rightContentClassName="items-center box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full"
-                        rightIconSrc="https://c.animaapp.com/mohkicncTG3NcI/assets/1.svg"
+                        rightIconSrc="/s/sal/amala/1.svg"
                         rightText="(May impair adaptation)"
                         rightTextClassName="text-black text-[10px] box-border caret-transparent leading-[15px] min-h-[auto] min-w-[auto] outline-[3px] text-center mt-[5px] md:text-sm md:leading-[21px]"
                       />
@@ -374,7 +374,7 @@ export const AmalaComparisonSection = () => {
                         middleInnerClassName="text-[14.0583px] box-border caret-transparent leading-[21.0875px] min-h-[auto] min-w-[auto] outline-[3px] text-center w-full md:text-xl md:leading-[30px]"
                         rightClassName=""
                         rightContentClassName="items-center box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full"
-                        rightIconSrc="https://c.animaapp.com/mohkicncTG3NcI/assets/alert-triangle-yellow-512.png"
+                        rightIconSrc="/s/sal/amala/alert-triangle-yellow-512.png"
                         rightText="(Mixed or limited evidence)"
                         rightTextClassName="text-black text-[10px] box-border caret-transparent leading-[15px] min-h-[auto] min-w-[auto] outline-[3px] text-center mt-[5px] md:text-sm md:leading-[21px]"
                       />
@@ -394,7 +394,7 @@ export const AmalaComparisonSection = () => {
                         middleInnerClassName="text-[14.0583px] box-border caret-transparent leading-[21.0875px] min-h-[auto] min-w-[auto] outline-[3px] text-center w-full md:text-xl md:leading-[30px]"
                         rightClassName=""
                         rightContentClassName="items-center box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full"
-                        rightIconSrc="https://c.animaapp.com/mohkicncTG3NcI/assets/alert-triangle-yellow-512.png"
+                        rightIconSrc="/s/sal/amala/alert-triangle-yellow-512.png"
                         rightText="(Often unverified)"
                         rightTextClassName="text-black text-[10px] box-border caret-transparent leading-[15px] min-h-[auto] min-w-[auto] outline-[3px] text-center mt-[5px] md:text-sm md:leading-[21px]"
                       />
@@ -414,7 +414,7 @@ export const AmalaComparisonSection = () => {
                         middleInnerClassName="text-white text-[14.0583px] box-border caret-transparent leading-[21.0875px] min-h-[auto] min-w-[auto] outline-[3px] text-center w-full md:text-xl md:leading-[30px]"
                         rightClassName="my-px py-px"
                         rightContentClassName="items-center box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full"
-                        rightIconSrc="https://c.animaapp.com/mohkicncTG3NcI/assets/1.svg"
+                        rightIconSrc="/s/sal/amala/1.svg"
                         rightText="(Various GI and interaction issues)"
                         rightTextClassName="text-black text-[9px] box-border caret-transparent leading-[13.5px] min-h-[auto] min-w-[auto] outline-[3px] text-center mt-[5px] md:text-sm md:leading-[21px]"
                       />
@@ -450,7 +450,7 @@ export const AmalaComparisonSection = () => {
                 mediaInnerVariant="min-h-[auto] min-w-[auto]"
                 mediaItemVariant="min-h-[auto]"
                 imageWrapperVariant="min-h-[auto] min-w-[auto]"
-                imageSrc="https://c.animaapp.com/mohkicncTG3NcI/assets/20.svg"
+                imageSrc="/s/sal/amala/20.svg"
                 imageAlt=""
                 imageSizes=""
                 imageClassName="min-h-[auto] min-w-[auto]"

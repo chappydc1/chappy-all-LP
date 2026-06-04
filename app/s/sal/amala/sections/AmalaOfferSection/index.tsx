@@ -46,7 +46,7 @@ export const AmalaOfferSection = () => {
                               className="items-center box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full"
                             >
                               <img
-                                src="https://c.animaapp.com/mohkicncTG3NcI/assets/1763722198516_PRIME_CELL_H2_hero_.webp"
+                                src="/s/sal/amala/1763722198516_PRIME_CELL_H2_hero_.webp"
                                 alt=""
                                 title=""
                                 className="box-border caret-transparent h-full max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full"
@@ -91,7 +91,7 @@ export const AmalaOfferSection = () => {
                     </div>
                     <img
                       title=""
-                      src="https://c.animaapp.com/mohkicncTG3NcI/assets/6.svg"
+                      src="/s/sal/amala/6.svg"
                       alt=""
                       className="text-black box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-[70px] mr-2 md:w-20"
                     />
@@ -100,7 +100,7 @@ export const AmalaOfferSection = () => {
                     </div>
                     <img
                       title=""
-                      src="https://c.animaapp.com/mohkicncTG3NcI/assets/5.svg"
+                      src="/s/sal/amala/5.svg"
                       alt=""
                       className="text-black box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-[70px] md:w-20"
                     />
@@ -168,7 +168,7 @@ export const AmalaOfferSection = () => {
                               className="items-center box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full"
                             >
                               <img
-                                src="https://c.animaapp.com/mohkicncTG3NcI/assets/8.png"
+                                src="/s/sal/amala/8.png"
                                 alt=""
                                 title=""
                                 className="box-border caret-transparent h-full max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full"
@@ -198,7 +198,7 @@ export const AmalaOfferSection = () => {
                               className="items-center box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full"
                             >
                               <img
-                                src="https://c.animaapp.com/mohkicncTG3NcI/assets/1763702956506_1730181221_checkIcon.svg"
+                                src="/s/sal/amala/1763702956506_1730181221_checkIcon.svg"
                                 alt=""
                                 title=""
                                 className="box-border caret-transparent h-5 max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-5"
@@ -281,7 +281,7 @@ export const AmalaOfferSection = () => {
               className="items-center box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full"
             >
               <img
-                src="https://c.animaapp.com/mohkicncTG3NcI/assets/18.svg"
+                src="/s/sal/amala/18.svg"
                 alt=""
                 title=""
                 className="absolute box-border caret-transparent hidden max-w-full outline-[3px] w-full top-0 md:top-[-45px]"
@@ -295,7 +295,7 @@ export const AmalaOfferSection = () => {
               className="items-center box-border caret-transparent hidden flex-col outline-[3px] w-full"
             >
               <img
-                src="https://c.animaapp.com/mohkicncTG3NcI/assets/19.svg"
+                src="/s/sal/amala/19.svg"
                 alt=""
                 title=""
                 className="absolute box-border caret-transparent max-w-full outline-[3px] w-full bottom-0 md:bottom-[-45px]"

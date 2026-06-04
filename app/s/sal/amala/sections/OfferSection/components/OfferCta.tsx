@@ -140,7 +140,7 @@ export const OfferCta = () => {
               </div>
               <img
                 title=""
-                src="https://c.animaapp.com/mohkicncTG3NcI/assets/1762909958048_doctor.webp"
+                src="/s/sal/amala/1762909958048_doctor.webp"
                 alt=""
                 className="text-black box-border caret-transparent h-3/6 max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-2/5"
               />

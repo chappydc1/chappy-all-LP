@@ -52,7 +52,7 @@ export const AmalaApp = ({ contentSections, productHero }: AmalaAppProps) => {
                   "bg-zinc-300/30 flex flex-col w-full border border-zinc-700 rounded-[10px] border-solid md:flex-row",
                 imageWrapperVariant: "w-full md:w-[70%]",
                 imageUrl:
-                  "https://c.animaapp.com/mohkicncTG3NcI/assets/1763159900122_testemonial_card01.webp",
+                  "/s/sal/amala/1763159900122_testemonial_card01.webp",
                 imageAlt: "",
                 imageClassName:
                   "text-black inline border-zinc-700 rounded-l-[10px] border-b border-l border-t border-solid",
@@ -60,7 +60,7 @@ export const AmalaApp = ({ contentSections, productHero }: AmalaAppProps) => {
                   '"PiPi Tea Ceremonial Matcha is my new moment of self-care in the morning! It’s the most delicious and pure matcha I’ve ever tasted. Every morning feels like a little ritual now. You can really taste the quality in every sip."',
                 quoteClassName: "text-lg leading-[27px] mb-[15px]",
                 ratingImageUrl:
-                  "https://c.animaapp.com/mohkicncTG3NcI/assets/1760839096564_trustpilot_review.png",
+                  "/s/sal/amala/1760839096564_trustpilot_review.png",
                 ratingImageAlt: "",
                 reviewerName: "Chloe B.",
                 reviewerNameClassName:
@@ -69,7 +69,7 @@ export const AmalaApp = ({ contentSections, productHero }: AmalaAppProps) => {
                 verifiedTextClassName:
                   "text-[16.9583px] leading-[25.4375px] md:text-base md:leading-6",
                 badgeIconUrl:
-                  "https://c.animaapp.com/mohkicncTG3NcI/assets/28.png",
+                  "/s/sal/amala/28.png",
                 badgeIconAlt: "",
                 avatarUrl: "",
                 avatarAlt: "",
@@ -87,7 +87,7 @@ export const AmalaApp = ({ contentSections, productHero }: AmalaAppProps) => {
                   "bg-zinc-300/30 w-full border border-zinc-700 rounded-[10px] border-solid",
                 imageWrapperVariant: "w-[70%]",
                 imageUrl:
-                  "https://c.animaapp.com/mohkicncTG3NcI/assets/1763160922349_testemonial_card02.webp",
+                  "/s/sal/amala/1763160922349_testemonial_card02.webp",
                 imageAlt: "",
                 imageClassName:
                   "text-black inline border-zinc-700 rounded-l-[10px] border-b border-l border-t border-solid",
@@ -95,7 +95,7 @@ export const AmalaApp = ({ contentSections, productHero }: AmalaAppProps) => {
                   '"This organic ceremonial matcha has been amazing for helping me maintain emotional balance and reduce feelings of stress and irritability throughout the day. it gives me steady, clean energy without the crazy crashes that coffee does!"',
                 quoteClassName: "text-lg",
                 ratingImageUrl:
-                  "https://c.animaapp.com/mohkicncTG3NcI/assets/1760839096564_trustpilot_review.png",
+                  "/s/sal/amala/1760839096564_trustpilot_review.png",
                 ratingImageAlt: "",
                 reviewerName: "Isabella K. ",
                 reviewerNameClassName:
@@ -104,7 +104,7 @@ export const AmalaApp = ({ contentSections, productHero }: AmalaAppProps) => {
                 verifiedTextClassName:
                   "text-lime-600 text-[16.9583px] box-border caret-transparent leading-[25.4375px] outline-[3px] md:text-base md:leading-6",
                 badgeIconUrl:
-                  "https://c.animaapp.com/mohkicncTG3NcI/assets/28.png",
+                  "/s/sal/amala/28.png",
                 badgeIconAlt: "",
                 avatarUrl: "",
                 avatarAlt: "",
@@ -122,7 +122,7 @@ export const AmalaApp = ({ contentSections, productHero }: AmalaAppProps) => {
                   "bg-zinc-300/30 w-full border border-zinc-700 rounded-[10px] border-solid",
                 imageWrapperVariant: "w-[70%]",
                 imageUrl:
-                  "https://c.animaapp.com/mohkicncTG3NcI/assets/1763161308906_testemonial_card03.webp",
+                  "/s/sal/amala/1763161308906_testemonial_card03.webp",
                 imageAlt: "",
                 imageClassName:
                   "text-black inline border-zinc-700 rounded-l-[10px] border-b border-l border-t border-solid",
@@ -130,7 +130,7 @@ export const AmalaApp = ({ contentSections, productHero }: AmalaAppProps) => {
                   "\"I'm very picky about the matcha I drink, and this one just hits different! It's 100% organic, so it has this naturally smooth and slightly sweet flavor. I love having it in the morning — it gets me through the rest of the day without feeling tired or drained.\"",
                 quoteClassName: "text-lg leading-[27px]",
                 ratingImageUrl:
-                  "https://c.animaapp.com/mohkicncTG3NcI/assets/1760839096564_trustpilot_review.png",
+                  "/s/sal/amala/1760839096564_trustpilot_review.png",
                 ratingImageAlt: "",
                 reviewerName: "Mia S.",
                 reviewerNameClassName:
@@ -139,7 +139,7 @@ export const AmalaApp = ({ contentSections, productHero }: AmalaAppProps) => {
                 verifiedTextClassName:
                   "text-lime-600 text-[16.9583px] box-border caret-transparent leading-[25.4375px] outline-[3px] md:text-base md:leading-6",
                 badgeIconUrl:
-                  "https://c.animaapp.com/mohkicncTG3NcI/assets/28.png",
+                  "/s/sal/amala/28.png",
                 badgeIconAlt: "",
                 avatarUrl: "",
                 avatarAlt: "",
@@ -157,7 +157,7 @@ export const AmalaApp = ({ contentSections, productHero }: AmalaAppProps) => {
                   "bg-zinc-300/30 w-full border border-zinc-700 rounded-[10px] border-solid",
                 imageWrapperVariant: "w-[70%]",
                 imageUrl:
-                  "https://c.animaapp.com/mohkicncTG3NcI/assets/1763161513697_testemonial_card04.webp",
+                  "/s/sal/amala/1763161513697_testemonial_card04.webp",
                 imageAlt: "",
                 imageClassName:
                   "text-black inline border-zinc-700 rounded-l-[10px] border-b border-l border-t border-solid",
@@ -165,7 +165,7 @@ export const AmalaApp = ({ contentSections, productHero }: AmalaAppProps) => {
                   '"The flavor of this matcha is extraordinary, and I absolutely love how I feel after drinking it in the morning. It makes me feel so good and relaxed every time. The quality is exceptional, and it has definitely become a staple in my daily routine."',
                 quoteClassName: "text-lg leading-[27px]",
                 ratingImageUrl:
-                  "https://c.animaapp.com/mohkicncTG3NcI/assets/1760839096564_trustpilot_review.png",
+                  "/s/sal/amala/1760839096564_trustpilot_review.png",
                 ratingImageAlt: "",
                 reviewerName: "Sophia B. ",
                 reviewerNameClassName:
@@ -174,7 +174,7 @@ export const AmalaApp = ({ contentSections, productHero }: AmalaAppProps) => {
                 verifiedTextClassName:
                   "text-[16.9583px] leading-[25.4375px] md:text-base md:leading-6",
                 badgeIconUrl:
-                  "https://c.animaapp.com/mohkicncTG3NcI/assets/28.png",
+                  "/s/sal/amala/28.png",
                 badgeIconAlt: "",
                 avatarUrl: "",
                 avatarAlt: "",
@@ -194,7 +194,7 @@ export const AmalaApp = ({ contentSections, productHero }: AmalaAppProps) => {
                   "bg-zinc-300/30 flex flex-col w-full border border-zinc-700 rounded-[10px] border-solid md:flex-row",
                 imageWrapperVariant: "w-full md:w-[70%]",
                 imageUrl:
-                  "https://c.animaapp.com/mohkicncTG3NcI/assets/1763162111286_testemonial_card01_mobile.webp",
+                  "/s/sal/amala/1763162111286_testemonial_card01_mobile.webp",
                 imageAlt: "",
                 imageClassName:
                   "text-black inline border-zinc-700 rounded-t-[10px] rounded-bl-none border-b-0 border-l border-r border-t border-solid md:rounded-tr-none md:rounded-bl-[10px] md:border-r-0 md:border-b",
@@ -203,7 +203,7 @@ export const AmalaApp = ({ contentSections, productHero }: AmalaAppProps) => {
                 quoteClassName:
                   "text-black text-base box-border caret-transparent leading-6 outline-[3px] text-left mb-[15px] md:text-lg md:leading-[27px]",
                 ratingImageUrl:
-                  "https://c.animaapp.com/mohkicncTG3NcI/assets/1760839096564_trustpilot_review.png",
+                  "/s/sal/amala/1760839096564_trustpilot_review.png",
                 ratingImageAlt: "",
                 reviewerName: "Chloe B.",
                 reviewerNameClassName:
@@ -212,7 +212,7 @@ export const AmalaApp = ({ contentSections, productHero }: AmalaAppProps) => {
                 verifiedTextClassName:
                   "text-[16.9583px] box-border caret-transparent leading-[25.4375px] outline-[3px] md:text-base md:leading-6",
                 badgeIconUrl:
-                  "https://c.animaapp.com/mohkicncTG3NcI/assets/28.png",
+                  "/s/sal/amala/28.png",
                 badgeIconAlt: "",
                 avatarUrl: "",
                 avatarAlt: "",
@@ -230,7 +230,7 @@ export const AmalaApp = ({ contentSections, productHero }: AmalaAppProps) => {
                   "bg-zinc-300/30 flex-col w-full border border-zinc-700 rounded-[10px] border-solid md:flex-row",
                 imageWrapperVariant: "w-full md:w-[70%]",
                 imageUrl:
-                  "https://c.animaapp.com/mohkicncTG3NcI/assets/1763162175131_testemonial_card02_mobile.webp",
+                  "/s/sal/amala/1763162175131_testemonial_card02_mobile.webp",
                 imageAlt: "",
                 imageClassName:
                   "text-black inline border-zinc-700 rounded-tl-[10px] rounded-bl-none border-b-0 border-l border-r border-t border-solid md:rounded-bl-[10px] md:border-r-0 md:border-b",
@@ -239,7 +239,7 @@ export const AmalaApp = ({ contentSections, productHero }: AmalaAppProps) => {
                 quoteClassName:
                   "text-[15px] leading-[22.5px] md:text-lg md:leading-[27px]",
                 ratingImageUrl:
-                  "https://c.animaapp.com/mohkicncTG3NcI/assets/1760839096564_trustpilot_review.png",
+                  "/s/sal/amala/1760839096564_trustpilot_review.png",
                 ratingImageAlt: "",
                 reviewerName: "Isabella K.",
                 reviewerNameClassName:
@@ -248,7 +248,7 @@ export const AmalaApp = ({ contentSections, productHero }: AmalaAppProps) => {
                 verifiedTextClassName:
                   "text-lime-600 text-[16.9583px] box-border caret-transparent leading-[25.4375px] outline-[3px] md:text-base md:leading-6",
                 badgeIconUrl:
-                  "https://c.animaapp.com/mohkicncTG3NcI/assets/28.png",
+                  "/s/sal/amala/28.png",
                 badgeIconAlt: "",
                 avatarUrl: "",
                 avatarAlt: "",
@@ -266,7 +266,7 @@ export const AmalaApp = ({ contentSections, productHero }: AmalaAppProps) => {
                   "bg-zinc-300/30 flex-col w-full border border-zinc-700 rounded-[10px] border-solid md:flex-row",
                 imageWrapperVariant: "w-full md:w-[70%]",
                 imageUrl:
-                  "https://c.animaapp.com/mohkicncTG3NcI/assets/1763162328868_testemonial_card03_mobile.webp",
+                  "/s/sal/amala/1763162328868_testemonial_card03_mobile.webp",
                 imageAlt: "",
                 imageClassName:
                   "text-black inline border-zinc-700 rounded-t-[10px] rounded-bl-none border-b-0 border-l border-r border-t border-solid md:rounded-tr-none md:rounded-bl-[10px] md:border-r-0 md:border-b",
@@ -275,7 +275,7 @@ export const AmalaApp = ({ contentSections, productHero }: AmalaAppProps) => {
                 quoteClassName:
                   "text-base leading-6 md:text-lg md:leading-[27px]",
                 ratingImageUrl:
-                  "https://c.animaapp.com/mohkicncTG3NcI/assets/1760839096564_trustpilot_review.png",
+                  "/s/sal/amala/1760839096564_trustpilot_review.png",
                 ratingImageAlt: "",
                 reviewerName: "Mia S.",
                 reviewerNameClassName:
@@ -284,7 +284,7 @@ export const AmalaApp = ({ contentSections, productHero }: AmalaAppProps) => {
                 verifiedTextClassName:
                   "text-lime-600 text-[16.9583px] leading-[25.4375px] md:text-base md:leading-6",
                 badgeIconUrl:
-                  "https://c.animaapp.com/mohkicncTG3NcI/assets/28.png",
+                  "/s/sal/amala/28.png",
                 badgeIconAlt: "",
                 avatarUrl: "",
                 avatarAlt: "",
@@ -302,7 +302,7 @@ export const AmalaApp = ({ contentSections, productHero }: AmalaAppProps) => {
                   "bg-zinc-300/30 flex flex-col w-full border border-zinc-700 rounded-[10px] border-solid md:flex-row",
                 imageWrapperVariant: "w-full md:w-[70%]",
                 imageUrl:
-                  "https://c.animaapp.com/mohkicncTG3NcI/assets/1763162413178_testemonial_card04_mobile.webp",
+                  "/s/sal/amala/1763162413178_testemonial_card04_mobile.webp",
                 imageAlt: "",
                 imageClassName:
                   "text-black inline border-zinc-700 rounded-t-[10px] rounded-bl-none border-b-0 border-l border-r border-t border-solid md:rounded-tr-none md:rounded-bl-[10px] md:border-r-0 md:border-b",
@@ -311,7 +311,7 @@ export const AmalaApp = ({ contentSections, productHero }: AmalaAppProps) => {
                 quoteClassName:
                   "text-base leading-6 md:text-lg md:leading-[27px]",
                 ratingImageUrl:
-                  "https://c.animaapp.com/mohkicncTG3NcI/assets/1760839096564_trustpilot_review.png",
+                  "/s/sal/amala/1760839096564_trustpilot_review.png",
                 ratingImageAlt: "",
                 reviewerName: "Sophia B.",
                 reviewerNameClassName:
@@ -320,7 +320,7 @@ export const AmalaApp = ({ contentSections, productHero }: AmalaAppProps) => {
                 verifiedTextClassName:
                   "text-[16.9583px] box-border caret-transparent leading-[25.4375px] outline-[3px] md:text-base md:leading-6",
                 badgeIconUrl:
-                  "https://c.animaapp.com/mohkicncTG3NcI/assets/28.png",
+                  "/s/sal/amala/28.png",
                 badgeIconAlt: "",
                 avatarUrl: "",
                 avatarAlt: "",
@@ -342,7 +342,7 @@ export const AmalaApp = ({ contentSections, productHero }: AmalaAppProps) => {
             ctaMediaInnerVariant="mt-5"
             ctaMediaItemVariant=""
             ctaImageWrapperVariant=""
-            ctaImageSrc="https://c.animaapp.com/mohkicncTG3NcI/assets/20.svg"
+            ctaImageSrc="/s/sal/amala/20.svg"
             ctaImageAlt=""
             ctaImageSizes="1170px"
             ctaImageClassName=""
@@ -361,49 +361,49 @@ export const AmalaApp = ({ contentSections, productHero }: AmalaAppProps) => {
             headingWrapperClassName="text-black text-[27.0583px] box-border caret-transparent leading-[32.47px] outline-[3px] text-center w-full md:text-[35px] md:leading-[42px]"
             desktopListWrapperClassName="box-border caret-transparent flex flex-col outline-[3px] w-full"
             mobileListWrapperClassName="box-border caret-transparent flex flex-col outline-[3px] w-full"
-            leftIconSrc="https://c.animaapp.com/mohkicncTG3NcI/assets/19.svg"
-            rightIconSrc="https://c.animaapp.com/mohkicncTG3NcI/assets/18.svg"
+            leftIconSrc="/s/sal/amala/19.svg"
+            rightIconSrc="/s/sal/amala/18.svg"
             leftIconClassName="absolute box-border caret-transparent max-w-full outline-[3px] w-full bottom-0 md:bottom-[-45px]"
             rightIconClassName="absolute box-border caret-transparent max-w-full outline-[3px] w-full top-0 md:top-[-45px]"
             showTopIcons="true"
             desktopItems={[
               {
-                imageSrc: "https://c.animaapp.com/mohkicncTG3NcI/assets/31.png",
+                imageSrc: "/s/sal/amala/31.png",
                 text: "Clean and Traceable",
                 alt: "",
                 title: "",
                 layoutVariant: "",
               },
               {
-                imageSrc: "https://c.animaapp.com/mohkicncTG3NcI/assets/32.png",
+                imageSrc: "/s/sal/amala/32.png",
                 text: "Freshly Harvested",
                 alt: "",
                 title: "",
                 layoutVariant: "",
               },
               {
-                imageSrc: "https://c.animaapp.com/mohkicncTG3NcI/assets/33.png",
+                imageSrc: "/s/sal/amala/33.png",
                 text: "No Artificial Additives",
                 alt: "",
                 title: "",
                 layoutVariant: "default",
               },
               {
-                imageSrc: "https://c.animaapp.com/mohkicncTG3NcI/assets/40.png",
+                imageSrc: "/s/sal/amala/40.png",
                 text: "Gluten Free",
                 alt: "",
                 title: "",
                 layoutVariant: "default",
               },
               {
-                imageSrc: "https://c.animaapp.com/mohkicncTG3NcI/assets/41.png",
+                imageSrc: "/s/sal/amala/41.png",
                 text: "Non-GMO",
                 alt: "",
                 title: "",
                 layoutVariant: "",
               },
               {
-                imageSrc: "https://c.animaapp.com/mohkicncTG3NcI/assets/44.png",
+                imageSrc: "/s/sal/amala/44.png",
                 text: "Manufactured in an FDA-Registered Facility",
                 alt: "",
                 title: "",
@@ -412,42 +412,42 @@ export const AmalaApp = ({ contentSections, productHero }: AmalaAppProps) => {
             ]}
             mobileItems={[
               {
-                imageSrc: "https://c.animaapp.com/mohkicncTG3NcI/assets/31.png",
+                imageSrc: "/s/sal/amala/31.png",
                 text: "Clean and Traceable",
                 alt: "",
                 title: "",
                 layoutVariant: "",
               },
               {
-                imageSrc: "https://c.animaapp.com/mohkicncTG3NcI/assets/32.png",
+                imageSrc: "/s/sal/amala/32.png",
                 text: "Freshly Harvested",
                 alt: "",
                 title: "",
                 layoutVariant: "",
               },
               {
-                imageSrc: "https://c.animaapp.com/mohkicncTG3NcI/assets/33.png",
+                imageSrc: "/s/sal/amala/33.png",
                 text: "No Artificial Additives",
                 alt: "",
                 title: "",
                 layoutVariant: "default",
               },
               {
-                imageSrc: "https://c.animaapp.com/mohkicncTG3NcI/assets/40.png",
+                imageSrc: "/s/sal/amala/40.png",
                 text: "Gluten Free",
                 alt: "",
                 title: "",
                 layoutVariant: "default",
               },
               {
-                imageSrc: "https://c.animaapp.com/mohkicncTG3NcI/assets/41.png",
+                imageSrc: "/s/sal/amala/41.png",
                 text: "Non-GMO",
                 alt: "",
                 title: "",
                 layoutVariant: "",
               },
               {
-                imageSrc: "https://c.animaapp.com/mohkicncTG3NcI/assets/44.png",
+                imageSrc: "/s/sal/amala/44.png",
                 text: "Manufactured in an FDA-Registered Facility",
                 alt: "",
                 title: "",
@@ -471,7 +471,7 @@ export const AmalaApp = ({ contentSections, productHero }: AmalaAppProps) => {
             desktopItems={[
               {
                 imageSrc:
-                  "https://c.animaapp.com/mohkicncTG3NcI/assets/1763968601409_Artboard_1_2.png",
+                  "/s/sal/amala/1763968601409_Artboard_1_2.png",
                 text: "10+ PPM Concentration",
                 alt: "",
                 title: "",
@@ -479,7 +479,7 @@ export const AmalaApp = ({ contentSections, productHero }: AmalaAppProps) => {
               },
               {
                 imageSrc:
-                  "https://c.animaapp.com/mohkicncTG3NcI/assets/1763969613132_Artboard_2.png",
+                  "/s/sal/amala/1763969613132_Artboard_2.png",
                 text: "Third-Party Tested",
                 alt: "",
                 title: "",
@@ -487,7 +487,7 @@ export const AmalaApp = ({ contentSections, productHero }: AmalaAppProps) => {
               },
               {
                 imageSrc:
-                  "https://c.animaapp.com/mohkicncTG3NcI/assets/1763969626478_Artboard_6.png",
+                  "/s/sal/amala/1763969626478_Artboard_6.png",
                 text: "No Fillers or Additives",
                 alt: "",
                 title: "",
@@ -495,7 +495,7 @@ export const AmalaApp = ({ contentSections, productHero }: AmalaAppProps) => {
               },
               {
                 imageSrc:
-                  "https://c.animaapp.com/mohkicncTG3NcI/assets/1763969636410_Artboard_5.png",
+                  "/s/sal/amala/1763969636410_Artboard_5.png",
                 text: "Non-GMO",
                 alt: "",
                 title: "",
@@ -503,7 +503,7 @@ export const AmalaApp = ({ contentSections, productHero }: AmalaAppProps) => {
               },
               {
                 imageSrc:
-                  "https://c.animaapp.com/mohkicncTG3NcI/assets/1763969646394_Artboard_3.png",
+                  "/s/sal/amala/1763969646394_Artboard_3.png",
                 text: "FDA-Registered Facility",
                 alt: "",
                 title: "",
@@ -511,7 +511,7 @@ export const AmalaApp = ({ contentSections, productHero }: AmalaAppProps) => {
               },
               {
                 imageSrc:
-                  "https://c.animaapp.com/mohkicncTG3NcI/assets/1763969660423_Artboard_4.png",
+                  "/s/sal/amala/1763969660423_Artboard_4.png",
                 text: "GMP Certified",
                 alt: "",
                 title: "",
@@ -521,7 +521,7 @@ export const AmalaApp = ({ contentSections, productHero }: AmalaAppProps) => {
             mobileItems={[
               {
                 imageSrc:
-                  "https://c.animaapp.com/mohkicncTG3NcI/assets/1763968601409_Artboard_1_2.png",
+                  "/s/sal/amala/1763968601409_Artboard_1_2.png",
                 text: "10+ PPM Concentration",
                 alt: "",
                 title: "",
@@ -529,7 +529,7 @@ export const AmalaApp = ({ contentSections, productHero }: AmalaAppProps) => {
               },
               {
                 imageSrc:
-                  "https://c.animaapp.com/mohkicncTG3NcI/assets/1763969613132_Artboard_2.png",
+                  "/s/sal/amala/1763969613132_Artboard_2.png",
                 text: "Third-Party Tested",
                 alt: "",
                 title: "",
@@ -537,7 +537,7 @@ export const AmalaApp = ({ contentSections, productHero }: AmalaAppProps) => {
               },
               {
                 imageSrc:
-                  "https://c.animaapp.com/mohkicncTG3NcI/assets/1763969626478_Artboard_6.png",
+                  "/s/sal/amala/1763969626478_Artboard_6.png",
                 text: "No Fillers or Additives",
                 alt: "",
                 title: "",
@@ -545,7 +545,7 @@ export const AmalaApp = ({ contentSections, productHero }: AmalaAppProps) => {
               },
               {
                 imageSrc:
-                  "https://c.animaapp.com/mohkicncTG3NcI/assets/1763969636410_Artboard_5.png",
+                  "/s/sal/amala/1763969636410_Artboard_5.png",
                 text: "Non-GMO",
                 alt: "",
                 title: "",
@@ -553,7 +553,7 @@ export const AmalaApp = ({ contentSections, productHero }: AmalaAppProps) => {
               },
               {
                 imageSrc:
-                  "https://c.animaapp.com/mohkicncTG3NcI/assets/1763969646394_Artboard_3.png",
+                  "/s/sal/amala/1763969646394_Artboard_3.png",
                 text: "FDA-Registered Facility",
                 alt: "",
                 title: "",
@@ -561,7 +561,7 @@ export const AmalaApp = ({ contentSections, productHero }: AmalaAppProps) => {
               },
               {
                 imageSrc:
-                  "https://c.animaapp.com/mohkicncTG3NcI/assets/1763969660423_Artboard_4.png",
+                  "/s/sal/amala/1763969660423_Artboard_4.png",
                 text: "GMP Certified",
                 alt: "",
                 title: "",
@@ -632,7 +632,7 @@ export const AmalaApp = ({ contentSections, productHero }: AmalaAppProps) => {
                                     className="items-center box-border caret-transparent flex flex-col outline-[3px] w-full mb-5"
                                   >
                                     <img
-                                      src="https://c.animaapp.com/mohkicncTG3NcI/assets/1762567172520_Step01.webp"
+                                      src="/s/sal/amala/1762567172520_Step01.webp"
                                       alt=""
                                       title=""
                                       className="box-border caret-transparent h-full max-w-full outline-[3px] w-full rounded-md"
@@ -725,7 +725,7 @@ export const AmalaApp = ({ contentSections, productHero }: AmalaAppProps) => {
                                     className="items-center box-border caret-transparent flex flex-col outline-[3px] w-full mb-5"
                                   >
                                     <img
-                                      src="https://c.animaapp.com/mohkicncTG3NcI/assets/1762906518710_step02_v2.webp"
+                                      src="/s/sal/amala/1762906518710_step02_v2.webp"
                                       alt=""
                                       title=""
                                       className="box-border caret-transparent h-full max-w-full outline-[3px] w-full rounded-md"
@@ -819,7 +819,7 @@ export const AmalaApp = ({ contentSections, productHero }: AmalaAppProps) => {
                                     className="items-center box-border caret-transparent flex flex-col outline-[3px] w-full mb-5"
                                   >
                                     <img
-                                      src="https://c.animaapp.com/mohkicncTG3NcI/assets/1762907146975_step03_v2.webp"
+                                      src="/s/sal/amala/1762907146975_step03_v2.webp"
                                       alt=""
                                       title=""
                                       className="box-border caret-transparent h-full max-w-full outline-[3px] w-full rounded-md"
@@ -884,7 +884,7 @@ export const AmalaApp = ({ contentSections, productHero }: AmalaAppProps) => {
             title="What Our Customers Are Saying"
             showRatingSummary="true"
             ratingValue="4.8"
-            ratingImageUrl="https://c.animaapp.com/mohkicncTG3NcI/assets/7.png"
+            ratingImageUrl="/s/sal/amala/7.png"
             ratingImageAlt=""
             ratingLabel="Average Rating"
             ratingSummaryRows={[
@@ -892,35 +892,35 @@ export const AmalaApp = ({ contentSections, productHero }: AmalaAppProps) => {
                 percentage: "88%",
                 barWidthClassName: "w-[88%]",
                 starsImageUrl:
-                  "https://c.animaapp.com/mohkicncTG3NcI/assets/7.png",
+                  "/s/sal/amala/7.png",
                 starsImageAlt: "",
               },
               {
                 percentage: "12%",
                 barWidthClassName: "w-[12%]",
                 starsImageUrl:
-                  "https://c.animaapp.com/mohkicncTG3NcI/assets/9.png",
+                  "/s/sal/amala/9.png",
                 starsImageAlt: "",
               },
               {
                 percentage: "0%",
                 barWidthClassName: "w-[0%]",
                 starsImageUrl:
-                  "https://c.animaapp.com/mohkicncTG3NcI/assets/10.png",
+                  "/s/sal/amala/10.png",
                 starsImageAlt: "",
               },
               {
                 percentage: "0%",
                 barWidthClassName: "w-[0%]",
                 starsImageUrl:
-                  "https://c.animaapp.com/mohkicncTG3NcI/assets/11.png",
+                  "/s/sal/amala/11.png",
                 starsImageAlt: "",
               },
               {
                 percentage: "0%",
                 barWidthClassName: "w-[0%]",
                 starsImageUrl:
-                  "https://c.animaapp.com/mohkicncTG3NcI/assets/13.png",
+                  "/s/sal/amala/13.png",
                 starsImageAlt: "",
               },
             ]}
@@ -928,7 +928,7 @@ export const AmalaApp = ({ contentSections, productHero }: AmalaAppProps) => {
             desktopTestimonials={[
               {
                 layout: "compact",
-                avatarUrl: "https://assets.checkoutchamp.com/3bc8af90-85fe-11ef-a68d-8b09191f78ae/1763722487387_customer_2.webp",
+                avatarUrl: "/s/sal/amala/1763722487387_customer_2.webp",
                 avatarAlt: "",
                 imageUrl: "",
                 imageAlt: "",
@@ -937,9 +937,9 @@ export const AmalaApp = ({ contentSections, productHero }: AmalaAppProps) => {
                 quote: `I started taking PrimeCell H2 during a particularly stressful quarter at work and honestly didn't expect much - I've tried every supplement out there. But this is different. My recovery time after workouts cut in half, my afternoon crashes disappeared, and my brain fog lifted within the first week. I'm tracking my HRV and it's improved 15 points. This isn't placebo - this is cellular optimization working. Total game changer!`,
                 reviewerName: "Michael T.",
                 verifiedText: "Verified Buyer",
-                ratingImageUrl: "https://c.animaapp.com/mohkicncTG3NcI/assets/7.png",
+                ratingImageUrl: "/s/sal/amala/7.png",
                 ratingImageAlt: "",
-                badgeIconUrl: "https://c.animaapp.com/mohkicncTG3NcI/assets/28.png",
+                badgeIconUrl: "/s/sal/amala/28.png",
                 badgeIconAlt: "",
                 reviewerNameClassName: "text-[16.9583px] font-bold box-border caret-transparent leading-[25.4375px] outline-[3px] md:text-base md:leading-6",
                 verifiedTextClassName: "text-gray-800 text-[13.4583px] font-bold box-border caret-transparent leading-[20.1875px] outline-[3px] md:text-[13px] md:leading-[19.5px]",
@@ -947,7 +947,7 @@ export const AmalaApp = ({ contentSections, productHero }: AmalaAppProps) => {
               },
               {
                 layout: "compact",
-                avatarUrl: "https://assets.checkoutchamp.com/3bc8af90-85fe-11ef-a68d-8b09191f78ae/1763722566969_customer_4.webp",
+                avatarUrl: "/s/sal/amala/1763722566969_customer_4.webp",
                 avatarAlt: "",
                 imageUrl: "",
                 imageAlt: "",
@@ -956,9 +956,9 @@ export const AmalaApp = ({ contentSections, productHero }: AmalaAppProps) => {
                 quote: `Fast shipping and exactly as described. I've been using it for about a month now as part of my longevity stack. The mental clarity is real - I can focus for hours without that foggy feeling I used to get. Also noticed my sleep quality improved significantly (tracking with Oura Ring). The science behind molecular hydrogen is solid, and this product delivers on the promise.`,
                 reviewerName: "David R.",
                 verifiedText: "Verified Buyer",
-                ratingImageUrl: "https://c.animaapp.com/mohkicncTG3NcI/assets/7.png",
+                ratingImageUrl: "/s/sal/amala/7.png",
                 ratingImageAlt: "",
-                badgeIconUrl: "https://c.animaapp.com/mohkicncTG3NcI/assets/28.png",
+                badgeIconUrl: "/s/sal/amala/28.png",
                 badgeIconAlt: "",
                 reviewerNameClassName: "text-[16.9583px] font-bold box-border caret-transparent leading-[25.4375px] outline-[3px] md:text-base md:leading-6",
                 verifiedTextClassName: "text-gray-800 text-[13.4583px] font-bold box-border caret-transparent leading-[20.1875px] outline-[3px] md:text-[13px] md:leading-[19.5px]",
@@ -966,7 +966,7 @@ export const AmalaApp = ({ contentSections, productHero }: AmalaAppProps) => {
               },
               {
                 layout: "compact",
-                avatarUrl: "https://assets.checkoutchamp.com/3bc8af90-85fe-11ef-a68d-8b09191f78ae/1763722716927_customer_9.webp",
+                avatarUrl: "/s/sal/amala/1763722716927_customer_9.webp",
                 avatarAlt: "",
                 imageUrl: "",
                 imageAlt: "",
@@ -975,9 +975,9 @@ export const AmalaApp = ({ contentSections, productHero }: AmalaAppProps) => {
                 quote: `Very fast shipping. Quality is outstanding - you can tell this isn't some underdosed Amazon knockoff. I've been using it daily for 6 weeks and my energy levels are consistently high without any crashes. My wife even commented that I "seem sharper" lately. Making this a permanent part of my protocol.`,
                 reviewerName: "Marcus P.",
                 verifiedText: "Verified Buyer",
-                ratingImageUrl: "https://c.animaapp.com/mohkicncTG3NcI/assets/7.png",
+                ratingImageUrl: "/s/sal/amala/7.png",
                 ratingImageAlt: "",
-                badgeIconUrl: "https://c.animaapp.com/mohkicncTG3NcI/assets/28.png",
+                badgeIconUrl: "/s/sal/amala/28.png",
                 badgeIconAlt: "",
                 reviewerNameClassName: "text-[16.9583px] font-bold box-border caret-transparent leading-[25.4375px] outline-[3px] md:text-base md:leading-6",
                 verifiedTextClassName: "text-gray-800 text-[13.4583px] font-bold box-border caret-transparent leading-[20.1875px] outline-[3px] md:text-[13px] md:leading-[19.5px]",
@@ -985,7 +985,7 @@ export const AmalaApp = ({ contentSections, productHero }: AmalaAppProps) => {
               },
               {
                 layout: "compact",
-                avatarUrl: "https://assets.checkoutchamp.com/3bc8af90-85fe-11ef-a68d-8b09191f78ae/1763722627006_customer_5.webp",
+                avatarUrl: "/s/sal/amala/1763722627006_customer_5.webp",
                 avatarAlt: "",
                 imageUrl: "",
                 imageAlt: "",
@@ -994,9 +994,9 @@ export const AmalaApp = ({ contentSections, productHero }: AmalaAppProps) => {
                 quote: `PrimeCell H2 has seriously upgraded my biohacking routine. I've been trying to reduce my reliance on stimulants, and this gives me sustained energy and mental clarity without any jitters or crash. I'm also noticing faster recovery between training sessions. The hydrogen concentration is legit - I tested it myself. This is now foundational in my stack.`,
                 reviewerName: "Brian H.",
                 verifiedText: "Verified Buyer",
-                ratingImageUrl: "https://c.animaapp.com/mohkicncTG3NcI/assets/7.png",
+                ratingImageUrl: "/s/sal/amala/7.png",
                 ratingImageAlt: "",
-                badgeIconUrl: "https://c.animaapp.com/mohkicncTG3NcI/assets/28.png",
+                badgeIconUrl: "/s/sal/amala/28.png",
                 badgeIconAlt: "",
                 reviewerNameClassName: "text-[16.9583px] font-bold box-border caret-transparent leading-[25.4375px] outline-[3px] md:text-base md:leading-6",
                 verifiedTextClassName: "text-gray-800 text-[13.4583px] font-bold box-border caret-transparent leading-[20.1875px] outline-[3px] md:text-[13px] md:leading-[19.5px]",
@@ -1004,7 +1004,7 @@ export const AmalaApp = ({ contentSections, productHero }: AmalaAppProps) => {
               },
               {
                 layout: "compact",
-                avatarUrl: "https://assets.checkoutchamp.com/3bc8af90-85fe-11ef-a68d-8b09191f78ae/1763722446289_customer_1.webp",
+                avatarUrl: "/s/sal/amala/1763722446289_customer_1.webp",
                 avatarAlt: "",
                 imageUrl: "",
                 imageAlt: "",
@@ -1013,9 +1013,9 @@ export const AmalaApp = ({ contentSections, productHero }: AmalaAppProps) => {
                 quote: `So impressed! My PrimeCell H2 arrived in just 2 days, and I could tell the quality was legit from the packaging alone. I've been taking one tablet every morning for three weeks now - it dissolves fast, has a light fizz, and I genuinely feel more energized throughout the day without needing my usual 3pm coffee. My joints feel better too. Wish I'd found this sooner.`,
                 reviewerName: "Sarah K.",
                 verifiedText: "Verified Buyer",
-                ratingImageUrl: "https://c.animaapp.com/mohkicncTG3NcI/assets/7.png",
+                ratingImageUrl: "/s/sal/amala/7.png",
                 ratingImageAlt: "",
-                badgeIconUrl: "https://c.animaapp.com/mohkicncTG3NcI/assets/28.png",
+                badgeIconUrl: "/s/sal/amala/28.png",
                 badgeIconAlt: "",
                 reviewerNameClassName: "text-[16.9583px] font-bold box-border caret-transparent leading-[25.4375px] outline-[3px] md:text-base md:leading-6",
                 verifiedTextClassName: "text-gray-800 text-[13.4583px] font-bold box-border caret-transparent leading-[20.1875px] outline-[3px] md:text-[13px] md:leading-[19.5px]",
@@ -1023,7 +1023,7 @@ export const AmalaApp = ({ contentSections, productHero }: AmalaAppProps) => {
               },
               {
                 layout: "compact",
-                avatarUrl: "https://assets.checkoutchamp.com/3bc8af90-85fe-11ef-a68d-8b09191f78ae/1763722531282_customer_3.webp",
+                avatarUrl: "/s/sal/amala/1763722531282_customer_3.webp",
                 avatarAlt: "",
                 imageUrl: "",
                 imageAlt: "",
@@ -1032,9 +1032,9 @@ export const AmalaApp = ({ contentSections, productHero }: AmalaAppProps) => {
                 quote: `PrimeCell H2 is smooth, effective, and has become my non-negotiable morning ritual. I drop one tablet in my water bottle before my workout and the difference in recovery is incredible. I'm 47 and keeping up with guys in their 20s at CrossFit. My inflammation markers dropped on my last blood panel too. This is the real deal.`,
                 reviewerName: "Jennifer L.",
                 verifiedText: "Verified Buyer",
-                ratingImageUrl: "https://c.animaapp.com/mohkicncTG3NcI/assets/7.png",
+                ratingImageUrl: "/s/sal/amala/7.png",
                 ratingImageAlt: "",
-                badgeIconUrl: "https://c.animaapp.com/mohkicncTG3NcI/assets/28.png",
+                badgeIconUrl: "/s/sal/amala/28.png",
                 badgeIconAlt: "",
                 reviewerNameClassName: "text-[16.9583px] font-bold box-border caret-transparent leading-[25.4375px] outline-[3px] md:text-base md:leading-6",
                 verifiedTextClassName: "text-gray-800 text-[13.4583px] font-bold box-border caret-transparent leading-[20.1875px] outline-[3px] md:text-[13px] md:leading-[19.5px]",
@@ -1042,7 +1042,7 @@ export const AmalaApp = ({ contentSections, productHero }: AmalaAppProps) => {
               },
               {
                 layout: "compact",
-                avatarUrl: "https://assets.checkoutchamp.com/3bc8af90-85fe-11ef-a68d-8b09191f78ae/1763722755280_customer_10.webp",
+                avatarUrl: "/s/sal/amala/1763722755280_customer_10.webp",
                 avatarAlt: "",
                 imageUrl: "",
                 imageAlt: "",
@@ -1051,9 +1051,9 @@ export const AmalaApp = ({ contentSections, productHero }: AmalaAppProps) => {
                 quote: `I've been keeping a bottle at my desk and taking it every morning with my first glass of water. The tablets dissolve completely in about 60 seconds - no weird aftertaste or residue. Three weeks in and I'm sleeping deeper, recovering faster from runs, and my skin actually looks better. The science checks out and so do my results.`,
                 reviewerName: "Amanda C.",
                 verifiedText: "Verified Buyer",
-                ratingImageUrl: "https://c.animaapp.com/mohkicncTG3NcI/assets/7.png",
+                ratingImageUrl: "/s/sal/amala/7.png",
                 ratingImageAlt: "",
-                badgeIconUrl: "https://c.animaapp.com/mohkicncTG3NcI/assets/28.png",
+                badgeIconUrl: "/s/sal/amala/28.png",
                 badgeIconAlt: "",
                 reviewerNameClassName: "text-[16.9583px] font-bold box-border caret-transparent leading-[25.4375px] outline-[3px] md:text-base md:leading-6",
                 verifiedTextClassName: "text-gray-800 text-[13.4583px] font-bold box-border caret-transparent leading-[20.1875px] outline-[3px] md:text-[13px] md:leading-[19.5px]",
@@ -1061,7 +1061,7 @@ export const AmalaApp = ({ contentSections, productHero }: AmalaAppProps) => {
               },
               {
                 layout: "compact",
-                avatarUrl: "https://assets.checkoutchamp.com/3bc8af90-85fe-11ef-a68d-8b09191f78ae/1763722801190_customer_11.webp",
+                avatarUrl: "/s/sal/amala/1763722801190_customer_11.webp",
                 avatarAlt: "",
                 imageUrl: "",
                 imageAlt: "",
@@ -1070,9 +1070,9 @@ export const AmalaApp = ({ contentSections, productHero }: AmalaAppProps) => {
                 quote: `Fast shipping and excellent product. The effervescent tablets are convenient and actually pleasant to take - not like choking down horse pills. I'm two months in and the cumulative effects are undeniable: better energy, sharper focus, visible improvements in my skin, and my joint pain is almost gone. My functional medicine doctor was impressed with my latest lab results. Highly recommend.`,
                 reviewerName: "Rachel M.",
                 verifiedText: "Verified Buyer",
-                ratingImageUrl: "https://c.animaapp.com/mohkicncTG3NcI/assets/7.png",
+                ratingImageUrl: "/s/sal/amala/7.png",
                 ratingImageAlt: "",
-                badgeIconUrl: "https://c.animaapp.com/mohkicncTG3NcI/assets/28.png",
+                badgeIconUrl: "/s/sal/amala/28.png",
                 badgeIconAlt: "",
                 reviewerNameClassName: "text-[16.9583px] font-bold box-border caret-transparent leading-[25.4375px] outline-[3px] md:text-base md:leading-6",
                 verifiedTextClassName: "text-gray-800 text-[13.4583px] font-bold box-border caret-transparent leading-[20.1875px] outline-[3px] md:text-[13px] md:leading-[19.5px]",
@@ -1082,7 +1082,7 @@ export const AmalaApp = ({ contentSections, productHero }: AmalaAppProps) => {
             mobileTestimonials={[
               {
                 layout: "compact",
-                avatarUrl: "https://assets.checkoutchamp.com/3bc8af90-85fe-11ef-a68d-8b09191f78ae/1763722487387_customer_2.webp",
+                avatarUrl: "/s/sal/amala/1763722487387_customer_2.webp",
                 avatarAlt: "",
                 imageUrl: "",
                 imageAlt: "",
@@ -1091,9 +1091,9 @@ export const AmalaApp = ({ contentSections, productHero }: AmalaAppProps) => {
                 quote: `I started taking PrimeCell H2 during a particularly stressful quarter at work and honestly didn't expect much - I've tried every supplement out there. But this is different. My recovery time after workouts cut in half, my afternoon crashes disappeared, and my brain fog lifted within the first week. I'm tracking my HRV and it's improved 15 points. This isn't placebo - this is cellular optimization working. Total game changer!`,
                 reviewerName: "Michael T.",
                 verifiedText: "Verified Buyer",
-                ratingImageUrl: "https://c.animaapp.com/mohkicncTG3NcI/assets/7.png",
+                ratingImageUrl: "/s/sal/amala/7.png",
                 ratingImageAlt: "",
-                badgeIconUrl: "https://c.animaapp.com/mohkicncTG3NcI/assets/28.png",
+                badgeIconUrl: "/s/sal/amala/28.png",
                 badgeIconAlt: "",
                 reviewerNameClassName: "text-[16.9583px] font-bold box-border caret-transparent leading-[25.4375px] outline-[3px] md:text-base md:leading-6",
                 verifiedTextClassName: "text-gray-800 text-[13.4583px] font-bold box-border caret-transparent leading-[20.1875px] outline-[3px] md:text-[13px] md:leading-[19.5px]",
@@ -1101,7 +1101,7 @@ export const AmalaApp = ({ contentSections, productHero }: AmalaAppProps) => {
               },
               {
                 layout: "compact",
-                avatarUrl: "https://cdn.shopify.com/s/files/1/0691/2953/5651/files/p-2.webp?v=1763719745",
+                avatarUrl: "/s/sal/amala/p-2.webp",
                 avatarAlt: "",
                 imageUrl: "",
                 imageAlt: "",
@@ -1110,9 +1110,9 @@ export const AmalaApp = ({ contentSections, productHero }: AmalaAppProps) => {
                 quote: `Fast shipping and exactly as described. I've been using it for about a month now as part of my longevity stack. The mental clarity is real - I can focus for hours without that foggy feeling I used to get. Also noticed my sleep quality improved significantly (tracking with Oura Ring). The science behind molecular hydrogen is solid, and this product delivers on the promise.`,
                 reviewerName: "David R.",
                 verifiedText: "Verified Buyer",
-                ratingImageUrl: "https://c.animaapp.com/mohkicncTG3NcI/assets/7.png",
+                ratingImageUrl: "/s/sal/amala/7.png",
                 ratingImageAlt: "",
-                badgeIconUrl: "https://c.animaapp.com/mohkicncTG3NcI/assets/28.png",
+                badgeIconUrl: "/s/sal/amala/28.png",
                 badgeIconAlt: "",
                 reviewerNameClassName: "text-[16.9583px] font-bold box-border caret-transparent leading-[25.4375px] outline-[3px] md:text-base md:leading-6",
                 verifiedTextClassName: "text-gray-800 text-[13.4583px] font-bold box-border caret-transparent leading-[20.1875px] outline-[3px] md:text-[13px] md:leading-[19.5px]",
@@ -1120,7 +1120,7 @@ export const AmalaApp = ({ contentSections, productHero }: AmalaAppProps) => {
               },
               {
                 layout: "compact",
-                avatarUrl: "https://cdn.shopify.com/s/files/1/0691/2953/5651/files/p-3.webp?v=1763719745",
+                avatarUrl: "/s/sal/amala/p-3.webp",
                 avatarAlt: "",
                 imageUrl: "",
                 imageAlt: "",
@@ -1129,9 +1129,9 @@ export const AmalaApp = ({ contentSections, productHero }: AmalaAppProps) => {
                 quote: `Very fast shipping. Quality is outstanding - you can tell this isn't some underdosed Amazon knockoff. I've been using it daily for 6 weeks and my energy levels are consistently high without any crashes. My wife even commented that I "seem sharper" lately. Making this a permanent part of my protocol.`,
                 reviewerName: "Marcus P.",
                 verifiedText: "Verified Buyer",
-                ratingImageUrl: "https://c.animaapp.com/mohkicncTG3NcI/assets/7.png",
+                ratingImageUrl: "/s/sal/amala/7.png",
                 ratingImageAlt: "",
-                badgeIconUrl: "https://c.animaapp.com/mohkicncTG3NcI/assets/28.png",
+                badgeIconUrl: "/s/sal/amala/28.png",
                 badgeIconAlt: "",
                 reviewerNameClassName: "text-[16.9583px] font-bold box-border caret-transparent leading-[25.4375px] outline-[3px] md:text-base md:leading-6",
                 verifiedTextClassName: "text-gray-800 text-[13.4583px] font-bold box-border caret-transparent leading-[20.1875px] outline-[3px] md:text-[13px] md:leading-[19.5px]",
@@ -1139,7 +1139,7 @@ export const AmalaApp = ({ contentSections, productHero }: AmalaAppProps) => {
               },
               {
                 layout: "compact",
-                avatarUrl: "https://cdn.shopify.com/s/files/1/0691/2953/5651/files/p-4.webp?v=1763719746",
+                avatarUrl: "/s/sal/amala/p-4.webp",
                 avatarAlt: "",
                 imageUrl: "",
                 imageAlt: "",
@@ -1148,9 +1148,9 @@ export const AmalaApp = ({ contentSections, productHero }: AmalaAppProps) => {
                 quote: `PrimeCell H2 has seriously upgraded my biohacking routine. I've been trying to reduce my reliance on stimulants, and this gives me sustained energy and mental clarity without any jitters or crash. I'm also noticing faster recovery between training sessions. The hydrogen concentration is legit - I tested it myself. This is now foundational in my stack.`,
                 reviewerName: "Brian H.",
                 verifiedText: "Verified Buyer",
-                ratingImageUrl: "https://c.animaapp.com/mohkicncTG3NcI/assets/7.png",
+                ratingImageUrl: "/s/sal/amala/7.png",
                 ratingImageAlt: "",
-                badgeIconUrl: "https://c.animaapp.com/mohkicncTG3NcI/assets/28.png",
+                badgeIconUrl: "/s/sal/amala/28.png",
                 badgeIconAlt: "",
                 reviewerNameClassName: "text-[16.9583px] font-bold box-border caret-transparent leading-[25.4375px] outline-[3px] md:text-base md:leading-6",
                 verifiedTextClassName: "text-gray-800 text-[13.4583px] font-bold box-border caret-transparent leading-[20.1875px] outline-[3px] md:text-[13px] md:leading-[19.5px]",
@@ -1158,7 +1158,7 @@ export const AmalaApp = ({ contentSections, productHero }: AmalaAppProps) => {
               },
               {
                 layout: "compact",
-                avatarUrl: "https://cdn.shopify.com/s/files/1/0691/2953/5651/files/p-5.webp?v=1763719745",
+                avatarUrl: "/s/sal/amala/p-5.webp",
                 avatarAlt: "",
                 imageUrl: "",
                 imageAlt: "",
@@ -1167,9 +1167,9 @@ export const AmalaApp = ({ contentSections, productHero }: AmalaAppProps) => {
                 quote: `PrimeCell H2 is smooth, effective, and has become my non-negotiable morning ritual. I drop one tablet in my water bottle before my workout and the difference in recovery is incredible. I'm 47 and keeping up with guys in their 20s at CrossFit. My inflammation markers dropped on my last blood panel too. This is the real deal.`,
                 reviewerName: "Jennifer L.",
                 verifiedText: "Verified Buyer",
-                ratingImageUrl: "https://c.animaapp.com/mohkicncTG3NcI/assets/7.png",
+                ratingImageUrl: "/s/sal/amala/7.png",
                 ratingImageAlt: "",
-                badgeIconUrl: "https://c.animaapp.com/mohkicncTG3NcI/assets/28.png",
+                badgeIconUrl: "/s/sal/amala/28.png",
                 badgeIconAlt: "",
                 reviewerNameClassName: "text-[16.9583px] font-bold box-border caret-transparent leading-[25.4375px] outline-[3px] md:text-base md:leading-6",
                 verifiedTextClassName: "text-gray-800 text-[13.4583px] font-bold box-border caret-transparent leading-[20.1875px] outline-[3px] md:text-[13px] md:leading-[19.5px]",
@@ -1177,7 +1177,7 @@ export const AmalaApp = ({ contentSections, productHero }: AmalaAppProps) => {
               },
               {
                 layout: "compact",
-                avatarUrl: "https://cdn.shopify.com/s/files/1/0691/2953/5651/files/p-6.webp?v=1763719745",
+                avatarUrl: "/s/sal/amala/p-6.webp",
                 avatarAlt: "",
                 imageUrl: "",
                 imageAlt: "",
@@ -1186,9 +1186,9 @@ export const AmalaApp = ({ contentSections, productHero }: AmalaAppProps) => {
                 quote: `I've been keeping a bottle at my desk and taking it every morning with my first glass of water. The tablets dissolve completely in about 60 seconds - no weird aftertaste or residue. Three weeks in and I'm sleeping deeper, recovering faster from runs, and my skin actually looks better. The science checks out and so do my results.`,
                 reviewerName: "Amanda C.",
                 verifiedText: "Verified Buyer",
-                ratingImageUrl: "https://c.animaapp.com/mohkicncTG3NcI/assets/7.png",
+                ratingImageUrl: "/s/sal/amala/7.png",
                 ratingImageAlt: "",
-                badgeIconUrl: "https://c.animaapp.com/mohkicncTG3NcI/assets/28.png",
+                badgeIconUrl: "/s/sal/amala/28.png",
                 badgeIconAlt: "",
                 reviewerNameClassName: "text-[16.9583px] font-bold box-border caret-transparent leading-[25.4375px] outline-[3px] md:text-base md:leading-6",
                 verifiedTextClassName: "text-gray-800 text-[13.4583px] font-bold box-border caret-transparent leading-[20.1875px] outline-[3px] md:text-[13px] md:leading-[19.5px]",
@@ -1196,7 +1196,7 @@ export const AmalaApp = ({ contentSections, productHero }: AmalaAppProps) => {
               },
               {
                 layout: "compact",
-                avatarUrl: "https://cdn.shopify.com/s/files/1/0691/2953/5651/files/p-7.webp?v=1763719745",
+                avatarUrl: "/s/sal/amala/p-7.webp",
                 avatarAlt: "",
                 imageUrl: "",
                 imageAlt: "",
@@ -1205,9 +1205,9 @@ export const AmalaApp = ({ contentSections, productHero }: AmalaAppProps) => {
                 quote: `Fast shipping and excellent product. The effervescent tablets are convenient and actually pleasant to take - not like choking down horse pills. I'm two months in and the cumulative effects are undeniable: better energy, sharper focus, visible improvements in my skin, and my joint pain is almost gone. My functional medicine doctor was impressed with my latest lab results. Highly recommend.`,
                 reviewerName: "Rachel M.",
                 verifiedText: "Verified Buyer",
-                ratingImageUrl: "https://c.animaapp.com/mohkicncTG3NcI/assets/7.png",
+                ratingImageUrl: "/s/sal/amala/7.png",
                 ratingImageAlt: "",
-                badgeIconUrl: "https://c.animaapp.com/mohkicncTG3NcI/assets/28.png",
+                badgeIconUrl: "/s/sal/amala/28.png",
                 badgeIconAlt: "",
                 reviewerNameClassName: "text-[16.9583px] font-bold box-border caret-transparent leading-[25.4375px] outline-[3px] md:text-base md:leading-6",
                 verifiedTextClassName: "text-gray-800 text-[13.4583px] font-bold box-border caret-transparent leading-[20.1875px] outline-[3px] md:text-[13px] md:leading-[19.5px]",
@@ -1318,7 +1318,7 @@ export const AmalaApp = ({ contentSections, productHero }: AmalaAppProps) => {
             ctaMediaInnerVariant="min-h-[auto] min-w-[auto]"
             ctaMediaItemVariant="min-h-[auto]"
             ctaImageWrapperVariant="min-h-[auto] min-w-[auto]"
-            ctaImageSrc="https://c.animaapp.com/mohkicncTG3NcI/assets/20.svg"
+            ctaImageSrc="/s/sal/amala/20.svg"
             ctaImageAlt=""
             ctaImageSizes="1170px"
             ctaImageClassName="min-h-[auto] min-w-[auto]"

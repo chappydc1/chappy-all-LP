@@ -4,14 +4,14 @@ import { ShippingNotice } from "../ProductHero/components/ShippingNotice";
 import { AddToCart } from "../ProductHero/components/AddToCart";
 
 const IMAGE_URLS = [
-  "https://c.animaapp.com/mohkicncTG3NcI/assets/42.jpg",
-  "https://c.animaapp.com/mohkicncTG3NcI/assets/43.jpg",
-  "https://c.animaapp.com/mohkicncTG3NcI/assets/51.jpg",
-  "https://c.animaapp.com/mohkicncTG3NcI/assets/52.jpg",
-  "https://c.animaapp.com/mohkicncTG3NcI/assets/53.jpg",
-  "https://c.animaapp.com/mohkicncTG3NcI/assets/45.jpg",
-  "https://c.animaapp.com/mohkicncTG3NcI/assets/54.jpg",
-  "https://c.animaapp.com/mohkicncTG3NcI/assets/48.jpg",
+  "/s/sal/amala/42.jpg",
+  "/s/sal/amala/43.jpg",
+  "/s/sal/amala/51.jpg",
+  "/s/sal/amala/52.jpg",
+  "/s/sal/amala/53.jpg",
+  "/s/sal/amala/45.jpg",
+  "/s/sal/amala/54.jpg",
+  "/s/sal/amala/48.jpg",
 ];
 
 export const ProductHero = () => {
@@ -67,7 +67,7 @@ export const ProductHero = () => {
           {/* Rating */}
           <p
             className="text-[13.0583px] leading-[15.67px] text-black md:text-base md:leading-[19.2px]
-              before:bg-[url('https://img.funnelish.com/4224/643781/1733321557-4_5_star-2x-1-.png.webp')]
+              before:bg-[url('/s/sal/amala/1733321557-4_5_star-2x-1-.png.webp')]
               before:bg-no-repeat before:bg-contain before:inline-block before:h-[19px] before:w-[75px]
               before:align-middle before:mr-2.5 md:before:w-[85px] md:before:mr-3"
           >

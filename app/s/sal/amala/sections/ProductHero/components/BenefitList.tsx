@@ -31,7 +31,7 @@ export const BenefitList = () => {
                         className="items-start box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full mt-0.5"
                       >
                         <img
-                          src="https://c.animaapp.com/mohkicncTG3NcI/assets/1763702956506_1730181221_checkIcon.svg"
+                          src="/s/sal/amala/1763702956506_1730181221_checkIcon.svg"
                           alt=""
                           sizes="565px"
                           title=""
@@ -84,7 +84,7 @@ export const BenefitList = () => {
                         className="items-start box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full mt-0.5"
                       >
                         <img
-                          src="https://c.animaapp.com/mohkicncTG3NcI/assets/1763702956506_1730181221_checkIcon.svg"
+                          src="/s/sal/amala/1763702956506_1730181221_checkIcon.svg"
                           alt=""
                           sizes="565px"
                           title=""
@@ -137,7 +137,7 @@ export const BenefitList = () => {
                         className="items-start box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full mt-0.5"
                       >
                         <img
-                          src="https://c.animaapp.com/mohkicncTG3NcI/assets/1763702956506_1730181221_checkIcon.svg"
+                          src="/s/sal/amala/1763702956506_1730181221_checkIcon.svg"
                           alt=""
                           sizes="565px"
                           title=""
@@ -190,7 +190,7 @@ export const BenefitList = () => {
                         className="items-start box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full mt-0.5"
                       >
                         <img
-                          src="https://c.animaapp.com/mohkicncTG3NcI/assets/1763702956506_1730181221_checkIcon.svg"
+                          src="/s/sal/amala/1763702956506_1730181221_checkIcon.svg"
                           alt=""
                           sizes="565px"
                           title=""
@@ -243,7 +243,7 @@ export const BenefitList = () => {
                         className="items-start box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full"
                       >
                         <img
-                          src="https://c.animaapp.com/mohkicncTG3NcI/assets/1763702956506_1730181221_checkIcon.svg"
+                          src="/s/sal/amala/1763702956506_1730181221_checkIcon.svg"
                           alt=""
                           sizes="565px"
                           title=""

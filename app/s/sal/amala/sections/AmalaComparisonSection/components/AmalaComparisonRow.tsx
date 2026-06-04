@@ -20,7 +20,7 @@ export const AmalaComparisonRow = (props: AmalaComparisonRowProps) => {
         <div className="items-center box-border caret-transparent flex justify-center min-w-[auto] outline-[3px]">
           <div className="items-center box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full">
             <img
-              src="https://c.animaapp.com/mohkicncTG3NcI/assets/1763702956506_1730181221_checkIcon.svg"
+              src="/s/sal/amala/1763702956506_1730181221_checkIcon.svg"
               alt=""
               title=""
               className="box-border caret-transparent h-[25px] max-w-full min-h-[auto] min-w-[auto] object-cover outline-[3px] w-[25px] md:h-9 md:w-9"
