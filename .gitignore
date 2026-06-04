@@ -31,3 +31,5 @@ tsconfig.tsbuildinfo
 
 # Local planning artifacts
 .ai/
+.vercel
+.claude/worktrees/
