@@ -2,6 +2,7 @@ import { App } from "./App";
 
 export const dynamic = "force-static";
 
+
 export const metadata = {
   title: "5 Reasons Why People are Switching to Microdosed Gummies | Feals",
   description:
