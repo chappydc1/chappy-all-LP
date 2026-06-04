@@ -1,5 +1,11 @@
+import type { Metadata } from "next";
 import { Open_Sans } from "next/font/google";
 import type { ReactNode } from "react";
+
+export const metadata: Metadata = {
+  title: "Your Perfect Vitamin Formula Awaits | Gruns",
+  description: "Take the 60-second Gruns quiz and discover your personalized gummy vitamin blend. Crafted to your health goals — start feeling the difference today.",
+};
 
 const openSans = Open_Sans({
   subsets: ["latin"],

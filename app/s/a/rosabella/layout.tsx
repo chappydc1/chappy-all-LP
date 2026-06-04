@@ -1,0 +1,11 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Restore Energy, Focus & Metabolism in 2025 | Rosabella",
+  description:
+    "Rosabella Moringa naturally lowers cortisol to fight fatigue, brain fog, and slow metabolism. Join thousands of women feeling the difference. Get 50% off today.",
+};
+
+export default function Layout({ children }: { children: React.ReactNode }) {
+  return <>{children}</>;
+}
