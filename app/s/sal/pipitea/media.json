@@ -1,0 +1,118 @@
+{
+  "header": {
+    "logoUrl": "https://c.animaapp.com/mq03tlhwPsu7gY/assets/1762481864431_logo_purple.png"
+  },
+  "hero": {
+    "productGalleryImages": [
+      "https://c.animaapp.com/mq03tlhwPsu7gY/assets/1771737765843_pipi.webp",
+      "https://c.animaapp.com/mq03tlhwPsu7gY/assets/1771737780393_hb.webp",
+      "https://c.animaapp.com/mq03tlhwPsu7gY/assets/1771739264478_hb_.webp",
+      "https://c.animaapp.com/mq03tlhwPsu7gY/assets/1765556673445_slider04.webp",
+      "https://c.animaapp.com/mq03tlhwPsu7gY/assets/1765556684482_slider05.webp",
+      "https://c.animaapp.com/mq03tlhwPsu7gY/assets/1765556693972_slider06.webp",
+      "https://c.animaapp.com/mq03tlhwPsu7gY/assets/1765556705254_slider07.webp",
+      "https://c.animaapp.com/mq03tlhwPsu7gY/assets/1765556715092_slider08.webp"
+    ],
+    "paymentBadges": "https://c.animaapp.com/mq03tlhwPsu7gY/assets/40.webp",
+    "moneyBackBadge": "https://c.animaapp.com/mq03tlhwPsu7gY/assets/1765558871299_money_back_guarantee_badge.webp",
+    "accordionIcon": "https://c.animaapp.com/mq03tlhwPsu7gY/assets/icon-1.svg",
+    "inStockIcon": "https://c.animaapp.com/mq03tlhwPsu7gY/assets/24.svg",
+    "shippingIcon": "https://c.animaapp.com/mq03tlhwPsu7gY/assets/25.svg",
+    "mobileTestimonialAvatar": "https://c.animaapp.com/mq03tlhwPsu7gY/assets/37.webp",
+    "mobileTestimonialAuthorAvatar": "https://c.animaapp.com/mq03tlhwPsu7gY/assets/38.webp",
+    "mobileTestimonialStars": "https://c.animaapp.com/mq03tlhwPsu7gY/assets/5.png",
+    "desktopTestimonialAvatar": "https://c.animaapp.com/mq03tlhwPsu7gY/assets/37.webp",
+    "desktopTestimonialStars": "https://c.animaapp.com/mq03tlhwPsu7gY/assets/5.png",
+    "checkIcon": "https://c.animaapp.com/mq03tlhwPsu7gY/assets/1765558371251_Check.webp",
+    "guaranteeIcon": "https://c.animaapp.com/mq03tlhwPsu7gY/assets/29.svg"
+  },
+  "education": {
+    "block1Image": "https://c.animaapp.com/mq03tlhwPsu7gY/assets/1771739884786_rhb.webp",
+    "block2Image": "https://c.animaapp.com/mq03tlhwPsu7gY/assets/1769739258570_sec02.webp",
+    "decorTop": "https://c.animaapp.com/mq03tlhwPsu7gY/assets/26.svg",
+    "decorBottom": "https://c.animaapp.com/mq03tlhwPsu7gY/assets/27.svg"
+  },
+  "supportComparison": {
+    "productImage": "https://c.animaapp.com/mq03tlhwPsu7gY/assets/1765556673445_slider04.webp",
+    "decorTop": "https://c.animaapp.com/mq03tlhwPsu7gY/assets/26.svg",
+    "decorBottom": "https://c.animaapp.com/mq03tlhwPsu7gY/assets/27.svg"
+  },
+  "featuredTestimonials": {
+    "guaranteeIcon": "https://c.animaapp.com/mq03tlhwPsu7gY/assets/29.svg",
+    "trustpilotReview": "https://c.animaapp.com/mq03tlhwPsu7gY/assets/1760839096564_trustpilot_review.png",
+    "verifiedBuyerIcon": "https://c.animaapp.com/mq03tlhwPsu7gY/assets/5.png",
+    "testimonials": [
+      {
+        "desktopImage": "https://c.animaapp.com/mq03tlhwPsu7gY/assets/1765669690171_testemonials_cards01_mobile.webp",
+        "mobileImage": "https://c.animaapp.com/mq03tlhwPsu7gY/assets/1765668579515_testemonials_cards01.webp"
+      },
+      {
+        "desktopImage": "https://c.animaapp.com/mq03tlhwPsu7gY/assets/1765669113247_testemonials_cards02.webp",
+        "mobileImage": "https://c.animaapp.com/mq03tlhwPsu7gY/assets/1765669853012_testemonials_cards02_mobile.webp"
+      },
+      {
+        "desktopImage": "https://c.animaapp.com/mq03tlhwPsu7gY/assets/1765669231664_testemonials_cards03.webp",
+        "mobileImage": "https://c.animaapp.com/mq03tlhwPsu7gY/assets/1765670346747_testemonials_cards03_mobile.webp"
+      },
+      {
+        "desktopImage": "https://c.animaapp.com/mq03tlhwPsu7gY/assets/1765669332998_testemonials_cards04.webp",
+        "mobileImage": "https://c.animaapp.com/mq03tlhwPsu7gY/assets/1765670463306_testemonials_cards04_mobile.webp"
+      }
+    ]
+  },
+  "qualityPromise": {
+    "certifications": [
+      "https://c.animaapp.com/mq03tlhwPsu7gY/assets/1765559735938_usda_organic_icon.webp",
+      "https://c.animaapp.com/mq03tlhwPsu7gY/assets/1765560297140_heavy_metal_tested_Icon.webp",
+      "https://c.animaapp.com/mq03tlhwPsu7gY/assets/1765560346899_pwesticide_free_icon.webp",
+      "https://c.animaapp.com/mq03tlhwPsu7gY/assets/1765560393615_caffeine_free_icon.webp",
+      "https://c.animaapp.com/mq03tlhwPsu7gY/assets/1765560441603_no_artificial_additives_icon.webp",
+      "https://c.animaapp.com/mq03tlhwPsu7gY/assets/1765560517388_fda_icon.webp"
+    ],
+    "promiseIcons": [
+      "https://c.animaapp.com/mq03tlhwPsu7gY/assets/54.png",
+      "https://c.animaapp.com/mq03tlhwPsu7gY/assets/55.png",
+      "https://c.animaapp.com/mq03tlhwPsu7gY/assets/56.png",
+      "https://c.animaapp.com/mq03tlhwPsu7gY/assets/57.png",
+      "https://c.animaapp.com/mq03tlhwPsu7gY/assets/58.png",
+      "https://c.animaapp.com/mq03tlhwPsu7gY/assets/60.png"
+    ]
+  },
+  "resultsTimeline": {
+    "calendarIcon": "https://c.animaapp.com/mq03tlhwPsu7gY/assets/1765560705204_calendar_icon.webp",
+    "guaranteeIcon": "https://c.animaapp.com/mq03tlhwPsu7gY/assets/29.svg"
+  },
+  "optionsComparison": {
+    "hibiscusImage": "https://c.animaapp.com/mq03tlhwPsu7gY/assets/1765556730584_Buy01_.webp",
+    "othersImage": "https://c.animaapp.com/mq03tlhwPsu7gY/assets/14.png",
+    "checkIcon": "https://c.animaapp.com/mq03tlhwPsu7gY/assets/1765558371251_Check.webp",
+    "xIcon": "https://c.animaapp.com/mq03tlhwPsu7gY/assets/13.svg",
+    "warnIcon": "https://c.animaapp.com/mq03tlhwPsu7gY/assets/alert-triangle-yellow-512.png",
+    "guaranteeIcon": "https://c.animaapp.com/mq03tlhwPsu7gY/assets/29.svg",
+    "decorTop": "https://c.animaapp.com/mq03tlhwPsu7gY/assets/26.svg",
+    "decorBottom": "https://c.animaapp.com/mq03tlhwPsu7gY/assets/27.svg"
+  },
+  "preparation": {
+    "steps": [
+      "https://c.animaapp.com/mq03tlhwPsu7gY/assets/1765564326543_how_to_make01.webp",
+      "https://c.animaapp.com/mq03tlhwPsu7gY/assets/1765564416134_how_to_make02.webp",
+      "https://c.animaapp.com/mq03tlhwPsu7gY/assets/1765564459196_how_to_make03.webp"
+    ]
+  },
+  "offer": {
+    "productImage": "https://c.animaapp.com/mq03tlhwPsu7gY/assets/1765557477050_package.png",
+    "checkIcon": "https://c.animaapp.com/mq03tlhwPsu7gY/assets/1765558371251_Check.webp",
+    "decorTop": "https://c.animaapp.com/mq03tlhwPsu7gY/assets/26.svg"
+  },
+  "faq": {
+    "accordionIcon": "https://c.animaapp.com/mq03tlhwPsu7gY/assets/icon-1.svg",
+    "guaranteeIcon": "https://c.animaapp.com/mq03tlhwPsu7gY/assets/29.svg",
+    "decorBottom": "https://c.animaapp.com/mq03tlhwPsu7gY/assets/27.svg"
+  },
+  "footer": {
+    "logoUrl": "https://c.animaapp.com/mq03tlhwPsu7gY/assets/1762481864431_logo_purple.png"
+  },
+  "chatWidget": {
+    "iconUrl": "https://c.animaapp.com/mq03tlhwPsu7gY/assets/icon-4.svg"
+  }
+}
