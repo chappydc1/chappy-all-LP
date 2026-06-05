@@ -19,7 +19,6 @@ import { StickyMobileCta } from "../../components/StickyMobileCta";
 export const Main = () => {
   return (
     <main
-     
       className="items-center box-border caret-transparent flex flex-col min-h-[1000px] outline-[3px] w-full"
     >
       <AnnouncementBar />

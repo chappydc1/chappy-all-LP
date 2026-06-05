@@ -5,35 +5,27 @@ import { SectionCta } from "../../components/SectionCta";
 export const OptionsComparisonSection = () => {
   return (
     <section
-     
       className="relative items-center bg-pink-500/10 bg-no-repeat box-border caret-transparent flex flex-col justify-items-center min-h-[auto] min-w-[auto] outline-[3px] w-full bg-center px-[15px] py-[45px] md:pt-[60px] md:pb-20"
     >
       <div
-       
         className="text-zinc-800 bg-no-repeat box-border caret-transparent flex flex-col max-w-[1170px] min-h-[auto] min-w-[auto] outline-[3px] text-start w-full bg-center md:flex-row"
       >
         <div
-         
           className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] align-top w-full"
         >
           <div
-           
             className="items-center box-border caret-transparent flex justify-center outline-[3px]"
           >
             <div
-             
               className="text-black text-[27.0583px] box-border caret-transparent leading-[32.47px] max-w-[800px] min-h-[auto] min-w-[auto] outline-[3px] text-center w-full md:text-[35px] md:leading-[42px]"
             >
               <div
-               
                 className="text-[27.0583px] box-border caret-transparent leading-[32.47px] outline-[3px] w-full md:text-[35px] md:leading-[42px]"
               >
                 <p
-                 
                   className="text-[27.0583px] box-border caret-transparent leading-[32.47px] outline-[3px] md:text-[35px] md:leading-[42px]"
                 >
                   <strong
-                   
                     className="text-[27.0583px] font-bold box-border caret-transparent leading-[32.47px] outline-[3px] md:text-[35px] md:leading-[42px]"
                   >
                     Why Hibiscus Tea Beats Other Kidney Support Options
@@ -43,34 +35,28 @@ export const OptionsComparisonSection = () => {
             </div>
           </div>
           <div
-           
             className="items-center box-border caret-transparent flex justify-center outline-[3px]"
           >
             <div
-             
               className="items-center box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full"
             >
               <img
                 src="https://c.animaapp.com/mq03tlhwPsu7gY/assets/26.svg"
                 alt=""
-               
                 title=""
                 className="absolute box-border caret-transparent max-w-full outline-[3px] w-full top-0 md:top-[-45px]"
               />
             </div>
           </div>
           <div
-           
             className="items-center box-border caret-transparent flex justify-center outline-[3px]"
           >
             <div
-             
               className="items-center box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full"
             >
               <img
                 src="https://c.animaapp.com/mq03tlhwPsu7gY/assets/27.svg"
                 alt=""
-               
                 title=""
                 className="absolute box-border caret-transparent max-w-full outline-[3px] w-full bottom-0 md:bottom-[-45px]"
               />
@@ -79,46 +65,36 @@ export const OptionsComparisonSection = () => {
         </div>
       </div>
       <div
-       
         className="text-zinc-800 bg-no-repeat box-border caret-transparent flex flex-col max-w-[1000px] min-h-[auto] min-w-[auto] outline-[3px] text-start w-full bg-center md:flex-row"
       >
         <div
-         
           className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] align-top w-full"
         >
           <div
-           
             className="items-center box-border caret-transparent flex justify-center outline-[3px]"
           >
             <div
-             
               className="box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full"
             >
               <div
-               
                 className="items-start box-border caret-transparent flex flex-wrap min-h-[auto] min-w-[auto] border-zinc-700 mt-[100px] rounded-[10px] border-[3px] border-solid md:mt-[190px]"
               >
                 <div
-                 
                   className="box-border caret-transparent flex basis-[0%] flex-col grow min-h-[auto] outline-[3px]"
                 >
                   <div
-                   
                     className="items-center box-border caret-transparent flex justify-center min-w-[auto] outline-[3px]"
                   >
                     <div
-                     
                       className="box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full"
                     >
                       <ComparisonHeader />
                     </div>
                   </div>
                   <div
-                   
                     className="items-center box-border caret-transparent flex justify-center min-w-[auto] outline-[3px]"
                   >
                     <div
-                     
                       className="box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full"
                     >
                       <ComparisonRow
@@ -139,11 +115,9 @@ export const OptionsComparisonSection = () => {
                     </div>
                   </div>
                   <div
-                   
                     className="items-center box-border caret-transparent flex justify-center min-w-[auto] outline-[3px]"
                   >
                     <div
-                     
                       className="box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full"
                     >
                       <ComparisonRow
@@ -164,11 +138,9 @@ export const OptionsComparisonSection = () => {
                     </div>
                   </div>
                   <div
-                   
                     className="items-center box-border caret-transparent flex justify-center min-w-[auto] outline-[3px]"
                   >
                     <div
-                     
                       className="box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full"
                     >
                       <ComparisonRow
@@ -189,11 +161,9 @@ export const OptionsComparisonSection = () => {
                     </div>
                   </div>
                   <div
-                   
                     className="items-center box-border caret-transparent flex justify-center min-w-[auto] outline-[3px]"
                   >
                     <div
-                     
                       className="box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full"
                     >
                       <ComparisonRow
@@ -214,11 +184,9 @@ export const OptionsComparisonSection = () => {
                     </div>
                   </div>
                   <div
-                   
                     className="items-center box-border caret-transparent flex justify-center min-w-[auto] outline-[3px]"
                   >
                     <div
-                     
                       className="box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full"
                     >
                       <ComparisonRow
@@ -239,11 +207,9 @@ export const OptionsComparisonSection = () => {
                     </div>
                   </div>
                   <div
-                   
                     className="items-center box-border caret-transparent flex justify-center min-w-[auto] outline-[3px]"
                   >
                     <div
-                     
                       className="box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full"
                     >
                       <ComparisonRow
@@ -279,11 +245,9 @@ export const OptionsComparisonSection = () => {
                     </div>
                   </div>
                   <div
-                   
                     className="items-center box-border caret-transparent flex justify-center min-w-[auto] outline-[3px]"
                   >
                     <div
-                     
                       className="box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full"
                     >
                       <ComparisonRow
@@ -310,35 +274,27 @@ export const OptionsComparisonSection = () => {
         </div>
       </div>
       <div
-       
         className="text-zinc-800 bg-no-repeat box-border caret-transparent flex flex-col max-w-[1170px] min-h-[auto] min-w-[auto] outline-[3px] text-start w-full bg-center md:flex-row"
       >
         <div
-         
           className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] align-top w-full"
         >
           <div
-           
             className="items-center box-border caret-transparent flex justify-center outline-[3px]"
           >
             <div
-             
               className="box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full"
             >
               <div
-               
                 className="items-start box-border caret-transparent flex flex-wrap min-h-[auto] min-w-[auto] mt-[50px] md:mt-[70px]"
               >
                 <div
-                 
                   className="box-border caret-transparent flex basis-[0%] flex-col grow min-h-[auto] outline-[3px]"
                 >
                   <div
-                   
                     className="items-center box-border caret-transparent flex justify-center min-w-[auto] outline-[3px]"
                   >
                     <div
-                     
                       className="items-stretch box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full"
                     >
                       <SectionCta
@@ -348,33 +304,26 @@ export const OptionsComparisonSection = () => {
                     </div>
                   </div>
                   <div
-                   
                     className="items-center box-border caret-transparent flex justify-center min-w-[auto] outline-[3px]"
                   >
                     <div
-                     
                       className="box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full"
                     >
                       <div
-                       
                         className="items-center box-border caret-transparent flex flex-wrap justify-center min-h-[auto] min-w-[auto] mt-5"
                       >
                         <div
-                         
                           className="box-border caret-transparent flex basis-[0%] flex-col grow max-w-fit min-h-[auto] outline-[3px]"
                         >
                           <div
-                           
                             className="items-center box-border caret-transparent flex justify-center min-w-[auto] outline-[3px]"
                           >
                             <div
-                             
                               className="items-center box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full"
                             >
                               <img
                                 src="https://c.animaapp.com/mq03tlhwPsu7gY/assets/29.svg"
                                 alt=""
-                               
                                 title=""
                                 className="box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-4"
                               />
@@ -382,23 +331,18 @@ export const OptionsComparisonSection = () => {
                           </div>
                         </div>
                         <div
-                         
                           className="box-border caret-transparent flex basis-[0%] flex-col grow max-w-fit min-h-[auto] outline-[3px]"
                         >
                           <div
-                           
                             className="items-center box-border caret-transparent flex justify-center min-w-[auto] outline-[3px]"
                           >
                             <div
-                             
                               className="text-black text-[16.0583px] box-border caret-transparent leading-[24.0875px] min-h-[auto] min-w-[auto] outline-[3px] text-left w-full ml-2.5 md:text-base md:leading-6"
                             >
                               <div
-                               
                                 className="text-[16.0583px] box-border caret-transparent leading-[24.0875px] outline-[3px] w-full md:text-base md:leading-6"
                               >
                                 <p
-                                 
                                   className="text-[16.0583px] box-border caret-transparent leading-[24.0875px] outline-[3px] md:text-base md:leading-6"
                                 >
                                   <span className="text-[16.0583px] box-border caret-transparent leading-[24.0875px] outline-[3px] md:text-base md:leading-6">

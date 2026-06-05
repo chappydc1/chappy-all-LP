@@ -3,23 +3,18 @@ import { SplitContentBlock } from "./components/SplitContentBlock";
 export const EducationSection = () => {
   return (
     <section
-     
       className="relative items-center bg-pink-500/10 bg-no-repeat box-border caret-transparent flex flex-col justify-items-center min-h-[auto] min-w-[auto] outline-[3px] w-full bg-center px-[15px] py-[45px] md:py-[60px]"
     >
       <div
-       
         className="text-zinc-800 bg-no-repeat box-border caret-transparent flex flex-col max-w-[1170px] min-h-[auto] min-w-[auto] outline-[3px] text-start w-full bg-center md:flex-row"
       >
         <div
-         
           className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] align-top w-full"
         >
           <div
-           
             className="items-center box-border caret-transparent flex justify-center outline-[3px]"
           >
             <div
-             
               className="box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full"
             >
               <SplitContentBlock
@@ -36,19 +31,15 @@ export const EducationSection = () => {
                 content={
                   <>
                     <div
-                     
                       className="items-center box-border caret-transparent flex justify-center min-w-[auto] outline-[3px]"
                     >
                       <div
-                       
                         className="text-black text-[16.0583px] box-border caret-transparent leading-[24.0875px] min-h-[auto] min-w-[auto] outline-[3px] text-left w-full mt-[25px] md:text-lg md:leading-[27px]"
                       >
                         <div
-                         
                           className="text-[16.0583px] box-border caret-transparent leading-[24.0875px] outline-[3px] w-full md:text-lg md:leading-[27px]"
                         >
                           <p
-                           
                             className="text-[16.0583px] box-border caret-transparent leading-[24.0875px] outline-[3px] md:text-lg md:leading-[27px]"
                           >
                             You're not imagining it. The creeping numbers that
@@ -61,19 +52,15 @@ export const EducationSection = () => {
                       </div>
                     </div>
                     <div
-                     
                       className="items-center box-border caret-transparent flex justify-center min-w-[auto] outline-[3px]"
                     >
                       <div
-                       
                         className="text-black text-[16.0583px] box-border caret-transparent leading-[24.0875px] min-h-[auto] min-w-[auto] outline-[3px] text-left w-full mt-[25px] md:text-lg md:leading-[27px]"
                       >
                         <div
-                         
                           className="text-[16.0583px] box-border caret-transparent leading-[24.0875px] outline-[3px] w-full md:text-lg md:leading-[27px]"
                         >
                           <p
-                           
                             className="text-[16.0583px] box-border caret-transparent leading-[24.0875px] outline-[3px] md:text-lg md:leading-[27px]"
                           >
                             These aren't just "part of getting older." They're
@@ -90,19 +77,15 @@ export const EducationSection = () => {
                       </div>
                     </div>
                     <div
-                     
                       className="items-center box-border caret-transparent flex justify-center min-w-[auto] outline-[3px]"
                     >
                       <div
-                       
                         className="text-black text-[16.0583px] box-border caret-transparent leading-[24.0875px] min-h-[auto] min-w-[auto] outline-[3px] text-left w-full mt-[25px] md:text-lg md:leading-[27px]"
                       >
                         <div
-                         
                           className="text-[16.0583px] box-border caret-transparent leading-[24.0875px] outline-[3px] w-full md:text-lg md:leading-[27px]"
                         >
                           <p
-                           
                             className="text-[16.0583px] box-border caret-transparent leading-[24.0875px] outline-[3px] md:text-lg md:leading-[27px]"
                           >
                             You've tried the lifestyle changes and watched your
@@ -116,7 +99,6 @@ export const EducationSection = () => {
                       </div>
                     </div>
                     <div
-                     
                       className="items-center box-border caret-transparent flex justify-center min-w-[auto] outline-[3px]"
                     ></div>
                   </>
@@ -125,36 +107,30 @@ export const EducationSection = () => {
             </div>
           </div>
           <div
-           
             className="items-center box-border caret-transparent flex justify-center outline-[3px]"
           >
             <div
-             
               className="items-center box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full"
             >
               <img
                 src="https://c.animaapp.com/mq03tlhwPsu7gY/assets/26.svg"
                 alt=""
                 sizes="1920px"
-               
                 title=""
                 className="absolute box-border caret-transparent max-w-full outline-[3px] w-full top-0 md:top-[-45px]"
               />
             </div>
           </div>
           <div
-           
             className="items-center box-border caret-transparent flex justify-center outline-[3px]"
           >
             <div
-             
               className="items-center box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full"
             >
               <img
                 src="https://c.animaapp.com/mq03tlhwPsu7gY/assets/27.svg"
                 alt=""
                 sizes="1920px"
-               
                 title=""
                 className="absolute box-border caret-transparent max-w-full outline-[3px] w-full bottom-0 md:bottom-[-45px]"
               />
@@ -163,19 +139,15 @@ export const EducationSection = () => {
         </div>
       </div>
       <div
-       
         className="text-zinc-800 bg-no-repeat box-border caret-transparent flex flex-col max-w-[1170px] min-h-[auto] min-w-[auto] outline-[3px] text-start w-full bg-center mt-[50px] md:flex-row md:mt-[60px]"
       >
         <div
-         
           className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] align-top w-full"
         >
           <div
-           
             className="items-center box-border caret-transparent flex justify-center outline-[3px]"
           >
             <div
-             
               className="box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full"
             >
               <SplitContentBlock
@@ -198,19 +170,15 @@ export const EducationSection = () => {
                 content={
                   <>
                     <div
-                     
                       className="items-center box-border caret-transparent flex justify-center min-w-[auto] outline-[3px]"
                     >
                       <div
-                       
                         className="text-black text-[16.0583px] box-border caret-transparent leading-[24.0875px] min-h-[auto] min-w-[auto] outline-[3px] text-left w-full mt-[25px] md:text-lg md:leading-[27px]"
                       >
                         <div
-                         
                           className="text-[16.0583px] box-border caret-transparent leading-[24.0875px] outline-[3px] w-full md:text-lg md:leading-[27px]"
                         >
                           <p
-                           
                             className="text-[16.0583px] box-border caret-transparent leading-[24.0875px] outline-[3px] md:text-lg md:leading-[27px]"
                           >
                             Hibiscus Tea is one of the most clinically
@@ -225,19 +193,15 @@ export const EducationSection = () => {
                       </div>
                     </div>
                     <div
-                     
                       className="items-center box-border caret-transparent flex justify-center min-w-[auto] outline-[3px]"
                     >
                       <div
-                       
                         className="text-black text-[16.0583px] box-border caret-transparent leading-[24.0875px] min-h-[auto] min-w-[auto] outline-[3px] text-left w-full mt-[25px] md:text-lg md:leading-[27px]"
                       >
                         <div
-                         
                           className="text-[16.0583px] box-border caret-transparent leading-[24.0875px] outline-[3px] w-full md:text-lg md:leading-[27px]"
                         >
                           <p
-                           
                             className="text-[16.0583px] box-border caret-transparent leading-[24.0875px] outline-[3px] md:text-lg md:leading-[27px]"
                           >
                             <b className="text-[16.0583px] font-bold box-border caret-transparent leading-[24.0875px] outline-[3px] md:text-lg md:leading-[27px]">
@@ -249,25 +213,19 @@ export const EducationSection = () => {
                       </div>
                     </div>
                     <div
-                     
                       className="items-center box-border caret-transparent flex justify-center min-w-[auto] outline-[3px]"
                     >
                       <div
-                       
                         className="text-black text-[16.0583px] box-border caret-transparent leading-[24.0875px] min-h-[auto] min-w-[auto] outline-[3px] text-left w-full mt-[25px] pl-5 md:text-lg md:leading-[27px] md:pl-[25px]"
                       >
                         <div
-                         
                           className="text-[16.0583px] box-border caret-transparent leading-[24.0875px] outline-[3px] w-full md:text-lg md:leading-[27px]"
                         >
                           <p
-                           
                             className="text-[16.0583px] items-baseline box-border caret-transparent flex leading-[24.0875px] outline-[3px] md:text-lg md:leading-[27px] before:accent-auto before:bg-pink-950 before:box-border before:caret-transparent before:text-black before:block before:text-[16.0583px] before:not-italic before:normal-nums before:font-normal before:h-2.5 before:tracking-[normal] before:leading-[24.0875px] before:list-outside before:list-disc before:min-h-[auto] before:min-w-2.5 before:outline-[3px] before:pointer-events-auto before:text-left before:no-underline before:indent-[0px] before:normal-case before:translate-y-[-1.4px] before:visible before:w-2.5 before:mr-[15px] before:rounded-[50%] before:border-separate before:font-libre_franklin before:md:text-lg before:md:leading-[27px]"
                           >
                             <a
-                             
                               title=""
-                             
                               className="text-[16.0583px] box-border caret-transparent block leading-[24.0875px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-center bg-[position:0px_0px] md:text-lg md:leading-[27px]"
                             />
                             <span className="text-[16.0583px] box-border caret-transparent block leading-[24.0875px] min-h-[auto] min-w-[auto] outline-[3px] md:text-lg md:leading-[27px]">
@@ -279,19 +237,15 @@ export const EducationSection = () => {
                       </div>
                     </div>
                     <div
-                     
                       className="items-center box-border caret-transparent flex justify-center min-w-[auto] outline-[3px]"
                     >
                       <div
-                       
                         className="text-black text-[16.0583px] box-border caret-transparent leading-[24.0875px] min-h-[auto] min-w-[auto] outline-[3px] text-left w-full mt-3 pl-5 md:text-lg md:leading-[27px] md:pl-[25px]"
                       >
                         <div
-                         
                           className="text-[16.0583px] box-border caret-transparent leading-[24.0875px] outline-[3px] w-full md:text-lg md:leading-[27px]"
                         >
                           <p
-                           
                             className="text-[16.0583px] items-baseline box-border caret-transparent flex leading-[24.0875px] outline-[3px] md:text-lg md:leading-[27px] before:accent-auto before:bg-pink-950 before:box-border before:caret-transparent before:text-black before:block before:text-[16.0583px] before:not-italic before:normal-nums before:font-normal before:h-2.5 before:tracking-[normal] before:leading-[24.0875px] before:list-outside before:list-disc before:min-h-[auto] before:min-w-2.5 before:outline-[3px] before:pointer-events-auto before:text-left before:no-underline before:indent-[0px] before:normal-case before:translate-y-[-1.4px] before:visible before:w-2.5 before:mr-[15px] before:rounded-[50%] before:border-separate before:font-libre_franklin before:md:text-lg before:md:leading-[27px]"
                           >
                             Deliver powerful antioxidant protection for your
@@ -301,19 +255,15 @@ export const EducationSection = () => {
                       </div>
                     </div>
                     <div
-                     
                       className="items-center box-border caret-transparent flex justify-center min-w-[auto] outline-[3px]"
                     >
                       <div
-                       
                         className="text-black text-[16.0583px] box-border caret-transparent leading-[24.0875px] min-h-[auto] min-w-[auto] outline-[3px] text-left w-full mt-3 pl-5 md:text-lg md:leading-[27px] md:pl-[25px]"
                       >
                         <div
-                         
                           className="text-[16.0583px] box-border caret-transparent leading-[24.0875px] outline-[3px] w-full md:text-lg md:leading-[27px]"
                         >
                           <p
-                           
                             className="text-[16.0583px] items-baseline box-border caret-transparent flex leading-[24.0875px] outline-[3px] md:text-lg md:leading-[27px] before:accent-auto before:bg-pink-950 before:box-border before:caret-transparent before:text-black before:block before:text-[16.0583px] before:not-italic before:normal-nums before:font-normal before:h-2.5 before:tracking-[normal] before:leading-[24.0875px] before:list-outside before:list-disc before:min-h-[auto] before:min-w-2.5 before:outline-[3px] before:pointer-events-auto before:text-left before:no-underline before:indent-[0px] before:normal-case before:translate-y-[-1.4px] before:visible before:w-2.5 before:mr-[15px] before:rounded-[50%] before:border-separate before:font-libre_franklin before:md:text-lg before:md:leading-[27px]"
                           >
                             Promote healthy inflammation balance and nephron
@@ -323,19 +273,15 @@ export const EducationSection = () => {
                       </div>
                     </div>
                     <div
-                     
                       className="items-center box-border caret-transparent flex justify-center min-w-[auto] outline-[3px]"
                     >
                       <div
-                       
                         className="text-black text-[16.0583px] box-border caret-transparent leading-[24.0875px] min-h-[auto] min-w-[auto] outline-[3px] text-left w-full mt-3 pl-5 md:text-lg md:leading-[27px] md:pl-[25px]"
                       >
                         <div
-                         
                           className="text-[16.0583px] box-border caret-transparent leading-[24.0875px] outline-[3px] w-full md:text-lg md:leading-[27px]"
                         >
                           <p
-                           
                             className="text-[16.0583px] items-baseline box-border caret-transparent flex leading-[24.0875px] outline-[3px] md:text-lg md:leading-[27px] before:accent-auto before:bg-pink-950 before:box-border before:caret-transparent before:text-black before:block before:text-[16.0583px] before:not-italic before:normal-nums before:font-normal before:h-2.5 before:tracking-[normal] before:leading-[24.0875px] before:list-outside before:list-disc before:min-h-[auto] before:min-w-2.5 before:outline-[3px] before:pointer-events-auto before:text-left before:no-underline before:indent-[0px] before:normal-case before:translate-y-[-1.4px] before:visible before:w-2.5 before:mr-[15px] before:rounded-[50%] before:border-separate before:font-libre_franklin before:md:text-lg before:md:leading-[27px]"
                           >
                             Support healthy circulation and vascular function
@@ -344,19 +290,15 @@ export const EducationSection = () => {
                       </div>
                     </div>
                     <div
-                     
                       className="items-center box-border caret-transparent flex justify-center min-w-[auto] outline-[3px]"
                     >
                       <div
-                       
                         className="text-[16.0583px] box-border caret-transparent leading-[24.0875px] min-h-[auto] min-w-[auto] outline-[3px] text-left w-full pl-5 md:text-lg md:leading-[27px] md:pl-0"
                       >
                         <div
-                         
                           className="text-[16.0583px] box-border caret-transparent leading-[24.0875px] outline-[3px] w-full md:text-lg md:leading-[27px]"
                         >
                           <p
-                           
                             className="text-black text-[16.0583px] items-baseline box-border caret-transparent flex leading-[24.0875px] outline-[3px] mt-2.5 pl-px md:text-lg md:leading-[27px] md:pl-[25px] before:accent-auto before:bg-pink-950 before:box-border before:caret-transparent before:text-black before:block before:text-[16.0583px] before:not-italic before:normal-nums before:font-normal before:h-2.5 before:tracking-[normal] before:leading-[24.0875px] before:list-outside before:list-disc before:min-h-[auto] before:min-w-2.5 before:outline-[3px] before:pointer-events-auto before:text-left before:no-underline before:indent-[0px] before:normal-case before:translate-y-[-1.4px] before:visible before:w-2.5 before:mr-[15px] before:rounded-[50%] before:border-separate before:font-libre_franklin before:md:text-lg before:md:leading-[27px]"
                           >
                             Provide natural ACE-inhibitor-like compounds that
@@ -366,19 +308,15 @@ export const EducationSection = () => {
                       </div>
                     </div>
                     <div
-                     
                       className="items-center box-border caret-transparent flex justify-center min-w-[auto] outline-[3px]"
                     >
                       <div
-                       
                         className="text-[16.0583px] box-border caret-transparent leading-[24.0875px] min-h-[auto] min-w-[auto] outline-[3px] text-left w-full pl-5 md:text-lg md:leading-[27px] md:pl-0"
                       >
                         <div
-                         
                           className="text-[16.0583px] box-border caret-transparent leading-[24.0875px] outline-[3px] w-full md:text-lg md:leading-[27px]"
                         >
                           <p
-                           
                             className="text-black text-[16.0583px] items-baseline box-border caret-transparent flex leading-[24.0875px] outline-[3px] mt-2.5 pl-px md:text-lg md:leading-[27px] md:pl-[25px] before:accent-auto before:bg-pink-950 before:box-border before:caret-transparent before:text-black before:block before:text-[16.0583px] before:not-italic before:normal-nums before:font-normal before:h-2.5 before:tracking-[normal] before:leading-[24.0875px] before:list-outside before:list-disc before:min-h-[auto] before:min-w-2.5 before:outline-[3px] before:pointer-events-auto before:text-left before:no-underline before:indent-[0px] before:normal-case before:translate-y-[-1.4px] before:visible before:w-2.5 before:mr-[15px] before:rounded-[50%] before:border-separate before:font-libre_franklin before:md:text-lg before:md:leading-[27px]"
                           >
                             Protect kidney cells from oxidative stress that
@@ -388,19 +326,15 @@ export const EducationSection = () => {
                       </div>
                     </div>
                     <div
-                     
                       className="items-center box-border caret-transparent flex justify-center min-w-[auto] outline-[3px]"
                     >
                       <div
-                       
                         className="text-black text-[16.0583px] box-border caret-transparent leading-[24.0875px] min-h-[auto] min-w-[auto] outline-[3px] text-left w-full mt-[25px] md:text-lg md:leading-[27px]"
                       >
                         <div
-                         
                           className="text-[16.0583px] box-border caret-transparent leading-[24.0875px] outline-[3px] w-full md:text-lg md:leading-[27px]"
                         >
                           <p
-                           
                             className="text-[16.0583px] box-border caret-transparent leading-[24.0875px] outline-[3px] md:text-lg md:leading-[27px]"
                           >
                             It has centuries of safe use. From Egyptian royalty

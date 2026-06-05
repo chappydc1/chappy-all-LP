@@ -3,13 +3,11 @@ export const DoctorReview = () => {
     <div className="bg-white box-border caret-transparent flex min-h-[auto] min-w-[auto] outline-[3px] w-full border border-pink-950 mt-5 pl-[5px] pr-px pt-4 pb-px rounded-[10px] border-solid md:px-4">
       <div className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] w-full px-2.5 py-3">
         <p
-         
           className="text-black text-lg font-bold box-border caret-transparent leading-[27px] outline-[3px]"
         >
           Doctor Reviewed
         </p>
         <p
-         
           className="text-xs box-border caret-transparent leading-[18px] outline-[3px] mt-[5px] mb-2.5 md:text-sm md:leading-[21px]"
         >
           &quot;Hibiscus is one of the most underrated natural tools for kidney
@@ -25,7 +23,6 @@ export const DoctorReview = () => {
         </div>
         <p className="box-border caret-transparent outline-[3px]"></p>
         <p
-         
           className="text-xs box-border caret-transparent leading-[18px] outline-[3px] md:text-sm md:leading-[21px]"
         >
           <b className="text-xs font-bold box-border caret-transparent leading-[18px] outline-[3px] md:text-sm md:leading-[21px]">
@@ -41,7 +38,6 @@ export const DoctorReview = () => {
         <img
           title=""
           src=""
-         
           alt=""
           className="text-black box-border caret-transparent block h-full max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full md:inline md:min-h-0 md:min-w-0"
         />

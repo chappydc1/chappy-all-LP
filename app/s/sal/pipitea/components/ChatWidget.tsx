@@ -1,3 +1,4 @@
+"use client"
 export const ChatWidget = () => {
   return (
     <div className="fixed text-slate-500 text-base box-border caret-transparent leading-6 outline-[3px] z-[2147483646] left-4 bottom-4 font-roboto">
