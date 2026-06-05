@@ -1,0 +1,34 @@
+{
+  "header": {
+    "logo": "https://c.animaapp.com/mq0c6l4mp0WBgi/assets/1762481864431_logo_purple.png"
+  },
+  "hero": {
+    "gallery": [
+      "https://c.animaapp.com/mq0c6l4mp0WBgi/assets/1762549232000_Slider01.webp",
+      "https://c.animaapp.com/mq0c6l4mp0WBgi/assets/1762549242945_Slider2.webp",
+      "https://c.animaapp.com/mq0c6l4mp0WBgi/assets/1762904386311_Img3.webp",
+      "https://c.animaapp.com/mq0c6l4mp0WBgi/assets/1762549280191_Slider4.webp",
+      "https://c.animaapp.com/mq0c6l4mp0WBgi/assets/1762549291500_Slider5.webp",
+      "https://c.animaapp.com/mq0c6l4mp0WBgi/assets/1762549300087_Slider6.webp",
+      "https://c.animaapp.com/mq0c6l4mp0WBgi/assets/1762549311151_Slider07.webp",
+      "https://c.animaapp.com/mq0c6l4mp0WBgi/assets/1762549253225_Slider03.webp"
+    ],
+    "ratingStars": "https://img.funnelish.com/4224/643781/1733321557-4_5_star-2x-1-.png.webp",
+    "checkIcon": "https://c.animaapp.com/mq0c6l4mp0WBgi/assets/11.svg",
+    "stockIcon": "https://c.animaapp.com/mq0c6l4mp0WBgi/assets/12.svg",
+    "deliveryIcon": "https://c.animaapp.com/mq0c6l4mp0WBgi/assets/13.svg",
+    "faqIcon": "https://c.animaapp.com/mq0c6l4mp0WBgi/assets/icon-1.svg",
+    "paymentIcons": "https://c.animaapp.com/mq0c6l4mp0WBgi/assets/30.webp",
+    "guaranteeBadge": "https://c.animaapp.com/mq0c6l4mp0WBgi/assets/31.webp",
+    "testimonialProduct": "https://c.animaapp.com/mq0c6l4mp0WBgi/assets/28.webp",
+    "testimonialAvatar": "https://c.animaapp.com/mq0c6l4mp0WBgi/assets/29.webp",
+    "verifiedIcon": "https://c.animaapp.com/mq0c6l4mp0WBgi/assets/10.svg"
+  },
+  "finalCta": {
+    "icon": "https://c.animaapp.com/mq0c6l4mp0WBgi/assets/59.png",
+    "guaranteeIcon": "https://c.animaapp.com/mq0c6l4mp0WBgi/assets/17.svg"
+  },
+  "footer": {
+    "logo": "https://c.animaapp.com/mq0c6l4mp0WBgi/assets/1759978921286_logo_purple.png"
+  }
+}

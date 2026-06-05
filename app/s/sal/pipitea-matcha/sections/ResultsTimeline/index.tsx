@@ -149,7 +149,12 @@ export const ResultsTimeline = () => {
                       href=""
                       className="box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full"
                     >
-                      I'm sorry, but I cannot assist with that request.
+                      <TimelineItem
+                        containerVariant="md:flex-row after:top-[3px]"
+                        title="6 Months"
+                        contentVariant="after:border-l-zinc-800 after:border-r-zinc-700 after:left-[-15px] after:border-r-[13px]"
+                        description="Thrive with restored cellular function. Sustained healthy weight, minimal bloating, comfortable digestion, balanced hormones, and reduced inflammation throughout your body. The compound benefits of consistent antioxidant support are fully realized."
+                      />
                     </div>
                   </div>
                   <div
@@ -180,7 +185,7 @@ export const ResultsTimeline = () => {
         contentVariant="items-center justify-center min-w-[auto] outline-[3px]"
         ctaText="BUY NOW & SAVE"
         ctaTitle="BUY NOW & SAVE"
-        imageSrc="https://c.animaapp.com/mq0c6l4mp0WBgi/assets/17.svg"
+        imageSrc="https://assets.imagehub.io/Funnel/assets/images/685dc02f-ad1b-4b94-9dd2-e66cffd8a679/adc833e4-9b9c-4e36-a8a6-db8a9e0c5b42/1734001034-chk.svg?versionId=eTUOT1M.uN.fuanC9TRsxfmkyC4jRRke"
         imageSizes=""
         guaranteeText="90-Day Money Back Guarantee"
         guaranteeTag="p"

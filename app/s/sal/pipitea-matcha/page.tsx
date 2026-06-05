@@ -1,5 +1,7 @@
-import { PipiteaMatchaApp } from "./PipiteaMatchaApp";
+import copy from "./copy.json"
+import media from "./media.json"
+import { PageShell } from "./sections/PageShell"
 
 export default function PipiteaMatchaPage() {
-  return <PipiteaMatchaApp />;
+  return <PageShell copy={copy} media={media} />
 }

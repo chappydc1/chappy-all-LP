@@ -75,7 +75,7 @@ export const RatingSummary = () => {
                             className="items-center box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full mt-[7px]"
                           >
                             <img
-                              src=""
+                              src="https://assets.imagehub.io/Funnel/assets/images/685dc02f-ad1b-4b94-9dd2-e66cffd8a679/adc833e4-9b9c-4e36-a8a6-db8a9e0c5b42/1699804355-1678653183-829-8299060_5-stars-transparent-background-5-star.webp?versionId=w8PG0w5snHii_MiveWXSqUXoYmvcMFmg"
                               alt=""
                               href=""
                               title=""
@@ -196,7 +196,7 @@ export const RatingSummary = () => {
                             className="items-start box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full"
                           >
                             <img
-                              src=""
+                              src="https://assets.imagehub.io/Funnel/assets/images/685dc02f-ad1b-4b94-9dd2-e66cffd8a679/adc833e4-9b9c-4e36-a8a6-db8a9e0c5b42/1710484385-5-stars.png?versionId=pMjuN7XVPfLGWIymhQZsL8.TcXnG28a2"
                               alt=""
                               href=""
                               title=""
@@ -289,7 +289,7 @@ export const RatingSummary = () => {
                             className="items-start box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full"
                           >
                             <img
-                              src=""
+                              src="https://assets.imagehub.io/Funnel/assets/images/685dc02f-ad1b-4b94-9dd2-e66cffd8a679/adc833e4-9b9c-4e36-a8a6-db8a9e0c5b42/1710485486-4-stars.png?versionId=dFxvGzlgucLVnhMgNYNmLfS5G7DuBwPa"
                               alt=""
                               href=""
                               title=""
@@ -381,7 +381,7 @@ export const RatingSummary = () => {
                             className="items-start box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full"
                           >
                             <img
-                              src=""
+                              src="https://assets.imagehub.io/Funnel/assets/images/685dc02f-ad1b-4b94-9dd2-e66cffd8a679/adc833e4-9b9c-4e36-a8a6-db8a9e0c5b42/1710485504-3-stars.png?versionId=GmGQImgKHeEA0JRFD20AOMKu6BprkOTj"
                               alt=""
                               href=""
                               title=""
@@ -473,7 +473,7 @@ export const RatingSummary = () => {
                             className="items-start box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full"
                           >
                             <img
-                              src=""
+                              src="https://assets.imagehub.io/Funnel/assets/images/685dc02f-ad1b-4b94-9dd2-e66cffd8a679/adc833e4-9b9c-4e36-a8a6-db8a9e0c5b42/1710485707-2-stars.png?versionId=K.PXGVsV4eMRszBFRrMzWHTM3tz_j16E"
                               alt=""
                               href=""
                               title=""
@@ -565,7 +565,7 @@ export const RatingSummary = () => {
                             className="items-start box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full"
                           >
                             <img
-                              src=""
+                              src="https://assets.imagehub.io/Funnel/assets/images/685dc02f-ad1b-4b94-9dd2-e66cffd8a679/adc833e4-9b9c-4e36-a8a6-db8a9e0c5b42/1710485721-1-stars.png?versionId=YbSMgMYNgPhbMXAsHAXHxBnmOlkezSZS"
                               alt=""
                               href=""
                               title=""

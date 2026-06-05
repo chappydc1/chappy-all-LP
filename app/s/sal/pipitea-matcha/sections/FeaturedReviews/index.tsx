@@ -218,7 +218,7 @@ export const FeaturedReviews = () => {
             contentVariant="items-start flex-wrap min-h-[auto] min-w-[auto] mt-10 md:mt-5"
             ctaText="BUY NOW & SAVE"
             ctaTitle="BUY NOW & SAVE"
-            imageSrc="https://c.animaapp.com/mq0c6l4mp0WBgi/assets/17.svg"
+            imageSrc="https://assets.imagehub.io/Funnel/assets/images/685dc02f-ad1b-4b94-9dd2-e66cffd8a679/adc833e4-9b9c-4e36-a8a6-db8a9e0c5b42/1734001034-chk.svg?versionId=eTUOT1M.uN.fuanC9TRsxfmkyC4jRRke"
             imageSizes="1170px"
             guaranteeText="90-Day Money Back Guarantee"
             guaranteeTag="p"

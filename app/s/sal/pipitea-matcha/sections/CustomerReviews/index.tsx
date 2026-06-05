@@ -67,10 +67,12 @@ export const CustomerReviews = () => {
               >
                 <CustomerReview
                   firstReviewerName="Kylie D. - Orlando, FL"
+                  firstImageSrc="https://assets.imagehub.io/d7e682f1-bc91-48e4-b32d-d2ec8dc645c0/1763159900122_testemonial_card01.webp"
                   firstReviewText={
                     "\"I started drinking Ceremonial Matcha during one of the most stressful times in my life, and I honestly didn't expect much after trying probiotics, ashwagandha, and countless other supplements that did nothing. But this has made such a difference! I feel calmer, way less bloated (I used to look 6 months pregnant after lunch), and even my sleep has improved. It's become part of my morning ritual, and I actually look forward to it every day!\""
                   }
                   secondReviewerName="Lisa P. - Memphis, TN"
+                  secondImageSrc="https://assets.imagehub.io/d7e682f1-bc91-48e4-b32d-d2ec8dc645c0/1762567979846_testemonial01.webp"
                   secondReviewText={
                     "\"Ceremonial Matcha has seriously upgraded my daily routine. I've been trying to cut back on coffee for years because of the anxiety and crashes, and this gives me the perfect lift without any of that. It's smooth, tastes amazing, and helps keep my stress levels in check, especially on busy days. My husband loves it too. We're both hooked and feel so much better!\""
                   }
@@ -103,8 +105,10 @@ export const CustomerReviews = () => {
                 </div>
                 <CustomerReview
                   firstReviewerName="Vanessa D."
+                  firstImageSrc="https://assets.imagehub.io/d7e682f1-bc91-48e4-b32d-d2ec8dc645c0/1763160922349_testemonial_card02.webp"
                   firstReviewText={`"So impressed! My Ceremonial Matcha arrived in just 3 days, and I could tell it was super fresh. I've been drinking it every morning for two weeks now, and the difference is real. It's smooth, relaxing, and helps me unwind after work instead of feeling wired like coffee used to make me. The sustained energy without the crash is exactly what I needed. Love it!"`}
                   secondReviewerName="Dan P."
+                  secondImageSrc="https://assets.imagehub.io/d7e682f1-bc91-48e4-b32d-d2ec8dc645c0/1762569154561_testemonial05.webp"
                   secondReviewText={`"Very fast shipping. Can tell it's premium quality right away. I've been trying to cut back on coffee for months, and this finally made it possible. The energy is steady, not jittery, and I don't crash in the afternoon. Can't wait to make this part of my daily routine permanently."`}
                   secondReviewerNameClassName=""
                   secondReviewerTextClassName=""
@@ -135,8 +139,10 @@ export const CustomerReviews = () => {
                 </div>
                 <CustomerReview
                   firstReviewerName="Ashley C."
+                  firstImageSrc="https://assets.imagehub.io/d7e682f1-bc91-48e4-b32d-d2ec8dc645c0/1763161308906_testemonial_card03.webp"
                   firstReviewText={`"Fast shipping and excellent quality. I've started enjoying a cup every afternoon on my porch, and it's become my little ritual. Super calming, and I love how smooth and light it tastes. No bitterness at all like the cheap matcha I tried before. My digestion has been so much better, and I don't get that awful 3 PM crash anymore."`}
                   secondReviewerName="Dan P."
+                  secondImageSrc="https://assets.imagehub.io/d7e682f1-bc91-48e4-b32d-d2ec8dc645c0/1762568241506_testemonial02.webp"
                   secondReviewText={`"Fast shipping and outstanding product. The packaging is really well done, and the matcha smells incredible as soon as you open it. Full of fresh, vibrant leaves. You can tell this is high-quality ceremonial grade, not the cheap stuff. My gut feels so much better after just two weeks."`}
                   secondReviewerNameClassName=""
                   secondReviewerTextClassName=""
@@ -167,8 +173,10 @@ export const CustomerReviews = () => {
                 </div>
                 <CustomerReview
                   firstReviewerName="Alvin S."
+                  firstImageSrc="https://assets.imagehub.io/d7e682f1-bc91-48e4-b32d-d2ec8dc645c0/1763161513697_testemonial_card04.webp"
                   firstReviewText={`"This Ceremonial Matcha is smooth, fresh, and really helps me stay focused during the day. I was skeptical after wasting money on mushroom coffee and adaptogens that did nothing, but this actually works. I wish I had found this sooner. The mental clarity is incredible, and I'm not reaching for multiple cups of coffee anymore."`}
                   secondReviewerName="Shannon L."
+                  secondImageSrc="https://assets.imagehub.io/d7e682f1-bc91-48e4-b32d-d2ec8dc645c0/1762908204054_testemonial10.webp"
                   secondReviewText={`"I've been keeping this at my desk and having a cup every morning. It still tastes great after weeks of use, and I'm so happy with the results. My bloating is almost completely gone, my brain fog has lifted, and I have consistent energy throughout the day. Worth every penny."`}
                   secondReviewerNameClassName="md:text-[17px] md:leading-[25.5px]"
                   secondReviewerTextClassName="text-[17.4583px] leading-[26.1875px]"
@@ -184,7 +192,7 @@ export const CustomerReviews = () => {
         contentVariant="items-center justify-center outline-[3px]"
         ctaText="BUY NOW & SAVE"
         ctaTitle="BUY NOW & SAVE"
-        imageSrc=""
+        imageSrc="https://assets.imagehub.io/Funnel/assets/images/685dc02f-ad1b-4b94-9dd2-e66cffd8a679/adc833e4-9b9c-4e36-a8a6-db8a9e0c5b42/1734001034-chk.svg?versionId=eTUOT1M.uN.fuanC9TRsxfmkyC4jRRke"
         imageSizes="1170px"
         guaranteeText="90-Day Money Back Guarantee"
         guaranteeTag="h1"

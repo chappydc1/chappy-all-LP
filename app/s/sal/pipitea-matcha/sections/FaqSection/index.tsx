@@ -80,7 +80,6 @@ export const FaqSection = () => {
                     wrapperClassName="items-center box-border caret-transparent flex justify-center min-w-[auto] outline-[3px]"
                     innerClassName="bg-white box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] border border-stone-300 mt-2.5 rounded-bl rounded-br rounded-tl rounded-tr border-solid"
                   />
-                  I'm sorry, but I cannot assist with that request.
                   <FaqItem
                     question="How many servings in a container?"
                     answer={
@@ -230,21 +229,6 @@ export const FaqSection = () => {
               </div>
             </div>
           </div>
-          <CtaBlock
-            outerVariant="default"
-            frameVariant="items-start flex-wrap min-h-[auto] mt-10 md:mt-[50px]"
-            contentVariant="items-center justify-center min-w-[auto] outline-[3px]"
-            ctaText="BUY NOW &amp; SAVE"
-            ctaTitle="BUY NOW &amp; SAVE"
-            imageSrc="https://c.animaapp.com/mq0c6l4mp0WBgi/assets/17.svg"
-            imageSizes="1170px"
-            guaranteeText="90-Day Money Back Guarantee"
-            guaranteeTag="p"
-            reviewVariant="default"
-            reviewEyebrow=""
-            reviewQuote=""
-            reviewAuthor=""
-          />
           <div
             href=""
             className="items-center box-border caret-transparent flex justify-center outline-[3px]"

@@ -272,7 +272,7 @@ export const FinalCta = () => {
                               className="items-center box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full"
                             >
                               <img
-                                src="https://c.animaapp.com/mq0c6l4mp0WBgi/assets/17.svg"
+                                src="https://assets.imagehub.io/Funnel/assets/images/685dc02f-ad1b-4b94-9dd2-e66cffd8a679/adc833e4-9b9c-4e36-a8a6-db8a9e0c5b42/1734001034-chk.svg?versionId=eTUOT1M.uN.fuanC9TRsxfmkyC4jRRke"
                                 alt=""
                                 sizes="1170px"
                                 href=""
