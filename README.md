@@ -8,52 +8,52 @@
 
 ---
 
-## Quick Links — northline.md
+## Quick Links — www.northlinemd.com
 
 **Advertorial** &nbsp;
-[derila](https://northline.md/s/a/derila) &nbsp;|&nbsp;
-[healthinsider-gynocologist](https://northline.md/s/a/healthinsider-gynocologist) &nbsp;|&nbsp;
-[hear](https://northline.md/s/a/hear) &nbsp;|&nbsp;
-[jevawell](https://northline.md/s/a/jevawell) &nbsp;|&nbsp;
-[morningvitality](https://northline.md/s/a/morningvitality) &nbsp;|&nbsp;
-[nebroo-v1](https://northline.md/s/a/nebroo-v1) &nbsp;|&nbsp;
-[spartan](https://northline.md/s/a/spartan) &nbsp;|&nbsp;
-[today](https://northline.md/s/a/today) &nbsp;|&nbsp;
-[zikeey](https://northline.md/s/a/zikeey)
+[derila](https://www.northlinemd.com/s/a/derila) &nbsp;|&nbsp;
+[healthinsider-gynocologist](https://www.northlinemd.com/s/a/healthinsider-gynocologist) &nbsp;|&nbsp;
+[hear](https://www.northlinemd.com/s/a/hear) &nbsp;|&nbsp;
+[jevawell](https://www.northlinemd.com/s/a/jevawell) &nbsp;|&nbsp;
+[morningvitality](https://www.northlinemd.com/s/a/morningvitality) &nbsp;|&nbsp;
+[nebroo-v1](https://www.northlinemd.com/s/a/nebroo-v1) &nbsp;|&nbsp;
+[spartan](https://www.northlinemd.com/s/a/spartan) &nbsp;|&nbsp;
+[today](https://www.northlinemd.com/s/a/today) &nbsp;|&nbsp;
+[zikeey](https://www.northlinemd.com/s/a/zikeey)
 
 **Comparison** &nbsp;
-[forbes](https://northline.md/s/com/forbes) &nbsp;|&nbsp;
-[primepicks](https://northline.md/s/com/primepicks) &nbsp;|&nbsp;
-[shilajit](https://northline.md/s/com/shilajit)
+[forbes](https://www.northlinemd.com/s/com/forbes) &nbsp;|&nbsp;
+[primepicks](https://www.northlinemd.com/s/com/primepicks) &nbsp;|&nbsp;
+[shilajit](https://www.northlinemd.com/s/com/shilajit)
 
 **Listicle** &nbsp;
-[brez](https://northline.md/s/lis/brez) &nbsp;|&nbsp;
-[feals](https://northline.md/s/lis/feals) &nbsp;|&nbsp;
-[gruns](https://northline.md/s/lis/gruns) &nbsp;|&nbsp;
-[hike](https://northline.md/s/lis/hike) &nbsp;|&nbsp;
-[javy](https://northline.md/s/lis/javy) &nbsp;|&nbsp;
-[jones](https://northline.md/s/lis/jones) &nbsp;|&nbsp;
-[kachava](https://northline.md/s/lis/kachava) &nbsp;|&nbsp;
-[rejuvacare](https://northline.md/s/lis/rejuvacare)
+[brez](https://www.northlinemd.com/s/lis/brez) &nbsp;|&nbsp;
+[feals](https://www.northlinemd.com/s/lis/feals) &nbsp;|&nbsp;
+[gruns](https://www.northlinemd.com/s/lis/gruns) &nbsp;|&nbsp;
+[hike](https://www.northlinemd.com/s/lis/hike) &nbsp;|&nbsp;
+[javy](https://www.northlinemd.com/s/lis/javy) &nbsp;|&nbsp;
+[jones](https://www.northlinemd.com/s/lis/jones) &nbsp;|&nbsp;
+[kachava](https://www.northlinemd.com/s/lis/kachava) &nbsp;|&nbsp;
+[rejuvacare](https://www.northlinemd.com/s/lis/rejuvacare)
 
 **Quiz** &nbsp;
-[chappy](https://northline.md/s/q/chappy) &nbsp;|&nbsp;
-[chappy2](https://northline.md/s/q/chappy2) &nbsp;|&nbsp;
-[hear](https://northline.md/s/q/hear)
+[chappy](https://www.northlinemd.com/s/q/chappy) &nbsp;|&nbsp;
+[chappy2](https://www.northlinemd.com/s/q/chappy2) &nbsp;|&nbsp;
+[hear](https://www.northlinemd.com/s/q/hear)
 
 **Sales** &nbsp;
-[amala](https://northline.md/s/sal/amala) &nbsp;|&nbsp;
-[nebroo](https://northline.md/s/sal/nebroo) &nbsp;|&nbsp;
-[nuz/neck-pain](https://northline.md/s/sal/nuz/neck-pain) &nbsp;|&nbsp;
-[smoothspine](https://northline.md/s/sal/smoothspine)
+[amala](https://www.northlinemd.com/s/sal/amala) &nbsp;|&nbsp;
+[nebroo](https://www.northlinemd.com/s/sal/nebroo) &nbsp;|&nbsp;
+[nuz/neck-pain](https://www.northlinemd.com/s/sal/nuz/neck-pain) &nbsp;|&nbsp;
+[smoothspine](https://www.northlinemd.com/s/sal/smoothspine)
 
 **VSL** &nbsp;
-[abc-news](https://northline.md/s/vsl/abc-news) &nbsp;|&nbsp;
-[diabetes](https://northline.md/s/vsl/diabetes) &nbsp;|&nbsp;
-[emma](https://northline.md/s/vsl/emma) &nbsp;|&nbsp;
-[getokinawatonic](https://northline.md/s/vsl/getokinawatonic) &nbsp;|&nbsp;
-[glycoflush](https://northline.md/s/vsl/glycoflush) &nbsp;|&nbsp;
-[oprah](https://northline.md/s/vsl/oprah)
+[abc-news](https://www.northlinemd.com/s/vsl/abc-news) &nbsp;|&nbsp;
+[diabetes](https://www.northlinemd.com/s/vsl/diabetes) &nbsp;|&nbsp;
+[emma](https://www.northlinemd.com/s/vsl/emma) &nbsp;|&nbsp;
+[getokinawatonic](https://www.northlinemd.com/s/vsl/getokinawatonic) &nbsp;|&nbsp;
+[glycoflush](https://www.northlinemd.com/s/vsl/glycoflush) &nbsp;|&nbsp;
+[oprah](https://www.northlinemd.com/s/vsl/oprah)
 
 ---
 
