@@ -1,53 +1,53 @@
 {
   "icons": {
-    "calendar": "https://c.animaapp.com/mqghzkigWNDCPr/assets/1758238663851_calendar.webp",
-    "facebook": "https://c.animaapp.com/mqghzkigWNDCPr/assets/1727275930809_facebook.webp",
-    "twitter": "https://c.animaapp.com/mqghzkigWNDCPr/assets/1727275930809_facebook.webp",
-    "like": "https://c.animaapp.com/mqghzkigWNDCPr/assets/1758248404111_like.webp",
-    "redTick": "https://c.animaapp.com/mqghzkigWNDCPr/assets/1727410665375_red_tick.webp",
-    "scissors": "https://assets.imagehub.io/edfe9320-e07a-11ee-a704-df515a761f4a/1727349829919_scissors.webp"
+    "calendar": "/skinmag-v1/calendar.webp",
+    "facebook": "/skinmag-v1/facebook.webp",
+    "twitter": "/skinmag-v1/facebook.webp",
+    "like": "/skinmag-v1/like.webp",
+    "redTick": "/skinmag-v1/red-tick.webp",
+    "scissors": "/skinmag-v1/scissors.webp"
   },
   "logos": {
-    "nbc": "https://c.animaapp.com/mqghzkigWNDCPr/assets/1769553022945_1726683344123_NBC_Logo_1986_w200_320x213.webp",
-    "cbs": "https://c.animaapp.com/mqghzkigWNDCPr/assets/1769553169103_1726683337314_CBS_logo_w200_320x97.webp",
-    "fox": "https://c.animaapp.com/mqghzkigWNDCPr/assets/1769553255787_1726683339972_Fox_News_logo_w200_320x180.webp",
-    "aol": "https://c.animaapp.com/mqghzkigWNDCPr/assets/1769553355794_1726683334640_AOL_Logo_w200_320_181.webp",
-    "usaToday": "https://c.animaapp.com/mqghzkigWNDCPr/assets/1769553483041_1726683346879_ustoday_w200_320x125.webp",
-    "yahoo": "https://c.animaapp.com/mqghzkigWNDCPr/assets/1769553591509_1726683350635_yahoo_news_logo_w200_320x117.webp"
+    "nbc": "/skinmag-v1/nbc.webp",
+    "cbs": "/skinmag-v1/cbs.webp",
+    "fox": "/skinmag-v1/fox.webp",
+    "aol": "/skinmag-v1/aol.webp",
+    "usaToday": "/skinmag-v1/usa-today.webp",
+    "yahoo": "/skinmag-v1/yahoo.webp"
   },
   "article": {
-    "hero": "https://c.animaapp.com/mqghzkigWNDCPr/assets/8.png",
-    "section1": "https://c.animaapp.com/mqghzkigWNDCPr/assets/image-1.svg",
-    "section2": "https://c.animaapp.com/mqghzkigWNDCPr/assets/image-1.svg",
-    "section3": "https://c.animaapp.com/mqghzkigWNDCPr/assets/image-1.svg",
-    "section4": "https://c.animaapp.com/mqghzkigWNDCPr/assets/image-1.svg",
-    "week1Open": "https://c.animaapp.com/mqghzkigWNDCPr/assets/image-1.svg",
-    "week1Apply": "https://c.animaapp.com/mqghzkigWNDCPr/assets/image-1.svg",
-    "week1Result": "https://c.animaapp.com/mqghzkigWNDCPr/assets/image-1.svg",
-    "week2": "https://c.animaapp.com/mqghzkigWNDCPr/assets/image-1.svg",
-    "week4": "https://c.animaapp.com/mqghzkigWNDCPr/assets/image-1.svg",
-    "week6": "https://c.animaapp.com/mqghzkigWNDCPr/assets/image-1.svg",
-    "emotional": "https://c.animaapp.com/mqghzkigWNDCPr/assets/image-1.svg",
-    "drPark": "https://c.animaapp.com/mqghzkigWNDCPr/assets/image-1.svg",
-    "synAke": "https://c.animaapp.com/mqghzkigWNDCPr/assets/image-1.svg",
-    "caprylic": "https://c.animaapp.com/mqghzkigWNDCPr/assets/image-1.svg",
-    "skeptical": "https://c.animaapp.com/mqghzkigWNDCPr/assets/image-1.svg",
-    "ctaButton": "https://c.animaapp.com/mqghzkigWNDCPr/assets/image-1.svg"
+    "hero": "/skinmag-v1/hero.png",
+    "section1": "/skinmag-v1/image-placeholder.svg",
+    "section2": "/skinmag-v1/image-placeholder.svg",
+    "section3": "/skinmag-v1/image-placeholder.svg",
+    "section4": "/skinmag-v1/image-placeholder.svg",
+    "week1Open": "/skinmag-v1/image-placeholder.svg",
+    "week1Apply": "/skinmag-v1/image-placeholder.svg",
+    "week1Result": "/skinmag-v1/image-placeholder.svg",
+    "week2": "/skinmag-v1/image-placeholder.svg",
+    "week4": "/skinmag-v1/image-placeholder.svg",
+    "week6": "/skinmag-v1/image-placeholder.svg",
+    "emotional": "/skinmag-v1/image-placeholder.svg",
+    "drPark": "/skinmag-v1/image-placeholder.svg",
+    "synAke": "/skinmag-v1/image-placeholder.svg",
+    "caprylic": "/skinmag-v1/image-placeholder.svg",
+    "skeptical": "/skinmag-v1/image-placeholder.svg",
+    "ctaButton": "/skinmag-v1/image-placeholder.svg"
   },
   "product": {
-    "jar": "https://c.animaapp.com/mqghzkigWNDCPr/assets/1747392384610_anti_wrinkle_v06_copy.webp",
-    "wheel": "https://c.animaapp.com/mqghzkigWNDCPr/assets/1727351834100_Wheel.webp"
+    "jar": "/skinmag-v1/product-jar.webp",
+    "wheel": "/skinmag-v1/wheel.webp"
   },
   "sidebar": {
-    "award": "https://c.animaapp.com/mqghzkigWNDCPr/assets/1771514475992_al1_520x390.webp",
-    "product": "https://c.animaapp.com/mqghzkigWNDCPr/assets/1780433238539_wlc.webp",
-    "clinicalTrials": "https://c.animaapp.com/mqghzkigWNDCPr/assets/1771514763605_1748528206338_2_ClinicalTrialsB_copy_520x344.webp",
-    "testimonial1": "https://c.animaapp.com/mqghzkigWNDCPr/assets/image-1.svg",
-    "testimonial2": "https://c.animaapp.com/mqghzkigWNDCPr/assets/image-1.svg"
+    "award": "/skinmag-v1/award.webp",
+    "product": "/skinmag-v1/sidebar-product.webp",
+    "clinicalTrials": "/skinmag-v1/clinical-trials.webp",
+    "testimonial1": "/skinmag-v1/image-placeholder.svg",
+    "testimonial2": "/skinmag-v1/image-placeholder.svg"
   },
   "comments": {
-    "defaultAvatar": "https://c.animaapp.com/mqghzkigWNDCPr/assets/image-1.svg",
-    "johnAttachment": "https://c.animaapp.com/mqghzkigWNDCPr/assets/image-1.svg",
-    "anitaAttachment": "https://c.animaapp.com/mqghzkigWNDCPr/assets/image-1.svg"
+    "defaultAvatar": "/skinmag-v1/image-placeholder.svg",
+    "johnAttachment": "/skinmag-v1/image-placeholder.svg",
+    "anitaAttachment": "/skinmag-v1/image-placeholder.svg"
   }
 }
