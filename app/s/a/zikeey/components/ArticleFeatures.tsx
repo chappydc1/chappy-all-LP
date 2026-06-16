@@ -1,11 +1,13 @@
 import adv from "../adv.json";
 import media from "../media.json";
+import { renderText } from "../utils/renderText";
 
-const P = ({ html }: { html: string }) => (
+const P = ({ text }: { text: string }) => (
   <p
     className="text-neutral-800 text-[22px] leading-[35.2px] mb-[25px]"
-    dangerouslySetInnerHTML={{ __html: html }}
-  />
+  >
+    {renderText(text)}
+  </p>
 );
 
 export function ArticleFeatures() {
@@ -28,8 +30,8 @@ export function ArticleFeatures() {
         />
       </p>
 
-      {features.paragraphsFeature1.map((html, i) => (
-        <P key={i} html={html} />
+      {features.paragraphsFeature1.map((text, i) => (
+        <P key={i} text={text} />
       ))}
 
       <p className="text-neutral-800 text-[22px] leading-[35.2px] mb-[25px]">
@@ -45,8 +47,8 @@ export function ArticleFeatures() {
       />
 
       <div className="mt-4">
-        {features.paragraphsFeature2.map((html, i) => (
-          <P key={i} html={html} />
+        {features.paragraphsFeature2.map((text, i) => (
+          <P key={i} text={text} />
         ))}
       </div>
 
@@ -55,9 +57,9 @@ export function ArticleFeatures() {
       </h3>
 
       <p className="text-neutral-800 text-[22px] leading-[35.2px] mb-[25px]">
-        <a href={features.hipFitUrl} className="text-teal-600 transition-colors duration-150 hover:text-teal-700 hover:underline"
-          dangerouslySetInnerHTML={{ __html: features.hipFitLinkText }}
-        />
+        <a href={features.hipFitUrl} className="text-teal-600 transition-colors duration-150 hover:text-teal-700 hover:underline">
+          {features.hipFitLinkText}
+        </a>
       </p>
 
       <img
@@ -67,15 +69,15 @@ export function ArticleFeatures() {
       />
 
       <div className="mt-4">
-        {features.paragraphsFeature3.map((html, i) => (
-          <P key={i} html={html} />
+        {features.paragraphsFeature3.map((text, i) => (
+          <P key={i} text={text} />
         ))}
       </div>
 
       <p className="text-neutral-800 text-[22px] leading-[35.2px] mb-[25px]">
-        <a href={features.familyUrl} className="text-teal-600 transition-colors duration-150 hover:text-teal-700 hover:underline"
-          dangerouslySetInnerHTML={{ __html: features.familyLinkText }}
-        />
+        <a href={features.familyUrl} className="text-teal-600 transition-colors duration-150 hover:text-teal-700 hover:underline">
+          {features.familyLinkText}
+        </a>
       </p>
 
       <img
@@ -85,8 +87,8 @@ export function ArticleFeatures() {
       />
 
       <div className="mt-4">
-        {features.paragraphsFeature4.map((html, i) => (
-          <P key={i} html={html} />
+        {features.paragraphsFeature4.map((text, i) => (
+          <P key={i} text={text} />
         ))}
       </div>
 

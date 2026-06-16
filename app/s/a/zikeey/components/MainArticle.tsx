@@ -5,6 +5,7 @@ import { ArticleFeatures } from "./ArticleFeatures";
 import { ArticleReviews } from "./ArticleReviews";
 import { ArticleConclusion } from "./ArticleConclusion";
 import { ArticleCTA } from "./ArticleCTA";
+import { renderText } from "../utils/renderText";
 
 export function MainArticle() {
   const { headline, productName, productUrl, closingParagraphs } = adv.article;
@@ -20,12 +21,13 @@ export function MainArticle() {
         <ArticleFeatures />
         <ArticleReviews />
         <ArticleConclusion />
-        {closingParagraphs.map((html, i) => (
+        {closingParagraphs.map((text, i) => (
           <p
             key={i}
             className="text-neutral-800 text-[22px] leading-[35.2px] mb-[25px]"
-            dangerouslySetInnerHTML={{ __html: html }}
-          />
+          >
+            {renderText(text)}
+          </p>
         ))}
         <ArticleCTA />
       </div>

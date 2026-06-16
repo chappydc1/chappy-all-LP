@@ -6,14 +6,12 @@ export function ArticleReviews() {
 
   return (
     <section>
-      <h3
-        className="text-teal-600 text-[34px] leading-[44.2px] my-[25px]"
-        dangerouslySetInnerHTML={{ __html: `<b>${reviews.h2}</b>` }}
-      />
-      <p
-        className="text-neutral-800 text-[22px] leading-[35.2px] mb-[25px]"
-        dangerouslySetInnerHTML={{ __html: reviews.subheading }}
-      />
+      <h3 className="text-teal-600 text-[34px] leading-[44.2px] my-[25px]">
+        <b>{reviews.h2}</b>
+      </h3>
+      <p className="text-neutral-800 text-[22px] leading-[35.2px] mb-[25px]">
+        {reviews.subheading}
+      </p>
 
       <div className="space-y-3">
         {reviews.items.map((review, i) => (

@@ -6,16 +6,16 @@ export function Footer() {
   return (
     <footer className="bg-black max-w-full mt-[25px] p-2.5 pb-16 md:pb-2.5">
       <div className="max-w-[1100px] text-center mx-auto">
-        <p
-          className="text-white text-[15px] leading-6 my-[5px]"
-          dangerouslySetInnerHTML={{ __html: copyright }}
-        />
+        <p className="text-white text-[15px] leading-6 my-[5px]">
+          {copyright}
+        </p>
         {disclaimers.map((text, i) => (
           <p
             key={i}
             className="text-white text-[13px] leading-6 my-[5px] opacity-80"
-            dangerouslySetInnerHTML={{ __html: text }}
-          />
+          >
+            {text}
+          </p>
         ))}
         <div className="flex flex-wrap justify-center gap-4 mt-3">
           {links.map((link) => (

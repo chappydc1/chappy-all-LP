@@ -15,10 +15,9 @@ export function ArticleMeta() {
         <span className="text-[20px] font-bold font-sans block leading-none m-0 p-0" style={{ color: "rgb(53, 155, 118)" }}>{author.name}</span>
         <div className="leading-none mt-1">
           <span className="font-bold text-[16px] font-sans text-neutral-800">{author.date}</span>
-          <span
-            className="font-bold text-[16px] font-sans text-neutral-800 ml-2"
-            dangerouslySetInnerHTML={{ __html: author.category }}
-          />
+          <span className="font-bold text-[16px] font-sans text-neutral-800 ml-2">
+            {author.category}
+          </span>
         </div>
       </div>
     </div>
