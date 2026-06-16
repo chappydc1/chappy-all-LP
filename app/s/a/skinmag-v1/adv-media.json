@@ -1,53 +1,53 @@
 {
   "icons": {
-    "calendar": "/skinmag-v1/calendar.webp",
-    "facebook": "/skinmag-v1/facebook.webp",
-    "twitter": "/skinmag-v1/facebook.webp",
-    "like": "/skinmag-v1/like.webp",
-    "redTick": "/skinmag-v1/red-tick.webp",
-    "scissors": "/skinmag-v1/scissors.webp"
+    "calendar": "/images/skinmag-v1/calendar.webp",
+    "facebook": "/images/skinmag-v1/facebook.webp",
+    "twitter": "/images/skinmag-v1/facebook.webp",
+    "like": "/images/skinmag-v1/like.webp",
+    "redTick": "/images/skinmag-v1/red-tick.webp",
+    "scissors": "/images/skinmag-v1/scissors.webp"
   },
   "logos": {
-    "nbc": "/skinmag-v1/nbc.webp",
-    "cbs": "/skinmag-v1/cbs.webp",
-    "fox": "/skinmag-v1/fox.webp",
-    "aol": "/skinmag-v1/aol.webp",
-    "usaToday": "/skinmag-v1/usa-today.webp",
-    "yahoo": "/skinmag-v1/yahoo.webp"
+    "nbc": "/images/skinmag-v1/nbc.webp",
+    "cbs": "/images/skinmag-v1/cbs.webp",
+    "fox": "/images/skinmag-v1/fox.webp",
+    "aol": "/images/skinmag-v1/aol.webp",
+    "usaToday": "/images/skinmag-v1/usa-today.webp",
+    "yahoo": "/images/skinmag-v1/yahoo.webp"
   },
   "article": {
-    "hero": "/skinmag-v1/hero.png",
-    "section1": "/skinmag-v1/image-placeholder.svg",
-    "section2": "/skinmag-v1/image-placeholder.svg",
-    "section3": "/skinmag-v1/image-placeholder.svg",
-    "section4": "/skinmag-v1/image-placeholder.svg",
-    "week1Open": "/skinmag-v1/image-placeholder.svg",
-    "week1Apply": "/skinmag-v1/image-placeholder.svg",
-    "week1Result": "/skinmag-v1/image-placeholder.svg",
-    "week2": "/skinmag-v1/image-placeholder.svg",
-    "week4": "/skinmag-v1/image-placeholder.svg",
-    "week6": "/skinmag-v1/image-placeholder.svg",
-    "emotional": "/skinmag-v1/image-placeholder.svg",
-    "drPark": "/skinmag-v1/image-placeholder.svg",
-    "synAke": "/skinmag-v1/image-placeholder.svg",
-    "caprylic": "/skinmag-v1/image-placeholder.svg",
-    "skeptical": "/skinmag-v1/image-placeholder.svg",
-    "ctaButton": "/skinmag-v1/image-placeholder.svg"
+    "hero": "/images/skinmag-v1/hero.png",
+    "section1": "/images/skinmag-v1/image-placeholder.svg",
+    "section2": "/images/skinmag-v1/image-placeholder.svg",
+    "section3": "/images/skinmag-v1/image-placeholder.svg",
+    "section4": "/images/skinmag-v1/image-placeholder.svg",
+    "week1Open": "/images/skinmag-v1/image-placeholder.svg",
+    "week1Apply": "/images/skinmag-v1/image-placeholder.svg",
+    "week1Result": "/images/skinmag-v1/image-placeholder.svg",
+    "week2": "/images/skinmag-v1/image-placeholder.svg",
+    "week4": "/images/skinmag-v1/image-placeholder.svg",
+    "week6": "/images/skinmag-v1/image-placeholder.svg",
+    "emotional": "/images/skinmag-v1/image-placeholder.svg",
+    "drPark": "/images/skinmag-v1/image-placeholder.svg",
+    "synAke": "/images/skinmag-v1/image-placeholder.svg",
+    "caprylic": "/images/skinmag-v1/image-placeholder.svg",
+    "skeptical": "/images/skinmag-v1/image-placeholder.svg",
+    "ctaButton": "/images/skinmag-v1/image-placeholder.svg"
   },
   "product": {
-    "jar": "/skinmag-v1/product-jar.webp",
-    "wheel": "/skinmag-v1/wheel.webp"
+    "jar": "/images/skinmag-v1/product-jar.webp",
+    "wheel": "/images/skinmag-v1/wheel.webp"
   },
   "sidebar": {
-    "award": "/skinmag-v1/award.webp",
-    "product": "/skinmag-v1/sidebar-product.webp",
-    "clinicalTrials": "/skinmag-v1/clinical-trials.webp",
-    "testimonial1": "/skinmag-v1/image-placeholder.svg",
-    "testimonial2": "/skinmag-v1/image-placeholder.svg"
+    "award": "/images/skinmag-v1/award.webp",
+    "product": "/images/skinmag-v1/sidebar-product.webp",
+    "clinicalTrials": "/images/skinmag-v1/clinical-trials.webp",
+    "testimonial1": "/images/skinmag-v1/image-placeholder.svg",
+    "testimonial2": "/images/skinmag-v1/image-placeholder.svg"
   },
   "comments": {
-    "defaultAvatar": "/skinmag-v1/image-placeholder.svg",
-    "johnAttachment": "/skinmag-v1/image-placeholder.svg",
-    "anitaAttachment": "/skinmag-v1/image-placeholder.svg"
+    "defaultAvatar": "/images/skinmag-v1/image-placeholder.svg",
+    "johnAttachment": "/images/skinmag-v1/image-placeholder.svg",
+    "anitaAttachment": "/images/skinmag-v1/image-placeholder.svg"
   }
 }
