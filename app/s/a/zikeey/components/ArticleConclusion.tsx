@@ -1,11 +1,11 @@
 import adv from "../adv.json";
 import media from "../media.json";
+import { renderText } from "../utils/renderText";
 
-const P = ({ html }: { html: string }) => (
-  <p
-    className="text-neutral-800 text-[22px] leading-[35.2px] mb-[25px]"
-    dangerouslySetInnerHTML={{ __html: html }}
-  />
+const P = ({ text }: { text: string }) => (
+  <p className="text-neutral-800 text-[22px] leading-[35.2px] mb-[25px]">
+    {renderText(text)}
+  </p>
 );
 
 export function ArticleConclusion() {
@@ -24,18 +24,17 @@ export function ArticleConclusion() {
       />
 
       <div className="mt-4">
-        {conclusion.paragraphs1.map((html, i) => (
-          <P key={i} html={html} />
+        {conclusion.paragraphs1.map((text, i) => (
+          <P key={i} text={text} />
         ))}
       </div>
 
-      <h3
-        className="text-teal-600 text-[34px] leading-[44.2px] my-[25px]"
-        dangerouslySetInnerHTML={{ __html: `<b>${conclusion.h2second}</b>` }}
-      />
+      <h3 className="text-teal-600 text-[34px] leading-[44.2px] my-[25px]">
+        <b>{conclusion.h2second}</b>
+      </h3>
 
-      {conclusion.paragraphs2.map((html, i) => (
-        <P key={i} html={html} />
+      {conclusion.paragraphs2.map((text, i) => (
+        <P key={i} text={text} />
       ))}
 
       <p className="text-neutral-800 text-[22px] leading-[35.2px] mb-[25px]">
@@ -59,13 +58,14 @@ export function ArticleConclusion() {
           <a
             href={conclusion.claimUrl}
             className="text-teal-600 transition-colors duration-150 hover:text-teal-700"
-            dangerouslySetInnerHTML={{ __html: conclusion.claimLinkText }}
-          />
+          >
+            {conclusion.claimLinkText}
+          </a>
         </u>
       </p>
 
-      {conclusion.paragraphs3.map((html, i) => (
-        <P key={i} html={html} />
+      {conclusion.paragraphs3.map((text, i) => (
+        <P key={i} text={text} />
       ))}
     </section>
   );

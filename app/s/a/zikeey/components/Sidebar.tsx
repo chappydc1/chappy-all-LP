@@ -27,10 +27,9 @@ export function Sidebar() {
             {productName}
           </a>
         </p>
-        <p
-          className="text-neutral-800 text-[20px] tracking-[-0.5px] leading-[32px] text-center mb-2.5"
-          dangerouslySetInnerHTML={{ __html: `<i><b>${sidebar.tagline}</b></i>` }}
-        />
+        <p className="text-neutral-800 text-[20px] tracking-[-0.5px] leading-[32px] text-center mb-2.5">
+          <i><b>{sidebar.tagline}</b></i>
+        </p>
         <a
           href={sidebar.buttonUrl}
           className="text-white text-sm font-extrabold bg-teal-600 block text-center mt-5 p-[15px] rounded-[10px] transition-all duration-200 hover:bg-teal-700 active:scale-95 select-none"

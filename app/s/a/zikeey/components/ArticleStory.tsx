@@ -1,11 +1,11 @@
 import adv from "../adv.json";
 import media from "../media.json";
+import { renderText } from "../utils/renderText";
 
-const P = ({ html }: { html: string }) => (
-  <p
-    className="text-neutral-800 text-[22px] leading-[35.2px] mb-[25px]"
-    dangerouslySetInnerHTML={{ __html: html }}
-  />
+const P = ({ text }: { text: string }) => (
+  <p className="text-neutral-800 text-[22px] leading-[35.2px] mb-[25px]">
+    {renderText(text)}
+  </p>
 );
 
 export function ArticleStory() {
@@ -22,18 +22,17 @@ export function ArticleStory() {
       </a>
 
       <div className="mt-6">
-        {story.paragraphs1.map((html, i) => (
-          <P key={i} html={html} />
+        {story.paragraphs1.map((text, i) => (
+          <P key={i} text={text} />
         ))}
       </div>
 
-      <h3
-        className="text-teal-600 text-[34px] leading-[44.2px] my-[25px]"
-        dangerouslySetInnerHTML={{ __html: `<b>${story.h2first}</b>` }}
-      />
+      <h3 className="text-teal-600 text-[34px] leading-[44.2px] my-[25px]">
+        <b>{story.h2first}</b>
+      </h3>
 
       <p className="text-neutral-800 text-[22px] leading-[35.2px] mb-[25px]">
-        {story.paragraphs2[0] && <span dangerouslySetInnerHTML={{ __html: story.paragraphs2[0] }} />}
+        {story.paragraphs2[0] && renderText(story.paragraphs2[0])}
       </p>
 
       <img
@@ -46,14 +45,13 @@ export function ArticleStory() {
         <i>{story.blockquote}</i>
       </p>
 
-      {story.paragraphs2.slice(1).map((html, i) => (
-        <P key={i} html={html} />
+      {story.paragraphs2.slice(1).map((text, i) => (
+        <P key={i} text={text} />
       ))}
 
-      <h3
-        className="text-teal-600 text-[34px] leading-[44.2px] my-[25px]"
-        dangerouslySetInnerHTML={{ __html: `<b>${story.h2second}</b>` }}
-      />
+      <h3 className="text-teal-600 text-[34px] leading-[44.2px] my-[25px]">
+        <b>{story.h2second}</b>
+      </h3>
 
       <img
         src={media.sitting}
@@ -62,8 +60,8 @@ export function ArticleStory() {
       />
 
       <div className="mt-6">
-        {story.paragraphs3.map((html, i) => (
-          <P key={i} html={html} />
+        {story.paragraphs3.map((text, i) => (
+          <P key={i} text={text} />
         ))}
       </div>
     </section>
