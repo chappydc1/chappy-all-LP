@@ -6,44 +6,142 @@
     "salePrice": "$19.99",
     "discount": "50%"
   },
+
   "advertorialBar": {
     "label": "Advertorial",
     "trendingText": "Trending in the US"
   },
+
   "article": {
     "breadcrumb": "Cars > Trending > Best Offers",
-    "expertLabel": "Top Car Experts:",
-    "expertText": " This Is The Best Way To Clean Your Car Instantly",
+    "expert": {
+      "label": "Top Car Experts:",
+      "text": " This Is The Best Way To Clean Your Car Instantly"
+    },
     "headline": "Tired of spending hours washing your car?",
     "subheadline": " What about scratches, fading, and oxidation? Read this article before you do anything else.",
     "ratingsText": "3,791 Ratings",
-    "authorText": " By John Martin",
-    "dateText": "August 18, 2025",
-    "statHeadline": "Over $10,000 Spent on Paint Fade, Scratches & Oxidation",
-    "calloutSaveCar": "Just One Solution That Can Save Your Car",
-    "calloutIntro": "Introducing TurboShine™",
-    "calloutCleanPolish": "Clean, Polish & Protect Your Car Instantly!",
-    "calloutRustScratches": "Rust & Scratches? Not A Problem Anymore.",
-    "calloutWhyChoose": "Why Choose TurboShine™?"
-  },
-  "testimonialsHeading": "Don't Just Take Our Word For It - Trust Over 36,000+ Verified 5-Star Reviews",
-  "productTestimonials": [
-    {
-      "name": "Brandon H.",
-      "rating": "⭐️⭐️⭐️⭐️⭐️",
-      "text": "\"This spray exceeded my expectations by a mile! Not only does it leave a glass-like shine that makes my car look brand new, but the coating feels incredibly smooth to the touch. It’s amazing how much it repels dust and dirt. I used to have to clean off bird droppings and sap all the time, but now they come off so easily, almost like they’re not even sticking! If you care about your car's appearance and want something that actually lasts, TurboShine™ is the way to go!\""
+    "author": {
+      "name": " By John Martin",
+      "date": "August 18, 2025"
     },
-    {
-      "name": "Amelia K.",
-      "rating": "⭐️⭐️⭐️⭐️⭐️",
-      "text": "\"I have to say, this spray has been a game-changer for me. Nothing has matched the shine and durability of this one. I went through a rainy week, and the water beading effect was outstanding. You can see the coating doing its job, repelling water and grime with ease. My car looks freshly washed, even days after rain! And one of the best parts is knowing my car’s finish is protected from UV rays\""
+
+    "intro": {
+      "p1": "Let's face it: we've all been there. Over time, your car's paint starts to fade, your trim looks dull, and those annoying scratches and oxidation spots won't go away.",
+      "p2": "You could ignore it, but that fading shine and dull appearance is slowly driving your car's value down. Worse, your vehicle is vulnerable to further damage from UV rays, rust, and dirt buildup.",
+      "p3": "And the prices for cleaning, waxing, scratch removal and other damage at car dealerships aren't just high - they're mind-blowing."
     },
-    {
-      "name": "Michael D.",
-      "rating": "⭐️⭐️⭐️⭐️⭐️",
-      "text": "“This spray cleans and polishes the car so quickly! Plus, the protection it provides has saved me so much time - I don't have to wash my car as often anymore, and it's now easier to wash off dust and dirt. I've also noticed that it's really resistant to the elements - we've had a few big storms in the past month and the coating held up beautifully without fading or leaving any rain marks. I can confidently say that this spray will protect my car for a long time to come.\""
+
+    "problemSection": {
+      "statHeadline": "Over $10,000 Spent on Paint Fade, Scratches & Oxidation",
+      "p1": "According to a recent study by the National Motorists Association, the average motorist spends between $10,000 and $15,000 over the life of a car just to clean, wax and remove scratches, rust and their effects.",
+      "p2": "Hundreds and thousands of dollars and hours of waiting just to maintain your vehicle properly.",
+      "p3": "After all, it's not just about aesthetic damage.",
+      "p4": "Scuffs, paint fading, scratches, oxidation and rust over time not only continue to worsen the appearance of the car, but also destroy it from the inside, increasing the potential cost of repair, sometimes tens and even hundreds of times."
+    },
+
+    "solutionSection": {
+      "heading": "Just One Solution That Can Save Your Car",
+      "p1": "Why spend hours washing and polishing your car all the time? Spend hundreds or even thousands of dollars out of your budget on yet another protective coating or repair?",
+      "p2": "You can get every inch of every coating on your car uniquely clean and shiny with just a few simple steps.",
+      "p3": "These simple steps will not only make your car shine, but will also eliminate scratches, paint fading and oxidation marks on your headlights, and protect your car's coating from future damage.",
+      "p4": "A few steps that will transform your car care experience from \"before\" to \"after.\""
+    },
+
+    "productIntro": {
+      "heading": "Introducing TurboShine™",
+      "p1": "TurboShine™ isn't just another product - it's a powerful solution that will fundamentally change how you care for your car.",
+      "p2": "Our advanced 5-star cleaning formula utilizes microscopic particles, polishing and returning the original shine and cleanliness to any surface in just a couple of swipes. Faded paint, sun damaged paint, oxidized headlights, tarnished parts and even scratches - TurboShine™ can tackle any problem.",
+      "p3": "In addition to instant cleaning, the TurboShine™ provides a special hydrophobic shield that repels water, prevents dust, dirt and grime from adhering to the surface, and protects the finish from harmful UV rays, oxidation and rust."
+    },
+
+    "cleanPolishSection": {
+      "heading": "Clean, Polish & Protect Your Car Instantly!",
+      "p1": "If you're tired of spending hours washing and polishing your car, TurboShine™ is just what you need.",
+      "p2": "With its unique microscopic formula, TurboShine™ brings back the original shine and crystal clarity to any surface on your vehicle in just one swipe.",
+      "p3": "That's right - faded or sun-damaged paint, oxidized headlights, faded parts - with this advanced formula, nothing is impossible for you anymore.",
+      "p4": "No more hundreds and thousands of dollars thrown away. No more hours spent on pointless attempts to polish the surface. Only perfect cleanliness and dazzling shine."
+    },
+
+    "rustScratchesSection": {
+      "heading": "Rust & Scratches? Not A Problem Anymore.",
+      "p1": "TurboShine™ not only cleans, polishes and protects your car, but also tackles the toughest enemies of the motorist - scratches and rust.",
+      "p2": "The microscopic particles that form the basis of the advanced micro-abrasive formula gently polish paint and erase the edges of scratches, while the product's denser particles penetrate deep imperfections to fill them and create a smooth and even surface.",
+      "p3": "Due to its deep penetration into pores and microscopic crevices, the product initiates a chemical reaction that destroys iron oxide (rust), facilitating its removal and preventing its reappearance."
+    },
+
+    "featuresSection": {
+      "heading": "Why Choose TurboShine™?",
+      "items": [
+        {
+          "label": "Instant Cleaning:",
+          "text": "Effortlessly removes dirt, dust, grease, and stains from all surfaces of your car – including metal, plastic, glass, and more."
+        },
+        {
+          "label": "Polishing & Shine Restoration:",
+          "text": "Revives your car's original dazzling glow, restoring its high-gloss finish and bringing back that showroom shine."
+        },
+        {
+          "label": "Scratch & Minor Damage Repair:",
+          "text": "Fills in and conceals scratches and minor imperfections in the coating, blending seamlessly with your car's color."
+        },
+        {
+          "label": "Eliminates Oxidation & Rust:",
+          "text": "Breaks down microscopic oxidation and rust deposits, preventing future buildup and protecting your car from further damage."
+        },
+        {
+          "label": "Long-Lasting UV Protection:",
+          "text": "Creates a strong, protective barrier on your car's surface, guarding against harmful UV rays and preventing fading and deterioration over time."
+        },
+        {
+          "label": "Effortless Application:",
+          "text": "Simply wipe your car and enjoy a spotless, glossy finish – no complicated steps or tools needed."
+        }
+      ],
+      "closingP1": "One thing is for certain, once you've tried TurboShine™, you'll never go back to the days without it!",
+      "closingP2": "No stains, no streaks, no scuffs or scratches, no hundreds of wasted dollars. TurboShine™ makes car care quick and easy!"
     }
-  ],
+  },
+
+  "testimonialsSection": {
+    "heading": "Don't Just Take Our Word For It - Trust Over 36,000+ Verified 5-Star Reviews",
+    "items": [
+      {
+        "name": "Brandon H.",
+        "rating": "⭐️⭐️⭐️⭐️⭐️",
+        "text": "\"This spray exceeded my expectations by a mile! Not only does it leave a glass-like shine that makes my car look brand new, but the coating feels incredibly smooth to the touch. It's amazing how much it repels dust and dirt. I used to have to clean off bird droppings and sap all the time, but now they come off so easily, almost like they're not even sticking! If you care about your car's appearance and want something that actually lasts, TurboShine™ is the way to go!\""
+      },
+      {
+        "name": "Amelia K.",
+        "rating": "⭐️⭐️⭐️⭐️⭐️",
+        "text": "\"I have to say, this spray has been a game-changer for me. Nothing has matched the shine and durability of this one. I went through a rainy week, and the water beading effect was outstanding. You can see the coating doing its job, repelling water and grime with ease. My car looks freshly washed, even days after rain! And one of the best parts is knowing my car's finish is protected from UV rays\""
+      },
+      {
+        "name": "Michael D.",
+        "rating": "⭐️⭐️⭐️⭐️⭐️",
+        "text": "“This spray cleans and polishes the car so quickly! Plus, the protection it provides has saved me so much time - I don't have to wash my car as often anymore, and it's now easier to wash off dust and dirt. I've also noticed that it's really resistant to the elements - we've had a few big storms in the past month and the coating held up beautifully without fading or leaving any rain marks. I can confidently say that this spray will protect my car for a long time to come.\""
+      }
+    ]
+  },
+
+  "offerSection": {
+    "stockWarning": "Don't Wait To Order Because Stock Is Limited!",
+    "salesParagraph": "has sold over 2 million units directly to consumers, even without the help of being sold in stores. And it has been SELLING OUT every time new stock becomes available, it's become that popular.",
+    "priceText": "As of the publication of this article, you can get it for 50% off the normal price, which is $19.99, but only for a limited time. That sale is ending soon though, so don't wait too long! You'll be glad you did. Get yours before they sell out again!",
+    "whereToGetHeading": "Where Can I Get My TurboShine™",
+    "description": "Scuffs, scratches, paint fading and oxidation marks on your headlights are not just an unsightly problem, but a real safety hazard to your car. Get your car back to its original shine and protect it from UV rays, rust and dirt once and for all!",
+    "authenticityP1": "If you want to be sure that you're buying the original product - just click here and you will be redirected to the official website.",
+    "bulkOrderP1": "We recommend ordering several TurboShine™ at once, so you always have a quick and easy cleaning solution at your fingertips.",
+    "bulkOrderP2": "Plus - the more you order, the more money you save. That's because we save on shipping when we ship large orders - and we're happy to share those savings with you.",
+    "knockoffWarning": "There are some knock-offs and imitations that don't work so well. So, be aware to order from their official website and make sure to get the REAL DEAL directly!",
+    "buttons": {
+      "get50Off": "GET 50% OFF Now!",
+      "getYour50Off": "GET Your 50% OFF Now!",
+      "get50OffProduct": "GET 50% OFF TurboShine™ Now!",
+      "claimDiscounted": "Click here to claim a discounted TurboShine™ (if it's still available) >>"
+    }
+  },
+
   "productCard": {
     "name": "TurboShine™",
     "ctaText": "Check availability >>",
@@ -65,138 +163,133 @@
       { "label": "Quality", "score": "4.8" }
     ]
   },
-  "offers": {
-    "getYour50": "GET Your 50% OFF Now!",
-    "get50": "GET 50% OFF Now!",
-    "claimDiscounted": "Click here to claim a discounted TurboShine™ (if it's still available) >>",
-    "linkCtaButton": "GET 50% OFF TurboShine™ Now!"
-  },
+
   "comments": {
     "heading": "Comments",
     "items": [
       {
         "author": "Wilma Dewon",
         "image": "/images/nexa/1729072653432_1689522054_1.webp",
-        "content": "Thank you for such valuable information, this car cleaning agent is really a real godsend. Best!",
+        "text": "Thank you for such valuable information, this car cleaning agent is really a real godsend. Best!",
         "time": "39 min"
       },
       {
         "author": "Doris Skylar",
         "image": "/images/nexa/1729172389910_1689523955_9_1_120x120.webp",
         "mention": "Doris Maison",
-        "content": "I bought mine for the full price and now are 50% off? That's not fair!",
+        "text": "I bought mine for the full price and now are 50% off? That's not fair!",
         "time": "51 min"
       },
       {
         "author": "Skyler Greig",
         "image": "/images/nexa/1729172608070_1689524009_4_120x120.webp",
-        "content": "How long does shipping take?",
+        "text": "How long does shipping take?",
         "time": "1 h",
         "reply": {
           "author": "Marie Cambell",
           "image": "/images/nexa/1729172681324_1689524278_5_120x120.webp",
-          "content": "Hey Skyler, got mine after a week.",
+          "text": "Hey Skyler, got mine after a week.",
           "time": "24 min"
         }
       },
       {
         "author": "Anna Boyd",
         "image": "/images/nexa/1729276565818_1690673126_thumb_Irina_Travkina_executive_r.webp",
-        "content": "I took the package from the post-office yesterday, everything's all right. I'm starting to use it. Waiting for the results :)",
+        "text": "I took the package from the post-office yesterday, everything's all right. I'm starting to use it. Waiting for the results :)",
         "time": "1 h"
       },
       {
         "author": "David Emerson",
         "image": "/images/nexa/1729276716603_1689524233_7_120x120.webp",
-        "content": "This is literally the best purchase for a car I have ever made. Not only does this spray instantly clean any surface (really any surface! From the coating, to the glass and plastic), but it also handles scratches - it's like they fill in and become invisible. Also, after this spray, there is really almost no dust and dirt sticking to the car. Definitely recommended",
+        "text": "This is literally the best purchase for a car I have ever made. Not only does this spray instantly clean any surface (really any surface! From the coating, to the glass and plastic), but it also handles scratches - it's like they fill in and become invisible. Also, after this spray, there is really almost no dust and dirt sticking to the car. Definitely recommended",
         "time": "2 h"
       },
       {
         "author": "Alferd Johnson",
         "image": "/images/nexa/1729277064849_1689524495_9_120x120.webp",
-        "content": "Did you buy one, how long does it take to get it",
+        "text": "Did you buy one, how long does it take to get it",
         "time": "2 h",
         "reply": {
           "author": "Edith Ashton",
           "image": "/images/nexa/1729277123750_1689524512_1_1_120x120.webp",
-          "content": "For me 5 business days.",
+          "text": "For me 5 business days.",
           "time": "50 min"
         }
       },
       {
         "author": "Debra Peyton",
         "image": "/images/nexa/1729277189377_1691413209_Anabel_Lorenzo.webp",
-        "content": "My auto mechanic friend recommended this car cleaning agent to me, great product :)",
+        "text": "My auto mechanic friend recommended this car cleaning agent to me, great product :)",
         "time": "2 h"
       },
       {
         "author": "Agnes Graeme",
         "image": "/images/nexa/1729277325463_1689524881_3_1_120x120.webp",
-        "content": "I ordered, now I look forward to my package :)",
+        "text": "I ordered, now I look forward to my package :)",
         "time": "3 h"
       },
       {
         "author": "Barbara Bradly",
         "image": "/images/nexa/1729277531271_1689525035_21_120x120.webp",
-        "content": "If you have a car - this is a must have in your trunk. Instant cleaning and polishing, still shocked and delighted!",
+        "text": "If you have a car - this is a must have in your trunk. Instant cleaning and polishing, still shocked and delighted!",
         "time": "3 h"
       },
       {
         "author": "Harry Keegan",
         "image": "/images/nexa/1729277610957_1689524987_19_120x120.webp",
-        "content": "I have heard about this product from many colleagues, really work as promised.",
+        "text": "I have heard about this product from many colleagues, really work as promised.",
         "time": "4 h"
       },
       {
         "author": "Bridget Prescott",
         "image": "/images/nexa/1729277679683_1689525025_20_120x120.webp",
-        "content": "Hello. I have been using this car cleaning agent for a few months now... I'm just speechless! Thank you!",
+        "text": "Hello. I have been using this car cleaning agent for a few months now... I'm just speechless! Thank you!",
         "time": "4 h"
       },
       {
         "author": "Anna Madison",
         "image": "/images/nexa/1729277723585_1689524890_5_1_120x120.webp",
-        "content": "Delight! Best investment ever. I had forgotten how beautiful my car was without all those ugly smudges and scuffs. I ordered a few more for my parents and my husband's parents.",
+        "text": "Delight! Best investment ever. I had forgotten how beautiful my car was without all those ugly smudges and scuffs. I ordered a few more for my parents and my husband's parents.",
         "time": "5 h"
       },
       {
         "author": "Clara Milton",
         "image": "/images/nexa/1729277725437_1689525125_6_1_120x120.webp",
-        "content": "The best product, I have been using it for a year now. A real rescue in any situation.",
+        "text": "The best product, I have been using it for a year now. A real rescue in any situation.",
         "time": "5 h"
       },
       {
         "author": "Dana Madson",
         "image": "/images/nexa/1729277728866_1690673012_brave_woman.webp",
-        "content": "I have already ordered mine. I'm waiting for the package, thanks to everyone for the reviews.",
+        "text": "I have already ordered mine. I'm waiting for the package, thanks to everyone for the reviews.",
         "time": "5 h"
       },
       {
         "author": "Katharine Jacobs",
         "image": "/images/nexa/1729277730999_1690673025_eyJwYXRoIjoiaWhoLWhlYWx0aGNhcmUt.webp",
-        "content": "It really works! I'm absolutely thrilled.",
+        "text": "It really works! I'm absolutely thrilled.",
         "time": "6 h"
       },
       {
         "author": "Amanda Cullen",
         "image": "/images/nexa/1729277738316_1690673034_depositphotos_90874904_stock_pho.webp",
-        "content": "I have just read the reviews on some sites about this product and realized that this is what we have been waiting for for so long. HOORAY!!! I'll order it right away.",
+        "text": "I have just read the reviews on some sites about this product and realized that this is what we have been waiting for for so long. HOORAY!!! I'll order it right away.",
         "time": "6 h"
       },
       {
         "author": "Samantha Lambert",
         "image": "/images/nexa/1729277745835_1690673046_smiling_woman.webp",
-        "content": "It's a lifesaver! I used to spend hundreds of dollars on washing, polishing, scratch removal and protective coating, but now I can do it myself in minutes. The best product",
+        "text": "It's a lifesaver! I used to spend hundreds of dollars on washing, polishing, scratch removal and protective coating, but now I can do it myself in minutes. The best product",
         "time": "7 h"
       }
     ]
   },
+
   "stickyCta": {
     "mobileText": "GET 50% OFF Now!",
-    "primaryText": "GET 50% OFF Now!",
-    "secondaryText": "GET Your 50% OFF Now!",
     "desktopText": "GET 50% OFF TurboShine™ Now!"
   },
+
   "footer": {
     "termsOfService": "Terms of Service",
     "privacyPolicy": "Privacy Policy",

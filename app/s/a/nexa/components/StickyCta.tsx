@@ -24,7 +24,7 @@ export const StickyCta = () => {
             loop="none"
             className="text-white text-lg font-semibold bg-green-600 caret-transparent hidden justify-start leading-[27px] max-w-full outline-[3px] text-center align-middle border border-green-600 mx-auto my-2.5 px-[75px] py-2.5 rounded-bl rounded-br rounded-tl rounded-tr font-montserrat md:text-2xl md:leading-9 md:px-[55px]"
           >
-            {adv.stickyCta.primaryText}
+            {adv.stickyCta.mobileText}
           </button>
           <button
             title="6th"
@@ -32,7 +32,7 @@ export const StickyCta = () => {
             loop="none"
             className="text-white text-lg font-semibold bg-green-600 caret-transparent hidden justify-start leading-[27px] max-w-full outline-[3px] text-center align-middle border border-green-600 mx-auto my-2.5 px-[55px] py-2.5 rounded-bl rounded-br rounded-tl rounded-tr font-montserrat md:text-2xl md:leading-9"
           >
-            {adv.stickyCta.secondaryText}
+            {adv.stickyCta.desktopText}
           </button>
           <a
             title="GET 50% OFF Now!"
