@@ -1,0 +1,34 @@
+{
+  "logo": "/images/nexa/1764951851636_v2.png",
+  "flag": "/images/nexa/1729690210975_1713260533_1681578148_flag.webp",
+  "header": {
+    "ratingsStars": "/images/nexa/1729049065435_1716978858_1711369581080_stars.webp",
+    "mainImage": "/images/nexa/1739882427680_22.jpg",
+    "authorImage": "/images/nexa/1732491029178_1724369471_1723971044_1718091346_avatar_2.jpg.webp",
+    "verifiedIcon": "/images/nexa/1729049957051_1718032241_1707336831448_greentick.webp"
+  },
+  "article": {
+    "spendStats": "/images/nexa/1739889840242_7777.webp",
+    "saveCar": "/images/nexa/1739889949798_9909990.webp",
+    "cleanPolish": "/images/nexa/1739890412191_modern_black_automobile_before_a.jpg",
+    "rustScratches": "/images/nexa/1765200510686_9.webp",
+    "whyChoose": "/images/nexa/1739890637695_honda_civic_before_and_after.jpg"
+  },
+  "testimonials": {
+    "userApproveIcon": "/images/nexa/1732520123546_1723972557_user_approve.webp",
+    "images": [
+      "/images/nexa/1739865958181_1731307929_1731236016_before_and_after_blac.webp",
+      "/images/nexa/1739865959763_1731307930_1731236124_333.webp",
+      "/images/nexa/1739865961726_1731307932_1731236019_Before_and_After_red.webp"
+    ]
+  },
+  "productCard": {
+    "productImage": "/images/nexa/1765200385645_8.png",
+    "stars": "/images/nexa/1729108486626_1713260185_1711912960_stars.webp",
+    "star5": "/images/nexa/1729108873065_1713260298_1711913373_5_star.webp",
+    "star4": "/images/nexa/1738566304384_1713265630_1711913433_4_star.webp",
+    "star3": "/images/nexa/1738566305836_1713265749_1711913439_3_star.webp",
+    "star2": "/images/nexa/1738566307523_1713265753_1711913445_2_star.webp",
+    "star1": "/images/nexa/1738566309027_1713265827_1711913451_1_star.webp"
+  }
+}

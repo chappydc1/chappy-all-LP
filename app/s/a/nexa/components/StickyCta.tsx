@@ -1,4 +1,6 @@
 // @ts-nocheck
+import adv from "../adv.json";
+
 export const StickyCta = () => {
   return (
     <div
@@ -11,10 +13,10 @@ export const StickyCta = () => {
           <a
             title="Enter link text here"
             loop="none"
-            href="https://trk.nexa-us.com/click?clickid=6a2045214183751978e1c68b&referrer="
+            href={adv.meta.ctaUrl}
             className="text-black text-[21px] font-bold bg-yellow-400 box-border caret-transparent block justify-center leading-[21px] max-w-full outline-[3px] text-center mx-[25px] px-2.5 py-[15px] rounded-bl rounded-br rounded-tl rounded-tr font-montserrat md:text-red-600 md:text-base md:font-normal md:bg-transparent md:hidden md:justify-normal md:leading-4 md:mx-0 md:p-0 md:rounded-none md:font-times_new_roman"
           >
-            GET 50% OFF Now!
+            {adv.stickyCta.mobileText}
           </a>
           <button
             title="5th"
@@ -22,7 +24,7 @@ export const StickyCta = () => {
             loop="none"
             className="text-white text-lg font-semibold bg-green-600 caret-transparent hidden justify-start leading-[27px] max-w-full outline-[3px] text-center align-middle border border-green-600 mx-auto my-2.5 px-[75px] py-2.5 rounded-bl rounded-br rounded-tl rounded-tr font-montserrat md:text-2xl md:leading-9 md:px-[55px]"
           >
-            GET 50% OFF Now!
+            {adv.stickyCta.mobileText}
           </button>
           <button
             title="6th"
@@ -30,15 +32,15 @@ export const StickyCta = () => {
             loop="none"
             className="text-white text-lg font-semibold bg-green-600 caret-transparent hidden justify-start leading-[27px] max-w-full outline-[3px] text-center align-middle border border-green-600 mx-auto my-2.5 px-[55px] py-2.5 rounded-bl rounded-br rounded-tl rounded-tr font-montserrat md:text-2xl md:leading-9"
           >
-            GET Your 50% OFF Now!
+            {adv.stickyCta.desktopText}
           </button>
           <a
             title="GET 50% OFF Now!"
             loop="none"
-            href="https://trk.nexa-us.com/click?clickid=6a2045214183751978e1c68b&referrer="
+            href={adv.meta.ctaUrl}
             className="text-black text-xl font-bold bg-yellow-400 box-border caret-transparent hidden leading-5 max-w-full outline-[3px] text-center px-[50px] py-[17px] rounded-bl rounded-br rounded-tl rounded-tr font-montserrat md:text-[27px] md:flex md:leading-[27px] md:px-[140px]"
           >
-            GET 50% OFF TurboShine™ Now!
+            {adv.stickyCta.desktopText}
           </a>
         </div>
       </div>
