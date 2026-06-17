@@ -1,4 +1,6 @@
 // @ts-nocheck
+import adv from "../../../adv.json";
+import media from "../../../media.json";
 import { ArticleHeader } from "./ArticleHeader";
 import { ArticleSection } from "./ArticleSection";
 import { Testimonials } from "./Testimonials";
@@ -10,7 +12,7 @@ export const ArticleContent = () => {
     <div className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] w-[845px] pr-0 py-3 md:pr-2.5">
       <ArticleHeader
         variant="breadcrumb"
-        breadcrumbText="Cars > Trending > Best Offers"
+        breadcrumbText={adv.article.breadcrumb}
         expertLabel=""
         expertText=""
         headlineText=""
@@ -31,8 +33,8 @@ export const ArticleContent = () => {
       <ArticleHeader
         variant="expert"
         breadcrumbText=""
-        expertLabel="Top Car Experts:"
-        expertText=" This Is The Best Way To Clean Your Car Instantly"
+        expertLabel={adv.article.expertLabel}
+        expertText={adv.article.expertText}
         headlineText=""
         subheadlineText=""
         ratingsImageSrc=""
@@ -48,8 +50,8 @@ export const ArticleContent = () => {
         breadcrumbText=""
         expertLabel=""
         expertText=""
-        headlineText="Tired of spending hours washing your car?"
-        subheadlineText=" What about scratches, fading, and oxidation? Read this article before you do anything else."
+        headlineText={adv.article.headline}
+        subheadlineText={adv.article.subheadline}
         ratingsImageSrc=""
         ratingsText=""
         mainImageSrc=""
@@ -66,8 +68,8 @@ export const ArticleContent = () => {
         expertText=""
         headlineText=""
         subheadlineText=""
-        ratingsImageSrc="/images/nexa/1729049065435_1716978858_1711369581080_stars.webp"
-        ratingsText="3,791 Ratings"
+        ratingsImageSrc={media.header.ratingsStars}
+        ratingsText={adv.article.ratingsText}
         mainImageSrc=""
         authorImageSrc=""
         authorText=""
@@ -76,7 +78,7 @@ export const ArticleContent = () => {
       />
       <ArticleHeader
         variant="mainImage"
-        mainImageSrc="/images/nexa/1739882427680_22.jpg"
+        mainImageSrc={media.header.mainImage}
       />
       <ArticleHeader
         variant="author"
@@ -88,10 +90,10 @@ export const ArticleContent = () => {
         ratingsImageSrc=""
         ratingsText=""
         mainImageSrc=""
-        authorImageSrc="/images/nexa/1732491029178_1724369471_1723971044_1718091346_avatar_2.jpg.webp"
-        authorText=" By John Martin"
-        verifiedImageSrc="/images/nexa/1729049957051_1718032241_1707336831448_greentick.webp"
-        dateText="August 18, 2025"
+        authorImageSrc={media.header.authorImage}
+        authorText={adv.article.authorText}
+        verifiedImageSrc={media.header.verifiedIcon}
+        dateText={adv.article.dateText}
       />
       <ArticleSection
         variant="paragraph"
@@ -150,13 +152,13 @@ export const ArticleContent = () => {
         variant="statText"
         className="text-2xl font-bold box-border caret-transparent leading-[30px] outline-[3px] text-left mt-[30px] font-montserrat md:text-[37px] md:leading-[45px]"
       >
-        Over $10,000 Spent on Paint Fade, Scratches & Oxidation
+        {adv.article.statHeadline}
       </ArticleSection>
       <ArticleSection
         variant="image"
         className="box-border caret-transparent flex outline-[3px] w-full pr-px pt-0 pb-2.5 md:pr-2.5 md:pt-[5px]"
         imageClassName="text-black items-center self-center box-border caret-transparent h-[151px] justify-start max-w-full min-h-[auto] min-w-[auto] outline-[3px] align-baseline w-screen mt-4 rounded-[25px] md:h-[331px] md:w-[811px]"
-        src="/images/nexa/1739889840242_7777.webp"
+        src={media.article.spendStats}
       />
       <ArticleSection
         variant="paragraph"
@@ -204,13 +206,13 @@ export const ArticleContent = () => {
       <ArticleSection
         variant="calloutTitle"
         className="text-black text-[28px] font-bold box-border caret-transparent leading-[34px] outline-[3px] text-left mt-[30px] font-montserrat md:text-neutral-800 md:text-[33px] md:leading-[43px]"
-        title="Just One Solution That Can Save Your Car"
+        title={adv.article.calloutSaveCar}
       />
       <ArticleSection
         variant="image"
         className="box-border caret-transparent flex outline-[3px] w-full pr-px pt-0 pb-2.5 md:pr-2.5 md:pt-[5px]"
         imageClassName="text-black items-center self-center box-border caret-transparent h-[157px] justify-start max-w-full min-h-[auto] min-w-[auto] outline-[3px] align-baseline w-screen mt-4 rounded-[25px] md:h-[387px] md:w-[810px]"
-        src="/images/nexa/1739889949798_9909990.webp"
+        src={media.article.saveCar}
       />
       <div className="box-border caret-transparent outline-[3px] text-left"></div>
       <p className="box-border caret-transparent outline-[3px]"></p>
@@ -267,13 +269,13 @@ export const ArticleContent = () => {
       <ArticleSection
         variant="calloutTitle"
         className="text-[28px] font-bold box-border caret-transparent leading-[34px] outline-[3px] mt-[30px] font-montserrat md:text-[33px] md:leading-[43px]"
-        title="Introducing TurboShine™"
+        title={adv.article.calloutIntro}
       />
       <ArticleSection
         variant="video"
         className="box-border caret-transparent flex justify-start outline-[3px]"
         poster="video"
-        src="https://cdn.shopify.com/videos/c/o/v/8f5990bd8b094420804a316b3b9305c2.mp4"
+        src={adv.meta.videoUrl}
       />
       <p className="box-border caret-transparent outline-[3px]"></p>
       <ArticleSection
@@ -306,7 +308,7 @@ export const ArticleContent = () => {
           <a
             title="Ll1"
             loop="none"
-            href="https://trk.nexa-us.com/click?clickid=6a2045214183751978e1c68b&referrer="
+            href={adv.meta.ctaUrl}
             className="text-base box-border caret-transparent leading-[22px] max-w-full outline-[3px] text-center md:text-lg md:leading-[25px]"
           >
             TurboShine™
@@ -330,7 +332,7 @@ export const ArticleContent = () => {
       <ArticleSection
         variant="image"
         className="box-border caret-transparent flex outline-[3px] w-full pr-px pt-0 pb-2.5 md:pr-2.5 md:pt-[5px]"
-        src="/images/nexa/1739890412191_modern_black_automobile_before_a.jpg"
+        src={media.article.cleanPolish}
         imageClassName="text-black items-center self-center box-border caret-transparent h-[134px] justify-start max-w-full min-h-[auto] min-w-[auto] outline-[3px] align-baseline w-screen mt-4 rounded-[25px] md:h-[243px] md:w-[825px]"
       />
       <p className="box-border caret-transparent outline-[3px]"></p>
@@ -386,7 +388,7 @@ export const ArticleContent = () => {
         variant="image"
         className="box-border caret-transparent flex outline-[3px] w-full pr-px pt-0 pb-2.5 md:pr-2.5 md:pt-[5px]"
         imageClassName="text-black items-center self-center box-border caret-transparent h-[133px] justify-start max-w-full min-h-[auto] min-w-[auto] outline-[3px] align-baseline w-[350px] mt-4 rounded-[25px] md:h-[298px] md:w-[809px]"
-        src="/images/nexa/1765200510686_9.webp"
+        src={media.article.rustScratches}
       />
       <ArticleSection
         variant="paragraph"
@@ -395,7 +397,7 @@ export const ArticleContent = () => {
         <a
           title="Ll4"
           loop="none"
-          href="https://trk.nexa-us.com/click?clickid=6a2045214183751978e1c68b&referrer="
+          href={adv.meta.ctaUrl}
           className="text-blue-600 text-base font-bold box-border caret-transparent leading-[22px] max-w-full outline-[3px] text-center underline md:text-lg md:leading-[25px]"
         >
           TurboShine™
@@ -440,7 +442,7 @@ export const ArticleContent = () => {
       <ArticleSection
         variant="standaloneImage"
         className="text-black items-center self-center box-border caret-transparent inline h-[163px] justify-start max-w-full outline-[3px] align-baseline w-screen mt-[21px] rounded-[25px] md:h-[312px] md:w-[812px]"
-        src="/images/nexa/1739890637695_honda_civic_before_and_after.jpg"
+        src={media.article.whyChoose}
       />
       <div className="box-border caret-transparent flex outline-[3px] w-full pr-2.5 pt-0 pb-2.5 md:pt-[5px]"></div>
       <ArticleSection
@@ -543,7 +545,7 @@ export const ArticleContent = () => {
             <a
               title="L3"
               loop="none"
-              href="https://trk.nexa-us.com/click?clickid=6a2045214183751978e1c68b&referrer="
+              href={adv.meta.ctaUrl}
               className="text-blue-600 text-base box-border caret-transparent leading-[22px] max-w-full outline-[3px] text-center underline md:text-lg md:leading-[25px]"
             >
               TurboShine™
@@ -566,7 +568,7 @@ export const ArticleContent = () => {
         <div className="box-border caret-transparent basis-[30%] shrink-0 min-h-0 min-w-0 outline-[3px] w-full pt-0 pb-3 px-0 md:min-h-[auto] md:min-w-[auto] md:pt-3 md:px-[5px]">
           <img
             title=""
-            src="/images/nexa/1739865958181_1731307929_1731236016_before_and_after_blac.webp"
+            src={media.testimonials.images[0]}
             href=""
             alt=""
             className="text-black box-border caret-transparent inline h-auto max-w-full outline-[3px] align-baseline w-auto md:h-[120px] md:w-[244px]"
@@ -576,13 +578,13 @@ export const ArticleContent = () => {
           <div className="items-center self-center box-border caret-transparent flex outline-[3px] w-full pt-3 pb-[5px] px-2.5">
             <img
               title=""
-              src="/images/nexa/1732520123546_1723972557_user_approve.webp"
+              src={media.testimonials.userApproveIcon}
               href=""
               alt=""
               className="text-black box-border caret-transparent h-[25px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] align-baseline w-[25px] md:h-[35px] md:w-[35px]"
             />
             <div className="text-base font-bold box-border caret-transparent leading-4 min-h-[auto] min-w-[auto] outline-[3px] pl-[7px] pr-px py-px font-montserrat md:text-lg md:leading-[18px] md:pl-2.5">
-              Brandon H.
+              {adv.productTestimonials[0].name}
             </div>
             <div className="text-base font-bold box-border caret-transparent block leading-4 min-h-[auto] min-w-[auto] outline-[3px] pl-3 pr-px py-px font-montserrat md:text-lg md:hidden md:leading-[18px] md:min-h-0 md:min-w-0 md:pl-2.5">
               ⭐️⭐️⭐️⭐️⭐️
@@ -616,7 +618,7 @@ export const ArticleContent = () => {
         <div className="box-border caret-transparent basis-[30%] shrink-0 min-h-0 min-w-0 outline-[3px] w-full pt-0 pb-3 px-0 md:min-h-[auto] md:min-w-[auto] md:pt-3 md:px-[5px]">
           <img
             title=""
-            src="/images/nexa/1739865959763_1731307930_1731236124_333.webp"
+            src={media.testimonials.images[1]}
             href=""
             alt=""
             className="text-black box-border caret-transparent inline h-[261px] max-w-full outline-[3px] align-baseline w-[348.5px] md:h-[169px] md:w-[246px]"
@@ -626,13 +628,13 @@ export const ArticleContent = () => {
           <div className="items-center self-center box-border caret-transparent flex outline-[3px] w-full pt-3 pb-[5px] px-2.5">
             <img
               title=""
-              src="/images/nexa/1732520123546_1723972557_user_approve.webp"
+              src={media.testimonials.userApproveIcon}
               href=""
               alt=""
               className="text-black box-border caret-transparent h-[25px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] align-baseline w-[25px] md:h-[35px] md:w-[35px]"
             />
             <div className="text-base font-bold box-border caret-transparent leading-4 min-h-[auto] min-w-[auto] outline-[3px] pl-[7px] pr-px py-px font-montserrat md:text-lg md:leading-[18px] md:pl-2.5">
-              Amelia K.
+              {adv.productTestimonials[1].name}
             </div>
             <div className="text-base font-bold box-border caret-transparent block leading-4 min-h-[auto] min-w-[auto] outline-[3px] pl-3 pr-px py-px font-montserrat md:text-lg md:hidden md:leading-[18px] md:min-h-0 md:min-w-0 md:pl-2.5">
               ⭐️⭐️⭐️⭐️⭐️
@@ -666,7 +668,7 @@ export const ArticleContent = () => {
         <div className="box-border caret-transparent basis-[30%] shrink-0 min-h-0 min-w-0 outline-[3px] w-full pt-0 pb-3 px-0 md:min-h-[auto] md:min-w-[auto] md:pt-3 md:px-[5px]">
           <img
             title=""
-            src="/images/nexa/1739865961726_1731307932_1731236019_Before_and_After_red.webp"
+            src={media.testimonials.images[2]}
             href=""
             alt=""
             className="text-black box-border caret-transparent inline h-[232px] max-w-full outline-[3px] align-baseline w-[352.594px] md:h-[139px] md:w-[246px]"
@@ -676,13 +678,13 @@ export const ArticleContent = () => {
           <div className="items-center self-center box-border caret-transparent flex outline-[3px] w-full pt-3 pb-[5px] px-2.5">
             <img
               title=""
-              src="/images/nexa/1732520123546_1723972557_user_approve.webp"
+              src={media.testimonials.userApproveIcon}
               href=""
               alt=""
               className="text-black box-border caret-transparent h-[25px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] align-baseline w-[25px] md:h-[35px] md:w-[35px]"
             />
             <div className="text-base font-bold box-border caret-transparent leading-4 min-h-[auto] min-w-[auto] outline-[3px] pl-[7px] pr-px py-px font-montserrat md:text-lg md:leading-[18px] md:pl-2.5">
-              Michael D.
+              {adv.productTestimonials[2].name}
             </div>
             <div className="text-base font-bold box-border caret-transparent block leading-4 min-h-[auto] min-w-[auto] outline-[3px] pl-3 pr-px py-px font-montserrat md:text-lg md:hidden md:leading-[18px] md:min-h-0 md:min-w-0 md:pl-2.5">
               ⭐️⭐️⭐️⭐️⭐️
@@ -804,7 +806,7 @@ export const ArticleContent = () => {
       />
       <OfferSection
         variant="salesParagraph"
-        href="https://trk.nexa-us.com/click?clickid=6a2045214183751978e1c68b&referrer="
+        href={adv.meta.ctaUrl}
         productName="TurboShine™"
       />
       <div className="box-border caret-transparent outline-[3px]">
@@ -836,7 +838,7 @@ export const ArticleContent = () => {
             <a
               title="L5"
               loop="none"
-              href="https://trk.nexa-us.com/click?clickid=6a2045214183751978e1c68b&referrer="
+              href={adv.meta.ctaUrl}
               className="text-blue-600 text-base box-border caret-transparent leading-[22px] max-w-full outline-[3px] text-center underline md:text-lg md:leading-[25px]"
             >
               Click here to claim a discounted TurboShine™ (if it&#39;s still
@@ -874,7 +876,7 @@ export const ArticleContent = () => {
               <a
                 title="L6"
                 loop="none"
-                href="https://trk.nexa-us.com/click?clickid=6a2045214183751978e1c68b&referrer="
+                href={adv.meta.ctaUrl}
                 className="text-blue-600 text-base box-border caret-transparent leading-[22px] max-w-full outline-[3px] text-center underline md:text-lg md:leading-[25px]"
               >
                 click here
@@ -923,7 +925,7 @@ export const ArticleContent = () => {
         variant="linkCta"
         buttonText="GET 50% OFF TurboShine™ Now!"
         buttonTitle="GET 50% OFF Car Scratch Remover Nexa™ Now!"
-        href="https://trk.nexa-us.com/click?clickid=6a2045214183751978e1c68b&referrer="
+        href={adv.meta.ctaUrl}
         linkTitle="GET 50% OFF Car Scratch Remover Nexa™ Now!"
         productName="TurboShine™"
       />
@@ -931,7 +933,7 @@ export const ArticleContent = () => {
         variant="offerDetails"
         buttonText="GET Your 50% OFF Now!"
         buttonTitle="8th"
-        href="https://trk.nexa-us.com/click?clickid=6a2045214183751978e1c68b&referrer="
+        href={adv.meta.ctaUrl}
         linkTitle="GET 50% OFF Now!"
         productName="TurboShine™"
       />
@@ -965,7 +967,7 @@ export const ArticleContent = () => {
         variant="ctaGroup"
         buttonText="GET Your 50% OFF Now!"
         buttonTitle="7th"
-        href="https://trk.nexa-us.com/click?clickid=6a2045214183751978e1c68b&referrer="
+        href={adv.meta.ctaUrl}
         linkTitle="GET 50% OFF Now!"
         productName="TurboShine™"
       />
