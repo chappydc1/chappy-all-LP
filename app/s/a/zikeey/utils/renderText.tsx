@@ -15,7 +15,7 @@ function parseNodes(text: string): Node[] {
   const parts: Node[] = [];
   // Order: *** before ** before * to avoid greedy mismatch
   const re =
-    /(\*\*\*(.+?)\*\*\*|\*\*(.+?)\*\*|\*(.+?)\*|\[([^\]]+)\]\(([^)]+)\))/gs;
+    /(\*\*\*(.+?)\*\*\*|\*\*(.+?)\*\*|\*(.+?)\*|\[([^\]]+)\]\(([^)]+)\))/g;
   let last = 0;
   let key = 0;
   let match: RegExpExecArray | null;
