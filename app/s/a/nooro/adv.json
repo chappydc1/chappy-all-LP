@@ -1,0 +1,170 @@
+{
+  "ctaUrl": "https://loraritual.com/products/nrx",
+  "advertorialBar": {
+    "label": "Advertorial",
+    "trendingText": "Trending in the US"
+  },
+  "header": {
+    "breadcrumb": "Home > Pain Relief > 3-in-1 Leg Massager",
+    "titleIntro": "Top Doctor of Physical Therapy:",
+    "titleBold": "This Is The Best Way To Relieve Edema In Your Legs And Feet Fast",
+    "introHighlighted": "If you struggle with edema in your legs, calves, feet, or ankles,",
+    "introText": " or if your legs feel like they're 1000 lbs, read this short article right now before you do anything else.",
+    "ratingsText": "3,791 Ratings",
+    "authorName": "By Dr. Jeremy Campbell",
+    "dateText": "June 16, 2026"
+  },
+  "alert": {
+    "label": "UPDATE:",
+    "text": "Nooro 3-in-1 Leg Massager is SELLING OUT faster than expected! Lock in your order NOW to get 50% OFF + FAST SHIPPING"
+  },
+  "article": {
+    "conditions": ["Lymphedema", "Edema", "Neuropathy", "Plantar fasciitis"],
+    "intro": [
+      "Hi, my name is Dr. Campbell and I'm a doctor of physical therapy from Chicago.",
+      "I have 10 years of clinical experience and clocked in well over 10,000 hours.",
+      "Throughout my career, I've helped over 1100 patients who came to me with all kinds of foot problems…"
+    ],
+    "sections": [
+      {
+        "type": "paragraph",
+        "html": "You name it."
+      },
+      {
+        "type": "paragraph",
+        "html": "I've seen it all."
+      },
+      {
+        "type": "paragraph",
+        "html": "From mild stiffness and swelling… To varicose spider veins… To…"
+      },
+      {
+        "type": "heading",
+        "text": "Edema So Bad You Could Barely Recognize What Body Part You're Looking At"
+      },
+      {
+        "type": "paragraph",
+        "html": "But it wasn't until earlier this year that I truly cracked the code to provide <b>relief from edema</b>. It all started with a personal <b>Breakthrough Discovery</b> I had earlier this year. One night I was pouring through clinical studies on Edema and Lymphedema, and I stumbled across something that <b>shocked me</b>."
+      },
+      {
+        "type": "heading",
+        "text": "Shocking Root Cause of Edema"
+      },
+      {
+        "type": "paragraph",
+        "html": "<b>What if I told you that the edema and swelling in your feet and legs are actually caused by your <u>CALVES</u>?</b> It sounds counterintuitive, but it's true. See, calves play a crucial role in your blood circulation. So much so that we often refer to them as <b>\"The Second Heart\"</b>. Your actual heart sends blood all over your body, including your feet. But your calves are responsible for sending that blood back. When your calf muscles contract, they compress the blood vessels in your legs and push the blood from your feet back up toward your heart. That's why we like to call calves <b>\"the second heart\"</b> - because they single-handedly maintain normal blood circulation in your lower body."
+      },
+      {
+        "type": "paragraph",
+        "html": "<b>Here's the bad news...</b> As you age and become less physically active, <b>your calves get weaker</b>. And when this happens, they can no longer send all the blood from your lower body back to your heart - so some of it stays stuck in your feet. This build-up of old, stale blood <b>can cause edema and swelling in your feet and ankles.</b> But it can also lead to more serious foot conditions if left untreated. That's also why popular remedies like compression socks, salt baths, and different pills can't solve the problem - they focus on feet instead of calves."
+      },
+      {
+        "type": "heading",
+        "text": "The Only Solution That Directly Targets Weak Calves"
+      },
+      {
+        "type": "paragraph",
+        "html": "So if weak calves are the root cause of edema... The solution is simple: <b>Strengthen your calves</b>. And the #1 way to do that according to the latest science is through <b>Electro Muscle Stimulation (EMS)</b>. EMS delivers electrical pulses to your calf muscles — mimicking the signals your brain sends to contract them. This forces your calves to contract and release, pumping blood back to your heart. It's like giving your \"second heart\" a workout without leaving your couch."
+      },
+      {
+        "type": "heading",
+        "text": "Introducing Nooro 3-in-1 Leg Massager"
+      },
+      {
+        "type": "paragraph",
+        "html": "I've tried every EMS device on the market. Most are uncomfortable, complicated to use, or simply don't work well. That's why I was blown away when I first tried the <b>Nooro 3-in-1 Leg Massager</b>. It's the only device that combines: <b>EMS (Electro Muscle Stimulation)</b> to strengthen your calves + <b>TENS (Transcutaneous Electrical Nerve Stimulation)</b> for pain relief + <b>Heat Therapy</b> to relax tight muscles."
+      },
+      {
+        "type": "list",
+        "icon": "check",
+        "items": [
+          "Reduces edema and swelling",
+          "Relieves pain and discomfort",
+          "Improves blood circulation",
+          "Strengthens calf muscles",
+          "Easy to use at home"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "After recommending it to dozens of my patients, <b>the results have been remarkable.</b> Most patients report significant reduction in swelling within the first week. Many say it's the first thing that has actually worked after years of trying other remedies."
+      }
+    ],
+    "checkoutUpdate": {
+      "label": "UPDATE:",
+      "date": "June 16, 2026",
+      "productName": "Nooro 3-in-1 Leg Massager",
+      "offerText": "50% OFF",
+      "location": "United States",
+      "noteLabel": "NOTE:",
+      "noteText": "Due to high demand and limited stock, we cannot guarantee this offer will be available after today. Order now while supplies last."
+    },
+    "guarantees": {
+      "guaranteeText": "90 Day Money Back Guarantee",
+      "checkoutText": "Guaranteed Safe and Secure Checkout",
+      "returnsText": "No-Hassle Returns",
+      "shippingText": "Fast Shipping"
+    },
+    "cta": {
+      "title": "check availability",
+      "line1": "GET 50% OFF Nooro",
+      "line2": "3-in-1 Leg Massager Now!"
+    }
+  },
+  "sidebar": {
+    "offerText": "Finally Get Instant Temporary Relief From Swelling In Your Calves, Feet, and Ankles",
+    "ctaTitle": "GET 50% OFF NOORO NOW!",
+    "ctaLine1": "GET 50% OFF",
+    "ctaLine2": "NOORO NOW!",
+    "reviewsTitle": "Customer Reviews",
+    "ratingText": "4.8 out of 5",
+    "ratingsCountText": "3,791 customer ratings",
+    "ratingBreakdown": [
+      { "label": "5 Star", "percentage": "90%" },
+      { "label": "4 Star", "percentage": "7%" },
+      { "label": "3 Star", "percentage": "2%" },
+      { "label": "2 Star", "percentage": "0%" },
+      { "label": "1 Star", "percentage": "1%" }
+    ],
+    "featureTitle": "By Feature",
+    "featureItems": [
+      { "label": "Price", "rating": "5.0" },
+      { "label": "Effectiveness", "rating": "5.0" },
+      { "label": "Comfort", "rating": "5.0" },
+      { "label": "Quality", "rating": "4.8" }
+    ]
+  },
+  "stickyCta": "GET 50% OFF Nooro 3-in-1 Leg Massager Now!",
+  "footer": {
+    "disclaimer": "This is an advertorial and not an actual news article, blog, or consumer protection update. This story is based on the results of a few people and you may not get the same results. Results may vary. The story depicted on this page and the person depicted in the story are not actual news. Rather, this story is based on the results that some people who have used these products have achieved. The results portrayed in the story and in the comments are illustrative, and may not be the results that you achieve with these products. This page could receive compensation for clicks on or purchase of products featured on this site. This product is not intended to diagnose, treat, cure or prevent any disease.",
+    "copyright": "© 2026 Nooro. All Rights Reserved.",
+    "links": [
+      { "label": "Privacy Policy", "href": "#" },
+      { "label": "Terms of Service", "href": "#" },
+      { "label": "Contact Us", "href": "#" }
+    ]
+  },
+  "comments": {
+    "title": "Comments",
+    "items": [
+      {
+        "name": "Margaret T.",
+        "avatar": "",
+        "date": "2 days ago",
+        "text": "I've been struggling with leg swelling for years. After just one week with the Nooro massager, my ankles are noticeably less swollen. My doctor was actually surprised at my last visit!"
+      },
+      {
+        "name": "Robert K.",
+        "avatar": "",
+        "date": "5 days ago",
+        "text": "I was skeptical at first but my wife convinced me to try it. Best decision ever. My legs feel so much lighter at the end of the day. The heat therapy is incredibly relaxing too."
+      },
+      {
+        "name": "Susan M.",
+        "avatar": "",
+        "date": "1 week ago",
+        "text": "After reading Dr. Campbell's article I immediately ordered one. The results are exactly as described. My feet don't look like balloons anymore and I can finally wear my regular shoes again!"
+      }
+    ]
+  }
+}
