@@ -40,6 +40,8 @@ type CustomerReviews = { title: string; rating: string; ratingCount: string; byF
 type AdvContent = { headline: string; subheadline: string; authorPublished: string; authorByline: string; ctaLabel: string; disclaimerText: string; copyright: string; footerLinks: FooterLink[]; trustBadges: TrustBadge[]; comments: Comment[]; sectionHeadings: SectionHeadings; body: AdvBody; ctaButtons: string[]; customerReviews: CustomerReviews };
 type AdvMedia = { heroGif: string; heroVideo: string; authorAvatar: string; ctaArrowIcon: string; articleImages: string[]; trustBadgeImages: string[]; commentAvatars: string[]; customerReviewImages: CustomerReviewImages };
 
+const ADV_CTA_URL = "https://trybello.com/products/hair-helper";
+
 export function TopBar({ content, media }: { content: AdvContent; media: AdvMedia }) {
   return (
     <div className="text-gray-800 text-sm bg-white w-full font-roboto">
@@ -1337,7 +1339,7 @@ export function TopBar({ content, media }: { content: AdvContent; media: AdvMedi
                 <div className="items-center box-border caret-transparent flex justify-center min-w-[auto] outline-[3px] w-full">
                   <div className="items-center box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full">
                     <a
-                      href="#next-step"
+                      href={ADV_CTA_URL}
                       className="relative text-black text-xl font-bold bg-yellow-400 shadow-[rgb(218,218,218)_0px_0px_1px_1px] box-border caret-transparent flex flex-col tracking-[0.4px] leading-[30px] min-h-[auto] min-w-[auto] outline-[3px] w-full mt-2.5 px-[15px] py-2.5 rounded-[5px] font-helvetica md:text-3xl md:tracking-[0.6px] md:leading-[45px]"
                     >
                       <div className="text-xl box-border caret-transparent tracking-[0.4px] leading-[30px] min-h-[auto] min-w-[auto] outline-[3px] pointer-events-none md:text-3xl md:tracking-[0.6px] md:leading-[45px]">
@@ -1398,7 +1400,7 @@ export function TopBar({ content, media }: { content: AdvContent; media: AdvMedi
                 <div className="items-center box-border caret-transparent flex justify-center min-w-[auto] outline-[3px] w-full">
                   <div className="items-center box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full">
                     <a
-                      href="#next-step"
+                      href={ADV_CTA_URL}
                       className="relative text-black text-xl font-bold bg-yellow-400 shadow-[rgb(218,218,218)_0px_0px_1px_1px] box-border caret-transparent flex flex-col tracking-[0.4px] leading-[30px] min-h-[auto] min-w-[auto] outline-[3px] w-full mt-2.5 px-[15px] py-2.5 rounded-[5px] font-helvetica md:text-3xl md:tracking-[0.6px] md:leading-[45px]"
                     >
                       <div className="text-xl box-border caret-transparent tracking-[0.4px] leading-[30px] min-h-[auto] min-w-[auto] outline-[3px] pointer-events-none md:text-3xl md:tracking-[0.6px] md:leading-[45px]">
@@ -1495,7 +1497,7 @@ export function TopBar({ content, media }: { content: AdvContent; media: AdvMedi
                                 <div className="items-center box-border caret-transparent flex justify-center min-w-[auto] outline-[3px] w-full">
                                   <div className="items-center box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full">
                                     <a
-                                      href="#next-step"
+                                      href={ADV_CTA_URL}
                                       className="relative text-black text-xl font-bold bg-yellow-400 shadow-[rgb(218,218,218)_0px_0px_1px_1px] box-border caret-transparent flex flex-col tracking-[0.4px] leading-[30px] min-h-[auto] min-w-[auto] outline-[3px] w-full px-[15px] py-2.5 rounded-[5px] font-helvetica md:text-3xl md:tracking-[0.6px] md:leading-[45px]"
                                     >
                                       <div className="text-xl box-border caret-transparent tracking-[0.4px] leading-[30px] min-h-[auto] min-w-[auto] outline-[3px] pointer-events-none md:text-3xl md:tracking-[0.6px] md:leading-[45px]">
