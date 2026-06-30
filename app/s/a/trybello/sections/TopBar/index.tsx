@@ -40,7 +40,7 @@ type CustomerReviews = { title: string; rating: string; ratingCount: string; byF
 type AdvContent = { headline: string; subheadline: string; authorPublished: string; authorByline: string; ctaLabel: string; disclaimerText: string; copyright: string; footerLinks: FooterLink[]; trustBadges: TrustBadge[]; comments: Comment[]; sectionHeadings: SectionHeadings; body: AdvBody; ctaButtons: string[]; customerReviews: CustomerReviews };
 type AdvMedia = { heroGif: string; heroVideo: string; authorAvatar: string; ctaArrowIcon: string; articleImages: string[]; trustBadgeImages: string[]; commentAvatars: string[]; customerReviewImages: CustomerReviewImages };
 
-const ADV_CTA_URL = "https://trybello.com/products/hair-helper";
+const ADV_CTA_URL = "https://trybello.com/products/bello-hair-helper-spray";
 
 export function TopBar({ content, media }: { content: AdvContent; media: AdvMedia }) {
   return (
