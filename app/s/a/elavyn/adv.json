@@ -1,0 +1,786 @@
+{
+  "articleHero": {
+    "breadcrumb": {
+      "home": "Home",
+      "health": "Health",
+      "kidneyHealth": "Kidney Health"
+    },
+    "heroTitle": {
+      "part1": "Black Nephrologist Exposes the",
+      "highlight": "$73 Billion Secret",
+      "part2": "the White-Owned Dialysis Industry Has Been Hiding From Black Folk..."
+    },
+    "heroSubtitle": "Former chronic kidney disease sufferer's husband and board-certified nephrologist exposes the kidney industry's 'ACE Inhibitor Playbook' conspiracy and the 21-day protocol that reversed his wife’s 3 years of climbing creatinine — without water pills, specialist visits, or ever sitting in a dialysis chair",
+    "dateViews": "Tue. March 17th, 2026 | 11:11 am EST - 238,392",
+    "openingNarrative": {
+      "p1": "I'm about to piss off every nephrologist, dialysis center, and pharmaceutical company in America.",
+      "p2": "Because what I'm about to share could cost them $180 million in lost revenue this year alone.",
+      "p3": "But I don't care anymore.",
+      "p4": "Because after watching my wife Denise's creatinine climb for 3 years...",
+      "p5": "After watching her wake at 5am just to stand over the toilet and stare at the foam...",
+      "p6": "After blowing $9,200 on specialists and medications that never moved a single number…",
+      "p7": "I discovered something that changed everything.",
+      "p8": "So if you're reading this while watching your creatinine climb every lab result...",
+      "p9": "Staring at foam in your toilet every morning knowing what it means...",
+      "p10": "Or lying awake wondering when your doctor finally says the word \"dialysis\"…",
+      "p11": "The next 5 minutes could give you your life back.",
+      "p12": "My name is Dr. Malcolm Carter, M.D., FACP…",
+      "p13": "I've been a board-certified nephrologist specializing in chronic kidney disease for 26 years...",
+      "p14": "And I'm about to expose the dirty secret that has kept millions of Black folk trapped in kidney decline for decades...",
+      "p15": "While the white-owned dialysis industry laughs all the way to the bank.",
+      "p16": "But before I reveal what they’ve been hiding from you…",
+      "p17": "I first need to tell you about the day that shattered me."
+    },
+    "dayEverythingChanged": {
+      "heading": "The Day Everything Changed...",
+      "p1": "It was 9:14 AM on a Saturday. March 4th, 2023.",
+      "p2": "I found Denise sobbing on the edge of the bed. ",
+      "p3": "Not crying. Sobbing.",
+      "p4": "The kind of raw, primal sound that makes your stomach drop.",
+      "p5": "Her lab results from Thursday's appointment were spread across the comforter.",
+      "quote1a": "\"I can't do this anymore, Malcolm,\"",
+      "quote1mid": "she said. ",
+      "quote1b": "\"Read it. Right there. Every single time.\"",
+      "creatinine": "Creatinine: 3.1.",
+      "egfr": "eGFR: 22.",
+      "p6": "Down from 31 just four months ago.",
+      "p7": "She held her left hand out toward me...",
+      "p8": "Her wedding ring was sitting on the nightstand. ",
+      "p9": "She'd taken it off three weeks earlier, her fingers too swollen to wear it.",
+      "quote2a": "\"The doctor's office called after the results came in,\"",
+      "quote2mid": "she said quietly.",
+      "quote2b": "\"They want to schedule a 'preparatory consultation.'\"",
+      "p10": "She didn't need to say what that meant.",
+      "p11": "We both knew.",
+      "theMachine": "The machine.",
+      "p12": "And I just stood there.",
+      "p13": "Useless.",
+      "p14": "A nephrologist who couldn't save his own wife from the thing he'd spent twenty-six years treating in other people."
+    },
+    "treatmentFailures": {
+      "heading": "I'd tried everything 26 years of training taught me:",
+      "items": [
+        {
+          "label": "Lisinopril 10mg",
+          "text": "- Dropped her blood pressure so low she nearly passed out stepping off a curb. Her eGFR kept dropping regardless."
+        },
+        {
+          "label": "Furosemide 40mg",
+          "text": "- Flushed her electrolytes and left her sitting on the bathroom floor at 2 PM too weak to stand up."
+        },
+        {
+          "label": "Salt restriction -",
+          "text": "Meals that tasted like cardboard. The foam in the toilet every morning didn't care."
+        },
+        {
+          "label": "Low-potassium, low-phosphorus diet -",
+          "text": "No more bananas, sweet potatoes, or collard greens. Every number kept moving the wrong direction."
+        },
+        {
+          "label": "Kidney supplements",
+          "text": "- Cranberries, cordyceps, rehmannia. Her creatinine hit 2.9 by the time she finished her last bottle."
+        }
+      ],
+      "nothingWorked": "Nothing worked for more than a few weeks.",
+      "expertsLabel": "The \"experts\" weren't any better.",
+      "p1": "Her nephrologist at Emory kept adjusting medications, kept monitoring numbers, kept saying \"we're managing the progression.\"",
+      "p2": "Managed it right from stage 3 to stage 4 in twenty-two months.",
+      "p3": "That morning, watching my brilliant, vibrant wife...",
+      "p4": "A woman who'd built her own business from scratch, raised three children, served as first lady of our church for 11 years...",
+      "p5": "Sitting on the edge of our bed terrified of ending up chained to a machine for the rest of her life...",
+      "snapped": "Something inside me snapped.",
+      "p6": "I wasn't going to watch the woman I've loved for 27 years become a prisoner in her own body.",
+      "p7": "I wasn't going to let some dialysis company CEO use her as a Mercedes payment.",
+      "p8": "I was going to figure this out.",
+      "orDieTrying": "Or die trying."
+    },
+    "researchRevealed": {
+      "heading": "What 94 Days Of Research Finally Revealed",
+      "p1": "For the next 94 days, I lived like a man possessed.",
+      "p2": "I read 1,800+ studies. Called 58 researchers across 11 countries. Flew to nephrology conferences in Amsterdam and Seoul. Spent $17,000 of our retirement savings on research the public never sees.",
+      "p3": "And what I found made me want to throw my diploma in the trash.",
+      "p4": "The entire kidney industry is built on a deliberate lie.",
+      "p5": "Here's what they don't want you to know:",
+      "p6": "Chronic kidney disease is NOT a \"filtration failure\" you manage with ACE inhibitors.",
+      "p7": "It's not a protein problem you fix with diet restriction.",
+      "callout": "Chronic kidney decline is an INVASION — zombie cells destroying filtration from the inside.",
+      "p8": "And for reasons tied directly to biology, it targets Black folk at more than 3x the rate of anyone else.",
+      "p9": "The Cleveland Clinic knows this. Johns Hopkins knows this. Your nephrologist almost certainly knows this.",
+      "p10": "But they'll never tell you.",
+      "p11": "Because the REAL cause is something so simple, so fixable, that acknowledging it would bankrupt half the dialysis centers in America.",
+      "p12": "That's why their \"solutions\" never actually work long-term.",
+      "p13": "There's a \"Zombie Invasion\" destroying your kidneys from the inside, and they're just watching it happen."
+    },
+    "realRootCause": {
+      "heading": "The Real Root Cause They're Hiding",
+      "p1": "Let me break this down in plain terms.",
+      "p2": "Your kidneys have their own lymphatic system. ",
+      "p3": "A network of tiny tubes that carry waste and toxins out of circulation every single day. ",
+      "p4": "When those vessels work, your kidneys filter cleanly.",
+      "p5": "When they clog, waste backs up inside the kidney tissue itself. ",
+      "p6": "That's the rising creatinine, the dropping eGFR, the foam in your toilet every morning.",
+      "p7": "Now here's what they won't tell you.",
+      "p8": "For years, doctors couldn't explain why some people's kidneys decline rapidly while others stay stable for decades...",
+      "p9": "They blamed genetics. They blamed diet. They blamed blood pressure.",
+      "p10": "Then in 2021, a team of cellular experts at the Mayo Clinic took a closer look at the kidneys of 260 Black patients using high-tech phase contrast microscopes...",
+      "p11": "And what they found was straight out of a sci-fi movie. ",
+      "p12pre": "The kidneys lymphatic vessels were",
+      "p12bold": "smothered in a toxic blanket of senescent \"zombie\" cells.",
+      "p13": "Not quite dead, but not fully alive either.",
+      "p14": "Imagine trying to breathe with your nose shut. Not going to happen, right?",
+      "p15": "These toxic cells choke the inside of your kidney's lymphatic vessels in the same way — clogging them completely. ",
+      "p16": "Waste backs up inside your kidney tissue the same way sewage backs up behind a blocked drain.",
+      "p17": "No ACE inhibitor touches zombie cells. Low-protein diets can't clear them. Dialysis manages the damage but never touches the source.",
+      "p18": "That's why nothing has worked."
+    },
+    "weatheringEffect": {
+      "heading": "The \"Weathering Effect\": Why Black People Produce 247% More Zombie Cells Than ANY Other Race",
+      "p1": "But here's the part that made me grip the edge of my desk at 2 AM.",
+      "p2": "Every stressor modern life throws at Black folk damages the DNA inside your cells...",
+      "p3": "This damaged DNA leads to FAR more senescent cells than any other group.",
+      "p4pre": "The scientific term for this phenomenon is called the",
+      "p4bold": "\"weathering effect\"...",
+      "p4post": "And it affects Black folk disproportionally.",
+      "p5": "A 2023 study in the Journal of African American Health Sciences measured the difference directly: ",
+      "callout": "Black people produced an average of 247% more \"zombie cells\" inside their kidneys than ANY other race.",
+      "p6": "That's not a coincidence.",
+      "p7": "This explained why Denise was declining...",
+      "p8": "While her white colleagues with the same diagnosis, same diet, same doctor were stable.",
+      "p9": "That means the solution isn't better pills. ",
+      "p10": "It's eliminating the toxic blanket coating your kidney's lymphatic vessels.",
+      "p11": "The medical industry has known about this for years.",
+      "p12": "Yet they keep you on the hamster wheel anyway...",
+      "hamsterWheel": [
+        "ACE inhibitors crash your blood pressure",
+        "Low-protein diets that strip your quality of life",
+        "Diuretics that destroy your electrolytes",
+        "More medications for the problems caused by the first medications",
+        "Dialysis three times a week when nothing works",
+        "Repeat forever until your kidneys give out completely"
+      ],
+      "p13": "It's genius, really.",
+      "sociopath": "If you're a sociopath."
+    },
+    "miracleHiding": {
+      "heading": "The Miracle Hiding In Plain Sight",
+      "p1": "Remember how I found my dear wife Denise crying on the edge of our bed?",
+      "p2": "Terrified of ending up chained to a dialysis machine for the rest of her life?",
+      "callout": "61 days after my discovery, she hosted our church's holiday dinner for 22 people.",
+      "p3": "On her feet for 5 hours. Her ring back on her finger. Cooking, serving, laughing. ",
+      "p4": "No ACE inhibitors. No protein restrictions. No \"preparatory consultation\" on the calendar.",
+      "p5": "Just one change. And I'm almost embarrassed by how simple it is.",
+      "p6": "You see...",
+      "p7": "Every doctor, every specialist, every protocol we tried was obsessed with what goes in.",
+      "p8": "Less protein. Less potassium. Less phosphorus. Less sodium. Control everything entering the body.",
+      "p9": "Nobody was asking whether the body could actually process what needed to come out.",
+      "p10": "That's the real problem. ",
+      "problemList": [
+        {
+          "pre": "Toxic ",
+          "bold": "zombie cells",
+          "post": "buildup up inside your kidney's lymphatic vessels..."
+        },
+        {
+          "text": "Blocking drainage completely..."
+        },
+        {
+          "text": "Letting waste back up inside your tissue..."
+        },
+        {
+          "text": "And driving every number in the wrong direction."
+        }
+      ],
+      "p11": "So the fix isn't restricting what goes in. ",
+      "p12": "It's clearing what's blocking the way out.",
+      "p13": "Once I understood that, I stopped looking for pharmaceuticals.",
+      "p14": "I started looking for compounds...",
+      "p15": "Natural compounds with clinically documented ability to break down senescent zombie cells, clear lymphatic pathways, and restore the filtration your kidneys were designed to do on their own.",
+      "p16": "After 81 days of research, I found six.",
+      "p17": "Three had been used in traditional medicine for generations.",
+      "p18": "Multiple were identified in modern nephrology research.",
+      "p19": "Nobody had ever combined them.",
+      "p20": "And when those zombie cells are gone and your kidney's lymphatic vessels are finally clear - the results come fast.",
+      "resultsList": [
+        "You wake up and the foam is gone.",
+        "Your energy returns before noon instead of crashing by 10 AM.",
+        "Your labs move in the right direction for the first time in years.",
+        "You stop planning your life around how exhausted you'll be."
+      ],
+      "p21": "That's not a promise. ",
+      "p22": "That's just what happens when you stop controlling the input and start clearing the drain."
+    },
+    "pissingOffIndustry": {
+      "heading": "This Breakthrough Is Pissing Off An Entire Industry",
+      "p1": "After Denise's transformation, word spread fast.",
+      "p2": "My colleague's brother Raymond - stage 4 CKD for 11 years - knocked on my office door.",
+      "quote1": "\"Malcolm, whatever you did for Denise. I'm at the end of the road here.\"",
+      "quote2": "\"My nephrologist literally said: 'We need to start thinking about access placement.'\"",
+      "p3": "His eGFR was 19. Creatinine 3.4. ",
+      "p4": "He'd spent over $47,000 on treatments, specialists, and supplements.",
+      "p5": "I gave him the same protocol.",
+      "p6": "34 days later he called me.",
+      "callout": "\"eGFR is 27. My doctor ran them twice. She said she's never seen numbers move like that going in this direction.\"",
+      "p7": "Within eight weeks I had people finding me from everywhere.",
+      "p8": "CKD patients whose nephrologists had already scheduled their dialysis consultations…",
+      "p9": "Diabetics watching their kidney function disappear faster than their blood sugar ever explained…",
+      "p10": "People who'd been told by three different doctors that this was simply how the rest of their life would look.",
+      "everyOne": "Every. Single. One. Got. Better.",
+      "p11": "Not \"slowed the progression\" better. Not \"bought a few more months\" better.",
+      "p12": "Actually, measurably, life-changingly better.",
+      "p13": "That's when the threats started."
+    },
+    "whenYouMess": {
+      "heading": "When You Mess With $73 Billion, They Come For You",
+      "p1": "Dr. Sandra Okafor — someone I'd called a colleague for 14 years — pulled me aside at a conference in Philadelphia.",
+      "quote1": "\"Malcolm. What you're doing is making powerful people very uncomfortable. I'm telling you this as a friend. Stop while you still can.\"",
+      "shoveIt": "I told him to shove it.",
+      "p2": "Then came the cease and desist letters.",
+      "p3": "Two law firms representing \"concerned medical professionals\" claiming I was \"undermining established treatment protocols.\"",
+      "p4": "Funny how they never once challenged the actual results.",
+      "p5": "And I think we both know why.",
+      "blackDoctor": "A Black doctor from Howard had figured out why Black folk were suffering...",
+      "p6pre": "And found a solution that didn't require a",
+      "p6bold": "single prescription or a single dollar going into the pockets of an industry that had spent decades ignoring us.",
+      "p7": "A solution that:",
+      "solutionList": [
+        {
+          "bold": "Fixed the ROOT CAUSE of kidney decline",
+          "text": "— dissolving the zombie cell buildup blocking your kidney's lymphatic vessels instead of just restricting what goes in"
+        },
+        {
+          "bold": "Worked in under 5 minutes a day ",
+          "text": "— not during expensive nephrology appointments billing $300-500 an hour"
+        },
+        {
+          "bold": "Cost less than a single month of pharmaceuticals",
+          "text": "— not the $400-800 a month you're handing to pharmacies that know these pills never fix anything"
+        },
+        {
+          "bold": "Let people clear the zombie cells at home",
+          "text": "— not in dialysis centers billing Medicare $90,000 a year per patient"
+        }
+      ],
+      "p8": "But here's what they didn't count on...",
+      "p9": "I had already partnered with a startup out of Atlanta who believed in the mission.",
+      "p10": "Eight months perfecting the ratios. Testing absorption. Refining the formula.",
+      "p11": "The result was better than we could have ever hoped for.",
+      "p12": "A formula that dissolves senescent cells, clears your kidney's lymphatic vessels, and restores the filtration your body was designed to do on its own...",
+      "p13": "Using compounds your ancestors relied on for generations, now validated by modern nephrology research."
+    },
+    "sidebar": {
+      "blurb1": "A breakthrough botanical formula is making headlines for slowing kidney function decline by up to 84% — without dialysis prep, prescription diuretics, or watching your creatinine numbers creep up every three months.",
+      "blurb2": "After 14 months of research and over 8,600 patients, Dr. Malcolm Carter and his team identified natural compounds that dissolves the \"zombie cells\" suffocating the kidneys - all packed into one precise daily formula called Flow+ by Elavyn."
+    }
+  },
+  "comments": {
+    "heading": "Comments",
+    "placeholder": "Add a comment ...",
+    "items": [
+      {
+        "image": "https://c.animaapp.com/mr0pqk6b3NyYkT/assets/1773244540830_hf_20260311_155203_b7742bc7_b9d8_4e8b_84fc_a56c50cfdde7.webp",
+        "author": "Tanisha Williams",
+        "text": "If it truly helps with the kidney numbers, sign me up! I'm so tired of watching my eGFR drop every three months. It's exhausting and terrifying..",
+        "likes": "4",
+        "time": "51 min",
+        "showReactionIcon": true
+      },
+      {
+        "image": "https://c.animaapp.com/mr0pqk6b3NyYkT/assets/1773245004686_hf_20260311_155751_1c1138ae_28cb_4574_b7a5_599b8c407a4f.webp",
+        "author": "Keisha Johnson",
+        "text": "I always feel exhausted and foggy by mid-morning no matter how much I sleep. Flow+ has me actually making it through the day.",
+        "likes": "6",
+        "time": "1 h",
+        "showReactionIcon": true,
+        "photo": "https://c.animaapp.com/mr0pqk6b3NyYkT/assets/1773243637153_hf_20260311_153907_0b4a9832_b180_48fa_8a75_3ddeeea9a692.webp"
+      },
+      {
+        "image": "https://c.animaapp.com/mr0pqk6b3NyYkT/assets/1773245021533_hf_20260311_160117_3f4a1da1_a594_4526_a77e_8acedc99ea90.webp",
+        "author": "Monique Davis",
+        "text": "Ugh, the medication list is the WORST. If Flow+ can actually support my kidneys without me swallowing six different pills every morning, I'm sold!",
+        "likes": "2",
+        "time": "2 h",
+        "showReactionIcon": true,
+        "replies": [
+          {
+            "image": "https://c.animaapp.com/mr0pqk6b3NyYkT/assets/1773245057355_hf_20260311_155751_7fb568a4_4714_4af8_a8ac_df0e072bdf6f.webp",
+            "author": "Latoya Brown",
+            "text": "I hear you on the medication overload! Flow+ has been a complete game changer for me. My doctor called me after my last labs and said \"whatever you're doing, keep doing it.\" My creatinine came down for the first time in three years.",
+            "likes": "3",
+            "time": "1 h",
+            "showReactionIcon": true
+          }
+        ]
+      },
+      {
+        "image": "https://c.animaapp.com/mr0pqk6b3NyYkT/assets/1773245086303_hf_20260311_155751_d9314acf_425a_4b62_be5c_bbcdf0461f44.webp",
+        "author": "Shanice Washington",
+        "text": "I hate worrying about my kidney numbers getting worse while I'm just sitting here following every instruction and still declining. Really hoping Flow+ is the answer.",
+        "likes": "1",
+        "time": "3 h"
+      },
+      {
+        "image": "https://c.animaapp.com/mr0pqk6b3NyYkT/assets/1773245115501_hf_20260311_160403_08117422_4290_4670_8156_683dcf6687d8.webp",
+        "author": "Tameeka Robinson",
+        "text": "This Elavyn stuff sounds promising, but I'd love to hear from people who've actually tried it for their kidney issues. Anyone have any experience?",
+        "likes": "1",
+        "time": "3 h",
+        "showReactionIcon": false,
+        "replies": [
+          {
+            "image": "https://c.animaapp.com/mr0pqk6b3NyYkT/assets/1773245130538_hf_20260311_160403_1e594513_8752_4ff8_af98_392949af6475.webp",
+            "author": "Destiny Harris",
+            "text": "I've been taking Flow+ for six weeks and it's been amazing. Way better than those kidney medications that just mask the numbers and do absolutely nothing for how you actually feel day to day. My eGFR went up 9 points. Highly recommend giving it a real shot.",
+            "likes": "3",
+            "time": "2 h",
+            "showReactionIcon": false
+          }
+        ]
+      },
+      {
+        "image": "https://c.animaapp.com/mr0pqk6b3NyYkT/assets/1773245235480_hf_20260311_160519_66ba41a7_a589_4fb9_9cbd_3316ebb92f5e.webp",
+        "author": "Aaliyah Thompson",
+        "text": "Ease of use is everything for me. I'm not adding a complicated protocol on top of everything I already manage with this diagnosis. Hoping Flow+ is as simple as they say.",
+        "likes": "8",
+        "time": "3 h"
+      },
+      {
+        "image": "https://c.animaapp.com/mr0pqk6b3NyYkT/assets/1773245250640_hf_20260311_160502_ff2fa8f1_f1bc_4d45_86b7_f62ab24f2bdb.webp",
+        "author": "Brianna Jackson",
+        "text": "Anyone else worried about the taste? I hope it doesn't taste medicinal",
+        "likes": "1",
+        "time": "4 h",
+        "showReactionIcon": false,
+        "replies": [
+          {
+            "image": "https://c.animaapp.com/mr0pqk6b3NyYkT/assets/1773245267853_hf_20260311_160502_3c13db0e_62f0_45cb_9745_62efe4271964.webp",
+            "author": "Simone Carter",
+            "text": "I was worried too, but it's actually delicious. sweet and herbal",
+            "likes": "2",
+            "time": "2 h",
+            "showReactionIcon": false
+          },
+          {
+            "image": "https://c.animaapp.com/mr0pqk6b3NyYkT/assets/1773245287289_hf_20260311_160519_1d726659_1759_4816_ab13_ce220411e69e.webp",
+            "author": "Keandra Mitchell",
+            "text": "No need to worry! tastes more like honey than anything else!",
+            "likes": "2",
+            "time": "1 h",
+            "showReactionIcon": false
+          }
+        ]
+      },
+      {
+        "image": "https://c.animaapp.com/mr0pqk6b3NyYkT/assets/1773245311004_hf_20260311_160519_62ce21ec_72b4_454b_bdcd_7d273509375b.webp",
+        "author": "Daphne Reynolds",
+        "text": "Elavyn has been life-changing for me. First time my nephrologist has smiled at my results in years.",
+        "likes": "3",
+        "time": "4 h",
+        "showReactionIcon": false
+      },
+      {
+        "image": "https://c.animaapp.com/mr0pqk6b3NyYkT/assets/1773245324417_hf_20260311_160711_b5a65f85_20a0_47a6_b310_ea10348588e8.webp",
+        "author": "Deja Walker",
+        "text": "I genuinely never thought I'd see my kidney numbers look like this again. Flow+ proved me wrong.",
+        "likes": "3",
+        "time": "4 h"
+      },
+      {
+        "image": "https://c.animaapp.com/mr0pqk6b3NyYkT/assets/1773245339497_hf_20260311_160711_752966bc_7157_4548_b1fb_82a4c7a0f9c7.webp",
+        "author": "Faith McCain",
+        "text": "I thought it was too good to be true from the video, but reading these comments has convinced me. Ordering today!",
+        "likes": "3",
+        "time": "5 h"
+      },
+      {
+        "image": "https://c.animaapp.com/mr0pqk6b3NyYkT/assets/1773245396938_hf_20260311_160502_c0dd6ead_4558_41f3_8d8b_5093c2888a42.webp",
+        "author": "Imani Taylor",
+        "text": "Thinking about trying Elavyn for my CKD but have questions.. Does it actually move the numbers? Fire away!",
+        "likes": "2",
+        "time": "5 h",
+        "replies": [
+          {
+            "author": "Shantel Anderson",
+            "text": "Been taking Flow+ for two months now and I'm genuinely amazed. My eGFR went from 29 to 38 and the brain fog I'd been living with is almost completely gone. When I had a question about my order their customer service responded fast and actually helped.",
+            "likes": "5",
+            "time": "2 h"
+          }
+        ]
+      },
+      {
+        "image": "https://c.animaapp.com/mr0pqk6b3NyYkT/assets/1773245357787_hf_20260311_160818_4dc35c80_906b_4753_b6fc_c8d5345e323e.webp",
+        "author": "Roneeka White",
+        "text": "Thank you, mine arrived today, I will keep you posted",
+        "likes": "3",
+        "time": "5 h",
+        "photo": "https://c.animaapp.com/mr0pqk6b3NyYkT/assets/1773243661819_hf_20260311_153939_e3d9e9fb_b589_4754_b087_a7712400bc47.webp"
+      }
+    ]
+  },
+  "guarantee": {
+    "heading": "My Personal 30-Day \"Zero Risk\" Guarantee",
+    "intro": {
+      "p1": "Look, I get it.",
+      "p2": "You've been burned before. We all have.",
+      "p3": "Spent money on supplements, protocols, and diet programs that just ended up in the back of the cabinet.",
+      "promiseIntro": "So here's my promise, and I'm putting it in writing:",
+      "tryFlow": "Try Flow+ for 30 full days.",
+      "p4": "Take it every single morning. ",
+      "p5": "Give your kidney's filtration system time to clear. ",
+      "p6": "Get your labs pulled on Day 1. Take note of your creatinine, your eGFR, your energy levels.",
+      "p7": "Write down how you feel when you wake up."
+    },
+    "bullets": [
+      "Watch your numbers move in the right direction for the first time in years…",
+      "Feel your energy return before noon instead of crashing by 10 AM…",
+      "See your doctor's face when your results come back and they ask what you changed..."
+    ],
+    "closing": {
+      "leadIn": "And if after 30 days you're not sitting in that exam room thinking",
+      "quote": "\"my labs actually improved\"…",
+      "refundPromise": "I'll refund every penny. Including shipping.",
+      "noHassle": "No forms. No store credit. No 47 questions.",
+      "emailInstructions": "Just email support@tryelavyn.com with your order number and the word \"refund.\"",
+      "confidenceQuestion": "Why am I this confident?",
+      "refundStat": "Because in 11 months and 13,900+ people, our refund rate is 0.9%.",
+      "refundStatDetail": "That's 9 people per thousand."
+    }
+  },
+  "finalCta": {
+    "ctaUrlButton1": "https://getelavyn.com/pages/flow",
+    "ctaUrlImage1": "https://tryelavyn.com/pages/flow",
+    "ctaUrlDiscountLink": "https://getelavyn.com/pages/flow",
+    "ctaUrlButton2": "https://getelavyn.com/pages/flow",
+    "ctaUrlImage2": "https://tryelavyn.com/pages/flow",
+    "ctaUrlFinal": "https://getelavyn.com/pages/flow",
+    "checkAvailabilityAriaLabel": "<p>CHECK AVAILABILITY →</p>",
+    "checkAvailabilityLabel": "CHECK AVAILABILITY →",
+    "discountOfferHeading": "GET 60% OFF Elavyn Flow+ Now!",
+    "limitedOfferNotice": "You can take advantage of this unique offer for 3 days only!",
+    "internetOnlyOffer": "INTERNET ONLY OFFER!",
+    "limitedTimeLine1": "FOR A LIMITED TIME:",
+    "limitedTimeLine2": "60% OFF + THEY PAY FOR SHIPPING",
+    "readerSpecialLabel": "LIMITED TIME READER-ONLY SPECIAL",
+    "readerSpecialBody": ": Ordering now makes you eligible for 60% OFF Elavyn Flow+. Only available here. Limited to first 500 customers only.",
+    "finalCheckAvailability": "→ CHECK AVAILABILITY NOW -  30 DAY GUARANTEE",
+    "signOff": {
+      "toYourFreedom": "To your freedom, ",
+      "doctorName": "Dr. Malcolm Carter, MD",
+      "doctorTitle": "Creator, Flow+ by Elavyn",
+      "psLabel": "P.S.",
+      "psBody": "— Denise just sent me a photo from our grandson's birthday party. She was there, on her feet for three hours. The way she used to be before all of this started. That could be you in 30 days. But only if you act in the next 72 hours.",
+      "ppsLabel": "P.P.S.",
+      "ppsBody": "— I'm looking at our inventory dashboard right now as I write this. We're down to 832 units. When I refresh our inventory system and see it below 500, I'm pulling this page. Don't say I didn't warn you.",
+      "pppsLabel": "P.P.P.S.",
+      "pppsBody": "— If you're a medical professional reading this and feel the urge to push back, bring it on. I have 837 case studies and the science is on my side."
+    }
+  },
+  "journalHeader": {
+    "heading": "RENAL RESET JOURNAL"
+  },
+  "authorRow": {
+    "byline": "Written by Dr. Malcolm Carter"
+  },
+  "pricing": {
+    "bulletIconAlt": "Icon"
+  },
+  "results": {
+    "heading": "The Results That Have Doctors Quietly Ordering For Themselves",
+    "itemIconAlt": "Icon",
+    "intro": {
+      "p1": "In the 11 months since we launched, over 13,900 Black folk with declining kidney function have tried Elavyn Flow+.",
+      "p2": "Here's what the results actually look like:"
+    },
+    "items": [
+      {
+        "bold": "87% report improved energy levels ",
+        "text": "within the first 14 days"
+      },
+      {
+        "bold": "91% say the foam and discoloration in their urine visibly reduced",
+        "text": "within 3 weeks"
+      },
+      {
+        "bold": "Average reduction of 2.1 inches in ankle circumference",
+        "text": "within 60 days"
+      },
+      {
+        "bold": "Average eGFR improvement of 8.3 points",
+        "text": "within 60 days"
+      },
+      {
+        "bold": "74% reduced or eliminated at least one kidney medication within 90 days ",
+        "text": "— under their doctor's supervision"
+      },
+      {
+        "bold": "Fatigue, brain fog, and swelling scores",
+        "text": "improved by 79%"
+      }
+    ],
+    "closing": {
+      "p1": "But here's the number that tells you everything you need to know:",
+      "p2": "Our return rate is 0.9%.",
+      "p3": "That's 9 people out of every thousand.",
+      "p4": "And most of those weren't because it didn't work.",
+      "p5": "Most were wrong dosage timing issues we solved with a single phone call.",
+      "p6": "Check out what real users are saying:"
+    },
+    "testimonials": [
+      {
+        "name": "Jasmine M. - Phoenix, AZ ⭐⭐⭐⭐⭐",
+        "quote": "Been stage 3 CKD for seven years. My nephrologist kept telling me to \"slow the progression.\" Slow it?? I don't want to slow anything I want my kidneys BACK. Started Flow+ six weeks ago and my eGFR went from 31 to 42. My doctor ran my labs twice because she didn't believe it.\""
+      },
+      {
+        "name": "Marcus T. - Detroit, MI",
+        "quote": "\"I have been watching my kidney function drop for FIVE years. My sister told me about Flow+ and I was skeptical because I have been disappointed so many times before. But my creatinine came down for the first time since my diagnosis. My kidneys have not looked this good on paper in years.\""
+      },
+      {
+        "name": "Jacob R. - Tampa, FL ",
+        "quote": "\"Okay so I was NOT going to spend another dollar on something that doesn't work. I told my wife that. She ordered it for me anyway lol. And now I owe her an apology because my labs haven't looked like this since before my diagnosis. My nephrologist asked me what I changed.\""
+      }
+    ]
+  },
+  "productIntro": {
+    "heading": "Introducing The First Zombie Cells Dissolving Formula Ever Created",
+    "calloutLabel": "It's called",
+    "ctaLinkText": "Flow+ By Elavyn.",
+    "ctaLinkHref": "https://getelavyn.com/pages/flow",
+    "intro": {
+      "p1": "The first ever natural liquid supplement specifically formulated",
+      "p1Bold": "to target the root cause of kidney decline in Black folk."
+    },
+    "bulletItems": [
+      {
+        "text": "No matter how long you've been watching your numbers move the wrong direction…"
+      },
+      {
+        "text": "No matter how many medications, diet restrictions, and specialist appointments you've already been through…"
+      },
+      {
+        "text": "No matter what stage your kidneys are currently at…"
+      }
+    ],
+    "closing": {
+      "heading": "Flow+ CAN work for you.",
+      "p1": "Because it goes directly after the zombie cells clogging your kidney's lymphatic vessels — dissolving it naturally so your filtration system can finally do what it was designed to do.",
+      "p2": "Not managing what goes in.",
+      "p3Bold": "Clearing what's blocking the way out.",
+      "p4": "Here's how it works…"
+    }
+  },
+  "ingredients": {
+    "heading": "Flow+ Contains 6 Powerful Natural Ingredients That Work To Dissolve Senescent \"Zombie\" Cells & Restore The Filtration Your Kidneys Were Designed To Do",
+    "items": [
+      {
+        "title": "Astragalus Root",
+        "paragraphs": [
+          "Chinese emperors used astragalus for 2,000 years to extend their lives — and modern research is showing they were onto something huge.",
+          "Because astragalus is one of the only plants on Earth that directly hunts down senescent cells.",
+          " ",
+          "A 2019 study showed astragalus root clears out the zombies already smothering your kidneys… while also stopping healthy cells from ever turning senescent in the first place.",
+          " ",
+          "That means in as little as a few weeks you could start seeing numbers move in the right direction for the first time in years — and waking up with energy that doesn't disappear before noon."
+        ]
+      },
+      {
+        "title": "Cleavers",
+        "paragraphs": [
+          "A 2020 study confirmed cleavers acts as a direct lymphatic flush⁵ — physically clearing congestion from blocked kidney vessels so wastewater finally starts moving out.",
+          " ",
+          "Think of it this way: astragalus turns off the faucet. Cleavers drains the backed-up sink.",
+          " ",
+          "Next, I tackled the chronic inflammation keeping your kidneys stuck."
+        ]
+      },
+      {
+        "title": "Red Clover",
+        "paragraphs": [
+          "A 2017 study found red clover contains natural “lymphokinetic” compounds that reduce lymphatic inflammation⁷ — soothing the vessel walls inside your kidneys so fluid can drain without resistance.",
+          " ",
+          "Then, I rounded things off with a slew of natural compounds to take the formula to the next level..."
+        ]
+      },
+      {
+        "title": "Burdock Root",
+        "paragraphs": [
+          "Burdock Root does something almost no other herb on Earth can do - it flips on a switch in your body called autophagy - a powerful self-healing mechanism that cleans up zombie cells from inside your kidney's lymphatic system."
+        ]
+      },
+      {
+        "title": "Calendula",
+        "paragraphs": [
+          "A 2017 study found calendula can improve circulation and reduce fluid retention throughout the body."
+        ]
+      },
+      {
+        "title": "Echinacea",
+        "paragraphs": [
+          "Echinacea supercharges your NK (Natural Killer) cells: specialized assassins that your immune system uses to hunt down and destroy senescent zombie cells. Clearing the toxic blanket smothering your filtration."
+        ]
+      }
+    ]
+  },
+  "productOffer": {
+    "pricingTitle": "The Price That's Causing Pharmaceutical Panic",
+    "sixtyOffTitle": "The 60% Off \"In Your Face\" To The Medical Establishment",
+    "brutalRealityTitle": "⚠️ But Here's The Brutal Reality",
+    "decadeTitle": "The Decision That Will Define Your Next Decade",
+    "happensNextTitle": "Here's Exactly What Happens Next",
+    "sixtyOffListItems": [
+      "Less than ONE nephrology copay",
+      "Less than ONE week of most kidney medications",
+      "Less than ONE comprehensive metabolic panel",
+      "Less than dinner for two at Olive Garden"
+    ],
+    "decadeBulletItems": [
+      "Keep spending $400-800/month on medications that manage numbers but never touch the root cause.",
+      "Keep waking up every morning with fatigue that hits before you've finished your first cup of coffee.",
+      "Keep missing family events because your energy ran out by noon.",
+      "Keep eating flavorless meals that restrict everything you love — and watching your numbers decline anyway.",
+      "Keep making your nephrologist's car payments."
+    ],
+    "ctaUrlProductLink": "https://tryelavyn.com/pages/flow",
+    "costBreakdown": {
+      "introText": "Let me show you what \"managing\" kidney decline actually costs Black folk in America...",
+      "standardRouteLabel": "The Standard Route:",
+      "items": [
+        {
+          "label": "Monthly nephrologist visits:",
+          "amount": "$325 x 12 = $3,900/year"
+        },
+        {
+          "label": "Daily ACE inhibitors",
+          "amount": ": $180/month = $2,160/year"
+        },
+        {
+          "label": "Potassium binders:",
+          "amount": "$65/month = $780/year"
+        },
+        {
+          "label": "Phosphate binders:",
+          "amount": "$55/month = $660/year"
+        },
+        {
+          "label": "Quarterly bloodwork monitoring:",
+          "amount": "$275 x 4 = $1,100/year"
+        }
+      ],
+      "annualTotalStrong": "Annual total: $8,600. Every year. While your numbers keep declining.",
+      "p1": "The medical industry loves overloading you with as many options as they can.",
+      "p2": "You know why?",
+      "p3": "You're not a patient to them. You're a subscription.",
+      "p4": "A recurring revenue stream that never actually gets better - because getting better would mean you stop paying.",
+      "p5": "But here's what really terrifies them…"
+    },
+    "secondaryOffer": {
+      "priceStrong": "Elavyn Flow+ should cost $149.",
+      "p1": "That's what it would run you to source all six ingredients individually...",
+      "p2": "Tracking down pharmaceutical-grade herbs from separate suppliers...",
+      "p3": "In the exact concentrations and ratios that actually work.",
+      "p4": "But I didn't create this to keep it in my kitchen."
+    },
+    "highlightQuote": "I created Flow+ because I watched my wife sitting on the edge of our bed crying over a piece of paper.",
+    "closingDeal": {
+      "dealLabel": "So here's the deal:",
+      "p1": "So the regular retail price of Flow+ is",
+      "priceStrong": "$99.",
+      "p2": "Already less than a single nephrology appointment.",
+      "p3": "Already less than one month of the medications that were never going to fix anything anyway.",
+      "finalStrong": "But that's not what you'll pay today."
+    },
+    "sixtyOffIntro": {
+      "p1": "Remember those cease and desist letters I mentioned?",
+      "p2": "Two weeks ago I found out a major pharmaceutical network is now pressuring our fulfillment partners to drop us.",
+      "p3": "They can't discredit the results. We have 13,900 people and counting.",
+      "p4": "They can't replicate the formula. The sourcing relationships took years to build.",
+      "p5": "So now they're doing what powerful industries always do when they can't compete on merit.",
+      "p6": "They're trying to make it expensive to keep going.",
+      "p7": "So my response is simple.",
+      "releaseStrong": "For the next 72 hours only, I'm releasing bottles at 60% OFF.",
+      "p8": "That's right.",
+      "oldPrice": "$99.99",
+      "newPriceStrong": " → Just $39.99",
+      "p9": "You can get the same formula that's helped 13,900+ black folk with declining kidney function for:"
+    },
+    "sixtyOffOutro": {
+      "whyStrong": "Why would I practically give these away?",
+      "p1": "Because every person who gets better is living proof that the system is broken.",
+      "p2": "Because I want 50,000 success stories flooding kidney disease support groups and Facebook before Big Pharma can silence us.",
+      "p3": "Because sometimes the best revenge against a $73 billion industry is helping people actually get better."
+    },
+    "brutalReality": {
+      "p1": "This discount expires in exactly 72 hours.",
+      "p2": "Not a marketing gimmick.",
+      "p3": "My lawyers charge $650/hour, and this fight with our distribution partners isn't going to be cheap.",
+      "returnPriceStrong": "After 72 hours, we return to $99 per bottle.",
+      "p4": "Also - and this is critical - we only have 1,900 bottles remaining at this price.",
+      "p5": "Our facility can only produce 380 units per week while maintaining the ingredient concentrations that make Flow+ actually work.",
+      "p6": "The ONLY place to get authentic Flow+ with all six active ingredients at full concentration is through our official website.",
+      "availableStrong": "If you're reading this, bottles are still available...",
+      "p7": "But I'm watching our inventory right now, and we're averaging 54 orders per hour today.",
+      "p8": "Do the math."
+    },
+    "decadeIntro": {
+      "introText": "Right now, you're standing at a fork in the road.",
+      "path1Strong": "Path #1: Keep Doing What You're Doing"
+    },
+    "decadeClosing": {
+      "p1": "In 10 years you'll be sitting in a dialysis chair three mornings a week...",
+      "p2": "Reading another article about another temporary solution...",
+      "p3": "While the zombie cells in your kidney's lymphatic vessels builds up another layer and another specialist tells you this is just how it goes.",
+      "p4": "Or...",
+      "path2Strong": "Path #2: Try Something That Actually Works",
+      "p5": "Spend less than a dinner out.",
+      "p6": "Take a formula that's helped 13,900+ people stop the decline and start reversing it.",
+      "p7": "Go after the ROOT CAUSE — the zombie cells that have been blocking your kidney's lymphatic vessels and letting waste back up day after day.",
+      "wakeUpStrong": "Wake up tomorrow ready to actually live instead of ready to count your potassium and wait for your next set of labs to confirm what you already dread.",
+      "p8": "Join the movement that's terrifying a $73 billion industry.",
+      "p9": "I think you already know which path leads to your granddaughter's next birthday party."
+    },
+    "happensNextIntro": {
+      "step1Label": "Step 1:",
+      "clickText": "Click the button below that says",
+      "checkAvailabilityLabel": "\"CHECK AVAILABILITY\"",
+      "step2Label": "Step 2:",
+      "choosePackageText": "Choose your package (Flash Sale — ends today):"
+    },
+    "happensNextBulletItems": [
+      {
+        "priceLabel": "1 MONTH SUPPLY — $39",
+        "discountLabel": "(60% off)",
+        "period": ".",
+        "text": "Enough to feel the difference within your first two weeks."
+      },
+      {
+        "priceLabel": "2 MONTH SUPPLY",
+        "discountLabel": "(MOST POPULAR)",
+        "text": "— $62 (free shipping included). Two bottles, $31 each."
+      },
+      {
+        "priceLabel": "3 MONTH SUPPLY",
+        "discountLabel": "(BEST VALUE)",
+        "text": "— $83.99 (free shipping included). Three bottles, $27 each. The best value we offer, and enough to guarantee results."
+      }
+    ],
+    "happensNextClosing": {
+      "noteStrong": "NOTE",
+      "noteText": "— Best Price Available. If you want to make sure you never run out, never lose your progress, and never pay full price, set up automatic refills. You instantly get 20% off and we prioritize your order above everything else when inventory runs low. When we get another wave of orders and we sell out in 18 hours, refill customers are already taken care of. You can pause or cancel anytime, no questions asked.",
+      "step3Label": "Step 3:",
+      "step3Text": "Enter shipping info (we ship same-day if ordered before 3 PM EST)",
+      "step4Label": "Step 4:",
+      "step4Text": "Wait 5-7 business days for delivery (most orders arrive in 4-5 days)",
+      "step5Label": "Step 5:",
+      "step5Text": "Take 1/4 of a teaspoon as soon as you get your hands on it. Don't wait.",
+      "step6Label": "Step 6:",
+      "step6Text": "Email me your success story at dr.carter@tryelavyn.com (yes, I read every one, the stories keep me going when the lawyers get aggressive)",
+      "whateverText": "But whatever you do,",
+      "dontCloseStrong": "don't close this page thinking \"maybe later.\"",
+      "noLaterStrong": "There is no later when your kidneys are declining.",
+      "laterP1": "\"Later\" is another set of labs moving in the wrong direction while you wait for something to change.",
+      "laterP2": "\"Later\" is another specialist visit that ends with \"let's just keep monitoring it.\"",
+      "laterP3": "\"Later\" is this discount expiring and stock selling out while you \"think about it\" — and your eGFR drops another point.",
+      "kidneysStrong": "Your kidneys have been fighting without the right support long enough.",
+      "familyStrong": "Your family has watched you shrink from the person they know long enough.",
+      "solutionStrong": "The solution is one click away."
+    }
+  }
+}

@@ -1,3 +1,6 @@
+// @ts-nocheck
+import adv from "../../../adv.json";
+import media from "../../../media.json";
 import { ProductIntro } from "./ProductIntro";
 import { IngredientsSection } from "./IngredientsSection";
 import { ResultsSection } from "./ResultsSection";
@@ -17,7 +20,7 @@ export const ProductOffer = () => {
                 <IngredientsSection />
                 <ResultsSection />
                 <PricingSection
-                  title="The Price That's Causing Pharmaceutical Panic"
+                  title={adv.productOffer.pricingTitle}
                   mediaVariant="bg-black overflow-hidden mb-2"
                   mediaWrapperClassName=""
                   mediaContent={
@@ -37,71 +40,67 @@ export const ProductOffer = () => {
                   introClassName="text-lg leading-[23.4px]"
                   introContent={
                     <>
-                      Let me show you what "managing" kidney decline actually
-                      costs Black folk in America...
+                      {adv.productOffer.costBreakdown.introText}
                       <br className="box-border caret-transparent leading-[23.4px] max-w-full outline-[3px] md:leading-[25.2px]" />
                       <br className="box-border caret-transparent leading-[23.4px] max-w-full outline-[3px] md:leading-[25.2px]" />
                       <strong className="font-bold box-border caret-transparent leading-[23.4px] max-w-full outline-[3px] md:leading-[25.2px]">
-                        The Standard Route:
+                        {adv.productOffer.costBreakdown.standardRouteLabel}
                       </strong>
                     </>
                   }
                   listItems={[
                     <>
                       <strong className="font-bold box-border caret-transparent max-w-full outline-[3px]">
-                        Monthly nephrologist visits:{" "}
+                        {adv.productOffer.costBreakdown.items[0].label}{" "}
                       </strong>
-                      $325 x 12 = $3,900/year
+                      {adv.productOffer.costBreakdown.items[0].amount}
                     </>,
                     <>
                       <strong className="font-bold box-border caret-transparent max-w-full outline-[3px]">
-                        Daily ACE inhibitors
+                        {adv.productOffer.costBreakdown.items[1].label}
                       </strong>
-                      : $180/month = $2,160/year
+                      {adv.productOffer.costBreakdown.items[1].amount}
                     </>,
                     <>
                       <strong className="font-bold box-border caret-transparent max-w-full outline-[3px]">
-                        Potassium binders:{" "}
+                        {adv.productOffer.costBreakdown.items[2].label}{" "}
                       </strong>
-                      $65/month = $780/year
+                      {adv.productOffer.costBreakdown.items[2].amount}
                     </>,
                     <>
                       <strong className="font-bold box-border caret-transparent max-w-full outline-[3px]">
-                        Phosphate binders:{" "}
+                        {adv.productOffer.costBreakdown.items[3].label}{" "}
                       </strong>
-                      $55/month = $660/year
+                      {adv.productOffer.costBreakdown.items[3].amount}
                     </>,
                     <>
                       <strong className="font-bold box-border caret-transparent max-w-full outline-[3px]">
-                        Quarterly bloodwork monitoring:
+                        {adv.productOffer.costBreakdown.items[4].label}
                       </strong>{" "}
-                      $275 x 4 = $1,100/year
+                      {adv.productOffer.costBreakdown.items[4].amount}
                     </>,
                   ]}
                   outroClassName="text-lg leading-[23.4px]"
                   outroContent={
                     <>
                       <strong className="font-bold box-border caret-transparent leading-[23.4px] max-w-full outline-[3px] md:leading-[25.2px]">
-                        Annual total: $8,600. Every year. While your numbers
-                        keep declining.
+                        {adv.productOffer.costBreakdown.annualTotalStrong}
                       </strong>
                       <br className="box-border caret-transparent leading-[23.4px] max-w-full outline-[3px] md:leading-[25.2px]" />
                       <br className="box-border caret-transparent leading-[23.4px] max-w-full outline-[3px] md:leading-[25.2px]" />
-                      The medical industry loves overloading you with as many
-                      options as they can.
+                      {adv.productOffer.costBreakdown.p1}
                       <br className="box-border caret-transparent leading-[23.4px] max-w-full outline-[3px] md:leading-[25.2px]" />
                       <br className="box-border caret-transparent leading-[23.4px] max-w-full outline-[3px] md:leading-[25.2px]" />
-                      You know why?
+                      {adv.productOffer.costBreakdown.p2}
                       <br className="box-border caret-transparent leading-[23.4px] max-w-full outline-[3px] md:leading-[25.2px]" />
                       <br className="box-border caret-transparent leading-[23.4px] max-w-full outline-[3px] md:leading-[25.2px]" />
-                      You're not a patient to them. You're a subscription.
+                      {adv.productOffer.costBreakdown.p3}
                       <br className="box-border caret-transparent leading-[23.4px] max-w-full outline-[3px] md:leading-[25.2px]" />
                       <br className="box-border caret-transparent leading-[23.4px] max-w-full outline-[3px] md:leading-[25.2px]" />
-                      A recurring revenue stream that never actually gets better
-                      - because getting better would mean you stop paying.
+                      {adv.productOffer.costBreakdown.p4}
                       <br className="box-border caret-transparent leading-[23.4px] max-w-full outline-[3px] md:leading-[25.2px]" />
                       <br className="box-border caret-transparent leading-[23.4px] max-w-full outline-[3px] md:leading-[25.2px]" />
-                      But here's what really terrifies them…
+                      {adv.productOffer.costBreakdown.p5}
                     </>
                   }
                   imageBlockContent={
@@ -112,7 +111,7 @@ export const ProductOffer = () => {
                       <div className="text-[15px] box-border caret-transparent flex h-full justify-center leading-[27px] max-w-full outline-[3px] w-full md:text-base md:leading-[28.8px]">
                         <picture className="text-[15px] box-border caret-transparent contents leading-[27px] max-w-full outline-[3px] md:text-base md:leading-[28.8px]">
                           <img
-                            src="https://c.animaapp.com/mr0pqk6b3NyYkT/assets/1773243378308_6.webp"
+                            src={media.productOffer.pricingImageSrc}
                             alt=""
                             className="text-[15px] box-border caret-transparent leading-[27px] max-w-full min-h-[auto] min-w-[auto] object-cover outline-[3px] w-full md:text-base md:leading-[28.8px]"
                           />
@@ -123,71 +122,65 @@ export const ProductOffer = () => {
                   secondaryContent={
                     <>
                       <strong className="font-bold box-border caret-transparent max-w-full outline-[3px]">
-                        Elavyn Flow+ should cost $149.
+                        {adv.productOffer.secondaryOffer.priceStrong}
                       </strong>
                       <br className="box-border caret-transparent max-w-full outline-[3px]" />
                       <br className="box-border caret-transparent max-w-full outline-[3px]" />
-                      That's what it would run you to source all six ingredients
-                      individually...
+                      {adv.productOffer.secondaryOffer.p1}
                       <br className="box-border caret-transparent max-w-full outline-[3px]" />
                       <br className="box-border caret-transparent max-w-full outline-[3px]" />
-                      Tracking down pharmaceutical-grade herbs from separate
-                      suppliers...
+                      {adv.productOffer.secondaryOffer.p2}
                       {" "}
                       <br className="box-border caret-transparent max-w-full outline-[3px]" />
-                      In the exact concentrations and ratios that actually work.
+                      {adv.productOffer.secondaryOffer.p3}
                       <br className="box-border caret-transparent max-w-full outline-[3px]" />
                       <br className="box-border caret-transparent max-w-full outline-[3px]" />
-                      But I didn't create this to keep it in my kitchen.
+                      {adv.productOffer.secondaryOffer.p4}
                     </>
                   }
                   highlightedContent={
                     <strong className="text-lg font-bold box-border caret-transparent leading-[25.2px] max-w-full outline-[3px] md:text-xl md:leading-7">
-                      I created Flow+ because I watched my wife sitting on the
-                      edge of our bed crying over a piece of paper.
+                      {adv.productOffer.highlightQuote}
                     </strong>
                   }
                   closingContent={
                     <>
                       <strong className="font-bold box-border caret-transparent max-w-full outline-[3px]">
-                        So here's the deal:
+                        {adv.productOffer.closingDeal.dealLabel}
                       </strong>
                       <br className="box-border caret-transparent max-w-full outline-[3px]" />
                       <br className="box-border caret-transparent max-w-full outline-[3px]" />
-                      So the regular retail price of Flow+ is{" "}
+                      {adv.productOffer.closingDeal.p1}{" "}
                       <strong className="font-bold box-border caret-transparent max-w-full outline-[3px]">
-                        $99.
+                        {adv.productOffer.closingDeal.priceStrong}
                       </strong>
                       <br className="box-border caret-transparent max-w-full outline-[3px]" />
                       <br className="box-border caret-transparent max-w-full outline-[3px]" />
-                      Already less than a single nephrology appointment.
+                      {adv.productOffer.closingDeal.p2}
                       <br className="box-border caret-transparent max-w-full outline-[3px]" />
                       <br className="box-border caret-transparent max-w-full outline-[3px]" />
-                      Already less than one month of the medications that were
-                      never going to fix anything anyway.
+                      {adv.productOffer.closingDeal.p3}
                       <br className="box-border caret-transparent max-w-full outline-[3px]" />
                       <br className="box-border caret-transparent max-w-full outline-[3px]" />
                       <strong className="font-bold box-border caret-transparent max-w-full outline-[3px]">
-                        But that's not what you'll pay today.
+                        {adv.productOffer.closingDeal.finalStrong}
                       </strong>
                     </>
                   }
                 />
                 <PricingSection
-                  title={
-                    'The 60% Off "In Your Face" To The Medical Establishment'
-                  }
+                  title={adv.productOffer.sixtyOffTitle}
                   mediaVariant="shrink-0 max-w-full text-center mb-4"
                   mediaWrapperClassName=""
                   mediaContent={
                     <a
-                      href="https://tryelavyn.com/pages/flow"
+                      href={adv.productOffer.ctaUrlProductLink}
                       title=""
                       className="text-[15px] box-border caret-transparent flex h-full justify-center leading-[27px] max-w-full outline-[3px] w-full md:text-base md:leading-[28.8px]"
                     >
                       <picture className="text-[15px] box-border caret-transparent contents leading-[27px] max-w-full outline-[3px] md:text-base md:leading-[28.8px]">
                         <img
-                          src="https://c.animaapp.com/mr0pqk6b3NyYkT/assets/hf_20260313_104632_83b8bf74-594b-41e1-80b0-9d7e6222848e.jpg"
+                          src={media.productOffer.sixtyOffImageSrc}
                           alt=""
                           className="text-[15px] box-border caret-transparent leading-[27px] max-w-full min-h-[auto] min-w-[auto] object-cover outline-[3px] w-full md:text-base md:leading-[28.8px]"
                         />
@@ -197,84 +190,69 @@ export const ProductOffer = () => {
                   introClassName="text-[17px] leading-[22.1px] md:text-lg md:leading-[25.2px]"
                   introContent={
                     <>
-                      Remember those cease and desist letters I mentioned?
+                      {adv.productOffer.sixtyOffIntro.p1}
                       <br />
                       <br />
-                      Two weeks ago I found out a major pharmaceutical network
-                      is now pressuring our fulfillment partners to drop us.
+                      {adv.productOffer.sixtyOffIntro.p2}
                       <br />
                       <br />
-                      They can't discredit the results. We have 13,900 people
-                      and counting.
+                      {adv.productOffer.sixtyOffIntro.p3}
                       <br />
                       <br />
-                      They can't replicate the formula. The sourcing
-                      relationships took years to build.
+                      {adv.productOffer.sixtyOffIntro.p4}
                       <br />
                       <br />
-                      So now they're doing what powerful industries always do
-                      when they can't compete on merit.
+                      {adv.productOffer.sixtyOffIntro.p5}
                       <br />
                       <br />
-                      They're trying to make it expensive to keep going.
+                      {adv.productOffer.sixtyOffIntro.p6}
                       <br />
                       <br />
-                      So my response is simple.
+                      {adv.productOffer.sixtyOffIntro.p7}
                       <br />
                       <br />
                       <strong className="text-[17px] font-bold box-border caret-transparent leading-[22.1px] max-w-full outline-[3px] md:text-lg md:leading-[25.2px]">
-                        For the next 72 hours only, I'm releasing bottles at 60%
-                        OFF.
+                        {adv.productOffer.sixtyOffIntro.releaseStrong}
                       </strong>
                       <br />
                       <br />
-                      That's right.
+                      {adv.productOffer.sixtyOffIntro.p8}
                       <br />
                       <br />
                       <s className="text-[17px] box-border caret-transparent leading-[22.1px] max-w-full outline-[3px] line-through md:text-lg md:leading-[25.2px]">
                         <strong className="text-[17px] font-bold box-border caret-transparent leading-[22.1px] max-w-full outline-[3px] md:text-lg md:leading-[25.2px]">
-                          $99.99
+                          {adv.productOffer.sixtyOffIntro.oldPrice}
                         </strong>
                       </s>
                       <strong className="text-[17px] font-bold box-border caret-transparent leading-[22.1px] max-w-full outline-[3px] md:text-lg md:leading-[25.2px]">
-                        {" → Just $39.99"}
+                        {adv.productOffer.sixtyOffIntro.newPriceStrong}
                       </strong>
                       <br />
                       <br />
-                      You can get the same formula that's helped 13,900+ black
-                      folk with declining kidney function for:
+                      {adv.productOffer.sixtyOffIntro.p9}
                     </>
                   }
-                  listItems={[
-                    "Less than ONE nephrology copay",
-                    "Less than ONE week of most kidney medications",
-                    "Less than ONE comprehensive metabolic panel",
-                    "Less than dinner for two at Olive Garden",
-                  ]}
+                  listItems={adv.productOffer.sixtyOffListItems}
                   outroClassName="text-[17px] leading-[22.1px] md:text-lg md:leading-[25.2px]"
                   outroContent={
                     <>
                       <strong className="text-[17px] font-bold box-border caret-transparent leading-[22.1px] max-w-full outline-[3px] md:text-lg md:leading-[25.2px]">
-                        Why would I practically give these away?
+                        {adv.productOffer.sixtyOffOutro.whyStrong}
                       </strong>
                       <br />
                       <br />
-                      Because every person who gets better is living proof that
-                      the system is broken.
+                      {adv.productOffer.sixtyOffOutro.p1}
                       <br />
                       <br />
-                      Because I want 50,000 success stories flooding kidney
-                      disease support groups and Facebook before Big Pharma can
-                      silence us.
+                      {adv.productOffer.sixtyOffOutro.p2}
                       <br />
                       <br />
-                      Because sometimes the best revenge against a $73 billion
-                      industry is helping people actually get better.
+                      {adv.productOffer.sixtyOffOutro.p3}
                     </>
                   }
                 />
                 <PricingSection
-                  title="⚠️ But Here's The Brutal Reality"
+                  title={adv.productOffer.brutalRealityTitle}
                   mediaVariant="max-w-full shrink-0 text-center mb-4"
                   mediaWrapperClassName=""
                   mediaContent={
@@ -284,7 +262,7 @@ export const ProductOffer = () => {
                     >
                       <picture className="text-[15px] box-border caret-transparent contents leading-[27px] max-w-full outline-[3px] md:text-base md:leading-[28.8px]">
                         <img
-                          src="https://c.animaapp.com/mr0pqk6b3NyYkT/assets/1752158983611_httpsassets.checkoutchamp.comFunnelassetsimages0c550aa8_bfd8_436e_b88c_baf46dcfb762afe720dc_08f0_4a93_aabf_3687735392cb1698069323_1688312587252_1_1_.pngversionId_ubVohYQ.webp"
+                          src={media.productOffer.brutalRealityImageSrc}
                           alt=""
                           className="text-[15px] box-border caret-transparent leading-[27px] max-w-full min-h-[auto] min-w-[auto] object-cover outline-[3px] w-full md:text-base md:leading-[28.8px]"
                         />
@@ -294,189 +272,163 @@ export const ProductOffer = () => {
                   introClassName="text-lg leading-[23.4px]"
                   introContent={
                     <>
-                      This discount expires in exactly 72 hours.
+                      {adv.productOffer.brutalReality.p1}
                       <br className="box-border caret-transparent leading-[23.4px] max-w-full outline-[3px] md:leading-[25.2px]" />
                       <br className="box-border caret-transparent leading-[23.4px] max-w-full outline-[3px] md:leading-[25.2px]" />
-                      Not a marketing gimmick.
+                      {adv.productOffer.brutalReality.p2}
                       {"\u00A0"}
                       <br className="box-border caret-transparent leading-[23.4px] max-w-full outline-[3px] md:leading-[25.2px]" />
                       <br className="box-border caret-transparent leading-[23.4px] max-w-full outline-[3px] md:leading-[25.2px]" />
-                      My lawyers charge $650/hour, and this fight with our
-                      distribution partners isn't going to be cheap.
+                      {adv.productOffer.brutalReality.p3}
                       <br className="box-border caret-transparent leading-[23.4px] max-w-full outline-[3px] md:leading-[25.2px]" />
                       <br className="box-border caret-transparent leading-[23.4px] max-w-full outline-[3px] md:leading-[25.2px]" />
                       <strong className="font-bold box-border caret-transparent leading-[23.4px] max-w-full outline-[3px] md:leading-[25.2px]">
-                        After 72 hours, we return to $99 per bottle.
+                        {adv.productOffer.brutalReality.returnPriceStrong}
                       </strong>
                       <br className="box-border caret-transparent leading-[23.4px] max-w-full outline-[3px] md:leading-[25.2px]" />
                       <br className="box-border caret-transparent leading-[23.4px] max-w-full outline-[3px] md:leading-[25.2px]" />
-                      Also - and this is critical - we only have 1,900 bottles
-                      remaining at this price.
+                      {adv.productOffer.brutalReality.p4}
                       <br className="box-border caret-transparent leading-[23.4px] max-w-full outline-[3px] md:leading-[25.2px]" />
                       <br className="box-border caret-transparent leading-[23.4px] max-w-full outline-[3px] md:leading-[25.2px]" />
-                      Our facility can only produce 380 units per week while
-                      maintaining the ingredient concentrations that make Flow+
-                      actually work.
+                      {adv.productOffer.brutalReality.p5}
                       <br className="box-border caret-transparent leading-[23.4px] max-w-full outline-[3px] md:leading-[25.2px]" />
                       <br className="box-border caret-transparent leading-[23.4px] max-w-full outline-[3px] md:leading-[25.2px]" />
-                      The ONLY place to get authentic Flow+ with all six active
-                      ingredients at full concentration is through our official
-                      website.
+                      {adv.productOffer.brutalReality.p6}
                       <br className="box-border caret-transparent leading-[23.4px] max-w-full outline-[3px] md:leading-[25.2px]" />
                       <br className="box-border caret-transparent leading-[23.4px] max-w-full outline-[3px] md:leading-[25.2px]" />
                       <strong className="font-bold box-border caret-transparent leading-[23.4px] max-w-full outline-[3px] md:leading-[25.2px]">
-                        If you're reading this, bottles are still available...
+                        {adv.productOffer.brutalReality.availableStrong}
                       </strong>
                       <br className="box-border caret-transparent leading-[23.4px] max-w-full outline-[3px] md:leading-[25.2px]" />
                       <br className="box-border caret-transparent leading-[23.4px] max-w-full outline-[3px] md:leading-[25.2px]" />
-                      But I'm watching our inventory right now, and we're
-                      averaging 54 orders per hour today.
+                      {adv.productOffer.brutalReality.p7}
                       <br className="box-border caret-transparent leading-[23.4px] max-w-full outline-[3px] md:leading-[25.2px]" />
                       <br className="box-border caret-transparent leading-[23.4px] max-w-full outline-[3px] md:leading-[25.2px]" />
-                      Do the math.
+                      {adv.productOffer.brutalReality.p8}
                     </>
                   }
                 />
                 <GuaranteeSection />
                 <FinalCallToAction
-                  title="The Decision That Will Define Your Next Decade"
-                  heroImageSrc="https://c.animaapp.com/mr0pqk6b3NyYkT/assets/22.png"
+                  title={adv.productOffer.decadeTitle}
+                  heroImageSrc={media.productOffer.decadeHeroImageSrc}
                   introContent={
                     <>
-                      Right now, you're standing at a fork in the road.
+                      {adv.productOffer.decadeIntro.introText}
                       <br className="text-[17px] box-border caret-transparent leading-[22.1px] max-w-full outline-[3px] md:text-lg md:leading-[25.2px]" />
                       {" "}
                       <br className="text-[17px] box-border caret-transparent leading-[22.1px] max-w-full outline-[3px] md:text-lg md:leading-[25.2px]" />
                       <strong className="text-[17px] font-bold box-border caret-transparent leading-[22.1px] max-w-full outline-[3px] md:text-lg md:leading-[25.2px]">
-                        Path #1: Keep Doing What You're Doing
+                        {adv.productOffer.decadeIntro.path1Strong}
                       </strong>
                     </>
                   }
-                  bulletItems={[
-                    "Keep spending $400-800/month on medications that manage numbers but never touch the root cause.",
-                    "Keep waking up every morning with fatigue that hits before you've finished your first cup of coffee.",
-                    "Keep missing family events because your energy ran out by noon.",
-                    "Keep eating flavorless meals that restrict everything you love — and watching your numbers decline anyway.",
-                    "Keep making your nephrologist's car payments.",
-                  ]}
+                  bulletItems={adv.productOffer.decadeBulletItems}
                   closingContent={
                     <>
-                      In 10 years you'll be sitting in a dialysis chair three
-                      mornings a week...
+                      {adv.productOffer.decadeClosing.p1}
                       <br className="text-[17px] box-border caret-transparent leading-[22.1px] max-w-full outline-[3px] md:text-lg md:leading-[25.2px]" />
                       {" "}
                       <br className="text-[17px] box-border caret-transparent leading-[22.1px] max-w-full outline-[3px] md:text-lg md:leading-[25.2px]" />
-                      Reading another article about another temporary
-                      solution...
+                      {adv.productOffer.decadeClosing.p2}
                       <br className="text-[17px] box-border caret-transparent leading-[22.1px] max-w-full outline-[3px] md:text-lg md:leading-[25.2px]" />
                       <br className="text-[17px] box-border caret-transparent leading-[22.1px] max-w-full outline-[3px] md:text-lg md:leading-[25.2px]" />
-                      While the zombie cells in your kidney's lymphatic vessels
-                      builds up another layer and another specialist tells you
-                      this is just how it goes.
+                      {adv.productOffer.decadeClosing.p3}
                       <br className="text-[17px] box-border caret-transparent leading-[22.1px] max-w-full outline-[3px] md:text-lg md:leading-[25.2px]" />
                       <br className="text-[17px] box-border caret-transparent leading-[22.1px] max-w-full outline-[3px] md:text-lg md:leading-[25.2px]" />
-                      Or...
+                      {adv.productOffer.decadeClosing.p4}
                       <br className="text-[17px] box-border caret-transparent leading-[22.1px] max-w-full outline-[3px] md:text-lg md:leading-[25.2px]" />
                       <br className="text-[17px] box-border caret-transparent leading-[22.1px] max-w-full outline-[3px] md:text-lg md:leading-[25.2px]" />
                       <strong className="text-[17px] font-bold box-border caret-transparent leading-[22.1px] max-w-full outline-[3px] md:text-lg md:leading-[25.2px]">
-                        Path #2: Try Something That Actually Works
+                        {adv.productOffer.decadeClosing.path2Strong}
                       </strong>
                       <br className="text-[17px] box-border caret-transparent leading-[22.1px] max-w-full outline-[3px] md:text-lg md:leading-[25.2px]" />
                       {" "}
                       <br className="text-[17px] box-border caret-transparent leading-[22.1px] max-w-full outline-[3px] md:text-lg md:leading-[25.2px]" />
-                      Spend less than a dinner out.
+                      {adv.productOffer.decadeClosing.p5}
                       <br className="text-[17px] box-border caret-transparent leading-[22.1px] max-w-full outline-[3px] md:text-lg md:leading-[25.2px]" />
                       {" "}
                       <br className="text-[17px] box-border caret-transparent leading-[22.1px] max-w-full outline-[3px] md:text-lg md:leading-[25.2px]" />
-                      Take a formula that's helped 13,900+ people stop the
-                      decline and start reversing it.
+                      {adv.productOffer.decadeClosing.p6}
                       <br className="text-[17px] box-border caret-transparent leading-[22.1px] max-w-full outline-[3px] md:text-lg md:leading-[25.2px]" />
                       {" "}
                       <br className="text-[17px] box-border caret-transparent leading-[22.1px] max-w-full outline-[3px] md:text-lg md:leading-[25.2px]" />
-                      Go after the ROOT CAUSE — the zombie cells that have been
-                      blocking your kidney's lymphatic vessels and letting waste
-                      back up day after day.
+                      {adv.productOffer.decadeClosing.p7}
                       <br className="text-[17px] box-border caret-transparent leading-[22.1px] max-w-full outline-[3px] md:text-lg md:leading-[25.2px]" />
                       {" "}
                       <br className="text-[17px] box-border caret-transparent leading-[22.1px] max-w-full outline-[3px] md:text-lg md:leading-[25.2px]" />
                       <strong className="text-[17px] font-bold box-border caret-transparent leading-[22.1px] max-w-full outline-[3px] md:text-lg md:leading-[25.2px]">
-                        Wake up tomorrow ready to actually live instead of ready
-                        to count your potassium and wait for your next set of
-                        labs to confirm what you already dread.
+                        {adv.productOffer.decadeClosing.wakeUpStrong}
                       </strong>
                       <br className="text-[17px] box-border caret-transparent leading-[22.1px] max-w-full outline-[3px] md:text-lg md:leading-[25.2px]" />
                       {" "}
                       <br className="text-[17px] box-border caret-transparent leading-[22.1px] max-w-full outline-[3px] md:text-lg md:leading-[25.2px]" />
-                      Join the movement that's terrifying a $73 billion
-                      industry.
+                      {adv.productOffer.decadeClosing.p8}
                       <br className="text-[17px] box-border caret-transparent leading-[22.1px] max-w-full outline-[3px] md:text-lg md:leading-[25.2px]" />
                       {" "}
                       <br className="text-[17px] box-border caret-transparent leading-[22.1px] max-w-full outline-[3px] md:text-lg md:leading-[25.2px]" />
-                      I think you already know which path leads to your
-                      granddaughter's next birthday party.
+                      {adv.productOffer.decadeClosing.p9}
                     </>
                   }
                 />
                 <FinalCallToAction
-                  title="Here's Exactly What Happens Next"
-                  heroImageSrc="https://c.animaapp.com/mr0pqk6b3NyYkT/assets/hf_20260324_151906_73579d00-b30d-4628-aa51-bb67d69aa365.jpg"
+                  title={adv.productOffer.happensNextTitle}
+                  heroImageSrc={media.productOffer.happensNextHeroImageSrc}
                   introContent={
                     <>
                       <strong className="text-[17px] font-bold box-border caret-transparent leading-[22.1px] max-w-full outline-[3px] md:text-lg md:leading-[25.2px]">
-                        Step 1:{" "}
+                        {adv.productOffer.happensNextIntro.step1Label}{" "}
                       </strong>
-                      Click the button below that says{" "}
+                      {adv.productOffer.happensNextIntro.clickText}{" "}
                       <strong className="text-[17px] font-bold box-border caret-transparent leading-[22.1px] max-w-full outline-[3px] md:text-lg md:leading-[25.2px]">
-                        "CHECK AVAILABILITY"
+                        {adv.productOffer.happensNextIntro.checkAvailabilityLabel}
                       </strong>
                       <br className="text-[17px] box-border caret-transparent leading-[22.1px] max-w-full outline-[3px] md:text-lg md:leading-[25.2px]" />
                       <br className="text-[17px] box-border caret-transparent leading-[22.1px] max-w-full outline-[3px] md:text-lg md:leading-[25.2px]" />
                       <strong className="text-[17px] font-bold box-border caret-transparent leading-[22.1px] max-w-full outline-[3px] md:text-lg md:leading-[25.2px]">
-                        Step 2:{" "}
+                        {adv.productOffer.happensNextIntro.step2Label}{" "}
                       </strong>
-                      Choose your package (Flash Sale — ends today):
+                      {adv.productOffer.happensNextIntro.choosePackageText}
                     </>
                   }
                   bulletItems={[
                     <>
                       <strong className="font-bold box-border caret-transparent max-w-full outline-[3px] md:text-lg md:leading-[25.2px]">
-                        1 MONTH SUPPLY — $39{" "}
+                        {adv.productOffer.happensNextBulletItems[0].priceLabel}{" "}
                       </strong>
                       <span className="bg-yellow-400/80 box-border caret-transparent max-w-full outline-[3px]">
                         <strong className="font-bold box-border caret-transparent max-w-full outline-[3px] md:text-lg md:leading-[25.2px]">
-                          (60% off)
+                          {adv.productOffer.happensNextBulletItems[0].discountLabel}
                         </strong>
                       </span>
                       <strong className="font-bold box-border caret-transparent max-w-full outline-[3px] md:text-lg md:leading-[25.2px]">
-                        .
+                        {adv.productOffer.happensNextBulletItems[0].period}
                       </strong>
-                      Enough to feel the difference within your first two weeks.
+                      {adv.productOffer.happensNextBulletItems[0].text}
                     </>,
                     <>
                       <strong className="font-bold box-border caret-transparent max-w-full outline-[3px] md:text-lg md:leading-[25.2px]">
-                        2 MONTH SUPPLY{" "}
+                        {adv.productOffer.happensNextBulletItems[1].priceLabel}{" "}
                       </strong>
                       <span className="bg-yellow-400/80 box-border caret-transparent max-w-full outline-[3px]">
                         <strong className="font-bold box-border caret-transparent max-w-full outline-[3px] md:text-lg md:leading-[25.2px]">
-                          (MOST POPULAR)
+                          {adv.productOffer.happensNextBulletItems[1].discountLabel}
                         </strong>
                       </span>
                       <strong className="font-bold box-border caret-transparent max-w-full outline-[3px] md:text-lg md:leading-[25.2px]"></strong>
-                      — $62 (free shipping included). Two bottles, $31 each.
+                      {adv.productOffer.happensNextBulletItems[1].text}
                     </>,
                     <>
                       <strong className="font-bold box-border caret-transparent max-w-full outline-[3px] md:text-lg md:leading-[25.2px]">
-                        3 MONTH SUPPLY{" "}
+                        {adv.productOffer.happensNextBulletItems[2].priceLabel}{" "}
                       </strong>
                       <span className="bg-yellow-400/80 box-border caret-transparent max-w-full outline-[3px]">
                         <strong className="font-bold box-border caret-transparent max-w-full outline-[3px] md:text-lg md:leading-[25.2px]">
-                          (BEST VALUE)
+                          {adv.productOffer.happensNextBulletItems[2].discountLabel}
                         </strong>
                       </span>
                       <span className="bg-white/80 box-border caret-transparent max-w-full outline-[3px]"></span>
-                      — $83.99 (free shipping included). Three bottles, $27
-                      each. The best value we offer, and enough to guarantee
-                      results.
+                      {adv.productOffer.happensNextBulletItems[2].text}
                     </>,
                   ]}
                   closingContent={
@@ -484,90 +436,72 @@ export const ProductOffer = () => {
                       <span className="text-base box-border caret-transparent leading-[23.4px] max-w-full outline-[3px] md:leading-[25.2px]">
                         <i className="italic box-border caret-transparent leading-[23.4px] max-w-full outline-[3px] md:leading-[25.2px]">
                           <strong className="font-bold box-border caret-transparent leading-[23.4px] max-w-full outline-[3px] md:leading-[25.2px]">
-                            NOTE
+                            {adv.productOffer.happensNextClosing.noteStrong}
                           </strong>
-                          — Best Price Available. If you want to make sure you
-                          never run out, never lose your progress, and never pay
-                          full price, set up automatic refills. You instantly
-                          get 20% off and we prioritize your order above
-                          everything else when inventory runs low. When we get
-                          another wave of orders and we sell out in 18 hours,
-                          refill customers are already taken care of. You can
-                          pause or cancel anytime, no questions asked.
+                          {adv.productOffer.happensNextClosing.noteText}
                         </i>
                       </span>
                       <br className="box-border caret-transparent leading-[23.4px] max-w-full outline-[3px] md:leading-[25.2px]" />
                       <br className="box-border caret-transparent leading-[23.4px] max-w-full outline-[3px] md:leading-[25.2px]" />
                       <strong className="font-bold box-border caret-transparent leading-[23.4px] max-w-full outline-[3px] md:leading-[25.2px]">
-                        Step 3:
+                        {adv.productOffer.happensNextClosing.step3Label}
                       </strong>
-                      Enter shipping info (we ship same-day if ordered before 3
-                      PM EST)
+                      {adv.productOffer.happensNextClosing.step3Text}
                       <br className="box-border caret-transparent leading-[23.4px] max-w-full outline-[3px] md:leading-[25.2px]" />
                       <br className="box-border caret-transparent leading-[23.4px] max-w-full outline-[3px] md:leading-[25.2px]" />
                       <strong className="font-bold box-border caret-transparent leading-[23.4px] max-w-full outline-[3px] md:leading-[25.2px]">
-                        Step 4:{" "}
+                        {adv.productOffer.happensNextClosing.step4Label}{" "}
                       </strong>
-                      Wait 5-7 business days for delivery (most orders arrive in
-                      4-5 days)
+                      {adv.productOffer.happensNextClosing.step4Text}
                       <br className="box-border caret-transparent leading-[23.4px] max-w-full outline-[3px] md:leading-[25.2px]" />
                       <br className="box-border caret-transparent leading-[23.4px] max-w-full outline-[3px] md:leading-[25.2px]" />
                       <strong className="font-bold box-border caret-transparent leading-[23.4px] max-w-full outline-[3px] md:leading-[25.2px]">
-                        Step 5:{" "}
+                        {adv.productOffer.happensNextClosing.step5Label}{" "}
                       </strong>
-                      Take 1/4 of a teaspoon as soon as you get your hands on
-                      it. Don't wait.
+                      {adv.productOffer.happensNextClosing.step5Text}
                       <br className="box-border caret-transparent leading-[23.4px] max-w-full outline-[3px] md:leading-[25.2px]" />
                       {"\u00A0"}
                       <br className="box-border caret-transparent leading-[23.4px] max-w-full outline-[3px] md:leading-[25.2px]" />
                       <strong className="font-bold box-border caret-transparent leading-[23.4px] max-w-full outline-[3px] md:leading-[25.2px]">
-                        Step 6:
+                        {adv.productOffer.happensNextClosing.step6Label}
                       </strong>
-                      Email me your success story at dr.carter@tryelavyn.com
-                      (yes, I read every one, the stories keep me going when the
-                      lawyers get aggressive)
+                      {adv.productOffer.happensNextClosing.step6Text}
                       <br className="box-border caret-transparent leading-[23.4px] max-w-full outline-[3px] md:leading-[25.2px]" />
                       {"\u00A0"}
                       <br className="box-border caret-transparent leading-[23.4px] max-w-full outline-[3px] md:leading-[25.2px]" />
-                      But whatever you do,{" "}
+                      {adv.productOffer.happensNextClosing.whateverText}{" "}
                       <strong className="font-bold box-border caret-transparent leading-[23.4px] max-w-full outline-[3px] md:leading-[25.2px]">
-                        don't close this page thinking "maybe later."
+                        {adv.productOffer.happensNextClosing.dontCloseStrong}
                       </strong>
                       <br className="box-border caret-transparent leading-[23.4px] max-w-full outline-[3px] md:leading-[25.2px]" />
                       {"\u00A0"}
                       <br className="box-border caret-transparent leading-[23.4px] max-w-full outline-[3px] md:leading-[25.2px]" />
                       <strong className="font-bold box-border caret-transparent leading-[23.4px] max-w-full outline-[3px] md:leading-[25.2px]">
-                        There is no later when your kidneys are declining.
+                        {adv.productOffer.happensNextClosing.noLaterStrong}
                       </strong>
                       <br className="box-border caret-transparent leading-[23.4px] max-w-full outline-[3px] md:leading-[25.2px]" />
                       <br className="box-border caret-transparent leading-[23.4px] max-w-full outline-[3px] md:leading-[25.2px]" />
-                      "Later" is another set of labs moving in the wrong
-                      direction while you wait for something to change.
+                      {adv.productOffer.happensNextClosing.laterP1}
                       <br className="box-border caret-transparent leading-[23.4px] max-w-full outline-[3px] md:leading-[25.2px]" />
                       <br className="box-border caret-transparent leading-[23.4px] max-w-full outline-[3px] md:leading-[25.2px]" />
-                      "Later" is another specialist visit that ends with "let's
-                      just keep monitoring it."
+                      {adv.productOffer.happensNextClosing.laterP2}
                       <br className="box-border caret-transparent leading-[23.4px] max-w-full outline-[3px] md:leading-[25.2px]" />
                       <br className="box-border caret-transparent leading-[23.4px] max-w-full outline-[3px] md:leading-[25.2px]" />
-                      "Later" is this discount expiring and stock selling out
-                      while you "think about it" — and your eGFR drops another
-                      point.
+                      {adv.productOffer.happensNextClosing.laterP3}
                       <br className="box-border caret-transparent leading-[23.4px] max-w-full outline-[3px] md:leading-[25.2px]" />
                       <br className="box-border caret-transparent leading-[23.4px] max-w-full outline-[3px] md:leading-[25.2px]" />
                       <strong className="font-bold box-border caret-transparent leading-[23.4px] max-w-full outline-[3px] md:leading-[25.2px]">
-                        Your kidneys have been fighting without the right
-                        support long enough.
+                        {adv.productOffer.happensNextClosing.kidneysStrong}
                       </strong>
                       <br className="box-border caret-transparent leading-[23.4px] max-w-full outline-[3px] md:leading-[25.2px]" />
                       <br className="box-border caret-transparent leading-[23.4px] max-w-full outline-[3px] md:leading-[25.2px]" />
                       <strong className="font-bold box-border caret-transparent leading-[23.4px] max-w-full outline-[3px] md:leading-[25.2px]">
-                        Your family has watched you shrink from the person they
-                        know long enough.
+                        {adv.productOffer.happensNextClosing.familyStrong}
                       </strong>
                       <br className="box-border caret-transparent leading-[23.4px] max-w-full outline-[3px] md:leading-[25.2px]" />
                       <br className="box-border caret-transparent leading-[23.4px] max-w-full outline-[3px] md:leading-[25.2px]" />
                       <strong className="font-bold box-border caret-transparent leading-[23.4px] max-w-full outline-[3px] md:leading-[25.2px]">
-                        The solution is one click away.
+                        {adv.productOffer.happensNextClosing.solutionStrong}
                       </strong>
                     </>
                   }

@@ -1,3 +1,5 @@
+// @ts-nocheck
+import adv from "../../../adv.json";
 import { CommentForm } from "./CommentForm";
 import { CommentList } from "./CommentList";
 
@@ -15,7 +17,7 @@ export const CommentsSection = () => {
                       <CommentForm
                         rootVariantClass="text-zinc-900 text-lg font-bold leading-[32.4px] mb-2.5"
                         showInput={false}
-                        label="Comments"
+                        label={adv.comments.heading}
                         placeholder=""
                         inputName=""
                       />
@@ -23,7 +25,7 @@ export const CommentsSection = () => {
                         rootVariantClass="text-[15px] bg-white leading-[27px] mb-4 md:text-base md:leading-[28.8px]"
                         showInput={true}
                         label=""
-                        placeholder="Add a comment ..."
+                        placeholder={adv.comments.placeholder}
                         inputName=""
                       />
                       <CommentList />

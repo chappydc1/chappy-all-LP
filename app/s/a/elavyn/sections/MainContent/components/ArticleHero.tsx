@@ -1,3 +1,6 @@
+// @ts-nocheck
+import adv from "../../../adv.json";
+import media from "../../../media.json";
 import { AuthorRow } from "./AuthorRow";
 import { MediaBlock } from "./MediaBlock";
 
@@ -14,15 +17,15 @@ export const ArticleHero = () => {
                     <div className="text-neutral-600 text-sm items-center box-border caret-transparent flex leading-[25.2px] max-w-full outline-[3px] font-arial">
                       <div className="bg-cyan-950 box-border caret-transparent hidden h-6 max-w-full outline-[3px] w-6 mr-4"></div>
                       <div className="box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px]">
-                        Home{" "}
+                        {adv.articleHero.breadcrumb.home}{" "}
                         <span className="text-zinc-500 box-border caret-transparent max-w-full outline-[3px]">
                           ›
                         </span>
-                        Health{" "}
+                        {adv.articleHero.breadcrumb.health}{" "}
                         <span className="text-zinc-500 box-border caret-transparent max-w-full outline-[3px]">
                           ›
                         </span>
-                        Kidney Health
+                        {adv.articleHero.breadcrumb.kidneyHealth}
                       </div>
                     </div>
                   </div>
@@ -30,32 +33,26 @@ export const ArticleHero = () => {
                 <div className="text-[15px] box-border caret-transparent leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left md:text-base md:leading-[28.8px]">
                   <div className="text-[15px] box-border caret-transparent flex leading-[27px] max-w-full outline-[3px] md:text-base md:leading-[28.8px]">
                     <h2 className="text-neutral-900 text-[26px] font-bold bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[33.8px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-playfair_display md:text-[38px] md:leading-[49.4px]">
-                      Black Nephrologist Exposes the
+                      {adv.articleHero.heroTitle.part1}
                       <span className="text-black text-[26px] box-border caret-transparent leading-[33.8px] max-w-full outline-[3px] md:text-[38px] md:leading-[49.4px]">
                         {" "}
-                        $73 Billion Secret{" "}
+                        {adv.articleHero.heroTitle.highlight}{" "}
                       </span>
-                      the White-Owned Dialysis Industry Has Been Hiding From
-                      Black Folk...
+                      {adv.articleHero.heroTitle.part2}
                     </h2>
                   </div>
                 </div>
                 <div className="text-[15px] box-border caret-transparent leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left my-2 md:text-base md:leading-[28.8px]">
                   <div className="text-[15px] box-border caret-transparent flex leading-[27px] max-w-full outline-[3px] md:text-base md:leading-[28.8px]">
                     <h2 className="text-neutral-900 text-base bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[22.4px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-bitter md:text-lg md:leading-[25.2px]">
-                      Former chronic kidney disease sufferer&#39;s husband and
-                      board-certified nephrologist exposes the kidney
-                      industry&#39;s &#39;ACE Inhibitor Playbook&#39; conspiracy
-                      and the 21-day protocol that reversed his wife’s 3 years
-                      of climbing creatinine — without water pills, specialist
-                      visits, or ever sitting in a dialysis chair
+                      {adv.articleHero.heroSubtitle}
                     </h2>
                   </div>
                 </div>
                 <div className="text-[15px] box-border caret-transparent leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left mt-2 mb-1 md:text-base md:leading-[28.8px] md:mb-0">
                   <div className="text-[15px] box-border caret-transparent flex leading-[27px] max-w-full outline-[3px] md:text-base md:leading-[28.8px]">
                     <h2 className="text-blue-700 text-sm font-medium bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[18.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-figtree md:leading-[19.6px]">
-                      Tue. March 17th, 2026 | 11:11 am EST - 238,392{" "}
+                      {adv.articleHero.dateViews}{" "}
                       <strong className="font-bold box-border caret-transparent leading-[18.2px] max-w-full outline-[3px] md:leading-[19.6px]">
                         👁
                       </strong>
@@ -68,7 +65,7 @@ export const ArticleHero = () => {
                   containerVariant="aspect-video bg-black overflow-hidden mb-0 md:mb-6"
                   mediaWrapperVariant=""
                   mediaType="video"
-                  videoSrc="https://cdn.shopify.com/videos/c/o/v/6b5a1537267f49d69769105ded8c298c.mp4"
+                  videoSrc={media.articleHero.heroVideoSrc}
                   videoTitle="Video"
                   videoPoster=""
                   imageSrc=""
@@ -82,83 +79,71 @@ export const ArticleHero = () => {
                   videoSrc=""
                   videoTitle=""
                   videoPoster=""
-                  imageSrc="https://c.animaapp.com/mr0pqk6b3NyYkT/assets/Untitled_design_22.png"
+                  imageSrc={media.articleHero.heroImageSrc}
                   imageAlt=""
                 />
                 <div className="text-[15px] box-border caret-transparent leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left mb-6 md:text-base md:leading-[28.8px] md:mb-4">
                   <div className="text-[15px] box-border caret-transparent flex leading-[27px] max-w-full outline-[3px] md:text-base md:leading-[28.8px]">
                     <h2 className="text-zinc-800 text-lg bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[25.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-bitter">
-                      I&#39;m about to piss off every nephrologist, dialysis
-                      center, and pharmaceutical company in America.
+                      {adv.articleHero.openingNarrative.p1}
                       <br className="box-border caret-transparent max-w-full outline-[3px]" />
                       <br className="box-border caret-transparent max-w-full outline-[3px]" />
-                      Because what I&#39;m about to share could cost them $180
-                      million in lost revenue this year alone.
+                      {adv.articleHero.openingNarrative.p2}
                       <br className="box-border caret-transparent max-w-full outline-[3px]" />
                        
                       <br className="box-border caret-transparent max-w-full outline-[3px]" />
-                      But I don&#39;t care anymore.
+                      {adv.articleHero.openingNarrative.p3}
                       <br className="box-border caret-transparent max-w-full outline-[3px]" />
                        
                       <br className="box-border caret-transparent max-w-full outline-[3px]" />
-                      Because after watching my wife Denise&#39;s creatinine
-                      climb for 3 years...
+                      {adv.articleHero.openingNarrative.p4}
                       <br className="box-border caret-transparent max-w-full outline-[3px]" />
                        
                       <br className="box-border caret-transparent max-w-full outline-[3px]" />
-                      After watching her wake at 5am just to stand over the
-                      toilet and stare at the foam...
+                      {adv.articleHero.openingNarrative.p5}
                       <br className="box-border caret-transparent max-w-full outline-[3px]" />
                        
                       <br className="box-border caret-transparent max-w-full outline-[3px]" />
-                      After blowing $9,200 on specialists and medications that
-                      never moved a single number…
+                      {adv.articleHero.openingNarrative.p6}
                       <br className="box-border caret-transparent max-w-full outline-[3px]" />
                        
                       <br className="box-border caret-transparent max-w-full outline-[3px]" />
                       <strong className="font-bold box-border caret-transparent max-w-full outline-[3px]">
-                        I discovered something that changed everything.
+                        {adv.articleHero.openingNarrative.p7}
                       </strong>
                       <br className="box-border caret-transparent max-w-full outline-[3px]" />
                       <br className="box-border caret-transparent max-w-full outline-[3px]" />
-                      So if you&#39;re reading this while watching your
-                      creatinine climb every lab result...
+                      {adv.articleHero.openingNarrative.p8}
                       <br className="box-border caret-transparent max-w-full outline-[3px]" />
                        
                       <br className="box-border caret-transparent max-w-full outline-[3px]" />
-                      Staring at foam in your toilet every morning knowing what
-                      it means...
+                      {adv.articleHero.openingNarrative.p9}
                       <br className="box-border caret-transparent max-w-full outline-[3px]" />
                       <br className="box-border caret-transparent max-w-full outline-[3px]" />
-                      Or lying awake wondering when your doctor finally says the
-                      word &quot;dialysis&quot;…
+                      {adv.articleHero.openingNarrative.p10}
                       <br className="box-border caret-transparent max-w-full outline-[3px]" />
                       <br className="box-border caret-transparent max-w-full outline-[3px]" />
-                      The next 5 minutes could give you your life back.
+                      {adv.articleHero.openingNarrative.p11}
                       <br className="box-border caret-transparent max-w-full outline-[3px]" />
                       <br className="box-border caret-transparent max-w-full outline-[3px]" />
                       <strong className="font-bold box-border caret-transparent max-w-full outline-[3px]">
-                        My name is Dr. Malcolm Carter, M.D., FACP…
+                        {adv.articleHero.openingNarrative.p12}
                       </strong>
                       <br className="box-border caret-transparent max-w-full outline-[3px]" />
                       <br className="box-border caret-transparent max-w-full outline-[3px]" />
-                      I&#39;ve been a board-certified nephrologist specializing
-                      in chronic kidney disease for 26 years...
+                      {adv.articleHero.openingNarrative.p13}
                       <br className="box-border caret-transparent max-w-full outline-[3px]" />
                       <br className="box-border caret-transparent max-w-full outline-[3px]" />
-                      And I&#39;m about to expose the dirty secret that has kept
-                      millions of Black folk trapped in kidney decline for
-                      decades...
+                      {adv.articleHero.openingNarrative.p14}
                       <br className="box-border caret-transparent max-w-full outline-[3px]" />
                       <br className="box-border caret-transparent max-w-full outline-[3px]" />
-                      While the white-owned dialysis industry laughs all the way
-                      to the bank.
+                      {adv.articleHero.openingNarrative.p15}
                       <br className="box-border caret-transparent max-w-full outline-[3px]" />
                       <br className="box-border caret-transparent max-w-full outline-[3px]" />
-                      But before I reveal what they’ve been hiding from you…
+                      {adv.articleHero.openingNarrative.p16}
                       <br className="box-border caret-transparent max-w-full outline-[3px]" />
                       <br className="box-border caret-transparent max-w-full outline-[3px]" />
-                      I first need to tell you about the day that shattered me.
+                      {adv.articleHero.openingNarrative.p17}
                     </h2>
                   </div>
                 </div>
@@ -167,7 +152,7 @@ export const ArticleHero = () => {
                     <div className="text-[15px] box-border caret-transparent leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left mb-2 md:text-base md:leading-[28.8px]">
                       <div className="text-[15px] box-border caret-transparent flex leading-[27px] max-w-full outline-[3px] md:text-base md:leading-[28.8px]">
                         <h2 className="text-neutral-900 text-2xl font-bold bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[31.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-playfair_display md:text-[32px] md:leading-[41.6px]">
-                          The Day Everything Changed...
+                          {adv.articleHero.dayEverythingChanged.heading}
                         </h2>
                       </div>
                     </div>
@@ -178,7 +163,7 @@ export const ArticleHero = () => {
                       <div className="text-[15px] box-border caret-transparent flex h-full justify-center leading-[27px] max-w-full outline-[3px] w-full md:text-base md:leading-[28.8px]">
                         <picture className="text-[15px] box-border caret-transparent contents leading-[27px] max-w-full outline-[3px] md:text-base md:leading-[28.8px]">
                           <img
-                            src="https://c.animaapp.com/mr0pqk6b3NyYkT/assets/hf_20260430_175427_8e1fa2f2-d7d7-439d-ae21-0e8974639668_1_1.png"
+                            src={media.articleHero.dayEverythingChanged.imageSrc}
                             alt=""
                             className="text-[15px] box-border caret-transparent leading-[27px] max-w-full min-h-[auto] min-w-[auto] object-cover outline-[3px] w-full md:text-base md:leading-[28.8px]"
                           />
@@ -188,88 +173,81 @@ export const ArticleHero = () => {
                     <div className="text-[15px] box-border caret-transparent leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left md:text-base md:leading-[28.8px]">
                       <div className="text-[15px] box-border caret-transparent flex leading-[27px] max-w-full outline-[3px] md:text-base md:leading-[28.8px]">
                         <h2 className="text-neutral-900 text-lg bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[25.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-bitter">
-                          It was 9:14 AM on a Saturday. March 4th, 2023.
+                          {adv.articleHero.dayEverythingChanged.p1}
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
-                          I found Denise sobbing on the edge of the bed. 
+                          {adv.articleHero.dayEverythingChanged.p2}
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
-                          Not crying. Sobbing.
+                          {adv.articleHero.dayEverythingChanged.p3}
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
-                          The kind of raw, primal sound that makes your stomach
-                          drop.
+                          {adv.articleHero.dayEverythingChanged.p4}
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
-                          Her lab results from Thursday&#39;s appointment were
-                          spread across the comforter.
+                          {adv.articleHero.dayEverythingChanged.p5}
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <i className="italic box-border caret-transparent max-w-full outline-[3px]">
-                            &quot;I can&#39;t do this anymore, Malcolm,&quot;
+                            {adv.articleHero.dayEverythingChanged.quote1a}
                           </i>
-                          she said. 
+                          {adv.articleHero.dayEverythingChanged.quote1mid}
                           <i className="italic box-border caret-transparent max-w-full outline-[3px]">
-                            &quot;Read it. Right there. Every single time.&quot;
+                            {adv.articleHero.dayEverythingChanged.quote1b}
                           </i>
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <strong className="font-bold box-border caret-transparent max-w-full outline-[3px]">
-                            Creatinine: 3.1.
+                            {adv.articleHero.dayEverythingChanged.creatinine}
                           </strong>
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <strong className="font-bold box-border caret-transparent max-w-full outline-[3px]">
-                            eGFR: 22.
+                            {adv.articleHero.dayEverythingChanged.egfr}
                           </strong>
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
-                          Down from 31 just four months ago.
+                          {adv.articleHero.dayEverythingChanged.p6}
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
-                          She held her left hand out toward me...
+                          {adv.articleHero.dayEverythingChanged.p7}
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
-                          Her wedding ring was sitting on the nightstand. 
+                          {adv.articleHero.dayEverythingChanged.p8}
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
-                          She&#39;d taken it off three weeks earlier, her
-                          fingers too swollen to wear it.
+                          {adv.articleHero.dayEverythingChanged.p9}
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <i className="italic box-border caret-transparent max-w-full outline-[3px]">
-                            &quot;The doctor&#39;s office called after the
-                            results came in,&quot;
+                            {adv.articleHero.dayEverythingChanged.quote2a}
                           </i>
-                          she said quietly.{" "}
+                          {adv.articleHero.dayEverythingChanged.quote2mid}{" "}
                           <i className="italic box-border caret-transparent max-w-full outline-[3px]">
-                            &quot;They want to schedule a &#39;preparatory
-                            consultation.&#39;&quot;
+                            {adv.articleHero.dayEverythingChanged.quote2b}
                           </i>
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
-                          She didn&#39;t need to say what that meant.
+                          {adv.articleHero.dayEverythingChanged.p10}
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
-                          We both knew.
+                          {adv.articleHero.dayEverythingChanged.p11}
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <i className="italic box-border caret-transparent max-w-full outline-[3px]">
                             <strong className="font-bold box-border caret-transparent max-w-full outline-[3px]">
-                              The machine.
+                              {adv.articleHero.dayEverythingChanged.theMachine}
                             </strong>
                           </i>
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                            
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
-                          And I just stood there.
+                          {adv.articleHero.dayEverythingChanged.p12}
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
-                          Useless.
+                          {adv.articleHero.dayEverythingChanged.p13}
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
-                          A nephrologist who couldn&#39;t save his own wife from
-                          the thing he&#39;d spent twenty-six years treating in
-                          other people.
+                          {adv.articleHero.dayEverythingChanged.p14}
                         </h2>
                       </div>
                     </div>
@@ -283,7 +261,7 @@ export const ArticleHero = () => {
                           muted
                           autoPlay
                           playsInline
-                          src="https://cdn.shopify.com/videos/c/o/v/b505734a4e4f4ec1b6352dd64de065a3.mov"
+                          src={media.articleHero.dayEverythingChanged.videoSrc}
                           className="text-[15px] box-border caret-transparent leading-[27px] max-w-full outline-[3px] w-full md:text-base md:leading-[28.8px]"
                         ></video>
                       </div>
@@ -295,8 +273,7 @@ export const ArticleHero = () => {
                     <div className="text-[15px] box-border caret-transparent leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left md:text-base md:leading-[28.8px]">
                       <div className="text-[15px] box-border caret-transparent flex leading-[27px] max-w-full outline-[3px] md:text-base md:leading-[28.8px]">
                         <h2 className="text-neutral-900 text-lg bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[25.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-bitter">
-                          I&#39;d tried everything 26 years of training taught
-                          me:
+                          {adv.articleHero.treatmentFailures.heading}
                         </h2>
                       </div>
                     </div>
@@ -304,131 +281,34 @@ export const ArticleHero = () => {
                       <div className="text-[15px] box-border caret-transparent flex leading-[27px] max-w-full outline-[3px] my-3 md:text-base md:leading-[28.8px]">
                         <div className="text-[15px] bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent flex leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full bg-center md:text-base md:leading-[28.8px]">
                           <div className="text-[15px] box-border caret-transparent flex flex-col leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] gap-y-2 md:text-base md:leading-[28.8px]">
-                            <div className="text-[15px] items-center box-border caret-transparent gap-x-2 flex leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] md:text-base md:leading-[28.8px]">
-                              <div className="text-[15px] box-border caret-transparent flex shrink-0 leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] overflow-hidden md:text-base md:leading-[28.8px]">
-                                <span className="text-neutral-900 text-[40px] items-center box-border caret-transparent flex h-full justify-center leading-[72px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden md:text-base md:leading-[28.8px]">
-                                  <img
-                                    src="https://c.animaapp.com/mr0pqk6b3NyYkT/assets/icon-1.svg"
-                                    alt="Icon"
-                                    className="text-[40px] box-border caret-transparent h-10 leading-[72px] outline-[3px] w-10 md:text-base md:leading-[28.8px]"
-                                  />
-                                </span>
-                              </div>
-                              <div className="text-[15px] box-border caret-transparent leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full md:text-base md:leading-[28.8px]">
-                                <div className="text-[15px] box-border caret-transparent flex leading-[27px] max-w-full outline-[3px] md:text-base md:leading-[28.8px]">
-                                  <div className="text-neutral-900 text-lg box-border caret-transparent leading-[25.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left w-full border overflow-hidden border-solid border-transparent font-bitter">
-                                    <p className="box-border caret-transparent max-w-full outline-[3px]">
-                                      <strong className="font-bold box-border caret-transparent max-w-full outline-[3px]">
-                                        Lisinopril 10mg
-                                      </strong>
-                                      - Dropped her blood pressure so low she
-                                      nearly passed out stepping off a curb. Her
-                                      eGFR kept dropping regardless.
-                                    </p>
+                            {adv.articleHero.treatmentFailures.items.map((item, i) => (
+                              <div
+                                key={i}
+                                className="text-[15px] items-center box-border caret-transparent gap-x-2 flex leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] md:text-base md:leading-[28.8px]"
+                              >
+                                <div className="text-[15px] box-border caret-transparent flex shrink-0 leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] overflow-hidden md:text-base md:leading-[28.8px]">
+                                  <span className="text-neutral-900 text-[40px] items-center box-border caret-transparent flex h-full justify-center leading-[72px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden md:text-base md:leading-[28.8px]">
+                                    <img
+                                      src={media.articleHero.bulletIcon1}
+                                      alt="Icon"
+                                      className="text-[40px] box-border caret-transparent h-10 leading-[72px] outline-[3px] w-10 md:text-base md:leading-[28.8px]"
+                                    />
+                                  </span>
+                                </div>
+                                <div className="text-[15px] box-border caret-transparent leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full md:text-base md:leading-[28.8px]">
+                                  <div className="text-[15px] box-border caret-transparent flex leading-[27px] max-w-full outline-[3px] md:text-base md:leading-[28.8px]">
+                                    <div className="text-neutral-900 text-lg box-border caret-transparent leading-[25.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left w-full border overflow-hidden border-solid border-transparent font-bitter">
+                                      <p className="box-border caret-transparent max-w-full outline-[3px]">
+                                        <strong className="font-bold box-border caret-transparent max-w-full outline-[3px]">
+                                          {item.label}
+                                        </strong>{" "}
+                                        {item.text}
+                                      </p>
+                                    </div>
                                   </div>
                                 </div>
                               </div>
-                            </div>
-                            <div className="text-[15px] items-center box-border caret-transparent gap-x-2 flex leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] md:text-base md:leading-[28.8px]">
-                              <div className="text-[15px] box-border caret-transparent flex shrink-0 leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] overflow-hidden md:text-base md:leading-[28.8px]">
-                                <span className="text-neutral-900 text-[40px] items-center box-border caret-transparent flex h-full justify-center leading-[72px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden md:text-base md:leading-[28.8px]">
-                                  <img
-                                    src="https://c.animaapp.com/mr0pqk6b3NyYkT/assets/icon-1.svg"
-                                    alt="Icon"
-                                    className="text-[40px] box-border caret-transparent h-10 leading-[72px] outline-[3px] w-10 md:text-base md:leading-[28.8px]"
-                                  />
-                                </span>
-                              </div>
-                              <div className="text-[15px] box-border caret-transparent leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full md:text-base md:leading-[28.8px]">
-                                <div className="text-[15px] box-border caret-transparent flex leading-[27px] max-w-full outline-[3px] md:text-base md:leading-[28.8px]">
-                                  <div className="text-neutral-900 text-lg box-border caret-transparent leading-[25.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left w-full border overflow-hidden border-solid border-transparent font-bitter">
-                                    <p className="box-border caret-transparent max-w-full outline-[3px]">
-                                      <strong className="font-bold box-border caret-transparent max-w-full outline-[3px]">
-                                        Furosemide 40mg
-                                      </strong>
-                                      - Flushed her electrolytes and left her
-                                      sitting on the bathroom floor at 2 PM too
-                                      weak to stand up.
-                                    </p>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            <div className="text-[15px] items-center box-border caret-transparent gap-x-2 flex leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] md:text-base md:leading-[28.8px]">
-                              <div className="text-[15px] box-border caret-transparent flex shrink-0 leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] overflow-hidden md:text-base md:leading-[28.8px]">
-                                <span className="text-neutral-900 text-[40px] items-center box-border caret-transparent flex h-full justify-center leading-[72px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden md:text-base md:leading-[28.8px]">
-                                  <img
-                                    src="https://c.animaapp.com/mr0pqk6b3NyYkT/assets/icon-1.svg"
-                                    alt="Icon"
-                                    className="text-[40px] box-border caret-transparent h-10 leading-[72px] outline-[3px] w-10 md:text-base md:leading-[28.8px]"
-                                  />
-                                </span>
-                              </div>
-                              <div className="text-[15px] box-border caret-transparent leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full md:text-base md:leading-[28.8px]">
-                                <div className="text-[15px] box-border caret-transparent flex leading-[27px] max-w-full outline-[3px] md:text-base md:leading-[28.8px]">
-                                  <div className="text-neutral-900 text-lg box-border caret-transparent leading-[25.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left w-full border overflow-hidden border-solid border-transparent font-bitter">
-                                    <p className="box-border caret-transparent max-w-full outline-[3px]">
-                                      <strong className="font-bold box-border caret-transparent max-w-full outline-[3px]">
-                                        Salt restriction -{" "}
-                                      </strong>
-                                      Meals that tasted like cardboard. The foam
-                                      in the toilet every morning didn&#39;t
-                                      care.
-                                    </p>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            <div className="text-[15px] items-center box-border caret-transparent gap-x-2 flex leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] md:text-base md:leading-[28.8px]">
-                              <div className="text-[15px] box-border caret-transparent flex shrink-0 leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] overflow-hidden md:text-base md:leading-[28.8px]">
-                                <span className="text-neutral-900 text-[40px] items-center box-border caret-transparent flex h-full justify-center leading-[72px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden md:text-base md:leading-[28.8px]">
-                                  <img
-                                    src="https://c.animaapp.com/mr0pqk6b3NyYkT/assets/icon-1.svg"
-                                    alt="Icon"
-                                    className="text-[40px] box-border caret-transparent h-10 leading-[72px] outline-[3px] w-10 md:text-base md:leading-[28.8px]"
-                                  />
-                                </span>
-                              </div>
-                              <div className="text-[15px] box-border caret-transparent leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full md:text-base md:leading-[28.8px]">
-                                <div className="text-[15px] box-border caret-transparent flex leading-[27px] max-w-full outline-[3px] md:text-base md:leading-[28.8px]">
-                                  <div className="text-neutral-900 text-lg box-border caret-transparent leading-[25.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left w-full border overflow-hidden border-solid border-transparent font-bitter">
-                                    <p className="box-border caret-transparent max-w-full outline-[3px]">
-                                      <strong className="font-bold box-border caret-transparent max-w-full outline-[3px]">
-                                        Low-potassium, low-phosphorus diet -
-                                      </strong>
-                                      No more bananas, sweet potatoes, or
-                                      collard greens. Every number kept moving
-                                      the wrong direction.
-                                    </p>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            <div className="text-[15px] items-center box-border caret-transparent gap-x-2 flex leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] md:text-base md:leading-[28.8px]">
-                              <div className="text-[15px] box-border caret-transparent flex shrink-0 leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] overflow-hidden md:text-base md:leading-[28.8px]">
-                                <span className="text-neutral-900 text-[40px] items-center box-border caret-transparent flex h-full justify-center leading-[72px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden md:text-base md:leading-[28.8px]">
-                                  <img
-                                    src="https://c.animaapp.com/mr0pqk6b3NyYkT/assets/icon-1.svg"
-                                    alt="Icon"
-                                    className="text-[40px] box-border caret-transparent h-10 leading-[72px] outline-[3px] w-10 md:text-base md:leading-[28.8px]"
-                                  />
-                                </span>
-                              </div>
-                              <div className="text-[15px] box-border caret-transparent leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full md:text-base md:leading-[28.8px]">
-                                <div className="text-[15px] box-border caret-transparent flex leading-[27px] max-w-full outline-[3px] md:text-base md:leading-[28.8px]">
-                                  <div className="text-neutral-900 text-lg box-border caret-transparent leading-[25.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left w-full border overflow-hidden border-solid border-transparent font-bitter">
-                                    <p className="box-border caret-transparent max-w-full outline-[3px]">
-                                      <strong className="font-bold box-border caret-transparent max-w-full outline-[3px]">
-                                        Kidney supplements{" "}
-                                      </strong>
-                                      - Cranberries, cordyceps, rehmannia. Her
-                                      creatinine hit 2.9 by the time she
-                                      finished her last bottle.
-                                    </p>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
+                            ))}
                           </div>
                         </div>
                       </div>
@@ -437,7 +317,7 @@ export const ArticleHero = () => {
                       <div className="text-[15px] box-border caret-transparent flex leading-[27px] max-w-full outline-[3px] md:text-base md:leading-[28.8px]">
                         <h2 className="text-neutral-900 text-lg bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[25.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-bitter">
                           <span className="text-black box-border caret-transparent max-w-full outline-[3px]">
-                            Nothing worked for more than a few weeks.
+                            {adv.articleHero.treatmentFailures.nothingWorked}
                           </span>
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <span className="box-border caret-transparent max-w-full outline-[3px]">
@@ -446,7 +326,7 @@ export const ArticleHero = () => {
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <span className="text-black box-border caret-transparent max-w-full outline-[3px]">
                             <strong className="font-bold box-border caret-transparent max-w-full outline-[3px]">
-                              The &quot;experts&quot; weren&#39;t any better.
+                              {adv.articleHero.treatmentFailures.expertsLabel}
                             </strong>
                           </span>
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
@@ -455,32 +335,26 @@ export const ArticleHero = () => {
                           </span>
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <span className="box-border caret-transparent max-w-full outline-[3px]">
-                            Her nephrologist at Emory kept adjusting
-                            medications, kept monitoring numbers, kept saying
-                            &quot;we&#39;re managing the progression.&quot;
+                            {adv.articleHero.treatmentFailures.p1}
                           </span>
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <span className="box-border caret-transparent max-w-full outline-[3px]">
-                            Managed it right from stage 3 to stage 4 in
-                            twenty-two months.
+                            {adv.articleHero.treatmentFailures.p2}
                           </span>
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
-                          That morning, watching my brilliant, vibrant wife...
+                          {adv.articleHero.treatmentFailures.p3}
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
-                          A woman who&#39;d built her own business from scratch,
-                          raised three children, served as first lady of our
-                          church for 11 years...
+                          {adv.articleHero.treatmentFailures.p4}
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
-                          Sitting on the edge of our bed terrified of ending up
-                          chained to a machine for the rest of her life...
+                          {adv.articleHero.treatmentFailures.p5}
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <strong className="font-bold box-border caret-transparent max-w-full outline-[3px]">
-                            Something inside me snapped.
+                            {adv.articleHero.treatmentFailures.snapped}
                           </strong>
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <span className="box-border caret-transparent max-w-full outline-[3px]">
@@ -488,19 +362,17 @@ export const ArticleHero = () => {
                           </span>
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <span className="text-black box-border caret-transparent max-w-full outline-[3px]">
-                            I wasn&#39;t going to watch the woman I&#39;ve loved
-                            for 27 years become a prisoner in her own body.
+                            {adv.articleHero.treatmentFailures.p6}
                           </span>
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <span className="text-black box-border caret-transparent max-w-full outline-[3px]">
-                            I wasn&#39;t going to let some dialysis company CEO
-                            use her as a Mercedes payment.
+                            {adv.articleHero.treatmentFailures.p7}
                           </span>
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <span className="text-black box-border caret-transparent max-w-full outline-[3px]">
-                            I was going to figure this out.
+                            {adv.articleHero.treatmentFailures.p8}
                           </span>
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <span className="box-border caret-transparent max-w-full outline-[3px]">
@@ -509,7 +381,7 @@ export const ArticleHero = () => {
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <span className="text-black box-border caret-transparent max-w-full outline-[3px]">
                             <strong className="font-bold box-border caret-transparent max-w-full outline-[3px]">
-                              Or die trying.
+                              {adv.articleHero.treatmentFailures.orDieTrying}
                             </strong>
                           </span>
                         </h2>
@@ -522,7 +394,7 @@ export const ArticleHero = () => {
                     <div className="text-[15px] box-border caret-transparent leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left mb-2 md:text-base md:leading-[28.8px]">
                       <div className="text-[15px] box-border caret-transparent flex leading-[27px] max-w-full outline-[3px] md:text-base md:leading-[28.8px]">
                         <h2 className="text-neutral-900 text-2xl font-bold bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[31.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-playfair_display md:text-[32px] md:leading-[41.6px]">
-                          What 94 Days Of Research Finally Revealed
+                          {adv.articleHero.researchRevealed.heading}
                         </h2>
                       </div>
                     </div>
@@ -536,7 +408,7 @@ export const ArticleHero = () => {
                           muted
                           autoPlay
                           playsInline
-                          src="https://cdn.shopify.com/videos/c/o/v/9c9afdb7e9064ca380d26058941cb2f4.mov"
+                          src={media.articleHero.researchRevealed.videoSrc}
                           className="text-[15px] box-border caret-transparent leading-[27px] max-w-full outline-[3px] w-full md:text-base md:leading-[28.8px]"
                         ></video>
                       </div>
@@ -545,7 +417,7 @@ export const ArticleHero = () => {
                       <div className="text-[15px] box-border caret-transparent flex leading-[27px] max-w-full outline-[3px] md:text-base md:leading-[28.8px]">
                         <h2 className="text-neutral-900 text-lg bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[25.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-bitter">
                           <span className="text-black box-border caret-transparent max-w-full outline-[3px]">
-                            For the next 94 days, I lived like a man possessed.
+                            {adv.articleHero.researchRevealed.p1}
                           </span>
                           <span className="box-border caret-transparent max-w-full outline-[3px]">
                              
@@ -553,17 +425,13 @@ export const ArticleHero = () => {
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <span className="text-black box-border caret-transparent max-w-full outline-[3px]">
-                            I read 1,800+ studies. Called 58 researchers across
-                            11 countries. Flew to nephrology conferences in
-                            Amsterdam and Seoul. Spent $17,000 of our retirement
-                            savings on research the public never sees.
+                            {adv.articleHero.researchRevealed.p2}
                           </span>
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <span className="text-black box-border caret-transparent max-w-full outline-[3px]">
                             <strong className="font-bold box-border caret-transparent max-w-full outline-[3px]">
-                              And what I found made me want to throw my diploma
-                              in the trash.
+                              {adv.articleHero.researchRevealed.p3}
                             </strong>
                           </span>
                           <span className="box-border caret-transparent max-w-full outline-[3px]">
@@ -572,8 +440,7 @@ export const ArticleHero = () => {
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <span className="text-black box-border caret-transparent max-w-full outline-[3px]">
-                            The entire kidney industry is built on a deliberate
-                            lie.
+                            {adv.articleHero.researchRevealed.p4}
                           </span>
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <span className="text-black box-border caret-transparent max-w-full outline-[3px]">
@@ -581,7 +448,7 @@ export const ArticleHero = () => {
                           </span>
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <span className="text-black box-border caret-transparent max-w-full outline-[3px]">
-                            Here&#39;s what they don&#39;t want you to know:
+                            {adv.articleHero.researchRevealed.p5}
                           </span>
                           <span className="box-border caret-transparent max-w-full outline-[3px]">
                              
@@ -589,14 +456,12 @@ export const ArticleHero = () => {
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <span className="text-black box-border caret-transparent max-w-full outline-[3px]">
-                            Chronic kidney disease is NOT a &quot;filtration
-                            failure&quot; you manage with ACE inhibitors.
+                            {adv.articleHero.researchRevealed.p6}
                           </span>
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <span className="text-black box-border caret-transparent max-w-full outline-[3px]">
-                            It&#39;s not a protein problem you fix with diet
-                            restriction.
+                            {adv.articleHero.researchRevealed.p7}
                           </span>
                         </h2>
                       </div>
@@ -607,8 +472,7 @@ export const ArticleHero = () => {
                           <div className="text-[15px] box-border caret-transparent flex leading-[27px] max-w-full outline-[3px] md:text-base md:leading-[28.8px]">
                             <h2 className="text-white text-lg bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[25.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-bitter md:text-xl md:leading-7">
                               <strong className="text-lg font-bold box-border caret-transparent leading-[25.2px] max-w-full outline-[3px] md:text-xl md:leading-7">
-                                Chronic kidney decline is an INVASION — zombie
-                                cells destroying filtration from the inside.
+                                {adv.articleHero.researchRevealed.callout}
                               </strong>
                             </h2>
                           </div>
@@ -618,30 +482,23 @@ export const ArticleHero = () => {
                     <div className="text-[15px] box-border caret-transparent leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left md:text-base md:leading-[28.8px]">
                       <div className="text-[15px] box-border caret-transparent flex leading-[27px] max-w-full outline-[3px] md:text-base md:leading-[28.8px]">
                         <h2 className="text-neutral-900 text-lg bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[25.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-bitter">
-                          And for reasons tied directly to biology, it targets
-                          Black folk at more than 3x the rate of anyone else.
+                          {adv.articleHero.researchRevealed.p8}
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
-                          The Cleveland Clinic knows this. Johns Hopkins knows
-                          this. Your nephrologist almost certainly knows this.
+                          {adv.articleHero.researchRevealed.p9}
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                            
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
-                          But they&#39;ll never tell you.
+                          {adv.articleHero.researchRevealed.p10}
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
-                          Because the REAL cause is something so simple, so
-                          fixable, that acknowledging it would bankrupt half the
-                          dialysis centers in America.
+                          {adv.articleHero.researchRevealed.p11}
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
-                          That&#39;s why their &quot;solutions&quot; never
-                          actually work long-term.
+                          {adv.articleHero.researchRevealed.p12}
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
-                          There&#39;s a &quot;Zombie Invasion&quot; destroying
-                          your kidneys from the inside, and they&#39;re just
-                          watching it happen.
+                          {adv.articleHero.researchRevealed.p13}
                         </h2>
                       </div>
                     </div>
@@ -652,7 +509,7 @@ export const ArticleHero = () => {
                     <div className="text-[15px] box-border caret-transparent leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left mb-2 md:text-base md:leading-[28.8px]">
                       <div className="text-[15px] box-border caret-transparent flex leading-[27px] max-w-full outline-[3px] md:text-base md:leading-[28.8px]">
                         <h2 className="text-neutral-900 text-2xl font-bold bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[31.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-playfair_display md:text-[32px] md:leading-[41.6px]">
-                          The Real Root Cause They&#39;re Hiding
+                          {adv.articleHero.realRootCause.heading}
                         </h2>
                       </div>
                     </div>
@@ -666,7 +523,7 @@ export const ArticleHero = () => {
                           muted
                           autoPlay
                           playsInline
-                          src="https://cdn.shopify.com/videos/c/o/v/2da72882b79b42eabd6aa37e0fc84555.mov"
+                          src={media.articleHero.realRootCause.videoSrc}
                           className="text-[15px] box-border caret-transparent leading-[27px] max-w-full outline-[3px] w-full md:text-base md:leading-[28.8px]"
                         ></video>
                       </div>
@@ -674,81 +531,65 @@ export const ArticleHero = () => {
                     <div className="text-[15px] box-border caret-transparent leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left md:text-base md:leading-[28.8px]">
                       <div className="text-[15px] box-border caret-transparent flex leading-[27px] max-w-full outline-[3px] md:text-base md:leading-[28.8px]">
                         <h2 className="text-neutral-900 text-lg bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[25.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-bitter">
-                          Let me break this down in plain terms.
+                          {adv.articleHero.realRootCause.p1}
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <strong className="font-bold box-border caret-transparent max-w-full outline-[3px]">
-                            Your kidneys have their own lymphatic system. 
+                            {adv.articleHero.realRootCause.p2}
                           </strong>
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
-                          A network of tiny tubes that carry waste and toxins
-                          out of circulation every single day. 
+                          {adv.articleHero.realRootCause.p3}
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
-                          When those vessels work, your kidneys filter cleanly.
+                          {adv.articleHero.realRootCause.p4}
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
-                          When they clog, waste backs up inside the kidney
-                          tissue itself. 
+                          {adv.articleHero.realRootCause.p5}
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
-                          That&#39;s the rising creatinine, the dropping eGFR,
-                          the foam in your toilet every morning.
+                          {adv.articleHero.realRootCause.p6}
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <strong className="font-bold box-border caret-transparent max-w-full outline-[3px]">
-                            Now here&#39;s what they won&#39;t tell you.
+                            {adv.articleHero.realRootCause.p7}
                           </strong>
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
-                          For years, doctors couldn&#39;t explain why some
-                          people&#39;s kidneys decline rapidly while others stay
-                          stable for decades...
+                          {adv.articleHero.realRootCause.p8}
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
-                          They blamed genetics. They blamed diet. They blamed
-                          blood pressure.
+                          {adv.articleHero.realRootCause.p9}
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
-                          Then in 2021, a team of cellular experts at the Mayo
-                          Clinic took a closer look at the kidneys of 260 Black
-                          patients using high-tech phase contrast microscopes...
+                          {adv.articleHero.realRootCause.p10}
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
-                          And what they found was straight out of a sci-fi
-                          movie. 
+                          {adv.articleHero.realRootCause.p11}
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
-                          The kidneys lymphatic vessels were{" "}
+                          {adv.articleHero.realRootCause.p12pre}{" "}
                           <strong className="font-bold box-border caret-transparent max-w-full outline-[3px]">
-                            smothered in a toxic blanket of senescent
-                            &quot;zombie&quot; cells.
+                            {adv.articleHero.realRootCause.p12bold}
                           </strong>
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
-                          Not quite dead, but not fully alive either.
+                          {adv.articleHero.realRootCause.p13}
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
-                          Imagine trying to breathe with your nose shut. Not
-                          going to happen, right?
+                          {adv.articleHero.realRootCause.p14}
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
-                          These toxic cells choke the inside of your
-                          kidney&#39;s lymphatic vessels in the same way —
-                          clogging them completely. 
+                          {adv.articleHero.realRootCause.p15}
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
-                          Waste backs up inside your kidney tissue the same way
-                          sewage backs up behind a blocked drain.
+                          {adv.articleHero.realRootCause.p16}
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
-                          No ACE inhibitor touches zombie cells. Low-protein
-                          diets can&#39;t clear them. Dialysis manages the
-                          damage but never touches the source.
+                          {adv.articleHero.realRootCause.p17}
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
-                          That&#39;s why nothing has worked.
+                          {adv.articleHero.realRootCause.p18}
                         </h2>
                       </div>
                     </div>
@@ -757,8 +598,7 @@ export const ArticleHero = () => {
                 <div className="text-[15px] box-border caret-transparent leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left mb-2 md:text-base md:leading-[28.8px]">
                   <div className="text-[15px] box-border caret-transparent flex leading-[27px] max-w-full outline-[3px] md:text-base md:leading-[28.8px]">
                     <h2 className="text-neutral-900 text-2xl font-bold bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[31.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-playfair_display md:text-[32px] md:leading-[41.6px]">
-                      The &quot;Weathering Effect&quot;: Why Black People
-                      Produce 247% More Zombie Cells Than ANY Other Race
+                      {adv.articleHero.weatheringEffect.heading}
                     </h2>
                   </div>
                 </div>
@@ -774,7 +614,7 @@ export const ArticleHero = () => {
                           muted
                           autoPlay
                           playsInline
-                          src="https://cdn.shopify.com/videos/c/o/v/fc42273d540248f7a2e099a71564e4f7.mov"
+                          src={media.articleHero.weatheringEffect.videoSrc}
                           className="text-[15px] box-border caret-transparent leading-[27px] max-w-full outline-[3px] w-full md:text-base md:leading-[28.8px]"
                         ></video>
                       </div>
@@ -784,8 +624,7 @@ export const ArticleHero = () => {
                         <h2 className="text-neutral-900 text-lg bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[25.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-bitter">
                           <span className="text-red-600 box-border caret-transparent max-w-full outline-[3px]">
                             <strong className="font-bold box-border caret-transparent max-w-full outline-[3px]">
-                              But here&#39;s the part that made me grip the edge
-                              of my desk at 2 AM.
+                              {adv.articleHero.weatheringEffect.p1}
                             </strong>
                           </span>
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
@@ -794,31 +633,27 @@ export const ArticleHero = () => {
                           </span>
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <span className="box-border caret-transparent max-w-full outline-[3px]">
-                            Every stressor modern life throws at Black folk
-                            damages the DNA inside your cells...
+                            {adv.articleHero.weatheringEffect.p2}
                           </span>
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <span className="box-border caret-transparent max-w-full outline-[3px]">
-                            This damaged DNA leads to FAR more senescent cells
-                            than any other group.
+                            {adv.articleHero.weatheringEffect.p3}
                           </span>
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                            
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <span className="box-border caret-transparent max-w-full outline-[3px]">
-                            The scientific term for this phenomenon is called
-                            the{" "}
+                            {adv.articleHero.weatheringEffect.p4pre}{" "}
                             <strong className="font-bold box-border caret-transparent max-w-full outline-[3px]">
-                              &quot;weathering effect&quot;...
+                              {adv.articleHero.weatheringEffect.p4bold}
                             </strong>
-                            And it affects Black folk disproportionally.
+                            {adv.articleHero.weatheringEffect.p4post}
                           </span>
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <span className="text-black box-border caret-transparent max-w-full outline-[3px]">
-                            A 2023 study in the Journal of African American
-                            Health Sciences measured the difference directly: 
+                            {adv.articleHero.weatheringEffect.p5}
                           </span>
                         </h2>
                       </div>
@@ -829,9 +664,7 @@ export const ArticleHero = () => {
                           <div className="text-[15px] box-border caret-transparent flex leading-[27px] max-w-full outline-[3px] md:text-base md:leading-[28.8px]">
                             <h2 className="text-white text-lg bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[25.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-bitter md:text-xl md:leading-7">
                               <strong className="text-lg font-bold box-border caret-transparent leading-[25.2px] max-w-full outline-[3px] md:text-xl md:leading-7">
-                                Black people produced an average of 247% more
-                                &quot;zombie cells&quot; inside their kidneys
-                                than ANY other race.
+                                {adv.articleHero.weatheringEffect.callout}
                               </strong>
                             </h2>
                           </div>
@@ -842,37 +675,35 @@ export const ArticleHero = () => {
                       <div className="text-[15px] box-border caret-transparent flex leading-[27px] max-w-full outline-[3px] md:text-base md:leading-[28.8px]">
                         <h2 className="text-neutral-900 text-lg bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[25.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-bitter">
                           <span className="text-black box-border caret-transparent max-w-full outline-[3px]">
-                            That&#39;s not a coincidence.
+                            {adv.articleHero.weatheringEffect.p6}
                           </span>
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <span className="text-black box-border caret-transparent max-w-full outline-[3px]">
-                            This explained why Denise was declining...
+                            {adv.articleHero.weatheringEffect.p7}
                           </span>
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <span className="text-black box-border caret-transparent max-w-full outline-[3px]">
                             <strong className="font-bold box-border caret-transparent max-w-full outline-[3px]">
-                              While her white colleagues with the same
-                              diagnosis, same diet, same doctor were stable.
+                              {adv.articleHero.weatheringEffect.p8}
                             </strong>
                           </span>
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
-                          That means the solution isn&#39;t better pills. 
+                          {adv.articleHero.weatheringEffect.p9}
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <strong className="font-bold box-border caret-transparent max-w-full outline-[3px]">
-                            It&#39;s eliminating the toxic blanket coating your
-                            kidney&#39;s lymphatic vessels.
+                            {adv.articleHero.weatheringEffect.p10}
                           </strong>
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
-                          The medical industry has known about this for years.
+                          {adv.articleHero.weatheringEffect.p11}
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                            
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
-                          Yet they keep you on the hamster wheel anyway...
+                          {adv.articleHero.weatheringEffect.p12}
                         </h2>
                       </div>
                     </div>
@@ -880,130 +711,29 @@ export const ArticleHero = () => {
                       <div className="text-[15px] box-border caret-transparent flex leading-[27px] max-w-full outline-[3px] my-3 md:text-base md:leading-[28.8px]">
                         <div className="text-[15px] bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent flex leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full bg-center md:text-base md:leading-[28.8px]">
                           <div className="text-[15px] box-border caret-transparent flex flex-col leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] gap-y-4 md:text-base md:leading-[28.8px]">
-                            <div className="text-[15px] items-center box-border caret-transparent gap-x-2 flex leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] md:text-base md:leading-[28.8px]">
-                              <div className="text-[15px] box-border caret-transparent flex shrink-0 leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] overflow-hidden md:text-base md:leading-[28.8px]">
-                                <span className="text-neutral-900 text-[28px] items-center box-border caret-transparent flex h-full justify-center leading-[50.4px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden md:text-base md:leading-[28.8px]">
-                                  <img
-                                    src="https://c.animaapp.com/mr0pqk6b3NyYkT/assets/icon-2.svg"
-                                    alt="Icon"
-                                    className="text-[28px] box-border caret-transparent h-7 leading-[50.4px] outline-[3px] w-7 md:text-base md:leading-[28.8px]"
-                                  />
-                                </span>
-                              </div>
-                              <div className="text-[15px] box-border caret-transparent leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full md:text-base md:leading-[28.8px]">
-                                <div className="text-[15px] box-border caret-transparent flex leading-[27px] max-w-full outline-[3px] md:text-base md:leading-[28.8px]">
-                                  <div className="text-neutral-900 text-lg box-border caret-transparent leading-[25.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left w-full border overflow-hidden border-solid border-transparent font-bitter">
-                                    <p className="box-border caret-transparent max-w-full outline-[3px]">
-                                      ACE inhibitors crash your blood pressure
-                                    </p>
+                            {adv.articleHero.weatheringEffect.hamsterWheel.map((item, i) => (
+                              <div
+                                key={i}
+                                className="text-[15px] items-center box-border caret-transparent gap-x-2 flex leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] md:text-base md:leading-[28.8px]"
+                              >
+                                <div className="text-[15px] box-border caret-transparent flex shrink-0 leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] overflow-hidden md:text-base md:leading-[28.8px]">
+                                  <span className="text-neutral-900 text-[28px] items-center box-border caret-transparent flex h-full justify-center leading-[50.4px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden md:text-base md:leading-[28.8px]">
+                                    <img
+                                      src={media.articleHero.bulletIcon2}
+                                      alt="Icon"
+                                      className="text-[28px] box-border caret-transparent h-7 leading-[50.4px] outline-[3px] w-7 md:text-base md:leading-[28.8px]"
+                                    />
+                                  </span>
+                                </div>
+                                <div className="text-[15px] box-border caret-transparent leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full md:text-base md:leading-[28.8px]">
+                                  <div className="text-[15px] box-border caret-transparent flex leading-[27px] max-w-full outline-[3px] md:text-base md:leading-[28.8px]">
+                                    <div className="text-neutral-900 text-lg box-border caret-transparent leading-[25.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left w-full border overflow-hidden border-solid border-transparent font-bitter">
+                                      <p className="box-border caret-transparent max-w-full outline-[3px]">{item}</p>
+                                    </div>
                                   </div>
                                 </div>
                               </div>
-                            </div>
-                            <div className="text-[15px] items-center box-border caret-transparent gap-x-2 flex leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] md:text-base md:leading-[28.8px]">
-                              <div className="text-[15px] box-border caret-transparent flex shrink-0 leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] overflow-hidden md:text-base md:leading-[28.8px]">
-                                <span className="text-neutral-900 text-[28px] items-center box-border caret-transparent flex h-full justify-center leading-[50.4px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden md:text-base md:leading-[28.8px]">
-                                  <img
-                                    src="https://c.animaapp.com/mr0pqk6b3NyYkT/assets/icon-2.svg"
-                                    alt="Icon"
-                                    className="text-[28px] box-border caret-transparent h-7 leading-[50.4px] outline-[3px] w-7 md:text-base md:leading-[28.8px]"
-                                  />
-                                </span>
-                              </div>
-                              <div className="text-[15px] box-border caret-transparent leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full md:text-base md:leading-[28.8px]">
-                                <div className="text-[15px] box-border caret-transparent flex leading-[27px] max-w-full outline-[3px] md:text-base md:leading-[28.8px]">
-                                  <div className="text-neutral-900 text-lg box-border caret-transparent leading-[25.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left w-full border overflow-hidden border-solid border-transparent font-bitter">
-                                    <p className="box-border caret-transparent max-w-full outline-[3px]">
-                                      Low-protein diets that strip your quality
-                                      of life
-                                    </p>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            <div className="text-[15px] items-center box-border caret-transparent gap-x-2 flex leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] md:text-base md:leading-[28.8px]">
-                              <div className="text-[15px] box-border caret-transparent flex shrink-0 leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] overflow-hidden md:text-base md:leading-[28.8px]">
-                                <span className="text-neutral-900 text-[28px] items-center box-border caret-transparent flex h-full justify-center leading-[50.4px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden md:text-base md:leading-[28.8px]">
-                                  <img
-                                    src="https://c.animaapp.com/mr0pqk6b3NyYkT/assets/icon-2.svg"
-                                    alt="Icon"
-                                    className="text-[28px] box-border caret-transparent h-7 leading-[50.4px] outline-[3px] w-7 md:text-base md:leading-[28.8px]"
-                                  />
-                                </span>
-                              </div>
-                              <div className="text-[15px] box-border caret-transparent leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full md:text-base md:leading-[28.8px]">
-                                <div className="text-[15px] box-border caret-transparent flex leading-[27px] max-w-full outline-[3px] md:text-base md:leading-[28.8px]">
-                                  <div className="text-neutral-900 text-lg box-border caret-transparent leading-[25.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left w-full border overflow-hidden border-solid border-transparent font-bitter">
-                                    <p className="box-border caret-transparent max-w-full outline-[3px]">
-                                      Diuretics that destroy your electrolytes
-                                    </p>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            <div className="text-[15px] items-center box-border caret-transparent gap-x-2 flex leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] md:text-base md:leading-[28.8px]">
-                              <div className="text-[15px] box-border caret-transparent flex shrink-0 leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] overflow-hidden md:text-base md:leading-[28.8px]">
-                                <span className="text-neutral-900 text-[28px] items-center box-border caret-transparent flex h-full justify-center leading-[50.4px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden md:text-base md:leading-[28.8px]">
-                                  <img
-                                    src="https://c.animaapp.com/mr0pqk6b3NyYkT/assets/icon-2.svg"
-                                    alt="Icon"
-                                    className="text-[28px] box-border caret-transparent h-7 leading-[50.4px] outline-[3px] w-7 md:text-base md:leading-[28.8px]"
-                                  />
-                                </span>
-                              </div>
-                              <div className="text-[15px] box-border caret-transparent leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full md:text-base md:leading-[28.8px]">
-                                <div className="text-[15px] box-border caret-transparent flex leading-[27px] max-w-full outline-[3px] md:text-base md:leading-[28.8px]">
-                                  <div className="text-neutral-900 text-lg box-border caret-transparent leading-[25.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left w-full border overflow-hidden border-solid border-transparent font-bitter">
-                                    <p className="box-border caret-transparent max-w-full outline-[3px]">
-                                      More medications for the problems caused
-                                      by the first medications
-                                    </p>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            <div className="text-[15px] items-center box-border caret-transparent gap-x-2 flex leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] md:text-base md:leading-[28.8px]">
-                              <div className="text-[15px] box-border caret-transparent flex shrink-0 leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] overflow-hidden md:text-base md:leading-[28.8px]">
-                                <span className="text-neutral-900 text-[28px] items-center box-border caret-transparent flex h-full justify-center leading-[50.4px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden md:text-base md:leading-[28.8px]">
-                                  <img
-                                    src="https://c.animaapp.com/mr0pqk6b3NyYkT/assets/icon-2.svg"
-                                    alt="Icon"
-                                    className="text-[28px] box-border caret-transparent h-7 leading-[50.4px] outline-[3px] w-7 md:text-base md:leading-[28.8px]"
-                                  />
-                                </span>
-                              </div>
-                              <div className="text-[15px] box-border caret-transparent leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full md:text-base md:leading-[28.8px]">
-                                <div className="text-[15px] box-border caret-transparent flex leading-[27px] max-w-full outline-[3px] md:text-base md:leading-[28.8px]">
-                                  <div className="text-neutral-900 text-lg box-border caret-transparent leading-[25.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left w-full border overflow-hidden border-solid border-transparent font-bitter">
-                                    <p className="box-border caret-transparent max-w-full outline-[3px]">
-                                      Dialysis three times a week when nothing
-                                      works
-                                    </p>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            <div className="text-[15px] items-center box-border caret-transparent gap-x-2 flex leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] md:text-base md:leading-[28.8px]">
-                              <div className="text-[15px] box-border caret-transparent flex shrink-0 leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] overflow-hidden md:text-base md:leading-[28.8px]">
-                                <span className="text-neutral-900 text-[28px] items-center box-border caret-transparent flex h-full justify-center leading-[50.4px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden md:text-base md:leading-[28.8px]">
-                                  <img
-                                    src="https://c.animaapp.com/mr0pqk6b3NyYkT/assets/icon-2.svg"
-                                    alt="Icon"
-                                    className="text-[28px] box-border caret-transparent h-7 leading-[50.4px] outline-[3px] w-7 md:text-base md:leading-[28.8px]"
-                                  />
-                                </span>
-                              </div>
-                              <div className="text-[15px] box-border caret-transparent leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full md:text-base md:leading-[28.8px]">
-                                <div className="text-[15px] box-border caret-transparent flex leading-[27px] max-w-full outline-[3px] md:text-base md:leading-[28.8px]">
-                                  <div className="text-neutral-900 text-lg box-border caret-transparent leading-[25.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left w-full border overflow-hidden border-solid border-transparent font-bitter">
-                                    <p className="box-border caret-transparent max-w-full outline-[3px]">
-                                      Repeat forever until your kidneys give out
-                                      completely
-                                    </p>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
+                            ))}
                           </div>
                         </div>
                       </div>
@@ -1011,12 +741,12 @@ export const ArticleHero = () => {
                     <div className="text-[15px] box-border caret-transparent leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left md:text-base md:leading-[28.8px]">
                       <div className="text-[15px] box-border caret-transparent flex leading-[27px] max-w-full outline-[3px] md:text-base md:leading-[28.8px]">
                         <h2 className="text-neutral-900 text-lg bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[25.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-bitter">
-                          It&#39;s genius, really.
+                          {adv.articleHero.weatheringEffect.p13}
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                            
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <strong className="font-bold box-border caret-transparent max-w-full outline-[3px]">
-                            If you&#39;re a sociopath.
+                            {adv.articleHero.weatheringEffect.sociopath}
                           </strong>
                         </h2>
                       </div>
@@ -1028,7 +758,7 @@ export const ArticleHero = () => {
                     <div className="text-[15px] box-border caret-transparent leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left mb-2 md:text-base md:leading-[28.8px]">
                       <div className="text-[15px] box-border caret-transparent flex leading-[27px] max-w-full outline-[3px] md:text-base md:leading-[28.8px]">
                         <h2 className="text-neutral-900 text-2xl font-bold bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[31.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-playfair_display md:text-[32px] md:leading-[41.6px]">
-                          The Miracle Hiding In Plain Sight
+                          {adv.articleHero.miracleHiding.heading}
                         </h2>
                       </div>
                     </div>
@@ -1042,7 +772,7 @@ export const ArticleHero = () => {
                           muted
                           autoPlay
                           playsInline
-                          src="https://cdn.shopify.com/videos/c/o/v/c529ae34fc1b4506b9e7cd044a2d8088.mov"
+                          src={media.articleHero.miracleHiding.videoSrc}
                           className="text-[15px] box-border caret-transparent leading-[27px] max-w-full outline-[3px] w-full md:text-base md:leading-[28.8px]"
                         ></video>
                       </div>
@@ -1051,14 +781,12 @@ export const ArticleHero = () => {
                       <div className="text-[15px] box-border caret-transparent flex leading-[27px] max-w-full outline-[3px] md:text-base md:leading-[28.8px]">
                         <h2 className="text-neutral-900 text-lg bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[25.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-bitter">
                           <span className="text-black box-border caret-transparent max-w-full outline-[3px]">
-                            Remember how I found my dear wife Denise crying on
-                            the edge of our bed?
+                            {adv.articleHero.miracleHiding.p1}
                           </span>
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <span className="text-black box-border caret-transparent max-w-full outline-[3px]">
-                            Terrified of ending up chained to a dialysis machine
-                            for the rest of her life?
+                            {adv.articleHero.miracleHiding.p2}
                           </span>
                         </h2>
                       </div>
@@ -1070,8 +798,7 @@ export const ArticleHero = () => {
                             <h2 className="text-neutral-900 text-lg bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[25.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-bitter md:text-xl md:leading-7">
                               <span className="text-black text-lg box-border caret-transparent leading-[25.2px] max-w-full outline-[3px] md:leading-7">
                                 <strong className="font-bold box-border caret-transparent leading-[25.2px] max-w-full outline-[3px] md:leading-7">
-                                  61 days after my discovery, she hosted our
-                                  church&#39;s holiday dinner for 22 people.
+                                  {adv.articleHero.miracleHiding.callout}
                                 </strong>
                               </span>
                             </h2>
@@ -1083,40 +810,34 @@ export const ArticleHero = () => {
                       <div className="text-[15px] box-border caret-transparent flex leading-[27px] max-w-full outline-[3px] md:text-base md:leading-[28.8px]">
                         <h2 className="text-neutral-900 text-lg bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[25.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-bitter">
                           <span className="text-black box-border caret-transparent max-w-full outline-[3px]">
-                            On her feet for 5 hours. Her ring back on her
-                            finger. Cooking, serving, laughing. 
+                            {adv.articleHero.miracleHiding.p3}
                           </span>
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
-                          No ACE inhibitors. No protein restrictions. No
-                          &quot;preparatory consultation&quot; on the calendar.
+                          {adv.articleHero.miracleHiding.p4}
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                            
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <strong className="font-bold box-border caret-transparent max-w-full outline-[3px]">
-                            Just one change. And I&#39;m almost embarrassed by
-                            how simple it is.
+                            {adv.articleHero.miracleHiding.p5}
                           </strong>
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
-                          You see...
+                          {adv.articleHero.miracleHiding.p6}
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
-                          Every doctor, every specialist, every protocol we
-                          tried was obsessed with what goes in.
+                          {adv.articleHero.miracleHiding.p7}
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
-                          Less protein. Less potassium. Less phosphorus. Less
-                          sodium. Control everything entering the body.
+                          {adv.articleHero.miracleHiding.p8}
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <strong className="font-bold box-border caret-transparent max-w-full outline-[3px]">
-                            Nobody was asking whether the body could actually
-                            process what needed to come out.
+                            {adv.articleHero.miracleHiding.p9}
                           </strong>
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
-                          That&#39;s the real problem. 
+                          {adv.articleHero.miracleHiding.p10}
                         </h2>
                       </div>
                     </div>
@@ -1128,7 +849,7 @@ export const ArticleHero = () => {
                               <div className="text-[15px] box-border caret-transparent flex shrink-0 leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] overflow-hidden md:text-base md:leading-[28.8px]">
                                 <span className="text-neutral-900 text-[40px] items-center box-border caret-transparent flex h-full justify-center leading-[72px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden md:text-base md:leading-[28.8px]">
                                   <img
-                                    src="https://c.animaapp.com/mr0pqk6b3NyYkT/assets/icon-1.svg"
+                                    src={media.articleHero.bulletIcon1}
                                     alt="Icon"
                                     className="text-[40px] box-border caret-transparent h-10 leading-[72px] outline-[3px] w-10 md:text-base md:leading-[28.8px]"
                                   />
@@ -1139,12 +860,11 @@ export const ArticleHero = () => {
                                   <div className="text-neutral-900 text-lg box-border caret-transparent leading-[25.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left w-full border overflow-hidden border-solid border-transparent font-bitter">
                                     <p className="box-border caret-transparent max-w-full outline-[3px]">
                                       <span className="text-black box-border caret-transparent max-w-full outline-[3px]">
-                                        Toxic{" "}
+                                        {adv.articleHero.miracleHiding.problemList[0].pre}{" "}
                                         <strong className="font-bold box-border caret-transparent max-w-full outline-[3px]">
-                                          zombie cells
+                                          {adv.articleHero.miracleHiding.problemList[0].bold}
                                         </strong>
-                                        buildup up inside your kidney&#39;s
-                                        lymphatic vessels...
+                                        {adv.articleHero.miracleHiding.problemList[0].post}
                                       </span>
                                     </p>
                                   </div>
@@ -1155,7 +875,7 @@ export const ArticleHero = () => {
                               <div className="text-[15px] box-border caret-transparent flex shrink-0 leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] overflow-hidden md:text-base md:leading-[28.8px]">
                                 <span className="text-neutral-900 text-[40px] items-center box-border caret-transparent flex h-full justify-center leading-[72px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden md:text-base md:leading-[28.8px]">
                                   <img
-                                    src="https://c.animaapp.com/mr0pqk6b3NyYkT/assets/icon-1.svg"
+                                    src={media.articleHero.bulletIcon1}
                                     alt="Icon"
                                     className="text-[40px] box-border caret-transparent h-10 leading-[72px] outline-[3px] w-10 md:text-base md:leading-[28.8px]"
                                   />
@@ -1166,7 +886,7 @@ export const ArticleHero = () => {
                                   <div className="text-neutral-900 text-lg box-border caret-transparent leading-[25.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left w-full border overflow-hidden border-solid border-transparent font-bitter">
                                     <p className="box-border caret-transparent max-w-full outline-[3px]">
                                       <span className="text-black box-border caret-transparent max-w-full outline-[3px]">
-                                        Blocking drainage completely...
+                                        {adv.articleHero.miracleHiding.problemList[1].text}
                                       </span>
                                     </p>
                                   </div>
@@ -1177,7 +897,7 @@ export const ArticleHero = () => {
                               <div className="text-[15px] box-border caret-transparent flex shrink-0 leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] overflow-hidden md:text-base md:leading-[28.8px]">
                                 <span className="text-neutral-900 text-[40px] items-center box-border caret-transparent flex h-full justify-center leading-[72px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden md:text-base md:leading-[28.8px]">
                                   <img
-                                    src="https://c.animaapp.com/mr0pqk6b3NyYkT/assets/icon-1.svg"
+                                    src={media.articleHero.bulletIcon1}
                                     alt="Icon"
                                     className="text-[40px] box-border caret-transparent h-10 leading-[72px] outline-[3px] w-10 md:text-base md:leading-[28.8px]"
                                   />
@@ -1188,8 +908,7 @@ export const ArticleHero = () => {
                                   <div className="text-neutral-900 text-lg box-border caret-transparent leading-[25.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left w-full border overflow-hidden border-solid border-transparent font-bitter">
                                     <p className="box-border caret-transparent max-w-full outline-[3px]">
                                       <span className="text-black box-border caret-transparent max-w-full outline-[3px]">
-                                        Letting waste back up inside your
-                                        tissue...
+                                        {adv.articleHero.miracleHiding.problemList[2].text}
                                       </span>
                                     </p>
                                   </div>
@@ -1200,7 +919,7 @@ export const ArticleHero = () => {
                               <div className="text-[15px] box-border caret-transparent flex shrink-0 leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] overflow-hidden md:text-base md:leading-[28.8px]">
                                 <span className="text-neutral-900 text-[40px] items-center box-border caret-transparent flex h-full justify-center leading-[72px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden md:text-base md:leading-[28.8px]">
                                   <img
-                                    src="https://c.animaapp.com/mr0pqk6b3NyYkT/assets/icon-1.svg"
+                                    src={media.articleHero.bulletIcon1}
                                     alt="Icon"
                                     className="text-[40px] box-border caret-transparent h-10 leading-[72px] outline-[3px] w-10 md:text-base md:leading-[28.8px]"
                                   />
@@ -1211,8 +930,7 @@ export const ArticleHero = () => {
                                   <div className="text-neutral-900 text-lg box-border caret-transparent leading-[25.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left w-full border overflow-hidden border-solid border-transparent font-bitter">
                                     <p className="box-border caret-transparent max-w-full outline-[3px]">
                                       <span className="text-black box-border caret-transparent max-w-full outline-[3px]">
-                                        And driving every number in the wrong
-                                        direction.
+                                        {adv.articleHero.miracleHiding.problemList[3].text}
                                       </span>
                                     </p>
                                   </div>
@@ -1226,46 +944,38 @@ export const ArticleHero = () => {
                     <div className="text-[15px] box-border caret-transparent leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left md:text-base md:leading-[28.8px]">
                       <div className="text-[15px] box-border caret-transparent flex leading-[27px] max-w-full outline-[3px] md:text-base md:leading-[28.8px]">
                         <h2 className="text-neutral-900 text-lg bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[25.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-bitter">
-                          So the fix isn&#39;t restricting what goes in. 
+                          {adv.articleHero.miracleHiding.p11}
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <strong className="font-bold box-border caret-transparent max-w-full outline-[3px]">
-                            It&#39;s clearing what&#39;s blocking the way out.
+                            {adv.articleHero.miracleHiding.p12}
                           </strong>
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
-                          Once I understood that, I stopped looking for
-                          pharmaceuticals.
+                          {adv.articleHero.miracleHiding.p13}
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
-                          I started looking for compounds...
+                          {adv.articleHero.miracleHiding.p14}
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
-                          Natural compounds with clinically documented ability
-                          to break down senescent zombie cells, clear lymphatic
-                          pathways, and restore the filtration your kidneys were
-                          designed to do on their own.
+                          {adv.articleHero.miracleHiding.p15}
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <strong className="font-bold box-border caret-transparent max-w-full outline-[3px]">
-                            After 81 days of research, I found six.
+                            {adv.articleHero.miracleHiding.p16}
                           </strong>
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
-                          Three had been used in traditional medicine for
-                          generations.
+                          {adv.articleHero.miracleHiding.p17}
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
-                          Multiple were identified in modern nephrology
-                          research.
+                          {adv.articleHero.miracleHiding.p18}
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
-                          Nobody had ever combined them.
+                          {adv.articleHero.miracleHiding.p19}
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
-                          And when those zombie cells are gone and your
-                          kidney&#39;s lymphatic vessels are finally clear - the
-                          results come fast.
+                          {adv.articleHero.miracleHiding.p20}
                         </h2>
                       </div>
                     </div>
@@ -1273,97 +983,33 @@ export const ArticleHero = () => {
                       <div className="text-[15px] box-border caret-transparent flex leading-[27px] max-w-full outline-[3px] my-3 md:text-base md:leading-[28.8px]">
                         <div className="text-[15px] bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent flex leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full bg-center md:text-base md:leading-[28.8px]">
                           <div className="text-[15px] box-border caret-transparent flex flex-col leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] gap-y-1 md:text-base md:leading-[28.8px]">
-                            <div className="text-[15px] items-center box-border caret-transparent gap-x-0 flex leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] md:text-base md:leading-[28.8px]">
-                              <div className="text-[15px] box-border caret-transparent flex shrink-0 leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] overflow-hidden md:text-base md:leading-[28.8px]">
-                                <span className="text-neutral-900 text-[40px] items-center box-border caret-transparent flex h-full justify-center leading-[72px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden md:text-base md:leading-[28.8px]">
-                                  <img
-                                    src="https://c.animaapp.com/mr0pqk6b3NyYkT/assets/icon-1.svg"
-                                    alt="Icon"
-                                    className="text-[40px] box-border caret-transparent h-10 leading-[72px] outline-[3px] w-10 md:text-base md:leading-[28.8px]"
-                                  />
-                                </span>
-                              </div>
-                              <div className="text-[15px] box-border caret-transparent leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full md:text-base md:leading-[28.8px]">
-                                <div className="text-[15px] box-border caret-transparent flex leading-[27px] max-w-full outline-[3px] md:text-base md:leading-[28.8px]">
-                                  <div className="text-neutral-900 text-lg box-border caret-transparent leading-[25.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left w-full border overflow-hidden border-solid border-transparent font-bitter">
-                                    <p className="box-border caret-transparent max-w-full outline-[3px]">
-                                      <span className="text-black box-border caret-transparent max-w-full outline-[3px]">
-                                        You wake up and the foam is gone.
-                                      </span>
-                                    </p>
+                            {adv.articleHero.miracleHiding.resultsList.map((item, i) => (
+                              <div
+                                key={i}
+                                className="text-[15px] items-center box-border caret-transparent gap-x-0 flex leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] md:text-base md:leading-[28.8px]"
+                              >
+                                <div className="text-[15px] box-border caret-transparent flex shrink-0 leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] overflow-hidden md:text-base md:leading-[28.8px]">
+                                  <span className="text-neutral-900 text-[40px] items-center box-border caret-transparent flex h-full justify-center leading-[72px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden md:text-base md:leading-[28.8px]">
+                                    <img
+                                      src={media.articleHero.bulletIcon1}
+                                      alt="Icon"
+                                      className="text-[40px] box-border caret-transparent h-10 leading-[72px] outline-[3px] w-10 md:text-base md:leading-[28.8px]"
+                                    />
+                                  </span>
+                                </div>
+                                <div className="text-[15px] box-border caret-transparent leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full md:text-base md:leading-[28.8px]">
+                                  <div className="text-[15px] box-border caret-transparent flex leading-[27px] max-w-full outline-[3px] md:text-base md:leading-[28.8px]">
+                                    <div className="text-neutral-900 text-lg box-border caret-transparent leading-[25.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left w-full border overflow-hidden border-solid border-transparent font-bitter">
+                                      <p className="box-border caret-transparent max-w-full outline-[3px]">
+                                        <span className="text-black box-border caret-transparent max-w-full outline-[3px]">
+                                          {item}
+                                        </span>
+                                      </p>
+                                    </div>
                                   </div>
                                 </div>
                               </div>
-                            </div>
-                            <div className="text-[15px] items-center box-border caret-transparent gap-x-0 flex leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] md:text-base md:leading-[28.8px]">
-                              <div className="text-[15px] box-border caret-transparent flex shrink-0 leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] overflow-hidden md:text-base md:leading-[28.8px]">
-                                <span className="text-neutral-900 text-[40px] items-center box-border caret-transparent flex h-full justify-center leading-[72px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden md:text-base md:leading-[28.8px]">
-                                  <img
-                                    src="https://c.animaapp.com/mr0pqk6b3NyYkT/assets/icon-1.svg"
-                                    alt="Icon"
-                                    className="text-[40px] box-border caret-transparent h-10 leading-[72px] outline-[3px] w-10 md:text-base md:leading-[28.8px]"
-                                  />
-                                </span>
-                              </div>
-                              <div className="text-[15px] box-border caret-transparent leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full md:text-base md:leading-[28.8px]">
-                                <div className="text-[15px] box-border caret-transparent flex leading-[27px] max-w-full outline-[3px] md:text-base md:leading-[28.8px]">
-                                  <div className="text-neutral-900 text-lg box-border caret-transparent leading-[25.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left w-full border overflow-hidden border-solid border-transparent font-bitter">
-                                    <p className="box-border caret-transparent max-w-full outline-[3px]">
-                                      <span className="text-black box-border caret-transparent max-w-full outline-[3px]">
-                                        Your energy returns before noon instead
-                                        of crashing by 10 AM.
-                                      </span>
-                                    </p>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            <div className="text-[15px] items-center box-border caret-transparent gap-x-0 flex leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] md:text-base md:leading-[28.8px]">
-                              <div className="text-[15px] box-border caret-transparent flex shrink-0 leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] overflow-hidden md:text-base md:leading-[28.8px]">
-                                <span className="text-neutral-900 text-[40px] items-center box-border caret-transparent flex h-full justify-center leading-[72px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden md:text-base md:leading-[28.8px]">
-                                  <img
-                                    src="https://c.animaapp.com/mr0pqk6b3NyYkT/assets/icon-1.svg"
-                                    alt="Icon"
-                                    className="text-[40px] box-border caret-transparent h-10 leading-[72px] outline-[3px] w-10 md:text-base md:leading-[28.8px]"
-                                  />
-                                </span>
-                              </div>
-                              <div className="text-[15px] box-border caret-transparent leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full md:text-base md:leading-[28.8px]">
-                                <div className="text-[15px] box-border caret-transparent flex leading-[27px] max-w-full outline-[3px] md:text-base md:leading-[28.8px]">
-                                  <div className="text-neutral-900 text-lg box-border caret-transparent leading-[25.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left w-full border overflow-hidden border-solid border-transparent font-bitter">
-                                    <p className="box-border caret-transparent max-w-full outline-[3px]">
-                                      <span className="text-black box-border caret-transparent max-w-full outline-[3px]">
-                                        Your labs move in the right direction
-                                        for the first time in years.
-                                      </span>
-                                    </p>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            <div className="text-[15px] items-center box-border caret-transparent gap-x-0 flex leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] md:text-base md:leading-[28.8px]">
-                              <div className="text-[15px] box-border caret-transparent flex shrink-0 leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] overflow-hidden md:text-base md:leading-[28.8px]">
-                                <span className="text-neutral-900 text-[40px] items-center box-border caret-transparent flex h-full justify-center leading-[72px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden md:text-base md:leading-[28.8px]">
-                                  <img
-                                    src="https://c.animaapp.com/mr0pqk6b3NyYkT/assets/icon-1.svg"
-                                    alt="Icon"
-                                    className="text-[40px] box-border caret-transparent h-10 leading-[72px] outline-[3px] w-10 md:text-base md:leading-[28.8px]"
-                                  />
-                                </span>
-                              </div>
-                              <div className="text-[15px] box-border caret-transparent leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full md:text-base md:leading-[28.8px]">
-                                <div className="text-[15px] box-border caret-transparent flex leading-[27px] max-w-full outline-[3px] md:text-base md:leading-[28.8px]">
-                                  <div className="text-neutral-900 text-lg box-border caret-transparent leading-[25.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left w-full border overflow-hidden border-solid border-transparent font-bitter">
-                                    <p className="box-border caret-transparent max-w-full outline-[3px]">
-                                      <span className="text-black box-border caret-transparent max-w-full outline-[3px]">
-                                        You stop planning your life around how
-                                        exhausted you&#39;ll be.
-                                      </span>
-                                    </p>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
+                            ))}
                           </div>
                         </div>
                       </div>
@@ -1372,13 +1018,12 @@ export const ArticleHero = () => {
                       <div className="text-[15px] box-border caret-transparent flex leading-[27px] max-w-full outline-[3px] md:text-base md:leading-[28.8px]">
                         <h2 className="text-neutral-900 text-lg bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[25.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-bitter">
                           <span className="text-black box-border caret-transparent max-w-full outline-[3px]">
-                            That&#39;s not a promise. 
+                            {adv.articleHero.miracleHiding.p21}
                           </span>
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <span className="text-black box-border caret-transparent max-w-full outline-[3px]">
-                            That&#39;s just what happens when you stop
-                            controlling the input and start clearing the drain.
+                            {adv.articleHero.miracleHiding.p22}
                           </span>
                         </h2>
                       </div>
@@ -1390,7 +1035,7 @@ export const ArticleHero = () => {
                     <div className="text-[15px] box-border caret-transparent leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left mb-2 md:text-base md:leading-[28.8px]">
                       <div className="text-[15px] box-border caret-transparent flex leading-[27px] max-w-full outline-[3px] md:text-base md:leading-[28.8px]">
                         <h2 className="text-neutral-900 text-2xl font-bold bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[31.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-playfair_display md:text-[32px] md:leading-[41.6px]">
-                          This Breakthrough Is Pissing Off An Entire Industry
+                          {adv.articleHero.pissingOffIndustry.heading}
                         </h2>
                       </div>
                     </div>
@@ -1411,36 +1056,32 @@ export const ArticleHero = () => {
                     <div className="text-[15px] box-border caret-transparent leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left md:text-base md:leading-[28.8px]">
                       <div className="text-[15px] box-border caret-transparent flex leading-[27px] max-w-full outline-[3px] md:text-base md:leading-[28.8px]">
                         <h2 className="text-neutral-900 text-lg bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[25.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-bitter">
-                          After Denise&#39;s transformation, word spread fast.
+                          {adv.articleHero.pissingOffIndustry.p1}
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
-                          My colleague&#39;s brother Raymond - stage 4 CKD for
-                          11 years - knocked on my office door.
+                          {adv.articleHero.pissingOffIndustry.p2}
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <i className="italic box-border caret-transparent max-w-full outline-[3px]">
-                            &quot;Malcolm, whatever you did for Denise. I&#39;m
-                            at the end of the road here.&quot;
+                            {adv.articleHero.pissingOffIndustry.quote1}
                           </i>
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <i className="italic box-border caret-transparent max-w-full outline-[3px]">
-                            &quot;My nephrologist literally said: &#39;We need
-                            to start thinking about access placement.&#39;&quot;
+                            {adv.articleHero.pissingOffIndustry.quote2}
                           </i>
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
-                          His eGFR was 19. Creatinine 3.4. 
+                          {adv.articleHero.pissingOffIndustry.p3}
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
-                          He&#39;d spent over $47,000 on treatments,
-                          specialists, and supplements.
+                          {adv.articleHero.pissingOffIndustry.p4}
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
-                          I gave him the same protocol.
+                          {adv.articleHero.pissingOffIndustry.p5}
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
-                          34 days later he called me.
+                          {adv.articleHero.pissingOffIndustry.p6}
                         </h2>
                       </div>
                     </div>
@@ -1452,9 +1093,7 @@ export const ArticleHero = () => {
                               <span className="text-black text-lg box-border caret-transparent leading-[25.2px] max-w-full outline-[3px] md:leading-7">
                                 <i className="italic box-border caret-transparent leading-[25.2px] max-w-full outline-[3px] md:leading-7">
                                   <strong className="font-bold box-border caret-transparent leading-[25.2px] max-w-full outline-[3px] md:leading-7">
-                                    &quot;eGFR is 27. My doctor ran them twice.
-                                    She said she&#39;s never seen numbers move
-                                    like that going in this direction.&quot;
+                                    {adv.articleHero.pissingOffIndustry.callout}
                                   </strong>
                                 </i>
                               </span>
@@ -1466,36 +1105,30 @@ export const ArticleHero = () => {
                     <div className="text-[15px] box-border caret-transparent leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left md:text-base md:leading-[28.8px]">
                       <div className="text-[15px] box-border caret-transparent flex leading-[27px] max-w-full outline-[3px] md:text-base md:leading-[28.8px]">
                         <h2 className="text-neutral-900 text-lg bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[25.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-bitter">
-                          Within eight weeks I had people finding me from
-                          everywhere.
+                          {adv.articleHero.pissingOffIndustry.p7}
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
-                          CKD patients whose nephrologists had already scheduled
-                          their dialysis consultations…
+                          {adv.articleHero.pissingOffIndustry.p8}
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
-                          Diabetics watching their kidney function disappear
-                          faster than their blood sugar ever explained…
+                          {adv.articleHero.pissingOffIndustry.p9}
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
-                          People who&#39;d been told by three different doctors
-                          that this was simply how the rest of their life would
-                          look.
+                          {adv.articleHero.pissingOffIndustry.p10}
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <strong className="font-bold box-border caret-transparent max-w-full outline-[3px]">
-                            Every. Single. One. Got. Better.
+                            {adv.articleHero.pissingOffIndustry.everyOne}
                           </strong>
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
-                          Not &quot;slowed the progression&quot; better. Not
-                          &quot;bought a few more months&quot; better.
+                          {adv.articleHero.pissingOffIndustry.p11}
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
-                          Actually, measurably, life-changingly better.
+                          {adv.articleHero.pissingOffIndustry.p12}
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
-                          That&#39;s when the threats started.
+                          {adv.articleHero.pissingOffIndustry.p13}
                         </h2>
                       </div>
                     </div>
@@ -1506,7 +1139,7 @@ export const ArticleHero = () => {
                     <div className="text-[15px] box-border caret-transparent leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left mb-2 md:text-base md:leading-[28.8px]">
                       <div className="text-[15px] box-border caret-transparent flex leading-[27px] max-w-full outline-[3px] md:text-base md:leading-[28.8px]">
                         <h2 className="text-neutral-900 text-2xl font-bold bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[31.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-playfair_display md:text-[32px] md:leading-[41.6px]">
-                          When You Mess With $73 Billion, They Come For You
+                          {adv.articleHero.whenYouMess.heading}
                         </h2>
                       </div>
                     </div>
@@ -1517,7 +1150,7 @@ export const ArticleHero = () => {
                       <div className="text-[15px] box-border caret-transparent flex h-full justify-center leading-[27px] max-w-full outline-[3px] w-full md:text-base md:leading-[28.8px]">
                         <picture className="text-[15px] box-border caret-transparent contents leading-[27px] max-w-full outline-[3px] md:text-base md:leading-[28.8px]">
                           <img
-                            src="https://c.animaapp.com/mr0pqk6b3NyYkT/assets/12_309d235d-ef3e-4207-9577-eeeb3e2b1f35.png"
+                            src={media.articleHero.whenYouMess.imageSrc}
                             alt=""
                             className="text-[15px] box-border caret-transparent leading-[27px] max-w-full min-h-[auto] min-w-[auto] object-cover outline-[3px] w-full md:text-base md:leading-[28.8px]"
                           />
@@ -1527,55 +1160,44 @@ export const ArticleHero = () => {
                     <div className="text-[15px] box-border caret-transparent leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left md:text-base md:leading-[28.8px]">
                       <div className="text-[15px] box-border caret-transparent flex leading-[27px] max-w-full outline-[3px] md:text-base md:leading-[28.8px]">
                         <h2 className="text-neutral-900 text-lg bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[25.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-bitter">
-                          Dr. Sandra Okafor — someone I&#39;d called a colleague
-                          for 14 years — pulled me aside at a conference in
-                          Philadelphia.
+                          {adv.articleHero.whenYouMess.p1}
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <i className="italic box-border caret-transparent max-w-full outline-[3px]">
-                            &quot;Malcolm. What you&#39;re doing is making
-                            powerful people very uncomfortable. I&#39;m telling
-                            you this as a friend. Stop while you still
-                            can.&quot;
+                            {adv.articleHero.whenYouMess.quote1}
                           </i>
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <strong className="font-bold box-border caret-transparent max-w-full outline-[3px]">
-                            I told him to shove it.
+                            {adv.articleHero.whenYouMess.shoveIt}
                           </strong>
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
-                          Then came the cease and desist letters.
+                          {adv.articleHero.whenYouMess.p2}
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
-                          Two law firms representing &quot;concerned medical
-                          professionals&quot; claiming I was &quot;undermining
-                          established treatment protocols.&quot;
+                          {adv.articleHero.whenYouMess.p3}
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
-                          Funny how they never once challenged the actual
-                          results.
+                          {adv.articleHero.whenYouMess.p4}
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
-                          And I think we both know why.
+                          {adv.articleHero.whenYouMess.p5}
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                            
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <strong className="font-bold box-border caret-transparent max-w-full outline-[3px]">
-                            A Black doctor from Howard had figured out why Black
-                            folk were suffering...
+                            {adv.articleHero.whenYouMess.blackDoctor}
                           </strong>
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
-                          And found a solution that didn&#39;t require a{" "}
+                          {adv.articleHero.whenYouMess.p6pre}{" "}
                           <strong className="font-bold box-border caret-transparent max-w-full outline-[3px]">
-                            single prescription or a single dollar going into
-                            the pockets of an industry that had spent decades
-                            ignoring us.
+                            {adv.articleHero.whenYouMess.p6bold}
                           </strong>
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
-                          A solution that:
+                          {adv.articleHero.whenYouMess.p7}
                         </h2>
                       </div>
                     </div>
@@ -1587,7 +1209,7 @@ export const ArticleHero = () => {
                               <div className="text-[15px] box-border caret-transparent flex shrink-0 leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] overflow-hidden md:text-base md:leading-[28.8px]">
                                 <span className="text-neutral-900 text-[40px] items-center box-border caret-transparent flex h-full justify-center leading-[72px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden md:text-base md:leading-[28.8px]">
                                   <img
-                                    src="https://c.animaapp.com/mr0pqk6b3NyYkT/assets/icon-1.svg"
+                                    src={media.articleHero.bulletIcon1}
                                     alt="Icon"
                                     className="text-[40px] box-border caret-transparent h-10 leading-[72px] outline-[3px] w-10 md:text-base md:leading-[28.8px]"
                                   />
@@ -1599,12 +1221,9 @@ export const ArticleHero = () => {
                                     <p className="box-border caret-transparent max-w-full outline-[3px]">
                                       <span className="text-black box-border caret-transparent max-w-full outline-[3px]">
                                         <strong className="font-bold box-border caret-transparent max-w-full outline-[3px]">
-                                          Fixed the ROOT CAUSE of kidney decline
+                                          {adv.articleHero.whenYouMess.solutionList[0].bold}
                                         </strong>
-                                        — dissolving the zombie cell buildup
-                                        blocking your kidney&#39;s lymphatic
-                                        vessels instead of just restricting what
-                                        goes in
+                                        {adv.articleHero.whenYouMess.solutionList[0].text}
                                       </span>
                                     </p>
                                   </div>
@@ -1615,7 +1234,7 @@ export const ArticleHero = () => {
                               <div className="text-[15px] box-border caret-transparent flex shrink-0 leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] overflow-hidden md:text-base md:leading-[28.8px]">
                                 <span className="text-neutral-900 text-[40px] items-center box-border caret-transparent flex h-full justify-center leading-[72px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden md:text-base md:leading-[28.8px]">
                                   <img
-                                    src="https://c.animaapp.com/mr0pqk6b3NyYkT/assets/icon-1.svg"
+                                    src={media.articleHero.bulletIcon1}
                                     alt="Icon"
                                     className="text-[40px] box-border caret-transparent h-10 leading-[72px] outline-[3px] w-10 md:text-base md:leading-[28.8px]"
                                   />
@@ -1627,10 +1246,9 @@ export const ArticleHero = () => {
                                     <p className="box-border caret-transparent max-w-full outline-[3px]">
                                       <span className="text-black box-border caret-transparent max-w-full outline-[3px]">
                                         <strong className="font-bold box-border caret-transparent max-w-full outline-[3px]">
-                                          Worked in under 5 minutes a day{" "}
+                                          {adv.articleHero.whenYouMess.solutionList[1].bold}
                                         </strong>
-                                        — not during expensive nephrology
-                                        appointments billing $300-500 an hour
+                                        {adv.articleHero.whenYouMess.solutionList[1].text}
                                       </span>
                                     </p>
                                   </div>
@@ -1641,7 +1259,7 @@ export const ArticleHero = () => {
                               <div className="text-[15px] box-border caret-transparent flex shrink-0 leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] overflow-hidden md:text-base md:leading-[28.8px]">
                                 <span className="text-neutral-900 text-[40px] items-center box-border caret-transparent flex h-full justify-center leading-[72px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden md:text-base md:leading-[28.8px]">
                                   <img
-                                    src="https://c.animaapp.com/mr0pqk6b3NyYkT/assets/icon-1.svg"
+                                    src={media.articleHero.bulletIcon1}
                                     alt="Icon"
                                     className="text-[40px] box-border caret-transparent h-10 leading-[72px] outline-[3px] w-10 md:text-base md:leading-[28.8px]"
                                   />
@@ -1653,12 +1271,9 @@ export const ArticleHero = () => {
                                     <p className="box-border caret-transparent max-w-full outline-[3px]">
                                       <span className="text-black box-border caret-transparent max-w-full outline-[3px]">
                                         <strong className="font-bold box-border caret-transparent max-w-full outline-[3px]">
-                                          Cost less than a single month of
-                                          pharmaceuticals
+                                          {adv.articleHero.whenYouMess.solutionList[2].bold}
                                         </strong>
-                                        — not the $400-800 a month you&#39;re
-                                        handing to pharmacies that know these
-                                        pills never fix anything
+                                        {adv.articleHero.whenYouMess.solutionList[2].text}
                                       </span>
                                     </p>
                                   </div>
@@ -1669,7 +1284,7 @@ export const ArticleHero = () => {
                               <div className="text-[15px] box-border caret-transparent flex shrink-0 leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] overflow-hidden md:text-base md:leading-[28.8px]">
                                 <span className="text-neutral-900 text-[40px] items-center box-border caret-transparent flex h-full justify-center leading-[72px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden md:text-base md:leading-[28.8px]">
                                   <img
-                                    src="https://c.animaapp.com/mr0pqk6b3NyYkT/assets/icon-1.svg"
+                                    src={media.articleHero.bulletIcon1}
                                     alt="Icon"
                                     className="text-[40px] box-border caret-transparent h-10 leading-[72px] outline-[3px] w-10 md:text-base md:leading-[28.8px]"
                                   />
@@ -1680,11 +1295,9 @@ export const ArticleHero = () => {
                                   <div className="text-neutral-900 text-lg box-border caret-transparent leading-[25.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left w-full border overflow-hidden border-solid border-transparent font-bitter">
                                     <p className="box-border caret-transparent max-w-full outline-[3px]">
                                       <strong className="font-bold box-border caret-transparent max-w-full outline-[3px]">
-                                        Let people clear the zombie cells at
-                                        home
+                                        {adv.articleHero.whenYouMess.solutionList[3].bold}
                                       </strong>
-                                      — not in dialysis centers billing Medicare
-                                      $90,000 a year per patient
+                                      {adv.articleHero.whenYouMess.solutionList[3].text}
                                     </p>
                                   </div>
                                 </div>
@@ -1697,34 +1310,26 @@ export const ArticleHero = () => {
                     <div className="text-[15px] box-border caret-transparent leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left md:text-base md:leading-[28.8px]">
                       <div className="text-[15px] box-border caret-transparent flex leading-[27px] max-w-full outline-[3px] md:text-base md:leading-[28.8px]">
                         <h2 className="text-neutral-900 text-lg bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[25.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-bitter">
-                          But here&#39;s what they didn&#39;t count on...
+                          {adv.articleHero.whenYouMess.p8}
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
-                          I had already partnered with a startup out of Atlanta
-                          who believed in the mission.
+                          {adv.articleHero.whenYouMess.p9}
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                            
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
-                          Eight months perfecting the ratios. Testing
-                          absorption. Refining the formula.
+                          {adv.articleHero.whenYouMess.p10}
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
-                          The result was better than we could have ever hoped
-                          for.
+                          {adv.articleHero.whenYouMess.p11}
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <strong className="font-bold box-border caret-transparent max-w-full outline-[3px]">
-                            A formula that dissolves senescent cells, clears
-                            your kidney&#39;s lymphatic vessels, and restores
-                            the filtration your body was designed to do on its
-                            own...
+                            {adv.articleHero.whenYouMess.p12}
                           </strong>
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <strong className="font-bold box-border caret-transparent max-w-full outline-[3px]">
-                            Using compounds your ancestors relied on for
-                            generations, now validated by modern nephrology
-                            research.
+                            {adv.articleHero.whenYouMess.p13}
                           </strong>
                         </h2>
                       </div>
@@ -1739,11 +1344,7 @@ export const ArticleHero = () => {
                       <div className="text-[15px] box-border caret-transparent flex leading-[27px] max-w-full outline-[3px] md:text-base md:leading-[28.8px]">
                         <div className="text-black text-sm font-semibold bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[25.2px] max-w-full min-h-0 min-w-0 outline-[3px] text-center w-full overflow-hidden bg-center font-figtree md:text-base md:leading-[22.4px] md:min-h-[auto] md:min-w-[auto]">
                           <p className="text-sm box-border caret-transparent leading-[25.2px] max-w-full outline-[3px] md:text-base md:leading-[22.4px]">
-                            A breakthrough botanical formula is making headlines
-                            for slowing kidney function decline by up to 84% —
-                            without dialysis prep, prescription diuretics, or
-                            watching your creatinine numbers creep up every
-                            three months.
+                            {adv.articleHero.sidebar.blurb1}
                           </p>
                         </div>
                       </div>
@@ -1755,7 +1356,7 @@ export const ArticleHero = () => {
                       <div className="text-[15px] box-border caret-transparent flex h-full justify-center leading-[27px] max-w-full outline-[3px] w-full md:text-base md:leading-[28.8px]">
                         <picture className="text-[15px] box-border caret-transparent contents leading-[27px] max-w-full outline-[3px] md:text-base md:leading-[28.8px]">
                           <img
-                            src="https://c.animaapp.com/mr0pqk6b3NyYkT/assets/1773151925154_Elavyn_1.webp"
+                            src={media.articleHero.sidebar.image1}
                             alt=""
                             className="text-[15px] box-border caret-transparent leading-[27px] max-w-full min-h-0 min-w-0 object-cover outline-[3px] w-full md:text-base md:leading-[28.8px] md:min-h-[auto] md:min-w-[auto]"
                           />
@@ -1766,12 +1367,7 @@ export const ArticleHero = () => {
                       <div className="text-[15px] box-border caret-transparent flex leading-[27px] max-w-full outline-[3px] md:text-base md:leading-[28.8px]">
                         <div className="text-black text-sm font-semibold bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[25.2px] max-w-full min-h-0 min-w-0 outline-[3px] text-center w-full overflow-hidden bg-center font-figtree md:text-base md:leading-[22.4px] md:min-h-[auto] md:min-w-[auto]">
                           <p className="text-sm box-border caret-transparent leading-[25.2px] max-w-full outline-[3px] md:text-base md:leading-[22.4px]">
-                            After 14 months of research and over 8,600 patients,
-                            Dr. Malcolm Carter and his team identified natural
-                            compounds that dissolves the &quot;zombie
-                            cells&quot; suffocating the kidneys - all packed
-                            into one precise daily formula called Flow+ by
-                            Elavyn.
+                            {adv.articleHero.sidebar.blurb2}
                           </p>
                         </div>
                       </div>
@@ -1783,7 +1379,7 @@ export const ArticleHero = () => {
                       <div className="text-[15px] box-border caret-transparent flex h-full justify-center leading-[27px] max-w-full outline-[3px] w-full md:text-base md:leading-[28.8px]">
                         <picture className="text-[15px] box-border caret-transparent contents leading-[27px] max-w-full outline-[3px] md:text-base md:leading-[28.8px]">
                           <img
-                            src="https://c.animaapp.com/mr0pqk6b3NyYkT/assets/Untitled_design_16_1.png"
+                            src={media.articleHero.sidebar.image2}
                             alt=""
                             className="text-[15px] box-border caret-transparent leading-[27px] max-w-full min-h-0 min-w-0 object-cover outline-[3px] w-full md:text-base md:leading-[28.8px] md:min-h-[auto] md:min-w-[auto]"
                           />

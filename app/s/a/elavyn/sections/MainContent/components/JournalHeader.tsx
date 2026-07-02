@@ -1,3 +1,6 @@
+// @ts-nocheck
+import adv from "../../../adv.json";
+
 export const JournalHeader = () => {
   return (
     <section className="text-[15px] box-border caret-transparent contents leading-[27px] outline-[3px] scroll-smooth font-ui_sans_serif md:text-base md:leading-[28.8px]">
@@ -9,7 +12,7 @@ export const JournalHeader = () => {
                 <div className="text-[15px] box-border caret-transparent leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left md:text-base md:leading-[28.8px]">
                   <div className="text-[15px] box-border caret-transparent flex leading-[27px] max-w-full outline-[3px] md:text-base md:leading-[28.8px]">
                     <h2 className="text-white text-2xl font-bold bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[31.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-center w-full overflow-hidden bg-center font-playfair_display md:text-[46px] md:leading-[59.8px]">
-                      RENAL RESET JOURNAL
+                      {adv.journalHeader.heading}
                     </h2>
                   </div>
                 </div>
