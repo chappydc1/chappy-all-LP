@@ -1,3 +1,6 @@
+// @ts-nocheck
+import adv from "../../../adv.json";
+import media from "../../../media.json";
 import { IngredientCard } from "./IngredientCard";
 
 export const IngredientsSection = () => {
@@ -7,46 +10,36 @@ export const IngredientsSection = () => {
         <div className="text-[15px] box-border caret-transparent leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left mb-2 md:text-base md:leading-[28.8px]">
           <div className="text-[15px] box-border caret-transparent flex leading-[27px] max-w-full outline-[3px] md:text-base md:leading-[28.8px]">
             <h2 className="text-neutral-900 text-2xl font-bold bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[31.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-playfair_display md:text-[32px] md:leading-[41.6px]">
-              Flow+ Contains 6 Powerful Natural Ingredients That Work To
-              Dissolve Senescent &quot;Zombie&quot; Cells &amp; Restore The
-              Filtration Your Kidneys Were Designed To Do
+              {adv.ingredients.heading}
             </h2>
           </div>
         </div>
         <IngredientCard
           rootClassName=""
-          imageSrc="https://c.animaapp.com/mr0pqk6b3NyYkT/assets/1773240392115_Elavyn_10.webp"
-          title="Astragalus Root"
+          imageSrc={media.ingredients.items[0].imageSrc}
+          title={adv.ingredients.items[0].title}
         >
           <div className="text-[15px] box-border caret-transparent leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left md:text-base md:leading-[28.8px]">
             <div className="text-[15px] box-border caret-transparent flex leading-[27px] max-w-full outline-[3px] md:text-base md:leading-[28.8px]">
               <div className="text-black text-lg bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[25.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-center w-full overflow-hidden bg-center font-bitter md:leading-[27px]">
                 <p className="box-border caret-transparent leading-[25.2px] max-w-full outline-[3px] md:leading-[27px]">
-                  Chinese emperors used astragalus for 2,000 years to extend
-                  their lives — and modern research is showing they were onto
-                  something huge.
+                  {adv.ingredients.items[0].paragraphs[0]}
                 </p>
                 <p className="box-border caret-transparent leading-[25.2px] max-w-full outline-[3px] md:leading-[27px]">
                   <br className="box-border caret-transparent leading-[25.2px] max-w-full outline-[3px] md:leading-[27px]" />
-                  Because astragalus is one of the only plants on Earth that
-                  directly hunts down senescent cells.
+                  {adv.ingredients.items[0].paragraphs[1]}
                 </p>
                 <p className="box-border caret-transparent leading-[25.2px] max-w-full outline-[3px] md:leading-[27px]">
-                  {"\u00A0"}
+                  {adv.ingredients.items[0].paragraphs[2]}
                 </p>
                 <p className="box-border caret-transparent leading-[25.2px] max-w-full outline-[3px] md:leading-[27px]">
-                  A 2019 study showed astragalus root clears out the zombies
-                  already smothering your kidneys… while also stopping healthy
-                  cells from ever turning senescent in the first place.
+                  {adv.ingredients.items[0].paragraphs[3]}
                 </p>
                 <p className="box-border caret-transparent leading-[25.2px] max-w-full outline-[3px] md:leading-[27px]">
-                  {"\u00A0"}
+                  {adv.ingredients.items[0].paragraphs[4]}
                 </p>
                 <p className="box-border caret-transparent leading-[25.2px] max-w-full outline-[3px] md:leading-[27px]">
-                  That means in as little as a few weeks you could start seeing
-                  numbers move in the right direction for the first time in
-                  years — and waking up with energy that doesn't disappear
-                  before noon.
+                  {adv.ingredients.items[0].paragraphs[5]}
                 </p>
               </div>
             </div>
@@ -54,83 +47,69 @@ export const IngredientsSection = () => {
         </IngredientCard>
         <IngredientCard
           rootClassName="mb-4 md:mb-8"
-          imageSrc="https://c.animaapp.com/mr0pqk6b3NyYkT/assets/1773240435425_Generated_Image_November_08_2025___9_20PM.webp"
-          title="Cleavers"
+          imageSrc={media.ingredients.items[1].imageSrc}
+          title={adv.ingredients.items[1].title}
         >
           <p className="box-border caret-transparent leading-[25.2px] max-w-full outline-[3px] md:leading-[27px]">
-            A 2020 study confirmed cleavers acts as a direct lymphatic flush⁵ —
-            physically clearing congestion from blocked kidney vessels so
-            wastewater finally starts moving out.
+            {adv.ingredients.items[1].paragraphs[0]}
           </p>
           <p className="box-border caret-transparent leading-[25.2px] max-w-full outline-[3px] md:leading-[27px]">
-            &nbsp;
+            {adv.ingredients.items[1].paragraphs[1]}
           </p>
           <p className="box-border caret-transparent leading-[25.2px] max-w-full outline-[3px] md:leading-[27px]">
-            Think of it this way: astragalus turns off the faucet. Cleavers
-            drains the backed-up sink.
+            {adv.ingredients.items[1].paragraphs[2]}
           </p>
           <p className="box-border caret-transparent leading-[25.2px] max-w-full outline-[3px] md:leading-[27px]">
-            &nbsp;
+            {adv.ingredients.items[1].paragraphs[3]}
           </p>
           <p className="box-border caret-transparent leading-[25.2px] max-w-full outline-[3px] md:leading-[27px]">
-            Next, I tackled the chronic inflammation keeping your kidneys stuck.
+            {adv.ingredients.items[1].paragraphs[4]}
           </p>
         </IngredientCard>
         <div className="relative text-[15px] content-start box-border caret-transparent gap-x-4 grid grid-cols-[minmax(0px,12fr)] grid-rows-[1fr] justify-start leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] gap-y-0 w-full mx-auto md:text-base md:leading-[28.8px] md:w-[1200px]">
           <div className="relative text-[15px] box-border caret-transparent flex flex-col justify-start leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] md:text-base md:leading-[28.8px]">
             <IngredientCard
               rootClassName="mb-4"
-              imageSrc="https://c.animaapp.com/mr0pqk6b3NyYkT/assets/1773240410369_Elavyn_9.webp"
-              title="Red Clover"
+              imageSrc={media.ingredients.items[2].imageSrc}
+              title={adv.ingredients.items[2].title}
             >
               <>
                 <p className="box-border caret-transparent leading-[25.2px] max-w-full outline-[3px] md:leading-[27px]">
-                  A 2017 study found red clover contains natural “lymphokinetic”
-                  compounds that reduce lymphatic inflammation⁷ — soothing the
-                  vessel walls inside your kidneys so fluid can drain without
-                  resistance.
+                  {adv.ingredients.items[2].paragraphs[0]}
                 </p>
                 <p className="box-border caret-transparent leading-[25.2px] max-w-full outline-[3px] md:leading-[27px]">
-                  &nbsp;
+                  {adv.ingredients.items[2].paragraphs[1]}
                 </p>
                 <p className="box-border caret-transparent leading-[25.2px] max-w-full outline-[3px] md:leading-[27px]">
-                  Then, I rounded things off with a slew of natural compounds to
-                  take the formula to the next level...
+                  {adv.ingredients.items[2].paragraphs[2]}
                 </p>
               </>
             </IngredientCard>
             <IngredientCard
               rootClassName="mb-4"
-              imageSrc="https://c.animaapp.com/mr0pqk6b3NyYkT/assets/1773240449818_Generated_Image_October_25_2025___2_10PM.webp"
-              title="Burdock Root"
+              imageSrc={media.ingredients.items[3].imageSrc}
+              title={adv.ingredients.items[3].title}
             >
               <p className="box-border caret-transparent leading-[25.2px] max-w-full outline-[3px] md:leading-[27px]">
-                Burdock Root does something almost no other herb on Earth can do
-                - it flips on a switch in your body called autophagy - a
-                powerful self-healing mechanism that cleans up zombie cells from
-                inside your kidney&#39;s lymphatic system.
+                {adv.ingredients.items[3].paragraphs[0]}
               </p>
             </IngredientCard>
             <IngredientCard
               rootClassName="mb-4"
-              imageSrc="https://c.animaapp.com/mr0pqk6b3NyYkT/assets/1773240468793_Generated_Image_November_08_2025___9_17PM.webp"
-              title="Calendula"
+              imageSrc={media.ingredients.items[4].imageSrc}
+              title={adv.ingredients.items[4].title}
             >
               <p className="box-border caret-transparent leading-[25.2px] max-w-full outline-[3px] md:leading-[27px]">
-                A 2017 study found calendula can improve circulation and reduce
-                fluid retention throughout the body.
+                {adv.ingredients.items[4].paragraphs[0]}
               </p>
             </IngredientCard>
             <IngredientCard
               rootClassName="mb-4 md:mb-0"
-              imageSrc="https://c.animaapp.com/mr0pqk6b3NyYkT/assets/1773240482706_Generated_Image_November_08_2025___9_16PM.webp"
-              title="Echinacea"
+              imageSrc={media.ingredients.items[5].imageSrc}
+              title={adv.ingredients.items[5].title}
             >
               <p className="box-border caret-transparent leading-[25.2px] max-w-full outline-[3px] md:leading-[27px]">
-                Echinacea supercharges your NK (Natural Killer) cells:
-                specialized assassins that your immune system uses to hunt down
-                and destroy senescent zombie cells. Clearing the toxic blanket
-                smothering your filtration.
+                {adv.ingredients.items[5].paragraphs[0]}
               </p>
             </IngredientCard>
           </div>

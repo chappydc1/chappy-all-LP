@@ -1,3 +1,6 @@
+// @ts-nocheck
+import media from "../../../media.json";
+
 export type CommentItemReply = {
   avatarUrl?: string;
   author: string;
@@ -54,7 +57,7 @@ export const CommentItem = (props: CommentItemProps) => {
             {props.showReactionIcon ? (
               <>
                 <img
-                  src="https://c.animaapp.com/mr0pqk6b3NyYkT/assets/28.avif"
+                  src={media.comments.reactionIcon}
                   alt=""
                   className="relative box-border caret-transparent max-w-full outline-[3px] break-words w-[13px] bottom-[3px]"
                 />
@@ -105,7 +108,7 @@ export const CommentItem = (props: CommentItemProps) => {
                       {reply.showReactionIcon ? (
                         <>
                           <img
-                            src="https://c.animaapp.com/mr0pqk6b3NyYkT/assets/28.avif"
+                            src={media.comments.reactionIcon}
                             alt=""
                             className="relative box-border caret-transparent max-w-full outline-[3px] break-words w-[13px] bottom-[3px]"
                           />

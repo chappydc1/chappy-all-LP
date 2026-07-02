@@ -1,0 +1,86 @@
+{
+  "articleHero": {
+    "heroVideoSrc": "https://cdn.shopify.com/videos/c/o/v/6b5a1537267f49d69769105ded8c298c.mp4",
+    "heroImageSrc": "https://c.animaapp.com/mr0pqk6b3NyYkT/assets/Untitled_design_22.png",
+    "dayEverythingChanged": {
+      "imageSrc": "https://c.animaapp.com/mr0pqk6b3NyYkT/assets/hf_20260430_175427_8e1fa2f2-d7d7-439d-ae21-0e8974639668_1_1.png",
+      "videoSrc": "https://cdn.shopify.com/videos/c/o/v/b505734a4e4f4ec1b6352dd64de065a3.mov"
+    },
+    "researchRevealed": {
+      "videoSrc": "https://cdn.shopify.com/videos/c/o/v/9c9afdb7e9064ca380d26058941cb2f4.mov"
+    },
+    "realRootCause": {
+      "videoSrc": "https://cdn.shopify.com/videos/c/o/v/2da72882b79b42eabd6aa37e0fc84555.mov"
+    },
+    "weatheringEffect": {
+      "videoSrc": "https://cdn.shopify.com/videos/c/o/v/fc42273d540248f7a2e099a71564e4f7.mov"
+    },
+    "miracleHiding": {
+      "videoSrc": "https://cdn.shopify.com/videos/c/o/v/c529ae34fc1b4506b9e7cd044a2d8088.mov"
+    },
+    "whenYouMess": {
+      "imageSrc": "https://c.animaapp.com/mr0pqk6b3NyYkT/assets/12_309d235d-ef3e-4207-9577-eeeb3e2b1f35.png"
+    },
+    "bulletIcon1": "https://c.animaapp.com/mr0pqk6b3NyYkT/assets/icon-1.svg",
+    "bulletIcon2": "https://c.animaapp.com/mr0pqk6b3NyYkT/assets/icon-2.svg",
+    "sidebar": {
+      "image1": "https://c.animaapp.com/mr0pqk6b3NyYkT/assets/1773151925154_Elavyn_1.webp",
+      "image2": "https://c.animaapp.com/mr0pqk6b3NyYkT/assets/Untitled_design_16_1.png"
+    }
+  },
+  "comments": {
+    "reactionIcon": "https://c.animaapp.com/mr0pqk6b3NyYkT/assets/28.avif"
+  },
+  "guarantee": {
+    "image": "https://c.animaapp.com/mr0pqk6b3NyYkT/assets/1773243221323_7.webp",
+    "bulletIcon": "https://c.animaapp.com/mr0pqk6b3NyYkT/assets/icon-1.svg"
+  },
+  "finalCta": {
+    "bulletIcon": "https://c.animaapp.com/mr0pqk6b3NyYkT/assets/icon-1.svg",
+    "ctaImage1": "https://c.animaapp.com/mr0pqk6b3NyYkT/assets/hf_20260313_104632_83b8bf74-594b-41e1-80b0-9d7e6222848e.jpg",
+    "ctaImage2": "https://c.animaapp.com/mr0pqk6b3NyYkT/assets/1773242692333_Adv_Lymph_3_ffcf76c7-144f-4ae1-851a-640192b89ef3.webp"
+  },
+  "authorRow": {
+    "authorPhoto": "https://c.animaapp.com/mr0pqk6b3NyYkT/assets/1770129805-Screenshot_2026-02-03_at_4.42.52_PM.webp"
+  },
+  "pricing": {
+    "bulletIcon": "https://c.animaapp.com/mr0pqk6b3NyYkT/assets/icon-1.svg"
+  },
+  "results": {
+    "mainImage": "https://c.animaapp.com/mr0pqk6b3NyYkT/assets/hf_20260324_151906_73579d00-b30d-4628-aa51-bb67d69aa365.jpg",
+    "itemIcon": "https://c.animaapp.com/mr0pqk6b3NyYkT/assets/icon-1.svg"
+  },
+  "productIntro": {
+    "videoSrc": "https://cdn.shopify.com/videos/c/o/v/3bab43370b1243429526504fb36e1584.mov",
+    "bulletIconSrc": "https://c.animaapp.com/mr0pqk6b3NyYkT/assets/icon-1.svg"
+  },
+  "ingredients": {
+    "items": [
+      {
+        "imageSrc": "https://c.animaapp.com/mr0pqk6b3NyYkT/assets/1773240392115_Elavyn_10.webp"
+      },
+      {
+        "imageSrc": "https://c.animaapp.com/mr0pqk6b3NyYkT/assets/1773240435425_Generated_Image_November_08_2025___9_20PM.webp"
+      },
+      {
+        "imageSrc": "https://c.animaapp.com/mr0pqk6b3NyYkT/assets/1773240410369_Elavyn_9.webp"
+      },
+      {
+        "imageSrc": "https://c.animaapp.com/mr0pqk6b3NyYkT/assets/1773240449818_Generated_Image_October_25_2025___2_10PM.webp"
+      },
+      {
+        "imageSrc": "https://c.animaapp.com/mr0pqk6b3NyYkT/assets/1773240468793_Generated_Image_November_08_2025___9_17PM.webp"
+      },
+      {
+        "imageSrc": "https://c.animaapp.com/mr0pqk6b3NyYkT/assets/1773240482706_Generated_Image_November_08_2025___9_16PM.webp"
+      }
+    ]
+  },
+  "productOffer": {
+    "pricingImageSrc": "https://c.animaapp.com/mr0pqk6b3NyYkT/assets/1773243378308_6.webp",
+    "sixtyOffImageSrc": "https://c.animaapp.com/mr0pqk6b3NyYkT/assets/hf_20260313_104632_83b8bf74-594b-41e1-80b0-9d7e6222848e.jpg",
+    "brutalRealityImageSrc": "https://c.animaapp.com/mr0pqk6b3NyYkT/assets/1752158983611_httpsassets.checkoutchamp.comFunnelassetsimages0c550aa8_bfd8_436e_b88c_baf46dcfb762afe720dc_08f0_4a93_aabf_3687735392cb1698069323_1688312587252_1_1_.pngversionId_ubVohYQ.webp",
+    "decadeHeroImageSrc": "https://c.animaapp.com/mr0pqk6b3NyYkT/assets/22.png",
+    "happensNextHeroImageSrc": "https://c.animaapp.com/mr0pqk6b3NyYkT/assets/hf_20260324_151906_73579d00-b30d-4628-aa51-bb67d69aa365.jpg"
+  }
+}

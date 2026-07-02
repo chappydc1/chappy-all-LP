@@ -1,3 +1,7 @@
+// @ts-nocheck
+import adv from "../../../adv.json";
+import media from "../../../media.json";
+
 export type PricingSectionProps = {
   title: React.ReactNode;
   mediaVariant: string;
@@ -52,8 +56,8 @@ export const PricingSection = (props: PricingSectionProps) => {
                       <div className="text-[15px] box-border caret-transparent flex shrink-0 leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] overflow-hidden md:text-base md:leading-[28.8px]">
                         <span className="text-neutral-900 text-[40px] items-center box-border caret-transparent flex h-full justify-center leading-[72px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden md:text-base md:leading-[28.8px]">
                           <img
-                            src="https://c.animaapp.com/mr0pqk6b3NyYkT/assets/icon-1.svg"
-                            alt="Icon"
+                            src={media.pricing.bulletIcon}
+                            alt={adv.pricing.bulletIconAlt}
                             className="text-[40px] box-border caret-transparent h-10 leading-[72px] outline-[3px] w-10 md:text-base md:leading-[28.8px]"
                           />
                         </span>
