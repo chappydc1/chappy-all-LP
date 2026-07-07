@@ -116,7 +116,7 @@ function VideoPlayer({
       <div className="relative w-full" style={{ paddingTop: "56.25%" }}>
         {source.format === "wistia" ? (
           <iframe
-            src={`https://fast.wistia.net/embed/iframe/${source.id}?videoFoam=true`}
+            src={`https://fast.wistia.net/embed/iframe/${source.id}?videoFoam=true&controlsVisibleOnLoad=true&playbar=true&volumeControl=true&fullscreenButton=true`}
             frameBorder="0"
             scrolling="no"
             allowFullScreen
