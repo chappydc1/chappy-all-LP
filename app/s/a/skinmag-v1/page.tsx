@@ -1,5 +1,5 @@
 import rawContent from "./copy.json";
-import rawMedia from "./adv-media.json";
+import rawMedia from "./media.json";
 import { TopBar } from "./sections/TopBar";
 import type { AdvertorialContent, AdvertorialMedia } from "./sections/TopBar";
 

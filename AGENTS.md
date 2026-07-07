@@ -22,7 +22,7 @@ app/                          # Next.js App Router
       <slug>/
         page.tsx              # Route page component — imports and renders TopBar
         copy.json              # Page text content (headings, CTAs, comments, footer)
-        adv-media.json        # Page media content (image/video URLs, icon URLs)
+        media.json        # Page media content (image/video URLs, icon URLs)
 
 src/
   sections/
@@ -49,7 +49,7 @@ tailwind.config.js            # Theme tokens, custom animations, font families
 tsconfig.json                 # Path aliases (@/ → src/)
 ```
 
-Each advertorial route is driven entirely by its `copy.json` and `adv-media.json` files. The page component reads those files and passes them as props to `TopBar`. No dynamic data fetching occurs at runtime.
+Each advertorial route is driven entirely by its `copy.json` and `media.json` files. The page component reads those files and passes them as props to `TopBar`. No dynamic data fetching occurs at runtime.
 
 ## Dev Commands
 
@@ -173,7 +173,7 @@ Key rules:
 ```tsx
 // app/s/a/my-slug/page.tsx — Server Component, no "use client":
 import content from "./copy.json"
-import media from "./adv-media.json"
+import media from "./media.json"
 import { TopBar } from "@/sections/TopBar"
 
 export default function MySlugPage() {
@@ -195,11 +195,11 @@ import { useState, useEffect } from "react"
 Each advertorial route is driven by two JSON files co-located with the page:
 
 - `copy.json` — all text content: headings, paragraphs, CTA labels, comment items, footer copy
-- `adv-media.json` — all media references: image URLs, video URLs, icon URLs, avatar URLs
+- `media.json` — all media references: image URLs, video URLs, icon URLs, avatar URLs
 
 The page passes both files as props to `TopBar`. Downstream components read from these via `AdvertorialContext`. To add a new advertorial route:
 
-1. Create `app/s/a/<slug>/` with `page.tsx`, `copy.json`, and `adv-media.json`
+1. Create `app/s/a/<slug>/` with `page.tsx`, `copy.json`, and `media.json`
 2. Copy the structure from an existing route's JSON files and update the values
 3. The page component is identical for every route — only the JSON files differ
 

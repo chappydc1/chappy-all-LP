@@ -1,5 +1,5 @@
 import advContent from "./copy.json";
-import advMedia from "./adv-media.json";
+import advMedia from "./media.json";
 import { TopBar, type AdvertorialContent, type AdvertorialMedia } from "./sections/TopBar";
 
 export default function NooroPage() {
