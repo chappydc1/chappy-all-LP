@@ -20,6 +20,7 @@
     "v10": { "format": "wistia", "id": "xg341uibrl", "layout": "alternate" }
   },
   "images": {
+    "aurivitaImg": "/images/capcaicinn/aurivita.webp",
     "altImage": "/images/nebroo-v1/1739334351801_So_what_are_my_options.webp",
     "optionsImg": "/images/nebroo-v1/1739334351801_So_what_are_my_options.webp",
     "costImg": "/images/nebroo-v1/1725110900577_Image_11_v3.webp",
