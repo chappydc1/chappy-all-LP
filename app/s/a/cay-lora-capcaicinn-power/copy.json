@@ -31,8 +31,9 @@
   },
   "bodySections": [
     {
-      "type": "video",
-      "mediaKey": "v1"
+      "type": "image",
+      "mediaKey": "investigationGif",
+      "className": "w-full"
     },
     {
       "type": "paragraph",
@@ -56,9 +57,8 @@
       "text": "The 90-Day Investigation"
     },
     {
-      "type": "image",
-      "mediaKey": "investigationGif",
-      "className": "w-full"
+      "type": "video",
+      "mediaKey": "v2"
     },
     {
       "type": "paragraph",
