@@ -534,7 +534,7 @@ function CheckoutOfferSection({
     <div className="mt-[10px]">
       <img src={media.article.dividerBarSrc} alt="" className="w-full h-3 object-cover" />
       <div className="w-full pt-[15px] pb-8 bg-yellow-50 px-[25px]">
-        <div>
+        <div className="text-zinc-800 text-lg leading-7 font-montserrat">
           <b className="text-lg font-bold leading-7">
             <span className="text-red-600">{checkoutUpdate.label}</span>
           </b>
