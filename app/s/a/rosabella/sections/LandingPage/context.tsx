@@ -12,6 +12,7 @@ export type RosabellaCopyType = {
   quoteText: string;
   quoteAuthor: string;
   introBody: string;
+  productName: string;
   ctaUrl: string;
   ctaText: string;
   introSection: {

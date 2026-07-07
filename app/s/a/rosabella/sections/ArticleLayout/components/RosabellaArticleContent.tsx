@@ -1,5 +1,6 @@
 "use client";
 
+import { Fragment } from "react";
 import { useAdvertorial } from "../../LandingPage/context";
 import { RosabellaArticleHeader } from "./RosabellaArticleHeader";
 import { RosabellaReasonSection } from "./RosabellaReasonSection";
@@ -8,6 +9,24 @@ import { RosabellaCommentsSection } from "./RosabellaCommentsSection";
 
 const pClass =
   "text-[20.4583px] box-border caret-transparent leading-[30.6875px] outline-[3px] md:text-xl md:leading-[30px]";
+
+// Auto-links every mention of the product name inside a plain-text paragraph,
+// so copy.json can stay plain (LLM-editable) while the CTA link is preserved.
+const withProductLink = (text: string, productName: string, url: string) => {
+  if (!productName) return text;
+  const parts = text.split(productName);
+  if (parts.length === 1) return text;
+  return parts.map((part, i) => (
+    <Fragment key={i}>
+      {part}
+      {i < parts.length - 1 && (
+        <a href={url} className="text-green-600 underline">
+          {productName}
+        </a>
+      )}
+    </Fragment>
+  ));
+};
 
 export const RosabellaArticleContent = () => {
   const { copy, media } = useAdvertorial();
@@ -91,11 +110,15 @@ export const RosabellaArticleContent = () => {
         <p className={pClass}>{copy.introSection.p6}</p>
         <p className={pClass}><br /></p>
         <p className={pClass}>{copy.introSection.p7}</p>
-        <p className={pClass}>{copy.introSection.p8}</p>
+        <p className={pClass}>
+          {withProductLink(copy.introSection.p8, copy.productName, copy.ctaUrl)}
+        </p>
         <p className={pClass}><br /></p>
         <p className={pClass}>{copy.introSection.p9}</p>
         <p className={pClass}><br /></p>
-        <p className={pClass}>{copy.introSection.p10}</p>
+        <p className={pClass}>
+          {withProductLink(copy.introSection.p10, copy.productName, copy.ctaUrl)}
+        </p>
       </RosabellaReasonSection>
 
       {/* Reason 1 */}
