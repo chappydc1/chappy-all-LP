@@ -261,36 +261,23 @@ function GuaranteeIconsGrid({
   guarantees: AdvertorialContent["article"]["guarantees"];
   media: AdvertorialMedia["article"];
 }): React.ReactElement {
+  const items = [
+    { src: media.guaranteeImageSrc, alt: "guarantee", label: guarantees.guaranteeText },
+    { src: media.checkoutImageSrc, alt: "checkout", label: guarantees.checkoutText },
+    { src: media.returnsImageSrc, alt: "returns", label: guarantees.returnsText },
+    { src: media.shippingImageSrc, alt: "shipping", label: guarantees.shippingText },
+  ];
+
   return (
-    <div className="w-full">
-      <div className="flex w-full">
-        <div className="items-center flex flex-col justify-center w-full p-px">
-          <img src={media.guaranteeImageSrc} alt="guarantee" className="max-w-full w-[100px]" />
+    <div className="grid grid-cols-2 gap-x-2.5 gap-y-8 w-full md:flex md:gap-x-5">
+      {items.map((item) => (
+        <div key={item.label} className="items-center flex flex-col justify-center w-full p-px">
+          <img src={item.src} alt={item.alt} className="max-w-full w-[100px]" />
           <div className="text-zinc-800 text-[15px] font-medium leading-5 text-center mt-[15px] px-[5px] font-montserrat">
-            {guarantees.guaranteeText}
+            {item.label}
           </div>
         </div>
-        <div className="items-center flex flex-col justify-center w-full p-px">
-          <img src={media.checkoutImageSrc} alt="checkout" className="max-w-full w-[100px]" />
-          <div className="text-zinc-800 text-[15px] font-medium leading-5 text-center mt-[15px] px-[5px] font-montserrat">
-            {guarantees.checkoutText}
-          </div>
-        </div>
-      </div>
-      <div className="flex w-full mt-2.5">
-        <div className="items-center flex flex-col justify-center w-full p-px">
-          <img src={media.returnsImageSrc} alt="returns" className="max-w-full w-[100px]" />
-          <div className="text-zinc-800 text-[15px] font-medium leading-5 text-center mt-[15px] px-[5px] font-montserrat">
-            {guarantees.returnsText}
-          </div>
-        </div>
-        <div className="items-center flex flex-col justify-center w-full p-px">
-          <img src={media.shippingImageSrc} alt="shipping" className="max-w-full w-[100px]" />
-          <div className="text-zinc-800 text-[15px] font-medium leading-5 text-center mt-[15px] px-[5px] font-montserrat">
-            {guarantees.shippingText}
-          </div>
-        </div>
-      </div>
+      ))}
     </div>
   );
 }
