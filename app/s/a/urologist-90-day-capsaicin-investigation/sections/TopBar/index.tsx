@@ -116,20 +116,19 @@ function VideoPlayer({
       <div className="relative w-full" style={{ paddingTop: "56.25%" }}>
         {source.format === "wistia" ? (
           <iframe
-            src={`https://fast.wistia.net/embed/iframe/${source.id}?autoPlay=true&muted=1&videoFoam=true`}
+            src={`https://fast.wistia.net/embed/iframe/${source.id}?videoFoam=true`}
             frameBorder="0"
             scrolling="no"
             allowFullScreen
+            allow="fullscreen"
             className="absolute top-0 left-0 w-full h-full"
             title={`Video ${mediaKey}`}
           />
         ) : (
           <video
             src={source.src}
-            autoPlay
-            muted
+            controls
             playsInline
-            loop
             className="absolute top-0 left-0 w-full h-full object-cover"
           />
         )}
