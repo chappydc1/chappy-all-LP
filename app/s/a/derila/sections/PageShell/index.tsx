@@ -3,7 +3,7 @@ import { ArticleLayout } from "../ArticleLayout";
 import { StickyBottomCta } from "../../components/StickyBottomCta";
 import { Footer } from "../Footer";
 import { CookiePreferences } from "../../components/CookiePreferences";
-import adv from "../../adv.json";
+import adv from "../../copy.json";
 
 export const PageShell = () => {
   return (

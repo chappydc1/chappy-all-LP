@@ -1,4 +1,4 @@
-import content from "./adv.json"
+import content from "./copy.json"
 import media from "./adv-media.json"
 import { TopBar } from "./sections/TopBar"
 

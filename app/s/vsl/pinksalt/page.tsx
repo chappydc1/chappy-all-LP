@@ -5,7 +5,7 @@ import { ViewerCount } from "./components/ViewerCount";
 import { ScientificReferences } from "./components/ScientificReferences";
 import { CommentsSection } from "./sections/CommentsSection";
 import { Footer } from "./sections/Footer";
-import adv from "./adv.json";
+import adv from "./copy.json";
 import media from "./media.json";
 
 export const metadata = {

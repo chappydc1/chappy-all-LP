@@ -1,4 +1,4 @@
-import advContent from "./adv.json";
+import advContent from "./copy.json";
 import advMedia from "./adv-media.json";
 import { TopBar } from "./sections/TopBar";
 

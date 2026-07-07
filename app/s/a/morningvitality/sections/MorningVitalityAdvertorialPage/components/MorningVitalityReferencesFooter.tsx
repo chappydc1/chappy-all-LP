@@ -1,4 +1,4 @@
-import advData from "../../../adv.json";
+import advData from "../../../copy.json";
 
 export const MorningVitalityReferencesFooter = () => {
   const { footer } = advData;

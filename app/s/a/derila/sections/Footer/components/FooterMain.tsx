@@ -1,4 +1,4 @@
-import adv from "../../../adv.json";
+import adv from "../../../copy.json";
 import { FooterLogo } from "../../Footer/components/FooterLogo";
 import { FooterColumn } from "../../Footer/components/FooterColumn";
 

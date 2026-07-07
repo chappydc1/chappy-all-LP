@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import Image from "next/image";
-import adv from "./adv.json";
+import adv from "./copy.json";
 import media from "./media.json";
 
 export const metadata = {

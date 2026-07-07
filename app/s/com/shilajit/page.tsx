@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import adv from "./adv.json";
+import adv from "./copy.json";
 import media from "./media.json";
 import { Navbar } from "./components/Navbar";
 import { Breadcrumb } from "./components/Breadcrumb";
