@@ -125,6 +125,12 @@
       "className": "w-full"
     },
     {
+      "type": "reviews"
+    },
+    {
+      "type": "as-seen-on"
+    },
+    {
       "type": "heading",
       "text": "Order Now And Save Up To 70%"
     },
