@@ -1,18 +1,18 @@
 "use client"
 
-export type ProductGalleryProps = {
+export type PipiteaProductGalleryProps = {
   images: string[]
   currentImage: number
   onImageChange: (index: number) => void
   variant: "main" | "thumbnails"
 }
 
-export const ProductGallery = ({
+export const PipiteaProductGallery = ({
   images,
   currentImage,
   onImageChange,
   variant,
-}: ProductGalleryProps): JSX.Element => {
+}: PipiteaProductGalleryProps): JSX.Element => {
   if (variant === "thumbnails") {
     return (
       <div className="flex flex-wrap gap-1.5 mt-2 mx-[15px] md:mx-auto justify-center">

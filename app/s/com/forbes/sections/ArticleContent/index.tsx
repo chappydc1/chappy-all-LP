@@ -1,4 +1,4 @@
-export type ArticleContentProps = {
+export type ForbesArticleContentProps = {
   variant:
     | "disclaimer"
     | "glp1-accessible"
@@ -8,7 +8,7 @@ export type ArticleContentProps = {
     | "weekly-injection";
 };
 
-export const ArticleContent = (props: ArticleContentProps) => {
+export const ForbesArticleContent = (props: ForbesArticleContentProps) => {
   if (props.variant === "disclaimer") {
     return (
       <div className="relative box-border caret-transparent flex shrink-0 min-h-[auto] min-w-[auto] text-zinc-700 text-xs flex-col leading-4 font-georgia">

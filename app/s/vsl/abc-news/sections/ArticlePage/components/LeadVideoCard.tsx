@@ -1,4 +1,4 @@
-export const LeadVideoCard = () => {
+export const AbcNewsLeadVideoCard = () => {
   return (
     <div className="box-border caret-transparent outline-[3px] mb-6">
       <div className="box-border caret-transparent outline-[3px]">

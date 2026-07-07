@@ -1,7 +1,7 @@
-import { ReplyComment } from "../../CommentsSection/components/ReplyComment";
-import { CommentItem } from "../../CommentsSection/components/CommentItem";
+import { TodayReplyComment } from "../../CommentsSection/components/ReplyComment";
+import { TodayCommentItem } from "../../CommentsSection/components/CommentItem";
 
-export const CommentsList = () => {
+export const TodayCommentsList = () => {
   return (
     <section className="box-border caret-transparent max-w-screen-md outline-[3px] w-full mx-auto my-10 p-4 font-ui_sans_serif">
       <div className="box-border caret-transparent outline-[3px] border-gray-300 mb-6 pb-2 border-b border-solid font-montserrat">
@@ -10,15 +10,15 @@ export const CommentsList = () => {
         </h3>
       </div>
       <div className="box-border caret-transparent outline-[3px] font-montserrat">
-        <CommentItem
+        <TodayCommentItem
           containerClassName=""
           authorName="Sarah Brown"
           commentText="I started paying closer attention to my morning routine two weeks ago, and I already feel more consistent through the day. The article made the steps feel doable."
           timeText=" 2 h "
           timeClassName=""
-          replyComment={<ReplyComment />}
+          replyComment={<TodayReplyComment />}
         />
-        <CommentItem
+        <TodayCommentItem
           containerClassName="mt-5"
           authorName="Lauren Wilson"
           commentText="I've been applying these tips for 17 days now, and I've already noticed a significant improvement. I was even surprised by the results; simple adjustments really make a difference! Loved it"
@@ -26,7 +26,7 @@ export const CommentsList = () => {
           timeClassName="text-gray-400"
           replyComment={null}
         />
-        <CommentItem
+        <TodayCommentItem
           containerClassName="mt-5"
           authorName="Lucy Johnson"
           commentText="Daniel, you've helped me a lot. I feel like a different person — more energized and with a real desire to face the day. What a blessing!"

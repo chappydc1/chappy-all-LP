@@ -1,4 +1,4 @@
-export type FooterNavColumnProps = {
+export type GrunsFooterNavColumnProps = {
   title: string;
   links: {
     href: string;
@@ -9,7 +9,7 @@ export type FooterNavColumnProps = {
   logoAlt: string;
 };
 
-export const FooterNavColumn = (props: FooterNavColumnProps) => {
+export const GrunsFooterNavColumn = (props: GrunsFooterNavColumnProps) => {
   return (
     <li className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] border-t border-solid border-white md:border-t-0">
       <button className="text-amber-400 text-2xl items-center bg-transparent caret-transparent flex justify-between leading-6 outline-[3px] pointer-events-auto text-center w-full mb-4 pt-4 pb-0 px-0 font-retail_display md:pointer-events-none md:pt-0">

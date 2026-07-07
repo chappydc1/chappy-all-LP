@@ -9,7 +9,7 @@ const Item = ({ children }: { children: React.ReactNode }) => (
   </div>
 );
 
-export const HeroFeatureList = () => {
+export const NebrooHeroFeatureList = () => {
   return (
     <div className="pl-2.5 pt-0 md:pt-2.5">
       <Item><b className="font-bold">Immediately improve your hearing,</b> inexpensively</Item>

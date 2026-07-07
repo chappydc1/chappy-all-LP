@@ -1,7 +1,7 @@
 "use client";
 import { useScrollReveal } from "../../hooks/useScrollReveal";
 
-export const SocialProof = () => {
+export const NebrooSocialProof = () => {
   const { ref, visible } = useScrollReveal();
   return (
     <div id="social-proof" className="items-stretch box-border caret-transparent flex flex-wrap justify-center max-w-full px-0 py-5 md:flex-nowrap md:px-2.5 md:py-[30px]">

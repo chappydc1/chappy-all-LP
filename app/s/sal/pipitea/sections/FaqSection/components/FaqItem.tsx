@@ -1,11 +1,11 @@
-export type FaqItemProps = {
+export type PipiteaFaqItemProps = {
   title: string;
   content: React.ReactNode;
   className: string;
   contentTag: string;
 };
 
-export const FaqItem = (props: FaqItemProps) => {
+export const PipiteaFaqItem = (props: PipiteaFaqItemProps) => {
   const ContentTag = props.contentTag as "p" | "h3";
 
   return (

@@ -1,4 +1,4 @@
-export const ArticleAuthor = () => {
+export const JavyArticleAuthor = () => {
   return (
     <div className="box-border caret-transparent flex flex-wrap justify-between min-h-[auto] min-w-[auto] w-full md:flex-nowrap">
       <div className="items-center box-border caret-transparent flex min-h-[auto] min-w-[auto]">

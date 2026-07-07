@@ -1,15 +1,15 @@
-export type SidebarProsConsItem = {
+export type PrimepicksSidebarProsConsItem = {
   iconSrc: string;
   text: string;
   isLast?: boolean;
 };
 
-export type SidebarProsConsProps = {
-  items: SidebarProsConsItem[];
+export type PrimepicksSidebarProsConsProps = {
+  items: PrimepicksSidebarProsConsItem[];
   textClassName: string;
 };
 
-export const SidebarProsCons = (props: SidebarProsConsProps) => {
+export const PrimepicksSidebarProsCons = (props: PrimepicksSidebarProsConsProps) => {
   return (
     <div className="box-border caret-transparent flex flex-col min-h-0 min-w-0 md:min-h-[auto] md:min-w-[auto]">
       {props.items.map((item, index) => {

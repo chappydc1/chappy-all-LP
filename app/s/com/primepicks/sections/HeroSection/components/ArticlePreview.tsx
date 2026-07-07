@@ -1,8 +1,8 @@
-export type ArticlePreviewProps = {
+export type PrimepicksArticlePreviewProps = {
   variantClass: string;
 };
 
-export const ArticlePreview = (props: ArticlePreviewProps) => {
+export const PrimepicksArticlePreview = (props: PrimepicksArticlePreviewProps) => {
   return (
     <div
       className={`text-neutral-600 bg-neutral-100 box-border caret-transparent text-ellipsis overflow-hidden mt-0 pt-3 pb-6 px-4 md:bg-transparent md:mt-6 md:p-0 ${props.variantClass}`}

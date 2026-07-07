@@ -1,4 +1,4 @@
-export const HeroHeadline = () => {
+export const NebrooHeroHeadline = () => {
   return (
     <div className="text-black text-[32px] font-bold bg-white box-border caret-transparent basis-[0%] shrink-0 leading-8 text-left pt-px pb-2.5 px-2.5 rounded-[1px] font-montserrat md:bg-transparent md:leading-[38px]">
       <div className="text-red-600 box-border caret-transparent leading-[34px] md:leading-[38px]">

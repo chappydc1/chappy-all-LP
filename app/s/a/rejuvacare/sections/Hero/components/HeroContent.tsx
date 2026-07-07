@@ -1,8 +1,8 @@
-import { BenefitList } from "../../Hero/components/BenefitList";
-import { CallToAction } from "../../Hero/components/CallToAction";
-import { DoctorReview } from "../../../components/DoctorReview";
+import { RejuvacareBenefitList } from "../../Hero/components/BenefitList";
+import { RejuvacareCallToAction } from "../../Hero/components/CallToAction";
+import { RejuvacareDoctorReview } from "../../../components/DoctorReview";
 
-export const HeroContent = () => {
+export const RejuvacareHeroContent = () => {
   return (
     <div className="items-start self-center box-border caret-transparent flex flex-col justify-center min-h-[auto] min-w-[auto] outline-[3px] w-full mt-0 pt-2.5 pb-0 px-[15px] md:items-center md:w-[70%] md:mt-2.5 md:pl-[90px] md:pr-[30px] md:pt-px md:pb-3">
       <div className="text-stone-700 text-[40px] font-extrabold box-border caret-transparent leading-[48px] min-h-[auto] min-w-[auto] outline-[3px] text-left p-px font-montserrat md:text-[53px] md:leading-[63.6px]">
@@ -30,7 +30,7 @@ export const HeroContent = () => {
           <div className="text-neutral-900 text-[23px] font-bold box-border caret-transparent basis-[0%] shrink-0 leading-[32.2px] outline-[3px] pr-0 rounded-[1px] md:text-[33px] md:leading-[46.2px] md:pr-5"></div>
         </div>
       </div>
-      <BenefitList
+      <RejuvacareBenefitList
         containerVariant="items-start md:items-center"
         imageVariant="mt-[7px]"
         contentVariant=""
@@ -39,7 +39,7 @@ export const HeroContent = () => {
         text="Fast Relief From Stiff, Painful, Swollen Knees"
         hasNestedText={false}
       />
-      <BenefitList
+      <RejuvacareBenefitList
         containerVariant="items-start md:items-center"
         imageVariant="mt-[9px]"
         contentVariant=""
@@ -48,7 +48,7 @@ export const HeroContent = () => {
         text="Improves Blood Flow And Promotes Healing"
         hasNestedText={false}
       />
-      <BenefitList
+      <RejuvacareBenefitList
         containerVariant="items-center"
         imageVariant="mt-1.5"
         contentVariant=""
@@ -57,7 +57,7 @@ export const HeroContent = () => {
         text="Relieves Knee Pain, Bone-on-Bone Arthritis"
         hasNestedText={true}
       />
-      <BenefitList
+      <RejuvacareBenefitList
         containerVariant="items-start md:items-center"
         imageVariant="mt-1.5"
         contentVariant="items-center flex pt-px md:[align-items:normal] md:block md:pt-0"
@@ -66,7 +66,7 @@ export const HeroContent = () => {
         text="Extension Straps To Fit All Knee Sizes"
         hasNestedText={true}
       />
-      <CallToAction />
+      <RejuvacareCallToAction />
       <div className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] w-full">
         <i className="text-[17px] italic box-border caret-transparent leading-[25.5px] outline-[3px] font-montserrat md:text-base md:leading-6">
           <b className="text-[17px] font-bold box-border caret-transparent leading-[25.5px] outline-[3px] md:text-base md:leading-6">
@@ -75,7 +75,7 @@ export const HeroContent = () => {
           Not Available on Amazon or eBay
         </i>
       </div>
-      <DoctorReview
+      <RejuvacareDoctorReview
         containerVariant="bg-white min-h-[auto] min-w-[auto] rounded-[10px] md:rounded-[5px]"
         badgeVariant="leading-[19.2px]"
       />

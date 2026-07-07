@@ -1,9 +1,9 @@
-export type ComparisonPointProps = {
+export type PipiteaComparisonPointProps = {
   title: string;
   description: string;
 };
 
-export const ComparisonPoint = (props: ComparisonPointProps) => {
+export const PipiteaComparisonPoint = (props: PipiteaComparisonPointProps) => {
   return (
     <div
       className="items-center box-border caret-transparent flex justify-center min-w-[auto] outline-[3px]"

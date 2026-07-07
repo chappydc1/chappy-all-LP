@@ -1,6 +1,6 @@
-import { ContentSection } from "./ContentSection";
+import { ElavynContentSection } from "./ContentSection";
 
-export type ArticleBodyProps = {
+export type ElavynArticleBodyProps = {
   variant: "contentSection" | "container" | "titleOnly";
   children?: React.ReactNode;
   title?: string;
@@ -16,10 +16,10 @@ export type ArticleBodyProps = {
   containerClassName?: string;
 };
 
-export const ArticleBody = (props: ArticleBodyProps) => {
+export const ElavynArticleBody = (props: ElavynArticleBodyProps) => {
   if (props.variant === "contentSection") {
     return (
-      <ContentSection
+      <ElavynContentSection
         title={props.title}
         titleContainerClassName={props.titleContainerClassName}
         titleClassName={props.titleClassName}
@@ -32,7 +32,7 @@ export const ArticleBody = (props: ArticleBodyProps) => {
         mediaRole={props.mediaRole}
       >
         {props.children}
-      </ContentSection>
+      </ElavynContentSection>
     );
   }
 

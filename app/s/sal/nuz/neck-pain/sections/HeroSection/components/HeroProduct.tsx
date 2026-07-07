@@ -1,6 +1,6 @@
 import { content } from "../../../content";
 
-export const HeroProduct = () => {
+export const NuzHeroProduct = () => {
   return (
     <div className="relative box-border caret-transparent min-h-0 min-w-0 w-full h-full overflow-hidden">
       <div className="absolute items-center box-border caret-transparent flex justify-center w-[150px] z-[1] left-[3%] top-[4%]">

@@ -1,4 +1,4 @@
-export type KitItemProps = {
+export type RejuvacareKitItemProps = {
   rootVariant: string;
   imageSrc: string;
   label: string;
@@ -6,7 +6,7 @@ export type KitItemProps = {
   spacerCount: string;
 };
 
-export const KitItem = (props: KitItemProps) => {
+export const RejuvacareKitItem = (props: RejuvacareKitItemProps) => {
   const spacerCount = Number(props.spacerCount);
 
   return (

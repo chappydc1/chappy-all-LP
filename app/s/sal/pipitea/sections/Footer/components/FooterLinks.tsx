@@ -1,4 +1,4 @@
-export const FooterLinks = () => {
+export const PipiteaFooterLinks = () => {
   return (
     <div
       className="text-black text-[15px] items-center box-border caret-transparent flex flex-col leading-[22.5px] min-h-[auto] min-w-[auto] outline-[3px] text-center w-full mt-[15px]"

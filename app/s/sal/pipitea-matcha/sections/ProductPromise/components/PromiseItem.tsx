@@ -1,4 +1,4 @@
-export type PromiseItemProps = {
+export type PipiteaMatchaPromiseItemProps = {
   outerClassName: string;
   wrapperClassName: string;
   contentClassName: string;
@@ -23,7 +23,7 @@ export type PromiseItemProps = {
   showThirdItem: string;
 };
 
-export const PromiseItem = (props: PromiseItemProps) => {
+export const PipiteaMatchaPromiseItem = (props: PipiteaMatchaPromiseItemProps) => {
   const hasThirdItem = props.showThirdItem === "true";
   const firstTextUsesSpan = props.firstTextUsesSpan === "true";
 

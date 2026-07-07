@@ -4,7 +4,7 @@ type FooterProps = {
   copyright: string;
 };
 
-export const Footer = ({ logoSrc, disclaimer, copyright }: FooterProps) => {
+export const ForbesFooter = ({ logoSrc, disclaimer, copyright }: FooterProps) => {
   return (
     <footer className="forbes-footer">
       <p className="forbes-footer__disclosure">{disclaimer}</p>

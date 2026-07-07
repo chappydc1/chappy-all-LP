@@ -1,4 +1,4 @@
-export type SplitMediaProps = {
+export type RejuvacareSplitMediaProps = {
   containerVariant: string;
   title: string;
   titleVariant: string;
@@ -8,7 +8,7 @@ export type SplitMediaProps = {
   videoVariant: string;
 };
 
-export const SplitMedia = (props: SplitMediaProps) => {
+export const RejuvacareSplitMedia = (props: RejuvacareSplitMediaProps) => {
   return (
     <div
       className={`box-border caret-transparent outline-[3px] w-full py-px ${props.containerVariant}`}

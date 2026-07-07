@@ -1,6 +1,6 @@
-import { IngredientCard } from "./IngredientCard";
+import { ElavynIngredientCard } from "./IngredientCard";
 
-export const IngredientsSection = () => {
+export const ElavynIngredientsSection = () => {
   return (
     <div className="relative text-[15px] content-start box-border caret-transparent gap-x-4 grid grid-cols-[minmax(0px,12fr)] grid-rows-[1fr] justify-start leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] gap-y-0 w-full mb-6 mx-auto md:text-base md:leading-[28.8px] md:w-[1200px]">
       <div className="relative text-[15px] box-border caret-transparent flex flex-col justify-start leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] md:text-base md:leading-[28.8px]">
@@ -13,7 +13,7 @@ export const IngredientsSection = () => {
             </h2>
           </div>
         </div>
-        <IngredientCard
+        <ElavynIngredientCard
           rootClassName=""
           imageSrc="https://c.animaapp.com/mr0pqk6b3NyYkT/assets/1773240392115_Elavyn_10.webp"
           title="Astragalus Root"
@@ -51,8 +51,8 @@ export const IngredientsSection = () => {
               </div>
             </div>
           </div>
-        </IngredientCard>
-        <IngredientCard
+        </ElavynIngredientCard>
+        <ElavynIngredientCard
           rootClassName="mb-4 md:mb-8"
           imageSrc="https://c.animaapp.com/mr0pqk6b3NyYkT/assets/1773240435425_Generated_Image_November_08_2025___9_20PM.webp"
           title="Cleavers"
@@ -75,10 +75,10 @@ export const IngredientsSection = () => {
           <p className="box-border caret-transparent leading-[25.2px] max-w-full outline-[3px] md:leading-[27px]">
             Next, I tackled the chronic inflammation keeping your kidneys stuck.
           </p>
-        </IngredientCard>
+        </ElavynIngredientCard>
         <div className="relative text-[15px] content-start box-border caret-transparent gap-x-4 grid grid-cols-[minmax(0px,12fr)] grid-rows-[1fr] justify-start leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] gap-y-0 w-full mx-auto md:text-base md:leading-[28.8px] md:w-[1200px]">
           <div className="relative text-[15px] box-border caret-transparent flex flex-col justify-start leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] md:text-base md:leading-[28.8px]">
-            <IngredientCard
+            <ElavynIngredientCard
               rootClassName="mb-4"
               imageSrc="https://c.animaapp.com/mr0pqk6b3NyYkT/assets/1773240410369_Elavyn_9.webp"
               title="Red Clover"
@@ -98,8 +98,8 @@ export const IngredientsSection = () => {
                   take the formula to the next level...
                 </p>
               </>
-            </IngredientCard>
-            <IngredientCard
+            </ElavynIngredientCard>
+            <ElavynIngredientCard
               rootClassName="mb-4"
               imageSrc="https://c.animaapp.com/mr0pqk6b3NyYkT/assets/1773240449818_Generated_Image_October_25_2025___2_10PM.webp"
               title="Burdock Root"
@@ -110,8 +110,8 @@ export const IngredientsSection = () => {
                 powerful self-healing mechanism that cleans up zombie cells from
                 inside your kidney&#39;s lymphatic system.
               </p>
-            </IngredientCard>
-            <IngredientCard
+            </ElavynIngredientCard>
+            <ElavynIngredientCard
               rootClassName="mb-4"
               imageSrc="https://c.animaapp.com/mr0pqk6b3NyYkT/assets/1773240468793_Generated_Image_November_08_2025___9_17PM.webp"
               title="Calendula"
@@ -120,8 +120,8 @@ export const IngredientsSection = () => {
                 A 2017 study found calendula can improve circulation and reduce
                 fluid retention throughout the body.
               </p>
-            </IngredientCard>
-            <IngredientCard
+            </ElavynIngredientCard>
+            <ElavynIngredientCard
               rootClassName="mb-4 md:mb-0"
               imageSrc="https://c.animaapp.com/mr0pqk6b3NyYkT/assets/1773240482706_Generated_Image_November_08_2025___9_16PM.webp"
               title="Echinacea"
@@ -132,7 +132,7 @@ export const IngredientsSection = () => {
                 and destroy senescent zombie cells. Clearing the toxic blanket
                 smothering your filtration.
               </p>
-            </IngredientCard>
+            </ElavynIngredientCard>
           </div>
         </div>
       </div>

@@ -1,6 +1,6 @@
 import media from "../../../media.json";
 
-export const FooterLogo = () => {
+export const DerilaFooterLogo = () => {
   const { footerLogo } = media;
 
   return (

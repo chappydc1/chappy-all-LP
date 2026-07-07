@@ -1,18 +1,18 @@
-import { SidebarScorePanel } from "../../ArticleSection/components/SidebarScorePanel";
-import { SidebarProsCons } from "../../ArticleSection/components/SidebarProsCons";
+import { PrimepicksSidebarScorePanel } from "../../ArticleSection/components/SidebarScorePanel";
+import { PrimepicksSidebarProsCons } from "../../ArticleSection/components/SidebarProsCons";
 
-export const Sidebar = () => {
+export const PrimepicksSidebar = () => {
   return (
     <aside className="box-border caret-transparent hidden min-h-0 min-w-0 w-[300px] md:block md:min-h-[auto] md:min-w-[auto]">
       <div className="sticky bg-zinc-50 box-border caret-transparent gap-x-2 flex flex-col gap-y-2 border border-neutral-200 p-4 rounded-[10px] border-solid top-5">
-        <SidebarScorePanel
+        <PrimepicksSidebarScorePanel
           variant="review"
           score="9.8"
           starsImageUrl="/images/primepicks/green-stars.svg"
           rating="Excellent"
           reviewCount="9,137 Customer Reviews"
         />
-        <SidebarScorePanel
+        <PrimepicksSidebarScorePanel
           variant="breakdown"
           categories={[
             {
@@ -45,7 +45,7 @@ export const Sidebar = () => {
         <h4 className="text-emerald-500 text-lg font-bold box-border caret-transparent leading-5 min-h-0 min-w-0 md:min-h-[auto] md:min-w-[auto]">
           PROS
         </h4>
-        <SidebarProsCons
+        <PrimepicksSidebarProsCons
           textClassName="text-neutral-600 box-border caret-transparent block leading-[22px] min-h-0 min-w-0 md:min-h-[auto] md:min-w-[auto]"
           items={[
             {
@@ -103,7 +103,7 @@ export const Sidebar = () => {
         <h4 className="text-red-400 text-lg font-bold box-border caret-transparent leading-5 min-h-0 min-w-0 mt-2 md:min-h-[auto] md:min-w-[auto]">
           CONS
         </h4>
-        <SidebarProsCons
+        <PrimepicksSidebarProsCons
           items={[
             {
               iconSrc:

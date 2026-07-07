@@ -10,7 +10,7 @@ const P = ({ text }: { text: string }) => (
   </p>
 );
 
-export function ArticleFeatures() {
+export function ZikeeyArticleFeatures() {
   const { features } = adv.article;
 
   return (

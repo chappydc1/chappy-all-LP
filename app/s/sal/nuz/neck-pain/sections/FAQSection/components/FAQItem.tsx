@@ -7,7 +7,7 @@ type FAQItemProps = {
   answer: React.ReactNode;
 };
 
-export const FAQItem = ({ question, answer }: FAQItemProps) => {
+export const NuzFAQItem = ({ question, answer }: FAQItemProps) => {
   const [open, setOpen] = useState(false);
 
   return (

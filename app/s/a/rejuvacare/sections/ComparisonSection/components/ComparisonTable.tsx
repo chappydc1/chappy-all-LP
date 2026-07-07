@@ -1,6 +1,6 @@
-import { ComparisonRow } from "../../ComparisonSection/components/ComparisonRow";
+import { RejuvacareComparisonRow } from "../../ComparisonSection/components/ComparisonRow";
 
-export const ComparisonTable = () => {
+export const RejuvacareComparisonTable = () => {
   return (
     <div className="box-border caret-transparent min-h-[auto] min-w-[325px] outline-[3px] w-full mt-[30px] p-0 md:w-4/5 md:px-2.5 md:py-3">
       <div className="items-center box-border caret-transparent justify-center outline-[3px] w-full md:[align-items:normal] md:justify-normal"></div>
@@ -35,56 +35,56 @@ export const ComparisonTable = () => {
           </div>
         </div>
       </div>
-      <ComparisonRow
+      <RejuvacareComparisonRow
         rootClassName=""
         labelContainerClassName="pl-2.5 pr-0 py-0 md:pr-2.5 md:py-2.5"
         textClassName="leading-[18px] px-2.5 py-px"
         label="Lasting pain relief"
         firstIconCellClassName=""
       />
-      <ComparisonRow
+      <RejuvacareComparisonRow
         rootClassName="bg-black/0"
         labelContainerClassName="pl-2.5 pr-0 py-0 md:pr-2.5 md:py-2.5"
         textClassName="leading-[18px] px-2.5 py-px"
         label="Drug Free"
         firstIconCellClassName=""
       />
-      <ComparisonRow
+      <RejuvacareComparisonRow
         rootClassName=""
         labelContainerClassName="pl-[7px] pr-0 py-1.5 md:p-2.5"
         textClassName="leading-[18px] px-2.5 py-0 md:py-px"
         label="Easy to use & carry, wireless, and fully rechargable"
         firstIconCellClassName=""
       />
-      <ComparisonRow
+      <RejuvacareComparisonRow
         rootClassName="bg-black/0"
         labelContainerClassName="pl-[7px] pr-0 py-1.5 md:p-2.5"
         textClassName="leading-[18px] px-2.5 py-1.5 md:py-px"
         label="3 in 1 Technology: Compression, heat, & massage"
         firstIconCellClassName=""
       />
-      <ComparisonRow
+      <RejuvacareComparisonRow
         rootClassName=""
         labelContainerClassName="pl-2.5 pr-0 py-1.5 md:pr-2.5 md:py-2.5"
         textClassName="leading-[18px] pl-1.5 pr-2.5 pt-px pb-1.5 md:pl-2.5 md:pb-px"
         label="Activates body's self-healing mechanism"
         firstIconCellClassName=""
       />
-      <ComparisonRow
+      <RejuvacareComparisonRow
         rootClassName="bg-black/0"
         labelContainerClassName="pl-2.5 pr-0 py-1.5 md:pr-2.5 md:py-2.5"
         textClassName="leading-[18px] pl-1.5 pr-2.5 py-px md:pl-2.5"
         label="Reverses damage in the knee joint"
         firstIconCellClassName=""
       />
-      <ComparisonRow
+      <RejuvacareComparisonRow
         rootClassName="items-center box-border caret-transparent flex outline-[3px] w-full"
         labelContainerClassName="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] w-[200px] pl-[5px] pr-0 py-1.5 md:w-full md:p-2.5"
         textClassName="text-sm box-border caret-transparent leading-[18px] outline-[3px] text-left px-2.5 py-0 font-montserrat md:text-base md:leading-6 md:text-right md:py-px"
         label='Addresses "Join Blockage" The Root Cause'
         firstIconCellClassName=""
       />
-      <ComparisonRow
+      <RejuvacareComparisonRow
         rootClassName="items-center bg-black/0 box-border caret-transparent flex outline-[3px] w-full"
         labelContainerClassName="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] w-[200px] p-0 md:w-full md:p-2.5"
         textClassName="text-sm box-border caret-transparent leading-[22px] outline-[3px] text-left pl-4 pr-2.5 py-px font-montserrat md:text-base md:leading-6 md:text-right md:pl-2.5"

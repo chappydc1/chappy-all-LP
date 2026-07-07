@@ -1,4 +1,4 @@
-export const RecommendedProduct = () => {
+export const HikeRecommendedProduct = () => {
   return (
     <div className="box-border caret-transparent hidden h-[720px] min-h-0 min-w-0 outline-[3px] border border-zinc-400 ml-2.5 mt-5 pt-2.5 rounded-[10px] border-solid md:block md:min-h-[auto] md:min-w-[auto]">
       <div className="box-border caret-transparent outline-[3px] pt-2.5">

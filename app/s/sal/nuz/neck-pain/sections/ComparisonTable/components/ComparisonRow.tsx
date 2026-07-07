@@ -6,7 +6,7 @@ type ComparisonRowProps = {
   competitors: boolean[];
 };
 
-export const ComparisonRow = ({ label, nuzzle, competitors }: ComparisonRowProps) => {
+export const NuzComparisonRow = ({ label, nuzzle, competitors }: ComparisonRowProps) => {
   const cells = [
     { val: nuzzle, highlight: true },
     ...competitors.map((v) => ({ val: v, highlight: false })),

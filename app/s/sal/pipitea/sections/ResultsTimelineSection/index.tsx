@@ -1,7 +1,7 @@
-import { TimelineItem } from "./components/TimelineItem";
-import { SectionCta } from "../../components/SectionCta";
+import { PipiteaTimelineItem } from "./components/TimelineItem";
+import { PipiteaSectionCta } from "../../components/SectionCta";
 
-export const ResultsTimelineSection = () => {
+export const PipiteaResultsTimelineSection = () => {
   return (
     <section
       className="items-center bg-no-repeat box-border caret-transparent flex flex-col justify-items-center min-h-[auto] min-w-[auto] outline-[3px] w-full bg-center px-[15px] py-[45px] md:py-[60px]"
@@ -60,7 +60,7 @@ export const ResultsTimelineSection = () => {
                     <div
                       className="box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full"
                     >
-                      <TimelineItem
+                      <PipiteaTimelineItem
                         containerVariant="md:flex-row after:top-px after:md:top-[45px]"
                         contentVariant="border-zinc-700 after:border-l-zinc-800 after:border-r-pink-950 after:left-[-15px] after:border-r-[13px]"
                         timeLabel="1 Week"
@@ -74,7 +74,7 @@ export const ResultsTimelineSection = () => {
                     <div
                       className="box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full"
                     >
-                      <TimelineItem
+                      <PipiteaTimelineItem
                         containerVariant="md:flex-row-reverse after:top-[3px]"
                         contentVariant="border-pink-950 after:border-l-pink-950 after:border-r-zinc-800 after:right-[-15px] after:border-l-[13px]"
                         timeLabel="1 Month"
@@ -88,7 +88,7 @@ export const ResultsTimelineSection = () => {
                     <div
                       className="box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full"
                     >
-                      <TimelineItem
+                      <PipiteaTimelineItem
                         containerVariant="md:flex-row after:top-[3px]"
                         contentVariant="after:left-[-15px] after:border-l-zinc-800 after:border-r-pink-950 after:border-r-[13px]"
                         timeLabel="2 Months"
@@ -102,7 +102,7 @@ export const ResultsTimelineSection = () => {
                     <div
                       className="box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full"
                     >
-                      <TimelineItem
+                      <PipiteaTimelineItem
                         containerVariant="md:flex-row-reverse after:top-[3px]"
                         contentVariant="border-pink-950 after:border-l-pink-950 after:border-r-zinc-800 after:right-[-15px] after:border-l-[13px]"
                         timeLabel="3 Months"
@@ -116,7 +116,7 @@ export const ResultsTimelineSection = () => {
                     <div
                       className="box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full"
                     >
-                      <TimelineItem
+                      <PipiteaTimelineItem
                         containerVariant="md:flex-row after:top-[3px]"
                         contentVariant="border-pink-950 after:border-l-zinc-800 after:border-r-pink-950 after:left-[-15px] after:border-r-[13px]"
                         timeLabel="6 Months"
@@ -130,7 +130,7 @@ export const ResultsTimelineSection = () => {
                     <div
                       className="box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full"
                     >
-                      <TimelineItem
+                      <PipiteaTimelineItem
                         containerVariant="md:flex-row-reverse after:top-[3px]"
                         contentVariant="border-pink-950 after:border-l-pink-950 after:border-r-zinc-800 after:right-[-15px]"
                         timeLabel="12 Months"
@@ -168,7 +168,7 @@ export const ResultsTimelineSection = () => {
                     <div
                       className="items-stretch box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full"
                     >
-                      <SectionCta
+                      <PipiteaSectionCta
                         title="BUY NOW & SAVE"
                         text="BUY NOW & SAVE"
                       />

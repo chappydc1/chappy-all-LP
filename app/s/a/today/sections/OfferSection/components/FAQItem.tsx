@@ -1,4 +1,4 @@
-export type FAQItemProps = {
+export type TodayFAQItemProps = {
   question: string;
   answer: React.ReactNode;
   linkHref?: string;
@@ -12,7 +12,7 @@ export type FAQItemProps = {
   linkTextClassName?: string;
 };
 
-export const FAQItem = (props: FAQItemProps) => {
+export const TodayFAQItem = (props: TodayFAQItemProps) => {
   return (
     <div
       className={

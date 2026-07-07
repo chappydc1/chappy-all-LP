@@ -1,6 +1,6 @@
 "use client";
 
-export type ArticleHeaderProps = {
+export type RosabellaArticleHeaderProps = {
   variant: string;
   breadcrumbText?: string;
   headline?: React.ReactNode;
@@ -15,7 +15,7 @@ export type ArticleHeaderProps = {
   bodyContent?: React.ReactNode;
 };
 
-export const ArticleHeader = (props: ArticleHeaderProps) => {
+export const RosabellaArticleHeader = (props: RosabellaArticleHeaderProps) => {
   if (props.variant === "breadcrumb") {
     return (
       <div className="items-center box-border caret-transparent flex justify-center outline-[3px]">

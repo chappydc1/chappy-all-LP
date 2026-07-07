@@ -1,4 +1,4 @@
-export const TrackingFrame = () => {
+export const HearTrackingFrame = () => {
   return (
     <iframe
       src="https://a18365751434.cdn.optimizely.com/client_storage/a18365751434.html"

@@ -2,7 +2,7 @@
 
 import { useAdvertorial } from "../../LandingPage/context";
 
-export const AdvertorialBanner = () => {
+export const RosabellaAdvertorialBanner = () => {
   const { copy } = useAdvertorial();
 
   return (

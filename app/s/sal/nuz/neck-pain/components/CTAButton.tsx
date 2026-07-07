@@ -5,7 +5,7 @@ import { content } from "../content";
 
 type Props = { countdownSeconds?: number };
 
-export const CTAButton = ({ countdownSeconds }: Props) => {
+export const NuzCTAButton = ({ countdownSeconds }: Props) => {
   const { formatted } = useCountdown(countdownSeconds ?? content.hero.ctaCountdownSeconds);
 
   return (

@@ -1,4 +1,4 @@
-import type { HowItWorksStepContent } from "../../../types";
+import type { NuzHowItWorksStepContent } from "../../../types";
 
 const streamSrc = (id: string) =>
   `https://customer-sw7km7bonaql0e2y.cloudflarestream.com/${id}/iframe?muted=true&loop=true&autoplay=true&controls=false&poster=https%3A%2F%2Fcustomer-sw7km7bonaql0e2y.cloudflarestream.com%2F${id}%2Fthumbnails%2Fthumbnail.jpg%3Ftime%3D%26height%3D600`;
@@ -16,7 +16,7 @@ const renderParagraphs = (paragraphs: string[]) =>
     </span>
   ));
 
-export const HowItWorksStep = (props: HowItWorksStepContent) => {
+export const NuzHowItWorksStep = (props: NuzHowItWorksStepContent) => {
   return (
     <div className={`box-border caret-transparent md:pt-10 md:pb-[60px] ${props.containerVariantClass}`}>
       <div className="box-border caret-transparent max-w-none text-left w-full mx-auto md:max-w-[1200px] md:text-start">

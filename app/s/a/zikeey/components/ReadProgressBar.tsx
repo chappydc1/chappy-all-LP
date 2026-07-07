@@ -2,7 +2,7 @@
 
 import { useEffect } from "react";
 
-export function ReadProgressBar() {
+export function ZikeeyReadProgressBar() {
   useEffect(() => {
     const bar = document.createElement("div");
     bar.id = "read-progress";

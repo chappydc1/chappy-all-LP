@@ -1,5 +1,5 @@
 // @ts-nocheck
-export const TrendingBadge = () => {
+export const NexaTrendingBadge = () => {
   return (
     <div className="items-center self-center box-border caret-transparent hidden justify-end min-h-0 min-w-0 outline-[3px] w-[30%] px-2.5 md:flex md:min-h-[auto] md:min-w-[auto]">
       <img

@@ -1,8 +1,8 @@
-export type PageOverlaysProps = {
+export type ElavynPageOverlaysProps = {
   variant: "empty" | "overlay" | "image";
 };
 
-export const PageOverlays = (props: PageOverlaysProps) => {
+export const ElavynPageOverlays = (props: ElavynPageOverlaysProps) => {
   if (props.variant === "image") {
     return (
       <img

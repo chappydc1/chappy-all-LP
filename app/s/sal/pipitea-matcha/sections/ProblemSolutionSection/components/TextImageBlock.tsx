@@ -1,4 +1,4 @@
-export type TextImageBlockProps = {
+export type PipiteaMatchaTextImageBlockProps = {
   layoutVariant: string;
   imageUrl: string;
   imageSizes: string;
@@ -10,7 +10,7 @@ export type TextImageBlockProps = {
   content: React.ReactNode;
 };
 
-export const TextImageBlock = (props: TextImageBlockProps) => {
+export const PipiteaMatchaTextImageBlock = (props: PipiteaMatchaTextImageBlockProps) => {
   const isImageFirst = props.layoutVariant === "image-first";
 
   const imageColumn = (

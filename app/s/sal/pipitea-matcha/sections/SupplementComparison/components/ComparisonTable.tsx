@@ -1,4 +1,4 @@
-export const ComparisonTable = () => {
+export const PipiteaMatchaComparisonTable = () => {
   return (
     <div
       href=""

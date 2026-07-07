@@ -1,4 +1,4 @@
-export type NavbarActionsProps = {
+export type AbcNewsNavbarActionsProps = {
   containerClassName?: string;
   role?: string;
   showNotificationPopover?: boolean;
@@ -26,7 +26,7 @@ export type NavbarActionsProps = {
   streamLogoClassName?: string;
 };
 
-export const NavbarActions = (props: NavbarActionsProps) => {
+export const AbcNewsNavbarActions = (props: AbcNewsNavbarActionsProps) => {
   return (
     <div
       role={props.role}

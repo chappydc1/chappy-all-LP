@@ -1,13 +1,13 @@
 import adv from "../adv.json";
-import { ArticleMeta } from "./ArticleMeta";
-import { ArticleStory } from "./ArticleStory";
-import { ArticleFeatures } from "./ArticleFeatures";
-import { ArticleReviews } from "./ArticleReviews";
-import { ArticleConclusion } from "./ArticleConclusion";
-import { ArticleCTA } from "./ArticleCTA";
+import { ZikeeyArticleMeta } from "./ArticleMeta";
+import { ZikeeyArticleStory } from "./ArticleStory";
+import { ZikeeyArticleFeatures } from "./ArticleFeatures";
+import { ZikeeyArticleReviews } from "./ArticleReviews";
+import { ZikeeyArticleConclusion } from "./ArticleConclusion";
+import { ZikeeyArticleCTA } from "./ArticleCTA";
 import { renderText } from "../utils/renderText";
 
-export function MainArticle() {
+export function ZikeeyMainArticle() {
   const { headline, productName, productUrl, closingParagraphs } = adv.article;
 
   return (
@@ -16,11 +16,11 @@ export function MainArticle() {
         <h1 className="text-[28px] font-bold leading-tight mb-[25px] md:text-5xl">
           {headline}
         </h1>
-        <ArticleMeta />
-        <ArticleStory />
-        <ArticleFeatures />
-        <ArticleReviews />
-        <ArticleConclusion />
+        <ZikeeyArticleMeta />
+        <ZikeeyArticleStory />
+        <ZikeeyArticleFeatures />
+        <ZikeeyArticleReviews />
+        <ZikeeyArticleConclusion />
         {closingParagraphs.map((text, i) => (
           <p
             key={i}
@@ -29,7 +29,7 @@ export function MainArticle() {
             {renderText(text)}
           </p>
         ))}
-        <ArticleCTA />
+        <ZikeeyArticleCTA />
       </div>
     </div>
   );

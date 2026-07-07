@@ -1,7 +1,7 @@
 import adv from "../../../adv.json";
 import media from "../../../media.json";
 
-export const FooterBottom = () => {
+export const DerilaFooterBottom = () => {
   const { copyright } = adv.footer;
   const { icons } = media;
 

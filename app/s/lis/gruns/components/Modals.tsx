@@ -1,8 +1,8 @@
-export type ModalsProps = {
+export type GrunsModalsProps = {
   variant: string;
 };
 
-export const Modals = (props: ModalsProps) => {
+export const GrunsModals = (props: GrunsModalsProps) => {
   if (props.variant === "truemed") {
     return (
       <div className="box-border caret-transparent outline-[3px]">

@@ -1,4 +1,4 @@
-export const VoxHumanaImage = () => {
+export const NebrooVoxHumanaImage = () => {
   return (
     <div className="items-start box-border caret-transparent hidden basis-full flex-col grow justify-around min-h-[25px] min-w-0 pt-0 pb-2.5 px-2.5 md:block md:min-w-[auto] md:pt-2.5">
       <img

@@ -1,4 +1,4 @@
-export type CommentItemReply = {
+export type ElavynCommentItemReply = {
   avatarUrl?: string;
   author: string;
   text: string;
@@ -7,7 +7,7 @@ export type CommentItemReply = {
   showReactionIcon?: boolean;
 };
 
-export type CommentItemProps = {
+export type ElavynCommentItemProps = {
   className: string;
   avatarUrl?: string;
   author: string;
@@ -16,10 +16,10 @@ export type CommentItemProps = {
   time: string;
   showReactionIcon?: boolean;
   imageUrl?: string;
-  replies?: CommentItemReply[];
+  replies?: ElavynCommentItemReply[];
 };
 
-export const CommentItem = (props: CommentItemProps) => {
+export const ElavynCommentItem = (props: ElavynCommentItemProps) => {
   return (
     <li className={props.className}>
       <img

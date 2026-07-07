@@ -1,4 +1,4 @@
-export type GlobalContent = {
+export type NuzGlobalContent = {
   ctaHref: string;
   ctaSaleEndsPrefix: string;
   ctaLabel: string;
@@ -8,7 +8,7 @@ export type GlobalContent = {
   creditCardsImageUrl: string;
 };
 
-export type CountdownBannerContent = {
+export type NuzCountdownBannerContent = {
   initialSeconds: number;
   backgroundMobile: string;
   backgroundDesktop: string;
@@ -18,13 +18,13 @@ export type CountdownBannerContent = {
   labels: { days: string; hrs: string; min: string; sec: string };
 };
 
-export type NavbarContent = {
+export type NuzNavbarContent = {
   logoUrl: string;
   logoAlt: string;
   logoSecondaryUrl: string;
 };
 
-export type StickyBarContent = {
+export type NuzStickyBarContent = {
   hurryPrefix: string;
   hurrySuffix: string;
   peopleSuffix: string;
@@ -36,7 +36,7 @@ export type StickyBarContent = {
   greenCircleIconUrl: string;
 };
 
-export type MobileOrderBarContent = {
+export type NuzMobileOrderBarContent = {
   countdownSeconds: number;
   hurryPrefix: string;
   hurrySuffix: string;
@@ -48,7 +48,7 @@ export type MobileOrderBarContent = {
   boxIconUrl: string;
 };
 
-export type HeroFaqShipping = {
+export type NuzHeroFaqShipping = {
   type: "shipping";
   question: string;
   shippingDate: string;
@@ -56,13 +56,13 @@ export type HeroFaqShipping = {
   shippingFrom: string;
 };
 
-export type HeroFaqText = {
+export type NuzHeroFaqText = {
   type: "text";
   question: string;
   text: string;
 };
 
-export type HeroFaqReturns = {
+export type NuzHeroFaqReturns = {
   type: "returns";
   question: string;
   email: string;
@@ -70,9 +70,9 @@ export type HeroFaqReturns = {
   tail: string;
 };
 
-export type HeroFaqItem = HeroFaqShipping | HeroFaqText | HeroFaqReturns;
+export type NuzHeroFaqItem = NuzHeroFaqShipping | NuzHeroFaqText | NuzHeroFaqReturns;
 
-export type HeroContent = {
+export type NuzHeroContent = {
   productImageUrl: string;
   badgeImageUrl: string;
   trustpilotStarsUrl: string;
@@ -88,15 +88,15 @@ export type HeroContent = {
   benefitTags: { icon: string; label: string }[];
   guaranteeCard: { imageUrl: string; title: string; body: string };
   ccCardImageUrl: string;
-  faq: HeroFaqItem[];
+  faq: NuzHeroFaqItem[];
 };
 
-export type MediaBannerContent = {
+export type NuzMediaBannerContent = {
   overlayText: string;
   logos: { src: string; heightClass: string; alt: string }[];
 };
 
-export type VideoContent = {
+export type NuzVideoContent = {
   videoId: string;
   playIconUrl: string;
   rating: string;
@@ -104,7 +104,7 @@ export type VideoContent = {
   bodyParagraphs: string[];
 };
 
-export type PainPointsContent = {
+export type NuzPainPointsContent = {
   headingPrefix: string;
   headingSuffix: string;
   bodyParagraphs: string[];
@@ -114,18 +114,18 @@ export type PainPointsContent = {
   ctaCountdownSeconds: number;
 };
 
-export type FeatureCardContent = { title: string; description: string; iconSrc: string };
+export type NuzFeatureCardContent = { title: string; description: string; iconSrc: string };
 
-export type FeaturesContent = {
+export type NuzFeaturesContent = {
   headline: string;
   productImageUrl: string;
   productImageAlt: string;
-  leftCards: FeatureCardContent[];
-  rightCards: FeatureCardContent[];
+  leftCards: NuzFeatureCardContent[];
+  rightCards: NuzFeatureCardContent[];
   ctaCountdownSeconds: number;
 };
 
-export type HowItWorksStepContent = {
+export type NuzHowItWorksStepContent = {
   stepNumber: string;
   title: string;
   containerVariantClass: string;
@@ -135,12 +135,12 @@ export type HowItWorksStepContent = {
   secondParagraphs: string[];
 };
 
-export type HowItWorksContent = {
+export type NuzHowItWorksContent = {
   headline: string;
-  steps: HowItWorksStepContent[];
+  steps: NuzHowItWorksStepContent[];
 };
 
-export type ComparisonContent = {
+export type NuzComparisonContent = {
   headline: string;
   nuzzleColumnImageUrl: string;
   nuzzleLogoUrl: string;
@@ -151,7 +151,7 @@ export type ComparisonContent = {
   ctaCountdownSeconds: number;
 };
 
-export type TrustpilotReview = {
+export type NuzTrustpilotReview = {
   rating: 1 | 2 | 3 | 4 | 5;
   name: string;
   daysAgo: string;
@@ -160,7 +160,7 @@ export type TrustpilotReview = {
   reply?: { from: string; daysAgo: string };
 };
 
-export type TrustpilotContent = {
+export type NuzTrustpilotContent = {
   headingPrefix: string;
   headingHighlight: string;
   ratingLabel: string;
@@ -169,12 +169,12 @@ export type TrustpilotContent = {
   ratedTemplate: string;
   trustpilotReviewUrl: string;
   showingLabel: string;
-  reviews: TrustpilotReview[];
+  reviews: NuzTrustpilotReview[];
 };
 
-export type TestimonialReview = { name: string; daysAgo: string; review: string };
+export type NuzTestimonialReview = { name: string; daysAgo: string; review: string };
 
-export type TestimonialsContent = {
+export type NuzTestimonialsContent = {
   headingPrefix: string;
   headingMiddle: string;
   headingHighlight: string;
@@ -191,20 +191,20 @@ export type TestimonialsContent = {
   verifiedBuyer: string;
   showMoreLabel: string;
   showLessLabel: string;
-  initialReviews: TestimonialReview[];
-  moreReviews: TestimonialReview[];
+  initialReviews: NuzTestimonialReview[];
+  moreReviews: NuzTestimonialReview[];
 };
 
-export type FaqItem = { question: string; answer: string };
+export type NuzFaqItem = { question: string; answer: string };
 
-export type FaqContent = {
+export type NuzFaqContent = {
   headingPrefix: string;
   headingMiddle: string;
   headingHighlight: string;
-  items: FaqItem[];
+  items: NuzFaqItem[];
 };
 
-export type GuaranteeContent = {
+export type NuzGuaranteeContent = {
   imageUrl: string;
   imageAlt: string;
   headlineLine1: string;
@@ -213,29 +213,29 @@ export type GuaranteeContent = {
   ctaCountdownSeconds: number;
 };
 
-export type FooterContent = {
+export type NuzFooterContent = {
   logoUrl: string;
   links: string[];
   copyright: string;
   address: string;
 };
 
-export type LandingPageContent = {
-  global: GlobalContent;
-  countdownBanner: CountdownBannerContent;
-  navbar: NavbarContent;
-  stickyBar: StickyBarContent;
-  mobileOrderBar: MobileOrderBarContent;
-  hero: HeroContent;
-  mediaBanner: MediaBannerContent;
-  video: VideoContent;
-  painPoints: PainPointsContent;
-  features: FeaturesContent;
-  howItWorks: HowItWorksContent;
-  comparison: ComparisonContent;
-  trustpilot: TrustpilotContent;
-  testimonials: TestimonialsContent;
-  faq: FaqContent;
-  guarantee: GuaranteeContent;
-  footer: FooterContent;
+export type NuzLandingPageContent = {
+  global: NuzGlobalContent;
+  countdownBanner: NuzCountdownBannerContent;
+  navbar: NuzNavbarContent;
+  stickyBar: NuzStickyBarContent;
+  mobileOrderBar: NuzMobileOrderBarContent;
+  hero: NuzHeroContent;
+  mediaBanner: NuzMediaBannerContent;
+  video: NuzVideoContent;
+  painPoints: NuzPainPointsContent;
+  features: NuzFeaturesContent;
+  howItWorks: NuzHowItWorksContent;
+  comparison: NuzComparisonContent;
+  trustpilot: NuzTrustpilotContent;
+  testimonials: NuzTestimonialsContent;
+  faq: NuzFaqContent;
+  guarantee: NuzGuaranteeContent;
+  footer: NuzFooterContent;
 };

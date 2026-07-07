@@ -1,4 +1,4 @@
-export type CommentFormProps = {
+export type ElavynCommentFormProps = {
   rootVariantClass: string;
   showInput: boolean;
   label: string;
@@ -6,7 +6,7 @@ export type CommentFormProps = {
   inputName: string;
 };
 
-export const CommentForm = (props: CommentFormProps) => {
+export const ElavynCommentForm = (props: ElavynCommentFormProps) => {
   return (
     <div
       className={`box-border caret-transparent max-w-full outline-[3px] mx-2.5 ${props.rootVariantClass}`}

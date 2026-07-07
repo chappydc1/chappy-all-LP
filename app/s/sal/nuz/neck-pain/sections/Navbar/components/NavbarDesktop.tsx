@@ -1,6 +1,6 @@
 import { content } from "../../../content";
 
-export const NavbarDesktop = () => {
+export const NuzNavbarDesktop = () => {
   return (
     <div
       role="banner"

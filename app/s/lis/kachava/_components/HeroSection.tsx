@@ -5,7 +5,7 @@ type HeroSectionProps = {
   imageAlt: string;
 };
 
-export function HeroSection({ headline, subheadline, imageSrc, imageAlt }: HeroSectionProps) {
+export function KachavaHeroSection({ headline, subheadline, imageSrc, imageAlt }: HeroSectionProps) {
   return (
     <section className="relative bg-red-100 box-border caret-transparent outline-[3px]">
       <div className="relative text-stone-800 [align-items:normal] box-border caret-transparent gap-x-0 flex flex-col-reverse outline-[3px] gap-y-0 z-[1] md:items-center md:flex-row">

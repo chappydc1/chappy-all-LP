@@ -1,58 +1,58 @@
 "use client"
-import { LpContext, type CopyJson, type MediaJson } from "../../context/LpContext"
-import { AnnouncementBar } from "../AnnouncementBar"
-import { Header } from "../Header"
-import { HeroSection } from "../HeroSection"
-import { EducationSection } from "../EducationSection"
-import { CustomerSurveySection } from "../CustomerSurveySection"
-import { SupportComparisonSection } from "../SupportComparisonSection"
-import { FeaturedTestimonialsSection } from "../FeaturedTestimonialsSection"
-import { PromiseSection } from "../PromiseSection"
-import { QualityPromiseSection } from "../QualityPromiseSection"
-import { ResultsTimelineSection } from "../ResultsTimelineSection"
-import { OptionsComparisonSection } from "../OptionsComparisonSection"
-import { PreparationSection } from "../PreparationSection"
-import { OfferSection } from "../OfferSection"
-import { CustomerReviewsSection } from "../CustomerReviewsSection"
-import { FaqSection } from "../FaqSection"
-import { Footer } from "../Footer"
-import { StickyMobileCta } from "../../components/StickyMobileCta"
-import { ExternalLinkContainer } from "../../components/ExternalLinkContainer"
-import { TrackingFrame } from "../../components/TrackingFrame"
-import { ChatWidget } from "../../components/ChatWidget"
+import { PipiteaLpContext, type PipiteaCopyJson, type PipiteaMediaJson } from "../../context/LpContext"
+import { PipiteaAnnouncementBar } from "../AnnouncementBar"
+import { PipiteaHeader } from "../Header"
+import { PipiteaHeroSection } from "../HeroSection"
+import { PipiteaEducationSection } from "../EducationSection"
+import { PipiteaCustomerSurveySection } from "../CustomerSurveySection"
+import { PipiteaSupportComparisonSection } from "../SupportComparisonSection"
+import { PipiteaFeaturedTestimonialsSection } from "../FeaturedTestimonialsSection"
+import { PipiteaPromiseSection } from "../PromiseSection"
+import { PipiteaQualityPromiseSection } from "../QualityPromiseSection"
+import { PipiteaResultsTimelineSection } from "../ResultsTimelineSection"
+import { PipiteaOptionsComparisonSection } from "../OptionsComparisonSection"
+import { PipiteaPreparationSection } from "../PreparationSection"
+import { PipiteaOfferSection } from "../OfferSection"
+import { PipiteaCustomerReviewsSection } from "../CustomerReviewsSection"
+import { PipiteaFaqSection } from "../FaqSection"
+import { PipiteaFooter } from "../Footer"
+import { PipiteaStickyMobileCta } from "../../components/StickyMobileCta"
+import { PipiteaExternalLinkContainer } from "../../components/ExternalLinkContainer"
+import { PipiteaTrackingFrame } from "../../components/TrackingFrame"
+import { PipiteaChatWidget } from "../../components/ChatWidget"
 
 interface LpMainProps {
-  copy: CopyJson
-  media: MediaJson
+  copy: PipiteaCopyJson
+  media: PipiteaMediaJson
 }
 
-export function LpMain({ copy, media }: LpMainProps) {
+export function PipiteaLpMain({ copy, media }: LpMainProps) {
   return (
-    <LpContext.Provider value={{ copy, media }}>
+    <PipiteaLpContext.Provider value={{ copy, media }}>
       <div className="text-gray-800 text-sm bg-white bg-no-repeat leading-[21px] text-center font-libre_franklin">
         <main className="items-center flex flex-col min-h-[1000px] w-full">
-          <AnnouncementBar />
-          <Header />
-          <HeroSection />
-          <EducationSection />
-          <CustomerSurveySection />
-          <SupportComparisonSection />
-          <FeaturedTestimonialsSection />
-          <PromiseSection />
-          <QualityPromiseSection />
-          <ResultsTimelineSection />
-          <OptionsComparisonSection />
-          <PreparationSection />
-          <OfferSection />
-          <CustomerReviewsSection />
-          <FaqSection />
-          <Footer />
-          <StickyMobileCta />
+          <PipiteaAnnouncementBar />
+          <PipiteaHeader />
+          <PipiteaHeroSection />
+          <PipiteaEducationSection />
+          <PipiteaCustomerSurveySection />
+          <PipiteaSupportComparisonSection />
+          <PipiteaFeaturedTestimonialsSection />
+          <PipiteaPromiseSection />
+          <PipiteaQualityPromiseSection />
+          <PipiteaResultsTimelineSection />
+          <PipiteaOptionsComparisonSection />
+          <PipiteaPreparationSection />
+          <PipiteaOfferSection />
+          <PipiteaCustomerReviewsSection />
+          <PipiteaFaqSection />
+          <PipiteaFooter />
+          <PipiteaStickyMobileCta />
         </main>
-        <ExternalLinkContainer />
-        <TrackingFrame />
-        <ChatWidget />
+        <PipiteaExternalLinkContainer />
+        <PipiteaTrackingFrame />
+        <PipiteaChatWidget />
       </div>
-    </LpContext.Provider>
+    </PipiteaLpContext.Provider>
   )
 }

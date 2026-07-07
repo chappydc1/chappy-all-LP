@@ -1,7 +1,7 @@
-import { AuthorRow } from "./AuthorRow";
-import { MediaBlock } from "./MediaBlock";
+import { ElavynAuthorRow } from "./AuthorRow";
+import { ElavynMediaBlock } from "./MediaBlock";
 
-export const ArticleHero = () => {
+export const ElavynArticleHero = () => {
   return (
     <section className="text-[15px] box-border caret-transparent contents leading-[27px] outline-[3px] scroll-smooth font-ui_sans_serif md:text-base md:leading-[28.8px]">
       <section className="text-[15px] box-border caret-transparent leading-[27px] max-w-full outline-[3px] w-[calc(100%_+_32px)] mx-auto md:text-base md:leading-[28.8px] md:w-full">
@@ -62,8 +62,8 @@ export const ArticleHero = () => {
                     </h2>
                   </div>
                 </div>
-                <AuthorRow />
-                <MediaBlock
+                <ElavynAuthorRow />
+                <ElavynMediaBlock
                   isPresentation={false}
                   containerVariant="aspect-video bg-black overflow-hidden mb-0 md:mb-6"
                   mediaWrapperVariant=""
@@ -74,7 +74,7 @@ export const ArticleHero = () => {
                   imageSrc=""
                   imageAlt=""
                 />
-                <MediaBlock
+                <ElavynMediaBlock
                   isPresentation={true}
                   containerVariant="shrink-0 max-w-full text-center"
                   mediaWrapperVariant="flex h-full justify-center w-full"

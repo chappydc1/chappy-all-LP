@@ -1,9 +1,9 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { HeaderLogo } from "../Header/components/HeaderLogo";
+import { ForbesHeaderLogo } from "../Header/components/HeaderLogo";
 
-export const Header = ({ logoSrc }: { logoSrc: string }) => {
+export const ForbesHeader = ({ logoSrc }: { logoSrc: string }) => {
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
@@ -15,7 +15,7 @@ export const Header = ({ logoSrc }: { logoSrc: string }) => {
   return (
     <header className={`forbes-header animate-slide-down ${scrolled ? "forbes-header--scrolled" : ""}`}>
       <div className="forbes-header__inner">
-        <HeaderLogo logoSrc={logoSrc} />
+        <ForbesHeaderLogo logoSrc={logoSrc} />
       </div>
     </header>
   );

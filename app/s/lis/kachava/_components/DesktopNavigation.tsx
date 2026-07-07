@@ -5,7 +5,7 @@ type DesktopNavigationProps = {
   rewardsLink: NavLink;
 };
 
-export function DesktopNavigation({ dropdownLinks, rewardsLink }: DesktopNavigationProps) {
+export function KachavaDesktopNavigation({ dropdownLinks, rewardsLink }: DesktopNavigationProps) {
   return (
     <div className="items-center box-border caret-transparent hidden justify-center min-h-0 min-w-0 outline-[3px] w-auto md:flex md:min-h-[auto] md:min-w-[auto] md:w-[33.3333%]">
       <nav className="box-border caret-transparent h-full min-h-0 min-w-0 outline-[3px] w-full md:min-h-[auto] md:min-w-[auto]">

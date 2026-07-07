@@ -1,4 +1,4 @@
-export const ProductIntroImage = () => {
+export const NebrooProductIntroImage = () => {
   return (
     <div className="box-border caret-transparent hidden basis-full grow min-h-[25px] min-w-0 p-2.5 md:block md:min-w-[auto]">
       <img

@@ -1,4 +1,4 @@
-export const InsurancePlans = () => {
+export const HearInsurancePlans = () => {
   return (
     <section className="caret-transparent outline-[3px] text-center py-[25px]">
       <h2 className="text-neutral-500 text-[17px] font-bold caret-transparent leading-[23.46px] outline-[3px] mb-[25px]">

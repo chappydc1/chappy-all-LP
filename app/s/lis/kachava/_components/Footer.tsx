@@ -1,7 +1,7 @@
-import { FooterNewsletter } from "./FooterNewsletter";
-import { FooterNavigation } from "./FooterNavigation";
-import { FooterBrandReviews } from "./FooterBrandReviews";
-import { FooterBottom } from "./FooterBottom";
+import { KachavaFooterNewsletter } from "./FooterNewsletter";
+import { KachavaFooterNavigation } from "./FooterNavigation";
+import { KachavaFooterBrandReviews } from "./FooterBrandReviews";
+import { KachavaFooterBottom } from "./FooterBottom";
 
 type FooterNavItem =
   | { type: "link"; label: string; href: string }
@@ -37,7 +37,7 @@ type FooterProps = {
   socialIconMap: Record<string, string>;
 };
 
-export function Footer({
+export function KachavaFooter({
   newsletter,
   reviews,
   navigation,
@@ -52,10 +52,10 @@ export function Footer({
     <footer className="bg-stone-800 box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px]">
       <div className="text-stone-50 box-border caret-transparent gap-x-6 flex flex-col max-w-none outline-[3px] gap-y-6 mx-auto pt-4 pb-6 px-4 md:gap-x-20 md:max-w-[1552px] md:gap-y-20 md:px-14 md:py-10">
         <div className="items-start box-border caret-transparent gap-x-6 flex flex-wrap justify-between min-h-[auto] min-w-[auto] outline-[3px] gap-y-6 md:gap-x-14 md:flex-nowrap md:gap-y-14">
-          <FooterNewsletter {...newsletter} />
-          <FooterNavigation columns={navigation.columns} socialIconMap={socialIconMap} />
+          <KachavaFooterNewsletter {...newsletter} />
+          <KachavaFooterNavigation columns={navigation.columns} socialIconMap={socialIconMap} />
         </div>
-        <FooterBrandReviews
+        <KachavaFooterBrandReviews
           badgeSrc={badgeSrc}
           starSrc={starSrc}
           count={reviews.count}
@@ -63,7 +63,7 @@ export function Footer({
           label={reviews.label}
         />
       </div>
-      <FooterBottom
+      <KachavaFooterBottom
         copyright={bottom.copyright}
         legalLinks={bottom.legalLinks}
         paymentIcons={paymentIcons}

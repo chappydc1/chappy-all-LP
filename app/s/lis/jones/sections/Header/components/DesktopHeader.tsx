@@ -1,4 +1,4 @@
-export const DesktopHeader = () => {
+export const JonesDesktopHeader = () => {
   return (
     <div className="sticky items-center self-stretch bg-white box-border caret-transparent hidden shrink-0 h-[60px] justify-center max-w-full min-h-px min-w-0 outline-[3px] z-[2147483647] px-3 py-[15px] top-0 md:flex md:h-auto md:min-w-[auto] md:px-[50px]">
       <div className="relative items-center self-auto box-border caret-transparent flex basis-0 grow shrink justify-center max-w-full min-h-px min-w-0 outline-[3px] w-auto md:self-stretch md:basis-auto md:grow-0 md:shrink-0 md:justify-between md:min-w-[auto] md:w-1/5">

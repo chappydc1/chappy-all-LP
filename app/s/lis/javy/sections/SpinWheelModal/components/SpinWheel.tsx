@@ -13,7 +13,7 @@ const SEGMENTS = [
   { label: "10%\nOff", color: "white", textColor: "black" },
 ];
 
-export const SpinWheel = () => {
+export const JavySpinWheel = () => {
   const [spinning, setSpinning] = useState(false);
   const [rotation, setRotation] = useState(-19.99998485209311);
   const [result, setResult] = useState<string | null>(null);

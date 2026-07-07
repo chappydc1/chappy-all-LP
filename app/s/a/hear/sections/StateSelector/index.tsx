@@ -30,7 +30,7 @@ const reviews = [
   },
 ];
 
-export const StateSelector = () => {
+export const HearStateSelector = () => {
   const [selected, setSelected] = useState<string | null>(null);
   const ref = useScrollReveal<HTMLDivElement>();
 

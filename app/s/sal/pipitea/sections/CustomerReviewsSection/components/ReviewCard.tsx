@@ -1,4 +1,4 @@
-export type ReviewCardProps = {
+export type PipiteaReviewCardProps = {
   firstName: string;
   firstReview: string;
   secondName: string;
@@ -7,7 +7,7 @@ export type ReviewCardProps = {
   secondReviewClassName: string;
 };
 
-export const ReviewCard = (props: ReviewCardProps) => {
+export const PipiteaReviewCard = (props: PipiteaReviewCardProps) => {
   return (
     <div
       className="box-border caret-transparent flex basis-[0%] flex-col grow max-w-full min-h-[auto] min-w-full outline-[3px] w-full md:max-w-none md:min-w-0 md:w-auto"

@@ -1,4 +1,4 @@
-export type OfferSectionProps = {
+export type NexaOfferSectionProps = {
   variant: string;
   buttonText?: string;
   buttonTitle?: string;
@@ -7,7 +7,7 @@ export type OfferSectionProps = {
   productName?: string;
 };
 
-export const OfferSection = (props: OfferSectionProps) => {
+export const NexaOfferSection = (props: NexaOfferSectionProps) => {
   if (props.variant === "stockWarning") {
     return (
       <div className="box-border caret-transparent outline-[3px] text-[28px] font-bold leading-[43px] mt-[30px] font-montserrat md:text-[33px]">

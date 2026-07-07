@@ -1,7 +1,7 @@
 "use client";
 import { useScrollReveal } from "../../hooks/useScrollReveal";
 
-export const OfferSection = () => {
+export const NebrooOfferSection = () => {
   const { ref, visible } = useScrollReveal();
   return (
     <div id="offer" className="items-stretch box-border caret-transparent flex flex-wrap justify-center max-w-full px-0 py-[30px] md:flex-nowrap md:px-2.5">

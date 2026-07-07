@@ -1,4 +1,4 @@
-export type IconListProps = {
+export type ElavynIconListProps = {
   listVariant: string;
   itemClassName: string;
   iconSrc: string;
@@ -7,7 +7,7 @@ export type IconListProps = {
   items: React.ReactNode[];
 };
 
-export const IconList = (props: IconListProps) => {
+export const ElavynIconList = (props: ElavynIconListProps) => {
   return (
     <div className="text-[15px] box-border caret-transparent flex leading-[27px] max-w-full outline-[3px] my-3 md:text-base md:leading-[28.8px]">
       <div className="text-[15px] bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent flex leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full bg-center md:text-base md:leading-[28.8px]">

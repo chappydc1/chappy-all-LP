@@ -1,6 +1,6 @@
-import { CallToAction } from "../../MainArticle/components/CallToAction";
+import { HikeCallToAction } from "../../MainArticle/components/CallToAction";
 
-export const OfferSection = () => {
+export const HikeOfferSection = () => {
   return (
     <section className="box-border caret-transparent outline-[3px]">
       <div className="box-border caret-transparent max-w-full outline-[3px] mx-2.5 pt-5 pb-2.5 md:mx-auto before:accent-auto before:caret-transparent before:text-zinc-800 before:table before:text-xl before:not-italic before:normal-nums before:font-normal before:col-end-2 before:col-start-1 before:row-end-2 before:row-start-1 before:tracking-[normal] before:leading-[30px] before:list-outside before:list-disc before:outline-[3px] before:pointer-events-auto before:text-left before:no-underline before:indent-[0px] before:normal-case before:visible before:border-separate before:font-barlow after:accent-auto after:caret-transparent after:clear-both after:text-zinc-800 after:table after:text-xl after:not-italic after:normal-nums after:font-normal after:col-end-2 after:col-start-1 after:row-end-2 after:row-start-1 after:tracking-[normal] after:leading-[30px] after:list-outside after:list-disc after:outline-[3px] after:pointer-events-auto after:text-left after:no-underline after:indent-[0px] after:normal-case after:visible after:border-separate after:font-barlow">
@@ -63,7 +63,7 @@ export const OfferSection = () => {
           you every time they lace up.
         </p>
       </div>
-      <CallToAction />
+      <HikeCallToAction />
     </section>
   );
 };

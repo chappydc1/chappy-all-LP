@@ -1,4 +1,4 @@
-export const ProductIntroText = () => {
+export const NebrooProductIntroText = () => {
   return (
     <div className="box-border caret-transparent flex basis-full flex-col grow justify-center min-h-[25px] min-w-[auto] pt-5 pb-[30px] px-2.5 md:py-2.5">
       <div className="text-2xl font-bold box-border caret-transparent leading-[34px] min-h-[auto] min-w-[auto] text-left font-montserrat">

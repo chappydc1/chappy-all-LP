@@ -1,4 +1,4 @@
-export type FeaturedTestimonialProps = {
+export type PipiteaFeaturedTestimonialProps = {
   containerVariant: string;
   imageWrapperVariant: string;
   desktopImageUrl: string;
@@ -11,7 +11,7 @@ export type FeaturedTestimonialProps = {
   authorNameVariant: string;
 };
 
-export const FeaturedTestimonial = (props: FeaturedTestimonialProps) => {
+export const PipiteaFeaturedTestimonial = (props: PipiteaFeaturedTestimonialProps) => {
   return (
     <div
       className={`bg-pink-500/10 box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full border border-pink-950 mx-px rounded-[10px] border-solid md:flex-row ${props.containerVariant}`}

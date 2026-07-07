@@ -1,13 +1,13 @@
-import { FooterContent } from "../Footer/components/FooterContent";
-import { FooterLegal } from "../Footer/components/FooterLegal";
-import { FooterBottom } from "../Footer/components/FooterBottom";
+import { JonesFooterContent } from "../Footer/components/FooterContent";
+import { JonesFooterLegal } from "../Footer/components/FooterLegal";
+import { JonesFooterBottom } from "../Footer/components/FooterBottom";
 
-export const Footer = () => {
+export const JonesFooter = () => {
   return (
     <footer className="bg-stone-100 caret-transparent block flex-nowrap justify-normal outline-[3px] md:flex md:flex-wrap md:justify-between">
-      <FooterContent />
-      <FooterLegal />
-      <FooterBottom />
+      <JonesFooterContent />
+      <JonesFooterLegal />
+      <JonesFooterBottom />
     </footer>
   );
 };

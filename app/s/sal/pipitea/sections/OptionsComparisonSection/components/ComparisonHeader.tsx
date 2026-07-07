@@ -1,4 +1,4 @@
-export const ComparisonHeader = () => {
+export const PipiteaComparisonHeader = () => {
   return (
     <div
       className="items-start box-border caret-transparent flex flex-wrap min-h-[auto] min-w-[auto]"

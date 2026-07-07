@@ -6,7 +6,7 @@ type ReviewCardProps = {
   review: string;
 };
 
-export const ReviewCard = ({ name, daysAgo, review }: ReviewCardProps) => {
+export const NuzReviewCard = ({ name, daysAgo, review }: ReviewCardProps) => {
   const t = content.testimonials;
   return (
     <div className="items-stretch bg-white box-border caret-transparent flex flex-col justify-start min-h-[auto] min-w-[auto] md:flex-row transition-shadow duration-200 hover:shadow-md">

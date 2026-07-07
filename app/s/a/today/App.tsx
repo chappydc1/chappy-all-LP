@@ -1,13 +1,13 @@
-import { Header } from "./sections/Header";
-import { MainContent } from "./sections/MainContent";
-import { Footer } from "./sections/Footer";
+import { TodayHeader } from "./sections/Header";
+import { TodayMainContent } from "./sections/MainContent";
+import { TodayFooter } from "./sections/Footer";
 
-export const App = () => {
+export const TodayApp = () => {
   return (
     <>
-      <Header />
-      <MainContent />
-      <Footer />
+      <TodayHeader />
+      <TodayMainContent />
+      <TodayFooter />
       <div className="box-border caret-transparent hidden outline-[3px]"></div>
     </>
   );

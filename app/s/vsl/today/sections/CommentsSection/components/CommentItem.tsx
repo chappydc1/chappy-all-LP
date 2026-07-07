@@ -1,4 +1,4 @@
-export type CommentItemProps = {
+export type TodayCommentItemProps = {
   containerClassName: string;
   imageSrc: string;
   imageAlt: string;
@@ -9,7 +9,7 @@ export type CommentItemProps = {
   replyComment: React.ReactNode;
 };
 
-export const CommentItem = (props: CommentItemProps) => {
+export const TodayCommentItem = (props: TodayCommentItemProps) => {
   return (
     <div
       className={`items-start box-border caret-transparent gap-x-3 flex outline-[3px] gap-y-3 ${props.containerClassName}`}

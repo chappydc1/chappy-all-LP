@@ -6,7 +6,7 @@ type FooterBrandReviewsProps = {
   label: string;
 };
 
-export function FooterBrandReviews({ badgeSrc, starSrc, count, stars, label }: FooterBrandReviewsProps) {
+export function KachavaFooterBrandReviews({ badgeSrc, starSrc, count, stars, label }: FooterBrandReviewsProps) {
   return (
     <div className="items-start box-border caret-transparent gap-x-6 flex flex-wrap justify-between min-h-[auto] min-w-[auto] outline-[3px] gap-y-6 md:gap-x-14 md:flex-nowrap md:gap-y-14">
       <div className="box-border caret-transparent gap-x-6 flex basis-auto shrink justify-between max-w-[380px] min-h-[auto] min-w-[auto] outline-[3px] gap-y-6 w-full pl-0 md:basis-[400px] md:shrink-0 md:pl-4">

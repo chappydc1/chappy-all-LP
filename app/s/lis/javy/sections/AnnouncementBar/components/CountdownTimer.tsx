@@ -4,7 +4,7 @@ import { useState, useEffect, useRef } from "react";
 
 const DEADLINE_MINUTES = 122; // ~2h 2min initial
 
-export const CountdownTimer = () => {
+export const JavyCountdownTimer = () => {
   const [totalSeconds, setTotalSeconds] = useState(DEADLINE_MINUTES * 60 + 19);
   const [tick, setTick] = useState(false);
   const prevSec = useRef(totalSeconds);

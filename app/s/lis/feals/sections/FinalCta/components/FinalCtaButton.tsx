@@ -1,4 +1,4 @@
-export const FinalCtaButton = () => {
+export const FealsFinalCtaButton = () => {
   return (
     <div className="relative items-center self-stretch box-border caret-transparent gap-x-2 flex flex-col shrink-0 justify-center max-w-full min-h-px min-w-[auto] outline-[3px] gap-y-2 mt-2 md:self-auto md:mt-4">
       <a

@@ -1,4 +1,4 @@
-export const DoctorProfile = () => {
+export const EmmaDoctorProfile = () => {
   return (
     <div className="box-border caret-transparent hidden min-h-0 min-w-0 w-full pb-2.5 px-4 md:block md:min-h-[auto] md:min-w-[auto] md:w-[204.8px] md:px-0">
       <div className="box-border caret-transparent gap-x-2.5 flex flex-row gap-y-2.5 md:flex-col">

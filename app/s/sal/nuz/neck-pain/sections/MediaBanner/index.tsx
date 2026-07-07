@@ -3,7 +3,7 @@
 import { useScrollReveal } from "../../hooks/useScrollReveal";
 import { content } from "../../content";
 
-export const MediaBanner = () => {
+export const NuzMediaBanner = () => {
   const { ref, visible } = useScrollReveal();
   const c = content.mediaBanner;
 

@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 
-export type ReplyItemProps = {
+export type OprahReplyItemProps = {
   variant: "comment" | "actions";
   variantClass: string;
   // Comment variant props
@@ -16,7 +16,7 @@ export type ReplyItemProps = {
   paragraphExtraClass?: string;
 };
 
-export const ReplyItem = (props: ReplyItemProps) => {
+export const OprahReplyItem = (props: OprahReplyItemProps) => {
   const [liked, setLiked] = useState(false);
   const [likeCount, setLikeCount] = useState(0);
 

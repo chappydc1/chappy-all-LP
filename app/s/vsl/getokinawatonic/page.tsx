@@ -8,7 +8,7 @@ export const metadata = {
   description: "Ancient Japanese Discovery Melts 54 LBS Of Fat. Drink Daily Before 10am.",
 };
 
-export default function OkinawaTonicVSLPage() {
+export default function GetokinawatonicOkinawaTonicVSLPage() {
   return (
     <>
       <div className="bg-white bg-cover box-border caret-transparent outline-[3px]">

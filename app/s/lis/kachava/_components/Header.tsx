@@ -1,5 +1,5 @@
-import { PromoBar } from "./PromoBar";
-import { Navbar } from "./Navbar";
+import { KachavaPromoBar } from "./PromoBar";
+import { KachavaNavbar } from "./Navbar";
 
 type HeaderProps = {
   promoBar: { text: string; cta: { label: string; href: string } };
@@ -15,11 +15,11 @@ type HeaderProps = {
   cartIconSrc: string;
 };
 
-export function Header({ promoBar, navbar, logoSrc, logoAlt, accountIconSrc, cartIconSrc }: HeaderProps) {
+export function KachavaHeader({ promoBar, navbar, logoSrc, logoAlt, accountIconSrc, cartIconSrc }: HeaderProps) {
   return (
     <header className="relative bg-white box-border caret-transparent contents outline-[3px] z-20 font-mulish">
-      <PromoBar text={promoBar.text} cta={promoBar.cta} />
-      <Navbar
+      <KachavaPromoBar text={promoBar.text} cta={promoBar.cta} />
+      <KachavaNavbar
         logoSrc={logoSrc}
         logoAlt={logoAlt}
         dropdownLinks={navbar.dropdownLinks}

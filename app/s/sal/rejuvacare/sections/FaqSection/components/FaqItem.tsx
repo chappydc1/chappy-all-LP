@@ -1,4 +1,4 @@
-export type FaqItemProps = {
+export type RejuvacareFaqItemProps = {
   question: string;
   answer: string;
   summaryVariant: string;
@@ -8,7 +8,7 @@ export type FaqItemProps = {
   iconVariant: string;
 };
 
-export const FaqItem = (props: FaqItemProps) => {
+export const RejuvacareFaqItem = (props: RejuvacareFaqItemProps) => {
   return (
     <div className="box-border caret-transparent outline-[3px] mx-px my-2.5 px-px py-[5px]">
       <div className="box-border caret-transparent outline-[3px]">

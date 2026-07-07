@@ -1,4 +1,4 @@
-export type CtaBlockProps = {
+export type PipiteaMatchaCtaBlockProps = {
   outerVariant: string;
   frameVariant: string;
   contentVariant: string;
@@ -14,7 +14,7 @@ export type CtaBlockProps = {
   reviewAuthor: string;
 };
 
-export const CtaBlock = (props: CtaBlockProps) => {
+export const PipiteaMatchaCtaBlock = (props: PipiteaMatchaCtaBlockProps) => {
   const GuaranteeTag = props.guaranteeTag === "h1" ? "h1" : "p";
 
   const ctaContent = (

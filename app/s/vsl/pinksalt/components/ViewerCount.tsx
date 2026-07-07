@@ -8,7 +8,7 @@ type ViewerCountProps = {
   max?: number;
 };
 
-export const ViewerCount = ({
+export const PinksaltViewerCount = ({
   label = "viewers are watching right now...",
   baseCount = 575,
   min = 540,

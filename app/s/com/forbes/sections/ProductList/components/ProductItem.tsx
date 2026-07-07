@@ -1,6 +1,6 @@
 "use client";
 
-export type ProductItemProps = {
+export type ForbesProductItemProps = {
   rank: number;
   imageSrc: string;
   imageAlt: string;
@@ -27,7 +27,7 @@ const RatingBox = ({ score, scoreLabel, scoreClass }: { score: string; scoreLabe
   </div>
 );
 
-export const ProductItem = (props: ProductItemProps) => {
+export const ForbesProductItem = (props: ForbesProductItemProps) => {
   const cardClass = props.isBest
     ? "forbes-product-card forbes-product-card--best"
     : "forbes-product-card";

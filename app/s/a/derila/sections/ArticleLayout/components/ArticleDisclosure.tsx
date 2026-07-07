@@ -1,6 +1,6 @@
 import adv from "../../../adv.json";
 
-export const ArticleDisclosure = () => {
+export const DerilaArticleDisclosure = () => {
   const { lines } = adv.disclosure;
 
   return (

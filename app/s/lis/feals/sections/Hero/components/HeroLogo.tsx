@@ -1,4 +1,4 @@
-export const HeroLogo = () => {
+export const FealsHeroLogo = () => {
   return (
     <div className="relative items-center self-stretch bg-stone-50 box-border caret-transparent flex shrink-0 justify-center max-w-full min-h-px min-w-[auto] outline-[3px] py-2">
       <picture className="items-center box-border caret-transparent flex shrink-0 object-contain outline-[3px] overflow-x-auto overflow-y-hidden w-[90px]">

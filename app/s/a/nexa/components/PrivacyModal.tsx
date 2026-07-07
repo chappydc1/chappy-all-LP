@@ -1,5 +1,5 @@
 // @ts-nocheck
-export const PrivacyModal = () => {
+export const NexaPrivacyModal = () => {
   return (
     <div
       title="Popup"

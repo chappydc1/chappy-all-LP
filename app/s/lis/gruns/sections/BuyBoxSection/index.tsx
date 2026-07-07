@@ -1,7 +1,7 @@
-import { ProductGallery } from "../BuyBoxSection/components/ProductGallery";
-import { ProductDetails } from "../BuyBoxSection/components/ProductDetails";
+import { GrunsProductGallery } from "../BuyBoxSection/components/ProductGallery";
+import { GrunsProductDetails } from "../BuyBoxSection/components/ProductDetails";
 
-export const BuyBoxSection = () => {
+export const GrunsBuyBoxSection = () => {
   return (
     <div className="box-border caret-transparent outline-[3px]">
       <div className="box-border caret-transparent outline-[3px]">
@@ -17,7 +17,7 @@ export const BuyBoxSection = () => {
               <div className="static box-border caret-transparent max-w-none min-h-0 min-w-0 outline-[3px] top-auto md:sticky md:max-w-[calc(100%_-_520px)] md:min-h-[auto] md:min-w-[auto] md:top-5">
                 <div className="box-border caret-transparent outline-[3px] w-full">
                   <div className="[align-items:normal] box-border caret-transparent gap-x-[normal] block flex-row outline-[3px] gap-y-[normal] md:items-start md:gap-x-5 md:flex md:flex-row-reverse md:gap-y-5">
-                    <ProductGallery
+                    <GrunsProductGallery
                       featuredWrapperClassName="relative aspect-auto bg-white box-border caret-transparent shrink min-h-0 min-w-0 outline-[3px] w-auto overflow-hidden my-5 rounded-[10px] border-2 border-solid md:aspect-square md:shrink-0 md:min-h-[auto] md:min-w-[auto] md:w-[calc(100%_-_105px)] md:my-0"
                       slideWrapperClassName="box-border caret-transparent h-full outline-[3px] w-full overflow-hidden"
                       thumbnailsWrapperClassName="items-center box-border caret-transparent gap-x-2.5 flex flex-row justify-start max-h-none min-h-0 min-w-0 outline-[3px] overflow-x-auto overflow-y-auto gap-y-2.5 w-auto my-5 md:gap-x-2 md:flex-col md:max-h-[527px] md:min-h-[auto] md:min-w-[85px] md:overflow-x-hidden md:gap-y-2 md:w-[85px] md:my-0"
@@ -155,7 +155,7 @@ export const BuyBoxSection = () => {
                     />
                   </div>
                   <div className="[align-items:normal] box-border caret-transparent hidden outline-[3px] md:items-start">
-                    <ProductGallery
+                    <GrunsProductGallery
                       featuredWrapperClassName="relative aspect-auto bg-white box-border caret-transparent shrink outline-[3px] w-auto overflow-hidden my-5 rounded-[10px] border-2 border-solid md:aspect-square md:shrink-0 md:w-[calc(100%_-_105px)] md:my-0"
                       slideWrapperClassName="box-border caret-transparent h-full outline-[3px] w-full overflow-hidden"
                       thumbnailsWrapperClassName="items-center box-border caret-transparent gap-x-2.5 flex flex-row justify-start max-h-none min-w-0 outline-[3px] overflow-x-auto overflow-y-auto gap-y-2.5 w-auto my-5 md:gap-x-2 md:flex-col md:max-h-[527px] md:min-w-[85px] md:overflow-x-hidden md:gap-y-2 md:w-[85px] md:my-0"
@@ -370,7 +370,7 @@ export const BuyBoxSection = () => {
                   </div>
                 </div>
               </div>
-              <ProductDetails />
+              <GrunsProductDetails />
             </div>
           </div>
         </div>

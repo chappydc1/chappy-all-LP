@@ -8,12 +8,12 @@ type FooterItem = {
   underline?: boolean;
 };
 
-export type FooterColumnProps = {
+export type DerilaFooterColumnProps = {
   title: string;
   items: FooterItem[];
 };
 
-export const FooterColumn = ({ title, items }: FooterColumnProps) => {
+export const DerilaFooterColumn = ({ title, items }: DerilaFooterColumnProps) => {
   const icons = media.icons as Record<string, { src: string; alt: string }>;
 
   return (

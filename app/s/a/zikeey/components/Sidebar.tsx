@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import adv from "../adv.json";
 import media from "../media.json";
 
-export function Sidebar() {
+export function ZikeeySidebar() {
   const [isSticky, setIsSticky] = useState(false);
   const { productName, productUrl, sidebar } = adv.article;
 

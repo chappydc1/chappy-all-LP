@@ -1,14 +1,14 @@
-import { ArticleIntro } from "../MainArticle/components/ArticleIntro";
-import { RecommendedProduct } from "../MainArticle/components/RecommendedProduct";
-import { FeatureSection } from "../MainArticle/components/FeatureSection";
+import { HikeArticleIntro } from "../MainArticle/components/ArticleIntro";
+import { HikeRecommendedProduct } from "../MainArticle/components/RecommendedProduct";
+import { HikeFeatureSection } from "../MainArticle/components/FeatureSection";
 
-export const MainArticle = () => {
+export const HikeMainArticle = () => {
   return (
     <section className="box-border caret-transparent outline-[3px] text-left mx-2.5 md:mx-0">
       <div className="box-border caret-transparent max-w-[1200px] outline-[3px] mb-2.5 mx-auto md:mb-0 before:accent-auto before:caret-transparent before:text-zinc-800 before:table before:text-xl before:not-italic before:normal-nums before:font-normal before:col-end-2 before:col-start-1 before:row-end-2 before:row-start-1 before:tracking-[normal] before:leading-[30px] before:list-outside before:list-disc before:outline-[3px] before:pointer-events-auto before:text-left before:no-underline before:indent-[0px] before:normal-case before:visible before:border-separate before:font-barlow after:accent-auto after:caret-transparent after:clear-both after:text-zinc-800 after:table after:text-xl after:not-italic after:normal-nums after:font-normal after:col-end-2 after:col-start-1 after:row-end-2 after:row-start-1 after:tracking-[normal] after:leading-[30px] after:list-outside after:list-disc after:outline-[3px] after:pointer-events-auto after:text-left after:no-underline after:indent-[0px] after:normal-case after:visible after:border-separate after:font-barlow">
         <div className="box-border caret-transparent gap-x-4 grid auto-cols-[1fr] grid-cols-[3.5fr] grid-rows-[auto] outline-[3px] gap-y-4 md:grid-cols-[3.25fr_1.25fr]">
-          <ArticleIntro />
-          <RecommendedProduct />
+          <HikeArticleIntro />
+          <HikeRecommendedProduct />
         </div>
       </div>
       <img
@@ -16,7 +16,7 @@ export const MainArticle = () => {
         alt=""
         className="box-border caret-transparent inline-block max-w-full outline-[3px]"
       />
-      <FeatureSection
+      <HikeFeatureSection
         outerClassName="box-border caret-transparent max-w-none outline-[3px] mx-auto md:max-w-[1200px] before:accent-auto before:caret-transparent before:text-zinc-800 before:table before:text-xl before:not-italic before:normal-nums before:font-normal before:col-end-2 before:col-start-1 before:row-end-2 before:row-start-1 before:tracking-[normal] before:leading-[30px] before:list-outside before:list-disc before:outline-[3px] before:pointer-events-auto before:text-left before:no-underline before:indent-[0px] before:normal-case before:visible before:border-separate before:font-barlow after:accent-auto after:caret-transparent after:clear-both after:text-zinc-800 after:table after:text-xl after:not-italic after:normal-nums after:font-normal after:col-end-2 after:col-start-1 after:row-end-2 after:row-start-1 after:tracking-[normal] after:leading-[30px] after:list-outside after:list-disc after:outline-[3px] after:pointer-events-auto after:text-left after:no-underline after:indent-[0px] after:normal-case after:visible after:border-separate after:font-barlow"
         innerClassName="box-border caret-transparent outline-[3px] w-auto mt-0 md:w-[850px] md:mt-5"
         content={

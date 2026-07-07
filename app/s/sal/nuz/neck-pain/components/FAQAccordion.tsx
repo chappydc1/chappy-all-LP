@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 
-export type FAQAccordionProps = {
+export type NuzFAQAccordionProps = {
   question: string;
   contentType: "shipping" | "text";
   textContent?: React.ReactNode;
@@ -12,7 +12,7 @@ export type FAQAccordionProps = {
   shippingIconUrl?: string;
 };
 
-export const FAQAccordion = (props: FAQAccordionProps) => {
+export const NuzFAQAccordion = (props: NuzFAQAccordionProps) => {
   const [open, setOpen] = useState(false);
   const shippingIcon =
     props.shippingIconUrl ?? "/images/nuz-neck-pain/shipping-fast.svg";

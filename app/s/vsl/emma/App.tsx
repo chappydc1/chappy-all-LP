@@ -1,21 +1,21 @@
 "use client";
 
-import { HeroSection } from "./sections/HeroSection";
-import { PricingTable } from "./sections/PricingTable";
-import { DoctorBio } from "./sections/DoctorBio";
-import { Footer } from "./sections/Footer";
-import { VideoModal } from "./components/VideoModal";
+import { EmmaHeroSection } from "./sections/HeroSection";
+import { EmmaPricingTable } from "./sections/PricingTable";
+import { EmmaDoctorBio } from "./sections/DoctorBio";
+import { EmmaFooter } from "./sections/Footer";
+import { EmmaVideoModal } from "./components/VideoModal";
 
 export const EmmaVSL = () => {
   return (
     <div className="text-neutral-800 text-base font-normal bg-white">
-      <HeroSection />
-      <PricingTable showFullContent={true} />
-      <DoctorBio />
-      <Footer />
-      <VideoModal />
+      <EmmaHeroSection />
+      <EmmaPricingTable showFullContent={true} />
+      <EmmaDoctorBio />
+      <EmmaFooter />
+      <EmmaVideoModal />
     </div>
   );
 };
 
-export const App = EmmaVSL;
+export const EmmaApp = EmmaVSL;

@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   icons: { icon: "/favicons/morningvitality.svg" },
 };
 
-export default function MorningVitalityLayout({
+export default function MorningvitalityMorningVitalityLayout({
   children,
 }: {
   children: React.ReactNode;

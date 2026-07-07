@@ -1,4 +1,4 @@
-export const FooterDisclaimer = () => {
+export const PrimepicksFooterDisclaimer = () => {
   return (
     <div className="box-border caret-transparent max-w-[1000px] mx-auto px-4 md:px-0">
       <div className="text-zinc-500 text-xs box-border caret-transparent leading-4 text-center border border-zinc-100 mb-4 px-[13px] py-3 border-solid md:text-start">

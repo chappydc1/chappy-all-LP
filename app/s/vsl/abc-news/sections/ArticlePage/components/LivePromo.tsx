@@ -1,4 +1,4 @@
-export const LivePromo = () => {
+export const AbcNewsLivePromo = () => {
   return (
     <div className="box-border caret-transparent outline-[3px] mb-10 mx-auto">
       <div className="box-border caret-transparent flex outline-[3px] py-[18px]">

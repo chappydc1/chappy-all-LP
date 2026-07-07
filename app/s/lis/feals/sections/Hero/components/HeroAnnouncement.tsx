@@ -1,4 +1,4 @@
-export const HeroAnnouncement = () => {
+export const FealsHeroAnnouncement = () => {
   return (
     <div
       role="link"

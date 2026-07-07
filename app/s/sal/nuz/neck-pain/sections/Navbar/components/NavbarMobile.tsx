@@ -1,6 +1,6 @@
 import { content } from "../../../content";
 
-export const NavbarMobile = () => {
+export const NuzNavbarMobile = () => {
   return (
     <div className="box-border caret-transparent block text-center md:hidden md:text-start">
       <img

@@ -1,8 +1,8 @@
-export type PressLogoProps = {
+export type FealsPressLogoProps = {
   imageUrl: string;
 };
 
-export const PressLogo = (props: PressLogoProps) => {
+export const FealsPressLogo = (props: FealsPressLogoProps) => {
   return (
     <div className="relative items-center self-stretch box-border caret-transparent flex shrink-0 justify-center max-w-full min-h-px min-w-[auto] outline-[3px] w-20 md:w-auto">
       <picture className="items-center box-border caret-transparent flex basis-0 grow h-6 min-w-[auto] object-contain outline-[3px] overflow-x-auto overflow-y-hidden md:basis-auto md:min-w-0">

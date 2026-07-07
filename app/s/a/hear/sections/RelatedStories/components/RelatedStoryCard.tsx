@@ -1,11 +1,11 @@
-export type RelatedStoryCardProps = {
+export type HearRelatedStoryCardProps = {
   imageSrc: string;
   category: string;
   description: string;
   linkHref: string;
 };
 
-export const RelatedStoryCard = (props: RelatedStoryCardProps) => {
+export const HearRelatedStoryCard = (props: HearRelatedStoryCardProps) => {
   return (
     <div className="bg-white caret-transparent flex basis-auto grow-0 min-h-[auto] min-w-[auto] overflow-hidden md:basis-[calc(33.333%_-_14px)] md:grow md:min-w-0 group transition-shadow duration-300 hover:shadow-md rounded-sm">
       <div className="relative caret-transparent shrink-0 h-fit max-w-[130px] min-h-[auto] min-w-[auto] overflow-hidden md:max-w-[170px] before:accent-auto before:bg-blue-600 before:caret-transparent before:text-black before:block before:text-base before:not-italic before:normal-nums before:font-normal before:h-full before:tracking-[normal] before:leading-[normal] before:list-outside before:list-disc before:pointer-events-auto before:absolute before:text-start before:no-underline before:indent-[0px] before:normal-case before:visible before:w-2.5 before:z-[1] before:border-separate before:left-0 before:top-0 before:font-source_sans_3">

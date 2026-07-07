@@ -1,11 +1,11 @@
-import { ProductIntro } from "./ProductIntro";
-import { IngredientsSection } from "./IngredientsSection";
-import { ResultsSection } from "./ResultsSection";
-import { PricingSection } from "./PricingSection";
-import { GuaranteeSection } from "./GuaranteeSection";
-import { FinalCallToAction } from "./FinalCallToAction";
+import { ElavynProductIntro } from "./ProductIntro";
+import { ElavynIngredientsSection } from "./IngredientsSection";
+import { ElavynResultsSection } from "./ResultsSection";
+import { ElavynPricingSection } from "./PricingSection";
+import { ElavynGuaranteeSection } from "./GuaranteeSection";
+import { ElavynFinalCallToAction } from "./FinalCallToAction";
 
-export const ProductOffer = () => {
+export const ElavynProductOffer = () => {
   return (
     <section className="text-[15px] box-border caret-transparent contents leading-[27px] outline-[3px] scroll-smooth font-ui_sans_serif md:text-base md:leading-[28.8px]">
       <section className="text-[15px] box-border caret-transparent leading-[27px] max-w-full outline-[3px] w-[calc(100%_+_32px)] mx-auto md:text-base md:leading-[28.8px] md:w-full">
@@ -13,10 +13,10 @@ export const ProductOffer = () => {
           <div className="relative text-[15px] box-border caret-transparent flex flex-col justify-start leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] md:text-base md:leading-[28.8px]">
             <div className="relative text-[15px] content-start bg-white bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent gap-x-4 grid grid-cols-[minmax(0px,12fr)] grid-rows-[1fr] justify-start leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] gap-y-0 w-full bg-center mx-auto p-4 md:text-base md:grid-cols-[minmax(0px,9fr)_minmax(0px,3fr)] md:leading-[28.8px] md:w-3/5">
               <div className="relative text-[15px] box-border caret-transparent flex flex-col justify-start leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] md:text-base md:leading-[28.8px]">
-                <ProductIntro />
-                <IngredientsSection />
-                <ResultsSection />
-                <PricingSection
+                <ElavynProductIntro />
+                <ElavynIngredientsSection />
+                <ElavynResultsSection />
+                <ElavynPricingSection
                   title="The Price That's Causing Pharmaceutical Panic"
                   mediaVariant="bg-black overflow-hidden mb-2"
                   mediaWrapperClassName=""
@@ -173,7 +173,7 @@ export const ProductOffer = () => {
                     </>
                   }
                 />
-                <PricingSection
+                <ElavynPricingSection
                   title={
                     'The 60% Off "In Your Face" To The Medical Establishment'
                   }
@@ -273,7 +273,7 @@ export const ProductOffer = () => {
                     </>
                   }
                 />
-                <PricingSection
+                <ElavynPricingSection
                   title="⚠️ But Here's The Brutal Reality"
                   mediaVariant="max-w-full shrink-0 text-center mb-4"
                   mediaWrapperClassName=""
@@ -337,8 +337,8 @@ export const ProductOffer = () => {
                     </>
                   }
                 />
-                <GuaranteeSection />
-                <FinalCallToAction
+                <ElavynGuaranteeSection />
+                <ElavynFinalCallToAction
                   title="The Decision That Will Define Your Next Decade"
                   heroImageSrc="https://c.animaapp.com/mr0pqk6b3NyYkT/assets/22.png"
                   introContent={
@@ -417,7 +417,7 @@ export const ProductOffer = () => {
                     </>
                   }
                 />
-                <FinalCallToAction
+                <ElavynFinalCallToAction
                   title="Here's Exactly What Happens Next"
                   heroImageSrc="https://c.animaapp.com/mr0pqk6b3NyYkT/assets/hf_20260324_151906_73579d00-b30d-4628-aa51-bb67d69aa365.jpg"
                   introContent={

@@ -1,16 +1,16 @@
-export type ScientificReferencesProps = {
+export type PinksaltScientificReferencesProps = {
   showTitle?: boolean;
   title?: string;
   imageSrc?: string;
   imageAlt?: string;
 };
 
-export const ScientificReferences = ({
+export const PinksaltScientificReferences = ({
   showTitle = false,
   title = "Scientific References",
   imageSrc,
   imageAlt = "",
-}: ScientificReferencesProps) => {
+}: PinksaltScientificReferencesProps) => {
   return (
     <div className="relative gap-x-5 max-w-full min-h-[auto] gap-y-5 text-center">
       {showTitle && (

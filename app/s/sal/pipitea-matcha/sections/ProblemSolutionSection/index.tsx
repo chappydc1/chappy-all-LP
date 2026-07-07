@@ -1,6 +1,6 @@
-import { TextImageBlock } from "./components/TextImageBlock";
+import { PipiteaMatchaTextImageBlock } from "./components/TextImageBlock";
 
-export const ProblemSolutionSection = () => {
+export const PipiteaMatchaProblemSolutionSection = () => {
   return (
     <section
       href=""
@@ -22,7 +22,7 @@ export const ProblemSolutionSection = () => {
               href=""
               className="box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full"
             >
-              <TextImageBlock
+              <PipiteaMatchaTextImageBlock
                 layoutVariant="text-first"
                 imageUrl="https://c.animaapp.com/mq0c6l4mp0WBgi/assets/1762562842908_section01_matcha_work.webp"
                 imageSizes="565px"
@@ -215,7 +215,7 @@ export const ProblemSolutionSection = () => {
               href=""
               className="box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full"
             >
-              <TextImageBlock
+              <PipiteaMatchaTextImageBlock
                 layoutVariant="image-first"
                 imageUrl="https://c.animaapp.com/mq0c6l4mp0WBgi/assets/1762558489626_section02_matcha_on_cup.webp"
                 imageSizes=""

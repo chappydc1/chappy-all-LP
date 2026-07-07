@@ -1,8 +1,8 @@
-import { OfferBenefitList } from "./OfferBenefitList";
-import { OfferCta } from "./OfferCta";
-import { DoctorReview } from "./DoctorReview";
+import { PipiteaOfferBenefitList } from "./OfferBenefitList";
+import { PipiteaOfferCta } from "./OfferCta";
+import { PipiteaDoctorReview } from "./DoctorReview";
 
-export const OfferContent = () => {
+export const PipiteaOfferContent = () => {
   return (
     <div
       className="box-border caret-transparent flex basis-[0%] flex-col grow max-w-full min-h-[auto] min-w-full outline-[3px] w-full md:max-w-none md:min-w-0 md:w-auto"
@@ -59,7 +59,7 @@ export const OfferContent = () => {
         <div
           className="box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full"
         >
-          <OfferBenefitList />
+          <PipiteaOfferBenefitList />
         </div>
       </div>
       <div
@@ -113,10 +113,10 @@ export const OfferContent = () => {
                 <div
                   className="items-stretch box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full"
                 >
-                  <OfferCta />
+                  <PipiteaOfferCta />
                 </div>
               </div>
-              <DoctorReview />
+              <PipiteaDoctorReview />
             </div>
           </div>
         </div>

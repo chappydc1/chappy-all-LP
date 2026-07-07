@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import adv from "../adv.json";
 
-export function MobileFixedCTA() {
+export function ZikeeyMobileFixedCTA() {
   const [visible, setVisible] = useState(false);
   const { mobileCta } = adv.article;
 

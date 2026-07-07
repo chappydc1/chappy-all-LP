@@ -1,4 +1,4 @@
-export type CustomerReviewProps = {
+export type PipiteaMatchaCustomerReviewProps = {
   firstReviewerName: string;
   firstReviewText: string;
   firstImageSrc: string;
@@ -9,7 +9,7 @@ export type CustomerReviewProps = {
   secondReviewerTextClassName: string;
 };
 
-export const CustomerReview = (props: CustomerReviewProps) => {
+export const PipiteaMatchaCustomerReview = (props: PipiteaMatchaCustomerReviewProps) => {
   return (
     <div
       href=""

@@ -17,7 +17,7 @@ const formatUpdatedAt = () => {
   }).format(updatedAt);
 };
 
-export const NewsBar = () => {
+export const TodayNewsBar = () => {
   const [updatedAt, setUpdatedAt] = useState("");
 
   useEffect(() => {

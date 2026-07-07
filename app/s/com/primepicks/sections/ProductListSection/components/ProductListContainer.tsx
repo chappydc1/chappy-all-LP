@@ -1,12 +1,12 @@
-import { FeaturedProductCard } from "../../ProductListSection/components/FeaturedProductCard";
-import { ProductCard } from "../../ProductListSection/components/ProductCard";
+import { PrimepicksFeaturedProductCard } from "../../ProductListSection/components/FeaturedProductCard";
+import { PrimepicksProductCard } from "../../ProductListSection/components/ProductCard";
 
-export const ProductListContainer = () => {
+export const PrimepicksProductListContainer = () => {
   return (
     <div className="box-border caret-transparent max-w-[1000px] mx-auto px-4 md:px-0">
       <div className="relative box-border caret-transparent">
-        <FeaturedProductCard />
-        <ProductCard
+        <PrimepicksFeaturedProductCard />
+        <PrimepicksProductCard
           outerClassName="mb-6"
           headerClassName="min-h-[auto] min-w-[auto]"
           titleClassName="min-h-[auto] min-w-[auto]"
@@ -27,7 +27,7 @@ export const ProductListContainer = () => {
           ]}
           cons={["Weak volume", "Too thick for modern wallets"]}
         />
-        <ProductCard
+        <PrimepicksProductCard
           outerClassName="mb-6"
           headerClassName="min-h-[auto] min-w-[auto]"
           titleClassName="min-h-[auto] min-w-[auto]"
@@ -52,7 +52,7 @@ export const ProductListContainer = () => {
             "Weak alert sound",
           ]}
         />
-        <ProductCard
+        <PrimepicksProductCard
           outerClassName="hidden mb-6"
           headerClassName=""
           titleClassName=""
@@ -78,7 +78,7 @@ export const ProductListContainer = () => {
             "Not loud enough sound",
           ]}
         />
-        <ProductCard
+        <PrimepicksProductCard
           outerClassName="hidden"
           headerClassName=""
           titleClassName=""

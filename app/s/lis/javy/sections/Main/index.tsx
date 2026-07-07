@@ -1,9 +1,9 @@
-import { ArticleHeader } from "../Main/components/ArticleHeader";
-import { ArticleSection } from "../Main/components/ArticleSection";
-import { OfferSection } from "../Main/components/OfferSection";
-import { StickyBuyBar } from "../Main/components/StickyBuyBar";
+import { JavyArticleHeader } from "../Main/components/ArticleHeader";
+import { JavyArticleSection } from "../Main/components/ArticleSection";
+import { JavyOfferSection } from "../Main/components/OfferSection";
+import { JavyStickyBuyBar } from "../Main/components/StickyBuyBar";
 
-export const Main = () => {
+export const JavyMain = () => {
   return (
     <main className="box-border caret-transparent">
       <div className="box-border caret-transparent hidden">
@@ -31,10 +31,10 @@ export const Main = () => {
           </div>
         </div>
       </div>
-      <ArticleHeader />
-      <ArticleSection />
-      <OfferSection />
-      <StickyBuyBar />
+      <JavyArticleHeader />
+      <JavyArticleSection />
+      <JavyOfferSection />
+      <JavyStickyBuyBar />
     </main>
   );
 };

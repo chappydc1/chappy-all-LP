@@ -1,4 +1,4 @@
-export const BatterySection = () => {
+export const NebrooBatterySection = () => {
   return (
     <div className="items-center box-border caret-transparent flex flex-wrap justify-start mt-0 md:flex-nowrap md:mt-2.5">
       <div className="box-border caret-transparent hidden basis-full flex-col grow justify-center min-h-[25px] min-w-0 p-2.5 md:flex md:min-w-[auto]">

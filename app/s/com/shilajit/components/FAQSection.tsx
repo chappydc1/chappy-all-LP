@@ -8,7 +8,7 @@ type FAQProps = {
   };
 };
 
-export function FAQSection({ faq }: FAQProps) {
+export function ShilajitFAQSection({ faq }: FAQProps) {
   const [openFaq, setOpenFaq] = useState<number | null>(null);
 
   return (

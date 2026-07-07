@@ -1,4 +1,4 @@
-export const ReviewsSummary = () => {
+export const GrunsReviewsSummary = () => {
   return (
     <div className="relative text-base box-border caret-transparent leading-[25.6px] max-w-[1200px] outline-[3px] mx-auto px-4 py-8">
       <div

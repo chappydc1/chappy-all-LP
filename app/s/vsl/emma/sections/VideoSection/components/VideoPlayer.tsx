@@ -1,4 +1,4 @@
-export const VideoPlayer = () => {
+export const EmmaVideoPlayer = () => {
   return (
     <div className="box-border caret-transparent grow min-h-[auto] min-w-[auto]">
       <div className="text-emerald-800 text-xl items-center box-border caret-transparent gap-x-9 hidden flex-col justify-center leading-[30px] gap-y-9 text-center w-full font-inter">

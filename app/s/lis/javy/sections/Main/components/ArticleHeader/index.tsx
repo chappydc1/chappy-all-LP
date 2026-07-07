@@ -1,17 +1,17 @@
-import { ArticleTitle } from "../../../Main/components/ArticleHeader/components/ArticleTitle";
-import { ArticleAuthor } from "../../../Main/components/ArticleHeader/components/ArticleAuthor";
-import { ComparisonTable } from "../../../Main/components/ArticleHeader/components/ComparisonTable";
+import { JavyArticleTitle } from "../../../Main/components/ArticleHeader/components/ArticleTitle";
+import { JavyArticleAuthor } from "../../../Main/components/ArticleHeader/components/ArticleAuthor";
+import { JavyComparisonTable } from "../../../Main/components/ArticleHeader/components/ComparisonTable";
 
-export const ArticleHeader = () => {
+export const JavyArticleHeader = () => {
   return (
     <div className="box-border">
       <div className="box-border w-full z-[999] px-4 md:px-10">
         <div className="box-border max-w-screen-md w-full mx-auto">
           <div className="box-border pt-8 md:pt-[46px]">
             <div className="items-stretch box-border flex flex-col justify-center text-left pb-4 md:items-start animate-fade-in-up" style={{ animationDelay: "0.1s" }}>
-              <ArticleTitle />
+              <JavyArticleTitle />
               <div className="box-border min-h-[auto] min-w-[auto] pb-5 md:pb-4"></div>
-              <ArticleAuthor />
+              <JavyArticleAuthor />
               <div className="box-border min-h-[auto] min-w-[auto] pb-5 md:pb-4"></div>
               <div className="italic bg-orange-50 border-l-indigo-950 box-border min-h-[auto] min-w-[auto] w-full mb-2.5 pl-1.5 pr-2 py-2 border-l-[3px] md:mb-3.5 md:p-2.5">
                 <div className="text-base not-italic box-border tracking-[-0.32px] leading-6 md:text-[18.4px] md:tracking-[-0.368px] md:leading-[27.6px]">
@@ -22,7 +22,7 @@ export const ArticleHeader = () => {
                   <br className="text-base box-border tracking-[-0.32px] leading-6 md:text-[18.4px] md:tracking-[-0.368px] md:leading-[27.6px]" />
                 </div>
               </div>
-              <ComparisonTable />
+              <JavyComparisonTable />
               <p className="text-neutral-500 text-[10px] box-border hidden leading-[15px] mt-5 md:text-xs md:leading-[18px] md:mt-4">
                 *Mainstream coffees based on a 16 oz coffee drink, Protein
                 drinks based on a 11-12 oz ready-to-drink protein shake.

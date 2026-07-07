@@ -1,8 +1,8 @@
 import adv from "../adv.json";
 import media from "../media.json";
-import { CookieCategory } from "./CookieCategory";
+import { DerilaCookieCategory } from "./CookieCategory";
 
-export const CookiePreferences = () => {
+export const DerilaCookiePreferences = () => {
   const { cookies } = adv;
   const { icons } = media;
 
@@ -33,7 +33,7 @@ export const CookiePreferences = () => {
         <div className="bg-zinc-100 box-border caret-transparent outline-[3px] p-4 rounded-[10px]">
           <div className="box-border caret-transparent outline-[3px]"></div>
           {cookies.categories.map((cat, i) => (
-            <CookieCategory
+            <DerilaCookieCategory
               key={cat.title}
               containerVariant={i === 0 ? "items-start" : "items-center"}
               firstIconWrapperVariant={i === 0 ? "" : "hidden"}

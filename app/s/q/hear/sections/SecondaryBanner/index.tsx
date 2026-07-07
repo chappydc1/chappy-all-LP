@@ -1,4 +1,4 @@
-export const SecondaryBanner = () => {
+export const HearSecondaryBanner = () => {
   return (
     <section className="bg-sky-50 caret-transparent hidden outline-[3px] py-[15px]">
       <div className="caret-transparent max-w-[518px] outline-[3px] mx-auto px-[25px]">

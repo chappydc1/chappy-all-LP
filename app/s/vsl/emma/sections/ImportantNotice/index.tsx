@@ -1,4 +1,4 @@
-export const ImportantNotice = () => {
+export const EmmaImportantNotice = () => {
   return (
     <div className="bg-white box-border caret-transparent max-w-[1440px] m-auto pt-1 pb-0 md:bg-transparent md:mb-0 md:pt-4 md:pb-6">
       <div className="text-xl box-border caret-transparent hidden leading-[30px] px-[5px]">

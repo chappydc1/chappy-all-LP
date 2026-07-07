@@ -1,6 +1,6 @@
-import { FAQItem } from "../FAQSection/components/FAQItem";
+import { EmmaFAQItem } from "../FAQSection/components/FAQItem";
 
-export const FAQSection = () => {
+export const EmmaFAQSection = () => {
   return (
     <div className="bg-stone-100 box-border caret-transparent w-full">
       <div className="box-border caret-transparent max-w-[1440px] m-auto py-6">
@@ -10,7 +10,7 @@ export const FAQSection = () => {
               F.A.Qs
             </h2>
             <ul className="box-border caret-transparent list-none mb-4 pl-0">
-              <FAQItem
+              <EmmaFAQItem
                 number={1}
                 question={`Hey Dr. Sam, I've tried everything from
                                         laxatives, to cleanses to probiotics. And probiotics are quite popular these
@@ -123,7 +123,7 @@ export const FAQSection = () => {
                 liClassName="border-t-zinc-900 border-y-2"
                 headerClassName=""
               />
-              <FAQItem
+              <EmmaFAQItem
                 number={2}
                 question="I've always kinda suspected that my weight gain as I've gotten older is related to my digestion problems, and your presentation confirms this. So my question is, will Emma help me lose weight?"
                 answer={
@@ -201,7 +201,7 @@ export const FAQSection = () => {
                 liClassName="border-t-neutral-800 border-b-2"
                 headerClassName="mt-1 px-2 md:px-0"
               />
-              <FAQItem
+              <EmmaFAQItem
                 number={3}
                 question="Are there any side effects? Is it safe to take long term?"
                 answer={
@@ -244,7 +244,7 @@ export const FAQSection = () => {
                 liClassName="border-t-neutral-800 border-b-2"
                 headerClassName="mt-1 px-2 md:px-0"
               />
-              <FAQItem
+              <EmmaFAQItem
                 number={4}
                 question="I don't have constipation very often, but I do struggle with food allergies."
                 answer={
@@ -327,7 +327,7 @@ export const FAQSection = () => {
                 liClassName="border-t-neutral-800 border-b-2"
                 headerClassName="mt-1 px-2 md:px-0"
               />
-              <FAQItem
+              <EmmaFAQItem
                 number={5}
                 question="Will Emma help with bloating and constipation?"
                 liClassName="border-b-zinc-900 border-l-neutral-800 border-r-neutral-800 border-t-neutral-800 box-border caret-transparent p-5 border-b-2"
@@ -384,7 +384,7 @@ export const FAQSection = () => {
                   </>
                 }
               />
-              <FAQItem
+              <EmmaFAQItem
                 number={6}
                 question="Will Emma help with diarrhea?"
                 answer={
@@ -467,7 +467,7 @@ export const FAQSection = () => {
                 liClassName="border-t-neutral-800 border-b-2"
                 headerClassName="mt-1 px-2 md:px-0"
               />
-              <FAQItem
+              <EmmaFAQItem
                 number={7}
                 question="How fast will I see results?"
                 answer={
@@ -556,7 +556,7 @@ export const FAQSection = () => {
                 liClassName="border-t-neutral-800 border-b-2"
                 headerClassName="mt-1 px-2 md:px-0"
               />
-              <FAQItem
+              <EmmaFAQItem
                 number={8}
                 question="Is Emma available anywhere else for a lower price?"
                 answer={

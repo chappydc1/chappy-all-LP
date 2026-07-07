@@ -13,7 +13,7 @@ const faqs = [
   },
 ];
 
-export const FAQSection = () => {
+export const OprahFAQSection = () => {
   return (
     <section className="bg-white box-border w-full px-4 py-12">
       <div className="mx-auto max-w-[900px] reveal">

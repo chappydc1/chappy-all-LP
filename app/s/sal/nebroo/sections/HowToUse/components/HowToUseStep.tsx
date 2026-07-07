@@ -1,11 +1,11 @@
-export type HowToUseStepProps = {
+export type NebrooHowToUseStepProps = {
   stepNumber: string;
   wistiaId: string;
   description: React.ReactNode;
   descriptionClassName?: string;
 };
 
-export const HowToUseStep = (props: HowToUseStepProps) => {
+export const NebrooHowToUseStep = (props: NebrooHowToUseStepProps) => {
   return (
     <div className="box-border caret-transparent min-h-0 min-w-0 w-full px-px py-3 font-montserrat md:min-h-[auto] md:min-w-[auto] md:px-2.5">
       <div className="text-slate-500 text-4xl font-bold box-border caret-transparent leading-9 text-center p-2.5 font-montserrat">

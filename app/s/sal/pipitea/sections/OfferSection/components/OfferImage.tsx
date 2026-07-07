@@ -1,4 +1,4 @@
-export const OfferImage = () => {
+export const PipiteaOfferImage = () => {
   return (
     <div
       className="box-border caret-transparent flex basis-[0%] flex-col grow max-w-full min-h-[auto] min-w-full outline-[3px] w-full md:max-w-none md:min-w-0 md:w-auto"

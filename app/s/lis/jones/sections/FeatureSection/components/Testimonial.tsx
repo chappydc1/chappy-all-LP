@@ -1,4 +1,4 @@
-export type TestimonialProps = {
+export type JonesTestimonialProps = {
   className?: string;
   title: string;
   authorName: string;
@@ -6,7 +6,7 @@ export type TestimonialProps = {
   body: string;
 };
 
-export const Testimonial = (props: TestimonialProps) => {
+export const JonesTestimonial = (props: JonesTestimonialProps) => {
   return (
     <div
       className={`relative items-start self-stretch bg-stone-100 box-border caret-transparent gap-x-2.5 flex flex-col shrink-0 justify-start max-w-full min-h-px min-w-[auto] outline-[3px] gap-y-2.5 mt-[5px] px-[15px] py-4 md:mt-2.5 md:px-[30px] ${props.className ?? ""}`}

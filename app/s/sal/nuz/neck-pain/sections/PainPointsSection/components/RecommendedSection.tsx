@@ -1,10 +1,10 @@
 "use client";
 
-import { PainPointsGrid } from "./PainPointsGrid";
+import { NuzPainPointsGrid } from "./PainPointsGrid";
 import { useCountdown } from "../../../hooks/useCountdown";
 import { content, renderInlineBold } from "../../../content";
 
-export const RecommendedSection = () => {
+export const NuzRecommendedSection = () => {
   const pp = content.painPoints;
   const { formatted } = useCountdown(pp.ctaCountdownSeconds);
 
@@ -50,7 +50,7 @@ export const RecommendedSection = () => {
           </div>
         </div>
         <div className="items-start box-border caret-transparent flex flex-col justify-start max-w-full min-h-0 min-w-0 w-full md:flex md:max-w-[46%] md:min-h-[auto] md:min-w-[auto]">
-          <PainPointsGrid />
+          <NuzPainPointsGrid />
         </div>
       </div>
       <div className="flex flex-col items-center mt-10 md:mt-12 px-5">

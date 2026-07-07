@@ -1,4 +1,4 @@
-export const SidebarAd = () => {
+export const AbcNewsSidebarAd = () => {
   return (
     <div className="box-border caret-transparent min-h-0 outline-[3px] md:min-h-[250px]">
       <div className="box-border caret-transparent outline-[3px]">

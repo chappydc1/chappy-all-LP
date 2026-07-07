@@ -1,4 +1,4 @@
-export const NavbarLogo = () => {
+export const AbcNewsNavbarLogo = () => {
   return (
     <h2 className="text-2xl font-bold box-border caret-transparent leading-[27.6px] min-h-[auto] min-w-[auto] outline-[3px] ml-2.5 mr-0 mt-2 md:ml-0 md:mr-[22px] md:mt-3">
       <div className="box-border caret-transparent outline-[3px]">

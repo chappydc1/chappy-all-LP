@@ -2,7 +2,7 @@
 
 import { useAdvertorial } from "../../LandingPage/context";
 
-export const Sidebar = () => {
+export const RosabellaSidebar = () => {
   const { copy, media } = useAdvertorial();
 
   return (

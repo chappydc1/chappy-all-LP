@@ -1,6 +1,6 @@
 "use client";
 
-export type ReasonSectionProps = {
+export type RosabellaReasonSectionProps = {
   containerClassName: string;
   variant: string;
   title: string;
@@ -14,7 +14,7 @@ export type ReasonSectionProps = {
   children: React.ReactNode;
 };
 
-export const ReasonSection = (props: ReasonSectionProps) => {
+export const RosabellaReasonSection = (props: RosabellaReasonSectionProps) => {
   const TitleTag = props.titleTag;
 
   return (

@@ -1,4 +1,4 @@
-export const LegacyFooter = () => {
+export const FealsLegacyFooter = () => {
   return (
     <div className="box-border caret-transparent hidden outline-[3px]">
       <footer

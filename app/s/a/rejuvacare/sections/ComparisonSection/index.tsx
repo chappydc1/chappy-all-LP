@@ -1,6 +1,6 @@
-import { ComparisonTable } from "../ComparisonSection/components/ComparisonTable";
+import { RejuvacareComparisonTable } from "../ComparisonSection/components/ComparisonTable";
 
-export const ComparisonSection = () => {
+export const RejuvacareComparisonSection = () => {
   return (
     <div className="items-stretch bg-neutral-100 box-border caret-transparent flex flex-wrap justify-start max-w-full outline-[3px] md:flex-nowrap">
       <div className="relative items-center bg-white box-border caret-transparent block basis-px flex-col grow justify-center max-w-[1400px] min-h-[25px] outline-[3px] w-min m-auto pt-[30px] pb-2.5 px-[15px] md:flex md:pt-[50px] md:px-[100px]">
@@ -17,7 +17,7 @@ export const ComparisonSection = () => {
             &quot;The RejuvaKnee &#39;Triple Method&#39; Massager Just
             Works&quot;
           </div>
-          <ComparisonTable />
+          <RejuvacareComparisonTable />
           <div className="text-[23px] font-bold box-border caret-transparent leading-[32.2px] min-h-[auto] min-w-[auto] outline-[3px] text-center mt-6 font-montserrat md:text-[33px] md:leading-[46.2px] md:text-left md:mt-8"></div>
         </div>
       </div>

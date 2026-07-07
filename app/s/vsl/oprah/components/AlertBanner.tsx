@@ -1,4 +1,4 @@
-export const AlertBanner = () => {
+export const OprahAlertBanner = () => {
   return (
     <div className="relative box-border caret-transparent gap-x-5 max-w-full min-h-[auto] gap-y-5">
       <div className="items-center box-border caret-transparent flex justify-center text-center w-full">

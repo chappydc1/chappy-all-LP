@@ -1,4 +1,4 @@
-export const ArticleHeader = () => {
+export const AbcNewsArticleHeader = () => {
   return (
     <div className="box-border caret-transparent outline-[3px] mt-6 mb-8 md:mt-10">
       <div className="text-neutral-900 box-border caret-transparent outline-[3px] mb-6">

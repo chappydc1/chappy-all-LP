@@ -1,6 +1,6 @@
-import { PreparationStep } from "./components/PreparationStep";
+import { PipiteaPreparationStep } from "./components/PreparationStep";
 
-export const PreparationSection = () => {
+export const PipiteaPreparationSection = () => {
   return (
     <section
       className="items-center bg-no-repeat box-border caret-transparent flex flex-col justify-items-center min-h-[auto] min-w-[auto] outline-[3px] w-full bg-center px-[15px] py-[45px] md:py-[60px]"
@@ -41,7 +41,7 @@ export const PreparationSection = () => {
               <div
                 className="items-start box-border caret-transparent flex flex-col flex-wrap min-h-[auto] min-w-[auto] mt-10 md:flex-row"
               >
-                <PreparationStep
+                <PipiteaPreparationStep
                   imageUrl="https://c.animaapp.com/mq03tlhwPsu7gY/assets/1765564326543_how_to_make01.webp"
                   title="Add"
                   description="Place 1 tea bag in your cup or pitcher."
@@ -65,7 +65,7 @@ export const PreparationSection = () => {
                     </div>
                   </div>
                 </div>
-                <PreparationStep
+                <PipiteaPreparationStep
                   imageUrl="https://c.animaapp.com/mq03tlhwPsu7gY/assets/1765564416134_how_to_make02.webp"
                   title="Boil Hot Water & Steep"
                   description="Pour hot water (just off boiling) and steep for 5–7 minutes. Longer steeping = stronger, more tart flavor and maximum kidney-supporting compounds."
@@ -89,7 +89,7 @@ export const PreparationSection = () => {
                     </div>
                   </div>
                 </div>
-                <PreparationStep
+                <PipiteaPreparationStep
                   imageUrl="https://c.animaapp.com/mq03tlhwPsu7gY/assets/1765564459196_how_to_make03.webp"
                   title="Enjoy Hot or Iced"
                   description="Drink immediately for a warming cup. Or let it cool and pour over ice for a refreshing cold drink. Add cinnamon, orange slices, mint, or a touch of honey to make it yours. Clinical studies used 2–3 cups daily for optimal kidney support."

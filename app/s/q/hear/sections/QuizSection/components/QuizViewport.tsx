@@ -1,13 +1,13 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { LoadingStep } from "../../QuizSection/components/LoadingStep";
-import { QuizStep } from "../../QuizSection/components/QuizStep";
-import { ProgressIndicator } from "../../QuizSection/components/ProgressIndicator";
+import { HearLoadingStep } from "../../QuizSection/components/LoadingStep";
+import { HearQuizStep } from "../../QuizSection/components/QuizStep";
+import { HearProgressIndicator } from "../../QuizSection/components/ProgressIndicator";
 
 const TOTAL_QUIZ_STEPS = 31; // steps 0–30; step 31 is handled as end-of-quiz
 
-export const QuizViewport = () => {
+export const HearQuizViewport = () => {
   const [currentStep, setCurrentStep] = useState(0);
   const [phase, setPhase] = useState<"quiz" | "loading" | "result">("quiz");
 
@@ -87,8 +87,8 @@ export const QuizViewport = () => {
       >
         {/* Slide 0 */}
         <div className="box-border caret-transparent inline-block outline-[3px] align-top w-full px-[25px] whitespace-normal">
-          <LoadingStep />
-          <QuizStep
+          <HearLoadingStep />
+          <HearQuizStep
             rootClassName="box-border caret-transparent outline-[3px] whitespace-normal"
             innerClassName="box-border caret-transparent outline-[3px]"
             question={
@@ -119,7 +119,7 @@ export const QuizViewport = () => {
           />
         </div>
         {/* Slide 1 */}
-        <QuizStep
+        <HearQuizStep
           rootClassName="box-border caret-transparent inline-block outline-[3px] align-top w-full px-[25px] whitespace-normal"
           onSelect={next}
           question={
@@ -133,7 +133,7 @@ export const QuizViewport = () => {
           options={[{ label: "Yes" }, { label: "Not yet" }]}
         />
         {/* Slide 2 */}
-        <QuizStep
+        <HearQuizStep
           rootClassName="box-border caret-transparent inline-block outline-[3px] align-top w-full px-[25px] whitespace-normal"
           onSelect={next}
           question={
@@ -151,7 +151,7 @@ export const QuizViewport = () => {
           options={[{ label: "Yes" }, { label: "No" }]}
         />
         {/* Slide 3 */}
-        <QuizStep
+        <HearQuizStep
           rootClassName="box-border caret-transparent inline-block outline-[3px] align-top w-full px-[25px] whitespace-normal"
           onSelect={next}
           question={
@@ -166,7 +166,7 @@ export const QuizViewport = () => {
           options={[{ label: "Yes" }, { label: "No" }]}
         />
         {/* Slide 4 */}
-        <QuizStep
+        <HearQuizStep
           rootClassName="box-border caret-transparent inline-block outline-[3px] align-top w-full px-[25px] whitespace-normal"
           onSelect={next}
           question={
@@ -186,7 +186,7 @@ export const QuizViewport = () => {
           ]}
         />
         {/* Slide 5 */}
-        <QuizStep
+        <HearQuizStep
           rootClassName="box-border caret-transparent inline-block outline-[3px] align-top w-full px-[25px] whitespace-normal"
           onSelect={next}
           question={
@@ -205,7 +205,7 @@ export const QuizViewport = () => {
           ]}
         />
         {/* Slide 6 */}
-        <QuizStep
+        <HearQuizStep
           rootClassName="box-border caret-transparent inline-block outline-[3px] align-top w-full px-[25px] whitespace-normal"
           onSelect={next}
           question={
@@ -228,7 +228,7 @@ export const QuizViewport = () => {
           ]}
         />
         {/* Slide 7 */}
-        <QuizStep
+        <HearQuizStep
           rootClassName="box-border caret-transparent inline-block outline-[3px] align-top w-full px-[25px] whitespace-normal"
           onSelect={next}
           question={
@@ -253,7 +253,7 @@ export const QuizViewport = () => {
           ]}
         />
         {/* Slide 8 */}
-        <QuizStep
+        <HearQuizStep
           rootClassName="box-border caret-transparent inline-block outline-[3px] align-top w-full px-[25px] whitespace-normal"
           formClassName="relative box-border caret-transparent outline-[3px] pb-[30px]"
           onSelect={next}
@@ -277,7 +277,7 @@ export const QuizViewport = () => {
           ]}
         />
         {/* Slide 9 */}
-        <QuizStep
+        <HearQuizStep
           rootClassName="box-border caret-transparent inline-block outline-[3px] align-top w-full px-[25px] whitespace-normal"
           onSelect={next}
           question={
@@ -313,7 +313,7 @@ export const QuizViewport = () => {
           ]}
         />
         {/* Slide 10 */}
-        <QuizStep
+        <HearQuizStep
           rootClassName="box-border caret-transparent inline-block outline-[3px] align-top w-full px-[25px] whitespace-normal"
           onSelect={next}
           question={
@@ -332,7 +332,7 @@ export const QuizViewport = () => {
           ]}
         />
         {/* Slide 11 */}
-        <QuizStep
+        <HearQuizStep
           rootClassName="box-border caret-transparent inline-block outline-[3px] align-top w-full px-[25px] whitespace-normal"
           onSelect={next}
           question={
@@ -354,7 +354,7 @@ export const QuizViewport = () => {
           ]}
         />
         {/* Slide 12 */}
-        <QuizStep
+        <HearQuizStep
           rootClassName="box-border caret-transparent inline-block outline-[3px] align-top w-full px-[25px] whitespace-normal"
           onSelect={next}
           question={
@@ -369,7 +369,7 @@ export const QuizViewport = () => {
           options={[{ label: "Yes" }, { label: "No" }]}
         />
         {/* Slide 13 */}
-        <QuizStep
+        <HearQuizStep
           rootClassName="box-border caret-transparent inline-block outline-[3px] align-top w-full px-[25px] whitespace-normal"
           onSelect={next}
           question={
@@ -392,7 +392,7 @@ export const QuizViewport = () => {
           ]}
         />
         {/* Slide 14 */}
-        <QuizStep
+        <HearQuizStep
           rootClassName="box-border caret-transparent inline-block outline-[3px] align-top w-full px-[25px] whitespace-normal"
           onSelect={next}
           question={
@@ -415,7 +415,7 @@ export const QuizViewport = () => {
           ]}
         />
         {/* Slide 15 */}
-        <QuizStep
+        <HearQuizStep
           rootClassName="box-border caret-transparent inline-block outline-[3px] align-top w-full px-[25px] whitespace-normal"
           onSelect={next}
           question={
@@ -437,7 +437,7 @@ export const QuizViewport = () => {
           ]}
         />
         {/* Slide 16 */}
-        <QuizStep
+        <HearQuizStep
           rootClassName="box-border caret-transparent inline-block outline-[3px] align-top w-full px-[25px] whitespace-normal"
           onSelect={next}
           question={
@@ -464,7 +464,7 @@ export const QuizViewport = () => {
           ]}
         />
         {/* Slide 17 */}
-        <QuizStep
+        <HearQuizStep
           rootClassName="box-border caret-transparent inline-block outline-[3px] align-top w-full px-[25px] whitespace-normal"
           innerClassName="box-border caret-transparent flex-col flex-wrap outline-[3px]"
           optionsInnerClassName="box-border caret-transparent flex flex-col flex-wrap outline-[3px]"
@@ -493,7 +493,7 @@ export const QuizViewport = () => {
           ]}
         />
         {/* Slide 18 */}
-        <QuizStep
+        <HearQuizStep
           rootClassName="box-border caret-transparent inline-block outline-[3px] align-top w-full px-[25px] whitespace-normal"
           onSelect={next}
           question={
@@ -511,7 +511,7 @@ export const QuizViewport = () => {
           ]}
         />
         {/* Slide 19 */}
-        <QuizStep
+        <HearQuizStep
           rootClassName="box-border caret-transparent inline-block outline-[3px] align-top w-full px-[25px] whitespace-normal"
           onSelect={next}
           question={
@@ -540,7 +540,7 @@ export const QuizViewport = () => {
           ]}
         />
         {/* Slide 20 */}
-        <QuizStep
+        <HearQuizStep
           rootClassName="box-border caret-transparent inline-block outline-[3px] align-top w-full px-[25px] whitespace-normal"
           onSelect={next}
           question={
@@ -569,14 +569,14 @@ export const QuizViewport = () => {
           ]}
         />
         {/* Slide 21 */}
-        <QuizStep
+        <HearQuizStep
           rootClassName="box-border caret-transparent inline-block outline-[3px] align-top w-full px-[25px] whitespace-normal"
           onSelect={next}
           question="Are you a U.S. veteran?"
           options={[{ label: "Yes" }, { label: "No" }]}
         />
         {/* Slide 22 */}
-        <QuizStep
+        <HearQuizStep
           rootClassName="box-border caret-transparent inline-block outline-[3px] align-top w-full px-[25px] whitespace-normal"
           formClassName="box-border caret-transparent flex flex-col outline-[3px]"
           questionWrapperClassName="box-border caret-transparent min-h-[auto] min-w-[auto] order-1 outline-[3px] mb-[35px] pt-[25px]"
@@ -622,7 +622,7 @@ export const QuizViewport = () => {
           ]}
         />
         {/* Slide 23 */}
-        <QuizStep
+        <HearQuizStep
           rootClassName="box-border caret-transparent inline-block outline-[3px] align-top w-full px-[25px] whitespace-normal"
           onSelect={next}
           question={
@@ -647,7 +647,7 @@ export const QuizViewport = () => {
           ]}
         />
         {/* Slide 24 */}
-        <QuizStep
+        <HearQuizStep
           rootClassName="box-border caret-transparent inline-block outline-[3px] align-top w-full px-[25px] whitespace-normal"
           onSelect={next}
           question={
@@ -672,7 +672,7 @@ export const QuizViewport = () => {
           ]}
         />
         {/* Slide 25 */}
-        <QuizStep
+        <HearQuizStep
           rootClassName="box-border caret-transparent inline-block outline-[3px] align-top w-full px-[25px] whitespace-normal"
           onSelect={next}
           question={
@@ -697,7 +697,7 @@ export const QuizViewport = () => {
           ]}
         />
         {/* Slide 26 — age input */}
-        <QuizStep
+        <HearQuizStep
           rootClassName="box-border caret-transparent inline-block outline-[3px] align-top w-full px-[25px] whitespace-normal"
           onSelect={next}
           question={
@@ -718,7 +718,7 @@ export const QuizViewport = () => {
           }}
         />
         {/* Slide 27 — zip code input */}
-        <QuizStep
+        <HearQuizStep
           rootClassName="box-border caret-transparent inline-block outline-[3px] align-top w-full px-[25px] whitespace-normal"
           onSelect={next}
           question={
@@ -742,7 +742,7 @@ export const QuizViewport = () => {
           }}
         />
         {/* Slide 28 — name input */}
-        <QuizStep
+        <HearQuizStep
           rootClassName="box-border caret-transparent inline-block outline-[3px] align-top w-full px-[25px] whitespace-normal"
           onSelect={next}
           question={
@@ -764,7 +764,7 @@ export const QuizViewport = () => {
           }}
         />
         {/* Slide 29 — phone input */}
-        <QuizStep
+        <HearQuizStep
           rootClassName="box-border caret-transparent inline-block outline-[3px] align-top w-full px-[25px] whitespace-normal"
           onSelect={next}
           question={
@@ -835,7 +835,7 @@ export const QuizViewport = () => {
           buttonText="Submit"
         />
         {/* Slide 30 — email input */}
-        <QuizStep
+        <HearQuizStep
           rootClassName="box-border caret-transparent inline-block outline-[3px] align-top w-full px-[25px] whitespace-normal"
           formClassName="box-border caret-transparent flex flex-col outline-[3px]"
           onSelect={next}
@@ -883,7 +883,7 @@ export const QuizViewport = () => {
           buttonText="Send Confirmation"
         />
       </div>
-      <ProgressIndicator />
+      <HearProgressIndicator />
     </div>
   );
 };

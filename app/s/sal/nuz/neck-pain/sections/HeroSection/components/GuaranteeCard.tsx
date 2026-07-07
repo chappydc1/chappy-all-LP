@@ -1,6 +1,6 @@
 import { content } from "../../../content";
 
-export const GuaranteeCard = () => {
+export const NuzGuaranteeCard = () => {
   const gc = content.hero.guaranteeCard;
   return (
     <div className="items-center bg-stone-200/40 box-border caret-transparent gap-x-[15px] hidden justify-center gap-y-[15px] border border-slate-300 mt-5 mb-2.5 px-2.5 py-[5px] rounded-bl rounded-br rounded-tl rounded-tr border-solid md:bg-transparent md:gap-x-[normal] md:gap-y-[normal] md:border-gray-800 md:my-4 md:p-0 md:rounded-none md:border-0 md:border-none">

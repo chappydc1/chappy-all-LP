@@ -3,7 +3,7 @@ type NavbarLogoProps = {
   alt: string;
 };
 
-export function NavbarLogo({ src, alt }: NavbarLogoProps) {
+export function KachavaNavbarLogo({ src, alt }: NavbarLogoProps) {
   return (
     <div className="items-center self-center box-border caret-transparent flex h-full min-h-[auto] min-w-[auto] outline-[3px] w-6/12 md:w-[33.3333%]">
       <a

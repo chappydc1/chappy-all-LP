@@ -1,8 +1,8 @@
-export type FooterLegalProps = {
+export type GrunsFooterLegalProps = {
   variant: string;
 };
 
-export const FooterLegal = (props: FooterLegalProps) => {
+export const GrunsFooterLegal = (props: GrunsFooterLegalProps) => {
   return (
     <div
       className={`box-border caret-transparent flex flex-col max-w-[1440px] outline-[3px] mx-auto md:flex-row ${props.variant}`}

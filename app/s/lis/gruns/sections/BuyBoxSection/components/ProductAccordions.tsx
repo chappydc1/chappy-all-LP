@@ -1,4 +1,4 @@
-export const ProductAccordions = () => {
+export const GrunsProductAccordions = () => {
   return (
     <div className="box-border caret-transparent outline-[3px]">
       <div className="box-border caret-transparent outline-[3px] pt-5">

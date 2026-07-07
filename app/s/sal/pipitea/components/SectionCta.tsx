@@ -1,9 +1,9 @@
-export type SectionCtaProps = {
+export type PipiteaSectionCtaProps = {
   title: string;
   text: string;
 };
 
-export const SectionCta = (props: SectionCtaProps) => {
+export const PipiteaSectionCta = (props: PipiteaSectionCtaProps) => {
   return (
     <a
       title={props.title}

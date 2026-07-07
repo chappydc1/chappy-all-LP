@@ -42,7 +42,7 @@ type AdvMedia = { heroGif: string; heroVideo: string; authorAvatar: string; ctaA
 
 const ADV_CTA_URL = "https://trybello.com/products/bello-hair-helper-spray";
 
-export function TopBar({ content, media }: { content: AdvContent; media: AdvMedia }) {
+export function TrybelloTopBar({ content, media }: { content: AdvContent; media: AdvMedia }) {
   return (
     <div className="text-gray-800 text-sm bg-white w-full font-roboto">
       <div className="max-w-[1200px] mx-auto">

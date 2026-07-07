@@ -1,5 +1,5 @@
 // @ts-nocheck
-export type ArticleSectionProps = {
+export type NexaArticleSectionProps = {
   variant:
     | "paragraph"
     | "boldParagraph"
@@ -21,7 +21,7 @@ export type ArticleSectionProps = {
   children?: React.ReactNode;
 };
 
-export const ArticleSection = (props: ArticleSectionProps) => {
+export const NexaArticleSection = (props: NexaArticleSectionProps) => {
   if (props.variant === "paragraph") {
     return <p className={props.className}>{props.children}</p>;
   }

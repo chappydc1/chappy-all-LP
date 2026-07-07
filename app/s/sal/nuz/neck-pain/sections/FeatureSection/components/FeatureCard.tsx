@@ -1,10 +1,10 @@
-export type FeatureCardProps = {
+export type NuzFeatureCardProps = {
   title: string;
   description: string;
   iconSrc: string;
 };
 
-export const FeatureCard = ({ title, description, iconSrc }: FeatureCardProps) => {
+export const NuzFeatureCard = ({ title, description, iconSrc }: NuzFeatureCardProps) => {
   return (
     <div className="border border-sky-950 rounded-md bg-white px-4 py-3 flex items-center gap-3">
       <div className="flex-1 min-w-0">

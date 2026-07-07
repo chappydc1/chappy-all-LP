@@ -1,4 +1,4 @@
-export type MediaBlockProps = {
+export type ElavynMediaBlockProps = {
   isPresentation: boolean;
   containerVariant: string;
   mediaWrapperVariant: string;
@@ -10,7 +10,7 @@ export type MediaBlockProps = {
   imageAlt: string;
 };
 
-export const MediaBlock = (props: MediaBlockProps) => {
+export const ElavynMediaBlock = (props: ElavynMediaBlockProps) => {
   return (
     <div
       role={props.isPresentation ? "presentation" : undefined}

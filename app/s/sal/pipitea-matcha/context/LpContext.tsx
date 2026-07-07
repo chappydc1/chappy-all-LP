@@ -1,7 +1,7 @@
 "use client"
 import { createContext, useContext } from "react"
 
-export interface LpCopy {
+export interface PipiteaMatchaLpCopy {
   ctaUrl: string
   announcement: {
     slides: string[]
@@ -54,7 +54,7 @@ export interface LpCopy {
   }
 }
 
-export interface LpMedia {
+export interface PipiteaMatchaLpMedia {
   header: {
     logo: string
   }
@@ -80,15 +80,15 @@ export interface LpMedia {
   }
 }
 
-export interface LpData {
-  copy: LpCopy
-  media: LpMedia
+export interface PipiteaMatchaLpData {
+  copy: PipiteaMatchaLpCopy
+  media: PipiteaMatchaLpMedia
 }
 
-const LpContext = createContext<LpData | null>(null)
-export const LpProvider = LpContext.Provider
+const LpContext = createContext<PipiteaMatchaLpData | null>(null)
+export const PipiteaMatchaLpProvider = LpContext.Provider
 
-export function useLp(): LpData {
+export function useLp(): PipiteaMatchaLpData {
   const ctx = useContext(LpContext)
   if (!ctx) throw new Error("useLp must be used within LpProvider")
   return ctx

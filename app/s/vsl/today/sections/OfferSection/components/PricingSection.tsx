@@ -1,11 +1,11 @@
-import { PricingCard } from "../../OfferSection/components/PricingCard";
+import { TodayPricingCard } from "../../OfferSection/components/PricingCard";
 
-export const PricingSection = () => {
+export const TodayPricingSection = () => {
   return (
     <section className="box-border caret-transparent outline-[3px] py-10 md:py-20">
       <div className="items-center box-border caret-transparent flex flex-col justify-center max-w-[1210px] outline-[3px] text-center w-[95%] mx-auto md:max-w-screen-xl">
         <ul className="items-end box-border caret-transparent gap-x-8 grid grid-cols-[repeat(1,1fr)] outline-[3px] gap-y-8 w-full mb-6 pl-0 md:grid-cols-[repeat(3,1fr)] md:mb-[68px]">
-          <PricingCard
+          <TodayPricingCard
             href="https://portal.sugarhealthnotice.com/click/1?rtkcid=6a025cdd3afeb5f27c64826f&rtkcmpid=69e9869c8f7d94d0c2fd8a66&utm_source=Taboola_Acc-006-09&utm_medium=1184469&utm_campaign=TB3-09_CP-07_28-04&utm_term=4266248822&utm_content=TB3-09_CP-01_AD01"
             liVariantClass=""
             linkVariantClass="bg-white border border-sky-950/40 border-solid"
@@ -48,7 +48,7 @@ export const PricingSection = () => {
             totalValue="159"
             totalDecimal="96"
           />
-          <PricingCard
+          <TodayPricingCard
             href="https://portal.sugarhealthnotice.com/click/3?rtkcid=6a025cdd3afeb5f27c64826f&rtkcmpid=69e9869c8f7d94d0c2fd8a66&utm_source=Taboola_Acc-006-09&utm_medium=1184469&utm_campaign=TB3-09_CP-07_28-04&utm_term=4266248822&utm_content=TB3-09_CP-01_AD01"
             liVariantClass="row-start-1 md:row-start-auto"
             linkVariantClass="bg-[linear-gradient(190deg,rgb(19,97,153)_0.64%,rgb(22,121,218)_41.87%,rgb(19,97,153)_99.99%)]"
@@ -91,7 +91,7 @@ export const PricingSection = () => {
             totalValue="299"
             totalDecimal="88"
           />
-          <PricingCard
+          <TodayPricingCard
             href="https://portal.sugarhealthnotice.com/click/2?rtkcid=6a025cdd3afeb5f27c64826f&rtkcmpid=69e9869c8f7d94d0c2fd8a66&utm_source=Taboola_Acc-006-09&utm_medium=1184469&utm_campaign=TB3-09_CP-07_28-04&utm_term=4266248822&utm_content=TB3-09_CP-01_AD01"
             liVariantClass="row-start-2 md:row-start-auto"
             linkVariantClass="bg-white border border-sky-950/40 border-solid"

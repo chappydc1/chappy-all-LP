@@ -1,6 +1,6 @@
 import adv from "../../../adv.json";
 import media from "../../../media.json";
-import { ArticleDisclosure } from "../../ArticleLayout/components/ArticleDisclosure";
+import { DerilaArticleDisclosure } from "../../ArticleLayout/components/ArticleDisclosure";
 
 const { productUrl, publishedDate, article } = adv;
 const imgs = media.articleImages;
@@ -29,7 +29,7 @@ function ArticleImage({ index }: { index: number }) {
   );
 }
 
-export const ArticleContent = () => {
+export const DerilaArticleContent = () => {
   const { intro, section1, section2, section3, section4, section5, section6, features, testimonials, closing } = article;
 
   return (
@@ -209,7 +209,7 @@ export const ArticleContent = () => {
         {closing.ctaButton.split("\n")[1]}
       </a>
 
-      <ArticleDisclosure />
+      <DerilaArticleDisclosure />
     </div>
   );
 };

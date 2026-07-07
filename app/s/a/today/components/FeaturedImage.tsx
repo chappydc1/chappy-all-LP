@@ -1,4 +1,4 @@
-export const FeaturedImage = () => {
+export const TodayFeaturedImage = () => {
   return (
     <div className="items-center box-border caret-transparent flex justify-center outline-[3px] w-full mx-auto px-4">
       <div className="bg-white border border-zinc-200 box-border caret-transparent flex flex-wrap gap-x-6 gap-y-2 justify-center max-w-[820px] outline-[3px] text-center w-full px-5 py-4">

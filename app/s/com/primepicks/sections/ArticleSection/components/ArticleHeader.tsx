@@ -1,4 +1,4 @@
-export const ArticleHeader = () => {
+export const PrimepicksArticleHeader = () => {
   return (
     <div className="box-border caret-transparent">
       <h1 className="text-zinc-800 text-[28px] font-bold box-border caret-transparent tracking-[-1px] leading-[38px] md:text-[42px] md:leading-[55px]">

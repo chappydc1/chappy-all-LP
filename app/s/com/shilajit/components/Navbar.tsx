@@ -12,7 +12,7 @@ type NavbarProps = {
   };
 };
 
-export function Navbar({ adv, media }: NavbarProps) {
+export function ShilajitNavbar({ adv, media }: NavbarProps) {
   const [mobileOpen, setMobileOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 

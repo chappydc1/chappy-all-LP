@@ -21,7 +21,7 @@ type FooterProps = {
   };
 };
 
-export function Footer({ adv, media }: FooterProps) {
+export function ShilajitFooter({ adv, media }: FooterProps) {
   const [email, setEmail] = useState("");
   const [submitted, setSubmitted] = useState(false);
   const [error, setError] = useState("");

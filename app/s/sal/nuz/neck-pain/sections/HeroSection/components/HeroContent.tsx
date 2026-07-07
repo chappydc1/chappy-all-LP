@@ -1,18 +1,18 @@
-import { TrustScore } from "./TrustScore";
-import { BenefitTags } from "./BenefitTags";
-import { CTAButton } from "../../../components/CTAButton";
-import { ShippingInfo } from "./ShippingInfo";
-import { GuaranteeCard } from "./GuaranteeCard";
-import { FAQAccordion } from "../../../components/FAQAccordion";
+import { NuzTrustScore } from "./TrustScore";
+import { NuzBenefitTags } from "./BenefitTags";
+import { NuzCTAButton } from "../../../components/CTAButton";
+import { NuzShippingInfo } from "./ShippingInfo";
+import { NuzGuaranteeCard } from "./GuaranteeCard";
+import { NuzFAQAccordion } from "../../../components/FAQAccordion";
 import { content } from "../../../content";
 
-export const HeroContent = () => {
+export const NuzHeroContent = () => {
   const h = content.hero;
   return (
     <div className="items-center bg-stone-100 box-border caret-transparent flex flex-col justify-center min-h-0 min-w-0 w-full px-[15px] py-5 top-0 md:min-h-[auto] md:min-w-[auto] md:px-5">
       <div className="box-border caret-transparent max-w-[500px] min-h-0 min-w-0 w-full pr-[5px] py-2.5 rounded-[10px] md:min-h-[auto] md:min-w-[auto] md:pr-5">
         <div className="box-border caret-transparent hidden md:block">
-          <TrustScore />
+          <NuzTrustScore />
           <h1 className="relative text-sky-950 text-3xl font-extrabold box-border caret-transparent leading-[34px] text-left w-[90%] mt-0 mb-2 md:static md:text-[32px] md:leading-[38px] md:w-auto md:mt-[21.44px]">
             {h.headline}
           </h1>
@@ -27,9 +27,9 @@ export const HeroContent = () => {
             </div>
           </div>
           <div className="box-border caret-transparent mt-3 mb-0 md:my-2.5">
-            <BenefitTags />
+            <NuzBenefitTags />
           </div>
-          <CTAButton countdownSeconds={h.ctaCountdownSeconds} />
+          <NuzCTAButton countdownSeconds={h.ctaCountdownSeconds} />
           <div className="text-white text-lg font-bold items-center bg-[url('/images/Stripes-01.svg')] bg-no-repeat bg-cover box-border caret-transparent flex flex-col h-[50px] justify-center text-center bg-center mt-0 font-roboto md:[align-items:normal] md:bg-none md:bg-repeat md:bg-auto md:hidden md:flex-row md:h-auto md:justify-normal md:bg-left-top md:mt-4">
             <div className="items-center box-border caret-transparent flex justify-between md:[align-items:normal] md:block md:justify-normal">
               <div className="items-center box-border caret-transparent flex ml-2.5 md:[align-items:normal] md:block md:ml-0">
@@ -39,13 +39,13 @@ export const HeroContent = () => {
               </div>
             </div>
           </div>
-          <ShippingInfo />
+          <NuzShippingInfo />
           <div className="box-border caret-transparent gap-x-0 grid auto-cols-[1fr] grid-cols-[1fr] grid-rows-[auto] gap-y-0">
-            <GuaranteeCard />
+            <NuzGuaranteeCard />
             {h.faq.map((item, i) => {
               if (item.type === "shipping") {
                 return (
-                  <FAQAccordion
+                  <NuzFAQAccordion
                     key={i}
                     question={item.question}
                     contentType="shipping"
@@ -57,7 +57,7 @@ export const HeroContent = () => {
               }
               if (item.type === "returns") {
                 return (
-                  <FAQAccordion
+                  <NuzFAQAccordion
                     key={i}
                     question={item.question}
                     contentType="text"
@@ -84,7 +84,7 @@ export const HeroContent = () => {
                 );
               }
               return (
-                <FAQAccordion
+                <NuzFAQAccordion
                   key={i}
                   question={item.question}
                   contentType="text"

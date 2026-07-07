@@ -1,4 +1,4 @@
-export const CookieConsent = () => {
+export const FealsCookieConsent = () => {
   return (
     <div className="fixed text-black box-border caret-transparent block h-fit outline-[3px] w-fit z-[2147483647] overflow-auto inset-0">
       <div className="box-border caret-transparent outline-[3px]">

@@ -2,7 +2,7 @@
 import adv from "../../../adv.json";
 import media from "../../../media.json";
 
-export const FooterContent = () => {
+export const NexaFooterContent = () => {
   return (
     <div className="text-gray-500 text-sm bg-transparent box-border caret-transparent leading-[14px] outline-[3px] text-center border-neutral-200 px-5 py-10 border-t border-solid font-roboto md:pl-[200px] md:pr-[300px]">
       <div className="box-border caret-transparent outline-[3px] w-full mx-px px-2.5 py-3">

@@ -3,7 +3,7 @@
 import { useCountdown } from "../../hooks/useCountdown";
 import { content } from "../../content";
 
-export const MobileOrderBar = () => {
+export const NuzMobileOrderBar = () => {
   const c = content.mobileOrderBar;
   const { formatted } = useCountdown(c.countdownSeconds);
 

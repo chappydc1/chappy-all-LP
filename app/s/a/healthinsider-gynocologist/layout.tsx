@@ -8,6 +8,6 @@ export const metadata: Metadata = {
   icons: { icon: "/favicons/healthinsider-gynocologist.svg" },
 };
 
-export default function Layout({ children }: { children: React.ReactNode }) {
+export default function HealthinsiderGynocologistLayout({ children }: { children: React.ReactNode }) {
   return <>{children}</>;
 }

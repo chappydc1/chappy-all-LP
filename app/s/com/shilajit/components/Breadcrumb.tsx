@@ -2,7 +2,7 @@ type BreadcrumbProps = {
   items: { label: string; href: string; current?: boolean }[];
 };
 
-export function Breadcrumb({ items }: BreadcrumbProps) {
+export function ShilajitBreadcrumb({ items }: BreadcrumbProps) {
   return (
     <div className="items-center hidden h-[50px] max-w-full min-w-full p-[15px] md:flex md:min-w-[1024px] md:pl-0 animate-fade-in">
       <div className="text-zinc-500 flex flex-wrap leading-[21px] uppercase">

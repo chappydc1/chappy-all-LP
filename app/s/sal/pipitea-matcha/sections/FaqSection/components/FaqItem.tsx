@@ -1,11 +1,11 @@
-export type FaqItemProps = {
+export type PipiteaMatchaFaqItemProps = {
   question: string;
   answer: React.ReactNode;
   wrapperClassName: string;
   innerClassName: string;
 };
 
-export const FaqItem = (props: FaqItemProps) => {
+export const PipiteaMatchaFaqItem = (props: PipiteaMatchaFaqItemProps) => {
   return (
     <div href="" className={props.wrapperClassName}>
       <div

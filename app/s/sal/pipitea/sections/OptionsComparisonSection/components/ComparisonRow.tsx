@@ -1,4 +1,4 @@
-export type ComparisonRowProps = {
+export type PipiteaComparisonRowProps = {
   rootVariant: string;
   leftColumnVariant: string;
   contentColumnVariant: string;
@@ -14,7 +14,7 @@ export type ComparisonRowProps = {
   renderRightContentInnerWrapper: boolean;
 };
 
-export const ComparisonRow = (props: ComparisonRowProps) => {
+export const PipiteaComparisonRow = (props: PipiteaComparisonRowProps) => {
   return (
     <div
       className={`items-start box-border caret-transparent flex flex-wrap min-h-[auto] min-w-[auto] ${props.rootVariant}`}

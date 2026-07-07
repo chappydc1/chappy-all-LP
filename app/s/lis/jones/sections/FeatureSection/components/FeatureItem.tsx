@@ -1,6 +1,6 @@
-import { Testimonial } from "../../FeatureSection/components/Testimonial";
+import { JonesTestimonial } from "../../FeatureSection/components/Testimonial";
 
-export type FeatureItemProps = {
+export type JonesFeatureItemProps = {
   rootClassName: string;
   number: string;
   title: React.ReactNode;
@@ -14,7 +14,7 @@ export type FeatureItemProps = {
   bottomMedia?: React.ReactNode;
 };
 
-export const FeatureItem = (props: FeatureItemProps) => {
+export const JonesFeatureItem = (props: JonesFeatureItemProps) => {
   return (
     <div
       className={`relative items-center self-stretch box-border caret-transparent flex flex-col shrink-0 grid-cols-[repeat(2,minmax(0px,1fr))] justify-center max-w-full min-h-px min-w-[auto] outline-[3px] md:gap-x-[70px] md:grid md:gap-y-[70px] ${props.rootClassName}`}
@@ -42,7 +42,7 @@ export const FeatureItem = (props: FeatureItemProps) => {
             </p>
           </span>
         </div>
-        <Testimonial
+        <JonesTestimonial
           className={props.testimonialClassName}
           title={props.testimonialTitle}
           authorName={props.testimonialAuthorName}

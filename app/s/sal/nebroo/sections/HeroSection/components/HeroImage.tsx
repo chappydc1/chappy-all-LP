@@ -1,4 +1,4 @@
-export const HeroImage = () => {
+export const NebrooHeroImage = () => {
   return (
     <div className="box-border caret-transparent w-full md:w-auto">
       <img

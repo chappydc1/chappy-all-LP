@@ -1,7 +1,7 @@
 import adv from "../adv.json";
 import media from "../media.json";
 
-export function ArticleMeta() {
+export function ZikeeyArticleMeta() {
   const { author } = adv.article;
 
   return (

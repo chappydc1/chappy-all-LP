@@ -1,5 +1,5 @@
 // @ts-nocheck
-export type ArticleHeaderProps = {
+export type NexaArticleHeaderProps = {
   variant: string;
   breadcrumbText: string;
   expertLabel: string;
@@ -15,7 +15,7 @@ export type ArticleHeaderProps = {
   dateText: string;
 };
 
-export const ArticleHeader = (props: ArticleHeaderProps) => {
+export const NexaArticleHeader = (props: NexaArticleHeaderProps) => {
   if (props.variant === "breadcrumb") {
     return (
       <p className="text-[13px] box-border caret-transparent leading-[13px] outline-[3px] text-left py-[5px] font-montserrat md:text-sm md:leading-[14px] md:pt-2.5">

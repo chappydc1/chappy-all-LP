@@ -1,7 +1,7 @@
 "use client";
 import { useState, useEffect } from "react";
 
-export type HeroCTAProps = {
+export type NebrooHeroCTAProps = {
   variant: "button" | "note";
   buttonTitle?: string;
   buttonText?: React.ReactNode;
@@ -9,7 +9,7 @@ export type HeroCTAProps = {
   noteText?: string;
 };
 
-export const HeroCTA = (props: HeroCTAProps) => {
+export const NebrooHeroCTA = (props: NebrooHeroCTAProps) => {
   const [pulse, setPulse] = useState(false);
 
   useEffect(() => {

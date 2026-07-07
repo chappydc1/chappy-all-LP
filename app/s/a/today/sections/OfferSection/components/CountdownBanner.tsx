@@ -1,4 +1,4 @@
-export const CountdownBanner = () => {
+export const TodayCountdownBanner = () => {
   return (
     <div className="relative bg-blue-950 border-b-gray-200 border-l-gray-200 border-r-gray-200 border-t-sky-500 box-border caret-transparent outline-[3px] py-10 border-t-4 border-solid">
       <div className="items-center box-border caret-transparent flex flex-col justify-center max-w-[1210px] outline-[3px] text-center w-full mx-auto md:max-w-screen-xl">

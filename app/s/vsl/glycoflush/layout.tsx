@@ -7,6 +7,6 @@ export const metadata: Metadata = {
   icons: { icon: "/favicons/glycoflush.svg" },
 };
 
-export default function Layout({ children }: { children: React.ReactNode }) {
+export default function GlycoflushLayout({ children }: { children: React.ReactNode }) {
   return <>{children}</>;
 }

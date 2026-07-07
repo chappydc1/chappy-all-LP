@@ -1,11 +1,11 @@
-export type ScoreCategory = {
+export type PrimepicksScoreCategory = {
   label: string;
   score: number;
   barClassName: string;
   isLast?: boolean;
 };
 
-export type SidebarScorePanelProps =
+export type PrimepicksSidebarScorePanelProps =
   | {
       variant: "review";
       score: string;
@@ -15,10 +15,10 @@ export type SidebarScorePanelProps =
     }
   | {
       variant: "breakdown";
-      categories: ScoreCategory[];
+      categories: PrimepicksScoreCategory[];
     };
 
-export const SidebarScorePanel = (props: SidebarScorePanelProps) => {
+export const PrimepicksSidebarScorePanel = (props: PrimepicksSidebarScorePanelProps) => {
   if (props.variant === "review") {
     return (
       <div className="box-border caret-transparent flex flex-col min-h-0 min-w-0 md:min-h-[auto] md:min-w-[auto] items-center bg-white w-full border border-neutral-200 p-2 rounded-[10px] border-solid">

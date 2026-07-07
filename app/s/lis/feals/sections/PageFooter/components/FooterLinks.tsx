@@ -1,4 +1,4 @@
-export const FooterLinks = () => {
+export const FealsFooterLinks = () => {
   return (
     <div className="relative items-center box-border caret-transparent gap-x-2 flex shrink-0 flex-wrap justify-between max-w-[767px] min-h-px min-w-[auto] outline-[3px] gap-y-2 w-full px-8 md:gap-x-8 md:flex-nowrap md:max-w-[1180px] md:gap-y-8 md:w-auto md:px-0">
       <div className="relative items-start self-stretch box-border caret-transparent gap-x-2 flex flex-col grow-0 shrink-0 justify-center max-w-full min-h-px min-w-[auto] outline-[3px] gap-y-2 md:items-center md:gap-x-8 md:flex-row md:grow md:shrink md:justify-between md:gap-y-8">

@@ -53,7 +53,7 @@ const features = [
   },
 ];
 
-export const FeaturesList = () => {
+export const HearFeaturesList = () => {
   const ref = useScrollReveal<HTMLDivElement>();
 
   return (

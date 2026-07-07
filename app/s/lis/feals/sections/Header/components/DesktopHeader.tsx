@@ -1,4 +1,4 @@
-export const DesktopHeader = () => {
+export const FealsDesktopHeader = () => {
   return (
     <div className="items-center box-border caret-transparent hidden justify-around outline-[3px] w-full md:flex">
       <div className="self-stretch box-border caret-transparent flex basis-0 grow shrink-0 justify-start outline-[3px]">

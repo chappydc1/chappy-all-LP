@@ -1,6 +1,6 @@
-import { PromiseItem } from "./components/PromiseItem";
+import { PipiteaMatchaPromiseItem } from "./components/PromiseItem";
 
-export const ProductPromise = () => {
+export const PipiteaMatchaProductPromise = () => {
   return (
     <section
       href=""
@@ -52,7 +52,7 @@ export const ProductPromise = () => {
                 href=""
                 className="items-start box-border caret-transparent hidden flex-wrap mt-[30px] md:mt-10"
               >
-                <PromiseItem
+                <PipiteaMatchaPromiseItem
                   outerClassName="box-border caret-transparent flex basis-[0%] flex-col grow outline-[3px]"
                   wrapperClassName="items-center box-border caret-transparent flex justify-center outline-[3px]"
                   contentClassName="box-border caret-transparent flex flex-col outline-[3px] w-full"
@@ -100,7 +100,7 @@ export const ProductPromise = () => {
                     </div>
                   </div>
                 </div>
-                <PromiseItem
+                <PipiteaMatchaPromiseItem
                   outerClassName="box-border caret-transparent flex basis-[0%] flex-col grow outline-[3px]"
                   wrapperClassName="items-center box-border caret-transparent flex justify-center outline-[3px]"
                   contentClassName="box-border caret-transparent flex flex-col outline-[3px] w-full"
@@ -139,7 +139,7 @@ export const ProductPromise = () => {
                 href=""
                 className="items-start box-border caret-transparent flex flex-col flex-wrap min-h-[auto] min-w-[auto] mt-[30px] md:flex-row md:mt-10"
               >
-                <PromiseItem
+                <PipiteaMatchaPromiseItem
                   outerClassName="box-border caret-transparent flex basis-[0%] flex-col grow max-w-full min-h-[auto] min-w-full outline-[3px] w-full md:max-w-none md:min-w-0 md:w-auto"
                   wrapperClassName="items-center box-border caret-transparent flex justify-center min-w-[auto] outline-[3px]"
                   contentClassName="box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full"
@@ -187,7 +187,7 @@ export const ProductPromise = () => {
                     </div>
                   </div>
                 </div>
-                <PromiseItem
+                <PipiteaMatchaPromiseItem
                   outerClassName="box-border caret-transparent flex basis-[0%] flex-col grow max-w-full min-h-[auto] min-w-full outline-[3px] w-full md:max-w-none md:min-w-0 md:w-auto"
                   wrapperClassName="items-center box-border caret-transparent flex justify-center min-w-[auto] outline-[3px]"
                   contentClassName="box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full"
@@ -235,7 +235,7 @@ export const ProductPromise = () => {
                     </div>
                   </div>
                 </div>
-                <PromiseItem
+                <PipiteaMatchaPromiseItem
                   outerClassName="box-border caret-transparent flex basis-[0%] flex-col grow max-w-full min-h-[auto] min-w-full outline-[3px] w-full md:max-w-none md:min-w-0 md:w-auto"
                   wrapperClassName="items-center box-border caret-transparent flex justify-center min-w-[auto] outline-[3px]"
                   contentClassName="box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full"

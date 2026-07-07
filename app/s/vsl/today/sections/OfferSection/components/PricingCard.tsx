@@ -1,4 +1,4 @@
-export type PricingCardProps = {
+export type TodayPricingCardProps = {
   href: string;
   liVariantClass: string;
   linkVariantClass: string;
@@ -42,7 +42,7 @@ export type PricingCardProps = {
   totalDecimal: string;
 };
 
-export const PricingCard = (props: PricingCardProps) => {
+export const TodayPricingCard = (props: TodayPricingCardProps) => {
   return (
     <li
       className={`box-border caret-transparent outline-[3px] ${props.liVariantClass}`}

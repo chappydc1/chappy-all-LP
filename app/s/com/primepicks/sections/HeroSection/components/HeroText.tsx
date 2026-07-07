@@ -1,4 +1,4 @@
-export const HeroText = () => {
+export const PrimepicksHeroText = () => {
   return (
     <div className="content-center items-center box-border caret-transparent grid col-start-1 row-start-1 justify-center justify-items-center min-h-[auto] min-w-[auto] w-full px-2 py-3 md:px-0 md:py-6">
       <h1 className="text-white text-xl font-bold box-border caret-transparent leading-[26px] max-w-[281px] min-h-[auto] min-w-[auto] text-center mb-3 md:text-[40px] md:leading-[52px] md:max-w-[581px] md:mb-8">

@@ -1,4 +1,4 @@
-export const FooterLegal = () => {
+export const JonesFooterLegal = () => {
   return (
     <div className="text-sm box-border caret-transparent tracking-[-0.19px] leading-[23.94px] max-w-[600px] min-h-0 min-w-0 outline-[3px] w-auto mx-auto pb-7 px-[30px] md:max-w-[544px] md:min-h-[auto] md:min-w-[auto] md:w-2/5 md:mx-0 md:pl-[42px] md:pr-5 md:pb-[30px]">
       <p className="caret-transparent outline-[3px]">

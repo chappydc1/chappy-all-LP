@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 
-export type Reply = {
+export type PinksaltReply = {
   avatarSrc: string;
   name: string;
   comment: string;
@@ -10,7 +10,7 @@ export type Reply = {
   actionTextClass?: string;
 };
 
-export type CommentItemProps = {
+export type PinksaltCommentItemProps = {
   variant?: "image-only";
   avatarSrc?: string;
   name?: string;
@@ -18,7 +18,7 @@ export type CommentItemProps = {
   actionText?: string;
   outerClass?: string;
   actionBarClass?: string;
-  replies?: Reply[];
+  replies?: PinksaltReply[];
 };
 
 const ActionBar = ({
@@ -76,7 +76,7 @@ const ActionBar = ({
   );
 };
 
-export const CommentItem = (props: CommentItemProps) => {
+export const PinksaltCommentItem = (props: PinksaltCommentItemProps) => {
   if (props.variant === "image-only") {
     return (
       <img

@@ -1,5 +1,5 @@
 // @ts-nocheck
-export const TermsModal = () => {
+export const NexaTermsModal = () => {
   return (
     <div
       title="Popup"

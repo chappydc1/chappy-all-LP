@@ -1,4 +1,4 @@
-export const Benefits = () => {
+export const HearBenefits = () => {
   return (
     <section className="caret-transparent outline-[3px] text-center py-[25px]">
       <div className="caret-transparent flex outline-[3px]">

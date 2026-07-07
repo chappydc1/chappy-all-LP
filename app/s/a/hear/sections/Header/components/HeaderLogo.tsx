@@ -1,4 +1,4 @@
-export const HeaderLogo = () => {
+export const HearHeaderLogo = () => {
   return (
     <div className="items-center caret-transparent flex justify-between">
       <div className="caret-transparent min-h-[auto] min-w-[auto] w-[85px] md:w-[145px]">

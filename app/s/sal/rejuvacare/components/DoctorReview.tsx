@@ -1,9 +1,9 @@
-export type DoctorReviewProps = {
+export type RejuvacareDoctorReviewProps = {
   containerVariant: string;
   badgeVariant: string;
 };
 
-export const DoctorReview = (props: DoctorReviewProps) => {
+export const RejuvacareDoctorReview = (props: RejuvacareDoctorReviewProps) => {
   return (
     <div
       className={`items-end box-border caret-transparent flex justify-center outline-[3px] w-full mt-5 pl-[5px] pr-0 pt-px md:w-auto md:pt-0 md:px-2.5 ${props.containerVariant}`}

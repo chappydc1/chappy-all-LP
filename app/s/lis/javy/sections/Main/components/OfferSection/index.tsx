@@ -1,9 +1,9 @@
 "use client";
 
 import { useScrollReveal } from "../../../../hooks/useScrollReveal";
-import { OfferCard } from "../../../Main/components/OfferSection/components/OfferCard";
+import { JavyOfferCard } from "../../../Main/components/OfferSection/components/OfferCard";
 
-export const OfferSection = () => {
+export const JavyOfferSection = () => {
   const headingRef = useScrollReveal<HTMLDivElement>();
   const cardRef = useScrollReveal<HTMLDivElement>();
 
@@ -34,7 +34,7 @@ export const OfferSection = () => {
             >
               <div className="box-border min-h-[auto] min-w-[auto] text-center w-full">
                 <div className="items-center box-border flex flex-col justify-center max-w-[1168px]">
-                  <OfferCard />
+                  <JavyOfferCard />
                 </div>
               </div>
               <div className="absolute items-center box-border flex h-10 justify-center w-[90%] mx-auto -top-6 inset-x-[0%] md:w-4/5">

@@ -1,4 +1,4 @@
-export const HeroMedia = () => {
+export const RejuvacareHeroMedia = () => {
   return (
     <div className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] w-full md:w-[70%]">
       <div className="relative box-border caret-transparent outline-[3px] w-full overflow-hidden before:accent-auto before:box-border before:caret-transparent before:text-neutral-800 before:block before:text-base before:not-italic before:normal-nums before:font-normal before:tracking-[normal] before:leading-6 before:list-outside before:list-disc before:outline-[3px] before:pointer-events-auto before:no-underline before:indent-[0px] before:normal-case before:visible before:pt-[100%] before:border-separate before:font-apple_system">

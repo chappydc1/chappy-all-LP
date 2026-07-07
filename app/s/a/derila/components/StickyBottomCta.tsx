@@ -1,4 +1,4 @@
-export const StickyBottomCta = ({
+export const DerilaStickyBottomCta = ({
   label,
   productUrl,
 }: {

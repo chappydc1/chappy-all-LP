@@ -1,4 +1,4 @@
-export const HeroTopBar = () => {
+export const GrunsHeroTopBar = () => {
   return (
     <div className="bg-white box-border caret-transparent outline-[3px]">
       <div className="bg-emerald-900 box-border caret-transparent flex justify-center outline-[3px] py-2">

@@ -1,7 +1,7 @@
-import { OfferImage } from "./components/OfferImage";
-import { OfferContent } from "./components/OfferContent";
+import { PipiteaOfferImage } from "./components/OfferImage";
+import { PipiteaOfferContent } from "./components/OfferContent";
 
-export const OfferSection = () => {
+export const PipiteaOfferSection = () => {
   return (
     <section
       className="relative items-center bg-pink-500/10 bg-no-repeat box-border caret-transparent flex flex-col justify-items-center min-h-[auto] min-w-[auto] outline-[3px] w-full bg-center px-[15px] py-[45px] md:py-[60px]"
@@ -21,11 +21,11 @@ export const OfferSection = () => {
               <div
                 className="items-start box-border caret-transparent flex flex-col flex-wrap min-h-[auto] min-w-[auto] md:flex-row"
               >
-                <OfferImage />
+                <PipiteaOfferImage />
                 <div
                   className="box-border caret-transparent flex basis-[0%] flex-col grow max-w-10 min-h-[auto] min-w-10 outline-[3px] w-10"
                 ></div>
-                <OfferContent />
+                <PipiteaOfferContent />
               </div>
             </div>
           </div>

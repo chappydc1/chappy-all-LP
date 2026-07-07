@@ -1,7 +1,7 @@
 "use client";
 import { useScrollReveal } from "../../hooks/useScrollReveal";
 
-export const AsSeen = () => {
+export const NebrooAsSeen = () => {
   const { ref, visible } = useScrollReveal();
   return (
     <div ref={ref} className={`items-stretch bg-gray-100 box-border caret-transparent flex flex-wrap justify-start max-w-full px-0 md:flex-nowrap md:px-2.5 reveal ${visible ? "visible" : ""}`}>

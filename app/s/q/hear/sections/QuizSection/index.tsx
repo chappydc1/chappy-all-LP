@@ -1,9 +1,9 @@
-import { QuizContainer } from "../QuizSection/components/QuizContainer";
+import { HearQuizContainer } from "../QuizSection/components/QuizContainer";
 
-export const QuizSection = () => {
+export const HearQuizSection = () => {
   return (
     <section className="caret-transparent outline-[3px]">
-      <QuizContainer />
+      <HearQuizContainer />
     </section>
   );
 };

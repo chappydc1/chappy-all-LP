@@ -1,6 +1,6 @@
 import { content } from "../../../content";
 
-export const ShippingInfo = () => {
+export const NuzShippingInfo = () => {
   const badges = content.hero.shippingBadges;
   return (
     <div className="items-center box-border caret-transparent flex justify-center my-[15px] md:my-[17px]">

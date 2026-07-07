@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { ReadProgressBar } from "./components/ReadProgressBar";
+import { ZikeeyReadProgressBar } from "./components/ReadProgressBar";
 import adv from "./adv.json";
 
 export const metadata: Metadata = {
@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 export default function ZikeeyLayout({ children }: { children: React.ReactNode }) {
   return (
     <>
-      <ReadProgressBar />
+      <ZikeeyReadProgressBar />
       {children}
     </>
   );

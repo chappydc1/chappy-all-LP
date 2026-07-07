@@ -1,4 +1,4 @@
-export const MobileTestimonial = () => {
+export const PipiteaMobileTestimonial = () => {
   return (
     <div
       className="items-start box-border caret-transparent flex flex-wrap min-h-[auto] min-w-[auto] border border-zinc-700 mt-[25px] px-2.5 py-3 rounded-lg border-solid md:hidden md:min-h-0 md:min-w-0"

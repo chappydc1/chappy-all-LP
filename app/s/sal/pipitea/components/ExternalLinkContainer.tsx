@@ -1,4 +1,4 @@
-export const ExternalLinkContainer = () => {
+export const PipiteaExternalLinkContainer = () => {
   return (
     <div className="box-border caret-transparent outline-[3px]">
       <a

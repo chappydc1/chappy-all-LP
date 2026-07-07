@@ -1,6 +1,6 @@
 import copyJson from "./copy/copy.json";
 import contentJson from "./content/content.json";
-import type { LandingPageContent } from "./types";
+import type { NuzLandingPageContent } from "./types";
 
 // Source of truth is split across two sibling JSON files:
 //   copy/copy.json       — user-visible text strings
@@ -35,8 +35,8 @@ function deepMerge<T>(a: unknown, b: unknown): T {
   return (b ?? a) as T;
 }
 
-export const content = deepMerge<LandingPageContent>(contentJson, copyJson);
-export type { LandingPageContent } from "./types";
+export const content = deepMerge<NuzLandingPageContent>(contentJson, copyJson);
+export type { NuzLandingPageContent } from "./types";
 
 // Tiny markdown helper used by sections whose JSON strings contain inline
 // `**bold**` spans (e.g. video body paragraphs, pain-points bullets).

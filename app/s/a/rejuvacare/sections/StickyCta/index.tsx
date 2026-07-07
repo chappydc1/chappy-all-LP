@@ -1,4 +1,4 @@
-export const StickyCta = () => {
+export const RejuvacareStickyCta = () => {
   return (
     <div className="fixed items-stretch self-center bg-white box-border caret-transparent hidden flex-row-reverse flex-wrap justify-start max-w-full outline-[3px] w-full z-[99999] border-neutral-200 px-2.5 py-0 border-t-2 border-solid bottom-0 md:sticky md:flex-row md:flex-nowrap md:py-2.5">
       <div className="relative box-border caret-transparent basis-full grow max-w-[1200px] min-h-[25px] outline-[3px] w-min mx-auto pt-[5px] pb-2.5 px-px md:basis-0 md:py-px">

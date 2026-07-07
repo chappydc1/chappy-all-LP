@@ -1,15 +1,15 @@
 import rawContent from "./adv.json";
 import rawMedia from "./adv-media.json";
-import { TopBar } from "./sections/TopBar";
-import type { AdvertorialContent, AdvertorialMedia } from "./sections/TopBar";
+import { SkinmagV1TopBar } from "./sections/TopBar";
+import type { SkinmagV1AdvertorialContent, SkinmagV1AdvertorialMedia } from "./sections/TopBar";
 
-const content = rawContent as unknown as AdvertorialContent;
-const media = rawMedia as unknown as AdvertorialMedia;
+const content = rawContent as unknown as SkinmagV1AdvertorialContent;
+const media = rawMedia as unknown as SkinmagV1AdvertorialMedia;
 
-export default function SkinmagPage() {
+export default function SkinmagV1SkinmagPage() {
   return (
     <main>
-      <TopBar content={content} media={media} />
+      <SkinmagV1TopBar content={content} media={media} />
     </main>
   );
 }

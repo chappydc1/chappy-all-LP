@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 
-export const StickyBuyBar = () => {
+export const JavyStickyBuyBar = () => {
   const [visible, setVisible] = useState(false);
   const [pressed, setPressed] = useState(false);
 

@@ -3,7 +3,7 @@ type FloatingActionButtonProps = {
   chatCloseSrc: string;
 };
 
-export function FloatingActionButton({ chatOpenSrc, chatCloseSrc }: FloatingActionButtonProps) {
+export function KachavaFloatingActionButton({ chatOpenSrc, chatCloseSrc }: FloatingActionButtonProps) {
   return (
     <div className="fixed box-border caret-transparent h-16 outline-[3px] w-16 z-10 right-4 bottom-4">
       <button

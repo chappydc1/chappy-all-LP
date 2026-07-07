@@ -1,6 +1,6 @@
 import { content } from "../../../content";
 
-export const PainPointsGrid = () => {
+export const NuzPainPointsGrid = () => {
   return (
     <div className="box-border caret-transparent gap-x-[25px] grid auto-cols-[1fr] grid-cols-[1fr_1fr_1fr] grid-rows-[auto_auto] gap-y-[15px] px-5 md:px-0">
       {content.painPoints.grid.map((p, i) => (

@@ -1,4 +1,4 @@
-export type CartProductCardProps = {
+export type GrunsCartProductCardProps = {
   imageUrl: string;
   imageAlt: string;
   title: string;
@@ -7,7 +7,7 @@ export type CartProductCardProps = {
   buttonText: string;
 };
 
-export const CartProductCard = (props: CartProductCardProps) => {
+export const GrunsCartProductCard = (props: GrunsCartProductCardProps) => {
   return (
     <div className="bg-white box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] text-center pt-[9.5px] pb-3 px-3 rounded-xl">
       <img

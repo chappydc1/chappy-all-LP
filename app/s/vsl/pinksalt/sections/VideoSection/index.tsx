@@ -6,7 +6,7 @@ type VideoSectionProps = {
   brand?: string;
 };
 
-export const VideoSection = ({
+export const PinksaltVideoSection = ({
   iconSrc = "/images/pinksalt/icon-1.svg",
   errorText = "Video not found, contact the support of",
   brand = "VTurb",

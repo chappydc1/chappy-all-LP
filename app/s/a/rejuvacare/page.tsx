@@ -1,10 +1,10 @@
-import { AnnouncementBar } from "./sections/AnnouncementBar";
+import { RejuvacareAnnouncementBar } from "./sections/AnnouncementBar";
 
 export default function RejuvacarePage() {
   return (
     <div className="text-neutral-800 text-base not-italic normal-nums font-normal accent-auto bg-white box-border caret-transparent block tracking-[normal] leading-6 list-outside list-disc max-w-[600px] min-w-80 outline-[3px] overflow-x-hidden overflow-y-auto pointer-events-auto scroll-smooth text-left indent-[0px] normal-case visible w-full border-separate font-apple_system md:max-w-none md:overflow-x-visible md:overflow-y-visible md:w-auto">
       <div className="box-border caret-transparent outline-[3px]"></div>
-      <AnnouncementBar />
+      <RejuvacareAnnouncementBar />
       <div className="box-border caret-transparent outline-[3px]">
         <a
           href="https://checkoutchamp.com/"

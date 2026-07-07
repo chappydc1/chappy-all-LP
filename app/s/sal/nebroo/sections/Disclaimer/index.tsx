@@ -1,4 +1,4 @@
-export const Disclaimer = () => {
+export const NebrooDisclaimer = () => {
   return (
     <div className="items-stretch bg-sky-100 box-border caret-transparent flex flex-wrap justify-center max-w-full px-2.5 py-3 md:flex-nowrap">
       <div className="relative items-center box-border caret-transparent block basis-full flex-col grow justify-between max-w-[1200px] min-h-[25px] w-min mx-0 px-[7px] py-2.5 md:flex md:basis-0 md:mx-[10%] md:px-2.5">

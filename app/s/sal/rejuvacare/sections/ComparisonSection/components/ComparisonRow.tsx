@@ -1,4 +1,4 @@
-export type ComparisonRowProps = {
+export type RejuvacareComparisonRowProps = {
   rootClassName: string;
   labelContainerClassName: string;
   textClassName: string;
@@ -6,7 +6,7 @@ export type ComparisonRowProps = {
   firstIconCellClassName: string;
 };
 
-export const ComparisonRow = (props: ComparisonRowProps) => {
+export const RejuvacareComparisonRow = (props: RejuvacareComparisonRowProps) => {
   return (
     <div
       className={`items-center box-border caret-transparent flex outline-[3px] w-full ${props.rootClassName}`}

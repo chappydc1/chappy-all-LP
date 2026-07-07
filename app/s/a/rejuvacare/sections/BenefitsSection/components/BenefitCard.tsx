@@ -1,11 +1,11 @@
-export type BenefitCardProps = {
+export type RejuvacareBenefitCardProps = {
   containerVariant: string;
   videoSrc: string;
   title: string;
   description: React.ReactNode;
 };
 
-export const BenefitCard = (props: BenefitCardProps) => {
+export const RejuvacareBenefitCard = (props: RejuvacareBenefitCardProps) => {
   return (
     <div
       className={`bg-white shadow-[rgba(9,65,60,0.1)_0px_4px_13px_0px] box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] w-full px-3.5 py-[18px] rounded-[10px] md:px-6 md:py-12 ${props.containerVariant}`}

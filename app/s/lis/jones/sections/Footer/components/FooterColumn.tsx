@@ -1,19 +1,19 @@
-export type FooterColumnItem = {
+export type JonesFooterColumnItem = {
   href: string;
   label: string;
   iconSrc?: string;
   iconAlt?: string;
 };
 
-export type FooterColumnProps = {
+export type JonesFooterColumnProps = {
   title: string;
-  items: FooterColumnItem[];
+  items: JonesFooterColumnItem[];
   listClassName?: string;
   itemClassName?: string;
   spanClassName?: string;
 };
 
-export const FooterColumn = (props: FooterColumnProps) => {
+export const JonesFooterColumn = (props: JonesFooterColumnProps) => {
   return (
     <div className="box-content caret-transparent min-h-0 min-w-0 outline-[3px] w-auto mt-10 px-0 md:box-border md:min-h-[auto] md:min-w-[auto] md:w-1/5 md:mt-0 md:px-[19px]">
       <div className="text-[15px] font-bold caret-transparent tracking-[1.11px] leading-[25.65px] outline-[3px] uppercase font-geogrotesquecondboldweb">

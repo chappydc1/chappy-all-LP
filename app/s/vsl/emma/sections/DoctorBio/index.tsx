@@ -1,4 +1,4 @@
-export const DoctorBio = () => {
+export const EmmaDoctorBio = () => {
   return (
     <div className="bg-stone-100 box-border w-full overflow-hidden">
       {/* Mobile doctor profile */}

@@ -1,4 +1,4 @@
-export type TrustBadgeItemProps = {
+export type NebrooTrustBadgeItemProps = {
   imageSrc: string;
   title: React.ReactNode;
   description: React.ReactNode;
@@ -8,7 +8,7 @@ export type TrustBadgeItemProps = {
   descriptionClassName?: string;
 };
 
-export const TrustBadgeItem = (props: TrustBadgeItemProps) => {
+export const NebrooTrustBadgeItem = (props: NebrooTrustBadgeItemProps) => {
   return (
     <div
       className={`items-center box-border caret-transparent flex justify-start min-h-[auto] min-w-[auto] w-full px-2.5 py-3 md:items-start md:justify-normal ${props.containerClassName || ""}`}

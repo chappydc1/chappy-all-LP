@@ -1,4 +1,4 @@
-export type ProductCardProps = {
+export type PrimepicksProductCardProps = {
   outerClassName: string;
   headerClassName: string;
   titleClassName: string;
@@ -15,7 +15,7 @@ export type ProductCardProps = {
   cons: string[];
 };
 
-export const ProductCard = (props: ProductCardProps) => {
+export const PrimepicksProductCard = (props: PrimepicksProductCardProps) => {
   return (
     <div
       className={`bg-white shadow-[rgba(0,0,0,0.07)_0px_2px_25px_0px] box-border caret-transparent overflow-hidden rounded-[10px] ${props.outerClassName}`}

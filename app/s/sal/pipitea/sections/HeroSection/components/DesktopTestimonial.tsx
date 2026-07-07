@@ -1,4 +1,4 @@
-export const DesktopTestimonial = () => {
+export const PipiteaDesktopTestimonial = () => {
   return (
     <div
       className="items-start box-border caret-transparent hidden flex-wrap min-h-0 min-w-0 border border-zinc-700 mt-[25px] p-[15px] rounded-lg border-solid md:flex md:min-h-[auto] md:min-w-[auto]"

@@ -1,4 +1,4 @@
-export const HeroImage = () => {
+export const FealsHeroImage = () => {
   return (
     <div className="relative items-center self-stretch box-border caret-transparent flex basis-auto grow-0 shrink-0 h-[260px] justify-center max-w-full min-h-px outline-[3px] md:basis-0 md:grow md:shrink md:h-auto">
       <picture

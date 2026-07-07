@@ -1,11 +1,11 @@
-export type IngredientCardProps = {
+export type ElavynIngredientCardProps = {
   rootClassName: string;
   imageSrc: string;
   title: string;
   children: React.ReactNode;
 };
 
-export const IngredientCard = (props: IngredientCardProps) => {
+export const ElavynIngredientCard = (props: ElavynIngredientCardProps) => {
   return (
     <div
       className={`relative text-[15px] content-start box-border caret-transparent gap-x-4 grid grid-cols-[minmax(0px,12fr)] grid-rows-[1fr] justify-start leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] gap-y-0 w-full mx-auto md:text-base md:leading-[28.8px] md:w-[1200px] ${props.rootClassName}`}

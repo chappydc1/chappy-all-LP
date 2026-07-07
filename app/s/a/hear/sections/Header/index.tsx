@@ -1,13 +1,13 @@
-import { HeaderLogo } from "../Header/components/HeaderLogo";
+import { HearHeaderLogo } from "../Header/components/HeaderLogo";
 import { useScrollReveal } from "../../hooks/useScrollReveal";
 
-export const Header = () => {
+export const HearHeader = () => {
   const ref = useScrollReveal();
 
   return (
     <div className="caret-transparent max-w-[1040px] mx-auto px-5 md:px-8" ref={ref}>
       <header className="bg-white caret-transparent z-[1000] pt-2.5 pb-5 md:pt-[30px] animate-fade-in">
-        <HeaderLogo />
+        <HearHeaderLogo />
       </header>
       <div className="caret-transparent mb-5 md:mb-10">
         <div className="caret-transparent -mx-5 md:mx-0">

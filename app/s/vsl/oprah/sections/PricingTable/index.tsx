@@ -1,9 +1,9 @@
-import { PricingCard } from "../PricingTable/components/PricingCard";
-import { MobilePricingCards } from "../PricingTable/components/MobilePricingCards";
-import { FAQSection } from "../FAQSection";
-import { GuaranteeSection } from "../GuaranteeSection";
+import { OprahPricingCard } from "../PricingTable/components/PricingCard";
+import { OprahMobilePricingCards } from "../PricingTable/components/MobilePricingCards";
+import { OprahFAQSection } from "../FAQSection";
+import { OprahGuaranteeSection } from "../GuaranteeSection";
 
-export type PricingTableProps = {
+export type OprahPricingTableProps = {
   showFullContent?: boolean;
 };
 
@@ -16,7 +16,7 @@ const PricingCards = () => (
     <div className="box-border max-w-[1360px] m-auto px-4 py-10 md:py-16">
       <div className="box-border hidden max-w-[1180px] w-full m-auto md:block">
         <div className="items-end box-border flex flex-wrap justify-center -mx-3 py-6">
-          <PricingCard
+          <OprahPricingCard
             outerClassName="px-3 rounded-sm delay-100 md:pt-16"
             headerClassName=""
             contentClassName="bg-white"
@@ -29,7 +29,7 @@ const PricingCards = () => (
             originalPrice="$99"
             ctaHref={onePackHref}
           />
-          <PricingCard
+          <OprahPricingCard
             outerClassName="px-3 delay-200"
             headerClassName=""
             contentClassName="bg-[linear-gradient(rgb(255,247,218),rgb(255,255,255))]"
@@ -42,7 +42,7 @@ const PricingCards = () => (
             showLeanBellyRecipes
             isBestValue
           />
-          <PricingCard
+          <OprahPricingCard
             outerClassName="px-3 rounded-sm delay-300 md:pt-10"
             headerClassName=""
             contentClassName="bg-white rounded-b-sm"
@@ -58,7 +58,7 @@ const PricingCards = () => (
           />
         </div>
       </div>
-      <MobilePricingCards
+      <OprahMobilePricingCards
         headerImageSrc="/images/oprah/Header.webp"
         bottleSixImageSrc="/images/oprah/emma-bottle-6.webp"
         bottleThreeImageSrc="/images/oprah/emma-bottle-3.webp"
@@ -83,7 +83,7 @@ const PricingCards = () => (
   </div>
 );
 
-export const PricingTable = (props: PricingTableProps) => {
+export const OprahPricingTable = (props: OprahPricingTableProps) => {
   const { showFullContent = false } = props;
 
   if (!showFullContent) {
@@ -93,9 +93,9 @@ export const PricingTable = (props: PricingTableProps) => {
   return (
     <div className="box-border w-full">
       <PricingCards />
-      <GuaranteeSection />
+      <OprahGuaranteeSection />
       <PricingCards />
-      <FAQSection />
+      <OprahFAQSection />
     </div>
   );
 };

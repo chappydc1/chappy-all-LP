@@ -2,12 +2,12 @@
 
 import { type ReactNode } from "react";
 import { Menu } from "lucide-react";
-import { VideoModal } from "./components/VideoModal";
-import { DoctorBio } from "./sections/DoctorBio";
-import { Footer } from "./sections/Footer";
-import { HeadlineSection } from "./sections/HeadlineSection";
-import { PricingTable } from "./sections/PricingTable";
-import { VideoSection } from "./sections/VideoSection";
+import { OprahVideoModal } from "./components/VideoModal";
+import { OprahDoctorBio } from "./sections/DoctorBio";
+import { OprahFooter } from "./sections/Footer";
+import { OprahHeadlineSection } from "./sections/HeadlineSection";
+import { OprahPricingTable } from "./sections/PricingTable";
+import { OprahVideoSection } from "./sections/VideoSection";
 import { useVslPricingReveal } from "./hooks/useVslPricingReveal";
 import mediaJson from "./media.json";
 import advJson from "./adv.json";
@@ -53,25 +53,25 @@ export default function OprahVSLPage() {
 
       <section className="box-border caret-transparent">
         <HeroContainer>
-          <HeadlineSection />
+          <OprahHeadlineSection />
         </HeroContainer>
         <HeroContainer>
-          <VideoSection />
+          <OprahVideoSection />
         </HeroContainer>
         <HeroLogoStrip />
         {/* Count + closed notice always visible; individual comments gated at ≤5 min */}
-        <DoctorBio showComments={pricingVisible} />
+        <OprahDoctorBio showComments={pricingVisible} />
       </section>
 
       {/* Pricing + footer revealed only when ≤ 5 min remain in the VSL */}
       {pricingVisible && (
         <>
-          <PricingTable showFullContent={true} />
-          <Footer />
+          <OprahPricingTable showFullContent={true} />
+          <OprahFooter />
         </>
       )}
 
-      <VideoModal />
+      <OprahVideoModal />
     </main>
   );
 }

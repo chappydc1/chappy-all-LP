@@ -3,7 +3,7 @@ type PromoBarProps = {
   cta: { label: string; href: string };
 };
 
-export function PromoBar({ text, cta }: PromoBarProps) {
+export function KachavaPromoBar({ text, cta }: PromoBarProps) {
   return (
     <div className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] w-full">
       <div className="relative items-center bg-sky-600 box-border caret-transparent flex min-h-[41px] outline-[3px] z-[2] px-0 py-1 top-0 md:px-5">

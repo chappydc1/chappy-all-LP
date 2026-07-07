@@ -8,7 +8,7 @@ const P = ({ text }: { text: string }) => (
   </p>
 );
 
-export function ArticleConclusion() {
+export function ZikeeyArticleConclusion() {
   const { conclusion } = adv.article;
 
   return (

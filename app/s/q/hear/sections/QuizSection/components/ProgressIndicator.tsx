@@ -1,4 +1,4 @@
-export const ProgressIndicator = () => {
+export const HearProgressIndicator = () => {
   return (
     <div className="box-border caret-transparent hidden outline-[3px] text-center w-full overflow-hidden pb-2.5 px-2.5 after:accent-auto after:box-border after:caret-transparent after:clear-both after:text-zinc-800 after:block after:text-[0px] after:not-italic after:normal-nums after:font-normal after:h-0 after:tracking-[normal] after:leading-[0px] after:list-outside after:list-disc after:outline-[3px] after:pointer-events-auto after:text-center after:no-underline after:indent-[0px] after:normal-case after:visible after:border-separate after:font-georgia">
       <div className="box-border caret-transparent float-right h-full outline-[3px]"></div>

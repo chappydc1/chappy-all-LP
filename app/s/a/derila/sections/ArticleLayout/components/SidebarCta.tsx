@@ -1,7 +1,7 @@
 import adv from "../../../adv.json";
 import media from "../../../media.json";
 
-export const SidebarCta = () => {
+export const DerilaSidebarCta = () => {
   const { productUrl, sidebar } = adv;
   const img = media.sidebarImage;
 

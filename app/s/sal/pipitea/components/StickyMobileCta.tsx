@@ -1,5 +1,5 @@
 "use client"
-export const StickyMobileCta = () => {
+export const PipiteaStickyMobileCta = () => {
   return (
     <section
       className="items-center bg-white bg-no-repeat box-border caret-transparent flex flex-col justify-items-center min-h-[auto] min-w-[auto] outline-[3px] w-full z-10 border-neutral-400/50 bg-center px-[15px] py-[9px] border-t bottom-0 md:hidden md:min-h-0 md:min-w-0"

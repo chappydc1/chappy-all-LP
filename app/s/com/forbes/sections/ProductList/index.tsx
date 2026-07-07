@@ -1,6 +1,6 @@
 "use client";
 
-import { ProductItem } from "../ProductList/components/ProductItem";
+import { ForbesProductItem } from "../ProductList/components/ProductItem";
 
 type Product = {
   rank: number;
@@ -51,7 +51,7 @@ const PRODUCT_IMAGE_KEYS = [
 const articleProse = "text-[var(--color-neutral-800)] text-base leading-normal md:text-xl md:leading-[26px]";
 const h3Style = "text-[var(--color-fg-heading)] text-[18.72px] font-bold leading-normal mb-[14.4px] md:text-2xl md:leading-[26px] font-euclidcircularb";
 
-export const ProductList = ({
+export const ForbesProductList = ({
   products, productImages, articleMedia, ui, articles, medviUrl, remedyUrl,
 }: ProductListProps) => {
   return (
@@ -63,7 +63,7 @@ export const ProductList = ({
           <div className="relative flex flex-col shrink-0 mt-4 mx-auto w-full">
             <ul className="list-none pl-0 w-full">
               {products.map((product, index) => (
-                <ProductItem
+                <ForbesProductItem
                   key={product.rank}
                   rank={product.rank}
                   imageSrc={productImages[PRODUCT_IMAGE_KEYS[index]] ?? ""}

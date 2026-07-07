@@ -2,7 +2,7 @@
 
 import { useAdvertorial } from "../../LandingPage/context";
 
-export type CallToActionSectionProps = {
+export type RosabellaCallToActionSectionProps = {
   variant: string;
   href: string;
   ctaText: string;
@@ -10,7 +10,7 @@ export type CallToActionSectionProps = {
   ctaSpanClassName: string;
 };
 
-export const CallToActionSection = (props: CallToActionSectionProps) => {
+export const RosabellaCallToActionSection = (props: RosabellaCallToActionSectionProps) => {
   const { copy, media } = useAdvertorial();
 
   if (props.variant === "ctaButton") {

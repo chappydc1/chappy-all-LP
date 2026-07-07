@@ -1,15 +1,15 @@
-import { CountdownBanner } from "../OfferSection/components/CountdownBanner";
-import { PricingSection } from "../OfferSection/components/PricingSection";
-import { GuaranteeSection } from "../OfferSection/components/GuaranteeSection";
-import { FAQSection } from "../OfferSection/components/FAQSection";
+import { TodayCountdownBanner } from "../OfferSection/components/CountdownBanner";
+import { TodayPricingSection } from "../OfferSection/components/PricingSection";
+import { TodayGuaranteeSection } from "../OfferSection/components/GuaranteeSection";
+import { TodayFAQSection } from "../OfferSection/components/FAQSection";
 
-export const OfferSection = () => {
+export const TodayOfferSection = () => {
   return (
     <div className="box-border caret-transparent outline-[3px]">
-      <CountdownBanner />
-      <PricingSection />
-      <GuaranteeSection />
-      <FAQSection />
+      <TodayCountdownBanner />
+      <TodayPricingSection />
+      <TodayGuaranteeSection />
+      <TodayFAQSection />
     </div>
   );
 };

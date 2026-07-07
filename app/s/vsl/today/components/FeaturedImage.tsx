@@ -1,4 +1,4 @@
-export const FeaturedImage = () => {
+export const TodayFeaturedImage = () => {
   return (
     <div className="items-center box-border caret-transparent flex justify-center outline-[3px] w-full mx-auto">
       <img

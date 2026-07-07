@@ -1,4 +1,4 @@
-export const HeroContent = () => {
+export const GrunsHeroContent = () => {
   return (
     <div className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] w-auto md:w-[540px]">
       <p className="text-base font-medium bg-orange-200 box-border caret-transparent leading-[19.2px] max-w-fit outline-[3px] underline mr-auto mb-4 px-2 py-1">

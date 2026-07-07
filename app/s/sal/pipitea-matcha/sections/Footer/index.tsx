@@ -1,4 +1,4 @@
-export const Footer = () => {
+export const PipiteaMatchaFooter = () => {
   return (
     <div className="items-stretch bg-zinc-300/30 bg-no-repeat bg-cover box-border caret-transparent flex flex-col flex-wrap justify-start justify-items-center min-h-[auto] min-w-[auto] outline-[3px] w-full border-stone-300 bg-center px-2.5 py-[35px] border-t border-solid md:flex-nowrap">
       <div className="relative bg-no-repeat bg-cover box-border caret-transparent flex basis-full flex-col grow justify-center max-w-[810px] min-h-[25px] outline-[3px] w-full bg-center mx-auto">

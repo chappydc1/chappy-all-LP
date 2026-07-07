@@ -1,4 +1,4 @@
-export const RatingSummary = () => {
+export const PipiteaRatingSummary = () => {
   return (
     <div
       className="items-center box-border caret-transparent flex flex-col flex-wrap min-h-[auto] min-w-[auto] mx-[15px] md:flex-row md:mx-0"

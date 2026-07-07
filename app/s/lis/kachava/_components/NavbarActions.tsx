@@ -5,7 +5,7 @@ type NavbarActionsProps = {
   cartIconSrc: string;
 };
 
-export function NavbarActions({ accountLink, shopCta, accountIconSrc, cartIconSrc }: NavbarActionsProps) {
+export function KachavaNavbarActions({ accountLink, shopCta, accountIconSrc, cartIconSrc }: NavbarActionsProps) {
   return (
     <div className="items-center box-border caret-transparent gap-x-4 flex justify-end min-h-[auto] min-w-[auto] outline-[3px] gap-y-4 w-6/12 md:w-[33.3333%]">
       <a

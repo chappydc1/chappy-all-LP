@@ -7,7 +7,7 @@ type ReasonSectionProps = {
   layout: "imageRight" | "imageLeft";
 };
 
-export function ReasonSection({ title, paragraphs, cta, imageSrc, imageAlt, layout }: ReasonSectionProps) {
+export function KachavaReasonSection({ title, paragraphs, cta, imageSrc, imageAlt, layout }: ReasonSectionProps) {
   const isRight = layout === "imageRight";
 
   return (

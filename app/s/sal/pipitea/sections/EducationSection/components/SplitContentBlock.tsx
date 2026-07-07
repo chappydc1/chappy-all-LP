@@ -1,4 +1,4 @@
-export type SplitContentBlockProps = {
+export type PipiteaSplitContentBlockProps = {
   layoutVariant: string;
   imageUrl: string;
   imageSizes: string;
@@ -12,7 +12,7 @@ export type SplitContentBlockProps = {
   content: React.ReactNode;
 };
 
-export const SplitContentBlock = (props: SplitContentBlockProps) => {
+export const PipiteaSplitContentBlock = (props: PipiteaSplitContentBlockProps) => {
   const isImageFirst = props.layoutVariant === "image-first";
 
   const contentColumn = (

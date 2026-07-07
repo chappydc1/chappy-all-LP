@@ -11,7 +11,7 @@ type NewsletterProps = {
   };
 };
 
-export function Newsletter({ copy }: NewsletterProps) {
+export function ShilajitNewsletter({ copy }: NewsletterProps) {
   const [email, setEmail] = useState("");
   const [submitted, setSubmitted] = useState(false);
   const [error, setError] = useState("");

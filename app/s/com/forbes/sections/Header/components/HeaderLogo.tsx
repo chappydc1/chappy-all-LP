@@ -1,4 +1,4 @@
-export const HeaderLogo = ({ logoSrc }: { logoSrc: string }) => {
+export const ForbesHeaderLogo = ({ logoSrc }: { logoSrc: string }) => {
   return (
     <a
       href="/"

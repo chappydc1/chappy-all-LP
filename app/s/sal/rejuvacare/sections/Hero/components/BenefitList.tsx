@@ -1,4 +1,4 @@
-export type BenefitListProps = {
+export type RejuvacareBenefitListProps = {
   containerVariant: string;
   imageVariant: string;
   contentVariant: string;
@@ -8,7 +8,7 @@ export type BenefitListProps = {
   hasNestedText: boolean;
 };
 
-export const BenefitList = (props: BenefitListProps) => {
+export const RejuvacareBenefitList = (props: RejuvacareBenefitListProps) => {
   return (
     <div
       className={`box-border caret-transparent flex justify-start min-h-[auto] min-w-[auto] outline-[3px] w-full mb-3 ${props.containerVariant}`}

@@ -1,4 +1,4 @@
-export type MobileMenuProps = {
+export type DerilaMobileMenuProps = {
   variant: string;
   containerVariantClass: string;
   iconSrc: string;
@@ -11,7 +11,7 @@ export type MobileMenuProps = {
   orderText: string;
 };
 
-export const MobileMenu = (props: MobileMenuProps) => {
+export const DerilaMobileMenu = (props: DerilaMobileMenuProps) => {
   return (
     <div
       className={`box-border caret-transparent outline-[3px] ${props.containerVariantClass}`}

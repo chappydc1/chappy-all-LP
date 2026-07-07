@@ -1,10 +1,10 @@
-export type CertificationItemProps = {
+export type PipiteaCertificationItemProps = {
   imageUrl: string;
   title: React.ReactNode;
   sizes?: string;
 };
 
-export const CertificationItem = (props: CertificationItemProps) => {
+export const PipiteaCertificationItem = (props: PipiteaCertificationItemProps) => {
   return (
     <div
       className="box-border caret-transparent flex basis-[0%] flex-col grow min-h-[auto] outline-[3px]"

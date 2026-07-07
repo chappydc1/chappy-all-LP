@@ -29,7 +29,7 @@ const bundles = [
   },
 ];
 
-export const PricingSection = () => {
+export const TodayPricingSection = () => {
   return (
     <section className="box-border caret-transparent outline-[3px] py-10 md:py-16">
       <div className="box-border caret-transparent max-w-[1120px] outline-[3px] text-center w-[95%] mx-auto">

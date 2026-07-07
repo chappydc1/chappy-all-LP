@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 
 const DEAL_SECONDS_INIT = 19 * 60 * 60 + 11 * 60 + 11;
 
-export const OfferCard = () => {
+export const JavyOfferCard = () => {
   const [totalSeconds, setTotalSeconds] = useState(DEAL_SECONDS_INIT);
   const [btnHovered, setBtnHovered] = useState(false);
 

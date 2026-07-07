@@ -1,19 +1,19 @@
-export type ReviewItem = {
+export type HearReviewItem = {
   title: string;
   body: string;
   author: string;
   starsImageUrl: string;
 };
 
-export type ReviewsProps = {
+export type HearReviewsProps = {
   variant: "heading" | "subheading" | "list";
   headingText?: string;
   subheadingText?: string;
   subheadingHighlight?: string;
-  reviews?: ReviewItem[];
+  reviews?: HearReviewItem[];
 };
 
-export const Reviews = (props: ReviewsProps) => {
+export const HearReviews = (props: HearReviewsProps) => {
   if (props.variant === "heading") {
     return (
       <div className="caret-transparent mb-[25px]">
@@ -39,7 +39,7 @@ export const Reviews = (props: ReviewsProps) => {
     );
   }
 
-  const reviewItems: ReviewItem[] = props.reviews ?? [
+  const reviewItems: HearReviewItem[] = props.reviews ?? [
     {
       title: "Great product, great service",
       body: "This is my first experience with hearing aids and I have to say that with hear.com it has been a breeze",

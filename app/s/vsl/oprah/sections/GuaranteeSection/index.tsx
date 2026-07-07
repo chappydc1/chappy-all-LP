@@ -1,4 +1,4 @@
-export const GuaranteeSection = () => {
+export const OprahGuaranteeSection = () => {
   return (
     <div className="bg-stone-100 box-border">
       <div className="box-border max-w-[1440px] m-auto pt-40 pb-12 px-2 md:px-0">

@@ -1,4 +1,4 @@
-export const ProductDetails = () => {
+export const GrunsProductDetails = () => {
   return (
     <div className="box-border caret-transparent max-w-none min-h-0 min-w-0 outline-[3px] w-auto md:max-w-[470px] md:min-h-[auto] md:min-w-[470px] md:w-[470px]">
       <div className="box-border caret-transparent outline-[3px] w-full">

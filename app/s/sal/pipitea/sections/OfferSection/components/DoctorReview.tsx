@@ -1,4 +1,4 @@
-export const DoctorReview = () => {
+export const PipiteaDoctorReview = () => {
   return (
     <div className="bg-white box-border caret-transparent flex min-h-[auto] min-w-[auto] outline-[3px] w-full border border-pink-950 mt-5 pl-[5px] pr-px pt-4 pb-px rounded-[10px] border-solid md:px-4">
       <div className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] w-full px-2.5 py-3">

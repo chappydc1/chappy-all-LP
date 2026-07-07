@@ -1,4 +1,4 @@
-export const Brand = () => {
+export const TodayBrand = () => {
   return (
     <div className="items-center box-border caret-transparent flex min-h-[auto] min-w-[auto] outline-[3px] overflow-hidden">
       <a className="text-red-600 text-sm font-semibold items-center box-border caret-transparent flex shrink-0 leading-[21px] min-h-[auto] min-w-[auto] outline-[3px] mr-6 hover:underline">

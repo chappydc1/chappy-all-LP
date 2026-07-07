@@ -1,21 +1,21 @@
-import { AdBanner } from "./components/AdBanner";
-import { ArticleHeader } from "./components/ArticleHeader";
-import { MainArticle } from "./components/MainArticle";
-import { Sidebar } from "./components/Sidebar";
-import { MobileFixedCTA } from "./components/MobileFixedCTA";
-import { Footer } from "./components/Footer";
+import { ZikeeyAdBanner } from "./components/AdBanner";
+import { ZikeeyArticleHeader } from "./components/ArticleHeader";
+import { ZikeeyMainArticle } from "./components/MainArticle";
+import { ZikeeySidebar } from "./components/Sidebar";
+import { ZikeeyMobileFixedCTA } from "./components/MobileFixedCTA";
+import { ZikeeyFooter } from "./components/Footer";
 
 export default function ZikeeyPage() {
   return (
     <div>
-      <AdBanner />
-      <ArticleHeader />
+      <ZikeeyAdBanner />
+      <ZikeeyArticleHeader />
       <div className="flex flex-col max-w-[1100px] mx-auto md:flex-row md:items-start">
-        <MainArticle />
-        <Sidebar />
+        <ZikeeyMainArticle />
+        <ZikeeySidebar />
       </div>
-      <MobileFixedCTA />
-      <Footer />
+      <ZikeeyMobileFixedCTA />
+      <ZikeeyFooter />
     </div>
   );
 }

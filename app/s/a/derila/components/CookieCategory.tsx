@@ -1,6 +1,6 @@
 import media from "../media.json";
 
-export type CookieCategoryProps = {
+export type DerilaCookieCategoryProps = {
   containerVariant: string;
   firstIconWrapperVariant: string;
   secondIconWrapperVariant: string;
@@ -10,7 +10,7 @@ export type CookieCategoryProps = {
   descriptionVariant: string;
 };
 
-export const CookieCategory = (props: CookieCategoryProps) => {
+export const DerilaCookieCategory = (props: DerilaCookieCategoryProps) => {
   const { icons } = media;
 
   return (

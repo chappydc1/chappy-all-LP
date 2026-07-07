@@ -1,7 +1,7 @@
 "use client";
 
 
-export type AdvertorialContent = {
+export type NooroAdvertorialContent = {
   ctaUrl: string;
   alert: {
     label: string;
@@ -76,7 +76,7 @@ export type AdvertorialContent = {
   };
 };
 
-export type AdvertorialMedia = {
+export type NooroAdvertorialMedia = {
   alert: {
     iconSrc: string;
     iconAlt: string;
@@ -115,12 +115,12 @@ export type AdvertorialMedia = {
   };
 };
 
-export function TopBar({
+export function NooroTopBar({
   content,
   media,
 }: {
-  content: AdvertorialContent;
-  media: AdvertorialMedia;
+  content: NooroAdvertorialContent;
+  media: NooroAdvertorialMedia;
 }): React.ReactElement {
   return (
     <div className="text-neutral-800 text-base font-normal bg-white">
@@ -138,8 +138,8 @@ function AdvertorialBar({
   content,
   media,
 }: {
-  content: AdvertorialContent;
-  media: AdvertorialMedia;
+  content: NooroAdvertorialContent;
+  media: NooroAdvertorialMedia;
 }): React.ReactElement {
   return (
     <div className="items-stretch bg-zinc-800 flex flex-wrap justify-start max-w-full px-2.5 py-px md:flex-nowrap md:py-2.5">
@@ -168,8 +168,8 @@ function ArticleSection({
   content,
   media,
 }: {
-  content: AdvertorialContent;
-  media: AdvertorialMedia;
+  content: NooroAdvertorialContent;
+  media: NooroAdvertorialMedia;
 }): React.ReactElement {
   const { header, article } = content;
 
@@ -187,7 +187,7 @@ function ArticleSection({
   );
 }
 
-function UpdateBanner({ banner, icon }: { banner: AdvertorialContent["alert"]; icon: AdvertorialMedia["alert"] }): React.ReactElement {
+function UpdateBanner({ banner, icon }: { banner: NooroAdvertorialContent["alert"]; icon: NooroAdvertorialMedia["alert"] }): React.ReactElement {
   return (
     <div className="flex justify-center px-[15px] pt-[15px] pb-[15px] md:px-2.5">
       <div className="w-full max-w-[1200px]">
@@ -205,8 +205,8 @@ function MainArticle({
   content,
   media,
 }: {
-  content: AdvertorialContent;
-  media: AdvertorialMedia;
+  content: NooroAdvertorialContent;
+  media: NooroAdvertorialMedia;
 }): React.ReactElement {
   const { header, article } = content;
 
@@ -356,8 +356,8 @@ function CheckoutOfferSection({
   content,
   media,
 }: {
-  content: AdvertorialContent;
-  media: AdvertorialMedia;
+  content: NooroAdvertorialContent;
+  media: NooroAdvertorialMedia;
 }): React.ReactElement {
   const { checkoutUpdate, guarantees, cta } = content.article;
 
@@ -437,8 +437,8 @@ function Sidebar({
   content,
   media,
 }: {
-  content: AdvertorialContent;
-  media: AdvertorialMedia;
+  content: NooroAdvertorialContent;
+  media: NooroAdvertorialMedia;
 }): React.ReactElement {
   const { sidebar } = content;
 
@@ -524,7 +524,7 @@ function Sidebar({
   );
 }
 
-function CommentsSection({ content }: { content: AdvertorialContent }): React.ReactElement {
+function CommentsSection({ content }: { content: NooroAdvertorialContent }): React.ReactElement {
   return (
     <div className="items-stretch flex flex-wrap justify-start max-w-full p-2.5 md:flex-nowrap">
       <div className="relative basis-full grow max-w-[1170px] min-h-[25px] w-min mx-auto p-2.5 md:basis-0">
@@ -554,7 +554,7 @@ function CommentsSection({ content }: { content: AdvertorialContent }): React.Re
   );
 }
 
-function FooterSection({ content }: { content: AdvertorialContent }): React.ReactElement {
+function FooterSection({ content }: { content: NooroAdvertorialContent }): React.ReactElement {
   return (
     <div className="items-stretch flex flex-wrap justify-start max-w-full border-gray-500 mt-10 pt-5 pb-2.5 px-2.5 border-t border-solid md:flex-nowrap">
       <div className="relative basis-full grow max-w-[1170px] min-h-[25px] w-min mx-auto md:basis-0">
@@ -576,7 +576,7 @@ function FooterSection({ content }: { content: AdvertorialContent }): React.Reac
   );
 }
 
-function StickyCtaBar({ content }: { content: AdvertorialContent }): React.ReactElement {
+function StickyCtaBar({ content }: { content: NooroAdvertorialContent }): React.ReactElement {
   return (
     <div className="sticky items-stretch bg-zinc-400 flex flex-wrap justify-center max-w-full z-10 px-5 py-[15px] bottom-0 md:flex-nowrap md:px-2.5">
       <div className="relative items-center flex basis-full flex-row-reverse grow justify-center max-w-[1200px] min-h-[25px] w-min md:basis-0">

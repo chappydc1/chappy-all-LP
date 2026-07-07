@@ -1,4 +1,4 @@
-export const AccountModal = () => {
+export const FealsAccountModal = () => {
   return (
     <div className="box-border caret-transparent hidden outline-[3px]">
       <div className="fixed items-center bg-black/60 box-border caret-transparent flex justify-center outline-[3px] z-[2147483647] inset-0">

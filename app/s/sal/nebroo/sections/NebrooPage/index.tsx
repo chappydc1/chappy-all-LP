@@ -1,23 +1,23 @@
 "use client";
 
-import { SaleBanner } from "../SaleBanner";
-import { HeroSection } from "../HeroSection";
-import { TrustBadges } from "../TrustBadges";
-import { AsSeen } from "../AsSeen";
-import { ProductIntro } from "../ProductIntro";
-import { VideoSection } from "../VideoSection";
-import { PricingSection } from "../PricingSection";
-import { InvisibleSection } from "../InvisibleSection";
-import { NoisySection } from "../NoisySection";
-import { ComparisonTable } from "../ComparisonTable";
-import { HowToUse } from "../HowToUse";
-import { Reviews } from "../Reviews";
-import { OfferSection } from "../OfferSection";
-import { MoneyBackGuarantee } from "../MoneyBackGuarantee";
-import { SocialProof } from "../SocialProof";
-import { FAQ } from "../FAQ";
-import { Disclaimer } from "../Disclaimer";
-import { StickyFooterCTA } from "../StickyFooterCTA";
+import { NebrooSaleBanner } from "../SaleBanner";
+import { NebrooHeroSection } from "../HeroSection";
+import { NebrooTrustBadges } from "../TrustBadges";
+import { NebrooAsSeen } from "../AsSeen";
+import { NebrooProductIntro } from "../ProductIntro";
+import { NebrooVideoSection } from "../VideoSection";
+import { NebrooPricingSection } from "../PricingSection";
+import { NebrooInvisibleSection } from "../InvisibleSection";
+import { NebrooNoisySection } from "../NoisySection";
+import { NebrooComparisonTable } from "../ComparisonTable";
+import { NebrooHowToUse } from "../HowToUse";
+import { NebrooReviews } from "../Reviews";
+import { NebrooOfferSection } from "../OfferSection";
+import { NebrooMoneyBackGuarantee } from "../MoneyBackGuarantee";
+import { NebrooSocialProof } from "../SocialProof";
+import { NebrooFAQ } from "../FAQ";
+import { NebrooDisclaimer } from "../Disclaimer";
+import { NebrooStickyFooterCTA } from "../StickyFooterCTA";
 import { useScrollReveal } from "../../hooks/useScrollReveal";
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -47,25 +47,25 @@ const MissedTalksSection = () => {
 export function NebrooPage({ adv, media }: { adv: AdvJson; media: MediaJson }) {
   return (
     <main className="text-neutral-800 text-base not-italic normal-nums font-normal bg-white">
-      <SaleBanner />
-      <HeroSection />
-      <TrustBadges />
-      <AsSeen />
-      <ProductIntro />
-      <VideoSection />
-      <PricingSection />
-      <InvisibleSection />
-      <NoisySection />
-      <ComparisonTable />
-      <HowToUse />
-      <Reviews />
+      <NebrooSaleBanner />
+      <NebrooHeroSection />
+      <NebrooTrustBadges />
+      <NebrooAsSeen />
+      <NebrooProductIntro />
+      <NebrooVideoSection />
+      <NebrooPricingSection />
+      <NebrooInvisibleSection />
+      <NebrooNoisySection />
+      <NebrooComparisonTable />
+      <NebrooHowToUse />
+      <NebrooReviews />
       <MissedTalksSection />
-      <OfferSection />
-      <MoneyBackGuarantee />
-      <SocialProof />
-      <FAQ />
-      <Disclaimer />
-      <StickyFooterCTA />
+      <NebrooOfferSection />
+      <NebrooMoneyBackGuarantee />
+      <NebrooSocialProof />
+      <NebrooFAQ />
+      <NebrooDisclaimer />
+      <NebrooStickyFooterCTA />
     </main>
   );
 }

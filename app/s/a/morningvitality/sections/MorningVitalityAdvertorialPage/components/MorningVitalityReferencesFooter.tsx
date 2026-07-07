@@ -1,6 +1,6 @@
 import advData from "../../../adv.json";
 
-export const MorningVitalityReferencesFooter = () => {
+export const MorningvitalityMorningVitalityReferencesFooter = () => {
   const { footer } = advData;
 
   return (

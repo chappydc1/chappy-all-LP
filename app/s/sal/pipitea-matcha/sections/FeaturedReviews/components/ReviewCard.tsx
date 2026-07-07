@@ -1,4 +1,4 @@
-export type ReviewCardProps = {
+export type PipiteaMatchaReviewCardProps = {
   rootVariantClass: string;
   cardClass: string;
   imageWrapperVariantClass: string;
@@ -18,7 +18,7 @@ export type ReviewCardProps = {
   spacerClass: string;
 };
 
-export const ReviewCard = (props: ReviewCardProps) => {
+export const PipiteaMatchaReviewCard = (props: PipiteaMatchaReviewCardProps) => {
   return (
     <div
       className={`relative box-border caret-transparent basis-full grow max-w-full min-h-[25px] outline-[3px] w-full ${props.rootVariantClass}`}

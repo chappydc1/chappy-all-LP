@@ -3,7 +3,7 @@
 import { useCountdown } from "../../../hooks/useCountdown";
 import { content } from "../../../content";
 
-export const CountdownTimer = () => {
+export const NuzCountdownTimer = () => {
   const { hrs, mins, secs } = useCountdown(content.countdownBanner.initialSeconds);
   const labels = content.countdownBanner.labels;
 

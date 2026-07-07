@@ -1,7 +1,7 @@
-import { BundleOption } from "../../OfferSection/components/BundleOption";
-import { DoctorReview } from "../../../components/DoctorReview";
+import { RejuvacareBundleOption } from "../../OfferSection/components/BundleOption";
+import { RejuvacareDoctorReview } from "../../../components/DoctorReview";
 
-export const OfferDetails = () => {
+export const RejuvacareOfferDetails = () => {
   return (
     <div className="items-center box-border caret-transparent flex-col min-h-0 min-w-0 outline-[3px] w-full pt-3 px-[15px] md:min-h-[auto] md:min-w-[auto] md:px-2.5">
       <div className="text-orange-700 text-xl font-extrabold box-border caret-transparent leading-7 outline-[3px] text-left p-px font-montserrat">
@@ -52,7 +52,7 @@ export const OfferDetails = () => {
           </b>
         </div>
       </div>
-      <BundleOption
+      <RejuvacareBundleOption
         headerClassName="bg-emerald-500"
         titleWrapperClassName="items-center box-border caret-transparent flex justify-start min-h-[auto] min-w-[auto] outline-[3px] w-full md:w-[90%]"
         titleClassName="text-white font-bold box-border caret-transparent leading-5 min-h-[auto] min-w-[auto] outline-[3px] text-left p-px font-montserrat md:leading-6"
@@ -97,7 +97,7 @@ export const OfferDetails = () => {
           Continue to select your bundle  ➜
         </a>
       </div>
-      <DoctorReview
+      <RejuvacareDoctorReview
         containerVariant="bg-neutral-100 rounded-[5px]"
         badgeVariant="leading-6 md:leading-[19.2px]"
       />

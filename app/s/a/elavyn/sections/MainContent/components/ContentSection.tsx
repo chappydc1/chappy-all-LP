@@ -1,4 +1,4 @@
-export type ContentSectionProps = {
+export type ElavynContentSectionProps = {
   title?: React.ReactNode;
   titleContainerClassName?: string;
   titleClassName?: string;
@@ -14,7 +14,7 @@ export type ContentSectionProps = {
   children: React.ReactNode;
 };
 
-export const ContentSection = (props: ContentSectionProps) => {
+export const ElavynContentSection = (props: ElavynContentSectionProps) => {
   const titleContainerClassName =
     props.titleContainerClassName ??
     "text-[15px] box-border caret-transparent leading-[27px] min-h-[auto] min-w-[auto] outline-[3px] md:text-base md:leading-[28.8px] max-w-full text-left mb-2";

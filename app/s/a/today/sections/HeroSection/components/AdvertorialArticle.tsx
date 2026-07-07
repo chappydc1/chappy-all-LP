@@ -90,7 +90,7 @@ const readerComments = [
   },
 ];
 
-export const AdvertorialArticle = () => {
+export const TodayAdvertorialArticle = () => {
   return (
     <article className="box-border caret-transparent max-w-[1284px] outline-[3px] w-full mx-auto px-5 md:px-6">
       <div className="box-border caret-transparent outline-[3px] max-w-[860px]">

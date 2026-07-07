@@ -1,8 +1,8 @@
 import advData from "../../../adv.json";
 import mediaData from "../../../media.json";
-import { MorningVitalityTestimonialCard } from "./MorningVitalityTestimonialCard";
-import { MorningVitalityCtaSection } from "./MorningVitalityCtaSection";
-import { MorningVitalityReferencesFooter } from "./MorningVitalityReferencesFooter";
+import { MorningvitalityMorningVitalityTestimonialCard } from "./MorningVitalityTestimonialCard";
+import { MorningvitalityMorningVitalityCtaSection } from "./MorningVitalityCtaSection";
+import { MorningvitalityMorningVitalityReferencesFooter } from "./MorningVitalityReferencesFooter";
 
 type Segment = { text: string; bold?: boolean; italic?: boolean };
 
@@ -86,7 +86,7 @@ function renderBlock(block: Block, index: number) {
 
     case "testimonial":
       return (
-        <MorningVitalityTestimonialCard
+        <MorningvitalityMorningVitalityTestimonialCard
           key={index}
           name={block.name}
           age={block.age}
@@ -99,7 +99,7 @@ function renderBlock(block: Block, index: number) {
         ? (mediaData.images as Record<string, string>)[block.key]
         : undefined;
       return (
-        <MorningVitalityCtaSection
+        <MorningvitalityMorningVitalityCtaSection
           key={index}
           href={cta.href}
           ctaText={cta.text}
@@ -114,7 +114,7 @@ function renderBlock(block: Block, index: number) {
   }
 }
 
-export const MorningVitalityMainArticle = () => {
+export const MorningvitalityMorningVitalityMainArticle = () => {
   const { article } = advData;
 
   return (
@@ -124,7 +124,7 @@ export const MorningVitalityMainArticle = () => {
       </h1>
       <p className={pClass}>{article.author}</p>
       {(article.body as Block[]).map((block, i) => renderBlock(block, i))}
-      <MorningVitalityReferencesFooter />
+      <MorningvitalityMorningVitalityReferencesFooter />
       <br className="box-border caret-transparent outline-[3px] bg-[position:0px_0px]" />
       <br className="box-border caret-transparent outline-[3px] bg-[position:0px_0px]" />
     </div>

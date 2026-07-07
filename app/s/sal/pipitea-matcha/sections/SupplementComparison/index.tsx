@@ -1,7 +1,7 @@
-import { ComparisonTable } from "./components/ComparisonTable";
-import { CtaBlock } from "../../components/CtaBlock";
+import { PipiteaMatchaComparisonTable } from "./components/ComparisonTable";
+import { PipiteaMatchaCtaBlock } from "../../components/CtaBlock";
 
-export const SupplementComparison = () => {
+export const PipiteaMatchaSupplementComparison = () => {
   return (
     <section
       href=""
@@ -77,8 +77,8 @@ export const SupplementComparison = () => {
           </div>
         </div>
       </div>
-      <ComparisonTable />
-      <CtaBlock
+      <PipiteaMatchaComparisonTable />
+      <PipiteaMatchaCtaBlock
         outerVariant="wrapped"
         frameVariant="items-center justify-center outline-[3px] mt-10 md:mt-14"
         contentVariant="flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full"

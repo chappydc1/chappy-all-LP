@@ -1,6 +1,6 @@
 import { content } from "../../../content";
 
-export const BenefitTags = () => {
+export const NuzBenefitTags = () => {
   const tags = content.hero.benefitTags;
   const rows: typeof tags[] = [];
   for (let i = 0; i < tags.length; i += 2) rows.push(tags.slice(i, i + 2));

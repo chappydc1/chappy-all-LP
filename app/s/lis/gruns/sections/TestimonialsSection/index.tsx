@@ -1,6 +1,6 @@
-import { TestimonialCard } from "../TestimonialsSection/components/TestimonialCard";
+import { GrunsTestimonialCard } from "../TestimonialsSection/components/TestimonialCard";
 
-export const TestimonialsSection = () => {
+export const GrunsTestimonialsSection = () => {
   return (
     <section className="box-border caret-transparent outline-[3px]">
       <div className="bg-stone-50 box-border caret-transparent outline-[3px] overflow-hidden py-12">
@@ -18,37 +18,37 @@ export const TestimonialsSection = () => {
           <div className="box-border caret-transparent max-w-[1140px] outline-[3px] mx-auto">
             <div className="box-border caret-transparent outline-[3px] overflow-hidden">
               <div className="box-border caret-transparent flex outline-[3px] translate-x-[19.5px] -ml-4 md:translate-x-[388px] md:-ml-6">
-                <TestimonialCard
+                <GrunsTestimonialCard
                   className="box-border caret-transparent basis-[90%] shrink-0 min-h-[auto] outline-[3px] pl-4 md:basis-[33.333%] md:pl-6"
                   title={'"Relief within a few days"'}
                   description="I felt a sense of relief within a few days in my gut health. I suffer from acid reflux at times throughout the day and these have helped tremendously."
                   authorName="Laura"
                 />
-                <TestimonialCard
+                <GrunsTestimonialCard
                   className="box-border caret-transparent basis-[90%] shrink-0 min-h-[auto] outline-[3px] pl-4 md:basis-[33.333%] md:pl-6"
                   title={'"Helps clean up my gut"'}
                   description="It really helps to clean up my gut. I’ve never been a regular person who went to the bathroom every day. With Grüns it’s getting there! I also love to eat them!"
                   authorName="Darcie"
                 />
-                <TestimonialCard
+                <GrunsTestimonialCard
                   className="box-border caret-transparent basis-[90%] shrink-0 min-h-[auto] outline-[3px] pl-4 md:basis-[33.333%] md:pl-6"
                   title="&quot;My poops are regular finally&quot;"
                   description="I have always had stomach issues and trouble going to the bathroom but after 2 weeks I haven’t had any and my poops are regular finally."
                   authorName="Jenn"
                 />
-                <TestimonialCard
+                <GrunsTestimonialCard
                   className=""
                   title="&quot;Increased energy and poop regularly&quot;"
                   description="So far, so good! I love these little bears. I’ve been taking Grüns just a week now. They taste yummy. I do feel increased energy and I’ve been able to poop pretty regularly.Thank you!"
                   authorName="Earla D."
                 />
-                <TestimonialCard
+                <GrunsTestimonialCard
                   className="box-border caret-transparent basis-[90%] shrink-0 min-h-[auto] outline-[3px] pl-4 md:basis-[33.333%] md:pl-6"
                   title={'"Best poops of my life"'}
                   description="I’ve been taking the Gruns for about 40 days now and I love them!! I can honestly say it’s the best poops of my life, my cravings at nighttime are way lower and I have a little more energy!"
                   authorName="Miranda"
                 />
-                <TestimonialCard
+                <GrunsTestimonialCard
                   className="translate-x-[-2111px] md:translate-x-[-2328px]"
                   title={'"They taste great"'}
                   description="What a wonderful way to maintain gut health and boost my immunity. They taste great, easy to travel with and a better way than pills to maintain my health."

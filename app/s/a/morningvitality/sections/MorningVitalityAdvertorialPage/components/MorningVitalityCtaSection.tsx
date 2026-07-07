@@ -1,11 +1,11 @@
-export type MorningVitalityCtaSectionProps = {
+export type MorningvitalityMorningVitalityCtaSectionProps = {
   href: string;
   ctaText: string;
   imageSrc?: string;
   imageClassName?: string;
 };
 
-export const MorningVitalityCtaSection = (props: MorningVitalityCtaSectionProps) => {
+export const MorningvitalityMorningVitalityCtaSection = (props: MorningvitalityMorningVitalityCtaSectionProps) => {
   return (
     <div className="bg-slate-50 box-border caret-transparent outline-[3px] border border-stone-300 bg-[position:0px_0px] mb-5 p-5 border-solid">
       <a

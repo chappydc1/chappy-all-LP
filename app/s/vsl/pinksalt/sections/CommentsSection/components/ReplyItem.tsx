@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 
-export type ReplyItemProps = {
+export type PinksaltReplyItemProps = {
   variant: "comment" | "actions";
   variantClass: string;
   // Comment variant props
@@ -15,7 +15,7 @@ export type ReplyItemProps = {
   paragraphExtraClass?: string;
 };
 
-export const ReplyItem = (props: ReplyItemProps) => {
+export const PinksaltReplyItem = (props: PinksaltReplyItemProps) => {
   const [liked, setLiked] = useState(false);
   const [likeCount, setLikeCount] = useState(0);
 

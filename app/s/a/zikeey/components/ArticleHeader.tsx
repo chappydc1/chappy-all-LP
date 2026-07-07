@@ -1,7 +1,7 @@
 import adv from "../adv.json";
 import media from "../media.json";
 
-export function ArticleHeader() {
+export function ZikeeyArticleHeader() {
   const { breadcrumbs, logoAlt, logoUrl } = adv.header;
 
   return (

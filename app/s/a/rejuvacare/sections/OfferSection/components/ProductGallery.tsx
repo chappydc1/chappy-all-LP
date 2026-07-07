@@ -1,4 +1,4 @@
-export const ProductGallery = () => {
+export const RejuvacareProductGallery = () => {
   return (
     <div className="items-center box-border caret-transparent flex-col min-h-0 min-w-0 outline-[3px] w-full md:min-h-[auto] md:min-w-[auto] md:w-6/12">
       <div className="items-stretch box-border caret-transparent flex flex-wrap justify-start max-w-full outline-[3px] md:flex-nowrap">

@@ -12,7 +12,7 @@ const SLIDES = [
   "https://c.animaapp.com/mq0c6l4mp0WBgi/assets/1762549253225_Slider03.webp",
 ]
 
-export const ProductGallery = (): JSX.Element => {
+export const PipiteaMatchaProductGallery = (): JSX.Element => {
   const [active, setActive] = useState(0)
 
   const prev = () => setActive((i) => (i === 0 ? SLIDES.length - 1 : i - 1))

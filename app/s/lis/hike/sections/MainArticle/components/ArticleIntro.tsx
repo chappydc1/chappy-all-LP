@@ -1,4 +1,4 @@
-export const ArticleIntro = () => {
+export const HikeArticleIntro = () => {
   return (
     <div className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px]">
       <div className="box-border caret-transparent outline-[3px]">

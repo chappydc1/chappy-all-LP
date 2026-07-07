@@ -1,4 +1,4 @@
-export const StickyBanner = () => {
+export const PrimepicksStickyBanner = () => {
   return (
     <section className="fixed text-white items-center bg-zinc-800 shadow-[rgba(0,0,0,0.25)_0px_0px_4px_0px] box-border caret-transparent block max-h-0 w-full z-[100] p-2 -bottom-4 md:hidden">
       <div className="items-center bg-slate-800 box-border caret-transparent flex">

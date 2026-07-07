@@ -1,4 +1,4 @@
-export type PricingCardProps = {
+export type OprahPricingCardProps = {
   outerClassName?: string;
   headerClassName?: string;
   contentClassName?: string;
@@ -18,7 +18,7 @@ export type PricingCardProps = {
 const ctaImageSrc = "/images/oprah/CTA.webp";
 const paymentMethodImageSrc = "/images/oprah/paymentmethod.webp";
 
-export const PricingCard = ({
+export const OprahPricingCard = ({
   outerClassName = "",
   headerClassName = "",
   contentClassName = "bg-white",
@@ -33,7 +33,7 @@ export const PricingCard = ({
   showBiggestDiscount = false,
   showLeanBellyRecipes = false,
   isBestValue = false,
-}: PricingCardProps) => {
+}: OprahPricingCardProps) => {
   const hasOfferBar = showBiggestDiscount || showLeanBellyRecipes;
 
   return (

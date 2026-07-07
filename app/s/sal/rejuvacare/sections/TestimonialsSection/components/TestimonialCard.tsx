@@ -1,4 +1,4 @@
-export type TestimonialCardProps = {
+export type RejuvacareTestimonialCardProps = {
   cardVariant: string;
   imageUrl: string;
   testimonial: string;
@@ -6,7 +6,7 @@ export type TestimonialCardProps = {
   ratingImageUrl: string;
 };
 
-export const TestimonialCard = (props: TestimonialCardProps) => {
+export const RejuvacareTestimonialCard = (props: RejuvacareTestimonialCardProps) => {
   return (
     <div className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] w-full px-1.5 py-3 md:px-2.5">
       <div

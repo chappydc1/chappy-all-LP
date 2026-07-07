@@ -1,4 +1,4 @@
-export const RatingSummary = () => {
+export const PipiteaMatchaRatingSummary = () => {
   return (
     <div
       href=""

@@ -1,4 +1,4 @@
-export type PricingCardProps = {
+export type EmmaPricingCardProps = {
   outerClassName: string;
   headerClassName: string;
   contentClassName: string;
@@ -16,7 +16,7 @@ export type PricingCardProps = {
   isBestValue?: boolean;
 };
 
-export const PricingCard = (props: PricingCardProps) => {
+export const EmmaPricingCard = (props: EmmaPricingCardProps) => {
   return (
     <div
       className={`box-border shrink-0 max-w-full w-full md:w-[33.3333%] ${props.outerClassName} reveal`}

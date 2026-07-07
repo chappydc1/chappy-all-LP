@@ -1,11 +1,11 @@
-export type TimelineItemProps = {
+export type PipiteaMatchaTimelineItemProps = {
   containerVariant: string;
   title: string;
   contentVariant: string;
   description: React.ReactNode;
 };
 
-export const TimelineItem = (props: TimelineItemProps) => {
+export const PipiteaMatchaTimelineItem = (props: PipiteaMatchaTimelineItemProps) => {
   return (
     <div
       href=""

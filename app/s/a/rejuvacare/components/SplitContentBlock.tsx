@@ -1,4 +1,4 @@
-export type SplitContentBlockProps = {
+export type RejuvacareSplitContentBlockProps = {
   rootVariantClass: string;
   contentVariantClass: string;
   title: string;
@@ -9,7 +9,7 @@ export type SplitContentBlockProps = {
   media: React.ReactNode;
 };
 
-export const SplitContentBlock = (props: SplitContentBlockProps) => {
+export const RejuvacareSplitContentBlock = (props: RejuvacareSplitContentBlockProps) => {
   return (
     <div
       className={`items-center box-border caret-transparent flex flex-col-reverse outline-[3px] w-full p-px ${props.rootVariantClass}`}

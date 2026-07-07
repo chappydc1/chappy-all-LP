@@ -1,9 +1,9 @@
-export type HeroProductImageProps = {
+export type NebrooHeroProductImageProps = {
   src: string;
   className: string;
 };
 
-export const HeroProductImage = (props: HeroProductImageProps) => {
+export const NebrooHeroProductImage = (props: NebrooHeroProductImageProps) => {
   return (
     <img
       alt="0 Gloria Jenkins.webp"

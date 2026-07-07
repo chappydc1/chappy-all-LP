@@ -1,6 +1,6 @@
 const CROSS = "/images/nebroo/1700045983205_1666773955_cross_v1642658299531_svg.png";
 
-export const PricingSection = () => {
+export const NebrooPricingSection = () => {
   return (
     <div className="flex flex-col md:flex-row items-start flex-wrap md:flex-nowrap mt-0 md:mt-2.5 max-w-[1200px] mx-auto px-2.5 py-5 gap-5">
       {/* Video — left on desktop, top on mobile */}

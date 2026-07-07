@@ -107,7 +107,7 @@ function CommentItem({
   );
 }
 
-export const CommentsSection = () => {
+export const RosabellaCommentsSection = () => {
   const { copy, media } = useAdvertorial();
 
   // Group comments: top-level with their replies

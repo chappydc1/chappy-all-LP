@@ -1,5 +1,5 @@
 // @ts-nocheck
-export type TestimonialCardProps = {
+export type NexaTestimonialCardProps = {
   rootVariant: string;
   imageSrc: string;
   imageClassName: string;
@@ -13,7 +13,7 @@ export type TestimonialCardProps = {
   showTrailingBreak: string;
 };
 
-export const TestimonialCard = (props: TestimonialCardProps) => {
+export const NexaTestimonialCard = (props: NexaTestimonialCardProps) => {
   return (
     <div
       className={`bg-gray-200 box-border caret-transparent block outline-[3px] w-full pt-0 pb-[5px] px-0 md:flex md:pt-3 md:px-2.5 ${props.rootVariant}`}

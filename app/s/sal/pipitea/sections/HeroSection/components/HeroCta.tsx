@@ -1,4 +1,4 @@
-export const HeroCta = () => {
+export const PipiteaHeroCta = () => {
   return (
     <a
       title="BUY NOW & SAVE"

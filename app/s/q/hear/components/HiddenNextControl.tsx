@@ -1,4 +1,4 @@
-export const HiddenNextControl = () => {
+export const HearHiddenNextControl = () => {
   return (
     <div className="caret-transparent hidden outline-[3px]">
       <button

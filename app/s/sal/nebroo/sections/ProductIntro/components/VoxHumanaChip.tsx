@@ -1,4 +1,4 @@
-export const VoxHumanaChip = () => {
+export const NebrooVoxHumanaChip = () => {
   return (
     <div className="items-center box-border caret-transparent flex flex-row-reverse flex-wrap justify-start mt-0 md:flex-nowrap md:mt-2.5">
       <div className="box-border caret-transparent flex basis-full flex-col grow justify-center min-h-[25px] min-w-[auto] pt-5 pb-[30px] px-2.5 md:py-2.5">

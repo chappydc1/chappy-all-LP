@@ -6,7 +6,7 @@ type FooterNewsletterProps = {
   disclaimer: string;
 };
 
-export function FooterNewsletter({ headline, subtext, emailPlaceholder, ctaLabel, disclaimer }: FooterNewsletterProps) {
+export function KachavaFooterNewsletter({ headline, subtext, emailPlaceholder, ctaLabel, disclaimer }: FooterNewsletterProps) {
   return (
     <div className="box-border caret-transparent flex basis-auto shrink min-h-[auto] min-w-[auto] outline-[3px] w-full pb-0 px-0 md:basis-[400px] md:shrink-0 md:pb-4 md:px-4">
       <div className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px]">

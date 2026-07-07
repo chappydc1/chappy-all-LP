@@ -1,4 +1,4 @@
-export const HeaderMeta = () => {
+export const HearHeaderMeta = () => {
   return (
     <div className="caret-transparent min-h-[auto] min-w-[auto] text-right">
       <p className="text-gray-200 text-[15px] caret-transparent leading-[19.5px] font-archivo md:text-xl md:leading-[26px]">

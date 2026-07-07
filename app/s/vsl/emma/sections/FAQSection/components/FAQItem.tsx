@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 
-export type FAQItemProps = {
+export type EmmaFAQItemProps = {
   number: number;
   question: string;
   answer: React.ReactNode;
@@ -10,7 +10,7 @@ export type FAQItemProps = {
   headerClassName: string;
 };
 
-export const FAQItem = (props: FAQItemProps) => {
+export const EmmaFAQItem = (props: EmmaFAQItemProps) => {
   const [open, setOpen] = useState(false);
 
   return (

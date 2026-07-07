@@ -1,11 +1,11 @@
 "use client"
 
 import { useState, useEffect, useRef, createContext, useContext } from "react"
-import type { AdvertorialContent, AdvertorialMedia } from "./types"
+import type { HearAdvertorialContent, HearAdvertorialMedia } from "./types"
 
 type AdvertorialData = {
-  content: AdvertorialContent
-  media: AdvertorialMedia
+  content: HearAdvertorialContent
+  media: HearAdvertorialMedia
 }
 
 const AdvertorialContext = createContext<AdvertorialData | null>(null)
@@ -516,12 +516,12 @@ function FooterSection(): React.JSX.Element {
   )
 }
 
-export type TopBarProps = {
-  content: AdvertorialContent
-  media: AdvertorialMedia
+export type HearTopBarProps = {
+  content: HearAdvertorialContent
+  media: HearAdvertorialMedia
 }
 
-export function TopBar({ content, media }: TopBarProps): React.JSX.Element {
+export function HearTopBar({ content, media }: HearTopBarProps): React.JSX.Element {
   return (
     <AdvertorialContext.Provider value={{ content, media }}>
       <div className="bg-sky-600 h-[30px]" />

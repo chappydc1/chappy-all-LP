@@ -1,4 +1,4 @@
-export const TestimonialGallery = () => {
+export const FealsTestimonialGallery = () => {
   return (
     <div className="relative items-center self-stretch box-border caret-transparent flex flex-col shrink-0 justify-start max-w-full min-h-px min-w-[auto] outline-[3px] w-auto mt-8 md:self-auto md:w-9/12 md:mt-12">
       <picture

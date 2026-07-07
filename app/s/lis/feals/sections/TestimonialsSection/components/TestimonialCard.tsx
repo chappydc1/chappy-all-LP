@@ -1,4 +1,4 @@
-export type TestimonialCardProps = {
+export type FealsTestimonialCardProps = {
   iconSrc: string;
   title: string;
   quote: React.ReactNode;
@@ -7,7 +7,7 @@ export type TestimonialCardProps = {
   verificationText: string;
 };
 
-export const TestimonialCard = (props: TestimonialCardProps) => {
+export const FealsTestimonialCard = (props: FealsTestimonialCardProps) => {
   return (
     <div className="relative items-center self-auto box-border caret-transparent flex flex-col grow justify-start max-w-full min-h-px min-w-[auto] outline-[3px] border-stone-600 px-6 py-8 border-b md:items-start md:self-stretch md:justify-center md:px-4">
       <div className="self-start box-border caret-transparent gap-x-0.5 flex shrink-0 min-h-[auto] min-w-[auto] outline-[3px] gap-y-0.5 mb-2.5 md:mb-2">

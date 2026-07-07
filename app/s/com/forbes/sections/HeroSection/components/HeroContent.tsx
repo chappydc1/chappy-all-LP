@@ -4,7 +4,7 @@ type HeroContentProps = {
   date: string;
 };
 
-export const HeroContent = ({
+export const ForbesHeroContent = ({
   heading,
   subheading,
   date,

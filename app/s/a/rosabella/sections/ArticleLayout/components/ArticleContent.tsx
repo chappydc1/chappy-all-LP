@@ -1,36 +1,36 @@
 "use client";
 
 import { useAdvertorial } from "../../LandingPage/context";
-import { ArticleHeader } from "./ArticleHeader";
-import { ReasonSection } from "./ReasonSection";
-import { CallToActionSection } from "./CallToActionSection";
-import { CommentsSection } from "./CommentsSection";
+import { RosabellaArticleHeader } from "./ArticleHeader";
+import { RosabellaReasonSection } from "./ReasonSection";
+import { RosabellaCallToActionSection } from "./CallToActionSection";
+import { RosabellaCommentsSection } from "./CommentsSection";
 
-export const ArticleContent = () => {
+export const RosabellaArticleContent = () => {
   const { copy, media } = useAdvertorial();
 
   return (
     <div className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] align-top w-full md:w-9/12">
-      <ArticleHeader variant="breadcrumb" breadcrumbText={copy.breadcrumb} />
-      <ArticleHeader variant="headline" headline={copy.headline} />
-      <ArticleHeader variant="subheadline" subheadline={copy.subheadline} />
-      <ArticleHeader
+      <RosabellaArticleHeader variant="breadcrumb" breadcrumbText={copy.breadcrumb} />
+      <RosabellaArticleHeader variant="headline" headline={copy.headline} />
+      <RosabellaArticleHeader variant="subheadline" subheadline={copy.subheadline} />
+      <RosabellaArticleHeader
         variant="rating"
         ratingImageUrl={media.starsImage}
         ratingImageSizes="100px"
         ratingText={copy.ratingText}
       />
-      <ArticleHeader
+      <RosabellaArticleHeader
         variant="heroImage"
         heroImageUrl={media.heroImage}
         heroImageSizes="858px"
       />
-      <ArticleHeader
+      <RosabellaArticleHeader
         variant="quote"
         quoteText={copy.quoteText}
         quoteAuthor={copy.quoteAuthor}
       />
-      <ArticleHeader
+      <RosabellaArticleHeader
         variant="body"
         bodyContent={
           <>
@@ -61,10 +61,10 @@ export const ArticleContent = () => {
           </>
         }
       />
-      <ArticleHeader variant="default" />
+      <RosabellaArticleHeader variant="default" />
 
       {/* Intro / Problem section */}
-      <ReasonSection
+      <RosabellaReasonSection
         containerClassName="text-[23.4583px] box-border caret-transparent leading-[28.15px] min-h-[auto] min-w-[auto] outline-[3px] w-full mt-2.5 p-2.5 md:text-3xl md:leading-9"
         variant="title"
         title="Have You Felt Constantly Drained No Matter What You Try?"
@@ -77,7 +77,7 @@ export const ArticleContent = () => {
         videoSrc=""
         children={null}
       />
-      <ReasonSection
+      <RosabellaReasonSection
         containerClassName="items-center box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full mt-2.5 mx-2.5"
         variant="image"
         title=""
@@ -90,7 +90,7 @@ export const ArticleContent = () => {
         videoSrc=""
         children={null}
       />
-      <ReasonSection
+      <RosabellaReasonSection
         containerClassName="text-[20.4583px] box-border caret-transparent leading-[30.6875px] min-h-[auto] min-w-[auto] outline-[3px] w-full mt-2.5 p-2.5 md:text-xl md:leading-[30px]"
         variant="content"
         title=""
@@ -249,10 +249,10 @@ export const ArticleContent = () => {
             supplement on the market:
           </strong>
         </p>
-      </ReasonSection>
+      </RosabellaReasonSection>
 
       {/* Reason 1 */}
-      <ReasonSection
+      <RosabellaReasonSection
         containerClassName="text-[23.4583px] box-border caret-transparent leading-[28.15px] min-h-[auto] min-w-[auto] outline-[3px] w-full mt-5 p-2.5 md:text-3xl md:leading-9"
         variant="title"
         title="1.Fixes The Core Reason You're Exhausted, Stressed, and Stuck"
@@ -265,7 +265,7 @@ export const ArticleContent = () => {
         videoSrc=""
         children={null}
       />
-      <ReasonSection
+      <RosabellaReasonSection
         containerClassName="items-start box-border caret-transparent hidden flex-col min-h-0 min-w-0 outline-[3px] w-full mt-2.5 md:flex md:min-h-[auto] md:min-w-[auto]"
         variant="image"
         title=""
@@ -278,7 +278,7 @@ export const ArticleContent = () => {
         videoSrc=""
         children={null}
       />
-      <ReasonSection
+      <RosabellaReasonSection
         containerClassName="items-center box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full mt-2.5 md:hidden md:min-h-0 md:min-w-0"
         variant="image"
         title=""
@@ -291,7 +291,7 @@ export const ArticleContent = () => {
         videoSrc=""
         children={null}
       />
-      <ReasonSection
+      <RosabellaReasonSection
         containerClassName="text-[20.4583px] box-border caret-transparent leading-[30.6875px] min-h-[auto] min-w-[auto] outline-[3px] w-full mt-2.5 p-2.5 md:text-xl md:leading-[30px]"
         variant="content"
         title=""
@@ -402,10 +402,10 @@ export const ArticleContent = () => {
             Try it today, risk-free.
           </strong>
         </p>
-      </ReasonSection>
+      </RosabellaReasonSection>
 
       {/* Reason 2 */}
-      <ReasonSection
+      <RosabellaReasonSection
         containerClassName="text-[23.4583px] box-border caret-transparent leading-[28.15px] min-h-[auto] min-w-[auto] outline-[3px] w-full mt-2.5 p-2.5 md:text-3xl md:leading-9"
         variant="title"
         title="2.No Side-Effects - 100% From Nature"
@@ -418,7 +418,7 @@ export const ArticleContent = () => {
         videoSrc=""
         children={null}
       />
-      <ReasonSection
+      <RosabellaReasonSection
         containerClassName="text-[20.4583px] box-border caret-transparent leading-[30.6875px] min-h-[auto] min-w-[auto] outline-[3px] w-full mt-2.5 pt-2.5 px-2.5 md:text-xl md:leading-[30px]"
         variant="content"
         title=""
@@ -469,8 +469,8 @@ export const ArticleContent = () => {
             </span>
           </p>
         </div>
-      </ReasonSection>
-      <ReasonSection
+      </RosabellaReasonSection>
+      <RosabellaReasonSection
         containerClassName="relative bg-black box-border caret-transparent flex min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden mt-2.5 mx-2.5 rounded-[10px]"
         variant="video"
         title=""
@@ -485,7 +485,7 @@ export const ArticleContent = () => {
       />
 
       {/* Reason 3 */}
-      <ReasonSection
+      <RosabellaReasonSection
         containerClassName="text-[23.4583px] leading-[28.15px] min-h-[auto] min-w-[auto] mt-2.5 p-2.5 md:text-3xl md:leading-9"
         variant="title"
         title="3.First Results In 2-3 Weeks"
@@ -498,7 +498,7 @@ export const ArticleContent = () => {
         videoSrc=""
         children={null}
       />
-      <ReasonSection
+      <RosabellaReasonSection
         containerClassName="relative bg-black box-border caret-transparent flex min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden mt-2.5 mx-2.5 rounded-[10px]"
         variant="video"
         title=""
@@ -513,7 +513,7 @@ export const ArticleContent = () => {
       />
 
       {/* Reason 4 */}
-      <ReasonSection
+      <RosabellaReasonSection
         containerClassName="text-[23.4583px] box-border caret-transparent leading-[28.15px] min-h-[auto] min-w-[auto] outline-[3px] w-full mt-2.5 p-2.5 md:text-3xl md:leading-9"
         variant="title"
         title="4.Thousands of People Worldwide Love It and Can't Live Without It"
@@ -526,7 +526,7 @@ export const ArticleContent = () => {
         videoSrc=""
         children={null}
       />
-      <ReasonSection
+      <RosabellaReasonSection
         containerClassName="text-[20.4583px] box-border caret-transparent leading-[30.6875px] min-h-[auto] min-w-[auto] outline-[3px] w-full mt-2.5 p-2.5 md:text-xl md:leading-[30px]"
         variant="content"
         title=""
@@ -588,8 +588,8 @@ export const ArticleContent = () => {
             starts today.
           </span>
         </p>
-      </ReasonSection>
-      <ReasonSection
+      </RosabellaReasonSection>
+      <RosabellaReasonSection
         containerClassName="min-h-[auto] min-w-[auto] mt-2.5"
         variant="empty"
         title=""
@@ -604,7 +604,7 @@ export const ArticleContent = () => {
       />
 
       {/* Reason 5 */}
-      <ReasonSection
+      <RosabellaReasonSection
         containerClassName="text-black text-[23.4583px] box-border caret-transparent leading-[28.15px] min-h-[auto] min-w-[auto] outline-[3px] w-full mt-5 p-2.5 md:text-3xl md:leading-9"
         variant="title"
         title="5.100% Risk-Free Guarantee"
@@ -617,7 +617,7 @@ export const ArticleContent = () => {
         videoSrc=""
         children={null}
       />
-      <ReasonSection
+      <RosabellaReasonSection
         containerClassName="text-[20.4583px] box-border caret-transparent leading-[30.6875px] min-h-[auto] min-w-[auto] outline-[3px] w-full mt-2.5 p-2.5 md:text-xl md:leading-[30px]"
         variant="content"
         title=""
@@ -697,8 +697,8 @@ export const ArticleContent = () => {
             completely risk-free.
           </strong>
         </p>
-      </ReasonSection>
-      <ReasonSection
+      </RosabellaReasonSection>
+      <RosabellaReasonSection
         containerClassName="relative bg-black box-border caret-transparent flex min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden mt-2.5 mx-2.5 rounded-[10px]"
         variant="video"
         title=""
@@ -712,7 +712,7 @@ export const ArticleContent = () => {
         children={null}
       />
 
-      <CallToActionSection
+      <RosabellaCallToActionSection
         variant="ctaButton"
         href={copy.ctaUrl}
         ctaText={copy.ctaText}
@@ -720,42 +720,42 @@ export const ArticleContent = () => {
         ctaSpanClassName="text-white text-3xl box-border caret-transparent inline tracking-[0.28px] leading-9 min-h-0 min-w-0 outline-[3px] pointer-events-none text-center md:block md:tracking-[0.4px] md:min-h-[auto] md:min-w-[auto]"
       />
 
-      <CallToActionSection
+      <RosabellaCallToActionSection
         variant="ctaButton"
         href={copy.ctaUrl}
         ctaText={copy.ctaText}
         ctaClassName="px-[5px] py-[15px] md:hidden md:min-h-0 md:min-w-0"
         ctaSpanClassName="text-white text-[17px] box-border caret-transparent block leading-[20.4px] min-h-[auto] min-w-[auto] outline-[3px] pointer-events-none text-center md:inline md:min-h-0 md:min-w-0"
       />
-      <CallToActionSection
+      <RosabellaCallToActionSection
         variant="heroImage"
         href=""
         ctaText=""
         ctaClassName=""
         ctaSpanClassName=""
       />
-      <CallToActionSection
+      <RosabellaCallToActionSection
         variant="updateOffer"
         href=""
         ctaText=""
         ctaClassName=""
         ctaSpanClassName=""
       />
-      <CallToActionSection
+      <RosabellaCallToActionSection
         variant="trustAndCta"
         href={copy.ctaUrl}
         ctaText={copy.ctaText}
         ctaClassName=""
         ctaSpanClassName=""
       />
-      <CallToActionSection
+      <RosabellaCallToActionSection
         variant="default"
         href="#"
         ctaText=""
         ctaClassName=""
         ctaSpanClassName=""
       />
-      <CommentsSection />
+      <RosabellaCommentsSection />
     </div>
   );
 };

@@ -1,4 +1,4 @@
-export const HeaderLogo = () => {
+export const PipiteaMatchaHeaderLogo = () => {
   return (
     <section
       href=""

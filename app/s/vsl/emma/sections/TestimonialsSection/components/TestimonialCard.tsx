@@ -1,18 +1,18 @@
-export type Testimonial = {
+export type EmmaTestimonial = {
   avatarSrc: string;
   name: string;
   title: string;
   body: React.ReactNode;
 };
 
-export type TestimonialCardProps = {
-  testimonials: [Testimonial, Testimonial];
+export type EmmaTestimonialCardProps = {
+  testimonials: [EmmaTestimonial, EmmaTestimonial];
 };
 
-export const TestimonialCard = (props: TestimonialCardProps) => {
+export const EmmaTestimonialCard = (props: EmmaTestimonialCardProps) => {
   const [first, second] = props.testimonials;
 
-  const renderTestimonial = (testimonial: Testimonial, isFirst: boolean) => (
+  const renderTestimonial = (testimonial: EmmaTestimonial, isFirst: boolean) => (
     <>
       <div className={`box-border caret-transparent ${isFirst ? "" : "mt-12"}`}>
         <img

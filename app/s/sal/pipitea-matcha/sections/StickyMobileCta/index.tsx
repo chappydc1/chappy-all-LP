@@ -1,4 +1,4 @@
-export const StickyMobileCta = () => {
+export const PipiteaMatchaStickyMobileCta = () => {
   return (
     <section
       href=""

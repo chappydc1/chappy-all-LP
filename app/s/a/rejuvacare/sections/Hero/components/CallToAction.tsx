@@ -1,4 +1,4 @@
-export const CallToAction = () => {
+export const RejuvacareCallToAction = () => {
   return (
     <div className="items-start box-border caret-transparent flex flex-col justify-start min-h-[auto] min-w-[auto] outline-[3px] w-full mt-0 p-px md:mt-5">
       <div className="box-border caret-transparent flex min-h-[auto] min-w-[auto] outline-[3px] w-full mt-[7px] p-px md:mt-px">

@@ -1,6 +1,6 @@
-import { FooterNavColumn } from "../../Footer/components/FooterNavColumn";
+import { GrunsFooterNavColumn } from "../../Footer/components/FooterNavColumn";
 
-export const FooterNav = () => {
+export const GrunsFooterNav = () => {
   return (
     <div
       role="navigation"
@@ -11,7 +11,7 @@ export const FooterNav = () => {
         role="list"
         className="box-border caret-transparent grid grid-cols-[repeat(1,minmax(0px,1fr))] list-none outline-[3px] pl-0 md:grid-cols-[repeat(3,minmax(0px,1fr))]"
       >
-        <FooterNavColumn
+        <GrunsFooterNavColumn
           title="Learn"
           links={[
             { href: "https://gruns.co/pages/reviews", label: "Reviews" },
@@ -28,7 +28,7 @@ export const FooterNav = () => {
           logoSrc=""
           logoAlt=""
         />
-        <FooterNavColumn
+        <GrunsFooterNavColumn
           title="Connect"
           links={[
             { href: "/pages/referrals", label: "Refer a Friend" },
@@ -60,7 +60,7 @@ export const FooterNav = () => {
           logoSrc=""
           logoAlt=""
         />
-        <FooterNavColumn
+        <GrunsFooterNavColumn
           title="Ü Snacks"
           links={[
             { href: "https://gruns.co/pages/usnacks", label: "About" },

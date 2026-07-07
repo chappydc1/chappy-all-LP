@@ -2,7 +2,7 @@
 import adv from "../../../adv.json";
 import media from "../../../media.json";
 
-export const ProductReviewCard = () => {
+export const NexaProductReviewCard = () => {
   return (
     <div className="relative box-border caret-transparent basis-full grow max-w-full min-h-[25px] outline-[3px] w-min ml-[7px] p-px md:basis-0">
       <div className="box-border caret-transparent flex flex-col outline-[3px] w-[200px] border mt-2.5 pt-3.5 pb-3 px-2.5 rounded-[15px] border-solid border-black/30 md:w-[245px]">

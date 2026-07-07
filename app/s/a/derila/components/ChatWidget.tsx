@@ -1,6 +1,6 @@
 import media from "../media.json";
 
-export const ChatWidget = () => {
+export const DerilaChatWidget = () => {
   const { icons } = media;
 
   return (

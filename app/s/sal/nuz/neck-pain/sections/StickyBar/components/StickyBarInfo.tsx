@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import { content } from "../../../content";
 
-export const StickyBarInfo = () => {
+export const NuzStickyBarInfo = () => {
   const c = content.stickyBar;
   const [shoppers, setShoppers] = useState(c.shoppersInitial);
 

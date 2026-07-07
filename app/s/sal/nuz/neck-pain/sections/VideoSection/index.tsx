@@ -1,8 +1,8 @@
-import { VideoContent } from "./components/VideoContent";
-import { VideoDesktop } from "./components/VideoDesktop";
+import { NuzVideoContent } from "./components/VideoContent";
+import { NuzVideoDesktop } from "./components/VideoDesktop";
 import { content } from "../../content";
 
-export const VideoSection = () => {
+export const NuzVideoSection = () => {
   const v = content.video;
   return (
     <div className="bg-slate-200/60 box-border caret-transparent py-0 md:pt-[59px] md:pb-[70px]">
@@ -24,8 +24,8 @@ export const VideoSection = () => {
           </div>
         </div>
         <div className="items-start box-border caret-transparent flex flex-col-reverse justify-start mt-4 px-5 md:flex-row md:justify-around md:mt-0 md:px-0">
-          <VideoContent />
-          <VideoDesktop />
+          <NuzVideoContent />
+          <NuzVideoDesktop />
         </div>
       </div>
     </div>

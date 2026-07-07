@@ -144,7 +144,7 @@ function StickyBar({ adv }: { adv: Adv }) {
   )
 }
 
-export function SalesPage({ adv, media }: { adv: Adv; media: Media }): React.ReactElement {
+export function SmoothspineSalesPage({ adv, media }: { adv: Adv; media: Media }): React.ReactElement {
   const scrollRef = useRef<HTMLDivElement>(null)
   const scrollLeft = () => scrollRef.current?.scrollBy({ left: -320, behavior: "smooth" })
   const scrollRight = () => scrollRef.current?.scrollBy({ left: 320, behavior: "smooth" })

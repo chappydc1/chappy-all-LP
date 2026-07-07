@@ -1,6 +1,6 @@
-import { SplitContentBlock } from "./components/SplitContentBlock";
+import { PipiteaSplitContentBlock } from "./components/SplitContentBlock";
 
-export const EducationSection = () => {
+export const PipiteaEducationSection = () => {
   return (
     <section
       className="relative items-center bg-pink-500/10 bg-no-repeat box-border caret-transparent flex flex-col justify-items-center min-h-[auto] min-w-[auto] outline-[3px] w-full bg-center px-[15px] py-[45px] md:py-[60px]"
@@ -17,7 +17,7 @@ export const EducationSection = () => {
             <div
               className="box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full"
             >
-              <SplitContentBlock
+              <PipiteaSplitContentBlock
                 layoutVariant="content-first"
                 imageUrl="https://c.animaapp.com/mq03tlhwPsu7gY/assets/1771739884786_rhb.webp"
                 imageSizes="565px"
@@ -150,7 +150,7 @@ export const EducationSection = () => {
             <div
               className="box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full"
             >
-              <SplitContentBlock
+              <PipiteaSplitContentBlock
                 layoutVariant="image-first"
                 imageUrl="https://c.animaapp.com/mq03tlhwPsu7gY/assets/1769739258570_sec02.webp"
                 imageSizes=""

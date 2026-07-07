@@ -1,6 +1,6 @@
 "use client";
 
-export const NewsletterSignup = () => {
+export const JonesNewsletterSignup = () => {
   return (
     <form className="relative box-border caret-transparent max-w-none outline-[3px] w-full pt-[18px] md:max-w-[428px]">
       <div className="text-xl caret-transparent tracking-[0.5px] leading-[29px] max-w-[335px] outline-[3px] font-basemonowideweb md:max-w-none">

@@ -1,32 +1,32 @@
 "use client"
-import { LpProvider } from "../../context/LpContext"
-import type { LpCopy, LpMedia } from "../../context/LpContext"
-import { TopAnnouncement } from "./components/TopAnnouncement"
-import { HeaderLogo } from "./components/HeaderLogo"
-import { ProductHero } from "../ProductHero"
-import { ProblemSolutionSection } from "../ProblemSolutionSection"
-import { SurveyResults } from "../SurveyResults"
-import { ComparisonNarrative } from "../ComparisonNarrative"
-import { FeaturedReviews } from "../FeaturedReviews"
-import { ProductPromise } from "../ProductPromise"
-import { ResultsTimeline } from "../ResultsTimeline"
-import { SupplementComparison } from "../SupplementComparison"
-import { PreparationSteps } from "../PreparationSteps"
-import { SpecialOffer } from "../SpecialOffer"
-import { CustomerReviews } from "../CustomerReviews"
-import { FaqSection } from "../FaqSection"
-import { FinalCta } from "../FinalCta"
-import { StickyMobileCta } from "../StickyMobileCta"
-import { Footer } from "../Footer"
+import { PipiteaMatchaLpProvider } from "../../context/LpContext"
+import type { PipiteaMatchaLpCopy, PipiteaMatchaLpMedia } from "../../context/LpContext"
+import { PipiteaMatchaTopAnnouncement } from "./components/TopAnnouncement"
+import { PipiteaMatchaHeaderLogo } from "./components/HeaderLogo"
+import { PipiteaMatchaProductHero } from "../ProductHero"
+import { PipiteaMatchaProblemSolutionSection } from "../ProblemSolutionSection"
+import { PipiteaMatchaSurveyResults } from "../SurveyResults"
+import { PipiteaMatchaComparisonNarrative } from "../ComparisonNarrative"
+import { PipiteaMatchaFeaturedReviews } from "../FeaturedReviews"
+import { PipiteaMatchaProductPromise } from "../ProductPromise"
+import { PipiteaMatchaResultsTimeline } from "../ResultsTimeline"
+import { PipiteaMatchaSupplementComparison } from "../SupplementComparison"
+import { PipiteaMatchaPreparationSteps } from "../PreparationSteps"
+import { PipiteaMatchaSpecialOffer } from "../SpecialOffer"
+import { PipiteaMatchaCustomerReviews } from "../CustomerReviews"
+import { PipiteaMatchaFaqSection } from "../FaqSection"
+import { PipiteaMatchaFinalCta } from "../FinalCta"
+import { PipiteaMatchaStickyMobileCta } from "../StickyMobileCta"
+import { PipiteaMatchaFooter } from "../Footer"
 
 interface Props {
-  copy: LpCopy
-  media: LpMedia
+  copy: PipiteaMatchaLpCopy
+  media: PipiteaMatchaLpMedia
 }
 
-export function PageShell({ copy, media }: Props): JSX.Element {
+export function PipiteaMatchaPageShell({ copy, media }: Props): JSX.Element {
   return (
-    <LpProvider value={{ copy, media }}>
+    <PipiteaMatchaLpProvider value={{ copy, media }}>
       <div
         href=""
         className="text-gray-800 text-sm bg-white bg-no-repeat box-border caret-transparent leading-[21px] outline-[3px] text-center font-libre_franklin"
@@ -35,13 +35,13 @@ export function PageShell({ copy, media }: Props): JSX.Element {
           href=""
           className="items-center box-border caret-transparent flex flex-col min-h-[1000px] outline-[3px] w-full"
         >
-          <TopAnnouncement />
-          <HeaderLogo />
-          <ProductHero />
-          <ProblemSolutionSection />
-          <SurveyResults />
-          <ComparisonNarrative />
-          <FeaturedReviews />
+          <PipiteaMatchaTopAnnouncement />
+          <PipiteaMatchaHeaderLogo />
+          <PipiteaMatchaProductHero />
+          <PipiteaMatchaProblemSolutionSection />
+          <PipiteaMatchaSurveyResults />
+          <PipiteaMatchaComparisonNarrative />
+          <PipiteaMatchaFeaturedReviews />
           <section
             href=""
             className="relative items-center bg-zinc-300/30 bg-no-repeat box-border caret-transparent hidden flex-col justify-items-center outline-[3px] w-full bg-center px-[15px] py-[45px] md:py-[60px]"
@@ -117,18 +117,18 @@ export function PageShell({ copy, media }: Props): JSX.Element {
               </div>
             </div>
           </section>
-          <ProductPromise />
-          <ResultsTimeline />
-          <SupplementComparison />
-          <PreparationSteps />
-          <SpecialOffer />
-          <CustomerReviews />
-          <FaqSection />
-          <FinalCta />
-          <StickyMobileCta />
-          <Footer />
+          <PipiteaMatchaProductPromise />
+          <PipiteaMatchaResultsTimeline />
+          <PipiteaMatchaSupplementComparison />
+          <PipiteaMatchaPreparationSteps />
+          <PipiteaMatchaSpecialOffer />
+          <PipiteaMatchaCustomerReviews />
+          <PipiteaMatchaFaqSection />
+          <PipiteaMatchaFinalCta />
+          <PipiteaMatchaStickyMobileCta />
+          <PipiteaMatchaFooter />
         </main>
       </div>
-    </LpProvider>
+    </PipiteaMatchaLpProvider>
   )
 }

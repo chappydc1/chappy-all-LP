@@ -1,4 +1,4 @@
-export type AccessibilityWidgetsProps = {
+export type GrunsAccessibilityWidgetsProps = {
   variant: string;
   src: string;
   alt: string;
@@ -6,7 +6,7 @@ export type AccessibilityWidgetsProps = {
   linkText: string;
 };
 
-export const AccessibilityWidgets = (props: AccessibilityWidgetsProps) => {
+export const GrunsAccessibilityWidgets = (props: GrunsAccessibilityWidgetsProps) => {
   if (props.variant === "icon") {
     return (
       <img

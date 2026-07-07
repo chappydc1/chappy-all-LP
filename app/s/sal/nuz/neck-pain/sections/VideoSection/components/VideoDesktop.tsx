@@ -1,6 +1,6 @@
 import { content } from "../../../content";
 
-export const VideoDesktop = () => {
+export const NuzVideoDesktop = () => {
   const v = content.video;
   return (
     <div className="items-start box-border caret-transparent hidden flex-col justify-start max-w-full min-h-0 min-w-0 w-full md:flex md:max-w-[46%] md:min-h-[auto] md:min-w-[auto]">

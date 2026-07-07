@@ -1,4 +1,4 @@
-export const HeaderLogo = () => {
+export const PipiteaHeaderLogo = () => {
   return (
     <div
       className="items-center box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full"

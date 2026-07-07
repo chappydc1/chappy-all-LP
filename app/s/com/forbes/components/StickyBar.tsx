@@ -15,7 +15,7 @@ type StickyBarProps = {
   starFullSrc: string;
 };
 
-export const StickyBar = ({
+export const ForbesStickyBar = ({
   visitUrl,
   logoSrc,
   promo,

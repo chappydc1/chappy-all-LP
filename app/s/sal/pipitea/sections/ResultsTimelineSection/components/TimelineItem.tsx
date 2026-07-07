@@ -1,11 +1,11 @@
-export type TimelineItemProps = {
+export type PipiteaTimelineItemProps = {
   containerVariant: string;
   contentVariant: string;
   timeLabel: string;
   description: string;
 };
 
-export const TimelineItem = (props: TimelineItemProps) => {
+export const PipiteaTimelineItem = (props: PipiteaTimelineItemProps) => {
   return (
     <div
       className={`relative items-start box-border caret-transparent flex flex-col flex-wrap justify-between min-h-[auto] min-w-[auto] mt-10 py-0 md:mt-0 md:py-[35px] after:accent-auto after:border-b-zinc-800 after:border-l-zinc-800 after:border-r-pink-950 after:border-t-zinc-800 after:bottom-[-38px] after:box-border after:caret-transparent after:text-zinc-800 after:block after:text-sm after:not-italic after:normal-nums after:font-normal after:tracking-[normal] after:leading-[21px] after:list-outside after:list-disc after:outline-[3px] after:pointer-events-auto after:absolute after:text-start after:no-underline after:indent-[0px] after:normal-case after:visible after:ml-0 after:border-r-[3px] after:border-separate after:left-3.5 after:font-libre_franklin after:md:-ml-px after:md:left-2/4 after:md:bottom-0 ${props.containerVariant}`}

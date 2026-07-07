@@ -1,6 +1,6 @@
 type NavLink = { href: string; text: string; underline?: boolean };
 
-export const DesktopMenu = ({ links }: { links: NavLink[] }) => {
+export const DerilaDesktopMenu = ({ links }: { links: NavLink[] }) => {
   return (
     <div className="items-center box-border caret-transparent hidden min-h-0 min-w-0 outline-[3px] md:flex md:min-h-[auto] md:min-w-[auto]">
       <div className="items-center box-border caret-transparent flex min-h-0 min-w-0 outline-[3px] md:min-h-[auto] md:min-w-[auto]">

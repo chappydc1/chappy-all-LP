@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 import adv from "./adv.json";
 import media from "./media.json";
-import { Navbar } from "./components/Navbar";
-import { Breadcrumb } from "./components/Breadcrumb";
-import { ProductCard } from "./components/ProductCard";
-import { Newsletter } from "./components/Newsletter";
-import { Footer } from "./components/Footer";
-import { FAQSection } from "./components/FAQSection";
+import { ShilajitNavbar } from "./components/Navbar";
+import { ShilajitBreadcrumb } from "./components/Breadcrumb";
+import { ShilajitProductCard } from "./components/ProductCard";
+import { ShilajitNewsletter } from "./components/Newsletter";
+import { ShilajitFooter } from "./components/Footer";
+import { ShilajitFAQSection } from "./components/FAQSection";
 
 export const metadata: Metadata = {
   title: adv.meta.title,
@@ -16,9 +16,9 @@ export const metadata: Metadata = {
 export default function ShilajitPage() {
   return (
     <div className="text-black text-sm font-normal bg-white w-full overflow-x-hidden font-[Lato,sans-serif]">
-      <Navbar adv={adv.navbar} media={media} />
+      <ShilajitNavbar adv={adv.navbar} media={media} />
       <main className="flex flex-col items-center w-full">
-        <Breadcrumb items={adv.breadcrumb} />
+        <ShilajitBreadcrumb items={adv.breadcrumb} />
 
         {/* Product list container */}
         <div className="box-border flex flex-col max-w-none min-h-[auto] w-full mb-0 md:max-w-screen-lg md:min-w-[1024px] md:mb-20">
@@ -56,7 +56,7 @@ export default function ShilajitPage() {
           {/* Product cards */}
           <div className="static md:relative">
             {adv.products.slice(0, 3).map((product, i) => (
-              <ProductCard
+              <ShilajitProductCard
                 key={product.rank}
                 {...product}
                 imageSrc={media.products[i]}
@@ -69,7 +69,7 @@ export default function ShilajitPage() {
             ))}
           </div>
           {adv.products.slice(3).map((product, i) => (
-            <ProductCard
+            <ShilajitProductCard
               key={product.rank}
               {...product}
               imageSrc={media.products[3 + i]}
@@ -83,7 +83,7 @@ export default function ShilajitPage() {
           ))}
 
           {/* Newsletter */}
-          <Newsletter copy={adv.newsletter} />
+          <ShilajitNewsletter copy={adv.newsletter} />
 
           {/* Related categories */}
           <div className="text-left pt-10 pb-2.5 px-2.5">
@@ -139,7 +139,7 @@ export default function ShilajitPage() {
           <div className="pt-5" />
 
           {/* FAQ */}
-          <FAQSection faq={adv.faq} />
+          <ShilajitFAQSection faq={adv.faq} />
         </div>
 
         <div className="text-stone-500 text-[15.4px] italic px-5 py-2.5">
@@ -149,7 +149,7 @@ export default function ShilajitPage() {
           {" "}apply.
         </div>
 
-        <Footer adv={adv.footer} media={media} />
+        <ShilajitFooter adv={adv.footer} media={media} />
       </main>
     </div>
   );

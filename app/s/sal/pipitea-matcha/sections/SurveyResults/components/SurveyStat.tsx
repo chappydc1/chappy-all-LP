@@ -1,11 +1,11 @@
-export type SurveyStatProps = {
+export type PipiteaMatchaSurveyStatProps = {
   firstPercentage: string;
   firstDescription: string;
   secondPercentage: string;
   secondDescription: string;
 };
 
-export const SurveyStat = (props: SurveyStatProps) => {
+export const PipiteaMatchaSurveyStat = (props: PipiteaMatchaSurveyStatProps) => {
   return (
     <div
       href=""

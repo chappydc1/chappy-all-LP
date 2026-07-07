@@ -1,4 +1,4 @@
-export const HipaaModal = () => {
+export const HearHipaaModal = () => {
   return (
     <div className="fixed items-center caret-transparent hidden h-[1000px] justify-center outline-[3px] w-screen z-[99999] overflow-scroll left-0 top-0">
       <div className="absolute bg-black caret-transparent h-full opacity-[0.56] outline-[3px] w-full left-0 top-0"></div>

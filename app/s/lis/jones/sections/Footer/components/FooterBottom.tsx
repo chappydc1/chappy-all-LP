@@ -1,4 +1,4 @@
-export const FooterBottom = () => {
+export const JonesFooterBottom = () => {
   return (
     <div className="text-xs box-border caret-transparent flex tracking-[-0.16px] leading-[21.96px] max-w-[600px] min-h-0 min-w-0 outline-[3px] text-start w-auto mt-0 mx-auto pb-10 px-[30px] md:block md:max-w-none md:min-h-[auto] md:min-w-[auto] md:text-right md:w-3/5 md:mt-auto md:mx-0 md:pb-[30px]">
       <ul className="caret-transparent block list-none min-h-[auto] min-w-[auto] outline-[3px] text-start w-6/12 pl-0 md:inline md:min-h-0 md:min-w-0 md:text-right md:w-auto md:pl-5">

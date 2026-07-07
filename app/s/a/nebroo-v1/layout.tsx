@@ -6,6 +6,6 @@ export const metadata: Metadata = {
   icons: { icon: "/favicons/nebroo-v1.svg" },
 };
 
-export default function Layout({ children }: { children: React.ReactNode }) {
+export default function NebrooV1Layout({ children }: { children: React.ReactNode }) {
   return <>{children}</>;
 }

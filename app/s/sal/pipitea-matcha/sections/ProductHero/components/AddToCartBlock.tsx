@@ -1,4 +1,4 @@
-export const AddToCartBlock = () => {
+export const PipiteaMatchaAddToCartBlock = () => {
   return (
     <div
       href=""

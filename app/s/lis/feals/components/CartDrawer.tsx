@@ -1,4 +1,4 @@
-export const CartDrawer = () => {
+export const FealsCartDrawer = () => {
   return (
     <div role="dialog" className="box-border caret-transparent outline-[3px]">
       <div className="fixed items-stretch bg-white box-border caret-transparent gap-x-0 flex flex-col h-[1000px] justify-start max-w-full outline-[3px] overflow-x-hidden overflow-y-auto gap-y-0 w-[500px] z-[2147483640] m-0 rounded-none top-full bottom-0 inset-x-0 md:h-auto md:max-w-[calc(100%_-_16px)] md:m-2.5 md:rounded-bl md:rounded-br md:rounded-tl md:rounded-tr md:left-auto md:-right-full md:top-0">

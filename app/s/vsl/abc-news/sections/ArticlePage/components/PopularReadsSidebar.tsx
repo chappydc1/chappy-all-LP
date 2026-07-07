@@ -1,4 +1,4 @@
-export const PopularReadsSidebar = () => {
+export const AbcNewsPopularReadsSidebar = () => {
   return (
     <section className="box-border caret-transparent gap-x-6 grid outline-[3px] gap-y-6">
       <header className="items-center box-border caret-transparent flex min-h-0 min-w-0 outline-[3px] -mb-2 md:min-h-[auto] md:min-w-[auto] md:mb-0">

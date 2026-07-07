@@ -1,12 +1,12 @@
 // @ts-nocheck
-export type CommentReply = {
+export type NexaCommentReply = {
   imageUrl: string;
   authorName: string;
   commentText: string;
   timeText: string;
 };
 
-export type CommentItemProps = {
+export type NexaCommentItemProps = {
   rootClassName: string;
   avatarUrl: string;
   contentClassName: string;
@@ -23,10 +23,10 @@ export type CommentItemProps = {
   authorSpanClassName?: string;
   showAuthorBreak?: boolean;
   timeSuffix?: string;
-  reply?: CommentReply;
+  reply?: NexaCommentReply;
 };
 
-export const CommentItem = (props: CommentItemProps) => {
+export const NexaCommentItem = (props: NexaCommentItemProps) => {
   return (
     <div
       className={`box-border caret-transparent flex outline-[3px] ${props.rootClassName}`}

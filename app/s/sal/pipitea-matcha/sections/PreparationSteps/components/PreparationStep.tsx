@@ -1,10 +1,10 @@
-export type PreparationStepProps = {
+export type PipiteaMatchaPreparationStepProps = {
   imageSrc: string;
   title: string;
   description: string;
 };
 
-export const PreparationStep = (props: PreparationStepProps) => {
+export const PipiteaMatchaPreparationStep = (props: PipiteaMatchaPreparationStepProps) => {
   return (
     <div
       href=""

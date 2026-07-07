@@ -1,7 +1,7 @@
 // @ts-nocheck
 import adv from "../adv.json";
 
-export const StickyCta = () => {
+export const NexaStickyCta = () => {
   return (
     <div
       title="Stickybar"

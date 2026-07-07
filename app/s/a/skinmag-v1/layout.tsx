@@ -5,6 +5,6 @@ export const metadata = {
   description: "Skincare discoveries for women who want real results.",
 };
 
-export default function SkinmagLayout({ children }: { children: ReactNode }) {
+export default function SkinmagV1SkinmagLayout({ children }: { children: ReactNode }) {
   return <>{children}</>;
 }

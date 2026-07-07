@@ -1,9 +1,9 @@
-import { PricingCard } from "../PricingTable/components/PricingCard";
-import { MobilePricingCards } from "../PricingTable/components/MobilePricingCards";
-import { FAQSection } from "../FAQSection";
-import { GuaranteeSection } from "../GuaranteeSection";
+import { EmmaPricingCard } from "../PricingTable/components/PricingCard";
+import { EmmaMobilePricingCards } from "../PricingTable/components/MobilePricingCards";
+import { EmmaFAQSection } from "../FAQSection";
+import { EmmaGuaranteeSection } from "../GuaranteeSection";
 
-export type PricingTableProps = {
+export type EmmaPricingTableProps = {
   showFullContent?: boolean;
 };
 
@@ -12,7 +12,7 @@ const PricingCards = () => (
     <div className="box-border max-w-[1440px] m-auto pb-6">
       <div className="box-border hidden max-w-[1200px] w-full m-auto md:block">
         <div className="items-end box-border flex flex-wrap -mx-3 py-6">
-          <PricingCard
+          <EmmaPricingCard
             outerClassName="px-3 rounded-sm delay-100"
             headerClassName="bg-emerald-200 text-center py-4 rounded-t-sm"
             contentClassName="bg-white"
@@ -25,7 +25,7 @@ const PricingCards = () => (
             originalPrice="$99"
             ctaHref="https://go.gutrenewalformula.com/products/emma-1-pack-grf-er-vslrmb/?_raclid=9a1a687b-c0c6-4856-8ff8-e09031df5b2d&ad_id=269813"
           />
-          <PricingCard
+          <EmmaPricingCard
             outerClassName="delay-200"
             headerClassName="rounded-sm"
             contentClassName="bg-[linear-gradient(rgb(255,247,218),rgb(255,255,255))]"
@@ -38,7 +38,7 @@ const PricingCards = () => (
             showLeanBellyRecipes
             isBestValue
           />
-          <PricingCard
+          <EmmaPricingCard
             outerClassName="px-3 rounded-sm delay-300"
             headerClassName="bg-emerald-200 text-center py-4 rounded-t-sm"
             contentClassName="bg-white rounded-b-sm"
@@ -54,7 +54,7 @@ const PricingCards = () => (
           />
         </div>
       </div>
-      <MobilePricingCards
+      <EmmaMobilePricingCards
         headerImageSrc="/images/emma/Header.webp"
         bottleSixImageSrc="/images/emma/emma-bottle-6.webp"
         bottleThreeImageSrc="/images/emma/emma-bottle-3.webp"
@@ -79,7 +79,7 @@ const PricingCards = () => (
   </div>
 );
 
-export const PricingTable = (props: PricingTableProps) => {
+export const EmmaPricingTable = (props: EmmaPricingTableProps) => {
   const { showFullContent = false } = props;
 
   if (!showFullContent) {
@@ -89,13 +89,13 @@ export const PricingTable = (props: PricingTableProps) => {
   return (
     <div className="box-border w-full">
       <PricingCards />
-      <GuaranteeSection />
+      <EmmaGuaranteeSection />
       {/* Second pricing block */}
       <div className="bg-amber-100 box-border">
         <div className="box-border max-w-[1440px] m-auto pb-6">
           <div className="box-border hidden max-w-[1200px] w-full m-auto md:block">
             <div className="items-end box-border flex flex-wrap -mx-3 py-6">
-              <PricingCard
+              <EmmaPricingCard
                 outerClassName="px-3 rounded-sm delay-100"
                 headerClassName="bg-emerald-200 text-center py-4 rounded-t-sm"
                 contentClassName="bg-white"
@@ -108,7 +108,7 @@ export const PricingTable = (props: PricingTableProps) => {
                 originalPrice="$99"
                 ctaHref="https://go.gutrenewalformula.com/products/emma-1-pack-grf-er-vslrmb/?_raclid=9a1a687b-c0c6-4856-8ff8-e09031df5b2d&ad_id=269813"
               />
-              <PricingCard
+              <EmmaPricingCard
                 outerClassName="delay-200"
                 headerClassName="rounded-sm"
                 contentClassName="bg-[linear-gradient(rgb(255,247,218),rgb(255,255,255))]"
@@ -121,7 +121,7 @@ export const PricingTable = (props: PricingTableProps) => {
                 showLeanBellyRecipes
                 isBestValue
               />
-              <PricingCard
+              <EmmaPricingCard
                 outerClassName="px-3 rounded-sm delay-300"
                 headerClassName="bg-emerald-200 text-center py-4 rounded-t-sm"
                 contentClassName="bg-white rounded-b-sm"
@@ -137,7 +137,7 @@ export const PricingTable = (props: PricingTableProps) => {
               />
             </div>
           </div>
-          <MobilePricingCards
+          <EmmaMobilePricingCards
             headerImageSrc="/images/emma/Header.webp"
             bottleSixImageSrc="/images/emma/emma-bottle-6.webp"
             bottleThreeImageSrc="/images/emma/emma-bottle-3.webp"
@@ -160,7 +160,7 @@ export const PricingTable = (props: PricingTableProps) => {
           />
         </div>
       </div>
-      <FAQSection />
+      <EmmaFAQSection />
     </div>
   );
 };

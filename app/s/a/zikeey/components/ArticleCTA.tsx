@@ -1,7 +1,7 @@
 import adv from "../adv.json";
 import { renderText } from "../utils/renderText";
 
-export function ArticleCTA() {
+export function ZikeeyArticleCTA() {
   const { cta } = adv.article;
 
   return (

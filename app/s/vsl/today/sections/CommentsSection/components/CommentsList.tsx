@@ -1,7 +1,7 @@
-import { ReplyComment } from "../../CommentsSection/components/ReplyComment";
-import { CommentItem } from "../../CommentsSection/components/CommentItem";
+import { TodayReplyComment } from "../../CommentsSection/components/ReplyComment";
+import { TodayCommentItem } from "../../CommentsSection/components/CommentItem";
 
-export const CommentsList = () => {
+export const TodayCommentsList = () => {
   return (
     <section className="box-border caret-transparent max-w-screen-md outline-[3px] w-full mx-auto my-10 p-4 font-ui_sans_serif">
       <div className="box-border caret-transparent outline-[3px] border-gray-300 mb-6 pb-2 border-b border-solid font-montserrat">
@@ -10,7 +10,7 @@ export const CommentsList = () => {
         </h3>
       </div>
       <div className="box-border caret-transparent outline-[3px] font-montserrat">
-        <CommentItem
+        <TodayCommentItem
           containerClassName=""
           imageSrc="/images/today/foto1_3.jpg"
           imageAlt="Sarah Brown review on blood sugar levels"
@@ -18,9 +18,9 @@ export const CommentsList = () => {
           commentText="Dr. Daniel, it’s been 15 consecutive days since I started, and I've already noticed a big improvement in my Blood Sugar levels. I'll keep going because I'm feeling amazing!"
           timeText=" 2 h "
           timeClassName=""
-          replyComment={<ReplyComment />}
+          replyComment={<TodayReplyComment />}
         />
-        <CommentItem
+        <TodayCommentItem
           containerClassName="mt-5"
           imageSrc="/images/today/nova1_2.jpg"
           imageAlt="Lauren Wilson review on natural energy"
@@ -30,7 +30,7 @@ export const CommentsList = () => {
           timeClassName="text-gray-400"
           replyComment={null}
         />
-        <CommentItem
+        <TodayCommentItem
           containerClassName="mt-5"
           imageSrc="/images/today/nova1_4.jpg"
           imageAlt="Lucy Johnson feedback on vitality"

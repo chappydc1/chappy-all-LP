@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useScrollReveal } from "../../hooks/useScrollReveal";
 
-export const NewsletterSignup = () => {
+export const HearNewsletterSignup = () => {
   const [email, setEmail] = useState("");
   const [status, setStatus] = useState<"idle" | "success" | "error">("idle");
   const [loading, setLoading] = useState(false);

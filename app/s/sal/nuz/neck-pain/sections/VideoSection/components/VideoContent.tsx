@@ -1,6 +1,6 @@
 import { content, renderInlineBold } from "../../../content";
 
-export const VideoContent = () => {
+export const NuzVideoContent = () => {
   const v = content.video;
   return (
     <div className="items-start box-border caret-transparent flex flex-col justify-start max-w-full min-h-[auto] min-w-[auto] md:max-w-[46%]">

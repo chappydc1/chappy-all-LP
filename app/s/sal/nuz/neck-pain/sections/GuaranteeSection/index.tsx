@@ -4,7 +4,7 @@ import { useScrollReveal } from "../../hooks/useScrollReveal";
 import { useCountdown } from "../../hooks/useCountdown";
 import { content } from "../../content";
 
-export const GuaranteeSection = () => {
+export const NuzGuaranteeSection = () => {
   const g = content.guarantee;
   const { ref, visible } = useScrollReveal();
   const { formatted } = useCountdown(g.ctaCountdownSeconds);

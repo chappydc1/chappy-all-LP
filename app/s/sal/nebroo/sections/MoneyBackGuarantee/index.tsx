@@ -1,7 +1,7 @@
 "use client";
 import { useScrollReveal } from "../../hooks/useScrollReveal";
 
-export const MoneyBackGuarantee = () => {
+export const NebrooMoneyBackGuarantee = () => {
   const { ref, visible } = useScrollReveal();
   return (
     <div id="guarantee" className="items-stretch bg-sky-100 box-border caret-transparent flex flex-wrap justify-center max-w-full px-2.5 py-5 md:flex-nowrap">

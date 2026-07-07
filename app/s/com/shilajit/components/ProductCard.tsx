@@ -19,7 +19,7 @@ type ProductCardProps = {
   wrapperClassName?: string;
 };
 
-export function ProductCard(props: ProductCardProps) {
+export function ShilajitProductCard(props: ProductCardProps) {
   const starIcons = Array.from({ length: 5 }, (_, i) =>
     i < Math.floor(props.stars) ? props.starFull : props.starHalf
   );

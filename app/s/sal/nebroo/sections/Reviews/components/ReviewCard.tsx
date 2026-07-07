@@ -1,4 +1,4 @@
-export type ReviewCardProps = {
+export type NebrooReviewCardProps = {
   containerVariantClass: string;
   avatarSrc: string;
   reviewerName: string;
@@ -8,7 +8,7 @@ export type ReviewCardProps = {
   starSrc: string;
 };
 
-export const ReviewCard = (props: ReviewCardProps) => {
+export const NebrooReviewCard = (props: NebrooReviewCardProps) => {
   return (
     <div
       className={`items-center bg-sky-100 shadow-[rgba(119,119,119,0.73)_1px_1px_3px_0.5px] box-border caret-transparent flex flex-col min-h-0 min-w-0 w-full mx-px rounded-[15px] md:min-h-[auto] md:min-w-[auto] md:mx-[15px] ${props.containerVariantClass}`}

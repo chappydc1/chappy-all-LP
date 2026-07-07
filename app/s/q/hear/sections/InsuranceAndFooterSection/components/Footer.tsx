@@ -1,4 +1,4 @@
-export const Footer = () => {
+export const HearFooter = () => {
   return (
     <footer className="items-center caret-transparent flex flex-wrap justify-center outline-[3px]">
       <div className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] text-start w-6/12 mb-3 px-2.5 md:text-center">

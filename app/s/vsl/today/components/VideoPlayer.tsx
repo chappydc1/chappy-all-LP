@@ -1,4 +1,4 @@
-export const VideoPlayer = () => {
+export const TodayVideoPlayer = () => {
   return (
     <div className="items-center box-border caret-transparent flex h-full justify-center outline-[3px] w-full z-[9999]">
       <div className="relative aspect-[9_/_16] box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] w-[78%] overflow-hidden rounded-lg md:w-[24%]">

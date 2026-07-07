@@ -1,4 +1,4 @@
-export type PurchaseOptionsProps = {
+export type GrunsPurchaseOptionsProps = {
   variant: string;
   title: string;
   actionText?: string;
@@ -33,7 +33,7 @@ export type PurchaseOptionsProps = {
   submitText?: string;
 };
 
-export const PurchaseOptions = (props: PurchaseOptionsProps) => {
+export const GrunsPurchaseOptions = (props: GrunsPurchaseOptionsProps) => {
   const iconUrl =
     props.iconUrl ?? "/images/gruns/icon-16.svg";
   const modalCloseIconUrl =

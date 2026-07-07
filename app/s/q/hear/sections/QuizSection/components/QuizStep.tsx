@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 
-export type QuizStepOption = {
+export type HearQuizStepOption = {
   label: React.ReactNode;
   value?: string;
   itemClassName?: string;
@@ -12,17 +12,17 @@ export type QuizStepOption = {
   note?: React.ReactNode;
 };
 
-export type QuizStepInput = {
+export type HearQuizStepInput = {
   name: string;
   type: string;
   placeholder: string;
   className: string;
 };
 
-export type QuizStepProps = {
+export type HearQuizStepProps = {
   question?: React.ReactNode;
   subtitle?: string;
-  options?: QuizStepOption[];
+  options?: HearQuizStepOption[];
   rootClassName?: string;
   innerClassName?: string;
   formClassName?: string;
@@ -31,7 +31,7 @@ export type QuizStepProps = {
   optionsWrapperClassName?: string;
   optionsInnerClassName?: string;
   includeCheckboxInputs?: string;
-  input?: QuizStepInput;
+  input?: HearQuizStepInput;
   buttonText?: string;
   buttonClassName?: string;
   salutation?: boolean;
@@ -42,7 +42,7 @@ export type QuizStepProps = {
   onSelect?: () => void;
 };
 
-export const QuizStep = (props: QuizStepProps) => {
+export const HearQuizStep = (props: HearQuizStepProps) => {
   const { onSelect } = props;
   const [selectedIndex, setSelectedIndex] = useState<number | null>(null);
   const [inputHasValue, setInputHasValue] = useState(false);

@@ -3,7 +3,7 @@ type AlertBannerProps = {
   text?: string;
 };
 
-export const AlertBanner = ({ city = "Boardman", text }: AlertBannerProps) => {
+export const PinksaltAlertBanner = ({ city = "Boardman", text }: AlertBannerProps) => {
   const displayText = text?.replace("{city}", city);
 
   return (

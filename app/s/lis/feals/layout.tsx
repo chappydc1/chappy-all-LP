@@ -4,6 +4,6 @@ export const metadata: Metadata = {
   icons: { icon: "/favicons/feals.svg" },
 };
 
-export default function Layout({ children }: { children: React.ReactNode }) {
+export default function FealsLayout({ children }: { children: React.ReactNode }) {
   return <>{children}</>;
 }

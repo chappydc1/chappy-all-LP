@@ -1,4 +1,4 @@
-export const NavbarLinks = () => {
+export const AbcNewsNavbarLinks = () => {
   return (
     <div
       role="menu"

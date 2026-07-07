@@ -1,4 +1,4 @@
-export const NavbarActions = () => {
+export const TodayNavbarActions = () => {
   return (
     <div className="items-center box-border caret-transparent gap-x-4 flex shrink-0 min-h-[auto] min-w-[auto] outline-[3px] gap-y-4">
       <button

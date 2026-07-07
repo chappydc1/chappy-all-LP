@@ -1,4 +1,4 @@
-export const GuaranteeSection = () => {
+export const TodayGuaranteeSection = () => {
   return (
     <section className="items-center bg-blue-50 box-border caret-transparent gap-x-0 flex flex-col max-w-[1210px] outline-[3px] gap-y-0 w-full border border-blue-100 mx-auto px-6 py-8 rounded-[20px] border-solid md:gap-x-12 md:flex-row md:max-w-screen-xl md:gap-y-12 md:px-20 md:py-16">
       <div className="text-sky-950 bg-white border border-blue-200 box-border caret-transparent flex h-36 w-36 shrink-0 items-center justify-center outline-[3px] text-center rounded-full shadow-[rgba(15,23,42,0.08)_0px_10px_22px_0px]">

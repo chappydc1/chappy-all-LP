@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 
-export const VideoModal = () => {
+export const OprahVideoModal = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   if (!isOpen) return null;

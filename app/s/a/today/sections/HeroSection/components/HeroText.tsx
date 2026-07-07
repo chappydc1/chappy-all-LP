@@ -1,4 +1,4 @@
-export const HeroText = () => {
+export const TodayHeroText = () => {
   return (
     <div className="box-border caret-transparent max-w-4xl outline-[3px] mx-auto px-4 py-6 font-ui_sans_serif">
       <h1 className="text-gray-700 text-xl font-extrabold box-border caret-transparent tracking-[-0.5px] leading-[22px] outline-[3px] mb-[18px] font-montserrat md:text-3xl md:tracking-[-0.75px] md:leading-[33px]">

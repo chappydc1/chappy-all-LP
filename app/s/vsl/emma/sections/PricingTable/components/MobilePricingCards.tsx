@@ -1,4 +1,4 @@
-export type MobilePricingCardsProps = {
+export type EmmaMobilePricingCardsProps = {
   headerImageSrc: string;
   bottleSixImageSrc: string;
   bottleThreeImageSrc: string;
@@ -20,7 +20,7 @@ export type MobilePricingCardsProps = {
   onePackDiscountedPrice: string;
 };
 
-export const MobilePricingCards = (props: MobilePricingCardsProps) => {
+export const EmmaMobilePricingCards = (props: EmmaMobilePricingCardsProps) => {
   return (
     <div className="box-border block pt-4 px-4 md:hidden">
       {/* 6-Pack Card */}

@@ -1,4 +1,4 @@
-export const MobileHeader = () => {
+export const FealsMobileHeader = () => {
   return (
     <div className="box-border caret-transparent grid grid-cols-[repeat(3,1fr)] outline-[3px] md:hidden">
       <div className="box-border caret-transparent flex justify-start outline-[3px]">

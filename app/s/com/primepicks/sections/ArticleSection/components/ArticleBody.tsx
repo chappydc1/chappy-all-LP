@@ -1,4 +1,4 @@
-export const ArticleBody = () => {
+export const PrimepicksArticleBody = () => {
   return (
     <div className="box-border caret-transparent">
       <div className="box-border caret-transparent">

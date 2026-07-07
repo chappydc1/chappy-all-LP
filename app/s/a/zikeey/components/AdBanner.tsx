@@ -1,4 +1,4 @@
-export function AdBanner() {
+export function ZikeeyAdBanner() {
   return (
     <div>
       <div className="border-neutral-200 border-b" />

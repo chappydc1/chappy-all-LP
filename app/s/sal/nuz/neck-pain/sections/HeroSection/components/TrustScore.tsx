@@ -1,6 +1,6 @@
 import { content } from "../../../content";
 
-export const TrustScore = () => {
+export const NuzTrustScore = () => {
   return (
     <div className="items-center box-border caret-transparent flex justify-center mb-0 md:justify-start md:mb-[11px]">
       <div className="text-[rgb(30,42,50)] text-[14.32px] font-normal box-border caret-transparent leading-[20.048px] min-h-0 min-w-0 md:min-h-[auto] md:min-w-[auto]">

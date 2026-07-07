@@ -1,16 +1,16 @@
 // @ts-nocheck
 import adv from "../../../adv.json";
 import media from "../../../media.json";
-import { ArticleHeader } from "./ArticleHeader";
-import { ArticleSection } from "./ArticleSection";
-import { Testimonials } from "./Testimonials";
-import { OfferSection } from "./OfferSection";
-import { Comments } from "./Comments";
+import { NexaArticleHeader } from "./ArticleHeader";
+import { NexaArticleSection } from "./ArticleSection";
+import { NexaTestimonials } from "./Testimonials";
+import { NexaOfferSection } from "./OfferSection";
+import { NexaComments } from "./Comments";
 
-export const ArticleContent = () => {
+export const NexaArticleContent = () => {
   return (
     <div className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] w-[845px] pr-0 py-3 md:pr-2.5">
-      <ArticleHeader
+      <NexaArticleHeader
         variant="breadcrumb"
         breadcrumbText={adv.article.breadcrumb}
         expertLabel=""
@@ -30,7 +30,7 @@ export const ArticleContent = () => {
           <ul className="box-border caret-transparent list-none outline-[3px] pl-0"></ul>
         </div>
       </div>
-      <ArticleHeader
+      <NexaArticleHeader
         variant="expert"
         breadcrumbText=""
         expertLabel={adv.article.expert.label}
@@ -45,7 +45,7 @@ export const ArticleContent = () => {
         verifiedImageSrc=""
         dateText=""
       />
-      <ArticleHeader
+      <NexaArticleHeader
         variant="headline"
         breadcrumbText=""
         expertLabel=""
@@ -61,7 +61,7 @@ export const ArticleContent = () => {
         dateText=""
       />
       <div className="text-[32px] font-bold box-border caret-transparent leading-8 outline-[3px] mt-[15px] font-helvetica"></div>
-      <ArticleHeader
+      <NexaArticleHeader
         variant="ratings"
         breadcrumbText=""
         expertLabel=""
@@ -76,11 +76,11 @@ export const ArticleContent = () => {
         verifiedImageSrc=""
         dateText=""
       />
-      <ArticleHeader
+      <NexaArticleHeader
         variant="mainImage"
         mainImageSrc={media.header.mainImage}
       />
-      <ArticleHeader
+      <NexaArticleHeader
         variant="author"
         breadcrumbText=""
         expertLabel=""
@@ -95,48 +95,48 @@ export const ArticleContent = () => {
         verifiedImageSrc={media.header.verifiedIcon}
         dateText={adv.article.author.date}
       />
-      <ArticleSection
+      <NexaArticleSection
         variant="paragraph"
         className="text-base box-border caret-transparent leading-[22px] outline-[3px] text-left pt-[15px] font-montserrat md:text-lg md:leading-[25px]"
       >
         {adv.article.intro.p1}
-      </ArticleSection>
-      <ArticleSection
+      </NexaArticleSection>
+      <NexaArticleSection
         variant="paragraph"
         className="text-base font-bold box-border caret-transparent leading-[22px] outline-[3px] text-left pt-[15px] font-montserrat md:text-lg md:leading-[25px] md:pt-[25px]"
       >
         {adv.article.intro.p2}
-      </ArticleSection>
-      <ArticleSection
+      </NexaArticleSection>
+      <NexaArticleSection
         variant="paragraph"
         className="text-base font-bold box-border caret-transparent leading-[22px] outline-[3px] text-left pt-[15px] font-montserrat md:text-lg md:leading-[25px] md:pt-[25px]"
       >
         {adv.article.intro.p3}
-      </ArticleSection>
+      </NexaArticleSection>
       <p className="box-border caret-transparent outline-[3px]"></p>
       <p className="box-border caret-transparent outline-[3px]"></p>
       <p className="box-border caret-transparent outline-[3px]"></p>
       <p className="box-border caret-transparent outline-[3px]"></p>
       <p className="box-border caret-transparent outline-[3px]"></p>
       <p className="box-border caret-transparent outline-[3px]"></p>
-      <ArticleSection
+      <NexaArticleSection
         variant="statText"
         className="text-2xl font-bold box-border caret-transparent leading-[30px] outline-[3px] text-left mt-[30px] font-montserrat md:text-[37px] md:leading-[45px]"
       >
         {adv.article.problemSection.statHeadline}
-      </ArticleSection>
-      <ArticleSection
+      </NexaArticleSection>
+      <NexaArticleSection
         variant="image"
         className="box-border caret-transparent flex outline-[3px] w-full pr-px pt-0 pb-2.5 md:pr-2.5 md:pt-[5px]"
         imageClassName="text-black items-center self-center box-border caret-transparent h-[151px] justify-start max-w-full min-h-[auto] min-w-[auto] outline-[3px] align-baseline w-screen mt-4 rounded-[25px] md:h-[331px] md:w-[811px]"
         src={media.article.spendStats}
       />
-      <ArticleSection
+      <NexaArticleSection
         variant="paragraph"
         className="text-base box-border caret-transparent leading-[22px] outline-[3px] text-left pt-[15px] font-montserrat md:text-lg md:leading-[25px]"
       >
         {adv.article.problemSection.p1}
-      </ArticleSection>
+      </NexaArticleSection>
       <div className="box-border caret-transparent outline-[3px]">
         <br className="box-border caret-transparent outline-[3px]" />
       </div>
@@ -158,12 +158,12 @@ export const ArticleContent = () => {
         {adv.article.problemSection.p4}
       </div>
       <p className="box-border caret-transparent outline-[3px]"></p>
-      <ArticleSection
+      <NexaArticleSection
         variant="calloutTitle"
         className="text-black text-[28px] font-bold box-border caret-transparent leading-[34px] outline-[3px] text-left mt-[30px] font-montserrat md:text-neutral-800 md:text-[33px] md:leading-[43px]"
         title={adv.article.solutionSection.heading}
       />
-      <ArticleSection
+      <NexaArticleSection
         variant="image"
         className="box-border caret-transparent flex outline-[3px] w-full pr-px pt-0 pb-2.5 md:pr-2.5 md:pt-[5px]"
         imageClassName="text-black items-center self-center box-border caret-transparent h-[157px] justify-start max-w-full min-h-[auto] min-w-[auto] outline-[3px] align-baseline w-screen mt-4 rounded-[25px] md:h-[387px] md:w-[810px]"
@@ -171,12 +171,12 @@ export const ArticleContent = () => {
       />
       <div className="box-border caret-transparent outline-[3px] text-left"></div>
       <p className="box-border caret-transparent outline-[3px]"></p>
-      <ArticleSection
+      <NexaArticleSection
         variant="paragraph"
         className="text-base box-border caret-transparent leading-[22px] outline-[3px] text-left pt-[15px] font-montserrat md:text-lg md:leading-[25px]"
       >
         {adv.article.solutionSection.p1}
-      </ArticleSection>
+      </NexaArticleSection>
       <div className="box-border caret-transparent outline-[3px]">
         <br className="box-border caret-transparent outline-[3px]" />
       </div>
@@ -208,24 +208,24 @@ export const ArticleContent = () => {
       <div className="box-border caret-transparent outline-[3px]"></div>
       <div className="box-border caret-transparent outline-[3px]"></div>
       <p className="box-border caret-transparent outline-[3px]"></p>
-      <ArticleSection
+      <NexaArticleSection
         variant="calloutTitle"
         className="text-[28px] font-bold box-border caret-transparent leading-[34px] outline-[3px] mt-[30px] font-montserrat md:text-[33px] md:leading-[43px]"
         title={adv.article.productIntro.heading}
       />
-      <ArticleSection
+      <NexaArticleSection
         variant="video"
         className="box-border caret-transparent flex justify-start outline-[3px]"
         poster="video"
         src={adv.meta.videoUrl}
       />
       <p className="box-border caret-transparent outline-[3px]"></p>
-      <ArticleSection
+      <NexaArticleSection
         variant="paragraph"
         className="text-base box-border caret-transparent leading-[22px] outline-[3px] text-left pt-[25px] font-montserrat md:text-lg md:leading-[25px]"
       >
         {adv.article.productIntro.p1}
-      </ArticleSection>
+      </NexaArticleSection>
       <div className="box-border caret-transparent outline-[3px]">
         <br className="box-border caret-transparent outline-[3px]" />
       </div>
@@ -239,24 +239,24 @@ export const ArticleContent = () => {
         {adv.article.productIntro.p3}
       </div>
       <p className="box-border caret-transparent outline-[3px]"></p>
-      <ArticleSection
+      <NexaArticleSection
         variant="calloutTitle"
         className="text-[28px] font-bold box-border caret-transparent leading-[34px] outline-[3px] mt-[30px] font-montserrat md:text-[33px] md:leading-[43px]"
         title={adv.article.cleanPolishSection.heading}
       />
-      <ArticleSection
+      <NexaArticleSection
         variant="image"
         className="box-border caret-transparent flex outline-[3px] w-full pr-px pt-0 pb-2.5 md:pr-2.5 md:pt-[5px]"
         src={media.article.cleanPolish}
         imageClassName="text-black items-center self-center box-border caret-transparent h-[134px] justify-start max-w-full min-h-[auto] min-w-[auto] outline-[3px] align-baseline w-screen mt-4 rounded-[25px] md:h-[243px] md:w-[825px]"
       />
       <p className="box-border caret-transparent outline-[3px]"></p>
-      <ArticleSection
+      <NexaArticleSection
         variant="paragraph"
         className="text-base box-border caret-transparent leading-[22px] outline-[3px] text-left pt-[15px] font-montserrat md:text-lg md:leading-[25px]"
       >
         {adv.article.cleanPolishSection.p1}
-      </ArticleSection>
+      </NexaArticleSection>
       <div className="box-border caret-transparent outline-[3px]">
         <br className="box-border caret-transparent outline-[3px]" />
       </div>
@@ -276,25 +276,25 @@ export const ArticleContent = () => {
         {adv.article.cleanPolishSection.p4}
       </div>
       <p className="box-border caret-transparent outline-[3px]"></p>
-      <ArticleSection
+      <NexaArticleSection
         variant="nestedCalloutTitle"
         className="text-[28px] font-bold box-border caret-transparent leading-[34px] outline-[3px] mt-[30px] font-montserrat md:text-[33px] md:leading-[43px]"
       >
         {adv.article.rustScratchesSection.heading}
         <br className="text-2xl box-border caret-transparent leading-[30px] outline-[3px] md:text-[37px] md:leading-[45px]" />
-      </ArticleSection>
-      <ArticleSection
+      </NexaArticleSection>
+      <NexaArticleSection
         variant="image"
         className="box-border caret-transparent flex outline-[3px] w-full pr-px pt-0 pb-2.5 md:pr-2.5 md:pt-[5px]"
         imageClassName="text-black items-center self-center box-border caret-transparent h-[133px] justify-start max-w-full min-h-[auto] min-w-[auto] outline-[3px] align-baseline w-[350px] mt-4 rounded-[25px] md:h-[298px] md:w-[809px]"
         src={media.article.rustScratches}
       />
-      <ArticleSection
+      <NexaArticleSection
         variant="paragraph"
         className="text-base box-border caret-transparent leading-[22px] outline-[3px] text-left pt-[15px] font-montserrat md:text-lg md:leading-[25px]"
       >
         {adv.article.rustScratchesSection.p1}
-      </ArticleSection>
+      </NexaArticleSection>
       <div className="box-border caret-transparent outline-[3px]">
         <br className="box-border caret-transparent outline-[3px]" />
       </div>
@@ -312,13 +312,13 @@ export const ArticleContent = () => {
       <p className="box-border caret-transparent outline-[3px]"></p>
       <p className="box-border caret-transparent outline-[3px]"></p>
       <div className="text-lg box-border caret-transparent leading-[23px] outline-[3px] text-left mt-[15px]"></div>
-      <ArticleSection
+      <NexaArticleSection
         variant="nestedCalloutTitle"
         className="text-[28px] font-bold box-border caret-transparent leading-[34px] outline-[3px] mt-[30px] font-montserrat md:text-[33px] md:leading-[43px]"
       >
         {adv.article.featuresSection.heading}
-      </ArticleSection>
-      <ArticleSection
+      </NexaArticleSection>
+      <NexaArticleSection
         variant="standaloneImage"
         className="text-black items-center self-center box-border caret-transparent inline h-[163px] justify-start max-w-full outline-[3px] align-baseline w-screen mt-[21px] rounded-[25px] md:h-[312px] md:w-[812px]"
         src={media.article.whyChoose}
@@ -345,7 +345,7 @@ export const ArticleContent = () => {
       </div>
       <p className="box-border caret-transparent outline-[3px]"></p>
       <p className="box-border caret-transparent outline-[3px]"></p>
-      <Testimonials />
+      <NexaTestimonials />
       <div className="bg-gray-200 box-border caret-transparent block outline-[3px] w-full mt-[22px] pt-0 pb-[5px] px-0 md:flex md:pt-3 md:px-2.5">
         <div className="box-border caret-transparent basis-[30%] shrink-0 min-h-0 min-w-0 outline-[3px] w-full pt-0 pb-3 px-0 md:min-h-[auto] md:min-w-[auto] md:pt-3 md:px-[5px]">
           <img
@@ -524,7 +524,7 @@ export const ArticleContent = () => {
         </div>
       </div>
       <p className="box-border caret-transparent outline-[3px]"></p>
-      <OfferSection
+      <NexaOfferSection
         variant=""
         buttonText={adv.offerSection.buttons.getYour50Off}
         buttonTitle=""
@@ -532,7 +532,7 @@ export const ArticleContent = () => {
         linkTitle=""
         productName=""
       />
-      <OfferSection
+      <NexaOfferSection
         variant=""
         buttonText={adv.offerSection.buttons.get50Off}
         buttonTitle=""
@@ -548,7 +548,7 @@ export const ArticleContent = () => {
         </div>
       </div>
       <p className="box-border caret-transparent outline-[3px]"></p>
-      <OfferSection
+      <NexaOfferSection
         variant="stockWarning"
         buttonText=""
         buttonTitle=""
@@ -557,7 +557,7 @@ export const ArticleContent = () => {
         productName=""
       />
       <p className="box-border caret-transparent outline-[3px]"></p>
-      <OfferSection
+      <NexaOfferSection
         variant=""
         buttonText={adv.offerSection.buttons.get50Off}
         buttonTitle=""
@@ -565,7 +565,7 @@ export const ArticleContent = () => {
         linkTitle=""
         productName=""
       />
-      <OfferSection
+      <NexaOfferSection
         variant="salesParagraph"
         href={adv.meta.ctaUrl}
         productName={adv.meta.productName}
@@ -594,12 +594,12 @@ export const ArticleContent = () => {
         </span>
       </div>
       <p className="box-border caret-transparent outline-[3px]"></p>
-      <OfferSection
+      <NexaOfferSection
         variant="secondaryButton"
         buttonTitle="9th"
         buttonText={adv.offerSection.buttons.getYour50Off}
       />
-      <OfferSection
+      <NexaOfferSection
         variant="whereToGet"
         buttonText=""
         buttonTitle=""
@@ -609,7 +609,7 @@ export const ArticleContent = () => {
       />
       <p className="box-border caret-transparent outline-[3px]"></p>
       <p className="box-border caret-transparent outline-[3px]"></p>
-      <OfferSection variant="description" />
+      <NexaOfferSection variant="description" />
       <div className="box-border caret-transparent outline-[3px]">
         <br className="box-border caret-transparent outline-[3px]" />
       </div>
@@ -635,7 +635,7 @@ export const ArticleContent = () => {
         {adv.offerSection.knockoffWarning}
       </div>
       <p className="box-border caret-transparent outline-[3px]"></p>
-      <OfferSection
+      <NexaOfferSection
         variant="linkCta"
         buttonText={adv.offerSection.buttons.get50OffProduct}
         buttonTitle="GET 50% OFF Car Scratch Remover Nexa™ Now!"
@@ -643,7 +643,7 @@ export const ArticleContent = () => {
         linkTitle="GET 50% OFF Car Scratch Remover Nexa™ Now!"
         productName={adv.meta.productName}
       />
-      <OfferSection
+      <NexaOfferSection
         variant="offerDetails"
         buttonText={adv.offerSection.buttons.getYour50Off}
         buttonTitle="8th"
@@ -653,7 +653,7 @@ export const ArticleContent = () => {
       />
       <p className="box-border caret-transparent outline-[3px]"></p>
       <div className="bg-orange-100 box-border caret-transparent outline-[3px] w-full pt-px pb-3"></div>
-      <OfferSection
+      <NexaOfferSection
         variant="badges"
         buttonText=""
         buttonTitle=""
@@ -661,7 +661,7 @@ export const ArticleContent = () => {
         linkTitle=""
         productName=""
       />
-      <OfferSection
+      <NexaOfferSection
         variant="badgeLabelsDesktop"
         buttonText=""
         buttonTitle=""
@@ -669,7 +669,7 @@ export const ArticleContent = () => {
         linkTitle=""
         productName=""
       />
-      <OfferSection
+      <NexaOfferSection
         variant="badgeLabelsMobile"
         buttonText=""
         buttonTitle=""
@@ -677,7 +677,7 @@ export const ArticleContent = () => {
         linkTitle=""
         productName=""
       />
-      <OfferSection
+      <NexaOfferSection
         variant="ctaGroup"
         buttonText={adv.offerSection.buttons.getYour50Off}
         buttonTitle="7th"
@@ -685,7 +685,7 @@ export const ArticleContent = () => {
         linkTitle="GET 50% OFF Now!"
         productName={adv.meta.productName}
       />
-      <Comments />
+      <NexaComments />
       {adv.comments.items.map((item, idx) => (
         <div key={idx} className="items-stretch box-border caret-transparent flex flex-wrap justify-start max-w-full outline-[3px] p-px md:flex-nowrap">
           <div className="relative box-border caret-transparent flex basis-full grow max-w-full min-h-[25px] outline-[3px] w-min mt-5 p-px md:basis-0">

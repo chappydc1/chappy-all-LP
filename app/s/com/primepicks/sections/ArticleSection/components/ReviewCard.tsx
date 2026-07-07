@@ -1,4 +1,4 @@
-export const ReviewCard = () => {
+export const PrimepicksReviewCard = () => {
   return (
     <section className="box-border caret-transparent">
       <div className="relative bg-white box-border caret-transparent gap-x-10 grid grid-cols-[1fr] border-slate-800 mt-[35px] p-4 rounded-[10px] border-2 border-solid md:grid-cols-[1fr_1fr] md:mt-8 md:px-6 md:py-8">

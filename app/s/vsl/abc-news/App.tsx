@@ -1,12 +1,12 @@
-import { ArticlePage } from "./sections/ArticlePage";
+import { AbcNewsArticlePage } from "./sections/ArticlePage";
 
-export const App = () => {
+export const AbcNewsApp = () => {
   return (
     <body className="text-black text-base not-italic normal-nums font-normal accent-auto box-border caret-transparent block h-full tracking-[normal] leading-[18.4px] list-outside list-disc min-h-full outline-[3px] pointer-events-auto text-start indent-[0px] normal-case visible border-separate font-sansseriffont">
       <div className="box-border caret-transparent outline-[3px]">
         <div className="box-border caret-transparent outline-[3px]">
           <div className="box-border caret-transparent outline-[3px]">
-            <ArticlePage />
+            <AbcNewsArticlePage />
           </div>
         </div>
       </div>

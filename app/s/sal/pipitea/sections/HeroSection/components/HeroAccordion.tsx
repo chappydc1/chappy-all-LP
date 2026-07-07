@@ -1,11 +1,11 @@
-export type HeroAccordionProps = {
+export type PipiteaHeroAccordionProps = {
   title: string;
   iconSrc: string;
   iconAlt: string;
   children: React.ReactNode;
 };
 
-export const HeroAccordion = (props: HeroAccordionProps) => {
+export const PipiteaHeroAccordion = (props: PipiteaHeroAccordionProps) => {
   return (
     <div
       className="border-b-zinc-900/10 border-l-zinc-800 border-r-zinc-800 border-t-zinc-800 box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] border-b"

@@ -1,4 +1,4 @@
-export type ComparisonRowProps = {
+export type JavyComparisonRowProps = {
   rowVariant: "javvy" | "mainstream" | "protein";
   logoSrc?: string;
   logoAlt?: string;
@@ -19,7 +19,7 @@ export type ComparisonRowProps = {
   faceWrapperClass: string;
 };
 
-export const ComparisonRow = (props: ComparisonRowProps) => {
+export const JavyComparisonRow = (props: JavyComparisonRowProps) => {
   const isJavvy = props.rowVariant === "javvy";
 
   return (

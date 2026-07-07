@@ -9,7 +9,7 @@ type FooterBottomProps = {
   privacyChoicesIconSrc: string;
 };
 
-export function FooterBottom({ copyright, legalLinks, paymentIcons, privacyChoicesIconSrc }: FooterBottomProps) {
+export function KachavaFooterBottom({ copyright, legalLinks, paymentIcons, privacyChoicesIconSrc }: FooterBottomProps) {
   return (
     <div className="text-stone-800 bg-stone-400 box-border caret-transparent outline-[3px] px-2 md:px-14">
       <div className="box-border caret-transparent flex flex-col flex-wrap justify-between max-w-none outline-[3px] mx-auto md:flex-row md:max-w-[1440px]">

@@ -1,11 +1,11 @@
-export type PromiseItemProps = {
+export type PipiteaPromiseItemProps = {
   imageUrl: string;
   imageClassName: string;
   label: string;
   useSpan: string;
 };
 
-export const PromiseItem = (props: PromiseItemProps) => {
+export const PipiteaPromiseItem = (props: PipiteaPromiseItemProps) => {
   return (
     <div
       className="box-border caret-transparent flex basis-[0%] flex-col grow outline-[3px]"

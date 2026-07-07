@@ -1,10 +1,10 @@
-export type HighlightBoxProps = {
+export type ElavynHighlightBoxProps = {
   containerVariant: string;
   headingVariant: string;
   content: React.ReactNode;
 };
 
-export const HighlightBox = (props: HighlightBoxProps) => {
+export const ElavynHighlightBox = (props: ElavynHighlightBoxProps) => {
   return (
     <div
       className={`relative text-[15px] content-start bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent gap-x-4 grid grid-cols-[minmax(0px,12fr)] grid-rows-[1fr] justify-start leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] gap-y-0 w-full bg-center mx-auto my-3.5 p-2 md:text-base md:leading-[28.8px] md:w-[1200px] ${props.containerVariant}`}

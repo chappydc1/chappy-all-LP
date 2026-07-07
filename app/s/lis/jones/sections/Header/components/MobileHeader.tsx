@@ -1,4 +1,4 @@
-export const MobileHeader = () => {
+export const JonesMobileHeader = () => {
   return (
     <div className="sticky items-center self-stretch bg-white box-border caret-transparent flex shrink-0 h-[60px] justify-between max-w-full min-h-px min-w-[auto] outline-[3px] z-[2147483647] px-3 py-2.5 top-0 md:hidden md:h-auto md:min-w-0 md:px-[50px]">
       <div className="relative items-center self-auto box-border caret-transparent flex basis-0 grow shrink justify-center max-w-full min-h-px outline-[3px] w-auto md:self-stretch md:basis-auto md:grow-0 md:shrink-0 md:justify-between md:w-1/5">

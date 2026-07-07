@@ -1,12 +1,12 @@
 import { useScrollReveal } from "../../hooks/useScrollReveal";
 
-export type VideoBlockProps = {
+export type HearVideoBlockProps = {
   poster: string;
   src: string;
   description: string;
 };
 
-export const VideoBlock = (props: VideoBlockProps) => {
+export const HearVideoBlock = (props: HearVideoBlockProps) => {
   const ref = useScrollReveal<HTMLDivElement>();
 
   return (

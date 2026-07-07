@@ -1,7 +1,7 @@
-import { PromiseItem } from "../../components/PromiseItem";
-import { CertificationItem } from "./components/CertificationItem";
+import { PipiteaPromiseItem } from "../../components/PromiseItem";
+import { PipiteaCertificationItem } from "./components/CertificationItem";
 
-export const QualityPromiseSection = () => {
+export const PipiteaQualityPromiseSection = () => {
   return (
     <section
       className="items-center bg-no-repeat box-border caret-transparent flex flex-col justify-items-center min-h-[auto] min-w-[auto] outline-[3px] w-full border-emerald-800/20 bg-center px-[15px] py-[45px] border-b border-t md:py-[60px]"
@@ -66,7 +66,7 @@ export const QualityPromiseSection = () => {
                               <div
                                 className="items-start box-border caret-transparent flex flex-wrap"
                               >
-                                <PromiseItem
+                                <PipiteaPromiseItem
                                   imageUrl="https://c.animaapp.com/mq03tlhwPsu7gY/assets/54.png"
                                   imageClassName="box-border caret-transparent brightness-0 saturate-100 invert-[0.18] sepia-[0.2] saturate-[32] hue-rotate-[250deg] brightness-90 contrast-[0.95] max-w-full outline-[3px] w-[94px]"
                                   label="Whole Leaf"
@@ -91,7 +91,7 @@ export const QualityPromiseSection = () => {
                               <div
                                 className="items-start box-border caret-transparent flex flex-wrap"
                               >
-                                <PromiseItem
+                                <PipiteaPromiseItem
                                   imageUrl="https://c.animaapp.com/mq03tlhwPsu7gY/assets/55.png"
                                   imageClassName="box-border caret-transparent brightness-0 saturate-100 invert-[0.18] sepia-[0.2] saturate-[32] hue-rotate-[250deg] brightness-90 contrast-[0.95] max-w-full outline-[3px] w-[94px]"
                                   label="Hand-Plucked"
@@ -116,7 +116,7 @@ export const QualityPromiseSection = () => {
                               <div
                                 className="items-start box-border caret-transparent flex flex-wrap"
                               >
-                                <PromiseItem
+                                <PipiteaPromiseItem
                                   imageUrl="https://c.animaapp.com/mq03tlhwPsu7gY/assets/56.png"
                                   imageClassName="box-border caret-transparent brightness-0 saturate-100 invert-[0.18] sepia-[0.2] saturate-[32] hue-rotate-[250deg] brightness-90 contrast-[0.95] max-w-full outline-[3px] w-[94px]"
                                   label="Pesticide Free"
@@ -173,7 +173,7 @@ export const QualityPromiseSection = () => {
                               <div
                                 className="items-start box-border caret-transparent flex flex-wrap"
                               >
-                                <PromiseItem
+                                <PipiteaPromiseItem
                                   imageUrl="https://c.animaapp.com/mq03tlhwPsu7gY/assets/57.png"
                                   imageClassName="box-border caret-transparent brightness-0 saturate-100 invert-[0.18] sepia-[0.2] saturate-[32] hue-rotate-[250deg] brightness-90 contrast-[0.95] max-w-full outline-[3px] w-[94px]"
                                   label="High-Altitude Grown"
@@ -198,7 +198,7 @@ export const QualityPromiseSection = () => {
                               <div
                                 className="items-start box-border caret-transparent flex flex-wrap"
                               >
-                                <PromiseItem
+                                <PipiteaPromiseItem
                                   imageUrl="https://c.animaapp.com/mq03tlhwPsu7gY/assets/58.png"
                                   imageClassName="box-border caret-transparent brightness-0 saturate-100 invert-[0.18] sepia-[0.2] saturate-[32] hue-rotate-[250deg] brightness-90 contrast-[0.95] max-w-full outline-[3px] w-[94px]"
                                   label="Certified Organic"
@@ -223,7 +223,7 @@ export const QualityPromiseSection = () => {
                               <div
                                 className="items-start box-border caret-transparent flex flex-wrap"
                               >
-                                <PromiseItem
+                                <PipiteaPromiseItem
                                   imageUrl="https://c.animaapp.com/mq03tlhwPsu7gY/assets/60.png"
                                   imageClassName="box-border caret-transparent brightness-0 saturate-100 invert-[0.18] sepia-[0.2] saturate-[32] hue-rotate-[250deg] brightness-90 contrast-[0.95] max-w-full outline-[3px] w-[94px]"
                                   label="Manufactured in an FDA-Registered Facility"
@@ -273,7 +273,7 @@ export const QualityPromiseSection = () => {
                               <div
                                 className="items-start box-border caret-transparent flex flex-wrap min-h-[auto] min-w-[auto]"
                               >
-                                <CertificationItem
+                                <PipiteaCertificationItem
                                   imageUrl="https://c.animaapp.com/mq03tlhwPsu7gY/assets/1765559735938_usda_organic_icon.webp"
                                   title="USDA Organic"
                                   sizes="94px"
@@ -297,7 +297,7 @@ export const QualityPromiseSection = () => {
                               <div
                                 className="items-start box-border caret-transparent flex flex-wrap min-h-[auto] min-w-[auto]"
                               >
-                                <CertificationItem
+                                <PipiteaCertificationItem
                                   imageUrl="https://c.animaapp.com/mq03tlhwPsu7gY/assets/1765560297140_heavy_metal_tested_Icon.webp"
                                   title="Heavy Metal Tested"
                                   sizes="94px"
@@ -353,7 +353,7 @@ export const QualityPromiseSection = () => {
                               <div
                                 className="items-start box-border caret-transparent flex flex-wrap min-h-[auto] min-w-[auto]"
                               >
-                                <CertificationItem
+                                <PipiteaCertificationItem
                                   imageUrl="https://c.animaapp.com/mq03tlhwPsu7gY/assets/1765560346899_pwesticide_free_icon.webp"
                                   title="Pesticide-Free"
                                 />
@@ -376,7 +376,7 @@ export const QualityPromiseSection = () => {
                               <div
                                 className="items-start box-border caret-transparent flex flex-wrap min-h-[auto] min-w-[auto]"
                               >
-                                <CertificationItem
+                                <PipiteaCertificationItem
                                   imageUrl="https://c.animaapp.com/mq03tlhwPsu7gY/assets/1765560393615_caffeine_free_icon.webp"
                                   title="Caffeine-Free"
                                   sizes="94px"
@@ -432,7 +432,7 @@ export const QualityPromiseSection = () => {
                               <div
                                 className="items-start box-border caret-transparent flex flex-wrap min-h-[auto] min-w-[auto]"
                               >
-                                <CertificationItem
+                                <PipiteaCertificationItem
                                   imageUrl="https://c.animaapp.com/mq03tlhwPsu7gY/assets/1765560441603_no_artificial_additives_icon.webp"
                                   title={
                                     <>
@@ -461,7 +461,7 @@ export const QualityPromiseSection = () => {
                               <div
                                 className="items-start box-border caret-transparent flex flex-wrap min-h-[auto] min-w-[auto]"
                               >
-                                <CertificationItem
+                                <PipiteaCertificationItem
                                   imageUrl="https://c.animaapp.com/mq03tlhwPsu7gY/assets/1765560517388_fda_icon.webp"
                                   title="Manufactured in an FDA-Registered Facility"
                                 />

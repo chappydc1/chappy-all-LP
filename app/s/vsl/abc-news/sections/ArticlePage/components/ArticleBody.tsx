@@ -1,4 +1,4 @@
-export const ArticleBody = () => {
+export const AbcNewsArticleBody = () => {
   return (
     <div className="text-neutral-900 text-base box-border caret-transparent tracking-[-0.16px] leading-[26px] outline-[3px] mb-6 font-tiempostext md:text-lg md:tracking-[-0.18px] md:leading-7 after:accent-auto after:box-border after:caret-transparent after:clear-both after:text-neutral-900 after:table after:text-base after:not-italic after:normal-nums after:font-normal after:tracking-[-0.16px] after:leading-[26px] after:list-outside after:list-disc after:outline-[3px] after:pointer-events-auto after:text-start after:no-underline after:indent-[0px] after:normal-case after:visible after:border-separate after:font-tiempostext after:md:text-lg after:md:tracking-[-0.18px] after:md:leading-7">
       <p className="text-base box-border caret-transparent tracking-[-0.16px] leading-[26px] outline-[3px] mt-auto mb-6 md:text-lg md:tracking-[-0.18px] md:leading-7 md:mb-8">

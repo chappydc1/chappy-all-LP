@@ -1,19 +1,19 @@
-import { CookieConsent } from "./components/CookieConsent";
-import { AnnouncementBar } from "./sections/AnnouncementBar";
-import { Header } from "./sections/Header";
-import { MainContent } from "./sections/MainContent";
-import { LegacyFooter } from "./sections/LegacyFooter";
-import { AccountModal } from "./components/AccountModal";
-import { CartDrawer } from "./components/CartDrawer";
+import { FealsCookieConsent } from "./components/CookieConsent";
+import { FealsAnnouncementBar } from "./sections/AnnouncementBar";
+import { FealsHeader } from "./sections/Header";
+import { FealsMainContent } from "./sections/MainContent";
+import { FealsLegacyFooter } from "./sections/LegacyFooter";
+import { FealsAccountModal } from "./components/AccountModal";
+import { FealsCartDrawer } from "./components/CartDrawer";
 
-export const App = () => {
+export const FealsApp = () => {
   return (
     <>
-      <CookieConsent />
-      <AnnouncementBar />
-      <Header />
-      <MainContent />
-      <LegacyFooter />
+      <FealsCookieConsent />
+      <FealsAnnouncementBar />
+      <FealsHeader />
+      <FealsMainContent />
+      <FealsLegacyFooter />
       <div className="box-border caret-transparent outline-[3px]"></div>
       <div className="box-border caret-transparent outline-[3px]">
         <div className="box-border caret-transparent outline-[3px]"></div>
@@ -22,7 +22,7 @@ export const App = () => {
       <div className="box-border caret-transparent outline-[3px]"></div>
       <div className="box-border caret-transparent hidden outline-[3px]"></div>
       <div className="box-border caret-transparent outline-[3px]">
-        <AccountModal />
+        <FealsAccountModal />
       </div>
       <div className="box-border caret-transparent outline-[3px]"></div>
       <div className="box-border caret-transparent outline-[3px]"></div>
@@ -35,7 +35,7 @@ export const App = () => {
         </div>
       </div>
       <div className="fixed items-center box-border caret-transparent flex flex-col justify-center outline-[3px] translate-x-[-50.0%] z-[100000] p-5 left-2/4 bottom-0"></div>
-      <CartDrawer />
+      <FealsCartDrawer />
       <div className="box-border caret-transparent hidden outline-[3px]">
         <a
           href="https://www.dailystory.com/"

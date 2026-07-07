@@ -1,6 +1,6 @@
-import { HeroCta } from "../../Hero/components/HeroCta";
+import { FealsHeroCta } from "../../Hero/components/HeroCta";
 
-export const HeroContent = () => {
+export const FealsHeroContent = () => {
   return (
     <div className="relative text-stone-500 items-center self-stretch bg-stone-50 box-border caret-transparent flex flex-col grow-0 shrink-0 justify-center max-h-[1144px] max-w-full min-h-px min-w-[auto] outline-[3px] font-ll_brown_regular_web md:grow md:shrink">
       <div className="items-center box-border caret-transparent contents shrink-0 justify-center min-h-0 min-w-0 outline-[3px] w-full md:flex md:min-h-[auto] md:min-w-[auto]">
@@ -24,7 +24,7 @@ export const HeroContent = () => {
                 </p>
               </span>
             </div>
-            <HeroCta />
+            <FealsHeroCta />
           </div>
           <div className="relative items-center self-stretch box-border caret-transparent flex basis-auto grow-0 shrink-0 h-[260px] justify-center max-w-full min-h-px outline-[3px] md:basis-0 md:grow md:shrink md:h-auto">
             <picture

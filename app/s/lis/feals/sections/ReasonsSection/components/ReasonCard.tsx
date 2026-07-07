@@ -1,4 +1,4 @@
-export type ReasonCardProps = {
+export type FealsReasonCardProps = {
   mediaWrapperClassName: string;
   mediaContent: React.ReactNode;
   reasonNumber: string;
@@ -9,7 +9,7 @@ export type ReasonCardProps = {
   ctaText: string;
 };
 
-export const ReasonCard = (props: ReasonCardProps) => {
+export const FealsReasonCard = (props: FealsReasonCardProps) => {
   return (
     <div className="items-center self-stretch box-border caret-transparent contents shrink-0 justify-center max-w-full min-h-0 min-w-0 outline-[3px] w-full md:flex md:min-h-[auto] md:min-w-[auto]">
       <div className="relative text-stone-600 items-center self-stretch box-border caret-transparent gap-x-4 flex basis-auto flex-col grow-0 shrink-0 grid-cols-[repeat(2,minmax(0px,1fr))] h-auto justify-center max-w-full min-h-px min-w-[auto] outline-[3px] gap-y-4 w-auto overflow-hidden md:text-black md:gap-x-0 md:grid md:basis-0 md:flex-row md:grow md:shrink md:h-[550px] md:gap-y-0 md:w-full md:overflow-visible">

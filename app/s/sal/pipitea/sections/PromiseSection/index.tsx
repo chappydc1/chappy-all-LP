@@ -1,6 +1,6 @@
-import { PromiseItem } from "../../components/PromiseItem";
+import { PipiteaPromiseItem } from "../../components/PromiseItem";
 
-export const PromiseSection = () => {
+export const PipiteaPromiseSection = () => {
   return (
     <section
       className="relative items-center bg-zinc-300/30 bg-no-repeat box-border caret-transparent hidden flex-col justify-items-center outline-[3px] w-full bg-center px-[15px] py-[45px] md:py-[60px]"
@@ -93,7 +93,7 @@ export const PromiseSection = () => {
                               <div
                                 className="items-start box-border caret-transparent flex flex-wrap"
                               >
-                                <PromiseItem
+                                <PipiteaPromiseItem
                                   imageUrl="https://c.animaapp.com/mq03tlhwPsu7gY/assets/54.png"
                                   imageClassName="box-border caret-transparent max-w-full outline-[3px] w-[94px]"
                                   label="Clean and Traceable"
@@ -118,7 +118,7 @@ export const PromiseSection = () => {
                               <div
                                 className="items-start box-border caret-transparent flex flex-wrap"
                               >
-                                <PromiseItem
+                                <PipiteaPromiseItem
                                   imageUrl="https://c.animaapp.com/mq03tlhwPsu7gY/assets/55.png"
                                   imageClassName="box-border caret-transparent max-w-full outline-[3px] w-[94px]"
                                   label="Freshly Harvested"
@@ -143,7 +143,7 @@ export const PromiseSection = () => {
                               <div
                                 className="items-start box-border caret-transparent flex flex-wrap"
                               >
-                                <PromiseItem
+                                <PipiteaPromiseItem
                                   imageUrl="https://c.animaapp.com/mq03tlhwPsu7gY/assets/56.png"
                                   imageClassName="box-border caret-transparent max-w-full outline-[3px] w-[94px]"
                                   label="No Artificial Additives"
@@ -200,7 +200,7 @@ export const PromiseSection = () => {
                               <div
                                 className="items-start box-border caret-transparent flex flex-wrap"
                               >
-                                <PromiseItem
+                                <PipiteaPromiseItem
                                   imageUrl="https://c.animaapp.com/mq03tlhwPsu7gY/assets/57.png"
                                   imageClassName="box-border caret-transparent max-w-full outline-[3px] w-[94px]"
                                   label="Gluten Free"
@@ -225,7 +225,7 @@ export const PromiseSection = () => {
                               <div
                                 className="items-start box-border caret-transparent flex flex-wrap"
                               >
-                                <PromiseItem
+                                <PipiteaPromiseItem
                                   imageUrl="https://c.animaapp.com/mq03tlhwPsu7gY/assets/58.png"
                                   imageClassName="box-border caret-transparent max-w-full outline-[3px] w-[94px]"
                                   label="Non-GMO"
@@ -250,7 +250,7 @@ export const PromiseSection = () => {
                               <div
                                 className="items-start box-border caret-transparent flex flex-wrap"
                               >
-                                <PromiseItem
+                                <PipiteaPromiseItem
                                   imageUrl="https://c.animaapp.com/mq03tlhwPsu7gY/assets/59.png"
                                   imageClassName="box-border caret-transparent max-w-full outline-[3px] w-[94px]"
                                   label="Manufactured in an FDA-Registered Facility"
@@ -300,7 +300,7 @@ export const PromiseSection = () => {
                               <div
                                 className="items-start box-border caret-transparent flex flex-wrap"
                               >
-                                <PromiseItem
+                                <PipiteaPromiseItem
                                   imageUrl="https://c.animaapp.com/mq03tlhwPsu7gY/assets/54.png"
                                   imageClassName="box-border caret-transparent max-w-full outline-[3px] w-[94px]"
                                   label="Clean and Traceable"
@@ -325,7 +325,7 @@ export const PromiseSection = () => {
                               <div
                                 className="items-start box-border caret-transparent flex flex-wrap"
                               >
-                                <PromiseItem
+                                <PipiteaPromiseItem
                                   imageUrl="https://c.animaapp.com/mq03tlhwPsu7gY/assets/55.png"
                                   imageClassName="box-border caret-transparent max-w-full outline-[3px] w-[94px]"
                                   label="Freshly Harvested"
@@ -382,7 +382,7 @@ export const PromiseSection = () => {
                               <div
                                 className="items-start box-border caret-transparent flex flex-wrap"
                               >
-                                <PromiseItem
+                                <PipiteaPromiseItem
                                   imageUrl="https://c.animaapp.com/mq03tlhwPsu7gY/assets/56.png"
                                   imageClassName="box-border caret-transparent max-w-full outline-[3px] w-[94px]"
                                   label="No Artificial Additives"
@@ -407,7 +407,7 @@ export const PromiseSection = () => {
                               <div
                                 className="items-start box-border caret-transparent flex flex-wrap"
                               >
-                                <PromiseItem
+                                <PipiteaPromiseItem
                                   imageUrl="https://c.animaapp.com/mq03tlhwPsu7gY/assets/57.png"
                                   imageClassName="box-border caret-transparent max-w-full outline-[3px] w-[94px]"
                                   label="Gluten Free"
@@ -464,7 +464,7 @@ export const PromiseSection = () => {
                               <div
                                 className="items-start box-border caret-transparent flex flex-wrap"
                               >
-                                <PromiseItem
+                                <PipiteaPromiseItem
                                   imageUrl="https://c.animaapp.com/mq03tlhwPsu7gY/assets/58.png"
                                   imageClassName="box-border caret-transparent max-w-full outline-[3px] w-[94px]"
                                   label="Non-GMO"
@@ -489,7 +489,7 @@ export const PromiseSection = () => {
                               <div
                                 className="items-start box-border caret-transparent flex flex-wrap"
                               >
-                                <PromiseItem
+                                <PipiteaPromiseItem
                                   imageUrl="https://c.animaapp.com/mq03tlhwPsu7gY/assets/59.png"
                                   imageClassName="box-border caret-transparent max-w-full outline-[3px] w-[94px]"
                                   label="Manufactured in an FDA-Registered Facility"

@@ -1,4 +1,4 @@
-export const ReplyComment = () => {
+export const TodayReplyComment = () => {
   return (
     <div className="items-start box-border caret-transparent gap-x-2 flex outline-[3px] gap-y-2 border-gray-100 ml-4 mt-3 pl-3 border-l-2 border-solid">
       <img

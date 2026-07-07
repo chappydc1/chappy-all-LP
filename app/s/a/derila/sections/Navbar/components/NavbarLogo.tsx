@@ -1,4 +1,4 @@
-export const NavbarLogo = ({
+export const DerilaNavbarLogo = ({
   homeUrl,
   logo,
 }: {

@@ -1,10 +1,10 @@
-export type SplitTextProps = {
+export type RejuvacareSplitTextProps = {
   containerVariant: string;
   title: string;
   children: React.ReactNode;
 };
 
-export const SplitText = (props: SplitTextProps) => {
+export const RejuvacareSplitText = (props: RejuvacareSplitTextProps) => {
   return (
     <div
       className={`self-center box-border caret-transparent flex flex-col outline-[3px] w-full md:pr-2.5 ${props.containerVariant}`}

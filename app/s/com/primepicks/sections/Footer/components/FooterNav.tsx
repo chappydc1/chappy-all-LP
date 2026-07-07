@@ -1,4 +1,4 @@
-export const FooterNav = () => {
+export const PrimepicksFooterNav = () => {
   return (
     <div className="items-center border-t-zinc-100 box-border caret-transparent flex flex-col justify-center py-4 border-t border-solid md:flex-row md:justify-between">
       <div className="box-border caret-transparent h-6 min-h-[auto] min-w-[auto]">

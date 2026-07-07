@@ -1,4 +1,4 @@
-export const OfferBenefitList = () => {
+export const PipiteaOfferBenefitList = () => {
   return (
     <div
       className="items-start box-border caret-transparent flex flex-wrap min-h-[auto] min-w-[auto] mt-5"

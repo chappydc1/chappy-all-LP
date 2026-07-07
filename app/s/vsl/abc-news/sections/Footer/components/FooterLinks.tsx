@@ -1,4 +1,4 @@
-export const FooterLinks = () => {
+export const AbcNewsFooterLinks = () => {
   return (
     <section className="items-center box-border caret-transparent flex flex-wrap justify-center max-w-none outline-[3px] mx-auto md:max-w-full">
       <div className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px]">

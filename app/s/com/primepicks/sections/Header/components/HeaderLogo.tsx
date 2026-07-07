@@ -1,4 +1,4 @@
-export const HeaderLogo = () => {
+export const PrimepicksHeaderLogo = () => {
   return (
     <div className="items-center box-border caret-transparent flex justify-between max-w-[1032px] mx-auto px-4 py-2">
       <img

@@ -1,4 +1,4 @@
-export type MobilePricingCardsProps = {
+export type OprahMobilePricingCardsProps = {
   headerImageSrc: string;
   bottleSixImageSrc: string;
   bottleThreeImageSrc: string;
@@ -71,7 +71,7 @@ const MobileOffer = ({
   </article>
 );
 
-export const MobilePricingCards = (props: MobilePricingCardsProps) => {
+export const OprahMobilePricingCards = (props: OprahMobilePricingCardsProps) => {
   return (
     <div className="box-border block px-3 py-6 md:hidden">
       <img src={props.headerImageSrc} alt="Choose your package" className="mx-auto mb-4 max-w-full" />

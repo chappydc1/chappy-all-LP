@@ -3,7 +3,7 @@
 import { useRef, useEffect, useState } from "react";
 import { useScrollReveal } from "../../../../../hooks/useScrollReveal";
 
-export type ReasonCardProps = {
+export type JavyReasonCardProps = {
   videoPoster: string;
   videoSrc: string;
   videoSrcType?: string;
@@ -18,7 +18,7 @@ export type ReasonCardProps = {
   isVariantWithDoubleVideo?: boolean;
 };
 
-export const ReasonCard = (props: ReasonCardProps) => {
+export const JavyReasonCard = (props: JavyReasonCardProps) => {
   const cardRef = useScrollReveal<HTMLDivElement>();
   const videoRef = useRef<HTMLVideoElement>(null);
   const [videoInView, setVideoInView] = useState(false);

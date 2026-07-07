@@ -1,4 +1,4 @@
-export const FinalCta = () => {
+export const PipiteaMatchaFinalCta = () => {
   return (
     <section
       href=""

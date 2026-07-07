@@ -1,10 +1,10 @@
-import { CommentItem } from "./CommentItem";
+import { ElavynCommentItem } from "./CommentItem";
 
-export const CommentList = () => {
+export const ElavynCommentList = () => {
   return (
     <div className="text-[15px] box-border caret-transparent leading-[27px] max-w-full outline-[3px] mb-[15px] top-2.5 md:text-base md:leading-[28.8px] md:mb-0 md:top-auto">
       <ul className="text-[15px] box-border caret-transparent leading-[27px] list-none max-w-full outline-[3px] ml-[5px] mr-2.5 mb-12 pl-px font-montserrat md:text-base md:leading-[28.8px]">
-        <CommentItem
+        <ElavynCommentItem
           className="text-[15px] box-border caret-transparent leading-[27px] max-w-full outline-[3px] overflow-hidden my-2 pb-4 md:text-base md:leading-[28.8px]"
           avatarUrl="https://c.animaapp.com/mr0pqk6b3NyYkT/assets/1773244540830_hf_20260311_155203_b7742bc7_b9d8_4e8b_84fc_a56c50cfdde7.webp"
           author="Tanisha Williams"
@@ -13,7 +13,7 @@ export const CommentList = () => {
           time="51 min"
           showReactionIcon={true}
         />
-        <CommentItem
+        <ElavynCommentItem
           className="text-[15px] box-border caret-transparent leading-[27px] max-w-full outline-[3px] overflow-hidden my-2 pb-4 md:text-base md:leading-[28.8px]"
           avatarUrl="https://c.animaapp.com/mr0pqk6b3NyYkT/assets/1773245004686_hf_20260311_155751_1c1138ae_28cb_4574_b7a5_599b8c407a4f.webp"
           author="Keisha Johnson"
@@ -23,7 +23,7 @@ export const CommentList = () => {
           showReactionIcon={true}
           imageUrl="https://c.animaapp.com/mr0pqk6b3NyYkT/assets/1773243637153_hf_20260311_153907_0b4a9832_b180_48fa_8a75_3ddeeea9a692.webp"
         />
-        <CommentItem
+        <ElavynCommentItem
           className="text-[15px] box-border caret-transparent leading-[27px] max-w-full outline-[3px] overflow-hidden my-2 md:text-base md:leading-[28.8px]"
           avatarUrl="https://c.animaapp.com/mr0pqk6b3NyYkT/assets/1773245021533_hf_20260311_160117_3f4a1da1_a594_4526_a77e_8acedc99ea90.webp"
           author="Monique Davis"
@@ -43,7 +43,7 @@ export const CommentList = () => {
             },
           ]}
         />
-        <CommentItem
+        <ElavynCommentItem
           className="text-[15px] box-border caret-transparent leading-[27px] max-w-full outline-[3px] overflow-hidden my-2 md:text-base md:leading-[28.8px]"
           avatarUrl="https://c.animaapp.com/mr0pqk6b3NyYkT/assets/1773245086303_hf_20260311_155751_d9314acf_425a_4b62_be5c_bbcdf0461f44.webp"
           author="Shanice Washington"
@@ -51,7 +51,7 @@ export const CommentList = () => {
           likes="1"
           time="3 h"
         />
-        <CommentItem
+        <ElavynCommentItem
           className="text-[15px] box-border caret-transparent leading-[27px] max-w-full outline-[3px] overflow-hidden my-2 md:text-base md:leading-[28.8px]"
           avatarUrl="https://c.animaapp.com/mr0pqk6b3NyYkT/assets/1773245115501_hf_20260311_160403_08117422_4290_4670_8156_683dcf6687d8.webp"
           author="Tameeka Robinson"
@@ -71,7 +71,7 @@ export const CommentList = () => {
             },
           ]}
         />
-        <CommentItem
+        <ElavynCommentItem
           className="text-[15px] box-border caret-transparent leading-[27px] max-w-full outline-[3px] overflow-hidden my-2 md:text-base md:leading-[28.8px]"
           avatarUrl="https://c.animaapp.com/mr0pqk6b3NyYkT/assets/1773245235480_hf_20260311_160519_66ba41a7_a589_4fb9_9cbd_3316ebb92f5e.webp"
           author="Aaliyah Thompson"
@@ -79,7 +79,7 @@ export const CommentList = () => {
           likes="8"
           time="3 h"
         />
-        <CommentItem
+        <ElavynCommentItem
           className="text-[15px] box-border caret-transparent leading-[27px] max-w-full outline-[3px] overflow-hidden my-2 md:text-base md:leading-[28.8px]"
           avatarUrl="https://c.animaapp.com/mr0pqk6b3NyYkT/assets/1773245250640_hf_20260311_160502_ff2fa8f1_f1bc_4d45_86b7_f62ab24f2bdb.webp"
           author="Brianna Jackson"
@@ -108,7 +108,7 @@ export const CommentList = () => {
             },
           ]}
         />
-        <CommentItem
+        <ElavynCommentItem
           className="text-[15px] box-border caret-transparent leading-[27px] max-w-full outline-[3px] overflow-hidden my-2 md:text-base md:leading-[28.8px]"
           avatarUrl="https://c.animaapp.com/mr0pqk6b3NyYkT/assets/1773245311004_hf_20260311_160519_62ce21ec_72b4_454b_bdcd_7d273509375b.webp"
           author="Daphne Reynolds"
@@ -117,7 +117,7 @@ export const CommentList = () => {
           time="4 h"
           showReactionIcon={false}
         />
-        <CommentItem
+        <ElavynCommentItem
           className="text-[15px] box-border caret-transparent leading-[27px] max-w-full outline-[3px] overflow-hidden my-2 md:text-base md:leading-[28.8px]"
           avatarUrl="https://c.animaapp.com/mr0pqk6b3NyYkT/assets/1773245324417_hf_20260311_160711_b5a65f85_20a0_47a6_b310_ea10348588e8.webp"
           author="Deja Walker"
@@ -125,7 +125,7 @@ export const CommentList = () => {
           likes="3"
           time="4 h"
         />
-        <CommentItem
+        <ElavynCommentItem
           className="text-[15px] box-border caret-transparent leading-[27px] max-w-full outline-[3px] overflow-hidden my-2 md:text-base md:leading-[28.8px]"
           avatarUrl="https://c.animaapp.com/mr0pqk6b3NyYkT/assets/1773245339497_hf_20260311_160711_752966bc_7157_4548_b1fb_82a4c7a0f9c7.webp"
           author="Faith McCain"
@@ -133,7 +133,7 @@ export const CommentList = () => {
           likes="3"
           time="5 h"
         />
-        <CommentItem
+        <ElavynCommentItem
           className="text-[15px] box-border caret-transparent leading-[27px] max-w-full outline-[3px] overflow-hidden my-2 md:text-base md:leading-[28.8px]"
           avatarUrl="https://c.animaapp.com/mr0pqk6b3NyYkT/assets/1773245396938_hf_20260311_160502_c0dd6ead_4558_41f3_8d8b_5093c2888a42.webp"
           author="Imani Taylor"
@@ -149,7 +149,7 @@ export const CommentList = () => {
             },
           ]}
         />
-        <CommentItem
+        <ElavynCommentItem
           className="text-[15px] box-border caret-transparent leading-[27px] max-w-full outline-[3px] overflow-hidden my-2 md:text-base md:leading-[28.8px]"
           avatarUrl="https://c.animaapp.com/mr0pqk6b3NyYkT/assets/1773245357787_hf_20260311_160818_4dc35c80_906b_4753_b6fc_c8d5345e323e.webp"
           author="Roneeka White"

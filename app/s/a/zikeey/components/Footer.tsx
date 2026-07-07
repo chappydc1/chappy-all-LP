@@ -1,6 +1,6 @@
 import adv from "../adv.json";
 
-export function Footer() {
+export function ZikeeyFooter() {
   const { copyright, links, disclaimers } = adv.footer;
 
   return (

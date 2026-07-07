@@ -1,4 +1,4 @@
-export type BundleOptionProps = {
+export type RejuvacareBundleOptionProps = {
   headerClassName: string;
   titleWrapperClassName: string;
   titleClassName: string;
@@ -18,7 +18,7 @@ export type BundleOptionProps = {
   showViewAll: boolean;
 };
 
-export const BundleOption = (props: BundleOptionProps) => {
+export const RejuvacareBundleOption = (props: RejuvacareBundleOptionProps) => {
   return (
     <div className="bg-stone-100 box-border caret-transparent outline-[3px] w-full mt-5 rounded-[10px]">
       <div

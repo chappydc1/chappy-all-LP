@@ -1,4 +1,4 @@
-export const HeroFaq = () => {
+export const PipiteaMatchaHeroFaq = () => {
   return (
     <div
       href=""

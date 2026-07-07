@@ -1,7 +1,7 @@
 import adv from "../adv.json";
 import media from "../media.json";
 
-export function ArticleReviews() {
+export function ZikeeyArticleReviews() {
   const { reviews } = adv.article;
 
   return (

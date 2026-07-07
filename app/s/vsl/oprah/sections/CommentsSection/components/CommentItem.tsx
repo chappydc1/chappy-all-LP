@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { useScrollReveal } from "../../../hooks/useScrollReveal";
 
-export type Reply = {
+export type OprahReply = {
   avatarSrc: string;
   name: string;
   comment: string;
@@ -12,7 +12,7 @@ export type Reply = {
   actionTextClass?: string;
 };
 
-export type CommentItemProps = {
+export type OprahCommentItemProps = {
   variant?: "image-only";
   avatarSrc?: string;
   name?: string;
@@ -20,7 +20,7 @@ export type CommentItemProps = {
   actionText?: string;
   outerClass?: string;
   actionBarClass?: string;
-  replies?: Reply[];
+  replies?: OprahReply[];
 };
 
 const ActionBar = ({
@@ -78,7 +78,7 @@ const ActionBar = ({
   );
 };
 
-export const CommentItem = (props: CommentItemProps) => {
+export const OprahCommentItem = (props: OprahCommentItemProps) => {
   const ref = useScrollReveal<HTMLDivElement>();
 
   if (props.variant === "image-only") {

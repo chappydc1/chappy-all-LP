@@ -1,4 +1,4 @@
-export const LoadingStep = () => {
+export const HearLoadingStep = () => {
   return (
     <div className="box-border caret-transparent hidden outline-[3px]">
       <form className="box-border caret-transparent outline-[3px]">

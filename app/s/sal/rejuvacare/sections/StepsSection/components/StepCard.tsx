@@ -1,11 +1,11 @@
-export type StepCardProps = {
+export type RejuvacareStepCardProps = {
   stepText: string;
   videoSrc: string;
   description: string;
   poster?: string;
 };
 
-export const StepCard = (props: StepCardProps) => {
+export const RejuvacareStepCard = (props: RejuvacareStepCardProps) => {
   return (
     <div className="items-center box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-auto mx-px pt-0 pb-3 px-0 md:w-full md:mx-0 md:pt-3 md:px-5">
       <div className="text-lg font-bold box-border caret-transparent leading-[22px] min-h-[auto] min-w-[auto] outline-[3px] mt-5 p-px font-montserrat md:leading-[27px]">

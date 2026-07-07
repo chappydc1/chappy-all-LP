@@ -1,11 +1,11 @@
-export type CommentItemProps = {
+export type EmmaCommentItemProps = {
   name: string;
   imageUrl: string;
   comment: string;
   containerClassName?: string;
 };
 
-export const CommentItem = (props: CommentItemProps) => {
+export const EmmaCommentItem = (props: EmmaCommentItemProps) => {
   return (
     <div
       className={`items-start box-border caret-transparent gap-x-[13.2px] flex min-h-[auto] min-w-[auto] gap-y-[13.2px] ${props.containerClassName || ""}`.trim()}

@@ -1,35 +1,35 @@
-export type FeatureItem = {
+export type HearFeatureItem = {
   title: string
   desc: string
   sup: string | null
 }
 
-export type ReviewItem = {
+export type HearReviewItem = {
   title: string
   body: string
   author: string
 }
 
-export type StoryItem = {
+export type HearStoryItem = {
   category: string
   description: string
   linkHref: string
 }
 
-export type FooterLink = {
+export type HearFooterLink = {
   label: string
   href: string
 }
 
-export type StateItem = {
+export type HearStateItem = {
   name: string
 }
 
-export type VideoItem = {
+export type HearVideoItem = {
   description: string
 }
 
-export type AdvertorialContent = {
+export type HearAdvertorialContent = {
   meta: {
     title: string
     description: string
@@ -54,13 +54,13 @@ export type AdvertorialContent = {
     heading: string
     paragraphs: string[]
   }
-  videos: VideoItem[]
+  videos: HearVideoItem[]
   featuresList: {
     heading: string
     paragraphs: string[]
     featuresSubheading: string
     featuresSubheadingBody: string
-    features: FeatureItem[]
+    features: HearFeatureItem[]
   }
   stateSelector: {
     heading: string
@@ -69,15 +69,15 @@ export type AdvertorialContent = {
     stateAvailableMessage: string
     stateAvailableCta: string
     dontSeeStateText: string
-    states: StateItem[]
+    states: HearStateItem[]
     reviewsHeading: string
     reviewsSubheadingHighlight: string
     reviewsSubheadingBody: string
-    reviews: ReviewItem[]
+    reviews: HearReviewItem[]
   }
   relatedStories: {
     label: string
-    stories: StoryItem[]
+    stories: HearStoryItem[]
   }
   newsletter: {
     curiosityLabel: string
@@ -89,7 +89,7 @@ export type AdvertorialContent = {
     disclaimer: string
     companyDescription: string
     footnotes: string[]
-    footerLinks: FooterLink[]
+    footerLinks: HearFooterLink[]
     copyrightYear: string
     logoAlt: string
   }
@@ -98,12 +98,12 @@ export type AdvertorialContent = {
   }
 }
 
-export type StateMediaItem = {
+export type HearStateMediaItem = {
   name: string
   imgSrc: string
 }
 
-export type AdvertorialMedia = {
+export type HearAdvertorialMedia = {
   header: {
     logoSrc: string
     heroImageSrc: string
@@ -121,7 +121,7 @@ export type AdvertorialMedia = {
     checkmarkIconSrc: string
   }
   stateSelector: {
-    states: StateMediaItem[]
+    states: HearStateMediaItem[]
     doubleArrowSrc: string
     trustLogosSrc: string
     trustLogosAlt: string

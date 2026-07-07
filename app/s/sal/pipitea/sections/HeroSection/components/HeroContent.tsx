@@ -1,8 +1,8 @@
-import { BenefitList } from "./BenefitList";
-import { HeroCta } from "./HeroCta";
-import { HeroAccordion } from "./HeroAccordion";
+import { PipiteaBenefitList } from "./BenefitList";
+import { PipiteaHeroCta } from "./HeroCta";
+import { PipiteaHeroAccordion } from "./HeroAccordion";
 
-export const HeroContent = () => {
+export const PipiteaHeroContent = () => {
   return (
     <div
       className="items-center box-border caret-transparent flex justify-center min-w-[auto] outline-[3px]"
@@ -94,7 +94,7 @@ export const HeroContent = () => {
               <div
                 className="box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full px-[15px] md:px-0"
               >
-                <BenefitList />
+                <PipiteaBenefitList />
               </div>
             </div>
             <div
@@ -194,7 +194,7 @@ export const HeroContent = () => {
                       <div
                         className="items-stretch box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full"
                       >
-                        <HeroCta />
+                        <PipiteaHeroCta />
                       </div>
                     </div>
                     <div
@@ -455,7 +455,7 @@ export const HeroContent = () => {
                               <div
                                 className="box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full"
                               >
-                                <HeroAccordion
+                                <PipiteaHeroAccordion
                                   title="How Does It Work?"
                                   iconSrc="https://c.animaapp.com/mq03tlhwPsu7gY/assets/icon-1.svg"
                                   iconAlt="Icon"
@@ -642,7 +642,7 @@ export const HeroContent = () => {
                                       management without stimulants or jitters
                                     </p>
                                   </div>
-                                </HeroAccordion>
+                                </PipiteaHeroAccordion>
                               </div>
                             </div>
                             <div
@@ -651,7 +651,7 @@ export const HeroContent = () => {
                               <div
                                 className="box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full"
                               >
-                                <HeroAccordion
+                                <PipiteaHeroAccordion
                                   title="What Can Hibiscus Tea Help With?"
                                   iconSrc="https://c.animaapp.com/mq03tlhwPsu7gY/assets/icon-1.svg"
                                   iconAlt="Icon"
@@ -865,7 +865,7 @@ export const HeroContent = () => {
                                       for throughout the day.*
                                     </p>
                                   </div>
-                                </HeroAccordion>
+                                </PipiteaHeroAccordion>
                               </div>
                             </div>
                             <div
@@ -874,7 +874,7 @@ export const HeroContent = () => {
                               <div
                                 className="box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full"
                               >
-                                <HeroAccordion
+                                <PipiteaHeroAccordion
                                   title="When Will I see Results?"
                                   iconSrc="https://c.animaapp.com/mq03tlhwPsu7gY/assets/icon-1.svg"
                                   iconAlt="Icon"
@@ -1003,7 +1003,7 @@ export const HeroContent = () => {
                                       healthy habit that actually works.
                                     </p>
                                   </div>
-                                </HeroAccordion>
+                                </PipiteaHeroAccordion>
                               </div>
                             </div>
                             <div
@@ -1022,7 +1022,7 @@ export const HeroContent = () => {
                               <div
                                 className="box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full"
                               >
-                                <HeroAccordion
+                                <PipiteaHeroAccordion
                                   title="Who Can Drink It?"
                                   iconSrc="https://c.animaapp.com/mq03tlhwPsu7gY/assets/icon-1.svg"
                                   iconAlt="Icon"
@@ -1126,7 +1126,7 @@ export const HeroContent = () => {
                                       this was made for you.
                                     </span>
                                   </p>
-                                </HeroAccordion>
+                                </PipiteaHeroAccordion>
                               </div>
                             </div>
                             <div
@@ -1135,7 +1135,7 @@ export const HeroContent = () => {
                               <div
                                 className="box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full"
                               >
-                                <HeroAccordion
+                                <PipiteaHeroAccordion
                                   title="Results or Full Refund Guarantee"
                                   iconSrc="https://c.animaapp.com/mq03tlhwPsu7gY/assets/icon-1.svg"
                                   iconAlt="Icon"
@@ -1147,7 +1147,7 @@ export const HeroContent = () => {
                                     full. No hassle. No questions asked.
                                     <br className="box-border caret-transparent outline-[3px]" />
                                   </p>
-                                </HeroAccordion>
+                                </PipiteaHeroAccordion>
                               </div>
                             </div>
                           </div>

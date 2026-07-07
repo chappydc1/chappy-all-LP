@@ -1,4 +1,4 @@
-export type CommentItemProps = {
+export type TodayCommentItemProps = {
   containerClassName: string;
   authorName: string;
   commentText: string;
@@ -7,7 +7,7 @@ export type CommentItemProps = {
   replyComment: React.ReactNode;
 };
 
-export const CommentItem = (props: CommentItemProps) => {
+export const TodayCommentItem = (props: TodayCommentItemProps) => {
   const initials = props.authorName
     .split(" ")
     .map((part) => part[0])

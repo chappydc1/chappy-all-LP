@@ -1,4 +1,4 @@
-export const MedicalEndorsementSection = () => {
+export const RejuvacareMedicalEndorsementSection = () => {
   return (
     <div className="items-stretch bg-neutral-100 box-border caret-transparent flex flex-wrap justify-start max-w-full outline-[3px] md:flex-nowrap">
       <div className="relative items-center bg-white box-border caret-transparent flex basis-px flex-col-reverse grow justify-start max-w-[1400px] min-h-[25px] outline-[3px] w-min m-auto pb-[35px] px-[5px] md:flex-row md:justify-center md:px-[100px]">

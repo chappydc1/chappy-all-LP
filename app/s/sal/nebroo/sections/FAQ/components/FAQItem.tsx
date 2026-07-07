@@ -1,12 +1,12 @@
 "use client";
 import { useState } from "react";
 
-export type FAQItemProps = {
+export type NebrooFAQItemProps = {
   question: string;
   answer: React.ReactNode;
 };
 
-export const FAQItem = (props: FAQItemProps) => {
+export const NebrooFAQItem = (props: NebrooFAQItemProps) => {
   const [open, setOpen] = useState(false);
 
   return (

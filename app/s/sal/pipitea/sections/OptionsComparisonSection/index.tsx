@@ -1,8 +1,8 @@
-import { ComparisonHeader } from "./components/ComparisonHeader";
-import { ComparisonRow } from "./components/ComparisonRow";
-import { SectionCta } from "../../components/SectionCta";
+import { PipiteaComparisonHeader } from "./components/ComparisonHeader";
+import { PipiteaComparisonRow } from "./components/ComparisonRow";
+import { PipiteaSectionCta } from "../../components/SectionCta";
 
-export const OptionsComparisonSection = () => {
+export const PipiteaOptionsComparisonSection = () => {
   return (
     <section
       className="relative items-center bg-pink-500/10 bg-no-repeat box-border caret-transparent flex flex-col justify-items-center min-h-[auto] min-w-[auto] outline-[3px] w-full bg-center px-[15px] py-[45px] md:pt-[60px] md:pb-20"
@@ -88,7 +88,7 @@ export const OptionsComparisonSection = () => {
                     <div
                       className="box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full"
                     >
-                      <ComparisonHeader />
+                      <PipiteaComparisonHeader />
                     </div>
                   </div>
                   <div
@@ -97,7 +97,7 @@ export const OptionsComparisonSection = () => {
                     <div
                       className="box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full"
                     >
-                      <ComparisonRow
+                      <PipiteaComparisonRow
                         rootVariant="w-full border-neutral-400/50 border-b"
                         leftColumnVariant="w-full"
                         contentColumnVariant="h-[110px] md:h-[100px] md:w-[100px]"
@@ -120,7 +120,7 @@ export const OptionsComparisonSection = () => {
                     <div
                       className="box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full"
                     >
-                      <ComparisonRow
+                      <PipiteaComparisonRow
                         rootVariant="border-neutral-400/50 border-b"
                         leftColumnVariant=""
                         contentColumnVariant="h-[110px] md:h-[100px] md:w-2/5"
@@ -143,7 +143,7 @@ export const OptionsComparisonSection = () => {
                     <div
                       className="box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full"
                     >
-                      <ComparisonRow
+                      <PipiteaComparisonRow
                         rootVariant="border-neutral-400/50 border-b"
                         leftColumnVariant=""
                         contentColumnVariant="h-[110px] md:h-[100px] md:w-2/5"
@@ -166,7 +166,7 @@ export const OptionsComparisonSection = () => {
                     <div
                       className="box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full"
                     >
-                      <ComparisonRow
+                      <PipiteaComparisonRow
                         rootVariant="border-neutral-400/50 border-b"
                         leftColumnVariant=""
                         contentColumnVariant="h-[110px] md:h-[100px] md:w-2/5"
@@ -189,7 +189,7 @@ export const OptionsComparisonSection = () => {
                     <div
                       className="box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full"
                     >
-                      <ComparisonRow
+                      <PipiteaComparisonRow
                         rootVariant="border-neutral-400/50 border-b"
                         leftColumnVariant=""
                         contentColumnVariant="h-[110px] md:h-[100px] md:w-2/5"
@@ -212,7 +212,7 @@ export const OptionsComparisonSection = () => {
                     <div
                       className="box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full"
                     >
-                      <ComparisonRow
+                      <PipiteaComparisonRow
                         rootVariant="border-neutral-400/50 border-b"
                         leftColumnVariant=""
                         contentColumnVariant="h-[110px] md:h-[100px] md:w-2/5"
@@ -227,7 +227,7 @@ export const OptionsComparisonSection = () => {
                         rightContentClassName="text-[10px] box-border caret-transparent leading-[15px] outline-[3px] text-center md:text-sm md:leading-[21px]"
                         renderRightContentInnerWrapper={false}
                       />
-                      <ComparisonRow
+                      <PipiteaComparisonRow
                         rootVariant="border-neutral-400/50 border-b"
                         leftColumnVariant=""
                         contentColumnVariant="h-[110px] md:h-[100px] md:w-2/5"
@@ -250,7 +250,7 @@ export const OptionsComparisonSection = () => {
                     <div
                       className="box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full"
                     >
-                      <ComparisonRow
+                      <PipiteaComparisonRow
                         rootVariant=""
                         leftColumnVariant=""
                         contentColumnVariant="h-[140px] mb-[-15px] pb-[15px] rounded-b-[10px] md:mb-[-25px] md:w-2/5 md:pb-10"
@@ -297,7 +297,7 @@ export const OptionsComparisonSection = () => {
                     <div
                       className="items-stretch box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full"
                     >
-                      <SectionCta
+                      <PipiteaSectionCta
                         title="BUY NOW & SAVE "
                         text="BUY NOW & SAVE"
                       />

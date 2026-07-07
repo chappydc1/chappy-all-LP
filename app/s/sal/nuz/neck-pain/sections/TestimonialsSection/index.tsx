@@ -1,11 +1,11 @@
 "use client";
 
 import { useState } from "react";
-import { ReviewCard } from "./components/ReviewCard";
+import { NuzReviewCard } from "./components/ReviewCard";
 import { useScrollReveal } from "../../hooks/useScrollReveal";
 import { content } from "../../content";
 
-export const TestimonialsSection = () => {
+export const NuzTestimonialsSection = () => {
   const t = content.testimonials;
   const [showMore, setShowMore] = useState(false);
   const { ref, visible } = useScrollReveal();
@@ -59,7 +59,7 @@ export const TestimonialsSection = () => {
             <div className="box-border caret-transparent gap-x-2.5 flex flex-col gap-y-2.5">
               {t.initialReviews.map((r, i) => (
                 <div key={i} className="transition-all duration-500" style={{ transitionDelay: `${i * 80}ms` }}>
-                  <ReviewCard name={r.name} daysAgo={r.daysAgo} review={r.review} />
+                  <NuzReviewCard name={r.name} daysAgo={r.daysAgo} review={r.review} />
                 </div>
               ))}
 
@@ -68,7 +68,7 @@ export const TestimonialsSection = () => {
                 style={{ maxHeight: showMore ? "2000px" : "0px", opacity: showMore ? 1 : 0 }}
               >
                 {t.moreReviews.map((r, i) => (
-                  <ReviewCard key={i} name={r.name} daysAgo={r.daysAgo} review={r.review} />
+                  <NuzReviewCard key={i} name={r.name} daysAgo={r.daysAgo} review={r.review} />
                 ))}
               </div>
 

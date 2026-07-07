@@ -614,7 +614,7 @@ function OfferScreen() {
 
 // ── Main ──────────────────────────────────────────────────────────────────────
 
-export default function QuizChappy2Page() {
+export default function GrunsQuizChappy2Page() {
   const [idx, setIdx] = useState(0);
   const [multiSel, setMultiSel] = useState<string[]>([]);
   const [flash, setFlash] = useState<string | null>(null);

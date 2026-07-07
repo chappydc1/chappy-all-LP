@@ -1,8 +1,8 @@
 "use client";
-import { FAQItem } from "../FAQ/components/FAQItem";
+import { NebrooFAQItem } from "../FAQ/components/FAQItem";
 import { useScrollReveal } from "../../hooks/useScrollReveal";
 
-export const FAQ = () => {
+export const NebrooFAQ = () => {
   const { ref, visible } = useScrollReveal();
   return (
     <div id="faq" className="items-stretch box-border caret-transparent flex flex-wrap justify-center max-w-full px-2 py-5 md:flex-nowrap md:px-2.5">
@@ -14,7 +14,7 @@ export const FAQ = () => {
           </div>
         </div>
         <div className="box-border caret-transparent min-h-0 min-w-0 py-[5px] md:min-h-[auto] md:min-w-[auto]">
-          <FAQItem
+          <NebrooFAQItem
             question="Do I need to take a hearing test before buying?"
             answer={
               <>
@@ -33,11 +33,11 @@ export const FAQ = () => {
               </>
             }
           />
-          <FAQItem
+          <NebrooFAQItem
             question="Do I need a prescription before purchasing?"
             answer="No. There is no prescription needed for purchasing the Nebroo PRO 2.0 Hearing Aids. Anyone with perceived mild to moderate hearing loss can order them, as long as they are at least 18 years old."
           />
-          <FAQItem
+          <NebrooFAQItem
             question="What if it doesn't work for me?"
             answer={
               <div className="box-border caret-transparent">
@@ -53,7 +53,7 @@ export const FAQ = () => {
               </div>
             }
           />
-          <FAQItem
+          <NebrooFAQItem
             question="Are Nebroo PRO 2.0 Hearing Aids Visible?"
             answer={
               <div className="box-border caret-transparent">
@@ -66,7 +66,7 @@ export const FAQ = () => {
               </div>
             }
           />
-          <FAQItem
+          <NebrooFAQItem
             question="How long will Shipping take?"
             answer={
               <div className="box-border caret-transparent">
@@ -76,7 +76,7 @@ export const FAQ = () => {
               </div>
             }
           />
-          <FAQItem
+          <NebrooFAQItem
             question="Will they fall out of my ears?"
             answer={
               <div className="box-border caret-transparent">
@@ -85,7 +85,7 @@ export const FAQ = () => {
               </div>
             }
           />
-          <FAQItem
+          <NebrooFAQItem
             question="Will they fit me? "
             answer={
               <div className="box-border caret-transparent">
@@ -103,7 +103,7 @@ export const FAQ = () => {
               </div>
             }
           />
-          <FAQItem
+          <NebrooFAQItem
             question={`Do you offer
 					a warranty? `}
             answer={
@@ -143,7 +143,7 @@ export const FAQ = () => {
               </>
             }
           />
-          <FAQItem
+          <NebrooFAQItem
             question={`What’s the size and
 					  dimension of these hearing aids?  
 					`}
@@ -157,7 +157,7 @@ export const FAQ = () => {
               </div>
             }
           />
-          <FAQItem
+          <NebrooFAQItem
             question="I have more questions, how can I contact you?"
             answer={
               <>
@@ -170,7 +170,7 @@ export const FAQ = () => {
               </>
             }
           />
-          <FAQItem
+          <NebrooFAQItem
             question="What is included with the Nebroo PRO 2.0 Hearing Aids"
             answer={
               <>
@@ -207,11 +207,11 @@ export const FAQ = () => {
               </>
             }
           />
-          <FAQItem
+          <NebrooFAQItem
             question="How long does it take to recharge?"
             answer="Charging time is approximately 3-4 hours, and the case has the capacity to recharge the hearing aids about 3 times before having to charge it again."
           />
-          <FAQItem
+          <NebrooFAQItem
             question="Is this covered by insurance?"
             answer={
               <div className="box-border caret-transparent">

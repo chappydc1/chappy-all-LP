@@ -1,4 +1,4 @@
-import { HeroContent } from "../HeroSection/components/HeroContent";
+import { ForbesHeroContent } from "../HeroSection/components/HeroContent";
 
 type HeroSectionProps = {
   backgroundSrc: string;
@@ -7,7 +7,7 @@ type HeroSectionProps = {
   date: string;
 };
 
-export const HeroSection = ({
+export const ForbesHeroSection = ({
   backgroundSrc,
   heading,
   subheading,
@@ -31,7 +31,7 @@ export const HeroSection = ({
       <div className="col-end-[container] col-start-[container] row-end-[container] row-start-[container] min-h-[auto] min-w-[auto] z-[1] py-2 md:py-4">
         <div className="flex flex-col">
           <div className="max-w-[1330px] min-h-[auto] min-w-[auto] w-full mx-auto px-[15px]">
-            <HeroContent
+            <ForbesHeroContent
               heading={heading}
               subheading={subheading}
               date={date}

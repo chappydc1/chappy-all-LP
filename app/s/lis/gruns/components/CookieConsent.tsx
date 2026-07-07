@@ -1,4 +1,4 @@
-export const CookieConsent = () => {
+export const GrunsCookieConsent = () => {
   return (
     <aside className="fixed text-base font-extralight shadow-[rgba(1,1,63,0.1)_0px_2px_19px_-4px] caret-transparent hidden leading-5 max-h-[calc(100%_-_16px)] outline-[3px] text-left w-full z-[9999] bottom-0 inset-x-0 font-helvetica md:w-[400px] md:left-4 md:right-auto md:bottom-4">
       <div className="bg-white caret-transparent flex flex-col max-h-[900px] outline-[3px] border border-zinc-900 overflow-auto p-3 rounded-lg border-solid md:p-6">

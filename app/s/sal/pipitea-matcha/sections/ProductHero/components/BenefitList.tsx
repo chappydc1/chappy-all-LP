@@ -1,4 +1,4 @@
-export const BenefitList = () => {
+export const PipiteaMatchaBenefitList = () => {
   return (
     <div
       href=""

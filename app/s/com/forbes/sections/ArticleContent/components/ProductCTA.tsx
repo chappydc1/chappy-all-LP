@@ -1,4 +1,4 @@
-export const ProductCTA = () => {
+export const ForbesProductCTA = () => {
   return (
     <div className="relative box-border caret-transparent flex flex-col shrink-0 min-h-[auto] min-w-[auto] mt-4">
       <div className="box-border caret-transparent min-h-[auto] min-w-[auto]">

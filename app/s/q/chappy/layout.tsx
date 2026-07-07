@@ -15,7 +15,7 @@ const openSans = Open_Sans({
   variable: "--font-open-sans",
 });
 
-export default function QuizChappyLayout({ children }: { children: ReactNode }) {
+export default function ChappyQuizChappyLayout({ children }: { children: ReactNode }) {
   return (
     <div className={`${openSans.variable} font-[family-name:var(--font-open-sans)]`}>
       {children}

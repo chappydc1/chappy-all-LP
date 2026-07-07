@@ -1,4 +1,4 @@
-export const FooterCopyright = () => {
+export const PipiteaFooterCopyright = () => {
   return (
     <div
       className="items-center box-border caret-transparent flex justify-center outline-[3px]"

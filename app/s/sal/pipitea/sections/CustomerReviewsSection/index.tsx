@@ -1,8 +1,8 @@
-import { RatingSummary } from "./components/RatingSummary";
-import { ReviewCard } from "./components/ReviewCard";
-import { SectionCta } from "../../components/SectionCta";
+import { PipiteaRatingSummary } from "./components/RatingSummary";
+import { PipiteaReviewCard } from "./components/ReviewCard";
+import { PipiteaSectionCta } from "../../components/SectionCta";
 
-export const CustomerReviewsSection = () => {
+export const PipiteaCustomerReviewsSection = () => {
   return (
     <section
       className="items-center bg-no-repeat box-border caret-transparent flex flex-col justify-items-center min-h-[auto] min-w-[auto] outline-[3px] w-full bg-center px-[15px] py-[45px] md:py-[60px]"
@@ -48,7 +48,7 @@ export const CustomerReviewsSection = () => {
             <div
               className="box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full"
             >
-              <RatingSummary />
+              <PipiteaRatingSummary />
             </div>
           </div>
         </div>
@@ -68,7 +68,7 @@ export const CustomerReviewsSection = () => {
               <div
                 className="items-start box-border caret-transparent flex flex-col flex-wrap min-h-[auto] min-w-[auto] mx-[15px] md:flex-row md:mx-0"
               >
-                <ReviewCard
+                <PipiteaReviewCard
                   firstName="Gloria M. - Portland, OR "
                   firstReview={`"My husband was the skeptic. 'It's just tea,' he said. Well, 'just tea' brought his eGFR up noticeably over three months. His doctor was impressed enough to hold off on starting medication. He's not skeptical anymore - he's the one reminding ME to make a fresh pitcher every morning."`}
                   secondName="Marlene C. - Denver, CO"
@@ -95,7 +95,7 @@ export const CustomerReviewsSection = () => {
                     </div>
                   </div>
                 </div>
-                <ReviewCard
+                <PipiteaReviewCard
                   firstName="Deborah F."
                   firstReview={`"I was really trying to avoid kidney medication. The side effects scared me, and I didn't want to be on pills for the rest of my life. My sister told me about hibiscus tea and I figured I had nothing to lose. Three months later, my numbers are solidly normal. My doctor is happy, I'm relieved, and I didn't have to go down the medication road. Yet, at least."`}
                   secondName="Eugene W."
@@ -122,7 +122,7 @@ export const CustomerReviewsSection = () => {
                     </div>
                   </div>
                 </div>
-                <ReviewCard
+                <PipiteaReviewCard
                   firstName="Gloria M. — Portland, OR "
                   firstReview={`"My husband was the skeptic. 'It's just tea,' he said. Well, 'just tea' brought his eGFR up noticeably over three months. His doctor was impressed enough to hold off on starting medication. He's not skeptical anymore - he's the one reminding ME to make a fresh pitcher every morning."`}
                   secondName="Marlene C. — Denver, CO"
@@ -149,7 +149,7 @@ export const CustomerReviewsSection = () => {
                     </div>
                   </div>
                 </div>
-                <ReviewCard
+                <PipiteaReviewCard
                   firstName="Raymond T."
                   firstReview={`"I'm a numbers guy. I track my eGFR twice a week and have for years. Started hibiscus tea and kept tracking. Within 6 weeks, I could see a clear upward trend in my readings. Not dramatic, but consistent and measurable. At my 3-month checkup, my doctor noticed too. That's not placebo, that's data."`}
                   secondName="Beverly N."
@@ -186,7 +186,7 @@ export const CustomerReviewsSection = () => {
                     <div
                       className="items-stretch box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full"
                     >
-                      <SectionCta
+                      <PipiteaSectionCta
                         title="BUY NOW & SAVE"
                         text="BUY NOW & SAVE"
                       />

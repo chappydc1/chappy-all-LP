@@ -1,4 +1,4 @@
-export const FeaturedReviewCard = () => {
+export const PrimepicksFeaturedReviewCard = () => {
   return (
     <div className="relative bg-white box-border caret-transparent border-slate-800 mt-[35px] rounded-[10px] border-4 border-solid md:mt-8">
       <div className="box-border caret-transparent flex p-4 md:px-6 md:py-8">

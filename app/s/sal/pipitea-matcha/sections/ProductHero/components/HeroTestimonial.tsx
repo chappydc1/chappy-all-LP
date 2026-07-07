@@ -1,4 +1,4 @@
-export type HeroTestimonialProps = {
+export type PipiteaMatchaHeroTestimonialProps = {
   rootVariantClass: string;
   containerVariantClass: string;
   columnVariantClass: string;
@@ -15,7 +15,7 @@ export type HeroTestimonialProps = {
   verifiedTextWrapperVariantClass: string;
 };
 
-export const HeroTestimonial = (props: HeroTestimonialProps) => {
+export const PipiteaMatchaHeroTestimonial = (props: PipiteaMatchaHeroTestimonialProps) => {
   return (
     <div
       href=""

@@ -2,7 +2,7 @@
 import adv from "../../../adv.json";
 import media from "../../../media.json";
 
-export const AdvertorialContent = () => {
+export const NexaAdvertorialContent = () => {
   return (
     <div className="relative box-border caret-transparent basis-full grow max-w-full min-h-[25px] outline-[3px] w-min p-px md:basis-0">
       <div className="self-center bg-transparent box-border caret-transparent flex justify-around outline-[3px] w-full pl-2.5 pr-[15px] py-2 md:justify-between md:py-3">

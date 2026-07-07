@@ -1,4 +1,4 @@
-export const AsSeenOn = () => {
+export const RejuvacareAsSeenOn = () => {
   return (
     <div className="items-stretch bg-neutral-100 box-border caret-transparent flex flex-wrap justify-start max-w-full outline-[3px] md:flex-nowrap">
       <div className="relative bg-white box-border caret-transparent basis-px grow max-w-[1400px] min-h-[25px] outline-[3px] w-min m-auto pt-[15px] pb-2.5 px-2.5 md:pt-[50px]">

@@ -1,4 +1,4 @@
-export const StickyAdBanner = () => {
+export const AbcNewsStickyAdBanner = () => {
   return (
     <div className="bg-white box-border caret-transparent outline-[3px] mb-12 mx-auto md:mb-20">
       <div className="hidden bg-gray-100 box-border caret-transparent outline-[3px] top-[-500px] z-[1] md:z-[89]">

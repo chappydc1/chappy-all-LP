@@ -15,7 +15,7 @@ type FooterColumnProps = {
   socialLinks?: SocialLink[];
 };
 
-export function FooterColumn({ title, items, socialLinks }: FooterColumnProps) {
+export function KachavaFooterColumn({ title, items, socialLinks }: FooterColumnProps) {
   return (
     <div className="box-border caret-transparent gap-x-6 flex flex-col justify-between min-h-[auto] min-w-[auto] outline-[3px] gap-y-6">
       <div className="box-content caret-black gap-x-[normal] block flex-row min-h-0 min-w-0 outline-0 gap-y-[normal] md:aspect-auto md:box-border md:caret-transparent md:gap-x-3 md:flex md:flex-col md:min-h-[auto] md:min-w-[auto] md:outline-[3px] md:gap-y-3">

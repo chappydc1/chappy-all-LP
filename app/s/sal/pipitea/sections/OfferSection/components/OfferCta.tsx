@@ -1,4 +1,4 @@
-export const OfferCta = () => {
+export const PipiteaOfferCta = () => {
   return (
     <a
       title="BUY NOW & SAVE"
