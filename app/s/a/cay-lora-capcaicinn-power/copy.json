@@ -69,6 +69,11 @@
       "text": "What I Found: The Science"
     },
     {
+      "type": "image",
+      "mediaKey": "scienceImg",
+      "className": "w-full"
+    },
+    {
       "type": "paragraph",
       "html": "<b>The Circulation Mechanism Is Legitimate</b><br/><br/>Here's what shocked me:<br/><br/>Capsaicin—the active compound in cayenne pepper—triggers nitric oxide production through the exact same pathway as Viagra using TRPV1 Receptors.<br/><br/>But there's a critical difference:<br/><br/><b>Viagra forces blood vessels open temporarily.</b><br/><br/>You take it, it works for 4-6 hours, then wears off. Your circulation gets no better. In fact, many studies suggest it may worsen over time because you're not addressing the root cause.<br/><br/><b>Capsaicin actually repairs endothelial function.</b><br/><br/>The endothelium is the inner lining of your blood vessels. When it's damaged (from age, diet, inflammation), blood flow to your penis deteriorates. Capsaicin restores this tissue, improving circulation permanently."
     },
