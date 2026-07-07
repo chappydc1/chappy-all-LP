@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import adv from "./adv.json";
+import adv from "./copy.json";
 
 export const metadata: Metadata = {
   title: adv.meta.title,

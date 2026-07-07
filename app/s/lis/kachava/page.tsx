@@ -1,4 +1,4 @@
-import rawAdv from "./adv.json";
+import rawAdv from "./copy.json";
 import media from "./media.json";
 
 type AdvNavItem =

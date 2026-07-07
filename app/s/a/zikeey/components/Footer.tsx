@@ -1,4 +1,4 @@
-import adv from "../adv.json";
+import adv from "../copy.json";
 
 export function Footer() {
   const { copyright, links, disclaimers } = adv.footer;

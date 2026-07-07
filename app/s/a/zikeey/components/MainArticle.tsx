@@ -1,4 +1,4 @@
-import adv from "../adv.json";
+import adv from "../copy.json";
 import { ArticleMeta } from "./ArticleMeta";
 import { ArticleStory } from "./ArticleStory";
 import { ArticleFeatures } from "./ArticleFeatures";

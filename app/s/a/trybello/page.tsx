@@ -1,5 +1,5 @@
-import advContent from "./adv.json";
-import advMedia from "./adv-media.json";
+import advContent from "./copy.json";
+import advMedia from "./media.json";
 import { TopBar } from "./sections/TopBar";
 
 export default function TrybelloPage() {

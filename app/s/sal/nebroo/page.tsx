@@ -1,5 +1,5 @@
 import { NebrooPage } from "./sections/NebrooPage";
-import adv from "./adv.json";
+import adv from "./copy.json";
 import media from "./media.json";
 
 export default function Page() {

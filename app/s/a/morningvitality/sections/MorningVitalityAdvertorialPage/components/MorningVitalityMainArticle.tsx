@@ -1,4 +1,4 @@
-import advData from "../../../adv.json";
+import advData from "../../../copy.json";
 import mediaData from "../../../media.json";
 import { MorningVitalityTestimonialCard } from "./MorningVitalityTestimonialCard";
 import { MorningVitalityCtaSection } from "./MorningVitalityCtaSection";
