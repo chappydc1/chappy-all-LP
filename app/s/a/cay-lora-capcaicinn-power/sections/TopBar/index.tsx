@@ -366,6 +366,8 @@ function RenderBodySection({
           key={idx}
           src={src}
           alt=""
+          loading="lazy"
+          decoding="async"
           className={`inline max-w-full ${section.className ?? ""}`}
         />
       );
