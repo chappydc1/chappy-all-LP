@@ -62,6 +62,9 @@ type AdvertorialContent = {
     disclosureBody: string;
     copyright: string;
     links: FooterLink[];
+    phone: string;
+    email: string;
+    address: string;
     paymentMethodsAlt: string;
   };
   stickyCta: string;
@@ -452,7 +455,7 @@ export const TopBar = ({ content, media }: AdvertorialData) => {
         <div className="items-stretch bg-white flex flex-wrap justify-center max-w-full border-zinc-500 mt-12 px-2.5 py-3 border-t border-solid md:flex-nowrap">
           <div className="relative items-center basis-full flex-col grow justify-between max-w-[1200px] min-h-[25px] w-min px-[7px] py-2.5 md:basis-0 md:px-2.5">
             <div className="text-neutral-500 leading-5 text-center mt-2.5 p-2.5 font-montserrat">
-              <b>{content.footer.disclosureTitle} </b>: {content.footer.disclosureBody}
+              <b>{content.footer.disclosureTitle}</b> {content.footer.disclosureBody}
             </div>
             <div className="text-neutral-500 text-xs leading-[22px] text-center mt-[15px] px-px py-2.5 font-montserrat md:text-base md:px-2.5">
               {content.footer.copyright}
@@ -466,8 +469,19 @@ export const TopBar = ({ content, media }: AdvertorialData) => {
                   </div>
                 ))}
               </div>
+              <div className="text-xs flex justify-center gap-1 md:text-base">
+                <a href={`tel:${content.footer.phone}`} className="text-blue-700 hover:underline transition-colors duration-150">
+                  {content.footer.phone}
+                </a>
+                <a href={`mailto:${content.footer.email}`} className="text-blue-600 hover:underline transition-colors duration-150">
+                  <strong className="text-blue-700 font-bold">{content.footer.email}</strong>
+                </a>
+              </div>
             </div>
             <div className="text-neutral-500 w-full text-center px-2.5">
+              <div className="text-[13px] leading-[19.5px] mb-[5px] font-montserrat">
+                {content.footer.address}
+              </div>
               <img
                 alt={content.footer.paymentMethodsAlt}
                 src={media.footer.paymentMethodsSrc}
