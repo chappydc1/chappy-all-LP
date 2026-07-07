@@ -217,7 +217,7 @@ export const NexaArticleContent = () => {
         variant="video"
         className="box-border caret-transparent flex justify-start outline-[3px]"
         poster="video"
-        src={adv.meta.videoUrl}
+        src={media.meta.videoUrl}
       />
       <p className="box-border caret-transparent outline-[3px]"></p>
       <NexaArticleSection
@@ -689,7 +689,7 @@ export const NexaArticleContent = () => {
       {adv.comments.items.map((item, idx) => (
         <div key={idx} className="items-stretch box-border caret-transparent flex flex-wrap justify-start max-w-full outline-[3px] p-px md:flex-nowrap">
           <div className="relative box-border caret-transparent flex basis-full grow max-w-full min-h-[25px] outline-[3px] w-min mt-5 p-px md:basis-0">
-            <img title="" src={item.image} href="" alt="" className="text-black box-border caret-transparent h-[55px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] align-baseline w-[55px] mt-0.5" />
+            <img title="" src={media.comments.avatars[item.avatarKey]} href="" alt="" className="text-black box-border caret-transparent h-[55px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] align-baseline w-[55px] mt-0.5" />
             <div className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] pb-3 px-2.5">
               <div className="text-indigo-800 text-sm font-bold box-border caret-transparent leading-[14px] outline-[3px] p-px font-helvetica">{item.author}</div>
               <div className="text-sm box-border caret-transparent leading-[18px] outline-[3px] mt-[5px] p-px font-helvetica">
@@ -707,7 +707,7 @@ export const NexaArticleContent = () => {
               </div>
               {item.reply && (
                 <div className="box-border caret-transparent flex outline-[3px] w-full pr-2.5 pt-[5px]">
-                  <img title="" src={item.reply.image} href="" alt="" className="text-black box-border caret-transparent h-[45px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] align-baseline w-[45px] mt-0.5" />
+                  <img title="" src={media.comments.avatars[item.reply.avatarKey]} href="" alt="" className="text-black box-border caret-transparent h-[45px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] align-baseline w-[45px] mt-0.5" />
                   <div className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] w-full pb-3 px-2.5">
                     <div className="text-indigo-800 text-sm font-bold box-border caret-transparent leading-[14px] outline-[3px] p-px font-helvetica">{item.reply.author}</div>
                     <div className="text-sm box-border caret-transparent leading-[18px] outline-[3px] mt-[5px] p-px font-helvetica">
