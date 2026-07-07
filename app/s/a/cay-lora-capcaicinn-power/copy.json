@@ -131,6 +131,11 @@
       "text": "My Professional Assessment"
     },
     {
+      "type": "image",
+      "mediaKey": "assessmentImg",
+      "className": "w-full"
+    },
+    {
       "type": "paragraph",
       "html": "After 90 days of investigation:<br/><br/>Yes. Lora Capsaicin Power Softgels work. And for most men over 50, they work better than prescription pills.<br/><br/>Not faster—Viagra wins on speed.<br/><br/>But permanent healing vs temporary masking?<br/><br/>Lora wins decisively.<br/><br/>- Lower cost.<br/>- No side effects.<br/>- No dependency.<br/>- Actual cardiovascular health improvement."
     },
