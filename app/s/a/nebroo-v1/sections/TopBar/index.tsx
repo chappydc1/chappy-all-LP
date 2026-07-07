@@ -50,8 +50,7 @@ type FooterLink = { label: string; href: string };
 export type NebrooV1AdvContent = {
   ctaUrl: string;
   meta: { title: string };
-  topBanner: { trendingText: string };
-  alert: { label: string; text: string };
+  alert: { text: string };
   breadcrumb: string;
   headline: string;
   headlineBold: string;
@@ -281,7 +280,7 @@ function CommentItem({ comment }: { comment: Comment }): React.JSX.Element {
 // ─── TopBanner ────────────────────────────────────────────────────────────────
 
 function TopBanner(): React.JSX.Element {
-  const { content, media } = useAdvertorialData();
+  const { media } = useAdvertorialData();
   return (
     <div className="items-stretch bg-zinc-800 flex flex-wrap justify-start max-w-full px-2.5 py-px md:flex-nowrap md:py-2.5">
       <div className="relative flex basis-0 grow max-w-[1170px] min-h-[25px] w-full mx-auto px-px md:px-[15px]">
@@ -297,7 +296,7 @@ function TopBanner(): React.JSX.Element {
             className="max-w-full min-h-[auto] min-w-[auto] w-10 md:w-[50px]"
           />
           <div className="text-white text-[13px] font-bold leading-[13px] min-h-[auto] min-w-[auto] pl-2.5 pr-px py-2.5 font-montserrat md:text-base md:leading-4 md:pl-5">
-            {content.topBanner.trendingText}
+            Trending in the US
           </div>
         </div>
       </div>
@@ -312,7 +311,7 @@ function AlertBox(): React.JSX.Element {
   return (
     <div className="pt-8 pb-4">
       <div className="bg-[#fdfad9] border-[1.5px] border-[rgb(221,221,166)] text-zinc-800 text-[18px] leading-[27px] text-left p-4 font-montserrat md:text-[23px] md:leading-[34.5px]">
-        <b className="text-red-600">{content.alert.label}</b>{" "}
+        <b className="text-red-600">UPDATE:</b>{" "}
         {content.alert.text}
       </div>
     </div>
