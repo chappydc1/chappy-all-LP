@@ -338,8 +338,9 @@ function RenderBodySection({
             <p
               key={pIdx}
               className="text-zinc-800 text-[17px] leading-[25.5px] text-left font-montserrat first:mt-0 mt-[15px]"
-              dangerouslySetInnerHTML={{ __html: paragraph }}
-            />
+            >
+              {paragraph}
+            </p>
           ))}
         </div>
       );
