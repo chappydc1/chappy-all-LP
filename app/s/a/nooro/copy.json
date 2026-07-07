@@ -26,30 +26,17 @@
       "Throughout my career, I've helped over 1100 patients who came to me with all kinds of foot problems…"
     ],
     "sections": [
-      {
-        "type": "paragraph",
-        "html": "You name it."
-      },
-      {
-        "type": "paragraph",
-        "html": "I've seen it all."
-      },
-      {
-        "type": "paragraph",
-        "html": "From mild stiffness and swelling… To varicose spider veins… To…"
-      },
-      {
-        "type": "heading",
-        "text": "Edema So Bad You Could Barely Recognize What Body Part You're Looking At"
-      },
+      { "type": "paragraph", "html": "You name it." },
+      { "type": "paragraph", "html": "I've seen it all." },
+      { "type": "paragraph", "html": "From mild stiffness and swelling… To varicose spider veins… To…" },
+      { "type": "heading", "text": "Edema So Bad You Could Barely Recognize What Body Part You're Looking At" },
+      { "type": "image", "imageKey": "edemaBad", "alt": "Severe edema swelling in a person's foot" },
       {
         "type": "paragraph",
         "html": "But it wasn't until earlier this year that I truly cracked the code to provide <b>relief from edema</b>. It all started with a personal <b>Breakthrough Discovery</b> I had earlier this year. One night I was pouring through clinical studies on Edema and Lymphedema, and I stumbled across something that <b>shocked me</b>."
       },
-      {
-        "type": "heading",
-        "text": "Shocking Root Cause of Edema"
-      },
+      { "type": "heading", "text": "Shocking Root Cause of Edema" },
+      { "type": "image", "imageKey": "calvesRootCause", "alt": "Diagram showing calf muscles as the root cause of edema" },
       {
         "type": "paragraph",
         "html": "<b>What if I told you that the edema and swelling in your feet and legs are actually caused by your <u>CALVES</u>?</b> It sounds counterintuitive, but it's true. See, calves play a crucial role in your blood circulation. So much so that we often refer to them as <b>\"The Second Heart\"</b>. Your actual heart sends blood all over your body, including your feet. But your calves are responsible for sending that blood back. When your calf muscles contract, they compress the blood vessels in your legs and push the blood from your feet back up toward your heart. That's why we like to call calves <b>\"the second heart\"</b> - because they single-handedly maintain normal blood circulation in your lower body."
@@ -59,36 +46,208 @@
         "html": "<b>Here's the bad news...</b> As you age and become less physically active, <b>your calves get weaker</b>. And when this happens, they can no longer send all the blood from your lower body back to your heart - so some of it stays stuck in your feet. This build-up of old, stale blood <b>can cause edema and swelling in your feet and ankles.</b> But it can also lead to more serious foot conditions if left untreated. That's also why popular remedies like compression socks, salt baths, and different pills can't solve the problem - they focus on feet instead of calves."
       },
       {
-        "type": "heading",
-        "text": "The Only Solution That Directly Targets Weak Calves"
+        "type": "paragraph",
+        "html": "<b>So what's the solution?</b> You need to activate your calves so that they start pumping blood again… And remove the old, stale blood that's currently stuck in your feet."
       },
       {
         "type": "paragraph",
-        "html": "So if weak calves are the root cause of edema... The solution is simple: <b>Strengthen your calves</b>. And the #1 way to do that according to the latest science is through <b>Electro Muscle Stimulation (EMS)</b>. EMS delivers electrical pulses to your calf muscles — mimicking the signals your brain sends to contract them. This forces your calves to contract and release, pumping blood back to your heart. It's like giving your \"second heart\" a workout without leaving your couch."
+        "html": "<b>But how do you do that?</b> Most experts will tell you that you need to move or start exercising. But let's be honest… When your feet are all swollen and painful, moving around - let alone running or exercising - is the last thing you want to do. That's why most people never really solve this problem and are stuck bedridden with painful, oversized clown feet their entire lives."
       },
+      { "type": "heading", "text": "Get Relief From Edema at Home in Just 15 Minutes Per Day (Without Lifting a Finger)" },
       {
-        "type": "heading",
-        "text": "Introducing Nooro 3-in-1 Leg Massager"
+        "type": "paragraph",
+        "html": "<b>Luckily, there's a better solution.</b> It's all possible thanks to something called <b>\"pneumatic compression therapy\"</b>. It's a special treatment that uses air pressure to enhance blood circulation. It works by enclosing the legs in specially designed sleeves or boots… And then rhythmically inflating and deflating to mimic the natural muscle contractions and <b>get your calves to start pumping blood again.</b> The only problem was that this technology wasn't available to an average Joe. It was very expensive and reserved for high-end hospitals."
       },
       {
         "type": "paragraph",
-        "html": "I've tried every EMS device on the market. Most are uncomfortable, complicated to use, or simply don't work well. That's why I was blown away when I first tried the <b>Nooro 3-in-1 Leg Massager</b>. It's the only device that combines: <b>EMS (Electro Muscle Stimulation)</b> to strengthen your calves + <b>TENS (Transcutaneous Electrical Nerve Stimulation)</b> for pain relief + <b>Heat Therapy</b> to relax tight muscles."
+        "html": "So I partnered up with a U.S. biotech startup called Nooro. These guys are known for making some of the best pain relief devices that <b>have helped more than 300,000 men and women across America.</b> And together, we solved this problem once and for all."
+      },
+      { "type": "heading", "text": "Introducing Nooro 3-in-1 Leg Massager" },
+      { "type": "video" },
+      {
+        "type": "paragraph",
+        "html": "<b>Nooro 3-in-1 Leg Massager</b> is one of the first devices that use <b>\"pneumatic compression therapy\"</b> to stimulate your calves a.k.a. your \"second heart\" and <b>kickstart blood circulation</b> in your entire lower body. When you put it on, the device will start rhythmically inflating and deflating around your calves. This will mimic similar contractions that would happen if you were to go for a run or exercise in the gym. These contractions will get your blood vessels to start pumping blood from your lower body back to your heart. As a result, all that old stale blood that's now stuck in your feet will finally start moving again - and the swelling will slowly go away."
+      },
+      {
+        "type": "paragraph",
+        "html": "But don't take my word for it… At the moment of writing this, <b>thousands of people around the world are using Nooro 3-in-1 Leg Massager to relieve their swollen pain.</b> Our products have more than 4,000 5-star reviews on TrustPilot alone."
+      },
+      { "type": "trustpilot", "score": "3.6", "reviewCountLabel": "7,924 reviews", "url": "https://www.trustpilot.com/review/nooro-us.com" },
+      {
+        "type": "testimonial",
+        "name": "Charlotte Hudson",
+        "title": "It's truly worth every penny!",
+        "reviewMeta": "Reviewed in the United States on April 5, 2024",
+        "verifiedLabel": "Verified Purchase",
+        "text": "I decided to try this massager because it's reasonably priced. I have been struggling with edema and swelling for the past year, and the muscles in my calves have been cramping constantly for months. Like the way it would feel after having a Charlie horse. I could barely walk. The day I received it I used it 3 different times. It was so painful to use because my calf was so tense. But I stuck with it and with each use my calves got better and better. And it wasn't painful to use anymore. I use it at least once in the morning and once in the evening and each cycle lasts about 15 mins. But you can turn it on and let it run another cycle…the battery has lasts a long time before needing to recharge. I've used it for an hr or more in 15-minute increments and it hasn't run out. Then I recharge it so it will be ready the next time I use it. I have a large calf, but it came with two extra Velcro straps that you can use to lengthen the straps. It's easy to use and put on and there are 3 different levels of pressure and 3 different massage types you can choose. It's quiet when it's running, you only hear quiet air releasing as it's massaging. It works kind of like a BP cuff, it pumps up and releases air, then pumps up in a different place. Definitely recommend this product. Comes with the charging cord, extra Velcro strips and instructions. It's been a lifesaver for me!",
+        "helpfulText": "76 people found this helpful",
+        "mediaKey": "charlotte"
+      },
+      {
+        "type": "testimonial",
+        "name": "William Boxall",
+        "title": "This works!! Blew my mind at how fast I got results",
+        "reviewMeta": "Reviewed in the United States on June 20, 2026",
+        "verifiedLabel": "Verified Purchase",
+        "text": "The BEST affordable product for edema and swelling in your legs. My mother and have really poor circulation issues. So much so it's so painful you can't relax or sleep. Been like this for years. In a desperate attempt to gain relief I purchased this just for me to test it out. I used it on both legs before bed and I was falling asleep comfortably FINALLY. Within a month I don't even need it at all now. Pain in my legs went from 8/10 to 2/10. SO HAPPY WITH THIS PRODUCT!!!! So much so I bought my mom and elder step father one and my mother asked me where I bought it. I asked her why what is wrong? She said NOTHING this thing is amazing. It looks so basic i thought it was just going to be another dud that doesn't help but now I can finally sleep well it feels great and helps so much. So you have two happy customers thank you. If you are not taking a risk on this product .....too bad so sad for you....you are missing out. Love the affordability and hope it stays that way.",
+        "helpfulText": "53 people found this helpful",
+        "mediaKey": "william"
+      },
+      { "type": "asSeenOn", "label": "AS SEEN ON" },
+      { "type": "heading", "text": "This Device Has Helped Thousands of People Relieve Edema And Swelling In Their Legs And Feet" },
+      { "type": "image", "imageKey": "beforeAfter", "alt": "Before and after comparison of leg swelling" },
+      {
+        "type": "paragraph",
+        "html": "And I'm confident that <b>it's going to help you too</b>. <b>Just imagine…</b>"
       },
       {
         "type": "list",
-        "icon": "check",
         "items": [
-          "Reduces edema and swelling",
-          "Relieves pain and discomfort",
-          "Improves blood circulation",
-          "Strengthens calf muscles",
-          "Easy to use at home"
+          "No more struggling to find shoes that fit comfortably.",
+          "No more shame because your feet look like two balloons.",
+          "No more pain and discomfort that keeps you trapped in your own body."
         ]
       },
       {
         "type": "paragraph",
-        "html": "After recommending it to dozens of my patients, <b>the results have been remarkable.</b> Most patients report significant reduction in swelling within the first week. Many say it's the first thing that has actually worked after years of trying other remedies."
-      }
+        "html": "<b>That's all possible with the Nooro 3-in-1 Leg Massager.</b> And the best part? It only takes 15 minutes per day to notice a difference. All you need to do is wrap the <b>Nooro 3-in-1 Leg Massager</b> around your legs… Use the buttons on the side to select the mode and the intensity… And then just sit back and relax for 15 minutes while it does its magic. Now, I know you probably have two main questions…"
+      },
+      { "type": "heading", "text": "How Can You Get Your Hands on the Nooro 3-in-1 Leg Massager? …And what's the price?" },
+      {
+        "type": "paragraph",
+        "html": "Well, the first question is a tricky one… Because it takes us a lot of time and money to build this device… From expensive parts that we have to source from all over the world… To countless tests that every device has to go through before it's cleared… So we are at a constant risk of <b>running out of stock.</b> Our team is working around the clock to create enough <b>Nooro 3-in-1 Leg Massagers</b> for everyone in need. But I hate to admit that we are currently failing at that."
+      },
+      {
+        "type": "paragraph",
+        "html": "<b>The demand is just too big.</b> Folks who have tested the Nooro 3-in-1 Leg Massager and experienced the relief are now asking us for more devices for their families and friends. Not to mention the thousands of patients I've worked with in my clinic. They were thrilled when I told them about the device that I created and I'm sure that many of them are placing their orders right now. All this makes our stock run out quickly every time we get a new shipment."
+      },
+      {
+        "type": "paragraph",
+        "html": "<b>Now, if you are reading this article, it means that we probably have a few massagers left in stock, otherwise we would've taken the page down.</b> But unfortunately, we cannot guarantee for how much longer."
+      },
+      { "type": "heading", "text": "We Could Sell Out Tomorrow… Or Maybe Even Today" },
+      { "type": "image", "imageKey": "sellOutWarning", "alt": "Limited stock warning for Nooro 3-in-1 Leg Massager" },
+      {
+        "type": "paragraph",
+        "html": "<b>And once that happens…</b> Once we do run out of stock… It could take us anywhere from a couple of weeks to a couple of months to get back in stock because these devices take quite a long time to build. So if you are serious about reducing pain and swelling in your feet and legs… <b>I recommend you DO NOT leave this page…</b> Because <b>this may be your only chance</b> to get the Nooro 3-in-1 Leg Massager and experience the relief you've been praying for."
+      },
+      {
+        "type": "paragraph",
+        "html": "So without further ado, <b>let me show you how you can get your Nooro 3-in-1 Leg Massager today.</b>"
+      },
+      { "type": "heading", "text": "Nooro 3-in-1 Leg Massager Is NOT Available Anywhere Else Except on Our Official Website" },
+      { "type": "image", "imageKey": "officialWebsite", "alt": "Nooro official website checkout page" },
+      {
+        "type": "paragraph",
+        "html": "<b>You won't find it in retail stores. You won't find it on Amazon or eBay.</b> If you see something similar, that's just a cheap knockoff. <b>The only place where you can buy the real, authentic Nooro 3-in-1 Leg Massager is our official website</b> where it's selling for just $339.95."
+      },
+      {
+        "type": "paragraph",
+        "html": "Given how sophisticated the <b>technology</b> behind is and how quickly our users experience relief, this is an absolute steal. To put it into perspective, when we hired business & marketing consultants to help us launch the device to the market, <b>they told us to charge $700</b>. It certainly made sense from the business perspective. But I'm not a businessman. I'm a doctor. And <b>my only goal with this device is to help as many people as possible.</b>"
+      },
+      { "type": "heading", "text": "We Priced It at 1/2 of What All the Marketing Experts Recommended" },
+      {
+        "type": "paragraph",
+        "html": "<b>Just $339.95.</b> So even if you use it for just one year… And only once a day… <b>That's only .90 cents per therapy</b> which would normally cost hundreds! And guess what? You'll probably use it way more than that. <b>Nooro 3-in-1 Leg Massager is built to last</b>. You'll be enjoying massages for years and years to come, as many times per day as you please. So it will end up being way less than $.90 cents per therapy. When you put it like this, you realize what an amazing deal this is."
+      },
+      {
+        "type": "list",
+        "items": [
+          "One investment of $339 for years and years of massages.",
+          "One investment of $339 for life without pain and swelling.",
+          "It's a once-in-a-lifetime deal."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "And I know you know it. <b>But I also know that some of you simply can't afford it.</b> With everything that's going on in the world… Inflation running rampant… Prices going up… $339 is a lot of money. And look… I didn't lie when I said that <b>this isn't about money for me.</b> <b>I want this thing to help as many people as possible.</b> <b>And I don't want money to stand in the way of that mission</b>. So to ensure that everyone in need has a chance to put their hands on Nooro 3-in-1 Leg Massager…"
+      },
+      { "type": "heading", "text": "I Decided to Offer a Special Limited-Time Discount and Let You Have Your Own Nooro 3-in-1 Leg Massager at 50% OFF" },
+      { "type": "image", "imageKey": "discountReveal", "alt": "50% off discount offer for Nooro 3-in-1 Leg Massager" },
+      {
+        "type": "paragraph",
+        "html": "That's <b>just $169.95!</b> <b>This is the lowest price we'll ever offer.</b> And I'm only able to guarantee it for today. So if you are ready to <b>take advantage of the best deal you'll ever get</b>… And get your Nooro 3-in-1 Leg Massager at a fraction of the price… Make sure to <b>click the big button below</b> and grab it while you still can!"
+      },
+      {
+        "type": "paragraph",
+        "html": "As I said earlier, we manufactured a limited number of massagers in this batch. And we're selling out faster than anyone could have anticipated. So it's only a matter of time before we run out completely. And when that happens… Well, you'll pretty much miss out. Not just that you'll have to wait until the next batch is manufactured - which can take weeks if not months… But you'll also find a new price that will be higher."
+      },
+      {
+        "type": "paragraph",
+        "html": "Let me be super clear about it: <b>You'll never be able to buy a Nooro 3-in-1 Leg Massager cheaper than today.</b> This is the best deal you will ever get. And this may be the only time you see it. So without further ado, click below to place your order."
+      },
+      { "type": "cta", "line1": "GET 50% OFF Nooro", "line2": "3-in-1 Leg Massager Now!" },
+      { "type": "heading", "text": "You Have 90 Days to Test the Product, Completely Risk-Free!" },
+      {
+        "type": "paragraph",
+        "html": "Yes, you heard me right. <b>I'm giving you a 90-day TRIAL period</b>. <b>You have 90 full days to experiment with the Nooro 3-in-1 Leg Massagers and see how well it all works</b>. If it works as advertised, you are welcome to keep it and use it forever to keep swelling at bay."
+      },
+      {
+        "type": "paragraph",
+        "html": "But if for ANY reason you are not happy with your purchase… And you feel like there are better solutions out there… Just let us know anytime in the next 90 days and <b>you'll get your money back</b> that same day, no questions asked. It doesn't matter if it's 89 minutes or 89 days after the purchase… Our team at Nooro will make sure that you only pay if you are 100% in love with the product. In any other case, it's on us. <b>Fair enough?</b>"
+      },
+      {
+        "type": "paragraph",
+        "html": "Oh, and no worries… Our team is so easy to access, so there will be no hassle. You can email us at <b>support@nooro-us.com</b>. Or you can call us at <b>+1 (212) 444 3144</b>. Even if you just have questions about the product. Our dedicated customer service team will get back to you WITHIN MINUTES. No matter when you call us, <b>we're available 24/7.</b>"
+      },
+      {
+        "type": "paragraph",
+        "html": "Now that's what I call a <b>RISK-FREE offer</b>. We made sure that from the moment you click that button below… You, your time, and your money are <b>protected and safe!</b> There's literally ZERO risk involved today."
+      },
+      { "type": "heading", "text": "Here's What to Do Next" },
+      {
+        "type": "list",
+        "items": [
+          "Click that big green button that says \"GET 50% OFF Nooro 3-in-1 Leg Massager Now\" - it will take you straight to our official encrypted website",
+          "Click the button that says \"GET 50% OFF TODAY ONLY\" and your discount code will be automatically applied",
+          "Go straight to the checkout page and enter your name, address, and credit card information, and select how many Nooro Leg Massagers you want to order"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "<b>Most people end up getting TWO or THREE Nooro Leg Massagers.</b> One, because it's practical to have one in your bedroom, one at work, etc. Two, because it's a great gift for your spouse. And it's much more enjoyable when you can get the massage together, at the same time. And three, because the more you get, <b>the more money you save</b>. That's because we save a lot of money on shipping when we send bigger orders - and we are happy to share those savings with you."
+      },
+      {
+        "type": "paragraph",
+        "html": "So if you know someone who could benefit from <b>Nooro 3-in-1 Leg Massager</b> - be it a friend, a family member, or a colleague at work… Or if you simply want to get more than one for yourself, so you can have one in your bedroom, one in your car, one at work, etc. <b>I suggest you take advantage of this one-time deal and click the button below to get the Nooro 3-in-1 Leg Massager at the lowest price ever.</b>"
+      },
+      { "type": "cta", "line1": "GET 50% OFF Nooro", "line2": "3-in-1 Leg Massager Now!" },
+      { "type": "heading", "text": "Remember, There Is ZERO Risk" },
+      { "type": "iconGrid" },
+      {
+        "type": "paragraph",
+        "html": "The only risk you could possibly face… Is one of pain and <b>regret if you miss out on the opportunity to get your Nooro 3-in-1 Leg Massagers</b> at this massive discount. Unfortunately, I know exactly what's going to happen if you decide to let this opportunity pass. I've seen it so many times with other patients. And let me tell you, it's NOT good."
+      },
+      {
+        "type": "paragraph",
+        "html": "You'll keep wasting time on compression socks, salt baths, and different pills that don't address the real cause of the problem. You may experience some temporary relief now and then… And maybe even fool yourself that you can live your life like this… But the pain and swelling <b>will only get worse</b>."
+      },
+      {
+        "type": "paragraph",
+        "html": "I'm not saying this to SCARE you. I just want to WARN you. Because if left untreated, this can turn into a much bigger problem. That's why the decision you make today will be one of the most important decisions of your life. So… What is it going to be?"
+      },
+      {
+        "type": "paragraph",
+        "html": "<b>Are you going to say \"NO\"</b> to this opportunity and take your chances? <b>OR are you going to do the right thing… Order one, two, or three Nooro 3-in-1 Leg Massagers… And spend the next 90 days working on recovery?</b>"
+      },
+      { "type": "image", "imageKey": "emotionalClose", "alt": "Family enjoying time together" },
+      {
+        "type": "paragraph",
+        "html": "<b>Remember… This is not just about you.</b> <b>This is about your family</b> - who will be worried about you constantly if you lose your mobility because you don't want to try to get better. <b>This is about your grandkids</b> who will never get to play with you because your feet will be holding you back. <b>This is about your partner</b> who will have to get used to living alone while you are still there - because you will be a shell of yourself. You owe it to yourself and your loved ones to give it a shot."
+      },
+      {
+        "type": "list",
+        "items": [
+          "You can turn things around.",
+          "You can get the relief that you've been looking for.",
+          "You can get your old life back and enjoy the rest of your life."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "Many of my patients have already done it. <b>You can do it too.</b> All you need is a little assistance from the finest pain relief device that I know exists - our <b>Nooro 3-in-1 Leg Massager</b>. So without further ado… If you are ready to do the right thing… Click that big green button below to order your Nooro 3-in-1 Leg Massager. And remember - <b>If it doesn't work as promised, you don't pay.</b>"
+      },
+      { "type": "cta", "line1": "GET 50% OFF Nooro", "line2": "3-in-1 Leg Massager Now!" }
     ],
     "checkoutUpdate": {
       "label": "UPDATE:",
@@ -136,34 +295,200 @@
   },
   "stickyCta": "GET 50% OFF Nooro 3-in-1 Leg Massager Now!",
   "footer": {
-    "disclaimer": "This is an advertorial and not an actual news article, blog, or consumer protection update. This story is based on the results of a few people and you may not get the same results. Results may vary. The story depicted on this page and the person depicted in the story are not actual news. Rather, this story is based on the results that some people who have used these products have achieved. The results portrayed in the story and in the comments are illustrative, and may not be the results that you achieve with these products. This page could receive compensation for clicks on or purchase of products featured on this site. This product is not intended to diagnose, treat, cure or prevent any disease.",
-    "copyright": "© 2026 Nooro. All Rights Reserved.",
+    "disclaimer": "MEDICAL & HEALTH DISCLAIMER: The information and other content provided in this page, or in any linked materials, are not intended and should not be construed as medical advice, nor is the information a substitute for professional medical expertise or treatment. If you or any other person has a medical concern, you should consult with your health care provider or seek other professional medical treatment. Never disregard professional medical advice or delay in seeking it because of something that have read on this page or in any linked materials. If you think you may have a medical emergency, call your doctor or emergency services immediately.",
+    "copyright": "© 2026 All Rights Reserved.",
+    "poweredByText": "Powered by CheckoutChamp",
     "links": [
-      { "label": "Privacy Policy", "href": "#" },
-      { "label": "Terms of Service", "href": "#" },
-      { "label": "Contact Us", "href": "#" }
+      { "label": "Privacy Policy", "href": "https://nooro-us.com/pages/privacy-policy" },
+      { "label": "Terms of Service", "href": "https://nooro-us.com/pages/terms-of-service" }
     ]
   },
   "comments": {
     "title": "Comments",
     "items": [
       {
-        "name": "Margaret T.",
-        "avatar": "",
-        "date": "2 days ago",
-        "text": "I've been struggling with leg swelling for years. After just one week with the Nooro massager, my ankles are noticeably less swollen. My doctor was actually surprised at my last visit!"
+        "name": "Wilma Devon",
+        "avatarKey": "wilma",
+        "date": "39 min",
+        "text": "Can anybody vouch for this?",
+        "likeCount": 4,
+        "replies": [
+          {
+            "name": "Mary Vernon",
+            "avatarKey": "mary",
+            "date": "16 min",
+            "text": "The massager helps my feet and ankles with my edema. I walk a lot for my job and getting home and using it has really helped with the pain.",
+            "likeCount": 7
+          }
+        ]
       },
       {
-        "name": "Robert K.",
-        "avatar": "",
-        "date": "5 days ago",
-        "text": "I was skeptical at first but my wife convinced me to try it. Best decision ever. My legs feel so much lighter at the end of the day. The heat therapy is incredibly relaxing too."
+        "name": "Doris Skylar",
+        "avatarKey": "doris",
+        "date": "51 min",
+        "text": "I bought mine for the full price and now are 50% off? That's not fair!",
+        "likeCount": 4
       },
       {
-        "name": "Susan M.",
-        "avatar": "",
-        "date": "1 week ago",
-        "text": "After reading Dr. Campbell's article I immediately ordered one. The results are exactly as described. My feet don't look like balloons anymore and I can finally wear my regular shoes again!"
+        "name": "Skyler Greig",
+        "avatarKey": "skyler",
+        "date": "1 h",
+        "text": "How long does shipping take??",
+        "likeCount": 1,
+        "replies": [
+          {
+            "name": "Marie Campbell",
+            "avatarKey": "marie",
+            "date": "24 min",
+            "text": "Hey Skyler, got mine after a week.",
+            "likeCount": 2
+          }
+        ]
+      },
+      {
+        "name": "Leonard Boyd",
+        "avatarKey": "leonard",
+        "date": "1 h",
+        "text": "I like the massage. I like the design and the way my legs fit into it. It is comfortable. I enjoy using it.",
+        "photoKey": "leonard_massager",
+        "likeCount": 6
+      },
+      {
+        "name": "Emma Emerson",
+        "avatarKey": "emma_e",
+        "date": "2 h",
+        "text": "Hey Lois, this is what you need instead of the expensive massage sessions",
+        "likeCount": 2,
+        "replies": [
+          {
+            "name": "Lois Clive",
+            "avatarKey": "lois",
+            "date": "1 h",
+            "text": "Wow, this is crazy, have ordered one now!",
+            "likeCount": 3
+          }
+        ]
+      },
+      {
+        "name": "Alfred Johnson",
+        "avatarKey": "alfred",
+        "date": "2 h",
+        "text": "Did you buy one, how long does it take to get it",
+        "likeCount": 2,
+        "replies": [
+          {
+            "name": "Edith Ashton",
+            "avatarKey": "edith",
+            "date": "2 h",
+            "text": "For me 7 business days.",
+            "likeCount": 5
+          }
+        ]
+      },
+      {
+        "name": "Debra Peyton",
+        "avatarKey": "debra",
+        "date": "3 h",
+        "text": "Good massager for legs. Different levels and different modes helped me.",
+        "likeCount": 1
+      },
+      {
+        "name": "Paula Remington",
+        "avatarKey": "paula",
+        "date": "3 h",
+        "text": "Wow looks amazing, does anyone actually have one and has it been tested?",
+        "likeCount": 1,
+        "replies": [
+          {
+            "name": "Sarah Dudley",
+            "avatarKey": "sarah",
+            "date": "2 h",
+            "text": "I bought this for my dad since he often has muscle aches in his legs. He loved the feel of it and felt very relaxed after the first use.",
+            "likeCount": 3
+          }
+        ]
+      },
+      {
+        "name": "Agnes Graeme",
+        "avatarKey": "agnes",
+        "date": "3 h",
+        "text": "I just ordered mine! Cannot wait for it.",
+        "likeCount": 4
+      },
+      {
+        "name": "Barbara Bradly",
+        "avatarKey": "barbara",
+        "date": "3 h",
+        "text": "I want one so bad, I'm gonna buy it this weekend when my paycheck hits lol!!",
+        "likeCount": 8
+      },
+      {
+        "name": "Ethel Dean",
+        "avatarKey": "ethel",
+        "date": "4 h",
+        "text": "Does anyone know how long the shipping takes? Want to buy one for my friend.",
+        "likeCount": 1,
+        "replies": [
+          {
+            "name": "Clara Milton",
+            "avatarKey": "clara",
+            "date": "2 h",
+            "text": "Hey Ethel, mine arrived after about a week",
+            "likeCount": 2
+          },
+          {
+            "name": "Emma Shelby",
+            "avatarKey": "emma_s",
+            "date": "1 h",
+            "text": "Your friend will be happy! Perfect gift",
+            "likeCount": 2
+          }
+        ]
+      },
+      {
+        "name": "Harry Keegan",
+        "avatarKey": "harry",
+        "date": "4 h",
+        "text": "I got this as a gift for my grandma and she loves it. This cordless calf massager is perfect for someone struggling with swelling and poor circulation in their legs. The product is comfortable to use and the price point is great!",
+        "likeCount": 3
+      },
+      {
+        "name": "Bridget Prescott",
+        "avatarKey": "bridget",
+        "date": "4 h",
+        "text": "Love this massager totally!",
+        "likeCount": 3
+      },
+      {
+        "name": "Anna Madison",
+        "avatarKey": "anna",
+        "date": "5 h",
+        "text": "I've never had anything like this and it is amazing and worth every penny especially if you are on your legs all day! I needed this years ago but I love it. It feels so real",
+        "likeCount": 3
+      },
+      {
+        "name": "Clara Milton",
+        "avatarKey": "clara",
+        "date": "5 h",
+        "text": "I absolutely love my massager, had to get one for my daughter today since she wont stop using mine!",
+        "likeCount": 2,
+        "replies": [
+          {
+            "name": "Kate Orson",
+            "avatarKey": "kate",
+            "date": "2 h",
+            "text": "OMG I know, I was so happy that they had some left today. Had to get one immediately before they run out of stock again like last time",
+            "likeCount": 5
+          }
+        ]
+      },
+      {
+        "name": "Isabella Mayson",
+        "avatarKey": "isabella",
+        "date": "5 h",
+        "text": "Thank you, our arrived today! Will test it tonight to get some relief from my edema.",
+        "photoKey": "isabella_delivery",
+        "likeCount": 3
       }
     ]
   }
