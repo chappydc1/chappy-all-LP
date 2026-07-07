@@ -31,8 +31,9 @@
   },
   "bodySections": [
     {
-      "type": "video",
-      "mediaKey": "v1"
+      "type": "image",
+      "mediaKey": "investigationGif",
+      "className": "w-full"
     },
     {
       "type": "paragraph",
@@ -68,6 +69,11 @@
       "text": "What I Found: The Science"
     },
     {
+      "type": "image",
+      "mediaKey": "scienceImg",
+      "className": "w-full"
+    },
+    {
       "type": "paragraph",
       "html": "<b>The Circulation Mechanism Is Legitimate</b><br/><br/>Here's what shocked me:<br/><br/>Capsaicin—the active compound in cayenne pepper—triggers nitric oxide production through the exact same pathway as Viagra using TRPV1 Receptors.<br/><br/>But there's a critical difference:<br/><br/><b>Viagra forces blood vessels open temporarily.</b><br/><br/>You take it, it works for 4-6 hours, then wears off. Your circulation gets no better. In fact, many studies suggest it may worsen over time because you're not addressing the root cause.<br/><br/><b>Capsaicin actually repairs endothelial function.</b><br/><br/>The endothelium is the inner lining of your blood vessels. When it's damaged (from age, diet, inflammation), blood flow to your penis deteriorates. Capsaicin restores this tissue, improving circulation permanently."
     },
@@ -76,8 +82,9 @@
       "html": "<b>The Clinical Data Was Real</b><br/><br/>I verified the numbers independently:<br/><br/>- 89.7% reported significant improvement in erection quality within 30 days<br/>- Average time to noticeable results: 12-18 days<br/>- Zero serious adverse events across 1,200+ users<br/>- 94.3% satisfaction rate vs 71% for prescription pills<br/><br/>The difference?<br/><br/>Lora Capsaicin Power Power isn't masking the problem.<br/><br/>It's healing it."
     },
     {
-      "type": "video",
-      "mediaKey": "v3"
+      "type": "image",
+      "mediaKey": "clinicalDataImg",
+      "className": "w-full"
     },
     {
       "type": "heading",
@@ -97,12 +104,18 @@
       "html": "Here's the uncomfortable truth I have to share as a physician:<br/><br/>Lora Capsaicin Power Softgels aren't a prescription drug.<br/><br/>That means:<br/><br/>- No pharmaceutical company profits from it<br/>- No drug reps educating doctors about it<br/>- No insurance billing codes<br/>- No medical school curriculum mentioning it<br/>- No incentive for doctors to recommend it<br/><br/>I surveyed 15 urologists in my network.<br/><br/>Only 1 had heard of using cayenne for ED.<br/><br/>None recommended it—not because it doesn't work, but because they don't know it exists.<br/><br/>The medical system is designed to push prescription medications. Everything else is invisible."
     },
     {
-      "type": "video",
-      "mediaKey": "v4"
+      "type": "image",
+      "mediaKey": "hiddenTruthImg",
+      "className": "w-full"
     },
     {
       "type": "heading",
       "text": "The Problems With Viagra Nobody Discusses"
+    },
+    {
+      "type": "image",
+      "mediaKey": "viagraOptionsImg",
+      "className": "w-full"
     },
     {
       "type": "paragraph",
@@ -118,12 +131,13 @@
       "text": "My Professional Assessment"
     },
     {
-      "type": "paragraph",
-      "html": "After 90 days of investigation:<br/><br/>Yes. Lora Capsaicin Power Softgels work. And for most men over 50, they work better than prescription pills.<br/><br/>Not faster—Viagra wins on speed.<br/><br/>But permanent healing vs temporary masking?<br/><br/>Lora wins decisively.<br/><br/>- Lower cost.<br/>- No side effects.<br/>- No dependency.<br/>- Actual cardiovascular health improvement."
+      "type": "image",
+      "mediaKey": "assessmentImg",
+      "className": "w-full"
     },
     {
-      "type": "video",
-      "mediaKey": "v5"
+      "type": "paragraph",
+      "html": "After 90 days of investigation:<br/><br/>Yes. Lora Capsaicin Power Softgels work. And for most men over 50, they work better than prescription pills.<br/><br/>Not faster—Viagra wins on speed.<br/><br/>But permanent healing vs temporary masking?<br/><br/>Lora wins decisively.<br/><br/>- Lower cost.<br/>- No side effects.<br/>- No dependency.<br/>- Actual cardiovascular health improvement."
     },
     {
       "type": "heading",
@@ -147,10 +161,6 @@
       "html": "If you're experiencing ED, declining erection quality, or dependency on pills that are getting less effective—click the button below to try Lora Capsaicin Power Pepper Softgels.<br/><br/>120-day guarantee = zero risk.<br/><br/>Based on my research and clinical observation, there's an 89% chance it will work better long-term than what you're currently using."
     },
     {
-      "type": "video",
-      "mediaKey": "v6"
-    },
-    {
       "type": "heading",
       "text": "Listen To Douglas' Testimonial"
     },
@@ -162,11 +172,6 @@
     {
       "type": "paragraph",
       "html": "Most of my patients see results within the first 12 weeks of trying these cayenne softgels, however Doug reported results rather earlier, at around 4 weeks in."
-    },
-    {
-      "type": "image",
-      "mediaKey": "altImage",
-      "className": "w-full"
     },
     {
       "type": "reviews"

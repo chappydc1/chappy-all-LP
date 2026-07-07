@@ -366,6 +366,8 @@ function RenderBodySection({
           key={idx}
           src={src}
           alt=""
+          loading="lazy"
+          decoding="async"
           className={`inline max-w-full ${section.className ?? ""}`}
         />
       );
@@ -416,9 +418,6 @@ function RenderBodySection({
               alt="As Seen On"
               className="shadow-[rgb(202,202,202)_1px_0px_5px_0px] inline max-w-full w-full mt-0 px-2.5 py-3"
             />
-          </div>
-          <div className="text-zinc-500 text-sm leading-[27px] text-left p-px font-montserrat">
-            <span>&quot;Paid Advertisements&quot;</span>
           </div>
         </div>
       );
