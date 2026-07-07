@@ -337,12 +337,14 @@
   "footer": {
     "disclosureTitle": "MEDICAL & HEALTH DISCLOSURE",
     "disclosureBody": "Results may vary. The content and products presented here are not intended to diagnose, treat, cure, or prevent any disease. Structure/function claims only. NRX NMN has not been evaluated by the FDA. This is not a replacement for any medications or treatments prescribed by a healthcare professional. We recommend consulting a physician before beginning any supplementation protocol, particularly if you are taking prescription medications. Human clinical study references are available at loraritual.com/research.",
-    "copyright": "Løra Ritual - Copyright 2026 - All Rights Reserved.",
+    "copyright": "© 2026, Løra Ritual. All Rights Reserved.",
     "links": [
       { "label": "Privacy Policy", "href": "https://www.lora-ritual.com/policies/privacy-policy" },
-      { "label": "Terms Of Service", "href": "https://www.lora-ritual.com/policies/terms-of-service" },
-      { "label": "Refund Policy", "href": "https://www.lora-ritual.com/policies/refund-policy" }
+      { "label": "Terms Of Service", "href": "https://www.lora-ritual.com/policies/terms-of-service" }
     ],
+    "phone": "+1 800-555-0199",
+    "email": "support@loraritual.com",
+    "address": "Lora Holdings, 100 Congress Ave., Austin, Texas 78701, United States",
     "paymentMethodsAlt": "Payment Methods"
   },
   "stickyCta": "GET 50% OFF NRX NMN"
