@@ -469,7 +469,7 @@ function ArticleContent(): React.JSX.Element {
             </div>
             <img
               src={media.sidebarProductImage}
-              alt="Nebroo hearing aid"
+              alt="Lora Capsaicin Power offer"
               className="hidden basis-[0%] shrink-0 max-w-full w-[90%] mt-2.5 mb-[15px] rounded-[1px] md:inline md:w-[200px]"
             />
             <a
