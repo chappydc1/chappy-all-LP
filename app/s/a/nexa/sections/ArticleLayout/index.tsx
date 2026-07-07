@@ -1,5 +1,5 @@
-import { NexaArticleContent } from "./components/ArticleContent";
-import { NexaProductSidebar } from "./components/ProductSidebar";
+import { NexaArticleContent } from "./components/NexaArticleContent";
+import { NexaProductSidebar } from "./components/NexaProductSidebar";
 
 export const NexaArticleLayout = () => {
   return (

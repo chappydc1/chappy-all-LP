@@ -1,4 +1,4 @@
-import { MorningvitalityMorningVitalityArticleLayout } from "./components/MorningVitalityArticleLayout";
+import { MorningvitalityMorningVitalityArticleLayout } from "./components/MorningvitalityMorningVitalityArticleLayout";
 
 export const MorningvitalityMorningVitalityAdvertorialPage = () => {
   return (

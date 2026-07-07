@@ -1,5 +1,5 @@
-import { NuzVideoContent } from "./components/VideoContent";
-import { NuzVideoDesktop } from "./components/VideoDesktop";
+import { NuzVideoContent } from "./components/NuzVideoContent";
+import { NuzVideoDesktop } from "./components/NuzVideoDesktop";
 import { content } from "../../content";
 
 export const NuzVideoSection = () => {

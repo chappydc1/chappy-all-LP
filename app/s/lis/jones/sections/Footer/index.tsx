@@ -1,6 +1,6 @@
-import { JonesFooterContent } from "../Footer/components/FooterContent";
-import { JonesFooterLegal } from "../Footer/components/FooterLegal";
-import { JonesFooterBottom } from "../Footer/components/FooterBottom";
+import { JonesFooterContent } from "./components/JonesFooterContent";
+import { JonesFooterLegal } from "./components/JonesFooterLegal";
+import { JonesFooterBottom } from "./components/JonesFooterBottom";
 
 export const JonesFooter = () => {
   return (

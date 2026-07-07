@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { NuzReviewCard } from "./components/ReviewCard";
+import { NuzReviewCard } from "./components/NuzReviewCard";
 import { useScrollReveal } from "../../hooks/useScrollReveal";
 import { content } from "../../content";
 

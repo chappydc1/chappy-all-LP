@@ -1,4 +1,4 @@
-import { NexaAdvertorialContent } from "./components/AdvertorialContent";
+import { NexaAdvertorialContent } from "./components/NexaAdvertorialContent";
 
 export const NexaAdvertorialBar = () => {
   return (

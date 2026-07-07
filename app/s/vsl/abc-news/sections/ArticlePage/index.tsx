@@ -1,4 +1,4 @@
-import { AbcNewsStickyAdBanner } from "../ArticlePage/components/StickyAdBanner";
+import { AbcNewsStickyAdBanner } from "./components/AbcNewsStickyAdBanner";
 
 export const AbcNewsArticlePage = () => {
   return (

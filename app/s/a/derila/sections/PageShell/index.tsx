@@ -1,8 +1,8 @@
 import { DerilaNavbar } from "../Navbar";
 import { DerilaArticleLayout } from "../ArticleLayout";
-import { DerilaStickyBottomCta } from "../../components/StickyBottomCta";
+import { DerilaStickyBottomCta } from "../../components/DerilaStickyBottomCta";
 import { DerilaFooter } from "../Footer";
-import { DerilaCookiePreferences } from "../../components/CookiePreferences";
+import { DerilaCookiePreferences } from "../../components/DerilaCookiePreferences";
 import adv from "../../copy.json";
 
 export const DerilaPageShell = () => {

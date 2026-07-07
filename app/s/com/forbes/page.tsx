@@ -1,7 +1,7 @@
 import { ForbesHeader } from "./sections/Header";
 import { ForbesMain } from "./sections/Main";
 import { ForbesFooter } from "./sections/Footer";
-import { ForbesStickyBar } from "./components/StickyBar";
+import { ForbesStickyBar } from "./components/ForbesStickyBar";
 import type { Metadata } from "next";
 
 import adv from "./copy.json";

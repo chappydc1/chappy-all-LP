@@ -1,4 +1,4 @@
-import { RejuvacareKitItem } from "../KitSection/components/KitItem";
+import { RejuvacareKitItem } from "./components/RejuvacareKitItem";
 
 export const RejuvacareKitSection = () => {
   return (

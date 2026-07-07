@@ -1,6 +1,6 @@
-import { PipiteaRatingSummary } from "./components/RatingSummary";
-import { PipiteaReviewCard } from "./components/ReviewCard";
-import { PipiteaSectionCta } from "../../components/SectionCta";
+import { PipiteaRatingSummary } from "./components/PipiteaRatingSummary";
+import { PipiteaReviewCard } from "./components/PipiteaReviewCard";
+import { PipiteaSectionCta } from "../../components/PipiteaSectionCta";
 
 export const PipiteaCustomerReviewsSection = () => {
   return (

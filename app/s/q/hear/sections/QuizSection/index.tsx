@@ -1,4 +1,4 @@
-import { HearQuizContainer } from "../QuizSection/components/QuizContainer";
+import { HearQuizContainer } from "./components/HearQuizContainer";
 
 export const HearQuizSection = () => {
   return (

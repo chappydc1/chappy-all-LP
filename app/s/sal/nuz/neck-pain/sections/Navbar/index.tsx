@@ -1,5 +1,5 @@
-import { NuzNavbarMobile } from "./components/NavbarMobile";
-import { NuzNavbarDesktop } from "./components/NavbarDesktop";
+import { NuzNavbarMobile } from "./components/NuzNavbarMobile";
+import { NuzNavbarDesktop } from "./components/NuzNavbarDesktop";
 
 export const NuzNavbar = () => {
   return (

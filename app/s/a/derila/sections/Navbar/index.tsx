@@ -1,8 +1,8 @@
 import adv from "../../copy.json";
 import media from "../../media.json";
-import { DerilaNavbarLogo } from "../Navbar/components/NavbarLogo";
-import { DerilaDesktopMenu } from "../Navbar/components/DesktopMenu";
-import { DerilaMobileMenu } from "../Navbar/components/MobileMenu";
+import { DerilaNavbarLogo } from "./components/DerilaNavbarLogo";
+import { DerilaDesktopMenu } from "./components/DerilaDesktopMenu";
+import { DerilaMobileMenu } from "./components/DerilaMobileMenu";
 
 export const DerilaNavbar = () => {
   const { links, homeUrl } = adv.navbar;

@@ -1,4 +1,4 @@
-import { FealsReasonCard } from "../ReasonsSection/components/ReasonCard";
+import { FealsReasonCard } from "./components/FealsReasonCard";
 
 export const FealsReasonsSection = () => {
   return (

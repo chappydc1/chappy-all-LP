@@ -1,5 +1,5 @@
-import { PipiteaTimelineItem } from "./components/TimelineItem";
-import { PipiteaSectionCta } from "../../components/SectionCta";
+import { PipiteaTimelineItem } from "./components/PipiteaTimelineItem";
+import { PipiteaSectionCta } from "../../components/PipiteaSectionCta";
 
 export const PipiteaResultsTimelineSection = () => {
   return (

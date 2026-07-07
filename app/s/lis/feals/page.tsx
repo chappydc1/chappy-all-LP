@@ -1,4 +1,4 @@
-import { FealsApp } from "./App";
+import { FealsApp } from "./FealsApp";
 
 export const dynamic = "force-static";
 

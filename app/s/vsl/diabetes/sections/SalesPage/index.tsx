@@ -1,5 +1,5 @@
-import { DiabetesOfferBlock } from "../SalesPage/components/OfferBlock";
-import { DiabetesCommentsSection } from "../SalesPage/components/CommentsSection";
+import { DiabetesOfferBlock } from "./components/DiabetesOfferBlock";
+import { DiabetesCommentsSection } from "./components/DiabetesCommentsSection";
 import { DiabetesFooter } from "../Footer";
 
 export const DiabetesSalesPage = () => {

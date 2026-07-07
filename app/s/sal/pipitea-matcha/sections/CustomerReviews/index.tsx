@@ -1,6 +1,6 @@
-import { PipiteaMatchaRatingSummary } from "./components/RatingSummary";
-import { PipiteaMatchaCustomerReview } from "./components/CustomerReview";
-import { PipiteaMatchaCtaBlock } from "../../components/CtaBlock";
+import { PipiteaMatchaRatingSummary } from "./components/PipiteaMatchaRatingSummary";
+import { PipiteaMatchaCustomerReview } from "./components/PipiteaMatchaCustomerReview";
+import { PipiteaMatchaCtaBlock } from "../../components/PipiteaMatchaCtaBlock";
 
 export const PipiteaMatchaCustomerReviews = () => {
   return (

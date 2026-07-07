@@ -1,4 +1,4 @@
-import { EmmaTestimonialCard } from "../TestimonialsSection/components/TestimonialCard";
+import { EmmaTestimonialCard } from "./components/EmmaTestimonialCard";
 
 export const EmmaTestimonialsSection = () => {
   return (

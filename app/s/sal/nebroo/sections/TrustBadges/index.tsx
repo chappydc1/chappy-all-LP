@@ -1,5 +1,5 @@
 "use client";
-import { NebrooTrustBadgeItem } from "../TrustBadges/components/TrustBadgeItem";
+import { NebrooTrustBadgeItem } from "./components/NebrooTrustBadgeItem";
 import { useScrollReveal } from "../../hooks/useScrollReveal";
 
 export const NebrooTrustBadges = () => {

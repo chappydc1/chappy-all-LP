@@ -1,5 +1,5 @@
-import { FealsMobileHeader } from "../Header/components/MobileHeader";
-import { FealsDesktopHeader } from "../Header/components/DesktopHeader";
+import { FealsMobileHeader } from "./components/FealsMobileHeader";
+import { FealsDesktopHeader } from "./components/FealsDesktopHeader";
 
 export const FealsHeader = () => {
   return (

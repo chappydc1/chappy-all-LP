@@ -1,5 +1,5 @@
-import { JonesDesktopHeader } from "../Header/components/DesktopHeader";
-import { JonesMobileHeader } from "../Header/components/MobileHeader";
+import { JonesDesktopHeader } from "./components/JonesDesktopHeader";
+import { JonesMobileHeader } from "./components/JonesMobileHeader";
 
 export const JonesHeader = () => {
   return (

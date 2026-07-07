@@ -14,7 +14,7 @@ import { PipiteaOfferSection } from "../OfferSection";
 import { PipiteaCustomerReviewsSection } from "../CustomerReviewsSection";
 import { PipiteaFaqSection } from "../FaqSection";
 import { PipiteaFooter } from "../Footer";
-import { PipiteaStickyMobileCta } from "../../components/StickyMobileCta";
+import { PipiteaStickyMobileCta } from "../../components/PipiteaStickyMobileCta";
 
 export const PipiteaMain = () => {
   return (

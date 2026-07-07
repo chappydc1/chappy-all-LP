@@ -1,4 +1,4 @@
-import { JavyComparisonRow } from "./components/ComparisonRow";
+import { JavyComparisonRow } from "./components/JavyComparisonRow";
 
 export const JavyComparisonTable = () => {
   return (

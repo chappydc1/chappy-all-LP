@@ -1,4 +1,4 @@
-import { PipiteaHeaderLogo } from "./components/HeaderLogo";
+import { PipiteaHeaderLogo } from "./components/PipiteaHeaderLogo";
 
 export const PipiteaHeader = () => {
   return (

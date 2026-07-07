@@ -1,4 +1,4 @@
-import { PrimepicksHeroContent } from "../HeroSection/components/HeroContent";
+import { PrimepicksHeroContent } from "./components/PrimepicksHeroContent";
 
 export const PrimepicksHeroSection = () => {
   return (

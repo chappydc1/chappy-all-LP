@@ -1,4 +1,4 @@
-import { PipiteaPreparationStep } from "./components/PreparationStep";
+import { PipiteaPreparationStep } from "./components/PipiteaPreparationStep";
 
 export const PipiteaPreparationSection = () => {
   return (

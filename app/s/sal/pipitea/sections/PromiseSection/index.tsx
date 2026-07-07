@@ -1,4 +1,4 @@
-import { PipiteaPromiseItem } from "../../components/PromiseItem";
+import { PipiteaPromiseItem } from "../../components/PipiteaPromiseItem";
 
 export const PipiteaPromiseSection = () => {
   return (

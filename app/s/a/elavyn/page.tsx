@@ -1,5 +1,5 @@
 import { ElavynMainContent } from "./sections/MainContent";
-import { ElavynPageOverlays } from "./components/PageOverlays";
+import { ElavynPageOverlays } from "./components/ElavynPageOverlays";
 
 export default function ElavynPage(): React.ReactElement {
   return (

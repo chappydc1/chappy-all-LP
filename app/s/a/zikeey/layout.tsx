@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { ZikeeyReadProgressBar } from "./components/ReadProgressBar";
+import { ZikeeyReadProgressBar } from "./components/ZikeeyReadProgressBar";
 import adv from "./copy.json";
 
 export const metadata: Metadata = {

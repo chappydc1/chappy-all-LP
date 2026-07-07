@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 import adv from "./copy.json";
 import media from "./media.json";
-import { ShilajitNavbar } from "./components/Navbar";
-import { ShilajitBreadcrumb } from "./components/Breadcrumb";
-import { ShilajitProductCard } from "./components/ProductCard";
-import { ShilajitNewsletter } from "./components/Newsletter";
-import { ShilajitFooter } from "./components/Footer";
-import { ShilajitFAQSection } from "./components/FAQSection";
+import { ShilajitNavbar } from "./components/ShilajitNavbar";
+import { ShilajitBreadcrumb } from "./components/ShilajitBreadcrumb";
+import { ShilajitProductCard } from "./components/ShilajitProductCard";
+import { ShilajitNewsletter } from "./components/ShilajitNewsletter";
+import { ShilajitFooter } from "./components/ShilajitFooter";
+import { ShilajitFAQSection } from "./components/ShilajitFAQSection";
 
 export const metadata: Metadata = {
   title: adv.meta.title,

@@ -1,5 +1,5 @@
-import { PrimepicksArticle } from "../ArticleSection/components/Article";
-import { PrimepicksSidebar } from "../ArticleSection/components/Sidebar";
+import { PrimepicksArticle } from "./components/PrimepicksArticle";
+import { PrimepicksSidebar } from "./components/PrimepicksSidebar";
 
 export const PrimepicksArticleSection = () => {
   return (

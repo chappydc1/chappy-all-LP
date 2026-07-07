@@ -1,5 +1,5 @@
 "use client";
-import { NebrooReviewCard } from "../Reviews/components/ReviewCard";
+import { NebrooReviewCard } from "./components/NebrooReviewCard";
 import { useScrollReveal } from "../../hooks/useScrollReveal";
 
 export const NebrooReviews = () => {

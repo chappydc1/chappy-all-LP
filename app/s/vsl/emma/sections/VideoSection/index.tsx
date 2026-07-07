@@ -1,5 +1,5 @@
-import { EmmaVideoPlayer } from "../VideoSection/components/VideoPlayer";
-import { EmmaDoctorProfile } from "../VideoSection/components/DoctorProfile";
+import { EmmaVideoPlayer } from "./components/EmmaVideoPlayer";
+import { EmmaDoctorProfile } from "./components/EmmaDoctorProfile";
 
 export const EmmaVideoSection = () => {
   return (

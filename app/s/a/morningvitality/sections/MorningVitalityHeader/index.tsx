@@ -1,4 +1,4 @@
-import { MorningvitalityMorningVitalityHeaderBanner } from "./components/MorningVitalityHeaderBanner";
+import { MorningvitalityMorningVitalityHeaderBanner } from "./components/MorningvitalityMorningVitalityHeaderBanner";
 
 export const MorningvitalityMorningVitalityHeader = () => {
   return (

@@ -1,5 +1,5 @@
-import { OprahPricingCard } from "../PricingTable/components/PricingCard";
-import { OprahMobilePricingCards } from "../PricingTable/components/MobilePricingCards";
+import { OprahPricingCard } from "./components/OprahPricingCard";
+import { OprahMobilePricingCards } from "./components/OprahMobilePricingCards";
 import { OprahFAQSection } from "../FAQSection";
 import { OprahGuaranteeSection } from "../GuaranteeSection";
 

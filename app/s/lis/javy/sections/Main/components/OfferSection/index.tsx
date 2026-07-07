@@ -1,7 +1,7 @@
 "use client";
 
 import { useScrollReveal } from "../../../../hooks/useScrollReveal";
-import { JavyOfferCard } from "../../../Main/components/OfferSection/components/OfferCard";
+import { JavyOfferCard } from "./components/JavyOfferCard";
 
 export const JavyOfferSection = () => {
   const headingRef = useScrollReveal<HTMLDivElement>();

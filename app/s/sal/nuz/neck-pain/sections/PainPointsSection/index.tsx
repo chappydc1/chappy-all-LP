@@ -1,8 +1,8 @@
 "use client";
 
 import { useScrollReveal } from "../../hooks/useScrollReveal";
-import { NuzPainPointsGrid } from "./components/PainPointsGrid";
-import { NuzRecommendedSection } from "./components/RecommendedSection";
+import { NuzPainPointsGrid } from "./components/NuzPainPointsGrid";
+import { NuzRecommendedSection } from "./components/NuzRecommendedSection";
 
 export const NuzPainPointsSection = () => {
   const { ref, visible } = useScrollReveal();

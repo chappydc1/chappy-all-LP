@@ -1,4 +1,4 @@
-import { EmmaFAQItem } from "../FAQSection/components/FAQItem";
+import { EmmaFAQItem } from "./components/EmmaFAQItem";
 
 export const EmmaFAQSection = () => {
   return (

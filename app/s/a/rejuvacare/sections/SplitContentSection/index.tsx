@@ -1,5 +1,5 @@
-import { RejuvacareSplitMedia } from "../../components/SplitMedia";
-import { RejuvacareSplitText } from "../../components/SplitText";
+import { RejuvacareSplitMedia } from "../../components/RejuvacareSplitMedia";
+import { RejuvacareSplitText } from "../../components/RejuvacareSplitText";
 
 export const RejuvacareSplitContentSection = () => {
   return (

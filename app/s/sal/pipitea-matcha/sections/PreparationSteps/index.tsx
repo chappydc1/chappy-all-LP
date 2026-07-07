@@ -1,4 +1,4 @@
-import { PipiteaMatchaPreparationStep } from "./components/PreparationStep";
+import { PipiteaMatchaPreparationStep } from "./components/PipiteaMatchaPreparationStep";
 
 export const PipiteaMatchaPreparationSteps = () => {
   return (

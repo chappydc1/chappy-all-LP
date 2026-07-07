@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { ForbesHeaderLogo } from "../Header/components/HeaderLogo";
+import { ForbesHeaderLogo } from "./components/ForbesHeaderLogo";
 
 export const ForbesHeader = ({ logoSrc }: { logoSrc: string }) => {
   const [scrolled, setScrolled] = useState(false);

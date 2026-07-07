@@ -1,4 +1,4 @@
-import { RejuvacareTestimonialCard } from "../TestimonialsSection/components/TestimonialCard";
+import { RejuvacareTestimonialCard } from "./components/RejuvacareTestimonialCard";
 
 export const RejuvacareTestimonialsSection = () => {
         return (

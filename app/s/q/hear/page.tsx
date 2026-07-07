@@ -1,12 +1,12 @@
 "use client";
-import { HearHiddenNextControl } from "./components/HiddenNextControl";
+import { HearHiddenNextControl } from "./components/HearHiddenNextControl";
 import { HearHeader } from "./sections/Header";
 import { HearQualificationBanner } from "./sections/QualificationBanner";
 import { HearSecondaryBanner } from "./sections/SecondaryBanner";
 import { HearQuizSection } from "./sections/QuizSection";
 import { HearInsuranceAndFooterSection } from "./sections/InsuranceAndFooterSection";
-import { HearHipaaModal } from "./components/HipaaModal";
-import { HearTrackingFrame } from "./components/TrackingFrame";
+import { HearHipaaModal } from "./components/HearHipaaModal";
+import { HearTrackingFrame } from "./components/HearTrackingFrame";
 
 export default function HearQuizHearPage() {
   return (

@@ -1,4 +1,4 @@
-import { PrimepicksHeaderLogo } from "../Header/components/HeaderLogo";
+import { PrimepicksHeaderLogo } from "./components/PrimepicksHeaderLogo";
 
 export const PrimepicksHeader = () => {
   return (

@@ -1,5 +1,5 @@
-import { HearHeaderMarker } from "../Header/components/HeaderMarker";
-import { HearHeaderBrand } from "../Header/components/HeaderBrand";
+import { HearHeaderMarker } from "./components/HearHeaderMarker";
+import { HearHeaderBrand } from "./components/HearHeaderBrand";
 
 export const HearHeader = () => {
   return (

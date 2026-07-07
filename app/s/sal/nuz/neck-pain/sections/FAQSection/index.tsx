@@ -1,6 +1,6 @@
 "use client";
 
-import { NuzFAQItem } from "./components/FAQItem";
+import { NuzFAQItem } from "./components/NuzFAQItem";
 import { useScrollReveal } from "../../hooks/useScrollReveal";
 import { content } from "../../content";
 

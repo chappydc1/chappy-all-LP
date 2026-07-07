@@ -1,10 +1,10 @@
 "use client"
 
 import { useState } from "react"
-import { useLpContent } from "../../context/LpContext"
-import { PipiteaProductGallery } from "./components/ProductGallery"
-import { PipiteaDesktopTestimonial } from "./components/DesktopTestimonial"
-import { PipiteaHeroContent } from "./components/HeroContent"
+import { useLpContent } from "../../context/PipiteaLpContext"
+import { PipiteaProductGallery } from "./components/PipiteaProductGallery"
+import { PipiteaDesktopTestimonial } from "./components/PipiteaDesktopTestimonial"
+import { PipiteaHeroContent } from "./components/PipiteaHeroContent"
 
 export const PipiteaHeroSection = (): JSX.Element => {
   const { media } = useLpContent()

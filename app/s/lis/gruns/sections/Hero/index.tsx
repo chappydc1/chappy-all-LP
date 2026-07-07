@@ -1,6 +1,6 @@
-import { GrunsHeroMedia } from "../Hero/components/HeroMedia";
-import { GrunsHeroContent } from "../Hero/components/HeroContent";
-import { GrunsStickyCtaBar } from "../Hero/components/StickyCtaBar";
+import { GrunsHeroMedia } from "./components/GrunsHeroMedia";
+import { GrunsHeroContent } from "./components/GrunsHeroContent";
+import { GrunsStickyCtaBar } from "./components/GrunsStickyCtaBar";
 
 export const GrunsHero = () => {
   return (

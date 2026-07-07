@@ -1,7 +1,7 @@
 import { JavyArticleHeader } from "../Main/components/ArticleHeader";
 import { JavyArticleSection } from "../Main/components/ArticleSection";
 import { JavyOfferSection } from "../Main/components/OfferSection";
-import { JavyStickyBuyBar } from "../Main/components/StickyBuyBar";
+import { JavyStickyBuyBar } from "./components/JavyStickyBuyBar";
 
 export const JavyMain = () => {
   return (

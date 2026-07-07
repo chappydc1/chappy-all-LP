@@ -1,5 +1,5 @@
-import { PipiteaMatchaProductGallery } from "./components/ProductGallery";
-import { PipiteaMatchaHeroContent } from "./components/HeroContent";
+import { PipiteaMatchaProductGallery } from "./components/PipiteaMatchaProductGallery";
+import { PipiteaMatchaHeroContent } from "./components/PipiteaMatchaHeroContent";
 
 export const PipiteaMatchaProductHero = (): JSX.Element => {
   return (

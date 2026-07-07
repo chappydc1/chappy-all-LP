@@ -1,9 +1,9 @@
-import { ZikeeyAdBanner } from "./components/AdBanner";
-import { ZikeeyArticleHeader } from "./components/ArticleHeader";
-import { ZikeeyMainArticle } from "./components/MainArticle";
-import { ZikeeySidebar } from "./components/Sidebar";
-import { ZikeeyMobileFixedCTA } from "./components/MobileFixedCTA";
-import { ZikeeyFooter } from "./components/Footer";
+import { ZikeeyAdBanner } from "./components/ZikeeyAdBanner";
+import { ZikeeyArticleHeader } from "./components/ZikeeyArticleHeader";
+import { ZikeeyMainArticle } from "./components/ZikeeyMainArticle";
+import { ZikeeySidebar } from "./components/ZikeeySidebar";
+import { ZikeeyMobileFixedCTA } from "./components/ZikeeyMobileFixedCTA";
+import { ZikeeyFooter } from "./components/ZikeeyFooter";
 
 export default function ZikeeyPage() {
   return (

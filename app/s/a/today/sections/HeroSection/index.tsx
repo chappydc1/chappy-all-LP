@@ -1,4 +1,4 @@
-import { TodayAdvertorialArticle } from "../HeroSection/components/AdvertorialArticle";
+import { TodayAdvertorialArticle } from "./components/TodayAdvertorialArticle";
 
 export const TodayHeroSection = () => {
   return (

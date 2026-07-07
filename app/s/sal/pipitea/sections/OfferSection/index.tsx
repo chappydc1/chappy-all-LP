@@ -1,5 +1,5 @@
-import { PipiteaOfferImage } from "./components/OfferImage";
-import { PipiteaOfferContent } from "./components/OfferContent";
+import { PipiteaOfferImage } from "./components/PipiteaOfferImage";
+import { PipiteaOfferContent } from "./components/PipiteaOfferContent";
 
 export const PipiteaOfferSection = () => {
   return (

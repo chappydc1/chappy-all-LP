@@ -1,5 +1,5 @@
-import { PipiteaMatchaFaqItem } from "./components/FaqItem";
-import { PipiteaMatchaCtaBlock } from "../../components/CtaBlock";
+import { PipiteaMatchaFaqItem } from "./components/PipiteaMatchaFaqItem";
+import { PipiteaMatchaCtaBlock } from "../../components/PipiteaMatchaCtaBlock";
 
 export const PipiteaMatchaFaqSection = () => {
   return (

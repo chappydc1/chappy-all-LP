@@ -1,5 +1,5 @@
-import { JonesCookieConsent } from "./components/CookieConsent";
-import { JonesPageShell } from "./components/PageShell";
+import { JonesCookieConsent } from "./components/JonesCookieConsent";
+import { JonesPageShell } from "./components/JonesPageShell";
 import { JonesFooter } from "./sections/Footer";
 
 export default function JonesLandingPage() {

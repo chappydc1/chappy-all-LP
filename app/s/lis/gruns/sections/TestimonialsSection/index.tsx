@@ -1,4 +1,4 @@
-import { GrunsTestimonialCard } from "../TestimonialsSection/components/TestimonialCard";
+import { GrunsTestimonialCard } from "./components/GrunsTestimonialCard";
 
 export const GrunsTestimonialsSection = () => {
   return (

@@ -1,4 +1,4 @@
-import { PipiteaMatchaSurveyStat } from "./components/SurveyStat";
+import { PipiteaMatchaSurveyStat } from "./components/PipiteaMatchaSurveyStat";
 
 export const PipiteaMatchaSurveyResults = () => {
   return (

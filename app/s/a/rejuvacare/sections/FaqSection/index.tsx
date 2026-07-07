@@ -1,4 +1,4 @@
-import { RejuvacareFaqItem } from "../FaqSection/components/FaqItem";
+import { RejuvacareFaqItem } from "./components/RejuvacareFaqItem";
 
 export const RejuvacareFaqSection = () => {
   return (

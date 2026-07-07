@@ -3,9 +3,9 @@ import { NexaHeader } from "./sections/Header";
 import { NexaAdvertorialBar } from "./sections/AdvertorialBar";
 import { NexaArticleLayout } from "./sections/ArticleLayout";
 import { NexaFooter } from "./sections/Footer";
-import { NexaStickyCta } from "./components/StickyCta";
-import { NexaTermsModal } from "./components/TermsModal";
-import { NexaPrivacyModal } from "./components/PrivacyModal";
+import { NexaStickyCta } from "./components/NexaStickyCta";
+import { NexaTermsModal } from "./components/NexaTermsModal";
+import { NexaPrivacyModal } from "./components/NexaPrivacyModal";
 
 export const metadata: Metadata = {
   title: "Nexa",

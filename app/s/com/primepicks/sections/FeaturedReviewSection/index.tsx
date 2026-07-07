@@ -1,4 +1,4 @@
-import { PrimepicksFeaturedReviewCard } from "../FeaturedReviewSection/components/FeaturedReviewCard";
+import { PrimepicksFeaturedReviewCard } from "./components/PrimepicksFeaturedReviewCard";
 
 export const PrimepicksFeaturedReviewSection = () => {
   return (

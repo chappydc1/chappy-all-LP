@@ -1,5 +1,5 @@
-import { PipiteaMatchaOfferBenefits } from "./components/OfferBenefits";
-import { PipiteaMatchaCtaBlock } from "../../components/CtaBlock";
+import { PipiteaMatchaOfferBenefits } from "./components/PipiteaMatchaOfferBenefits";
+import { PipiteaMatchaCtaBlock } from "../../components/PipiteaMatchaCtaBlock";
 
 export const PipiteaMatchaSpecialOffer = () => {
   return (

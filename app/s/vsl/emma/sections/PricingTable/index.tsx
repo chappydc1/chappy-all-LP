@@ -1,5 +1,5 @@
-import { EmmaPricingCard } from "../PricingTable/components/PricingCard";
-import { EmmaMobilePricingCards } from "../PricingTable/components/MobilePricingCards";
+import { EmmaPricingCard } from "./components/EmmaPricingCard";
+import { EmmaMobilePricingCards } from "./components/EmmaMobilePricingCards";
 import { EmmaFAQSection } from "../FAQSection";
 import { EmmaGuaranteeSection } from "../GuaranteeSection";
 

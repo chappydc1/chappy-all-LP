@@ -1,5 +1,5 @@
-import { PipiteaMatchaTimelineItem } from "./components/TimelineItem";
-import { PipiteaMatchaCtaBlock } from "../../components/CtaBlock";
+import { PipiteaMatchaTimelineItem } from "./components/PipiteaMatchaTimelineItem";
+import { PipiteaMatchaCtaBlock } from "../../components/PipiteaMatchaCtaBlock";
 
 export const PipiteaMatchaResultsTimeline = () => {
   return (

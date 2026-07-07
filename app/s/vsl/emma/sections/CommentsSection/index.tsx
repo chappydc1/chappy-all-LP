@@ -1,4 +1,4 @@
-import { EmmaCommentItem } from "../CommentsSection/components/CommentItem";
+import { EmmaCommentItem } from "./components/EmmaCommentItem";
 
 export const EmmaCommentsSection = () => {
   return (

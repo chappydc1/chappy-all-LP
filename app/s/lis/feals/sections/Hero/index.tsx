@@ -1,6 +1,6 @@
-import { FealsHeroAnnouncement } from "../Hero/components/HeroAnnouncement";
-import { FealsHeroLogo } from "../Hero/components/HeroLogo";
-import { FealsHeroContent } from "../Hero/components/HeroContent";
+import { FealsHeroAnnouncement } from "./components/FealsHeroAnnouncement";
+import { FealsHeroLogo } from "./components/FealsHeroLogo";
+import { FealsHeroContent } from "./components/FealsHeroContent";
 
 export const FealsHero = () => {
   return (

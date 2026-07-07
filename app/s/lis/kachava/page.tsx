@@ -23,11 +23,11 @@ const adv = rawAdv as typeof rawAdv & {
     bottom: { copyright: string; legalLinks: AdvLegalLink[] };
   };
 };
-import { KachavaHeader } from "./_components/Header";
-import { KachavaHeroSection } from "./_components/HeroSection";
-import { KachavaReasonSection } from "./_components/ReasonSection";
-import { KachavaFooter } from "./_components/Footer";
-import { KachavaFloatingActionButton } from "./_components/FloatingActionButton";
+import { KachavaHeader } from "./_components/KachavaHeader";
+import { KachavaHeroSection } from "./_components/KachavaHeroSection";
+import { KachavaReasonSection } from "./_components/KachavaReasonSection";
+import { KachavaFooter } from "./_components/KachavaFooter";
+import { KachavaFloatingActionButton } from "./_components/KachavaFloatingActionButton";
 
 function getIcon(id: string) {
   return media.icons.find((i) => i.id === id)?.path ?? "";

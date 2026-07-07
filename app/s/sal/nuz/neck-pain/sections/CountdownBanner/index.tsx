@@ -1,4 +1,4 @@
-import { NuzCountdownTimer } from "./components/CountdownTimer";
+import { NuzCountdownTimer } from "./components/NuzCountdownTimer";
 import { content } from "../../content";
 
 export const NuzCountdownBanner = () => {

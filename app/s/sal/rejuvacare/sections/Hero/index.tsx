@@ -1,5 +1,5 @@
-import { RejuvacareHeroContent } from "../Hero/components/HeroContent";
-import { RejuvacareHeroMedia } from "../Hero/components/HeroMedia";
+import { RejuvacareHeroContent } from "./components/RejuvacareHeroContent";
+import { RejuvacareHeroMedia } from "./components/RejuvacareHeroMedia";
 
 export const RejuvacareHero = () => {
   return (

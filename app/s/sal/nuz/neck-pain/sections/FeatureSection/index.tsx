@@ -1,6 +1,6 @@
 "use client";
 
-import { NuzFeatureCard } from "./components/FeatureCard";
+import { NuzFeatureCard } from "./components/NuzFeatureCard";
 import { useCountdown } from "../../hooks/useCountdown";
 import { content } from "../../content";
 

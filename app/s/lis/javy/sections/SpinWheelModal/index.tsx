@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { JavySpinWheel } from "../SpinWheelModal/components/SpinWheel";
+import { JavySpinWheel } from "./components/JavySpinWheel";
 
 export const JavySpinWheelModal = () => {
   const [open, setOpen] = useState(false);

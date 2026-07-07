@@ -1,4 +1,4 @@
-import { JonesFeatureItem } from "../FeatureSection/components/FeatureItem";
+import { JonesFeatureItem } from "./components/JonesFeatureItem";
 
 export const JonesFeatureSection = () => {
         return (

@@ -1,5 +1,5 @@
-import { PipiteaPromiseItem } from "../../components/PromiseItem";
-import { PipiteaCertificationItem } from "./components/CertificationItem";
+import { PipiteaPromiseItem } from "../../components/PipiteaPromiseItem";
+import { PipiteaCertificationItem } from "./components/PipiteaCertificationItem";
 
 export const PipiteaQualityPromiseSection = () => {
   return (

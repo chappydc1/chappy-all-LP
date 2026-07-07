@@ -1,4 +1,4 @@
-import { PrimepicksProductListContainer } from "../ProductListSection/components/ProductListContainer";
+import { PrimepicksProductListContainer } from "./components/PrimepicksProductListContainer";
 
 export const PrimepicksProductListSection = () => {
   return (

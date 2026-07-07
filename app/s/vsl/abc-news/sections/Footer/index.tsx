@@ -1,4 +1,4 @@
-import { AbcNewsFooterLinks } from "../Footer/components/FooterLinks";
+import { AbcNewsFooterLinks } from "./components/AbcNewsFooterLinks";
 
 export const AbcNewsFooter = () => {
   return (

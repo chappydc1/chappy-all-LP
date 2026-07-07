@@ -1,5 +1,5 @@
-import { NuzHeroProduct } from "./components/HeroProduct";
-import { NuzHeroContent } from "./components/HeroContent";
+import { NuzHeroProduct } from "./components/NuzHeroProduct";
+import { NuzHeroContent } from "./components/NuzHeroContent";
 
 export const NuzHeroSection = () => {
   return (

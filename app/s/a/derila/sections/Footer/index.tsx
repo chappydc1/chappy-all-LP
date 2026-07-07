@@ -1,5 +1,5 @@
-import { DerilaFooterMain } from "../Footer/components/FooterMain";
-import { DerilaFooterBottom } from "../Footer/components/FooterBottom";
+import { DerilaFooterMain } from "./components/DerilaFooterMain";
+import { DerilaFooterBottom } from "./components/DerilaFooterBottom";
 
 export const DerilaFooter = () => {
   return (

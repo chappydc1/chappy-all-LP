@@ -1,7 +1,7 @@
-import { TodayCountdownBanner } from "../OfferSection/components/CountdownBanner";
-import { TodayPricingSection } from "../OfferSection/components/PricingSection";
-import { TodayGuaranteeSection } from "../OfferSection/components/GuaranteeSection";
-import { TodayFAQSection } from "../OfferSection/components/FAQSection";
+import { TodayCountdownBanner } from "./components/TodayCountdownBanner";
+import { TodayPricingSection } from "./components/TodayPricingSection";
+import { TodayGuaranteeSection } from "./components/TodayGuaranteeSection";
+import { TodayFAQSection } from "./components/TodayFAQSection";
 
 export const TodayOfferSection = () => {
   return (

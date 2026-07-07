@@ -1,4 +1,4 @@
-import { FealsPressLogo } from "../PressLogoSection/components/PressLogo";
+import { FealsPressLogo } from "./components/FealsPressLogo";
 
 export const FealsPressLogoSection = () => {
   return (

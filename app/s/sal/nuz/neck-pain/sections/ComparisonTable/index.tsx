@@ -1,6 +1,6 @@
 "use client";
 
-import { NuzComparisonRow } from "./components/ComparisonRow";
+import { NuzComparisonRow } from "./components/NuzComparisonRow";
 import { useScrollReveal } from "../../hooks/useScrollReveal";
 import { useCountdown } from "../../hooks/useCountdown";
 import { content } from "../../content";

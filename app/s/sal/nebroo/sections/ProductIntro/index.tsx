@@ -1,6 +1,6 @@
-import { NebrooProductIntroText } from "../ProductIntro/components/ProductIntroText";
-import { NebrooProductIntroImage } from "../ProductIntro/components/ProductIntroImage";
-import { NebrooVoxHumanaChip } from "../ProductIntro/components/VoxHumanaChip";
+import { NebrooProductIntroText } from "./components/NebrooProductIntroText";
+import { NebrooProductIntroImage } from "./components/NebrooProductIntroImage";
+import { NebrooVoxHumanaChip } from "./components/NebrooVoxHumanaChip";
 
 export const NebrooProductIntro = () => {
   return (

@@ -1,4 +1,4 @@
-import { NuzHowItWorksStep } from "./components/HowItWorksStep";
+import { NuzHowItWorksStep } from "./components/NuzHowItWorksStep";
 import { content } from "../../content";
 
 export const NuzHowItWorksSection = () => {

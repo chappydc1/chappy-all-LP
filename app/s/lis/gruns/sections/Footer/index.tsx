@@ -1,6 +1,6 @@
-import { GrunsNewsletterSignup } from "../Footer/components/NewsletterSignup";
-import { GrunsFooterNav } from "../Footer/components/FooterNav";
-import { GrunsFooterLegal } from "../Footer/components/FooterLegal";
+import { GrunsNewsletterSignup } from "./components/GrunsNewsletterSignup";
+import { GrunsFooterNav } from "./components/GrunsFooterNav";
+import { GrunsFooterLegal } from "./components/GrunsFooterLegal";
 
 export const GrunsFooter = () => {
   return (

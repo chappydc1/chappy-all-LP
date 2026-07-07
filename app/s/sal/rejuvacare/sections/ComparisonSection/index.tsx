@@ -1,4 +1,4 @@
-import { RejuvacareComparisonTable } from "../ComparisonSection/components/ComparisonTable";
+import { RejuvacareComparisonTable } from "./components/RejuvacareComparisonTable";
 
 export const RejuvacareComparisonSection = () => {
   return (

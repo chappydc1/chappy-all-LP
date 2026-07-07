@@ -1,6 +1,6 @@
-import { HikeArticleIntro } from "../MainArticle/components/ArticleIntro";
-import { HikeRecommendedProduct } from "../MainArticle/components/RecommendedProduct";
-import { HikeFeatureSection } from "../MainArticle/components/FeatureSection";
+import { HikeArticleIntro } from "./components/HikeArticleIntro";
+import { HikeRecommendedProduct } from "./components/HikeRecommendedProduct";
+import { HikeFeatureSection } from "./components/HikeFeatureSection";
 
 export const HikeMainArticle = () => {
   return (

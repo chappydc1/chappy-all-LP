@@ -1,4 +1,4 @@
-import { PipiteaSurveyStat } from "./components/SurveyStat";
+import { PipiteaSurveyStat } from "./components/PipiteaSurveyStat";
 
 export const PipiteaCustomerSurveySection = () => {
   return (

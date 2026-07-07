@@ -1,7 +1,7 @@
-import { ElavynJournalHeader } from "./components/JournalHeader";
-import { ElavynArticleHero } from "./components/ArticleHero";
-import { ElavynProductOffer } from "./components/ProductOffer";
-import { ElavynCommentsSection } from "./components/CommentsSection";
+import { ElavynJournalHeader } from "./components/ElavynJournalHeader";
+import { ElavynArticleHero } from "./components/ElavynArticleHero";
+import { ElavynProductOffer } from "./components/ElavynProductOffer";
+import { ElavynCommentsSection } from "./components/ElavynCommentsSection";
 
 export const ElavynMainContent = () => {
   return (

@@ -1,4 +1,4 @@
-import { PipiteaComparisonPoint } from "./components/ComparisonPoint";
+import { PipiteaComparisonPoint } from "./components/PipiteaComparisonPoint";
 
 export const PipiteaSupportComparisonSection = () => {
   return (

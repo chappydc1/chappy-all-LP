@@ -1,6 +1,6 @@
-import { PipiteaFooterLogo } from "./components/FooterLogo";
-import { PipiteaFooterLinks } from "./components/FooterLinks";
-import { PipiteaFooterCopyright } from "./components/FooterCopyright";
+import { PipiteaFooterLogo } from "./components/PipiteaFooterLogo";
+import { PipiteaFooterLinks } from "./components/PipiteaFooterLinks";
+import { PipiteaFooterCopyright } from "./components/PipiteaFooterCopyright";
 
 export const PipiteaFooter = () => {
   return (

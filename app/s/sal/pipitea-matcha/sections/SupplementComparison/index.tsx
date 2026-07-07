@@ -1,5 +1,5 @@
-import { PipiteaMatchaComparisonTable } from "./components/ComparisonTable";
-import { PipiteaMatchaCtaBlock } from "../../components/CtaBlock";
+import { PipiteaMatchaComparisonTable } from "./components/PipiteaMatchaComparisonTable";
+import { PipiteaMatchaCtaBlock } from "../../components/PipiteaMatchaCtaBlock";
 
 export const PipiteaMatchaSupplementComparison = () => {
   return (

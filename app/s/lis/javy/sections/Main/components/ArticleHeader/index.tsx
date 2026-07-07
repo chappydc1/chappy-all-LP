@@ -1,5 +1,5 @@
-import { JavyArticleTitle } from "../../../Main/components/ArticleHeader/components/ArticleTitle";
-import { JavyArticleAuthor } from "../../../Main/components/ArticleHeader/components/ArticleAuthor";
+import { JavyArticleTitle } from "./components/JavyArticleTitle";
+import { JavyArticleAuthor } from "./components/JavyArticleAuthor";
 import { JavyComparisonTable } from "../../../Main/components/ArticleHeader/components/ComparisonTable";
 
 export const JavyArticleHeader = () => {

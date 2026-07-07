@@ -1,6 +1,6 @@
-import { HearInsurancePlans } from "../InsuranceAndFooterSection/components/InsurancePlans";
-import { HearBenefits } from "../InsuranceAndFooterSection/components/Benefits";
-import { HearFooter } from "../InsuranceAndFooterSection/components/Footer";
+import { HearInsurancePlans } from "./components/HearInsurancePlans";
+import { HearBenefits } from "./components/HearBenefits";
+import { HearFooter } from "./components/HearFooter";
 
 export const HearInsuranceAndFooterSection = () => {
   return (

@@ -1,4 +1,4 @@
-import { RejuvacareBenefitCard } from "../BenefitsSection/components/BenefitCard";
+import { RejuvacareBenefitCard } from "./components/RejuvacareBenefitCard";
 
 export const RejuvacareBenefitsSection = () => {
   return (

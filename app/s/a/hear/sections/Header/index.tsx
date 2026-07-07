@@ -1,4 +1,4 @@
-import { HearHeaderLogo } from "../Header/components/HeaderLogo";
+import { HearHeaderLogo } from "./components/HearHeaderLogo";
 import { useScrollReveal } from "../../hooks/useScrollReveal";
 
 export const HearHeader = () => {

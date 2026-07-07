@@ -1,5 +1,5 @@
-import { PipiteaMatchaReviewCard } from "./components/ReviewCard";
-import { PipiteaMatchaCtaBlock } from "../../components/CtaBlock";
+import { PipiteaMatchaReviewCard } from "./components/PipiteaMatchaReviewCard";
+import { PipiteaMatchaCtaBlock } from "../../components/PipiteaMatchaCtaBlock";
 
 export const PipiteaMatchaFeaturedReviews = () => {
   return (

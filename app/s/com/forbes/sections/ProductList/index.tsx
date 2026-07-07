@@ -1,6 +1,6 @@
 "use client";
 
-import { ForbesProductItem } from "../ProductList/components/ProductItem";
+import { ForbesProductItem } from "./components/ForbesProductItem";
 
 type Product = {
   rank: number;

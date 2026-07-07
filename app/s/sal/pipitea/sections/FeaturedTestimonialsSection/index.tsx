@@ -1,5 +1,5 @@
-import { PipiteaFeaturedTestimonial } from "./components/FeaturedTestimonial";
-import { PipiteaSectionCta } from "../../components/SectionCta";
+import { PipiteaFeaturedTestimonial } from "./components/PipiteaFeaturedTestimonial";
+import { PipiteaSectionCta } from "../../components/PipiteaSectionCta";
 
 export const PipiteaFeaturedTestimonialsSection = () => {
   return (

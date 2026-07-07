@@ -1,8 +1,8 @@
 "use client";
 
 import { RosabellaAdvertorialProvider, type RosabellaCopyType, type RosabellaMediaType } from "./context";
-import { RosabellaAdvertorialBanner } from "../MainLayout/components/AdvertorialBanner";
-import { RosabellaAlertBanner } from "../MainLayout/components/AlertBanner";
+import { RosabellaAdvertorialBanner } from "../MainLayout/components/RosabellaAdvertorialBanner";
+import { RosabellaAlertBanner } from "../MainLayout/components/RosabellaAlertBanner";
 import { RosabellaArticleLayout } from "../ArticleLayout";
 
 type LandingPageProps = {

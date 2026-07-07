@@ -1,6 +1,6 @@
-import { RejuvacareSplitMedia } from "../../components/SplitMedia";
-import { RejuvacareSplitText } from "../../components/SplitText";
-import { RejuvacareMethodItem } from "../HealingMethodsSection/components/MethodItem";
+import { RejuvacareSplitMedia } from "../../components/RejuvacareSplitMedia";
+import { RejuvacareSplitText } from "../../components/RejuvacareSplitText";
+import { RejuvacareMethodItem } from "./components/RejuvacareMethodItem";
 
 export const RejuvacareHealingMethodsSection = () => {
   return (

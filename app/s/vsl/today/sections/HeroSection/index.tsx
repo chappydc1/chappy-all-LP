@@ -1,5 +1,5 @@
-import { TodayHeroText } from "../HeroSection/components/HeroText";
-import { TodayVideoPlayer } from "../../components/VideoPlayer";
+import { TodayHeroText } from "./components/TodayHeroText";
+import { TodayVideoPlayer } from "../../components/TodayVideoPlayer";
 
 export const TodayHeroSection = () => {
   return (

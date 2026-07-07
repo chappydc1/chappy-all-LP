@@ -1,9 +1,9 @@
-import { NebrooHeroImage } from "../HeroSection/components/HeroImage";
-import { NebrooHeroHeadline } from "../HeroSection/components/HeroHeadline";
-import { NebrooHeroDescription } from "../HeroSection/components/HeroDescription";
-import { NebrooHeroFeatureList } from "../HeroSection/components/HeroFeatureList";
-import { NebrooHeroCTA } from "../HeroSection/components/HeroCTA";
-import { NebrooHeroProductImage } from "../HeroSection/components/HeroProductImage";
+import { NebrooHeroImage } from "./components/NebrooHeroImage";
+import { NebrooHeroHeadline } from "./components/NebrooHeroHeadline";
+import { NebrooHeroDescription } from "./components/NebrooHeroDescription";
+import { NebrooHeroFeatureList } from "./components/NebrooHeroFeatureList";
+import { NebrooHeroCTA } from "./components/NebrooHeroCTA";
+import { NebrooHeroProductImage } from "./components/NebrooHeroProductImage";
 
 export const NebrooHeroSection = () => {
   return (

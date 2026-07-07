@@ -1,5 +1,5 @@
 "use client";
-import { NebrooFAQItem } from "../FAQ/components/FAQItem";
+import { NebrooFAQItem } from "./components/NebrooFAQItem";
 import { useScrollReveal } from "../../hooks/useScrollReveal";
 
 export const NebrooFAQ = () => {

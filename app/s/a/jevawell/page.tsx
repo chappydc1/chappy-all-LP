@@ -1,4 +1,4 @@
-import { JevawellArticleContent } from "./components/ArticleContent";
+import { JevawellArticleContent } from "./components/JevawellArticleContent";
 
 export default function JevawellPage() {
   return (

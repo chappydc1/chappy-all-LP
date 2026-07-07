@@ -1,4 +1,4 @@
-import { JavyCountdownTimer } from "../AnnouncementBar/components/CountdownTimer";
+import { JavyCountdownTimer } from "./components/JavyCountdownTimer";
 
 export const JavyAnnouncementBar = () => {
   return (

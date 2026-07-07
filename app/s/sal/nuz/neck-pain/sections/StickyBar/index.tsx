@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { NuzStickyBarInfo } from "./components/StickyBarInfo";
+import { NuzStickyBarInfo } from "./components/NuzStickyBarInfo";
 import { content } from "../../content";
 
 export const NuzStickyBar = () => {

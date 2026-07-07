@@ -1,5 +1,5 @@
 "use client"
-import { PipiteaLpContext, type PipiteaCopyJson, type PipiteaMediaJson } from "../../context/LpContext"
+import { PipiteaLpContext, type PipiteaCopyJson, type PipiteaMediaJson } from "../../context/PipiteaLpContext"
 import { PipiteaAnnouncementBar } from "../AnnouncementBar"
 import { PipiteaHeader } from "../Header"
 import { PipiteaHeroSection } from "../HeroSection"
@@ -16,10 +16,10 @@ import { PipiteaOfferSection } from "../OfferSection"
 import { PipiteaCustomerReviewsSection } from "../CustomerReviewsSection"
 import { PipiteaFaqSection } from "../FaqSection"
 import { PipiteaFooter } from "../Footer"
-import { PipiteaStickyMobileCta } from "../../components/StickyMobileCta"
-import { PipiteaExternalLinkContainer } from "../../components/ExternalLinkContainer"
-import { PipiteaTrackingFrame } from "../../components/TrackingFrame"
-import { PipiteaChatWidget } from "../../components/ChatWidget"
+import { PipiteaStickyMobileCta } from "../../components/PipiteaStickyMobileCta"
+import { PipiteaExternalLinkContainer } from "../../components/PipiteaExternalLinkContainer"
+import { PipiteaTrackingFrame } from "../../components/PipiteaTrackingFrame"
+import { PipiteaChatWidget } from "../../components/PipiteaChatWidget"
 
 interface LpMainProps {
   copy: PipiteaCopyJson

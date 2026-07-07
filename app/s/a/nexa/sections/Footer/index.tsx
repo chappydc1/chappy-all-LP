@@ -1,4 +1,4 @@
-import { NexaFooterContent } from "./components/FooterContent";
+import { NexaFooterContent } from "./components/NexaFooterContent";
 
 export const NexaFooter = () => {
   return (

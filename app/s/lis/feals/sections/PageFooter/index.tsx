@@ -1,7 +1,7 @@
-import { FealsFooterContact } from "../PageFooter/components/FooterContact";
-import { FealsFooterLinks } from "../PageFooter/components/FooterLinks";
-import { FealsFooterSocial } from "../PageFooter/components/FooterSocial";
-import { FealsFooterCertification } from "../PageFooter/components/FooterCertification";
+import { FealsFooterContact } from "./components/FealsFooterContact";
+import { FealsFooterLinks } from "./components/FealsFooterLinks";
+import { FealsFooterSocial } from "./components/FealsFooterSocial";
+import { FealsFooterCertification } from "./components/FealsFooterCertification";
 
 export const FealsPageFooter = () => {
   return (

@@ -1,5 +1,5 @@
-import { RejuvacareProductGallery } from "../OfferSection/components/ProductGallery";
-import { RejuvacareOfferDetails } from "../OfferSection/components/OfferDetails";
+import { RejuvacareProductGallery } from "./components/RejuvacareProductGallery";
+import { RejuvacareOfferDetails } from "./components/RejuvacareOfferDetails";
 
 export const RejuvacareOfferSection = () => {
   return (

@@ -1,5 +1,5 @@
 import { TodayHeroSection } from "../HeroSection";
-import { TodayFeaturedImage } from "../../components/FeaturedImage";
+import { TodayFeaturedImage } from "../../components/TodayFeaturedImage";
 
 export const TodayMainContent = () => {
   return (

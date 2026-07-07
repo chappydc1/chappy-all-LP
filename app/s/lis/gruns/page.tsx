@@ -1,12 +1,12 @@
 "use client";
 
-import { GrunsAccessibilityWidgets } from "./components/AccessibilityWidgets";
+import { GrunsAccessibilityWidgets } from "./components/GrunsAccessibilityWidgets";
 import { GrunsMainContent } from "./sections/MainContent";
 import { GrunsFooter } from "./sections/Footer";
-import { GrunsHeroTopBar } from "./sections/Hero/components/HeroTopBar";
-import { GrunsCartDrawer } from "./components/CartDrawer";
-import { GrunsModals } from "./components/Modals";
-import { GrunsCookieConsent } from "./components/CookieConsent";
+import { GrunsHeroTopBar } from "./sections/Hero/components/GrunsHeroTopBar";
+import { GrunsCartDrawer } from "./components/GrunsCartDrawer";
+import { GrunsModals } from "./components/GrunsModals";
+import { GrunsCookieConsent } from "./components/GrunsCookieConsent";
 
 export default function GrunsLandingPage() {
   return (

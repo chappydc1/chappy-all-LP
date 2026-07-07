@@ -1,8 +1,8 @@
-import { AbcNewsNavbarMenuButton } from "../Navbar/components/NavbarMenuButton";
-import { AbcNewsNavbarLogo } from "../Navbar/components/NavbarLogo";
-import { AbcNewsNavbarLinks } from "../Navbar/components/NavbarLinks";
-import { AbcNewsNavbarActions } from "../Navbar/components/NavbarActions";
-import { AbcNewsNotificationPopover } from "../../components/NotificationPopover";
+import { AbcNewsNavbarMenuButton } from "./components/AbcNewsNavbarMenuButton";
+import { AbcNewsNavbarLogo } from "./components/AbcNewsNavbarLogo";
+import { AbcNewsNavbarLinks } from "./components/AbcNewsNavbarLinks";
+import { AbcNewsNavbarActions } from "./components/AbcNewsNavbarActions";
+import { AbcNewsNotificationPopover } from "../../components/AbcNewsNotificationPopover";
 
 export const AbcNewsNavbar = () => {
   return (

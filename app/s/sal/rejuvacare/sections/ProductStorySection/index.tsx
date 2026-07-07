@@ -1,4 +1,4 @@
-import { RejuvacareSplitContentBlock } from "../../components/SplitContentBlock";
+import { RejuvacareSplitContentBlock } from "../../components/RejuvacareSplitContentBlock";
 
 export const RejuvacareProductStorySection = () => {
   return (

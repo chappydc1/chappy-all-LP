@@ -1,4 +1,4 @@
-import { PipiteaSplitContentBlock } from "./components/SplitContentBlock";
+import { PipiteaSplitContentBlock } from "./components/PipiteaSplitContentBlock";
 
 export const PipiteaEducationSection = () => {
   return (

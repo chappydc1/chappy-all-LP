@@ -1,4 +1,4 @@
-import { TodayCommentsList } from "../CommentsSection/components/CommentsList";
+import { TodayCommentsList } from "./components/TodayCommentsList";
 
 export const TodayCommentsSection = () => {
   return (

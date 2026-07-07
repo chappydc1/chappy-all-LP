@@ -1,4 +1,4 @@
-import { ForbesHeroContent } from "../HeroSection/components/HeroContent";
+import { ForbesHeroContent } from "./components/ForbesHeroContent";
 
 type HeroSectionProps = {
   backgroundSrc: string;

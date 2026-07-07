@@ -1,5 +1,5 @@
-import { GrunsProductGallery } from "../BuyBoxSection/components/ProductGallery";
-import { GrunsProductDetails } from "../BuyBoxSection/components/ProductDetails";
+import { GrunsProductGallery } from "./components/GrunsProductGallery";
+import { GrunsProductDetails } from "./components/GrunsProductDetails";
 
 export const GrunsBuyBoxSection = () => {
   return (

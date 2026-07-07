@@ -1,4 +1,4 @@
-import { PrimepicksFooterDisclaimer } from "../Footer/components/FooterDisclaimer";
+import { PrimepicksFooterDisclaimer } from "./components/PrimepicksFooterDisclaimer";
 
 export const PrimepicksFooter = () => {
   return (

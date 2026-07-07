@@ -1,4 +1,4 @@
-import { JavyReasonCard } from "../../../Main/components/ArticleSection/components/ReasonCard";
+import { JavyReasonCard } from "./components/JavyReasonCard";
 
 export const JavyArticleSection = () => {
   return (

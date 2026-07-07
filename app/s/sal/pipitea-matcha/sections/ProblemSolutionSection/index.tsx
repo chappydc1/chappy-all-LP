@@ -1,4 +1,4 @@
-import { PipiteaMatchaTextImageBlock } from "./components/TextImageBlock";
+import { PipiteaMatchaTextImageBlock } from "./components/PipiteaMatchaTextImageBlock";
 
 export const PipiteaMatchaProblemSolutionSection = () => {
   return (

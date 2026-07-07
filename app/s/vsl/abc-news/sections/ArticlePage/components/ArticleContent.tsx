@@ -1,9 +1,0 @@
-import { AbcNewsArticleHeader } from "../../ArticlePage/components/ArticleHeader";
-
-export const AbcNewsArticleContent = () => {
-  return (
-    <div className="box-border caret-transparent col-end-[span_12] min-h-[auto] min-w-[auto] outline-[3px] md:col-end-[span_14]">
-      <AbcNewsArticleHeader />
-    </div>
-  );
-};

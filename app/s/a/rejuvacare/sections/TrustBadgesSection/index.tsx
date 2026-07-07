@@ -1,4 +1,4 @@
-import { RejuvacareTrustBadge } from "../TrustBadgesSection/components/TrustBadge";
+import { RejuvacareTrustBadge } from "./components/RejuvacareTrustBadge";
 
 export const RejuvacareTrustBadgesSection = () => {
   return (

@@ -1,5 +1,5 @@
-import { RosabellaAdvertorialBanner } from "./components/AdvertorialBanner";
-import { RosabellaAlertBanner } from "./components/AlertBanner";
+import { RosabellaAdvertorialBanner } from "./components/RosabellaAdvertorialBanner";
+import { RosabellaAlertBanner } from "./components/RosabellaAlertBanner";
 import { RosabellaArticleLayout } from "../ArticleLayout";
 
 export const RosabellaMainLayout = () => {

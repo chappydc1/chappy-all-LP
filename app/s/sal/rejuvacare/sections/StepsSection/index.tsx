@@ -1,4 +1,4 @@
-import { RejuvacareStepCard } from "../StepsSection/components/StepCard";
+import { RejuvacareStepCard } from "./components/RejuvacareStepCard";
 
 export const RejuvacareStepsSection = () => {
   return (

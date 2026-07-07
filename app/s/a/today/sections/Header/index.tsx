@@ -1,6 +1,6 @@
-import { TodayNavbar } from "../Header/components/Navbar";
-import { TodayMobileNav } from "../Header/components/MobileNav";
-import { TodayNewsBar } from "../Header/components/NewsBar";
+import { TodayNavbar } from "./components/TodayNavbar";
+import { TodayMobileNav } from "./components/TodayMobileNav";
+import { TodayNewsBar } from "./components/TodayNewsBar";
 
 export const TodayHeader = () => {
   return (

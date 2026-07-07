@@ -1,4 +1,4 @@
-import { HearRelatedStoryCard } from "../RelatedStories/components/RelatedStoryCard";
+import { HearRelatedStoryCard } from "./components/HearRelatedStoryCard";
 import { useScrollReveal } from "../../hooks/useScrollReveal";
 
 const stories = [

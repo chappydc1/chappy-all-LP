@@ -1,4 +1,4 @@
-import { GrunsReviewsSummary } from "../ReviewsSection/components/ReviewsSummary";
+import { GrunsReviewsSummary } from "./components/GrunsReviewsSummary";
 
 export const GrunsReviewsSection = () => {
   return (

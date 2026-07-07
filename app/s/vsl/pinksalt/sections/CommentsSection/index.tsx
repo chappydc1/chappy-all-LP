@@ -1,6 +1,6 @@
-import { PinksaltCommentHeader } from "../CommentsSection/components/CommentHeader";
-import { PinksaltCommentItem, PinksaltReply } from "../CommentsSection/components/CommentItem";
-import { PinksaltReplyItem } from "../CommentsSection/components/ReplyItem";
+import { PinksaltCommentHeader } from "./components/PinksaltCommentHeader";
+import { PinksaltCommentItem, PinksaltReply } from "./components/PinksaltCommentItem";
+import { PinksaltReplyItem } from "./components/PinksaltReplyItem";
 
 type AdvReply = {
   id?: string;

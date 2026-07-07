@@ -1,7 +1,7 @@
 "use client";
 
-import { RosabellaArticleContent } from "./components/ArticleContent";
-import { RosabellaSidebar } from "./components/Sidebar";
+import { RosabellaArticleContent } from "./components/RosabellaArticleContent";
+import { RosabellaSidebar } from "./components/RosabellaSidebar";
 
 export const RosabellaArticleLayout = () => {
   return (

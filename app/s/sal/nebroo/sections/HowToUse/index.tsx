@@ -1,5 +1,5 @@
 "use client";
-import { NebrooHowToUseStep } from "../HowToUse/components/HowToUseStep";
+import { NebrooHowToUseStep } from "./components/NebrooHowToUseStep";
 import { useScrollReveal } from "../../hooks/useScrollReveal";
 
 export const NebrooHowToUse = () => {

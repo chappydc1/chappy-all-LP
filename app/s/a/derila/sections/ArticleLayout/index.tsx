@@ -1,5 +1,5 @@
-import { DerilaArticleContent } from "../ArticleLayout/components/ArticleContent";
-import { DerilaSidebarCta } from "../ArticleLayout/components/SidebarCta";
+import { DerilaArticleContent } from "./components/DerilaArticleContent";
+import { DerilaSidebarCta } from "./components/DerilaSidebarCta";
 
 export const DerilaArticleLayout = () => {
   return (

@@ -1,9 +1,9 @@
 "use client";
 
 import { useEffect, useRef } from "react";
-import { OprahCommentHeader } from "../CommentsSection/components/CommentHeader";
-import { OprahCommentItem } from "../CommentsSection/components/CommentItem";
-import { OprahReplyItem } from "../CommentsSection/components/ReplyItem";
+import { OprahCommentHeader } from "./components/OprahCommentHeader";
+import { OprahCommentItem } from "./components/OprahCommentItem";
+import { OprahReplyItem } from "./components/OprahReplyItem";
 
 export const OprahCommentsSection = () => {
   const sectionRef = useRef<HTMLDivElement>(null);

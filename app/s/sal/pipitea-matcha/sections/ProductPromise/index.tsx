@@ -1,4 +1,4 @@
-import { PipiteaMatchaPromiseItem } from "./components/PromiseItem";
+import { PipiteaMatchaPromiseItem } from "./components/PipiteaMatchaPromiseItem";
 
 export const PipiteaMatchaProductPromise = () => {
   return (

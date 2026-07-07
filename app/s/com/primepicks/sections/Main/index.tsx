@@ -1,7 +1,7 @@
 import { PrimepicksHeroSection } from "../HeroSection";
 import { PrimepicksProductListSection } from "../ProductListSection";
 import { PrimepicksFeaturedReviewSection } from "../FeaturedReviewSection";
-import { PrimepicksStickyBanner } from "../Main/components/StickyBanner";
+import { PrimepicksStickyBanner } from "./components/PrimepicksStickyBanner";
 
 export const PrimepicksMain = () => {
   return (

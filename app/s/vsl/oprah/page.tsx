@@ -2,7 +2,7 @@
 
 import { type ReactNode } from "react";
 import { Menu } from "lucide-react";
-import { OprahVideoModal } from "./components/VideoModal";
+import { OprahVideoModal } from "./components/OprahVideoModal";
 import { OprahDoctorBio } from "./sections/DoctorBio";
 import { OprahFooter } from "./sections/Footer";
 import { OprahHeadlineSection } from "./sections/HeadlineSection";

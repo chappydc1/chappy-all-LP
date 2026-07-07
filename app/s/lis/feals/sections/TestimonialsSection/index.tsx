@@ -1,5 +1,5 @@
-import { FealsTestimonialCard } from "../TestimonialsSection/components/TestimonialCard";
-import { FealsTestimonialGallery } from "../TestimonialsSection/components/TestimonialGallery";
+import { FealsTestimonialCard } from "./components/FealsTestimonialCard";
+import { FealsTestimonialGallery } from "./components/FealsTestimonialGallery";
 
 export const FealsTestimonialsSection = () => {
   return (

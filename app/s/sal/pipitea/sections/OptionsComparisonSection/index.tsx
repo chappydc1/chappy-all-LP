@@ -1,6 +1,6 @@
-import { PipiteaComparisonHeader } from "./components/ComparisonHeader";
-import { PipiteaComparisonRow } from "./components/ComparisonRow";
-import { PipiteaSectionCta } from "../../components/SectionCta";
+import { PipiteaComparisonHeader } from "./components/PipiteaComparisonHeader";
+import { PipiteaComparisonRow } from "./components/PipiteaComparisonRow";
+import { PipiteaSectionCta } from "../../components/PipiteaSectionCta";
 
 export const PipiteaOptionsComparisonSection = () => {
   return (

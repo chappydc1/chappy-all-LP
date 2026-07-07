@@ -1,8 +1,8 @@
-import { PinksaltAlertBanner } from "./components/AlertBanner";
+import { PinksaltAlertBanner } from "./components/PinksaltAlertBanner";
 import { PinksaltHeadlineSection } from "./sections/HeadlineSection";
 import { PinksaltVideoSection } from "./sections/VideoSection";
-import { PinksaltViewerCount } from "./components/ViewerCount";
-import { PinksaltScientificReferences } from "./components/ScientificReferences";
+import { PinksaltViewerCount } from "./components/PinksaltViewerCount";
+import { PinksaltScientificReferences } from "./components/PinksaltScientificReferences";
 import { PinksaltCommentsSection } from "./sections/CommentsSection";
 import { PinksaltFooter } from "./sections/Footer";
 import adv from "./copy.json";

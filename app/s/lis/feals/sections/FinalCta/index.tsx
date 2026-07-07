@@ -1,4 +1,4 @@
-import { FealsFinalCtaButton } from "../FinalCta/components/FinalCtaButton";
+import { FealsFinalCtaButton } from "./components/FealsFinalCtaButton";
 
 export const FealsFinalCta = () => {
   return (
