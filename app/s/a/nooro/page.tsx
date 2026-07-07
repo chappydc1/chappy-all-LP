@@ -1,7 +1,7 @@
 import advContent from "./copy.json";
 import advMedia from "./media.json";
-import { TopBar, type AdvertorialContent, type AdvertorialMedia } from "./sections/TopBar";
+import { NooroTopBar, type NooroAdvertorialContent, type NooroAdvertorialMedia } from "./sections/TopBar";
 
 export default function NooroPage() {
-  return <TopBar content={advContent as AdvertorialContent} media={advMedia as AdvertorialMedia} />;
+  return <NooroTopBar content={advContent as NooroAdvertorialContent} media={advMedia as NooroAdvertorialMedia} />;
 }

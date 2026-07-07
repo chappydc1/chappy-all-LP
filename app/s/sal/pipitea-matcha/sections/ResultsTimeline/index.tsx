@@ -1,7 +1,7 @@
-import { TimelineItem } from "./components/TimelineItem";
-import { CtaBlock } from "../../components/CtaBlock";
+import { PipiteaMatchaTimelineItem } from "./components/PipiteaMatchaTimelineItem";
+import { PipiteaMatchaCtaBlock } from "../../components/PipiteaMatchaCtaBlock";
 
-export const ResultsTimeline = () => {
+export const PipiteaMatchaResultsTimeline = () => {
   return (
     <section
       href=""
@@ -76,7 +76,7 @@ export const ResultsTimeline = () => {
                       href=""
                       className="box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full"
                     >
-                      <TimelineItem
+                      <PipiteaMatchaTimelineItem
                         containerVariant="md:flex-row after:top-px after:md:top-[45px]"
                         title="1 Week"
                         contentVariant="after:border-l-zinc-800 after:border-r-zinc-700 after:left-[-15px] after:border-r-[13px]"
@@ -92,7 +92,7 @@ export const ResultsTimeline = () => {
                       href=""
                       className="box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full"
                     >
-                      <TimelineItem
+                      <PipiteaMatchaTimelineItem
                         containerVariant="md:flex-row-reverse after:top-[3px]"
                         title="1 Month"
                         contentVariant="after:border-l-zinc-700 after:border-r-zinc-800 after:right-[-15px] after:border-l-[13px]"
@@ -117,7 +117,7 @@ export const ResultsTimeline = () => {
                       href=""
                       className="box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full"
                     >
-                      <TimelineItem
+                      <PipiteaMatchaTimelineItem
                         containerVariant="md:flex-row after:top-[3px]"
                         title="2 Months"
                         contentVariant="after:border-l-zinc-800 after:border-r-zinc-700 after:left-[-15px] after:border-r-[13px]"
@@ -133,7 +133,7 @@ export const ResultsTimeline = () => {
                       href=""
                       className="box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full"
                     >
-                      <TimelineItem
+                      <PipiteaMatchaTimelineItem
                         containerVariant="md:flex-row-reverse after:top-[3px]"
                         title="3 Months"
                         contentVariant="after:border-l-zinc-700 after:border-r-zinc-800 after:right-[-15px] after:border-l-[13px]"
@@ -149,7 +149,7 @@ export const ResultsTimeline = () => {
                       href=""
                       className="box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full"
                     >
-                      <TimelineItem
+                      <PipiteaMatchaTimelineItem
                         containerVariant="md:flex-row after:top-[3px]"
                         title="6 Months"
                         contentVariant="after:border-l-zinc-800 after:border-r-zinc-700 after:left-[-15px] after:border-r-[13px]"
@@ -165,7 +165,7 @@ export const ResultsTimeline = () => {
                       href=""
                       className="box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full"
                     >
-                      <TimelineItem
+                      <PipiteaMatchaTimelineItem
                         containerVariant="md:flex-row-reverse after:top-[3px]"
                         title="12 Months"
                         contentVariant="after:border-l-zinc-700 after:border-r-zinc-800 after:right-[-15px] after:border-l-[13px]"
@@ -179,7 +179,7 @@ export const ResultsTimeline = () => {
           </div>
         </div>
       </div>
-      <CtaBlock
+      <PipiteaMatchaCtaBlock
         outerVariant="wrapped"
         frameVariant="items-start flex-wrap min-h-[auto] min-w-[auto] mt-10 md:mt-[50px]"
         contentVariant="items-center justify-center min-w-[auto] outline-[3px]"

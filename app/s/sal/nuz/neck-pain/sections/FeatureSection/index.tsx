@@ -1,10 +1,10 @@
 "use client";
 
-import { FeatureCard } from "./components/FeatureCard";
+import { NuzFeatureCard } from "./components/NuzFeatureCard";
 import { useCountdown } from "../../hooks/useCountdown";
 import { content } from "../../content";
 
-export const FeatureSection = () => {
+export const NuzFeatureSection = () => {
   const f = content.features;
   const { formatted } = useCountdown(f.ctaCountdownSeconds);
 
@@ -19,7 +19,7 @@ export const FeatureSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-[1fr_minmax(280px,400px)_1fr] gap-6 md:gap-8 items-center">
           <div className="flex flex-col gap-4">
             {f.leftCards.map((c) => (
-              <FeatureCard key={c.title} {...c} />
+              <NuzFeatureCard key={c.title} {...c} />
             ))}
           </div>
 
@@ -37,7 +37,7 @@ export const FeatureSection = () => {
 
           <div className="flex flex-col gap-4">
             {f.rightCards.map((c) => (
-              <FeatureCard key={c.title} {...c} />
+              <NuzFeatureCard key={c.title} {...c} />
             ))}
           </div>
         </div>

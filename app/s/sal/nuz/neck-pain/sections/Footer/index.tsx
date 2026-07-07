@@ -1,6 +1,6 @@
 import { content } from "../../content";
 
-export const Footer = () => {
+export const NuzFooter = () => {
   const f = content.footer;
   return (
     <section className="items-center box-border caret-transparent flex flex-col justify-around pt-5 pb-[100px] px-4 md:px-0 md:py-[25px]">

@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
-import { Header } from "./sections/Header";
-import { AdvertorialBar } from "./sections/AdvertorialBar";
-import { ArticleLayout } from "./sections/ArticleLayout";
-import { Footer } from "./sections/Footer";
-import { StickyCta } from "./components/StickyCta";
-import { TermsModal } from "./components/TermsModal";
-import { PrivacyModal } from "./components/PrivacyModal";
+import { NexaHeader } from "./sections/Header";
+import { NexaAdvertorialBar } from "./sections/AdvertorialBar";
+import { NexaArticleLayout } from "./sections/ArticleLayout";
+import { NexaFooter } from "./sections/Footer";
+import { NexaStickyCta } from "./components/NexaStickyCta";
+import { NexaTermsModal } from "./components/NexaTermsModal";
+import { NexaPrivacyModal } from "./components/NexaPrivacyModal";
 
 export const metadata: Metadata = {
   title: "Nexa",
@@ -15,13 +15,13 @@ export const metadata: Metadata = {
 export default function NexaPage() {
   return (
     <div className="text-neutral-800 text-base not-italic normal-nums font-normal accent-auto bg-white box-border caret-transparent block tracking-[normal] leading-4 list-outside list-disc outline-[3px] pointer-events-auto text-left indent-[0px] normal-case visible border-separate font-times_new_roman">
-      <Header />
-      <AdvertorialBar />
-      <ArticleLayout />
-      <Footer />
-      <StickyCta />
-      <TermsModal />
-      <PrivacyModal />
+      <NexaHeader />
+      <NexaAdvertorialBar />
+      <NexaArticleLayout />
+      <NexaFooter />
+      <NexaStickyCta />
+      <NexaTermsModal />
+      <NexaPrivacyModal />
     </div>
   );
 }

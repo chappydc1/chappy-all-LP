@@ -1,12 +1,12 @@
-import { SplitMedia } from "../../components/SplitMedia";
-import { SplitText } from "../../components/SplitText";
+import { RejuvacareSplitMedia } from "../../components/RejuvacareSplitMedia";
+import { RejuvacareSplitText } from "../../components/RejuvacareSplitText";
 
-export const SplitContentSection = () => {
+export const RejuvacareSplitContentSection = () => {
   return (
     <div className="items-center self-center bg-neutral-100 box-border caret-transparent flex flex-wrap justify-center max-w-full outline-[3px] md:flex-nowrap">
       <div className="relative bg-[url('/images/rejuvacare/1722936415316_bg_gradient.webp">
         <div className="items-center box-border caret-transparent flex flex-col outline-[3px] w-full p-px md:flex-row-reverse">
-          <SplitMedia
+          <RejuvacareSplitMedia
             containerVariant="flex flex-col min-h-[auto] min-w-[auto] pl-0 md:pl-5"
             title="The End To Stiff, Painful, Arthritic Knees And Tendon Issues"
             titleVariant="min-h-[auto] min-w-[auto] mb-2.5 pr-[30px] md:min-h-0 md:min-w-0 md:pr-0"
@@ -15,7 +15,7 @@ export const SplitContentSection = () => {
             videoPoster="/images/rejuvacare/1728697926859_crippling_pain_poster.webp"
             videoVariant="h-auto md:h-full"
           />
-          <SplitText
+          <RejuvacareSplitText
             containerVariant="min-h-[auto] min-w-[auto] mr-px mb-[15px] pr-0 md:mr-0 md:mb-0"
             title="The End To Stiff, Painful, Arthritic Knees And Tendon Issues"
           >
@@ -90,7 +90,7 @@ export const SplitContentSection = () => {
               </div>
               <div className="box-border caret-transparent outline-[3px]"></div>
             </div>
-          </SplitText>
+          </RejuvacareSplitText>
         </div>
       </div>
     </div>

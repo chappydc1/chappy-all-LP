@@ -1,10 +1,10 @@
 "use client";
 
 import { useScrollReveal } from "../../hooks/useScrollReveal";
-import { PainPointsGrid } from "./components/PainPointsGrid";
-import { RecommendedSection } from "./components/RecommendedSection";
+import { NuzPainPointsGrid } from "./components/NuzPainPointsGrid";
+import { NuzRecommendedSection } from "./components/NuzRecommendedSection";
 
-export const PainPointsSection = () => {
+export const NuzPainPointsSection = () => {
   const { ref, visible } = useScrollReveal();
 
   return (
@@ -14,9 +14,9 @@ export const PainPointsSection = () => {
     >
       <div className="box-border caret-transparent max-w-none w-full mx-auto md:max-w-[1200px]">
         <div className="block md:hidden mb-4">
-          <PainPointsGrid />
+          <NuzPainPointsGrid />
         </div>
-        <RecommendedSection />
+        <NuzRecommendedSection />
       </div>
     </div>
   );

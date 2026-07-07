@@ -1,11 +1,11 @@
 import content from "./copy.json"
 import media from "./media.json"
-import { TopBar } from "./sections/TopBar"
+import { HearTopBar } from "./sections/TopBar"
 
 export default function HearPage() {
   return (
     <main>
-      <TopBar content={content} media={media} />
+      <HearTopBar content={content} media={media} />
     </main>
   )
 }

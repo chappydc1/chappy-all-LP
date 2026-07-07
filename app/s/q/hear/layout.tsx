@@ -6,6 +6,6 @@ export const metadata: Metadata = {
   icons: { icon: "/favicons/q-hear.svg" },
 };
 
-export default function Layout({ children }: { children: React.ReactNode }) {
+export default function HearLayout({ children }: { children: React.ReactNode }) {
   return <>{children}</>;
 }

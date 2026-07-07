@@ -23,11 +23,11 @@ const adv = rawAdv as typeof rawAdv & {
     bottom: { copyright: string; legalLinks: AdvLegalLink[] };
   };
 };
-import { Header } from "./_components/Header";
-import { HeroSection } from "./_components/HeroSection";
-import { ReasonSection } from "./_components/ReasonSection";
-import { Footer } from "./_components/Footer";
-import { FloatingActionButton } from "./_components/FloatingActionButton";
+import { KachavaHeader } from "./_components/KachavaHeader";
+import { KachavaHeroSection } from "./_components/KachavaHeroSection";
+import { KachavaReasonSection } from "./_components/KachavaReasonSection";
+import { KachavaFooter } from "./_components/KachavaFooter";
+import { KachavaFloatingActionButton } from "./_components/KachavaFloatingActionButton";
 
 function getIcon(id: string) {
   return media.icons.find((i) => i.id === id)?.path ?? "";
@@ -63,7 +63,7 @@ export default function KachavaLP() {
 
   return (
     <div className="text-black text-base not-italic normal-nums font-normal accent-auto bg-white box-border caret-transparent flex flex-col tracking-[normal] leading-6 list-outside list-disc min-h-[1000px] outline-[3px] overscroll-y-none pointer-events-auto text-start indent-[0px] normal-case visible border-separate font-mulish">
-      <Header
+      <KachavaHeader
         promoBar={adv.promoBar}
         navbar={{
           dropdownLinks: adv.navbar.dropdownLinks,
@@ -78,7 +78,7 @@ export default function KachavaLP() {
       />
 
       <main className="box-border caret-transparent flex flex-col grow shrink-0 min-h-[750px] min-w-[auto] outline-[3px]">
-        <HeroSection
+        <KachavaHeroSection
           headline={adv.hero.headline}
           subheadline={adv.hero.subheadline}
           imageSrc={heroImage.path}
@@ -88,7 +88,7 @@ export default function KachavaLP() {
         {adv.reasons.map((reason) => {
           const img = getImage(reason.imageId);
           return (
-            <ReasonSection
+            <KachavaReasonSection
               key={reason.number}
               title={reason.title}
               paragraphs={reason.paragraphs}
@@ -101,13 +101,13 @@ export default function KachavaLP() {
         })}
       </main>
 
-      <Footer
+      <KachavaFooter
         newsletter={adv.footer.newsletter}
         reviews={adv.footer.reviews}
         navigation={adv.footer.navigation}
         bottom={{
           copyright: adv.footer.bottom.copyright,
-          legalLinks: adv.footer.bottom.legalLinks as Parameters<typeof Footer>[0]["bottom"]["legalLinks"],
+          legalLinks: adv.footer.bottom.legalLinks as Parameters<typeof KachavaFooter>[0]["bottom"]["legalLinks"],
         }}
         badgeSrc={getIcon("brandReview")}
         starSrc={getIcon("star")}
@@ -116,7 +116,7 @@ export default function KachavaLP() {
         socialIconMap={socialIconMap}
       />
 
-      <FloatingActionButton
+      <KachavaFloatingActionButton
         chatOpenSrc={getIcon("chatOpen")}
         chatCloseSrc={getIcon("chatClose")}
       />

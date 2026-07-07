@@ -1,13 +1,13 @@
-import { HeroAnnouncement } from "../Hero/components/HeroAnnouncement";
-import { HeroLogo } from "../Hero/components/HeroLogo";
-import { HeroContent } from "../Hero/components/HeroContent";
+import { FealsHeroAnnouncement } from "./components/FealsHeroAnnouncement";
+import { FealsHeroLogo } from "./components/FealsHeroLogo";
+import { FealsHeroContent } from "./components/FealsHeroContent";
 
-export const Hero = () => {
+export const FealsHero = () => {
   return (
     <div className="relative items-center self-stretch box-border caret-transparent flex flex-col shrink-0 justify-center min-h-px outline-[3px]">
-      <HeroAnnouncement />
-      <HeroLogo />
-      <HeroContent />
+      <FealsHeroAnnouncement />
+      <FealsHeroLogo />
+      <FealsHeroContent />
       <div className="relative items-center self-stretch bg-stone-50 box-border caret-transparent gap-x-8 flex flex-col shrink-0 justify-center max-w-full min-h-px min-w-[auto] outline-[3px] gap-y-8 px-2 py-8 font-montserrat md:gap-x-[30px] md:gap-y-[30px] md:pt-6 md:pb-12 md:px-8">
         <div className="items-center box-border caret-transparent contents shrink-0 justify-center min-h-0 min-w-0 outline-[3px] w-full md:flex md:min-h-[auto] md:min-w-[auto]">
           <div className="relative items-center box-border caret-transparent gap-x-6 flex shrink-0 flex-wrap grid-cols-[repeat(2,minmax(0px,1fr))] justify-center max-w-none min-h-px min-w-[auto] outline-[3px] gap-y-6 w-full md:gap-x-16 md:grid md:flex-nowrap md:grid-cols-[repeat(7,minmax(0px,1fr))] md:max-w-screen-xl md:gap-y-0">

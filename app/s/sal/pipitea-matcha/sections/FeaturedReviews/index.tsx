@@ -1,7 +1,7 @@
-import { ReviewCard } from "./components/ReviewCard";
-import { CtaBlock } from "../../components/CtaBlock";
+import { PipiteaMatchaReviewCard } from "./components/PipiteaMatchaReviewCard";
+import { PipiteaMatchaCtaBlock } from "../../components/PipiteaMatchaCtaBlock";
 
-export const FeaturedReviews = () => {
+export const PipiteaMatchaFeaturedReviews = () => {
   return (
     <section
       href=""
@@ -51,7 +51,7 @@ export const FeaturedReviews = () => {
               className="box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full"
             >
               <div className="items-stretch box-border caret-transparent hidden flex-col flex-wrap justify-start min-h-0 min-w-0 outline-[3px] mt-5 p-px md:flex md:flex-row md:flex-nowrap md:min-h-[auto] md:min-w-[auto] md:pt-2.5 md:px-2.5">
-                <ReviewCard
+                <PipiteaMatchaReviewCard
                   rootVariantClass="p-px md:p-2.5"
                   cardClass="bg-zinc-300/30 box-border caret-transparent flex flex-col outline-[3px] w-full border border-zinc-700 rounded-[10px] border-solid md:flex-row"
                   imageWrapperVariantClass="min-h-0 min-w-0 w-full md:min-h-[auto] md:min-w-[auto] md:w-[70%]"
@@ -70,7 +70,7 @@ export const FeaturedReviews = () => {
                   verifiedTextStrongClass="text-lime-600 text-[16.9583px] font-bold box-border caret-transparent leading-6 outline-[3px] md:text-base"
                   spacerClass="min-h-0 min-w-0 md:min-h-[auto] md:min-w-[auto]"
                 />
-                <ReviewCard
+                <PipiteaMatchaReviewCard
                   rootVariantClass="p-2.5"
                   cardClass="bg-zinc-300/30 box-border caret-transparent flex outline-[3px] w-full border border-zinc-700 rounded-[10px] border-solid"
                   imageWrapperVariantClass="min-h-0 min-w-0 w-[70%] md:min-h-[auto] md:min-w-[auto]"
@@ -91,7 +91,7 @@ export const FeaturedReviews = () => {
                 />
               </div>
               <div className="items-stretch box-border caret-transparent flex flex-wrap justify-start min-h-[auto] min-w-[auto] outline-[3px] mt-5 p-px md:hidden md:flex-nowrap md:min-h-0 md:min-w-0 md:pt-2.5 md:px-2.5">
-                <ReviewCard
+                <PipiteaMatchaReviewCard
                   rootVariantClass="p-px md:p-2.5"
                   cardClass="bg-zinc-300/30 box-border caret-transparent flex flex-col outline-[3px] w-full border border-zinc-700 rounded-[10px] border-solid md:flex-row"
                   imageWrapperVariantClass="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] w-full md:min-h-0 md:min-w-0 md:w-[70%]"
@@ -110,7 +110,7 @@ export const FeaturedReviews = () => {
                   verifiedTextStrongClass="text-lime-600 text-sm font-bold box-border caret-transparent leading-6 outline-[3px] md:text-base"
                   spacerClass="min-h-[auto] min-w-[auto] md:min-h-0 md:min-w-0"
                 />
-                <ReviewCard
+                <PipiteaMatchaReviewCard
                   rootVariantClass="pt-2.5 pb-0 px-0 md:pb-2.5 md:px-2.5"
                   cardClass="bg-zinc-300/30 box-border caret-transparent flex flex-col outline-[3px] w-full border border-zinc-700 rounded-[10px] border-solid md:flex-row"
                   imageWrapperVariantClass="min-h-[auto] min-w-[auto] w-full md:min-h-0 md:min-w-0 md:w-[70%]"
@@ -131,7 +131,7 @@ export const FeaturedReviews = () => {
                 />
               </div>
               <div className="items-stretch box-border caret-transparent hidden flex-col flex-wrap justify-start min-h-0 min-w-0 outline-[3px] mt-px pt-px pb-2.5 px-2.5 md:flex md:flex-row md:flex-nowrap md:min-h-[auto] md:min-w-[auto]">
-                <ReviewCard
+                <PipiteaMatchaReviewCard
                   rootVariantClass="p-2.5"
                   cardClass="bg-zinc-300/30 box-border caret-transparent flex outline-[3px] w-full border border-zinc-700 rounded-[10px] border-solid"
                   imageWrapperVariantClass="min-h-0 min-w-0 w-[70%] md:min-h-[auto] md:min-w-[auto]"
@@ -150,7 +150,7 @@ export const FeaturedReviews = () => {
                   verifiedTextStrongClass="text-[16.9583px] font-bold box-border caret-transparent leading-[25.4375px] outline-[3px] md:text-base md:leading-6"
                   spacerClass="min-h-0 min-w-0 md:min-h-[auto] md:min-w-[auto]"
                 />
-                <ReviewCard
+                <PipiteaMatchaReviewCard
                   rootVariantClass="p-2.5"
                   cardClass="bg-zinc-300/30 box-border caret-transparent flex outline-[3px] w-full border border-zinc-700 rounded-[10px] border-solid"
                   imageWrapperVariantClass="min-h-0 min-w-0 w-[70%] md:min-h-[auto] md:min-w-[auto]"
@@ -171,7 +171,7 @@ export const FeaturedReviews = () => {
                 />
               </div>
               <div className="items-stretch box-border caret-transparent flex flex-wrap justify-start min-h-[auto] min-w-[auto] outline-[3px] mt-px p-0 md:hidden md:flex-nowrap md:min-h-0 md:min-w-0 md:pt-px md:pb-2.5 md:px-2.5">
-                <ReviewCard
+                <PipiteaMatchaReviewCard
                   rootVariantClass="pt-2.5 pb-0 px-0 md:pb-2.5 md:px-2.5"
                   cardClass="bg-zinc-300/30 box-border caret-transparent flex flex-col outline-[3px] w-full border border-zinc-700 rounded-[10px] border-solid md:flex-row"
                   imageWrapperVariantClass="min-h-[auto] min-w-[auto] w-full md:min-h-0 md:min-w-0 md:w-[70%]"
@@ -190,7 +190,7 @@ export const FeaturedReviews = () => {
                   verifiedTextStrongClass="text-sm font-bold box-border caret-transparent leading-[21px] outline-[3px] md:text-base md:leading-6"
                   spacerClass="box-border caret-transparent min-h-[auto] min-w-[auto] md:min-h-0 md:min-w-0"
                 />
-                <ReviewCard
+                <PipiteaMatchaReviewCard
                   rootVariantClass="pt-2.5 pb-0 px-0 md:pb-2.5 md:px-2.5"
                   cardClass="bg-zinc-300/30 box-border caret-transparent flex flex-col outline-[3px] w-full border border-zinc-700 rounded-[10px] border-solid md:flex-row"
                   imageWrapperVariantClass="min-h-[auto] min-w-[auto] w-full md:min-h-0 md:min-w-0 md:w-[70%]"
@@ -212,7 +212,7 @@ export const FeaturedReviews = () => {
               </div>
             </div>
           </div>
-          <CtaBlock
+          <PipiteaMatchaCtaBlock
             outerVariant="doctor"
             frameVariant=""
             contentVariant="items-start flex-wrap min-h-[auto] min-w-[auto] mt-10 md:mt-5"

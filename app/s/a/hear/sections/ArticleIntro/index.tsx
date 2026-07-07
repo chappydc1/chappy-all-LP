@@ -1,6 +1,6 @@
 import { useScrollReveal } from "../../hooks/useScrollReveal";
 
-export const ArticleIntro = () => {
+export const HearArticleIntro = () => {
   const ref = useScrollReveal<HTMLDivElement>();
 
   return (

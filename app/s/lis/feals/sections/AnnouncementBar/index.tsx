@@ -1,4 +1,4 @@
-export const AnnouncementBar = () => {
+export const FealsAnnouncementBar = () => {
   return (
     <div className="box-border caret-transparent hidden outline-[3px]">
       <div className="relative box-border caret-transparent outline-[3px] z-[5500] overflow-hidden">

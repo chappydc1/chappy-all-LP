@@ -21,7 +21,7 @@ const doctorComments = [
   { name: "Zack", img: "commzack", comment: "Just finished watching and the ending completely floored me. There's so much more to gut health than I realized. Dr. Sam really knows her stuff." },
 ];
 
-export const DoctorBio = ({ showComments = false }: { showComments?: boolean }) => {
+export const OprahDoctorBio = ({ showComments = false }: { showComments?: boolean }) => {
   return (
     <div className="bg-stone-100 box-border w-full overflow-hidden">
       <div className="bg-white box-border block max-w-[1440px] m-auto pt-2.5 px-2 md:hidden md:px-0 reveal">

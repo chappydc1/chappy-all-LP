@@ -1,7 +1,7 @@
-import { Header } from "./sections/Header";
-import { Main } from "./sections/Main";
-import { Footer } from "./sections/Footer";
-import { StickyBar } from "./components/StickyBar";
+import { ForbesHeader } from "./sections/Header";
+import { ForbesMain } from "./sections/Main";
+import { ForbesFooter } from "./sections/Footer";
+import { ForbesStickyBar } from "./components/ForbesStickyBar";
 import type { Metadata } from "next";
 
 import adv from "./copy.json";
@@ -15,9 +15,9 @@ export const metadata: Metadata = {
 export default function ForbesPage() {
   return (
     <div className="text-black text-base font-normal font-euclidcircularb bg-white flex flex-col min-h-screen overflow-x-hidden">
-      <Header logoSrc={media.logos.header} />
+      <ForbesHeader logoSrc={media.logos.header} />
       <div className="pt-[50px]">
-        <Main
+        <ForbesMain
           heroBgSrc={media.hero.background}
           heading={adv.hero.heading}
           subheading={adv.hero.subheading}
@@ -31,12 +31,12 @@ export default function ForbesPage() {
           remedyUrl={adv.products[1].visitUrl}
         />
       </div>
-      <Footer
+      <ForbesFooter
         logoSrc={media.logos.footer}
         disclaimer={adv.footer.disclaimer}
         copyright={adv.footer.copyright}
       />
-      <StickyBar
+      <ForbesStickyBar
         visitUrl={adv.stickyBar.visitUrl}
         logoSrc={media.products.medviStickyBar}
         promo={adv.stickyBar.promo}

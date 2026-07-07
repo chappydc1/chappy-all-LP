@@ -1,4 +1,4 @@
-export const VideoSection = () => {
+export const NebrooVideoSection = () => {
   return (
     <div className="items-center flex flex-col md:flex-row-reverse flex-wrap md:flex-nowrap mt-0 md:mt-2.5 px-2.5 py-5 max-w-[1200px] mx-auto gap-5">
       {/* Video — right on desktop */}

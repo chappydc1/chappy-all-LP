@@ -1,4 +1,4 @@
-export const AuthorSection = () => {
+export const PrimepicksAuthorSection = () => {
   return (
     <div className="box-border caret-transparent max-w-[1000px] mx-auto">
       <section className="font-bold bg-zinc-100 box-border caret-transparent border border-neutral-200 mt-[22px] px-8 py-6 border-solid">

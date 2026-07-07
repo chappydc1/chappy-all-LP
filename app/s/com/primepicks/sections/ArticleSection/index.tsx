@@ -1,12 +1,12 @@
-import { Article } from "../ArticleSection/components/Article";
-import { Sidebar } from "../ArticleSection/components/Sidebar";
+import { PrimepicksArticle } from "./components/PrimepicksArticle";
+import { PrimepicksSidebar } from "./components/PrimepicksSidebar";
 
-export const ArticleSection = () => {
+export const PrimepicksArticleSection = () => {
   return (
     <div className="bg-white box-border caret-transparent max-w-[9999px] w-full mx-0 px-4 py-10 rounded-none border-0 border-none border-black md:max-w-[1064px] md:border md:border-neutral-200 md:mx-auto md:py-12 md:rounded-[20px] md:border-solid">
       <div className="box-border caret-transparent flex justify-between max-w-[1000px] mx-auto pb-[5px]">
-        <Article />
-        <Sidebar />
+        <PrimepicksArticle />
+        <PrimepicksSidebar />
       </div>
       <div className="box-border caret-transparent max-w-[1000px] mx-auto">
         <section className="font-bold bg-zinc-100 box-border caret-transparent border border-neutral-200 mt-[22px] px-8 py-6 border-solid">

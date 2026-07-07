@@ -1,6 +1,6 @@
-import { PreparationStep } from "./components/PreparationStep";
+import { PipiteaMatchaPreparationStep } from "./components/PipiteaMatchaPreparationStep";
 
-export const PreparationSteps = () => {
+export const PipiteaMatchaPreparationSteps = () => {
   return (
     <section
       href=""
@@ -52,7 +52,7 @@ export const PreparationSteps = () => {
                 href=""
                 className="items-start box-border caret-transparent flex flex-col flex-wrap min-h-[auto] min-w-[auto] mt-10 md:flex-row"
               >
-                <PreparationStep
+                <PipiteaMatchaPreparationStep
                   imageSrc="https://c.animaapp.com/mq0c6l4mp0WBgi/assets/1762567172520_Step01.webp"
                   title="Measure"
                   description="Add 1-2 teaspoons of ceremonial matcha powder to your bowl or cup."
@@ -81,7 +81,7 @@ export const PreparationSteps = () => {
                     </div>
                   </div>
                 </div>
-                <PreparationStep
+                <PipiteaMatchaPreparationStep
                   imageSrc="https://c.animaapp.com/mq0c6l4mp0WBgi/assets/1762906518710_step02_v2.webp"
                   title="Add Water & Whisk"
                   description="Pour 2-4 oz of hot water (175°F) and whisk vigorously for 15-30 seconds until frothy."
@@ -110,7 +110,7 @@ export const PreparationSteps = () => {
                     </div>
                   </div>
                 </div>
-                <PreparationStep
+                <PipiteaMatchaPreparationStep
                   imageSrc="https://c.animaapp.com/mq0c6l4mp0WBgi/assets/1762907146975_step03_v2.webp"
                   title="Enjoy"
                   description="Drink immediately hot, add milk for a latte, or pour over ice. Drink daily for full benefits."

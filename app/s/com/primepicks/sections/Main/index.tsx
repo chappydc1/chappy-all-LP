@@ -1,15 +1,15 @@
-import { HeroSection } from "../HeroSection";
-import { ProductListSection } from "../ProductListSection";
-import { FeaturedReviewSection } from "../FeaturedReviewSection";
-import { StickyBanner } from "../Main/components/StickyBanner";
+import { PrimepicksHeroSection } from "../HeroSection";
+import { PrimepicksProductListSection } from "../ProductListSection";
+import { PrimepicksFeaturedReviewSection } from "../FeaturedReviewSection";
+import { PrimepicksStickyBanner } from "./components/PrimepicksStickyBanner";
 
-export const Main = () => {
+export const PrimepicksMain = () => {
   return (
     <main className="box-border caret-transparent">
-      <HeroSection />
-      <ProductListSection />
-      <FeaturedReviewSection />
-      <StickyBanner />
+      <PrimepicksHeroSection />
+      <PrimepicksProductListSection />
+      <PrimepicksFeaturedReviewSection />
+      <PrimepicksStickyBanner />
     </main>
   );
 };

@@ -1,10 +1,10 @@
-import { SplitContentBlock } from "../../components/SplitContentBlock";
+import { RejuvacareSplitContentBlock } from "../../components/RejuvacareSplitContentBlock";
 
-export const ProductStorySection = () => {
+export const RejuvacareProductStorySection = () => {
   return (
     <div className="items-center self-center bg-neutral-100 box-border caret-transparent flex flex-wrap justify-center max-w-full outline-[3px] md:flex-nowrap">
       <div className="relative bg-sky-100 box-border caret-transparent basis-full grow max-w-[1400px] min-h-[25px] outline-[3px] w-min m-auto pt-5 pb-10 px-[15px] md:basis-0 md:px-[100px] md:py-[50px]">
-        <SplitContentBlock
+        <RejuvacareSplitContentBlock
           rootVariantClass="md:[align-items:normal] md:flex-row"
           contentVariantClass="mr-px mb-2.5 pr-0 py-0 md:mr-0 md:mb-0"
           title="Professionally Designed & Recommended"
@@ -52,7 +52,7 @@ export const ProductStorySection = () => {
             />
           }
         />
-        <SplitContentBlock
+        <RejuvacareSplitContentBlock
           rootVariantClass="mt-px md:items-start md:flex-row-reverse md:mt-[60px]"
           contentVariantClass="ml-px pl-px pr-0 py-0 md:ml-0 md:pl-[30px]"
           title="The Perfect Therapy Every Time"

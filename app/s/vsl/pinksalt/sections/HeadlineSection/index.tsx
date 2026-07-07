@@ -6,7 +6,7 @@ type HeadlineSectionProps = {
   badge?: string;
 };
 
-export const HeadlineSection = ({
+export const PinksaltHeadlineSection = ({
   bold = "NO OZEMPIC... Just 4 Ingredients!",
   intro = "This is the",
   highlight = "new recipe",

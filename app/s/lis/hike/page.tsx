@@ -1,11 +1,11 @@
-import { Header } from "./sections/Header";
-import { MainArticle } from "./sections/MainArticle";
+import { HikeHeader } from "./sections/Header";
+import { HikeMainArticle } from "./sections/MainArticle";
 
 export default function HikePage() {
   return (
     <>
-      <Header />
-      <MainArticle />
+      <HikeHeader />
+      <HikeMainArticle />
     </>
   );
 }

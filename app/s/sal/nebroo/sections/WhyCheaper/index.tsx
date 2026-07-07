@@ -1,4 +1,4 @@
-export const WhyCheaper = () => {
+export const NebrooWhyCheaper = () => {
   return (
     <div className="box-border caret-transparent w-full mt-5 font-montserrat md:w-auto md:font-apple_system">
       <div className="text-[17px] box-border caret-transparent basis-[0%] shrink-0 leading-6 text-left mb-px p-0 rounded-[1px] font-montserrat md:leading-[26px] md:p-px">

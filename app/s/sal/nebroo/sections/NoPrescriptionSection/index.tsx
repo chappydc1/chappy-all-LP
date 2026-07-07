@@ -1,4 +1,4 @@
-export const NoPrescriptionSection = () => {
+export const NebrooNoPrescriptionSection = () => {
   return (
     <div className="items-center box-border caret-transparent flex flex-wrap justify-start mt-0 md:flex-nowrap md:mt-2.5">
       <div className="items-stretch box-border caret-transparent hidden basis-full flex-col grow justify-around min-h-[25px] min-w-0 pt-px pb-2.5 px-2.5 md:[align-items:normal] md:flex md:justify-center md:min-w-[auto] md:pt-2.5">

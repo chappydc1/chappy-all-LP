@@ -1,21 +1,21 @@
-import { HeroSection } from "../HeroSection";
-import { ProductList } from "../ProductList";
+import { ForbesHeroSection } from "../HeroSection";
+import { ForbesProductList } from "../ProductList";
 
 type MainProps = {
   heroBgSrc: string;
   heading: string;
   subheading: string;
   date: string;
-  products: Parameters<typeof ProductList>[0]["products"];
-  productImages: Parameters<typeof ProductList>[0]["productImages"];
-  articleMedia: Parameters<typeof ProductList>[0]["articleMedia"];
-  ui: Parameters<typeof ProductList>[0]["ui"];
-  articles: Parameters<typeof ProductList>[0]["articles"];
+  products: Parameters<typeof ForbesProductList>[0]["products"];
+  productImages: Parameters<typeof ForbesProductList>[0]["productImages"];
+  articleMedia: Parameters<typeof ForbesProductList>[0]["articleMedia"];
+  ui: Parameters<typeof ForbesProductList>[0]["ui"];
+  articles: Parameters<typeof ForbesProductList>[0]["articles"];
   medviUrl: string;
   remedyUrl: string;
 };
 
-export const Main = ({
+export const ForbesMain = ({
   heroBgSrc,
   heading,
   subheading,
@@ -35,14 +35,14 @@ export const Main = ({
           <div className="box-border caret-transparent">
             <div className="items-stretch box-border caret-transparent flex flex-col">
               <div className="relative box-border caret-transparent flex flex-col shrink-0 min-h-[auto] min-w-[auto]">
-                <HeroSection
+                <ForbesHeroSection
                   backgroundSrc={heroBgSrc}
                   heading={heading}
                   subheading={subheading}
                   date={date}
                 />
               </div>
-              <ProductList
+              <ForbesProductList
                 products={products}
                 productImages={productImages}
                 articleMedia={articleMedia}

@@ -1,5 +1,5 @@
-import { PageShell } from "./sections/PageShell";
+import { DerilaPageShell } from "./sections/PageShell";
 
 export default function DerilaPage() {
-  return <PageShell />;
+  return <DerilaPageShell />;
 }

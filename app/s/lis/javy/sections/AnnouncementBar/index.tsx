@@ -1,6 +1,6 @@
-import { CountdownTimer } from "../AnnouncementBar/components/CountdownTimer";
+import { JavyCountdownTimer } from "./components/JavyCountdownTimer";
 
-export const AnnouncementBar = () => {
+export const JavyAnnouncementBar = () => {
   return (
     <div className="sticky box-border z-[99999] top-0">
       <div className="relative box-border flex flex-col w-full">
@@ -13,7 +13,7 @@ export const AnnouncementBar = () => {
               UP TO 58% OFF WITH FREE GIFTS
             </div>
           </div>
-          <CountdownTimer />
+          <JavyCountdownTimer />
         </div>
       </div>
     </div>

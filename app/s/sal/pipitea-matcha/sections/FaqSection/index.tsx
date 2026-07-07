@@ -1,7 +1,7 @@
-import { FaqItem } from "./components/FaqItem";
-import { CtaBlock } from "../../components/CtaBlock";
+import { PipiteaMatchaFaqItem } from "./components/PipiteaMatchaFaqItem";
+import { PipiteaMatchaCtaBlock } from "../../components/PipiteaMatchaCtaBlock";
 
-export const FaqSection = () => {
+export const PipiteaMatchaFaqSection = () => {
   return (
     <section
       href=""
@@ -61,26 +61,26 @@ export const FaqSection = () => {
                     href=""
                     className="items-center box-border caret-transparent flex justify-center min-w-[auto] outline-[3px]"
                   >
-                    <FaqItem
+                    <PipiteaMatchaFaqItem
                       question="What is Ceremonial Matcha?"
                       answer="Ceremonial Matcha is the highest grade of matcha green tea, made from first-harvest tea leaves grown in Hangzhou.. Unlike regular green tea or lower-grade culinary matcha, ceremonial matcha contains up to 137 times more antioxidants (particularly EGCG) and provides concentrated support for gut health, metabolism, inflammation reduction, and stress balance. It's a whole-food source of powerful polyphenols, catechins, and L-theanine that work together to address cellular damage at the root cause level."
                       wrapperClassName="box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full"
                       innerClassName="bg-white box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] border border-stone-300 rounded-bl rounded-br rounded-tl rounded-tr border-solid"
                     />
                   </div>
-                  <FaqItem
+                  <PipiteaMatchaFaqItem
                     question="Why should I drink it?"
                     answer="If you're struggling with persistent bloating, stubborn weight gain, chronic inflammation, joint pain, brain fog, or fatigue that nothing else has fixed, Ceremonial Matcha addresses the root cause: oxidative stress and cellular damage. Unlike probiotics that can worsen bloating, ashwagandha that works for only 40-60% of people, or coffee that crashes your energy and raises cortisol, Ceremonial Matcha works consistently for everyone with 900 years of safe use. It repairs leaky gut, supports metabolism, reduces inflammation by up to 30%, and provides calm energy without jitters or crashes."
                     wrapperClassName="items-center box-border caret-transparent flex justify-center min-w-[auto] outline-[3px]"
                     innerClassName="bg-white box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] border border-stone-300 mt-2.5 rounded-bl rounded-br rounded-tl rounded-tr border-solid"
                   />
-                  <FaqItem
+                  <PipiteaMatchaFaqItem
                     question="What are the health benefits?"
                     answer="Ceremonial Matcha helps seal leaky gut and reduce bloating, supports healthy weight loss and melts stubborn belly fat, balances hormones and cortisol levels naturally, reduces chronic inflammation and joint pain, improves mental clarity and focus, provides sustained energy without crashes, supports better sleep quality, and promotes healthy, radiant skin from within. All benefits are backed by clinical research on EGCG and centuries of traditional use.*"
                     wrapperClassName="items-center box-border caret-transparent flex justify-center min-w-[auto] outline-[3px]"
                     innerClassName="bg-white box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] border border-stone-300 mt-2.5 rounded-bl rounded-br rounded-tl rounded-tr border-solid"
                   />
-                  <FaqItem
+                  <PipiteaMatchaFaqItem
                     question="How many servings in a container?"
                     answer={
                       <>
@@ -105,13 +105,13 @@ export const FaqSection = () => {
                     wrapperClassName="items-center box-border caret-transparent flex justify-center min-w-[auto] outline-[3px]"
                     innerClassName="bg-white box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] border border-stone-300 mt-2.5 rounded-bl rounded-br rounded-tl rounded-tr border-solid"
                   />
-                  <FaqItem
+                  <PipiteaMatchaFaqItem
                     question="Does it contain caffeine?"
                     answer="Yes, Ceremonial Matcha contains natural caffeine from tea leaves, approximately 30-50mg per serving (about half the caffeine in a cup of coffee). However, the key difference is the L-theanine content, which moderates caffeine's effects and prevents jitters, anxiety, and crashes. This synergistic combination provides calm, sustained energy and focus for 6 hours without the negative side effects of coffee. The lower caffeine content also means it won't disrupt your sleep the way afternoon coffee does."
                     wrapperClassName="items-center box-border caret-transparent flex justify-center min-w-[auto] outline-[3px]"
                     innerClassName="bg-white box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] border border-stone-300 mt-2.5 rounded-bl rounded-br rounded-tl rounded-tr border-solid"
                   />
-                  <FaqItem
+                  <PipiteaMatchaFaqItem
                     question="How do I prepare it properly?"
                     answer={
                       <>
@@ -129,13 +129,13 @@ export const FaqSection = () => {
                     wrapperClassName="items-center box-border caret-transparent flex justify-center min-w-[auto] outline-[3px]"
                     innerClassName="bg-white box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] border border-stone-300 mt-2.5 rounded-bl rounded-br rounded-tl rounded-tr border-solid"
                   />
-                  <FaqItem
+                  <PipiteaMatchaFaqItem
                     question="If I have a medical condition, can I drink Ceremonial Matcha?"
                     answer="Ceremonial Matcha is a whole food (green tea) that has been consumed safely for 900 years. It's generally safe for most people and doesn't have the dangerous drug interactions or side effects associated with supplements like ashwagandha (thyroid, blood pressure, diabetes medications). However, if you're pregnant, nursing, taking blood thinners, or have a specific medical condition, we recommend consulting your healthcare provider before starting any new dietary supplement, including matcha. Those sensitive to caffeine should start with a smaller serving."
                     wrapperClassName="items-center box-border caret-transparent flex justify-center min-w-[auto] outline-[3px]"
                     innerClassName="bg-white box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] border border-stone-300 mt-2.5 rounded-bl rounded-br rounded-tl rounded-tr border-solid"
                   />
-                  <FaqItem
+                  <PipiteaMatchaFaqItem
                     question="Where is it sourced from?"
                     answer={
                       <>
@@ -156,7 +156,7 @@ export const FaqSection = () => {
                     wrapperClassName="items-center box-border caret-transparent flex justify-center min-w-[auto] outline-[3px]"
                     innerClassName="bg-white box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] border border-stone-300 mt-2.5 rounded-bl rounded-br rounded-tl rounded-tr border-solid"
                   />
-                  <FaqItem
+                  <PipiteaMatchaFaqItem
                     question="How long does delivery take?"
                     answer={
                       <>
@@ -175,7 +175,7 @@ export const FaqSection = () => {
                     wrapperClassName="items-center box-border caret-transparent flex justify-center min-w-[auto] outline-[3px]"
                     innerClassName="bg-white box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] border border-stone-300 mt-2.5 rounded-bl rounded-br rounded-tl rounded-tr border-solid"
                   />
-                  <FaqItem
+                  <PipiteaMatchaFaqItem
                     question="How soon will I feel the effects?"
                     answer={
                       <>
@@ -205,7 +205,7 @@ export const FaqSection = () => {
                     wrapperClassName="items-center box-border caret-transparent flex justify-center min-w-[auto] outline-[3px]"
                     innerClassName="bg-white box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] border border-stone-300 mt-2.5 rounded-bl rounded-br rounded-tl rounded-tr border-solid"
                   />
-                  <FaqItem
+                  <PipiteaMatchaFaqItem
                     question="Is there a money-back guarantee?"
                     answer={
                       <>

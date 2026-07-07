@@ -1,4 +1,4 @@
-import { DiabetesHeroArticle } from "../HeroSection/components/HeroArticle";
+import { DiabetesHeroArticle } from "./components/DiabetesHeroArticle";
 
 export const DiabetesHeroSection = () => {
   return (

@@ -1,9 +1,9 @@
-import { FooterContent } from "./components/FooterContent";
+import { NexaFooterContent } from "./components/NexaFooterContent";
 
-export const Footer = () => {
+export const NexaFooter = () => {
   return (
     <footer className="box-border caret-transparent outline-[3px]">
-      <FooterContent />
+      <NexaFooterContent />
     </footer>
   );
 };

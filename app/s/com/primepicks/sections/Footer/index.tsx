@@ -1,9 +1,9 @@
-import { FooterDisclaimer } from "../Footer/components/FooterDisclaimer";
+import { PrimepicksFooterDisclaimer } from "./components/PrimepicksFooterDisclaimer";
 
-export const Footer = () => {
+export const PrimepicksFooter = () => {
   return (
     <footer className="bg-stone-50 box-border caret-transparent pt-0 font-open_sans md:pt-6">
-      <FooterDisclaimer />
+      <PrimepicksFooterDisclaimer />
     </footer>
   );
 };

@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState, type ReactNode } from "react";
 import { content } from "../../content";
-import type { TrustpilotReview } from "../../types";
+import type { NuzTrustpilotReview } from "../../types";
 
 const TP_GREEN = "#00b67a";
 const TP_ORANGE = "#ff8622";
@@ -118,7 +118,7 @@ const TrustpilotRatingStars = ({
   );
 };
 
-const ReviewCard = ({ review }: { review: TrustpilotReview }) => {
+const ReviewCard = ({ review }: { review: NuzTrustpilotReview }) => {
   const bodyRef = useRef<HTMLParagraphElement>(null);
   const [overflows, setOverflows] = useState(false);
   const [expanded, setExpanded] = useState(false);
@@ -277,14 +277,14 @@ const ReviewCard = ({ review }: { review: TrustpilotReview }) => {
 };
 
 type Props = {
-  reviews?: TrustpilotReview[];
+  reviews?: NuzTrustpilotReview[];
   heading?: ReactNode;
   ratingLabel?: string;
   ratingValue?: string;
   totalReviews?: number | string;
 };
 
-export const TrustpilotReviews = ({
+export const NuzTrustpilotReviews = ({
   reviews = content.trustpilot.reviews,
   heading,
   ratingLabel = content.trustpilot.ratingLabel,

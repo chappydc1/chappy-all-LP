@@ -1,6 +1,6 @@
 import { useScrollReveal } from "../../hooks/useScrollReveal";
 
-export const MediaBlock = () => {
+export const HearMediaBlock = () => {
   const ref = useScrollReveal<HTMLDivElement>();
 
   return (

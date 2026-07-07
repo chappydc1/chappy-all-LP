@@ -1,4 +1,4 @@
-export const Footer = () => (
+export const OprahFooter = () => (
   <div className="w-full" style={{ background: "linear-gradient(135deg, #c4a020 0%, #b8960c 60%, #a8860a 100%)" }}>
     <div className="box-border max-w-[800px] m-auto px-6 py-10 text-center reveal">
       <div className="flex flex-wrap items-center justify-center gap-x-6 gap-y-2 mb-5">

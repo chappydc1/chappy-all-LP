@@ -1,7 +1,7 @@
-import { AdvertorialArticle } from "../HeroSection/components/AdvertorialArticle";
+import { TodayAdvertorialArticle } from "./components/TodayAdvertorialArticle";
 
-export const HeroSection = () => {
+export const TodayHeroSection = () => {
   return (
-    <AdvertorialArticle />
+    <TodayAdvertorialArticle />
   );
 };

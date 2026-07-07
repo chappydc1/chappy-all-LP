@@ -1,10 +1,10 @@
 import rawCopy from "./copy.json";
 import media from "./media.json";
-import { LandingPage } from "./sections/LandingPage";
-import type { CopyType } from "./sections/LandingPage/context";
+import { RosabellaLandingPage } from "./sections/LandingPage";
+import type { RosabellaCopyType } from "./sections/LandingPage/context";
 
-const copy = rawCopy as CopyType;
+const copy = rawCopy as RosabellaCopyType;
 
 export default function RosabellaPage() {
-  return <LandingPage copy={copy} media={media} />;
+  return <RosabellaLandingPage copy={copy} media={media} />;
 }

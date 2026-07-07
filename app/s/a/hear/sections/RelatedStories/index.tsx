@@ -1,4 +1,4 @@
-import { RelatedStoryCard } from "../RelatedStories/components/RelatedStoryCard";
+import { HearRelatedStoryCard } from "./components/HearRelatedStoryCard";
 import { useScrollReveal } from "../../hooks/useScrollReveal";
 
 const stories = [
@@ -22,7 +22,7 @@ const stories = [
   },
 ];
 
-export const RelatedStories = () => {
+export const HearRelatedStories = () => {
   const ref = useScrollReveal<HTMLDivElement>();
 
   return (
@@ -36,7 +36,7 @@ export const RelatedStories = () => {
       <div className="reveal reveal-delay-1 caret-transparent mb-[50px]">
         <div className="caret-transparent gap-x-[30px] flex flex-col gap-y-[30px] md:gap-x-2.5 md:flex-row md:gap-y-2.5">
           {stories.map((story, i) => (
-            <RelatedStoryCard key={i} {...story} />
+            <HearRelatedStoryCard key={i} {...story} />
           ))}
         </div>
       </div>

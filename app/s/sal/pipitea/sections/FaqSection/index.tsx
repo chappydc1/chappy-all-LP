@@ -1,7 +1,7 @@
-import { FaqItem } from "./components/FaqItem";
-import { SectionCta } from "../../components/SectionCta";
+import { PipiteaFaqItem } from "./components/PipiteaFaqItem";
+import { PipiteaSectionCta } from "../../components/PipiteaSectionCta";
 
-export const FaqSection = () => {
+export const PipiteaFaqSection = () => {
   return (
     <section
       className="relative items-center bg-pink-500/10 bg-no-repeat box-border caret-transparent flex flex-col justify-items-center min-h-[auto] min-w-[auto] outline-[3px] w-full bg-center px-[15px] py-[45px] md:py-[60px]"
@@ -51,7 +51,7 @@ export const FaqSection = () => {
                     <div
                       className="box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full"
                     >
-                      <FaqItem
+                      <PipiteaFaqItem
                         title="What is Hibiscus Tea?"
                         content="Hibiscus tea is made from the dried petals of the Hibiscus sabdariffa flower, which has been consumed for centuries across cultures, from Egyptian royalty to Mexican Agua de Jamaica to traditional Ayurvedic medicine. It has a naturally tart, cranberry-like flavor and a beautiful deep ruby-red color. Unlike most herbal teas, hibiscus has been extensively studied, with over 25 clinical trials confirming benefits for cardiovascular health, blood pressure, cholesterol, and antioxidant protection."
                         className=""
@@ -65,7 +65,7 @@ export const FaqSection = () => {
                     <div
                       className="box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full"
                     >
-                      <FaqItem
+                      <PipiteaFaqItem
                         title="Why should I drink it?"
                         content="If you want a daily drink that actually supports your kidney and urinary health - without caffeine, without side effects, and without complicated preparation - hibiscus is your answer. It supports cardiovascular health, delivers powerful antioxidant protection for your kidneys and urinary system, helps satisfy sugar cravings, and promotes healthy metabolism. And unlike bitter supplements or powders, you'll actually enjoy drinking it, which means you'll stick with it long enough to see results."
                         className="mt-2.5"
@@ -79,7 +79,7 @@ export const FaqSection = () => {
                     <div
                       className="box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full"
                     >
-                      <FaqItem
+                      <PipiteaFaqItem
                         title="What are the health benefits?"
                         content="Hibiscus tea supports healthy kidney function and urinary health, helps maintain healthy blood pressure already in normal range, promotes balanced cholesterol and lipid profiles, delivers the highest antioxidant content of any herbal tea, provides Vitamin C for skin health and immune function, supports healthy metabolism and weight management, and helps satisfy cravings without sugar or caffeine. All benefits are backed by clinical research and centuries of traditional use.*"
                         className="mt-2.5"
@@ -93,7 +93,7 @@ export const FaqSection = () => {
                     <div
                       className="box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full"
                     >
-                      <FaqItem
+                      <PipiteaFaqItem
                         title="Is it caffeine-free?\u00A0"
                         contentTag="h3"
                         className="mt-2.5"
@@ -107,7 +107,7 @@ export const FaqSection = () => {
                     <div
                       className="box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full"
                     >
-                      <FaqItem
+                      <PipiteaFaqItem
                         title="What does it taste like?"
                         content="Hibiscus has a naturally tart, cranberry-like flavor with hints of berry sweetness. Most people describe it as refreshing and satisfying, not bitter or medicinal like many herbal teas. It works beautifully hot or iced and can be customized with cinnamon, orange, mint, ginger, or a touch of honey."
                         className="mt-2.5"
@@ -121,7 +121,7 @@ export const FaqSection = () => {
                     <div
                       className="box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full"
                     >
-                      <FaqItem
+                      <PipiteaFaqItem
                         title="How do I prepare it?"
                         content="Steep 1 tea bag in hot water for 5-7 minutes. Drink hot or pour over ice. For maximum benefits, drink 1 cup daily, the dose used in clinical studies. Many people brew a large pitcher and keep it in the refrigerator for easy access throughout the day."
                         className="mt-2.5"
@@ -135,7 +135,7 @@ export const FaqSection = () => {
                     <div
                       className="box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full"
                     >
-                      <FaqItem
+                      <PipiteaFaqItem
                         title="How many servings are in a package?"
                         contentTag="p"
                         className="mt-2.5"
@@ -175,7 +175,7 @@ export const FaqSection = () => {
                     <div
                       className="box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full"
                     >
-                      <FaqItem
+                      <PipiteaFaqItem
                         title="How soon will I see results?"
                         contentTag="p"
                         className="mt-2.5"
@@ -189,7 +189,7 @@ export const FaqSection = () => {
                     <div
                       className="box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full"
                     >
-                      <FaqItem
+                      <PipiteaFaqItem
                         title="Is it safe?"
                         contentTag="p"
                         className="mt-2.5"
@@ -203,7 +203,7 @@ export const FaqSection = () => {
                     <div
                       className="box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full"
                     >
-                      <FaqItem
+                      <PipiteaFaqItem
                         title="Where is it sourced?"
                         content="Our hibiscus is sourced from USDA Organic certified farms and triple-tested for heavy metals, pesticides, and contaminants. We prioritize purity and potency to ensure you get the maximum benefits from every cup."
                         className="mt-2.5"
@@ -217,7 +217,7 @@ export const FaqSection = () => {
                     <div
                       className="box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full"
                     >
-                      <FaqItem
+                      <PipiteaFaqItem
                         title="How long does shipping take?"
                         content="Orders ship within 1-2 business days. Most customers receive their order within 3-5 business days depending on location. You'll receive tracking information as soon as your order ships."
                         className="mt-2.5"
@@ -231,7 +231,7 @@ export const FaqSection = () => {
                     <div
                       className="box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full"
                     >
-                      <FaqItem
+                      <PipiteaFaqItem
                         title="What if it doesn't work for me?"
                         content='We offer a 90-day money-back guarantee. If you don&#39;t love the taste, notice the benefits, or find yourself reaching for it daily, we&#39;ll refund every penny. No questions asked. We&#39;re confident you&#39;ll love it because the combination of "actually works" and "actually tastes good" is rare, and hibiscus delivers both.'
                         className="mt-2.5"
@@ -261,7 +261,7 @@ export const FaqSection = () => {
                     <div
                       className="items-stretch box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full"
                     >
-                      <SectionCta
+                      <PipiteaSectionCta
                         title="BUY NOW & SAVE"
                         text="BUY NOW & SAVE"
                       />

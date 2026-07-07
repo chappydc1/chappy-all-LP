@@ -1,4 +1,4 @@
-export const HeroSection = () => {
+export const EmmaHeroSection = () => {
   return (
     <div className="bg-stone-100 box-border w-full">
       <div className="box-border max-w-[1440px] m-auto pt-6">

@@ -1,8 +1,8 @@
 "use client";
-import { ReviewCard } from "../Reviews/components/ReviewCard";
+import { NebrooReviewCard } from "./components/NebrooReviewCard";
 import { useScrollReveal } from "../../hooks/useScrollReveal";
 
-export const Reviews = () => {
+export const NebrooReviews = () => {
   const { ref, visible } = useScrollReveal();
   return (
     <div id="reviews" className="items-stretch box-border caret-transparent flex flex-wrap justify-center max-w-full px-0 py-5 md:flex-nowrap md:px-2.5">
@@ -54,7 +54,7 @@ export const Reviews = () => {
         </div>
         <div className="items-start box-border caret-transparent block flex-col min-h-0 min-w-0 w-full px-2.5 py-0 md:flex md:flex-row md:min-h-[auto] md:min-w-[auto] md:py-3">
           <div className={`reveal delay-100 ${visible ? "visible" : ""} w-full md:w-auto md:flex-1`}>
-          <ReviewCard
+          <NebrooReviewCard
             containerVariantClass="mb-5 font-montserrat md:mb-0"
             avatarSrc="/images/nebroo/1729153936072_1727787054724_Dorothy_J._Reviews.webp"
             reviewerName="Sally M."
@@ -73,7 +73,7 @@ export const Reviews = () => {
           />
           </div>
           <div className={`reveal delay-200 ${visible ? "visible" : ""} w-full md:w-auto md:flex-1`}>
-          <ReviewCard
+          <NebrooReviewCard
             containerVariantClass="my-5 md:my-0"
             avatarSrc="/images/nebroo/1729153940047_1727912760317_Wilford_C.webp"
             reviewerName="Willford C."
@@ -84,7 +84,7 @@ export const Reviews = () => {
           />
           </div>
           <div className={`reveal delay-300 ${visible ? "visible" : ""} w-full md:w-auto md:flex-1`}>
-          <ReviewCard
+          <NebrooReviewCard
             containerVariantClass="mt-5 font-helvetica md:mt-0"
             avatarSrc="/images/nebroo/1729153945802_1727912762728_James_M._Reviews_copy.webp"
             reviewerName="James P."

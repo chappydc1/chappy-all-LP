@@ -1,5 +1,5 @@
-import { LandingPage } from "./LandingPage";
+import { NuzLandingPage } from "./NuzLandingPage";
 
-export default function Page() {
-  return <LandingPage />;
+export default function NuzPage() {
+  return <NuzLandingPage />;
 }

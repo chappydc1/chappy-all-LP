@@ -7,6 +7,6 @@ export const metadata: Metadata = {
   icons: { icon: "/favicons/nuz-neck-pain.svg" },
 };
 
-export default function Layout({ children }: { children: React.ReactNode }) {
+export default function NuzLayout({ children }: { children: React.ReactNode }) {
   return <>{children}</>;
 }

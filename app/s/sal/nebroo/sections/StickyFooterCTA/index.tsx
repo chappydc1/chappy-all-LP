@@ -1,4 +1,4 @@
-export const StickyFooterCTA = () => {
+export const NebrooStickyFooterCTA = () => {
   return (
     <div className="sticky items-stretch bg-slate-500 box-border caret-transparent flex flex-wrap justify-center max-w-full z-[50] pt-[3px] pb-[5px] px-2.5 bottom-0 md:flex-nowrap md:py-2.5 shadow-[0_-4px_16px_rgba(0,0,0,0.2)]">
       <div className="relative box-border caret-transparent basis-full grow max-w-full min-h-[25px] w-min md:basis-0">

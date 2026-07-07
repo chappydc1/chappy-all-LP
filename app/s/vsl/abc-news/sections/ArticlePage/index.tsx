@@ -1,6 +1,6 @@
-import { StickyAdBanner } from "../ArticlePage/components/StickyAdBanner";
+import { AbcNewsStickyAdBanner } from "./components/AbcNewsStickyAdBanner";
 
-export const ArticlePage = () => {
+export const AbcNewsArticlePage = () => {
   return (
     <main className="relative box-border caret-transparent outline-[3px]">
       <div className="box-border caret-transparent outline-[3px]">
@@ -211,7 +211,7 @@ export const ArticlePage = () => {
         <div className="box-border caret-transparent outline-[3px]">
           <span className="box-border caret-transparent outline-[3px]"></span>
           <div className="box-border caret-transparent outline-[3px]">
-            <StickyAdBanner />
+            <AbcNewsStickyAdBanner />
           </div>
         </div>
         <footer className="text-neutral-400 text-xs font-light box-border caret-transparent leading-[21px] outline-[3px] mt-10 mb-2.5 p-5">

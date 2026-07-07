@@ -47,7 +47,7 @@ type Comment = {
 
 type FooterLink = { label: string; href: string };
 
-export type AdvContent = {
+export type NebrooV1AdvContent = {
   ctaUrl: string;
   meta: { title: string };
   topBanner: { trendingText: string };
@@ -72,7 +72,7 @@ export type AdvContent = {
   };
 };
 
-export type AdvMedia = {
+export type NebrooV1AdvMedia = {
   flagIcon: string;
   sidebarProductImage: string;
   sidebarArrowIcon: string;
@@ -88,7 +88,7 @@ export type AdvMedia = {
 
 // ─── Context ──────────────────────────────────────────────────────────────────
 
-type AdvertorialData = { content: AdvContent; media: AdvMedia };
+type AdvertorialData = { content: NebrooV1AdvContent; media: NebrooV1AdvMedia };
 const AdvertorialContext = createContext<AdvertorialData | null>(null);
 
 function useAdvertorialData(): AdvertorialData {
@@ -604,12 +604,12 @@ function StickyCtaBar(): React.JSX.Element {
 
 // ─── TopBar (main export) ─────────────────────────────────────────────────────
 
-export function TopBar({
+export function NebrooV1TopBar({
   content,
   media,
 }: {
-  content: AdvContent;
-  media: AdvMedia;
+  content: NebrooV1AdvContent;
+  media: NebrooV1AdvMedia;
 }): React.JSX.Element {
   return (
     <AdvertorialContext.Provider value={{ content, media }}>

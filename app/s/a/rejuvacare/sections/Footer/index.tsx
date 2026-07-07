@@ -1,4 +1,4 @@
-export const Footer = () => {
+export const RejuvacareFooter = () => {
   return (
     <div className="items-stretch bg-neutral-100 box-border caret-transparent flex flex-wrap justify-center max-w-full outline-[3px] md:flex-nowrap">
       <div className="relative bg-stone-100 box-border caret-transparent basis-full flex-col grow max-w-[1400px] min-h-[25px] outline-[3px] w-min m-auto pt-5 pb-[100px] px-[15px] md:basis-0 md:pb-5 md:px-[100px]">

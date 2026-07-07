@@ -1,4 +1,4 @@
-export const VideoSection = () => {
+export const OprahVideoSection = () => {
   return (
     <div className="relative self-center box-border caret-transparent gap-x-5 max-w-full min-h-[auto] gap-y-5 w-[89%]">
       <div className="box-border caret-transparent block w-full mx-auto">

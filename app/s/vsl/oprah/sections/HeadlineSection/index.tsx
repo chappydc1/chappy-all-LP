@@ -1,4 +1,4 @@
-export const HeadlineSection = () => {
+export const OprahHeadlineSection = () => {
   return (
     <div className="relative box-border caret-transparent gap-x-5 max-w-full min-h-[auto] gap-y-5 text-center mt-0 md:mt-5">
       <h2 className="text-black text-[16px] font-black box-border caret-transparent leading-[21px] font-sans md:text-[24px] md:leading-[30px]">

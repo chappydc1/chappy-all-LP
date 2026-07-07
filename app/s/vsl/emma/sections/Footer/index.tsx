@@ -1,4 +1,4 @@
-export const Footer = () => {
+export const EmmaFooter = () => {
   return (
     <div className="bg-stone-100 box-border w-full">
       <div className="box-border max-w-[800px] m-auto px-4 py-12 reveal">

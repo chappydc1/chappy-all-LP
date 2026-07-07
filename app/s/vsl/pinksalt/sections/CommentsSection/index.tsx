@@ -1,6 +1,6 @@
-import { CommentHeader } from "../CommentsSection/components/CommentHeader";
-import { CommentItem, Reply } from "../CommentsSection/components/CommentItem";
-import { ReplyItem } from "../CommentsSection/components/ReplyItem";
+import { PinksaltCommentHeader } from "./components/PinksaltCommentHeader";
+import { PinksaltCommentItem, PinksaltReply } from "./components/PinksaltCommentItem";
+import { PinksaltReplyItem } from "./components/PinksaltReplyItem";
 
 type AdvReply = {
   id?: string;
@@ -24,7 +24,7 @@ type CommentsSectionProps = {
   avatars?: Record<string, string>;
 };
 
-export const CommentsSection = ({
+export const PinksaltCommentsSection = ({
   header = "959 Comments",
   comments = [],
   avatars = {},
@@ -32,10 +32,10 @@ export const CommentsSection = ({
   return (
     <div className="relative bg-white flex flex-col max-w-full w-full px-5 md:px-0">
       <div className="items-stretch gap-x-px flex flex-col grow flex-wrap h-full max-w-[min(100%,767px)] min-h-[auto] min-w-[auto] gap-y-px w-full mx-auto pt-2.5 pb-[60px] md:flex-nowrap md:max-w-[972px] md:pt-[25px] md:pb-[50px]">
-        <CommentHeader header={header} />
+        <PinksaltCommentHeader header={header} />
 
         {comments.map((comment) => {
-          const nestedReplies: Reply[] = (comment.replies ?? [])
+          const nestedReplies: PinksaltReply[] = (comment.replies ?? [])
             .filter((r) => r.type === "nested")
             .map((r) => ({
               avatarSrc: avatars[r.id ?? ""] ?? "",
@@ -51,7 +51,7 @@ export const CommentsSection = ({
 
           return (
             <div key={comment.id}>
-              <CommentItem
+              <PinksaltCommentItem
                 avatarSrc={avatars[comment.id] ?? ""}
                 name={comment.name}
                 comment={comment.text}
@@ -60,7 +60,7 @@ export const CommentsSection = ({
                 replies={nestedReplies.length ? nestedReplies : undefined}
               />
               {standaloneReplies.map((r) => (
-                <ReplyItem
+                <PinksaltReplyItem
                   key={r.id}
                   variant="comment"
                   variantClass="gap-x-px gap-y-px ml-[65px] md:ml-[100px]"
@@ -70,7 +70,7 @@ export const CommentsSection = ({
                 />
               ))}
               {actionReplies.map((r, i) => (
-                <ReplyItem
+                <PinksaltReplyItem
                   key={`${comment.id}-action-${i}`}
                   variant="actions"
                   variantClass="text-blue-800 text-sm gap-x-px leading-[21px] gap-y-px text-left ml-[121px] -mt-0.5 font-roboto md:ml-[170px] md:mt-1.5"

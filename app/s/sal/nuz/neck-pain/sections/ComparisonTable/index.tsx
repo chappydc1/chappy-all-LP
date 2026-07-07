@@ -1,11 +1,11 @@
 "use client";
 
-import { ComparisonRow } from "./components/ComparisonRow";
+import { NuzComparisonRow } from "./components/NuzComparisonRow";
 import { useScrollReveal } from "../../hooks/useScrollReveal";
 import { useCountdown } from "../../hooks/useCountdown";
 import { content } from "../../content";
 
-export const ComparisonTable = () => {
+export const NuzComparisonTable = () => {
   const c = content.comparison;
   const { ref, visible } = useScrollReveal();
   const { formatted } = useCountdown(c.ctaCountdownSeconds);
@@ -42,7 +42,7 @@ export const ComparisonTable = () => {
           </div>
 
           {c.rows.map((row, i) => (
-            <ComparisonRow key={i} {...row} />
+            <NuzComparisonRow key={i} {...row} />
           ))}
 
           <div className="box-border caret-transparent flex justify-between max-w-[1000px]">

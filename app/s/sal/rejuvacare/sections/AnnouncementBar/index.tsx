@@ -1,4 +1,4 @@
-export const AnnouncementBar = () => {
+export const RejuvacareAnnouncementBar = () => {
   return (
     <div className="items-center self-center bg-zinc-800 box-border caret-transparent flex flex-wrap justify-center max-w-full outline-[3px] md:flex-nowrap">
       <div className="relative box-border caret-transparent basis-full grow max-w-full min-h-[25px] outline-[3px] w-min md:basis-0">

@@ -1,4 +1,4 @@
-export const BonusSection = () => {
+export const EmmaBonusSection = () => {
   return (
     <div className="box-border max-w-[870px] w-full mt-12 mb-auto mx-auto reveal">
       <div className="bg-emerald-800 bg-[linear-gradient(rgb(0,0,0),rgba(0,0,0,0)),none] bg-size-[auto,auto] box-border caret-transparent bg-[position:0%,0%_0%,0%] py-6 rounded-t-[5px]">

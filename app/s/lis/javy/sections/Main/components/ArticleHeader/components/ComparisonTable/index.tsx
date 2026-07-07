@@ -1,6 +1,6 @@
-import { ComparisonRow } from "./components/ComparisonRow";
+import { JavyComparisonRow } from "./components/JavyComparisonRow";
 
-export const ComparisonTable = () => {
+export const JavyComparisonTable = () => {
   return (
     <div className="items-start box-border caret-transparent flex justify-center min-h-[auto] min-w-[auto] w-full mt-0 md:mt-1">
       <div className="box-border caret-transparent basis-[0%] grow h-full min-h-[auto] min-w-[auto] w-3/12 pt-[27px] md:basis-auto md:grow-0 md:pt-6">
@@ -60,7 +60,7 @@ export const ComparisonTable = () => {
           </div>
         </div>
       </div>
-      <ComparisonRow
+      <JavyComparisonRow
         rowVariant="javvy"
         logoSrc="/images/javy/673f5ae58cfb1d06dd96a4e3_javvy-blu.svg"
         logoAlt=""
@@ -77,7 +77,7 @@ export const ComparisonTable = () => {
         col4Class=""
         faceWrapperClass="relative text-xs box-border caret-transparent h-11 leading-[18px] mx-[3px] px-1 md:mx-3"
       />
-      <ComparisonRow
+      <JavyComparisonRow
         rowVariant="mainstream"
         brandName="Mainstream Coffees"
         brandNameClass="pl-1 md:pl-0"
@@ -92,7 +92,7 @@ export const ComparisonTable = () => {
         col4Class=""
         faceWrapperClass="text-red-600 text-[11.2px] h-14 leading-[16.8px] pl-2 pr-1 py-4"
       />
-      <ComparisonRow
+      <JavyComparisonRow
         rowVariant="mainstream"
         brandName="Protein Drinks"
         calories="160-200cal"

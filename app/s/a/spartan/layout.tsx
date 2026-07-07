@@ -7,6 +7,6 @@ export const metadata: Metadata = {
   icons: { icon: "/favicons/spartan.svg" },
 };
 
-export default function Layout({ children }: { children: React.ReactNode }) {
+export default function SpartanLayout({ children }: { children: React.ReactNode }) {
   return <>{children}</>;
 }

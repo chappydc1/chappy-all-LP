@@ -1,9 +1,9 @@
-import { FooterContact } from "../PageFooter/components/FooterContact";
-import { FooterLinks } from "../PageFooter/components/FooterLinks";
-import { FooterSocial } from "../PageFooter/components/FooterSocial";
-import { FooterCertification } from "../PageFooter/components/FooterCertification";
+import { FealsFooterContact } from "./components/FealsFooterContact";
+import { FealsFooterLinks } from "./components/FealsFooterLinks";
+import { FealsFooterSocial } from "./components/FealsFooterSocial";
+import { FealsFooterCertification } from "./components/FealsFooterCertification";
 
-export const PageFooter = () => {
+export const FealsPageFooter = () => {
   return (
     <div className="relative text-white items-center self-stretch bg-stone-500 box-border caret-transparent gap-x-8 flex flex-col shrink-0 justify-start min-h-px min-w-[auto] outline-[3px] gap-y-8 py-12">
       <div className="relative items-center self-center box-border caret-transparent gap-x-2 flex flex-col shrink-0 justify-start max-w-[767px] min-h-px min-w-[auto] outline-[3px] gap-y-2 px-4 md:max-w-[1180px] md:px-0">
@@ -21,10 +21,10 @@ export const PageFooter = () => {
           </span>
         </div>
       </div>
-      <FooterContact />
-      <FooterLinks />
-      <FooterSocial />
-      <FooterCertification />
+      <FealsFooterContact />
+      <FealsFooterLinks />
+      <FealsFooterSocial />
+      <FealsFooterCertification />
     </div>
   );
 };

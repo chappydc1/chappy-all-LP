@@ -1,10 +1,10 @@
 "use client";
 
-import { FAQItem } from "./components/FAQItem";
+import { NuzFAQItem } from "./components/NuzFAQItem";
 import { useScrollReveal } from "../../hooks/useScrollReveal";
 import { content } from "../../content";
 
-export const FAQSection = () => {
+export const NuzFAQSection = () => {
   const f = content.faq;
   const { ref, visible } = useScrollReveal();
 
@@ -31,7 +31,7 @@ export const FAQSection = () => {
           <div className="items-center box-border caret-transparent flex flex-col justify-center max-w-none text-center w-full mx-auto md:max-w-[890px]">
             <div className="box-border caret-transparent gap-x-0 grid flex-col auto-cols-[1fr] grid-flow-dense grid-cols-[1fr] grid-rows-[auto] min-h-[auto] min-w-[auto] gap-y-0 w-full md:w-[890px]">
               {f.items.map((item, i) => (
-                <FAQItem key={i} question={item.question} answer={item.answer} />
+                <NuzFAQItem key={i} question={item.question} answer={item.answer} />
               ))}
             </div>
           </div>

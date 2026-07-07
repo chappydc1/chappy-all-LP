@@ -7,6 +7,6 @@ export const metadata: Metadata = {
   icons: { icon: "/favicons/kachava.svg" },
 };
 
-export default function Layout({ children }: { children: React.ReactNode }) {
+export default function KachavaLayout({ children }: { children: React.ReactNode }) {
   return <>{children}</>;
 }

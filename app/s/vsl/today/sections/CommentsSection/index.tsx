@@ -1,9 +1,9 @@
-import { CommentsList } from "../CommentsSection/components/CommentsList";
+import { TodayCommentsList } from "./components/TodayCommentsList";
 
-export const CommentsSection = () => {
+export const TodayCommentsSection = () => {
   return (
     <main className="box-border caret-transparent outline-[3px] py-5 md:py-10">
-      <CommentsList />
+      <TodayCommentsList />
     </main>
   );
 };

@@ -1,4 +1,4 @@
-export const HsaFsaSection = () => {
+export const NebrooHsaFsaSection = () => {
   return (
     <div className="flex flex-col md:flex-row items-center flex-wrap md:flex-nowrap max-w-[1200px] mx-auto px-2.5 py-5 md:py-10 gap-8">
       {/* Image — left */}

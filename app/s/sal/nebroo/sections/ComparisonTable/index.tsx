@@ -25,7 +25,7 @@ const Cell = ({ val }: { val: string }) => {
   return null;
 };
 
-export const ComparisonTable = () => {
+export const NebrooComparisonTable = () => {
   const { ref, visible } = useScrollReveal();
   return (
     <div id="comparison" className="px-4 py-5 max-w-[900px] mx-auto">

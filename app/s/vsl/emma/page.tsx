@@ -1,4 +1,4 @@
-import { EmmaVSL } from "./App";
+import { EmmaVSL } from "./EmmaApp";
 
 export default function EmmaVSLPage() {
   return <EmmaVSL />;

@@ -1,7 +1,7 @@
-import { CountdownTimer } from "./components/CountdownTimer";
+import { NuzCountdownTimer } from "./components/NuzCountdownTimer";
 import { content } from "../../content";
 
-export const CountdownBanner = () => {
+export const NuzCountdownBanner = () => {
   const c = content.countdownBanner;
   return (
     <div
@@ -31,7 +31,7 @@ export const CountdownBanner = () => {
             className="text-[11.2px] box-border caret-transparent inline-block h-[70px] max-w-full min-h-0 min-w-0 w-full md:text-base md:block md:min-h-[auto] md:min-w-[auto]"
           />
         </div>
-        <CountdownTimer />
+        <NuzCountdownTimer />
       </div>
     </div>
   );

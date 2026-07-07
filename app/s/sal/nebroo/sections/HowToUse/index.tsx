@@ -1,8 +1,8 @@
 "use client";
-import { HowToUseStep } from "../HowToUse/components/HowToUseStep";
+import { NebrooHowToUseStep } from "./components/NebrooHowToUseStep";
 import { useScrollReveal } from "../../hooks/useScrollReveal";
 
-export const HowToUse = () => {
+export const NebrooHowToUse = () => {
   const { ref, visible } = useScrollReveal();
   return (
     <div id="how-to-use" className="items-stretch bg-sky-100 box-border caret-transparent flex flex-wrap justify-center max-w-full px-[3px] py-2.5 md:flex-nowrap md:px-2.5 md:py-[30px]">
@@ -11,12 +11,12 @@ export const HowToUse = () => {
           How To Use
         </div>
         <div className="box-border caret-transparent block flex-col min-h-0 min-w-0 w-full md:flex md:flex-row md:min-h-[auto] md:min-w-[auto]">
-          <HowToUseStep
+          <NebrooHowToUseStep
             stepNumber="1"
             wistiaId="dlb7bd7hq3"
             description="Plug in the USB cable to the case to charge the hearing aids."
           />
-          <HowToUseStep
+          <NebrooHowToUseStep
             stepNumber="2"
             wistiaId="jpifbyavqu"
             description={
@@ -26,7 +26,7 @@ export const HowToUse = () => {
               </>
             }
           />
-          <HowToUseStep
+          <NebrooHowToUseStep
             stepNumber="3"
             wistiaId="tfveft799q"
             description="Hold the hearing aid between your thumb and forefinger. Gently insert the earpiece into your ear canal, the hearing aid should fit snugly and comfortably."

@@ -1,8 +1,8 @@
-import { FooterLogo } from "./components/FooterLogo";
-import { FooterLinks } from "./components/FooterLinks";
-import { FooterCopyright } from "./components/FooterCopyright";
+import { PipiteaFooterLogo } from "./components/PipiteaFooterLogo";
+import { PipiteaFooterLinks } from "./components/PipiteaFooterLinks";
+import { PipiteaFooterCopyright } from "./components/PipiteaFooterCopyright";
 
-export const Footer = () => {
+export const PipiteaFooter = () => {
   return (
     <section
       className="items-center bg-no-repeat box-border caret-transparent flex flex-col justify-items-center min-h-[auto] min-w-[auto] outline-[3px] w-full bg-center px-[15px] py-[50px]"
@@ -16,14 +16,14 @@ export const Footer = () => {
           <div
             className="items-center box-border caret-transparent flex justify-center outline-[3px]"
           >
-            <FooterLogo />
+            <PipiteaFooterLogo />
           </div>
           <div
             className="items-center box-border caret-transparent flex justify-center outline-[3px]"
           >
-            <FooterLinks />
+            <PipiteaFooterLinks />
           </div>
-          <FooterCopyright />
+          <PipiteaFooterCopyright />
         </div>
       </div>
     </section>

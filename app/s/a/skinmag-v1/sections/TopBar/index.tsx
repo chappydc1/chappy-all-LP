@@ -13,7 +13,7 @@ function renderMd(text: string): string {
 
 // ---------- types ----------------------------------------------------------
 
-export type ArticleSection =
+export type SkinmagV1ArticleSection =
   | { type: "paragraphs"; paragraphs: string[] }
   | { type: "heading"; text: string }
   | { type: "image"; mediaKey: string }
@@ -33,7 +33,7 @@ type Comment = {
   }[];
 };
 
-export type AdvertorialContent = {
+export type SkinmagV1AdvertorialContent = {
   meta: {
     ctaUrl: string;
     productName: string;
@@ -52,7 +52,7 @@ export type AdvertorialContent = {
     ctaText: string;
     readerOffer: string;
     inventoryWarning: string;
-    articleSections: ArticleSection[];
+    articleSections: SkinmagV1ArticleSection[];
   };
   sidebar: {
     blurb1: string;
@@ -80,7 +80,7 @@ export type AdvertorialContent = {
   };
 };
 
-export type AdvertorialMedia = {
+export type SkinmagV1AdvertorialMedia = {
   icons: Record<string, string>;
   logos: Record<string, string>;
   article: Record<string, string>;
@@ -90,8 +90,8 @@ export type AdvertorialMedia = {
 };
 
 type AdvertorialData = {
-  content: AdvertorialContent;
-  media: AdvertorialMedia;
+  content: SkinmagV1AdvertorialContent;
+  media: SkinmagV1AdvertorialMedia;
 };
 
 // ---------- context --------------------------------------------------------
@@ -104,10 +104,10 @@ function useAdvertorialData(): AdvertorialData {
   return ctx;
 }
 
-function resolveMedia(media: AdvertorialMedia, key: string): string {
+function resolveMedia(media: SkinmagV1AdvertorialMedia, key: string): string {
   const parts = key.split(".");
   if (parts.length !== 2) return "";
-  const section = media[parts[0] as keyof AdvertorialMedia] as
+  const section = media[parts[0] as keyof SkinmagV1AdvertorialMedia] as
     | Record<string, string>
     | undefined;
   return section?.[parts[1]] ?? "";
@@ -727,12 +727,12 @@ function StickyCta(): React.JSX.Element {
 
 // ---------- TopBar (exported root) ----------------------------------------
 
-export function TopBar({
+export function SkinmagV1TopBar({
   content,
   media,
 }: {
-  content: AdvertorialContent;
-  media: AdvertorialMedia;
+  content: SkinmagV1AdvertorialContent;
+  media: SkinmagV1AdvertorialMedia;
 }): React.JSX.Element {
   return (
     <AdvertorialContext.Provider value={{ content, media }}>

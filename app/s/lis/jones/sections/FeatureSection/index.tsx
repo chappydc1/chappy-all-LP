@@ -1,8 +1,8 @@
-import { FeatureItem } from "../FeatureSection/components/FeatureItem";
+import { JonesFeatureItem } from "./components/JonesFeatureItem";
 
-export const FeatureSection = () => {
+export const JonesFeatureSection = () => {
         return (
-            <div className="relative items-center self-stretch box-border caret-transparent gap-x-2 flex flex-col shrink-0 justify-center mt-[-50px] max-w-full min-h-px min-w-[auto] outline-[3px] gap-y-2 px-[15px] py-[35px] md:gap-x-[70px] md:gap-y-[70px] md:mt-0 md:pt-20 md:pb-0 md:px-0"><div className="items-center box-border caret-transparent contents shrink-0 justify-center min-h-0 min-w-0 outline-[3px] w-full md:flex md:min-h-[auto] md:min-w-[auto]"><div className="relative items-center box-border caret-transparent gap-x-10 flex flex-col shrink-0 grid-cols-[repeat(1,minmax(0px,1fr))] justify-center max-w-[1110px] min-h-px min-w-[auto] outline-[3px] gap-y-10 w-full md:gap-x-0 md:grid md:gap-y-[70px]"><div className="box-border caret-transparent contents outline-[3px]"><FeatureItem
+            <div className="relative items-center self-stretch box-border caret-transparent gap-x-2 flex flex-col shrink-0 justify-center mt-[-50px] max-w-full min-h-px min-w-[auto] outline-[3px] gap-y-2 px-[15px] py-[35px] md:gap-x-[70px] md:gap-y-[70px] md:mt-0 md:pt-20 md:pb-0 md:px-0"><div className="items-center box-border caret-transparent contents shrink-0 justify-center min-h-0 min-w-0 outline-[3px] w-full md:flex md:min-h-[auto] md:min-w-[auto]"><div className="relative items-center box-border caret-transparent gap-x-10 flex flex-col shrink-0 grid-cols-[repeat(1,minmax(0px,1fr))] justify-center max-w-[1110px] min-h-px min-w-[auto] outline-[3px] gap-y-10 w-full md:gap-x-0 md:grid md:gap-y-[70px]"><div className="box-border caret-transparent contents outline-[3px]"><JonesFeatureItem
   rootClassName="gap-x-5 gap-y-5"
   number="1."
   title="Flawless Look, Barely-There Feel"
@@ -33,7 +33,7 @@ export const FeatureSection = () => {
     </div>
   }
 /></div>
-<div className="box-border caret-transparent contents outline-[3px]"><FeatureItem
+<div className="box-border caret-transparent contents outline-[3px]"><JonesFeatureItem
   rootClassName="gap-x-5 gap-y-5"
   number="2."
   title={
@@ -111,7 +111,7 @@ export const FeatureSection = () => {
 </span>
 </a>
 </div>
-<div className="box-border caret-transparent contents outline-[3px]"><FeatureItem
+<div className="box-border caret-transparent contents outline-[3px]"><JonesFeatureItem
   rootClassName="gap-x-5 gap-y-5"
   number="3."
   title="Foundation That Acts Like Skincare"
@@ -139,7 +139,7 @@ export const FeatureSection = () => {
     </div>
   }
 /></div>
-<div className="box-border caret-transparent contents outline-[3px]"><FeatureItem
+<div className="box-border caret-transparent contents outline-[3px]"><JonesFeatureItem
   rootClassName="gap-x-5 gap-y-5"
   number="4."
   title="Made for Real Women, by the Woman Who Gets It"
@@ -169,7 +169,7 @@ export const FeatureSection = () => {
     </div>
   )}
 /></div>
-<div className="box-border caret-transparent contents outline-[3px]"><FeatureItem
+<div className="box-border caret-transparent contents outline-[3px]"><JonesFeatureItem
   rootClassName="gap-x-[30px] gap-y-[30px]"
   number="5."
   title="The Only Foundation That Doesn't Feel Like One"

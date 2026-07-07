@@ -1,4 +1,4 @@
-export const HeroImage = () => {
+export const HearHeroImage = () => {
   return (
     <div className="caret-transparent mb-5 md:mb-10">
       <div className="caret-transparent -mx-5 md:mx-0">

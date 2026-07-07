@@ -1,6 +1,6 @@
-import { SurveyStat } from "./components/SurveyStat";
+import { PipiteaSurveyStat } from "./components/PipiteaSurveyStat";
 
-export const CustomerSurveySection = () => {
+export const PipiteaCustomerSurveySection = () => {
   return (
     <section
       className="items-center bg-no-repeat box-border caret-transparent flex flex-col justify-items-center min-h-[auto] min-w-[auto] outline-[3px] w-full bg-center px-[15px] py-[45px]"
@@ -72,7 +72,7 @@ export const CustomerSurveySection = () => {
                     <div
                       className="box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full"
                     >
-                      <SurveyStat
+                      <PipiteaSurveyStat
                         firstPercentage="76%"
                         firstDescription="reported feeling more confident  about their kidney health within the first month of daily use.*"
                         secondPercentage="74%"
@@ -109,7 +109,7 @@ export const CustomerSurveySection = () => {
                     <div
                       className="box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full"
                     >
-                      <SurveyStat
+                      <PipiteaSurveyStat
                         firstPercentage="67%"
                         firstDescription="say their doctors commented positively on their numbers.*"
                         secondPercentage="64%"

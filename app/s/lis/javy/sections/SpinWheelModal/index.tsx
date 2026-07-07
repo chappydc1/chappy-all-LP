@@ -1,9 +1,9 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { SpinWheel } from "../SpinWheelModal/components/SpinWheel";
+import { JavySpinWheel } from "./components/JavySpinWheel";
 
-export const SpinWheelModal = () => {
+export const JavySpinWheelModal = () => {
   const [open, setOpen] = useState(false);
   const [visible, setVisible] = useState(false);
 
@@ -77,7 +77,7 @@ export const SpinWheelModal = () => {
               <p>🌼 <strong>SPRING SPECIAL</strong> 🌸</p>
             </div>
             <div className="mt-2 w-full flex justify-center">
-              <SpinWheel />
+              <JavySpinWheel />
             </div>
           </div>
         </div>

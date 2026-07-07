@@ -1,9 +1,9 @@
-import { ProductListContainer } from "../ProductListSection/components/ProductListContainer";
+import { PrimepicksProductListContainer } from "./components/PrimepicksProductListContainer";
 
-export const ProductListSection = () => {
+export const PrimepicksProductListSection = () => {
   return (
     <section className="box-border caret-transparent">
-      <ProductListContainer />
+      <PrimepicksProductListContainer />
     </section>
   );
 };

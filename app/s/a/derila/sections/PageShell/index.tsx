@@ -1,19 +1,19 @@
-import { Navbar } from "../Navbar";
-import { ArticleLayout } from "../ArticleLayout";
-import { StickyBottomCta } from "../../components/StickyBottomCta";
-import { Footer } from "../Footer";
-import { CookiePreferences } from "../../components/CookiePreferences";
+import { DerilaNavbar } from "../Navbar";
+import { DerilaArticleLayout } from "../ArticleLayout";
+import { DerilaStickyBottomCta } from "../../components/DerilaStickyBottomCta";
+import { DerilaFooter } from "../Footer";
+import { DerilaCookiePreferences } from "../../components/DerilaCookiePreferences";
 import adv from "../../copy.json";
 
-export const PageShell = () => {
+export const DerilaPageShell = () => {
   return (
     <div className="text-base box-border caret-transparent leading-6 max-w-[2000px] outline-[3px] mx-auto">
-      <Navbar />
-      <ArticleLayout />
-      <StickyBottomCta label={adv.stickyBar.ctaButton} productUrl={adv.productUrl} />
-      <Footer />
+      <DerilaNavbar />
+      <DerilaArticleLayout />
+      <DerilaStickyBottomCta label={adv.stickyBar.ctaButton} productUrl={adv.productUrl} />
+      <DerilaFooter />
       <div className="box-border caret-transparent outline-[3px]"></div>
-      <CookiePreferences />
+      <DerilaCookiePreferences />
       <iframe
         src={adv.trackerUrl}
         className="box-border caret-transparent h-px outline-[3px] w-px"

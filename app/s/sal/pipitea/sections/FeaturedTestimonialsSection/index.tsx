@@ -1,7 +1,7 @@
-import { FeaturedTestimonial } from "./components/FeaturedTestimonial";
-import { SectionCta } from "../../components/SectionCta";
+import { PipiteaFeaturedTestimonial } from "./components/PipiteaFeaturedTestimonial";
+import { PipiteaSectionCta } from "../../components/PipiteaSectionCta";
 
-export const FeaturedTestimonialsSection = () => {
+export const PipiteaFeaturedTestimonialsSection = () => {
   return (
     <section
       className="items-center bg-no-repeat box-border caret-transparent flex flex-col justify-items-center min-h-[auto] min-w-[auto] outline-[3px] w-full bg-center px-[15px] py-[45px] md:py-[60px]"
@@ -36,7 +36,7 @@ export const FeaturedTestimonialsSection = () => {
           </div>
           <div className="box-border caret-transparent outline-[3px] w-full px-px py-3 md:px-2.5">
             <div className="box-border caret-transparent flex flex-col outline-[3px] w-full pt-px pb-[5px] px-px md:flex-row">
-              <FeaturedTestimonial
+              <PipiteaFeaturedTestimonial
                 containerVariant="mb-[5px] md:mr-[5px] md:mb-0"
                 imageWrapperVariant="rounded-l-[10px]"
                 desktopImageUrl="https://c.animaapp.com/mq03tlhwPsu7gY/assets/1765669690171_testemonials_cards01_mobile.webp"
@@ -48,7 +48,7 @@ export const FeaturedTestimonialsSection = () => {
                 authorName="Linda R.\u00a0"
                 authorNameVariant="leading-[18px] md:leading-6"
               />
-              <FeaturedTestimonial
+              <PipiteaFeaturedTestimonial
                 containerVariant="mt-[5px] md:ml-[5px] md:mt-0"
                 imageWrapperVariant="rounded-l-[10px]"
                 desktopImageUrl="https://c.animaapp.com/mq03tlhwPsu7gY/assets/1765669113247_testemonials_cards02.webp"
@@ -62,7 +62,7 @@ export const FeaturedTestimonialsSection = () => {
               />
             </div>
             <div className="box-border caret-transparent flex flex-col outline-[3px] w-full pt-[5px] pb-px px-px md:flex-row">
-              <FeaturedTestimonial
+              <PipiteaFeaturedTestimonial
                 containerVariant="mb-[5px] md:mr-[5px] md:mb-0"
                 imageWrapperVariant="rounded-l-[10px]"
                 desktopImageUrl="https://c.animaapp.com/mq03tlhwPsu7gY/assets/1765669231664_testemonials_cards03.webp"
@@ -74,7 +74,7 @@ export const FeaturedTestimonialsSection = () => {
                 authorName="Donna P.\u00a0"
                 authorNameVariant="leading-[18px] md:leading-6"
               />
-              <FeaturedTestimonial
+              <PipiteaFeaturedTestimonial
                 containerVariant="mt-[5px] md:ml-[5px] md:mt-0"
                 imageWrapperVariant="rounded-t-[10px] rounded-bl-none md:rounded-tr-none md:rounded-bl-[10px]"
                 desktopImageUrl="https://c.animaapp.com/mq03tlhwPsu7gY/assets/1765669332998_testemonials_cards04.webp"
@@ -109,7 +109,7 @@ export const FeaturedTestimonialsSection = () => {
                     <div
                       className="items-stretch box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full"
                     >
-                      <SectionCta
+                      <PipiteaSectionCta
                         title="BUY NOW &amp; SAVE"
                         text="BUY NOW &amp; SAVE"
                       />

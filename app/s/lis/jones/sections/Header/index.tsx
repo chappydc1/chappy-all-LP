@@ -1,11 +1,11 @@
-import { DesktopHeader } from "../Header/components/DesktopHeader";
-import { MobileHeader } from "../Header/components/MobileHeader";
+import { JonesDesktopHeader } from "./components/JonesDesktopHeader";
+import { JonesMobileHeader } from "./components/JonesMobileHeader";
 
-export const Header = () => {
+export const JonesHeader = () => {
   return (
     <div className="relative items-center self-stretch box-border caret-transparent flex flex-col shrink-0 justify-center min-h-px outline-[3px] pt-px">
-      <DesktopHeader />
-      <MobileHeader />
+      <JonesDesktopHeader />
+      <JonesMobileHeader />
       <div className="relative items-center self-stretch box-border caret-transparent flex shrink-0 justify-center max-w-full min-h-px min-w-[auto] outline-[3px]">
         <div className="box-border caret-transparent contents outline-[3px]">
           <div className="relative items-start self-stretch box-border caret-transparent flex basis-0 flex-col grow grid-cols-[repeat(2,minmax(0px,1fr))] justify-start max-w-full min-h-px outline-[3px] md:grid md:flex-row">

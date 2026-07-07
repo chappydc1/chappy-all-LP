@@ -1,4 +1,4 @@
-export const FinalCta = () => {
+export const JonesFinalCta = () => {
   return (
     <div className="relative items-center self-stretch bg-white box-border caret-transparent flex shrink-0 justify-center max-w-full min-h-px min-w-[auto] outline-[3px] py-[35px] md:bg-stone-50 md:py-20">
       <div className="box-border caret-transparent contents outline-[3px]">

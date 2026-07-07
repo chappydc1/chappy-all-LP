@@ -1,11 +1,11 @@
-import { MorningVitalityHeader } from "./sections/MorningVitalityHeader";
-import { MorningVitalityAdvertorialPage } from "./sections/MorningVitalityAdvertorialPage";
+import { MorningvitalityMorningVitalityHeader } from "./sections/MorningVitalityHeader";
+import { MorningvitalityMorningVitalityAdvertorialPage } from "./sections/MorningVitalityAdvertorialPage";
 
-export default function MorningVitalityPage() {
+export default function MorningvitalityMorningVitalityPage() {
   return (
     <>
-      <MorningVitalityHeader />
-      <MorningVitalityAdvertorialPage />
+      <MorningvitalityMorningVitalityHeader />
+      <MorningvitalityMorningVitalityAdvertorialPage />
     </>
   );
 }

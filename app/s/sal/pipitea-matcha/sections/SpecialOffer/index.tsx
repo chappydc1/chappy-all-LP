@@ -1,7 +1,7 @@
-import { OfferBenefits } from "./components/OfferBenefits";
-import { CtaBlock } from "../../components/CtaBlock";
+import { PipiteaMatchaOfferBenefits } from "./components/PipiteaMatchaOfferBenefits";
+import { PipiteaMatchaCtaBlock } from "../../components/PipiteaMatchaCtaBlock";
 
-export const SpecialOffer = () => {
+export const PipiteaMatchaSpecialOffer = () => {
   return (
     <section
       href=""
@@ -137,7 +137,7 @@ export const SpecialOffer = () => {
                       </div>
                     </div>
                   </div>
-                  <OfferBenefits />
+                  <PipiteaMatchaOfferBenefits />
                   <div
                     href=""
                     className="items-center box-border caret-transparent flex justify-center min-w-[auto] outline-[3px]"
@@ -182,7 +182,7 @@ export const SpecialOffer = () => {
                       </div>
                     </div>
                   </div>
-                  <CtaBlock
+                  <PipiteaMatchaCtaBlock
                     outerVariant="doctor"
                     frameVariant=""
                     contentVariant="items-start flex-wrap min-h-[auto] min-w-[auto] mt-[30px]"

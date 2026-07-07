@@ -1,17 +1,17 @@
-import { Hero } from "../Hero";
-import { BenefitSection } from "../BenefitSection";
-import { BuyBoxSection } from "../BuyBoxSection";
-import { TestimonialsSection } from "../TestimonialsSection";
-import { ReviewsSection } from "../ReviewsSection";
+import { GrunsHero } from "../Hero";
+import { GrunsBenefitSection } from "../BenefitSection";
+import { GrunsBuyBoxSection } from "../BuyBoxSection";
+import { GrunsTestimonialsSection } from "../TestimonialsSection";
+import { GrunsReviewsSection } from "../ReviewsSection";
 
-export const MainContent = () => {
+export const GrunsMainContent = () => {
   return (
     <main
       role="main"
       className="box-border caret-transparent w-full max-w-screen-xl outline-[3px] overflow-x-clip mx-auto"
     >
-      <Hero />
-      <BenefitSection
+      <GrunsHero />
+      <GrunsBenefitSection
         category="Digestion"
         number="01"
         title="Better poops (seriously)"
@@ -21,7 +21,7 @@ export const MainContent = () => {
         primaryImageAlt="Four quadrants showing lemons, mushrooms, vegetables, and berries."
         primaryImageClassName="aspect-[auto_645_/_516] box-border caret-transparent h-60 max-w-full min-h-0 object-cover object-[50.0638%_50.0814%] outline-[3px] w-full overflow-hidden rounded-bl rounded-br rounded-tl rounded-tr md:h-full md:min-h-[440px]"
       />
-      <BenefitSection
+      <GrunsBenefitSection
         category="Gut Health"
         number="02"
         title="Healthy Gut Microbiome"
@@ -34,7 +34,7 @@ export const MainContent = () => {
         secondaryImageAlt=""
         secondaryImageClassName="object-[49.414%_52.148%]"
       />
-      <BenefitSection
+      <GrunsBenefitSection
         category="Energy"
         number="03"
         title="More Energy, Better Mood"
@@ -44,7 +44,7 @@ export const MainContent = () => {
         primaryImageAlt="Woman practicing yoga on a sandy beach at sunset"
         primaryImageClassName="aspect-[auto_645_/_645] object-[68.9072%_4.518%]"
       />
-      <BenefitSection
+      <GrunsBenefitSection
         category="Immunity"
         number="04"
         title="Immunity Boost"
@@ -54,7 +54,7 @@ export const MainContent = () => {
         primaryImageAlt=""
         primaryImageClassName="aspect-[auto_645_/_645] object-[49.414%_66.406%]"
       />
-      <BenefitSection
+      <GrunsBenefitSection
         category="Benefits"
         number="05"
         title="A Healthy Habit You’ll Stick To"
@@ -64,7 +64,7 @@ export const MainContent = () => {
         primaryImageAlt="Woman with kiwi slices on eyes holding a green Grüns packet, sitting on a wicker chair with green pillows."
         primaryImageClassName="aspect-[auto_645_/_645] object-[65.6451%_49.0844%]"
       />
-      <BenefitSection
+      <GrunsBenefitSection
         category="Loved By Millions"
         number="06"
         title="Trusted by 1M+ customers"
@@ -77,9 +77,9 @@ export const MainContent = () => {
         secondaryImageAlt="Man holding a green packet with of Grüns in a kitchen setting"
         secondaryImageClassName="object-[52.93%_37.207%]"
       />
-      <BuyBoxSection />
-      <TestimonialsSection />
-      <ReviewsSection />
+      <GrunsBuyBoxSection />
+      <GrunsTestimonialsSection />
+      <GrunsReviewsSection />
     </main>
   );
 };

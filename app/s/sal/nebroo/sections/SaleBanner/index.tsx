@@ -1,4 +1,4 @@
-export const SaleBanner = () => {
+export const NebrooSaleBanner = () => {
   return (
     <div className="items-stretch bg-slate-500 box-border caret-transparent flex flex-wrap justify-center max-w-full px-0 py-px md:flex-nowrap md:px-2.5 animate-slide-down">
       <div className="relative box-border caret-transparent basis-full grow max-w-full min-h-[25px] w-min px-0 py-px md:basis-0 md:px-2.5 text-center">

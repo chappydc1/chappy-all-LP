@@ -1,6 +1,6 @@
-import { FinalCtaButton } from "../FinalCta/components/FinalCtaButton";
+import { FealsFinalCtaButton } from "./components/FealsFinalCtaButton";
 
-export const FinalCta = () => {
+export const FealsFinalCta = () => {
   return (
     <div
       role="link"
@@ -22,7 +22,7 @@ export const FinalCta = () => {
             </p>
           </span>
         </div>
-        <FinalCtaButton />
+        <FealsFinalCtaButton />
       </div>
     </div>
   );

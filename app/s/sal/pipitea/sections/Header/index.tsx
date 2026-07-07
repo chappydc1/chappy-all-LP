@@ -1,6 +1,6 @@
-import { HeaderLogo } from "./components/HeaderLogo";
+import { PipiteaHeaderLogo } from "./components/PipiteaHeaderLogo";
 
-export const Header = () => {
+export const PipiteaHeader = () => {
   return (
     <section
       className="items-center bg-no-repeat box-border caret-transparent flex flex-col justify-items-center min-h-[auto] min-w-[auto] outline-[3px] w-full border-emerald-800/20 bg-center p-[15px] border-b"
@@ -14,7 +14,7 @@ export const Header = () => {
           <div
             className="items-center box-border caret-transparent flex justify-center outline-[3px]"
           >
-            <HeaderLogo />
+            <PipiteaHeaderLogo />
           </div>
         </div>
       </div>

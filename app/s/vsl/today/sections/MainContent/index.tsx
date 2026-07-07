@@ -1,11 +1,11 @@
-import { HeroSection } from "../HeroSection";
-import { FeaturedImage } from "../../components/FeaturedImage";
+import { TodayHeroSection } from "../HeroSection";
+import { TodayFeaturedImage } from "../../components/TodayFeaturedImage";
 
-export const MainContent = () => {
+export const TodayMainContent = () => {
   return (
     <main className="box-border caret-transparent outline-[3px] py-5 md:py-10">
-      <HeroSection />
-      <FeaturedImage />
+      <TodayHeroSection />
+      <TodayFeaturedImage />
     </main>
   );
 };

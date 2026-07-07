@@ -1,4 +1,4 @@
-export const Footer = () => {
+export const JavyFooter = () => {
   return (
     <div className="relative text-white items-center bg-indigo-950 box-border gap-x-4 gap-y-2 border-b-white border-x-white border-t md:static">
       <div className="box-border w-full z-[999] px-4 md:px-10">

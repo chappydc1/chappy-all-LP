@@ -71,7 +71,7 @@ const STAGES = [
 
 type Phase = "quiz" | "finalizing" | "result";
 
-export default function QuizChappyPage() {
+export default function ChappyQuizChappyPage() {
   const [step, setStep] = useState(0);
   const [answers, setAnswers] = useState<string[]>([]);
 

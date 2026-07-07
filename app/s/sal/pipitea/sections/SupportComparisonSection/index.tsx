@@ -1,6 +1,6 @@
-import { ComparisonPoint } from "./components/ComparisonPoint";
+import { PipiteaComparisonPoint } from "./components/PipiteaComparisonPoint";
 
-export const SupportComparisonSection = () => {
+export const PipiteaSupportComparisonSection = () => {
   return (
     <section
       className="relative items-center bg-pink-500/10 bg-no-repeat box-border caret-transparent flex flex-col justify-items-center min-h-[auto] min-w-[auto] outline-[3px] w-full bg-center px-[15px] py-[45px] md:py-[60px]"
@@ -129,27 +129,27 @@ export const SupportComparisonSection = () => {
                               </div>
                             </div>
                           </div>
-                          <ComparisonPoint
+                          <PipiteaComparisonPoint
                             title="Instead of Prescription Medications:"
                             description="Medications work, but they come with side effects - fatigue, dizziness, frequent urination, and more. And once you start, you're often on them for life. Hibiscus provides natural kidney support that works with your body, not against it. Worth trying before you go down the prescription path. (Always consult your doctor before making changes to any treatment plan.)"
                           />
-                          <ComparisonPoint
+                          <PipiteaComparisonPoint
                             title="Instead of Extreme Protein Restriction:"
                             description="Cutting all protein from your diet is miserable, socially isolating, and often not enough on its own anyway. Hibiscus provides kidney support that works alongside reasonable dietary choices. You can still enjoy food while supporting your kidney function."
                           />
-                          <ComparisonPoint
+                          <PipiteaComparisonPoint
                             title="Instead of Fish Oil for Kidney Health:"
                             description="Fish oil burps. The giant capsules. The questionable quality. The studies that keep showing mixed results. Hibiscus provides kidney support that's actually pleasant to take - and has more consistent research behind it."
                           />
-                          <ComparisonPoint
+                          <PipiteaComparisonPoint
                             title="Instead of CoQ10 and Other Supplements:"
                             description="Most kidney health supplements are expensive, require multiple pills, and show minimal measurable results. Hibiscus is one delicious drink with over 100 clinical studies. Simple, researched, and you'll actually stick with it."
                           />
-                          <ComparisonPoint
+                          <PipiteaComparisonPoint
                             title={`Instead of Just "Watching Your Numbers":`}
                             description="Monitoring your kidney function without doing anything about it just adds stress - which makes your numbers worse. Hibiscus gives you something proactive to do every day. You're not just watching. You're supporting."
                           />
-                          <ComparisonPoint
+                          <PipiteaComparisonPoint
                             title="Instead of Hoping It Goes Away: "
                             description="Kidney function doesn't fix itself. Ignoring it doesn't make it better. Hibiscus gives your kidney system the daily support it needs. Taking action feels better than anxiety."
                           />

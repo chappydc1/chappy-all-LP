@@ -2,7 +2,7 @@
 
 import { createContext, useContext } from "react";
 
-export type CopyType = {
+export type RosabellaCopyType = {
   advertorialLabel: string;
   alertBanner: {
     updateLabel: string;
@@ -51,7 +51,7 @@ export type CopyType = {
   };
 };
 
-export type MediaType = {
+export type RosabellaMediaType = {
   infoIcon: string;
   starsImage: string;
   heroImage: string;
@@ -79,19 +79,19 @@ export type MediaType = {
 };
 
 type AdvertorialContextType = {
-  copy: CopyType;
-  media: MediaType;
+  copy: RosabellaCopyType;
+  media: RosabellaMediaType;
 };
 
 const AdvertorialContext = createContext<AdvertorialContextType | null>(null);
 
-export function AdvertorialProvider({
+export function RosabellaAdvertorialProvider({
   copy,
   media,
   children,
 }: {
-  copy: CopyType;
-  media: MediaType;
+  copy: RosabellaCopyType;
+  media: RosabellaMediaType;
   children: React.ReactNode;
 }) {
   return (

@@ -1,66 +1,66 @@
 "use client";
 
-import { AccessibilityWidgets } from "./components/AccessibilityWidgets";
-import { MainContent } from "./sections/MainContent";
-import { Footer } from "./sections/Footer";
-import { HeroTopBar } from "./sections/Hero/components/HeroTopBar";
-import { CartDrawer } from "./components/CartDrawer";
-import { Modals } from "./components/Modals";
-import { CookieConsent } from "./components/CookieConsent";
+import { GrunsAccessibilityWidgets } from "./components/GrunsAccessibilityWidgets";
+import { GrunsMainContent } from "./sections/MainContent";
+import { GrunsFooter } from "./sections/Footer";
+import { GrunsHeroTopBar } from "./sections/Hero/components/GrunsHeroTopBar";
+import { GrunsCartDrawer } from "./components/GrunsCartDrawer";
+import { GrunsModals } from "./components/GrunsModals";
+import { GrunsCookieConsent } from "./components/GrunsCookieConsent";
 
 export default function GrunsLandingPage() {
   return (
     <>
-      <AccessibilityWidgets
+      <GrunsAccessibilityWidgets
         variant="icon"
         src="/images/gruns/icon-1.svg"
         alt="Icon"
         href=""
         linkText=""
       />
-      <AccessibilityWidgets
+      <GrunsAccessibilityWidgets
         variant="default"
         src=""
         alt=""
         href=""
         linkText=""
       />
-      <AccessibilityWidgets
+      <GrunsAccessibilityWidgets
         variant="link"
         src=""
         alt=""
         href="https://accessibe.com/blog/knowledgebase/screen-reader-guide"
         linkText="Accessibility Screen-Reader Guide, Feedback, and Issue Reporting | New window"
       />
-      <AccessibilityWidgets
+      <GrunsAccessibilityWidgets
         variant="skipLinks"
         src=""
         alt=""
         href=""
         linkText=""
       />
-      <AccessibilityWidgets variant="empty" src="" alt="" href="" linkText="" />
-      <AccessibilityWidgets
+      <GrunsAccessibilityWidgets variant="empty" src="" alt="" href="" linkText="" />
+      <GrunsAccessibilityWidgets
         variant="default"
         src=""
         alt=""
         href=""
         linkText=""
       />
-      <HeroTopBar />
-      <MainContent />
-      <Footer />
+      <GrunsHeroTopBar />
+      <GrunsMainContent />
+      <GrunsFooter />
       <div className="box-border caret-transparent grow max-w-full outline-[3px]">
         <span className="box-border caret-transparent outline-[3px]"></span>
       </div>
       <div className="box-border caret-transparent outline-[3px]"></div>
       <div className="box-border caret-transparent outline-[3px]"></div>
-      <CartDrawer />
+      <GrunsCartDrawer />
       <div className="box-border caret-transparent outline-[3px]"></div>
       <div className="box-border caret-transparent outline-[3px]"></div>
-      <Modals variant="default" />
-      <Modals variant="default" />
-      <Modals variant="truemed" />
+      <GrunsModals variant="default" />
+      <GrunsModals variant="default" />
+      <GrunsModals variant="truemed" />
       <iframe
         src="https://app.thefrontrowhealth.com/api/widgets/storage_setter?visitor_token=17581cb8-1ecc-4b0c-a01a-0870520f9671&visit_token=88f4892f-64f1-44bc-9b31-e26001889ad8"
         className="absolute box-border caret-transparent hidden h-0 outline-[3px] w-0"
@@ -75,12 +75,12 @@ export default function GrunsLandingPage() {
           className="fixed box-border caret-transparent hidden h-full outline-[3px] w-full z-[99999999] inset-0"
         ></iframe>
       </div>
-      <CookieConsent />
+      <GrunsCookieConsent />
       <div
         role="button"
         className="fixed bg-blue-600 box-border caret-transparent hidden leading-5 z-[2147483647] rounded-[50%] left-5 bottom-5"
       ></div>
-      <Modals variant="hark" />
+      <GrunsModals variant="hark" />
       <div className="box-border caret-transparent outline-[3px]"></div>
       <div
         role="region"

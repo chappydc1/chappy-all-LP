@@ -5,7 +5,7 @@ import { GlycoflushGuaranteeSection } from "./sections/GlycoflushGuaranteeSectio
 import { GlycoflushCommentsSection } from "./sections/GlycoflushCommentsSection";
 import { GlycoflushFooter } from "./sections/GlycoflushFooter";
 
-export default function VSLPage() {
+export default function GlycoflushVSLPage() {
   return (
     <div className="caret-transparent outline-[3px]">
       <GlycoflushHeader />

@@ -6,6 +6,6 @@ export const metadata = {
   description: "End back pain & sciatica without surgery. 60% OFF + free shipping.",
 }
 
-export default function NebrooLayout({ children }: { children: ReactNode }) {
+export default function SmoothspineNebrooLayout({ children }: { children: ReactNode }) {
   return <>{children}</>
 }

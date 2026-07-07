@@ -1,10 +1,10 @@
-import { ReasonCard } from "../ReasonsSection/components/ReasonCard";
+import { FealsReasonCard } from "./components/FealsReasonCard";
 
-export const ReasonsSection = () => {
+export const FealsReasonsSection = () => {
   return (
     <div className="relative text-black items-center self-stretch bg-white box-border caret-transparent gap-x-12 flex flex-col shrink-0 justify-center max-w-full min-h-px min-w-[auto] outline-[3px] gap-y-12 px-4 py-8 md:px-10 md:py-16">
       <div className="relative items-center box-border caret-transparent gap-x-12 flex flex-col shrink-0 justify-center max-w-none min-h-px min-w-[auto] outline-[3px] gap-y-12 w-full md:gap-x-16 md:max-w-[1180px] md:gap-y-16">
-        <ReasonCard
+        <FealsReasonCard
           mediaWrapperClassName="relative text-stone-600 items-center self-stretch box-border caret-transparent flex basis-auto flex-col grow justify-center max-w-full min-h-px outline-[3px] md:text-black md:basis-0"
           mediaContent={
             <div className="relative text-stone-600 items-center self-stretch bg-zinc-100 box-border caret-transparent flex basis-auto grow justify-center max-w-full min-w-[auto] outline-[3px] md:text-black md:bg-transparent md:basis-0">
@@ -44,7 +44,7 @@ export const ReasonsSection = () => {
           ctaHref="/pages/gummies-offer-alc-lp"
           ctaText="Try The Gummies →"
         />
-        <ReasonCard
+        <FealsReasonCard
           mediaWrapperClassName="relative text-stone-600 items-center self-stretch box-border caret-transparent flex basis-auto flex-col grow justify-center max-w-full min-h-px outline-[3px] md:text-black md:basis-0"
           mediaContent={
             <div className="relative text-stone-600 items-center self-stretch bg-stone-200 box-border caret-transparent flex basis-auto grow justify-center max-w-full min-w-[auto] outline-[3px] md:text-black md:bg-transparent md:basis-0">
@@ -83,7 +83,7 @@ export const ReasonsSection = () => {
           ctaHref="/pages/gummies-offer-alc-lp"
           ctaText="Try The Gummies →"
         />
-        <ReasonCard
+        <FealsReasonCard
           mediaWrapperClassName="relative text-stone-600 items-center self-stretch box-border caret-transparent flex basis-auto flex-col grow justify-center max-w-full min-h-px outline-[3px] md:text-black md:basis-0"
           mediaContent={
             <div className="relative text-stone-600 items-center self-stretch box-border caret-transparent flex basis-auto grow justify-center max-w-full min-w-[auto] outline-[3px] md:text-black md:basis-0">
@@ -124,7 +124,7 @@ export const ReasonsSection = () => {
           ctaHref="/pages/gummies-offer-alc-lp"
           ctaText="Try The Gummies →"
         />
-        <ReasonCard
+        <FealsReasonCard
           mediaWrapperClassName="text-stone-600 items-center self-stretch box-border caret-transparent flex shrink-0 justify-center max-w-full min-h-[auto] min-w-[auto] outline-[3px] md:text-black md:[align-items:normal] md:self-auto md:contents md:shrink md:justify-normal md:max-w-none md:min-h-0 md:min-w-0"
           mediaContent={
             <div
@@ -181,7 +181,7 @@ export const ReasonsSection = () => {
           ctaHref="/pages/gummies-offer-alc-lp"
           ctaText="Try The Gummies →"
         />
-        <ReasonCard
+        <FealsReasonCard
           mediaWrapperClassName="relative text-stone-600 items-center self-stretch box-border caret-transparent flex basis-auto flex-col grow justify-center max-w-full min-h-px outline-[3px] md:text-black md:basis-0"
           mediaContent={
             <div

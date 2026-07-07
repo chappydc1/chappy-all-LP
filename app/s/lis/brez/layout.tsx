@@ -4,6 +4,6 @@ export const metadata: Metadata = {
   icons: { icon: "/favicons/brez.svg" },
 };
 
-export default function Layout({ children }: { children: React.ReactNode }) {
+export default function BrezLayout({ children }: { children: React.ReactNode }) {
   return <>{children}</>;
 }

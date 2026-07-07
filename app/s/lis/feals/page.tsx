@@ -1,4 +1,4 @@
-import { App } from "./App";
+import { FealsApp } from "./FealsApp";
 
 export const dynamic = "force-static";
 
@@ -10,5 +10,5 @@ export const metadata = {
 };
 
 export default function FealsLPPage() {
-  return <App />;
+  return <FealsApp />;
 }

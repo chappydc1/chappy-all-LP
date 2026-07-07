@@ -31,7 +31,7 @@ type ArticleSectionEntry =
   | { type: "asSeenOn"; label: string }
   | { type: "iconGrid" };
 
-export type AdvertorialContent = {
+export type NooroAdvertorialContent = {
   ctaUrl: string;
   alert: {
     label: string;
@@ -101,7 +101,7 @@ export type AdvertorialContent = {
   };
 };
 
-export type AdvertorialMedia = {
+export type NooroAdvertorialMedia = {
   alert: {
     iconSrc: string;
     iconAlt: string;
@@ -149,12 +149,12 @@ export type AdvertorialMedia = {
   };
 };
 
-export function TopBar({
+export function NooroTopBar({
   content,
   media,
 }: {
-  content: AdvertorialContent;
-  media: AdvertorialMedia;
+  content: NooroAdvertorialContent;
+  media: NooroAdvertorialMedia;
 }): React.ReactElement {
   return (
     <div className="text-neutral-800 text-base font-normal bg-white">
@@ -172,8 +172,8 @@ function AdvertorialBar({
   content,
   media,
 }: {
-  content: AdvertorialContent;
-  media: AdvertorialMedia;
+  content: NooroAdvertorialContent;
+  media: NooroAdvertorialMedia;
 }): React.ReactElement {
   return (
     <div className="items-stretch bg-zinc-800 flex flex-wrap justify-start max-w-full px-2.5 py-px md:flex-nowrap md:py-2.5">
@@ -202,8 +202,8 @@ function ArticleSection({
   content,
   media,
 }: {
-  content: AdvertorialContent;
-  media: AdvertorialMedia;
+  content: NooroAdvertorialContent;
+  media: NooroAdvertorialMedia;
 }): React.ReactElement {
   return (
     <div className="items-center self-center flex flex-wrap justify-center max-w-full pt-[5px] pb-[15px] px-[15px] md:flex-nowrap md:px-2.5">
@@ -219,7 +219,7 @@ function ArticleSection({
   );
 }
 
-function UpdateBanner({ banner, icon }: { banner: AdvertorialContent["alert"]; icon: AdvertorialMedia["alert"] }): React.ReactElement {
+function UpdateBanner({ banner, icon }: { banner: NooroAdvertorialContent["alert"]; icon: NooroAdvertorialMedia["alert"] }): React.ReactElement {
   return (
     <div className="flex justify-center px-[15px] pt-[15px] pb-[15px] md:px-2.5">
       <div className="w-full max-w-[1200px]">
@@ -258,8 +258,8 @@ function GuaranteeIconsGrid({
   guarantees,
   media,
 }: {
-  guarantees: AdvertorialContent["article"]["guarantees"];
-  media: AdvertorialMedia["article"];
+  guarantees: NooroAdvertorialContent["article"]["guarantees"];
+  media: NooroAdvertorialMedia["article"];
 }): React.ReactElement {
   const items = [
     { src: media.guaranteeImageSrc, alt: "guarantee", label: guarantees.guaranteeText },
@@ -312,7 +312,7 @@ function TestimonialCard({
   media,
 }: {
   testimonial: Extract<ArticleSectionEntry, { type: "testimonial" }>;
-  media: AdvertorialMedia["article"]["testimonials"][string];
+  media: NooroAdvertorialMedia["article"]["testimonials"][string];
 }): React.ReactElement {
   return (
     <div className="mt-[15px] border border-gray-200 rounded-[10px] p-4">
@@ -348,8 +348,8 @@ function MainArticle({
   content,
   media,
 }: {
-  content: AdvertorialContent;
-  media: AdvertorialMedia;
+  content: NooroAdvertorialContent;
+  media: NooroAdvertorialMedia;
 }): React.ReactElement {
   const { header, article } = content;
 
@@ -525,8 +525,8 @@ function CheckoutOfferSection({
   content,
   media,
 }: {
-  content: AdvertorialContent;
-  media: AdvertorialMedia;
+  content: NooroAdvertorialContent;
+  media: NooroAdvertorialMedia;
 }): React.ReactElement {
   const { checkoutUpdate, guarantees, cta } = content.article;
 
@@ -573,8 +573,8 @@ function Sidebar({
   content,
   media,
 }: {
-  content: AdvertorialContent;
-  media: AdvertorialMedia;
+  content: NooroAdvertorialContent;
+  media: NooroAdvertorialMedia;
 }): React.ReactElement {
   const { sidebar } = content;
 
@@ -666,7 +666,7 @@ function CommentItem({
   nested,
 }: {
   comment: CommentEntry;
-  media: AdvertorialMedia["comments"];
+  media: NooroAdvertorialMedia["comments"];
   nested?: boolean;
 }): React.ReactElement {
   const avatarSize = nested ? "w-[35px] h-[35px]" : "w-[50px] h-[50px]";
@@ -702,7 +702,7 @@ function CommentThread({
   media,
 }: {
   comment: CommentEntry;
-  media: AdvertorialMedia["comments"];
+  media: NooroAdvertorialMedia["comments"];
 }): React.ReactElement {
   return (
     <div className="mt-2.5">
@@ -719,7 +719,7 @@ function CommentThread({
   );
 }
 
-function CommentsSection({ content, media }: { content: AdvertorialContent; media: AdvertorialMedia }): React.ReactElement {
+function CommentsSection({ content, media }: { content: NooroAdvertorialContent; media: NooroAdvertorialMedia }): React.ReactElement {
   return (
     <div className="items-stretch flex flex-wrap justify-start max-w-full p-2.5 md:flex-nowrap">
       <div className="relative basis-full grow max-w-[1170px] min-h-[25px] w-min mx-auto p-2.5 md:basis-0">
@@ -742,7 +742,7 @@ function CommentsSection({ content, media }: { content: AdvertorialContent; medi
   );
 }
 
-function FooterSection({ content, media }: { content: AdvertorialContent; media: AdvertorialMedia }): React.ReactElement {
+function FooterSection({ content, media }: { content: NooroAdvertorialContent; media: NooroAdvertorialMedia }): React.ReactElement {
   return (
     <div className="items-stretch flex flex-wrap justify-start max-w-full border-gray-500 mt-10 pt-5 pb-2.5 px-2.5 border-t border-solid md:flex-nowrap">
       <div className="relative basis-full grow max-w-[1170px] min-h-[25px] w-min mx-auto md:basis-0">
@@ -768,7 +768,7 @@ function FooterSection({ content, media }: { content: AdvertorialContent; media:
   );
 }
 
-function StickyCtaBar({ content }: { content: AdvertorialContent }): React.ReactElement {
+function StickyCtaBar({ content }: { content: NooroAdvertorialContent }): React.ReactElement {
   return (
     <div className="sticky items-stretch bg-zinc-400 flex flex-wrap justify-center max-w-full z-10 px-5 py-[15px] bottom-0 md:flex-nowrap md:px-2.5">
       <div className="relative items-center flex basis-full flex-row-reverse grow justify-center max-w-[1200px] min-h-[25px] w-min md:basis-0">

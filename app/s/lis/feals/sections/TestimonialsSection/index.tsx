@@ -1,7 +1,7 @@
-import { TestimonialCard } from "../TestimonialsSection/components/TestimonialCard";
-import { TestimonialGallery } from "../TestimonialsSection/components/TestimonialGallery";
+import { FealsTestimonialCard } from "./components/FealsTestimonialCard";
+import { FealsTestimonialGallery } from "./components/FealsTestimonialGallery";
 
-export const TestimonialsSection = () => {
+export const FealsTestimonialsSection = () => {
   return (
     <div className="relative text-stone-600 items-center self-stretch bg-stone-50 box-border caret-transparent gap-x-8 flex flex-col shrink-0 justify-center max-w-full min-h-px min-w-[auto] outline-[3px] gap-y-8 px-4 py-8 font-ll_brown_regular_web md:px-10 md:py-16">
       <div className="relative items-center box-border caret-transparent gap-x-0 flex flex-col shrink-0 justify-center max-w-none min-h-px min-w-[auto] outline-[3px] gap-y-0 w-full md:gap-x-4 md:max-w-[1180px] md:gap-y-4">
@@ -13,7 +13,7 @@ export const TestimonialsSection = () => {
           </span>
         </div>
         <div className="relative items-center box-border caret-transparent gap-x-0 flex flex-col shrink-0 justify-start max-w-none min-h-px min-w-[auto] outline-[3px] gap-y-0 w-full md:gap-x-[normal] md:max-w-[80%] md:gap-y-[normal]">
-          <TestimonialCard
+          <FealsTestimonialCard
             iconSrc="/images/feals/icon-10.svg"
             title="I was very reluctant to try but..."
             quote={
@@ -23,7 +23,7 @@ export const TestimonialsSection = () => {
             verificationIconSrc="/images/feals/45.svg"
             verificationText="Verified Buyer"
           />
-          <TestimonialCard
+          <FealsTestimonialCard
             iconSrc="/images/feals/icon-11.svg"
             title="Alcohol is OUT"
             quote={
@@ -39,7 +39,7 @@ export const TestimonialsSection = () => {
             verificationIconSrc="/images/feals/45.svg"
             verificationText="Verified Buyer"
           />
-          <TestimonialCard
+          <FealsTestimonialCard
             iconSrc="/images/feals/icon-12.svg"
             title="Love these relaxing gummies"
             quote="&quot;I love these gummies. They help me feel relaxed in about 30 minutes after I take just one. I replaced my evening glass of wine- minus the morning headache. They also help ease some muscle aches I commonly have and just help with an overall sense of calm.&quot;"
@@ -47,7 +47,7 @@ export const TestimonialsSection = () => {
             verificationIconSrc="/images/feals/45.svg"
             verificationText="Verified Buyer"
           />
-          <TestimonialCard
+          <FealsTestimonialCard
             iconSrc="/images/feals/icon-13.svg"
             title="A must for your self care toolbox!"
             quote={
@@ -57,7 +57,7 @@ export const TestimonialsSection = () => {
             verificationIconSrc="/images/feals/45.svg"
             verificationText="Verified Buyer"
           />
-          <TestimonialCard
+          <FealsTestimonialCard
             iconSrc="/images/feals/icon-14.svg"
             title="Chew and chill"
             quote="&quot;I needed something to help with what had become an after work happy hour habit and the feals gummies are working! Whenever I have a stressful day I chew a couple of gummies and feel less stressed and more &quot;chill&quot;. No fuzzy brain feeling just more relaxed and less wound up.&quot;"
@@ -65,7 +65,7 @@ export const TestimonialsSection = () => {
             verificationIconSrc="/images/feals/45.svg"
             verificationText="Verified Buyer"
           />
-          <TestimonialGallery />
+          <FealsTestimonialGallery />
         </div>
       </div>
     </div>

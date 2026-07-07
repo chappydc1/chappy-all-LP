@@ -5,7 +5,7 @@ type FooterProps = {
   disclaimer?: string;
 };
 
-export const Footer = ({
+export const PinksaltFooter = ({
   links = [
     { text: "Terms of Use", href: "#" },
     { text: "Privacy Policy", href: "#" },

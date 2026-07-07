@@ -1,13 +1,13 @@
-import { InsurancePlans } from "../InsuranceAndFooterSection/components/InsurancePlans";
-import { Benefits } from "../InsuranceAndFooterSection/components/Benefits";
-import { Footer } from "../InsuranceAndFooterSection/components/Footer";
+import { HearInsurancePlans } from "./components/HearInsurancePlans";
+import { HearBenefits } from "./components/HearBenefits";
+import { HearFooter } from "./components/HearFooter";
 
-export const InsuranceAndFooterSection = () => {
+export const HearInsuranceAndFooterSection = () => {
   return (
     <div className="caret-transparent max-w-[518px] outline-[3px] mx-auto px-[25px]">
-      <InsurancePlans />
-      <Benefits />
-      <Footer />
+      <HearInsurancePlans />
+      <HearBenefits />
+      <HearFooter />
     </div>
   );
 };

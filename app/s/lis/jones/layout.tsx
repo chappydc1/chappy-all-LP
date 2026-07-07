@@ -6,6 +6,6 @@ export const metadata: Metadata = {
   icons: { icon: "/favicons/jones.svg" },
 };
 
-export default function Layout({ children }: { children: React.ReactNode }) {
+export default function JonesLayout({ children }: { children: React.ReactNode }) {
   return <>{children}</>;
 }

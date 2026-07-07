@@ -1,8 +1,8 @@
-import { RatingSummary } from "./components/RatingSummary";
-import { CustomerReview } from "./components/CustomerReview";
-import { CtaBlock } from "../../components/CtaBlock";
+import { PipiteaMatchaRatingSummary } from "./components/PipiteaMatchaRatingSummary";
+import { PipiteaMatchaCustomerReview } from "./components/PipiteaMatchaCustomerReview";
+import { PipiteaMatchaCtaBlock } from "../../components/PipiteaMatchaCtaBlock";
 
-export const CustomerReviews = () => {
+export const PipiteaMatchaCustomerReviews = () => {
   return (
     <section
       href=""
@@ -44,7 +44,7 @@ export const CustomerReviews = () => {
           </div>
         </div>
       </div>
-      <RatingSummary />
+      <PipiteaMatchaRatingSummary />
       <div
         href=""
         className="text-zinc-800 bg-no-repeat box-border caret-transparent flex flex-col max-w-[1170px] min-h-[auto] min-w-[auto] outline-[3px] text-start w-full bg-center mt-[50px] md:flex-row"
@@ -65,7 +65,7 @@ export const CustomerReviews = () => {
                 href=""
                 className="items-start box-border caret-transparent flex flex-col flex-wrap min-h-[auto] min-w-[auto] mx-[15px] md:flex-row md:mx-0"
               >
-                <CustomerReview
+                <PipiteaMatchaCustomerReview
                   firstReviewerName="Kylie D. - Orlando, FL"
                   firstImageSrc="https://assets.imagehub.io/d7e682f1-bc91-48e4-b32d-d2ec8dc645c0/1763159900122_testemonial_card01.webp"
                   firstReviewText={
@@ -103,7 +103,7 @@ export const CustomerReviews = () => {
                     </div>
                   </div>
                 </div>
-                <CustomerReview
+                <PipiteaMatchaCustomerReview
                   firstReviewerName="Vanessa D."
                   firstImageSrc="https://assets.imagehub.io/d7e682f1-bc91-48e4-b32d-d2ec8dc645c0/1763160922349_testemonial_card02.webp"
                   firstReviewText={`"So impressed! My Ceremonial Matcha arrived in just 3 days, and I could tell it was super fresh. I've been drinking it every morning for two weeks now, and the difference is real. It's smooth, relaxing, and helps me unwind after work instead of feeling wired like coffee used to make me. The sustained energy without the crash is exactly what I needed. Love it!"`}
@@ -137,7 +137,7 @@ export const CustomerReviews = () => {
                     </div>
                   </div>
                 </div>
-                <CustomerReview
+                <PipiteaMatchaCustomerReview
                   firstReviewerName="Ashley C."
                   firstImageSrc="https://assets.imagehub.io/d7e682f1-bc91-48e4-b32d-d2ec8dc645c0/1763161308906_testemonial_card03.webp"
                   firstReviewText={`"Fast shipping and excellent quality. I've started enjoying a cup every afternoon on my porch, and it's become my little ritual. Super calming, and I love how smooth and light it tastes. No bitterness at all like the cheap matcha I tried before. My digestion has been so much better, and I don't get that awful 3 PM crash anymore."`}
@@ -171,7 +171,7 @@ export const CustomerReviews = () => {
                     </div>
                   </div>
                 </div>
-                <CustomerReview
+                <PipiteaMatchaCustomerReview
                   firstReviewerName="Alvin S."
                   firstImageSrc="https://assets.imagehub.io/d7e682f1-bc91-48e4-b32d-d2ec8dc645c0/1763161513697_testemonial_card04.webp"
                   firstReviewText={`"This Ceremonial Matcha is smooth, fresh, and really helps me stay focused during the day. I was skeptical after wasting money on mushroom coffee and adaptogens that did nothing, but this actually works. I wish I had found this sooner. The mental clarity is incredible, and I'm not reaching for multiple cups of coffee anymore."`}
@@ -186,7 +186,7 @@ export const CustomerReviews = () => {
           </div>
         </div>
       </div>
-      <CtaBlock
+      <PipiteaMatchaCtaBlock
         outerVariant="wrapped"
         frameVariant="items-start flex-wrap min-h-[auto] mt-10 md:mt-[50px]"
         contentVariant="items-center justify-center outline-[3px]"

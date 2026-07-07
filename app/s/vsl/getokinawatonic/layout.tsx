@@ -4,6 +4,6 @@ export const metadata: Metadata = {
   icons: { icon: "/favicons/getokinawatonic.svg" },
 };
 
-export default function Layout({ children }: { children: React.ReactNode }) {
+export default function GetokinawatonicLayout({ children }: { children: React.ReactNode }) {
   return <>{children}</>;
 }

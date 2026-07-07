@@ -1,13 +1,13 @@
-import { TestimonialCard } from "../TestimonialsSection/components/TestimonialCard";
+import { EmmaTestimonialCard } from "./components/EmmaTestimonialCard";
 
-export const TestimonialsSection = () => {
+export const EmmaTestimonialsSection = () => {
   return (
     <div className="box-border caret-transparent max-w-[870px] w-full mt-12 mb-auto mx-auto">
       <span className="text-black text-[28px] font-black box-border caret-transparent block leading-[33.6px] text-center font-myriad_pro">
         Your Story Can Be Next
       </span>
       <div className="box-border caret-transparent flex flex-wrap mt-12 -mx-3">
-        <TestimonialCard
+        <EmmaTestimonialCard
           testimonials={[
             {
               avatarSrc:
@@ -64,7 +64,7 @@ export const TestimonialsSection = () => {
             },
           ]}
         />
-        <TestimonialCard
+        <EmmaTestimonialCard
           testimonials={[
             {
               avatarSrc:

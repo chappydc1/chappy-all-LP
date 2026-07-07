@@ -1,2 +1,0 @@
-// Replaced by StickyBar component — keeping this file to avoid broken imports
-export const ProductBarOverlay = () => null;

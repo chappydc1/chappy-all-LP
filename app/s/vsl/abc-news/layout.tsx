@@ -7,6 +7,6 @@ export const metadata: Metadata = {
   icons: { icon: "/favicons/abc-news.svg" },
 };
 
-export default function Layout({ children }: { children: React.ReactNode }) {
+export default function AbcNewsLayout({ children }: { children: React.ReactNode }) {
   return <>{children}</>;
 }

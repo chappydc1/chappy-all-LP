@@ -1,4 +1,4 @@
-export const SetupSection = () => {
+export const RejuvacareSetupSection = () => {
   return (
     <div className="items-stretch bg-neutral-100 box-border caret-transparent flex flex-wrap justify-start max-w-full outline-[3px] md:flex-nowrap">
       <div className="relative items-center bg-emerald-500 box-border caret-transparent block basis-px flex-col grow justify-center max-w-[1400px] min-h-[25px] outline-[3px] w-min m-auto pt-0 pb-5 px-2.5 md:flex md:flex-row md:pl-[30px] md:pr-[100px] md:py-[50px]">

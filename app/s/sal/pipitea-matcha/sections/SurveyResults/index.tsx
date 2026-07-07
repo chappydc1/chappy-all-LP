@@ -1,6 +1,6 @@
-import { SurveyStat } from "./components/SurveyStat";
+import { PipiteaMatchaSurveyStat } from "./components/PipiteaMatchaSurveyStat";
 
-export const SurveyResults = () => {
+export const PipiteaMatchaSurveyResults = () => {
   return (
     <section
       href=""
@@ -78,7 +78,7 @@ export const SurveyResults = () => {
                 href=""
                 className="items-start box-border caret-transparent flex flex-col flex-wrap min-h-[auto] min-w-[auto] mt-10 md:flex-row"
               >
-                <SurveyStat
+                <PipiteaMatchaSurveyStat
                   firstPercentage="82%"
                   firstDescription="Reported significant reduction in bloating and digestive discomfort within 2-3 weeks of daily use.*"
                   secondPercentage="74%"
@@ -108,7 +108,7 @@ export const SurveyResults = () => {
                     </div>
                   </div>
                 </div>
-                <SurveyStat
+                <PipiteaMatchaSurveyStat
                   firstPercentage="71%"
                   firstDescription="Experienced relief from joint pain and stiffness with consistent antioxidant support.*"
                   secondPercentage="68%"

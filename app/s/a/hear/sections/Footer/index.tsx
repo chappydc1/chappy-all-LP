@@ -1,4 +1,4 @@
-export const Footer = () => {
+export const HearFooter = () => {
   return (
     <div className="bg-sky-700 py-4 text-center">
       <p className="text-white text-sm opacity-80">

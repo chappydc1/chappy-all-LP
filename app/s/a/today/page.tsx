@@ -1,5 +1,5 @@
-import { App } from "./App";
+import { TodayApp } from "./TodayApp";
 
 export default function TodayPage() {
-  return <App />;
+  return <TodayApp />;
 }

@@ -1,4 +1,4 @@
-export const AsSeenOn = () => {
+export const EmmaAsSeenOn = () => {
   return (
     <div className="box-border caret-transparent max-w-[780px] w-full m-auto">
       <div className="border-l-neutral-800 border-r-neutral-800 box-border caret-transparent text-center mt-6 py-3 border-y-black/50 border-b border-t border-solid">
