@@ -543,8 +543,8 @@ function Footer(): React.JSX.Element {
     <div className="items-stretch bg-white flex flex-wrap justify-center max-w-full border-zinc-500 mt-[100px] px-2.5 py-3 border-t border-solid md:flex-nowrap md:mt-[265px]">
       <div className="flex flex-col items-center text-center basis-0 grow min-h-[25px] w-full px-[7px] py-2.5 md:px-2.5">
         <div className="text-neutral-500 leading-5 text-center mt-2.5 p-2.5 font-montserrat">
-          <b className="font-bold">MEDICAL &amp; HEALTH DISCLOSURE</b>
-          {footer.disclosure.replace("MEDICAL & HEALTH DISCLOSURE:", "").replace("MEDICAL & HEALTH DISCLOSURE", "")}
+          <b className="font-bold">MEDICAL &amp; HEALTH DISCLOSURE</b>{" "}
+          {footer.disclosure.replace("MEDICAL & HEALTH DISCLOSURE:", "").replace("MEDICAL & HEALTH DISCLOSURE", "").trim()}
         </div>
         <div className="text-neutral-500 text-xs leading-[22px] text-center mt-[15px] px-px py-2.5 font-montserrat md:text-base md:px-2.5">
           {footer.copyright}
