@@ -57,6 +57,67 @@
 
 ---
 
+## Quick Links — localhost:3000
+
+**Advertorial** &nbsp;
+[derila](http://localhost:3000/s/a/derila) &nbsp;|&nbsp;
+[elavyn](http://localhost:3000/s/a/elavyn) &nbsp;|&nbsp;
+[healthinsider-gynocologist](http://localhost:3000/s/a/healthinsider-gynocologist) &nbsp;|&nbsp;
+[hear](http://localhost:3000/s/a/hear) &nbsp;|&nbsp;
+[jevawell](http://localhost:3000/s/a/jevawell) &nbsp;|&nbsp;
+[morningvitality](http://localhost:3000/s/a/morningvitality) &nbsp;|&nbsp;
+[nebroo-v1](http://localhost:3000/s/a/nebroo-v1) &nbsp;|&nbsp;
+[nexa](http://localhost:3000/s/a/nexa) &nbsp;|&nbsp;
+[nooro](http://localhost:3000/s/a/nooro) &nbsp;|&nbsp;
+[rejuvacare](http://localhost:3000/s/a/rejuvacare) &nbsp;|&nbsp;
+[rosabella](http://localhost:3000/s/a/rosabella) &nbsp;|&nbsp;
+[skinmag-v1](http://localhost:3000/s/a/skinmag-v1) &nbsp;|&nbsp;
+[spartan](http://localhost:3000/s/a/spartan) &nbsp;|&nbsp;
+[today](http://localhost:3000/s/a/today) &nbsp;|&nbsp;
+[trybello](http://localhost:3000/s/a/trybello) &nbsp;|&nbsp;
+[zikeey](http://localhost:3000/s/a/zikeey)
+
+**Comparison** &nbsp;
+[forbes](http://localhost:3000/s/com/forbes) &nbsp;|&nbsp;
+[primepicks](http://localhost:3000/s/com/primepicks) &nbsp;|&nbsp;
+[shilajit](http://localhost:3000/s/com/shilajit)
+
+**Listicle** &nbsp;
+[brez](http://localhost:3000/s/lis/brez) &nbsp;|&nbsp;
+[feals](http://localhost:3000/s/lis/feals) &nbsp;|&nbsp;
+[gruns](http://localhost:3000/s/lis/gruns) &nbsp;|&nbsp;
+[hike](http://localhost:3000/s/lis/hike) &nbsp;|&nbsp;
+[javy](http://localhost:3000/s/lis/javy) &nbsp;|&nbsp;
+[jones](http://localhost:3000/s/lis/jones) &nbsp;|&nbsp;
+[kachava](http://localhost:3000/s/lis/kachava) &nbsp;|&nbsp;
+[rejuvacare](http://localhost:3000/s/lis/rejuvacare)
+
+**Quiz** &nbsp;
+[chappy](http://localhost:3000/s/q/chappy) &nbsp;|&nbsp;
+[gruns](http://localhost:3000/s/q/gruns) &nbsp;|&nbsp;
+[hear](http://localhost:3000/s/q/hear) &nbsp;|&nbsp;
+[nooro](http://localhost:3000/s/q/nooro)
+
+**Sales** &nbsp;
+[amala](http://localhost:3000/s/sal/amala) &nbsp;|&nbsp;
+[nebroo](http://localhost:3000/s/sal/nebroo) &nbsp;|&nbsp;
+[nuz/neck-pain](http://localhost:3000/s/sal/nuz/neck-pain) &nbsp;|&nbsp;
+[pipitea](http://localhost:3000/s/sal/pipitea) &nbsp;|&nbsp;
+[pipitea-matcha](http://localhost:3000/s/sal/pipitea-matcha) &nbsp;|&nbsp;
+[smoothspine](http://localhost:3000/s/sal/smoothspine)
+
+**VSL** &nbsp;
+[abc-news](http://localhost:3000/s/vsl/abc-news) &nbsp;|&nbsp;
+[diabetes](http://localhost:3000/s/vsl/diabetes) &nbsp;|&nbsp;
+[emma](http://localhost:3000/s/vsl/emma) &nbsp;|&nbsp;
+[getokinawatonic](http://localhost:3000/s/vsl/getokinawatonic) &nbsp;|&nbsp;
+[glycoflush](http://localhost:3000/s/vsl/glycoflush) &nbsp;|&nbsp;
+[oprah](http://localhost:3000/s/vsl/oprah) &nbsp;|&nbsp;
+[pinksalt](http://localhost:3000/s/vsl/pinksalt) &nbsp;|&nbsp;
+[today](http://localhost:3000/s/vsl/today)
+
+---
+
 <div align="center">
 
 # LP Template Library
