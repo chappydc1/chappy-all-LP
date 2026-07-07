@@ -18,7 +18,10 @@
     "rest": " This article will explain the science of hearing loss and what you can do about it."
   },
   "sidebar": {
-    "heading": ["Finally Improve", "Your Hearing"],
+    "heading": [
+      "Finally Improve",
+      "Your Hearing"
+    ],
     "ctaLine1": "GET 70% OFF",
     "ctaLine2": "Nebroo NOW!"
   },
@@ -36,7 +39,16 @@
     },
     {
       "type": "paragraph",
-      "html": "You've already noticed that your poor hearing is <b>making your life much more difficult.</b><br/><br/>And these are some of the most common ways it's impacting your life:<br/><br/>- You're <b>more stressed</b><br/><br/>- You <b>stay home</b> more than you used to<br/><br/>- You get <b>frustrated or angry</b> more easily<br/><br/>- You <b>feel lonely and isolated</b><br/><br/>- You watch all TV and online videos <b>with captions</b><br/><br/>We know this because hearing loss is one of the <b>most common medical conditions that exists.</b> Most people will lose some hearing as they age."
+      "paragraphs": [
+        "You've already noticed that your poor hearing is <b>making your life much more difficult.</b>",
+        "And these are some of the most common ways it's impacting your life:",
+        "- You're <b>more stressed</b>",
+        "- You <b>stay home</b> more than you used to",
+        "- You get <b>frustrated or angry</b> more easily",
+        "- You <b>feel lonely and isolated</b>",
+        "- You watch all TV and online videos <b>with captions</b>",
+        "We know this because hearing loss is one of the <b>most common medical conditions that exists.</b> Most people will lose some hearing as they age."
+      ]
     },
     {
       "type": "heading",
@@ -48,7 +60,15 @@
     },
     {
       "type": "paragraph",
-      "html": "In the last 20-30 years, we have found treatments for so many medical conditions.<br/><br/>Cancer survival rates are way up.<br/><br/>We can get almost perfect eyesight with a simple laser surgery.<br/><br/>There are scientists in the University of Washington who are working on regrowing enamel to restore our teeth.<br/><br/>It's truly amazing what we are able to do now.<br/><br/><b>But not with hearing loss.</b> It seems like when you lose your hearing, they just tell you \"Sorry, it's just part of getting old\".<br/><br/>Are we really going to have a world in 10-20 years where seniors are walking around at 70 and 80 with perfect vision and perfect teeth <b>but they still can't hear?</b>"
+      "paragraphs": [
+        "In the last 20-30 years, we have found treatments for so many medical conditions.",
+        "Cancer survival rates are way up.",
+        "We can get almost perfect eyesight with a simple laser surgery.",
+        "There are scientists in the University of Washington who are working on regrowing enamel to restore our teeth.",
+        "It's truly amazing what we are able to do now.",
+        "<b>But not with hearing loss.</b> It seems like when you lose your hearing, they just tell you \"Sorry, it's just part of getting old\".",
+        "Are we really going to have a world in 10-20 years where seniors are walking around at 70 and 80 with perfect vision and perfect teeth <b>but they still can't hear?</b>"
+      ]
     },
     {
       "type": "heading",
@@ -60,7 +80,15 @@
     },
     {
       "type": "paragraph",
-      "html": "The reason hearing loss is so difficult to cure is because of the way that your ears work.<br/><br/>Sound travels into your ear canal as vibrations in the air.<br/><br/>Those vibrations hit your eardrum, that's like a sheet of skin, and it's converted into movements in a series of tiny bones.<br/><br/>These bones amplify the vibrations and send them into the cochlea, which is a hollow, spiral bone filled with fluid.<br/><br/>So, to put it simply, your ear takes vibrations in the air and converts them into waves of fluid inside your cochlea.<br/><br/>Then the final stage is that the walls of the cochlea are covered in hair cells with tiny filaments called stereocilia.<br/><br/>As these stereocilia move around in the waves of fluid, that is converted into electrical signals that are sent to your brain to be processed as sound information."
+      "paragraphs": [
+        "The reason hearing loss is so difficult to cure is because of the way that your ears work.",
+        "Sound travels into your ear canal as vibrations in the air.",
+        "Those vibrations hit your eardrum, that's like a sheet of skin, and it's converted into movements in a series of tiny bones.",
+        "These bones amplify the vibrations and send them into the cochlea, which is a hollow, spiral bone filled with fluid.",
+        "So, to put it simply, your ear takes vibrations in the air and converts them into waves of fluid inside your cochlea.",
+        "Then the final stage is that the walls of the cochlea are covered in hair cells with tiny filaments called stereocilia.",
+        "As these stereocilia move around in the waves of fluid, that is converted into electrical signals that are sent to your brain to be processed as sound information."
+      ]
     },
     {
       "type": "heading",
@@ -72,7 +100,15 @@
     },
     {
       "type": "paragraph",
-      "html": "The stereocilia are responsible for converting the sound into brain signals. And over time, these tiny filaments break and become damaged.<br/><br/>But here's the problem; <b>they don't regrow.</b><br/><br/>Unlike most other cells, they are not genetically programmed to regrow.<br/><br/>So you just have less and less stereocilia over time which means your brain is getting less and less information.<br/><br/><b>That's why you lose your hearing as you get older.</b><br/><br/>For some people, they lose less stereocilia so they are still able to hear fine. But for others, they lose more and they notice that they have hearing loss. <b>That's what has happened to you.</b><br/><br/>This is mostly down to genetics but you can also do more damage to your ear through exposure to loud noises, as well as some drugs and toxins."
+      "paragraphs": [
+        "The stereocilia are responsible for converting the sound into brain signals. And over time, these tiny filaments break and become damaged.",
+        "But here's the problem; <b>they don't regrow.</b>",
+        "Unlike most other cells, they are not genetically programmed to regrow.",
+        "So you just have less and less stereocilia over time which means your brain is getting less and less information.",
+        "<b>That's why you lose your hearing as you get older.</b>",
+        "For some people, they lose less stereocilia so they are still able to hear fine. But for others, they lose more and they notice that they have hearing loss. <b>That's what has happened to you.</b>",
+        "This is mostly down to genetics but you can also do more damage to your ear through exposure to loud noises, as well as some drugs and toxins."
+      ]
     },
     {
       "type": "heading",
@@ -84,7 +120,13 @@
     },
     {
       "type": "paragraph",
-      "html": "One day, we will probably find a way to do this.<br/><br/>There was some promising research in Harvard Medical School in 2023 that showed that they could use a very specific cocktail of drugs to make some ear cells divide and regenerate in mice. This is called gene therapy.<br/><br/>But even though this is an exciting development, it's much too early to know what this will lead to, or if it will even be possible to do the same for humans.<br/><br/>So, it's likely that any treatment like this is still decades away. <b>It's very unlikely to happen in our lifetime.</b><br/><br/>Using so-called \"gene therapy\" also needs years and years of careful testing to make sure that it's safe."
+      "paragraphs": [
+        "One day, we will probably find a way to do this.",
+        "There was some promising research in Harvard Medical School in 2023 that showed that they could use a very specific cocktail of drugs to make some ear cells divide and regenerate in mice. This is called gene therapy.",
+        "But even though this is an exciting development, it's much too early to know what this will lead to, or if it will even be possible to do the same for humans.",
+        "So, it's likely that any treatment like this is still decades away. <b>It's very unlikely to happen in our lifetime.</b>",
+        "Using so-called \"gene therapy\" also needs years and years of careful testing to make sure that it's safe."
+      ]
     },
     {
       "type": "heading",
@@ -97,7 +139,15 @@
     },
     {
       "type": "paragraph",
-      "html": "We can't cure the root cause of your hearing loss but <b>we CAN treat the symptoms.</b><br/><br/>If your hearing loss is severe, where you really can only hear loud sounds or shouting, then you will need to see a doctor.<br/><br/>But when you have mild to moderate hearing loss, it's still <b>extremely important to treat these symptoms.</b><br/><br/>Living with hearing loss is hard.<br/><br/>It makes communication difficult but it also makes you much more <b>stressed, anxious and lonely.</b><br/><br/>And all of these problems get worse over time.<br/><br/>As the months and years go by, your friends and family will also start to subconsciously exclude you more and more, because communication has become so difficult."
+      "paragraphs": [
+        "We can't cure the root cause of your hearing loss but <b>we CAN treat the symptoms.</b>",
+        "If your hearing loss is severe, where you really can only hear loud sounds or shouting, then you will need to see a doctor.",
+        "But when you have mild to moderate hearing loss, it's still <b>extremely important to treat these symptoms.</b>",
+        "Living with hearing loss is hard.",
+        "It makes communication difficult but it also makes you much more <b>stressed, anxious and lonely.</b>",
+        "And all of these problems get worse over time.",
+        "As the months and years go by, your friends and family will also start to subconsciously exclude you more and more, because communication has become so difficult."
+      ]
     },
     {
       "type": "heading",
@@ -110,7 +160,19 @@
     },
     {
       "type": "paragraph",
-      "html": "You really have 3 options:<br/><br/><b>Option 1. Do Nothing</b><br/><br/>This is a very bad idea. The problems you face now will only become worse.<br/><br/><b>Option 2. Get a Prescription Hearing Aid From A Doctor</b><br/><br/>If your hearing loss is severe, this is likely your only option, and perhaps even surgery for a cochlear implant. You will need to see a doctor to find out.<br/><br/>For mild to moderate hearing loss, the biggest problem here is price because the average cost of a hearing aid is $4672 and people in this category may not need to spend this much.<br/><br/>You will also have to pay all of the costs of doctors and audiologists on top of this.<br/><br/>This is the main reason why almost 25 million Americans are currently living with untreated hearing loss.<br/><br/><b>Option 3. Solve The Problem Yourself</b><br/><br/>There is now one, <b>affordable solution</b> for people with mild to moderate hearing loss to get clear hearing without needing a doctor.<br/><br/>It's called a <b>Nebroo hearing aid.</b>"
+      "paragraphs": [
+        "You really have 3 options:",
+        "<b>Option 1. Do Nothing</b>",
+        "This is a very bad idea. The problems you face now will only become worse.",
+        "<b>Option 2. Get a Prescription Hearing Aid From A Doctor</b>",
+        "If your hearing loss is severe, this is likely your only option, and perhaps even surgery for a cochlear implant. You will need to see a doctor to find out.",
+        "For mild to moderate hearing loss, the biggest problem here is price because the average cost of a hearing aid is $4672 and people in this category may not need to spend this much.",
+        "You will also have to pay all of the costs of doctors and audiologists on top of this.",
+        "This is the main reason why almost 25 million Americans are currently living with untreated hearing loss.",
+        "<b>Option 3. Solve The Problem Yourself</b>",
+        "There is now one, <b>affordable solution</b> for people with mild to moderate hearing loss to get clear hearing without needing a doctor.",
+        "It's called a <b>Nebroo hearing aid.</b>"
+      ]
     },
     {
       "type": "heading",
@@ -123,7 +185,13 @@
     },
     {
       "type": "paragraph",
-      "html": "This is a small device that you place in your ear canal.<br/><br/>Everything is contained in the device so there is no large case sitting behind your ear and this makes it almost invisible to the people you're talking to.<br/><br/>The Nebroo processes the sounds around you, improving the sound quality, before sending it down your ear canal.<br/><br/>Even though you have lost many of your stereocilia, there are still many that are working normally.<br/><br/>But a hearing aid must do more than just increase the volume of the sound around you."
+      "paragraphs": [
+        "This is a small device that you place in your ear canal.",
+        "Everything is contained in the device so there is no large case sitting behind your ear and this makes it almost invisible to the people you're talking to.",
+        "The Nebroo processes the sounds around you, improving the sound quality, before sending it down your ear canal.",
+        "Even though you have lost many of your stereocilia, there are still many that are working normally.",
+        "But a hearing aid must do more than just increase the volume of the sound around you."
+      ]
     },
     {
       "type": "heading",
@@ -136,7 +204,13 @@
     },
     {
       "type": "paragraph",
-      "html": "The Nebroo contains a <b>microchip</b> called <b><u>Vox Humana.</u></b><br/><br/>It was designed and programmed so it does not just amplify, but <b>improve the clarity of human speech.</b><br/><br/>This means that conversation become clear and stress-free.<br/><br/>This helps you hear people speaking even with noise in the background.<br/><br/>The Vox Humana chip enables you to become part of the conversation again."
+      "paragraphs": [
+        "The Nebroo contains a <b>microchip</b> called <b><u>Vox Humana.</u></b>",
+        "It was designed and programmed so it does not just amplify, but <b>improve the clarity of human speech.</b>",
+        "This means that conversation become clear and stress-free.",
+        "This helps you hear people speaking even with noise in the background.",
+        "The Vox Humana chip enables you to become part of the conversation again."
+      ]
     },
     {
       "type": "heading",
@@ -149,7 +223,13 @@
     },
     {
       "type": "paragraph",
-      "html": "This is the most impressive part of the Nebroo hearing aid.<br/><br/>It was actually designed to be a <b>high quality solution</b> that <b>every American could afford.</b><br/><br/>And by selling directly to you, so there are no middlemen taking a cut, Nebroo was able to slash the full retail cost to just $330.<br/><br/>But that's not what you have to pay.<br/><br/>Right now <b>there is a way to get the Nebroo for even less.</b>"
+      "paragraphs": [
+        "This is the most impressive part of the Nebroo hearing aid.",
+        "It was actually designed to be a <b>high quality solution</b> that <b>every American could afford.</b>",
+        "And by selling directly to you, so there are no middlemen taking a cut, Nebroo was able to slash the full retail cost to just $330.",
+        "But that's not what you have to pay.",
+        "Right now <b>there is a way to get the Nebroo for even less.</b>"
+      ]
     },
     {
       "type": "heading",
@@ -162,7 +242,11 @@
     },
     {
       "type": "paragraph",
-      "html": "For the people on this page, there is a <b>70% sale</b> running on the Nebroo right now.<br/><br/>If you try to buy from the homepage, the price is $330 so it's important you only purchase by using the green buttons below.<br/><br/>This 70% discount will bring the price you pay today to <b>under $100.</b>"
+      "paragraphs": [
+        "For the people on this page, there is a <b>70% sale</b> running on the Nebroo right now.",
+        "If you try to buy from the homepage, the price is $330 so it's important you only purchase by using the green buttons below.",
+        "This 70% discount will bring the price you pay today to <b>under $100.</b>"
+      ]
     },
     {
       "type": "disclaimer",
@@ -186,7 +270,12 @@
     },
     {
       "type": "paragraph",
-      "html": "The sleek design and color tone of the Nebroo make them <b>very discrete.</b><br/><br/>We don't think anyone should be embarrassed to wear a hearing aid but it also helps to not draw attention to it so you can just be yourself.<br/><br/>So just place them in your ear and go about your day.<br/><br/>They have a <b>19 hours battery life</b> on each charge so no matter what your plans are, your Nebroo will let you do what you want and <b>never think about your hearing loss.</b>"
+      "paragraphs": [
+        "The sleek design and color tone of the Nebroo make them <b>very discrete.</b>",
+        "We don't think anyone should be embarrassed to wear a hearing aid but it also helps to not draw attention to it so you can just be yourself.",
+        "So just place them in your ear and go about your day.",
+        "They have a <b>19 hours battery life</b> on each charge so no matter what your plans are, your Nebroo will let you do what you want and <b>never think about your hearing loss.</b>"
+      ]
     },
     {
       "type": "heading",
@@ -200,7 +289,14 @@
     },
     {
       "type": "paragraph",
-      "html": "Every Nebroo comes with <b>10 pairs of silicon ear domes.</b><br/><br/>These domes attach easily to the tip of the hearing aid and allow you to <b>find the perfect fit for your ear.</b><br/><br/>You can test different sizes to find the maximum level of comfort and sound quality.<br/><br/><b>-Comfort all day</b><br/><b>-Fits even small ears</b><br/><b>-Won't fall out</b>"
+      "paragraphs": [
+        "Every Nebroo comes with <b>10 pairs of silicon ear domes.</b>",
+        "These domes attach easily to the tip of the hearing aid and allow you to <b>find the perfect fit for your ear.</b>",
+        "You can test different sizes to find the maximum level of comfort and sound quality.",
+        "<b>-Comfort all day</b>",
+        "<b>-Fits even small ears</b>",
+        "<b>-Won't fall out</b>"
+      ]
     },
     {
       "type": "heading",
@@ -213,7 +309,14 @@
     },
     {
       "type": "paragraph",
-      "html": "Because there are 28.8 million Americans with untreated hearing loss, Nebroo are trying to make this <b>affordable for literally everyone.</b><br/><br/>So even though <b>the retail price of the product is $330</b>, which is extremely cheap compared to the industry average of $4672, they wanted to do more.<br/><br/>Anyone who buys today through the link on this page can <b>get a 70% discount, bringing the price to under $100.</b><br/><br/>You won't ever see a cheaper price for the Nebroo hearing aid,<br/><br/><b>IN FACT…</b><br/><br/><b>We don't think you'll ever see a cheaper price for any hearing aid in the USA,</b> that's how good this deal is."
+      "paragraphs": [
+        "Because there are 28.8 million Americans with untreated hearing loss, Nebroo are trying to make this <b>affordable for literally everyone.</b>",
+        "So even though <b>the retail price of the product is $330</b>, which is extremely cheap compared to the industry average of $4672, they wanted to do more.",
+        "Anyone who buys today through the link on this page can <b>get a 70% discount, bringing the price to under $100.</b>",
+        "You won't ever see a cheaper price for the Nebroo hearing aid,",
+        "<b>IN FACT…</b>",
+        "<b>We don't think you'll ever see a cheaper price for any hearing aid in the USA,</b> that's how good this deal is."
+      ]
     },
     {
       "type": "heading",
@@ -226,7 +329,14 @@
     },
     {
       "type": "paragraph",
-      "html": "A great product comes with great trust.<br/><br/>So you have a full 120 days to use the Nebroo in your everyday life and see just how much it improves your communication, your social life and your relationships.<br/><br/>And if you're not happy then you can send it back for <b>refund at any point within those 120 days, no arguments or delays.</b><br/><br/>And to protect you even further…<br/><br/>Nebroo will give every purchase a <b>FREE 1 YEAR WARRANTY.</b><br/><br/>That means if you love your Nebroo and keep them after the 120 period, then you can <b>get a free replacement if there is any damage or malfunction within the first year, at zero extra cost.</b>"
+      "paragraphs": [
+        "A great product comes with great trust.",
+        "So you have a full 120 days to use the Nebroo in your everyday life and see just how much it improves your communication, your social life and your relationships.",
+        "And if you're not happy then you can send it back for <b>refund at any point within those 120 days, no arguments or delays.</b>",
+        "And to protect you even further…",
+        "Nebroo will give every purchase a <b>FREE 1 YEAR WARRANTY.</b>",
+        "That means if you love your Nebroo and keep them after the 120 period, then you can <b>get a free replacement if there is any damage or malfunction within the first year, at zero extra cost.</b>"
+      ]
     },
     {
       "type": "heading",
@@ -234,7 +344,12 @@
     },
     {
       "type": "paragraph",
-      "html": "All you need to do it click the green button that says <b>\"GET 70% OFF Nebroo\".</b><br/><br/>You'll come to an order page where you can learn more about our hearing aid.<br/><br/>And then you can place your order and tell us where to ship your Nebroo.<br/><br/><b>Our customer service team are available 24/7 to help you with your order or to answer any questions.</b>"
+      "paragraphs": [
+        "All you need to do it click the green button that says <b>\"GET 70% OFF Nebroo\".</b>",
+        "You'll come to an order page where you can learn more about our hearing aid.",
+        "And then you can place your order and tell us where to ship your Nebroo.",
+        "<b>Our customer service team are available 24/7 to help you with your order or to answer any questions.</b>"
+      ]
     },
     {
       "type": "cta"
@@ -245,7 +360,15 @@
     },
     {
       "type": "paragraph",
-      "html": "Fixing your hearing loss is much more important than just helping you hear<br/><br/><b>1) It improves your relationships</b><br/><b>2) It stops you becoming isolated</b><br/><b>3) It helps your whole family</b><br/><b>4) It lets you do what you want without stress and anxiety</b><br/><br/>And now with such an affordable solution, with a 120 days guarantee, there is no reason not to try it.<br/><br/>Click the big green button to order your Nebroo with a 70% discount today."
+      "paragraphs": [
+        "Fixing your hearing loss is much more important than just helping you hear",
+        "<b>1) It improves your relationships</b>",
+        "<b>2) It stops you becoming isolated</b>",
+        "<b>3) It helps your whole family</b>",
+        "<b>4) It lets you do what you want without stress and anxiety</b>",
+        "And now with such an affordable solution, with a 120 days guarantee, there is no reason not to try it.",
+        "Click the big green button to order your Nebroo with a 70% discount today."
+      ]
     },
     {
       "type": "cta"
@@ -424,12 +547,30 @@
     "disclosure": "MEDICAL & HEALTH DISCLOSURE: The information and other content provided in this page, or in any linked materials, are not intended and should not be construed as medical advice, nor is the information a substitute for professional medical expertise or treatment. If you or any other person has a medical concern, you should consult with your health care provider or seek other professional medical treatment. Never disregard professional medical advice or delay in seeking it because of something that have read on this page or in any linked materials. If you think you may have a medical emergency, call your doctor or emergency services immediately. These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure or prevent any disease. The reviews and comments on this page are real customer reviews sent via email and social media comments by real customers, all individuals are unique, results may vary.",
     "copyright": "Nebroo - Copyright 2024 - All Rights Reserved.",
     "links": [
-      { "label": "Privacy Policy", "href": "https://offer.nebroo.com/privacy-policy" },
-      { "label": "Terms Of Service", "href": "https://offer.nebroo.com/terms" },
-      { "label": "Refund Policy", "href": "https://offer.nebroo.com/refund-policy" },
-      { "label": "About Us", "href": "https://offer.nebroo.com/aboutus" },
-      { "label": "User Manual", "href": "https://offer.nebroo.com/user-manual-2-0" },
-      { "label": "Your Privacy Choices", "href": "https://offer.nebroo.com/do-not-sell-or-share-my-data" }
+      {
+        "label": "Privacy Policy",
+        "href": "https://offer.nebroo.com/privacy-policy"
+      },
+      {
+        "label": "Terms Of Service",
+        "href": "https://offer.nebroo.com/terms"
+      },
+      {
+        "label": "Refund Policy",
+        "href": "https://offer.nebroo.com/refund-policy"
+      },
+      {
+        "label": "About Us",
+        "href": "https://offer.nebroo.com/aboutus"
+      },
+      {
+        "label": "User Manual",
+        "href": "https://offer.nebroo.com/user-manual-2-0"
+      },
+      {
+        "label": "Your Privacy Choices",
+        "href": "https://offer.nebroo.com/do-not-sell-or-share-my-data"
+      }
     ],
     "phone": "+1 512 645-1495",
     "email": "info@nebroo.com",

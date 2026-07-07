@@ -9,7 +9,7 @@ type VideoSource =
   | { format: "mp4"; src: string };
 
 type BodySection =
-  | { type: "paragraph"; html: string }
+  | { type: "paragraph"; paragraphs: string[] }
   | { type: "heading"; text: string; extraClass?: string }
   | { type: "video"; mediaKey: string; containerClass?: string }
   | { type: "image"; mediaKey: string; className?: string }
@@ -333,11 +333,15 @@ function RenderBodySection({
   switch (section.type) {
     case "paragraph":
       return (
-        <div
-          key={idx}
-          className="text-zinc-800 text-[17px] leading-[25.5px] text-left mt-[15px] px-px py-2.5 font-montserrat"
-          dangerouslySetInnerHTML={{ __html: section.html }}
-        />
+        <div key={idx} className="mt-[15px] px-px py-2.5">
+          {section.paragraphs.map((paragraph, pIdx) => (
+            <p
+              key={pIdx}
+              className="text-zinc-800 text-[17px] leading-[25.5px] text-left font-montserrat first:mt-0 mt-[15px]"
+              dangerouslySetInnerHTML={{ __html: paragraph }}
+            />
+          ))}
+        </div>
       );
 
     case "heading":
