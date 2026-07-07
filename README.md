@@ -116,6 +116,18 @@
 [pinksalt](http://localhost:3000/s/vsl/pinksalt) &nbsp;|&nbsp;
 [today](http://localhost:3000/s/vsl/today)
 
+### Top Advertorials by Type
+
+**Spartan type** &nbsp;
+[spartan](http://localhost:3000/s/a/spartan) &nbsp;|&nbsp;
+[nooro](http://localhost:3000/s/a/nooro) &nbsp;|&nbsp;
+[nexa](http://localhost:3000/s/a/nexa) &nbsp;|&nbsp;
+[nebroo-v1](http://localhost:3000/s/a/nebroo-v1)
+
+**News type** &nbsp;
+[jevawell](http://localhost:3000/s/a/jevawell) &nbsp;|&nbsp;
+[elavyn](http://localhost:3000/s/a/elavyn)
+
 ---
 
 <div align="center">
