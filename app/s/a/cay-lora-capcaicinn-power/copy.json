@@ -104,8 +104,9 @@
       "html": "Here's the uncomfortable truth I have to share as a physician:<br/><br/>Lora Capsaicin Power Softgels aren't a prescription drug.<br/><br/>That means:<br/><br/>- No pharmaceutical company profits from it<br/>- No drug reps educating doctors about it<br/>- No insurance billing codes<br/>- No medical school curriculum mentioning it<br/>- No incentive for doctors to recommend it<br/><br/>I surveyed 15 urologists in my network.<br/><br/>Only 1 had heard of using cayenne for ED.<br/><br/>None recommended it—not because it doesn't work, but because they don't know it exists.<br/><br/>The medical system is designed to push prescription medications. Everything else is invisible."
     },
     {
-      "type": "video",
-      "mediaKey": "v4"
+      "type": "image",
+      "mediaKey": "hiddenTruthImg",
+      "className": "w-full"
     },
     {
       "type": "heading",
