@@ -1,5 +1,5 @@
-import advertorial from "./adv.json";
-import advertorialMedia from "./adv-media.json";
+import advertorial from "./copy.json";
+import advertorialMedia from "./media.json";
 
 import { TopBar } from "@/sections/TopBar";
 

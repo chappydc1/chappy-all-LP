@@ -1,4 +1,4 @@
-import adv from "../adv.json";
+import adv from "../copy.json";
 import { ZikeeyArticleMeta } from "./ArticleMeta";
 import { ZikeeyArticleStory } from "./ArticleStory";
 import { ZikeeyArticleFeatures } from "./ArticleFeatures";

@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import adv from "../adv.json";
+import adv from "../copy.json";
 
 export function ZikeeyMobileFixedCTA() {
   const [visible, setVisible] = useState(false);

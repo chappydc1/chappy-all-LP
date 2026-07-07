@@ -1,0 +1,105 @@
+{
+  "alert": {
+    "iconSrc": "https://assets.imagehub.io/0fae3c70-45dd-11ee-86e4-45d907ee05ed/1711367301667_info.png",
+    "iconAlt": "warning"
+  },
+  "advertorialBar": {
+    "logoSrc": "https://assets.imagehub.io/0fae3c70-45dd-11ee-86e4-45d907ee05ed/1711366759829_bitmap.png",
+    "logoAlt": "Trending logo"
+  },
+  "header": {
+    "starsSrc": "https://assets.imagehub.io/0fae3c70-45dd-11ee-86e4-45d907ee05ed/1711369581080_stars.png",
+    "videoSrc": "https://cdn.shopify.com/videos/c/o/v/909db2b8e13248a1b6aa5f37509a665d.mp4",
+    "authorImageSrc": "https://assets.imagehub.io/9304c7c0-563a-11ee-8f2e-0115567b5690/1707354302802_Mask_group_11_.png",
+    "authorImageAlt": "Dr. Jeremy Campbell",
+    "verifiedIconSrc": "https://assets.imagehub.io/9304c7c0-563a-11ee-8f2e-0115567b5690/1707336831448_greentick.png",
+    "verifiedIconAlt": "Verified"
+  },
+  "article": {
+    "secondVideoSrc": "https://cdn.shopify.com/videos/c/o/v/cadb6a90990b42a080b15f072eeedf0e.mp4",
+    "productImageSrc": "https://assets.imagehub.io/0fae3c70-45dd-11ee-86e4-45d907ee05ed/1712996201769_1712082719605_1706799612968_ZCM_Product_v001.png",
+    "guaranteeImageSrc": "https://assets.imagehub.io/0fae3c70-45dd-11ee-86e4-45d907ee05ed/1711461897636_4.png",
+    "checkoutImageSrc": "https://assets.imagehub.io/0fae3c70-45dd-11ee-86e4-45d907ee05ed/1711461935757_3.png",
+    "returnsImageSrc": "https://assets.imagehub.io/0fae3c70-45dd-11ee-86e4-45d907ee05ed/1711461945141_1.png",
+    "shippingImageSrc": "https://assets.imagehub.io/0fae3c70-45dd-11ee-86e4-45d907ee05ed/1711461923065_2.png",
+    "dividerBarSrc": "https://assets.imagehub.io/0fae3c70-45dd-11ee-86e4-45d907ee05ed/1711466088389_2_min.gif",
+    "asSeenOnImageSrc": "https://assets.imagehub.io/0fae3c70-45dd-11ee-86e4-45d907ee05ed/1711452952776_2.jpg",
+    "trustpilotBannerImageSrc": "https://assets.imagehub.io/0fae3c70-45dd-11ee-86e4-45d907ee05ed/1713870246647_Untitled_design_1_.jpg",
+    "images": {
+      "edemaBad": "https://assets.imagehub.io/0fae3c70-45dd-11ee-86e4-45d907ee05ed/1714028858453_12121_1_.jpg",
+      "calvesRootCause": "https://assets.imagehub.io/0fae3c70-45dd-11ee-86e4-45d907ee05ed/1713867950686_4.jpg",
+      "beforeAfter": "https://assets.imagehub.io/0fae3c70-45dd-11ee-86e4-45d907ee05ed/1714476057031_BEFORE_1_.jpg",
+      "sellOutWarning": "https://assets.imagehub.io/0fae3c70-45dd-11ee-86e4-45d907ee05ed/1711471878325_1702576968014_FTM_Pain_Relief_advertorial_v01_12.11.23_1_1_4_3_.jpg",
+      "officialWebsite": "https://assets.imagehub.io/0fae3c70-45dd-11ee-86e4-45d907ee05ed/1712229243058_6.jpg",
+      "discountReveal": "https://assets.imagehub.io/0fae3c70-45dd-11ee-86e4-45d907ee05ed/1714215092347_12.jpg",
+      "emotionalClose": "https://assets.imagehub.io/0fae3c70-45dd-11ee-86e4-45d907ee05ed/1713875153112_5_1_.jpg"
+    },
+    "testimonials": {
+      "charlotte": {
+        "badgeSrc": "https://assets.imagehub.io/0fae3c70-45dd-11ee-86e4-45d907ee05ed/1712999421184_logos.jpg",
+        "starsSrc": "https://assets.imagehub.io/0fae3c70-45dd-11ee-86e4-45d907ee05ed/1711393011636_4_5_star_2x.png",
+        "photoSrcs": [
+          "https://assets.imagehub.io/0fae3c70-45dd-11ee-86e4-45d907ee05ed/1713871168710_43.jpg",
+          "https://assets.imagehub.io/0fae3c70-45dd-11ee-86e4-45d907ee05ed/1713871216260_334.jpg"
+        ]
+      },
+      "william": {
+        "badgeSrc": "https://assets.imagehub.io/0fae3c70-45dd-11ee-86e4-45d907ee05ed/1712999431514_logos_1_.jpg",
+        "starsSrc": "https://assets.imagehub.io/0fae3c70-45dd-11ee-86e4-45d907ee05ed/1711393011636_4_5_star_2x.png",
+        "photoSrcs": [
+          "https://assets.imagehub.io/0fae3c70-45dd-11ee-86e4-45d907ee05ed/1713871723529_a.jpg",
+          "https://assets.imagehub.io/0fae3c70-45dd-11ee-86e4-45d907ee05ed/1713871732712_b.jpg"
+        ]
+      }
+    }
+  },
+  "sidebar": {
+    "productImageSrc": "https://assets.imagehub.io/0fae3c70-45dd-11ee-86e4-45d907ee05ed/1712996201769_1712082719605_1706799612968_ZCM_Product_v001.png",
+    "ctaBgImageSrc": "https://assets.imagehub.io/0fae3c70-45dd-11ee-86e4-45d907ee05ed/1711370973556_3.png",
+    "starsImageSrc": "https://assets.imagehub.io/0fae3c70-45dd-11ee-86e4-45d907ee05ed/1711372411314_ico_stars_2x.webp",
+    "ratingBreakdownImages": [
+      "https://assets.imagehub.io/0fae3c70-45dd-11ee-86e4-45d907ee05ed/1711372965052_11.PNG",
+      "https://assets.imagehub.io/0fae3c70-45dd-11ee-86e4-45d907ee05ed/1711373170379_22.PNG",
+      "https://assets.imagehub.io/0fae3c70-45dd-11ee-86e4-45d907ee05ed/1711373161107_333.PNG",
+      "https://assets.imagehub.io/0fae3c70-45dd-11ee-86e4-45d907ee05ed/1711373178776_44.PNG",
+      "https://assets.imagehub.io/0fae3c70-45dd-11ee-86e4-45d907ee05ed/1711373186630_55.PNG"
+    ]
+  },
+  "comments": {
+    "likeIconSrc": "https://ucarecdn.com/6f24fed0-64b8-4e56-9fdd-c76e61fae250/-/format/auto/-/preview/3000x3000/-/quality/lighter/",
+    "avatars": {
+      "wilma": "https://assets.funnelkonnekt.com/Funnel/assets/images/fadfad32-3aee-484f-859c-b3ac63a4a1f3/9cb704f3-ec9c-4b35-b540-d2faa38624c8/1.jpg",
+      "mary": "https://assets.funnelkonnekt.com/Funnel/assets/images/fadfad32-3aee-484f-859c-b3ac63a4a1f3/9cb704f3-ec9c-4b35-b540-d2faa38624c8/2.jpg",
+      "doris": "https://assets.funnelkonnekt.com/Funnel/assets/images/fadfad32-3aee-484f-859c-b3ac63a4a1f3/9cb704f3-ec9c-4b35-b540-d2faa38624c8/9_1.jpg",
+      "skyler": "https://assets.funnelkonnekt.com/Funnel/assets/images/fadfad32-3aee-484f-859c-b3ac63a4a1f3/9cb704f3-ec9c-4b35-b540-d2faa38624c8/4.jpg",
+      "marie": "https://assets.funnelkonnekt.com/Funnel/assets/images/fadfad32-3aee-484f-859c-b3ac63a4a1f3/9cb704f3-ec9c-4b35-b540-d2faa38624c8/5.jpg",
+      "leonard": "https://assets.funnelkonnekt.com/Funnel/assets/images/fadfad32-3aee-484f-859c-b3ac63a4a1f3/9cb704f3-ec9c-4b35-b540-d2faa38624c8/11_1_e6e55863-e013-422e-9e25-afa449269b8a.jpg",
+      "emma_e": "https://assets.funnelkonnekt.com/Funnel/assets/images/fadfad32-3aee-484f-859c-b3ac63a4a1f3/9cb704f3-ec9c-4b35-b540-d2faa38624c8/7.jpg",
+      "lois": "https://assets.funnelkonnekt.com/Funnel/assets/images/fadfad32-3aee-484f-859c-b3ac63a4a1f3/9cb704f3-ec9c-4b35-b540-d2faa38624c8/8.jpg",
+      "alfred": "https://assets.funnelkonnekt.com/Funnel/assets/images/fadfad32-3aee-484f-859c-b3ac63a4a1f3/9cb704f3-ec9c-4b35-b540-d2faa38624c8/9.jpg",
+      "edith": "https://assets.funnelkonnekt.com/Funnel/assets/images/fadfad32-3aee-484f-859c-b3ac63a4a1f3/9cb704f3-ec9c-4b35-b540-d2faa38624c8/1_1.jpg",
+      "debra": "https://assets.funnelkonnekt.com/Funnel/assets/images/fadfad32-3aee-484f-859c-b3ac63a4a1f3/9cb704f3-ec9c-4b35-b540-d2faa38624c8/2_1.jpg",
+      "paula": "https://assets.funnelkonnekt.com/Funnel/assets/images/fadfad32-3aee-484f-859c-b3ac63a4a1f3/9cb704f3-ec9c-4b35-b540-d2faa38624c8/4_1.jpg",
+      "sarah": "https://assets.funnelkonnekt.com/Funnel/assets/images/fadfad32-3aee-484f-859c-b3ac63a4a1f3/9cb704f3-ec9c-4b35-b540-d2faa38624c8/13.jpg",
+      "agnes": "https://assets.funnelkonnekt.com/Funnel/assets/images/fadfad32-3aee-484f-859c-b3ac63a4a1f3/9cb704f3-ec9c-4b35-b540-d2faa38624c8/3_1.jpg",
+      "barbara": "https://assets.funnelkonnekt.com/Funnel/assets/images/fadfad32-3aee-484f-859c-b3ac63a4a1f3/9cb704f3-ec9c-4b35-b540-d2faa38624c8/5_1.jpg",
+      "ethel": "https://assets.funnelkonnekt.com/Funnel/assets/images/fadfad32-3aee-484f-859c-b3ac63a4a1f3/9cb704f3-ec9c-4b35-b540-d2faa38624c8/16.jpg",
+      "clara": "https://assets.funnelkonnekt.com/Funnel/assets/images/fadfad32-3aee-484f-859c-b3ac63a4a1f3/9cb704f3-ec9c-4b35-b540-d2faa38624c8/6_1.jpg",
+      "emma_s": "https://assets.funnelkonnekt.com/Funnel/assets/images/fadfad32-3aee-484f-859c-b3ac63a4a1f3/9cb704f3-ec9c-4b35-b540-d2faa38624c8/18.jpg",
+      "harry": "https://assets.funnelkonnekt.com/Funnel/assets/images/fadfad32-3aee-484f-859c-b3ac63a4a1f3/9cb704f3-ec9c-4b35-b540-d2faa38624c8/19.jpg",
+      "bridget": "https://assets.funnelkonnekt.com/Funnel/assets/images/fadfad32-3aee-484f-859c-b3ac63a4a1f3/9cb704f3-ec9c-4b35-b540-d2faa38624c8/20.jpg",
+      "anna": "https://assets.funnelkonnekt.com/Funnel/assets/images/fadfad32-3aee-484f-859c-b3ac63a4a1f3/9cb704f3-ec9c-4b35-b540-d2faa38624c8/21.jpg",
+      "kate": "https://assets.funnelkonnekt.com/Funnel/assets/images/fadfad32-3aee-484f-859c-b3ac63a4a1f3/9cb704f3-ec9c-4b35-b540-d2faa38624c8/7_1.jpg",
+      "isabella": "https://assets.funnelkonnekt.com/Funnel/assets/images/fadfad32-3aee-484f-859c-b3ac63a4a1f3/9cb704f3-ec9c-4b35-b540-d2faa38624c8/8_1.jpg"
+    },
+    "photos": {
+      "leonard_massager": "https://assets.imagehub.io/0fae3c70-45dd-11ee-86e4-45d907ee05ed/1713875379985_1_1_.jpg",
+      "isabella_delivery": "https://assets.imagehub.io/0fae3c70-45dd-11ee-86e4-45d907ee05ed/1712230344532_11.jpg"
+    }
+  },
+  "footer": {
+    "logoSrc": "https://assets.imagehub.io/0fae3c70-45dd-11ee-86e4-45d907ee05ed/1711366759829_bitmap.png",
+    "logoAlt": "Nooro Logo",
+    "dmcaImageSrc": "https://img.funnelish.com/3947/36340/1662477222-dmca.png"
+  }
+}

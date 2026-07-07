@@ -5,7 +5,7 @@ import { PinksaltViewerCount } from "./components/ViewerCount";
 import { PinksaltScientificReferences } from "./components/ScientificReferences";
 import { PinksaltCommentsSection } from "./sections/CommentsSection";
 import { PinksaltFooter } from "./sections/Footer";
-import adv from "./adv.json";
+import adv from "./copy.json";
 import media from "./media.json";
 
 export const metadata = {

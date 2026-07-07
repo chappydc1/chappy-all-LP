@@ -1,5 +1,35 @@
 "use client";
 
+type CommentEntry = {
+  name: string;
+  avatarKey: string;
+  date: string;
+  text: string;
+  likeCount: number;
+  photoKey?: string;
+  replies?: CommentEntry[];
+};
+
+type ArticleSectionEntry =
+  | { type: "heading"; text: string }
+  | { type: "paragraph"; html: string }
+  | { type: "list"; items: string[] }
+  | { type: "image"; imageKey: string; alt: string }
+  | { type: "video" }
+  | { type: "cta"; line1: string; line2: string }
+  | { type: "trustpilot"; score: string; reviewCountLabel: string; url: string }
+  | {
+      type: "testimonial";
+      name: string;
+      title: string;
+      reviewMeta: string;
+      verifiedLabel: string;
+      text: string;
+      helpfulText: string;
+      mediaKey: string;
+    }
+  | { type: "asSeenOn"; label: string }
+  | { type: "iconGrid" };
 
 export type NooroAdvertorialContent = {
   ctaUrl: string;
@@ -24,13 +54,7 @@ export type NooroAdvertorialContent = {
   article: {
     conditions: string[];
     intro: string | string[];
-    sections: Array<{
-      type: string;
-      text?: string;
-      html?: string;
-      icon?: string;
-      items?: string[];
-    }>;
+    sections: ArticleSectionEntry[];
     checkoutUpdate: {
       label: string;
       date: string;
@@ -68,11 +92,12 @@ export type NooroAdvertorialContent = {
   footer: {
     disclaimer: string;
     copyright: string;
+    poweredByText: string;
     links: Array<{ label: string; href: string }>;
   };
   comments: {
     title: string;
-    items: Array<{ name: string; avatar: string; date: string; text: string }>;
+    items: CommentEntry[];
   };
 };
 
@@ -94,14 +119,17 @@ export type NooroAdvertorialMedia = {
     verifiedIconAlt: string;
   };
   article: {
-    edemaBadImageSrc: string;
-    calvesRootCauseImageSrc: string;
     secondVideoSrc: string;
     productImageSrc: string;
     guaranteeImageSrc: string;
     checkoutImageSrc: string;
     returnsImageSrc: string;
     shippingImageSrc: string;
+    dividerBarSrc: string;
+    asSeenOnImageSrc: string;
+    trustpilotBannerImageSrc: string;
+    images: Record<string, string>;
+    testimonials: Record<string, { badgeSrc: string; starsSrc: string; photoSrcs: string[] }>;
   };
   sidebar: {
     productImageSrc: string;
@@ -109,9 +137,15 @@ export type NooroAdvertorialMedia = {
     starsImageSrc: string;
     ratingBreakdownImages: string[];
   };
+  comments: {
+    likeIconSrc: string;
+    avatars: Record<string, string>;
+    photos: Record<string, string>;
+  };
   footer: {
     logoSrc: string;
     logoAlt: string;
+    dmcaImageSrc: string;
   };
 };
 
@@ -127,8 +161,8 @@ export function NooroTopBar({
       <AdvertorialBar content={content} media={media} />
       <UpdateBanner banner={content.alert} icon={media.alert} />
       <ArticleSection content={content} media={media} />
-      <CommentsSection content={content} />
-      <FooterSection content={content} />
+      <CommentsSection content={content} media={media} />
+      <FooterSection content={content} media={media} />
       <StickyCtaBar content={content} />
     </div>
   );
@@ -171,8 +205,6 @@ function ArticleSection({
   content: NooroAdvertorialContent;
   media: NooroAdvertorialMedia;
 }): React.ReactElement {
-  const { header, article } = content;
-
   return (
     <div className="items-center self-center flex flex-wrap justify-center max-w-full pt-[5px] pb-[15px] px-[15px] md:flex-nowrap md:px-2.5">
       <div className="relative basis-full grow max-w-[1200px] min-h-[25px] w-min p-2.5 md:basis-0">
@@ -197,6 +229,117 @@ function UpdateBanner({ banner, icon }: { banner: NooroAdvertorialContent["alert
           {banner.text}
         </div>
       </div>
+    </div>
+  );
+}
+
+function CtaButton({
+  ctaUrl,
+  line1,
+  line2,
+}: {
+  ctaUrl: string;
+  line1: string;
+  line2: string;
+}): React.ReactElement {
+  return (
+    <a
+      href={ctaUrl}
+      className="text-slate-50 text-xl font-bold bg-green-700 shadow-[rgba(0,0,0,0.19)_0px_4px_7px_1px] inline-block tracking-[0.02px] leading-6 max-w-full text-center w-full px-2.5 py-[15px] rounded font-montserrat md:text-3xl md:leading-9 md:px-10"
+    >
+      {line1}{" "}
+      <br />
+      {line2}
+    </a>
+  );
+}
+
+function GuaranteeIconsGrid({
+  guarantees,
+  media,
+}: {
+  guarantees: NooroAdvertorialContent["article"]["guarantees"];
+  media: NooroAdvertorialMedia["article"];
+}): React.ReactElement {
+  const items = [
+    { src: media.guaranteeImageSrc, alt: "guarantee", label: guarantees.guaranteeText },
+    { src: media.checkoutImageSrc, alt: "checkout", label: guarantees.checkoutText },
+    { src: media.returnsImageSrc, alt: "returns", label: guarantees.returnsText },
+    { src: media.shippingImageSrc, alt: "shipping", label: guarantees.shippingText },
+  ];
+
+  return (
+    <div className="grid grid-cols-2 gap-x-2.5 gap-y-8 w-full md:flex md:gap-x-5">
+      {items.map((item) => (
+        <div key={item.label} className="items-center flex flex-col justify-center w-full p-px">
+          <img src={item.src} alt={item.alt} className="max-w-full w-[100px]" />
+          <div className="text-zinc-800 text-[15px] font-medium leading-5 text-center mt-[15px] px-[5px] font-montserrat">
+            {item.label}
+          </div>
+        </div>
+      ))}
+    </div>
+  );
+}
+
+function TrustpilotBadge({
+  trustpilot,
+  bannerSrc,
+}: {
+  trustpilot: Extract<ArticleSectionEntry, { type: "trustpilot" }>;
+  bannerSrc: string;
+}): React.ReactElement {
+  return (
+    <div className="mt-[15px]">
+      <a
+        href={trustpilot.url}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-flex items-center gap-2.5 bg-[#00b67a] text-white rounded-[5px] px-4 py-2.5 font-montserrat"
+      >
+        <span className="text-lg font-bold">★ Trustpilot</span>
+        <span className="text-sm">
+          TrustScore {trustpilot.score} · {trustpilot.reviewCountLabel}
+        </span>
+      </a>
+      <img src={bannerSrc} alt="Trustpilot reviews" className="max-w-full mt-2.5 rounded-[10px]" />
+    </div>
+  );
+}
+
+function TestimonialCard({
+  testimonial,
+  media,
+}: {
+  testimonial: Extract<ArticleSectionEntry, { type: "testimonial" }>;
+  media: NooroAdvertorialMedia["article"]["testimonials"][string];
+}): React.ReactElement {
+  return (
+    <div className="mt-[15px] border border-gray-200 rounded-[10px] p-4">
+      <div className="items-center flex">
+        <img src={media.badgeSrc} alt={testimonial.name} className="w-10 h-10 rounded-full mr-2.5" />
+        <div className="text-zinc-800 text-[15px] font-bold font-montserrat">{testimonial.name}</div>
+      </div>
+      <img src={media.starsSrc} alt="4.5 out of 5 stars" className="w-[120px] mt-2.5 mb-[5px]" />
+      <div className="text-zinc-800 text-[17px] font-bold font-montserrat">{testimonial.title}</div>
+      <div className="text-zinc-500 text-sm mt-[5px] font-open_sans">{testimonial.reviewMeta}</div>
+      <div className="text-zinc-700 text-sm font-bold mt-px font-open_sans">{testimonial.verifiedLabel}</div>
+      <p className="text-zinc-800 text-[15px] leading-[22px] mt-2.5 font-open_sans">{testimonial.text}</p>
+      <div className="flex gap-2.5 mt-2.5">
+        {media.photoSrcs.map((src) => (
+          <img key={src} src={src} alt={`Photo from ${testimonial.name}'s review`} className="w-20 h-20 object-cover rounded-[5px]" />
+        ))}
+      </div>
+      <div className="text-zinc-500 text-xs mt-2.5 font-open_sans">{testimonial.helpfulText}</div>
+    </div>
+  );
+}
+
+function AsSeenOnBar({ label, imageSrc }: { label: string; imageSrc: string }): React.ReactElement {
+  return (
+    <div className="mt-[15px] text-center">
+      <div className="text-zinc-400 text-xs italic font-montserrat">{label}</div>
+      <img src={imageSrc} alt={label} className="max-w-full mt-[5px] inline" />
     </div>
   );
 }
@@ -298,7 +441,7 @@ function MainArticle({
             </div>
           );
         }
-        if (section.type === "paragraph" && section.html) {
+        if (section.type === "paragraph") {
           return (
             <div
               key={i}
@@ -307,7 +450,7 @@ function MainArticle({
             />
           );
         }
-        if (section.type === "list" && section.items) {
+        if (section.type === "list") {
           return (
             <ul key={i} className="text-zinc-800 text-[17px] bg-[rgb(226,244,249)] leading-[25.5px] list-none text-left mb-2.5 px-[15px] py-0.5 font-open_sans">
               {section.items.map((item) => (
@@ -321,31 +464,57 @@ function MainArticle({
             </ul>
           );
         }
+        if (section.type === "image") {
+          return (
+            <img
+              key={i}
+              src={media.article.images[section.imageKey]}
+              alt={section.alt}
+              className="max-w-full mt-[15px] rounded-[10px] inline"
+            />
+          );
+        }
+        if (section.type === "video") {
+          return (
+            <div key={i} className="relative w-full overflow-hidden mt-[15px]" style={{ paddingTop: "56.25%" }}>
+              <video
+                loop
+                autoPlay
+                playsInline
+                muted
+                src={media.article.secondVideoSrc}
+                className="absolute h-full max-w-full w-full rounded-[10px] left-0 inset-y-0 object-cover"
+              />
+            </div>
+          );
+        }
+        if (section.type === "cta") {
+          return (
+            <div key={i} className="mt-[15px]">
+              <CtaButton ctaUrl={content.ctaUrl} line1={section.line1} line2={section.line2} />
+            </div>
+          );
+        }
+        if (section.type === "trustpilot") {
+          return <TrustpilotBadge key={i} trustpilot={section} bannerSrc={media.article.trustpilotBannerImageSrc} />;
+        }
+        if (section.type === "testimonial") {
+          return (
+            <TestimonialCard key={i} testimonial={section} media={media.article.testimonials[section.mediaKey]} />
+          );
+        }
+        if (section.type === "asSeenOn") {
+          return <AsSeenOnBar key={i} label={section.label} imageSrc={media.article.asSeenOnImageSrc} />;
+        }
+        if (section.type === "iconGrid") {
+          return (
+            <div key={i} className="mt-[15px]">
+              <GuaranteeIconsGrid guarantees={content.article.guarantees} media={media.article} />
+            </div>
+          );
+        }
         return null;
       })}
-
-      <div className="relative w-full overflow-hidden mt-[15px]" style={{ paddingTop: "56.25%" }}>
-        <video
-          loop
-          autoPlay
-          playsInline
-          muted
-          src={media.article.secondVideoSrc}
-          className="absolute h-full max-w-full w-full rounded-[10px] left-0 inset-y-0 object-cover"
-        />
-      </div>
-
-      <img
-        src={media.article.edemaBadImageSrc}
-        alt=""
-        className="max-w-full mt-[15px] rounded-[10px] inline"
-      />
-
-      <img
-        src={media.article.calvesRootCauseImageSrc}
-        alt=""
-        className="max-w-full mt-[15px] rounded-[10px] inline"
-      />
 
       <CheckoutOfferSection content={content} media={media} />
     </div>
@@ -362,9 +531,10 @@ function CheckoutOfferSection({
   const { checkoutUpdate, guarantees, cta } = content.article;
 
   return (
-    <div className="bg-[rgb(242,242,242)] mt-[10px]">
-      <div className="w-full pt-[15px] pb-8 bg-[rgb(254,251,217)] px-[25px]">
-        <div>
+    <div className="mt-[10px]">
+      <img src={media.article.dividerBarSrc} alt="" className="w-full h-3 object-cover" />
+      <div className="w-full pt-[15px] pb-8 bg-yellow-50 px-[25px]">
+        <div className="text-zinc-800 text-lg leading-7 font-montserrat">
           <b className="text-lg font-bold leading-7">
             <span className="text-red-600">{checkoutUpdate.label}</span>
           </b>
@@ -391,43 +561,9 @@ function CheckoutOfferSection({
         </div>
       </div>
 
-      <div className="w-full pt-[15px] pb-8 md:px-[25px]">
-        <div className="flex w-full">
-          <div className="items-center flex flex-col justify-center w-full p-px">
-            <img src={media.article.guaranteeImageSrc} alt="guarantee" className="max-w-full w-[100px]" />
-            <div className="text-zinc-800 text-[15px] font-medium leading-5 text-center mt-[15px] px-[5px] font-montserrat">
-              {guarantees.guaranteeText}
-            </div>
-          </div>
-          <div className="items-center flex flex-col justify-center w-full p-px">
-            <img src={media.article.checkoutImageSrc} alt="checkout" className="max-w-full w-[100px]" />
-            <div className="text-zinc-800 text-[15px] font-medium leading-5 text-center mt-[15px] px-[5px] font-montserrat">
-              {guarantees.checkoutText}
-            </div>
-          </div>
-        </div>
-        <div className="flex w-full mt-2.5">
-          <div className="items-center flex flex-col justify-center w-full p-px">
-            <img src={media.article.returnsImageSrc} alt="returns" className="max-w-full w-[100px]" />
-            <div className="text-zinc-800 text-[15px] font-medium leading-5 text-center mt-[15px] px-[5px] font-montserrat">
-              {guarantees.returnsText}
-            </div>
-          </div>
-          <div className="items-center flex flex-col justify-center w-full p-px">
-            <img src={media.article.shippingImageSrc} alt="shipping" className="max-w-full w-[100px]" />
-            <div className="text-zinc-800 text-[15px] font-medium leading-5 text-center mt-[15px] px-[5px] font-montserrat">
-              {guarantees.shippingText}
-            </div>
-          </div>
-        </div>
-        <a
-          href={content.ctaUrl}
-          className="text-slate-50 text-xl font-bold bg-green-700 shadow-[rgba(0,0,0,0.19)_0px_4px_7px_1px] inline-block tracking-[0.02px] leading-6 max-w-full text-center w-full px-2.5 py-[15px] mt-5 rounded font-montserrat md:text-3xl md:leading-9 md:px-10"
-        >
-          {cta.line1}{" "}
-          <br />
-          {cta.line2}
-        </a>
+      <div className="w-full pt-[15px] pb-8 px-[25px] bg-yellow-100">
+        <GuaranteeIconsGrid guarantees={guarantees} media={media.article} />
+        <CtaButton ctaUrl={content.ctaUrl} line1={cta.line1} line2={cta.line2} />
       </div>
     </div>
   );
@@ -524,28 +660,80 @@ function Sidebar({
   );
 }
 
-function CommentsSection({ content }: { content: NooroAdvertorialContent }): React.ReactElement {
+function CommentItem({
+  comment,
+  media,
+  nested,
+}: {
+  comment: CommentEntry;
+  media: NooroAdvertorialMedia["comments"];
+  nested?: boolean;
+}): React.ReactElement {
+  const avatarSize = nested ? "w-[35px] h-[35px]" : "w-[50px] h-[50px]";
+
+  return (
+    <div className="flex items-start mt-2.5">
+      <div className={`shrink-0 mr-[5px] ${avatarSize}`}>
+        <img src={media.avatars[comment.avatarKey]} alt={comment.name} className={`${avatarSize} object-cover`} />
+      </div>
+      <div className="flex-1">
+        <p className="text-indigo-800 text-[15px] font-bold font-montserrat">{comment.name}</p>
+        <p className="text-black text-[15px] leading-5 font-open_sans">{comment.text}</p>
+        {comment.photoKey && (
+          <img src={media.photos[comment.photoKey]} alt={`Photo shared by ${comment.name}`} className="mt-2.5 w-32 rounded-[5px]" />
+        )}
+        <div className="flex items-center gap-1 mt-[5px] text-[13px] text-zinc-500 font-montserrat">
+          <span className="text-indigo-800">Like</span>
+          <span>·</span>
+          <span className="text-indigo-800">Reply</span>
+          <span>·</span>
+          <img src={media.likeIconSrc} alt="" className="w-4 h-4 inline" />
+          <span>{comment.likeCount}</span>
+          <span>·</span>
+          <span>{comment.date}</span>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function CommentThread({
+  comment,
+  media,
+}: {
+  comment: CommentEntry;
+  media: NooroAdvertorialMedia["comments"];
+}): React.ReactElement {
+  return (
+    <div className="mt-2.5">
+      <CommentItem comment={comment} media={media} />
+      {comment.replies?.map((reply, i) => (
+        <div key={`${reply.name}-${i}`} className="flex mt-[5px]">
+          <div className="w-[10%] shrink-0" />
+          <div className="flex-1 border-l border-stone-300 pl-2.5">
+            <CommentItem comment={reply} media={media} nested />
+          </div>
+        </div>
+      ))}
+    </div>
+  );
+}
+
+function CommentsSection({ content, media }: { content: NooroAdvertorialContent; media: NooroAdvertorialMedia }): React.ReactElement {
   return (
     <div className="items-stretch flex flex-wrap justify-start max-w-full p-2.5 md:flex-nowrap">
       <div className="relative basis-full grow max-w-[1170px] min-h-[25px] w-min mx-auto p-2.5 md:basis-0">
         <div className="text-zinc-800 text-base leading-[21px] text-start mt-5 mb-[115px]">
-          <div className="text-base leading-4 text-center mt-2.5 p-2.5 font-open_sans font-bold">
+          <p className="text-neutral-800 text-[15px] font-bold font-montserrat md:text-xl">
             {content.comments.title}
-          </div>
-          <div className="mt-2.5">
-            {content.comments.items.map((comment) => (
-              <div key={comment.name} className="bg-white border border-gray-200 rounded p-4 mb-4">
-                <div className="flex items-center mb-2">
-                  <div className="w-10 h-10 rounded-full bg-gray-300 flex items-center justify-center text-gray-600 font-bold mr-3">
-                    {comment.name.charAt(0)}
-                  </div>
-                  <div>
-                    <div className="font-bold text-sm font-montserrat">{comment.name}</div>
-                    <div className="text-gray-500 text-xs">{comment.date}</div>
-                  </div>
-                </div>
-                <p className="text-sm font-open_sans">{comment.text}</p>
-              </div>
+          </p>
+          <textarea
+            placeholder="Add a comment ..."
+            className="block w-full min-h-[100px] mt-2.5 mb-5 px-[15px] py-[11px] rounded-md border border-neutral-300 text-gray-800 font-open_sans resize-y"
+          />
+          <div>
+            {content.comments.items.map((comment, i) => (
+              <CommentThread key={`${comment.name}-${i}`} comment={comment} media={media.comments} />
             ))}
           </div>
         </div>
@@ -554,7 +742,7 @@ function CommentsSection({ content }: { content: NooroAdvertorialContent }): Rea
   );
 }
 
-function FooterSection({ content }: { content: NooroAdvertorialContent }): React.ReactElement {
+function FooterSection({ content, media }: { content: NooroAdvertorialContent; media: NooroAdvertorialMedia }): React.ReactElement {
   return (
     <div className="items-stretch flex flex-wrap justify-start max-w-full border-gray-500 mt-10 pt-5 pb-2.5 px-2.5 border-t border-solid md:flex-nowrap">
       <div className="relative basis-full grow max-w-[1170px] min-h-[25px] w-min mx-auto md:basis-0">
@@ -570,6 +758,10 @@ function FooterSection({ content }: { content: NooroAdvertorialContent }): React
               </a>
             ))}
           </div>
+        </div>
+        <div className="flex items-center justify-between flex-wrap gap-2 mt-4">
+          <img src={media.footer.dmcaImageSrc} alt="DMCA Protected" className="h-6" />
+          <p className="text-zinc-400 text-xs font-open_sans">{content.footer.poweredByText}</p>
         </div>
       </div>
     </div>

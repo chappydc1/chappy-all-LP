@@ -1,7 +1,7 @@
 "use client"
 
 import { useState, useEffect, useRef } from "react"
-import type advRaw from "./adv.json"
+import type advRaw from "./copy.json"
 import type mediaRaw from "./media.json"
 
 type Adv = typeof advRaw

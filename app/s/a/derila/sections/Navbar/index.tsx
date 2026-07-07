@@ -1,4 +1,4 @@
-import adv from "../../adv.json";
+import adv from "../../copy.json";
 import media from "../../media.json";
 import { DerilaNavbarLogo } from "../Navbar/components/NavbarLogo";
 import { DerilaDesktopMenu } from "../Navbar/components/DesktopMenu";

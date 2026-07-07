@@ -21,8 +21,8 @@ app/                          # Next.js App Router
     a/
       <slug>/
         page.tsx              # Route page component — imports and renders TopBar
-        adv.json              # Page text content (headings, CTAs, comments, footer)
-        adv-media.json        # Page media content (image/video URLs, icon URLs)
+        copy.json              # Page text content (headings, CTAs, comments, footer)
+        media.json        # Page media content (image/video URLs, icon URLs)
 
 src/
   sections/
@@ -49,7 +49,7 @@ tailwind.config.js            # Theme tokens, custom animations, font families
 tsconfig.json                 # Path aliases (@/ → src/)
 ```
 
-Each advertorial route is driven entirely by its `adv.json` and `adv-media.json` files. The page component reads those files and passes them as props to `TopBar`. No dynamic data fetching occurs at runtime.
+Each advertorial route is driven entirely by its `copy.json` and `media.json` files. The page component reads those files and passes them as props to `TopBar`. No dynamic data fetching occurs at runtime.
 
 ## Dev Commands
 
@@ -172,8 +172,8 @@ Key rules:
 
 ```tsx
 // app/s/a/my-slug/page.tsx — Server Component, no "use client":
-import content from "./adv.json"
-import media from "./adv-media.json"
+import content from "./copy.json"
+import media from "./media.json"
 import { TopBar } from "@/sections/TopBar"
 
 export default function MySlugPage() {
@@ -194,16 +194,16 @@ import { useState, useEffect } from "react"
 
 Each advertorial route is driven by two JSON files co-located with the page:
 
-- `adv.json` — all text content: headings, paragraphs, CTA labels, comment items, footer copy
-- `adv-media.json` — all media references: image URLs, video URLs, icon URLs, avatar URLs
+- `copy.json` — all text content: headings, paragraphs, CTA labels, comment items, footer copy
+- `media.json` — all media references: image URLs, video URLs, icon URLs, avatar URLs
 
 The page passes both files as props to `TopBar`. Downstream components read from these via `AdvertorialContext`. To add a new advertorial route:
 
-1. Create `app/s/a/<slug>/` with `page.tsx`, `adv.json`, and `adv-media.json`
+1. Create `app/s/a/<slug>/` with `page.tsx`, `copy.json`, and `media.json`
 2. Copy the structure from an existing route's JSON files and update the values
 3. The page component is identical for every route — only the JSON files differ
 
-**Template interpolation**: Paragraph strings in `adv.json` may contain `{{countdown}}` placeholders, which `interpolateTemplate` replaces at render time with the live countdown value. To add a new interpolation key, add the key to the `values` object passed to `<HtmlParagraphs>` and use `{{keyName}}` in the JSON.
+**Template interpolation**: Paragraph strings in `copy.json` may contain `{{countdown}}` placeholders, which `interpolateTemplate` replaces at render time with the live countdown value. To add a new interpolation key, add the key to the `values` object passed to `<HtmlParagraphs>` and use `{{keyName}}` in the JSON.
 
 **HTML in paragraphs**: Paragraph strings may contain inline HTML (`<b>`, `<em>`, `<a>`, etc.), rendered via `dangerouslySetInnerHTML`. When editing paragraph content in JSON, ensure HTML is well-formed — unmatched tags will silently break rendering.
 
@@ -215,7 +215,7 @@ The external CTA destination is defined as a module-level constant in `src/secti
 const ADV_CTA_URL = "https://loraritual.com/products/nrx"
 ```
 
-All CTA anchors (`<a href={ADV_CTA_URL}>`) in that file reference this constant. To change the destination for a page, update this constant. If routes need different destinations, move this constant into `adv.json` and thread it through `AdvertorialContent`.
+All CTA anchors (`<a href={ADV_CTA_URL}>`) in that file reference this constant. To change the destination for a page, update this constant. If routes need different destinations, move this constant into `copy.json` and thread it through `AdvertorialContent`.
 
 ## Styling with Tailwind
 

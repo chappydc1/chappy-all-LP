@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import adv from "./adv.json";
+import adv from "./copy.json";
 import media from "./media.json";
 import { ShilajitNavbar } from "./components/Navbar";
 import { ShilajitBreadcrumb } from "./components/Breadcrumb";

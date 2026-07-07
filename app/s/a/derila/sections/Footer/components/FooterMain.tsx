@@ -1,4 +1,4 @@
-import adv from "../../../adv.json";
+import adv from "../../../copy.json";
 import { DerilaFooterLogo } from "../../Footer/components/FooterLogo";
 import { DerilaFooterColumn } from "../../Footer/components/FooterColumn";
 

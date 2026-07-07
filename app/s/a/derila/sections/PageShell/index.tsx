@@ -3,7 +3,7 @@ import { DerilaArticleLayout } from "../ArticleLayout";
 import { DerilaStickyBottomCta } from "../../components/StickyBottomCta";
 import { DerilaFooter } from "../Footer";
 import { DerilaCookiePreferences } from "../../components/CookiePreferences";
-import adv from "../../adv.json";
+import adv from "../../copy.json";
 
 export const DerilaPageShell = () => {
   return (

@@ -4,7 +4,7 @@ import { ForbesFooter } from "./sections/Footer";
 import { ForbesStickyBar } from "./components/StickyBar";
 import type { Metadata } from "next";
 
-import adv from "./adv.json";
+import adv from "./copy.json";
 import media from "./media.json";
 
 export const metadata: Metadata = {

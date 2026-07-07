@@ -10,7 +10,7 @@ import { OprahPricingTable } from "./sections/PricingTable";
 import { OprahVideoSection } from "./sections/VideoSection";
 import { useVslPricingReveal } from "./hooks/useVslPricingReveal";
 import mediaJson from "./media.json";
-import advJson from "./adv.json";
+import advJson from "./copy.json";
 
 const HeroContainer = ({ children }: { children: ReactNode }) => (
   <div className="relative box-border caret-transparent flex flex-col max-w-full w-full mx-auto px-2.5">

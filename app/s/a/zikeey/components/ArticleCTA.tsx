@@ -1,4 +1,4 @@
-import adv from "../adv.json";
+import adv from "../copy.json";
 import { renderText } from "../utils/renderText";
 
 export function ZikeeyArticleCTA() {

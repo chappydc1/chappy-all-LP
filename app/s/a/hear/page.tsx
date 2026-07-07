@@ -1,5 +1,5 @@
-import content from "./adv.json"
-import media from "./adv-media.json"
+import content from "./copy.json"
+import media from "./media.json"
 import { HearTopBar } from "./sections/TopBar"
 
 export default function HearPage() {

@@ -1,6 +1,6 @@
 import { AmalaApp } from "./AmalaApp";
-import advContent from "./content/adv.json";
-import advMedia from "./content/adv-media.json";
+import advContent from "./content/copy.json";
+import advMedia from "./content/media.json";
 
 export default function AmalaLandingPage() {
   return (
