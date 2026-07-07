@@ -660,7 +660,7 @@ function Sidebar({
   );
 }
 
-function CommentThread({
+function CommentItem({
   comment,
   media,
   nested,
@@ -669,30 +669,51 @@ function CommentThread({
   media: AdvertorialMedia["comments"];
   nested?: boolean;
 }): React.ReactElement {
+  const avatarSize = nested ? "w-[35px] h-[35px]" : "w-[50px] h-[50px]";
+
   return (
-    <div className={nested ? "ml-10 mt-3" : "mb-4"}>
-      <div className="bg-white border border-gray-200 rounded p-4">
-        <div className="flex items-center mb-2">
-          <img src={media.avatars[comment.avatarKey]} alt={comment.name} className="w-10 h-10 rounded-full object-cover mr-3" />
-          <div className="font-bold text-sm font-montserrat">{comment.name}</div>
-        </div>
-        <p className="text-sm font-open_sans">{comment.text}</p>
+    <div className="flex items-start mt-2.5">
+      <div className={`shrink-0 mr-[5px] ${avatarSize}`}>
+        <img src={media.avatars[comment.avatarKey]} alt={comment.name} className={`${avatarSize} object-cover`} />
+      </div>
+      <div className="flex-1">
+        <p className="text-indigo-800 text-[15px] font-bold font-montserrat">{comment.name}</p>
+        <p className="text-black text-[15px] leading-5 font-open_sans">{comment.text}</p>
         {comment.photoKey && (
           <img src={media.photos[comment.photoKey]} alt={`Photo shared by ${comment.name}`} className="mt-2.5 w-32 rounded-[5px]" />
         )}
-        <div className="flex items-center gap-2 mt-2 text-xs text-zinc-500 font-montserrat">
-          <span>Like</span>
+        <div className="flex items-center gap-1 mt-[5px] text-[13px] text-zinc-500 font-montserrat">
+          <span className="text-indigo-800">Like</span>
           <span>·</span>
-          <span>Reply</span>
+          <span className="text-indigo-800">Reply</span>
           <span>·</span>
-          <img src={media.likeIconSrc} alt="" className="w-3.5 h-3.5 inline" />
+          <img src={media.likeIconSrc} alt="" className="w-4 h-4 inline" />
           <span>{comment.likeCount}</span>
           <span>·</span>
           <span>{comment.date}</span>
         </div>
       </div>
+    </div>
+  );
+}
+
+function CommentThread({
+  comment,
+  media,
+}: {
+  comment: CommentEntry;
+  media: AdvertorialMedia["comments"];
+}): React.ReactElement {
+  return (
+    <div className="mt-2.5">
+      <CommentItem comment={comment} media={media} />
       {comment.replies?.map((reply, i) => (
-        <CommentThread key={`${reply.name}-${i}`} comment={reply} media={media} nested />
+        <div key={`${reply.name}-${i}`} className="flex mt-[5px]">
+          <div className="w-[10%] shrink-0" />
+          <div className="flex-1 border-l border-stone-300 pl-2.5">
+            <CommentItem comment={reply} media={media} nested />
+          </div>
+        </div>
       ))}
     </div>
   );
@@ -703,10 +724,14 @@ function CommentsSection({ content, media }: { content: AdvertorialContent; medi
     <div className="items-stretch flex flex-wrap justify-start max-w-full p-2.5 md:flex-nowrap">
       <div className="relative basis-full grow max-w-[1170px] min-h-[25px] w-min mx-auto p-2.5 md:basis-0">
         <div className="text-zinc-800 text-base leading-[21px] text-start mt-5 mb-[115px]">
-          <div className="text-base leading-4 text-center mt-2.5 p-2.5 font-open_sans font-bold">
+          <p className="text-neutral-800 text-[15px] font-bold font-montserrat md:text-xl">
             {content.comments.title}
-          </div>
-          <div className="mt-2.5">
+          </p>
+          <textarea
+            placeholder="Add a comment ..."
+            className="block w-full min-h-[100px] mt-2.5 mb-5 px-[15px] py-[11px] rounded-md border border-neutral-300 text-gray-800 font-open_sans resize-y"
+          />
+          <div>
             {content.comments.items.map((comment, i) => (
               <CommentThread key={`${comment.name}-${i}`} comment={comment} media={media.comments} />
             ))}
