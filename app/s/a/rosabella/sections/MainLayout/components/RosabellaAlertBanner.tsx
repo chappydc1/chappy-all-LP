@@ -30,7 +30,7 @@ export const RosabellaAlertBanner = () => {
                       <div className="text-[15.4583px] box-border caret-transparent leading-[23.1875px] outline-[3px] w-full md:text-[19px] md:leading-[28.5px]">
                         <p className="text-[15.4583px] box-border caret-transparent leading-[23.1875px] outline-[3px] md:text-[19px] md:leading-[28.5px]">
                           <strong className="text-red-700 text-[15.4583px] font-bold box-border caret-transparent leading-[23.1875px] outline-[3px] md:text-[19px] md:leading-[28.5px]">
-                            {copy.alertBanner.updateLabel}{" "}
+                            UPDATE:{" "}
                           </strong>
                           <strong className="text-[15.4583px] font-bold box-border caret-transparent leading-[23.1875px] outline-[3px] md:text-[19px] md:leading-[28.5px]">
                             {copy.alertBanner.message}
