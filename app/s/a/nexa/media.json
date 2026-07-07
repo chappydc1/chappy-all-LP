@@ -1,6 +1,9 @@
 {
   "logo": "/images/nexa/1764951851636_v2.png",
   "flag": "/images/nexa/1729690210975_1713260533_1681578148_flag.webp",
+  "meta": {
+    "videoUrl": "https://cdn.shopify.com/videos/c/o/v/8f5990bd8b094420804a316b3b9305c2.mp4"
+  },
   "header": {
     "ratingsStars": "/images/nexa/1729049065435_1716978858_1711369581080_stars.webp",
     "mainImage": "/images/nexa/1739882427680_22.jpg",
@@ -30,5 +33,28 @@
     "star3": "/images/nexa/1738566305836_1713265749_1711913439_3_star.webp",
     "star2": "/images/nexa/1738566307523_1713265753_1711913445_2_star.webp",
     "star1": "/images/nexa/1738566309027_1713265827_1711913451_1_star.webp"
+  },
+  "comments": {
+    "avatars": {
+      "wilma": "/images/nexa/1729072653432_1689522054_1.webp",
+      "doris": "/images/nexa/1729172389910_1689523955_9_1_120x120.webp",
+      "skyler": "/images/nexa/1729172608070_1689524009_4_120x120.webp",
+      "marie": "/images/nexa/1729172681324_1689524278_5_120x120.webp",
+      "anna_boyd": "/images/nexa/1729276565818_1690673126_thumb_Irina_Travkina_executive_r.webp",
+      "david": "/images/nexa/1729276716603_1689524233_7_120x120.webp",
+      "alferd": "/images/nexa/1729277064849_1689524495_9_120x120.webp",
+      "edith": "/images/nexa/1729277123750_1689524512_1_1_120x120.webp",
+      "debra": "/images/nexa/1729277189377_1691413209_Anabel_Lorenzo.webp",
+      "agnes": "/images/nexa/1729277325463_1689524881_3_1_120x120.webp",
+      "barbara": "/images/nexa/1729277531271_1689525035_21_120x120.webp",
+      "harry": "/images/nexa/1729277610957_1689524987_19_120x120.webp",
+      "bridget": "/images/nexa/1729277679683_1689525025_20_120x120.webp",
+      "anna_madison": "/images/nexa/1729277723585_1689524890_5_1_120x120.webp",
+      "clara": "/images/nexa/1729277725437_1689525125_6_1_120x120.webp",
+      "dana": "/images/nexa/1729277728866_1690673012_brave_woman.webp",
+      "katharine": "/images/nexa/1729277730999_1690673025_eyJwYXRoIjoiaWhoLWhlYWx0aGNhcmUt.webp",
+      "amanda": "/images/nexa/1729277738316_1690673034_depositphotos_90874904_stock_pho.webp",
+      "samantha": "/images/nexa/1729277745835_1690673046_smiling_woman.webp"
+    }
   }
 }
