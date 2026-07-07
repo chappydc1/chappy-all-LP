@@ -3,27 +3,67 @@
 import { createContext, useContext } from "react";
 
 export type RosabellaCopyType = {
-  advertorialLabel: string;
   alertBanner: {
-    updateLabel: string;
     message: string;
   };
   breadcrumb: string;
   headline: string;
   subheadline: string;
-  ratingText: string;
   quoteText: string;
   quoteAuthor: string;
   introBody: string;
+  productName: string;
   ctaUrl: string;
   ctaText: string;
-  sections: Array<{
-    id: string;
-    type: string;
-    number?: number;
+  introSection: {
     title: string;
-    content: string;
-  }>;
+    p1: string;
+    p2: string;
+    p3: string;
+    p4: string;
+    p5: string;
+    p6: string;
+    p7: string;
+    p8: string;
+    p9: string;
+    p10: string;
+  };
+  reason1Section: {
+    title: string;
+    p1: string;
+    p2: string;
+    problems: string[];
+    p3: string;
+    p4: string;
+    benefits: string[];
+    p5: string;
+  };
+  reason2Section: {
+    title: string;
+    p1: string;
+    p2: string;
+    p3: string;
+    p4: string;
+  };
+  reason3Section: {
+    title: string;
+  };
+  reason4Section: {
+    title: string;
+    p1: string;
+    p2: string;
+    p3: string;
+    p4: string;
+  };
+  reason5Section: {
+    title: string;
+    p1: string;
+    p2: string;
+    p3: string;
+    p4: string;
+    p5: string;
+    p6: string;
+  };
   updateOffer: {
     updateLabel: string;
     dateText: string;

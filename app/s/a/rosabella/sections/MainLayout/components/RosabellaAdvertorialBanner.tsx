@@ -1,10 +1,6 @@
 "use client";
 
-import { useAdvertorial } from "../../LandingPage/context";
-
 export const RosabellaAdvertorialBanner = () => {
-  const { copy } = useAdvertorial();
-
   return (
     <section className="items-center bg-neutral-800 bg-no-repeat box-border caret-transparent hidden flex-col justify-items-center min-h-0 min-w-0 outline-[3px] w-full bg-center md:flex md:min-h-[auto] md:min-w-[auto]">
       <div className="text-zinc-800 bg-no-repeat box-border caret-transparent flex flex-col max-w-[1170px] min-h-0 min-w-0 outline-[3px] text-start w-full bg-center md:flex-row md:min-h-[auto] md:min-w-[auto]">
@@ -13,7 +9,7 @@ export const RosabellaAdvertorialBanner = () => {
             <div className="text-white/80 box-border caret-transparent leading-[14px] min-h-0 min-w-0 outline-[3px] text-center w-full md:min-h-[auto] md:min-w-[auto]">
               <div className="box-border caret-transparent outline-[3px] w-full">
                 <p className="box-border caret-transparent outline-[3px]">
-                  {copy.advertorialLabel}
+                  Advertorial
                 </p>
               </div>
             </div>

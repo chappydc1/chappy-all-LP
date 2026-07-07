@@ -1,61 +1,75 @@
 {
-  "advertorialLabel": "Advertorial",
   "alertBanner": {
-    "updateLabel": "UPDATE:",
     "message": "Rosabella Moringa is SELLING OUT faster than expected! Lock in your order NOW to get 50% OFF + FAST SHIPPING"
   },
   "breadcrumb": "Home > Energy & Vitality > Rosabella Moringa",
   "headline": "5 Reasons Why Thousands Are Choosing Rosabella Moringa in 2025 to Restore Their Energy, Focus, and Metabolism And Finally Break Free from Chronic Fatigue & Stress",
   "subheadline": "Thousands Are Choosing Rosabella Moringa Over Expensive Medications & Complicated Health Routines - Here's Why",
-  "ratingText": "3,791 Ratings",
   "quoteText": "A growing body of evidence suggests that moringa (Moringa oleifera) helps fight inflammation, a known contributor to chronic conditions such as cancer, diabetes, and obesity.",
   "quoteAuthor": "- Dr. Carrie Waterman, a natural products chemist at the University of California, Davis",
   "introBody": "Studies show that Moringa can help lower blood sugar and cholesterol. It also has antioxidant and anti-inflammatory benefits that support overall health.",
+  "productName": "Rosabella Moringa",
   "ctaUrl": "https://shop.tryrosabella.com/npl-nlp",
   "ctaText": "GET 50% OFF Rosabella Moringa Now!",
-  "sections": [
-    {
-      "id": "intro-problem",
-      "type": "problem",
-      "title": "Have You Felt Constantly Drained No Matter What You Try?",
-      "content": "Maybe you've noticed your energy levels crashing by midday…\n\nOr your mind feels foggy, making it harder to focus or remember things…\n\nMaybe your body feels just tired and sluggish, and no matter how much you rest, you never feel fully recharged…\n\nAnd after trying endless vitamins, diets, and morning routines - with little to no change - you start to wonder if this is just your new normal.\n\nIt's frustrating, exhausting, and leaves you feeling trapped in a cycle of stress and burnout.\n\nBut it doesn't have to be like this.\n\nBecause scientists have finally discovered the real reason why so many people feel chronically drained\n\nIt's called Rosabella Moringa.\n\nAnd people who've tried it are experiencing noticeable improvements in their energy, focus, metabolism, and sleep within just a few weeks.\n\nSo if you're wondering whether Rosabella Moringa can really work for you, here are 5 reasons why thousands of people are choosing it over every other supplement on the market:"
-    },
-    {
-      "id": "reason-1",
-      "type": "reason",
-      "number": 1,
-      "title": "1.Fixes The Core Reason You're Exhausted, Stressed, and Stuck",
-      "content": "Nothing else on the market is proven to fix the real cause of low energy, brain fog, and stubborn weight gain - chronically high cortisol.\n\nWhen cortisol stays high, it:\n\n❌ Drains energy no matter how much you rest.\n❌ Slows metabolism, making weight loss harder.\n❌ Disrupts sleep, leaving you groggy and restless.\n❌ Causes brain fog and forgetfulness.\n\nRosabella Moringa is the only natural solution designed to lower cortisol and restore your energy, metabolism, and focus.\n\nWith powerful adaptogens and nutrients, it helps:\n\n✅ Boost energy naturally\n✅ Improve metabolism and weight loss\n✅ Sharpen focus and clear brain fog\n✅ Promote deep, restful sleep\n\nThousands are already feeling the difference. Try it today, risk-free."
-    },
-    {
-      "id": "reason-2",
-      "type": "reason",
-      "number": 2,
-      "title": "2.No Side-Effects - 100% From Nature",
-      "content": "Most supplements for energy, stress, and metabolism come with a long list of side effects - jitters, crashes, headaches, grogginess, and even hormone imbalances.\n\nRosabella Moringa is different.\n\nMade with 100% natural ingredients, it works with your body to lower cortisol, boost energy, and restore balance - without harsh stimulants or synthetic additives.\n\nYou get real, lasting results without the risks. No crashes, no grogginess, no dependency - just a natural way to feel better every day."
-    },
-    {
-      "id": "reason-3",
-      "type": "reason",
-      "number": 3,
-      "title": "3.First Results In 2-3 Weeks",
-      "content": ""
-    },
-    {
-      "id": "reason-4",
-      "type": "reason",
-      "number": 4,
-      "title": "4.Thousands of People Worldwide Love It and Can't Live Without It",
-      "content": "Designed to lower cortisol and restore balance, it has helped people regain their energy, improve focus, sleep better, and feel like themselves again.\n\nThose who tried it can't stop talking about how quickly they felt the difference - more energy, clearer thinking, and a body that finally feels in sync.\n\nWith consistent use, they've seen remarkable transformations - proving that Rosabella Moringa truly works.\n\nJoin the thousands who have found a real solution for lasting energy, focus, and well-being. Your transformation starts today."
-    },
-    {
-      "id": "reason-5",
-      "type": "reason",
-      "number": 5,
-      "title": "5.100% Risk-Free Guarantee",
-      "content": "Unlike other supplements, we guarantee real results.\n\nThat's why we offer our \"Feel the Transformation or Get Your Money Back\" Guarantee.\n\nIf you don't experience constant energy that keeps you going strong, crystal-clear focus, deep, restful sleep, and a body that finally feels in balance - simply contact us, and we'll give you a full refund.\n\nNo questions asked. No hassle.\n\nWith thousands already experiencing life-changing results with Rosabella Moringa - and with our 100% risk-free guarantee - the only thing you lose is the chance to finally feel like the best version of yourself.\n\nTry it today, completely risk-free."
-    }
-  ],
+  "introSection": {
+    "title": "Have You Felt Constantly Drained No Matter What You Try?",
+    "p1": "Maybe you've noticed your energy levels crashing by midday…",
+    "p2": "Or your mind feels foggy, making it harder to focus or remember things…",
+    "p3": "Maybe your body feels just tired and sluggish, and no matter how much you rest, you never feel fully recharged…",
+    "p4": "And after trying endless vitamins, diets, and morning routines - with little to no change - you start to wonder if this is just your new normal.",
+    "p5": "It's frustrating, exhausting, and leaves you feeling trapped in a cycle of stress and burnout.",
+    "p6": "But it doesn't have to be like this.",
+    "p7": "Because scientists have finally discovered the real reason why so many people feel chronically drained",
+    "p8": "It's called Rosabella Moringa.",
+    "p9": "And people who've tried it are experiencing noticeable improvements in their energy, focus, metabolism, and sleep within just a few weeks.",
+    "p10": "So if you're wondering whether Rosabella Moringa can really work for you, here are 5 reasons why thousands of people are choosing it over every other supplement on the market:"
+  },
+  "reason1Section": {
+    "title": "1.Fixes The Core Reason You're Exhausted, Stressed, and Stuck",
+    "p1": "Nothing else on the market is proven to fix the real cause of low energy, brain fog, and stubborn weight gain - chronically high cortisol.",
+    "p2": "When cortisol stays high, it:",
+    "problems": [
+      "❌ Drains energy no matter how much you rest.",
+      "❌ Slows metabolism, making weight loss harder.",
+      "❌ Disrupts sleep, leaving you groggy and restless.",
+      "❌ Causes brain fog and forgetfulness."
+    ],
+    "p3": "Rosabella Moringa is the only natural solution designed to lower cortisol and restore your energy, metabolism, and focus.",
+    "p4": "With powerful adaptogens and nutrients, it helps:",
+    "benefits": [
+      "✅ Boost energy naturally",
+      "✅ Improve metabolism and weight loss",
+      "✅ Sharpen focus and clear brain fog",
+      "✅ Promote deep, restful sleep"
+    ],
+    "p5": "Thousands are already feeling the difference. Try it today, risk-free."
+  },
+  "reason2Section": {
+    "title": "2.No Side-Effects - 100% From Nature",
+    "p1": "Most supplements for energy, stress, and metabolism come with a long list of side effects - jitters, crashes, headaches, grogginess, and even hormone imbalances.",
+    "p2": "Rosabella Moringa is different.",
+    "p3": "Made with 100% natural ingredients, it works with your body to lower cortisol, boost energy, and restore balance - without harsh stimulants or synthetic additives.",
+    "p4": "You get real, lasting results without the risks. No crashes, no grogginess, no dependency - just a natural way to feel better every day."
+  },
+  "reason3Section": {
+    "title": "3.First Results In 2-3 Weeks"
+  },
+  "reason4Section": {
+    "title": "4.Thousands of People Worldwide Love It and Can't Live Without It",
+    "p1": "Designed to lower cortisol and restore balance, it has helped people regain their energy, improve focus, sleep better, and feel like themselves again.",
+    "p2": "Those who tried it can't stop talking about how quickly they felt the difference - more energy, clearer thinking, and a body that finally feels in sync.",
+    "p3": "With consistent use, they've seen remarkable transformations - proving that Rosabella Moringa truly works.",
+    "p4": "Join the thousands who have found a real solution for lasting energy, focus, and well-being. Your transformation starts today."
+  },
+  "reason5Section": {
+    "title": "5.100% Risk-Free Guarantee",
+    "p1": "Unlike other supplements, we guarantee real results.",
+    "p2": "That's why we offer our \"Feel the Transformation or Get Your Money Back\" Guarantee.",
+    "p3": "If you don't experience constant energy that keeps you going strong, crystal-clear focus, deep, restful sleep, and a body that finally feels in balance - simply contact us, and we'll give you a full refund.",
+    "p4": "No questions asked. No hassle.",
+    "p5": "With thousands already experiencing life-changing results with Rosabella Moringa - and with our 100% risk-free guarantee - the only thing you lose is the chance to finally feel like the best version of yourself.",
+    "p6": "Try it today, completely risk-free."
+  },
   "updateOffer": {
     "updateLabel": "UPDATE:",
     "dateText": "June 3, 2026",
