@@ -43,6 +43,11 @@
       "text": "The Question Every Man Over 50 Is Asking"
     },
     {
+      "type": "image",
+      "mediaKey": "aurivitaImg",
+      "className": "w-full"
+    },
+    {
       "type": "paragraph",
       "html": "My inbox has been flooded with the same question:<br/><br/>\"Does cayenne pepper actually fix erectile dysfunction, or is it just another natural remedy scam?\"<br/><br/>I've been a practicing urologist for 22 years. I've prescribed every ED medication on the market—Viagra, Cialis, Levitra, you name it.<br/><br/>When a cayenne pepper supplement claiming to replace prescription ED pills started gaining traction, I was deeply skeptical. The claims seemed impossible:<br/><br/>- Fixes circulation permanently (vs masking symptoms)<br/>- Works within 2-4 weeks of daily use<br/>- Zero prescription required<br/>- 90% of men report harder, more reliable erections<br/>- No side effects, no headaches, no dependency<br/><br/>But thousands of men—including some of my own patients—were asking about it. So I investigated."
     },
@@ -51,12 +56,12 @@
       "text": "The 90-Day Investigation"
     },
     {
-      "type": "paragraph",
-      "html": "I wasn't going to trust supplement industry marketing. I needed real data.<br/><br/>What I did:<br/><br/>- Analyzed the clinical research on capsaicin and vascular health<br/>- Reviewed 8 peer-reviewed studies on cayenne's effect on circulation<br/>- Interviewed 52 men who switched from Viagra to Lora Capsaicin Power<br/>- Monitored 18 of my own patients during their transition<br/>- Tested the formula myself (yes, I tried it personally)"
-    },
-    {
       "type": "video",
       "mediaKey": "v2"
+    },
+    {
+      "type": "paragraph",
+      "html": "I wasn't going to trust supplement industry marketing. I needed real data.<br/><br/>What I did:<br/><br/>- Analyzed the clinical research on capsaicin and vascular health<br/>- Reviewed 8 peer-reviewed studies on cayenne's effect on circulation<br/>- Interviewed 52 men who switched from Viagra to Lora Capsaicin Power<br/>- Monitored 18 of my own patients during their transition<br/>- Tested the formula myself (yes, I tried it personally)"
     },
     {
       "type": "heading",
