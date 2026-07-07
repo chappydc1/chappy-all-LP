@@ -16,7 +16,7 @@ type ArticleSectionEntry =
   | { type: "list"; items: string[] }
   | { type: "image"; imageKey: string; alt: string }
   | { type: "video" }
-  | { type: "cta"; line1: string; line2: string; showGif?: boolean }
+  | { type: "cta"; line1: string; line2: string }
   | { type: "trustpilot"; score: string; reviewCountLabel: string; url: string }
   | {
       type: "testimonial";
@@ -125,7 +125,7 @@ export type AdvertorialMedia = {
     checkoutImageSrc: string;
     returnsImageSrc: string;
     shippingImageSrc: string;
-    finalCtaGifSrc: string;
+    dividerBarSrc: string;
     asSeenOnImageSrc: string;
     trustpilotBannerImageSrc: string;
     images: Record<string, string>;
@@ -237,12 +237,10 @@ function CtaButton({
   ctaUrl,
   line1,
   line2,
-  gifSrc,
 }: {
   ctaUrl: string;
   line1: string;
   line2: string;
-  gifSrc?: string;
 }): React.ReactElement {
   return (
     <a
@@ -252,7 +250,6 @@ function CtaButton({
       {line1}{" "}
       <br />
       {line2}
-      {gifSrc && <img src={gifSrc} alt="" className="inline-block h-6 w-6 ml-2 align-middle" />}
     </a>
   );
 }
@@ -507,12 +504,7 @@ function MainArticle({
         if (section.type === "cta") {
           return (
             <div key={i} className="mt-[15px]">
-              <CtaButton
-                ctaUrl={content.ctaUrl}
-                line1={section.line1}
-                line2={section.line2}
-                gifSrc={section.showGif ? media.article.finalCtaGifSrc : undefined}
-              />
+              <CtaButton ctaUrl={content.ctaUrl} line1={section.line1} line2={section.line2} />
             </div>
           );
         }
@@ -552,8 +544,9 @@ function CheckoutOfferSection({
   const { checkoutUpdate, guarantees, cta } = content.article;
 
   return (
-    <div className="bg-[rgb(242,242,242)] mt-[10px]">
-      <div className="w-full pt-[15px] pb-8 bg-[rgb(254,251,217)] px-[25px]">
+    <div className="mt-[10px]">
+      <img src={media.article.dividerBarSrc} alt="" className="w-full h-3 object-cover" />
+      <div className="w-full pt-[15px] pb-8 bg-yellow-50 px-[25px]">
         <div>
           <b className="text-lg font-bold leading-7">
             <span className="text-red-600">{checkoutUpdate.label}</span>
@@ -581,7 +574,7 @@ function CheckoutOfferSection({
         </div>
       </div>
 
-      <div className="w-full pt-[15px] pb-8 md:px-[25px]">
+      <div className="w-full pt-[15px] pb-8 px-[25px] bg-yellow-100">
         <GuaranteeIconsGrid guarantees={guarantees} media={media.article} />
         <CtaButton ctaUrl={content.ctaUrl} line1={cta.line1} line2={cta.line2} />
       </div>

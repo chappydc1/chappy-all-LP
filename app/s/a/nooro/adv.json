@@ -247,7 +247,7 @@
         "type": "paragraph",
         "html": "Many of my patients have already done it. <b>You can do it too.</b> All you need is a little assistance from the finest pain relief device that I know exists - our <b>Nooro 3-in-1 Leg Massager</b>. So without further ado… If you are ready to do the right thing… Click that big green button below to order your Nooro 3-in-1 Leg Massager. And remember - <b>If it doesn't work as promised, you don't pay.</b>"
       },
-      { "type": "cta", "line1": "GET 50% OFF Nooro", "line2": "3-in-1 Leg Massager Now!", "showGif": true }
+      { "type": "cta", "line1": "GET 50% OFF Nooro", "line2": "3-in-1 Leg Massager Now!" }
     ],
     "checkoutUpdate": {
       "label": "UPDATE:",
