@@ -9,7 +9,7 @@ type VideoSource =
   | { format: "mp4"; src: string };
 
 type BodySection =
-  | { type: "paragraph"; text: string }
+  | ({ type: "paragraph" } & Record<string, string>)
   | { type: "heading"; text: string; extraClass?: string }
   | { type: "video"; mediaKey: string; containerClass?: string }
   | { type: "image"; mediaKey: string; className?: string }
@@ -330,10 +330,14 @@ function RenderBodySection({
   const { content, media } = useAdvertorialData();
 
   switch (section.type) {
-    case "paragraph":
+    case "paragraph": {
+      const lines = Object.entries(section)
+        .filter(([key]) => /^p\d+$/.test(key))
+        .sort(([a], [b]) => Number(a.slice(1)) - Number(b.slice(1)))
+        .map(([, value]) => value);
       return (
         <div key={idx} className="mt-[15px] px-px py-2.5">
-          {section.text.split("\n").map((paragraph, pIdx) => (
+          {lines.map((paragraph, pIdx) => (
             <p
               key={pIdx}
               className="text-zinc-800 text-[17px] leading-[25.5px] text-left font-montserrat first:mt-0 mt-[15px]"
@@ -343,6 +347,7 @@ function RenderBodySection({
           ))}
         </div>
       );
+    }
 
     case "heading":
       return (
