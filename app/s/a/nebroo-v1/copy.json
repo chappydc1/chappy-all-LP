@@ -34,7 +34,7 @@
       "mediaKey": "v1"
     },
     {
-      "type": "paragraph",
+      "type": "impactIntro",
       "p1": "You've already noticed that your poor hearing is making your life much more difficult.",
       "p2": "And these are some of the most common ways it's impacting your life:",
       "p3": "- You're more stressed",
@@ -53,7 +53,7 @@
       "mediaKey": "v2"
     },
     {
-      "type": "paragraph",
+      "type": "whyNotCuredYet",
       "p1": "In the last 20-30 years, we have found treatments for so many medical conditions.",
       "p2": "Cancer survival rates are way up.",
       "p3": "We can get almost perfect eyesight with a simple laser surgery.",
@@ -71,7 +71,7 @@
       "mediaKey": "v3"
     },
     {
-      "type": "paragraph",
+      "type": "howEarsWork",
       "p1": "The reason hearing loss is so difficult to cure is because of the way that your ears work.",
       "p2": "Sound travels into your ear canal as vibrations in the air.",
       "p3": "Those vibrations hit your eardrum, that's like a sheet of skin, and it's converted into movements in a series of tiny bones.",
@@ -89,7 +89,7 @@
       "mediaKey": "v4"
     },
     {
-      "type": "paragraph",
+      "type": "whyWeLoseHearing",
       "p1": "The stereocilia are responsible for converting the sound into brain signals. And over time, these tiny filaments break and become damaged.",
       "p2": "But here's the problem; they don't regrow.",
       "p3": "Unlike most other cells, they are not genetically programmed to regrow.",
@@ -107,7 +107,7 @@
       "mediaKey": "v5"
     },
     {
-      "type": "paragraph",
+      "type": "whyCantRegrow",
       "p1": "One day, we will probably find a way to do this.",
       "p2": "There was some promising research in Harvard Medical School in 2023 that showed that they could use a very specific cocktail of drugs to make some ear cells divide and regenerate in mice. This is called gene therapy.",
       "p3": "But even though this is an exciting development, it's much too early to know what this will lead to, or if it will even be possible to do the same for humans.",
@@ -124,7 +124,7 @@
       "containerClass": "mt-2.5"
     },
     {
-      "type": "paragraph",
+      "type": "treatTheSymptoms",
       "p1": "We can't cure the root cause of your hearing loss but we CAN treat the symptoms.",
       "p2": "If your hearing loss is severe, where you really can only hear loud sounds or shouting, then you will need to see a doctor.",
       "p3": "But when you have mild to moderate hearing loss, it's still extremely important to treat these symptoms.",
@@ -143,7 +143,7 @@
       "className": "w-full border border-zinc-400 border-solid"
     },
     {
-      "type": "paragraph",
+      "type": "yourOptions",
       "p1": "You really have 3 options:",
       "p2": "Option 1. Do Nothing",
       "p3": "This is a very bad idea. The problems you face now will only become worse.",
@@ -166,7 +166,7 @@
       "containerClass": "mt-2.5"
     },
     {
-      "type": "paragraph",
+      "type": "productIntro",
       "p1": "This is a small device that you place in your ear canal.",
       "p2": "Everything is contained in the device so there is no large case sitting behind your ear and this makes it almost invisible to the people you're talking to.",
       "p3": "The Nebroo processes the sounds around you, improving the sound quality, before sending it down your ear canal.",
@@ -183,7 +183,7 @@
       "containerClass": "py-3"
     },
     {
-      "type": "paragraph",
+      "type": "voxHumanaChip",
       "p1": "The Nebroo contains a microchip called Vox Humana.",
       "p2": "It was designed and programmed so it does not just amplify, but improve the clarity of human speech.",
       "p3": "This means that conversation become clear and stress-free.",
@@ -200,7 +200,7 @@
       "className": "w-full"
     },
     {
-      "type": "paragraph",
+      "type": "pricingIntro",
       "p1": "This is the most impressive part of the Nebroo hearing aid.",
       "p2": "It was actually designed to be a high quality solution that every American could afford.",
       "p3": "And by selling directly to you, so there are no middlemen taking a cut, Nebroo was able to slash the full retail cost to just $330.",
@@ -217,7 +217,7 @@
       "className": "w-full"
     },
     {
-      "type": "paragraph",
+      "type": "purchaseOffer",
       "p1": "For the people on this page, there is a 70% sale running on the Nebroo right now.",
       "p2": "If you try to buy from the homepage, the price is $330 so it's important you only purchase by using the green buttons below.",
       "p3": "This 70% discount will bring the price you pay today to under $100."
@@ -243,7 +243,7 @@
       "containerClass": "py-3"
     },
     {
-      "type": "paragraph",
+      "type": "discreteAndBattery",
       "p1": "The sleek design and color tone of the Nebroo make them very discrete.",
       "p2": "We don't think anyone should be embarrassed to wear a hearing aid but it also helps to not draw attention to it so you can just be yourself.",
       "p3": "So just place them in your ear and go about your day.",
@@ -260,7 +260,7 @@
       "className": "w-full"
     },
     {
-      "type": "paragraph",
+      "type": "earDomesFit",
       "p1": "Every Nebroo comes with 10 pairs of silicon ear domes.",
       "p2": "These domes attach easily to the tip of the hearing aid and allow you to find the perfect fit for your ear.",
       "p3": "You can test different sizes to find the maximum level of comfort and sound quality.",
@@ -278,7 +278,7 @@
       "containerClass": "py-3"
     },
     {
-      "type": "paragraph",
+      "type": "discountReasoning",
       "p1": "Because there are 28.8 million Americans with untreated hearing loss, Nebroo are trying to make this affordable for literally everyone.",
       "p2": "So even though the retail price of the product is $330, which is extremely cheap compared to the industry average of $4672, they wanted to do more.",
       "p3": "Anyone who buys today through the link on this page can get a 70% discount, bringing the price to under $100.",
@@ -296,7 +296,7 @@
       "className": "w-full h-[117px] md:h-auto mt-[15px] rounded-[10px]"
     },
     {
-      "type": "paragraph",
+      "type": "guaranteeAndWarranty",
       "p1": "A great product comes with great trust.",
       "p2": "So you have a full 120 days to use the Nebroo in your everyday life and see just how much it improves your communication, your social life and your relationships.",
       "p3": "And if you're not happy then you can send it back for refund at any point within those 120 days, no arguments or delays.",
@@ -309,7 +309,7 @@
       "text": "What to do next?"
     },
     {
-      "type": "paragraph",
+      "type": "nextSteps",
       "p1": "All you need to do it click the green button that says \"GET 70% OFF Nebroo\".",
       "p2": "You'll come to an order page where you can learn more about our hearing aid.",
       "p3": "And then you can place your order and tell us where to ship your Nebroo.",
@@ -323,7 +323,7 @@
       "text": "Remember why this matters"
     },
     {
-      "type": "paragraph",
+      "type": "whyItMatters",
       "p1": "Fixing your hearing loss is much more important than just helping you hear",
       "p2": "1) It improves your relationships",
       "p3": "2) It stops you becoming isolated",
