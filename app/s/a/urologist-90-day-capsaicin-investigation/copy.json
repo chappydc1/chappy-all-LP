@@ -36,8 +36,10 @@
       "className": "w-full"
     },
     {
-      "type": "paragraph",
-      "html": "If you've tried Viagra, Cialis, vacuum pumps, or \"stamina supplements\" without seeing lasting results, then chances are your blood vessels are damaged—which is something most doctors overlook.<br/><br/>What if you could naturally restore erections by repairing your blood vessels, and see real results without depending on pills or timing your intimacy?<br/><br/>That's exactly what Lora Capsaicin Power Softgels offer—a natural solution to fix the circulation problem causing your ED and restore reliable function."
+      "type": "painAgitation",
+      "p1": "If you've tried Viagra, Cialis, vacuum pumps, or \"stamina supplements\" without seeing lasting results, then chances are your blood vessels are damaged—which is something most doctors overlook.",
+      "p2": "What if you could naturally restore erections by repairing your blood vessels, and see real results without depending on pills or timing your intimacy?",
+      "p3": "That's exactly what Lora Capsaicin Power Softgels offer—a natural solution to fix the circulation problem causing your ED and restore reliable function."
     },
     {
       "type": "heading",
@@ -49,8 +51,17 @@
       "className": "w-full"
     },
     {
-      "type": "paragraph",
-      "html": "My inbox has been flooded with the same question:<br/><br/>\"Does cayenne pepper actually fix erectile dysfunction, or is it just another natural remedy scam?\"<br/><br/>I've been a practicing urologist for 22 years. I've prescribed every ED medication on the market—Viagra, Cialis, Levitra, you name it.<br/><br/>When a cayenne pepper supplement claiming to replace prescription ED pills started gaining traction, I was deeply skeptical. The claims seemed impossible:<br/><br/>- Fixes circulation permanently (vs masking symptoms)<br/>- Works within 2-4 weeks of daily use<br/>- Zero prescription required<br/>- 90% of men report harder, more reliable erections<br/>- No side effects, no headaches, no dependency<br/><br/>But thousands of men—including some of my own patients—were asking about it. So I investigated."
+      "type": "credibilityHook",
+      "p1": "My inbox has been flooded with the same question:",
+      "p2": "\"Does cayenne pepper actually fix erectile dysfunction, or is it just another natural remedy scam?\"",
+      "p3": "I've been a practicing urologist for 22 years. I've prescribed every ED medication on the market—Viagra, Cialis, Levitra, you name it.",
+      "p4": "When a cayenne pepper supplement claiming to replace prescription ED pills started gaining traction, I was deeply skeptical. The claims seemed impossible:",
+      "p5": "- Fixes circulation permanently (vs masking symptoms)",
+      "p6": "- Works within 2-4 weeks of daily use",
+      "p7": "- Zero prescription required",
+      "p8": "- 90% of men report harder, more reliable erections",
+      "p9": "- No side effects, no headaches, no dependency",
+      "p10": "But thousands of men—including some of my own patients—were asking about it. So I investigated."
     },
     {
       "type": "heading",
@@ -61,8 +72,14 @@
       "mediaKey": "v2"
     },
     {
-      "type": "paragraph",
-      "html": "I wasn't going to trust supplement industry marketing. I needed real data.<br/><br/>What I did:<br/><br/>- Analyzed the clinical research on capsaicin and vascular health<br/>- Reviewed 8 peer-reviewed studies on cayenne's effect on circulation<br/>- Interviewed 52 men who switched from Viagra to Lora Capsaicin Power<br/>- Monitored 18 of my own patients during their transition<br/>- Tested the formula myself (yes, I tried it personally)"
+      "type": "methodologyReveal",
+      "p1": "I wasn't going to trust supplement industry marketing. I needed real data.",
+      "p2": "What I did:",
+      "p3": "- Analyzed the clinical research on capsaicin and vascular health",
+      "p4": "- Reviewed 8 peer-reviewed studies on cayenne's effect on circulation",
+      "p5": "- Interviewed 52 men who switched from Viagra to Lora Capsaicin Power",
+      "p6": "- Monitored 18 of my own patients during their transition",
+      "p7": "- Tested the formula myself (yes, I tried it personally)"
     },
     {
       "type": "heading",
@@ -74,12 +91,27 @@
       "className": "w-full"
     },
     {
-      "type": "paragraph",
-      "html": "<b>The Circulation Mechanism Is Legitimate</b><br/><br/>Here's what shocked me:<br/><br/>Capsaicin—the active compound in cayenne pepper—triggers nitric oxide production through the exact same pathway as Viagra using TRPV1 Receptors.<br/><br/>But there's a critical difference:<br/><br/><b>Viagra forces blood vessels open temporarily.</b><br/><br/>You take it, it works for 4-6 hours, then wears off. Your circulation gets no better. In fact, many studies suggest it may worsen over time because you're not addressing the root cause.<br/><br/><b>Capsaicin actually repairs endothelial function.</b><br/><br/>The endothelium is the inner lining of your blood vessels. When it's damaged (from age, diet, inflammation), blood flow to your penis deteriorates. Capsaicin restores this tissue, improving circulation permanently."
+      "type": "uniqueMechanism",
+      "p1": "The Circulation Mechanism Is Legitimate",
+      "p2": "Here's what shocked me:",
+      "p3": "Capsaicin—the active compound in cayenne pepper—triggers nitric oxide production through the exact same pathway as Viagra using TRPV1 Receptors.",
+      "p4": "But there's a critical difference:",
+      "p5": "Viagra forces blood vessels open temporarily.",
+      "p6": "You take it, it works for 4-6 hours, then wears off. Your circulation gets no better. In fact, many studies suggest it may worsen over time because you're not addressing the root cause.",
+      "p7": "Capsaicin actually repairs endothelial function.",
+      "p8": "The endothelium is the inner lining of your blood vessels. When it's damaged (from age, diet, inflammation), blood flow to your penis deteriorates. Capsaicin restores this tissue, improving circulation permanently."
     },
     {
-      "type": "paragraph",
-      "html": "<b>The Clinical Data Was Real</b><br/><br/>I verified the numbers independently:<br/><br/>- 89.7% reported significant improvement in erection quality within 30 days<br/>- Average time to noticeable results: 12-18 days<br/>- Zero serious adverse events across 1,200+ users<br/>- 94.3% satisfaction rate vs 71% for prescription pills<br/><br/>The difference?<br/><br/>Lora Capsaicin Power Power isn't masking the problem.<br/><br/>It's healing it."
+      "type": "clinicalProof",
+      "p1": "The Clinical Data Was Real",
+      "p2": "I verified the numbers independently:",
+      "p3": "- 89.7% reported significant improvement in erection quality within 30 days",
+      "p4": "- Average time to noticeable results: 12-18 days",
+      "p5": "- Zero serious adverse events across 1,200+ users",
+      "p6": "- 94.3% satisfaction rate vs 71% for prescription pills",
+      "p7": "The difference?",
+      "p8": "Lora Capsaicin Power Power isn't masking the problem.",
+      "p9": "It's healing it."
     },
     {
       "type": "heading",
@@ -95,8 +127,19 @@
       "text": "Why Your Doctor Hasn't Told You About This"
     },
     {
-      "type": "paragraph",
-      "html": "Here's the uncomfortable truth I have to share as a physician:<br/><br/>Lora Capsaicin Power Softgels aren't a prescription drug.<br/><br/>That means:<br/><br/>- No pharmaceutical company profits from it<br/>- No drug reps educating doctors about it<br/>- No insurance billing codes<br/>- No medical school curriculum mentioning it<br/>- No incentive for doctors to recommend it<br/><br/>I surveyed 15 urologists in my network.<br/><br/>Only 1 had heard of using cayenne for ED.<br/><br/>None recommended it—not because it doesn't work, but because they don't know it exists.<br/><br/>The medical system is designed to push prescription medications. Everything else is invisible."
+      "type": "objectionPreempt",
+      "p1": "Here's the uncomfortable truth I have to share as a physician:",
+      "p2": "Lora Capsaicin Power Softgels aren't a prescription drug.",
+      "p3": "That means:",
+      "p4": "- No pharmaceutical company profits from it",
+      "p5": "- No drug reps educating doctors about it",
+      "p6": "- No insurance billing codes",
+      "p7": "- No medical school curriculum mentioning it",
+      "p8": "- No incentive for doctors to recommend it",
+      "p9": "I surveyed 15 urologists in my network.",
+      "p10": "Only 1 had heard of using cayenne for ED.",
+      "p11": "None recommended it—not because it doesn't work, but because they don't know it exists.",
+      "p12": "The medical system is designed to push prescription medications. Everything else is invisible."
     },
     {
       "type": "heading",
@@ -108,8 +151,21 @@
       "className": "w-full"
     },
     {
-      "type": "paragraph",
-      "html": "<b>The Dependency Problem</b><br/><br/>You'll need pills forever. Your circulation never improves. In fact, some research suggests it may deteriorate faster because the underlying endothelial damage progresses unchecked.<br/><br/><b>The Cost Problem</b><br/><br/>Brand Viagra: $60-140 per pill<br/>Generic Sildenafil: $2-8 per pill<br/><br/>Most men use 8-12 pills per month = $200-400/month for life.<br/><br/><b>The Side Effect Problem</b><br/><br/>68% of Viagra users experience headaches, flushing, vision changes, or indigestion. Many stop using it entirely because the side effects outweigh the benefits.<br/><br/><b>The Heart Risk Problem</b><br/><br/>New research shows men with high blood pressure who take Viagra have significantly elevated cardiovascular mortality risk. Your ED pills might be silently damaging your heart.<br/><br/><b>The Tolerance Problem</b><br/><br/>Many men report needing higher doses over time. First 25mg works. Then 50mg. Then 100mg. Then... nothing.<br/><br/>One patient told me:<br/><br/>\"I knew I was in trouble when 100mg stopped working. My doctor wanted to try injections next. That's when I started looking for alternatives.\""
+      "type": "competitorProblems",
+      "p1": "The Dependency Problem",
+      "p2": "You'll need pills forever. Your circulation never improves. In fact, some research suggests it may deteriorate faster because the underlying endothelial damage progresses unchecked.",
+      "p3": "The Cost Problem",
+      "p4": "Brand Viagra: $60-140 per pill",
+      "p5": "Generic Sildenafil: $2-8 per pill",
+      "p6": "Most men use 8-12 pills per month = $200-400/month for life.",
+      "p7": "The Side Effect Problem",
+      "p8": "68% of Viagra users experience headaches, flushing, vision changes, or indigestion. Many stop using it entirely because the side effects outweigh the benefits.",
+      "p9": "The Heart Risk Problem",
+      "p10": "New research shows men with high blood pressure who take Viagra have significantly elevated cardiovascular mortality risk. Your ED pills might be silently damaging your heart.",
+      "p11": "The Tolerance Problem",
+      "p12": "Many men report needing higher doses over time. First 25mg works. Then 50mg. Then 100mg. Then... nothing.",
+      "p13": "One patient told me:",
+      "p14": "\"I knew I was in trouble when 100mg stopped working. My doctor wanted to try injections next. That's when I started looking for alternatives.\""
     },
     {
       "type": "heading",
@@ -121,16 +177,29 @@
       "className": "w-full"
     },
     {
-      "type": "paragraph",
-      "html": "After 90 days of investigation:<br/><br/>Yes. Lora Capsaicin Power Softgels work. And for most men over 50, they work better than prescription pills.<br/><br/>Not faster—Viagra wins on speed.<br/><br/>But permanent healing vs temporary masking?<br/><br/>Lora wins decisively.<br/><br/>- Lower cost.<br/>- No side effects.<br/>- No dependency.<br/>- Actual cardiovascular health improvement."
+      "type": "verdictReveal",
+      "p1": "After 90 days of investigation:",
+      "p2": "Yes. Lora Capsaicin Power Softgels work. And for most men over 50, they work better than prescription pills.",
+      "p3": "Not faster—Viagra wins on speed.",
+      "p4": "But permanent healing vs temporary masking?",
+      "p5": "Lora wins decisively.",
+      "p6": "- Lower cost.",
+      "p7": "- No side effects.",
+      "p8": "- No dependency.",
+      "p9": "- Actual cardiovascular health improvement."
     },
     {
       "type": "heading",
       "text": "Who Should Try It?"
     },
     {
-      "type": "paragraph",
-      "html": "✅ Men tired of pill dependency<br/><br/>✅ Men experiencing Viagra side effects<br/><br/>✅ Men whose circulation is deteriorating<br/><br/>✅ Men worried about heart health<br/><br/>✅ Men spending $100-300/month on prescriptions<br/><br/>✅ Men who want permanent improvement, not temporary fixes"
+      "type": "idealCustomer",
+      "p1": "✅ Men tired of pill dependency",
+      "p2": "✅ Men experiencing Viagra side effects",
+      "p3": "✅ Men whose circulation is deteriorating",
+      "p4": "✅ Men worried about heart health",
+      "p5": "✅ Men spending $100-300/month on prescriptions",
+      "p6": "✅ Men who want permanent improvement, not temporary fixes"
     },
     {
       "type": "image",
@@ -142,8 +211,10 @@
       "text": "My Recommendation"
     },
     {
-      "type": "paragraph",
-      "html": "If you're experiencing ED, declining erection quality, or dependency on pills that are getting less effective—click the button below to try Lora Capsaicin Power Pepper Softgels.<br/><br/>120-day guarantee = zero risk.<br/><br/>Based on my research and clinical observation, there's an 89% chance it will work better long-term than what you're currently using."
+      "type": "callToAction",
+      "p1": "If you're experiencing ED, declining erection quality, or dependency on pills that are getting less effective—click the button below to try Lora Capsaicin Power Pepper Softgels.",
+      "p2": "120-day guarantee = zero risk.",
+      "p3": "Based on my research and clinical observation, there's an 89% chance it will work better long-term than what you're currently using."
     },
     {
       "type": "heading",
@@ -155,8 +226,8 @@
       "containerClass": "py-3"
     },
     {
-      "type": "paragraph",
-      "html": "Most of my patients see results within the first 12 weeks of trying these cayenne softgels, however Doug reported results rather earlier, at around 4 weeks in."
+      "type": "testimonialContext",
+      "p1": "Most of my patients see results within the first 12 weeks of trying these cayenne softgels, however Doug reported results rather earlier, at around 4 weeks in."
     },
     {
       "type": "reviews"
@@ -169,8 +240,9 @@
       "text": "Order Now And Save Up To 70%"
     },
     {
-      "type": "paragraph",
-      "html": "First-time customers only!<br/><br/>⚠️ Only 220 Packs at 70% Off — Price increases when sold out"
+      "type": "offerReveal",
+      "p1": "First-time customers only!",
+      "p2": "⚠️ Only 220 Packs at 70% Off — Price increases when sold out"
     },
     {
       "type": "cta"

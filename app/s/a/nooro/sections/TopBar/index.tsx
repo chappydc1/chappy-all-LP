@@ -10,9 +10,8 @@ type CommentEntry = {
   replies?: CommentEntry[];
 };
 
-type ArticleSectionEntry =
+type StructuralSectionEntry =
   | { type: "heading"; text: string }
-  | { type: "paragraph"; html: string }
   | { type: "list"; items: string[] }
   | { type: "image"; imageKey: string; alt: string }
   | { type: "video" }
@@ -30,6 +29,32 @@ type ArticleSectionEntry =
     }
   | { type: "asSeenOn"; label: string }
   | { type: "iconGrid" };
+
+// Any other section is a block of prose (p1, p2, p3, ...), named after the
+// direct-response beat it plays (e.g. "rootCauseReveal") instead of a
+// generic "paragraph" label, so the copy is easier to navigate and edit.
+type ProseSectionEntry = { type: string } & Record<string, string>;
+
+type ArticleSectionEntry = StructuralSectionEntry | ProseSectionEntry;
+
+const STRUCTURAL_SECTION_TYPES = new Set<StructuralSectionEntry["type"]>([
+  "heading",
+  "list",
+  "image",
+  "video",
+  "cta",
+  "trustpilot",
+  "testimonial",
+  "asSeenOn",
+  "iconGrid",
+]);
+
+// A prose section's `type` is a plain string, so equality checks alone can't
+// rule it out when narrowing — this guard fully separates the two branches
+// so the structural members keep their literal (non-string) field types.
+function isStructuralSection(section: ArticleSectionEntry): section is StructuralSectionEntry {
+  return (STRUCTURAL_SECTION_TYPES as Set<string>).has(section.type);
+}
 
 export type NooroAdvertorialContent = {
   ctaUrl: string;
@@ -431,89 +456,100 @@ function MainArticle({
       </ul>
 
       {article.sections.map((section, i) => {
-        if (section.type === "heading") {
-          return (
-            <div
-              key={i}
-              className="text-zinc-800 text-[26px] font-extrabold leading-8 text-left mt-[30px] px-px py-[5px] font-montserrat md:text-[33px] md:leading-[46.2px]"
-            >
-              {section.text}
-            </div>
-          );
-        }
-        if (section.type === "paragraph") {
-          return (
-            <div
-              key={i}
-              className="text-zinc-800 text-[17px] leading-[25.5px] text-left mt-[15px] px-px py-2.5 font-open_sans"
-              dangerouslySetInnerHTML={{ __html: section.html }}
-            />
-          );
-        }
-        if (section.type === "list") {
-          return (
-            <ul key={i} className="text-zinc-800 text-[17px] bg-[rgb(226,244,249)] leading-[25.5px] list-none text-left mb-2.5 px-[15px] py-0.5 font-open_sans">
-              {section.items.map((item) => (
-                <li key={item} className="p-[5px]">
-                  <div className="items-baseline flex p-[5px]">
-                    <span className="text-green-700 mr-2.5">✓</span>
-                    {item}
-                  </div>
-                </li>
-              ))}
-            </ul>
-          );
-        }
-        if (section.type === "image") {
-          return (
-            <img
-              key={i}
-              src={media.article.images[section.imageKey]}
-              alt={section.alt}
-              className="max-w-full mt-[15px] rounded-[10px] inline"
-            />
-          );
-        }
-        if (section.type === "video") {
-          return (
-            <div key={i} className="relative w-full overflow-hidden mt-[15px]" style={{ paddingTop: "56.25%" }}>
-              <video
-                loop
-                autoPlay
-                playsInline
-                muted
-                src={media.article.secondVideoSrc}
-                className="absolute h-full max-w-full w-full rounded-[10px] left-0 inset-y-0 object-cover"
+        if (isStructuralSection(section)) {
+          if (section.type === "heading") {
+            return (
+              <div
+                key={i}
+                className="text-zinc-800 text-[26px] font-extrabold leading-8 text-left mt-[30px] px-px py-[5px] font-montserrat md:text-[33px] md:leading-[46.2px]"
+              >
+                {section.text}
+              </div>
+            );
+          }
+          if (section.type === "list") {
+            return (
+              <ul key={i} className="text-zinc-800 text-[17px] bg-[rgb(226,244,249)] leading-[25.5px] list-none text-left mb-2.5 px-[15px] py-0.5 font-open_sans">
+                {section.items.map((item) => (
+                  <li key={item} className="p-[5px]">
+                    <div className="items-baseline flex p-[5px]">
+                      <span className="text-green-700 mr-2.5">✓</span>
+                      {item}
+                    </div>
+                  </li>
+                ))}
+              </ul>
+            );
+          }
+          if (section.type === "image") {
+            return (
+              <img
+                key={i}
+                src={media.article.images[section.imageKey]}
+                alt={section.alt}
+                className="max-w-full mt-[15px] rounded-[10px] inline"
               />
-            </div>
-          );
+            );
+          }
+          if (section.type === "video") {
+            return (
+              <div key={i} className="relative w-full overflow-hidden mt-[15px]" style={{ paddingTop: "56.25%" }}>
+                <video
+                  loop
+                  autoPlay
+                  playsInline
+                  muted
+                  src={media.article.secondVideoSrc}
+                  className="absolute h-full max-w-full w-full rounded-[10px] left-0 inset-y-0 object-cover"
+                />
+              </div>
+            );
+          }
+          if (section.type === "cta") {
+            return (
+              <div key={i} className="mt-[15px]">
+                <CtaButton ctaUrl={content.ctaUrl} line1={section.line1} line2={section.line2} />
+              </div>
+            );
+          }
+          if (section.type === "trustpilot") {
+            return <TrustpilotBadge key={i} trustpilot={section} bannerSrc={media.article.trustpilotBannerImageSrc} />;
+          }
+          if (section.type === "testimonial") {
+            return (
+              <TestimonialCard key={i} testimonial={section} media={media.article.testimonials[section.mediaKey]} />
+            );
+          }
+          if (section.type === "asSeenOn") {
+            return <AsSeenOnBar key={i} label={section.label} imageSrc={media.article.asSeenOnImageSrc} />;
+          }
+          if (section.type === "iconGrid") {
+            return (
+              <div key={i} className="mt-[15px]">
+                <GuaranteeIconsGrid guarantees={content.article.guarantees} media={media.article} />
+              </div>
+            );
+          }
         }
-        if (section.type === "cta") {
-          return (
-            <div key={i} className="mt-[15px]">
-              <CtaButton ctaUrl={content.ctaUrl} line1={section.line1} line2={section.line2} />
-            </div>
-          );
-        }
-        if (section.type === "trustpilot") {
-          return <TrustpilotBadge key={i} trustpilot={section} bannerSrc={media.article.trustpilotBannerImageSrc} />;
-        }
-        if (section.type === "testimonial") {
-          return (
-            <TestimonialCard key={i} testimonial={section} media={media.article.testimonials[section.mediaKey]} />
-          );
-        }
-        if (section.type === "asSeenOn") {
-          return <AsSeenOnBar key={i} label={section.label} imageSrc={media.article.asSeenOnImageSrc} />;
-        }
-        if (section.type === "iconGrid") {
-          return (
-            <div key={i} className="mt-[15px]">
-              <GuaranteeIconsGrid guarantees={content.article.guarantees} media={media.article} />
-            </div>
-          );
-        }
-        return null;
+
+        // Named prose section (p1, p2, p3, ...) — anything that isn't one of
+        // the structural types above.
+        const lines = Object.entries(section)
+          .filter(([key]) => /^p\d+$/.test(key))
+          .sort(([a], [b]) => Number(a.slice(1)) - Number(b.slice(1)))
+          .map(([, value]) => value);
+        return (
+          <div key={i} className="mt-[15px] px-px py-2.5">
+            {lines.map((paragraph, pIdx) => (
+              <p
+                key={pIdx}
+                className="text-zinc-800 text-[17px] leading-[25.5px] text-left font-open_sans first:mt-0 mt-[15px]"
+              >
+                {paragraph}
+              </p>
+            ))}
+          </div>
+        );
       })}
 
       <CheckoutOfferSection content={content} media={media} />

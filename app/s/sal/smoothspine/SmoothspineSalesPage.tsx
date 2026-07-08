@@ -156,7 +156,7 @@ export function SmoothspineSalesPage({ adv, media }: { adv: Adv; media: Media })
 
       {/* ANNOUNCEMENT BAR */}
       <div className="bg-blue-700 text-white text-center py-2 px-4 text-sm font-poppins font-semibold flex flex-wrap items-center justify-center gap-3">
-        <span dangerouslySetInnerHTML={{ __html: adv.announcementBar.text }} />
+        <span>{adv.announcementBar.text}</span>
         <Countdown />
       </div>
 
@@ -203,7 +203,7 @@ export function SmoothspineSalesPage({ adv, media }: { adv: Adv; media: Media })
             {adv.hero.bullets.map((b, i) => (
               <div key={i} className="flex items-start gap-2 mb-2">
                 <img src={media.checkIcon} alt="✓" className="w-5 mt-0.5 flex-shrink-0" />
-                <span className="text-[15px] font-semibold font-poppins" dangerouslySetInnerHTML={{ __html: b }} />
+                <span className="text-[15px] font-semibold font-poppins">{b}</span>
               </div>
             ))}
             <div className="mt-5">
@@ -289,7 +289,7 @@ export function SmoothspineSalesPage({ adv, media }: { adv: Adv; media: Media })
                   <p key={i}><strong><u>{ph.time}</u> {ph.label}</strong> {ph.desc}</p>
                 ))}
               </div>
-              <p className="text-[15px] font-poppins text-black mt-4 leading-relaxed" dangerouslySetInnerHTML={{ __html: adv.spineSection.row2.outro }} />
+              <p className="text-[15px] font-poppins text-black mt-4 leading-relaxed">{adv.spineSection.row2.outro}</p>
             </div>
           </div>
 
@@ -404,7 +404,7 @@ export function SmoothspineSalesPage({ adv, media }: { adv: Adv; media: Media })
             </div>
             <div className="flex-1">
               <h3 className="text-xl md:text-2xl font-bold font-poppins mb-1">{adv.offer.productName}</h3>
-              <p className="text-[15px] font-poppins mb-4" dangerouslySetInnerHTML={{ __html: adv.offer.subtitle }} />
+              <p className="text-[15px] font-poppins mb-4">{adv.offer.subtitle}</p>
               <p className="font-bold text-[15px] font-poppins mb-3"><u>{adv.offer.listHeading}</u></p>
               <ul className="space-y-2">
                 {adv.offer.items.map((item, i) => (
@@ -436,7 +436,7 @@ export function SmoothspineSalesPage({ adv, media }: { adv: Adv; media: Media })
           <div className="flex flex-col md:flex-row gap-6 items-center">
             <img src={media.moneyBackImage} alt="Money back guarantee" className="w-[200px] flex-shrink-0 mx-auto md:mx-0" />
             <div className="text-[15px] font-poppins leading-relaxed text-neutral-700">
-              <p className="mb-3" dangerouslySetInnerHTML={{ __html: adv.guarantee.body }} />
+              <p className="mb-3">{adv.guarantee.body}</p>
               <p>{adv.guarantee.supportNote}</p>
             </div>
           </div>

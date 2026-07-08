@@ -41,15 +41,6 @@ function useScrollReveal<T extends HTMLElement = HTMLDivElement>() {
   return ref
 }
 
-function HtmlParagraph({ html, className }: { html: string; className?: string }): React.JSX.Element {
-  return (
-    <p
-      className={className ?? "text-[26px] leading-[39px]"}
-      dangerouslySetInnerHTML={{ __html: html }}
-    />
-  )
-}
-
 function HeaderSection(): React.JSX.Element {
   const { content, media } = useAdvertorialData()
   const ref = useScrollReveal()
@@ -116,7 +107,7 @@ function ArticleIntroSection(): React.JSX.Element {
       </div>
       {content.articleIntro.paragraphs.map((p, i) => (
         <div key={i} className={`reveal reveal-delay-${Math.min(i + 2, 5)} mb-[30px]`}>
-          <HtmlParagraph html={p} />
+          <p className="text-[26px] leading-[39px]">{p}</p>
         </div>
       ))}
     </div>
@@ -160,7 +151,7 @@ function ArticleSection(): React.JSX.Element {
       </div>
       {content.articleSection.paragraphs.map((p, i) => (
         <div key={i} className={`reveal reveal-delay-${Math.min(i + 1, 5)} mb-[30px]${i === content.articleSection.paragraphs.length - 1 ? " md:mb-10" : ""}`}>
-          <HtmlParagraph html={p} />
+          <p className="text-[26px] leading-[39px]">{p}</p>
         </div>
       ))}
     </div>
@@ -207,7 +198,7 @@ function FeaturesListSection(): React.JSX.Element {
       </div>
       {featuresList.paragraphs.map((p, i) => (
         <div key={i} className={`reveal reveal-delay-${Math.min(i + 1, 5)} mb-[30px]${i === featuresList.paragraphs.length - 1 ? " md:mb-10" : ""}`}>
-          <HtmlParagraph html={p} />
+          <p className="text-[26px] leading-[39px]">{p}</p>
         </div>
       ))}
       <div className="reveal mb-[30px]">
@@ -254,7 +245,7 @@ function StateSelectorSection(): React.JSX.Element {
         </div>
         {stateSelector.paragraphs.map((p, i) => (
           <div key={i} className={`reveal reveal-delay-${Math.min(i + 1, 4)} mb-[30px]${i === stateSelector.paragraphs.length - 1 ? " md:mb-10" : ""}`}>
-            <HtmlParagraph html={p} />
+            <p className="text-[26px] leading-[39px]">{p}</p>
           </div>
         ))}
 

@@ -82,7 +82,7 @@ export const AmalaProductHero = ({ content }: AmalaProductHeroProps) => {
 
           <div className="text-black text-[16.0583px] leading-[24.0875px] mt-5 md:text-base md:leading-6 space-y-4">
             {content.descriptionParagraphs.map((paragraph, index) => (
-              <p key={`hero-description-${index}`} dangerouslySetInnerHTML={{ __html: paragraph }} />
+              <p key={`hero-description-${index}`}>{paragraph}</p>
             ))}
           </div>
 

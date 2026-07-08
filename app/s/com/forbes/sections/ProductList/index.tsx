@@ -91,7 +91,7 @@ export const ForbesProductList = ({
           <div className="mt-6" style={{ fontFamily: "var(--font-family-serif)" }}>
             <h3 className={h3Style}>{articles.glp1Accessible.heading}</h3>
             {articles.glp1Accessible.body.map((para, i) => (
-              <p key={i} className={`${articleProse} my-4`} dangerouslySetInnerHTML={{ __html: para }} />
+              <p key={i} className={`${articleProse} my-4`}>{para}</p>
             ))}
 
             <h3 className={`${h3Style} mt-[38px]`}>{articles.evaluation.heading}</h3>
@@ -107,11 +107,11 @@ export const ForbesProductList = ({
             <p className={`${articleProse} my-4`}>{articles.evaluation.closing}</p>
             <p className={`${articleProse} my-4`}>
               <a href={medviUrl} className="text-[var(--color-primary-700)] hover:underline transition-colors" target="_blank" rel="noopener noreferrer">MEDVi</a>{" "}
-              <span dangerouslySetInnerHTML={{ __html: articles.evaluation.medviNote }} />
+              <span>{articles.evaluation.medviNote}</span>
             </p>
             <p className={`${articleProse} mt-4`}>
               <a href={remedyUrl} className="text-[var(--color-primary-700)] hover:underline transition-colors" target="_blank" rel="noopener noreferrer">Remedy Meds</a>{" "}
-              <span dangerouslySetInnerHTML={{ __html: articles.evaluation.remedyNote }} />
+              <span>{articles.evaluation.remedyNote}</span>
             </p>
           </div>
 

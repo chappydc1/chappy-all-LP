@@ -150,10 +150,7 @@ const HtmlParagraphs = ({
     >
       <div className="space-y-4">
         {renderedParagraphs.map((paragraph, index) => (
-          <p
-            key={`${index}-${paragraph.slice(0, 24)}`}
-            dangerouslySetInnerHTML={{ __html: paragraph }}
-          />
+          <p key={`${index}-${paragraph.slice(0, 24)}`}>{paragraph}</p>
         ))}
       </div>
     </div>

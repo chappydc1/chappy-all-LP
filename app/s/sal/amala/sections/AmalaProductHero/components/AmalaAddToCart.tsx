@@ -35,10 +35,7 @@ function AmalaAccordionItem({ title, paragraphs }: AmalaAccordionItemProps) {
             <div className="text-black text-base box-border caret-transparent leading-6 min-h-[auto] min-w-[auto] outline-[3px] text-left w-full">
               <div className="box-border caret-transparent outline-[3px] w-full space-y-4">
                 {paragraphs.map((paragraph, index) => (
-                  <p
-                    key={`${title}-${index}`}
-                    dangerouslySetInnerHTML={{ __html: paragraph }}
-                  />
+                  <p key={`${title}-${index}`}>{paragraph}</p>
                 ))}
               </div>
             </div>
@@ -117,10 +114,9 @@ export const AmalaAddToCart = ({ content }: AmalaAddToCartProps) => {
                 <p className="text-black text-[14.0583px] box-border caret-transparent leading-[21.0875px] outline-[3px] md:text-base md:leading-6">
                   <strong className="font-bold">{content.guarantee.title}</strong>
                 </p>
-                <p
-                  className="text-black text-[14.0583px] box-border caret-transparent leading-[21.0875px] outline-[3px] mt-[5px] md:text-base md:leading-6"
-                  dangerouslySetInnerHTML={{ __html: content.guarantee.description }}
-                />
+                <p className="text-black text-[14.0583px] box-border caret-transparent leading-[21.0875px] outline-[3px] mt-[5px] md:text-base md:leading-6">
+                  {content.guarantee.description}
+                </p>
               </div>
             </div>
 
