@@ -1,21 +1,53 @@
+import type { ReactNode } from "react";
 import copy from "./copy.json";
 import media from "./media.json";
 
+type Source = { href: string; text: string };
+
 type BodySection =
-  | { type: "p" | "h2" | "h3"; html?: string; text?: string }
+  | { type: "p" | "h2" | "h3"; text?: string }
   | { type: "figure"; mediaKey: keyof typeof media }
   | { type: "list"; items: string[] };
 
-function RichText({ html }: { html: string }) {
+// Body text embeds citation markers like "[3]" instead of raw HTML links, so
+// they render as real superscript links to `article.sources[N - 1]` without
+// needing dangerouslySetInnerHTML.
+const CITATION_MARKER = /\[(\d+)\]/g;
+
+function TextWithCitations({ text, sources }: { text: string; sources: Source[] }) {
+  const parts: ReactNode[] = [];
+  let lastIndex = 0;
+  for (const match of text.matchAll(CITATION_MARKER)) {
+    const [full, num] = match;
+    const index = match.index ?? 0;
+    if (index > lastIndex) parts.push(text.slice(lastIndex, index));
+    const source = sources[Number(num) - 1];
+    parts.push(
+      source ? (
+        <sup key={index}>
+          <a href={source.href} className="text-cyan-600">
+            {num}
+          </a>
+        </sup>
+      ) : (
+        full
+      )
+    );
+    lastIndex = index + full.length;
+  }
+  parts.push(text.slice(lastIndex));
+  return <>{parts}</>;
+}
+
+function RichText({ text, sources }: { text: string; sources: Source[] }) {
   return (
-    <p
-      className="text-black text-lg box-border leading-[30px] outline-[3px] mb-[30px]"
-      dangerouslySetInnerHTML={{ __html: html }}
-    />
+    <p className="text-black text-lg box-border leading-[30px] outline-[3px] mb-[30px]">
+      <TextWithCitations text={text} sources={sources} />
+    </p>
   );
 }
 
-function ArticleSection({ section }: { section: BodySection }) {
+function ArticleSection({ section, sources }: { section: BodySection; sources: Source[] }) {
   if (section.type === "h2") {
     return (
       <h2 className="text-black text-3xl font-bold outline-[3px] mt-[50px] mb-[30px]">
@@ -31,7 +63,7 @@ function ArticleSection({ section }: { section: BodySection }) {
     );
   }
   if (section.type === "p") {
-    return <RichText html={section.html ?? ""} />;
+    return <RichText text={section.text ?? ""} sources={sources} />;
   }
   if (section.type === "figure") {
     const img = media[section.mediaKey as keyof typeof media] as {
@@ -57,7 +89,9 @@ function ArticleSection({ section }: { section: BodySection }) {
             className="text-lg leading-[30px] outline-[3px] mb-5 flex items-start gap-2.5"
           >
             <span className="inline-block mt-3 w-[5px] h-[5px] rounded-full bg-cyan-600 shrink-0" />
-            <span dangerouslySetInnerHTML={{ __html: item }} />
+            <span>
+              <TextWithCitations text={item} sources={sources} />
+            </span>
           </li>
         ))}
       </ul>
@@ -200,7 +234,7 @@ export default function HealthinsiderGynocologistPage() {
 
                 {/* Article Body Sections */}
                 {(article.body as BodySection[]).map((section, i) => (
-                  <ArticleSection key={i} section={section} />
+                  <ArticleSection key={i} section={section} sources={article.sources} />
                 ))}
 
                 {/* Important Update Box */}
