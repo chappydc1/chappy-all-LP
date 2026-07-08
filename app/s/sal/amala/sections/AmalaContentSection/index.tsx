@@ -84,8 +84,9 @@ export const AmalaContentSection = (props: AmalaContentSectionProps) => {
             <p
               key={`intro-${index}`}
               className={`text-black text-[16.0583px] leading-[24.0875px] mt-6 md:text-lg md:leading-[27px] ${index > 0 ? (props.introParagraphsClassName || "") : ""}`}
-              dangerouslySetInnerHTML={{ __html: paragraph }}
-            />
+            >
+              {paragraph}
+            </p>
           ))}
 
           {(props.productParagraphBefore || props.highlightedProductName || props.productParagraphAfter) && (
@@ -145,8 +146,9 @@ export const AmalaContentSection = (props: AmalaContentSectionProps) => {
             <p
               key={`closing-${index}`}
               className={props.closingParagraphsClassName || "text-black text-[16.0583px] leading-[24.0875px] mt-6 md:text-lg md:leading-[27px]"}
-              dangerouslySetInnerHTML={{ __html: paragraph }}
-            />
+            >
+              {paragraph}
+            </p>
           ))}
         </div>
 
@@ -209,8 +211,9 @@ export const AmalaContentSection = (props: AmalaContentSectionProps) => {
               <p
                 key={`bottom-closing-${index}`}
                 className={props.closingParagraphsClassName || "text-black text-[16.0583px] leading-[24.0875px] mt-6 md:text-lg md:leading-[27px]"}
-                dangerouslySetInnerHTML={{ __html: paragraph }}
-              />
+              >
+                {paragraph}
+              </p>
             ))}
           </div>
         </div>
