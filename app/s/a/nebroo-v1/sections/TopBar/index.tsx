@@ -8,8 +8,7 @@ type VideoSource =
   | { format: "wistia"; id: string; layout?: "standard" | "alternate" }
   | { format: "mp4"; src: string };
 
-type BodySection =
-  | { type: "paragraph"; paragraphs: string[] }
+type StructuralBodySection =
   | { type: "heading"; text: string; extraClass?: string }
   | { type: "video"; mediaKey: string; containerClass?: string }
   | { type: "image"; mediaKey: string; className?: string }
@@ -17,6 +16,13 @@ type BodySection =
   | { type: "reviews" }
   | { type: "as-seen-on" }
   | { type: "disclaimer"; text: string };
+
+// Any other section is a block of prose (p1, p2, p3, ...), named after what
+// it covers in the advertorial (e.g. "howEarsWork") instead of a generic
+// "paragraph" label, so the copy is easier to navigate and edit.
+type ProseSection = { type: string } & Record<string, string>;
+
+type BodySection = StructuralBodySection | ProseSection;
 
 type Review = {
   avatarKey: string;
@@ -50,8 +56,7 @@ type FooterLink = { label: string; href: string };
 export type NebrooV1AdvContent = {
   ctaUrl: string;
   meta: { title: string };
-  topBanner: { trendingText: string };
-  alert: { label: string; text: string };
+  alert: { text: string };
   breadcrumb: string;
   headline: string;
   headlineBold: string;
@@ -281,7 +286,7 @@ function CommentItem({ comment }: { comment: Comment }): React.JSX.Element {
 // ─── TopBanner ────────────────────────────────────────────────────────────────
 
 function TopBanner(): React.JSX.Element {
-  const { content, media } = useAdvertorialData();
+  const { media } = useAdvertorialData();
   return (
     <div className="items-stretch bg-zinc-800 flex flex-wrap justify-start max-w-full px-2.5 py-px md:flex-nowrap md:py-2.5">
       <div className="relative flex basis-0 grow max-w-[1170px] min-h-[25px] w-full mx-auto px-px md:px-[15px]">
@@ -297,7 +302,7 @@ function TopBanner(): React.JSX.Element {
             className="max-w-full min-h-[auto] min-w-[auto] w-10 md:w-[50px]"
           />
           <div className="text-white text-[13px] font-bold leading-[13px] min-h-[auto] min-w-[auto] pl-2.5 pr-px py-2.5 font-montserrat md:text-base md:leading-4 md:pl-5">
-            {content.topBanner.trendingText}
+            Trending in the US
           </div>
         </div>
       </div>
@@ -312,7 +317,7 @@ function AlertBox(): React.JSX.Element {
   return (
     <div className="pt-8 pb-4">
       <div className="bg-[#fdfad9] border-[1.5px] border-[rgb(221,221,166)] text-zinc-800 text-[18px] leading-[27px] text-left p-4 font-montserrat md:text-[23px] md:leading-[34.5px]">
-        <b className="text-red-600">{content.alert.label}</b>{" "}
+        <b className="text-red-600">UPDATE:</b>{" "}
         {content.alert.text}
       </div>
     </div>
@@ -331,19 +336,6 @@ function RenderBodySection({
   const { content, media } = useAdvertorialData();
 
   switch (section.type) {
-    case "paragraph":
-      return (
-        <div key={idx} className="mt-[15px] px-px py-2.5">
-          {section.paragraphs.map((paragraph, pIdx) => (
-            <p
-              key={pIdx}
-              className="text-zinc-800 text-[17px] leading-[25.5px] text-left font-montserrat first:mt-0 mt-[15px]"
-              dangerouslySetInnerHTML={{ __html: paragraph }}
-            />
-          ))}
-        </div>
-      );
-
     case "heading":
       return (
         <div
@@ -427,8 +419,26 @@ function RenderBodySection({
         </div>
       );
 
-    default:
-      return <></>;
+    default: {
+      // Named prose section (p1, p2, p3, ...) — anything that isn't one of
+      // the structural types above.
+      const lines = Object.entries(section)
+        .filter(([key]) => /^p\d+$/.test(key))
+        .sort(([a], [b]) => Number(a.slice(1)) - Number(b.slice(1)))
+        .map(([, value]) => value);
+      return (
+        <div key={idx} className="mt-[15px] px-px py-2.5">
+          {lines.map((paragraph, pIdx) => (
+            <p
+              key={pIdx}
+              className="text-zinc-800 text-[17px] leading-[25.5px] text-left font-montserrat first:mt-0 mt-[15px]"
+            >
+              {paragraph}
+            </p>
+          ))}
+        </div>
+      );
+    }
   }
 }
 
