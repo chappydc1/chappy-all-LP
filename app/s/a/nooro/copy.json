@@ -39,39 +39,50 @@
       { "type": "image", "imageKey": "calvesRootCause", "alt": "Diagram showing calf muscles as the root cause of edema" },
       {
         "type": "paragraph",
-        "html": "<b>What if I told you that the edema and swelling in your feet and legs are actually caused by your <u>CALVES</u>?</b> It sounds counterintuitive, but it's true. See, calves play a crucial role in your blood circulation. So much so that we often refer to them as <b>\"The Second Heart\"</b>. Your actual heart sends blood all over your body, including your feet. But your calves are responsible for sending that blood back. When your calf muscles contract, they compress the blood vessels in your legs and push the blood from your feet back up toward your heart. That's why we like to call calves <b>\"the second heart\"</b> - because they single-handedly maintain normal blood circulation in your lower body."
+        "html": "<b>What if I told you that the edema and swelling in your feet and legs are actually caused by your <u>CALVES</u>?</b>"
       },
-      {
-        "type": "paragraph",
-        "html": "<b>Here's the bad news...</b> As you age and become less physically active, <b>your calves get weaker</b>. And when this happens, they can no longer send all the blood from your lower body back to your heart - so some of it stays stuck in your feet. This build-up of old, stale blood <b>can cause edema and swelling in your feet and ankles.</b> But it can also lead to more serious foot conditions if left untreated. That's also why popular remedies like compression socks, salt baths, and different pills can't solve the problem - they focus on feet instead of calves."
-      },
-      {
-        "type": "paragraph",
-        "html": "<b>So what's the solution?</b> You need to activate your calves so that they start pumping blood again… And remove the old, stale blood that's currently stuck in your feet."
-      },
-      {
-        "type": "paragraph",
-        "html": "<b>But how do you do that?</b> Most experts will tell you that you need to move or start exercising. But let's be honest… When your feet are all swollen and painful, moving around - let alone running or exercising - is the last thing you want to do. That's why most people never really solve this problem and are stuck bedridden with painful, oversized clown feet their entire lives."
-      },
-      { "type": "heading", "text": "Get Relief From Edema at Home in Just 15 Minutes Per Day (Without Lifting a Finger)" },
-      {
-        "type": "paragraph",
-        "html": "<b>Luckily, there's a better solution.</b> It's all possible thanks to something called <b>\"pneumatic compression therapy\"</b>. It's a special treatment that uses air pressure to enhance blood circulation. It works by enclosing the legs in specially designed sleeves or boots… And then rhythmically inflating and deflating to mimic the natural muscle contractions and <b>get your calves to start pumping blood again.</b> The only problem was that this technology wasn't available to an average Joe. It was very expensive and reserved for high-end hospitals."
-      },
-      {
-        "type": "paragraph",
-        "html": "So I partnered up with a U.S. biotech startup called Nooro. These guys are known for making some of the best pain relief devices that <b>have helped more than 300,000 men and women across America.</b> And together, we solved this problem once and for all."
-      },
-      { "type": "heading", "text": "Introducing Nooro 3-in-1 Leg Massager" },
+      { "type": "paragraph", "html": "It sounds counterintuitive, but it's true." },
+      { "type": "paragraph", "html": "See, calves play a crucial role in your blood circulation." },
+      { "type": "paragraph", "html": "So much so that we often refer to them as <b>\"The Second Heart\"</b>." },
+      { "type": "paragraph", "html": "Your actual heart sends blood all over your body, including your feet." },
+      { "type": "paragraph", "html": "But your calves are responsible for sending that blood back." },
+      { "type": "paragraph", "html": "When your calf muscles contract, they compress the blood vessels in your legs and push the blood from your feet back up toward your heart." },
+      { "type": "paragraph", "html": "That's why we like to call calves <b>\"the second heart\"</b> - because they single-handedly maintain normal blood circulation in your lower body." },
       { "type": "video" },
-      {
-        "type": "paragraph",
-        "html": "<b>Nooro 3-in-1 Leg Massager</b> is one of the first devices that use <b>\"pneumatic compression therapy\"</b> to stimulate your calves a.k.a. your \"second heart\" and <b>kickstart blood circulation</b> in your entire lower body. When you put it on, the device will start rhythmically inflating and deflating around your calves. This will mimic similar contractions that would happen if you were to go for a run or exercise in the gym. These contractions will get your blood vessels to start pumping blood from your lower body back to your heart. As a result, all that old stale blood that's now stuck in your feet will finally start moving again - and the swelling will slowly go away."
-      },
-      {
-        "type": "paragraph",
-        "html": "But don't take my word for it… At the moment of writing this, <b>thousands of people around the world are using Nooro 3-in-1 Leg Massager to relieve their swollen pain.</b> Our products have more than 4,000 5-star reviews on TrustPilot alone."
-      },
+      { "type": "paragraph", "html": "<b>Here's the bad news...</b>" },
+      { "type": "paragraph", "html": "As you age and become less physically active, <b>your calves get weaker</b>." },
+      { "type": "paragraph", "html": "And when this happens, they can no longer send all the blood from your lower body back to your heart - so some of it stays stuck in your feet." },
+      { "type": "paragraph", "html": "This build-up of old, stale blood <b>can cause edema and swelling in your feet and ankles.</b>" },
+      { "type": "paragraph", "html": "But it can also lead to more serious foot conditions if left untreated." },
+      { "type": "paragraph", "html": "That's also why popular remedies like compression socks, salt baths, and different pills can't solve the problem - they focus on feet instead of calves." },
+      { "type": "video", "srcKey": "thirdVideoSrc" },
+      { "type": "paragraph", "html": "<b>So what's the solution?</b>" },
+      { "type": "paragraph", "html": "<u>You need to activate your calves</u> so that they start pumping blood again…" },
+      { "type": "paragraph", "html": "And remove the old, stale blood that's currently stuck in your feet." },
+      { "type": "paragraph", "html": "<b>But how do you do that?</b>" },
+      { "type": "paragraph", "html": "Most experts will tell you that you need to move or start exercising." },
+      { "type": "paragraph", "html": "But let's be honest… When your feet are all swollen and painful, moving around - let alone running or exercising - is the last thing you want to do." },
+      { "type": "paragraph", "html": "That's why most people never really solve this problem and are stuck bedridden with painful, oversized clown feet their entire lives." },
+      { "type": "paragraph", "html": "<b>Luckily, there's a better solution.</b>" },
+      { "type": "heading", "text": "Get Relief From Edema at Home in Just 15 Minutes Per Day (Without Lifting a Finger)" },
+      { "type": "video", "srcKey": "fourthVideoSrc" },
+      { "type": "paragraph", "html": "It's all possible thanks to something called <b class=\"bg-yellow-400\">\"pneumatic compression therapy\"</b>." },
+      { "type": "paragraph", "html": "It's a special treatment that uses air pressure to enhance blood circulation." },
+      { "type": "paragraph", "html": "It works by enclosing the legs in specially designed sleeves or boots…" },
+      { "type": "paragraph", "html": "And then rhythmically inflating and deflating to mimic the natural muscle contractions and <b>get your calves to start pumping blood again.</b>" },
+      { "type": "paragraph", "html": "The only problem was that this technology wasn't available to an average Joe. It was very expensive and reserved for high-end hospitals." },
+      { "type": "paragraph", "html": "So I partnered up with a U.S. biotech startup called Nooro." },
+      { "type": "paragraph", "html": "These guys are known for making some of the best pain relief devices that <b>have helped more than 300,000 men and women across America.</b>" },
+      { "type": "paragraph", "html": "And together, we solved this problem once and for all." },
+      { "type": "heading", "text": "Introducing <span class=\"text-blue-700\">Nooro 3-in-1 Leg Massager</span>" },
+      { "type": "video", "srcKey": "fifthVideoSrc" },
+      { "type": "paragraph", "html": "<b>Nooro 3-in-1 Leg Massager</b> is one of the first devices that use <b class=\"text-blue-700\">\"pneumatic compression therapy\"</b> to stimulate your calves a.k.a. your \"second heart\" and <b>kickstart blood circulation</b> in your entire lower body." },
+      { "type": "paragraph", "html": "When you put it on, the device will start rhythmically inflating and deflating around your calves. This will mimic similar contractions that would happen if you were to go for a run or exercise in the gym." },
+      { "type": "paragraph", "html": "These contractions will get your blood vessels to start pumping blood from your lower body back to your heart." },
+      { "type": "paragraph", "html": "As a result, all that old stale blood that's now stuck in your feet will finally start moving again - and the swelling will slowly go away." },
+      { "type": "paragraph", "html": "But don't take my word for it…" },
+      { "type": "paragraph", "html": "At the moment of writing this, <b>thousands of people around the world are using <span class=\"text-blue-700\">Nooro 3-in-1 Leg Massager</span> to relieve their swollen pain.</b>" },
+      { "type": "paragraph", "html": "Our products have more than 4,000 5-star reviews on TrustPilot alone." },
       { "type": "trustpilot", "score": "3.6", "reviewCountLabel": "7,924 reviews", "url": "https://www.trustpilot.com/review/nooro-us.com" },
       {
         "type": "testimonial",
@@ -94,24 +105,25 @@
         "mediaKey": "william"
       },
       { "type": "asSeenOn", "label": "AS SEEN ON" },
-      { "type": "heading", "text": "This Device Has Helped Thousands of People Relieve Edema And Swelling In Their Legs And Feet" },
+      { "type": "heading", "text": "This Device <u>Has Helped Thousands of People</u> Relieve Edema And Swelling In Their Legs And Feet" },
       { "type": "image", "imageKey": "beforeAfter", "alt": "Before and after comparison of leg swelling" },
-      {
-        "type": "paragraph",
-        "html": "And I'm confident that <b>it's going to help you too</b>. <b>Just imagine…</b>"
-      },
+      { "type": "paragraph", "html": "And I'm confident that <b>it's going to help you too</b>." },
+      { "type": "paragraph", "html": "<b>Just imagine…</b>" },
       {
         "type": "list",
+        "variant": "negative",
         "items": [
           "No more struggling to find shoes that fit comfortably.",
           "No more shame because your feet look like two balloons.",
           "No more pain and discomfort that keeps you trapped in your own body."
         ]
       },
-      {
-        "type": "paragraph",
-        "html": "<b>That's all possible with the Nooro 3-in-1 Leg Massager.</b> And the best part? It only takes 15 minutes per day to notice a difference. All you need to do is wrap the <b>Nooro 3-in-1 Leg Massager</b> around your legs… Use the buttons on the side to select the mode and the intensity… And then just sit back and relax for 15 minutes while it does its magic. Now, I know you probably have two main questions…"
-      },
+      { "type": "paragraph", "html": "<b>That's all possible with the <span class=\"text-blue-700\">Nooro 3-in-1 Leg Massager</span>.</b>" },
+      { "type": "paragraph", "html": "And the best part?" },
+      { "type": "paragraph", "html": "It only takes 15 minutes per day to notice a difference." },
+      { "type": "paragraph", "html": "All you need to do is wrap the <b><span class=\"text-blue-700\">Nooro 3-in-1 Leg Massager</span></b> around your legs… Use the buttons on the side to select the mode and the intensity…" },
+      { "type": "paragraph", "html": "And then just sit back and relax for 15 minutes while it does its magic." },
+      { "type": "paragraph", "html": "Now, I know you probably have two main questions…" },
       { "type": "heading", "text": "How Can You Get Your Hands on the Nooro 3-in-1 Leg Massager? …And what's the price?" },
       {
         "type": "paragraph",
@@ -129,27 +141,42 @@
       { "type": "image", "imageKey": "sellOutWarning", "alt": "Limited stock warning for Nooro 3-in-1 Leg Massager" },
       {
         "type": "paragraph",
-        "html": "<b>And once that happens…</b> Once we do run out of stock… It could take us anywhere from a couple of weeks to a couple of months to get back in stock because these devices take quite a long time to build. So if you are serious about reducing pain and swelling in your feet and legs… <b>I recommend you DO NOT leave this page…</b> Because <b>this may be your only chance</b> to get the Nooro 3-in-1 Leg Massager and experience the relief you've been praying for."
+        "html": "<b>And once that happens…</b>"
       },
+      { "type": "paragraph", "html": "Once we do run out of stock…" },
+      { "type": "paragraph", "html": "It could take us anywhere from a couple of weeks to a couple of months to get back in stock because these devices take quite a long time to build." },
+      { "type": "paragraph", "html": "So if you are serious about reducing pain and swelling in your feet and legs…" },
+      { "type": "paragraph", "html": "<b>I recommend you DO NOT leave this page…</b>" },
+      { "type": "paragraph", "html": "Because <b>this may be your only chance</b> to get the Nooro 3-in-1 Leg Massager and experience the relief you've been praying for." },
       {
         "type": "paragraph",
-        "html": "So without further ado, <b>let me show you how you can get your Nooro 3-in-1 Leg Massager today.</b>"
+        "html": "So without further ado, <b>let me show you how you can get your <span class=\"text-blue-700\">Nooro 3-in-1 Leg Massager</span> today.</b>"
       },
       { "type": "heading", "text": "Nooro 3-in-1 Leg Massager Is NOT Available Anywhere Else Except on Our Official Website" },
       { "type": "image", "imageKey": "officialWebsite", "alt": "Nooro official website checkout page" },
       {
         "type": "paragraph",
-        "html": "<b>You won't find it in retail stores. You won't find it on Amazon or eBay.</b> If you see something similar, that's just a cheap knockoff. <b>The only place where you can buy the real, authentic Nooro 3-in-1 Leg Massager is our official website</b> where it's selling for just $339.95."
+        "html": "<b>You won't find it in retail stores. You won't find it on Amazon or eBay.</b>"
       },
+      { "type": "paragraph", "html": "If you see something similar, that's just a cheap knockoff." },
+      { "type": "paragraph", "html": "<b>The only place where you can buy the real, authentic <span class=\"text-blue-700\">Nooro 3-in-1 Leg Massager</span> is our official website</b> where it's selling for just $339.95." },
       {
         "type": "paragraph",
-        "html": "Given how sophisticated the <b>technology</b> behind is and how quickly our users experience relief, this is an absolute steal. To put it into perspective, when we hired business & marketing consultants to help us launch the device to the market, <b>they told us to charge $700</b>. It certainly made sense from the business perspective. But I'm not a businessman. I'm a doctor. And <b>my only goal with this device is to help as many people as possible.</b>"
+        "html": "Given how sophisticated the <b>technology</b> behind is and how quickly our users experience relief, this is an absolute steal."
       },
-      { "type": "heading", "text": "We Priced It at 1/2 of What All the Marketing Experts Recommended" },
-      {
-        "type": "paragraph",
-        "html": "<b>Just $339.95.</b> So even if you use it for just one year… And only once a day… <b>That's only .90 cents per therapy</b> which would normally cost hundreds! And guess what? You'll probably use it way more than that. <b>Nooro 3-in-1 Leg Massager is built to last</b>. You'll be enjoying massages for years and years to come, as many times per day as you please. So it will end up being way less than $.90 cents per therapy. When you put it like this, you realize what an amazing deal this is."
-      },
+      { "type": "paragraph", "html": "To put it into perspective, when we hired business & marketing consultants to help us launch the device to the market, <b>they told us to charge $700</b>." },
+      { "type": "paragraph", "html": "It certainly made sense from the business perspective." },
+      { "type": "paragraph", "html": "But I'm not a businessman. I'm a doctor." },
+      { "type": "paragraph", "html": "And <b>my only goal with this device is to help as many people as possible.</b>" },
+      { "type": "heading", "text": "<span style=\"background-color: rgb(255,191,0)\">We Priced It at 1/2</span> of What All the Marketing Experts Recommended" },
+      { "type": "video", "srcKey": "sixthVideoSrc" },
+      { "type": "paragraph", "html": "<b>Just $339.95.</b>" },
+      { "type": "paragraph", "html": "So even if you use it for just one year… And only once a day…" },
+      { "type": "paragraph", "html": "<b>That's only .90 cents per therapy</b> which would normally cost hundreds!" },
+      { "type": "paragraph", "html": "And guess what? You'll probably use it way more than that." },
+      { "type": "paragraph", "html": "<b>Nooro 3-in-1 Leg Massager is built to last</b>. You'll be enjoying massages for years and years to come, as many times per day as you please." },
+      { "type": "paragraph", "html": "So it will end up being way less than $.90 cents per therapy." },
+      { "type": "paragraph", "html": "When you put it like this, you realize what an amazing deal this is." },
       {
         "type": "list",
         "items": [
@@ -160,81 +187,111 @@
       },
       {
         "type": "paragraph",
-        "html": "And I know you know it. <b>But I also know that some of you simply can't afford it.</b> With everything that's going on in the world… Inflation running rampant… Prices going up… $339 is a lot of money. And look… I didn't lie when I said that <b>this isn't about money for me.</b> <b>I want this thing to help as many people as possible.</b> <b>And I don't want money to stand in the way of that mission</b>. So to ensure that everyone in need has a chance to put their hands on Nooro 3-in-1 Leg Massager…"
+        "html": "And I know you know it."
       },
-      { "type": "heading", "text": "I Decided to Offer a Special Limited-Time Discount and Let You Have Your Own Nooro 3-in-1 Leg Massager at 50% OFF" },
+      { "type": "paragraph", "html": "<b>But I also know that some of you simply can't afford it.</b>" },
+      { "type": "paragraph", "html": "With everything that's going on in the world…" },
+      { "type": "paragraph", "html": "Inflation running rampant…" },
+      { "type": "paragraph", "html": "Prices going up…" },
+      { "type": "paragraph", "html": "$339 is a lot of money." },
+      { "type": "paragraph", "html": "And look… I didn't lie when I said that <b>this isn't about money for me.</b>" },
+      { "type": "paragraph", "html": "<b>I want this thing to help as many people as possible.</b>" },
+      { "type": "paragraph", "html": "<b>And I don't want money to stand in the way of that mission</b>." },
+      { "type": "paragraph", "html": "So to ensure that everyone in need has a chance to put their hands on Nooro 3-in-1 Leg Massager…" },
+      { "type": "heading", "text": "I Decided to Offer a <span class=\"bg-yellow-400\">Special Limited-Time Discount</span> and Let You Have Your Own Nooro 3-in-1 Leg Massager at <span class=\"text-red-600\">50% OFF</span>" },
       { "type": "image", "imageKey": "discountReveal", "alt": "50% off discount offer for Nooro 3-in-1 Leg Massager" },
       {
         "type": "paragraph",
-        "html": "That's <b>just $169.95!</b> <b>This is the lowest price we'll ever offer.</b> And I'm only able to guarantee it for today. So if you are ready to <b>take advantage of the best deal you'll ever get</b>… And get your Nooro 3-in-1 Leg Massager at a fraction of the price… Make sure to <b>click the big button below</b> and grab it while you still can!"
+        "html": "That's <b class=\"text-green-700\">just $169.95!</b>"
       },
+      { "type": "paragraph", "html": "<b class=\"underline\">This is the lowest price we'll ever offer.</b>" },
+      { "type": "paragraph", "html": "And I'm only able to guarantee it for today." },
+      { "type": "paragraph", "html": "So if you are ready to <b>take advantage of the best deal you'll ever get</b>…" },
+      { "type": "paragraph", "html": "And get your Nooro 3-in-1 Leg Massager at a fraction of the price…" },
+      { "type": "paragraph", "html": "Make sure to <b class=\"text-blue-700 underline\">click the big button below</b> and grab it while you still can!" },
       {
         "type": "paragraph",
-        "html": "As I said earlier, we manufactured a limited number of massagers in this batch. And we're selling out faster than anyone could have anticipated. So it's only a matter of time before we run out completely. And when that happens… Well, you'll pretty much miss out. Not just that you'll have to wait until the next batch is manufactured - which can take weeks if not months… But you'll also find a new price that will be higher."
+        "html": "As I said earlier, we manufactured a limited number of massagers in this batch. And we're selling out faster than anyone could have anticipated."
       },
+      { "type": "paragraph", "html": "So it's only a matter of time before we run out completely." },
+      { "type": "paragraph", "html": "And when that happens… Well, you'll pretty much miss out." },
+      { "type": "paragraph", "html": "Not just that you'll have to wait until the next batch is manufactured - which can take weeks if not months…" },
+      { "type": "paragraph", "html": "But you'll also find a new price that will be higher." },
       {
         "type": "paragraph",
-        "html": "Let me be super clear about it: <b>You'll never be able to buy a Nooro 3-in-1 Leg Massager cheaper than today.</b> This is the best deal you will ever get. And this may be the only time you see it. So without further ado, click below to place your order."
+        "html": "Let me be super clear about it:"
       },
+      { "type": "paragraph", "html": "<b class=\"bg-yellow-400\">You'll never be able to buy a Nooro 3-in-1 Leg Massager cheaper than today.</b>" },
+      { "type": "paragraph", "html": "This is the best deal you will ever get." },
+      { "type": "paragraph", "html": "And this may be the only time you see it." },
+      { "type": "paragraph", "html": "So without further ado, click below to place your order." },
       { "type": "cta", "line1": "GET 50% OFF Nooro", "line2": "3-in-1 Leg Massager Now!" },
-      { "type": "heading", "text": "You Have 90 Days to Test the Product, Completely Risk-Free!" },
+      { "type": "heading", "text": "You Have <span class=\"underline\">90 Days</span> to Test the Product, Completely <span class=\"bg-yellow-400\">Risk-Free!</span>" },
+      { "type": "video", "srcKey": "seventhVideoSrc" },
       {
         "type": "paragraph",
-        "html": "Yes, you heard me right. <b>I'm giving you a 90-day TRIAL period</b>. <b>You have 90 full days to experiment with the Nooro 3-in-1 Leg Massagers and see how well it all works</b>. If it works as advertised, you are welcome to keep it and use it forever to keep swelling at bay."
+        "html": "Yes, you heard me right."
       },
-      {
-        "type": "paragraph",
-        "html": "But if for ANY reason you are not happy with your purchase… And you feel like there are better solutions out there… Just let us know anytime in the next 90 days and <b>you'll get your money back</b> that same day, no questions asked. It doesn't matter if it's 89 minutes or 89 days after the purchase… Our team at Nooro will make sure that you only pay if you are 100% in love with the product. In any other case, it's on us. <b>Fair enough?</b>"
-      },
-      {
-        "type": "paragraph",
-        "html": "Oh, and no worries… Our team is so easy to access, so there will be no hassle. You can email us at <b>support@nooro-us.com</b>. Or you can call us at <b>+1 (212) 444 3144</b>. Even if you just have questions about the product. Our dedicated customer service team will get back to you WITHIN MINUTES. No matter when you call us, <b>we're available 24/7.</b>"
-      },
-      {
-        "type": "paragraph",
-        "html": "Now that's what I call a <b>RISK-FREE offer</b>. We made sure that from the moment you click that button below… You, your time, and your money are <b>protected and safe!</b> There's literally ZERO risk involved today."
-      },
+      { "type": "paragraph", "html": "<b>I'm giving you a 90-day TRIAL period</b>." },
+      { "type": "paragraph", "html": "<b>You have 90 full days to experiment with the <span class=\"text-blue-700\">Nooro 3-in-1 Leg Massagers</span> and see how well it all works</b>." },
+      { "type": "paragraph", "html": "If it works as advertised, you are welcome to keep it and use it forever to keep swelling at bay." },
+      { "type": "paragraph", "html": "But if for ANY reason you are not happy with your purchase…" },
+      { "type": "paragraph", "html": "And you feel like there are better solutions out there…" },
+      { "type": "paragraph", "html": "Just let us know anytime in the next 90 days and <b>you'll get your money back</b> that same day, no questions asked." },
+      { "type": "paragraph", "html": "It doesn't matter if it's 89 minutes or 89 days after the purchase…" },
+      { "type": "paragraph", "html": "Our team at Nooro will make sure that you only pay if you are 100% in love with the product. In any other case, it's on us." },
+      { "type": "paragraph", "html": "<b>Fair enough?</b>" },
+      { "type": "paragraph", "html": "Oh, and no worries…" },
+      { "type": "paragraph", "html": "Our team is so easy to access, so there will be no hassle." },
+      { "type": "paragraph", "html": "You can email us at <b>support@nooro-us.com</b>." },
+      { "type": "paragraph", "html": "Or you can call us at <b>+1 (212) 444 3144</b>." },
+      { "type": "paragraph", "html": "Even if you just have questions about the product." },
+      { "type": "paragraph", "html": "Our dedicated customer service team will get back to you WITHIN MINUTES. No matter when you call us, <b>we're available 24/7.</b>" },
+      { "type": "paragraph", "html": "Now that's what I call a <b>RISK-FREE offer</b>." },
+      { "type": "paragraph", "html": "We made sure that from the moment you click that button below…" },
+      { "type": "paragraph", "html": "You, your time, and your money are <b>protected and safe!</b>" },
+      { "type": "paragraph", "html": "There's literally ZERO risk involved today." },
       { "type": "heading", "text": "Here's What to Do Next" },
-      {
-        "type": "list",
-        "items": [
-          "Click that big green button that says \"GET 50% OFF Nooro 3-in-1 Leg Massager Now\" - it will take you straight to our official encrypted website",
-          "Click the button that says \"GET 50% OFF TODAY ONLY\" and your discount code will be automatically applied",
-          "Go straight to the checkout page and enter your name, address, and credit card information, and select how many Nooro Leg Massagers you want to order"
-        ]
-      },
-      {
-        "type": "paragraph",
-        "html": "<b>Most people end up getting TWO or THREE Nooro Leg Massagers.</b> One, because it's practical to have one in your bedroom, one at work, etc. Two, because it's a great gift for your spouse. And it's much more enjoyable when you can get the massage together, at the same time. And three, because the more you get, <b>the more money you save</b>. That's because we save a lot of money on shipping when we send bigger orders - and we are happy to share those savings with you."
-      },
-      {
-        "type": "paragraph",
-        "html": "So if you know someone who could benefit from <b>Nooro 3-in-1 Leg Massager</b> - be it a friend, a family member, or a colleague at work… Or if you simply want to get more than one for yourself, so you can have one in your bedroom, one in your car, one at work, etc. <b>I suggest you take advantage of this one-time deal and click the button below to get the Nooro 3-in-1 Leg Massager at the lowest price ever.</b>"
-      },
+      { "type": "video", "srcKey": "eighthVideoSrc" },
+      { "type": "paragraph", "html": "<b>Click that big green button</b> that says \"<b>GET 50% OFF Nooro 3-in-1 Leg Massager Now</b>\" - it will take you straight to our official encrypted website" },
+      { "type": "paragraph", "html": "There, all you need to do is click the button that says \"<b>GET 50% OFF TODAY ONLY</b>\" and your discount code will be automatically applied." },
+      { "type": "paragraph", "html": "From there, you'll go straight to the checkout page where you just need to enter your name, address, and credit card information, and select how many Nooro Leg Massagers you want to order." },
+      { "type": "paragraph", "html": "<b>Most people end up getting TWO or THREE Nooro Leg Massagers.</b>" },
+      { "type": "paragraph", "html": "One, because it's practical to have one in your bedroom, one at work, etc." },
+      { "type": "paragraph", "html": "Two, because it's a great gift for your spouse. And it's much more enjoyable when you can get the massage together, at the same time." },
+      { "type": "paragraph", "html": "And three, because the more you get, <b>the more money you save</b>." },
+      { "type": "paragraph", "html": "That's because we save a lot of money on shipping when we send bigger orders - and we are happy to share those savings with you." },
+      { "type": "paragraph", "html": "So if you know someone who could benefit from <b><span class=\"text-blue-700\">Nooro 3-in-1 Leg Massager</span></b> - be it a friend, a family member, or a colleague at work…" },
+      { "type": "paragraph", "html": "Or if you simply want to get more than one for yourself, so you can have one in your bedroom, one in your car, one at work, etc." },
+      { "type": "paragraph", "html": "<b>I suggest you take advantage of this one-time deal and click the button below to get the Nooro 3-in-1 Leg Massager at the lowest price ever.</b>" },
       { "type": "cta", "line1": "GET 50% OFF Nooro", "line2": "3-in-1 Leg Massager Now!" },
       { "type": "heading", "text": "Remember, There Is ZERO Risk" },
       { "type": "iconGrid" },
       {
         "type": "paragraph",
-        "html": "The only risk you could possibly face… Is one of pain and <b>regret if you miss out on the opportunity to get your Nooro 3-in-1 Leg Massagers</b> at this massive discount. Unfortunately, I know exactly what's going to happen if you decide to let this opportunity pass. I've seen it so many times with other patients. And let me tell you, it's NOT good."
+        "html": "The only risk you could possibly face…"
       },
-      {
-        "type": "paragraph",
-        "html": "You'll keep wasting time on compression socks, salt baths, and different pills that don't address the real cause of the problem. You may experience some temporary relief now and then… And maybe even fool yourself that you can live your life like this… But the pain and swelling <b>will only get worse</b>."
-      },
-      {
-        "type": "paragraph",
-        "html": "I'm not saying this to SCARE you. I just want to WARN you. Because if left untreated, this can turn into a much bigger problem. That's why the decision you make today will be one of the most important decisions of your life. So… What is it going to be?"
-      },
-      {
-        "type": "paragraph",
-        "html": "<b>Are you going to say \"NO\"</b> to this opportunity and take your chances? <b>OR are you going to do the right thing… Order one, two, or three Nooro 3-in-1 Leg Massagers… And spend the next 90 days working on recovery?</b>"
-      },
+      { "type": "paragraph", "html": "Is one of pain and <b>regret if you miss out on the opportunity to get your <span class=\"text-blue-700\">Nooro 3-in-1 Leg Massagers</span></b> at this massive discount." },
+      { "type": "paragraph", "html": "Unfortunately, I know exactly what's going to happen if you decide to let this opportunity pass. I've seen it so many times with other patients." },
+      { "type": "paragraph", "html": "And let me tell you, it's NOT good." },
+      { "type": "paragraph", "html": "You'll keep wasting time on compression socks, salt baths, and different pills that don't address the real cause of the problem." },
+      { "type": "paragraph", "html": "You may experience some temporary relief now and then…" },
+      { "type": "paragraph", "html": "And maybe even fool yourself that you can live your life like this…" },
+      { "type": "paragraph", "html": "But the pain and swelling <b>will only get worse</b>." },
+      { "type": "paragraph", "html": "I'm not saying this to SCARE you. I just want to WARN you." },
+      { "type": "paragraph", "html": "Because if left untreated, this can turn into a much bigger problem." },
+      { "type": "paragraph", "html": "That's why the decision you make today will be one of the most important decisions of your life. So… What is it going to be?" },
+      { "type": "paragraph", "html": "<b>Are you going to say \"NO\"</b> to this opportunity and take your chances?" },
+      { "type": "paragraph", "html": "<b>OR are you going to do the right thing… Order one, two, or three <span class=\"text-blue-700\">Nooro 3-in-1 Leg Massagers</span>… And spend the next 90 days working on recovery?</b>" },
       { "type": "image", "imageKey": "emotionalClose", "alt": "Family enjoying time together" },
       {
         "type": "paragraph",
-        "html": "<b>Remember… This is not just about you.</b> <b>This is about your family</b> - who will be worried about you constantly if you lose your mobility because you don't want to try to get better. <b>This is about your grandkids</b> who will never get to play with you because your feet will be holding you back. <b>This is about your partner</b> who will have to get used to living alone while you are still there - because you will be a shell of yourself. You owe it to yourself and your loved ones to give it a shot."
+        "html": "<b>Remember… This is not just about you.</b>"
       },
+      { "type": "paragraph", "html": "<b>This is about your family</b> - who will be worried about you constantly if you lose your mobility because you don't want to try to get better." },
+      { "type": "paragraph", "html": "<b>This is about your grandkids</b> who will never get to play with you because your feet will be holding you back." },
+      { "type": "paragraph", "html": "<b>This is about your partner</b> who will have to get used to living alone while you are still there - because you will be a shell of yourself." },
+      { "type": "paragraph", "html": "You owe it to yourself and your loved ones to give it a shot." },
       {
         "type": "list",
         "items": [
@@ -245,8 +302,13 @@
       },
       {
         "type": "paragraph",
-        "html": "Many of my patients have already done it. <b>You can do it too.</b> All you need is a little assistance from the finest pain relief device that I know exists - our <b>Nooro 3-in-1 Leg Massager</b>. So without further ado… If you are ready to do the right thing… Click that big green button below to order your Nooro 3-in-1 Leg Massager. And remember - <b>If it doesn't work as promised, you don't pay.</b>"
+        "html": "Many of my patients have already done it. <b>You can do it too.</b>"
       },
+      { "type": "paragraph", "html": "All you need is a little assistance from the finest pain relief device that I know exists - our <b><span class=\"text-blue-700\">Nooro 3-in-1 Leg Massager</span></b>." },
+      { "type": "paragraph", "html": "So without further ado…" },
+      { "type": "paragraph", "html": "If you are ready to do the right thing…" },
+      { "type": "paragraph", "html": "Click that big green button below to order your Nooro 3-in-1 Leg Massager." },
+      { "type": "paragraph", "html": "And remember - <b>If it doesn't work as promised, you don't pay.</b>" },
       { "type": "cta", "line1": "GET 50% OFF Nooro", "line2": "3-in-1 Leg Massager Now!" }
     ],
     "checkoutUpdate": {
@@ -297,7 +359,6 @@
   "footer": {
     "disclaimer": "MEDICAL & HEALTH DISCLAIMER: The information and other content provided in this page, or in any linked materials, are not intended and should not be construed as medical advice, nor is the information a substitute for professional medical expertise or treatment. If you or any other person has a medical concern, you should consult with your health care provider or seek other professional medical treatment. Never disregard professional medical advice or delay in seeking it because of something that have read on this page or in any linked materials. If you think you may have a medical emergency, call your doctor or emergency services immediately.",
     "copyright": "© 2026 All Rights Reserved.",
-    "poweredByText": "Powered by CheckoutChamp",
     "links": [
       { "label": "Privacy Policy", "href": "https://nooro-us.com/pages/privacy-policy" },
       { "label": "Terms of Service", "href": "https://nooro-us.com/pages/terms-of-service" }
