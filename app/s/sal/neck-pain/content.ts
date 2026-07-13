@@ -1,10 +1,10 @@
-import copyJson from "./copy/copy.json";
-import contentJson from "./content/content.json";
+import copyJson from "./copy.json";
+import mediaJson from "./media.json";
 import type { LandingPageContent } from "./types";
 
 // Source of truth is split across two sibling JSON files:
-//   copy/copy.json       — user-visible text strings
-//   content/content.json — asset URLs, video IDs, numbers, structural classes
+//   copy.json  — user-visible text strings
+//   media.json — asset URLs, video IDs, numbers, structural classes
 // They are deep-merged below into the single shape every section consumes.
 // Arrays are merged element-wise (zip) so mixed-leaf arrays like
 // `hero.shippingBadges: [{ icon, label }]` work transparently.
@@ -35,7 +35,7 @@ function deepMerge<T>(a: unknown, b: unknown): T {
   return (b ?? a) as T;
 }
 
-export const content = deepMerge<LandingPageContent>(contentJson, copyJson);
+export const content = deepMerge<LandingPageContent>(mediaJson, copyJson);
 export type { LandingPageContent } from "./types";
 
 // Tiny markdown helper used by sections whose JSON strings contain inline
