@@ -19,9 +19,20 @@ type EmphasisEntry = { text: string; style: string };
 
 type StructuralSectionEntry =
   | { type: "heading"; text: string; emphasis?: EmphasisEntry[] }
-  | { type: "list"; items: string[] }
+  | { type: "list"; items: string[]; variant?: "negative" }
   | { type: "image"; imageKey: string; alt: string }
-  | { type: "video" }
+  | {
+      type: "video";
+      srcKey?:
+        | "secondVideoSrc"
+        | "thirdVideoSrc"
+        | "fourthVideoSrc"
+        | "fifthVideoSrc"
+        | "sixthVideoSrc"
+        | "seventhVideoSrc"
+        | "eighthVideoSrc"
+        | "ninthVideoSrc";
+    }
   | { type: "cta"; line1: string; line2: string }
   | { type: "trustpilot"; score: string; reviewCountLabel: string; url: string }
   | {
@@ -195,6 +206,13 @@ export type NooroAdvertorialMedia = {
   };
   article: {
     secondVideoSrc: string;
+    thirdVideoSrc: string;
+    fourthVideoSrc: string;
+    fifthVideoSrc: string;
+    sixthVideoSrc: string;
+    seventhVideoSrc: string;
+    eighthVideoSrc: string;
+    ninthVideoSrc: string;
     productImageSrc: string;
     guaranteeImageSrc: string;
     checkoutImageSrc: string;
@@ -536,7 +554,11 @@ function MainArticle({
                 {section.items.map((item) => (
                   <li key={item} className="p-[5px]">
                     <div className="items-baseline flex p-[5px]">
-                      <span className="text-green-700 mr-2.5">✓</span>
+                      {section.variant === "negative" ? (
+                        <span className="text-red-600 mr-2.5">✗</span>
+                      ) : (
+                        <span className="text-green-700 mr-2.5">✓</span>
+                      )}
                       {item}
                     </div>
                   </li>
@@ -562,7 +584,7 @@ function MainArticle({
                   autoPlay
                   playsInline
                   muted
-                  src={media.article.secondVideoSrc}
+                  src={media.article[section.srcKey ?? "secondVideoSrc"]}
                   className="absolute h-full max-w-full w-full rounded-[10px] left-0 inset-y-0 object-cover"
                 />
               </div>
