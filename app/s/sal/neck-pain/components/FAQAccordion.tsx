@@ -15,7 +15,7 @@ export type FAQAccordionProps = {
 export const FAQAccordion = (props: FAQAccordionProps) => {
   const [open, setOpen] = useState(false);
   const shippingIcon =
-    props.shippingIconUrl ?? "/images/shipping-fast.svg";
+    props.shippingIconUrl ?? "/images/nuz-neck-pain/shipping-fast.svg";
 
   return (
     <div className="box-border caret-transparent border-b border-neutral-300/70 last:border-b-0">

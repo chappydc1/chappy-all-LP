@@ -154,7 +154,7 @@ app/s/
   vsl/    video            VSL + order section
 ```
 
-> The fastest path to a new page: copy [`app/s/sal/nuz/neck-pain/`](app/s/sal/nuz/neck-pain/) — it has the most complete [developer guide](app/s/sal/nuz/neck-pain/README.md) and a two-file content system (`copy.json` + `content.json`) designed for AI-assisted re-branding.
+> The fastest path to a new page: copy [`app/s/sal/nuz/neck-pain/`](app/s/sal/nuz/neck-pain/) — it has the most complete [developer guide](app/s/sal/nuz/neck-pain/README.md) and a two-file content system (`copy.json` + `media.json`) designed for AI-assisted re-branding.
 
 ---
 
@@ -241,7 +241,7 @@ app/s/
 cp -R app/s/sal/nuz/neck-pain app/s/sal/<brand>/<campaign>
 ```
 
-Open `copy/copy.json` (all user-visible text) and `content/content.json` (asset URLs, timers, Tailwind classes). Hand both to an AI:
+Open `copy.json` (all user-visible text) and `media.json` (asset URLs, timers, Tailwind classes). Hand both to an AI:
 
 > Rewrite all copy for **\<new product\>**. Keep the same structure, key names, array lengths, and `**bold**` conventions.
 

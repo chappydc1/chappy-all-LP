@@ -30,7 +30,7 @@ export const HeroContent = () => {
             <BenefitTags />
           </div>
           <CTAButton countdownSeconds={h.ctaCountdownSeconds} />
-          <div className="text-white text-lg font-bold items-center bg-[url('/images/Stripes-01.svg')] bg-no-repeat bg-cover box-border caret-transparent flex flex-col h-[50px] justify-center text-center bg-center mt-0 font-roboto md:[align-items:normal] md:bg-none md:bg-repeat md:bg-auto md:hidden md:flex-row md:h-auto md:justify-normal md:bg-left-top md:mt-4">
+          <div className="text-white text-lg font-bold items-center bg-[url('/images/nuz-neck-pain/Stripes-01.svg')] bg-no-repeat bg-cover box-border caret-transparent flex flex-col h-[50px] justify-center text-center bg-center mt-0 font-roboto md:[align-items:normal] md:bg-none md:bg-repeat md:bg-auto md:hidden md:flex-row md:h-auto md:justify-normal md:bg-left-top md:mt-4">
             <div className="items-center box-border caret-transparent flex justify-between md:[align-items:normal] md:block md:justify-normal">
               <div className="items-center box-border caret-transparent flex ml-2.5 md:[align-items:normal] md:block md:ml-0">
                 <div className="box-border caret-transparent leading-[18px] md:leading-5">
