@@ -340,21 +340,31 @@ function TestimonialCard({
   media: NooroAdvertorialMedia["article"]["testimonials"][string];
 }): React.ReactElement {
   return (
-    <div className="mt-[15px] border border-gray-200 rounded-[10px] p-4">
+    <div className="mt-6">
       <div className="items-center flex">
         <img src={media.badgeSrc} alt={testimonial.name} className="w-10 h-10 rounded-full mr-2.5" />
-        <div className="text-zinc-800 text-[15px] font-bold font-montserrat">{testimonial.name}</div>
+        <div className="text-[17px] font-medium leading-[25.5px] font-montserrat">
+          <b className="font-bold">{testimonial.name}</b>
+        </div>
       </div>
-      <img src={media.starsSrc} alt="4.5 out of 5 stars" className="w-[120px] mt-2.5 mb-[5px]" />
-      <div className="text-zinc-800 text-[17px] font-bold font-montserrat">{testimonial.title}</div>
-      <div className="text-zinc-500 text-sm mt-[5px] font-open_sans">{testimonial.reviewMeta}</div>
-      <div className="text-zinc-700 text-sm font-bold mt-px font-open_sans">{testimonial.verifiedLabel}</div>
-      <p className="text-zinc-800 text-[15px] leading-[22px] mt-2.5 font-open_sans">{testimonial.text}</p>
-      <div className="flex gap-2.5 mt-2.5">
-        {media.photoSrcs.map((src) => (
-          <img key={src} src={src} alt={`Photo from ${testimonial.name}'s review`} className="w-20 h-20 object-cover rounded-[5px]" />
-        ))}
+      <div className="items-center flex mt-2.5">
+        <div className="text-[19px] font-bold leading-[28.5px] font-montserrat text-left">
+          <img src={media.starsSrc} alt="4.5 out of 5 stars" className="inline w-[100px] mr-2.5" />
+          <span>{testimonial.title}</span>
+        </div>
       </div>
+      <div className="text-zinc-800 text-[17px] leading-[27px] mt-2.5 font-open_sans">{testimonial.reviewMeta}</div>
+      <div className="text-amber-700 text-[17px] font-bold leading-[25.5px] mt-[5px] font-montserrat md:text-[19px] md:leading-[28.5px]">
+        {testimonial.verifiedLabel}
+      </div>
+      <p className="text-zinc-800 text-[17px] leading-[27px] mt-[15px] font-open_sans">{testimonial.text}</p>
+      {media.photoSrcs.length > 0 && (
+        <div className="flex gap-2.5 mt-[15px]">
+          {media.photoSrcs.map((src) => (
+            <img key={src} src={src} alt={`Photo from ${testimonial.name}'s review`} className="w-20 h-20 object-cover rounded-[5px]" />
+          ))}
+        </div>
+      )}
       <div className="text-zinc-500 text-xs mt-2.5 font-open_sans">{testimonial.helpfulText}</div>
     </div>
   );
@@ -759,7 +769,7 @@ function CommentsSection({ content, media }: { content: NooroAdvertorialContent;
   return (
     <div className="items-stretch flex flex-wrap justify-start max-w-full p-2.5 md:flex-nowrap">
       <div className="relative basis-full grow max-w-[1170px] min-h-[25px] w-min mx-auto p-2.5 md:basis-0">
-        <div className="text-zinc-800 text-base leading-[21px] text-start mt-5 mb-[115px]">
+        <div className="text-zinc-800 text-base leading-[21px] text-start mt-5 mb-10">
           <p className="text-neutral-800 text-[15px] font-bold font-montserrat md:text-xl">
             {content.comments.title}
           </p>
