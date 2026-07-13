@@ -117,7 +117,6 @@ export type NooroAdvertorialContent = {
   footer: {
     disclaimer: string;
     copyright: string;
-    poweredByText: string;
     links: Array<{ label: string; href: string }>;
   };
   comments: {
@@ -288,19 +287,16 @@ function GuaranteeIconsGrid({
 }): React.ReactElement {
   const items = [
     { src: media.guaranteeImageSrc, alt: "guarantee", label: guarantees.guaranteeText },
+    { src: media.shippingImageSrc, alt: "shipping", label: guarantees.shippingText },
     { src: media.checkoutImageSrc, alt: "checkout", label: guarantees.checkoutText },
     { src: media.returnsImageSrc, alt: "returns", label: guarantees.returnsText },
-    { src: media.shippingImageSrc, alt: "shipping", label: guarantees.shippingText },
   ];
 
   return (
-    <div className="grid grid-cols-2 gap-x-2.5 gap-y-8 w-full md:flex md:gap-x-5">
+    <div className="grid grid-cols-2 gap-x-2.5 gap-y-8 w-full bg-[rgb(226,244,249)] p-[15px] rounded-[10px] md:flex md:gap-x-5">
       {items.map((item) => (
         <div key={item.label} className="items-center flex flex-col justify-center w-full p-px">
           <img src={item.src} alt={item.alt} className="max-w-full w-[100px]" />
-          <div className="text-zinc-800 text-[15px] font-medium leading-5 text-center mt-[15px] px-[5px] font-montserrat">
-            {item.label}
-          </div>
         </div>
       ))}
     </div>
@@ -314,17 +310,31 @@ function TrustpilotBadge({
   trustpilot: Extract<ArticleSectionEntry, { type: "trustpilot" }>;
   bannerSrc: string;
 }): React.ReactElement {
+  const score = parseFloat(trustpilot.score) || 0;
   return (
     <div className="mt-[15px]">
-      <a
-        href={trustpilot.url}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="inline-flex items-center gap-2.5 bg-[#00b67a] text-white rounded-[5px] px-4 py-2.5 font-montserrat"
-      >
-        <span className="text-lg font-bold">★ Trustpilot</span>
-        <span className="text-sm">
-          TrustScore {trustpilot.score} · {trustpilot.reviewCountLabel}
+      <a href={trustpilot.url} target="_blank" rel="noopener noreferrer" className="inline-flex flex-col items-start gap-1.5 font-open_sans">
+        <span className="flex items-center gap-1.5">
+          <svg viewBox="0 0 24 24" width="22" height="22">
+            <polygon points="12,2 15,9 22,9 16.5,13.5 18.5,21 12,16.5 5.5,21 7.5,13.5 2,9 9,9" fill="#00b67a" />
+          </svg>
+          <span className="text-zinc-900 text-xl font-bold">Trustpilot</span>
+        </span>
+        <span className="flex gap-1">
+          {[0, 1, 2, 3, 4].map((idx) => {
+            const fill = Math.max(0, Math.min(1, score - idx)) * 100;
+            return (
+              <span key={idx} className="relative inline-block w-9 h-9 bg-[#dcdce6] rounded-[2px] overflow-hidden">
+                <span className="absolute inset-0 bg-[#8a8a00]" style={{ clipPath: `inset(0 ${100 - fill}% 0 0)` }} />
+                <svg viewBox="0 0 24 24" width="36" height="36" className="relative">
+                  <polygon points="12,4 14.5,10 21,10 15.8,13.8 17.5,20 12,16.3 6.5,20 8.2,13.8 3,10 9.5,10" fill="#fff" />
+                </svg>
+              </span>
+            );
+          })}
+        </span>
+        <span className="text-sm text-zinc-700">
+          TrustScore <b>{trustpilot.score}</b> | {trustpilot.reviewCountLabel}
         </span>
       </a>
       <img src={bannerSrc} alt="Trustpilot reviews" className="max-w-full mt-2.5 rounded-[10px]" />
@@ -340,22 +350,24 @@ function TestimonialCard({
   media: NooroAdvertorialMedia["article"]["testimonials"][string];
 }): React.ReactElement {
   return (
-    <div className="mt-[15px] border border-gray-200 rounded-[10px] p-4">
+    <div className="mt-5 pb-4 border-b border-gray-200">
       <div className="items-center flex">
-        <img src={media.badgeSrc} alt={testimonial.name} className="w-10 h-10 rounded-full mr-2.5" />
-        <div className="text-zinc-800 text-[15px] font-bold font-montserrat">{testimonial.name}</div>
+        <img src={media.badgeSrc} alt={testimonial.name} className="w-[60px] h-[60px] rounded-full mr-2.5" />
+        <div className="text-zinc-800 text-[17px] font-medium font-montserrat">{testimonial.name}</div>
       </div>
-      <img src={media.starsSrc} alt="4.5 out of 5 stars" className="w-[120px] mt-2.5 mb-[5px]" />
-      <div className="text-zinc-800 text-[17px] font-bold font-montserrat">{testimonial.title}</div>
-      <div className="text-zinc-500 text-sm mt-[5px] font-open_sans">{testimonial.reviewMeta}</div>
-      <div className="text-zinc-700 text-sm font-bold mt-px font-open_sans">{testimonial.verifiedLabel}</div>
-      <p className="text-zinc-800 text-[15px] leading-[22px] mt-2.5 font-open_sans">{testimonial.text}</p>
-      <div className="flex gap-2.5 mt-2.5">
+      <div className="items-center flex gap-2.5 mt-[10px]">
+        <img src={media.starsSrc} alt="4.5 out of 5 stars" className="w-[100px]" />
+        <div className="text-zinc-800 text-[19px] font-bold font-montserrat">{testimonial.title}</div>
+      </div>
+      <div className="text-[rgb(47,47,47)] text-[17px] mt-[5px] leading-[1.5em] font-open_sans">{testimonial.reviewMeta}</div>
+      <div className="text-[#c45500] text-[17px] font-bold mt-[5px] leading-[1.5em] font-open_sans">{testimonial.verifiedLabel}</div>
+      <p className="text-[rgb(47,47,47)] text-[17px] leading-[27px] mt-[15px] font-open_sans">{testimonial.text}</p>
+      <div className="flex gap-2.5 mt-3">
         {media.photoSrcs.map((src) => (
-          <img key={src} src={src} alt={`Photo from ${testimonial.name}'s review`} className="w-20 h-20 object-cover rounded-[5px]" />
+          <img key={src} src={src} alt={`Photo from ${testimonial.name}'s review`} className="w-24 h-24 object-cover rounded-[5px]" />
         ))}
       </div>
-      <div className="text-zinc-500 text-xs mt-2.5 font-open_sans">{testimonial.helpfulText}</div>
+      <div className="text-[rgba(86,89,89,0.78)] text-[15px] font-medium mt-2.5 leading-[20px] font-open_sans">{testimonial.helpfulText}</div>
     </div>
   );
 }
@@ -363,7 +375,7 @@ function TestimonialCard({
 function AsSeenOnBar({ label, imageSrc }: { label: string; imageSrc: string }): React.ReactElement {
   return (
     <div className="mt-[15px] text-center">
-      <div className="text-zinc-400 text-xs italic font-montserrat">{label}</div>
+      <div className="inline-block bg-yellow-400 text-zinc-900 text-xs font-bold italic px-1.5 py-0.5 font-montserrat">{label}</div>
       <img src={imageSrc} alt={label} className="max-w-full mt-[5px] inline" />
     </div>
   );
@@ -797,7 +809,6 @@ function FooterSection({ content, media }: { content: NooroAdvertorialContent; m
         </div>
         <div className="flex items-center justify-between flex-wrap gap-2 mt-4">
           <img src={media.footer.dmcaImageSrc} alt="DMCA Protected" className="h-6" />
-          <p className="text-zinc-400 text-xs font-open_sans">{content.footer.poweredByText}</p>
         </div>
       </div>
     </div>
