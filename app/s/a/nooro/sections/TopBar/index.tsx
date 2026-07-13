@@ -10,11 +10,29 @@ type CommentEntry = {
   replies?: CommentEntry[];
 };
 
+// A plain-text substring to visually emphasize, with no HTML in copy.json —
+// the renderer splits the surrounding string around `text` and wraps the
+// match in the classes for `style` (space-separated tokens, e.g. "bold blue"),
+// so copy.json stays hand/LLM-editable instead of embedding markup.
+type EmphasisToken = "bold" | "blue" | "underline" | "yellowBg" | "red" | "green";
+type EmphasisEntry = { text: string; style: string };
+
 type StructuralSectionEntry =
-  | { type: "heading"; text: string }
-  | { type: "list"; items: string[] }
+  | { type: "heading"; text: string; emphasis?: EmphasisEntry[] }
+  | { type: "list"; items: string[]; variant?: "negative" }
   | { type: "image"; imageKey: string; alt: string }
-  | { type: "video" }
+  | {
+      type: "video";
+      srcKey?:
+        | "secondVideoSrc"
+        | "thirdVideoSrc"
+        | "fourthVideoSrc"
+        | "fifthVideoSrc"
+        | "sixthVideoSrc"
+        | "seventhVideoSrc"
+        | "eighthVideoSrc"
+        | "ninthVideoSrc";
+    }
   | { type: "cta"; line1: string; line2: string }
   | { type: "trustpilot"; score: string; reviewCountLabel: string; url: string }
   | {
@@ -33,7 +51,13 @@ type StructuralSectionEntry =
 // Any other section is a block of prose (p1, p2, p3, ...), named after the
 // direct-response beat it plays (e.g. "rootCauseReveal") instead of a
 // generic "paragraph" label, so the copy is easier to navigate and edit.
-type ProseSectionEntry = { type: string } & Record<string, string>;
+// `emphasis` is keyed by paragraph field name (e.g. "p1") to a list of
+// substrings within that paragraph to style.
+type ProseSectionEntry = {
+  type: string;
+  emphasis?: Record<string, EmphasisEntry[]>;
+  [key: string]: string | Record<string, EmphasisEntry[]> | undefined;
+};
 
 type ArticleSectionEntry = StructuralSectionEntry | ProseSectionEntry;
 
@@ -54,6 +78,44 @@ const STRUCTURAL_SECTION_TYPES = new Set<StructuralSectionEntry["type"]>([
 // so the structural members keep their literal (non-string) field types.
 function isStructuralSection(section: ArticleSectionEntry): section is StructuralSectionEntry {
   return (STRUCTURAL_SECTION_TYPES as Set<string>).has(section.type);
+}
+
+const EMPHASIS_TOKEN_CLASSES: Record<EmphasisToken, string> = {
+  bold: "font-bold",
+  blue: "text-blue-700",
+  underline: "underline",
+  yellowBg: "bg-yellow-400",
+  red: "text-red-600",
+  green: "text-green-700",
+};
+
+function emphasisClassName(style: string): string {
+  return style
+    .split(" ")
+    .map((token) => EMPHASIS_TOKEN_CLASSES[token as EmphasisToken] ?? "")
+    .join(" ");
+}
+
+// Splits `text` around each `emphasis` substring (in order) and wraps matches
+// in the matching style's className(s), so copy.json stays plain text instead
+// of embedding HTML/dangerouslySetInnerHTML.
+function renderEmphasizedText(text: string, emphasis?: EmphasisEntry[]): React.ReactNode {
+  if (!emphasis || emphasis.length === 0) return text;
+  const nodes: React.ReactNode[] = [];
+  let remaining = text;
+  emphasis.forEach((entry, idx) => {
+    const matchIndex = remaining.indexOf(entry.text);
+    if (matchIndex === -1) return;
+    if (matchIndex > 0) nodes.push(remaining.slice(0, matchIndex));
+    nodes.push(
+      <span key={idx} className={emphasisClassName(entry.style)}>
+        {entry.text}
+      </span>
+    );
+    remaining = remaining.slice(matchIndex + entry.text.length);
+  });
+  nodes.push(remaining);
+  return nodes;
 }
 
 export type NooroAdvertorialContent = {
@@ -144,6 +206,13 @@ export type NooroAdvertorialMedia = {
   };
   article: {
     secondVideoSrc: string;
+    thirdVideoSrc: string;
+    fourthVideoSrc: string;
+    fifthVideoSrc: string;
+    sixthVideoSrc: string;
+    seventhVideoSrc: string;
+    eighthVideoSrc: string;
+    ninthVideoSrc: string;
     productImageSrc: string;
     guaranteeImageSrc: string;
     checkoutImageSrc: string;
@@ -310,29 +379,16 @@ function TrustpilotBadge({
   trustpilot: Extract<ArticleSectionEntry, { type: "trustpilot" }>;
   bannerSrc: string;
 }): React.ReactElement {
-  const score = parseFloat(trustpilot.score) || 0;
   return (
-    <div className="mt-[15px]">
-      <a href={trustpilot.url} target="_blank" rel="noopener noreferrer" className="inline-flex flex-col items-start gap-1.5 font-open_sans">
+    <div className="mt-[15px] flex flex-col items-center text-center">
+      <a href={trustpilot.url} target="_blank" rel="noopener noreferrer" className="inline-flex flex-col items-center gap-1.5 font-open_sans">
         <span className="flex items-center gap-1.5">
           <svg viewBox="0 0 24 24" width="22" height="22">
             <polygon points="12,2 15,9 22,9 16.5,13.5 18.5,21 12,16.5 5.5,21 7.5,13.5 2,9 9,9" fill="#00b67a" />
           </svg>
           <span className="text-zinc-900 text-xl font-bold">Trustpilot</span>
         </span>
-        <span className="flex gap-1">
-          {[0, 1, 2, 3, 4].map((idx) => {
-            const fill = Math.max(0, Math.min(1, score - idx)) * 100;
-            return (
-              <span key={idx} className="relative inline-block w-9 h-9 bg-[#dcdce6] rounded-[2px] overflow-hidden">
-                <span className="absolute inset-0 bg-[#8a8a00]" style={{ clipPath: `inset(0 ${100 - fill}% 0 0)` }} />
-                <svg viewBox="0 0 24 24" width="36" height="36" className="relative">
-                  <polygon points="12,4 14.5,10 21,10 15.8,13.8 17.5,20 12,16.3 6.5,20 8.2,13.8 3,10 9.5,10" fill="#fff" />
-                </svg>
-              </span>
-            );
-          })}
-        </span>
+        <img src="/images/nooro/images/Trustpilot_Stars.svg" alt="Trustpilot star rating" className="h-9" />
         <span className="text-sm text-zinc-700">
           TrustScore <b>{trustpilot.score}</b> | {trustpilot.reviewCountLabel}
         </span>
@@ -475,7 +531,7 @@ function MainArticle({
                 key={i}
                 className="text-zinc-800 text-[26px] font-extrabold leading-8 text-left mt-[30px] px-px py-[5px] font-montserrat md:text-[33px] md:leading-[46.2px]"
               >
-                {section.text}
+                {renderEmphasizedText(section.text, section.emphasis)}
               </div>
             );
           }
@@ -485,7 +541,11 @@ function MainArticle({
                 {section.items.map((item) => (
                   <li key={item} className="p-[5px]">
                     <div className="items-baseline flex p-[5px]">
-                      <span className="text-green-700 mr-2.5">✓</span>
+                      {section.variant === "negative" ? (
+                        <span className="text-red-600 mr-2.5">✗</span>
+                      ) : (
+                        <span className="text-green-700 mr-2.5">✓</span>
+                      )}
                       {item}
                     </div>
                   </li>
@@ -511,7 +571,7 @@ function MainArticle({
                   autoPlay
                   playsInline
                   muted
-                  src={media.article.secondVideoSrc}
+                  src={media.article[section.srcKey ?? "secondVideoSrc"]}
                   className="absolute h-full max-w-full w-full rounded-[10px] left-0 inset-y-0 object-cover"
                 />
               </div>
@@ -546,18 +606,18 @@ function MainArticle({
 
         // Named prose section (p1, p2, p3, ...) — anything that isn't one of
         // the structural types above.
-        const lines = Object.entries(section)
-          .filter(([key]) => /^p\d+$/.test(key))
-          .sort(([a], [b]) => Number(a.slice(1)) - Number(b.slice(1)))
-          .map(([, value]) => value);
+        const proseSection = section as ProseSectionEntry;
+        const lines = Object.entries(proseSection)
+          .filter((entry): entry is [string, string] => /^p\d+$/.test(entry[0]))
+          .sort(([a], [b]) => Number(a.slice(1)) - Number(b.slice(1)));
         return (
           <div key={i} className="mt-[15px] px-px py-2.5">
-            {lines.map((paragraph, pIdx) => (
+            {lines.map(([field, paragraph]) => (
               <p
-                key={pIdx}
+                key={field}
                 className="text-zinc-800 text-[17px] leading-[25.5px] text-left font-open_sans first:mt-0 mt-[15px]"
               >
-                {paragraph}
+                {renderEmphasizedText(paragraph, proseSection.emphasis?.[field])}
               </p>
             ))}
           </div>
@@ -775,9 +835,10 @@ function CommentsSection({ content, media }: { content: NooroAdvertorialContent;
           <p className="text-neutral-800 text-[15px] font-bold font-montserrat md:text-xl">
             {content.comments.title}
           </p>
-          <textarea
+          <input
+            type="text"
             placeholder="Add a comment ..."
-            className="block w-full min-h-[100px] mt-2.5 mb-5 px-[15px] py-[11px] rounded-md border border-neutral-300 text-gray-800 font-open_sans resize-y"
+            className="text-gray-800 items-center block min-h-[auto] min-w-[auto] text-start w-full border-neutral-300 mt-2.5 mb-5 p-5 rounded-md border-solid font-open_sans border"
           />
           <div>
             {content.comments.items.map((comment, i) => (
