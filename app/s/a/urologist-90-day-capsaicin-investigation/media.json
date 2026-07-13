@@ -7,7 +7,6 @@
   "asSeenOnDesktop": "/images/nebroo-v1/1739406878598_1735824290045_3.webp",
   "asSeenOnMobile": "/images/nebroo-v1/1738651192369_As_seen_on_v2_1_.webp",
   "videos": {
-    "douglasTestimonial": { "format": "mp4", "src": "/images/capcaicinn/d3e7bcded6af4192a98ac3d7077606f6.mp4" },
     "v1": { "format": "wistia", "id": "tg55gmif1y" },
     "v2": { "format": "wistia", "id": "ycstdg4v3k" },
     "v3": { "format": "wistia", "id": "8k9htk6g5z" },
@@ -35,7 +34,7 @@
     "warrantyImg": "/images/nebroo-v1/1733710932983_120_Day_v2_1_.webp"
   },
   "reviewAvatars": {
-    "reviewArthur": "/images/nebroo-v1/1721396859824_avatar_2_cropped.webp",
+    "reviewArthur": "/images/urologist/selfie2.png",
     "reviewDavid": "/images/nebroo-v1/1721396910855_avatar_3_cropped.webp",
     "reviewFrank": "/images/nebroo-v1/1721397057307_avatar_4_cropped.webp",
     "reviewLynne": "/images/nebroo-v1/1721396859824_avatar_2_cropped.webp",
