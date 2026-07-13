@@ -1,0 +1,111 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url('/fonts/Roboto-Bold.woff2') format("woff2");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Fa solid 900';
+  src: url('/fonts/fa-solid-900.woff2') format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('/fonts/proxima-nova-bold.woff2') format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('/fonts/proxima-nova-light.woff2') format("woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('/fonts/proxima-nova-extrabold.woff2') format("woff2");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('/fonts/proxima-nova-reg.woff2') format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('/fonts/proxima-nova-semibold.woff2') format("woff2");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('/fonts/proxima-nova-medium.woff2') format("woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima Soft';
+  src: url('/fonts/ProximaSoft-Regular.ttf') format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'National book';
+  src: url('/fonts/National-Book.otf') format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Countdown banner uses CSS vars set inline so the URLs can come from JSON.
+   Default = mobile background; desktop swaps in via this media query. */
+.lp-countdown-banner-inner {
+  background-image: var(--banner-mobile);
+}
+@media (min-width: 768px) {
+  .lp-countdown-banner-inner {
+    background-image: var(--banner-desktop);
+  }
+}
+
+.animate-delay-100 { animation-delay: 100ms; }
+.animate-delay-200 { animation-delay: 200ms; }
+.animate-delay-300 { animation-delay: 300ms; }
+.animate-delay-400 { animation-delay: 400ms; }
+.animate-delay-500 { animation-delay: 500ms; }
+.animate-delay-700 { animation-delay: 700ms; }
+.caret-transparent { caret-color: transparent; }
+
+/* Trustpilot rating stars — darken the colored canvas on hover */
+.tp-rating-stars {
+  transition: --tp-fill 0.15s ease;
+  cursor: pointer;
+}
+.tp-rating-stars:hover {
+  --tp-fill: #00533D !important;
+}
+
+/* Trustpilot reviews-count link — drop the underline on hover */
+.tp-reviews-link:hover {
+  text-decoration: none !important;
+}
+
+/* Reduce motion for accessibility */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
