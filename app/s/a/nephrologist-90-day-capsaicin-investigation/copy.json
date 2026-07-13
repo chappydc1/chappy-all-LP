@@ -217,19 +217,6 @@
       "p3": "Based on my research and clinical observation, there's an 89% chance it will work better long-term than what you're currently using."
     },
     {
-      "type": "heading",
-      "text": "Listen To Douglas' Testimonial"
-    },
-    {
-      "type": "video",
-      "mediaKey": "douglasTestimonial",
-      "containerClass": "py-3"
-    },
-    {
-      "type": "testimonialContext",
-      "p1": "Most of my patients see results within the first 12 weeks of trying these cayenne softgels, however Doug reported results rather earlier, at around 4 weeks in."
-    },
-    {
       "type": "reviews"
     },
     {
