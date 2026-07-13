@@ -28,7 +28,7 @@
     "boxIconUrl": "/images/box-fast.svg"
   },
   "hero": {
-    "productImageUrl": "https://offer.getnuzzle.com/images/bg11-r9.webp",
+    "productImageUrl": "/images/bg11-r9.webp",
     "badgeImageUrl": "/images/badges-long-1.png",
     "trustpilotStarsUrl": "/images/Trustpilot_Stars.svg",
     "trustpilotLogoUrl": "/images/trustpilot_full_icon.svg",
