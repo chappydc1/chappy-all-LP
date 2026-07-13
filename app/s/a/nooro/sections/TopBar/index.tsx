@@ -379,29 +379,16 @@ function TrustpilotBadge({
   trustpilot: Extract<ArticleSectionEntry, { type: "trustpilot" }>;
   bannerSrc: string;
 }): React.ReactElement {
-  const score = parseFloat(trustpilot.score) || 0;
   return (
-    <div className="mt-[15px]">
-      <a href={trustpilot.url} target="_blank" rel="noopener noreferrer" className="inline-flex flex-col items-start gap-1.5 font-open_sans">
+    <div className="mt-[15px] flex flex-col items-center text-center">
+      <a href={trustpilot.url} target="_blank" rel="noopener noreferrer" className="inline-flex flex-col items-center gap-1.5 font-open_sans">
         <span className="flex items-center gap-1.5">
           <svg viewBox="0 0 24 24" width="22" height="22">
             <polygon points="12,2 15,9 22,9 16.5,13.5 18.5,21 12,16.5 5.5,21 7.5,13.5 2,9 9,9" fill="#00b67a" />
           </svg>
           <span className="text-zinc-900 text-xl font-bold">Trustpilot</span>
         </span>
-        <span className="flex gap-1">
-          {[0, 1, 2, 3, 4].map((idx) => {
-            const fill = Math.max(0, Math.min(1, score - idx)) * 100;
-            return (
-              <span key={idx} className="relative inline-block w-9 h-9 bg-[#dcdce6] rounded-[2px] overflow-hidden">
-                <span className="absolute inset-0 bg-[#8a8a00]" style={{ clipPath: `inset(0 ${100 - fill}% 0 0)` }} />
-                <svg viewBox="0 0 24 24" width="36" height="36" className="relative">
-                  <polygon points="12,4 14.5,10 21,10 15.8,13.8 17.5,20 12,16.3 6.5,20 8.2,13.8 3,10 9.5,10" fill="#fff" />
-                </svg>
-              </span>
-            );
-          })}
-        </span>
+        <img src="/images/nooro/images/Trustpilot_Stars.svg" alt="Trustpilot star rating" className="h-9" />
         <span className="text-sm text-zinc-700">
           TrustScore <b>{trustpilot.score}</b> | {trustpilot.reviewCountLabel}
         </span>
