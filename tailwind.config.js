@@ -72,6 +72,7 @@ module.exports = {
         "font_awesome_5_free": ["Font Awesome 5 Free", "sans-serif"],
         "apple_system": ["-apple-system", "BlinkMacSystemFont", "Segoe UI", "ui-sans-serif", "system-ui", "sans-serif"],
         "open_sans": ["Open Sans", "ui-sans-serif", "system-ui", "sans-serif"],
+        "merriweather": ["Merriweather", "ui-serif", "Georgia", "serif"],
         "libre_franklin": ["Libre Franklin", "ui-sans-serif", "system-ui", "sans-serif"],
         "playfair_display": ["Playfair Display", "ui-serif", "Georgia", "serif"],
         "bitter": ["Bitter", "ui-serif", "Georgia", "serif"],
