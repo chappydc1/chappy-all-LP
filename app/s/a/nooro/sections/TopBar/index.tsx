@@ -775,9 +775,10 @@ function CommentsSection({ content, media }: { content: NooroAdvertorialContent;
           <p className="text-neutral-800 text-[15px] font-bold font-montserrat md:text-xl">
             {content.comments.title}
           </p>
-          <textarea
+          <input
+            type="text"
             placeholder="Add a comment ..."
-            className="block w-full min-h-[100px] mt-2.5 mb-5 px-[15px] py-[11px] rounded-md border border-neutral-300 text-gray-800 font-open_sans resize-y"
+            className="text-gray-800 items-center block min-h-[auto] min-w-[auto] text-start w-full border-neutral-300 mt-2.5 mb-5 p-5 rounded-md border-solid font-open_sans border"
           />
           <div>
             {content.comments.items.map((comment, i) => (
