@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Figtree';
+  src: url('https://ultimapeak.com/cdn/fonts/figtree/figtree_n7.2fd9bfe01586148e644724096c9d75e8c7a90e55.woff2')
+    format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Figtree';
+  src: url('https://ultimapeak.com/cdn/fonts/figtree/figtree_n4.3c0838aba1701047e60be6a99a1b0a40ce9b8419.woff2')
+    format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('https://ultimapeak.com/cdn/shop/t/169/assets/poppins-400.woff2?v=27875960655562608641782246220')
+    format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('https://ultimapeak.com/cdn/shop/t/169/assets/poppins-700.woff2?v=4371378453314620401782246221')
+    format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Harmonia Sans W01 Regular';
+  src: url('https://ultimapeak.com/cdn/shop/t/169/assets/harmonia-sans-w01-regular.woff2?v=124628113488037387941782246215')
+    format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
