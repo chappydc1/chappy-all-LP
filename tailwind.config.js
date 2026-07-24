@@ -57,6 +57,7 @@ module.exports = {
           '"Noto Color Emoji"',
         ],
         "montserrat": ["Montserrat", "ui-sans-serif", "system-ui", "sans-serif", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"],
+        "alexandria": ["Alexandria", "Inter", "ui-sans-serif", "system-ui", "sans-serif"],
         "helvetica": ["Helvetica", "Arial", "ui-sans-serif", "system-ui", "sans-serif"],
         "pp_fragment": ["PP Fragment", "PP Fragment, Sans Regular", "ui-sans-serif", "system-ui", "sans-serif"],
         "pp_fragment_sans_regular": ["PP Fragment, Sans Regular", "ui-sans-serif", "system-ui", "sans-serif"],
