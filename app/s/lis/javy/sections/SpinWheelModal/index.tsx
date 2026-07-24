@@ -8,13 +8,25 @@ export const JavySpinWheelModal = () => {
   const [visible, setVisible] = useState(false);
 
   useEffect(() => {
-    const timer = setTimeout(() => {
+    const reveal = () => {
       setOpen(true);
       requestAnimationFrame(() => {
         requestAnimationFrame(() => setVisible(true));
       });
-    }, 1200);
-    return () => clearTimeout(timer);
+    };
+
+    const onScroll = () => {
+      const maxScroll = document.documentElement.scrollHeight - window.innerHeight;
+      if (maxScroll <= 0) return;
+      if (window.scrollY / maxScroll >= 0.65) {
+        window.removeEventListener("scroll", onScroll);
+        reveal();
+      }
+    };
+
+    window.addEventListener("scroll", onScroll, { passive: true });
+    onScroll();
+    return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
   const handleClose = () => {
