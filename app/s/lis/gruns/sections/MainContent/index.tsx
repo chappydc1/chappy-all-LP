@@ -1,6 +1,5 @@
 import { GrunsHero } from "../Hero";
 import { GrunsBenefitSection } from "../BenefitSection";
-import { GrunsBuyBoxSection } from "../BuyBoxSection";
 import { GrunsTestimonialsSection } from "../TestimonialsSection";
 import { GrunsReviewsSection } from "../ReviewsSection";
 
@@ -77,7 +76,6 @@ export const GrunsMainContent = () => {
         secondaryImageAlt="Man holding a green packet with of Grüns in a kitchen setting"
         secondaryImageClassName="object-[52.93%_37.207%]"
       />
-      <GrunsBuyBoxSection />
       <GrunsTestimonialsSection />
       <GrunsReviewsSection />
     </main>
