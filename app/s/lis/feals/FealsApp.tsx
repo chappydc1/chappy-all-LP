@@ -1,19 +1,15 @@
-import { FealsCookieConsent } from "./components/FealsCookieConsent";
 import { FealsAnnouncementBar } from "./sections/AnnouncementBar";
 import { FealsHeader } from "./sections/Header";
 import { FealsMainContent } from "./sections/MainContent";
-import { FealsLegacyFooter } from "./sections/LegacyFooter";
 import { FealsAccountModal } from "./components/FealsAccountModal";
 import { FealsCartDrawer } from "./components/FealsCartDrawer";
 
 export const FealsApp = () => {
   return (
     <>
-      <FealsCookieConsent />
       <FealsAnnouncementBar />
       <FealsHeader />
       <FealsMainContent />
-      <FealsLegacyFooter />
       <div className="box-border caret-transparent outline-[3px]"></div>
       <div className="box-border caret-transparent outline-[3px]">
         <div className="box-border caret-transparent outline-[3px]"></div>
