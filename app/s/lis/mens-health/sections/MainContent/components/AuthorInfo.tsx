@@ -224,25 +224,21 @@ export const MensHealthAuthorInfo = () => {
               </div>
             </div>
             <div className="text-sm items-center box-border caret-transparent flex shrink-0 justify-center leading-[22.4px] min-h-[auto] min-w-[auto] outline-[3px] md:text-base md:[align-items:normal] md:contents md:shrink md:justify-normal md:leading-[25.6px] md:min-h-0 md:min-w-0">
-              <button
+              <a
+                href="https://ultimapeak.com/products/ultimapeak-daily-gummies"
                 role="button"
                 className="text-white text-sm items-center bg-amber-300 caret-transparent gap-x-0 grid shrink-0 grid-cols-[repeat(1,minmax(0px,1fr))] justify-center leading-[22.4px] min-h-[auto] min-w-[auto] outline-[3px] gap-y-0 overflow-hidden mt-[15px] px-8 py-2 rounded-[29px] md:text-base md:gap-x-[normal] md:flex md:grid-cols-none md:justify-start md:leading-[25.6px] md:gap-y-[normal]"
               >
                 <div className="text-black text-xl box-border caret-transparent grow col-end-[span_1] row-end-[span_1] tracking-[2px] leading-[22px] min-h-[auto] min-w-[auto] outline-[3px] break-words md:text-base md:col-end-auto md:row-end-auto md:leading-5">
                   <span className="text-xl box-border caret-transparent leading-[22px] outline-[3px] break-words w-full md:text-base md:leading-5">
                     <p className="text-xl box-border caret-transparent leading-[22px] outline-[3px] break-words md:text-base md:leading-5">
-                      <a
-                        href="https://ultimapeak.com/products/ultimapeak-daily-gummies"
-                        className="text-xl box-border caret-transparent leading-[22px] outline-[3px] break-words md:text-base md:leading-5"
-                      >
-                        <strong className="text-xl font-bold box-border caret-transparent leading-[22px] outline-[3px] break-words md:text-base md:leading-5">
-                          VIEW OFFER
-                        </strong>
-                      </a>
+                      <strong className="text-xl font-bold box-border caret-transparent leading-[22px] outline-[3px] break-words md:text-base md:leading-5">
+                        VIEW OFFER
+                      </strong>
                     </p>
                   </span>
                 </div>
-              </button>
+              </a>
             </div>
           </div>
         </div>
@@ -429,25 +425,21 @@ export const MensHealthAuthorInfo = () => {
                 </div>
               </div>
             </div>
-            <button
+            <a
+              href="https://ultimapeak.com/products/ultimapeak-daily-gummies"
               role="button"
               className="text-white text-sm items-center self-stretch bg-amber-300 caret-transparent flex shrink-0 justify-center leading-[22.4px] min-h-[auto] min-w-[auto] outline-[3px] overflow-hidden mt-[15px] px-8 py-2 rounded-[29px] md:text-base md:self-auto md:justify-start md:leading-[25.6px]"
             >
               <div className="text-stone-950 text-base box-border caret-transparent grow-0 shrink-0 tracking-[2px] leading-5 min-h-[auto] min-w-[auto] outline-[3px] break-words text-center md:text-white md:grow md:shrink md:text-start">
                 <span className="text-stone-950 box-border caret-transparent outline-[3px] break-words text-center w-full md:text-white md:text-start">
                   <p className="text-stone-950 box-border caret-transparent outline-[3px] break-words text-center md:text-white md:text-start">
-                    <a
-                      href="https://ultimapeak.com/products/ultimapeak-daily-gummies"
-                      className="text-stone-950 box-border caret-transparent outline-[3px] break-words text-center md:text-white md:text-start"
-                    >
-                      <strong className="text-stone-950 font-bold box-border caret-transparent outline-[3px] break-words text-center md:text-white md:text-start">
-                        60 DAYS RISK-FREE TRIAL
-                      </strong>
-                    </a>
+                    <strong className="text-stone-950 font-bold box-border caret-transparent outline-[3px] break-words text-center md:text-white md:text-start">
+                      60 DAYS RISK-FREE TRIAL
+                    </strong>
                   </p>
                 </span>
               </div>
-            </button>
+            </a>
           </div>
         </div>
       </div>
