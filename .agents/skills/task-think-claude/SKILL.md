@@ -363,14 +363,15 @@ Only escalate to the user for:
 **Tool routing:**
 | URL pattern | Use | Why |
 |-------------|-----|-----|
-| `localhost:*` (dev server) | `mcp__Claude_Preview__*` | Built for local dev |
-| `ehousing.joinlita.com` (live app) | `mcp__Claude_in_Chrome__*` | Real Chrome, real cookies |
-| `saltedge.com` (bank widget) | `mcp__Claude_in_Chrome__*` | Needs full browser |
-| `mailinator.com` (OTP inbox) | `mcp__Claude_in_Chrome__navigate` | Either works |
+| `localhost:*` (dev server) | `mcp__Claude_Browser__*` | Built for local dev, no origin approval needed |
+| `lp-all-personal.vercel.app` (stable prod alias) | `mcp__Claude_Browser__*` | Same origin every time — approved once, never prompts again |
+| ephemeral preview URL (`*-<hash>-*.vercel.app`) | avoid for routine checks | New random subdomain per deploy triggers a fresh one-time browser origin-approval popup every run |
 
-- All permission prompts are pre-approved. Zero interrupts.
+- Deploying itself (git push, PR creation) never prompts — that's fully pre-authorized above.
+- The Browser pane requires a one-time human "Always allow" click the first time it visits any new origin. This is a host-level safety gate, not a Claude Code permission — it cannot be pre-approved from this file or from `settings.json`, and don't try to work around it.
+- **Default Phase 6 verification to `localhost` (dev server).** Only hit the live Vercel deployment when the task specifically requires checking the deployed build; prefer the stable production alias over a fresh per-deploy preview hash URL so the one-time approval (once granted) covers every future run instead of triggering again on each new preview.
 - Use `javascript_tool` first for DOM reads/clicks when screenshot tools are domain-blocked.
-- Before opening local preview: run `mcp__Claude_Preview__preview_list`. If no server running, start it immediately with `npm run dev`.
+- Before opening local preview: run `mcp__Claude_Browser__preview_list`. If no server running, start it immediately with `npm run dev`.
 
 ---
 
