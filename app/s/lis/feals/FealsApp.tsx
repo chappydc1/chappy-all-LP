@@ -1,4 +1,3 @@
-import { FealsCookieConsent } from "./components/FealsCookieConsent";
 import { FealsAnnouncementBar } from "./sections/AnnouncementBar";
 import { FealsHeader } from "./sections/Header";
 import { FealsMainContent } from "./sections/MainContent";
@@ -9,7 +8,6 @@ import { FealsCartDrawer } from "./components/FealsCartDrawer";
 export const FealsApp = () => {
   return (
     <>
-      <FealsCookieConsent />
       <FealsAnnouncementBar />
       <FealsHeader />
       <FealsMainContent />
