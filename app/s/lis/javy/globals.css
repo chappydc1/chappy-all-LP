@@ -2,18 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
-/* ── Scroll Reveal ────────────────────────────────────── */
-.scroll-reveal {
-  opacity: 0;
-  transform: translateY(24px);
-  transition: opacity 0.6s ease, transform 0.6s ease;
-}
-
+/* ── Scroll Reveal (disabled: content renders immediately) ── */
+.scroll-reveal,
 .scroll-reveal-visible {
   opacity: 1;
-  transform: translateY(0);
+  transform: none;
+  transition: none;
 }
 
-.scroll-reveal-visible:nth-child(2) { transition-delay: 0.1s; }
-.scroll-reveal-visible:nth-child(3) { transition-delay: 0.2s; }
-.scroll-reveal-visible:nth-child(4) { transition-delay: 0.3s; }
+/* ── Entrance animations (disabled: content renders immediately) ── */
+.animate-fade-in,
+.animate-fade-in-up {
+  animation: none !important;
+  opacity: 1 !important;
+  transform: none !important;
+}
