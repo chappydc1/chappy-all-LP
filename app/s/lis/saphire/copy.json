@@ -1,0 +1,213 @@
+{
+  "siteHeader": {
+    "title": "Natural Parent Blog",
+    "trendingLabel": "Trending in the US"
+  },
+  "hero": {
+    "titleHtml": "Parents with ADHD Kids Ditching Vyvanse &amp; Concerta After Discovering This <span class=\"highlight\">Natural Alternative</span>",
+    "authorName": "James Harper",
+    "authorTitle": "Neuropsychologist &amp; ADHD Coach · Father of 2 ADHD Kids",
+    "authorDate": "Last Updated Feb 22, 2026",
+    "calloutHtml": "<strong>Warning:</strong> Read this before next prescription refill"
+  },
+  "comparison": {
+    "labels": ["Focus & Attention", "Afternoon Crash", "Sleep", "Appetite", "Personality"],
+    "winner": {
+      "headerHtml": "Saphire Happy Chews<br>(Saffron Extract)",
+      "rows": [
+        "Supports all 4 brain pathways naturally",
+        "No spike, no crash. Steady all day",
+        "Calms nervous system. Parents report deeper sleep",
+        "Not affected. Kids eat normally",
+        "Preserved. \"My lovely boy is back\""
+      ]
+    },
+    "loser": {
+      "headerHtml": "ADHD Stimulant<br>Medications",
+      "rows": [
+        "Forces dopamine spike for 6-8 hours, then crash",
+        "Built into drug design. Rebound meltdowns at 4 PM",
+        "#1 reported side effect is insomnia. Med stacking required",
+        "FDA issued June 2025 weight loss warning for children",
+        "\"Zombie mode\" widely reported by parents"
+      ]
+    }
+  },
+  "reasons": [
+    {
+      "number": 1,
+      "titleHtml": "You've Tried Everything. <span class=\"highlight\">It Keeps Coming Back.</span>",
+      "imageAlt": "ADHD medication bottles lined up",
+      "paragraphsHtml": [
+        "You've tried Vyvanse, Ritalin, Concerta &amp; Guanfacine...and everytime the side effects came back.",
+        "You're not picking the wrong medication. It's simply just an overload...<strong>too many chemicals for their little brain to handle.</strong>"
+      ]
+    },
+    {
+      "number": 2,
+      "titleHtml": "The Teacher Gets the Angel. <span class=\"highlight\">You Get the Warzone.</span>",
+      "imageAlt": "Child after school meltdown",
+      "paragraphsHtml": [
+        "The medication kicks in when they get to school. They're in class, focused and performing well. The teacher may even email you asking what changed.",
+        "But as soon as they get home, and the medication wears off. <strong>You get the 4pm crash, the shouting, crying. Your house is a complete warzone until midnight.</strong>"
+      ]
+    },
+    {
+      "number": 3,
+      "titleHtml": "What Stimulants Actually Do to <span class=\"highlight\">Their Brain</span>",
+      "imageAlt": "Brain pathways illustration",
+      "paragraphsHtml": [
+        "ADHD isn't one problem. It's four brain pathways — dopamine, serotonin, GABA, and norepinephrine. Stimulants hammer one of them. Dopamine. That's it. The other three get nothing.",
+        "So the focus improves...but the mood swings get worse. The impulse control doesn't change. Sleep disappears. <strong>You're not seeing side effects. You're seeing <span class=\"highlight\">three parts of their brain completely unsupported</span> while one gets forced into overdrive.</strong>"
+      ]
+    },
+    {
+      "number": 4,
+      "titleHtml": "The Lunchbox Comes Home Full. <span class=\"highlight\">Every Single Day.</span>",
+      "imageAlt": "Full lunchbox untouched",
+      "paragraphsHtml": [
+        "You notice his ribs at bath time. He tells you he's not hungry. Dinner turns into a fight just to get three bites in.",
+        "In June 2025 the FDA put out a formal warning about weight loss in children on extended-release stimulants. Not a blog post. Not a mommy forum. <strong>The actual FDA confirming what you've been watching happen to your child for months.</strong>"
+      ]
+    },
+    {
+      "number": 5,
+      "titleHtml": "The Study <span class=\"highlight\">Nobody Told You About</span>",
+      "imageAlt": "Clinical study saffron vs Ritalin",
+      "paragraphsHtml": [
+        "In 2019, researchers tested saffron extract against Ritalin in a double-blind trial with ADHD kids. Same improvements in focus and behavior. Fewer side effects. Published. Peer-reviewed. Real.",
+        "Saffron. The spice. Performing on par with the Schedule II stimulant you've been crushing into applesauce every morning. <strong>Your doctor never mentioned it because nobody's making money off a plant extract.</strong>"
+      ]
+    },
+    {
+      "number": 6,
+      "titleHtml": "Everyone Says He's Doing So Well. <span class=\"highlight\">You Can See He's Disappearing.</span>",
+      "imageAlt": "Child staring blankly",
+      "paragraphsHtml": [
+        "The teacher's happy. The school stopped calling. Your husband says it's working. Everyone tells you how great he's doing.",
+        "But you're the one at home watching a kid who doesn't laugh like he used to. He's quiet. He's compliant. But the spark is gone. Something behind his eyes just...isn't there anymore. <strong>And you can't say anything because everyone around you thinks you should be grateful it's \"working.\"</strong>"
+      ]
+    },
+    {
+      "number": 7,
+      "titleHtml": "Imagine the Same Focus — <span class=\"highlight\">Without Losing Him</span>",
+      "imageAlt": "Happy child focused and smiling",
+      "paragraphsHtml": [
+        "He takes a gummy he actually asks for. No pill battle. No screaming match every morning. He focuses at school, comes home, and he's still him. Not crashing. Not hollow. Not staring at the wall.",
+        "Lunchbox comes home empty. Homework gets done without a meltdown. Bedtime takes 15 minutes instead of two hours. <strong>That's what happens when all four pathways get supported instead of one getting hammered into overdrive.</strong>"
+      ]
+    },
+    {
+      "number": 8,
+      "titleHtml": "The Science Behind <span class=\"highlight\">Why This Actually Works</span>",
+      "imageAlt": "Saffron science vs stimulants",
+      "paragraphsHtml": [
+        "Stimulants force dopamine into a spike. One pathway. Brute force. Saffron does something completely different.",
+        "It supports all four pathways at once — dopamine for focus, serotonin for mood and sleep, GABA for impulse control, norepinephrine for alertness. No spike. No crash. No pathway left behind. <strong>The brain isn't being forced into anything. It's getting what it was missing.</strong>"
+      ]
+    },
+    {
+      "number": 9,
+      "titleHtml": "You Don't Have to Stop His Medication <span class=\"highlight\">to Try This</span>",
+      "imageAlt": "Bridge approach - start alongside medication",
+      "paragraphsHtml": [
+        "Start it alongside what he's already taking. Change nothing else. Use it to smooth the crash and help with sleep. Give it 2-3 weeks. Then talk to your pediatrician.",
+        "Some parents come off medication completely. Others find a lower dose plus saffron is the sweet spot. No cold turkey. No gambling with grades. <strong>Just an <span class=\"highlight\">exit ramp</span> you didn't know existed.</strong>"
+      ]
+    },
+    {
+      "number": 10,
+      "titleHtml": "<span class=\"highlight\">18,000 Parents</span> Already Made the Switch",
+      "imageAlt": "Parents finding the exit ramp",
+      "paragraphsHtml": [
+        "They were exactly where you are. Stuck between a medication that was changing their child and a school system that would blame them if they stopped.",
+        "Meltdowns went down within 3 weeks. Teachers noticed without being told. Bedtime went from a 2-hour war to 15 minutes. <strong><span class=\"highlight\">The kid they fell in love with — back.</span></strong>"
+      ]
+    }
+  ],
+  "midCta": {
+    "headingHtml": "Saphire Happy Chews · <strong>Back to School Deal</strong>",
+    "buttonLabel": "CHECK AVAILABILITY →",
+    "timerLabel": "DEAL ENDING IN:",
+    "timerStartSeconds": 873
+  },
+  "finalCta": {
+    "label": "Back to School Deal",
+    "headline": "BUY 2 GET 1 FREE!",
+    "sub": "This limited-time deal is in high demand and stock keeps selling out.",
+    "offerLabel": "Limited Back to School Deal",
+    "priceOld": "$65.00",
+    "priceNew": "$39.95",
+    "buttonLabel": "CHECK AVAILABILITY →",
+    "timerLabel": "DEAL ENDING IN:",
+    "timerStartSeconds": 873,
+    "bottlesLeft": 24,
+    "sellOutRisk": "High",
+    "shipping": "FREE shipping",
+    "guarantee": "Try it today with a 30-Day<br>Money-Back Guarantee!"
+  },
+  "testimonials": [
+    {
+      "initials": "MJ",
+      "name": "Marian James",
+      "meta": "US · 2 reviews",
+      "date": "4 days ago",
+      "title": "I have 3 grandkids with adhd",
+      "body": "I have 3 grandkids with adhd. I am 65 and retired. Sometimes very hard to handle. I would send myself to my room instead of dealing with them. Now we are doing crafts and enjoying each other. I will keep this product on my shelf for as long as possible.",
+      "tags": ["February 2, 2026", "Unprompted review"]
+    },
+    {
+      "initials": "MH",
+      "name": "Mike Haney",
+      "meta": "US · 1 review",
+      "date": "Feb 17, 2026",
+      "title": "Our experience with the gummies has been quite remarkable.",
+      "body": "Our experience with the gummies has been quite positive so far. I take them myself to ensure safety and notice a nice calming effect. But my 7 year old son with autism has benefited greatly. His epic meltdowns have turned into 20 seconds of fight or flight reaction and much easier redirection. He is smiling much more, more affectionate, and can deal with disappointment more effectively. We also had his bloodwork tested and are supplementing his deficiencies with iron, magnesium, omegas, etc. I truly believe the saffron is crucial in his improvement. My 9 year old daughter with anxiety is also benefiting with less fixation and worry.",
+      "tags": ["February 17, 2026", "Unprompted review"]
+    },
+    {
+      "initials": "K",
+      "name": "Kerri",
+      "meta": "US · 2 reviews",
+      "date": "Feb 2, 2026",
+      "title": "They DO work",
+      "body": "We started slow, half a gummy for the first week, as he is on other medications. Maybe the second or third day into the second week (when we increased to one whole gummy) we started to notice a huge difference. My guy, was my guy! He has better control over his body and his choices and without any zombie like side effects. We are thrilled. His mood is much more balanced and he is able to stay with tasks and games long enough to finish them. Wow. Can't recommend enough.",
+      "tags": ["February 2, 2026", "Unprompted review"]
+    },
+    {
+      "initials": "JB",
+      "name": "Jonna Burgener",
+      "meta": "US · 1 review",
+      "date": "Jan 30, 2026",
+      "title": "My 14 y/o son loves them..have noticed a significant difference",
+      "body": "My 14 y/o son loves them..have noticed a significant difference in his mood since he started taking them.",
+      "tags": ["January 30, 2026", "Unprompted review"]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Can my child take this alongside current medication?",
+      "answer": "Yes. Thousands start alongside existing meds. After 2-3 weeks, they work with their pediatrician on next steps."
+    },
+    {
+      "question": "How is this different from supplements I've tried?",
+      "answer": "ADHD involves 4 brain pathways. Most supplements target 1 at best. Saffron supports all four simultaneously."
+    },
+    {
+      "question": "What does the research show?",
+      "answer": "2019 double-blind trial. Saffron vs. methylphenidate. Comparable improvements, fewer side effects. Peer-reviewed."
+    },
+    {
+      "question": "How fast does it work?",
+      "answer": "Most parents see changes within 2-3 weeks."
+    },
+    {
+      "question": "What if it doesn't work?",
+      "answer": "30-day money-back guarantee. No questions asked."
+    }
+  ],
+  "disclaimer": [
+    "These statements have not been evaluated by the FDA. This product is not intended to diagnose, treat, cure, or prevent any disease. Consult your child's doctor before starting any supplement or changing medication.",
+    "© 2026 Saphire. All Rights Reserved."
+  ]
+}
