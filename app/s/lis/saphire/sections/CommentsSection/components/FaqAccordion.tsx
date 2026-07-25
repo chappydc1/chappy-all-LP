@@ -15,20 +15,23 @@ export function FaqAccordion() {
       </h2>
       {faq.map((item, index) => {
         const isOpen = openIndex === index;
+        const panelId = `faq-panel-${index}`;
         return (
-          <div
-            key={item.question}
-            className="cursor-pointer border-b border-[#fde8c8] py-3.5 md:py-[15px]"
-            onClick={() => setOpenIndex(isOpen ? null : index)}
-          >
-            <div className="flex min-h-11 items-start justify-between gap-2.5 text-base font-bold text-black md:min-h-0 md:items-center md:text-lg">
+          <div key={item.question} className="border-b border-[#fde8c8] py-3.5 md:py-[15px]">
+            <button
+              type="button"
+              className="flex w-full min-h-11 cursor-pointer items-start justify-between gap-2.5 text-left text-base font-bold text-black md:min-h-0 md:items-center md:text-lg"
+              aria-expanded={isOpen}
+              aria-controls={panelId}
+              onClick={() => setOpenIndex(isOpen ? null : index)}
+            >
               <span>{item.question}</span>
               <span className="-mt-0.5 shrink-0 text-[22px] font-light md:mt-0 md:text-2xl">
                 {isOpen ? "−" : "+"}
               </span>
-            </div>
+            </button>
             {isOpen && (
-              <div className="pt-2.5 text-sm leading-[1.6] text-[#555] md:text-base">
+              <div id={panelId} className="pt-2.5 text-sm leading-[1.6] text-[#555] md:text-base">
                 {item.answer}
               </div>
             )}
