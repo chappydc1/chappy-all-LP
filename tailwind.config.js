@@ -7,6 +7,13 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        "adv-orange": "#fd990c",
+        "adv-orange-dark": "#e6772e",
+        "adv-navy": "#1a1a2e",
+        "adv-red": "#d30000",
+        "adv-cross": "#d32f2f",
+        "adv-check": "#2e7d32",
+        "adv-trustpilot": "#00b67a",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
