@@ -85,7 +85,7 @@ export const GrunsMainContent = () => {
             href="#offers"
             className="text-white text-lg font-semibold items-center bg-green-700 box-border caret-transparent flex h-14 justify-center tracking-[-0.54px] leading-[28.8px] outline-[3px] w-full px-8 rounded-[3.35544e+07px]"
           >
-            Buy Now
+            Save 52% + Free Shipping
           </a>
         </div>
       </section>
