@@ -1,6 +1,5 @@
 import { GrunsHero } from "../Hero";
 import { GrunsBenefitSection } from "../BenefitSection";
-import { GrunsBuyBoxSection } from "../BuyBoxSection";
 import { GrunsTestimonialsSection } from "../TestimonialsSection";
 import { GrunsReviewsSection } from "../ReviewsSection";
 
@@ -77,7 +76,19 @@ export const GrunsMainContent = () => {
         secondaryImageAlt="Man holding a green packet with of Grüns in a kitchen setting"
         secondaryImageClassName="object-[52.93%_37.207%]"
       />
-      <GrunsBuyBoxSection />
+      <section
+        id="offers"
+        className="bg-white box-border caret-transparent outline-[3px] p-5 md:py-10"
+      >
+        <div className="box-border caret-transparent max-w-[420px] outline-[3px] mx-auto">
+          <a
+            href="#offers"
+            className="text-white text-lg font-semibold items-center bg-green-700 box-border caret-transparent flex h-14 justify-center tracking-[-0.54px] leading-[28.8px] outline-[3px] w-full px-8 rounded-[3.35544e+07px]"
+          >
+            Save 52% + Free Shipping
+          </a>
+        </div>
+      </section>
       <GrunsTestimonialsSection />
       <GrunsReviewsSection />
     </main>
