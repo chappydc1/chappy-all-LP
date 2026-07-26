@@ -9,7 +9,7 @@ export const GrunsHeroTopBar = () => {
           <br className="text-base box-border caret-transparent leading-[19.2px] outline-[3px] md:text-xl md:leading-6" />
           <strong className="text-amber-400 text-base box-border caret-transparent leading-[19.2px] outline-[3px] md:text-xl md:leading-6">
             Get 52% off + free shipping
-          </strong>
+          </strong>{" "}
           on your first order
         </p>
       </div>
