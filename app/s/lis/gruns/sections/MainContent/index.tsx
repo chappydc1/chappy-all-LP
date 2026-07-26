@@ -78,14 +78,16 @@ export const GrunsMainContent = () => {
       />
       <section
         id="offers"
-        className="bg-white box-border caret-transparent flex justify-center outline-[3px] p-5 md:py-10"
+        className="bg-white box-border caret-transparent outline-[3px] p-5 md:py-10"
       >
-        <a
-          href="#offers"
-          className="text-white text-lg font-semibold items-center bg-green-700 box-border caret-transparent flex h-14 justify-center tracking-[-0.54px] leading-[28.8px] outline-[3px] px-10 rounded-[3.35544e+07px]"
-        >
-          Buy Now
-        </a>
+        <div className="box-border caret-transparent max-w-[420px] outline-[3px] mx-auto">
+          <a
+            href="#offers"
+            className="text-white text-lg font-semibold items-center bg-green-700 box-border caret-transparent flex h-14 justify-center tracking-[-0.54px] leading-[28.8px] outline-[3px] w-full px-8 rounded-[3.35544e+07px]"
+          >
+            Buy Now
+          </a>
+        </div>
       </section>
       <GrunsTestimonialsSection />
       <GrunsReviewsSection />
