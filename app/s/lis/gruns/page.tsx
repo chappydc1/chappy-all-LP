@@ -2,7 +2,6 @@
 
 import { GrunsAccessibilityWidgets } from "./components/GrunsAccessibilityWidgets";
 import { GrunsMainContent } from "./sections/MainContent";
-import { GrunsFooter } from "./sections/Footer";
 import { GrunsHeroTopBar } from "./sections/Hero/components/GrunsHeroTopBar";
 import { GrunsCartDrawer } from "./components/GrunsCartDrawer";
 import { GrunsModals } from "./components/GrunsModals";
@@ -49,7 +48,6 @@ export default function GrunsLandingPage() {
       />
       <GrunsHeroTopBar />
       <GrunsMainContent />
-      <GrunsFooter />
       <div className="box-border caret-transparent grow max-w-full outline-[3px]">
         <span className="box-border caret-transparent outline-[3px]"></span>
       </div>
