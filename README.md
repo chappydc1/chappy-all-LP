@@ -1,14 +1,47 @@
-<div align="center">
+<a name="top"></a>
 
 # LP Template Library
 
-**35 production-ready landing pages. 6 formats. One codebase.**
+[![framework](https://img.shields.io/badge/framework-Next.js%2015-000000)](https://nextjs.org)
+[![language](https://img.shields.io/badge/language-TypeScript-3178C6)](https://www.typescriptlang.org)
+[![styling](https://img.shields.io/badge/styling-Tailwind%20CSS-06B6D4)](https://tailwindcss.com)
+[![pkg manager](https://img.shields.io/badge/pkg%20manager-pnpm-F69220)](https://pnpm.io)
+[![pages](https://img.shields.io/badge/pages-35%20templates-2ea44f)](#-page-formats)
+[![formats](https://img.shields.io/badge/formats-6%20types-7C3AED)](#-page-formats)
+[![GitHub last commit](https://img.shields.io/github/last-commit/chappydc1/lp-all-personal)](#)
+[![license](https://img.shields.io/badge/license-private-lightgrey)](#)
 
-</div>
+⭐ Star us on GitHub — your support keeps the build moving!
+
+[![Share on X](https://img.shields.io/badge/share-000000?logo=x&logoColor=white)](https://x.com/intent/tweet?text=35%20production-ready%20DTC%20landing%20pages%20in%20one%20Next.js%2015%20codebase%3A%20https%3A%2F%2Fgithub.com%2Fchappydc1%2Flp-all-personal%20%23landingpages%20%23DTC%20%23NextJS)
+[![Share on Facebook](https://img.shields.io/badge/share-1877F2?logo=facebook&logoColor=white)](https://www.facebook.com/sharer/sharer.php?u=https://github.com/chappydc1/lp-all-personal)
+[![Share on LinkedIn](https://img.shields.io/badge/share-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/sharing/share-offsite/?url=https://github.com/chappydc1/lp-all-personal)
+[![Share on Reddit](https://img.shields.io/badge/share-FF4500?logo=reddit&logoColor=white)](https://www.reddit.com/submit?title=35%20production-ready%20DTC%20landing%20pages%20in%20one%20Next.js%2015%20codebase&url=https://github.com/chappydc1/lp-all-personal)
+[![Share on Telegram](https://img.shields.io/badge/share-0088CC?logo=telegram&logoColor=white)](https://t.me/share/url?url=https://github.com/chappydc1/lp-all-personal&text=35%20production-ready%20DTC%20landing%20pages%20in%20one%20Next.js%2015%20codebase)
+
+**35 production-ready landing pages. 6 formats. One codebase. Fork a folder, swap the JSON, ship.**
 
 ---
 
-## Quick Links — www.northlinemd.com
+## Table of Contents
+
+- [Production Links](#-production-links)
+- [Dev Links](#-dev-links)
+- [Page Formats](#-page-formats)
+- [Advertorial](#-advertorial-sa)
+- [Comparison](#-comparison-scom)
+- [Listicle](#-listicle-slis)
+- [Quiz](#-quiz-sq)
+- [Sales Page](#-sales-page-ssal)
+- [VSL](#-vsl-svsl)
+- [Spin Up a New Page](#-spin-up-a-new-page)
+- [Developer Guide](#-developer-guide)
+
+---
+
+## 🌐 Production Links
+
+Live pages on **www.northlinemd.com**:
 
 **Advertorial** &nbsp;
 [derila](https://www.northlinemd.com/s/a/derila) &nbsp;|&nbsp;
@@ -57,7 +90,9 @@
 
 ---
 
-## Quick Links — localhost:3000
+## 🖥 Dev Links
+
+Local pages on **localhost:3000**:
 
 **Advertorial** &nbsp;
 [derila](http://localhost:3000/s/a/derila) &nbsp;|&nbsp;
@@ -116,33 +151,15 @@
 [pinksalt](http://localhost:3000/s/vsl/pinksalt) &nbsp;|&nbsp;
 [today](http://localhost:3000/s/vsl/today)
 
-### Top Advertorials by Type
-
-**Spartan type** &nbsp;
-[spartan](http://localhost:3000/s/a/spartan) &nbsp;|&nbsp;
-[nooro](http://localhost:3000/s/a/nooro) &nbsp;|&nbsp;
-[nexa](http://localhost:3000/s/a/nexa) &nbsp;|&nbsp;
-[nebroo-v1](http://localhost:3000/s/a/nebroo-v1)
-
-**News type** &nbsp;
-[jevawell](http://localhost:3000/s/a/jevawell) &nbsp;|&nbsp;
-[elavyn](http://localhost:3000/s/a/elavyn)
+**Top Advertorials by Type** &nbsp;
+Spartan: [spartan](http://localhost:3000/s/a/spartan) &nbsp;|&nbsp; [nooro](http://localhost:3000/s/a/nooro) &nbsp;|&nbsp; [nexa](http://localhost:3000/s/a/nexa) &nbsp;|&nbsp; [nebroo-v1](http://localhost:3000/s/a/nebroo-v1) &nbsp;&nbsp;
+News: [jevawell](http://localhost:3000/s/a/jevawell) &nbsp;|&nbsp; [elavyn](http://localhost:3000/s/a/elavyn)
 
 ---
 
-<div align="center">
+## 📋 Page Formats
 
-# LP Template Library
-
-**35 production-ready landing pages. 6 formats. One codebase.**
-
-Advertorials | Comparisons | Listicles | Quizzes | Sales Pages | VSLs
-
-</div>
-
----
-
-Every template lives at `app/s/<type>/<slug>/` — fully self-contained with its own copy, media, components, and sections. Fork a folder, swap the JSON, ship.
+Every template lives at `app/s/<type>/<slug>/` — fully self-contained with its own copy, media, components, and sections.
 
 ```
 app/s/
@@ -158,23 +175,23 @@ app/s/
 
 ---
 
-## Advertorial `/s/a/`
+## 📰 Advertorial `/s/a/`
 
 | Route | Brand | Hook | Source |
 |---|---|---|---|
-| [`/s/a/derila`](app/s/a/derila/) | **Derila** | Memory foam pillow for over-50s — wake up with no tension headaches | [derila](https://derila.com/articles/wake-up-refreshed?c=CAD&l=en&vndr=derfbdov) |
-| [`/s/a/healthinsider-gynocologist`](app/s/a/healthinsider-gynocologist/) | **Healthinsider** | Gynecologist tests 5 menopause supplements — only 1 worked for weight loss | [Healthinsider](https://healthinsider.news/gynecologists-tested-best-supplements-on-patients-to-reduce-cortisol-meno-supplements-en/) |
-| [`/s/a/hear`](app/s/a/hear/) | **hear.com** | The tiny German hearing aid taking the U.S. by storm — 540k happy customers | [Hear](https://www.hear.com/d/best_hearing_aids_dis01) |
-| [`/s/a/jevawell`](app/s/a/jevawell/) | **Jevawell** | Vascular specialist exposes the $18B vein industry secret — daily edema gummy | [Jevawell](https://jevawell.com/pages/adv-1) |
-| [`/s/a/morningvitality`](app/s/a/morningvitality/) | **Morning Vitality** | Top MD: rub this 1 mineral on your hips for sciatic nerve relief | [Morning Vitality](https://health.morningvitality.com/xe/bt1t/) |
-| [`/s/a/nebroo-v1`](app/s/a/nebroo-v1/) | **Nebroo** | Why did I lose my hearing and what can I do? — CIC hearing aid editorial | [Nebroo](https://offer.nebroo.com/advert-v1-3) |
-| [`/s/a/spartan`](app/s/a/spartan/) | **Spartan** | The cellular mechanism behind energy decline in your 40s — clinical-trial framing | [health](https://healthguidancedaily.com/s/a/why-high-performers-crash) |
+| [`/s/a/derila`](app/s/a/derila/) | **Derila** | Memory foam pillow for over-50s — wake up with no tension headaches | [derila.com](https://derila.com/articles/wake-up-refreshed?c=CAD&l=en&vndr=derfbdov) |
+| [`/s/a/healthinsider-gynocologist`](app/s/a/healthinsider-gynocologist/) | **Healthinsider** | Gynecologist tests 5 menopause supplements — only 1 worked for weight loss | [healthinsider.news](https://healthinsider.news/gynecologists-tested-best-supplements-on-patients-to-reduce-cortisol-meno-supplements-en/) |
+| [`/s/a/hear`](app/s/a/hear/) | **hear.com** | The tiny German hearing aid taking the U.S. by storm — 540k happy customers | [hear.com](https://www.hear.com/d/best_hearing_aids_dis01) |
+| [`/s/a/jevawell`](app/s/a/jevawell/) | **Jevawell** | Vascular specialist exposes the $18B vein industry secret — daily edema gummy | [jevawell.com](https://jevawell.com/pages/adv-1) |
+| [`/s/a/morningvitality`](app/s/a/morningvitality/) | **Morning Vitality** | Top MD: rub this 1 mineral on your hips for sciatic nerve relief | [morningvitality.com](https://health.morningvitality.com/xe/bt1t/) |
+| [`/s/a/nebroo-v1`](app/s/a/nebroo-v1/) | **Nebroo** | Why did I lose my hearing and what can I do? — CIC hearing aid editorial | [nebroo.com](https://offer.nebroo.com/advert-v1-3) |
+| [`/s/a/spartan`](app/s/a/spartan/) | **Spartan** | The cellular mechanism behind energy decline in your 40s — clinical-trial framing | [healthguidancedaily.com](https://healthguidancedaily.com/s/a/why-high-performers-crash) |
 | [`/s/a/today`](app/s/a/today/) | **Today / SugarHealth** | Metabolic support editorial in Today-show news style | Today advertorial |
-| [`/s/a/zikeey`](app/s/a/zikeey/) | **Zikeey / Sherum ErgoSeat** | If you are painful when you sit, you should read this — ergonomic cushion review | [Ziikey](https://zikeey.com/me/new/Sherum/memory-foam-seat-cushion/view12776) |
+| [`/s/a/zikeey`](app/s/a/zikeey/) | **Zikeey / Sherum ErgoSeat** | If you are painful when you sit, you should read this — ergonomic cushion review | [zikeey.com](https://zikeey.com/me/new/Sherum/memory-foam-seat-cushion/view12776) |
 
 ---
 
-## Comparison `/s/com/`
+## 📊 Comparison `/s/com/`
 
 | Route | Brand | Hook | Source |
 |---|---|---|---|
@@ -184,14 +201,14 @@ app/s/
 
 ---
 
-## Listicle `/s/lis/`
+## 📝 Listicle `/s/lis/`
 
 | Route | Brand | Hook | Source |
 |---|---|---|---|
 | [`/s/lis/brez`](app/s/lis/brez/) | **BRĒZ** | 6 reasons Americans are ditching alcohol for BRĒZ — hemp + Lion's Mane | BRĒZ listicle ad |
 | [`/s/lis/feals`](app/s/lis/feals/) | **Feals** | Get the relaxing buzz without the hangover, calories, or regret | Feals listicle |
 | [`/s/lis/gruns`](app/s/lis/gruns/) | **Grüns** | 6 reasons why Grüns is your gut's new bestie — 60+ ingredients in a gummy | Grüns listicle |
-| [`/s/lis/hike`](app/s/lis/hike/) | **Hike Footwear** | Why Americans over 50 are switching to these pain-relieving barefoot shoes | [animaapp.com/mpkdc2w7URxoYV](https://c.animaapp.com/mpkdc2w7URxoYV) |
+| [`/s/lis/hike`](app/s/lis/hike/) | **Hike Footwear** | Why Americans over 50 are switching to these pain-relieving barefoot shoes | [animaapp.com](https://c.animaapp.com/mpkdc2w7URxoYV) |
 | [`/s/lis/javy`](app/s/lis/javy/) | **Javy** | 11 reasons this high-protein iced coffee is the #1 trending drink for Spring 2026 | Javy LP |
 | [`/s/lis/jones`](app/s/lis/jones/) | **Jones Road Beauty** | What The Foundation — flawless look, barely-there feel | Jones Road Beauty LP |
 | [`/s/lis/kachava`](app/s/lis/kachava/) | **Ka'Chava** | 9 reasons why people love this shake — plant-based all-in-one nutrition | Ka'Chava listicle |
@@ -199,7 +216,7 @@ app/s/
 
 ---
 
-## Quiz `/s/q/`
+## 🧪 Quiz `/s/q/`
 
 | Route | Brand | Hook | Source |
 |---|---|---|---|
@@ -209,7 +226,7 @@ app/s/
 
 ---
 
-## Sales Page `/s/sal/`
+## 🛒 Sales Page `/s/sal/`
 
 | Route | Brand | Hook | Source |
 |---|---|---|---|
@@ -220,14 +237,14 @@ app/s/
 
 ---
 
-## VSL `/s/vsl/`
+## 🎬 VSL `/s/vsl/`
 
 | Route | Brand | Hook | Source |
 |---|---|---|---|
 | [`/s/vsl/abc-news`](app/s/vsl/abc-news/) | **ABC News** | Breaking-news editorial wrapper around a VSL | ABC News editorial style |
 | [`/s/vsl/diabetes`](app/s/vsl/diabetes/) | **GlycoCept** | Harvard MD reveals the natural honey blend reversing Type 2 diabetes in 21 days | GlycoCept VSL |
 | [`/s/vsl/emma`](app/s/vsl/emma/) | **Emma** | "Do this once a day to empty your bowels like clockwork" — gut renewal formula | Emma VSL |
-| [`/s/vsl/getokinawatonic`](app/s/vsl/getokinawatonic/) | **Okinawa Tonic** | Weight loss tonic VSL — desktop + mobile video covers, multi-tier order section | [getokinawatonic.com/sp-vsl-1](https://getokinawatonic.com/sp-vsl-1/) |
+| [`/s/vsl/getokinawatonic`](app/s/vsl/getokinawatonic/) | **Okinawa Tonic** | Weight loss tonic VSL — desktop + mobile video covers, multi-tier order section | [getokinawatonic.com](https://getokinawatonic.com/sp-vsl-1/) |
 | [`/s/vsl/glycoflush`](app/s/vsl/glycoflush/) | **GlycoFlush** | Claim your discounted GlycoLean now — blood sugar VSL | GlycoFlush VSL |
 | [`/s/vsl/oprah`](app/s/vsl/oprah/) | **HEALTH** | Celebrity-endorsed weight loss VSL with starter / value / best-value tier order | Oprah-style VSL |
 | [`/s/vsl/pinksalt`](app/s/vsl/pinksalt/) | **Pink Salt** | The 4-ingredient recipe celebrities use to drop up to 14 lbs in 10 days | Pink Salt VSL |
@@ -235,7 +252,7 @@ app/s/
 
 ---
 
-## Spin up a new page
+## 🚀 Spin Up a New Page
 
 ```bash
 cp -R app/s/sal/nuz/neck-pain app/s/sal/<brand>/<campaign>
@@ -249,8 +266,19 @@ Route wires up automatically — add `page.tsx` pointing to your `LandingPage` e
 
 ---
 
-<div align="center">
+## 📚 Developer Guide
 
-[`AGENTS.md`](AGENTS.md) - full developer guide &nbsp;|&nbsp; [`CHANGELOG.md`](CHANGELOG.md) - history
+- [`AGENTS.md`](AGENTS.md) — full developer guide: project structure, dev commands, key files, troubleshooting
+- [`CHANGELOG.md`](CHANGELOG.md) — release history
 
-</div>
+**Dev commands** (from repo root):
+
+```bash
+pnpm dev       # Start development server on http://localhost:3000
+pnpm build     # Production build — also serves as validation (no test runner)
+pnpm start     # Serve the production build
+```
+
+---
+
+[↑ Back to top](#top)
