@@ -86,7 +86,11 @@ module.exports = {
         "figtree": ["Figtree", "ui-sans-serif", "system-ui", "sans-serif"],
         "arial": ["Arial", "Helvetica", "ui-sans-serif", "system-ui", "sans-serif"],
         "ui_sans_serif": ["ui-sans-serif", "system-ui", "sans-serif"],
-        "harmonia_sans_w01_regular": ["Harmonia Sans W01 Regular", "ui-sans-serif", "system-ui", "sans-serif"]
+        "harmonia_sans_w01_regular": ["Harmonia Sans W01 Regular", "ui-sans-serif", "system-ui", "sans-serif"],
+        "muli": ["Muli", "ui-sans-serif", "system-ui", "sans-serif"],
+        "suisse_intl": ["Suisse Intl", "ui-sans-serif", "system-ui", "sans-serif"],
+        "gilroy_bold": ["Gilroy-Bold", "ui-sans-serif", "system-ui", "sans-serif"],
+        "gilroy_medium": ["Gilroy-Medium", "ui-sans-serif", "system-ui", "sans-serif"]
       },
       keyframes: {
         "accordion-down": {
