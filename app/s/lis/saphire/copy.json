@@ -4,7 +4,7 @@
     "trendingLabel": "Trending in the US"
   },
   "hero": {
-    "titleHtml": "Parents with ADHD Kids Ditching Vyvanse &amp; Concerta After Discovering This <span class=\"highlight\">Natural Alternative</span>",
+    "titleHtml": "Parents with ADHD Kids Ditching Vyvanse &amp; Concerta After Discovering This <span class='highlight'>Natural Alternative</span>",
     "authorName": "James Harper",
     "authorTitle": "Neuropsychologist &amp; ADHD Coach · Father of 2 ADHD Kids",
     "authorDate": "Last Updated Feb 22, 2026",
@@ -19,7 +19,7 @@
         "No spike, no crash. Steady all day",
         "Calms nervous system. Parents report deeper sleep",
         "Not affected. Kids eat normally",
-        "Preserved. \"My lovely boy is back\""
+        "Preserved. 'My lovely boy is back'"
       ]
     },
     "loser": {
@@ -29,14 +29,14 @@
         "Built into drug design. Rebound meltdowns at 4 PM",
         "#1 reported side effect is insomnia. Med stacking required",
         "FDA issued June 2025 weight loss warning for children",
-        "\"Zombie mode\" widely reported by parents"
+        "'Zombie mode' widely reported by parents"
       ]
     }
   },
   "reasons": [
     {
       "number": 1,
-      "titleHtml": "You've Tried Everything. <span class=\"highlight\">It Keeps Coming Back.</span>",
+      "titleHtml": "You've Tried Everything. <span class='highlight'>It Keeps Coming Back.</span>",
       "imageAlt": "ADHD medication bottles lined up",
       "paragraphsHtml": [
         "You've tried Vyvanse, Ritalin, Concerta &amp; Guanfacine...and everytime the side effects came back.",
@@ -45,7 +45,7 @@
     },
     {
       "number": 2,
-      "titleHtml": "The Teacher Gets the Angel. <span class=\"highlight\">You Get the Warzone.</span>",
+      "titleHtml": "The Teacher Gets the Angel. <span class='highlight'>You Get the Warzone.</span>",
       "imageAlt": "Child after school meltdown",
       "paragraphsHtml": [
         "The medication kicks in when they get to school. They're in class, focused and performing well. The teacher may even email you asking what changed.",
@@ -54,16 +54,16 @@
     },
     {
       "number": 3,
-      "titleHtml": "What Stimulants Actually Do to <span class=\"highlight\">Their Brain</span>",
+      "titleHtml": "What Stimulants Actually Do to <span class='highlight'>Their Brain</span>",
       "imageAlt": "Brain pathways illustration",
       "paragraphsHtml": [
         "ADHD isn't one problem. It's four brain pathways — dopamine, serotonin, GABA, and norepinephrine. Stimulants hammer one of them. Dopamine. That's it. The other three get nothing.",
-        "So the focus improves...but the mood swings get worse. The impulse control doesn't change. Sleep disappears. <strong>You're not seeing side effects. You're seeing <span class=\"highlight\">three parts of their brain completely unsupported</span> while one gets forced into overdrive.</strong>"
+        "So the focus improves...but the mood swings get worse. The impulse control doesn't change. Sleep disappears. <strong>You're not seeing side effects. You're seeing <span class='highlight'>three parts of their brain completely unsupported</span> while one gets forced into overdrive.</strong>"
       ]
     },
     {
       "number": 4,
-      "titleHtml": "The Lunchbox Comes Home Full. <span class=\"highlight\">Every Single Day.</span>",
+      "titleHtml": "The Lunchbox Comes Home Full. <span class='highlight'>Every Single Day.</span>",
       "imageAlt": "Full lunchbox untouched",
       "paragraphsHtml": [
         "You notice his ribs at bath time. He tells you he's not hungry. Dinner turns into a fight just to get three bites in.",
@@ -72,7 +72,7 @@
     },
     {
       "number": 5,
-      "titleHtml": "The Study <span class=\"highlight\">Nobody Told You About</span>",
+      "titleHtml": "The Study <span class='highlight'>Nobody Told You About</span>",
       "imageAlt": "Clinical study saffron vs Ritalin",
       "paragraphsHtml": [
         "In 2019, researchers tested saffron extract against Ritalin in a double-blind trial with ADHD kids. Same improvements in focus and behavior. Fewer side effects. Published. Peer-reviewed. Real.",
@@ -81,16 +81,16 @@
     },
     {
       "number": 6,
-      "titleHtml": "Everyone Says He's Doing So Well. <span class=\"highlight\">You Can See He's Disappearing.</span>",
+      "titleHtml": "Everyone Says He's Doing So Well. <span class='highlight'>You Can See He's Disappearing.</span>",
       "imageAlt": "Child staring blankly",
       "paragraphsHtml": [
         "The teacher's happy. The school stopped calling. Your husband says it's working. Everyone tells you how great he's doing.",
-        "But you're the one at home watching a kid who doesn't laugh like he used to. He's quiet. He's compliant. But the spark is gone. Something behind his eyes just...isn't there anymore. <strong>And you can't say anything because everyone around you thinks you should be grateful it's \"working.\"</strong>"
+        "But you're the one at home watching a kid who doesn't laugh like he used to. He's quiet. He's compliant. But the spark is gone. Something behind his eyes just...isn't there anymore. <strong>And you can't say anything because everyone around you thinks you should be grateful it's 'working.'</strong>"
       ]
     },
     {
       "number": 7,
-      "titleHtml": "Imagine the Same Focus — <span class=\"highlight\">Without Losing Him</span>",
+      "titleHtml": "Imagine the Same Focus — <span class='highlight'>Without Losing Him</span>",
       "imageAlt": "Happy child focused and smiling",
       "paragraphsHtml": [
         "He takes a gummy he actually asks for. No pill battle. No screaming match every morning. He focuses at school, comes home, and he's still him. Not crashing. Not hollow. Not staring at the wall.",
@@ -99,7 +99,7 @@
     },
     {
       "number": 8,
-      "titleHtml": "The Science Behind <span class=\"highlight\">Why This Actually Works</span>",
+      "titleHtml": "The Science Behind <span class='highlight'>Why This Actually Works</span>",
       "imageAlt": "Saffron science vs stimulants",
       "paragraphsHtml": [
         "Stimulants force dopamine into a spike. One pathway. Brute force. Saffron does something completely different.",
@@ -108,20 +108,20 @@
     },
     {
       "number": 9,
-      "titleHtml": "You Don't Have to Stop His Medication <span class=\"highlight\">to Try This</span>",
+      "titleHtml": "You Don't Have to Stop His Medication <span class='highlight'>to Try This</span>",
       "imageAlt": "Bridge approach - start alongside medication",
       "paragraphsHtml": [
         "Start it alongside what he's already taking. Change nothing else. Use it to smooth the crash and help with sleep. Give it 2-3 weeks. Then talk to your pediatrician.",
-        "Some parents come off medication completely. Others find a lower dose plus saffron is the sweet spot. No cold turkey. No gambling with grades. <strong>Just an <span class=\"highlight\">exit ramp</span> you didn't know existed.</strong>"
+        "Some parents come off medication completely. Others find a lower dose plus saffron is the sweet spot. No cold turkey. No gambling with grades. <strong>Just an <span class='highlight'>exit ramp</span> you didn't know existed.</strong>"
       ]
     },
     {
       "number": 10,
-      "titleHtml": "<span class=\"highlight\">18,000 Parents</span> Already Made the Switch",
+      "titleHtml": "<span class='highlight'>18,000 Parents</span> Already Made the Switch",
       "imageAlt": "Parents finding the exit ramp",
       "paragraphsHtml": [
         "They were exactly where you are. Stuck between a medication that was changing their child and a school system that would blame them if they stopped.",
-        "Meltdowns went down within 3 weeks. Teachers noticed without being told. Bedtime went from a 2-hour war to 15 minutes. <strong><span class=\"highlight\">The kid they fell in love with — back.</span></strong>"
+        "Meltdowns went down within 3 weeks. Teachers noticed without being told. Bedtime went from a 2-hour war to 15 minutes. <strong><span class='highlight'>The kid they fell in love with — back.</span></strong>"
       ]
     }
   ],

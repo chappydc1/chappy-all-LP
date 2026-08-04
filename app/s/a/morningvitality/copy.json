@@ -19,9 +19,9 @@
       { "type": "paragraph", "text": "I'm about to piss off every pain management doctor, spine surgeon, and pharmaceutical company in America." },
       { "type": "paragraph", "text": "Because what I'm about to share could cost them MILLIONS in lost revenue." },
       { "type": "paragraph", "text": "But I don't care anymore." },
-      { "type": "paragraph", "text": "After watching my patient Helen write \"I CAN'T DO THIS ANYMORE\" in all caps on her follow-up survey..." },
+      { "type": "paragraph", "text": "After watching my patient Helen write 'I CAN'T DO THIS ANYMORE' in all caps on her follow-up survey..." },
       { "type": "paragraph", "text": "After seeing her describe waking up at 2:00 AM, trapped on the edge of her bed... unable to move because her sciatic nerve was firing like a blowtorch down her leg..." },
-      { "type": "paragraph", "text": "After watching the \"experts\" pump her full of opioids, stab her with $1,500 injections that lasted about as long as the drive home, and try to sell her a $65,000 surgery with a 40% failure rate..." },
+      { "type": "paragraph", "text": "After watching the 'experts' pump her full of opioids, stab her with $1,500 injections that lasted about as long as the drive home, and try to sell her a $65,000 surgery with a 40% failure rate..." },
       { "type": "paragraph", "bold": true, "text": "I knew the system had failed her." },
       { "type": "paragraph", "text": "So I went rogue and discovered something that changed everything." },
       { "type": "paragraph", "text": "And if you're reading this limping around, popping gabapentin like candy, or sleeping in a recliner because lying flat feels like torture..." },
@@ -38,14 +38,14 @@
       { "type": "h2", "text": "THE NIGHT EVERYTHING CHANGED…" },
       { "type": "image", "key": "section_night" },
       { "type": "paragraph", "text": "I was in my office late on a Thursday night. Going through patient surveys from the week." },
-      { "type": "paragraph", "text": "Most of them were pretty standard. \"The exercises helped a little.\" \"Still managing the pain.\"" },
+      { "type": "paragraph", "text": "Most of them were pretty standard. 'The exercises helped a little.' 'Still managing the pain.'" },
       { "type": "paragraph", "text": "Then I got to Helen's. And my stomach dropped." },
       { "type": "paragraph", "segments": [
         { "text": "She'd written in all caps: " },
-        { "text": "\"I CAN'T DO THIS ANYMORE.\"", "bold": true }
+        { "text": "'I CAN'T DO THIS ANYMORE.'", "bold": true }
       ]},
-      { "type": "paragraph", "text": "Not \"the pain is bad.\" Not \"I'm struggling.\"" },
-      { "type": "paragraph", "bold": true, "text": "\"I CAN'T DO THIS ANYMORE.\"" },
+      { "type": "paragraph", "text": "Not 'the pain is bad.' Not 'I'm struggling.'" },
+      { "type": "paragraph", "bold": true, "text": "'I CAN'T DO THIS ANYMORE.'" },
       { "type": "paragraph", "text": "She described waking up at 2:47 AM. Unable to move. Her sciatic nerve firing so hard she couldn't even rotate her hips to stand." },
       { "type": "paragraph", "text": "Just... stuck there. On the edge of her bed. In agony. Crying. Alone." },
       { "type": "paragraph", "text": "Thinking about ending it all because she couldn't take one more night of this torture." },
@@ -77,7 +77,7 @@
       { "type": "paragraph", "text": "A $90 billion dollar lie that keeps you sick, desperate, and reaching for your wallet." },
       { "type": "paragraph", "text": "Here's what they don't want you to know:" },
       { "type": "paragraph", "text": "95% of sciatic nerve pain has NOTHING to do with your bulging disc." },
-      { "type": "paragraph", "text": "It's not about your \"pinched nerve.\" It's not about \"permanent damage.\" It's not about \"learning to live with it.\"" },
+      { "type": "paragraph", "text": "It's not about your 'pinched nerve.' It's not about 'permanent damage.' It's not about 'learning to live with it.'" },
       { "type": "paragraph", "text": "In fact... almost 90% of adults over 50 have bulging discs. But no pain. Zero symptoms." },
       { "type": "paragraph", "text": "So if the disc isn't the problem... What is?" },
       { "type": "paragraph", "segments": [
@@ -96,10 +96,10 @@
         { "text": "NAD+", "bold": true },
         { "text": ". Without NAD+, the vine stops getting water. It turns brown. It becomes brittle. The protective coating deteriorates." }
       ]},
-      { "type": "paragraph", "bold": true, "text": "This is \"Sciatic Nerve Decay.\"" },
+      { "type": "paragraph", "bold": true, "text": "This is 'Sciatic Nerve Decay.'" },
       { "type": "paragraph", "text": "And your nerve cells lose their ability to communicate properly. So they start firing pain signals... constantly." },
       { "type": "paragraph", "text": "Even when there's no actual damage." },
-      { "type": "paragraph", "text": "When you move, you aren't just feeling \"pressure\" you are snapping those brittle, dry branches. That is why the pain feels like burning, electric shocks, or pins and needles. It is the sound of a dry nerve snapping." },
+      { "type": "paragraph", "text": "When you move, you aren't just feeling 'pressure' you are snapping those brittle, dry branches. That is why the pain feels like burning, electric shocks, or pins and needles. It is the sound of a dry nerve snapping." },
       { "type": "paragraph", "text": "The medical industry has known about this for DECADES." },
       { "type": "paragraph", "text": "In fact, Dr. Rita Levi-Montalcini won the Nobel Prize... For discovering how nerve cells degenerate when deprived of specific nutrients." },
       { "type": "paragraph", "text": "(She lived to 103, by the way. Clearly knew what she was talking about.)" },
@@ -114,13 +114,13 @@
 
       { "type": "h2", "text": "THE 15-MINUTE MIRACLE HIDING IN PLAIN SIGHT" },
       { "type": "image", "key": "section_miracle" },
-      { "type": "paragraph", "text": "Remember Helen? The woman who wrote \"I CAN'T DO THIS ANYMORE\" on that survey?" },
+      { "type": "paragraph", "text": "Remember Helen? The woman who wrote 'I CAN'T DO THIS ANYMORE' on that survey?" },
       { "type": "paragraph", "text": "Three weeks after I applied Dr. Rita's findings to her treatment, she was walking pain-free for the first time in years." },
       { "type": "paragraph", "text": "No pills. No shots. No surgery." },
       { "type": "paragraph", "text": "Truly life-changing." },
       { "type": "paragraph", "segments": [
         { "text": "We used a new " },
-        { "text": "\"Transdermal Refuel\"", "bold": true },
+        { "text": "'Transdermal Refuel'", "bold": true },
         { "text": " method. By applying the nutrients " },
         { "text": "topically", "italic": true },
         { "text": " to the lower back, we bypassed the stomach completely and fed the starving nerves directly." }
@@ -146,34 +146,34 @@
       { "type": "h2", "text": "THIS BREAKTHROUGH IS PISSING OFF AN ENTIRE INDUSTRY" },
       { "type": "paragraph", "text": "After Helen's recovery, word spread fast." },
       { "type": "paragraph", "text": "My colleague Maria... a nurse practitioner I'd worked with for years... cornered me in the hospital parking lot one evening." },
-      { "type": "paragraph", "text": "\"Whatever you did for Helen. I need it. NOW.\"" },
+      { "type": "paragraph", "text": "'Whatever you did for Helen. I need it. NOW.'" },
       { "type": "paragraph", "text": "Maria was 52. Tough as nails. The kind of person who never asked for help." },
       { "type": "paragraph", "text": "But sciatica had broken her down. She hadn't slept lying flat in two years. Spent every night in a recliner... popping Percocet just to make it through her shifts." },
       { "type": "paragraph", "text": "I gave her a sample of the formula. Told her to use it that night." },
       { "type": "paragraph", "segments": [
         { "text": "Fifteen minutes later, she texted me. " },
-        { "text": "\"Andy... I don't know what this is. But the fire in my leg just... stopped.\"", "italic": true }
+        { "text": "'Andy... I don't know what this is. But the fire in my leg just... stopped.'", "italic": true }
       ]},
       { "type": "image", "key": "section_results" },
       { "type": "paragraph", "text": "The next morning, she slept in her bed for the first time in 24 months. And she cried telling me about it." },
       { "type": "paragraph", "text": "Not from pain. From relief." },
       { "type": "paragraph", "text": "Within 72 hours, I had people tracking me down. Teachers who couldn't stand in front of their class... Truck drivers who couldn't sit for more than 20 minutes... Grandparents who hadn't picked up their grandkids in years..." },
       { "type": "paragraph", "text": "Every. Single. One. Got. Better." },
-      { "type": "paragraph", "text": "Not \"learned to manage it\" better. Not \"found ways to cope\" better." },
+      { "type": "paragraph", "text": "Not 'learned to manage it' better. Not 'found ways to cope' better." },
       { "type": "paragraph", "bold": true, "text": "ACTUALLY BETTER." },
       { "type": "paragraph", "text": "That's when the threats started." },
 
       { "type": "h2", "text": "WHEN YOU MESS WITH $90 BILLION, THEY COME FOR YOU" },
       { "type": "image", "key": "section_threats" },
-      { "type": "paragraph", "text": "First, it was \"friendly\" warnings." },
+      { "type": "paragraph", "text": "First, it was 'friendly' warnings." },
       { "type": "paragraph", "segments": [
         { "text": "A pain management doctor I'd known for over a decade pulled me aside at a conference: " },
-        { "text": "\"Andy, what you're doing is making us look bad. Patients are coming in asking why we didn't tell them about this. You should stop before someone gets hurt.\"", "italic": true }
+        { "text": "'Andy, what you're doing is making us look bad. Patients are coming in asking why we didn't tell them about this. You should stop before someone gets hurt.'", "italic": true }
       ]},
       { "type": "paragraph", "bold": true, "text": "Translation: Stop before WE lose money." },
-      { "type": "paragraph", "text": "Then came the cease and desist letters. Three law firms. All representing \"concerned medical professionals.\" Claiming I was \"practicing outside my scope.\"" },
+      { "type": "paragraph", "text": "Then came the cease and desist letters. Three law firms. All representing 'concerned medical professionals.' Claiming I was 'practicing outside my scope.'" },
       { "type": "paragraph", "text": "The final straw? A pharmaceutical rep I'd worked with for 8 years - the guy who used to take me to lunch every month - stopped returning my calls." },
-      { "type": "paragraph", "text": "\"Sorry Andy, corporate told me to focus on other accounts. Nothing personal.\"" },
+      { "type": "paragraph", "text": "'Sorry Andy, corporate told me to focus on other accounts. Nothing personal.'" },
       { "type": "paragraph", "text": "They wanted me gone because I'd created something that could make their entire business model obsolete." },
       { "type": "paragraph", "text": "A simple topical cream that:" },
       { "type": "list", "items": [
@@ -209,7 +209,7 @@
       { "type": "paragraph", "text": "When you rub Magnesium Niacinamide Relief™ on your lower back, hip, or leg... Here is what happens inside your body:" },
       { "type": "paragraph", "segments": [
         { "text": "0-5 Minutes: The Refuel Phase", "bold": true },
-        { "text": " The Magnesium Niacinamide penetrates deep into your nerve tissue. Your starved nerve cells absorb it like a dry sponge hitting water. Most people feel a gentle warmth spreading through their back and leg. That's not just \"in your head.\" That's years of nerve starvation finally getting what it needs." }
+        { "text": " The Magnesium Niacinamide penetrates deep into your nerve tissue. Your starved nerve cells absorb it like a dry sponge hitting water. Most people feel a gentle warmth spreading through their back and leg. That's not just 'in your head.' That's years of nerve starvation finally getting what it needs." }
       ]},
       { "type": "paragraph", "segments": [
         { "text": "5-10 Minutes: The Anti-Inflammation Phase", "bold": true },
@@ -220,7 +220,7 @@
         { "text": " This is where the magic happens. The formula works on the surrounding muscles... Releasing years of protective tension and spasm. Your muscles stop clenching around the nerve. Your body stops ATTACKING itself. This is the step everyone else misses. And it's why their pain always comes back." }
       ]},
       { "type": "paragraph", "text": "After 15 minutes? You stand up feeling like someone just gave you new nerves." },
-      { "type": "paragraph", "text": "Not \"better for a few hours\" like a pill. Not \"numbed out\" like after an injection." },
+      { "type": "paragraph", "text": "Not 'better for a few hours' like a pill. Not 'numbed out' like after an injection." },
       { "type": "paragraph", "text": "Actually. Fixed." },
 
       { "type": "h2", "text": "THE RESULTS THAT HAVE PAIN CLINICS SCRAMBLING" },
@@ -241,14 +241,14 @@
       { "type": "h2", "text": "THE PRICE THAT IS CAUSING MEDICAL INDUSTRY PANIC" },
       { "type": "image", "key": "section_price" },
       { "type": "paragraph", "text": "Let me show you what fixing sciatic nerve pain REALLY costs in America:" },
-      { "type": "paragraph", "bold": true, "text": "The \"Pain Management + Medication\" Route:" },
+      { "type": "paragraph", "bold": true, "text": "The 'Pain Management + Medication' Route:" },
       { "type": "list", "items": [
         { "text": "Monthly pain clinic visits: $200-300" },
         { "text": "Prescription nerve meds (monthly): $350-600" },
         { "text": "Epidural steroid injections (3-6 per year): $1,500-3,000 each" },
         { "segments": [{ "text": "Annual total: $6,200 - $14,200", "bold": true }, { "text": " (Plus copays, gas money, time off work, and your dignity.)" }] }
       ]},
-      { "type": "paragraph", "bold": true, "text": "The \"Nerve Block Injection\" Route:" },
+      { "type": "paragraph", "bold": true, "text": "The 'Nerve Block Injection' Route:" },
       { "type": "list", "items": [
         { "text": "Initial consultation: $350" },
         { "text": "MRI scan: $3,000" },
@@ -280,7 +280,7 @@
       ]},
       { "type": "paragraph", "text": "But that's not what you'll pay today." },
 
-      { "type": "h2", "text": "THE 67% OFF \"MIDDLE FINGER\" TO THE MEDICAL ESTABLISHMENT" },
+      { "type": "h2", "text": "THE 67% OFF 'MIDDLE FINGER' TO THE MEDICAL ESTABLISHMENT" },
       { "type": "paragraph", "text": "Remember those cease and desist letters I mentioned? The threats? The blacklisting?" },
       { "type": "paragraph", "text": "Well, I just got word that a major pharmaceutical company is trying to patent-block our formula." },
       { "type": "paragraph", "text": "They can't copy it (we have iron-clad patents). They can't buy me out (I told them to pound sand). So now they're trying to bury us in legal fees and regulatory red tape." },
@@ -303,7 +303,7 @@
         { "text": "." }
       ]},
       { "type": "paragraph", "segments": [
-        { "text": "We cannot just \"make more\" overnight. " },
+        { "text": "We cannot just 'make more' overnight. " },
         { "text": "We have sold out 11 times in the past.", "bold": true }
       ]},
       { "type": "paragraph", "segments": [
@@ -313,7 +313,7 @@
       ]},
       { "type": "paragraph", "segments": [
         { "text": "IMPORTANT:", "bold": true },
-        { "text": " We are NO LONGER selling on Amazon. If you see a product that looks like ours on Amazon, DO NOT BUY IT. There are cheap knockoffs flooding the market that use \"industrial grade\" magnesium which can actually burn your skin. You won't find our original product there. The only place we sell it is through our official Peak Health Research website." }
+        { "text": " We are NO LONGER selling on Amazon. If you see a product that looks like ours on Amazon, DO NOT BUY IT. There are cheap knockoffs flooding the market that use 'industrial grade' magnesium which can actually burn your skin. You won't find our original product there. The only place we sell it is through our official Peak Health Research website." }
       ]},
       { "type": "paragraph", "text": "If you are reading this right now, units are still available. But I cannot promise they will last through the weekend." },
       { "type": "paragraph", "text": "And here's the thing... Every minute you wait is another minute you're:" },
@@ -329,9 +329,9 @@
         { "text": " After that, the price goes back to $89. And units are selling out FAST." }
       ]},
 
-      { "type": "h2", "text": "MY PERSONAL 180-DAY \"PAIN-FREE OR IT'S FREE\" GUARANTEE" },
+      { "type": "h2", "text": "MY PERSONAL 180-DAY 'PAIN-FREE OR IT'S FREE' GUARANTEE" },
       { "type": "image", "key": "section_guarantee" },
-      { "type": "paragraph", "text": "Look, I get it. You've been burned before. Spent money on \"miracle cures\" that turned out to be expensive garbage." },
+      { "type": "paragraph", "text": "Look, I get it. You've been burned before. Spent money on 'miracle cures' that turned out to be expensive garbage." },
       { "type": "paragraph", "text": "So here is my promise:" },
       { "type": "paragraph", "segments": [
         { "text": "Try Magnesium Niacinamide Relief™ for " },
@@ -340,15 +340,15 @@
       ]},
       { "type": "paragraph", "segments": [
         { "text": "And if you don't wake up one morning thinking... " },
-        { "text": "\"Holy crap, I forgot I even had sciatica\"", "italic": true },
+        { "text": "'Holy crap, I forgot I even had sciatica'", "italic": true },
         { "text": "..." }
       ]},
       { "type": "paragraph", "text": "I will refund every penny." },
-      { "type": "paragraph", "text": "No forms to fill out. No \"store credit\" nonsense. No questions asked." },
+      { "type": "paragraph", "text": "No forms to fill out. No 'store credit' nonsense. No questions asked." },
       { "type": "paragraph", "segments": [
         { "text": "Just email " },
         { "text": "support@peakhealthresearch.com", "bold": true },
-        { "text": " and say \"It didn't work.\" We'll send a prepaid return label. Your refund hits within 48 hours." }
+        { "text": " and say 'It didn't work.' We'll send a prepaid return label. Your refund hits within 48 hours." }
       ]},
       { "type": "paragraph", "segments": [
         { "text": "Why am I so confident? Because our refund rate is " },
@@ -384,14 +384,14 @@
 
       { "type": "h2", "text": "HERE IS EXACTLY WHAT TO DO NEXT" },
       { "type": "ordered_list", "items": [
-        { "segments": [{ "text": "Click the button below that says " }, { "text": "\"APPLY DISCOUNT & CHECK AVAILABILITY\"", "bold": true }] },
+        { "segments": [{ "text": "Click the button below that says " }, { "text": "'APPLY DISCOUNT & CHECK AVAILABILITY'", "bold": true }] },
         { "segments": [{ "text": "Choose your package", "bold": true }, { "text": " " }, { "text": "(Pro tip: Get at least 3 jars. You'll want backups when this works. Plus you'll save more.)", "italic": true }] },
         { "segments": [{ "text": "Fill out your shipping info", "bold": true }, { "text": " " }, { "text": "(We ship same-day if you order before 3pm EST)", "italic": true }] },
         { "segments": [{ "text": "Wait for your package to arrive", "bold": true }, { "text": " " }, { "text": "(Usually 3-5 days)", "italic": true }] },
         { "bold": true, "text": "Use it the moment it shows up" },
         { "segments": [{ "text": "Email us your success story in a week", "bold": true }, { "text": " " }, { "text": "(Seriously. Our team loves hearing these: support@peakhealthresearch.com)", "italic": true }] }
       ]},
-      { "type": "paragraph", "text": "But whatever you do... Don't close this page thinking \"I'll order later.\"" },
+      { "type": "paragraph", "text": "But whatever you do... Don't close this page thinking 'I'll order later.'" },
       { "type": "paragraph", "text": "Later doesn't exist when you're in pain. Later is another sleepless night. Later is missing another family event. Later is the discount expiring and inventory running out." },
       { "type": "paragraph", "text": "Your nerves have waited long enough. Click below and let's end this nightmare." },
       { "type": "cta", "key": "cta_product" },
