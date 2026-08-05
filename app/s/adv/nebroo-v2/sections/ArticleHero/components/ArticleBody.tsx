@@ -55,7 +55,7 @@ export const ArticleBody = (props: ArticleBodyProps) => {
           muted
           loop
           preload="auto"
-          src={props.videoSrc}
+          src={props.videoSrc || undefined}
           className="bg-black box-border caret-transparent max-w-full outline-[3px] align-baseline w-full"
         ></video>
       </div>
