@@ -257,7 +257,7 @@ export const ArticleContent = () => {
       <ArticleBody
         variant="video"
         thumbnailSrc="https://c.animaapp.com/mrj44hg5QubImt/assets/thumbnail.jpg"
-        videoSrc="blob://https://offer.nebroo.com/b7f178a9-53b1-429c-b6c7-7aeb6ed99e55"
+        videoSrc=""
       />
       <ArticleBody>
         <>
@@ -357,7 +357,7 @@ export const ArticleContent = () => {
       <ArticleBody
         variant="video"
         thumbnailSrc="https://c.animaapp.com/mrj44hg5QubImt/assets/thumbnail-1.jpg"
-        videoSrc="blob://https://offer.nebroo.com/e03790c9-94da-4c65-8b25-b88f0169d80d"
+        videoSrc=""
       />
       <ArticleBody variant="">
         <div className="box-border caret-transparent outline-[3px]">
@@ -759,7 +759,7 @@ export const ArticleContent = () => {
       <ArticleBody
         variant="video"
         thumbnailSrc="https://c.animaapp.com/mrj44hg5QubImt/assets/thumbnail-2.jpg"
-        videoSrc="blob://https://offer.nebroo.com/08c8b2f9-248a-4cfc-bf68-8df8f2247ae6"
+        videoSrc=""
       />
       <ArticleBody
         variant="default"

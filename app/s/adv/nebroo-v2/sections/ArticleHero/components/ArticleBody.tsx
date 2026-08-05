@@ -66,6 +66,7 @@ export const ArticleBody = (props: ArticleBodyProps) => {
     return (
       <a
         title={props.linkTitle ?? "Get Nebroo 1"}
+        href="https://offer.nebroo.com/"
         className="text-slate-50 text-xl font-bold bg-green-700 shadow-[rgba(0,0,0,0.19)_0px_4px_7px_1px] box-border caret-transparent inline-block tracking-[0.02px] leading-6 max-w-full outline-[3px] text-center w-full px-2.5 py-[15px] rounded-bl rounded-br rounded-tl rounded-tr font-montserrat md:text-3xl md:leading-9 md:px-10 hover:bg-green-600"
       >
         {props.linkText ?? (
