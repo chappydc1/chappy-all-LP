@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
+import copy from "./copy.json";
 
 export const metadata: Metadata = {
-  title: "Why Did You Lose Your Hearing and What Can You Do? | Nebroo",
-  description:
-    "Nebroo CIC hearing aids sit completely inside your ear canal — discreet, powerful, and now 70% off. Reclaim clear hearing and stop missing out. Order today.",
-  icons: { icon: "/favicons/nebroo-v1.svg" },
+  title: copy.meta.title,
+  description: copy.meta.description,
+  icons: { icon: copy.meta.faviconPath },
 };
 
 export default function NebrooV2Layout({

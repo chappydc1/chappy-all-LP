@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 45 32" fill="none">
+  <title>Light Labs</title>
+  <path d="M4.17746 7.16149L8.85962 7.52615L4.39816 12.4841L0.151988 11.8225L4.17746 7.16149Z" fill="url(#lightlabs-icon-gradient)"/>
+  <path d="M9.38836 7.57524L14.5718 7.96123L9.66424 13.2838L4.977 12.7049L9.38836 7.57524Z" fill="url(#lightlabs-icon-gradient)"/>
+  <path d="M15.0975 8.19554L26.0109 22.1684L42.1192 0.379558L44.6512 4.70232L25.9672 31.9492L10.0335 13.7846L15.0975 8.19554Z" fill="url(#lightlabs-icon-gradient)"/>
+  <path d="M5.00036 13.2777L9.321 13.8395L25.3383 32L20.6497 31.9377L5.00036 13.2777Z" fill="url(#lightlabs-icon-gradient)"/>
+  <path d="M4.30575 13.1592L19.865 31.9255L15.5711 31.9377L0 12.4353L4.30575 13.1592Z" fill="url(#lightlabs-icon-gradient)"/>
+  <path d="M30.5167 0L35.3816 0.0450323L22.4458 16.7574L20.0789 13.5706L30.5167 0Z" fill="url(#lightlabs-icon-gradient)"/>
+  <path d="M36.0576 0H41.7333L25.9672 21.5826L22.724 17.0767L36.0576 0Z" fill="url(#lightlabs-icon-gradient)"/>
+  <defs>
+    <linearGradient id="lightlabs-icon-gradient" x1="22.3256" y1="0" x2="22.3256" y2="32" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#AABDFF"/>
+      <stop offset="1" stop-color="#577CFF"/>
+    </linearGradient>
+  </defs>
+</svg>
