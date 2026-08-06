@@ -1,0 +1,88 @@
+{
+  "topBar": {
+    "flagSrc": "https://c.animaapp.com/mrj44hg5QubImt/assets/1711366759829_bitmap.png"
+  },
+
+  "article": {
+    "authorAvatarSrc": "https://c.animaapp.com/mrj44hg5QubImt/assets/1766387276385_image1_1_.webp",
+    "image1Src": "https://c.animaapp.com/mrj44hg5QubImt/assets/1766386599197_image2.webp",
+    "image2Src": "https://c.animaapp.com/mrj44hg5QubImt/assets/1766386617488_image3.webp",
+    "video1ThumbnailSrc": "https://c.animaapp.com/mrj44hg5QubImt/assets/thumbnail.jpg",
+    "video1Src": "",
+    "video2ThumbnailSrc": "https://c.animaapp.com/mrj44hg5QubImt/assets/thumbnail-1.jpg",
+    "video2Src": "",
+    "image3Src": "https://c.animaapp.com/mrj44hg5QubImt/assets/1766386893616_image4.webp",
+    "image4Src": "https://c.animaapp.com/mrj44hg5QubImt/assets/1766386916062_image5.webp",
+    "image5Src": "https://c.animaapp.com/mrj44hg5QubImt/assets/1766386956801_image7.webp",
+    "image6Src": "https://c.animaapp.com/mrj44hg5QubImt/assets/1766386985394_image8.webp",
+    "image7Src": "https://c.animaapp.com/mrj44hg5QubImt/assets/1766387002633_image9.webp",
+    "productInEarSrc": "https://c.animaapp.com/mrj44hg5QubImt/assets/1767346228901_AB83_PRO_3.0.webp",
+    "video3ThumbnailSrc": "https://c.animaapp.com/mrj44hg5QubImt/assets/thumbnail-2.jpg",
+    "video3Src": "",
+    "productPackagingSrc": "https://c.animaapp.com/mrj44hg5QubImt/assets/1767346258122_adv_v1_Pro_3.0.png"
+  },
+
+  "sidebar": {
+    "productImageSrc": "https://c.animaapp.com/mrj44hg5QubImt/assets/1767418921672_CN130S_v2.png",
+    "checkIconBgSrc": "https://c.animaapp.com/mrj44hg5QubImt/assets/1711370973556_3.png"
+  },
+
+  "reviews": [
+    {
+      "avatarSrc": "https://c.animaapp.com/mrj44hg5QubImt/assets/1721396859824_avatar_2_cropped.webp",
+      "starsSrc": "https://c.animaapp.com/mrj44hg5QubImt/assets/1721395544413_stars_5.png"
+    },
+    {
+      "avatarSrc": "https://c.animaapp.com/mrj44hg5QubImt/assets/1721396910855_avatar_3_cropped.webp",
+      "starsSrc": "https://c.animaapp.com/mrj44hg5QubImt/assets/1721395544413_stars_5.png"
+    },
+    {
+      "avatarSrc": "https://c.animaapp.com/mrj44hg5QubImt/assets/1721397057307_avatar_4_cropped.webp",
+      "starsSrc": "https://c.animaapp.com/mrj44hg5QubImt/assets/1721395544413_stars_5.png"
+    }
+  ],
+
+  "comments": [
+    { "avatarSrc": "https://c.animaapp.com/mrj44hg5QubImt/assets/1733617084175_Marcella_Hastings.webp" },
+    { "avatarSrc": "https://c.animaapp.com/mrj44hg5QubImt/assets/1733617237015_Richard_Wilson.webp" },
+    {
+      "avatarSrc": "https://c.animaapp.com/mrj44hg5QubImt/assets/1733617234876_Doug_Johnson.webp",
+      "replyAvatars": [
+        "https://c.animaapp.com/mrj44hg5QubImt/assets/1733617232938_Franklin_Monroe.webp"
+      ]
+    },
+    { "avatarSrc": "https://c.animaapp.com/mrj44hg5QubImt/assets/1712227680885_Screenshot_2024_04_04_at_6.47.28_PM.webp" },
+    {
+      "avatarSrc": "https://c.animaapp.com/mrj44hg5QubImt/assets/1733617143932_Winston_Harper.webp",
+      "replyAvatars": [
+        "https://c.animaapp.com/mrj44hg5QubImt/assets/1733616910188_Zelda_Montgomery.webp"
+      ]
+    },
+    { "avatarSrc": "https://c.animaapp.com/mrj44hg5QubImt/assets/1733617318212_Cecillia_Pruitt.webp" },
+    {
+      "avatarSrc": "https://c.animaapp.com/mrj44hg5QubImt/assets/1733617055645_Rowena_Baron.webp",
+      "replyAvatars": [
+        "https://c.animaapp.com/mrj44hg5QubImt/assets/1733617058554_Sharon_Harper.webp",
+        "https://c.animaapp.com/mrj44hg5QubImt/assets/1733617019729_Barbara_Miller.webp"
+      ]
+    },
+    { "avatarSrc": "https://c.animaapp.com/mrj44hg5QubImt/assets/1733617003166_Curtis_Reynolds.webp" },
+    { "avatarSrc": "https://c.animaapp.com/mrj44hg5QubImt/assets/1733616985161_Desmond_Vaughn.webp" },
+    { "avatarSrc": "https://c.animaapp.com/mrj44hg5QubImt/assets/1733616961643_Mark_Owens.webp" },
+    {
+      "avatarSrc": "https://c.animaapp.com/mrj44hg5QubImt/assets/1733616940914_Betty_Martinez.webp",
+      "replyAvatars": [
+        "https://c.animaapp.com/mrj44hg5QubImt/assets/1733617139898_Lucille_Langley.webp"
+      ]
+    },
+    { "avatarSrc": "https://c.animaapp.com/mrj44hg5QubImt/assets/1733616887966_Lionel_Beckett.webp" }
+  ],
+
+  "footer": {
+    "paymentMethodsSrc": "https://c.animaapp.com/mrj44hg5QubImt/assets/1719483630013_1718789453182_f1e052fc3f19b3c0bf6479b1c7f772a2.webp"
+  },
+
+  "shared": {
+    "reactionIconSrc": "https://c.animaapp.com/mrj44hg5QubImt/assets/22.avif"
+  }
+}
