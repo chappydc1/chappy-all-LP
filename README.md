@@ -6,20 +6,20 @@
 [![language](https://img.shields.io/badge/language-TypeScript-3178C6)](https://www.typescriptlang.org)
 [![styling](https://img.shields.io/badge/styling-Tailwind%20CSS-06B6D4)](https://tailwindcss.com)
 [![pkg manager](https://img.shields.io/badge/pkg%20manager-pnpm-F69220)](https://pnpm.io)
-[![pages](https://img.shields.io/badge/pages-40%20templates-2ea44f)](#-page-formats)
+[![pages](https://img.shields.io/badge/pages-42%20templates-2ea44f)](#-page-formats)
 [![formats](https://img.shields.io/badge/formats-7%20types-7C3AED)](#-page-formats)
 [![GitHub last commit](https://img.shields.io/github/last-commit/chappydc1/lp-all-personal)](#)
 [![license](https://img.shields.io/badge/license-private-lightgrey)](#)
 
 ⭐ Star us on GitHub — your support keeps the build moving!
 
-[![Share on X](https://img.shields.io/badge/share-000000?logo=x&logoColor=white)](https://x.com/intent/tweet?text=40%20production-ready%20DTC%20landing%20pages%20in%20one%20Next.js%2015%20codebase%3A%20https%3A%2F%2Fgithub.com%2Fchappydc1%2Flp-all-personal%20%23landingpages%20%23DTC%20%23NextJS)
+[![Share on X](https://img.shields.io/badge/share-000000?logo=x&logoColor=white)](https://x.com/intent/tweet?text=42%20production-ready%20DTC%20landing%20pages%20in%20one%20Next.js%2015%20codebase%3A%20https%3A%2F%2Fgithub.com%2Fchappydc1%2Flp-all-personal%20%23landingpages%20%23DTC%20%23NextJS)
 [![Share on Facebook](https://img.shields.io/badge/share-1877F2?logo=facebook&logoColor=white)](https://www.facebook.com/sharer/sharer.php?u=https://github.com/chappydc1/lp-all-personal)
 [![Share on LinkedIn](https://img.shields.io/badge/share-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/sharing/share-offsite/?url=https://github.com/chappydc1/lp-all-personal)
-[![Share on Reddit](https://img.shields.io/badge/share-FF4500?logo=reddit&logoColor=white)](https://www.reddit.com/submit?title=40%20production-ready%20DTC%20landing%20pages%20in%20one%20Next.js%2015%20codebase&url=https://github.com/chappydc1/lp-all-personal)
-[![Share on Telegram](https://img.shields.io/badge/share-0088CC?logo=telegram&logoColor=white)](https://t.me/share/url?url=https://github.com/chappydc1/lp-all-personal&text=40%20production-ready%20DTC%20landing%20pages%20in%20one%20Next.js%2015%20codebase)
+[![Share on Reddit](https://img.shields.io/badge/share-FF4500?logo=reddit&logoColor=white)](https://www.reddit.com/submit?title=42%20production-ready%20DTC%20landing%20pages%20in%20one%20Next.js%2015%20codebase&url=https://github.com/chappydc1/lp-all-personal)
+[![Share on Telegram](https://img.shields.io/badge/share-0088CC?logo=telegram&logoColor=white)](https://t.me/share/url?url=https://github.com/chappydc1/lp-all-personal&text=42%20production-ready%20DTC%20landing%20pages%20in%20one%20Next.js%2015%20codebase)
 
-**40 production-ready landing pages. 7 formats. One codebase. Fork a folder, swap the JSON, ship.**
+**42 production-ready landing pages. 7 formats. One codebase. Fork a folder, swap the JSON, ship.**
 
 ---
 
@@ -55,7 +55,7 @@ Building a new landing page for each brand from scratch burns time and introduce
 | Format | Route prefix | What it is |
 |--------|-------------|------------|
 | **Advertorial** | `/s/a/` | Article-style editorial pages — news framing, social proof, CTA |
-| **Advertorial Listicle** | `/s/a/` | Investigative specialist review — doctor-led 90-day investigation format with listicle sub-sections |
+| **Advertorial Listicle** | `/s/a-lis/` | Article-style advertorial with a numbered listicle body — editorial hook, specialist byline, benefit-stacked reasons |
 | **Comparison** | `/s/com/` | Ranked product tables with scored reviews and sidebar filters |
 | **Listicle** | `/s/lis/` | Numbered-reason articles — hook-driven, benefit-stacked |
 | **Quiz** | `/s/q/` | Multi-step interactive funnels with progress bar and result screens |
@@ -76,12 +76,13 @@ Building a new landing page for each brand from scratch burns time and introduce
 
 ```
 app/s/
-  a/      # Advertorial   — article-style editorial pages
-  com/    # Comparison    — ranked product tables
-  lis/    # Listicle      — numbered-reason articles
-  q/      # Quiz          — multi-step interactive funnels
-  sal/    # Sales         — direct-response offer pages
-  vsl/    # VSL           — video sales letter pages
+  a/      # Advertorial          — article-style editorial pages
+  a-lis/  # Advertorial Listicle — editorial hook with numbered listicle body
+  com/    # Comparison           — ranked product tables
+  lis/    # Listicle             — numbered-reason articles
+  q/      # Quiz                 — multi-step interactive funnels
+  sal/    # Sales                — direct-response offer pages
+  vsl/    # VSL                  — video sales letter pages
 
 app/s/<type>/<slug>/
   page.tsx      # Page entry — imports and wires sections
@@ -186,6 +187,7 @@ Live pages on **www.northlinemd.com**:
 Local pages on **localhost:3000**:
 
 **Advertorial** &nbsp;
+[cardiologist-90-day-capsaicin-investigation](http://localhost:3000/s/a/cardiologist-90-day-capsaicin-investigation) &nbsp;|&nbsp;
 [derila](http://localhost:3000/s/a/derila) &nbsp;|&nbsp;
 [elavyn](http://localhost:3000/s/a/elavyn) &nbsp;|&nbsp;
 [healthinsider-gynocologist](http://localhost:3000/s/a/healthinsider-gynocologist) &nbsp;|&nbsp;
@@ -194,6 +196,7 @@ Local pages on **localhost:3000**:
 [morningvitality](http://localhost:3000/s/a/morningvitality) &nbsp;|&nbsp;
 [nebroo-v1](http://localhost:3000/s/a/nebroo-v1) &nbsp;|&nbsp;
 [nebroo-v2](http://localhost:3000/s/a/nebroo-v2) &nbsp;|&nbsp;
+[nephrologist-90-day-capsaicin-investigation](http://localhost:3000/s/a/nephrologist-90-day-capsaicin-investigation) &nbsp;|&nbsp;
 [nexa](http://localhost:3000/s/a/nexa) &nbsp;|&nbsp;
 [nooro](http://localhost:3000/s/a/nooro) &nbsp;|&nbsp;
 [rejuvacare](http://localhost:3000/s/a/rejuvacare) &nbsp;|&nbsp;
@@ -202,12 +205,12 @@ Local pages on **localhost:3000**:
 [spartan](http://localhost:3000/s/a/spartan) &nbsp;|&nbsp;
 [today](http://localhost:3000/s/a/today) &nbsp;|&nbsp;
 [trybello](http://localhost:3000/s/a/trybello) &nbsp;|&nbsp;
+[urologist-90-day-capsaicin-investigation](http://localhost:3000/s/a/urologist-90-day-capsaicin-investigation) &nbsp;|&nbsp;
 [zikeey](http://localhost:3000/s/a/zikeey)
 
 **Advertorial Listicle** &nbsp;
-[cardiologist-90-day-capsaicin-investigation](http://localhost:3000/s/a/cardiologist-90-day-capsaicin-investigation) &nbsp;|&nbsp;
-[nephrologist-90-day-capsaicin-investigation](http://localhost:3000/s/a/nephrologist-90-day-capsaicin-investigation) &nbsp;|&nbsp;
-[urologist-90-day-capsaicin-investigation](http://localhost:3000/s/a/urologist-90-day-capsaicin-investigation)
+[hike](http://localhost:3000/s/a-lis/hike) &nbsp;|&nbsp;
+[rosabella](http://localhost:3000/s/a-lis/rosabella)
 
 **Comparison** &nbsp;
 [forbes](http://localhost:3000/s/com/forbes) &nbsp;|&nbsp;
@@ -275,18 +278,20 @@ Every template lives at `app/s/<type>/<slug>/` — fully self-contained with its
 | [`/s/a/spartan`](app/s/a/spartan/) | **Spartan** | The cellular mechanism behind energy decline in your 40s — clinical-trial framing | [healthguidancedaily.com](https://healthguidancedaily.com/s/a/why-high-performers-crash) |
 | [`/s/a/today`](app/s/a/today/) | **Today / SugarHealth** | Metabolic support editorial in Today-show news style | Today advertorial |
 | [`/s/a/zikeey`](app/s/a/zikeey/) | **Zikeey / Sherum ErgoSeat** | If you are painful when you sit, you should read this — ergonomic cushion review | [zikeey.com](https://zikeey.com/me/new/Sherum/memory-foam-seat-cushion/view12776) |
-
----
-
-### 🔬 Advertorial Listicle `/s/a/`
-
-Investigative editorial with a specialist framing — a named doctor or healthcare professional conducts a 90-day product investigation, structured as numbered findings with evidence sub-sections. Combines the authority of a long-form advertorial with the scannability of a listicle.
-
-| Route | Brand | Hook | Source |
-|---|---|---|---|
 | [`/s/a/cardiologist-90-day-capsaicin-investigation`](app/s/a/cardiologist-90-day-capsaicin-investigation/) | **Lora** | Cardiologist spent 90 days investigating Lora Capsaicin Power Softgels for blood flow improvement | [loraritual.com](https://loraritual.com/products/cayenne-pepper-softgels) |
 | [`/s/a/nephrologist-90-day-capsaicin-investigation`](app/s/a/nephrologist-90-day-capsaicin-investigation/) | **Lora** | Nephrologist spent 90 days investigating Lora Capsaicin Power for foamy urine and kidney health | [loraritual.com](https://loraritual.com/products/capsaicin-power-kidney) |
 | [`/s/a/urologist-90-day-capsaicin-investigation`](app/s/a/urologist-90-day-capsaicin-investigation/) | **Lora** | Urologist spent 90 days investigating Lora Capsaicin Power Softgels for circulation and ED | [loraritual.com](https://loraritual.com/products/capsaicin-power-ed) |
+
+---
+
+### 🔬 Advertorial Listicle `/s/a-lis/`
+
+Article-style editorial hook paired with a numbered listicle body — specialist byline, investigative framing, benefit-stacked reasons, embedded product recommendation.
+
+| Route | Brand | Hook | Source |
+|---|---|---|---|
+| [`/s/a-lis/hike`](app/s/a-lis/hike/) | **Hike Footwear** | Why Americans Over 50 Are Switching to These Pain-Relieving Barefoot Shoes | [hike footwear](https://www.hikefootwear.com) |
+| [`/s/a-lis/rosabella`](app/s/a-lis/rosabella/) | **Rosabella** | 5 Reasons Why Thousands Are Choosing Rosabella Moringa to Restore Energy, Focus, and Metabolism — and Break Free from Chronic Fatigue | [tryrosabella.com](https://shop.tryrosabella.com/npl-nlp) |
 
 ---
 
