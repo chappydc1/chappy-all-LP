@@ -25,17 +25,107 @@
 
 ## Table of Contents
 
+- [Why This Library](#-why-this-library)
+- [Format Overview](#-format-overview)
+- [Tech Stack](#-tech-stack)
+- [Project Structure](#-project-structure)
+- [Getting Started](#-getting-started)
+- [Dev Commands](#-dev-commands)
 - [Production Links](#-production-links)
 - [Dev Links](#-dev-links)
 - [Page Formats](#-page-formats)
-- [Advertorial](#-advertorial-sa)
-- [Comparison](#-comparison-scom)
-- [Listicle](#-listicle-slis)
-- [Quiz](#-quiz-sq)
-- [Sales Page](#-sales-page-ssal)
-- [VSL](#-vsl-svsl)
 - [Spin Up a New Page](#-spin-up-a-new-page)
 - [Developer Guide](#-developer-guide)
+
+---
+
+## 💡 Why This Library
+
+Building a new landing page for each brand from scratch burns time and introduces inconsistency. This library solves that:
+
+- **One codebase, many brands** — every format is battle-tested across multiple portfolio brands
+- **Content-driven pages** — all copy and media live in `copy.json` / `media.json`; no code changes needed to re-brand
+- **AI-ready** — the two-file content system is designed to be rewritten by an LLM in a single prompt
+- **Production-proven** — pages run live on [northlinemd.com](https://www.northlinemd.com) across advertorials, VSLs, quizzes, and sales pages
+
+---
+
+## 📦 Format Overview
+
+| Format | Route prefix | What it is |
+|--------|-------------|------------|
+| **Advertorial** | `/s/a/` | Article-style editorial pages — news framing, social proof, CTA |
+| **Comparison** | `/s/com/` | Ranked product tables with scored reviews and sidebar filters |
+| **Listicle** | `/s/lis/` | Numbered-reason articles — hook-driven, benefit-stacked |
+| **Quiz** | `/s/q/` | Multi-step interactive funnels with progress bar and result screens |
+| **Sales** | `/s/sal/` | Direct-response offer pages — countdown, comparison table, order section |
+| **VSL** | `/s/vsl/` | Video sales letter pages — desktop + mobile video covers, tiered order section |
+
+---
+
+## 🛠 Tech Stack
+
+- [Next.js 15](https://nextjs.org) — App Router, SSR/SSG
+- TypeScript, Tailwind CSS
+- Radix UI (accessible primitives), Framer Motion (animations), Lucide React (icons)
+
+---
+
+## 📁 Project Structure
+
+```
+app/s/
+  a/      # Advertorial   — article-style editorial pages
+  com/    # Comparison    — ranked product tables
+  lis/    # Listicle      — numbered-reason articles
+  q/      # Quiz          — multi-step interactive funnels
+  sal/    # Sales         — direct-response offer pages
+  vsl/    # VSL           — video sales letter pages
+
+app/s/<type>/<slug>/
+  page.tsx      # Page entry — imports and wires sections
+  copy.json     # All user-visible text: headings, CTAs, comments, footer
+  media.json    # All media: image/video URLs, icon URLs, Tailwind classes
+  sections/     # Page-specific section components (when present)
+  components/   # Page-specific UI components (when present)
+```
+
+> Every template is fully self-contained — copy, media, components, and sections live alongside the route.
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- **Node.js** 20+
+- **pnpm** 9+ — `npm install -g pnpm`
+
+### 1. Install dependencies
+
+```bash
+pnpm install
+```
+
+### 2. Start the dev server
+
+```bash
+pnpm dev           # http://localhost:3000
+```
+
+### 3. Open a page
+
+Browse any route from the [Dev Links](#-dev-links) section below, e.g. [http://localhost:3000/s/sal/nuz/neck-pain](http://localhost:3000/s/sal/nuz/neck-pain).
+
+---
+
+## ⚡ Dev Commands
+
+```bash
+pnpm dev      # Development server with HMR
+pnpm build    # Production build (also serves as validation — no test runner)
+pnpm start    # Serve the production build
+```
 
 ---
 
@@ -161,21 +251,9 @@ News: [jevawell](http://localhost:3000/s/a/jevawell) &nbsp;|&nbsp; [elavyn](http
 
 Every template lives at `app/s/<type>/<slug>/` — fully self-contained with its own copy, media, components, and sections.
 
-```
-app/s/
-  a/      advertorial      article-style editorial pages
-  com/    comparison       ranked product tables
-  lis/    listicle         numbered-reason articles
-  q/      quiz             multi-step interactive funnels
-  sal/    sales            direct-response offer pages
-  vsl/    video            VSL + order section
-```
-
-> The fastest path to a new page: copy [`app/s/sal/nuz/neck-pain/`](app/s/sal/nuz/neck-pain/) — it has the most complete [developer guide](app/s/sal/nuz/neck-pain/README.md) and a two-file content system (`copy.json` + `media.json`) designed for AI-assisted re-branding.
-
 ---
 
-## 📰 Advertorial `/s/a/`
+### 📰 Advertorial `/s/a/`
 
 | Route | Brand | Hook | Source |
 |---|---|---|---|
@@ -191,7 +269,7 @@ app/s/
 
 ---
 
-## 📊 Comparison `/s/com/`
+### 📊 Comparison `/s/com/`
 
 | Route | Brand | Hook | Source |
 |---|---|---|---|
@@ -201,7 +279,7 @@ app/s/
 
 ---
 
-## 📝 Listicle `/s/lis/`
+### 📝 Listicle `/s/lis/`
 
 | Route | Brand | Hook | Source |
 |---|---|---|---|
@@ -216,7 +294,7 @@ app/s/
 
 ---
 
-## 🧪 Quiz `/s/q/`
+### 🧪 Quiz `/s/q/`
 
 | Route | Brand | Hook | Source |
 |---|---|---|---|
@@ -226,7 +304,7 @@ app/s/
 
 ---
 
-## 🛒 Sales Page `/s/sal/`
+### 🛒 Sales Page `/s/sal/`
 
 | Route | Brand | Hook | Source |
 |---|---|---|---|
@@ -237,7 +315,7 @@ app/s/
 
 ---
 
-## 🎬 VSL `/s/vsl/`
+### 🎬 VSL `/s/vsl/`
 
 | Route | Brand | Hook | Source |
 |---|---|---|---|
@@ -252,7 +330,7 @@ app/s/
 
 ---
 
-## 🚀 Spin Up a New Page
+## 🆕 Spin Up a New Page
 
 ```bash
 cp -R app/s/sal/nuz/neck-pain app/s/sal/<brand>/<campaign>
@@ -264,20 +342,14 @@ Open `copy.json` (all user-visible text) and `media.json` (asset URLs, timers, T
 
 Route wires up automatically — add `page.tsx` pointing to your `LandingPage` export and Tailwind picks up the JSON classes at build time.
 
+> The fastest starting point is [`app/s/sal/nuz/neck-pain/`](app/s/sal/nuz/neck-pain/) — it has the most complete [developer guide](app/s/sal/nuz/neck-pain/README.md) and the two-file content system.
+
 ---
 
 ## 📚 Developer Guide
 
 - [`AGENTS.md`](AGENTS.md) — full developer guide: project structure, dev commands, key files, troubleshooting
 - [`CHANGELOG.md`](CHANGELOG.md) — release history
-
-**Dev commands** (from repo root):
-
-```bash
-pnpm dev       # Start development server on http://localhost:3000
-pnpm build     # Production build — also serves as validation (no test runner)
-pnpm start     # Serve the production build
-```
 
 ---
 
