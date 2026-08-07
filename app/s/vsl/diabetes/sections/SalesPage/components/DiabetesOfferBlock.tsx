@@ -3,7 +3,7 @@ import { DiabetesPackageSection } from "./DiabetesPackageSection";
 
 export const DiabetesOfferBlock = () => {
   return (
-    <div className="box-border caret-transparent hidden outline-[3px]">
+    <div className="box-border caret-transparent outline-[3px]">
       <DiabetesOfferHeader
         title="Choose Your Discounted GlycoCept Package With Our Special Time-Limited Offer!"
         bottlesRemaining="218"

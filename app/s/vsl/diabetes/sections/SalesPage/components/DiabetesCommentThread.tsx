@@ -2,7 +2,7 @@ import { DiabetesCommentItem } from "./DiabetesCommentItem";
 
 export const DiabetesCommentThread = () => {
   return (
-    <div className="text-[13px] box-border caret-transparent gap-x-[16.25px] flex flex-col leading-[19.5px] outline-[3px] gap-y-[16.25px] border border-gray-200 pt-[16.25px] px-[16.25px] rounded-[16.25px] border-solid font-nunito_sans md:text-base md:gap-x-5 md:leading-6 md:gap-y-5 md:pt-5 md:px-5 md:rounded-[20px]">
+    <div className="text-[13px] box-border caret-transparent gap-x-[16.25px] flex flex-col leading-[19.5px] outline-[3px] gap-y-[16.25px] border border-gray-200 pt-[16.25px] px-[16.25px] rounded-[16.25px] border-solid font-helvetica md:text-base md:gap-x-5 md:leading-6 md:gap-y-5 md:pt-5 md:px-5 md:rounded-[20px]">
       <DiabetesCommentItem
         classVariant="max-w-full"
         imageSrc="/images/img/coments/woman/03.jpg?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"

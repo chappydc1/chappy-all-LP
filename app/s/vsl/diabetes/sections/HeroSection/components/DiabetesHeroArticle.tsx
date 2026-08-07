@@ -2,8 +2,8 @@ import { DiabetesVideoPlayer } from "../../../components/DiabetesVideoPlayer";
 
 export const DiabetesHeroArticle = () => {
   return (
-    <div className="box-border caret-transparent max-w-none outline-[3px] w-full mx-auto px-[5px] md:max-w-[1140px] md:px-3">
-      <p className="text-zinc-600 text-xs box-border caret-transparent leading-[18px] outline-[3px] text-left mb-4 pt-2.5">
+    <div className="box-border caret-transparent max-w-none outline-[3px] w-full mx-auto px-4 md:max-w-[1140px] md:px-3">
+      <p className="text-zinc-600 text-xs box-border caret-transparent leading-[18px] outline-[3px] text-left mb-4 pt-5">
         <b className="text-black text-[13px] font-bold box-border caret-transparent leading-[19.5px] outline-[3px]">
           Dr. William Li{" "}
         </b>
@@ -13,7 +13,7 @@ export const DiabetesHeroArticle = () => {
           05/23/2026
         </span>
       </p>
-      <div className="box-border caret-transparent max-w-[1000px] outline-[3px] mx-auto pt-[15px]">
+      <div className="box-border caret-transparent max-w-[1000px] outline-[3px] mx-auto pt-6">
         <h2 className="text-2xl font-bold box-border caret-transparent leading-[28.8px] outline-[3px] mb-6 md:text-[32px] md:leading-[38.4px]">
           <span className="text-white text-2xl bg-red-600 box-border caret-transparent leading-[28.8px] outline-[3px] md:text-[32px] md:leading-[38.4px]">
             No Insulin, No Metformin...
