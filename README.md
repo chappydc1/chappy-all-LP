@@ -1,284 +1,245 @@
 <a name="top"></a>
 
-# LP Template Library
+# Chappy — Custom DTC Ecommerce Platform
 
 [![framework](https://img.shields.io/badge/framework-Next.js%2015-000000)](https://nextjs.org)
 [![language](https://img.shields.io/badge/language-TypeScript-3178C6)](https://www.typescriptlang.org)
 [![styling](https://img.shields.io/badge/styling-Tailwind%20CSS-06B6D4)](https://tailwindcss.com)
+[![backend](https://img.shields.io/badge/backend-Medusa%20v2-7C3AED)](https://medusajs.com)
+[![database](https://img.shields.io/badge/database-PostgreSQL%2016-336791)](https://www.postgresql.org)
+[![cache](https://img.shields.io/badge/cache-Redis%207-DC382D)](https://redis.io)
+[![billing](https://img.shields.io/badge/billing-Chargebee-FF6C37)](https://www.chargebee.com)
+[![payments](https://img.shields.io/badge/payments-NMI%2C%20Checkout.com-2ea44f)](#-why-custom)
+[![checkout](https://img.shields.io/badge/checkout-native%2C%20ClickBank-2ea44f)](#-feature-overview)
 [![pkg manager](https://img.shields.io/badge/pkg%20manager-pnpm-F69220)](https://pnpm.io)
-[![pages](https://img.shields.io/badge/pages-35%20templates-2ea44f)](#-page-formats)
-[![formats](https://img.shields.io/badge/formats-6%20types-7C3AED)](#-page-formats)
-[![GitHub last commit](https://img.shields.io/github/last-commit/chappydc1/lp-all-personal)](#)
-[![license](https://img.shields.io/badge/license-private-lightgrey)](#)
+[![GitHub release](https://img.shields.io/github/v/release/chappy-APEX-Medusa-Templates/chappy)](#)
+[![GitHub last commit](https://img.shields.io/github/last-commit/chappy-APEX-Medusa-Templates/chappy)](#)
+[![license](https://img.shields.io/badge/license-private-lightgrey)](#-notes)
 
 ⭐ Star us on GitHub — your support keeps the build moving!
 
-[![Share on X](https://img.shields.io/badge/share-000000?logo=x&logoColor=white)](https://x.com/intent/tweet?text=35%20production-ready%20DTC%20landing%20pages%20in%20one%20Next.js%2015%20codebase%3A%20https%3A%2F%2Fgithub.com%2Fchappydc1%2Flp-all-personal%20%23landingpages%20%23DTC%20%23NextJS)
-[![Share on Facebook](https://img.shields.io/badge/share-1877F2?logo=facebook&logoColor=white)](https://www.facebook.com/sharer/sharer.php?u=https://github.com/chappydc1/lp-all-personal)
-[![Share on LinkedIn](https://img.shields.io/badge/share-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/sharing/share-offsite/?url=https://github.com/chappydc1/lp-all-personal)
-[![Share on Reddit](https://img.shields.io/badge/share-FF4500?logo=reddit&logoColor=white)](https://www.reddit.com/submit?title=35%20production-ready%20DTC%20landing%20pages%20in%20one%20Next.js%2015%20codebase&url=https://github.com/chappydc1/lp-all-personal)
-[![Share on Telegram](https://img.shields.io/badge/share-0088CC?logo=telegram&logoColor=white)](https://t.me/share/url?url=https://github.com/chappydc1/lp-all-personal&text=35%20production-ready%20DTC%20landing%20pages%20in%20one%20Next.js%2015%20codebase)
+[![Share on X](https://img.shields.io/badge/share-000000?logo=x&logoColor=white)](https://x.com/intent/tweet?text=Custom%20DTC%20ecommerce%20platform%20%E2%80%94%20own%20servers%2C%20own%20payment%20stack%2C%20no%20holds%3A%20https%3A%2F%2Fgithub.com%2Fchappy-APEX-Medusa-Templates%2Fchappy%20%23ecommerce%20%23DTC%20%23NextJS)
+[![Share on Facebook](https://img.shields.io/badge/share-1877F2?logo=facebook&logoColor=white)](https://www.facebook.com/sharer/sharer.php?u=https://github.com/chappy-APEX-Medusa-Templates/chappy)
+[![Share on LinkedIn](https://img.shields.io/badge/share-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/sharing/share-offsite/?url=https://github.com/chappy-APEX-Medusa-Templates/chappy)
+[![Share on Reddit](https://img.shields.io/badge/share-FF4500?logo=reddit&logoColor=white)](https://www.reddit.com/submit?title=Custom%20DTC%20ecommerce%20platform%20with%20own%20payment%20stack&url=https://github.com/chappy-APEX-Medusa-Templates/chappy)
+[![Share on Telegram](https://img.shields.io/badge/share-0088CC?logo=telegram&logoColor=white)](https://t.me/share/url?url=https://github.com/chappy-APEX-Medusa-Templates/chappy&text=Custom%20DTC%20ecommerce%20platform%20%E2%80%94%20own%20servers%2C%20own%20payment%20stack%2C%20no%20holds)
 
-**35 production-ready landing pages. 6 formats. One codebase. Fork a folder, swap the JSON, ship.**
+**High-volume direct-to-consumer ecommerce platform built for full ownership — own servers, own payment stack, no third-party platform holds.**
 
 ---
 
 ## Table of Contents
 
-- [Production Links](#-production-links)
-- [Dev Links](#-dev-links)
-- [Page Formats](#-page-formats)
-- [Advertorial](#-advertorial-sa)
-- [Comparison](#-comparison-scom)
-- [Listicle](#-listicle-slis)
-- [Quiz](#-quiz-sq)
-- [Sales Page](#-sales-page-ssal)
-- [VSL](#-vsl-svsl)
-- [Spin Up a New Page](#-spin-up-a-new-page)
-- [Developer Guide](#-developer-guide)
+- [Why Custom](#-why-custom)
+- [Feature Overview](#-feature-overview)
+- [Tech Stack](#-tech-stack)
+- [Project Structure](#-project-structure)
+- [Getting Started](#-getting-started)
+- [Frontend Commands](#-frontend-commands)
+- [Route Map](#-route-map)
+- [Advertorial Pages](#-advertorial-pages)
+- [Documentation](#-documentation)
+- [Notes](#-notes)
 
 ---
 
-## 🌐 Production Links
+## 🚫 Why Custom
 
-Live pages on **www.northlinemd.com**:
+Shopify and hosted platforms hold funds, throttle integrations, and gate processor choices. This stack gives the brand complete control:
 
-**Advertorial** &nbsp;
-[derila](https://www.northlinemd.com/s/a/derila) &nbsp;|&nbsp;
-[healthinsider-gynocologist](https://www.northlinemd.com/s/a/healthinsider-gynocologist) &nbsp;|&nbsp;
-[hear](https://www.northlinemd.com/s/a/hear) &nbsp;|&nbsp;
-[jevawell](https://www.northlinemd.com/s/a/jevawell) &nbsp;|&nbsp;
-[morningvitality](https://www.northlinemd.com/s/a/morningvitality) &nbsp;|&nbsp;
-[nebroo-v1](https://www.northlinemd.com/s/a/nebroo-v1) &nbsp;|&nbsp;
-[spartan](https://www.northlinemd.com/s/a/spartan) &nbsp;|&nbsp;
-[today](https://www.northlinemd.com/s/a/today) &nbsp;|&nbsp;
-[zikeey](https://www.northlinemd.com/s/a/zikeey)
-
-**Comparison** &nbsp;
-[forbes](https://www.northlinemd.com/s/com/forbes) &nbsp;|&nbsp;
-[primepicks](https://www.northlinemd.com/s/com/primepicks) &nbsp;|&nbsp;
-[shilajit](https://www.northlinemd.com/s/com/shilajit)
-
-**Listicle** &nbsp;
-[brez](https://www.northlinemd.com/s/lis/brez) &nbsp;|&nbsp;
-[feals](https://www.northlinemd.com/s/lis/feals) &nbsp;|&nbsp;
-[gruns](https://www.northlinemd.com/s/lis/gruns) &nbsp;|&nbsp;
-[hike](https://www.northlinemd.com/s/lis/hike) &nbsp;|&nbsp;
-[javy](https://www.northlinemd.com/s/lis/javy) &nbsp;|&nbsp;
-[jones](https://www.northlinemd.com/s/lis/jones) &nbsp;|&nbsp;
-[kachava](https://www.northlinemd.com/s/lis/kachava) &nbsp;|&nbsp;
-[rejuvacare](https://www.northlinemd.com/s/lis/rejuvacare)
-
-**Quiz** &nbsp;
-[chappy](https://www.northlinemd.com/s/q/chappy) &nbsp;|&nbsp;
-[chappy2](https://www.northlinemd.com/s/q/chappy2) &nbsp;|&nbsp;
-[hear](https://www.northlinemd.com/s/q/hear)
-
-**Sales** &nbsp;
-[amala](https://www.northlinemd.com/s/sal/amala) &nbsp;|&nbsp;
-[nebroo](https://www.northlinemd.com/s/sal/nebroo) &nbsp;|&nbsp;
-[nuz/neck-pain](https://www.northlinemd.com/s/sal/nuz/neck-pain) &nbsp;|&nbsp;
-[smoothspine](https://www.northlinemd.com/s/sal/smoothspine)
-
-**VSL** &nbsp;
-[abc-news](https://www.northlinemd.com/s/vsl/abc-news) &nbsp;|&nbsp;
-[diabetes](https://www.northlinemd.com/s/vsl/diabetes) &nbsp;|&nbsp;
-[emma](https://www.northlinemd.com/s/vsl/emma) &nbsp;|&nbsp;
-[getokinawatonic](https://www.northlinemd.com/s/vsl/getokinawatonic) &nbsp;|&nbsp;
-[glycoflush](https://www.northlinemd.com/s/vsl/glycoflush) &nbsp;|&nbsp;
-[oprah](https://www.northlinemd.com/s/vsl/oprah)
+- **Own servers** — no platform terms that freeze payouts
+- **Own payment stack** — direct processor relationships (NMI, Checkout.com) with automatic failover
+- **Own checkout flows** — native Medusa checkout and ClickBank integration
+- **Own subscription engine** — Chargebee-backed billing with custom dunning and retries
 
 ---
 
-## 🖥 Dev Links
+## 📦 Feature Overview
 
-Local pages on **localhost:3000**:
-
-**Advertorial** &nbsp;
-[derila](http://localhost:3000/s/a/derila) &nbsp;|&nbsp;
-[elavyn](http://localhost:3000/s/a/elavyn) &nbsp;|&nbsp;
-[healthinsider-gynocologist](http://localhost:3000/s/a/healthinsider-gynocologist) &nbsp;|&nbsp;
-[hear](http://localhost:3000/s/a/hear) &nbsp;|&nbsp;
-[jevawell](http://localhost:3000/s/a/jevawell) &nbsp;|&nbsp;
-[morningvitality](http://localhost:3000/s/a/morningvitality) &nbsp;|&nbsp;
-[nebroo-v1](http://localhost:3000/s/a/nebroo-v1) &nbsp;|&nbsp;
-[nexa](http://localhost:3000/s/a/nexa) &nbsp;|&nbsp;
-[nooro](http://localhost:3000/s/a/nooro) &nbsp;|&nbsp;
-[rejuvacare](http://localhost:3000/s/a/rejuvacare) &nbsp;|&nbsp;
-[rosabella](http://localhost:3000/s/a/rosabella) &nbsp;|&nbsp;
-[skinmag-v1](http://localhost:3000/s/a/skinmag-v1) &nbsp;|&nbsp;
-[spartan](http://localhost:3000/s/a/spartan) &nbsp;|&nbsp;
-[today](http://localhost:3000/s/a/today) &nbsp;|&nbsp;
-[trybello](http://localhost:3000/s/a/trybello) &nbsp;|&nbsp;
-[zikeey](http://localhost:3000/s/a/zikeey)
-
-**Comparison** &nbsp;
-[forbes](http://localhost:3000/s/com/forbes) &nbsp;|&nbsp;
-[primepicks](http://localhost:3000/s/com/primepicks) &nbsp;|&nbsp;
-[shilajit](http://localhost:3000/s/com/shilajit)
-
-**Listicle** &nbsp;
-[brez](http://localhost:3000/s/lis/brez) &nbsp;|&nbsp;
-[feals](http://localhost:3000/s/lis/feals) &nbsp;|&nbsp;
-[gruns](http://localhost:3000/s/lis/gruns) &nbsp;|&nbsp;
-[hike](http://localhost:3000/s/lis/hike) &nbsp;|&nbsp;
-[javy](http://localhost:3000/s/lis/javy) &nbsp;|&nbsp;
-[jones](http://localhost:3000/s/lis/jones) &nbsp;|&nbsp;
-[kachava](http://localhost:3000/s/lis/kachava) &nbsp;|&nbsp;
-[rejuvacare](http://localhost:3000/s/lis/rejuvacare)
-
-**Quiz** &nbsp;
-[chappy](http://localhost:3000/s/q/chappy) &nbsp;|&nbsp;
-[gruns](http://localhost:3000/s/q/gruns) &nbsp;|&nbsp;
-[hear](http://localhost:3000/s/q/hear) &nbsp;|&nbsp;
-[nooro](http://localhost:3000/s/q/nooro)
-
-**Sales** &nbsp;
-[amala](http://localhost:3000/s/sal/amala) &nbsp;|&nbsp;
-[nebroo](http://localhost:3000/s/sal/nebroo) &nbsp;|&nbsp;
-[nuz/neck-pain](http://localhost:3000/s/sal/nuz/neck-pain) &nbsp;|&nbsp;
-[pipitea](http://localhost:3000/s/sal/pipitea) &nbsp;|&nbsp;
-[pipitea-matcha](http://localhost:3000/s/sal/pipitea-matcha) &nbsp;|&nbsp;
-[smoothspine](http://localhost:3000/s/sal/smoothspine)
-
-**VSL** &nbsp;
-[abc-news](http://localhost:3000/s/vsl/abc-news) &nbsp;|&nbsp;
-[diabetes](http://localhost:3000/s/vsl/diabetes) &nbsp;|&nbsp;
-[emma](http://localhost:3000/s/vsl/emma) &nbsp;|&nbsp;
-[getokinawatonic](http://localhost:3000/s/vsl/getokinawatonic) &nbsp;|&nbsp;
-[glycoflush](http://localhost:3000/s/vsl/glycoflush) &nbsp;|&nbsp;
-[oprah](http://localhost:3000/s/vsl/oprah) &nbsp;|&nbsp;
-[pinksalt](http://localhost:3000/s/vsl/pinksalt) &nbsp;|&nbsp;
-[today](http://localhost:3000/s/vsl/today)
-
-**Top Advertorials by Type** &nbsp;
-Spartan: [spartan](http://localhost:3000/s/a/spartan) &nbsp;|&nbsp; [nooro](http://localhost:3000/s/a/nooro) &nbsp;|&nbsp; [nexa](http://localhost:3000/s/a/nexa) &nbsp;|&nbsp; [nebroo-v1](http://localhost:3000/s/a/nebroo-v1) &nbsp;&nbsp;
-News: [jevawell](http://localhost:3000/s/a/jevawell) &nbsp;|&nbsp; [elavyn](http://localhost:3000/s/a/elavyn)
+| Category | What's included |
+|----------|----------------|
+| **Checkout** | Native Medusa checkout, ClickBank checkout, bundle builder |
+| **Subscriptions** | Chargebee billing, dunning, retries, customer self-serve portal |
+| **Payment routing** | Multi-processor routing (NMI primary, Checkout.com backup), health-based failover scaffolding |
+| **Disputes** | Chargeflow alert ingestion, Medusa order sync, processor refund orchestration |
+| **Acquisition** | Quiz funnel, one-time offer upsell (OTO), advertorial / VSL landing pages |
+| **Storefront** | Product pages, best-sellers collection, account management |
 
 ---
 
-## 📋 Page Formats
+## 🛠 Tech Stack
 
-Every template lives at `app/s/<type>/<slug>/` — fully self-contained with its own copy, media, components, and sections.
+**Frontend**
+- [Next.js 15](https://nextjs.org) — App Router, SSR/SSG
+- TypeScript, Tailwind CSS
+- Radix UI (accessible primitives), Framer Motion (animations), Lucide React (icons)
+
+**Backend**
+- [Medusa.js v2](https://medusajs.com) — headless commerce engine
+- PostgreSQL 16 — primary datastore
+- Redis 7 — caching and background job queues
+
+**Integrations**
+- [Chargebee](https://chargebee.com) — subscription contracts, invoices, dunning
+- NMI — primary payment processor
+- Checkout.com — backup payment processor
+- [Chargeflow](https://chargeflow.io) — dispute automation
+
+---
+
+## 📁 Project Structure
 
 ```
-app/s/
-  a/      advertorial      article-style editorial pages
-  com/    comparison       ranked product tables
-  lis/    listicle         numbered-reason articles
-  q/      quiz             multi-step interactive funnels
-  sal/    sales            direct-response offer pages
-  vsl/    video            VSL + order section
+.
+├── frontend/                     # Next.js 15 App Router storefront
+│   ├── app/
+│   │   ├── (main)/               # Core storefront
+│   │   │   ├── page.tsx          # Homepage
+│   │   │   ├── products/         # Product detail pages
+│   │   │   ├── collections/      # Collection pages (best sellers)
+│   │   │   ├── account/          # Customer account + subscription portal
+│   │   │   └── s/a/<slug>/       # Advertorial / VSL landing pages
+│   │   ├── checkout/             # Native Medusa checkout + thank-you
+│   │   ├── clickbank-checkout/   # ClickBank checkout flow
+│   │   ├── build-bundle/         # Bundle / upsell builder
+│   │   ├── quiz/                 # Quiz acquisition funnel
+│   │   └── oto/                  # One-time offer upsell
+│   └── src/
+│       ├── sections/             # Page section components
+│       ├── components/           # Shared UI components
+│       ├── hooks/                # React hooks
+│       ├── lib/                  # API clients (Medusa, subscriptions)
+│       └── config/               # Nav links and site config
+│
+├── backend/                      # Medusa.js v2 backend
+│   ├── src/
+│   │   └── modules/
+│   │       ├── subscription-commerce/   # Chargebee billing integration
+│   │       ├── payment-routing/         # Multi-processor routing layer
+│   │       └── dispute-service/         # Chargeflow + refund orchestration
+│   └── env.example               # All required environment variables
+│
+├── docs/
+│   ├── dispute-service/          # Architecture, setup, Medusa config
+│   ├── subscription-commerce/    # Module design, Chargebee integration
+│   └── payment-router/           # Processor config reference
+│
+└── docker-compose.yml            # Local PostgreSQL + Redis
 ```
 
-> The fastest path to a new page: copy [`app/s/sal/nuz/neck-pain/`](app/s/sal/nuz/neck-pain/) — it has the most complete [developer guide](app/s/sal/nuz/neck-pain/README.md) and a two-file content system (`copy.json` + `media.json`) designed for AI-assisted re-branding.
-
 ---
 
-## 📰 Advertorial `/s/a/`
+## 🚀 Getting Started
 
-| Route | Brand | Hook | Source |
-|---|---|---|---|
-| [`/s/a/derila`](app/s/a/derila/) | **Derila** | Memory foam pillow for over-50s — wake up with no tension headaches | [derila.com](https://derila.com/articles/wake-up-refreshed?c=CAD&l=en&vndr=derfbdov) |
-| [`/s/a/healthinsider-gynocologist`](app/s/a/healthinsider-gynocologist/) | **Healthinsider** | Gynecologist tests 5 menopause supplements — only 1 worked for weight loss | [healthinsider.news](https://healthinsider.news/gynecologists-tested-best-supplements-on-patients-to-reduce-cortisol-meno-supplements-en/) |
-| [`/s/a/hear`](app/s/a/hear/) | **hear.com** | The tiny German hearing aid taking the U.S. by storm — 540k happy customers | [hear.com](https://www.hear.com/d/best_hearing_aids_dis01) |
-| [`/s/a/jevawell`](app/s/a/jevawell/) | **Jevawell** | Vascular specialist exposes the $18B vein industry secret — daily edema gummy | [jevawell.com](https://jevawell.com/pages/adv-1) |
-| [`/s/a/morningvitality`](app/s/a/morningvitality/) | **Morning Vitality** | Top MD: rub this 1 mineral on your hips for sciatic nerve relief | [morningvitality.com](https://health.morningvitality.com/xe/bt1t/) |
-| [`/s/a/nebroo-v1`](app/s/a/nebroo-v1/) | **Nebroo** | Why did I lose my hearing and what can I do? — CIC hearing aid editorial | [nebroo.com](https://offer.nebroo.com/advert-v1-3) |
-| [`/s/a/spartan`](app/s/a/spartan/) | **Spartan** | The cellular mechanism behind energy decline in your 40s — clinical-trial framing | [healthguidancedaily.com](https://healthguidancedaily.com/s/a/why-high-performers-crash) |
-| [`/s/a/today`](app/s/a/today/) | **Today / SugarHealth** | Metabolic support editorial in Today-show news style | Today advertorial |
-| [`/s/a/zikeey`](app/s/a/zikeey/) | **Zikeey / Sherum ErgoSeat** | If you are painful when you sit, you should read this — ergonomic cushion review | [zikeey.com](https://zikeey.com/me/new/Sherum/memory-foam-seat-cushion/view12776) |
+### Prerequisites
 
----
+- **Node.js** 20+
+- **pnpm** 9+ — `npm install -g pnpm`
+- **Docker** — for local Postgres and Redis
 
-## 📊 Comparison `/s/com/`
-
-| Route | Brand | Hook | Source |
-|---|---|---|---|
-| [`/s/com/forbes`](app/s/com/forbes/) | **Forbes Health** | Top-rated GLP-1 weight loss medications of 2026 | [forbes.com/health](https://www.forbes.com/health/) |
-| [`/s/com/primepicks`](app/s/com/primepicks/) | **PrimePicks** | Best wallet trackers of 2026 — scored comparison with sidebar filters | PrimePicks review style |
-| [`/s/com/shilajit`](app/s/com/shilajit/) | **BuyeReviews** | 10 best shilajit supplements — animated reveal ranking | Shilajit comparison |
-
----
-
-## 📝 Listicle `/s/lis/`
-
-| Route | Brand | Hook | Source |
-|---|---|---|---|
-| [`/s/lis/brez`](app/s/lis/brez/) | **BRĒZ** | 6 reasons Americans are ditching alcohol for BRĒZ — hemp + Lion's Mane | BRĒZ listicle ad |
-| [`/s/lis/feals`](app/s/lis/feals/) | **Feals** | Get the relaxing buzz without the hangover, calories, or regret | Feals listicle |
-| [`/s/lis/gruns`](app/s/lis/gruns/) | **Grüns** | 6 reasons why Grüns is your gut's new bestie — 60+ ingredients in a gummy | Grüns listicle |
-| [`/s/lis/hike`](app/s/lis/hike/) | **Hike Footwear** | Why Americans over 50 are switching to these pain-relieving barefoot shoes | [animaapp.com](https://c.animaapp.com/mpkdc2w7URxoYV) |
-| [`/s/lis/javy`](app/s/lis/javy/) | **Javy** | 11 reasons this high-protein iced coffee is the #1 trending drink for Spring 2026 | Javy LP |
-| [`/s/lis/jones`](app/s/lis/jones/) | **Jones Road Beauty** | What The Foundation — flawless look, barely-there feel | Jones Road Beauty LP |
-| [`/s/lis/kachava`](app/s/lis/kachava/) | **Ka'Chava** | 9 reasons why people love this shake — plant-based all-in-one nutrition | Ka'Chava listicle |
-| [`/s/lis/rejuvacare`](app/s/lis/rejuvacare/) | **RejuvaCare** | How this "patch trick" is helping millions melt fat without diets or injections | RejuvaCare listicle |
-
----
-
-## 🧪 Quiz `/s/q/`
-
-| Route | Brand | Hook | Source |
-|---|---|---|---|
-| [`/s/q/chappy`](app/s/q/chappy/) | **Grüns** | 50-question single-answer quiz → personalised gummy recommendation + confetti | Grüns product quiz |
-| [`/s/q/chappy2`](app/s/q/chappy2/) | **Grüns v2** | Alternate Grüns quiz flow with heyflow-style assets and progress bar | [heyflow.com](https://heyflow.com) quiz style |
-| [`/s/q/hear`](app/s/q/hear/) | **hear.com** | Hearing qualification quiz — selected option highlights, loading + result screens | hear.com quiz funnel |
-
----
-
-## 🛒 Sales Page `/s/sal/`
-
-| Route | Brand | Hook | Source |
-|---|---|---|---|
-| [`/s/sal/amala`](app/s/sal/amala/) | **Amala Health** | Exhausted all day, aging faster than you should? — PrimeCell H2 cellular support | Amala Health sales page |
-| [`/s/sal/nebroo`](app/s/sal/nebroo/) | **Nebroo PRO 2.0** | Over 100,000 satisfied customers — hearing aids at 70% OFF, 120-day trial | Nebroo sales page |
-| [`/s/sal/nuz/neck-pain`](app/s/sal/nuz/neck-pain/) | **Nuzzle** | Stop your neck pain fast — pillow with countdown, comparison table, video proof | [getnuzzle.com](https://getnuzzle.com) |
-| [`/s/sal/smoothspine`](app/s/sal/smoothspine/) | **SmoothSpine** | "Triple Fusion" device decompresses your spine and rehydrates discs from home | SmoothSpine sales page |
-
----
-
-## 🎬 VSL `/s/vsl/`
-
-| Route | Brand | Hook | Source |
-|---|---|---|---|
-| [`/s/vsl/abc-news`](app/s/vsl/abc-news/) | **ABC News** | Breaking-news editorial wrapper around a VSL | ABC News editorial style |
-| [`/s/vsl/diabetes`](app/s/vsl/diabetes/) | **GlycoCept** | Harvard MD reveals the natural honey blend reversing Type 2 diabetes in 21 days | GlycoCept VSL |
-| [`/s/vsl/emma`](app/s/vsl/emma/) | **Emma** | "Do this once a day to empty your bowels like clockwork" — gut renewal formula | Emma VSL |
-| [`/s/vsl/getokinawatonic`](app/s/vsl/getokinawatonic/) | **Okinawa Tonic** | Weight loss tonic VSL — desktop + mobile video covers, multi-tier order section | [getokinawatonic.com](https://getokinawatonic.com/sp-vsl-1/) |
-| [`/s/vsl/glycoflush`](app/s/vsl/glycoflush/) | **GlycoFlush** | Claim your discounted GlycoLean now — blood sugar VSL | GlycoFlush VSL |
-| [`/s/vsl/oprah`](app/s/vsl/oprah/) | **HEALTH** | Celebrity-endorsed weight loss VSL with starter / value / best-value tier order | Oprah-style VSL |
-| [`/s/vsl/pinksalt`](app/s/vsl/pinksalt/) | **Pink Salt** | The 4-ingredient recipe celebrities use to drop up to 14 lbs in 10 days | Pink Salt VSL |
-| [`/s/vsl/today`](app/s/vsl/today/) | **Today** | Today-show news format VSL | Today-show VSL style |
-
----
-
-## 🚀 Spin Up a New Page
+### 1. Start infrastructure
 
 ```bash
-cp -R app/s/sal/nuz/neck-pain app/s/sal/<brand>/<campaign>
+docker compose up -d
 ```
 
-Open `copy.json` (all user-visible text) and `media.json` (asset URLs, timers, Tailwind classes). Hand both to an AI:
+Starts PostgreSQL on `5432` and Redis on `6379`.
 
-> Rewrite all copy for **\<new product\>**. Keep the same structure, key names, array lengths, and `**bold**` conventions.
-
-Route wires up automatically — add `page.tsx` pointing to your `LandingPage` export and Tailwind picks up the JSON classes at build time.
-
----
-
-## 📚 Developer Guide
-
-- [`AGENTS.md`](AGENTS.md) — full developer guide: project structure, dev commands, key files, troubleshooting
-- [`CHANGELOG.md`](CHANGELOG.md) — release history
-
-**Dev commands** (from repo root):
+### 2. Configure the backend
 
 ```bash
-pnpm dev       # Start development server on http://localhost:3000
-pnpm build     # Production build — also serves as validation (no test runner)
-pnpm start     # Serve the production build
+cp backend/env.example backend/.env
+```
+
+Required variables:
+
+| Variable | Description |
+|----------|-------------|
+| `DATABASE_URL` | PostgreSQL connection string |
+| `REDIS_URL` | Redis connection string |
+| `JWT_SECRET` | Long random string |
+| `COOKIE_SECRET` | Long random string |
+| `CHARGEBEE_SITE` | Chargebee site name |
+| `CHARGEBEE_API_KEY` | Chargebee API key |
+| `CHARGEBEE_WEBHOOK_USERNAME` | Webhook basic-auth username |
+| `CHARGEBEE_WEBHOOK_PASSWORD` | Webhook basic-auth password |
+| `NMI_SECURITY_KEY` | NMI security key |
+| `CHECKOUT_COM_SECRET_KEY` | Checkout.com secret key |
+
+See [`backend/env.example`](backend/env.example) for the full list.
+
+### 3. Start the backend
+
+```bash
+cd backend
+pnpm install
+pnpm db:migrate
+pnpm dev           # http://localhost:9000
+```
+
+### 4. Start the frontend
+
+```bash
+cd frontend
+pnpm install
+pnpm dev           # http://localhost:3000
 ```
 
 ---
+
+## ⚡ Frontend Commands
+
+From the `frontend/` directory:
+
+```bash
+pnpm dev      # Development server with HMR
+pnpm build    # Production build (also serves as validation — no test runner)
+pnpm start    # Serve the production build
+```
+
+---
+
+## 🗺 Route Map
+
+| Route | Description |
+|-------|-------------|
+| `/` | Main storefront |
+| `/products/gruns-superfood-gummies` | Product detail |
+| `/collections/best-sellers` | Best sellers |
+| `/checkout` | Native checkout |
+| `/checkout/thank-you` | Post-purchase confirmation |
+| `/clickbank-checkout` | ClickBank checkout |
+| `/build-bundle` | Bundle builder |
+| `/quiz` | Quiz funnel |
+| `/oto` | One-time offer upsell |
+| `/account/subscriptions` | Subscription self-serve portal |
+| `/s/a/<slug>` | Advertorial / VSL pages |
+
+---
+
+## 📝 Advertorial Pages
+
+Each route under `/s/a/<slug>` is content-driven — no code changes needed for copy or media updates:
+
+```
+app/(main)/s/a/<slug>/
+  page.tsx       # Renders TopBar with content props
+  copy.json      # All text: headings, CTAs, comments, footer
+  media.json     # All media: image/video URLs, icon URLs
+```
+
+---
+
+## 📚 Documentation
+
+- [Dispute Service](docs/dispute-service/README.md) — Chargeflow ingestion, refund orchestration, Medusa integration
+- [Subscription Commerce](docs/subscription-commerce/architecture.md) — Chargebee module design and billing lifecycle
+- [Payment Router](docs/payment-router/medusa-config.example.md) — Processor configuration reference
+
+---
+
+## ⚠️ Notes
+
+**Payment routing:** The multi-processor routing layer (NMI, Checkout.com) is architectural scaffolding. Gateway charge calls are stubbed and return `success: false` — real processor credentials and charge implementations are required before going live. See `backend/src/modules/payment-routing/` and `docs/payment-router/`.
 
 [↑ Back to top](#top)
