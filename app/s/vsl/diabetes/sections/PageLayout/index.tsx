@@ -11,7 +11,7 @@ import { DiabetesSalesPage } from "../SalesPage"
 // Change `delaySeconds` to adjust the reveal time.
 // Set to 0 to show immediately.
 const REVEAL_SCHEDULE = [
-  { id: "salesPage", delaySeconds: 30 },
+  { id: "salesPage", delaySeconds: 2700 },
 ] as const
 // ──────────────────────────────────────────────────────────────────────────
 

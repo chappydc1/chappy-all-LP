@@ -1818,13 +1818,13 @@ export const DiabetesHeroSection = () => {
             </section>
           </div>
           <div className="box-border caret-transparent max-w-none outline-[3px] w-full mx-auto px-3 md:max-w-[1140px]">
-            <div className="text-[13px] box-border caret-transparent leading-[19.5px] outline-[3px] w-full m-auto font-segoe_ui_historic md:text-base md:leading-6">
+            <div className="text-[13px] box-border caret-transparent leading-[19.5px] outline-[3px] w-full m-auto font-helvetica md:text-base md:leading-6">
               <h2 className="text-neutral-600 text-[14.3px] box-border caret-transparent leading-[17.16px] outline-[3px] text-left mt-[30.3875px] mb-[8.9375px] font-nunito_sans md:text-[17.6px] md:leading-[21.12px] md:mt-[37.4px] md:mb-[11px]">
                 <b className="text-[14.3px] font-bold box-border caret-transparent leading-[17.16px] outline-[3px] md:text-[17.6px] md:leading-[21.12px]">
                   36,158 Comments
                 </b>
               </h2>
-              <div className="text-[13px] box-border caret-transparent gap-x-[16.25px] flex flex-col leading-[19.5px] outline-[3px] gap-y-[16.25px] border border-gray-200 pt-[16.25px] px-[16.25px] rounded-[16.25px] border-solid font-nunito_sans md:text-base md:gap-x-5 md:leading-6 md:gap-y-5 md:pt-5 md:px-5 md:rounded-[20px]">
+              <div className="text-[13px] box-border caret-transparent gap-x-[16.25px] flex flex-col leading-[19.5px] outline-[3px] gap-y-[16.25px] pt-[16.25px] px-[16.25px] font-helvetica md:text-base md:gap-x-5 md:leading-6 md:gap-y-5 md:pt-5 md:px-5">
                 <div className="relative text-[13px] items-start box-border caret-transparent gap-x-[8.125px] flex justify-start leading-[19.5px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] gap-y-[8.125px] w-full md:text-base md:gap-x-2.5 md:leading-6 md:gap-y-2.5">
                   <img
                     src="/images/img/coments/woman/03.jpg?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
