@@ -1,23 +1,24 @@
 "use client"
 
 import { useState, useEffect } from "react"
-import { DiabetesHeader } from "../Header"
-import { DiabetesNewsTicker } from "../NewsTicker"
-import { DiabetesHeroSection } from "../HeroSection"
-import { DiabetesSalesPage } from "../SalesPage"
+import { GetokinawatonicHeroSection } from "../GetokinawatonicHeroSection"
+import { GetokinawatonicSalesSection } from "../GetokinawatonicSalesSection"
+import { GetokinawatonicStickyCta } from "../../components/GetokinawatonicStickyCta"
+import { GetokinawatonicFooter } from "../GetokinawatonicFooter"
 
 // ── Timed reveal config ────────────────────────────────────────────────────
 // Each entry controls when a section appears after the page loads.
 // Change `delaySeconds` to adjust the reveal time.
 // Set to 0 to show immediately.
 const REVEAL_SCHEDULE = [
-  { id: "salesPage", delaySeconds: 2700 },
+  { id: "salesSection", delaySeconds: 30 },
+  { id: "footer",       delaySeconds: 30 },
 ] as const
 // ──────────────────────────────────────────────────────────────────────────
 
 type RevealId = (typeof REVEAL_SCHEDULE)[number]["id"]
 
-export const DiabetesPageLayout = (): JSX.Element => {
+export const GetokinawatonicPageLayout = (): JSX.Element => {
   const [revealed, setRevealed] = useState<Set<RevealId>>(new Set())
 
   useEffect(() => {
@@ -30,11 +31,14 @@ export const DiabetesPageLayout = (): JSX.Element => {
   }, [])
 
   return (
-    <main className="box-border caret-transparent outline-[3px] w-full mx-auto font-nunito_sans">
-      <DiabetesHeader />
-      <DiabetesNewsTicker />
-      <DiabetesHeroSection />
-      {revealed.has("salesPage") && <DiabetesSalesPage />}
-    </main>
+    <>
+      <div className="bg-white bg-cover box-border caret-transparent outline-[3px]">
+        <div className="bg-red-400 box-border caret-transparent min-h-[5px] outline-[3px]" />
+        <GetokinawatonicHeroSection />
+        {revealed.has("salesSection") && <GetokinawatonicSalesSection />}
+      </div>
+      <GetokinawatonicStickyCta />
+      {revealed.has("footer") && <GetokinawatonicFooter />}
+    </>
   )
 }

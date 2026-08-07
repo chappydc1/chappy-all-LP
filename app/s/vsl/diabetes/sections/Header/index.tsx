@@ -4,10 +4,18 @@ export const DiabetesHeader = () => {
       <h1 className="text-white text-[27.2px] box-border caret-transparent grow leading-[32.64px] min-h-[auto] min-w-[auto] outline-[3px] text-center md:text-[32px] md:leading-[38.4px]">
         HEALTH
       </h1>
-      <img
-        src="/images/img/menu-toggle.webp?hopId=5f160ca7-bd6b-4c23-b55d-9b6214111f05"
-        className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] w-[23px]"
-      />
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="23"
+        height="23"
+        viewBox="0 0 23 23"
+        fill="none"
+        className="shrink-0"
+      >
+        <rect y="3" width="23" height="2.5" rx="1.25" fill="white" />
+        <rect y="10" width="23" height="2.5" rx="1.25" fill="white" />
+        <rect y="17" width="23" height="2.5" rx="1.25" fill="white" />
+      </svg>
     </header>
   );
 };
