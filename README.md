@@ -6,20 +6,20 @@
 [![language](https://img.shields.io/badge/language-TypeScript-3178C6)](https://www.typescriptlang.org)
 [![styling](https://img.shields.io/badge/styling-Tailwind%20CSS-06B6D4)](https://tailwindcss.com)
 [![pkg manager](https://img.shields.io/badge/pkg%20manager-pnpm-F69220)](https://pnpm.io)
-[![pages](https://img.shields.io/badge/pages-42%20templates-2ea44f)](#-page-formats)
+[![pages](https://img.shields.io/badge/pages-56%20templates-2ea44f)](#-page-formats)
 [![formats](https://img.shields.io/badge/formats-7%20types-7C3AED)](#-page-formats)
 [![GitHub last commit](https://img.shields.io/github/last-commit/chappydc1/lp-all-personal)](#)
 [![license](https://img.shields.io/badge/license-private-lightgrey)](#)
 
 ⭐ Star us on GitHub — your support keeps the build moving!
 
-[![Share on X](https://img.shields.io/badge/share-000000?logo=x&logoColor=white)](https://x.com/intent/tweet?text=42%20production-ready%20DTC%20landing%20pages%20in%20one%20Next.js%2015%20codebase%3A%20https%3A%2F%2Fgithub.com%2Fchappydc1%2Flp-all-personal%20%23landingpages%20%23DTC%20%23NextJS)
+[![Share on X](https://img.shields.io/badge/share-000000?logo=x&logoColor=white)](https://x.com/intent/tweet?text=56%20production-ready%20DTC%20landing%20pages%20in%20one%20Next.js%2015%20codebase%3A%20https%3A%2F%2Fgithub.com%2Fchappydc1%2Flp-all-personal%20%23landingpages%20%23DTC%20%23NextJS)
 [![Share on Facebook](https://img.shields.io/badge/share-1877F2?logo=facebook&logoColor=white)](https://www.facebook.com/sharer/sharer.php?u=https://github.com/chappydc1/lp-all-personal)
 [![Share on LinkedIn](https://img.shields.io/badge/share-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/sharing/share-offsite/?url=https://github.com/chappydc1/lp-all-personal)
-[![Share on Reddit](https://img.shields.io/badge/share-FF4500?logo=reddit&logoColor=white)](https://www.reddit.com/submit?title=42%20production-ready%20DTC%20landing%20pages%20in%20one%20Next.js%2015%20codebase&url=https://github.com/chappydc1/lp-all-personal)
-[![Share on Telegram](https://img.shields.io/badge/share-0088CC?logo=telegram&logoColor=white)](https://t.me/share/url?url=https://github.com/chappydc1/lp-all-personal&text=42%20production-ready%20DTC%20landing%20pages%20in%20one%20Next.js%2015%20codebase)
+[![Share on Reddit](https://img.shields.io/badge/share-FF4500?logo=reddit&logoColor=white)](https://www.reddit.com/submit?title=56%20production-ready%20DTC%20landing%20pages%20in%20one%20Next.js%2015%20codebase&url=https://github.com/chappydc1/lp-all-personal)
+[![Share on Telegram](https://img.shields.io/badge/share-0088CC?logo=telegram&logoColor=white)](https://t.me/share/url?url=https://github.com/chappydc1/lp-all-personal&text=56%20production-ready%20DTC%20landing%20pages%20in%20one%20Next.js%2015%20codebase)
 
-**42 production-ready landing pages. 7 formats. One codebase. Fork a folder, swap the JSON, ship.**
+**56 production-ready landing pages. 7 formats. One codebase. Fork a folder, swap the JSON, ship.**
 
 ---
 
@@ -117,7 +117,7 @@ pnpm dev           # http://localhost:3000
 
 ### 3. Open a page
 
-Browse any route from the [Dev Links](#-dev-links) section below, e.g. [http://localhost:3000/s/sal/nuz/neck-pain](http://localhost:3000/s/sal/nuz/neck-pain).
+Browse any route from the [Dev Links](#-dev-links) section below, e.g. [http://localhost:3000/s/sal/neck-pain](http://localhost:3000/s/sal/neck-pain).
 
 ---
 
@@ -163,13 +163,14 @@ Live pages on **www.northlinemd.com**:
 
 **Quiz** &nbsp;
 [chappy](https://www.northlinemd.com/s/q/chappy) &nbsp;|&nbsp;
-[chappy2](https://www.northlinemd.com/s/q/chappy2) &nbsp;|&nbsp;
-[hear](https://www.northlinemd.com/s/q/hear)
+[gruns](https://www.northlinemd.com/s/q/gruns) &nbsp;|&nbsp;
+[hear](https://www.northlinemd.com/s/q/hear) &nbsp;|&nbsp;
+[nooro](https://www.northlinemd.com/s/q/nooro)
 
 **Sales** &nbsp;
 [amala](https://www.northlinemd.com/s/sal/amala) &nbsp;|&nbsp;
 [nebroo](https://www.northlinemd.com/s/sal/nebroo) &nbsp;|&nbsp;
-[nuz/neck-pain](https://www.northlinemd.com/s/sal/nuz/neck-pain) &nbsp;|&nbsp;
+[neck-pain](https://www.northlinemd.com/s/sal/neck-pain) &nbsp;|&nbsp;
 [smoothspine](https://www.northlinemd.com/s/sal/smoothspine)
 
 **VSL** &nbsp;
@@ -220,13 +221,16 @@ Local pages on **localhost:3000**:
 **Listicle** &nbsp;
 [brez](http://localhost:3000/s/lis/brez) &nbsp;|&nbsp;
 [feals](http://localhost:3000/s/lis/feals) &nbsp;|&nbsp;
+[glp1-hair](http://localhost:3000/s/lis/glp1-hair) &nbsp;|&nbsp;
 [gruns](http://localhost:3000/s/lis/gruns) &nbsp;|&nbsp;
 [hike](http://localhost:3000/s/lis/hike) &nbsp;|&nbsp;
 [javy](http://localhost:3000/s/lis/javy) &nbsp;|&nbsp;
 [jones](http://localhost:3000/s/lis/jones) &nbsp;|&nbsp;
 [kachava](http://localhost:3000/s/lis/kachava) &nbsp;|&nbsp;
+[mens-health](http://localhost:3000/s/lis/mens-health) &nbsp;|&nbsp;
 [rejuvacare](http://localhost:3000/s/lis/rejuvacare) &nbsp;|&nbsp;
-[sanlava](http://localhost:3000/s/lis/sanlava)
+[sanlava](http://localhost:3000/s/lis/sanlava) &nbsp;|&nbsp;
+[saphire](http://localhost:3000/s/lis/saphire)
 
 **Quiz** &nbsp;
 [chappy](http://localhost:3000/s/q/chappy) &nbsp;|&nbsp;
@@ -237,9 +241,10 @@ Local pages on **localhost:3000**:
 **Sales** &nbsp;
 [amala](http://localhost:3000/s/sal/amala) &nbsp;|&nbsp;
 [nebroo](http://localhost:3000/s/sal/nebroo) &nbsp;|&nbsp;
-[nuz/neck-pain](http://localhost:3000/s/sal/nuz/neck-pain) &nbsp;|&nbsp;
+[neck-pain](http://localhost:3000/s/sal/neck-pain) &nbsp;|&nbsp;
 [pipitea](http://localhost:3000/s/sal/pipitea) &nbsp;|&nbsp;
 [pipitea-matcha](http://localhost:3000/s/sal/pipitea-matcha) &nbsp;|&nbsp;
+[rejuvacare](http://localhost:3000/s/sal/rejuvacare) &nbsp;|&nbsp;
 [smoothspine](http://localhost:3000/s/sal/smoothspine)
 
 **VSL** &nbsp;
@@ -269,14 +274,21 @@ Every template lives at `app/s/<type>/<slug>/` — fully self-contained with its
 | Route | Brand | Hook | Source |
 |---|---|---|---|
 | [`/s/a/derila`](app/s/a/derila/) | **Derila** | Memory foam pillow for over-50s — wake up with no tension headaches | [derila.com](https://derila.com/articles/wake-up-refreshed?c=CAD&l=en&vndr=derfbdov) |
+| [`/s/a/elavyn`](app/s/a/elavyn/) | **Elavyn** | Nephrologist exposes the "ACE Inhibitor Playbook" — 21-day kidney recovery protocol | elavyn advertorial |
 | [`/s/a/healthinsider-gynocologist`](app/s/a/healthinsider-gynocologist/) | **Healthinsider** | Gynecologist tests 5 menopause supplements — only 1 worked for weight loss | [healthinsider.news](https://healthinsider.news/gynecologists-tested-best-supplements-on-patients-to-reduce-cortisol-meno-supplements-en/) |
 | [`/s/a/hear`](app/s/a/hear/) | **hear.com** | The tiny German hearing aid taking the U.S. by storm — 540k happy customers | [hear.com](https://www.hear.com/d/best_hearing_aids_dis01) |
 | [`/s/a/jevawell`](app/s/a/jevawell/) | **Jevawell** | Vascular specialist exposes the $18B vein industry secret — daily edema gummy | [jevawell.com](https://jevawell.com/pages/adv-1) |
 | [`/s/a/morningvitality`](app/s/a/morningvitality/) | **Morning Vitality** | Top MD: rub this 1 mineral on your hips for sciatic nerve relief | [morningvitality.com](https://health.morningvitality.com/xe/bt1t/) |
 | [`/s/a/nebroo-v1`](app/s/a/nebroo-v1/) | **Nebroo** | Why did I lose my hearing and what can I do? — CIC hearing aid editorial | [nebroo.com](https://offer.nebroo.com/advert-v1-3) |
 | [`/s/a/nebroo-v2`](app/s/a/nebroo-v2/) | **Nebroo v2** | Why Did You Lose Your Hearing and What Can You Do? — updated CIC hearing aid editorial | [nebroo.com](https://offer.nebroo.com) |
+| [`/s/a/nexa`](app/s/a/nexa/) | **Nexa** | Tired of spending hours washing your car? — auto detailing advertorial | nexa advertorial |
+| [`/s/a/nooro`](app/s/a/nooro/) | **Nooro** | Top Doctor of PT: The best way to relieve edema in your legs and feet fast — leg massager editorial | nooro advertorial |
+| [`/s/a/rejuvacare`](app/s/a/rejuvacare/) | **RejuvaCare** | Knee pain checkout advertorial with CheckoutChamp integration | rejuvacare advertorial |
+| [`/s/a/rosabella`](app/s/a/rosabella/) | **Rosabella** | 5 Reasons Why Thousands Are Choosing Rosabella Moringa to Restore Energy, Focus, and Metabolism | [tryrosabella.com](https://shop.tryrosabella.com) |
+| [`/s/a/skinmag-v1`](app/s/a/skinmag-v1/) | **SkinMag** | Two months ago I looked 63; a stranger guessed 41 — 30-second anti-aging morning habit | skinmag editorial |
 | [`/s/a/spartan`](app/s/a/spartan/) | **Spartan** | The cellular mechanism behind energy decline in your 40s — clinical-trial framing | [healthguidancedaily.com](https://healthguidancedaily.com/s/a/why-high-performers-crash) |
 | [`/s/a/today`](app/s/a/today/) | **Today / SugarHealth** | Metabolic support editorial in Today-show news style | Today advertorial |
+| [`/s/a/trybello`](app/s/a/trybello/) | **TryBello** | Board-certified dermatologist's open letter to women over 40 told their hair loss is just aging | trybello advertorial |
 | [`/s/a/zikeey`](app/s/a/zikeey/) | **Zikeey / Sherum ErgoSeat** | If you are painful when you sit, you should read this — ergonomic cushion review | [zikeey.com](https://zikeey.com/me/new/Sherum/memory-foam-seat-cushion/view12776) |
 | [`/s/a/cardiologist-90-day-capsaicin-investigation`](app/s/a/cardiologist-90-day-capsaicin-investigation/) | **Lora** | Cardiologist spent 90 days investigating Lora Capsaicin Power Softgels for blood flow improvement | [loraritual.com](https://loraritual.com/products/cayenne-pepper-softgels) |
 | [`/s/a/nephrologist-90-day-capsaicin-investigation`](app/s/a/nephrologist-90-day-capsaicin-investigation/) | **Lora** | Nephrologist spent 90 days investigating Lora Capsaicin Power for foamy urine and kidney health | [loraritual.com](https://loraritual.com/products/capsaicin-power-kidney) |
@@ -311,13 +323,16 @@ Article-style editorial hook paired with a numbered listicle body — specialist
 |---|---|---|---|
 | [`/s/lis/brez`](app/s/lis/brez/) | **BRĒZ** | 6 reasons Americans are ditching alcohol for BRĒZ — hemp + Lion's Mane | BRĒZ listicle ad |
 | [`/s/lis/feals`](app/s/lis/feals/) | **Feals** | Get the relaxing buzz without the hangover, calories, or regret | Feals listicle |
+| [`/s/lis/glp1-hair`](app/s/lis/glp1-hair/) | **GLP-1 Hair** | 10 reasons why women on GLP-1 are finally beating the hair loss side effect with this $39 shampoo | GLP-1 Hair listicle |
 | [`/s/lis/gruns`](app/s/lis/gruns/) | **Grüns** | 6 reasons why Grüns is your gut's new bestie — 60+ ingredients in a gummy | Grüns listicle |
 | [`/s/lis/hike`](app/s/lis/hike/) | **Hike Footwear** | Why Americans over 50 are switching to these pain-relieving barefoot shoes | [animaapp.com](https://c.animaapp.com/mpkdc2w7URxoYV) |
 | [`/s/lis/javy`](app/s/lis/javy/) | **Javy** | 11 reasons this high-protein iced coffee is the #1 trending drink for Spring 2026 | Javy LP |
 | [`/s/lis/jones`](app/s/lis/jones/) | **Jones Road Beauty** | What The Foundation — flawless look, barely-there feel | Jones Road Beauty LP |
 | [`/s/lis/kachava`](app/s/lis/kachava/) | **Ka'Chava** | 9 reasons why people love this shake — plant-based all-in-one nutrition | Ka'Chava listicle |
+| [`/s/lis/mens-health`](app/s/lis/mens-health/) | **Ultimapeak** | Ultimapeak Performance Gummies — Shilajit, Ashwagandha, Maca for testosterone and men's vitality | Ultimapeak listicle |
 | [`/s/lis/rejuvacare`](app/s/lis/rejuvacare/) | **RejuvaCare** | How this "patch trick" is helping millions melt fat without diets or injections | RejuvaCare listicle |
 | [`/s/lis/sanlava`](app/s/lis/sanlava/) | **Sanlava** | 10 reasons why this "Metabolic Switch" breakthrough is changing how women over 45 take back control of blood sugar, cravings & energy | [sanlava.com](https://www.sanlava.com) |
+| [`/s/lis/saphire`](app/s/lis/saphire/) | **Saphire** | Parents with ADHD kids ditching Vyvanse & Concerta after discovering this natural alternative | Saphire listicle |
 
 ---
 
@@ -326,8 +341,9 @@ Article-style editorial hook paired with a numbered listicle body — specialist
 | Route | Brand | Hook | Source |
 |---|---|---|---|
 | [`/s/q/chappy`](app/s/q/chappy/) | **Grüns** | 50-question single-answer quiz → personalised gummy recommendation + confetti | Grüns product quiz |
-| [`/s/q/chappy2`](app/s/q/chappy2/) | **Grüns v2** | Alternate Grüns quiz flow with heyflow-style assets and progress bar | [heyflow.com](https://heyflow.com) quiz style |
+| [`/s/q/gruns`](app/s/q/gruns/) | **Grüns v2** | Alternate Grüns quiz flow with heyflow-style assets and progress bar | Grüns quiz v2 |
 | [`/s/q/hear`](app/s/q/hear/) | **hear.com** | Hearing qualification quiz — selected option highlights, loading + result screens | hear.com quiz funnel |
+| [`/s/q/nooro`](app/s/q/nooro/) | **Nooro** | Leg swelling and edema relief qualification quiz — age select, multi-step, personalised result | Nooro quiz funnel |
 
 ---
 
@@ -337,7 +353,10 @@ Article-style editorial hook paired with a numbered listicle body — specialist
 |---|---|---|---|
 | [`/s/sal/amala`](app/s/sal/amala/) | **Amala Health** | Exhausted all day, aging faster than you should? — PrimeCell H2 cellular support | Amala Health sales page |
 | [`/s/sal/nebroo`](app/s/sal/nebroo/) | **Nebroo PRO 2.0** | Over 100,000 satisfied customers — hearing aids at 70% OFF, 120-day trial | Nebroo sales page |
-| [`/s/sal/nuz/neck-pain`](app/s/sal/nuz/neck-pain/) | **Nuzzle** | Stop your neck pain fast — pillow with countdown, comparison table, video proof | [getnuzzle.com](https://getnuzzle.com) |
+| [`/s/sal/neck-pain`](app/s/sal/neck-pain/) | **Nuzzle** | Stop your neck pain fast — pillow with countdown, comparison table, video proof | [getnuzzle.com](https://getnuzzle.com) |
+| [`/s/sal/pipitea`](app/s/sal/pipitea/) | **PiPi Tea** | Tired of kidney support solutions with side effects? — all-natural kidney health tea | PiPi Tea sales page |
+| [`/s/sal/pipitea-matcha`](app/s/sal/pipitea-matcha/) | **PiPi Tea Matcha** | Bloated after every meal, exhausted all day? — PiPi Tea Ceremonial Matcha metabolic support | PiPi Tea Matcha sales page |
+| [`/s/sal/rejuvacare`](app/s/sal/rejuvacare/) | **RejuvaCare** | Knee pain sales page with CheckoutChamp integration | RejuvaCare sales page |
 | [`/s/sal/smoothspine`](app/s/sal/smoothspine/) | **SmoothSpine** | "Triple Fusion" device decompresses your spine and rehydrates discs from home | SmoothSpine sales page |
 
 ---
@@ -360,7 +379,7 @@ Article-style editorial hook paired with a numbered listicle body — specialist
 ## 🆕 Spin Up a New Page
 
 ```bash
-cp -R app/s/sal/nuz/neck-pain app/s/sal/<brand>/<campaign>
+cp -R app/s/sal/neck-pain app/s/sal/<brand>/<campaign>
 ```
 
 Open `copy.json` (all user-visible text) and `media.json` (asset URLs, timers, Tailwind classes). Hand both to an AI:
@@ -369,7 +388,7 @@ Open `copy.json` (all user-visible text) and `media.json` (asset URLs, timers, T
 
 Route wires up automatically — add `page.tsx` pointing to your `LandingPage` export and Tailwind picks up the JSON classes at build time.
 
-> The fastest starting point is [`app/s/sal/nuz/neck-pain/`](app/s/sal/nuz/neck-pain/) — it has the most complete [developer guide](app/s/sal/nuz/neck-pain/README.md) and the two-file content system.
+> The fastest starting point is [`app/s/sal/neck-pain/`](app/s/sal/neck-pain/) — it has the most complete [developer guide](app/s/sal/neck-pain/README.md) and the two-file content system.
 
 ---
 
