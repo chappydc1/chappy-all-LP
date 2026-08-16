@@ -18,8 +18,7 @@ export const DiabetesHeroArticle = () => {
           <span className="text-white text-2xl bg-red-600 box-border caret-transparent leading-[28.8px] outline-[3px] md:text-[32px] md:leading-[38.4px]">
             No Insulin, No Metformin...
           </span>
-          {" "}Just a Natural Honey Blend! More than 4,847 Americans are Using this
-          Recipe to
+          {" "}Just a Natural Honey Blend! More than 4,847 Americans are Using this Recipe to{" "}
           <span className="text-red-600 text-2xl box-border caret-transparent leading-[28.8px] outline-[3px] md:text-[32px] md:leading-[38.4px]">
             Reverse Type 2 Diabetes in 21 Days.
           </span>
