@@ -1,0 +1,12 @@
+<svg width="1925" height="1807" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+      <linearGradient id="g-1925-1807">
+        <stop stop-color="rgba(51, 51, 51, 0)" offset="20%" />
+        <stop stop-color="rgba(51, 51, 51, 0)" offset="50%" />
+        <stop stop-color="rgba(51, 51, 51, 0)" offset="70%" />
+      </linearGradient>
+    </defs>
+    <rect width="1925" height="1807" fill="rgba(51, 51, 51, 0)" />
+    <rect id="r" width="1925" height="1807" fill="url(#g-1925-1807)" />
+    <animate xlink:href="#r" attributeName="x" from="-1925" to="1925" dur="1s" repeatCount="indefinite"  />
+  </svg>

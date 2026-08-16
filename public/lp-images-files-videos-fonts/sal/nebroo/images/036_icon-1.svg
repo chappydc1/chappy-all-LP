@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 237 237" width="49.87499999999999" height="49.87499999999999" style="transition: none !important; animation-duration: 0s !important; animation-delay: -0.0001s; animation-play-state: paused; animation-trigger: none; height: 49.875px; transition-property: none; visibility: visible; width: 49.875px"><style style="transition: none !important; animation-duration: 0s !important; animation-delay: -0.0001s; animation-play-state: paused; animation-trigger: none; transform-origin: 0px 0px; transition-property: none; visibility: visible">
+  @keyframes VOLUME_SMALL_WAVE_FLASH {
+    0% { opacity: 0; }
+    33% { opacity: 1; }
+    66% { opacity: 1; }
+    100% { opacity: 0; }
+  }
+
+  @keyframes VOLUME_LARGE_WAVE_FLASH {
+    0% { opacity: 0; }
+    33% { opacity: 1; }
+    66% { opacity: 1; }
+    100% { opacity: 0; }
+  }
+
+  .volume__small-wave {
+    animation: VOLUME_SMALL_WAVE_FLASH 2s infinite;
+    opacity: 0;
+  }
+
+  .volume__large-wave {
+    animation: VOLUME_LARGE_WAVE_FLASH 2s infinite .3s;
+    opacity: 0;
+  }
+</style><path fill="#fff" d="M88 107H65v24h24l23 23V84z" style="transition: none !important; animation-duration: 0s !important; animation-delay: -0.0001s; animation-play-state: paused; animation-trigger: none; fill: rgb(255, 255, 255); transform-origin: 0px 0px; transition-property: none; visibility: visible"></path><g fill="none" stroke="#fff" stroke-linecap="round" stroke-width="10" style="transition: none !important; animation-duration: 0s !important; animation-delay: -0.0001s; animation-play-state: paused; animation-trigger: none; fill: none; stroke: rgb(255, 255, 255); stroke-linecap: round; stroke-width: 10px; transform-origin: 0px 0px; transition-property: none; visibility: visible"><path d="M142 86c9 21 9 44 0 65" class="volume__small-wave" style="transition: none !important; animation-duration: 0s !important; animation-delay: -0.0001s; animation-name: VOLUME_SMALL_WAVE_FLASH; animation-play-state: paused; animation-trigger: none; fill: none; opacity: 0; stroke: rgb(255, 255, 255); stroke-linecap: round; stroke-width: 10px; transform-origin: 0px 0px; transition-property: none; visibility: visible"></path><path d="M165 74c13 23 13 66 0 89" class="volume__large-wave" style="transition: none !important; animation-duration: 0s !important; animation-delay: -0.0001s; animation-name: VOLUME_LARGE_WAVE_FLASH; animation-play-state: paused; animation-trigger: none; fill: none; opacity: 0; stroke: rgb(255, 255, 255); stroke-linecap: round; stroke-width: 10px; transform-origin: 0px 0px; transition-property: none; visibility: visible"></path></g></svg>
