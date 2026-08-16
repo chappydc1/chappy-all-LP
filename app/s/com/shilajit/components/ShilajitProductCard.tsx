@@ -26,7 +26,7 @@ export function ShilajitProductCard(props: ProductCardProps) {
 
   return (
     <div className={props.wrapperClassName ?? ""}>
-      <div className="relative bg-white flex flex-col justify-between mt-[30px] mx-2.5 rounded-lg md:justify-normal">
+      <div className="relative bg-white shadow-[rgba(0,0,0,0.2)_0px_4px_15px_0px] flex flex-col justify-between mt-[30px] mx-2.5 rounded-lg md:justify-normal">
         <div className="flex min-h-[auto] md:min-h-[30px]">
           <div className="absolute text-[17px] font-bold items-center bg-white flex h-7 justify-center leading-[14px] w-7 z-10 rounded-[20px] left-0.5 top-0.5 shadow-sm">
             {props.rank}
@@ -56,9 +56,9 @@ export function ShilajitProductCard(props: ProductCardProps) {
                 {props.name}
               </h3>
             </div>
-            <div className="text-center ml-0 md:text-left md:-ml-1 md:pt-1.5">
+            <div className="text-left ml-0 md:-ml-1 md:pt-1.5">
               {props.features.map((feat, i) => (
-                <div key={i} className="flex items-start justify-center text-center mt-0 md:text-left md:mt-1">
+                <div key={i} className="flex items-start mt-0 md:mt-1">
                   <img src={props.checkIcon} alt="" className="inline h-[26px] w-[26px] flex-shrink-0" />
                   <div className="text-sm flow-root leading-5 max-h-10 overflow-hidden text-ellipsis mt-[3px] pl-[5px] md:text-base">
                     {feat}
