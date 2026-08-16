@@ -216,31 +216,6 @@ export default function BrezLandingPage() {
         </div>
       </section>
 
-      {/* ── CTA Section ── */}
-      <section className="relative flex flex-col items-center w-full">
-        <div className="relative w-full" style={{ minHeight: 500 }}>
-          <Image src={media.cta.productImage} alt="BRĒZ product" fill
-            className="object-cover object-center" />
-          <div className="absolute inset-0 flex items-end justify-center pb-5 z-10
-                          md:items-center md:justify-end md:pb-0 md:pr-[60px]">
-            <div className="flex flex-col items-center gap-5 max-w-[344px] w-full
-                            md:items-start md:max-w-[690px]">
-              <h2 className="text-[23px] font-light leading-[30px] text-center
-                             md:text-5xl md:leading-[54px] md:text-start">
-                {adv.cta.headline}
-              </h2>
-              <p className="text-[13px] font-light leading-5 text-center
-                            md:text-[21px] md:leading-[26px] md:text-start">
-                {adv.cta.body}
-              </p>
-              <a href={adv.cta.ctaHref}
-                className="bg-lime-200 text-black font-light text-base px-8 py-3 rounded-[10px] hover:bg-lime-300 transition-colors md:text-xl">
-                {adv.cta.ctaText}
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
 
     </main>
   );
