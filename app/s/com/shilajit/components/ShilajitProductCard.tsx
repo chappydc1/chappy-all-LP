@@ -70,7 +70,7 @@ export function ShilajitProductCard(props: ProductCardProps) {
 
           {/* Score */}
           <div className="bg-transparent h-auto md:bg-blue-500/10 md:flex md:h-[130px] md:items-center md:justify-center md:min-w-[120px] md:rounded-[10px]">
-            <div className="block md:flex md:flex-col md:justify-evenly">
+            <div className="block md:flex md:flex-col md:justify-evenly md:items-center">
               <span className="text-sm inline md:text-[30.8px] md:font-bold md:block">{props.score}</span>
               <div className="text-sm my-0 md:my-1">
                 {starIcons.map((src, i) => (
