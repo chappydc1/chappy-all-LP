@@ -26,6 +26,26 @@ interface ConfettiPiece {
   shape: "rect" | "circle";
 }
 
+type SpinState = "idle" | "spinning" | "done";
+
+const WHEEL_CURSOR: Record<SpinState, string> = {
+  idle: "cursor-pointer hover:scale-[1.02] active:scale-[0.98]",
+  spinning: "cursor-not-allowed",
+  done: "cursor-default",
+};
+
+const CENTER_BG: Record<SpinState, string> = {
+  idle: "bg-indigo-500",
+  spinning: "bg-indigo-400",
+  done: "bg-indigo-300",
+};
+
+const CENTER_LABEL: Record<SpinState, string> = {
+  idle: "Spin",
+  spinning: "…",
+  done: "✓",
+};
+
 function useConfetti(active: boolean): ConfettiPiece[] {
   const [pieces, setPieces] = useState<ConfettiPiece[]>([]);
   const generated = useRef(false);
@@ -53,10 +73,12 @@ export const JavySpinWheel = (): JSX.Element => {
   const [spinning, setSpinning] = useState(false);
   const [rotation, setRotation] = useState(-19.99998485209311);
   const [result, setResult] = useState<string | null>(null);
-  const confettiPieces = useConfetti(result !== null && !spinning);
+
+  const spinState: SpinState = spinning ? "spinning" : result !== null ? "done" : "idle";
+  const confettiPieces = useConfetti(spinState === "done");
 
   const handleSpin = () => {
-    if (spinning || result !== null) return;
+    if (spinState !== "idle") return;
     setSpinning(true);
     const extraSpins = 5 + Math.floor(Math.random() * 3);
     const landingOffset = Math.floor(Math.random() * 360);
@@ -75,7 +97,7 @@ export const JavySpinWheel = (): JSX.Element => {
         role="button"
         aria-label="Spin to win"
         onClick={handleSpin}
-        className={`relative text-[15px] font-semibold items-center box-border h-[330px] leading-[18px] max-h-[350px] max-w-[350px] text-center uppercase w-[330px] border-stone-300 rounded-[99999px] border-[12px] border-solid font-alia_kefir transition-transform duration-100 ${result !== null ? "cursor-default" : spinning ? "cursor-not-allowed" : "cursor-pointer hover:scale-[1.02] active:scale-[0.98]"}`}
+        className={`relative text-[15px] font-semibold items-center box-border h-[330px] leading-[18px] max-h-[350px] max-w-[350px] text-center uppercase w-[330px] border-stone-300 rounded-[99999px] border-[12px] border-solid font-alia_kefir transition-transform duration-100 ${WHEEL_CURSOR[spinState]}`}
         style={{ touchAction: "manipulation" }}
       >
         <div
@@ -127,10 +149,10 @@ export const JavySpinWheel = (): JSX.Element => {
         {/* Center button */}
         <div className="absolute box-border h-[143.438px] w-[143.438px] z-20 m-auto rounded-full inset-0">
           <div
-            className={`absolute text-black text-lg items-center box-border flex h-4/5 justify-center leading-[21.6px] w-4/5 m-auto p-4 rounded-[99999px] border-[6px] border-solid border-white inset-0 transition-colors duration-300 ${spinning ? "bg-indigo-400" : result !== null ? "bg-indigo-300" : "bg-indigo-500"}`}
+            className={`absolute text-black text-lg items-center box-border flex h-4/5 justify-center leading-[21.6px] w-4/5 m-auto p-4 rounded-[99999px] border-[6px] border-solid border-white inset-0 transition-colors duration-300 ${CENTER_BG[spinState]}`}
           >
             <div className="text-white text-[33px] box-border leading-[39.6px] min-h-[auto] min-w-[auto]">
-              <p>{spinning ? "…" : result !== null ? "✓" : "Spin"}</p>
+              <p>{CENTER_LABEL[spinState]}</p>
             </div>
           </div>
         </div>
@@ -138,32 +160,11 @@ export const JavySpinWheel = (): JSX.Element => {
 
       {result && !spinning && (
         <div className="relative w-full overflow-hidden">
-          <style>{`
-            @keyframes confetti-fall {
-              0% { transform: translateY(-20px) rotate(var(--r)); opacity: 1; }
-              80% { opacity: 1; }
-              100% { transform: translateY(280px) rotate(calc(var(--r) + 360deg)); opacity: 0; }
-            }
-            @keyframes result-pop {
-              0% { transform: scale(0.6); opacity: 0; }
-              70% { transform: scale(1.08); }
-              100% { transform: scale(1); opacity: 1; }
-            }
-            .confetti-piece {
-              position: absolute;
-              top: 0;
-              animation: confetti-fall linear forwards;
-            }
-            .result-pop {
-              animation: result-pop 0.5s cubic-bezier(0.34,1.56,0.64,1) both;
-            }
-          `}</style>
-
           <div className="relative h-0 w-full pointer-events-none" aria-hidden="true">
             {confettiPieces.map((p) => (
               <div
                 key={p.id}
-                className="confetti-piece"
+                className="absolute top-0 animate-confetti-fall"
                 style={{
                   left: `${p.x}%`,
                   width: p.shape === "circle" ? p.size : p.size * 1.4,
@@ -178,7 +179,7 @@ export const JavySpinWheel = (): JSX.Element => {
             ))}
           </div>
 
-          <div className="result-pop bg-green-50 border border-green-300 text-green-800 font-bold text-lg px-6 py-3 rounded-xl text-center">
+          <div className="animate-result-pop bg-green-50 border border-green-300 text-green-800 font-bold text-lg px-6 py-3 rounded-xl text-center">
             🎉 You won <span className="text-indigo-900">{result}</span>!
             <div className="text-sm font-normal mt-1 text-green-700">Discount applied at checkout automatically.</div>
           </div>
@@ -191,7 +192,6 @@ export const JavySpinWheel = (): JSX.Element => {
           >
             <span>Claim My 58% Off →</span>
           </a>
-          <p className="text-xs text-gray-400 text-center mt-2">Opens Javvy Coffee checkout</p>
         </div>
       )}
 

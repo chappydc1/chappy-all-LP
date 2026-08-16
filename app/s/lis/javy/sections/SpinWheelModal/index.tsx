@@ -59,13 +59,14 @@ export const JavySpinWheelModal = () => {
         onClick={handleClose}
       />
 
-      <div className="relative text-indigo-950 box-border h-full leading-[19.2px] w-full font-figtree flex items-center justify-center p-4">
+      <div
+        className="relative text-indigo-950 box-border h-full leading-[19.2px] w-full font-figtree flex items-start justify-center p-4 overflow-y-auto"
+        onWheel={(e) => e.stopPropagation()}
+        onTouchMove={(e) => e.stopPropagation()}
+      >
         <div
-          className={`relative bg-white rounded-2xl shadow-2xl w-full max-w-lg mx-auto overflow-hidden transition-all duration-350 ${visible ? "scale-100 opacity-100" : "scale-90 opacity-0"}`}
-          style={{ maxHeight: "90vh", overflowY: "auto" }}
+          className={`relative bg-white rounded-2xl shadow-2xl w-full max-w-lg mx-auto my-auto overflow-hidden transition-all duration-350 ${visible ? "scale-100 opacity-100" : "scale-90 opacity-0"}`}
           onClick={(e) => e.stopPropagation()}
-          onWheel={(e) => e.stopPropagation()}
-          onTouchMove={(e) => e.stopPropagation()}
         >
           <button
             onClick={handleClose}
