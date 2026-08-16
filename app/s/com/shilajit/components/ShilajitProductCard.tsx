@@ -9,7 +9,7 @@ type ProductCardProps = {
   boughtBadge?: string;
   discountText?: string;
   cta: string;
-  animationDelay?: string;
+  ctaUrl?: string;
   imageSrc: string;
   imageAlt: string;
   starFull: string;
@@ -52,8 +52,10 @@ export function ShilajitProductCard(props: ProductCardProps) {
           {/* Features */}
           <div className="max-w-none w-auto mx-0 md:max-w-[350px] md:w-[350px] md:ml-5">
             <div className="text-center md:text-left">
-              <h3 className="text-black text-lg font-bold block leading-[23.1429px] text-center md:text-neutral-800 md:flow-root md:max-h-[52px] md:text-left md:overflow-hidden">
-                {props.name}
+              <h3 className="text-black text-lg font-bold block leading-[23.1429px] text-center md:text-neutral-800 md:text-left">
+                <a href={props.ctaUrl ?? "#"} className="hover:underline text-inherit">
+                  {props.name}
+                </a>
               </h3>
             </div>
             <div className="text-left ml-0 md:-ml-1 md:pt-1.5">
@@ -86,7 +88,7 @@ export function ShilajitProductCard(props: ProductCardProps) {
             {props.boughtBadge && (
               <p className="text-zinc-500 mb-3.5">{props.boughtBadge}</p>
             )}
-            <a className="inline w-auto no-underline md:block md:w-full">
+            <a href={props.ctaUrl ?? "#"} className="inline w-auto no-underline md:block md:w-full">
               <button className="text-black text-[13.3333px] bg-zinc-100 h-auto w-auto p-0 rounded-none border-2 border-black md:text-white md:text-base md:font-bold md:bg-blue-500 md:h-10 md:w-full md:rounded-lg md:border-0 cursor-pointer">
                 {props.cta}
               </button>

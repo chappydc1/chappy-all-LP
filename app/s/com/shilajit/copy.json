@@ -37,7 +37,7 @@
       "reviewCount": "(1,769 reviews)",
       "boughtBadge": "10K+ bought in past month",
       "cta": "Check Price",
-      "animationDelay": "animate-delay-100"
+      "ctaUrl": "#"
     },
     {
       "rank": "2",
@@ -52,7 +52,7 @@
       "reviewCount": "(568 reviews)",
       "discountText": "11% off + 30% Coupon",
       "cta": "Check Price",
-      "animationDelay": "animate-delay-200"
+      "ctaUrl": "#"
     },
     {
       "rank": "3",
@@ -68,7 +68,7 @@
       "reviewCount": "(4,784 reviews)",
       "discountText": "33% off",
       "cta": "Check Price",
-      "animationDelay": "animate-delay-300"
+      "ctaUrl": "#"
     },
     {
       "rank": "4",
@@ -83,7 +83,95 @@
       "reviewCount": "(1,862 reviews)",
       "discountText": "20% Coupon",
       "cta": "Check Price",
-      "animationDelay": "animate-delay-400"
+      "ctaUrl": "#"
+    },
+    {
+      "rank": "5",
+      "name": "Essencraft Pure Himalayan Shilajit Resin",
+      "features": [
+        "Contains over 85 trace minerals.",
+        "Supports energy and cognitive function.",
+        "Offers a two-month supply."
+      ],
+      "score": "8.7",
+      "stars": 4,
+      "reviewCount": "(923 reviews)",
+      "discountText": "15% off",
+      "cta": "Check Price",
+      "ctaUrl": "#"
+    },
+    {
+      "rank": "6",
+      "name": "Shilajit Authentic Himalayan Resin",
+      "features": [
+        "High fulvic acid for increased energy levels.",
+        "Contains 85+ trace minerals for health support.",
+        "Lab-tested for purity and authenticity."
+      ],
+      "score": "8.5",
+      "stars": 4,
+      "reviewCount": "(1,203 reviews)",
+      "cta": "Check Price",
+      "ctaUrl": "#"
+    },
+    {
+      "rank": "7",
+      "badge": "Best Affordable",
+      "name": "PurBlack Shilajit Resin - 30g",
+      "features": [
+        "Nano-optimized for superior absorption.",
+        "Contains 85+ bioavailable trace minerals.",
+        "Third-party lab-tested for safety."
+      ],
+      "score": "8.4",
+      "stars": 4,
+      "reviewCount": "(2,034 reviews)",
+      "cta": "Check Price",
+      "ctaUrl": "#"
+    },
+    {
+      "rank": "8",
+      "badge": "Hot Deal",
+      "name": "Natural Shilajit Resin with Fulvic Acid",
+      "features": [
+        "Rich in essential trace minerals.",
+        "Supports energy and vitality naturally.",
+        "Enhances immune system function."
+      ],
+      "score": "8.2",
+      "stars": 4,
+      "reviewCount": "(2,156 reviews)",
+      "discountText": "25% off",
+      "cta": "Check Price",
+      "ctaUrl": "#"
+    },
+    {
+      "rank": "9",
+      "name": "Kapiva Himalayan Shilajit Resin (30gm x2)",
+      "features": [
+        "Contains 80+ essential trace minerals.",
+        "High potency with up to 70% fulvic acid.",
+        "Supports natural energy and immunity efficiently."
+      ],
+      "score": "8.0",
+      "stars": 4,
+      "reviewCount": "(876 reviews)",
+      "cta": "Check Price",
+      "ctaUrl": "#"
+    },
+    {
+      "rank": "10",
+      "name": "NOTSHY Himalayan Shilajit Resin 400mg",
+      "features": [
+        "High-altitude source ensures premium quality.",
+        "Rich in minerals for enhanced health benefits.",
+        "Lab-tested for safety and effectiveness."
+      ],
+      "score": "7.8",
+      "stars": 4,
+      "reviewCount": "(541 reviews)",
+      "cta": "Check Price",
+      "ctaUrl": "#"
     }
   ],
   "newsletter": {
