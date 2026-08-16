@@ -286,7 +286,7 @@ export function SmoothspineSalesPage({ adv, media }: { adv: Adv; media: Media })
               <p className="text-[15px] font-poppins text-black leading-relaxed mb-4">{adv.spineSection.row2.intro}</p>
               <div className="bg-sky-50 border border-neutral-200 rounded-xl p-4 text-[14px] font-poppins text-black leading-relaxed space-y-3">
                 {adv.spineSection.row2.phases.map((ph, i) => (
-                  <p key={i}><strong><u>{ph.time}</u> {ph.label}</strong> {ph.desc}</p>
+                  <p key={i}><strong>{ph.time} {ph.label}</strong> {ph.desc}</p>
                 ))}
               </div>
               <p className="text-[15px] font-poppins text-black mt-4 leading-relaxed">{adv.spineSection.row2.outro}</p>
