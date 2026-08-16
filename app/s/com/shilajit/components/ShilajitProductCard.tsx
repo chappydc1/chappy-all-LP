@@ -25,7 +25,7 @@ export function ShilajitProductCard(props: ProductCardProps) {
   );
 
   return (
-    <div className={`${props.wrapperClassName ?? ""} opacity-0 animate-fade-in-up ${props.animationDelay ?? ""}`}>
+    <div className={props.wrapperClassName ?? ""}>
       <div className="relative bg-white flex flex-col justify-between mt-[30px] mx-2.5 rounded-lg md:justify-normal">
         <div className="flex min-h-[auto] md:min-h-[30px]">
           <div className="absolute text-[17px] font-bold items-center bg-white flex h-7 justify-center leading-[14px] w-7 z-10 rounded-[20px] left-0.5 top-0.5 shadow-sm">

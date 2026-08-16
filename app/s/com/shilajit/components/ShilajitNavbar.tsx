@@ -27,7 +27,7 @@ export function ShilajitNavbar({ adv, media }: NavbarProps) {
       <div className="items-center bg-stone-900 flex w-full h-[62px]">
         <div className="relative items-center flex h-[62px] w-full pl-5 md:justify-between md:max-w-screen-lg md:min-w-[1024px] md:mx-auto md:pl-0">
           {/* Logo */}
-          <div className="items-center flex animate-fade-in">
+          <div className="items-center flex">
             <a href="/" className="text-sky-500/80 items-center flex justify-center pb-1.5">
               <img alt={adv.brand} src={media.logo} className="h-[45px] w-[35px] mr-1.5 mt-[5px] md:w-[45px]" />
             </a>

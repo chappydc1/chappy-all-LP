@@ -48,7 +48,7 @@ export function ShilajitFooter({ adv, media }: FooterProps) {
           {adv.newsletter.title}
         </div>
         {submitted ? (
-          <div className="relative text-green-400 font-bold text-base z-10 mt-4 md:mt-0 animate-fade-in">
+          <div className="relative text-green-400 font-bold text-base z-10 mt-4 md:mt-0">
             ✓ {adv.newsletter.successMessage}
           </div>
         ) : (

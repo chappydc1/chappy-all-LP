@@ -26,7 +26,7 @@ export function ShilajitNewsletter({ copy }: NewsletterProps) {
   };
 
   return (
-    <div className="items-center bg-stone-900 flex flex-col justify-center w-full mt-10 p-2.5 rounded-none md:p-5 md:rounded-xl animate-fade-in">
+    <div className="items-center bg-stone-900 flex flex-col justify-center w-full mt-10 p-2.5 rounded-none md:p-5 md:rounded-xl">
       <div className="relative items-center flex flex-col h-full justify-center w-full pt-[15px] pb-[30px] px-5 rounded-[10px] md:pb-[15px] md:px-[100px]">
         <div className="relative text-white text-[28px] font-bold leading-[36.4px] max-w-[220px] mt-[5px] mb-2.5 md:leading-7 md:max-w-none">
           {copy.title}
@@ -35,7 +35,7 @@ export function ShilajitNewsletter({ copy }: NewsletterProps) {
           {copy.subtitle}
         </div>
         {submitted ? (
-          <div className="text-green-400 font-bold text-lg animate-fade-in py-4">
+          <div className="text-green-400 font-bold text-lg py-4">
             ✓ {copy.successMessage}
           </div>
         ) : (
