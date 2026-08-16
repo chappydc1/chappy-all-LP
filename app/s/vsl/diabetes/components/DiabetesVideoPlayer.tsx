@@ -9,7 +9,7 @@ const EMBED_SCRIPT = `https://scripts.converteai.net/${OID}/players/${PLAYER_ID}
 
 export const DiabetesVideoPlayer = () => {
   return (
-    <div className="box-border caret-transparent block max-w-full outline-[3px] w-full z-[1] mx-auto md:max-w-[400px]">
+    <div className="box-border caret-transparent block max-w-full outline-[3px] w-full z-[1] mx-auto my-6 md:my-10 md:max-w-[600px]">
       <div
         id={`vid_${PLAYER_ID}`}
         style={{ position: "relative", width: "100%", padding: "125% 0 0" }}
