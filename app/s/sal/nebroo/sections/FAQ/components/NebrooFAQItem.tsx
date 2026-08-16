@@ -19,7 +19,7 @@ export const NebrooFAQItem = (props: NebrooFAQItemProps) => {
             className="w-full text-left focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-1 rounded-[5px]"
             aria-expanded={open}
           >
-            <div className={`items-center bg-sky-100 box-border caret-transparent flex border p-[3px] rounded-[5px] border-solid transition-colors duration-200 ${open ? "border-slate-500 bg-sky-200" : "border-zinc-300 "}`}>
+            <div className={`items-center box-border caret-transparent flex px-3 py-2.5 rounded-lg transition-colors duration-200 shadow-sm ${open ? "bg-sky-200" : "bg-sky-100"}`}>
               <div className="text-[17px] box-border caret-transparent basis-[0%] grow-[9.9] leading-[25.5px] min-h-[auto] min-w-[auto] text-left pl-[5px] font-montserrat">
                 <b className="font-bold box-border caret-transparent">
                   {props.question}
