@@ -9,7 +9,7 @@ type ProductCardProps = {
   boughtBadge?: string;
   discountText?: string;
   cta: string;
-  animationDelay?: string;
+  ctaUrl?: string;
   imageSrc: string;
   imageAlt: string;
   starFull: string;
@@ -25,7 +25,7 @@ export function ShilajitProductCard(props: ProductCardProps) {
   );
 
   return (
-    <div className={`${props.wrapperClassName ?? ""} opacity-0 animate-fade-in-up ${props.animationDelay ?? ""}`}>
+    <div className={props.wrapperClassName ?? ""}>
       <div className="relative bg-white shadow-[rgba(0,0,0,0.2)_0px_4px_15px_0px] flex flex-col justify-between mt-[30px] mx-2.5 rounded-lg md:justify-normal">
         <div className="flex min-h-[auto] md:min-h-[30px]">
           <div className="absolute text-[17px] font-bold items-center bg-white flex h-7 justify-center leading-[14px] w-7 z-10 rounded-[20px] left-0.5 top-0.5 shadow-sm">
@@ -52,15 +52,17 @@ export function ShilajitProductCard(props: ProductCardProps) {
           {/* Features */}
           <div className="max-w-none w-auto mx-0 md:max-w-[350px] md:w-[350px] md:ml-5">
             <div className="text-center md:text-left">
-              <h3 className="text-black text-lg font-bold block leading-[23.1429px] text-center md:text-neutral-800 md:flow-root md:max-h-[52px] md:text-left md:overflow-hidden">
-                {props.name}
+              <h3 className="text-black text-lg font-bold block leading-[23.1429px] text-center md:text-neutral-800 md:text-left">
+                <a href={props.ctaUrl ?? "#"} className="hover:underline text-inherit">
+                  {props.name}
+                </a>
               </h3>
             </div>
-            <div className="text-center ml-0 md:text-left md:-ml-1 md:pt-1.5">
+            <div className="text-left ml-0 md:-ml-1 md:pt-1.5">
               {props.features.map((feat, i) => (
-                <div key={i} className="flex items-start justify-center text-center mt-0 md:text-left md:mt-1">
+                <div key={i} className="flex items-start mt-0 md:mt-1">
                   <img src={props.checkIcon} alt="" className="inline h-[26px] w-[26px] flex-shrink-0" />
-                  <div className="text-sm flow-root leading-5 max-h-10 overflow-hidden text-ellipsis mt-[3px] pl-[5px] md:text-base">
+                  <div className="text-sm leading-5 mt-[3px] pl-[5px] md:text-base">
                     {feat}
                   </div>
                 </div>
@@ -70,7 +72,7 @@ export function ShilajitProductCard(props: ProductCardProps) {
 
           {/* Score */}
           <div className="bg-transparent h-auto md:bg-blue-500/10 md:flex md:h-[130px] md:items-center md:justify-center md:min-w-[120px] md:rounded-[10px]">
-            <div className="block md:flex md:flex-col md:justify-evenly">
+            <div className="block md:flex md:flex-col md:justify-evenly md:items-center">
               <span className="text-sm inline md:text-[30.8px] md:font-bold md:block">{props.score}</span>
               <div className="text-sm my-0 md:my-1">
                 {starIcons.map((src, i) => (
@@ -86,7 +88,7 @@ export function ShilajitProductCard(props: ProductCardProps) {
             {props.boughtBadge && (
               <p className="text-zinc-500 mb-3.5">{props.boughtBadge}</p>
             )}
-            <a className="inline w-auto no-underline md:block md:w-full">
+            <a href={props.ctaUrl ?? "#"} className="inline w-auto no-underline md:block md:w-full">
               <button className="text-black text-[13.3333px] bg-zinc-100 h-auto w-auto p-0 rounded-none border-2 border-black md:text-white md:text-base md:font-bold md:bg-blue-500 md:h-10 md:w-full md:rounded-lg md:border-0 cursor-pointer">
                 {props.cta}
               </button>

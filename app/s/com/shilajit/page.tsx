@@ -24,7 +24,7 @@ export default function ShilajitPage() {
         <div className="box-border flex flex-col max-w-none min-h-[auto] w-full mb-0 md:max-w-screen-lg md:min-w-[1024px] md:mb-20">
 
           {/* Hero header */}
-          <div className="static bg-transparent p-0 md:relative md:items-start md:bg-sky-300/10 md:flex md:flex-col md:px-[15px] md:py-2 animate-fade-in">
+          <div className="static bg-transparent p-0 md:relative md:items-start md:bg-sky-300/10 md:flex md:flex-col md:px-[15px] md:py-2">
             <h1 className="text-slate-700 text-[22.4px] font-bold border-b border-b-slate-700/30 flow-root leading-7 min-h-3.5 text-left uppercase overflow-hidden mr-auto my-2.5 pb-2.5 px-2.5 md:text-black md:text-[35px] md:font-extrabold md:leading-[42px] md:mt-0 md:pb-0 md:px-0">
               {adv.hero.title}
             </h1>
@@ -37,9 +37,9 @@ export default function ShilajitPage() {
               </span>
             </div>
             <div className="hidden md:flex items-baseline flex-row-reverse justify-between w-full pr-2.5">
-              <div className="relative font-semibold inline-block w-40 mr-3 pl-2.5 pt-2.5">
-                <img src={media.icons.disclosure} alt="Info" className="absolute h-3.5 w-3.5 left-[3px] top-0" />
-                <span className="absolute text-slate-700 block w-[156px] left-[15px] top-[-3px]">
+              <div className="flex items-center gap-1.5 font-semibold mr-3 pt-2.5">
+                <img src={media.icons.disclosure} alt="Info" className="h-3.5 w-3.5 flex-shrink-0" />
+                <span className="text-slate-700">
                   {adv.hero.advertisingDisclosure}
                 </span>
               </div>
