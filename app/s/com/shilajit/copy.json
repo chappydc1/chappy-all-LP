@@ -5,7 +5,7 @@
     "lastUpdated": "Apr 3, 2026"
   },
   "navbar": {
-    "brand": "BuyeReviews",
+    "brand": "BuyReviews",
     "links": [
       { "label": "Categories", "href": "#" },
       { "label": "About us", "href": "#" }
@@ -143,7 +143,7 @@
     ]
   },
   "footer": {
-    "brand": "BuyeReviews",
+    "brand": "BuyReviews",
     "tagline": "Your ultimate destination for comprehensive comparisons and reviews of the top 10 products across a wide range of categories.",
     "newsletter": {
       "title": "Deals Newsletter",
@@ -159,7 +159,7 @@
       { "label": "Data Subject Request Form", "href": "#" },
       { "label": "Contact Us", "href": "#" }
     ],
-    "copyright": "© BuyeReviews",
+    "copyright": "© BuyReviews",
     "advertisingDisclosure": "Amazon and all related Marks are Trademarks of Amazon.com, Inc. or its affiliates.",
     "legalNote": "Privacy Policy and Terms of Service apply."
   }

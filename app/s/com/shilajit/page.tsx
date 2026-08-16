@@ -37,9 +37,9 @@ export default function ShilajitPage() {
               </span>
             </div>
             <div className="hidden md:flex items-baseline flex-row-reverse justify-between w-full pr-2.5">
-              <div className="relative font-semibold inline-block w-40 mr-3 pl-2.5 pt-2.5">
-                <img src={media.icons.disclosure} alt="Info" className="absolute h-3.5 w-3.5 left-[3px] top-0" />
-                <span className="absolute text-slate-700 block w-[156px] left-[15px] top-[-3px]">
+              <div className="flex items-center gap-1.5 font-semibold mr-3 pt-2.5">
+                <img src={media.icons.disclosure} alt="Info" className="h-3.5 w-3.5 flex-shrink-0" />
+                <span className="text-slate-700">
                   {adv.hero.advertisingDisclosure}
                 </span>
               </div>
