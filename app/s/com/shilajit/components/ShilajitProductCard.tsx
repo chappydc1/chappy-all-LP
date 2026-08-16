@@ -60,7 +60,7 @@ export function ShilajitProductCard(props: ProductCardProps) {
               {props.features.map((feat, i) => (
                 <div key={i} className="flex items-start mt-0 md:mt-1">
                   <img src={props.checkIcon} alt="" className="inline h-[26px] w-[26px] flex-shrink-0" />
-                  <div className="text-sm flow-root leading-5 max-h-10 overflow-hidden text-ellipsis mt-[3px] pl-[5px] md:text-base">
+                  <div className="text-sm leading-5 mt-[3px] pl-[5px] md:text-base">
                     {feat}
                   </div>
                 </div>
