@@ -29,6 +29,17 @@ export const JavySpinWheelModal = () => {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
+  useEffect(() => {
+    if (open) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "";
+    }
+    return () => {
+      document.body.style.overflow = "";
+    };
+  }, [open]);
+
   const handleClose = () => {
     setVisible(false);
     setTimeout(() => setOpen(false), 350);
@@ -43,7 +54,6 @@ export const JavySpinWheelModal = () => {
       aria-modal="true"
       className={`fixed h-full leading-[normal] w-full z-[2147483647] inset-0 font-times_new_roman transition-opacity duration-350 ${visible ? "opacity-100" : "opacity-0"}`}
     >
-      {/* Backdrop */}
       <div
         className="absolute inset-0 bg-black/40 backdrop-blur-sm"
         onClick={handleClose}
@@ -54,8 +64,9 @@ export const JavySpinWheelModal = () => {
           className={`relative bg-white rounded-2xl shadow-2xl w-full max-w-lg mx-auto overflow-hidden transition-all duration-350 ${visible ? "scale-100 opacity-100" : "scale-90 opacity-0"}`}
           style={{ maxHeight: "90vh", overflowY: "auto" }}
           onClick={(e) => e.stopPropagation()}
+          onWheel={(e) => e.stopPropagation()}
+          onTouchMove={(e) => e.stopPropagation()}
         >
-          {/* Close button */}
           <button
             onClick={handleClose}
             aria-label="Close popup"
@@ -68,7 +79,6 @@ export const JavySpinWheelModal = () => {
             />
           </button>
 
-          {/* Background image for mobile feel */}
           <div
             className="absolute inset-0 opacity-10"
             style={{ backgroundImage: "url('/images/javy/desktopbgmin21380beb8da5188c.webp-1754589668126.webp')", backgroundSize: "cover", backgroundPosition: "center" }}
