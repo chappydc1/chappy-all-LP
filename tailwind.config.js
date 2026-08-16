@@ -125,6 +125,16 @@ module.exports = {
           "0%": { opacity: "0", transform: "translateY(20px)" },
           "100%": { opacity: "1", transform: "translateY(0)" },
         },
+        "confetti-fall": {
+          "0%": { transform: "translateY(-20px) rotate(var(--r))", opacity: "1" },
+          "80%": { opacity: "1" },
+          "100%": { transform: "translateY(280px) rotate(calc(var(--r) + 360deg))", opacity: "0" },
+        },
+        "result-pop": {
+          "0%": { transform: "scale(0.6)", opacity: "0" },
+          "70%": { transform: "scale(1.08)" },
+          "100%": { transform: "scale(1)", opacity: "1" },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
@@ -135,7 +145,8 @@ module.exports = {
         "slide-down": "slide-down 0.4s ease-out both",
         "bounce-subtle": "bounce-subtle 2s ease-in-out infinite",
         "fade-in-up": "fade-in-up 0.6s ease-out both",
-        "fade-in": "fade-in 0.5s ease-out both",
+        "confetti-fall": "confetti-fall linear forwards",
+        "result-pop": "result-pop 0.5s cubic-bezier(0.34,1.56,0.64,1) both",
       },
     },
     container: { center: true, padding: "2rem", screens: { "2xl": "1400px" } },
