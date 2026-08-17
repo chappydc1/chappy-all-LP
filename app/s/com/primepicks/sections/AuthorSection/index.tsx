@@ -1,7 +1,7 @@
 export const PrimepicksAuthorSection = () => {
   return (
     <div className="box-border caret-transparent max-w-[1000px] mx-auto">
-      <section className="font-bold bg-zinc-100 box-border caret-transparent border border-neutral-200 mt-[22px] px-8 py-6 border-solid">
+      <section className="font-bold bg-zinc-100 box-border caret-transparent mt-[22px] px-8 py-6">
         <div className="box-border caret-transparent gap-x-4 grid grid-cols-[auto_1fr] mb-4">
           <img
             src="/images/primepicks/ZXhwZXJ0LTQ0LmpwZw.jpg"
