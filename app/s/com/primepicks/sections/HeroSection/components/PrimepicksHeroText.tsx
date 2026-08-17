@@ -16,7 +16,7 @@ export const PrimepicksHeroText = () => {
         <span className="text-[11px] box-border caret-transparent block min-h-[auto] min-w-[auto] md:text-sm">
           Mar 13, 2026
         </span>
-         |
+        &nbsp;|&nbsp;
         <a
           href="https://primepicks.review/legal/advertising-disclosure/"
           className="relative text-[11px] font-semibold box-border caret-transparent block min-h-[auto] min-w-[auto] md:text-sm hover:text-blue-600 hover:border-blue-600"
