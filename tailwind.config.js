@@ -90,7 +90,10 @@ module.exports = {
         "muli": ["Muli", "ui-sans-serif", "system-ui", "sans-serif"],
         "suisse_intl": ["Suisse Intl", "ui-sans-serif", "system-ui", "sans-serif"],
         "gilroy_bold": ["Gilroy-Bold", "ui-sans-serif", "system-ui", "sans-serif"],
-        "gilroy_medium": ["Gilroy-Medium", "ui-sans-serif", "system-ui", "sans-serif"]
+        "gilroy_medium": ["Gilroy-Medium", "ui-sans-serif", "system-ui", "sans-serif"],
+        "euclidcircularb": ["euclidCircularB", "ui-sans-serif", "system-ui", "sans-serif"],
+        "georgia": ["Georgia", "ui-serif", "serif"],
+        "times": ["Times New Roman", "Times", "ui-serif", "serif"]
       },
       keyframes: {
         "accordion-down": {

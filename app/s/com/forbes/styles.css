@@ -51,7 +51,16 @@
          + wui/dist/themes/health.css
    Edit these to retheme for a new LP.
 ============================================================ */
+html,
+body {
+  background-color: #fff;
+  color: #1a1a1a;
+}
+
 :root {
+  /* This page is light-only — disable OS dark mode for all elements */
+  color-scheme: light;
+
   /* Brand palette */
   --color-primary-50:  #f2f5f4;
   --color-primary-300: #d1e5e1;

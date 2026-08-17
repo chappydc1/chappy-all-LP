@@ -30,12 +30,12 @@
   },
   "fonts": {
     "euclidCircularB": {
-      "regular": "/fonts/Euclid_Circular_B_Regular.woff2",
-      "italic": "/fonts/Euclid_Circular_B_Italic.woff2",
-      "medium": "/fonts/Euclid_Circular_B_Medium.woff2",
-      "semibold": "/fonts/Euclid_Circular_B_SemiBold.woff2",
-      "bold": "/fonts/Euclid_Circular_B_Bold.woff2",
-      "boldItalic": "/fonts/Euclid_Circular_B_Bold_Italic.woff2"
+      "regular": "/fonts/forbes/Euclid_Circular_B_Regular.woff2",
+      "italic": "/fonts/forbes/Euclid_Circular_B_Italic.woff2",
+      "medium": "/fonts/forbes/Euclid_Circular_B_Medium.woff2",
+      "semibold": "/fonts/forbes/Euclid_Circular_B_SemiBold.woff2",
+      "bold": "/fonts/forbes/Euclid_Circular_B_Bold.woff2",
+      "boldItalic": "/fonts/forbes/Euclid_Circular_B_Bold_Italic.woff2"
     }
   }
 }
