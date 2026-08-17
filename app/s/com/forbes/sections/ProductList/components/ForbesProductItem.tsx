@@ -34,7 +34,10 @@ export const ForbesProductItem = (props: ForbesProductItemProps) => {
 
   return (
     <li className="list-none">
-      <div className={`${cardClass} group md:pb-4 md:px-6`}>
+      <div
+        className={`${cardClass} group md:pb-4 md:px-6 cursor-pointer`}
+        onClick={() => window.open(props.visitUrl, "_blank", "noopener,noreferrer")}
+      >
         {/* Superlative badge */}
         {props.badgeText && (
           <div className="block md:flex md:items-center mb-0 md:mb-2">
