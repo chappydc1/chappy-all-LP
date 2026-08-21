@@ -37,9 +37,6 @@ export default function BrezLandingPage() {
         />
         {/* Content overlay — top */}
         <div className="absolute top-5 left-1/2 -translate-x-1/2 flex flex-col items-center gap-5 w-[323px] z-10">
-          {/* Logo */}
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src={media.logo.svg} alt="BRĒZ" className="w-[74px] h-auto mb-5" />
           {/* Stars */}
           <div className="flex items-center gap-2.5">
             <span className="text-yellow-500 text-[15px]">★★★★★</span>
@@ -87,9 +84,6 @@ export default function BrezLandingPage() {
         />
         {/* Content overlay — left column */}
         <div className="absolute left-[120px] top-[100px] flex flex-col gap-5 max-w-[600px] z-10">
-          {/* Logo */}
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src={media.logo.svg} alt="BRĒZ" className="w-[200px] h-auto mb-10" />
           {/* Stars */}
           <div className="flex items-center gap-2.5">
             <span className="text-yellow-500 text-lg">★★★★★</span>
