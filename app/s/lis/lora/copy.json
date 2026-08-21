@@ -1,0 +1,112 @@
+{
+  "meta": {
+    "title": "6 Reasons Why Grüns Is Your Gut's New Bestie",
+    "description": "Your gut is like your second brain—it affects everything from digestion and energy to mood and immunity. Grüns helps it thrive with 60+ real, nutrient-dense ingredients in a fun-sized snack pack of daily gummies."
+  },
+  "topBar": {
+    "label": "Limited-Time Sale:",
+    "offer": "Get 52% off + free shipping",
+    "suffix": "on your first order"
+  },
+  "hero": {
+    "badge": "Limited-Time Sale - Get Up To 52% Off",
+    "heading": {
+      "highlight1": "6 Reasons",
+      "text": "Why Grüns Is Your",
+      "highlight2": "Gut's New Bestie"
+    },
+    "subheading": "Your gut is like your second brain—it affects everything from digestion and energy to mood and immunity. Grüns helps it thrive with 60+ real, nutrient-dense ingredients in a fun-sized snack pack of daily gummies.",
+    "cta": {
+      "primary": "Save 52% + Free Shipping",
+      "href": "#offers"
+    },
+    "socialProof": {
+      "rating": "4.8",
+      "reviews": "100K+",
+      "members": "1M+"
+    }
+  },
+  "benefits": [
+    {
+      "number": "01",
+      "category": "Digestion",
+      "title": "Better poops (seriously)",
+      "description": "Constipation affects about 15% of the population in the U.S. If that's you, your gut is begging for help. Grüns delivers 6g of prebiotic fiber to get things moving—naturally. No laxatives, no guesswork. Just easier, more regular, feel-good digestion, every day."
+    },
+    {
+      "number": "02",
+      "category": "Gut Health",
+      "title": "Healthy Gut Microbiome",
+      "description": "The trillions of bacteria in your gut control way more than you think. Grüns feeds the good ones with prebiotic fiber that help your microbiome thrive. A happy gut means less bloating, better nutrient absorption, healthy blood sugar support, fewer cravings, and support for weight management."
+    },
+    {
+      "number": "03",
+      "category": "Energy",
+      "title": "More Energy, Better Mood",
+      "description": "Your gut plays a major role in how you feel. With B-vitamins for steady energy and adaptogens to help regulate stress, Grüns supports your second brain—so you're not just feeling lighter, you're feeling better overall."
+    },
+    {
+      "number": "04",
+      "category": "Immunity",
+      "title": "Immunity Boost",
+      "description": "About 70% of your immune system lives in your gut. A healthy gut helps you absorb nutrients properly and defend against harmful bacteria. Grüns supports that gut-immune connection with Vitamin C, D3, Zinc, and antioxidants that help your body fight back, daily."
+    },
+    {
+      "number": "05",
+      "category": "Benefits",
+      "title": "A Healthy Habit You'll Stick To",
+      "description": "Let's be honest—powders are messy, and counting pills gets old fast. Grüns is the one supplement that actually sticks. You get 20+ vitamins & minerals, organic fruits and veggies, adaptogens, prebiotics, and more—all in a little pack of gummies. No prep, no mess, no excuses."
+    },
+    {
+      "number": "06",
+      "category": "Loved By Millions",
+      "title": "Trusted by 1M+ customers",
+      "description": "With over 80,000 five-star reviews and a growing subscriber base, Grüns is the top choice for those looking to fill nutrient gaps in a convenient, tasty, and fun way while boosting overall health."
+    }
+  ],
+  "testimonials": {
+    "heading": {
+      "text": "Real Customers.",
+      "highlight": "Real Gut Relief."
+    },
+    "items": [
+      {
+        "title": "'Relief within a few days'",
+        "body": "I felt a sense of relief within a few days in my gut health. I suffer from acid reflux at times throughout the day and these have helped tremendously.",
+        "author": "Laura"
+      },
+      {
+        "title": "'Helps clean up my gut'",
+        "body": "It really helps to clean up my gut. I've never been a regular person who went to the bathroom every day. With Grüns it's getting there! I also love to eat them!",
+        "author": "Darcie"
+      },
+      {
+        "title": "'My poops are regular finally'",
+        "body": "I have always had stomach issues and trouble going to the bathroom but after 2 weeks I haven't had any and my poops are regular finally.",
+        "author": "Jenn"
+      },
+      {
+        "title": "'Increased energy and poop regularly'",
+        "body": "So far, so good! I love these little bears. I've been taking Grüns just a week now. They taste yummy. I do feel increased energy and I've been able to poop pretty regularly. Thank you!",
+        "author": "Earla D."
+      },
+      {
+        "title": "'Best poops of my life'",
+        "body": "I've been taking the Gruns for about 40 days now and I love them!! I can honestly say it's the best poops of my life, my cravings at nighttime are way lower and I have a little more energy!",
+        "author": "Miranda"
+      },
+      {
+        "title": "'They taste great'",
+        "body": "What a wonderful way to maintain gut health and boost my immunity. They taste great, easy to travel with and a better way than pills to maintain my health.",
+        "author": "Missy"
+      }
+    ]
+  },
+  "reviews": {
+    "overallRating": "4.76",
+    "tabs": ["Product reviews", "Store reviews"]
+  },
+  "buyBox": {
+    "badge": "3rd-Party & Clinically Tested"
+  }
+}
