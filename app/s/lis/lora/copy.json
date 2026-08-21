@@ -1,67 +1,67 @@
 {
   "meta": {
-    "title": "6 Reasons Why Grüns Is Your Gut's New Bestie",
-    "description": "Your gut is like your second brain—it affects everything from digestion and energy to mood and immunity. Grüns helps it thrive with 60+ real, nutrient-dense ingredients in a fun-sized snack pack of daily gummies."
+    "title": "6 Reasons Why Lora Is the #1 Fix for Parasites & Bloating",
+    "description": "Chronic bloating isn't just what you eat—it's what's living in your gut. Lora's SOMARA liquid complex uses 10 powerful botanicals to flush parasites, eliminate deep gut buildup, and restore flat, comfortable digestion."
   },
   "topBar": {
     "label": "Limited-Time Sale:",
-    "offer": "Get 52% off + free shipping",
+    "offer": "Get Up To 41% Off + Free Shipping",
     "suffix": "on your first order"
   },
   "hero": {
-    "badge": "Limited-Time Sale - Get Up To 52% Off",
+    "badge": "Limited-Time Sale - Get Up To 41% Off",
     "heading": {
       "highlight1": "6 Reasons",
-      "text": "Why Grüns Is Your",
-      "highlight2": "Gut's New Bestie"
+      "text": "Why Lora Ends",
+      "highlight2": "Parasites & Bloating"
     },
-    "subheading": "Your gut is like your second brain—it affects everything from digestion and energy to mood and immunity. Grüns helps it thrive with 60+ real, nutrient-dense ingredients in a fun-sized snack pack of daily gummies.",
+    "subheading": "Chronic bloating isn't just about what you eat—it's what's building up in your gut. Lora's SOMARA liquid complex uses 10 powerful botanicals to flush toxic buildup, eliminate bloat, and restore clean, vibrant daily energy.",
     "cta": {
-      "primary": "Save 52% + Free Shipping",
+      "primary": "Save 41% + Free Shipping",
       "href": "#offers"
     },
     "socialProof": {
       "rating": "4.8",
-      "reviews": "100K+",
-      "members": "1M+"
+      "reviews": "67K+",
+      "members": "2M+"
     }
   },
   "benefits": [
     {
       "number": "01",
-      "category": "Digestion",
-      "title": "Better poops (seriously)",
-      "description": "Constipation affects about 15% of the population in the U.S. If that's you, your gut is begging for help. Grüns delivers 6g of prebiotic fiber to get things moving—naturally. No laxatives, no guesswork. Just easier, more regular, feel-good digestion, every day."
+      "category": "Parasites",
+      "title": "Flushes Parasites & Toxic Buildup",
+      "description": "Most gut supplements only mask symptoms—they never clear the root cause. Lora's SOMARA targets deep digestive stagnation with a concentrated Soursop (Graviola) extract and Oregano Oil that work together to flush harmful buildup and parasites from your gut lining, leaving your system clean and running properly again."
     },
     {
       "number": "02",
-      "category": "Gut Health",
-      "title": "Healthy Gut Microbiome",
-      "description": "The trillions of bacteria in your gut control way more than you think. Grüns feeds the good ones with prebiotic fiber that help your microbiome thrive. A happy gut means less bloating, better nutrient absorption, healthy blood sugar support, fewer cravings, and support for weight management."
+      "category": "Bloating",
+      "title": "Flat, Comfortable Stomach All Day",
+      "description": "If your stomach feels tight, puffed, and heavy by midday no matter what you eat, stagnant waste pathways are the culprit. Lora delivers fast-absorbing liquid botanicals—Irish Sea Moss and Ginger—that clear those clogged pathways so bloating eases quickly and your stomach stays flat and light all day long."
     },
     {
       "number": "03",
       "category": "Energy",
-      "title": "More Energy, Better Mood",
-      "description": "Your gut plays a major role in how you feel. With B-vitamins for steady energy and adaptogens to help regulate stress, Grüns supports your second brain—so you're not just feeling lighter, you're feeling better overall."
+      "title": "Sustained Energy Without the Crash",
+      "description": "When parasites and gut buildup are draining your body, no amount of caffeine fixes it. Lora's 10-in-1 blend—Moringa, Ashwagandha, and Chlorella—feeds your cells directly for calm, continuous daily stamina. No jitters, no afternoon crash. Just real, steady energy from the moment you wake up."
     },
     {
       "number": "04",
       "category": "Immunity",
-      "title": "Immunity Boost",
-      "description": "About 70% of your immune system lives in your gut. A healthy gut helps you absorb nutrients properly and defend against harmful bacteria. Grüns supports that gut-immune connection with Vitamin C, D3, Zinc, and antioxidants that help your body fight back, daily."
+      "title": "Stronger Natural Immune Defense",
+      "description": "70% of your immune system lives in your gut. When your gut is overrun with buildup and parasites, your immune defenses collapse. Lora combines Turmeric, Black Seed Oil, Vitamin C, and Vitamin D3 to fortify your gut lining and rebuild the natural immune defense that parasites quietly strip away."
     },
     {
       "number": "05",
-      "category": "Benefits",
-      "title": "A Healthy Habit You'll Stick To",
-      "description": "Let's be honest—powders are messy, and counting pills gets old fast. Grüns is the one supplement that actually sticks. You get 20+ vitamins & minerals, organic fruits and veggies, adaptogens, prebiotics, and more—all in a little pack of gummies. No prep, no mess, no excuses."
+      "category": "Formula",
+      "title": "10 Botanicals in One Easy Dropper",
+      "description": "Forget swallowing handfuls of pills that barely absorb. SOMARA packs Soursop, Sea Moss, Moringa, Turmeric, Black Seed Oil, Oregano Oil, Ashwagandha, Chlorella, Chlorophyll, and Ginger into one fast-absorbing liquid dropper. Alcohol-free, stimulant-free, sugar-free. Just two droppers a day—done."
     },
     {
       "number": "06",
       "category": "Loved By Millions",
-      "title": "Trusted by 1M+ customers",
-      "description": "With over 80,000 five-star reviews and a growing subscriber base, Grüns is the top choice for those looking to fill nutrient gaps in a convenient, tasty, and fun way while boosting overall health."
+      "title": "Trusted by 2M+ Customers",
+      "description": "With over 67,000 five-star reviews and 2 million bottles sold, Lora's SOMARA is the go-to choice for anyone done with persistent bloating, unexplained fatigue, and the heavy gut feeling that won't quit. Backed by a 30-day money-back guarantee—completely risk-free."
     }
   ],
   "testimonials": {
@@ -71,42 +71,42 @@
     },
     "items": [
       {
-        "title": "'Relief within a few days'",
-        "body": "I felt a sense of relief within a few days in my gut health. I suffer from acid reflux at times throughout the day and these have helped tremendously.",
-        "author": "Laura"
+        "title": "'Bloating is gone after years'",
+        "body": "I've struggled with bloating and a heavy stomach for years. After two weeks on SOMARA, the bloating has almost completely disappeared. I feel lighter and my energy is completely different.",
+        "author": "Sandra"
       },
       {
-        "title": "'Helps clean up my gut'",
-        "body": "It really helps to clean up my gut. I've never been a regular person who went to the bathroom every day. With Grüns it's getting there! I also love to eat them!",
-        "author": "Darcie"
+        "title": "'Finally figured out my gut'",
+        "body": "I was skeptical but this stuff actually works. Digestion feels smooth now, no more afternoon crashes, and my stomach stopped looking 6 months pregnant by evening. Total game changer.",
+        "author": "Kayla"
       },
       {
-        "title": "'My poops are regular finally'",
-        "body": "I have always had stomach issues and trouble going to the bathroom but after 2 weeks I haven't had any and my poops are regular finally.",
-        "author": "Jenn"
+        "title": "'Energy and digestion fixed'",
+        "body": "I was dragging myself through every day. One month of Lora and the difference is night and day. Flat stomach, better sleep, way more energy. I didn't know my gut was this wrecked.",
+        "author": "Marcus"
       },
       {
-        "title": "'Increased energy and poop regularly'",
-        "body": "So far, so good! I love these little bears. I've been taking Grüns just a week now. They taste yummy. I do feel increased energy and I've been able to poop pretty regularly. Thank you!",
-        "author": "Earla D."
+        "title": "'Parasites were the real issue'",
+        "body": "My doctor suggested gut parasites could be behind my chronic bloat and fatigue. SOMARA is the only thing that's actually helped. Two weeks in and I feel like a completely different person.",
+        "author": "Tanya R."
       },
       {
-        "title": "'Best poops of my life'",
-        "body": "I've been taking the Gruns for about 40 days now and I love them!! I can honestly say it's the best poops of my life, my cravings at nighttime are way lower and I have a little more energy!",
-        "author": "Miranda"
+        "title": "'Nothing else worked like this'",
+        "body": "I tried probiotics, fiber supplements, everything. None of it touched the real problem. SOMARA cleared it up within the first week. Lighter, more focused, zero afternoon slump.",
+        "author": "Derek"
       },
       {
-        "title": "'They taste great'",
-        "body": "What a wonderful way to maintain gut health and boost my immunity. They taste great, easy to travel with and a better way than pills to maintain my health.",
-        "author": "Missy"
+        "title": "'Easy to take, fast results'",
+        "body": "Two droppers in my morning water and that's it. Within 10 days my stomach stopped bloating out and my energy returned. The simplest wellness habit I've ever had.",
+        "author": "Priya"
       }
     ]
   },
   "reviews": {
-    "overallRating": "4.76",
+    "overallRating": "4.8",
     "tabs": ["Product reviews", "Store reviews"]
   },
   "buyBox": {
-    "badge": "3rd-Party & Clinically Tested"
+    "badge": "30-Day Money-Back Guarantee"
   }
 }
