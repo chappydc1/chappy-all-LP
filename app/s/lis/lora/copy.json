@@ -104,7 +104,58 @@
   },
   "reviews": {
     "overallRating": "4.8",
-    "tabs": ["Product reviews", "Store reviews"]
+    "totalReviews": "67,328",
+    "tabs": ["Product reviews", "Store reviews"],
+    "items": [
+      {
+        "avatarInitials": "SM",
+        "username": "SandraM",
+        "timeAgo": "2 minutes ago",
+        "title": "Bloating gone after years",
+        "body": "I've dealt with chronic bloating for years and nothing worked. Two weeks into SOMARA and my stomach is finally flat. The dropper is so easy to take each morning. Completely changed how I feel day-to-day.",
+        "productName": "Lora SOMARA Liquid Complex"
+      },
+      {
+        "avatarInitials": "JT",
+        "username": "JaredT",
+        "timeAgo": "4 minutes ago",
+        "title": "Energy is back",
+        "body": "I was exhausted every afternoon no matter how much I slept. Started SOMARA and within 10 days I noticed the difference. No crash, no jitters. Just steady energy all day. I didn't realize how much gut buildup was dragging me down.",
+        "productName": "Lora SOMARA Liquid Complex"
+      },
+      {
+        "avatarInitials": "KW",
+        "username": "KayleighW",
+        "timeAgo": "8 minutes ago",
+        "title": "Actually works on parasites",
+        "body": "My naturopath suspected gut parasites were causing my bloating and fatigue. She recommended a botanical cleanse and I found SOMARA. The results have been remarkable. Lighter, more energized, and my digestion is smoother than it's been in years.",
+        "productName": "Lora SOMARA Liquid Complex"
+      },
+      {
+        "avatarInitials": "RP",
+        "username": "RachelP",
+        "timeAgo": "17 minutes ago",
+        "title": "Flat stomach finally",
+        "body": "I always felt like I looked 6 months pregnant by evening. I tried everything — fiber, probiotics, cutting out dairy. Nothing. SOMARA cleared whatever was going on in there. Stomach is flat, digestion is regular, and I feel like myself again.",
+        "productName": "Lora SOMARA Liquid Complex"
+      },
+      {
+        "avatarInitials": "DM",
+        "username": "DerekM",
+        "timeAgo": "23 minutes ago",
+        "title": "Best gut supplement I've tried",
+        "body": "I've spent a lot of money on gut health supplements over the years. SOMARA is the only one that actually made a noticeable difference fast. Within a week the heaviness after meals disappeared. One month in and I won't stop taking it.",
+        "productName": "Lora SOMARA Liquid Complex"
+      },
+      {
+        "avatarInitials": "TN",
+        "username": "TanyaN",
+        "timeAgo": "31 minutes ago",
+        "title": "So easy to take",
+        "body": "Two droppers in my morning water and done. No pills, no mixing powders, no smell. I noticed reduced bloating in the first week and my energy improved noticeably by week two. The 30-day guarantee made it a no-brainer to try.",
+        "productName": "Lora SOMARA Liquid Complex"
+      }
+    ]
   },
   "buyBox": {
     "badge": "30-Day Money-Back Guarantee"
