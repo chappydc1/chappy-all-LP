@@ -1,4 +1,4 @@
-export const GrunsReviewsSummary = () => {
+export const LoraReviewsSummary = () => {
   return (
     <div className="relative text-base box-border caret-transparent leading-[25.6px] max-w-[1200px] outline-[3px] mx-auto px-4 py-8">
       <div
@@ -195,7 +195,7 @@ export const GrunsReviewsSummary = () => {
           aria-label="Toggle filters"
           className="text-[14.4px] font-medium items-center bg-transparent caret-transparent gap-x-2 flex justify-center tracking-[0.36px] leading-[14.4px] outline-[3px] gap-y-2 text-center w-full border px-5 py-2 rounded-[5.4px] border-black/10 md:hidden"
         >
-          <span className="bg-[url('/s/lis/gruns/media/6d97ad80e3f8d85c0bde.svg')] bg-no-repeat box-border caret-transparent block h-4 min-h-[auto] min-w-[auto] outline-[3px] w-4 bg-center md:min-h-0 md:min-w-0">
+          <span className="bg-[url('/s/lis/lora/media/6d97ad80e3f8d85c0bde.svg')] bg-no-repeat box-border caret-transparent block h-4 min-h-[auto] min-w-[auto] outline-[3px] w-4 bg-center md:min-h-0 md:min-w-0">
              
           </span>
           Filter
@@ -489,10 +489,10 @@ export const GrunsReviewsSummary = () => {
             <div className="text-sm box-border caret-transparent leading-[21px] outline-[3px] mt-4">
               Review for
               <a
-                href="https://gruns.co/products/gruns"
+                href="https://lora.co/products/lora"
                 className="box-border caret-transparent outline-[3px]"
               >
-                Grüns - Low Sugar / 28 Packs
+                Lora - Low Sugar / 28 Packs
               </a>
             </div>
             <div className="box-border caret-transparent gap-x-4 flex outline-[3px] gap-y-4 mt-6">
@@ -718,10 +718,10 @@ export const GrunsReviewsSummary = () => {
             <div className="text-sm box-border caret-transparent leading-[21px] outline-[3px] mt-4">
               Review for
               <a
-                href="https://gruns.co/products/gruns-olipop-kids"
+                href="https://lora.co/products/lora-olipop-kids"
                 className="box-border caret-transparent outline-[3px]"
               >
-                Grüns Kids OLIPOP® - Low Sugar / 28 Packs
+                Lora Kids OLIPOP® - Low Sugar / 28 Packs
               </a>
             </div>
             <div className="box-border caret-transparent gap-x-4 flex outline-[3px] gap-y-4 mt-6">
@@ -933,10 +933,10 @@ export const GrunsReviewsSummary = () => {
             <div className="text-sm box-border caret-transparent leading-[21px] outline-[3px] mt-4">
               Review for
               <a
-                href="https://gruns.co/products/gruns"
+                href="https://lora.co/products/lora"
                 className="box-border caret-transparent outline-[3px]"
               >
-                Grüns - Low Sugar / 28 Packs
+                Lora - Low Sugar / 28 Packs
               </a>
             </div>
             <div className="box-border caret-transparent gap-x-4 flex outline-[3px] gap-y-4 mt-6">
@@ -1162,10 +1162,10 @@ export const GrunsReviewsSummary = () => {
             <div className="text-sm box-border caret-transparent leading-[21px] outline-[3px] mt-4">
               Review for
               <a
-                href="https://gruns.co/products/gruns"
+                href="https://lora.co/products/lora"
                 className="box-border caret-transparent outline-[3px]"
               >
-                Grüns - Low Sugar / 28 Packs
+                Lora - Low Sugar / 28 Packs
               </a>
             </div>
             <div className="box-border caret-transparent gap-x-4 flex outline-[3px] gap-y-4 mt-6">
@@ -1379,10 +1379,10 @@ export const GrunsReviewsSummary = () => {
             <div className="text-sm box-border caret-transparent leading-[21px] outline-[3px] mt-4">
               Review for
               <a
-                href="https://gruns.co/products/gruns-olipop"
+                href="https://lora.co/products/lora-olipop"
                 className="box-border caret-transparent outline-[3px]"
               >
-                Grüns OLIPOP® - Sugar-Free / 28 Packs
+                Lora OLIPOP® - Sugar-Free / 28 Packs
               </a>
             </div>
             <div className="box-border caret-transparent gap-x-4 flex outline-[3px] gap-y-4 mt-6">
@@ -1595,10 +1595,10 @@ export const GrunsReviewsSummary = () => {
             <div className="text-sm box-border caret-transparent leading-[21px] outline-[3px] mt-4">
               Review for
               <a
-                href="https://gruns.co/products/gruns"
+                href="https://lora.co/products/lora"
                 className="box-border caret-transparent outline-[3px]"
               >
-                Grüns - Low Sugar / 28 Packs
+                Lora - Low Sugar / 28 Packs
               </a>
             </div>
             <div className="box-border caret-transparent gap-x-4 flex outline-[3px] gap-y-4 mt-6">
@@ -1811,10 +1811,10 @@ export const GrunsReviewsSummary = () => {
             <div className="text-sm box-border caret-transparent leading-[21px] outline-[3px] mt-4">
               Review for
               <a
-                href="https://gruns.co/products/gruns-olipop"
+                href="https://lora.co/products/lora-olipop"
                 className="box-border caret-transparent outline-[3px]"
               >
-                Grüns OLIPOP® - Low Sugar / 28 Packs
+                Lora OLIPOP® - Low Sugar / 28 Packs
               </a>
             </div>
             <div className="box-border caret-transparent gap-x-4 flex outline-[3px] gap-y-4 mt-6">
@@ -2026,10 +2026,10 @@ export const GrunsReviewsSummary = () => {
             <div className="text-sm box-border caret-transparent leading-[21px] outline-[3px] mt-4">
               Review for
               <a
-                href="https://gruns.co/products/gruns-olipop"
+                href="https://lora.co/products/lora-olipop"
                 className="box-border caret-transparent outline-[3px]"
               >
-                Grüns OLIPOP® - Low Sugar / 28 Packs
+                Lora OLIPOP® - Low Sugar / 28 Packs
               </a>
             </div>
             <div className="box-border caret-transparent gap-x-4 flex outline-[3px] gap-y-4 mt-6">
@@ -2244,10 +2244,10 @@ export const GrunsReviewsSummary = () => {
             <div className="text-sm box-border caret-transparent leading-[21px] outline-[3px] mt-4">
               Review for
               <a
-                href="https://gruns.co/products/gruns"
+                href="https://lora.co/products/lora"
                 className="box-border caret-transparent outline-[3px]"
               >
-                Grüns - Low Sugar / 28 Packs
+                Lora - Low Sugar / 28 Packs
               </a>
             </div>
             <div className="box-border caret-transparent gap-x-4 flex outline-[3px] gap-y-4 mt-6">
@@ -2447,11 +2447,11 @@ export const GrunsReviewsSummary = () => {
                   role="heading"
                   className="text-lg font-semibold box-border caret-transparent leading-[27px] outline-[3px] mb-2"
                 >
-                  Like Gruns!!
+                  Like Lora!!
                 </div>
                 <div className="box-border caret-transparent outline-[3px]">
                   <span className="box-border caret-transparent outline-[3px]">
-                    Been taking gruns for awhile and like them!! It was great
+                    Been taking lora for awhile and like them!! It was great
                     came out with a new flavor!!
                   </span>
                 </div>
@@ -2460,10 +2460,10 @@ export const GrunsReviewsSummary = () => {
             <div className="text-sm box-border caret-transparent leading-[21px] outline-[3px] mt-4">
               Review for
               <a
-                href="https://gruns.co/products/gruns-olipop"
+                href="https://lora.co/products/lora-olipop"
                 className="box-border caret-transparent outline-[3px]"
               >
-                Grüns OLIPOP® - Low Sugar / 28 Packs
+                Lora OLIPOP® - Low Sugar / 28 Packs
               </a>
             </div>
             <div className="box-border caret-transparent gap-x-4 flex outline-[3px] gap-y-4 mt-6">
@@ -2522,8 +2522,8 @@ export const GrunsReviewsSummary = () => {
       <div className="text-sm items-center box-border caret-transparent gap-x-1 flex grayscale-[1] h-[17px] justify-center leading-[14px] outline-[3px] gap-y-1 text-nowrap mt-4">
         Reviewed on
         <a
-          href="https://junip.co/reviews/gruns?utm_source=powered_by_footer&referrer=https%3A%2F%2Fgruns.co%2Fpages%2Ffiber"
-          aria-label="See Grüns on Junip (opens in a new tab)"
+          href="https://junip.co/reviews/lora?utm_source=powered_by_footer&referrer=https%3A%2F%2Flora.co%2Fpages%2Ffiber"
+          aria-label="See Lora on Junip (opens in a new tab)"
           className="bg-[url('/images/gruns/58672aa73f33fbf4a708.svg"
         >
            

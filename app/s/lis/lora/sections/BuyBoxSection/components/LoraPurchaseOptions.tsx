@@ -1,4 +1,4 @@
-export type GrunsPurchaseOptionsProps = {
+export type LoraPurchaseOptionsProps = {
   variant: string;
   title: string;
   actionText?: string;
@@ -33,7 +33,7 @@ export type GrunsPurchaseOptionsProps = {
   submitText?: string;
 };
 
-export const GrunsPurchaseOptions = (props: GrunsPurchaseOptionsProps) => {
+export const LoraPurchaseOptions = (props: LoraPurchaseOptionsProps) => {
   const iconUrl =
     props.iconUrl ?? "/images/gruns/icon-16.svg";
   const modalCloseIconUrl =

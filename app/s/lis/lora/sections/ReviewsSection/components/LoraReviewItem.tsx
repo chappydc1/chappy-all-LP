@@ -1,4 +1,4 @@
-export type GrunsReviewItemProps = {
+export type LoraReviewItemProps = {
   avatarLabel: string;
   avatarInitials: string;
   username: string;
@@ -10,7 +10,7 @@ export type GrunsReviewItemProps = {
   productName: string;
 };
 
-export const GrunsReviewItem = (props: GrunsReviewItemProps) => {
+export const LoraReviewItem = (props: LoraReviewItemProps) => {
   return (
     <div className="box-border caret-transparent gap-x-4 flex flex-col outline-[3px] gap-y-4 pb-8 md:flex-row">
       <div className="box-border caret-transparent max-w-full min-h-[auto] min-w-[220px] outline-[3px] md:max-w-[220px]">

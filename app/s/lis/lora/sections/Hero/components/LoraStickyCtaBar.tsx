@@ -1,4 +1,4 @@
-export const GrunsStickyCtaBar = () => {
+export const LoraStickyCtaBar = () => {
   return (
     <div className="fixed bg-neutral-200 box-border caret-transparent outline-[3px] translate-y-[100.0%] z-[9] p-4 top-auto bottom-0 inset-x-0 md:translate-y-[-100.0%] md:px-9 md:py-3 md:top-0 md:bottom-auto">
       <div className="[align-items:normal] box-border caret-transparent block justify-normal max-w-[420px] outline-[3px] w-auto mx-auto md:items-center md:flex md:justify-between md:max-w-[1140px] md:w-full">

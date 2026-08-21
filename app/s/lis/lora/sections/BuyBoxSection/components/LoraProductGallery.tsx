@@ -1,4 +1,4 @@
-export type GrunsProductGalleryImage = {
+export type LoraProductGalleryImage = {
   src: string;
   alt: string;
   wrapperClassName: string;
@@ -6,7 +6,7 @@ export type GrunsProductGalleryImage = {
   imageClassName: string;
 };
 
-export type GrunsProductGalleryThumbnail = {
+export type LoraProductGalleryThumbnail = {
   ariaLabel: string;
   buttonClassName: string;
   src: string;
@@ -15,18 +15,18 @@ export type GrunsProductGalleryThumbnail = {
   pictureClassName?: string;
 };
 
-export type GrunsProductGalleryProps = {
+export type LoraProductGalleryProps = {
   featuredWrapperClassName: string;
   slideWrapperClassName: string;
   thumbnailsWrapperClassName: string;
   thumbnailPictureClassName: string;
-  images: GrunsProductGalleryImage[];
-  thumbnails: GrunsProductGalleryThumbnail[];
+  images: LoraProductGalleryImage[];
+  thumbnails: LoraProductGalleryThumbnail[];
   previousIconSrc: string;
   nextIconSrc: string;
 };
 
-export const GrunsProductGallery = (props: GrunsProductGalleryProps) => {
+export const LoraProductGallery = (props: LoraProductGalleryProps) => {
   return (
     <div className="box-border caret-transparent contents outline-[3px]">
       <div className={props.featuredWrapperClassName}>

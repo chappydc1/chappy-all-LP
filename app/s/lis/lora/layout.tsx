@@ -1,14 +1,14 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import copy from "./copy.json";
 
 export const metadata: Metadata = {
-  title: "6 Reasons Why Grüns Is Your Gut's New Bestie",
-  description:
-    "Your gut is like your second brain. Grüns helps it thrive with 60+ real, nutrient-dense ingredients in a fun-sized snack pack of daily gummies.",
-  icons: { icon: "/favicons/gruns.svg" },
+  title: copy.meta.title,
+  description: copy.meta.description,
+  icons: { icon: "/favicons/lora.svg" },
 };
 
-export default function GrunsLayout({
+export default function LoraLayout({
   children,
 }: {
   children: React.ReactNode;

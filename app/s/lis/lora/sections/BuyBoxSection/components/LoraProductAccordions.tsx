@@ -1,4 +1,4 @@
-export const GrunsProductAccordions = () => {
+export const LoraProductAccordions = () => {
   return (
     <div className="box-border caret-transparent outline-[3px]">
       <div className="box-border caret-transparent outline-[3px] pt-5">
@@ -7,7 +7,7 @@ export const GrunsProductAccordions = () => {
             <h3 className="text-[32px] box-border caret-transparent tracking-[-1.6px] leading-[38.4px] outline-[3px]">
               <button className="items-start bg-transparent caret-transparent flex justify-between outline-[3px] text-left w-full p-0">
                 <span className="text-xl font-semibold box-border caret-transparent block tracking-[-1px] leading-6 min-h-[auto] min-w-[auto] outline-[3px] mt-1">
-                  Why Grüns?
+                  Why Lora?
                 </span>
                 <span className="box-border caret-transparent block shrink-0 h-6 min-h-[auto] min-w-[auto] outline-[3px] w-6 ml-10 mt-1">
                   <img
@@ -31,7 +31,7 @@ export const GrunsProductAccordions = () => {
                     <strong className="font-bold box-border caret-transparent outline-[3px]">
                       Comprehensive:
                     </strong>
-                     Nutrition that works. Grüns replaces handfuls of health
+                     Nutrition that works. Lora replaces handfuls of health
                     products at a fraction of the cost.
                     <br className="box-border caret-transparent outline-[3px]" />
                     <br className="box-border caret-transparent outline-[3px]" />
@@ -89,7 +89,7 @@ export const GrunsProductAccordions = () => {
                       </strong>
                     </span>
                     <br className="box-border caret-transparent outline-[3px]" />
-                    Grüns contains over 20 vitamins &amp; minerals including
+                    Lora contains over 20 vitamins &amp; minerals including
                     Vitamin A, Vitamin B6, Vitamin B12, Vitamin C, Vitamin D3,
                     Vitamin E, Vitamin K2, Biotin, Folate, Niacin, Pantothenic
                     Acid, Vitamin B2, Thiamine, Chromium, Copper, Iodine,
@@ -97,7 +97,7 @@ export const GrunsProductAccordions = () => {
                   </p>
                   <p className="text-base font-medium box-border caret-transparent leading-[25.6px] outline-[3px] mb-3">
                     <br className="box-border caret-transparent outline-[3px]" />
-                    Grüns also contains dozens of organic and key nutrient
+                    Lora also contains dozens of organic and key nutrient
                     ingredients such as whole food fruits, vegetables, super
                     mushrooms, prebiotics, adaptogens, and antioxidants. This
                     long list includes organic alfalfa, organic kale, organic
@@ -111,12 +111,12 @@ export const GrunsProductAccordions = () => {
                     powder, and inulin.
                     <br className="box-border caret-transparent outline-[3px]" />
                     <br className="box-border caret-transparent outline-[3px]" />
-                    Grüns are gluten-free, dairy-free, nut-free, vegan, non-GMO,
+                    Lora are gluten-free, dairy-free, nut-free, vegan, non-GMO,
                     and contain no synthetic sweeteners, no synthetic dyes.
                   </p>
                   <p className="text-base font-medium box-border caret-transparent leading-[25.6px] outline-[3px]">
                     <br className="box-border caret-transparent outline-[3px]" />
-                    Lastly, Grüns has a pectin base which is a fruit fiber. No
+                    Lastly, Lora has a pectin base which is a fruit fiber. No
                     gelatin.
                     <br className="box-border caret-transparent outline-[3px]" />
                     <br className="box-border caret-transparent outline-[3px]" />
@@ -126,7 +126,7 @@ export const GrunsProductAccordions = () => {
                       </strong>
                     </span>
                     <br className="box-border caret-transparent outline-[3px]" />
-                    Grüns is plant-based and vegan. These gummies are free from
+                    Lora is plant-based and vegan. These gummies are free from
                     gluten, dairy, and nuts. No synthetic sweeteners, no
                     synthetic dyes.
                   </p>
@@ -196,7 +196,7 @@ export const GrunsProductAccordions = () => {
                       </strong>
                     </span>
                     <br className="box-border caret-transparent outline-[3px]" />
-                    We put Grüns to the test in 2025 through a gold standard
+                    We put Lora to the test in 2025 through a gold standard
                     clinical study: randomized, double blind, and placebo
                     controlled. Here were the results—your body absorbs the
                     nutrients. Participants showed meaningful increases in key
@@ -258,7 +258,7 @@ export const GrunsProductAccordions = () => {
               <div className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] overflow-hidden">
                 <div className="box-border caret-transparent outline-[3px] pr-10 pt-4">
                   <p className="text-base font-medium box-border caret-transparent leading-[25.6px] outline-[3px]">
-                    Each large pouch of Grüns contains 28 individual packs. Grab
+                    Each large pouch of Lora contains 28 individual packs. Grab
                     a single pack daily and enjoy the small handful of green
                     gummy bears inside for comprehensive nutrition.
                   </p>
@@ -290,7 +290,7 @@ export const GrunsProductAccordions = () => {
               <div className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] overflow-hidden">
                 <div className="box-border caret-transparent outline-[3px] pr-10 pt-4">
                   <p className="text-base font-medium box-border caret-transparent leading-[25.6px] outline-[3px]">
-                    Grüns supports digestion, immune health, energy metabolism,
+                    Lora supports digestion, immune health, energy metabolism,
                     and normal cognitive function — plus nutrients that help
                     maintain healthy hair, skin, and nails — all in one
                     convenient and delicious daily pack of gummies. Our hope is

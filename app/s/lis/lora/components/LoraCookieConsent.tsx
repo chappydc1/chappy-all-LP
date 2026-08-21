@@ -1,4 +1,4 @@
-export const GrunsCookieConsent = () => {
+export const LoraCookieConsent = () => {
   return (
     <aside className="fixed text-base font-extralight shadow-[rgba(1,1,63,0.1)_0px_2px_19px_-4px] caret-transparent hidden leading-5 max-h-[calc(100%_-_16px)] outline-[3px] text-left w-full z-[9999] bottom-0 inset-x-0 font-helvetica md:w-[400px] md:left-4 md:right-auto md:bottom-4">
       <div className="bg-white caret-transparent flex flex-col max-h-[900px] outline-[3px] border border-zinc-900 overflow-auto p-3 rounded-lg border-solid md:p-6">
@@ -77,13 +77,13 @@ export const GrunsCookieConsent = () => {
         </p>
         <div className="caret-transparent outline-[3px] mx-3 my-1 md:mx-0 md:my-2">
           <a
-            href="https://gruns.co/policies/privacy-policy"
+            href="https://lora.co/policies/privacy-policy"
             className="text-zinc-900 text-[11px] font-normal caret-transparent inline-block leading-[15px] max-w-full min-w-6 outline-[3px] underline text-ellipsis text-nowrap overflow-hidden mr-4 mb-0 py-1.5 font-dmsans md:text-base md:font-extralight md:leading-5 md:min-w-0 md:mb-2 md:py-0"
           >
             Privacy Policy
           </a>
           <a
-            href="https://privacy.gruns.co/form/opt_out"
+            href="https://privacy.lora.co/form/opt_out"
             className="text-zinc-900 text-[11px] font-normal caret-transparent inline-block leading-[15px] max-w-full min-w-6 outline-[3px] underline text-ellipsis text-nowrap overflow-hidden mb-0 py-1.5 font-dmsans md:text-base md:font-extralight md:leading-5 md:min-w-0 md:mb-2 md:py-0"
           >
             Opt Out Webform

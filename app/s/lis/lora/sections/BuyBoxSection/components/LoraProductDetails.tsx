@@ -1,4 +1,4 @@
-export const GrunsProductDetails = () => {
+export const LoraProductDetails = () => {
   return (
     <div className="box-border caret-transparent max-w-none min-h-0 min-w-0 outline-[3px] w-auto md:max-w-[470px] md:min-h-[auto] md:min-w-[470px] md:w-[470px]">
       <div className="box-border caret-transparent outline-[3px] w-full">
@@ -110,7 +110,7 @@ export const GrunsProductDetails = () => {
                 <div className="relative bg-neutral-200 box-border caret-transparent h-[88px] min-h-[auto] min-w-[auto] outline-[3px] w-[88px] z-0 border overflow-clip rounded-[88px] border-solid">
                   <img
                     src="/images/gruns/16.avif"
-                    alt="Grüns"
+                    alt="Lora"
                     className="absolute aspect-[auto_108_/_108] box-border caret-transparent h-[108px] max-w-full min-w-[108px] outline-[3px] w-[108px] -left-2.5 top-0"
                   />
                 </div>
@@ -125,7 +125,7 @@ export const GrunsProductDetails = () => {
                 <div className="relative bg-white box-border caret-transparent h-[88px] min-h-[auto] min-w-[auto] outline-[3px] w-[88px] z-0 border overflow-clip rounded-[88px] border-solid">
                   <img
                     src="/images/gruns/15.avif"
-                    alt="Popsicle® Firecracker Grüns"
+                    alt="Popsicle® Firecracker Lora"
                     className="absolute aspect-[auto_108_/_108] box-border caret-transparent h-[108px] max-w-full min-w-[108px] outline-[3px] w-[108px] -left-2.5 top-0"
                   />
                 </div>
@@ -1201,7 +1201,7 @@ export const GrunsProductDetails = () => {
                 <h3 className="text-[32px] box-border caret-transparent tracking-[-1.6px] leading-[38.4px] outline-[3px]">
                   <button className="items-start bg-transparent caret-transparent flex justify-between outline-[3px] text-left w-full p-0">
                     <span className="text-xl font-semibold box-border caret-transparent block tracking-[-1px] leading-6 min-h-[auto] min-w-[auto] outline-[3px] mt-1">
-                      Why Grüns?
+                      Why Lora?
                     </span>
                     <span className="box-border caret-transparent block shrink-0 h-6 min-h-[auto] min-w-[auto] outline-[3px] w-6 ml-10 mt-1">
                       <img
@@ -1225,7 +1225,7 @@ export const GrunsProductDetails = () => {
                         <strong className="font-bold box-border caret-transparent outline-[3px]">
                           Comprehensive:
                         </strong>
-                         Nutrition that works. Grüns replaces handfuls of health
+                         Nutrition that works. Lora replaces handfuls of health
                         products at a fraction of the cost.
                         <br className="box-border caret-transparent outline-[3px]" />
                         <br className="box-border caret-transparent outline-[3px]" />
@@ -1283,7 +1283,7 @@ export const GrunsProductDetails = () => {
                           </strong>
                         </span>
                         <br className="box-border caret-transparent outline-[3px]" />
-                        Grüns contains over 20 vitamins &amp; minerals including
+                        Lora contains over 20 vitamins &amp; minerals including
                         Vitamin A, Vitamin B6, Vitamin B12, Vitamin C, Vitamin
                         D3, Vitamin E, Vitamin K2, Biotin, Folate, Niacin,
                         Pantothenic Acid, Vitamin B2, Thiamine, Chromium,
@@ -1292,7 +1292,7 @@ export const GrunsProductDetails = () => {
                       </p>
                       <p className="text-base font-medium box-border caret-transparent leading-[25.6px] outline-[3px] mb-3">
                         <br className="box-border caret-transparent outline-[3px]" />
-                        Grüns also contains dozens of organic and key nutrient
+                        Lora also contains dozens of organic and key nutrient
                         ingredients such as whole food fruits, vegetables, super
                         mushrooms, prebiotics, adaptogens, and antioxidants.
                         This long list includes organic alfalfa, organic kale,
@@ -1306,13 +1306,13 @@ export const GrunsProductDetails = () => {
                         pomegranate, shiitake mushroom powder, and inulin.
                         <br className="box-border caret-transparent outline-[3px]" />
                         <br className="box-border caret-transparent outline-[3px]" />
-                        Grüns are gluten-free, dairy-free, nut-free, vegan,
+                        Lora are gluten-free, dairy-free, nut-free, vegan,
                         non-GMO, and contain no synthetic sweeteners, no
                         synthetic dyes.
                       </p>
                       <p className="text-base font-medium box-border caret-transparent leading-[25.6px] outline-[3px]">
                         <br className="box-border caret-transparent outline-[3px]" />
-                        Lastly, Grüns has a pectin base which is a fruit fiber.
+                        Lastly, Lora has a pectin base which is a fruit fiber.
                         No gelatin.
                         <br className="box-border caret-transparent outline-[3px]" />
                         <br className="box-border caret-transparent outline-[3px]" />
@@ -1322,7 +1322,7 @@ export const GrunsProductDetails = () => {
                           </strong>
                         </span>
                         <br className="box-border caret-transparent outline-[3px]" />
-                        Grüns is plant-based and vegan. These gummies are free
+                        Lora is plant-based and vegan. These gummies are free
                         from gluten, dairy, and nuts. No synthetic sweeteners,
                         no synthetic dyes.
                       </p>
@@ -1392,7 +1392,7 @@ export const GrunsProductDetails = () => {
                           </strong>
                         </span>
                         <br className="box-border caret-transparent outline-[3px]" />
-                        We put Grüns to the test in 2025 through a gold standard
+                        We put Lora to the test in 2025 through a gold standard
                         clinical study: randomized, double blind, and placebo
                         controlled. Here were the results—your body absorbs the
                         nutrients. Participants showed meaningful increases in
@@ -1455,7 +1455,7 @@ export const GrunsProductDetails = () => {
                   <div className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] overflow-hidden">
                     <div className="box-border caret-transparent outline-[3px] pr-10 pt-4">
                       <p className="text-base font-medium box-border caret-transparent leading-[25.6px] outline-[3px]">
-                        Each large pouch of Grüns contains 28 individual packs.
+                        Each large pouch of Lora contains 28 individual packs.
                         Grab a single pack daily and enjoy the small handful of
                         green gummy bears inside for comprehensive nutrition.
                       </p>
@@ -1487,7 +1487,7 @@ export const GrunsProductDetails = () => {
                   <div className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] overflow-hidden">
                     <div className="box-border caret-transparent outline-[3px] pr-10 pt-4">
                       <p className="text-base font-medium box-border caret-transparent leading-[25.6px] outline-[3px]">
-                        Grüns supports digestion, immune health, energy
+                        Lora supports digestion, immune health, energy
                         metabolism, and normal cognitive function — plus
                         nutrients that help maintain healthy hair, skin, and
                         nails — all in one convenient and delicious daily pack

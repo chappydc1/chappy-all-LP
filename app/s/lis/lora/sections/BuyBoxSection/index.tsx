@@ -1,7 +1,7 @@
-import { GrunsProductGallery } from "./components/GrunsProductGallery";
-import { GrunsProductDetails } from "./components/GrunsProductDetails";
+import { LoraProductGallery } from "./components/LoraProductGallery";
+import { LoraProductDetails } from "./components/LoraProductDetails";
 
-export const GrunsBuyBoxSection = () => {
+export const LoraBuyBoxSection = () => {
   return (
     <div className="box-border caret-transparent outline-[3px]">
       <div className="box-border caret-transparent outline-[3px]">
@@ -17,7 +17,7 @@ export const GrunsBuyBoxSection = () => {
               <div className="static box-border caret-transparent max-w-none min-h-0 min-w-0 outline-[3px] top-auto md:sticky md:max-w-[calc(100%_-_520px)] md:min-h-[auto] md:min-w-[auto] md:top-5">
                 <div className="box-border caret-transparent outline-[3px] w-full">
                   <div className="[align-items:normal] box-border caret-transparent gap-x-[normal] block flex-row outline-[3px] gap-y-[normal] md:items-start md:gap-x-5 md:flex md:flex-row-reverse md:gap-y-5">
-                    <GrunsProductGallery
+                    <LoraProductGallery
                       featuredWrapperClassName="relative aspect-auto bg-white box-border caret-transparent shrink min-h-0 min-w-0 outline-[3px] w-auto overflow-hidden my-5 rounded-[10px] border-2 border-solid md:aspect-square md:shrink-0 md:min-h-[auto] md:min-w-[auto] md:w-[calc(100%_-_105px)] md:my-0"
                       slideWrapperClassName="box-border caret-transparent h-full outline-[3px] w-full overflow-hidden"
                       thumbnailsWrapperClassName="items-center box-border caret-transparent gap-x-2.5 flex flex-row justify-start max-h-none min-h-0 min-w-0 outline-[3px] overflow-x-auto overflow-y-auto gap-y-2.5 w-auto my-5 md:gap-x-2 md:flex-col md:max-h-[527px] md:min-h-[auto] md:min-w-[85px] md:overflow-x-hidden md:gap-y-2 md:w-[85px] md:my-0"
@@ -55,7 +55,7 @@ export const GrunsBuyBoxSection = () => {
                         },
                         {
                           src: "/images/gruns/20.webp",
-                          alt: "What to expect taking Grüns for the first 30 days",
+                          alt: "What to expect taking Lora for the first 30 days",
                           wrapperClassName:
                             "box-border caret-transparent basis-full shrink-0 min-h-[auto] outline-[3px]",
                           pictureClassName:
@@ -65,7 +65,7 @@ export const GrunsBuyBoxSection = () => {
                         },
                         {
                           src: "/images/gruns/21.webp",
-                          alt: "Grüns Clinical study shows improvements in Vitamin C and Folate levels after 90 days",
+                          alt: "Lora Clinical study shows improvements in Vitamin C and Folate levels after 90 days",
                           wrapperClassName:
                             "box-border caret-transparent basis-full shrink-0 min-h-[auto] outline-[3px]",
                           pictureClassName:
@@ -75,7 +75,7 @@ export const GrunsBuyBoxSection = () => {
                         },
                         {
                           src: "/images/gruns/43.webp",
-                          alt: "Grüns Supports Digestion, Immunity, and Energy",
+                          alt: "Lora Supports Digestion, Immunity, and Energy",
                           wrapperClassName:
                             "box-border caret-transparent basis-full shrink-0 min-h-[auto] outline-[3px]",
                           pictureClassName:
@@ -121,7 +121,7 @@ export const GrunsBuyBoxSection = () => {
                           buttonClassName:
                             "items-center bg-white caret-transparent flex h-[50px] justify-center min-h-[50px] min-w-[50px] opacity-50 outline-[3px] text-center w-[50px] border overflow-hidden p-0 rounded-[5px] border-black md:h-[85px] md:min-h-[85px] md:min-w-[85px] md:w-[85px]",
                           src: "/images/gruns/14.avif",
-                          alt: "What to expect taking Grüns for the first 30 days",
+                          alt: "What to expect taking Lora for the first 30 days",
                           imageClassName:
                             "aspect-[auto_1080_/_1080] box-border caret-transparent max-w-full outline-[3px] w-[1080px]",
                           pictureClassName:
@@ -132,7 +132,7 @@ export const GrunsBuyBoxSection = () => {
                           buttonClassName:
                             "items-center bg-white caret-transparent flex h-[50px] justify-center min-h-[50px] min-w-[50px] opacity-50 outline-[3px] text-center w-[50px] border overflow-hidden p-0 rounded-[5px] border-black md:h-[85px] md:min-h-[85px] md:min-w-[85px] md:w-[85px]",
                           src: "/images/gruns/17.avif",
-                          alt: "Grüns Clinical study shows improvements in Vitamin C and Folate levels after 90 days",
+                          alt: "Lora Clinical study shows improvements in Vitamin C and Folate levels after 90 days",
                           imageClassName:
                             "aspect-[auto_1250_/_1250] box-border caret-transparent max-w-full outline-[3px] w-[1250px]",
                           pictureClassName:
@@ -143,7 +143,7 @@ export const GrunsBuyBoxSection = () => {
                           buttonClassName:
                             "items-center bg-white caret-transparent flex h-[50px] justify-center min-h-[50px] min-w-[50px] opacity-50 outline-[3px] text-center w-[50px] border overflow-hidden p-0 rounded-[5px] border-black md:h-[85px] md:min-h-[85px] md:min-w-[85px] md:w-[85px]",
                           src: "/images/gruns/18.webp",
-                          alt: "Grüns Supports Digestion, Immunity, and Energy",
+                          alt: "Lora Supports Digestion, Immunity, and Energy",
                           imageClassName:
                             "aspect-[auto_1250_/_1250] box-border caret-transparent max-w-full outline-[3px] w-[1250px]",
                           pictureClassName:
@@ -155,7 +155,7 @@ export const GrunsBuyBoxSection = () => {
                     />
                   </div>
                   <div className="[align-items:normal] box-border caret-transparent hidden outline-[3px] md:items-start">
-                    <GrunsProductGallery
+                    <LoraProductGallery
                       featuredWrapperClassName="relative aspect-auto bg-white box-border caret-transparent shrink outline-[3px] w-auto overflow-hidden my-5 rounded-[10px] border-2 border-solid md:aspect-square md:shrink-0 md:w-[calc(100%_-_105px)] md:my-0"
                       slideWrapperClassName="box-border caret-transparent h-full outline-[3px] w-full overflow-hidden"
                       thumbnailsWrapperClassName="items-center box-border caret-transparent gap-x-2.5 flex flex-row justify-start max-h-none min-w-0 outline-[3px] overflow-x-auto overflow-y-auto gap-y-2.5 w-auto my-5 md:gap-x-2 md:flex-col md:max-h-[527px] md:min-w-[85px] md:overflow-x-hidden md:gap-y-2 md:w-[85px] md:my-0"
@@ -183,7 +183,7 @@ export const GrunsBuyBoxSection = () => {
                         },
                         {
                           src: "/images/gruns/52.webp",
-                          alt: "Popsicle® Firecracker Grüns",
+                          alt: "Popsicle® Firecracker Lora",
                           wrapperClassName:
                             "box-border caret-transparent basis-full shrink-0 outline-[3px]",
                           pictureClassName:
@@ -193,7 +193,7 @@ export const GrunsBuyBoxSection = () => {
                         },
                         {
                           src: "/images/gruns/45.webp",
-                          alt: "Popsicle® Firecracker Grüns",
+                          alt: "Popsicle® Firecracker Lora",
                           wrapperClassName:
                             "box-border caret-transparent basis-full shrink-0 outline-[3px]",
                           pictureClassName:
@@ -203,7 +203,7 @@ export const GrunsBuyBoxSection = () => {
                         },
                         {
                           src: "/images/gruns/44.webp",
-                          alt: "Popsicle® Firecracker Grüns",
+                          alt: "Popsicle® Firecracker Lora",
                           wrapperClassName:
                             "box-border caret-transparent basis-full shrink-0 outline-[3px]",
                           pictureClassName:
@@ -213,7 +213,7 @@ export const GrunsBuyBoxSection = () => {
                         },
                         {
                           src: "/images/gruns/47.webp",
-                          alt: "Popsicle® Firecracker Grüns",
+                          alt: "Popsicle® Firecracker Lora",
                           wrapperClassName:
                             "box-border caret-transparent basis-full shrink-0 outline-[3px]",
                           pictureClassName:
@@ -223,7 +223,7 @@ export const GrunsBuyBoxSection = () => {
                         },
                         {
                           src: "/images/gruns/48.webp",
-                          alt: "Popsicle® Firecracker Grüns",
+                          alt: "Popsicle® Firecracker Lora",
                           wrapperClassName:
                             "box-border caret-transparent basis-full shrink-0 outline-[3px]",
                           pictureClassName:
@@ -258,7 +258,7 @@ export const GrunsBuyBoxSection = () => {
                           buttonClassName:
                             "items-center bg-white caret-transparent flex h-[50px] justify-center min-h-[50px] min-w-[50px] opacity-50 outline-[3px] text-center w-[50px] border overflow-hidden p-0 rounded-[5px] border-black md:h-[85px] md:min-h-[85px] md:min-w-[85px] md:w-[85px]",
                           src: "/images/gruns/29.avif",
-                          alt: "Popsicle® Firecracker Grüns",
+                          alt: "Popsicle® Firecracker Lora",
                           imageClassName:
                             "aspect-[auto_2160_/_2160] box-border caret-transparent max-w-full outline-[3px] w-[2160px]",
                           pictureClassName:
@@ -269,7 +269,7 @@ export const GrunsBuyBoxSection = () => {
                           buttonClassName:
                             "items-center bg-white caret-transparent flex h-[50px] justify-center min-h-[50px] min-w-[50px] opacity-50 outline-[3px] text-center w-[50px] border overflow-hidden p-0 rounded-[5px] border-black md:h-[85px] md:min-h-[85px] md:min-w-[85px] md:w-[85px]",
                           src: "/images/gruns/22.avif",
-                          alt: "Popsicle® Firecracker Grüns",
+                          alt: "Popsicle® Firecracker Lora",
                           imageClassName:
                             "aspect-[auto_2160_/_2160] box-border caret-transparent max-w-full outline-[3px] w-[2160px]",
                           pictureClassName:
@@ -280,7 +280,7 @@ export const GrunsBuyBoxSection = () => {
                           buttonClassName:
                             "items-center bg-white caret-transparent flex h-[50px] justify-center min-h-[50px] min-w-[50px] opacity-50 outline-[3px] text-center w-[50px] border overflow-hidden p-0 rounded-[5px] border-black md:h-[85px] md:min-h-[85px] md:min-w-[85px] md:w-[85px]",
                           src: "/images/gruns/28.avif",
-                          alt: "Popsicle® Firecracker Grüns",
+                          alt: "Popsicle® Firecracker Lora",
                           imageClassName:
                             "aspect-[auto_2160_/_2160] box-border caret-transparent max-w-full outline-[3px] w-[2160px]",
                           pictureClassName:
@@ -291,7 +291,7 @@ export const GrunsBuyBoxSection = () => {
                           buttonClassName:
                             "items-center bg-white caret-transparent flex h-[50px] justify-center min-h-[50px] min-w-[50px] opacity-50 outline-[3px] text-center w-[50px] border overflow-hidden p-0 rounded-[5px] border-black md:h-[85px] md:min-h-[85px] md:min-w-[85px] md:w-[85px]",
                           src: "/images/gruns/23.avif",
-                          alt: "Popsicle® Firecracker Grüns",
+                          alt: "Popsicle® Firecracker Lora",
                           imageClassName:
                             "aspect-[auto_2160_/_2160] box-border caret-transparent max-w-full outline-[3px] w-[2160px]",
                           pictureClassName:
@@ -302,7 +302,7 @@ export const GrunsBuyBoxSection = () => {
                           buttonClassName:
                             "items-center bg-white caret-transparent flex h-[50px] justify-center min-h-[50px] min-w-[50px] opacity-50 outline-[3px] text-center w-[50px] border overflow-hidden p-0 rounded-[5px] border-black md:h-[85px] md:min-h-[85px] md:min-w-[85px] md:w-[85px]",
                           src: "/images/gruns/24.webp",
-                          alt: "Popsicle® Firecracker Grüns",
+                          alt: "Popsicle® Firecracker Lora",
                           imageClassName:
                             "aspect-[auto_2160_/_2160] box-border caret-transparent max-w-full outline-[3px] w-[2160px]",
                           pictureClassName:
@@ -326,7 +326,7 @@ export const GrunsBuyBoxSection = () => {
                         <div className="box-border caret-transparent outline-[3px]">
                           <div className="items-center bg-white/80 shadow-[rgba(43,43,43,0.16)_0px_4px_8px_0px] box-border caret-transparent flex h-[68px] list-none max-w-[600px] min-w-0 outline-[3px] border border-neutral-300 ml-auto my-2 rounded-bl rounded-br rounded-tl rounded-tr border-solid font-sans_serif md:min-w-[300px]">
                             <a
-                              href="https://lightlabs.com/?utm_medium=widget&utm_campaign=pip_logo_click&utm_source=gruns.co&utm_content=71_1925"
+                              href="https://lightlabs.com/?utm_medium=widget&utm_campaign=pip_logo_click&utm_source=lora.co&utm_content=71_1925"
                               aria-label="Visit Light Labs website (opens in new tab)"
                               className="items-center box-border caret-transparent flex h-[68px] min-h-[auto] min-w-[auto] outline-[3px] px-4"
                             >
@@ -370,7 +370,7 @@ export const GrunsBuyBoxSection = () => {
                   </div>
                 </div>
               </div>
-              <GrunsProductDetails />
+              <LoraProductDetails />
             </div>
           </div>
         </div>

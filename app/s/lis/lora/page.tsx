@@ -1,64 +1,64 @@
 "use client";
 
-import { GrunsAccessibilityWidgets } from "./components/GrunsAccessibilityWidgets";
-import { GrunsMainContent } from "./sections/MainContent";
-import { GrunsHeroTopBar } from "./sections/Hero/components/GrunsHeroTopBar";
-import { GrunsCartDrawer } from "./components/GrunsCartDrawer";
-import { GrunsModals } from "./components/GrunsModals";
-import { GrunsCookieConsent } from "./components/GrunsCookieConsent";
+import { LoraAccessibilityWidgets } from "./components/LoraAccessibilityWidgets";
+import { LoraMainContent } from "./sections/MainContent";
+import { LoraHeroTopBar } from "./sections/Hero/components/LoraHeroTopBar";
+import { LoraCartDrawer } from "./components/LoraCartDrawer";
+import { LoraModals } from "./components/LoraModals";
+import { LoraCookieConsent } from "./components/LoraCookieConsent";
 
-export default function GrunsLandingPage() {
+export default function LoraLandingPage() {
   return (
     <>
-      <GrunsAccessibilityWidgets
+      <LoraAccessibilityWidgets
         variant="icon"
         src="/images/gruns/icon-1.svg"
         alt="Icon"
         href=""
         linkText=""
       />
-      <GrunsAccessibilityWidgets
+      <LoraAccessibilityWidgets
         variant="default"
         src=""
         alt=""
         href=""
         linkText=""
       />
-      <GrunsAccessibilityWidgets
+      <LoraAccessibilityWidgets
         variant="link"
         src=""
         alt=""
         href="https://accessibe.com/blog/knowledgebase/screen-reader-guide"
         linkText="Accessibility Screen-Reader Guide, Feedback, and Issue Reporting | New window"
       />
-      <GrunsAccessibilityWidgets
+      <LoraAccessibilityWidgets
         variant="skipLinks"
         src=""
         alt=""
         href=""
         linkText=""
       />
-      <GrunsAccessibilityWidgets variant="empty" src="" alt="" href="" linkText="" />
-      <GrunsAccessibilityWidgets
+      <LoraAccessibilityWidgets variant="empty" src="" alt="" href="" linkText="" />
+      <LoraAccessibilityWidgets
         variant="default"
         src=""
         alt=""
         href=""
         linkText=""
       />
-      <GrunsHeroTopBar />
-      <GrunsMainContent />
+      <LoraHeroTopBar />
+      <LoraMainContent />
       <div className="box-border caret-transparent grow max-w-full outline-[3px]">
         <span className="box-border caret-transparent outline-[3px]"></span>
       </div>
       <div className="box-border caret-transparent outline-[3px]"></div>
       <div className="box-border caret-transparent outline-[3px]"></div>
-      <GrunsCartDrawer />
+      <LoraCartDrawer />
       <div className="box-border caret-transparent outline-[3px]"></div>
       <div className="box-border caret-transparent outline-[3px]"></div>
-      <GrunsModals variant="default" />
-      <GrunsModals variant="default" />
-      <GrunsModals variant="truemed" />
+      <LoraModals variant="default" />
+      <LoraModals variant="default" />
+      <LoraModals variant="truemed" />
       <iframe
         src="https://app.thefrontrowhealth.com/api/widgets/storage_setter?visitor_token=17581cb8-1ecc-4b0c-a01a-0870520f9671&visit_token=88f4892f-64f1-44bc-9b31-e26001889ad8"
         className="absolute box-border caret-transparent hidden h-0 outline-[3px] w-0"
@@ -73,12 +73,12 @@ export default function GrunsLandingPage() {
           className="fixed box-border caret-transparent hidden h-full outline-[3px] w-full z-[99999999] inset-0"
         ></iframe>
       </div>
-      <GrunsCookieConsent />
+      <LoraCookieConsent />
       <div
         role="button"
         className="fixed bg-blue-600 box-border caret-transparent hidden leading-5 z-[2147483647] rounded-[50%] left-5 bottom-5"
       ></div>
-      <GrunsModals variant="hark" />
+      <LoraModals variant="hark" />
       <div className="box-border caret-transparent outline-[3px]"></div>
       <div
         role="region"

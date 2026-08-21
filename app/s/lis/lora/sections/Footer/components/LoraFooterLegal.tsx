@@ -1,8 +1,8 @@
-export type GrunsFooterLegalProps = {
+export type LoraFooterLegalProps = {
   variant: string;
 };
 
-export const GrunsFooterLegal = (props: GrunsFooterLegalProps) => {
+export const LoraFooterLegal = (props: LoraFooterLegalProps) => {
   return (
     <div
       className={`box-border caret-transparent flex flex-col max-w-[1440px] outline-[3px] mx-auto md:flex-row ${props.variant}`}
@@ -12,7 +12,7 @@ export const GrunsFooterLegal = (props: GrunsFooterLegalProps) => {
         <>
           <img
             src="/images/gruns/40.svg"
-            alt="Grüns Logo in yellow"
+            alt="Lora Logo in yellow"
             className="aspect-[auto_300_/_112] box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full md:max-w-60"
           />
           <ul
@@ -22,7 +22,7 @@ export const GrunsFooterLegal = (props: GrunsFooterLegalProps) => {
           >
             <li className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px]">
               <a
-                href="https://www.instagram.com/grunsdaily"
+                href="https://www.instagram.com/loradaily"
                 aria-label="Instagram"
                 className="text-white box-border caret-transparent outline-[3px]"
               >
@@ -35,7 +35,7 @@ export const GrunsFooterLegal = (props: GrunsFooterLegalProps) => {
             </li>
             <li className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px]">
               <a
-                href="https://tiktok.com/@grunsdaily"
+                href="https://tiktok.com/@loradaily"
                 aria-label="TikTok"
                 className="text-white box-border caret-transparent outline-[3px]"
               >
@@ -48,7 +48,7 @@ export const GrunsFooterLegal = (props: GrunsFooterLegalProps) => {
             </li>
             <li className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px]">
               <a
-                href="https://www.youtube.com/@grunsdaily"
+                href="https://www.youtube.com/@loradaily"
                 aria-label="YouTube"
                 className="text-white box-border caret-transparent outline-[3px]"
               >
@@ -61,7 +61,7 @@ export const GrunsFooterLegal = (props: GrunsFooterLegalProps) => {
             </li>
             <li className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px]">
               <a
-                href="https://www.facebook.com/grunsdaily"
+                href="https://www.facebook.com/loradaily"
                 aria-label="Facebook"
                 className="text-white box-border caret-transparent outline-[3px]"
               >
@@ -98,7 +98,7 @@ export const GrunsFooterLegal = (props: GrunsFooterLegalProps) => {
       "items-center justify-normal mt-8 md:justify-between" ? (
         <>
           <p className="text-white text-xs font-medium box-border caret-transparent leading-[19.2px] min-h-[auto] min-w-[auto] outline-[3px]">
-            © Copyright 2026, Grüns
+            © Copyright 2026, Lora
           </p>
           <ul
             role="list"

@@ -1,8 +1,8 @@
-export type GrunsModalsProps = {
+export type LoraModalsProps = {
   variant: string;
 };
 
-export const GrunsModals = (props: GrunsModalsProps) => {
+export const LoraModals = (props: LoraModalsProps) => {
   if (props.variant === "truemed") {
     return (
       <div className="box-border caret-transparent outline-[3px]">

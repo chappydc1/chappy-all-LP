@@ -1,6 +1,6 @@
-import { GrunsFooterNavColumn } from "./GrunsFooterNavColumn";
+import { LoraFooterNavColumn } from "./LoraFooterNavColumn";
 
-export const GrunsFooterNav = () => {
+export const LoraFooterNav = () => {
   return (
     <div
       role="navigation"
@@ -11,24 +11,24 @@ export const GrunsFooterNav = () => {
         role="list"
         className="box-border caret-transparent grid grid-cols-[repeat(1,minmax(0px,1fr))] list-none outline-[3px] pl-0 md:grid-cols-[repeat(3,minmax(0px,1fr))]"
       >
-        <GrunsFooterNavColumn
+        <LoraFooterNavColumn
           title="Learn"
           links={[
-            { href: "https://gruns.co/pages/reviews", label: "Reviews" },
-            { href: "https://gruns.co/pages/science", label: "Our Science" },
+            { href: "https://lora.co/pages/reviews", label: "Reviews" },
+            { href: "https://lora.co/pages/science", label: "Our Science" },
             {
-              href: "https://gruns.co/pages/how-gruns-works",
-              label: "How Grüns Works",
+              href: "https://lora.co/pages/how-lora-works",
+              label: "How Lora Works",
             },
-            { href: "https://gruns.co/pages/our-story", label: "Our Story" },
+            { href: "https://lora.co/pages/our-story", label: "Our Story" },
             { href: "/pages/store-locator", label: "Find in Store" },
-            { href: "https://gruns.co/pages/help-center", label: "FAQs" },
+            { href: "https://lora.co/pages/help-center", label: "FAQs" },
           ]}
           showLogo="false"
           logoSrc=""
           logoAlt=""
         />
-        <GrunsFooterNavColumn
+        <LoraFooterNavColumn
           title="Connect"
           links={[
             { href: "/pages/referrals", label: "Refer a Friend" },
@@ -36,23 +36,23 @@ export const GrunsFooterNav = () => {
               href: "https://473gy6qog6s.typeform.com/to/L03Wohx2",
               label: "Partners & Influencers",
             },
-            { href: "mailto://press@gruns.co", label: "Press Inquiries" },
-            { href: "https://gruns.loopreturns.com/", label: "Make a Return" },
+            { href: "mailto://press@lora.co", label: "Press Inquiries" },
+            { href: "https://lora.loopreturns.com/", label: "Make a Return" },
             {
-              href: "https://job-boards.greenhouse.io/gruns",
+              href: "https://job-boards.greenhouse.io/lora",
               label: "Careers",
             },
             {
-              href: "https://gruns.co/a/account/login",
+              href: "https://lora.co/a/account/login",
               label: "Account Login",
             },
-            { href: "https://gruns.co/pages/contact", label: "Contact Us" },
+            { href: "https://lora.co/pages/contact", label: "Contact Us" },
             {
-              href: "https://gruns.co/pages/official-rules-gruns-x-skylight",
+              href: "https://lora.co/pages/official-rules-lora-x-skylight",
               label: " Chance to Win Skylight Calendar",
             },
             {
-              href: "https://gruns.co/pages/gruns-x-throne-science-win-a-throne-giveaway",
+              href: "https://lora.co/pages/lora-x-throne-science-win-a-throne-giveaway",
               label: "Chance to Win a Throne",
             },
           ]}
@@ -60,17 +60,17 @@ export const GrunsFooterNav = () => {
           logoSrc=""
           logoAlt=""
         />
-        <GrunsFooterNavColumn
+        <LoraFooterNavColumn
           title="Ü Snacks"
           links={[
-            { href: "https://gruns.co/pages/usnacks", label: "About" },
+            { href: "https://lora.co/pages/usnacks", label: "About" },
             {
-              href: "https://gruns.co/pages/first-order",
-              label: "Grüns Adults",
+              href: "https://lora.co/pages/first-order",
+              label: "Lora Adults",
             },
             {
-              href: "https://gruns.co/pages/first-order-gruns-kids-daily",
-              label: "Grüns Kids",
+              href: "https://lora.co/pages/first-order-lora-kids-daily",
+              label: "Lora Kids",
             },
             { href: "https://nutrops.co/", label: "Nütrops" },
             { href: "https://immun.co/", label: "Immün" },

@@ -1,6 +1,6 @@
-import { GrunsCartProductCard } from "./GrunsCartProductCard";
+import { LoraCartProductCard } from "./LoraCartProductCard";
 
-export const GrunsCartDrawer = () => {
+export const LoraCartDrawer = () => {
   return (
     <div className="box-border caret-transparent outline-[3px]">
       <div className="box-border caret-transparent outline-[3px]">
@@ -41,18 +41,18 @@ export const GrunsCartDrawer = () => {
                           Our Most Popular Products
                         </h4>
                         <div className="box-border caret-transparent gap-x-2.5 grid grid-cols-[repeat(2,minmax(0px,1fr))] outline-[3px] gap-y-2.5">
-                          <GrunsCartProductCard
+                          <LoraCartProductCard
                             imageUrl="/images/gruns/105.png"
-                            imageAlt="Grüns"
-                            title="Grüns Adults"
+                            imageAlt="Lora"
+                            title="Lora Adults"
                             price="$79.99"
                             description="Clinically backed formula for energy, immunity, and daily wellness"
                             buttonText="Add to Cart"
                           />
-                          <GrunsCartProductCard
+                          <LoraCartProductCard
                             imageUrl="/images/gruns/112.png"
-                            imageAlt="Grüns Kids"
-                            title="Grüns Kids"
+                            imageAlt="Lora Kids"
+                            title="Lora Kids"
                             price="$66.99"
                             description="Essential nutrients needed to help kids reach their full potential"
                             buttonText="Add to Cart"

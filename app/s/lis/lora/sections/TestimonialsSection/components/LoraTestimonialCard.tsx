@@ -1,11 +1,11 @@
-export type GrunsTestimonialCardProps = {
+export type LoraTestimonialCardProps = {
   className: string;
   title: string;
   description: string;
   authorName: string;
 };
 
-export const GrunsTestimonialCard = (props: GrunsTestimonialCardProps) => {
+export const LoraTestimonialCard = (props: LoraTestimonialCardProps) => {
   return (
     <div
       className={`box-border caret-transparent basis-[90%] shrink-0 min-h-[auto] outline-[3px] pl-4 md:basis-[33.333%] md:pl-6 ${props.className}`}

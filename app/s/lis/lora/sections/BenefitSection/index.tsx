@@ -1,4 +1,4 @@
-export type GrunsBenefitSectionProps = {
+export type LoraBenefitSectionProps = {
   category: string;
   number: string;
   title: string;
@@ -12,7 +12,7 @@ export type GrunsBenefitSectionProps = {
   secondaryImageClassName?: string;
 };
 
-export const GrunsBenefitSection = (props: GrunsBenefitSectionProps) => {
+export const LoraBenefitSection = (props: LoraBenefitSectionProps) => {
   return (
     <section className="bg-white box-border caret-transparent outline-[3px] p-5 md:py-10">
       <div className="items-center box-border caret-transparent gap-x-0 grid [grid-template-areas:'intro''image''body'] grid-cols-none max-w-none outline-[3px] gap-y-0 mx-0 md:gap-x-16 md:[grid-template-areas:'intro_image''body_image'] md:grid-cols-[425px_1fr] md:max-w-[1140px] md:mx-auto">

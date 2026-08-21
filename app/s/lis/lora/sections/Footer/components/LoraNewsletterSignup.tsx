@@ -1,4 +1,4 @@
-export const GrunsNewsletterSignup = () => {
+export const LoraNewsletterSignup = () => {
   return (
     <div className="box-border caret-transparent col-end-[span_6] col-start-[span_6] min-h-0 min-w-0 outline-[3px] md:min-h-[auto] md:min-w-[auto]">
       <div className="box-border caret-transparent outline-[3px] mb-10 md:mb-0">

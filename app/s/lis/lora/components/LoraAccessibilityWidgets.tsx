@@ -1,4 +1,4 @@
-export type GrunsAccessibilityWidgetsProps = {
+export type LoraAccessibilityWidgetsProps = {
   variant: string;
   src: string;
   alt: string;
@@ -6,7 +6,7 @@ export type GrunsAccessibilityWidgetsProps = {
   linkText: string;
 };
 
-export const GrunsAccessibilityWidgets = (props: GrunsAccessibilityWidgetsProps) => {
+export const LoraAccessibilityWidgets = (props: LoraAccessibilityWidgetsProps) => {
   if (props.variant === "icon") {
     return (
       <img
