@@ -37,8 +37,8 @@ const benefitImageConfigs = [
   },
   {
     mediaLayoutClassName: "grid-cols-[repeat(1,minmax(0px,1fr))]",
-    primaryImageUrl: "/images/gruns/6.webp",
-    primaryImageAlt: "",
+    primaryImageUrl: "/lp-images-files-videos-fonts/lis/gruns/images/girl-chair.png",
+    primaryImageAlt: "Woman relaxing in a wicker chair with a kiwi eye mask, holding a Grüns package",
     primaryImageClassName: "aspect-[auto_645_/_645] object-[65.6451%_49.0844%]",
   },
   {
