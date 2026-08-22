@@ -43,11 +43,11 @@ const benefitImageConfigs = [
   },
   {
     mediaLayoutClassName: "grid-cols-[repeat(2,minmax(0px,1fr))]",
-    primaryImageUrl: "/images/gruns/7.webp",
-    primaryImageAlt: "",
+    primaryImageUrl: "/lp-images-files-videos-fonts/lis/gruns/images/girl1.png",
+    primaryImageAlt: "Woman smiling and holding a Grüns packet with kale",
     primaryImageClassName: "aspect-[auto_300_/_420] object-[52.93%_50%]",
-    secondaryImageUrl: "/images/gruns/8.webp",
-    secondaryImageAlt: "",
+    secondaryImageUrl: "/lp-images-files-videos-fonts/lis/gruns/images/guy1.png",
+    secondaryImageAlt: "Man smiling and holding a Grüns packet",
     secondaryImageClassName: "object-[52.93%_37.207%]",
   },
 ];
