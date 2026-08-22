@@ -223,14 +223,19 @@ const PRESS_LOGOS = [
 ];
 
 function AsSeenIn() {
+  // Each set of 3 logos ≈ 600px on desktop — need >1440px per half.
+  // 8 reps × 3 logos = 24 logos ≈ 5000px per half → always fills any viewport.
+  const SET = 8;
+  const half = Array.from({ length: SET }, () => PRESS_LOGOS).flat();
+  const track = [...half, ...half]; // duplicate for seamless loop (translateX -50%)
   return (
     <div className="flex flex-col items-center gap-2.5 py-4 w-full bg-white/10">
       <p className="text-black text-xl font-light leading-6 tracking-[1px] font-pp_fragment">AS SEEN IN</p>
-      {/* Overflow hidden wrapper — clips the scrolling track */}
+      {/* overflow-hidden clips the scrolling strip */}
       <div className="overflow-hidden w-full">
-        {/* Track: logos × 2 so the seam is invisible at the 50% mark */}
-        <div className="animate-marquee flex items-center gap-[70px] w-max px-[35px]">
-          {[...PRESS_LOGOS, ...PRESS_LOGOS].map((logo, i) => (
+        {/* Single track that loops: translateX(0→-50%) === one full "half" scroll */}
+        <div className="animate-marquee flex items-center gap-[90px]" style={{ width: 'max-content' }}>
+          {track.map((logo, i) => (
             // eslint-disable-next-line @next/next/no-img-element
             <img
               key={i}
