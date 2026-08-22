@@ -18,8 +18,8 @@ export const LoraHeroTopBar = () => {
       </div>
       <div className="items-center box-border caret-transparent flex justify-center outline-[3px] py-4">
         <img
-          src="/images/gruns/icon-7.svg"
-          alt="Icon"
+          src="/lp-images-files-videos-fonts/lis/gruns/images/logo_1_new.png"
+          alt="grüns logo"
           className="box-border caret-transparent outline-[3px] w-[125px]"
         />
       </div>
