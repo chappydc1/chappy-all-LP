@@ -16,8 +16,8 @@ const benefitImageConfigs = [
   },
   {
     mediaLayoutClassName: "grid-cols-[repeat(2,minmax(0px,1fr))]",
-    primaryImageUrl: "/images/gruns/121.png",
-    primaryImageAlt: "",
+    primaryImageUrl: "/lp-images-files-videos-fonts/lis/gruns/images/showing-bottle-lora.png",
+    primaryImageAlt: "Woman showing a Lora liquid drops bottle",
     primaryImageClassName: "aspect-[auto_300_/_420] object-[49.121%_39.746%]",
     secondaryImageUrl: "/images/gruns/135.png",
     secondaryImageAlt: "",
