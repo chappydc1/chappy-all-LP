@@ -37,7 +37,7 @@ export const LoraHeroContent = () => {
         >
           {hero.cta.primary}
         </a>
-        <div className="items-center box-border caret-transparent gap-x-2 flex justify-center outline-[3px] gap-y-2 md:gap-x-0 md:justify-between md:gap-y-0">
+        <div className="items-center box-border caret-transparent gap-x-2 flex justify-center outline-[3px] gap-y-2 md:gap-x-2.5 md:justify-center md:gap-y-0">
           <div className="items-center box-border caret-transparent gap-x-0.5 flex min-h-[auto] min-w-[auto] outline-[3px] gap-y-0.5">
             {[...Array(5)].map((_, i) => (
               <img
