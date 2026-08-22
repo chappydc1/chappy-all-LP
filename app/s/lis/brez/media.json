@@ -22,11 +22,11 @@
     { "id": "made-in-usa",  "src": "/images/brez/011_Made_in_USA_1.png",       "alt": "Made in the USA" }
   ],
   "reasons": [
-    { "id": "reason-1", "mainImage": "/images/brez/012_GMHwBt5WAAAm68w.webp",                                      "iconImage": "/images/brez/013_Frame_54.png" },
-    { "id": "reason-2", "mainImage": "/images/brez/014_Rectangle_21.png",                                          "iconImage": "/images/brez/015_Frame_54_1.png" },
-    { "id": "reason-3", "mainImage": "/images/brez/016_Rectangle_21_1.png",                                        "iconImage": "/images/brez/017_Frame_54_2.png" },
-    { "id": "reason-4", "mainImage": "/images/brez/018_Rectangle_21_2.png",                                        "iconImage": "/images/brez/019_Frame_54_3.png" },
-    { "id": "reason-5", "mainImage": "/images/brez/020_Rectangle_21_3.png",                                        "iconImage": "/images/brez/021_Frame_54_4.png" },
+    { "id": "reason-1", "mainImage": "/images/brez/012_GMHwBt5WAAAm68w.webp",                                      "iconImage": "/images/brez/1-upscale.png" },
+    { "id": "reason-2", "mainImage": "/images/brez/014_Rectangle_21.png",                                          "iconImage": "/images/brez/2-upscale.png" },
+    { "id": "reason-3", "mainImage": "/images/brez/016_Rectangle_21_1.png",                                        "iconImage": "/images/brez/3-upscale.png" },
+    { "id": "reason-4", "mainImage": "/images/brez/018_Rectangle_21_2.png",                                        "iconImage": "/images/brez/4-upscale.png" },
+    { "id": "reason-5", "mainImage": "/images/brez/020_Rectangle_21_3.png",                                        "iconImage": "/images/brez/5-upscale.png" },
     { "id": "reason-6", "mainImage": "/images/brez/022_Main_Scene_1_1e7a44ce-a311-4727-b9c3-b2679d43c2c0.jpg",    "iconImage": "/images/brez/023_Frame_54_5.png" }
   ],
   "reviews": [
