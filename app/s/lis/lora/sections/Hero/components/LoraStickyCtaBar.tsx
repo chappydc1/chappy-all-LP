@@ -10,7 +10,7 @@ export const LoraStickyCtaBar = () => {
           />
         </div>
         <a
-          href="#offers"
+          href="https://loraritual.com/products/somara-liquid-complex"
           className="text-white text-lg font-semibold items-center bg-green-700 box-border caret-transparent flex h-14 justify-center tracking-[-0.54px] leading-[28.8px] min-h-0 min-w-0 order-none outline-[3px] w-full mb-2 px-8 py-0 rounded-[3.35544e+07px] md:text-base md:h-full md:tracking-[-0.48px] md:leading-[25.6px] md:min-h-[auto] md:min-w-[auto] md:order-3 md:w-max md:mb-0 md:px-6 md:py-3"
         >
           Save 52% + Free Shipping
