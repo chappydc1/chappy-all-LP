@@ -1,5 +1,3 @@
-"use client";
-
 import { SleepApneaAccessibilityWidgets } from "./components/SleepApneaAccessibilityWidgets";
 import { SleepApneaMainContent } from "./sections/MainContent";
 import { SleepApneaHeroTopBar } from "./sections/Hero/components/SleepApneaHeroTopBar";

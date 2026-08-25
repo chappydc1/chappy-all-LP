@@ -1,6 +1,6 @@
 export const SleepApneaStickyCtaBar = () => {
   return (
-    <div className="fixed bg-neutral-200 box-border caret-transparent outline-[3px] translate-y-[100.0%] z-[9] p-4 top-auto bottom-0 inset-x-0 md:translate-y-[-100.0%] md:px-9 md:py-3 md:top-0 md:bottom-auto">
+    <div className="fixed bg-neutral-200 box-border caret-transparent outline-[3px] z-[9] p-4 top-auto bottom-0 inset-x-0 md:px-9 md:py-3 md:top-0 md:bottom-auto">
       <div className="[align-items:normal] box-border caret-transparent block justify-normal max-w-[420px] outline-[3px] w-auto mx-auto md:items-center md:flex md:justify-between md:max-w-[1140px] md:w-full">
         <div className="box-border caret-transparent hidden min-h-0 min-w-0 order-none outline-[3px] md:block md:min-h-[auto] md:min-w-[auto] md:order-1">
           <img
