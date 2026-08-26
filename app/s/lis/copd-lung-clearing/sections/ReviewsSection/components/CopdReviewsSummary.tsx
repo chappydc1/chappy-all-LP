@@ -95,7 +95,7 @@ export const CopdReviewsSummary = () => {
               timeAgo={item.timeAgo}
               title={item.title}
               body={item.body}
-              productUrl="https://loraritual.com/products/somara-liquid-complex"
+              productUrl="https://loraritual.com/products/somara-copd"
               productName={item.productName}
             />
             {i < reviews.items.length - 1 && (
