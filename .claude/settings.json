@@ -21,7 +21,6 @@
       "mcp__scheduled-tasks__*",
       "mcp__Claude_Code_iOS_Simulator__*",
       "mcp__visualize__*",
-      "mcp__brandsearch__*",
       "mcp__firecrawl__*",
       "mcp__github__*",
       "mcp__puppeteer__*",
