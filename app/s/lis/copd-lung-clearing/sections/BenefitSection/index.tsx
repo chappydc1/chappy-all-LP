@@ -30,9 +30,10 @@ export const CopdBenefitSection = (props: CopdBenefitSectionProps) => {
           </h3>
         </div>
         <div className="self-start box-border caret-transparent col-end-[body] col-start-[body] row-end-[body] row-start-[body] min-h-[auto] min-w-[auto] outline-[3px]">
-          <p className="text-base font-medium box-border caret-transparent leading-[25.6px] outline-[3px] md:text-lg md:leading-[28.8px]">
-            {props.description}
-          </p>
+          <p
+            className="text-base font-medium box-border caret-transparent leading-[25.6px] outline-[3px] md:text-lg md:leading-[28.8px]"
+            dangerouslySetInnerHTML={{ __html: props.description }}
+          />
         </div>
         <div
           className={`box-border caret-transparent gap-x-2 grid col-end-[image] col-start-[image] row-end-[image] row-start-[image] h-60 min-h-[auto] min-w-[auto] outline-[3px] overflow-hidden mb-4 md:min-h-[440px] md:mb-0 ${props.mediaLayoutClassName}`}
