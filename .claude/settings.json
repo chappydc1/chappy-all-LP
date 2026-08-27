@@ -21,13 +21,11 @@
       "mcp__scheduled-tasks__*",
       "mcp__Claude_Code_iOS_Simulator__*",
       "mcp__visualize__*",
-      "mcp__brandsearch__*",
       "mcp__firecrawl__*",
       "mcp__github__*",
       "mcp__puppeteer__*",
       "mcp__memory__*",
       "mcp__sequential-thinking__*",
-      "mcp__8db7416b-c5f9-4880-8e26-36b4747e9e11__*",
       "mcp__9df797b7-c749-4e53-9e56-20d8747eceab__*",
       "mcp__49068369-1340-441a-8c75-7ef838dffe57__*",
       "mcp__6672d0b4-d6c8-42cc-a227-0dfa8c4b853f__*",
@@ -38,6 +36,8 @@
     ]
   },
   "worktree": {
-    "symlinkDirectories": ["frontend/node_modules"]
+    "symlinkDirectories": [
+      "frontend/node_modules"
+    ]
   }
 }
