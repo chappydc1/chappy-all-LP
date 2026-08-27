@@ -7,6 +7,7 @@ const libreBaskerville = Libre_Baskerville({
   weight: ["400", "700"],
   variable: "--font-baskerville",
   display: "swap",
+  preload: false,
 });
 
 export const metadata: Metadata = {
