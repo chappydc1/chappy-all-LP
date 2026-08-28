@@ -1,14 +1,39 @@
 {
+  "_guide": {
+    "purpose": "Advertorial article copy for Noor WonderLift Cream on The Skin Magazine.",
+    "editing_rules": [
+      "Only edit fields WITHOUT a leading underscore (_). Underscore fields are documentation — never rendered.",
+      "Never change 'mediaKey' values — they reference local image files.",
+      "Never change 'meta.ctaUrl' — this is the checkout link.",
+      "Never change 'footer.references' or 'footer.disclaimers' — legal copy.",
+      "Never change 'attachmentKey' or 'hasLikeIcon' in comments — they control image display.",
+      "Keep the articleSections array in the same order — order determines page layout.",
+      "The product name is 'Noor WonderLift Cream'. The narrator is 'Margaret Caldwell'."
+    ],
+    "markdown_formatting": {
+      "**text**": "Bold — use for key claims, emotional beats, and product names",
+      "*text*": "Italic — use for dialogue, thoughts, and emphasis within sentences",
+      "***text***": "Bold + Italic — use sparingly for maximum emphasis",
+      "example": "**She looked twenty years younger.** *'I know,'* she said. ***It was impossible.***"
+    },
+    "comment_meta_format": "'likes · time_ago' — e.g. '4 · 39m' means 4 likes, 39 minutes ago. Keep realistic numbers.",
+    "dates_to_keep_consistent": ["meta.currentDate", "offer.suppliesDate", "stockUpdate.date"]
+  },
+
   "meta": {
+    "_note": "Global values referenced throughout the article and CTA buttons.",
     "ctaUrl": "https://loraritual.com/products/nrx",
     "productName": "Noor WonderLift Cream",
     "currentDate": "Tuesday, June 16, 2026",
     "restockDate": "October 2026"
   },
+
   "header": {
     "siteTitle": "The Skin Magazine"
   },
+
   "article": {
+    "_note": "The main article body. breadcrumb, headline, dateLabel, timeLabel, authorName, authorRole are shown in the article header.",
     "breadcrumb": "Home > Beauty > Beauty-Alternatives",
     "exclusiveBadge": "EXCLUSIVE",
     "headline": "Two Months Ago I Looked Every Bit of 63. Then a Stranger at the Airport Guessed I Was 41. Here's the 30-Second Morning Habit that Women Everywhere Are Quietly Switching To",
@@ -19,8 +44,10 @@
     "ctaText": "CLICK HERE NOW TO CHECK CURRENT AVAILABILITY",
     "readerOffer": "READER-ONLY-OFFER: Noor is offering 50% + FREE SHIPPING for Summer Sale!",
     "inventoryWarning": "Inventory is extremely limited — So Click the button Below to Check Current Availability",
+
     "articleSections": [
       {
+        "_label": "Opening hook — TSA airport story that grabs attention",
         "type": "paragraphs",
         "paragraphs": [
           "Last week, a TSA agent at the airport made me cry in an airport bathroom.",
@@ -55,12 +82,21 @@
           "And what made it possible."
         ]
       },
+
       {
+        "_label": "Section 1 heading — narrator recognizes her aging has accelerated",
         "type": "heading",
         "text": "The Eerie Moment I Realized My Face Had Aged a Decade Overnight"
       },
-      { "type": "image", "mediaKey": "article.section1" },
+
       {
+        "_label": "Section 1 image — woman looking in mirror, visibly distressed by her reflection",
+        "type": "image",
+        "mediaKey": "article.section1"
+      },
+
+      {
+        "_label": "Section 1 body — the painful daily mirror routine; failed expensive treatments",
         "type": "paragraphs",
         "paragraphs": [
           "Let's rewind to last year.",
@@ -78,8 +114,15 @@
           "I'd spent years and thousands of dollars on expensive skincare…"
         ]
       },
-      { "type": "image", "mediaKey": "article.section2" },
+
       {
+        "_label": "Section 2 image — shelves of expensive serums, LED masks, skincare products that didn't work",
+        "type": "image",
+        "mediaKey": "article.section2"
+      },
+
+      {
+        "_label": "Section 2 body — cataloguing all the failed treatments (serums, retinol, LED masks, considering surgery)",
         "type": "paragraphs",
         "paragraphs": [
           "**I bought those $180 boutique serums my dermatologist pushed on me…**",
@@ -98,12 +141,21 @@
           "That's not what I wanted… To be honest, I felt completely hopeless."
         ]
       },
+
       {
+        "_label": "Section 3 heading — the emotional/social cost of aging visibly",
         "type": "heading",
         "text": "The Problem Wasn't Just About My Face, It Was About How I Felt…"
       },
-      { "type": "image", "mediaKey": "article.section3" },
+
       {
+        "_label": "Section 3 image — woman feeling invisible or overlooked at a social event",
+        "type": "image",
+        "mediaKey": "article.section3"
+      },
+
+      {
+        "_label": "Section 3 body — narrator feels invisible at parties, husband stopped noticing, shocking family photo moment",
         "type": "paragraphs",
         "paragraphs": [
           "And I felt invisible all the time…",
@@ -125,11 +177,15 @@
           "And finally gave me some hope."
         ]
       },
+
       {
+        "_label": "Section 4 heading — the lucky discovery (friend's Facebook photo)",
         "type": "heading",
         "text": "How a Random Thursday Night Led Me to Discover What Dermatologists Have Been Hiding"
       },
+
       {
+        "_label": "Section 4 intro — narrator scrolling Facebook late at night",
         "type": "paragraphs",
         "paragraphs": [
           "I was scrolling Facebook half-awake…",
@@ -137,8 +193,15 @@
           "But then a photo stopped my thumb. It was from my old college roommate, Beverly."
         ]
       },
-      { "type": "image", "mediaKey": "article.section4" },
+
       {
+        "_label": "Section 4 image — stunning before/after of Beverly (old friend who looks 20 years younger)",
+        "type": "image",
+        "mediaKey": "article.section4"
+      },
+
+      {
+        "_label": "Section 4 body — Beverly's transformation, the Facebook message exchange, deciding to try WonderLift",
         "type": "paragraphs",
         "paragraphs": [
           "We've been friends for forty-two years. She's ten months older than me.",
@@ -164,8 +227,15 @@
           "When I tell you my jaw hit the floor I'm not kidding…"
         ]
       },
-      { "type": "image", "mediaKey": "article.week1Open" },
+
       {
+        "_label": "Week 1 Open image — Beverly's before/after photos (dramatic transformation in 3 months)",
+        "type": "image",
+        "mediaKey": "article.week1Open"
+      },
+
+      {
+        "_label": "Week 1 Open body — narrator reads the Korean peptide research, stays skeptical but orders anyway (180-day guarantee seals it)",
         "type": "paragraphs",
         "paragraphs": [
           "The difference was unbelievable.",
@@ -188,7 +258,20 @@
           "But something stopped me:",
           "*I've wasted thousands on treatments that didn't work. What if this is the real deal?*",
           "Plus, there was no risk…",
-          "**There was a 180-day money-back guarantee right there on the page.**",
+          "**There was a 180-day money-back guarantee right there on the page.**"
+        ]
+      },
+
+      {
+        "_label": "Week 1 Open — 180-day money-back guarantee badge",
+        "type": "image",
+        "mediaKey": "article.guarantee"
+      },
+
+      {
+        "_label": "Week 1 Open body (cont.) — narrator decides to order; the turning point",
+        "type": "paragraphs",
+        "paragraphs": [
           "If it didn't work, then I'd get my money back. There was nothing to lose.",
           "**I picked the 3-jar option.**",
           "I thought: *if I was actually going to test this, I figured I needed enough product to commit.*",
@@ -198,12 +281,21 @@
           "I had absolutely no idea my life was about to change completely..."
         ]
       },
+
       {
+        "_label": "Week 1 Apply heading — the package arrives; first application",
         "type": "heading",
         "text": "Week 1: The Cream Did Something Almost Immediately That I Couldn't Quite Name"
       },
-      { "type": "image", "mediaKey": "article.week1Apply" },
+
       {
+        "_label": "Week 1 Apply image — jar of WonderLift Cream being opened / first application",
+        "type": "image",
+        "mediaKey": "article.week1Apply"
+      },
+
+      {
+        "_label": "Week 1 Apply body — package arrives, simple instructions, only 30-60 seconds to apply",
         "type": "paragraphs",
         "paragraphs": [
           "The package showed up a few days later.",
@@ -215,8 +307,15 @@
           "That's it. It was so easy."
         ]
       },
-      { "type": "image", "mediaKey": "article.week1Result" },
+
       {
+        "_label": "Week 1 Result image — narrator's face close-up; skin looks subtly different, more hydrated",
+        "type": "image",
+        "mediaKey": "article.week1Result"
+      },
+
+      {
+        "_label": "Week 1 Result body — texture melts in instantly; five days later husband notices something different",
         "type": "paragraphs",
         "paragraphs": [
           "The first thing I noticed was the texture.",
@@ -230,8 +329,15 @@
           "***Five days later, something happened that I'll never forget.***"
         ]
       },
-      { "type": "image", "mediaKey": "article.week2" },
+
       {
+        "_label": "Week 2 image — couple at breakfast; husband looking at wife differently / noticing her face",
+        "type": "image",
+        "mediaKey": "article.week2"
+      },
+
+      {
+        "_label": "Week 2 body — husband says 'you look different'; narrator runs to the bathroom mirror, sees real change",
         "type": "paragraphs",
         "paragraphs": [
           "I was sitting across from my husband, Robert, at breakfast.",
@@ -248,12 +354,21 @@
           "**Something's happening.**"
         ]
       },
+
       {
+        "_label": "Week 2 heading — daily mirror ritual turns from dread to excitement",
         "type": "heading",
         "text": "Week 2: I Couldn't Wait to Look in The Mirror in the Morning"
       },
-      { "type": "image", "mediaKey": "article.week4" },
+
       {
+        "_label": "Week 4 image — narrator taking selfies / comparing before-after on phone; happy tears",
+        "type": "image",
+        "mediaKey": "article.week4"
+      },
+
+      {
+        "_label": "Week 4 body — visible changes every morning; grooves, forehead lines, brown spots fading; happy tears looking at comparison photos",
         "type": "paragraphs",
         "paragraphs": [
           "Every morning, I'd wake up and run to the mirror.",
@@ -275,12 +390,21 @@
           "I felt like me."
         ]
       },
+
       {
+        "_label": "Week 4 heading — coworkers start stopping to ask about her skin",
         "type": "heading",
         "text": "Week 4: People Started Complimenting Me On My Skin, And I Knew The Changes Were Real"
       },
-      { "type": "image", "mediaKey": "article.week6" },
+
       {
+        "_label": "Week 6 image — narrator at office, glowing; coworker stopping to compliment her",
+        "type": "image",
+        "mediaKey": "article.week6"
+      },
+
+      {
+        "_label": "Week 6 body — coworker Patricia stops at her desk to ask what she's doing; three more women follow; narrator sits in her car feeling something has shifted",
         "type": "paragraphs",
         "paragraphs": [
           "I didn't realize until I was already at my desk.",
@@ -303,12 +427,21 @@
           "Because something had shifted."
         ]
       },
+
       {
+        "_label": "Emotional heading — husband reconnects; daughter notices on FaceTime",
         "type": "heading",
         "text": "What Happened Next Made My Husband Look at Me Like We Were Dating Again"
       },
-      { "type": "image", "mediaKey": "article.emotional" },
+
       {
+        "_label": "Emotional image — intimate dinner scene; couple reconnecting; warmth and joy",
+        "type": "image",
+        "mediaKey": "article.emotional"
+      },
+
+      {
+        "_label": "Emotional body — end of week 6; jawline back; husband says 'you are so beautiful'; hairdresser and daughter both shocked; full emotional payoff",
         "type": "paragraphs",
         "paragraphs": [
           "By the end of week six, I barely recognized myself in the mirror.",
@@ -339,11 +472,15 @@
           "My own daughter wanted to know my secret."
         ]
       },
+
       {
+        "_label": "Emotional transformation heading — the internal shift beyond the physical change",
         "type": "heading",
         "text": "The Emotional Change Was Bigger Than My Facial Transformation"
       },
+
       {
+        "_label": "Emotional transformation body — narrator accepts invitations again; no longer dreads family photos; feels like herself at 35 again",
         "type": "paragraphs",
         "paragraphs": [
           "The face was one thing.",
@@ -359,12 +496,21 @@
           "My skin was back. And with it, something I hadn't realized I'd lost."
         ]
       },
+
       {
+        "_label": "Science heading — explaining WHY WonderLift works when everything else failed",
         "type": "heading",
         "text": "The Science Behind Why WonderLift Cream Works When Everything Else Failed"
       },
-      { "type": "image", "mediaKey": "article.drPark" },
+
       {
+        "_label": "Dr. Park image — portrait of Dr. Yun-Seok Park in a lab or clinical setting",
+        "type": "image",
+        "mediaKey": "article.drPark"
+      },
+
+      {
+        "_label": "Science body — Dr. Park's discovery: chronic muscle micro-tension is the real cause of wrinkles; traditional skincare misses it; Syn-Ake clinical results; partnership with Noor",
         "type": "paragraphs",
         "paragraphs": [
           "I eventually went digging into the research Beverly had sent me.",
@@ -394,22 +540,35 @@
           "But Syn-Ake isn't the only powerhouse ingredient Dr. Park insisted on including…"
         ]
       },
+
       {
+        "_label": "Ingredients heading — introduces the 4 key ingredients",
         "type": "heading",
         "text": "The Four Superstar Ingredients Inside Every Jar of Noor WonderLift Cream"
       },
+
       {
+        "_label": "Ingredients intro paragraph",
         "type": "paragraphs",
         "paragraphs": [
           "Here's exactly what makes WonderLift Cream so powerful:"
         ]
       },
+
       {
+        "_label": "Ingredient 1 heading — Syn-Ake peptide (the star ingredient)",
         "type": "heading",
         "text": "#1) Syn-Ake™ (Dipeptide Diaminobutyroyl Benzylamide Diacetate)"
       },
-      { "type": "image", "mediaKey": "article.synAke" },
+
       {
+        "_label": "Syn-Ake image — close-up of the ingredient or molecular visualization",
+        "type": "image",
+        "mediaKey": "article.synAke"
+      },
+
+      {
+        "_label": "Syn-Ake body — how it differs from injections (relaxes vs paralyzes); still preserves expression",
         "type": "paragraphs",
         "paragraphs": [
           "The star ingredient.",
@@ -426,11 +585,15 @@
           "They also included…"
         ]
       },
+
       {
+        "_label": "Ingredient 2 heading — Syn-Coll collagen booster",
         "type": "heading",
         "text": "#2) Palmitoyl Tripeptide-5 (Syn-Coll™)"
       },
+
       {
+        "_label": "Syn-Coll body — stimulates collagen and elastin; creates the foundation for Syn-Ake to work",
         "type": "paragraphs",
         "paragraphs": [
           "Syn-Coll is a powerful signal peptide that penetrates deep into the dermis…",
@@ -441,11 +604,15 @@
           "That's why Dr. Park and Noor included…"
         ]
       },
+
       {
+        "_label": "Ingredient 3 heading — Glycerin & Ceramides (moisture barrier)",
         "type": "heading",
         "text": "#3) Glycerin & Ceramides"
       },
+
       {
+        "_label": "Glycerin & Ceramides body — brick wall analogy; ceramide production drops 60% with age; rebuilds moisture barrier",
         "type": "paragraphs",
         "paragraphs": [
           "Think of your skin as a brick wall.",
@@ -461,12 +628,21 @@
           "That's where the final ingredient comes in..."
         ]
       },
+
       {
+        "_label": "Ingredient 4 heading — Caprylic/Capric Triglyceride (delivery vehicle)",
         "type": "heading",
         "text": "#4) Caprylic/Capric Triglyceride"
       },
-      { "type": "image", "mediaKey": "article.caprylic" },
+
       {
+        "_label": "Caprylic image — lightweight oil / coconut-derived ingredient visual",
+        "type": "image",
+        "mediaKey": "article.caprylic"
+      },
+
+      {
+        "_label": "Caprylic body — the delivery vehicle that gets active ingredients deep into the dermis; no greasy residue",
         "type": "paragraphs",
         "paragraphs": [
           "Here's the thing about powerful ingredients: they're useless if they can't actually reach your skin.",
@@ -478,11 +654,15 @@
           "Just smooth, rapid absorption that gets the active ingredients where they need to go…"
         ]
       },
+
       {
+        "_label": "Simplicity heading — no complicated routine needed",
         "type": "heading",
         "text": "And Honestly… Here's The Best Part Of Having All 4 Powerhouse Ingredients Inside Every Jar of WonderLift Cream"
       },
+
       {
+        "_label": "Simplicity body — the entire routine is under a minute; wash, apply, done",
         "type": "paragraphs",
         "paragraphs": [
           "You don't need some complicated 10-step Korean skincare routine.",
@@ -493,12 +673,21 @@
           "And that's it."
         ]
       },
+
       {
+        "_label": "Objection heading — addresses the skeptical reader who has tried everything",
         "type": "heading",
         "text": "Now, you may be saying to yourself... 'I've Tried Everything. Why Would Noor WonderLift Cream Be Any Different?'"
       },
-      { "type": "image", "mediaKey": "article.skeptical" },
+
       {
+        "_label": "Skeptical image — woman with arms folded, looking doubtful / skeptical expression",
+        "type": "image",
+        "mediaKey": "article.skeptical"
+      },
+
+      {
+        "_label": "Objection body — empathy for skeptics; 90%+ consistency rate; works at the muscle level (unique mechanism); 180-day guarantee",
         "type": "paragraphs",
         "paragraphs": [
           "I get it. I asked the same question.",
@@ -518,12 +707,20 @@
           "Until now."
         ]
       },
-      { "type": "cta" },
+
       {
+        "_label": "First CTA block — placed after the objection section",
+        "type": "cta"
+      },
+
+      {
+        "_label": "Closing appeal heading — woman-to-woman honesty",
         "type": "heading",
         "text": "From One Woman to Another, Here's the Honest Truth..."
       },
+
       {
+        "_label": "Closing appeal body — deepest emotional appeal; the reader is tired; narrator knows that feeling; one order changed everything; try it",
         "type": "paragraphs",
         "paragraphs": [
           "Listen, you and I don't know each other.",
@@ -555,12 +752,20 @@
           "**Inventory is extremely limited — So Click the button Below to Check Current Availability**"
         ]
       },
-      { "type": "cta" },
+
       {
+        "_label": "Second CTA block — after the emotional closing appeal",
+        "type": "cta"
+      },
+
+      {
+        "_label": "Final appeal heading — last chance before the reader closes",
         "type": "heading",
         "text": "Before You Close This Page..."
       },
+
       {
+        "_label": "Final appeal body — narrator's life now vs before; direct question to reader ('how long since you smiled at your reflection?'); deserve to feel beautiful",
         "type": "paragraphs",
         "paragraphs": [
           "I'm 63. And for the first time in close to twenty years, I look in the mirror and feel like me.",
@@ -587,25 +792,35 @@
           "**Inventory is extremely limited — So Click the button Below to Check Current Availability**"
         ]
       },
-      { "type": "cta" }
+
+      {
+        "_label": "Third CTA block — final call to action at bottom of article",
+        "type": "cta"
+      }
     ]
   },
+
   "sidebar": {
+    "_note": "Three short blurbs shown in the sidebar beside the article. Keep each blurb to 1-3 sentences.",
     "blurb1": "A newly discovered peptide just won the MySkinMag Awards because it boosted collagen by 52% in facial wrinkles using just a topical cream, which used to sound impossible...",
     "blurb2": "The award-winning research team have tested 117 active ingredients in the span of 18 months to finally capture clinical-level results in a bottle in the form of a cream, easily absorbed by the skin.",
     "blurb3": "The new formula delivers incredible, long-lasting results that help maintain a youthful appearance for months. Participants experienced firmer, more lifted skin after only 4 weeks of regular use! Furthermore, over 95% of participants noticed more even and radiant complexion.\n\nHere are the promising results women over 40 have experienced:",
     "testimonials": [
       {
+        "_note": "Short quote shown below sidebar blurb3. Keep to 1-3 sentences.",
         "name": "Andrea Sheerin",
         "text": "'Most anti-aging creams only sit on the face, this one is different. It feels like it's working from day 1. I just added a bit to my face and in a few days, it felt totally rejuvenated. My skin looks radiant!'"
       },
       {
+        "_note": "Short quote shown below Andrea's testimonial.",
         "name": "Maria Smith",
         "text": "'I was super skeptical about this… But thank God I took the chance because it changed my entire skin in a few nights. My forehead looks so much better, smoother, and softer. I've finally found my holy grail skincare routine!'"
       }
     ]
   },
+
   "offer": {
+    "_note": "Text displayed inside the CTA offer box. Keep labels short and urgent.",
     "limitedTimeLabel": "LIMITED TIME OFFER FOR OUR READERS",
     "claimNow": "(CLAIM YOURS NOW BEFORE THEY'RE ALL GONE)",
     "noteText": "Note: Korean researchers and Noor used the same active ingredient inside Noor WonderLift Cream to achieve remarkable results for their clients.",
@@ -615,159 +830,167 @@
     "dealText": "Secure Your Exclusive Deal With 2 FREE GIFTS!",
     "suppliesDate": "Tuesday, June 16, 2026"
   },
+
   "stockUpdate": {
+    "_note": "Small stock-scarcity label shown near the CTA. date should match meta.currentDate.",
     "status": "ALMOST GONE",
     "label": "LIMITED Discounted Supply AVAILABLE as of:",
     "date": "Tuesday, June 16, 2026"
   },
-  "comments": [
-    {
-      "author": "Tina Holloway",
-      "content": "Has anyone here been using this for longer than three months? Wondering about long-term results.",
-      "meta": "4 · 39m",
-      "replies": [
-        {
-          "author": "Pamela Reardon",
-          "mention": "Tina Holloway",
-          "content": "I'm on month 7. Skin keeps improving!!",
-          "meta": "7 · 16m"
-        }
-      ]
-    },
-    {
-      "author": "Carol-Anne Briggs",
-      "content": "Margaret, thank you for writing this. I really teared up at your emotional journey. That has been my exact experience. Just ordered.",
-      "meta": "4 · 51m"
-    },
-    {
-      "author": "Dolores Kettering",
-      "content": "I bought one bottle three weeks ago thinking I'd test it before going bigger. Already ordering two more. Wish I'd just done the 3-pack to start.",
-      "meta": "1 · 1h",
-      "replies": [
-        {
-          "author": "Ruth McNamara",
-          "mention": "Dolores Kettering",
-          "content": "me too",
-          "meta": "2 · 24m"
-        }
-      ]
-    },
-    {
-      "author": "John Armstrong",
-      "content": "My wife's been using this for months and loves it. She looks incredible!",
-      "meta": "6 · 1h",
-      "hasLikeIcon": true,
-      "attachmentKey": "comments.johnAttachment"
-    },
-    {
-      "author": "Ruth McNamara",
-      "content": "Hey **Janet Albright**, you should try this",
-      "meta": "2 · 2h",
-      "replies": [
-        {
-          "author": "Janet Albright",
-          "mention": "Elise Judd",
-          "content": "Let me check it out, thanks you",
-          "meta": "3 · 1h"
-        }
-      ]
-    },
-    {
-      "author": "Hanna Smith",
-      "content": "Has anyone bought a jar, how long does shipping take?",
-      "meta": "2 · 2h",
-      "replies": [
-        {
-          "author": "Kelly Leigh",
-          "mention": "Hanna Smith",
-          "content": "For me about 3 days",
-          "meta": "5 · 2h"
-        }
-      ]
-    },
-    {
-      "author": "Jules David",
-      "content": "My daughter recommended me this cream. I tried it and am really pleased! Thank you Noor, will be ordering more!!!",
-      "meta": "1 · 3h"
-    },
-    {
-      "author": "Sandra Whitmore",
-      "content": "I'm 71 and was worried I'd waited too long. Six weeks in and I can definitely see the difference",
-      "meta": "1 · 3h",
-      "replies": [
-        {
-          "author": "K. Michelle Anschutz",
-          "mention": "Sandra Whitmore",
-          "content": "Got mine yesterday. Texture is unlike any cream I've used. Reporting back in a month.",
-          "meta": "3 · 2h"
-        }
-      ]
-    },
-    {
-      "author": "Helene Brzezinski",
-      "content": "The Korean peptide is what convinced me. I'd read about Syn-Ake in a magazine years ago and didn't know where to actually buy it. So glad I found this.",
-      "meta": "4 · 3h"
-    },
-    {
-      "author": "Beatrice Mulvaney",
-      "content": "Im super excited to try a jar! Definitely not missing out on this discount!",
-      "meta": "8 · 3h"
-    },
-    {
-      "author": "Lillian Hofstetter",
-      "content": "Just ordered. Wish me luck ladies!!",
-      "meta": "1 · 4h",
-      "replies": [
-        {
-          "author": "Marie Delacroix",
-          "mention": "Lillian Hofstetter",
-          "content": "good luck lillian!",
-          "meta": "2 · 2h"
-        },
-        {
-          "author": "Cassidy Blake",
-          "mention": "Lillian Hofstetter",
-          "content": "You're going to love it! An amazing gift to yourself",
-          "meta": "2 · 1h"
-        }
-      ]
-    },
-    {
-      "author": "Henry Wandro",
-      "content": "My wife has been talking about this cream non-stop, she says it's the best cream around. I won't like I could see the results right away!",
-      "meta": "3 · 4h"
-    },
-    {
-      "author": "Eleanor Pruitt",
-      "content": "Used to do Botox. Stopped two years ago because I hated the frozen look. This gives me everything I wanted from Botox without the paralysis.",
-      "meta": "3 · 4h"
-    },
-    {
-      "author": "Geraldine Voss",
-      "content": "I'm picky about scents... this one is barely there. Perfect for me!!",
-      "meta": "3 · 5h"
-    },
-    {
-      "author": "Theresa Hannigan",
-      "content": "Anyone else apply at night and feel like the skin is actually different in the morning? Mine feels almost, stronger. Is that the right word?",
-      "meta": "2 · 5h",
-      "replies": [
-        {
-          "author": "Rose Reardon",
-          "mention": "Theresa Hannigan",
-          "content": "Yes! That's the ceramides I think. Skin feels more 'there'",
-          "meta": "5 · 2h"
-        }
-      ]
-    },
-    {
-      "author": "Anita Carmichael",
-      "content": "Just want to say thank you Margaret. I needed to read this today. My WonderLift arrived today!",
-      "meta": "3 · 5h",
-      "attachmentKey": "comments.anitaAttachment"
-    }
-  ],
+
+  "comments": {
+    "_note": "Facebook-style comment section below the article. meta format: 'likes · time_ago' (e.g. '4 · 39m' = 4 likes, 39 minutes ago). hasLikeIcon adds a thumbs-up icon. attachmentKey references a local image — do not change it.",
+    "_items": [
+      {
+        "author": "Tina Holloway",
+        "content": "Has anyone here been using this for longer than three months? Wondering about long-term results.",
+        "meta": "4 · 39m",
+        "replies": [
+          {
+            "author": "Pamela Reardon",
+            "mention": "Tina Holloway",
+            "content": "I'm on month 7. Skin keeps improving!!",
+            "meta": "7 · 16m"
+          }
+        ]
+      },
+      {
+        "author": "Carol-Anne Briggs",
+        "content": "Margaret, thank you for writing this. I really teared up at your emotional journey. That has been my exact experience. Just ordered.",
+        "meta": "4 · 51m"
+      },
+      {
+        "author": "Dolores Kettering",
+        "content": "I bought one bottle three weeks ago thinking I'd test it before going bigger. Already ordering two more. Wish I'd just done the 3-pack to start.",
+        "meta": "1 · 1h",
+        "replies": [
+          {
+            "author": "Ruth McNamara",
+            "mention": "Dolores Kettering",
+            "content": "me too",
+            "meta": "2 · 24m"
+          }
+        ]
+      },
+      {
+        "author": "John Armstrong",
+        "content": "My wife's been using this for months and loves it. She looks incredible!",
+        "meta": "6 · 1h",
+        "hasLikeIcon": true,
+        "attachmentKey": "comments.johnAttachment"
+      },
+      {
+        "author": "Ruth McNamara",
+        "content": "Hey **Janet Albright**, you should try this",
+        "meta": "2 · 2h",
+        "replies": [
+          {
+            "author": "Janet Albright",
+            "mention": "Elise Judd",
+            "content": "Let me check it out, thanks you",
+            "meta": "3 · 1h"
+          }
+        ]
+      },
+      {
+        "author": "Hanna Smith",
+        "content": "Has anyone bought a jar, how long does shipping take?",
+        "meta": "2 · 2h",
+        "replies": [
+          {
+            "author": "Kelly Leigh",
+            "mention": "Hanna Smith",
+            "content": "For me about 3 days",
+            "meta": "5 · 2h"
+          }
+        ]
+      },
+      {
+        "author": "Jules David",
+        "content": "My daughter recommended me this cream. I tried it and am really pleased! Thank you Noor, will be ordering more!!!",
+        "meta": "1 · 3h"
+      },
+      {
+        "author": "Sandra Whitmore",
+        "content": "I'm 71 and was worried I'd waited too long. Six weeks in and I can definitely see the difference",
+        "meta": "1 · 3h",
+        "replies": [
+          {
+            "author": "K. Michelle Anschutz",
+            "mention": "Sandra Whitmore",
+            "content": "Got mine yesterday. Texture is unlike any cream I've used. Reporting back in a month.",
+            "meta": "3 · 2h"
+          }
+        ]
+      },
+      {
+        "author": "Helene Brzezinski",
+        "content": "The Korean peptide is what convinced me. I'd read about Syn-Ake in a magazine years ago and didn't know where to actually buy it. So glad I found this.",
+        "meta": "4 · 3h"
+      },
+      {
+        "author": "Beatrice Mulvaney",
+        "content": "Im super excited to try a jar! Definitely not missing out on this discount!",
+        "meta": "8 · 3h"
+      },
+      {
+        "author": "Lillian Hofstetter",
+        "content": "Just ordered. Wish me luck ladies!!",
+        "meta": "1 · 4h",
+        "replies": [
+          {
+            "author": "Marie Delacroix",
+            "mention": "Lillian Hofstetter",
+            "content": "good luck lillian!",
+            "meta": "2 · 2h"
+          },
+          {
+            "author": "Cassidy Blake",
+            "mention": "Lillian Hofstetter",
+            "content": "You're going to love it! An amazing gift to yourself",
+            "meta": "2 · 1h"
+          }
+        ]
+      },
+      {
+        "author": "Henry Wandro",
+        "content": "My wife has been talking about this cream non-stop, she says it's the best cream around. I won't like I could see the results right away!",
+        "meta": "3 · 4h"
+      },
+      {
+        "author": "Eleanor Pruitt",
+        "content": "Used to do Botox. Stopped two years ago because I hated the frozen look. This gives me everything I wanted from Botox without the paralysis.",
+        "meta": "3 · 4h"
+      },
+      {
+        "author": "Geraldine Voss",
+        "content": "I'm picky about scents... this one is barely there. Perfect for me!!",
+        "meta": "3 · 5h"
+      },
+      {
+        "author": "Theresa Hannigan",
+        "content": "Anyone else apply at night and feel like the skin is actually different in the morning? Mine feels almost, stronger. Is that the right word?",
+        "meta": "2 · 5h",
+        "replies": [
+          {
+            "author": "Rose Reardon",
+            "mention": "Theresa Hannigan",
+            "content": "Yes! That's the ceramides I think. Skin feels more 'there'",
+            "meta": "5 · 2h"
+          }
+        ]
+      },
+      {
+        "author": "Anita Carmichael",
+        "content": "Just want to say thank you Margaret. I needed to read this today. My WonderLift arrived today!",
+        "meta": "3 · 5h",
+        "attachmentKey": "comments.anitaAttachment"
+      }
+    ]
+  },
+
   "footer": {
+    "_note": "Do not edit references or disclaimers — legal copy.",
     "references": [
       "https://incidecoder.com/ingredients/palmitoyl-tripeptide-5#:~:text=The%20manufacturer%20did%20an%20in,after%204%20weeks%20of%20treatment",
       "https://www.corepeptides.com/palmitoyl-tripeptide-5-syn-coll-peptide-research-in-skin-cell-proliferation-and-rejuvenation/#:~:text=Empirical%20studies%20further%20support%20the,%E2%80%9D"
