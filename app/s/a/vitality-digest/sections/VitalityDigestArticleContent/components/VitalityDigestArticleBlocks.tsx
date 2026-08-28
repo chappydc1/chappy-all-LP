@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { VitalityDigestHtmlParagraphs } from "../../components/VitalityDigestHtmlParagraphs";
 import { VitalityDigestCtaButton } from "../../components/VitalityDigestCtaButton";
 import type {
@@ -10,6 +11,12 @@ export type VitalityDigestArticleBlocksProps = {
   media: AdvertorialMedia;
   ctaUrl: string;
   ctaText: string;
+};
+
+const PRODUCT_IMAGE_ALT: Record<string, string> = {
+  productImageSupplyDesktop: "Nutrissa Saffron Gummies — multi-bottle supply",
+  productImageGuarantee: "Nutrissa Saffron Gummies — satisfaction guarantee",
+  productImageDecision: "Nutrissa Saffron Gummies product bottle",
 };
 
 export const VitalityDigestArticleBlocks = ({
@@ -44,10 +51,13 @@ export const VitalityDigestArticleBlocks = ({
         if (block.type === "image") {
           return (
             <div key={index} className="flex flex-col items-center w-full m-2.5">
-              <img
-                alt=""
+              <Image
+                alt={PRODUCT_IMAGE_ALT[block.mediaKey] ?? "Nutrissa Saffron Gummies product"}
                 src={media[block.mediaKey]}
+                width={443}
+                height={443}
                 className="max-h-full w-full max-w-[443px] rounded-[10px]"
+                style={{ height: "auto" }}
               />
             </div>
           );
