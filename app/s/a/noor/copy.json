@@ -37,7 +37,7 @@
     "breadcrumb": "Home > Beauty > Beauty-Alternatives",
     "exclusiveBadge": "EXCLUSIVE",
     "headline": "Two Months Ago I Looked Every Bit of 63. Then a Stranger at the Airport Guessed I Was 41. Here's the 30-Second Morning Habit that Women Everywhere Are Quietly Switching To",
-    "dateLabel": "Mon. June 15th, 2026",
+    "dateLabel": "_auto_ — computed in page.tsx as 1 month before today. Editing this field has no effect.",
     "timeLabel": "10:10 AM EST - 331,727 👁",
     "authorName": "Margaret Caldwell",
     "authorRole": "Contributing Skincare Writer",
@@ -838,9 +838,9 @@
     "date": "Tuesday, June 16, 2026"
   },
 
-  "comments": {
-    "_note": "Facebook-style comment section below the article. meta format: 'likes · time_ago' (e.g. '4 · 39m' = 4 likes, 39 minutes ago). hasLikeIcon adds a thumbs-up icon. attachmentKey references a local image — do not change it.",
-    "_items": [
+  "_commentsNote": "Facebook-style comment section below the article. meta format: 'likes · time_ago' (e.g. '4 · 39m' = 4 likes, 39 minutes ago). hasLikeIcon adds a thumbs-up icon. attachmentKey references a local image — do not change it.",
+
+  "comments": [
       {
         "author": "Tina Holloway",
         "content": "Has anyone here been using this for longer than three months? Wondering about long-term results.",
@@ -986,8 +986,7 @@
         "meta": "3 · 5h",
         "attachmentKey": "comments.anitaAttachment"
       }
-    ]
-  },
+  ],
 
   "footer": {
     "_note": "Do not edit references or disclaimers — legal copy.",
