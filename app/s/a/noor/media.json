@@ -2,7 +2,7 @@
   "icons": {
     "calendar": "/images/skinmag-v1/calendar.webp",
     "facebook": "/images/skinmag-v1/facebook.webp",
-    "twitter": "/images/skinmag-v1/facebook.webp",
+    "twitter": "/images/skinmag-v1/noor/twitter.webp",
     "like": "/images/skinmag-v1/like.webp",
     "redTick": "/images/skinmag-v1/red-tick.webp",
     "scissors": "/images/skinmag-v1/scissors.webp"
@@ -16,38 +16,38 @@
     "yahoo": "/images/skinmag-v1/yahoo.webp"
   },
   "article": {
-    "hero": "/images/skinmag-v1/hero.png",
-    "section1": "/images/skinmag-v1/image-placeholder.svg",
-    "section2": "/images/skinmag-v1/image-placeholder.svg",
-    "section3": "/images/skinmag-v1/image-placeholder.svg",
-    "section4": "/images/skinmag-v1/image-placeholder.svg",
-    "week1Open": "/images/skinmag-v1/image-placeholder.svg",
-    "week1Apply": "/images/skinmag-v1/image-placeholder.svg",
-    "week1Result": "/images/skinmag-v1/image-placeholder.svg",
-    "week2": "/images/skinmag-v1/image-placeholder.svg",
-    "week4": "/images/skinmag-v1/image-placeholder.svg",
-    "week6": "/images/skinmag-v1/image-placeholder.svg",
-    "emotional": "/images/skinmag-v1/image-placeholder.svg",
-    "drPark": "/images/skinmag-v1/image-placeholder.svg",
-    "synAke": "/images/skinmag-v1/image-placeholder.svg",
-    "caprylic": "/images/skinmag-v1/image-placeholder.svg",
-    "skeptical": "/images/skinmag-v1/image-placeholder.svg",
-    "ctaButton": "/images/skinmag-v1/image-placeholder.svg"
+    "hero": "/images/skinmag-v1/noor/hero.webp",
+    "section1": "/images/skinmag-v1/noor/section1.webp",
+    "section2": "/images/skinmag-v1/noor/section2.webp",
+    "section3": "/images/skinmag-v1/noor/section3.webp",
+    "section4": "/images/skinmag-v1/noor/section4.webp",
+    "week1Open": "/images/skinmag-v1/noor/week1-open.webp",
+    "week1Apply": "/images/skinmag-v1/noor/week1-apply.webp",
+    "week1Result": "/images/skinmag-v1/noor/week1-result.webp",
+    "week2": "/images/skinmag-v1/noor/week2.webp",
+    "week4": "/images/skinmag-v1/noor/week4.webp",
+    "week6": "/images/skinmag-v1/noor/week6.webp",
+    "emotional": "/images/skinmag-v1/noor/emotional.webp",
+    "drPark": "/images/skinmag-v1/noor/dr-park.webp",
+    "synAke": "/images/skinmag-v1/noor/syn-ake.webp",
+    "caprylic": "/images/skinmag-v1/noor/caprylic.webp",
+    "skeptical": "/images/skinmag-v1/noor/skeptical.webp",
+    "ctaButton": "/images/skinmag-v1/noor/cta-button.webp"
   },
   "product": {
     "jar": "/images/skinmag-v1/product-jar.webp",
     "wheel": "/images/skinmag-v1/wheel.webp"
   },
   "sidebar": {
-    "award": "/images/skinmag-v1/award.webp",
-    "product": "/images/skinmag-v1/sidebar-product.webp",
-    "clinicalTrials": "/images/skinmag-v1/clinical-trials.webp",
-    "testimonial1": "/images/skinmag-v1/image-placeholder.svg",
-    "testimonial2": "/images/skinmag-v1/image-placeholder.svg"
+    "award": "/images/skinmag-v1/noor/award.webp",
+    "product": "/images/skinmag-v1/noor/product.webp",
+    "clinicalTrials": "/images/skinmag-v1/noor/clinical-trials.webp",
+    "testimonial1": "/images/skinmag-v1/noor/testimonial1.webp",
+    "testimonial2": "/images/skinmag-v1/noor/testimonial2.webp"
   },
   "comments": {
-    "defaultAvatar": "/images/skinmag-v1/image-placeholder.svg",
-    "johnAttachment": "/images/skinmag-v1/image-placeholder.svg",
-    "anitaAttachment": "/images/skinmag-v1/image-placeholder.svg"
+    "defaultAvatar": "/images/skinmag-v1/noor/default-avatar.webp",
+    "johnAttachment": "/images/skinmag-v1/noor/john-attachment.webp",
+    "anitaAttachment": "/images/skinmag-v1/noor/anita-attachment.webp"
   }
 }
