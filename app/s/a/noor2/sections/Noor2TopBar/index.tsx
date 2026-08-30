@@ -3,10 +3,6 @@
 import React, { createContext, useContext } from "react";
 import Image from "next/image";
 
-// ---------------------------------------------------------------------------
-// Types
-// ---------------------------------------------------------------------------
-
 type CommentReplyData = {
   author: string;
   mention?: string;
@@ -101,11 +97,8 @@ type Noor2Media = {
   };
   sidebar: { images: string[] };
   offer: { productImage: string; checkIcon: string };
+  comments: { defaultAvatar: string };
 };
-
-// ---------------------------------------------------------------------------
-// Context
-// ---------------------------------------------------------------------------
 
 type Noor2Data = { content: Noor2Content; media: Noor2Media };
 const Noor2Context = createContext<Noor2Data | null>(null);
@@ -116,20 +109,9 @@ function useNoor2(): Noor2Data {
   return ctx;
 }
 
-// ---------------------------------------------------------------------------
-// Shared helpers
-// ---------------------------------------------------------------------------
-
-const p =
-  "box-border caret-transparent outline-[3px] no-underline font-open_sans";
-const br = (
-  <br className="box-border caret-transparent outline-[3px] no-underline" />
-);
+const p = "box-border caret-transparent outline-[3px] no-underline font-open_sans";
+const br = <br className="box-border caret-transparent outline-[3px] no-underline" />;
 const gap = <div className={p}>{br}</div>;
-
-// ---------------------------------------------------------------------------
-// Noor2Header
-// ---------------------------------------------------------------------------
 
 function Noor2Header(): React.ReactElement {
   const { content } = useNoor2();
@@ -146,10 +128,6 @@ function Noor2Header(): React.ReactElement {
   );
 }
 
-// ---------------------------------------------------------------------------
-// Noor2AsSeenOn
-// ---------------------------------------------------------------------------
-
 function Noor2AsSeenOn(): React.ReactElement {
   const { media } = useNoor2();
   return (
@@ -163,12 +141,15 @@ function Noor2AsSeenOn(): React.ReactElement {
         {media.article.asSeenOn.map((item, i) => (
           <div
             key={i}
-            className="items-center box-border caret-transparent flex justify-center min-h-[auto] min-w-[auto] outline-[3px] no-underline md:min-h-0 md:min-w-0"
+            className="items-center box-border caret-transparent flex justify-center min-h-[auto] min-w-[auto] outline-[3px] no-underline"
           >
-            <img
+            <Image
               alt={item.alt}
               src={item.src}
-              className="box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] object-contain outline-[3px] no-underline w-full md:min-h-0 md:min-w-0"
+              width={100}
+              height={60}
+              className="box-border caret-transparent max-w-full object-contain outline-[3px] no-underline w-full"
+              style={{ height: "auto" }}
             />
           </div>
         ))}
@@ -176,10 +157,6 @@ function Noor2AsSeenOn(): React.ReactElement {
     </div>
   );
 }
-
-// ---------------------------------------------------------------------------
-// Noor2OfferCallout
-// ---------------------------------------------------------------------------
 
 function Noor2OfferCallout(): React.ReactElement {
   const { content } = useNoor2();
@@ -189,14 +166,6 @@ function Noor2OfferCallout(): React.ReactElement {
       <a
         href={ctaUrl}
         className="items-center bg-sky-600 box-border caret-transparent text-blue-700 flex justify-center max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-center no-underline w-[600px] px-2.5 py-3 rounded-[10px]"
-      >
-        <div className="box-border caret-transparent text-white text-[22px] font-bold leading-[30.8px] min-h-[auto] min-w-[auto] outline-[3px] no-underline ml-0 p-px md:text-2xl md:font-semibold md:leading-[31.2px] md:ml-[5px]">
-          {offerCallout.ctaText}
-        </div>
-      </a>
-      <a
-        href={ctaUrl}
-        className="items-center bg-sky-600 box-border caret-transparent text-blue-700 flex justify-center max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-center no-underline w-[600px] mt-[30px] px-2.5 py-3 rounded-[10px]"
       >
         <div className="box-border caret-transparent text-white text-[22px] font-bold leading-[30.8px] min-h-[auto] min-w-[auto] outline-[3px] no-underline ml-0 p-px md:text-2xl md:font-semibold md:leading-[31.2px] md:ml-[5px]">
           {offerCallout.ctaText}
@@ -224,11 +193,7 @@ function Noor2OfferCallout(): React.ReactElement {
   );
 }
 
-// ---------------------------------------------------------------------------
-// Noor2CommentItem
-// ---------------------------------------------------------------------------
-
-function Noor2CommentItem(props: CommentData): React.ReactElement {
+function Noor2CommentItem(props: CommentData & { defaultAvatar: string }): React.ReactElement {
   return (
     <div
       className={
@@ -236,9 +201,11 @@ function Noor2CommentItem(props: CommentData): React.ReactElement {
         "items-start box-border caret-transparent flex outline-[3px] no-underline w-full"
       }
     >
-      <img
+      <Image
         alt=""
-        src=""
+        src={props.defaultAvatar}
+        width={50}
+        height={50}
         className={
           props.avatarClassName ??
           "box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] no-underline w-[50px]"
@@ -271,9 +238,11 @@ function Noor2CommentItem(props: CommentData): React.ReactElement {
             className="items-start box-border caret-transparent flex min-h-[auto] min-w-[auto] outline-[3px] no-underline w-full mt-5"
             key={`${reply.author}-${index}`}
           >
-            <img
+            <Image
               alt=""
-              src=""
+              src={props.defaultAvatar}
+              width={50}
+              height={50}
               className="box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] no-underline w-[50px]"
             />
             <div className="box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] no-underline w-full px-2.5 py-px">
@@ -304,23 +273,18 @@ function Noor2CommentItem(props: CommentData): React.ReactElement {
   );
 }
 
-// ---------------------------------------------------------------------------
-// Noor2ArticleMain — article body with all hardcoded content
-// ---------------------------------------------------------------------------
-
 function Noor2ArticleMain(): React.ReactElement {
   const { content, media } = useNoor2();
   const { article, ctaUrl } = content;
   const imgs = media.article.bodyImages;
+  const defaultAvatar = media.comments.defaultAvatar;
 
   return (
     <div className="bg-white box-border caret-transparent basis-full grow text-xl leading-[30px] min-h-[auto] min-w-[auto] outline-[3px] no-underline w-full pt-2.5 pb-10 px-[15px] md:basis-[70%]">
-      {/* breadcrumbs */}
       <div className="box-border caret-transparent outline-[3px] no-underline text-blue-600 text-lg font-bold leading-[23.4px] mt-5 md:text-xl md:leading-[26px]">
         {article.breadcrumbs}
       </div>
 
-      {/* title */}
       <div className="box-border caret-transparent outline-[3px] no-underline text-[26px] font-bold leading-[33.8px] mt-5 pt-2.5 pb-[5px] font-roboto">
         <span className="bg-red-600 box-border caret-transparent text-white outline-[3px] no-underline mr-2.5 px-2 py-0.5">
           {article.exclusiveLabel}
@@ -328,7 +292,6 @@ function Noor2ArticleMain(): React.ReactElement {
         {article.title}
       </div>
 
-      {/* meta: date */}
       <div className="box-border caret-transparent outline-[3px] no-underline items-center flex w-full py-2.5">
         <img
           alt=""
@@ -343,7 +306,6 @@ function Noor2ArticleMain(): React.ReactElement {
         </div>
       </div>
 
-      {/* author */}
       <div className="box-border caret-transparent outline-[3px] no-underline items-center border-b-zinc-300 border-t-zinc-300 flex justify-between w-full mt-1.5 mb-2.5 px-px py-[5px] border-b border-t md:mb-0 md:py-2">
         <div className="box-border caret-transparent text-xs min-h-[auto] min-w-[auto] outline-[3px] no-underline font-roboto leading-[15.6px] md:text-sm md:leading-[18.2px]">
           By&#160;
@@ -372,17 +334,14 @@ function Noor2ArticleMain(): React.ReactElement {
         </div>
       </div>
 
-      {/* hero image */}
       <img
         alt=""
         src={media.article.heroImage}
         className="aspect-[auto_789_/_433] border-t-blue-600 box-border caret-transparent inline max-w-full outline-[3px] no-underline w-full my-0 border-t-[5px] md:mt-[15px] md:mb-[30px]"
       />
 
-      {/* as seen on (mobile) */}
       <Noor2AsSeenOn />
 
-      {/* article body content */}
       <div className="box-border caret-transparent outline-[3px] no-underline my-5 font-roboto">
         <div className={p}>Last week, a TSA agent at the airport made me cry in an airport bathroom.</div>
         {gap}
@@ -450,7 +409,6 @@ function Noor2ArticleMain(): React.ReactElement {
         </div>
       </div>
 
-      {/* image 0 */}
       {imgs[0] && (
         <Image
           alt="Before and after skin transformation"
@@ -486,7 +444,6 @@ function Noor2ArticleMain(): React.ReactElement {
         <div className={p}><b className="box-border caret-transparent font-bold outline-[3px] no-underline">My skin looked old, drained, and tired.</b>&#160;</div>
       </div>
 
-      {/* image 1 */}
       {imgs[1] && (
         <Image
           alt="Skin aging concern"
@@ -537,7 +494,6 @@ function Noor2ArticleMain(): React.ReactElement {
         </div>
       </div>
 
-      {/* image 2 */}
       {imgs[2] && (
         <Image
           alt="Feeling invisible and frustrated"
@@ -596,7 +552,6 @@ function Noor2ArticleMain(): React.ReactElement {
         <div className={p}>But then a photo stopped my thumb. It was from my old college roommate, Beverly.</div>
       </div>
 
-      {/* image 3 */}
       {imgs[3] && (
         <Image
           alt="Beverly's stunning transformation"
@@ -652,7 +607,6 @@ function Noor2ArticleMain(): React.ReactElement {
         <div className={p}>When I tell you my jaw hit the floor I&#39;m not kidding…</div>
       </div>
 
-      {/* image 4 */}
       {imgs[4] && (
         <Image
           alt="Beverly's before and after results with WonderLift Cream"
@@ -931,7 +885,6 @@ function Noor2ArticleMain(): React.ReactElement {
 
       <Noor2OfferCallout />
 
-      {/* Comments section */}
       <div className="box-border caret-transparent outline-[3px] no-underline text-[22px] font-bold leading-[30.8px] mt-5 md:text-2xl md:leading-[33.6px] md:mt-7">
         COMMENTS
       </div>
@@ -944,6 +897,7 @@ function Noor2ArticleMain(): React.ReactElement {
         {content.comments.map((comment, i) => (
           <Noor2CommentItem
             key={`${comment.author}-${i}`}
+            defaultAvatar={defaultAvatar}
             {...comment}
           />
         ))}
@@ -953,10 +907,6 @@ function Noor2ArticleMain(): React.ReactElement {
     </div>
   );
 }
-
-// ---------------------------------------------------------------------------
-// Noor2Sidebar
-// ---------------------------------------------------------------------------
 
 function Noor2Sidebar(): React.ReactElement {
   const { content, media } = useNoor2();
@@ -1042,10 +992,6 @@ function Noor2Sidebar(): React.ReactElement {
   );
 }
 
-// ---------------------------------------------------------------------------
-// Noor2ArticleLayout
-// ---------------------------------------------------------------------------
-
 function Noor2ArticleLayout(): React.ReactElement {
   return (
     <div className="items-stretch box-border caret-transparent flex flex-wrap justify-center max-w-full outline-[3px] no-underline mt-0 font-open_sans md:flex-nowrap md:mt-[30px]">
@@ -1058,10 +1004,6 @@ function Noor2ArticleLayout(): React.ReactElement {
     </div>
   );
 }
-
-// ---------------------------------------------------------------------------
-// Noor2LimitedTimeOffer
-// ---------------------------------------------------------------------------
 
 function Noor2LimitedTimeOffer(): React.ReactElement {
   const { content, media } = useNoor2();
@@ -1103,7 +1045,6 @@ function Noor2LimitedTimeOffer(): React.ReactElement {
             </b>
           </div>
         </div>
-        {/* Offer product card */}
         <div className="box-border caret-transparent outline-[3px] no-underline w-full pt-[30px]">
           <div className="items-center bg-green-50 box-border caret-transparent flex flex-col justify-center outline-[3px] no-underline w-full border pb-[25px] px-[15px] border-dotted md:flex-row md:justify-normal">
             <Image
@@ -1161,10 +1102,6 @@ function Noor2LimitedTimeOffer(): React.ReactElement {
   );
 }
 
-// ---------------------------------------------------------------------------
-// Noor2StockUpdateBanner
-// ---------------------------------------------------------------------------
-
 function Noor2StockUpdateBanner(): React.ReactElement {
   const { content } = useNoor2();
   return (
@@ -1186,10 +1123,6 @@ function Noor2StockUpdateBanner(): React.ReactElement {
     </div>
   );
 }
-
-// ---------------------------------------------------------------------------
-// Noor2Footer
-// ---------------------------------------------------------------------------
 
 function Noor2Footer(): React.ReactElement {
   const { content } = useNoor2();
@@ -1250,10 +1183,6 @@ function Noor2Footer(): React.ReactElement {
   );
 }
 
-// ---------------------------------------------------------------------------
-// Noor2StickyCta
-// ---------------------------------------------------------------------------
-
 function Noor2StickyCta(): React.ReactElement {
   const { content } = useNoor2();
   return (
@@ -1271,10 +1200,6 @@ function Noor2StickyCta(): React.ReactElement {
     </div>
   );
 }
-
-// ---------------------------------------------------------------------------
-// Noor2TopBar — exported root
-// ---------------------------------------------------------------------------
 
 export type Noor2TopBarProps = {
   content: Noor2Content;

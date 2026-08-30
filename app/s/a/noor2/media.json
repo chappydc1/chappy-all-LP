@@ -55,5 +55,8 @@
   "offer": {
     "productImage": "https://c.animaapp.com/vojQ1VtaPTd7yROH2sX8cw/assets/1747392384610_anti_wrinkle_v06_copy.webp",
     "checkIcon": "https://c.animaapp.com/vojQ1VtaPTd7yROH2sX8cw/assets/1727410665375_red_tick.webp"
+  },
+  "comments": {
+    "defaultAvatar": "/images/noor2/default-avatar.webp"
   }
 }
