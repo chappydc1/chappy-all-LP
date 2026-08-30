@@ -1,0 +1,59 @@
+{
+  "article": {
+    "calendarIcon": "https://c.animaapp.com/vojQ1VtaPTd7yROH2sX8cw/assets/1758238663851_calendar.webp",
+    "socialIcons": {
+      "facebook": "https://c.animaapp.com/vojQ1VtaPTd7yROH2sX8cw/assets/1727275930809_facebook.webp",
+      "twitter": "https://c.animaapp.com/vojQ1VtaPTd7yROH2sX8cw/assets/1727275946976_twitter.webp",
+      "linkedin": "https://c.animaapp.com/vojQ1VtaPTd7yROH2sX8cw/assets/1727275987424_linkedin.webp",
+      "pinterest": "https://c.animaapp.com/vojQ1VtaPTd7yROH2sX8cw/assets/1727275970288_pinterest.webp",
+      "email": "https://c.animaapp.com/vojQ1VtaPTd7yROH2sX8cw/assets/1727276012395_email.webp"
+    },
+    "heroImage": "https://c.animaapp.com/vojQ1VtaPTd7yROH2sX8cw/assets/14.png",
+    "asSeenOn": [
+      {
+        "src": "https://c.animaapp.com/vojQ1VtaPTd7yROH2sX8cw/assets/1769553022945_1726683344123_NBC_Logo_1986_w200_320x213.webp",
+        "alt": "NBC Logo"
+      },
+      {
+        "src": "https://c.animaapp.com/vojQ1VtaPTd7yROH2sX8cw/assets/1769553169103_1726683337314_CBS_logo_w200_320x97.webp",
+        "alt": "CBS Logo"
+      },
+      {
+        "src": "https://c.animaapp.com/vojQ1VtaPTd7yROH2sX8cw/assets/1769553255787_1726683339972_Fox_News_logo_w200_320x180.webp",
+        "alt": "Fox News Logo"
+      },
+      {
+        "src": "https://c.animaapp.com/vojQ1VtaPTd7yROH2sX8cw/assets/1769553355794_1726683334640_AOL_Logo_w200_320_181.webp",
+        "alt": "AOL Logo"
+      },
+      {
+        "src": "https://c.animaapp.com/vojQ1VtaPTd7yROH2sX8cw/assets/1769553483041_1726683346879_ustoday_w200_320x125.webp",
+        "alt": "USA Today Logo"
+      },
+      {
+        "src": "https://c.animaapp.com/vojQ1VtaPTd7yROH2sX8cw/assets/1769553591509_1726683350635_yahoo_news_logo_w200_320x117.webp",
+        "alt": "Yahoo News Logo"
+      }
+    ],
+    "bodyImages": [
+      "https://c.animaapp.com/vojQ1VtaPTd7yROH2sX8cw/assets/1780371319315_noor_taboola_wlc_image4.webp",
+      "https://c.animaapp.com/vojQ1VtaPTd7yROH2sX8cw/assets/1771516019809_a3_1280x850.webp",
+      "https://c.animaapp.com/vojQ1VtaPTd7yROH2sX8cw/assets/1771516150974_a4_1280x714.webp",
+      "https://c.animaapp.com/vojQ1VtaPTd7yROH2sX8cw/assets/1771516372738_a5_1280x794.webp",
+      "https://c.animaapp.com/vojQ1VtaPTd7yROH2sX8cw/assets/1771516527407_a6_1280x714.webp"
+    ],
+    "likeIcon": "https://c.animaapp.com/vojQ1VtaPTd7yROH2sX8cw/assets/1758248404111_like.webp"
+  },
+  "sidebar": {
+    "images": [
+      "https://c.animaapp.com/vojQ1VtaPTd7yROH2sX8cw/assets/1771514475992_al1_520x390.webp",
+      "https://c.animaapp.com/vojQ1VtaPTd7yROH2sX8cw/assets/1780433238539_wlc.webp",
+      "https://c.animaapp.com/vojQ1VtaPTd7yROH2sX8cw/assets/1771514763605_1748528206338_2_ClinicalTrialsB_copy_520x344.webp",
+      "https://c.animaapp.com/vojQ1VtaPTd7yROH2sX8cw/assets/1771514816378_1748528198252_XXL_height_1__520x520.webp"
+    ]
+  },
+  "offer": {
+    "productImage": "https://c.animaapp.com/vojQ1VtaPTd7yROH2sX8cw/assets/1747392384610_anti_wrinkle_v06_copy.webp",
+    "checkIcon": "https://c.animaapp.com/vojQ1VtaPTd7yROH2sX8cw/assets/1727410665375_red_tick.webp"
+  }
+}

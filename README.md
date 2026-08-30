@@ -147,6 +147,7 @@ Live pages on **www.northlinemd.com**:
 [nebroo-v2](https://www.northlinemd.com/s/a/nebroo-v2) &nbsp;|&nbsp;
 [nephrologist-90-day-capsaicin-investigation](https://www.northlinemd.com/s/a/nephrologist-90-day-capsaicin-investigation) &nbsp;|&nbsp;
 [nexa](https://www.northlinemd.com/s/a/nexa) &nbsp;|&nbsp;
+[noor2](https://www.northlinemd.com/s/a/noor2) &nbsp;|&nbsp;
 [nooro](https://www.northlinemd.com/s/a/nooro) &nbsp;|&nbsp;
 [rejuvacare](https://www.northlinemd.com/s/a/rejuvacare) &nbsp;|&nbsp;
 [rosabella](https://www.northlinemd.com/s/a/rosabella) &nbsp;|&nbsp;
@@ -223,6 +224,7 @@ Local pages on **localhost:3000**:
 [nebroo-v2](http://localhost:3000/s/a/nebroo-v2) &nbsp;|&nbsp;
 [nephrologist-90-day-capsaicin-investigation](http://localhost:3000/s/a/nephrologist-90-day-capsaicin-investigation) &nbsp;|&nbsp;
 [nexa](http://localhost:3000/s/a/nexa) &nbsp;|&nbsp;
+[noor2](http://localhost:3000/s/a/noor2) &nbsp;|&nbsp;
 [nooro](http://localhost:3000/s/a/nooro) &nbsp;|&nbsp;
 [rejuvacare](http://localhost:3000/s/a/rejuvacare) &nbsp;|&nbsp;
 [rosabella](http://localhost:3000/s/a/rosabella) &nbsp;|&nbsp;
@@ -306,6 +308,7 @@ Every template lives at `app/s/<type>/<slug>/` — fully self-contained with its
 | [`/s/a/nebroo-v1`](app/s/a/nebroo-v1/) | **Nebroo** | Why did I lose my hearing and what can I do? — CIC hearing aid editorial | [nebroo.com](https://offer.nebroo.com/advert-v1-3) |
 | [`/s/a/nebroo-v2`](app/s/a/nebroo-v2/) | **Nebroo v2** | Why Did You Lose Your Hearing and What Can You Do? — updated CIC hearing aid editorial | [nebroo.com](https://offer.nebroo.com) |
 | [`/s/a/nexa`](app/s/a/nexa/) | **Nexa** | Tired of spending hours washing your car? — auto detailing advertorial | nexa advertorial |
+| [`/s/a/noor2`](app/s/a/noor2/) | **Noor** | Two months ago I looked 63; a stranger at the airport guessed 41 — WonderLift Cream anti-aging editorial | noor2 advertorial |
 | [`/s/a/nooro`](app/s/a/nooro/) | **Nooro** | Top Doctor of PT: The best way to relieve edema in your legs and feet fast — leg massager editorial | nooro advertorial |
 | [`/s/a/rejuvacare`](app/s/a/rejuvacare/) | **RejuvaCare** | Knee pain checkout advertorial with CheckoutChamp integration | rejuvacare advertorial |
 | [`/s/a/rosabella`](app/s/a/rosabella/) | **Rosabella** | 5 Reasons Why Thousands Are Choosing Rosabella Moringa to Restore Energy, Focus, and Metabolism | [tryrosabella.com](https://shop.tryrosabella.com) |
