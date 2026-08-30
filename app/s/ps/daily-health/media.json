@@ -1,0 +1,18 @@
+{
+  "authorAvatar": {
+    "src": "/daily-health/author-avatar.jpg",
+    "alt": "Author photo"
+  },
+  "heroImage": {
+    "src": "/daily-health/hero-image.webp",
+    "alt": "John Smith presentation"
+  },
+  "ctaImageDesktop": {
+    "src": "/daily-health/cta-desktop.webp",
+    "alt": ""
+  },
+  "ctaImageMobile": {
+    "src": "/daily-health/cta-mobile.webp",
+    "alt": ""
+  }
+}
