@@ -1,5 +1,3 @@
-"use client";
-
 import { MenoAccessibilityWidgets } from "./components/MenoAccessibilityWidgets";
 import { MenoMainContent } from "./sections/MainContent";
 import { MenoHeroTopBar } from "./sections/Hero/components/MenoHeroTopBar";
