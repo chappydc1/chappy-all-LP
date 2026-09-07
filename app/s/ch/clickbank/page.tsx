@@ -4,7 +4,7 @@ import { ClickbankCustomerInformation } from "@/checkout-clickbank/sections/Clic
 import { ClickbankPaymentInformation } from "@/checkout-clickbank/sections/ClickbankPaymentInformation";
 import { ClickbankShippingInformation } from "@/checkout-clickbank/sections/ClickbankShippingInformation";
 import { ClickbankCartSummary } from "@/checkout-clickbank/sections/ClickbankCartSummary";
-import { ClickbankFooter } from "@/checkout-clickbank/sections/ClickbankFooter";
+import { Footer } from "@/sections/Footer";
 
 export default function ClickbankCheckoutPage(): JSX.Element {
   return (
@@ -24,7 +24,7 @@ export default function ClickbankCheckoutPage(): JSX.Element {
         </ClickbankCheckoutForm>
       </main>
 
-      <ClickbankFooter />
+      <Footer />
     </div>
   );
 }
