@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState, type KeyboardEvent } from "react";
 
 const FLAG_SPRITE = "/images/clickbank-checkout/flags.png";
 
@@ -83,8 +83,10 @@ export const ClickbankPhoneInput = ({ id = "phone", required }: Props): JSX.Elem
   const [focused, setFocused] = useState(false);
   const [search, setSearch] = useState("");
   const [selected, setSelected] = useState<Country>(COUNTRIES[0]);
+  const [focusedIndex, setFocusedIndex] = useState(0);
   const containerRef = useRef<HTMLDivElement>(null);
   const searchRef = useRef<HTMLInputElement>(null);
+  const listRef = useRef<HTMLUListElement>(null);
 
   const filtered = search
     ? COUNTRIES.filter(
@@ -97,8 +99,39 @@ export const ClickbankPhoneInput = ({ id = "phone", required }: Props): JSX.Elem
   useEffect(() => {
     if (open && searchRef.current) {
       searchRef.current.focus();
+      setFocusedIndex(filtered.findIndex((c) => c.code === selected.code));
     }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [open]);
+
+  // Scroll focused item into view
+  useEffect(() => {
+    if (!open || !listRef.current) return;
+    const item = listRef.current.children[focusedIndex] as HTMLElement | undefined;
+    item?.scrollIntoView({ block: "nearest" });
+  }, [focusedIndex, open]);
+
+  const selectCountry = (country: Country): void => {
+    setSelected(country);
+    setOpen(false);
+    setSearch("");
+  };
+
+  const handleSearchKeyDown = (e: KeyboardEvent<HTMLInputElement>): void => {
+    if (e.key === "ArrowDown") {
+      e.preventDefault();
+      setFocusedIndex((i) => Math.min(i + 1, filtered.length - 1));
+    } else if (e.key === "ArrowUp") {
+      e.preventDefault();
+      setFocusedIndex((i) => Math.max(i - 1, 0));
+    } else if (e.key === "Enter") {
+      e.preventDefault();
+      if (filtered[focusedIndex]) selectCountry(filtered[focusedIndex]);
+    } else if (e.key === "Escape") {
+      setOpen(false);
+      setSearch("");
+    }
+  };
 
   useEffect(() => {
     const handler = (e: MouseEvent) => {
@@ -168,26 +201,34 @@ export const ClickbankPhoneInput = ({ id = "phone", required }: Props): JSX.Elem
             type="text"
             placeholder="Search"
             value={search}
-            onChange={(e) => setSearch(e.target.value)}
+            onChange={(e) => { setSearch(e.target.value); setFocusedIndex(0); }}
+            onKeyDown={handleSearchKeyDown}
+            aria-autocomplete="list"
+            aria-controls="cb-country-listbox"
             className="block w-full border-b border-gray-200 px-3 py-2 text-sm text-[#3f3d5c] outline-none"
           />
           <ul
+            ref={listRef}
+            id="cb-country-listbox"
             role="listbox"
             aria-label="List of countries"
             className="max-h-[200px] overflow-y-auto"
           >
-            {filtered.map((country) => (
+            {filtered.map((country, idx) => (
               <li
                 key={country.code}
                 role="option"
+                tabIndex={0}
                 aria-selected={selected.code === country.code}
-                onClick={() => {
-                  setSelected(country);
-                  setOpen(false);
-                  setSearch("");
+                onClick={() => selectCountry(country)}
+                onKeyDown={(e) => {
+                  if (e.key === "Enter" || e.key === " ") { e.preventDefault(); selectCountry(country); }
+                  else if (e.key === "ArrowDown") { e.preventDefault(); setFocusedIndex(Math.min(idx + 1, filtered.length - 1)); (listRef.current?.children[idx + 1] as HTMLElement | undefined)?.focus(); }
+                  else if (e.key === "ArrowUp") { e.preventDefault(); if (idx === 0) { searchRef.current?.focus(); } else { setFocusedIndex(idx - 1); (listRef.current?.children[idx - 1] as HTMLElement | undefined)?.focus(); } }
+                  else if (e.key === "Escape") { setOpen(false); setSearch(""); }
                 }}
-                className={`flex cursor-pointer items-center gap-2 px-3 py-2 text-sm hover:bg-gray-100 ${
-                  selected.code === country.code ? "bg-gray-50 font-semibold" : ""
+                className={`flex cursor-pointer items-center gap-2 px-3 py-2 text-sm hover:bg-gray-100 focus:bg-gray-100 focus:outline-none ${
+                  idx === focusedIndex || selected.code === country.code ? "bg-gray-50 font-semibold" : ""
                 }`}
               >
                 <FlagSprite pos={country.pos} />

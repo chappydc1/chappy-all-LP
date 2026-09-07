@@ -74,7 +74,8 @@ export const ClickbankPaymentInformation = (): JSX.Element => {
                   id="cardNumber"
                   label="Card Number"
                   name="cardNumber"
-                  required
+                  required={method === "card"}
+                  disabled={method !== "card"}
                   icon={<Lock className="h-5 w-5" aria-hidden="true" />}
                 />
               </div>
@@ -84,14 +85,16 @@ export const ClickbankPaymentInformation = (): JSX.Element => {
                 label="Expiration Date"
                 name="expirationDate"
                 placeholder="MM/YY"
-                required
+                required={method === "card"}
+                disabled={method !== "card"}
               />
 
               <FloatingInput
                 id="securityCode"
                 label="Security Code"
                 name="securityCode"
-                required
+                required={method === "card"}
+                disabled={method !== "card"}
                 icon={<Info className="h-5 w-5" aria-hidden="true" />}
               />
 
@@ -100,7 +103,8 @@ export const ClickbankPaymentInformation = (): JSX.Element => {
                   id="cardHolderName"
                   label="Cardholder Name"
                   name="cardHolderName"
-                  required
+                  required={method === "card"}
+                  disabled={method !== "card"}
                 />
               </div>
             </div>

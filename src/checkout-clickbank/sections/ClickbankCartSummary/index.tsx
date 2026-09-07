@@ -9,7 +9,7 @@ const TRUST_BADGE_BASE = "/images/clickbank-checkout";
 const CART_ITEM = {
   name: "Gruns Superfood Gummies – 3 Bottle Bundle",
   price: "$79.99",
-  image: "/images/product/1.webp",
+  image: "/images/clickbank-checkout/product.webp",
 };
 
 const TOTALS = {

@@ -3,6 +3,9 @@
 import type { FormEvent, ReactNode } from "react";
 import { CheckoutProvider } from "@/checkout-clickbank/components/CheckoutContext";
 
+// Replace with the actual Clickbank order URL for this product.
+const CLICKBANK_ORDER_URL = "https://order.clickbank.net/";
+
 type ClickbankCheckoutFormProps = {
   children: ReactNode;
 };
@@ -10,6 +13,7 @@ type ClickbankCheckoutFormProps = {
 export const ClickbankCheckoutForm = ({ children }: ClickbankCheckoutFormProps): JSX.Element => {
   const handleSubmit = (event: FormEvent<HTMLFormElement>): void => {
     event.preventDefault();
+    window.location.href = CLICKBANK_ORDER_URL;
   };
 
   return (
