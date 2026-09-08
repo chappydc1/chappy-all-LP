@@ -73,6 +73,7 @@ module.exports = {
         "roboto": ["Roboto", "ui-sans-serif", "system-ui", "sans-serif"],
         "work_sans": ["Work Sans", "ui-sans-serif", "system-ui", "sans-serif"],
         "retail_display": ["Retail Display", "ui-sans-serif", "system-ui", "sans-serif"],
+        "mango-display": ['"Mango Display"', '"Helvetica Neue"', 'Helvetica', 'Arial', 'sans-serif'],
         "dm_mono": ["DM Mono", "ui-monospace", "monospace"],
         "dm_sans": ["DM Sans", "ui-sans-serif", "system-ui", "sans-serif"],
         "times_new_roman": ["Times New Roman", "Times", "serif"],
