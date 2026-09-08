@@ -1,11 +1,26 @@
+'use client';
+import { useState } from 'react';
 import { TestimonialCard } from "./TestimonialCard"
 import { CarouselControls } from "./CarouselControls"
 
+const TOTAL_TESTIMONIALS = 4;
+// Show 2 cards per page on desktop, 1 on mobile; pages based on 1-per-view (safest for all sizes)
+const TOTAL_PAGES = TOTAL_TESTIMONIALS;
+
 export const TestimonialCarousel = () => {
+  const [current, setCurrent] = useState(0);
+
+  const goTo = (idx: number) => {
+    setCurrent(Math.max(0, Math.min(TOTAL_TESTIMONIALS - 1, idx)));
+  };
+
   return (
     <div className="box-border caret-transparent outline-[3px] w-full mt-10">
       <div className="relative box-border caret-transparent list-none outline-[3px] z-[1] overflow-hidden mx-auto">
-        <div className="relative items-stretch caret-transparent flex h-full outline-[3px] w-full z-[1]">
+        <div
+          className="relative items-stretch caret-transparent flex h-full outline-[3px] w-full z-[1] transition-transform duration-300 ease-in-out"
+          style={{ transform: `translateX(calc(-${current} * (238.833px + 0.75rem)))` }}
+        >
           <TestimonialCard
             ariaLabel="1 / 4"
             title="I cannot believe I waited this long"
@@ -47,7 +62,12 @@ export const TestimonialCarousel = () => {
             date="January 27th 2026"
           />
         </div>
-        <CarouselControls />
+        <CarouselControls
+          onPrev={() => goTo(current - 1)}
+          onNext={() => goTo(current + 1)}
+          currentPage={current}
+          totalPages={TOTAL_PAGES}
+        />
       </div>
     </div>
   );

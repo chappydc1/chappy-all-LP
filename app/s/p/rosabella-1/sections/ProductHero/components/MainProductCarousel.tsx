@@ -1,5 +1,5 @@
 'use client';
-import { useState } from 'react';
+import { useState, useRef } from 'react';
 
 const MAIN_SLIDES = [
   { src: '/s/p/rosabella-1/98.jpg' },
@@ -32,6 +32,7 @@ const THUMBS_VISIBLE = 5;
 
 export const MainProductCarousel = () => {
   const [current, setCurrent] = useState(0);
+  const touchStartX = useRef<number | null>(null);
 
   const goTo = (idx: number) => {
     setCurrent(Math.max(0, Math.min(MAIN_SLIDES.length - 1, idx)));
@@ -39,9 +40,34 @@ export const MainProductCarousel = () => {
 
   const thumbOffset = Math.max(0, current - THUMBS_VISIBLE) * THUMB_STEP;
 
+  const handleTouchStart = (e: React.TouchEvent) => {
+    touchStartX.current = e.touches[0].clientX;
+  };
+
+  const handleTouchEnd = (e: React.TouchEvent) => {
+    if (touchStartX.current === null) return;
+    const delta = touchStartX.current - e.changedTouches[0].clientX;
+    if (Math.abs(delta) > 40) {
+      goTo(delta > 0 ? current + 1 : current - 1);
+    }
+    touchStartX.current = null;
+  };
+
+  const handleArrowKey = (e: React.KeyboardEvent, dir: 1 | -1) => {
+    if (e.key === 'Enter' || e.key === ' ') {
+      e.preventDefault();
+      goTo(current + dir);
+    }
+  };
+
   return (
     <div className="relative box-border caret-transparent outline-[3px] max-w-[307.13px] md:max-w-[566px] mx-auto">
-      <div className="relative box-border caret-transparent list-none outline-[3px] z-[1] overflow-hidden mx-auto max-w-[307.13px] md:max-w-[566px]">
+      {/* Main slide track — supports touch swipe on mobile */}
+      <div
+        className="relative box-border caret-transparent list-none outline-[3px] z-[1] overflow-hidden mx-auto max-w-[307.13px] md:max-w-[566px]"
+        onTouchStart={handleTouchStart}
+        onTouchEnd={handleTouchEnd}
+      >
         <div
           className="relative caret-transparent flex outline-[3px] z-[1] transition-transform duration-300 ease-in-out"
           style={{ transform: `translateX(${-current * 100}%)` }}
@@ -57,6 +83,7 @@ export const MainProductCarousel = () => {
                 src={slide.src}
                 alt="Rosabella Organic Beetroot Capsules"
                 title=""
+                loading={i === 0 ? 'eager' : 'lazy'}
                 className="box-border caret-transparent inline max-w-full outline-[3px] w-full aspect-square"
               />
             </div>
@@ -64,6 +91,27 @@ export const MainProductCarousel = () => {
         </div>
       </div>
 
+      {/* Mobile prev/next arrows (always visible) */}
+      <button
+        type="button"
+        aria-label="Previous slide"
+        onClick={() => goTo(current - 1)}
+        disabled={current === 0}
+        className="absolute md:hidden text-black items-center bg-white box-border caret-transparent flex h-9 justify-center left-1 leading-4 outline-[3px] w-9 z-10 border-neutral-950 rounded-[50%] border-2 border-solid top-1/2 -translate-y-1/2 cursor-pointer disabled:opacity-30"
+      >
+        <img src="/s/p/rosabella-1/icon-1.svg" alt="" className="w-[7px] pointer-events-none" />
+      </button>
+      <button
+        type="button"
+        aria-label="Next slide"
+        onClick={() => goTo(current + 1)}
+        disabled={current === MAIN_SLIDES.length - 1}
+        className="absolute md:hidden text-black items-center bg-white box-border caret-transparent flex h-9 justify-center right-1 leading-4 outline-[3px] w-9 z-10 border-neutral-950 rounded-[50%] border-2 border-solid top-1/2 -translate-y-1/2 cursor-pointer disabled:opacity-30"
+      >
+        <img src="/s/p/rosabella-1/icon-2.svg" alt="" className="w-[7px] pointer-events-none" />
+      </button>
+
+      {/* Desktop thumbnails + arrows */}
       <div className="box-border caret-transparent hidden list-none outline-[3px] z-[1] overflow-hidden mt-2 mx-auto md:block md:max-w-[566px]">
         <div
           className="relative caret-transparent flex outline-[3px] z-[1] mx-auto transition-transform duration-300 ease-in-out"
@@ -73,14 +121,17 @@ export const MainProductCarousel = () => {
             <div
               key={i}
               role="button"
-              aria-label={`${i + 1} / ${THUMBNAILS.length}`}
+              aria-label={`View image ${i + 1}`}
+              tabIndex={0}
               onClick={() => goTo(i)}
+              onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); goTo(i); } }}
               className="relative box-border caret-transparent shrink-0 h-full min-h-0 min-w-0 outline-[3px] w-[86px] mr-2.5 md:min-h-[auto] md:min-w-[auto] cursor-pointer"
             >
               <img
                 src={src}
-                alt="Rosabella Organic Beetroot Capsules"
+                alt={`Rosabella Organic Beetroot Capsules thumbnail ${i + 1}`}
                 title=""
+                loading="lazy"
                 className={[
                   'aspect-[auto_220_/_220] box-border caret-transparent inline max-w-full outline-[3px] w-[220px] rounded-[5px] transition-opacity duration-200',
                   current === i
@@ -95,7 +146,9 @@ export const MainProductCarousel = () => {
         <div
           role="button"
           aria-label="Previous slide"
+          tabIndex={0}
           onClick={() => goTo(current - 1)}
+          onKeyDown={(e) => handleArrowKey(e, -1)}
           className="absolute text-black items-center bg-white box-border caret-transparent flex h-[46px] justify-center left-[-22.5px] leading-4 mt-[-22px] outline-[3px] w-[46px] z-10 border-neutral-950 rounded-[50%] border-2 border-solid bottom-[22px] cursor-pointer select-none"
         >
           <img
@@ -108,7 +161,9 @@ export const MainProductCarousel = () => {
         <div
           role="button"
           aria-label="Next slide"
+          tabIndex={0}
           onClick={() => goTo(current + 1)}
+          onKeyDown={(e) => handleArrowKey(e, 1)}
           className="absolute text-black items-center bg-white box-border caret-transparent flex h-[46px] justify-center leading-4 mt-[-22px] outline-[3px] right-[-22.5px] w-[46px] z-10 border-neutral-950 rounded-[50%] border-2 border-solid bottom-[22px] cursor-pointer select-none"
         >
           <img

@@ -47,15 +47,6 @@ export const CustomerReviewsSection = () => {
               customerName="Donna K. • Verified Customer"
             />
           </div>
-          <div className="items-center box-border caret-transparent flex justify-start outline-[3px] w-full mt-6 md:justify-center md:mt-10">
-            <a
-              title="Load More Reviews"
-              href="#i8ggll"
-              className="text-black text-sm font-semibold box-border caret-transparent block tracking-[-0.4px] leading-[15.4px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-center underline font-montserrat md:text-xl md:leading-[22px]"
-            >
-              Load More Reviews
-            </a>
-          </div>
         </div>
       </div>
     </div>
