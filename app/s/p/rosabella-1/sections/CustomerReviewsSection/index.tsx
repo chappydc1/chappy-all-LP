@@ -1,6 +1,10 @@
+'use client';
+import { useState } from "react"
 import { CustomerReviewCard } from "./components/CustomerReviewCard"
 
 export const CustomerReviewsSection = () => {
+  const [showMore, setShowMore] = useState(false);
+
   return (
     <div className="items-stretch box-border caret-transparent flex flex-wrap justify-start max-w-full outline-[3px] pb-[30px] px-5 md:flex-nowrap md:pb-[60px]">
       <div className="relative box-border caret-transparent basis-full grow max-w-[1328px] min-h-2.5 outline-[3px] w-min mx-auto md:basis-0">
@@ -25,6 +29,8 @@ export const CustomerReviewsSection = () => {
               </span>
             </div>
           </div>
+
+          {/* First 3 reviews */}
           <div className="box-border caret-transparent flex flex-col outline-[3px] w-full border-pink-400 mt-6 pt-6 border-t border-solid md:flex-row md:mt-10 md:pt-10">
             <CustomerReviewCard
               rating="5.0"
@@ -47,6 +53,45 @@ export const CustomerReviewsSection = () => {
               customerName="Donna K. • Verified Customer"
             />
           </div>
+
+          {/* Additional 3 reviews revealed on click */}
+          {showMore && (
+            <div className="box-border caret-transparent flex flex-col outline-[3px] w-full mt-6 md:flex-row md:mt-8">
+              <CustomerReviewCard
+                rating="5.0"
+                reviewText="I have been taking beetroot supplements for years but nothing compared to this. Rosabella Beetroot has more concentrate than anything I have tried and I can genuinely feel the difference. My legs feel lighter, my circulation is noticeably better, and I have more stamina on my daily walks."
+                customerImageUrl="/s/p/rosabella-1/110.png"
+                customerName="Margaret R. • Verified Customer"
+              />
+              <div className="box-border caret-transparent basis-6 shrink-0 min-h-[auto] min-w-[auto] outline-[3px] w-5 md:basis-5"></div>
+              <CustomerReviewCard
+                rating="5.0"
+                reviewText="My doctor suggested I look into natural ways to support my circulation and I am so glad I found this. After about three weeks my energy picked up noticeably and I stopped dreading my afternoon slump. This is now a permanent part of my routine."
+                customerImageUrl="/s/p/rosabella-1/117.png"
+                customerName="Robert K. • Verified Customer"
+              />
+              <div className="box-border caret-transparent basis-6 shrink-0 min-h-[auto] min-w-[auto] outline-[3px] w-5 md:basis-5"></div>
+              <CustomerReviewCard
+                rating="5.0"
+                reviewText="I bought this for my husband and he noticed a difference within the first two weeks. His hands and feet are warmer, he has more energy in the evenings, and he has actually started going on evening walks with me again. Cannot recommend this enough."
+                customerImageUrl="/s/p/rosabella-1/118.png"
+                customerName="Linda F. • Verified Customer"
+              />
+            </div>
+          )}
+
+          {/* Load More / Show Less button */}
+          {!showMore && (
+            <div className="items-center box-border caret-transparent flex justify-start outline-[3px] w-full mt-6 md:justify-center md:mt-10">
+              <button
+                type="button"
+                onClick={() => setShowMore(true)}
+                className="text-black text-sm font-semibold box-border caret-transparent block tracking-[-0.4px] leading-[15.4px] max-w-full min-h-[auto] min-w-[auto] outline-none text-center underline font-montserrat md:text-xl md:leading-[22px] cursor-pointer bg-transparent border-none p-0"
+              >
+                Load More Reviews
+              </button>
+            </div>
+          )}
         </div>
       </div>
     </div>
