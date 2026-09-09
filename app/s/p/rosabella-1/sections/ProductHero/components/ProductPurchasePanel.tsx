@@ -1,8 +1,16 @@
+'use client';
 import { ProductBenefits } from "./ProductBenefits"
 import { CheckoutTrustBadges } from "./CheckoutTrustBadges"
 import { ProductAccordion } from "./ProductAccordion"
 
+function getArrivalDate(): string {
+  const d = new Date();
+  d.setDate(d.getDate() + 3);
+  return d.toLocaleDateString("en-US", { month: "long", day: "numeric" });
+}
+
 export const ProductPurchasePanel = () => {
+  const arrivalDate = getArrivalDate();
   return (
     <div className="box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full mt-[23px] px-5 md:max-w-[calc(51.5%_-_35px)] md:mt-0 md:px-0">
       <div className="box-border caret-transparent outline-[3px] w-full">
@@ -34,7 +42,10 @@ export const ProductPurchasePanel = () => {
             className="text-black box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-[13px] mr-2"
           />
           <div className="text-black text-[15px] font-medium box-border caret-transparent tracking-[-0.32px] leading-[19.5px] min-h-[auto] min-w-[auto] outline-[3px] text-left font-montserrat md:text-base md:leading-[20.8px]">
-            In Stock, ready to ship - arrives in 3–5 business days
+            In Stock, ready to ship - arrives by{' '}
+            <span className="text-[15px] box-border caret-transparent leading-[19.5px] outline-[3px] md:text-base md:leading-[20.8px]">
+              {arrivalDate}
+            </span>
           </div>
         </div>
         <div className="box-border caret-transparent h-[69px] outline-[3px] w-full mt-2.5 md:h-[88px]">
