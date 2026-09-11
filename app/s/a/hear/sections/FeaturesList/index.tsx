@@ -128,7 +128,7 @@ export const HearFeaturesList = () => {
           <li
             key={i}
             className={`reveal reveal-delay-${Math.min(i + 1, 5)} bg-no-repeat caret-transparent pl-16 pb-[35px] md:pl-[74px]`}
-            style={{ backgroundImage: "url('/images/hear/miracle.png", backgroundSize: "39px 28px", backgroundPosition: "left 0%", }}>
+            style={{ backgroundImage: "url('/lp-images-files-videos-fonts/images/hear/miracle.png", backgroundSize: "39px 28px", backgroundPosition: "left 0%", }}>
             <strong className="font-bold caret-transparent">
               {f.title}
               {f.sup && <sup className="text-xs caret-transparent leading-[15.96px]">{f.sup}</sup>}

@@ -1,55 +1,55 @@
 {
   "images": {
     "ui": {
-      "menuToggle": "/images/img/menu-toggle.webp",
-      "hourGlass": "/images/img/hour-glass.png",
-      "shipIcon": "/images/img/ship-icon.png",
-      "shopping": "/images/img/shopping.png",
-      "cardsDark": "/images/img/cards-dark.webp",
-      "cards": "/images/img/cards.webp",
-      "guaranteeBadge": "/images/img/guarantee-badge.webp",
-      "newsLogos": "/images/img/news-logos.webp",
-      "avatar": "/images/img/avatar.webp",
-      "doctor": "/images/img/doctor.jpg"
+      "menuToggle": "/lp-images-files-videos-fonts/images/img/menu-toggle.webp",
+      "hourGlass": "/lp-images-files-videos-fonts/images/img/hour-glass.png",
+      "shipIcon": "/lp-images-files-videos-fonts/images/img/ship-icon.png",
+      "shopping": "/lp-images-files-videos-fonts/images/img/shopping.png",
+      "cardsDark": "/lp-images-files-videos-fonts/images/img/cards-dark.webp",
+      "cards": "/lp-images-files-videos-fonts/images/img/cards.webp",
+      "guaranteeBadge": "/lp-images-files-videos-fonts/images/img/guarantee-badge.webp",
+      "newsLogos": "/lp-images-files-videos-fonts/images/img/news-logos.webp",
+      "avatar": "/lp-images-files-videos-fonts/images/img/avatar.webp",
+      "doctor": "/lp-images-files-videos-fonts/images/img/doctor.jpg"
     },
     "badges": {
-      "gmp": "/images/img/gmp.png",
-      "fda": "/images/img/fda.png",
-      "nat": "/images/img/nat.png",
-      "foreign": "/images/img/foreign.png",
-      "gmo": "/images/img/gmo.png"
+      "gmp": "/lp-images-files-videos-fonts/images/img/gmp.png",
+      "fda": "/lp-images-files-videos-fonts/images/img/fda.png",
+      "nat": "/lp-images-files-videos-fonts/images/img/nat.png",
+      "foreign": "/lp-images-files-videos-fonts/images/img/foreign.png",
+      "gmo": "/lp-images-files-videos-fonts/images/img/gmo.png"
     },
     "bottles": {
-      "single": "/images/img/bottles/2.png",
-      "threeBottle": "/images/img/bottles/2e1.png",
-      "sixBottle": "/images/img/bottles/3e3.png"
+      "single": "/lp-images-files-videos-fonts/images/img/bottles/2.png",
+      "threeBottle": "/lp-images-files-videos-fonts/images/img/bottles/2e1.png",
+      "sixBottle": "/lp-images-files-videos-fonts/images/img/bottles/3e3.png"
     },
     "testimonials": {
-      "1f": "/images/img/depoimento/1f.jpg",
-      "102": "/images/img/depoimento/102.jpg",
-      "3m": "/images/img/depoimento/3m.jpg",
-      "4f": "/images/img/depoimento/4f.jpg",
-      "5f": "/images/img/depoimento/5f.jpg"
+      "1f": "/lp-images-files-videos-fonts/images/img/depoimento/1f.jpg",
+      "102": "/lp-images-files-videos-fonts/images/img/depoimento/102.jpg",
+      "3m": "/lp-images-files-videos-fonts/images/img/depoimento/3m.jpg",
+      "4f": "/lp-images-files-videos-fonts/images/img/depoimento/4f.jpg",
+      "5f": "/lp-images-files-videos-fonts/images/img/depoimento/5f.jpg"
     },
     "comments": {
       "men": [
-        "/images/img/coments/man/03.jpg",
-        "/images/img/coments/man/04.jpg",
-        "/images/img/coments/man/05.jpg",
-        "/images/img/coments/man/06.jpg",
-        "/images/img/coments/man/07.jpg",
-        "/images/img/coments/man/09.jpg",
-        "/images/img/coments/man/10.jpg",
-        "/images/img/coments/man/11.jpg"
+        "/lp-images-files-videos-fonts/images/img/coments/man/03.jpg",
+        "/lp-images-files-videos-fonts/images/img/coments/man/04.jpg",
+        "/lp-images-files-videos-fonts/images/img/coments/man/05.jpg",
+        "/lp-images-files-videos-fonts/images/img/coments/man/06.jpg",
+        "/lp-images-files-videos-fonts/images/img/coments/man/07.jpg",
+        "/lp-images-files-videos-fonts/images/img/coments/man/09.jpg",
+        "/lp-images-files-videos-fonts/images/img/coments/man/10.jpg",
+        "/lp-images-files-videos-fonts/images/img/coments/man/11.jpg"
       ],
       "women": [
-        "/images/img/coments/woman/03.jpg",
-        "/images/img/coments/woman/04.jpg",
-        "/images/img/coments/woman/05.jpg",
-        "/images/img/coments/woman/07.jpg",
-        "/images/img/coments/woman/08.jpg",
-        "/images/img/coments/woman/09.jpg",
-        "/images/img/coments/woman/10.jpg"
+        "/lp-images-files-videos-fonts/images/img/coments/woman/03.jpg",
+        "/lp-images-files-videos-fonts/images/img/coments/woman/04.jpg",
+        "/lp-images-files-videos-fonts/images/img/coments/woman/05.jpg",
+        "/lp-images-files-videos-fonts/images/img/coments/woman/07.jpg",
+        "/lp-images-files-videos-fonts/images/img/coments/woman/08.jpg",
+        "/lp-images-files-videos-fonts/images/img/coments/woman/09.jpg",
+        "/lp-images-files-videos-fonts/images/img/coments/woman/10.jpg"
       ]
     }
   },
@@ -58,9 +58,9 @@
     "playerId": "69cc2d96a987917cc95e93c3",
     "oid": "b5e8472d-3421-4675-a219-1ae1b636b21f",
     "videoId": "69cc2cb4bdeb86fbc2c1f6b2",
-    "poster": "/images/diabetes/poster.jpg",
-    "cover": "/images/diabetes/cover.jpg",
-    "thumbnail": "/images/diabetes/thumbnail.jpg",
+    "poster": "/lp-images-files-videos-fonts/images/diabetes/poster.jpg",
+    "cover": "/lp-images-files-videos-fonts/images/diabetes/cover.jpg",
+    "thumbnail": "/lp-images-files-videos-fonts/images/diabetes/thumbnail.jpg",
     "embedScript": "https://scripts.converteai.net/b5e8472d-3421-4675-a219-1ae1b636b21f/players/69cc2d96a987917cc95e93c3/player.js"
   },
   "fonts": {

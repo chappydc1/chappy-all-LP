@@ -38,14 +38,14 @@ export const LoraReviewsSummary = () => {
                   <div className="items-center box-border caret-transparent flex min-h-[auto] min-w-[auto] outline-[3px]">
                     {[...Array(5)].map((_, i) => (
                       <div key={i} className="box-border caret-transparent h-[27px] min-h-[auto] min-w-[auto] outline-[3px] w-[27px] p-[3px]">
-                        <img src="/images/gruns/icon-25.svg" alt="Star" className="box-border caret-transparent outline-[3px] m-auto" />
+                        <img src="/lp-images-files-videos-fonts/images/gruns/icon-25.svg" alt="Star" className="box-border caret-transparent outline-[3px] m-auto" />
                       </div>
                     ))}
                   </div>
                   <div className="absolute items-center box-border caret-transparent flex h-full outline-[3px] w-[96%] overflow-hidden left-0 top-0">
                     {[...Array(5)].map((_, i) => (
                       <div key={i} className="box-border caret-transparent shrink-0 h-[27px] min-h-[auto] min-w-[auto] outline-[3px] w-[27px] p-[3px]">
-                        <img src="/images/gruns/icon-26.svg" alt="Star filled" className="box-border caret-transparent outline-[3px] m-auto" />
+                        <img src="/lp-images-files-videos-fonts/images/gruns/icon-26.svg" alt="Star filled" className="box-border caret-transparent outline-[3px] m-auto" />
                       </div>
                     ))}
                   </div>

@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: "These Super Foods are to Boost Penis Growth!",
   description:
     "Ultimapeak Performance Gummies combine Shilajit, Ashwagandha, Maca, L-Arginine, and Ginger Root to support testosterone, blood circulation, and men's performance.",
-  icons: { icon: "/favicons/mens-health.svg" },
+  icons: { icon: "/lp-images-files-videos-fonts/favicons/mens-health.svg" },
 };
 
 export default function MensHealthLayout({ children }: { children: React.ReactNode }) {

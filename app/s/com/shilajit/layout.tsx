@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  icons: { icon: "/favicons/shilajit.svg" },
+  icons: { icon: "/lp-images-files-videos-fonts/favicons/shilajit.svg" },
 };
 
 export default function ShilajitLayout({ children }: { children: React.ReactNode }) {

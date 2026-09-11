@@ -7,7 +7,7 @@ export const FealsMobileHeader = () => {
           className="appearance-none content-center items-center bg-transparent caret-transparent flex h-full justify-start min-w-[60px] outline-[3px] text-center text-ellipsis text-nowrap pl-0"
         >
           <img
-            src="/images/feals/icon-2.svg"
+            src="/lp-images-files-videos-fonts/images/feals/icon-2.svg"
             alt="Icon"
             className="box-border caret-transparent h-[30px] outline-[3px] text-nowrap w-5"
           />
@@ -30,7 +30,7 @@ export const FealsMobileHeader = () => {
           className="content-center items-center box-border caret-transparent flex h-full justify-end min-w-[60px] outline-[3px]"
         >
           <img
-            src="/images/feals/icon-3.svg"
+            src="/lp-images-files-videos-fonts/images/feals/icon-3.svg"
             alt="Icon"
             className="box-border caret-transparent h-[30px] outline-[3px] w-5"
           />

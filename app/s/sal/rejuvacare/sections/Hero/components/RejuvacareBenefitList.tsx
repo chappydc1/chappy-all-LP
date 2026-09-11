@@ -16,7 +16,7 @@ export const RejuvacareBenefitList = (props: RejuvacareBenefitListProps) => {
       <div className="items-center box-border caret-transparent flex justify-start min-h-[auto] min-w-[auto] outline-[3px] w-9">
         <img
           title=""
-          src="/images/rejuvacare/1722846383829_icon_check.webp"
+          src="/lp-images-files-videos-fonts/images/rejuvacare/1722846383829_icon_check.webp"
           alt=""
           className={`text-black box-border caret-transparent h-[26px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-[26px] mb-px md:my-0 ${props.imageVariant}`}
         />

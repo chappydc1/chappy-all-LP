@@ -8,7 +8,7 @@ export const PrimepicksSidebar = () => {
         <PrimepicksSidebarScorePanel
           variant="review"
           score="9.8"
-          starsImageUrl="/images/primepicks/green-stars.svg"
+          starsImageUrl="/lp-images-files-videos-fonts/images/primepicks/green-stars.svg"
           rating="Excellent"
           reviewCount="9,137 Customer Reviews"
         />
@@ -50,52 +50,52 @@ export const PrimepicksSidebar = () => {
           items={[
             {
               iconSrc:
-                "/images/primepicks/icon-3.svg",
+                "/lp-images-files-videos-fonts/images/primepicks/icon-3.svg",
               text: "Ultra-slim 1.8mm profile",
             },
             {
               iconSrc:
-                "/images/primepicks/icon-3.svg",
+                "/lp-images-files-videos-fonts/images/primepicks/icon-3.svg",
               text: "5-month battery life",
             },
             {
               iconSrc:
-                "/images/primepicks/icon-3.svg",
+                "/lp-images-files-videos-fonts/images/primepicks/icon-3.svg",
               text: "Fast wireless charging",
             },
             {
               iconSrc:
-                "/images/primepicks/icon-3.svg",
+                "/lp-images-files-videos-fonts/images/primepicks/icon-3.svg",
               text: "Left-behind alerts",
             },
             {
               iconSrc:
-                "/images/primepicks/icon-3.svg",
+                "/lp-images-files-videos-fonts/images/primepicks/icon-3.svg",
               text: "No subscription fees",
             },
             {
               iconSrc:
-                "/images/primepicks/icon-3.svg",
+                "/lp-images-files-videos-fonts/images/primepicks/icon-3.svg",
               text: "IP68 water resistant",
             },
             {
               iconSrc:
-                "/images/primepicks/icon-3.svg",
+                "/lp-images-files-videos-fonts/images/primepicks/icon-3.svg",
               text: "Apple Find My certified",
             },
             {
               iconSrc:
-                "/images/primepicks/icon-3.svg",
+                "/lp-images-files-videos-fonts/images/primepicks/icon-3.svg",
               text: "Global tracking network",
             },
             {
               iconSrc:
-                "/images/primepicks/icon-3.svg",
+                "/lp-images-files-videos-fonts/images/primepicks/icon-3.svg",
               text: "Premium card material",
             },
             {
               iconSrc:
-                "/images/primepicks/icon-3.svg",
+                "/lp-images-files-videos-fonts/images/primepicks/icon-3.svg",
               text: "Loud ring-to-find sound",
             },
           ]}
@@ -107,7 +107,7 @@ export const PrimepicksSidebar = () => {
           items={[
             {
               iconSrc:
-                "/images/primepicks/icon-4.svg",
+                "/lp-images-files-videos-fonts/images/primepicks/icon-4.svg",
               text: "Often out of stock due to high demand",
             },
           ]}
@@ -122,7 +122,7 @@ export const PrimepicksSidebar = () => {
           </span>
           <span className="box-border caret-transparent block min-h-0 min-w-0 md:min-h-[auto] md:min-w-[auto]">
             <img
-              src="/images/primepicks/icon-1.svg"
+              src="/lp-images-files-videos-fonts/images/primepicks/icon-1.svg"
               alt="Icon"
               className="box-border caret-transparent h-3.5 w-[15px]"
             />

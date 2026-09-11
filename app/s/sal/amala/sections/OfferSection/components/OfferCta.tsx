@@ -140,7 +140,7 @@ export const OfferCta = () => {
               </div>
               <img
                 title=""
-                src="/images/amala/1762909958048_doctor.webp"
+                src="/lp-images-files-videos-fonts/images/amala/1762909958048_doctor.webp"
                 alt=""
                 className="text-black box-border caret-transparent h-3/6 max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-2/5"
               />

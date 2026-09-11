@@ -25,7 +25,7 @@ export const EmmaVideoModal = () => {
           >
             close{" "}
             <img
-              src="/images/emma/icon-7.svg"
+              src="/lp-images-files-videos-fonts/images/emma/icon-7.svg"
               alt="Close"
               className="box-border h-[15px] w-3.5 ml-1"
             />

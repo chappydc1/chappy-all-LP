@@ -9,7 +9,7 @@ const benefitImageConfigs = [
   {
     mediaLayoutClassName:
       "box-border caret-transparent gap-x-2 grid col-end-[image] col-start-[image] row-end-[image] row-start-[image] grid-cols-[repeat(1,minmax(0px,1fr))] h-60 min-h-[auto] min-w-[auto] outline-[3px] overflow-hidden mb-4 md:min-h-[440px] md:mb-0",
-    primaryImageUrl: "/images/gruns/118.jpg",
+    primaryImageUrl: "/lp-images-files-videos-fonts/images/gruns/118.jpg",
     primaryImageAlt: "Four quadrants showing lemons, mushrooms, vegetables, and berries.",
     primaryImageClassName:
       "aspect-[auto_645_/_516] box-border caret-transparent h-60 max-w-full min-h-0 object-cover object-[50.0638%_50.0814%] outline-[3px] w-full overflow-hidden rounded-bl rounded-br rounded-tl rounded-tr md:h-full md:min-h-[440px]",
@@ -19,19 +19,19 @@ const benefitImageConfigs = [
     primaryImageUrl: "/lp-images-files-videos-fonts/lis/gruns/images/showing-bottle-lora.png",
     primaryImageAlt: "Woman showing a Meno liquid drops bottle",
     primaryImageClassName: "aspect-[auto_300_/_420] object-[49.121%_39.746%]",
-    secondaryImageUrl: "/images/gruns/135.png",
+    secondaryImageUrl: "/lp-images-files-videos-fonts/images/gruns/135.png",
     secondaryImageAlt: "",
     secondaryImageClassName: "object-[49.414%_52.148%]",
   },
   {
     mediaLayoutClassName: "grid-cols-[repeat(1,minmax(0px,1fr))]",
-    primaryImageUrl: "/images/gruns/5.webp",
+    primaryImageUrl: "/lp-images-files-videos-fonts/images/gruns/5.webp",
     primaryImageAlt: "Woman practicing yoga on a sandy beach at sunset",
     primaryImageClassName: "aspect-[auto_645_/_645] object-[68.9072%_4.518%]",
   },
   {
     mediaLayoutClassName: "grid-cols-[repeat(1,minmax(0px,1fr))]",
-    primaryImageUrl: "/images/gruns/4.webp",
+    primaryImageUrl: "/lp-images-files-videos-fonts/images/gruns/4.webp",
     primaryImageAlt: "",
     primaryImageClassName: "aspect-[auto_645_/_645] object-[49.414%_66.406%]",
   },

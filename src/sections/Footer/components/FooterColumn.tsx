@@ -47,7 +47,7 @@ export const FooterColumn = (props: FooterColumnProps) => {
                 className="text-white bg-transparent caret-transparent block h-6 min-h-[auto] min-w-[auto] text-center w-6 ml-10 p-0 md:min-h-0 md:min-w-0"
               >
                 <img
-                  src="/images/product/icon-31.svg"
+                  src="/lp-images-files-videos-fonts/images/product/icon-31.svg"
                   alt="Icon"
                   className="box-border caret-transparent h-6 w-6"
                 />

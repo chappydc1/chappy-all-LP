@@ -11,7 +11,7 @@ export const Footer = () => {
             <div className="box-border caret-transparent gap-x-[normal] grid grid-cols-[repeat(2,minmax(0px,1fr))] gap-y-[normal] md:gap-x-10 md:grid-cols-[repeat(12,minmax(0px,1fr))] md:gap-y-10 md:items-start">
               <FooterNewsletter />
               <FooterColumn
-                iconUrl="/images/product/icon-30.svg"
+                iconUrl="/lp-images-files-videos-fonts/images/product/icon-30.svg"
                 iconAlt="Icon"
                 title="Learn"
                 textOnlyTitle={true}
@@ -36,7 +36,7 @@ export const Footer = () => {
                 isMobile={true}
               />
               <FooterColumn
-                iconUrl="/images/product/icon-30.svg"
+                iconUrl="/lp-images-files-videos-fonts/images/product/icon-30.svg"
                 iconAlt="Icon"
                 title="Learn"
                 textOnlyTitle={true}
@@ -60,7 +60,7 @@ export const Footer = () => {
                 ]}
               />
               <FooterColumn
-                iconUrl="/images/product/icon-32.svg"
+                iconUrl="/lp-images-files-videos-fonts/images/product/icon-32.svg"
                 iconAlt="Icon"
                 title="Connect"
                 textOnlyTitle={true}
@@ -89,7 +89,7 @@ export const Footer = () => {
                 ]}
               />
               <FooterColumn
-                iconUrl="/images/product/icon-30.svg"
+                iconUrl="/lp-images-files-videos-fonts/images/product/icon-30.svg"
                 iconAlt="Icon"
                 title="Support"
                 textOnlyTitle={true}
@@ -118,7 +118,7 @@ export const Footer = () => {
                 ]}
               />
               <FooterColumn
-                iconUrl="/images/product/icon-30.svg"
+                iconUrl="/lp-images-files-videos-fonts/images/product/icon-30.svg"
                 iconAlt="Icon"
                 title="Support"
                 textOnlyTitle={true}

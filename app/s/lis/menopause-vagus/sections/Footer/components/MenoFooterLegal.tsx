@@ -11,7 +11,7 @@ export const MenoFooterLegal = (props: MenoFooterLegalProps) => {
       "gap-x-[normal] gap-y-[normal] md:gap-x-8 md:gap-y-8" ? (
         <>
           <img
-            src="/images/gruns/40.svg"
+            src="/lp-images-files-videos-fonts/images/gruns/40.svg"
             alt="Meno Logo in yellow"
             className="aspect-[auto_300_/_112] box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full md:max-w-60"
           />
@@ -27,7 +27,7 @@ export const MenoFooterLegal = (props: MenoFooterLegalProps) => {
                 className="text-white box-border caret-transparent outline-[3px]"
               >
                 <img
-                  src="/images/gruns/icon-33.svg"
+                  src="/lp-images-files-videos-fonts/images/gruns/icon-33.svg"
                   alt="Icon"
                   className="box-border caret-transparent h-[34px] outline-[3px] w-[34px]"
                 />
@@ -40,7 +40,7 @@ export const MenoFooterLegal = (props: MenoFooterLegalProps) => {
                 className="text-white box-border caret-transparent outline-[3px]"
               >
                 <img
-                  src="/images/gruns/icon-34.svg"
+                  src="/lp-images-files-videos-fonts/images/gruns/icon-34.svg"
                   alt="Icon"
                   className="box-border caret-transparent h-[34px] outline-[3px] w-[34px]"
                 />
@@ -53,7 +53,7 @@ export const MenoFooterLegal = (props: MenoFooterLegalProps) => {
                 className="text-white box-border caret-transparent outline-[3px]"
               >
                 <img
-                  src="/images/gruns/icon-35.svg"
+                  src="/lp-images-files-videos-fonts/images/gruns/icon-35.svg"
                   alt="Icon"
                   className="box-border caret-transparent h-[34px] outline-[3px] w-[34px]"
                 />
@@ -66,7 +66,7 @@ export const MenoFooterLegal = (props: MenoFooterLegalProps) => {
                 className="text-white box-border caret-transparent outline-[3px]"
               >
                 <img
-                  src="/images/gruns/icon-36.svg"
+                  src="/lp-images-files-videos-fonts/images/gruns/icon-36.svg"
                   alt="Icon"
                   className="box-border caret-transparent h-[34px] outline-[3px] w-[34px]"
                 />
@@ -144,7 +144,7 @@ export const MenoFooterLegal = (props: MenoFooterLegalProps) => {
               >
                 My Privacy Choices
                 <img
-                  src="/images/gruns/datagrail-dnsos-toggle-icon.webp"
+                  src="/lp-images-files-videos-fonts/images/gruns/datagrail-dnsos-toggle-icon.webp"
                   alt="California Consumer Privacy Act (CCPA) Opt-Out Icon"
                   className="aspect-[auto_30_/_17] box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-[30px] ml-1"
                 />

@@ -30,7 +30,7 @@ export const CarouselControls = ({ onPrev, onNext, currentPage, totalPages }: Ca
           className="text-blue-600 items-center box-border caret-transparent flex h-7 justify-center min-h-[auto] min-w-[auto] outline-[3px] w-7 z-10 border rounded-[50%] border-solid right-1 top-2/4 disabled:opacity-30 cursor-pointer"
         >
           <img
-            src="/s/p/rosabella-1/icon-carousel-next.svg"
+            src="/lp-images-files-videos-fonts/s/p/rosabella-1/icon-carousel-next.svg"
             alt="Icon"
             className="box-border caret-transparent h-4 object-contain outline-[3px] pointer-events-none w-4"
           />
@@ -43,7 +43,7 @@ export const CarouselControls = ({ onPrev, onNext, currentPage, totalPages }: Ca
           className="text-blue-600 items-center box-border caret-transparent flex h-7 justify-center min-h-[auto] min-w-[auto] outline-[3px] w-7 z-10 border rounded-[50%] border-solid left-1 top-2/4 disabled:opacity-30 cursor-pointer"
         >
           <img
-            src="/s/p/rosabella-1/icon-carousel-prev.svg"
+            src="/lp-images-files-videos-fonts/s/p/rosabella-1/icon-carousel-prev.svg"
             alt="Icon"
             className="box-border caret-transparent h-4 object-contain outline-[3px] w-4 -scale-100"
           />

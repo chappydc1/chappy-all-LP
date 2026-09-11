@@ -4,7 +4,7 @@ export const metadata: Metadata = {
   title: "Reclaim Your Energy & Focus After 40 | Spartan",
   description:
     "NMN clinically shown to restore cellular NAD+ levels — reversing the energy, focus, and recovery decline men over 40 can't outwork. Get 50% off today.",
-  icons: { icon: "/favicons/spartan.svg" },
+  icons: { icon: "/lp-images-files-videos-fonts/favicons/spartan.svg" },
 };
 
 export default function SpartanLayout({ children }: { children: React.ReactNode }) {

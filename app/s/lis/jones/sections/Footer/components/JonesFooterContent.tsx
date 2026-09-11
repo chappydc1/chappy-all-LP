@@ -54,25 +54,25 @@ export const JonesFooterContent = () => {
           {
             href: "https://www.instagram.com/jonesroadbeauty/",
             label: "Instagram",
-            iconSrc: "/images/jones/icon-4.svg",
+            iconSrc: "/lp-images-files-videos-fonts/images/jones/icon-4.svg",
             iconAlt: "Icon",
           },
           {
             href: "https://www.facebook.com/jonesroadbeauty",
             label: "Facebook",
-            iconSrc: "/images/jones/icon-5.svg",
+            iconSrc: "/lp-images-files-videos-fonts/images/jones/icon-5.svg",
             iconAlt: "Icon",
           },
           {
             href: "https://twitter.com/jonesroadbeauty",
             label: "Twitter",
-            iconSrc: "/images/jones/icon-6.svg",
+            iconSrc: "/lp-images-files-videos-fonts/images/jones/icon-6.svg",
             iconAlt: "Icon",
           },
           {
             href: "https://www.pinterest.com/jonesroadbeauty/",
             label: "Pinterest",
-            iconSrc: "/images/jones/icon-7.svg",
+            iconSrc: "/lp-images-files-videos-fonts/images/jones/icon-7.svg",
             iconAlt: "Icon",
           },
         ]}

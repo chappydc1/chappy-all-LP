@@ -4,12 +4,12 @@ import { Check } from "lucide-react";
 import { useCheckout } from "@/checkout-clickbank/components/CheckoutContext";
 import { PayPalIcon } from "@/checkout-clickbank/components/PaymentBrandIcons";
 
-const TRUST_BADGE_BASE = "/images/clickbank-checkout";
+const TRUST_BADGE_BASE = "/lp-images-files-videos-fonts/images/clickbank-checkout";
 
 const CART_ITEM = {
   name: "Gruns Superfood Gummies – 3 Bottle Bundle",
   price: "$79.99",
-  image: "/images/clickbank-checkout/product.webp",
+  image: "/lp-images-files-videos-fonts/images/clickbank-checkout/product.webp",
 };
 
 const TOTALS = {

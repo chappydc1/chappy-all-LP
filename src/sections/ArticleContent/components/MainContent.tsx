@@ -21,7 +21,7 @@ export const MainContent = () => {
         variantClass="text-[26px] leading-8 mt-[30px] md:text-[32px] md:leading-[44.8px]"
       />
       <ImageSection
-        imageSrc="/images/spartan-nmn/discount.png"
+        imageSrc="/lp-images-files-videos-fonts/images/spartan-nmn/discount.png"
         innerDivClass="pt-[54%]"
         wrapperDivClass="h-full w-full"
         imageClass="float-left"
@@ -68,7 +68,7 @@ export const MainContent = () => {
         showBreak={true}
       />
       <ImageSection
-        imageSrc="/images/spartan-nmn/Results.png"
+        imageSrc="/lp-images-files-videos-fonts/images/spartan-nmn/Results.png"
         innerDivClass="pt-[56.46%]"
         wrapperDivClass="h-full w-full"
         imageClass="float-left"
@@ -91,7 +91,7 @@ export const MainContent = () => {
       />
       <img
         title=""
-        src="/images/spartan-nmn/Go-Make-a-Mistake-and-Be-a-Disappointment.webp"
+        src="/lp-images-files-videos-fonts/images/spartan-nmn/Go-Make-a-Mistake-and-Be-a-Disappointment.webp"
         href=""
         alt=""
         className="text-black box-border caret-transparent inline max-w-full w-full border border-zinc-400 border-solid"
@@ -115,7 +115,7 @@ export const MainContent = () => {
         variantClass="text-[26px] leading-8 mt-[30px] md:text-[33px] md:leading-[46.2px]"
       />
       <VideoSection
-        videoSrc="/video/spartan-nmn/30day.mp4"
+        videoSrc="/lp-images-files-videos-fonts/video/spartan-nmn/30day.mp4"
         outerClassName="box-border caret-transparent w-full py-3"
         innerWrapperClassName="pt-[56.46%]"
         middleWrapperClassName="h-full w-full"
@@ -139,7 +139,7 @@ export const MainContent = () => {
       />
       <img
         title=""
-        src="/images/spartan-nmn/discount.png"
+        src="/lp-images-files-videos-fonts/images/spartan-nmn/discount.png"
         href=""
         alt=""
         className="text-black box-border caret-transparent inline max-w-full w-full"
@@ -161,7 +161,7 @@ export const MainContent = () => {
       <ArticleBody variant="support" />
       <img
         title=""
-        src="/images/spartan-nmn/showcase.png"
+        src="/lp-images-files-videos-fonts/images/spartan-nmn/showcase.png"
         href=""
         alt=""
         className="text-black box-border caret-transparent inline max-w-full w-full mt-[15px] mb-4 rounded-[10px] md:mb-[26px]"

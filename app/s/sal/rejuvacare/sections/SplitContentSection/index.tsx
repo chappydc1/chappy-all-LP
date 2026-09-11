@@ -4,7 +4,7 @@ import { RejuvacareSplitText } from "../../components/RejuvacareSplitText";
 export const RejuvacareSplitContentSection = () => {
   return (
     <div className="items-center self-center bg-neutral-100 box-border caret-transparent flex flex-wrap justify-center max-w-full outline-[3px] md:flex-nowrap">
-      <div className="relative bg-[url('/images/rejuvacare/1722936415316_bg_gradient.webp">
+      <div className="relative bg-[url('/lp-images-files-videos-fonts/images/rejuvacare/1722936415316_bg_gradient.webp">
         <div className="items-center box-border caret-transparent flex flex-col outline-[3px] w-full p-px md:flex-row-reverse">
           <RejuvacareSplitMedia
             containerVariant="flex flex-col min-h-[auto] min-w-[auto] pl-0 md:pl-5"
@@ -12,7 +12,7 @@ export const RejuvacareSplitContentSection = () => {
             titleVariant="min-h-[auto] min-w-[auto] mb-2.5 pr-[30px] md:min-h-0 md:min-w-0 md:pr-0"
             mediaContainerVariant="flex flex-col-reverse min-h-[auto] min-w-[auto] rounded-[15px] md:flex-col md:mt-0 before:min-h-[auto] before:min-w-[auto]"
             videoSrc="https://cdn.shopify.com/videos/c/o/v/9d9035fc73f84f1e9b88fff4923b298a.mp4"
-            videoPoster="/images/rejuvacare/1728697926859_crippling_pain_poster.webp"
+            videoPoster="/lp-images-files-videos-fonts/images/rejuvacare/1728697926859_crippling_pain_poster.webp"
             videoVariant="h-auto md:h-full"
           />
           <RejuvacareSplitText

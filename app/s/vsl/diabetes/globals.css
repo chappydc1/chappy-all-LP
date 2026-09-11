@@ -5,8 +5,8 @@
 @font-face {
   font-family: 'bootstrap-icons';
   src:
-    url('/fonts/bootstrap-icons.woff2') format('woff2'),
-    url('/fonts/bootstrap-icons.woff') format('woff');
+    url('/lp-images-files-videos-fonts/fonts/bootstrap-icons.woff2') format('woff2'),
+    url('/lp-images-files-videos-fonts/fonts/bootstrap-icons.woff') format('woff');
 }
 
 @layer base {

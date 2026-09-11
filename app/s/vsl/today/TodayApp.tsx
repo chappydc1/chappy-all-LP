@@ -13,7 +13,7 @@ export const TodayApp = () => {
       <TodayCommentsSection />
       <TodayFooter />
       <img
-        src="/images/today/background_netting.webp"
+        src="/lp-images-files-videos-fonts/images/today/background_netting.webp"
         alt=""
         className="fixed box-border caret-transparent h-[1000px] object-cover object-[50%_0%] outline-[3px] w-full z-[-1] left-0 top-0"
       />

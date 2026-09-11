@@ -27,7 +27,7 @@ export const NebrooInvisibleSection = () => {
       {/* Image — right */}
       <div className="w-full md:flex-1">
         <img
-          src="/images/nebroo/1739407843738_Nearly_Invisible_1_.webp"
+          src="/lp-images-files-videos-fonts/images/nebroo/1739407843738_Nearly_Invisible_1_.webp"
           alt="Nearly Invisible hearing aid in ear"
           className="w-full rounded-[10px] object-cover"
         />

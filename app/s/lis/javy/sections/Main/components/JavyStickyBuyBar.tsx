@@ -39,7 +39,7 @@ export const JavyStickyBuyBar = () => {
               </div>
               <div className="absolute items-center box-border flex-col h-6 justify-center w-6 right-6">
                 <img
-                  src="/images/javy/icon-1.svg"
+                  src="/lp-images-files-videos-fonts/images/javy/icon-1.svg"
                   alt="Arrow"
                   className="box-border inline h-full align-baseline w-full"
                 />
@@ -48,7 +48,7 @@ export const JavyStickyBuyBar = () => {
             <div className="items-center box-border gap-x-1.5 flex justify-center min-h-[auto] min-w-[auto] gap-y-1.5 w-full mt-2">
               <div className="box-border h-[18px] min-h-[auto] min-w-[auto] w-[18px]">
                 <img
-                  src="/images/javy/icon-4.svg"
+                  src="/lp-images-files-videos-fonts/images/javy/icon-4.svg"
                   alt=""
                   className="box-border inline h-full align-baseline w-full"
                 />

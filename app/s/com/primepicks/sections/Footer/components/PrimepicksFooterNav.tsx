@@ -3,7 +3,7 @@ export const PrimepicksFooterNav = () => {
     <div className="items-center border-t-zinc-100 box-border caret-transparent flex flex-col justify-center py-4 border-t border-solid md:flex-row md:justify-between">
       <div className="box-border caret-transparent h-6 min-h-[auto] min-w-[auto]">
         <img
-          src="/images/primepicks/PrimePicks_logo_black.svg"
+          src="/lp-images-files-videos-fonts/images/primepicks/PrimePicks_logo_black.svg"
           alt="PrimePicks.Review"
           className="aspect-[auto_232_/_24] box-border caret-transparent h-full max-w-full w-[232px]"
         />

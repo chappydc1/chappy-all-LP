@@ -1,60 +1,60 @@
 {
-  "logo": "/images/nexa/1764951851636_v2.png",
-  "flag": "/images/nexa/1729690210975_1713260533_1681578148_flag.webp",
+  "logo": "/lp-images-files-videos-fonts/images/nexa/1764951851636_v2.png",
+  "flag": "/lp-images-files-videos-fonts/images/nexa/1729690210975_1713260533_1681578148_flag.webp",
   "meta": {
     "videoUrl": "https://cdn.shopify.com/videos/c/o/v/8f5990bd8b094420804a316b3b9305c2.mp4"
   },
   "header": {
-    "ratingsStars": "/images/nexa/1729049065435_1716978858_1711369581080_stars.webp",
-    "mainImage": "/images/nexa/1739882427680_22.jpg",
-    "authorImage": "/images/nexa/1732491029178_1724369471_1723971044_1718091346_avatar_2.jpg.webp",
-    "verifiedIcon": "/images/nexa/1729049957051_1718032241_1707336831448_greentick.webp"
+    "ratingsStars": "/lp-images-files-videos-fonts/images/nexa/1729049065435_1716978858_1711369581080_stars.webp",
+    "mainImage": "/lp-images-files-videos-fonts/images/nexa/1739882427680_22.jpg",
+    "authorImage": "/lp-images-files-videos-fonts/images/nexa/1732491029178_1724369471_1723971044_1718091346_avatar_2.jpg.webp",
+    "verifiedIcon": "/lp-images-files-videos-fonts/images/nexa/1729049957051_1718032241_1707336831448_greentick.webp"
   },
   "article": {
-    "spendStats": "/images/nexa/1739889840242_7777.webp",
-    "saveCar": "/images/nexa/1739889949798_9909990.webp",
-    "cleanPolish": "/images/nexa/1739890412191_modern_black_automobile_before_a.jpg",
-    "rustScratches": "/images/nexa/1765200510686_9.webp",
-    "whyChoose": "/images/nexa/1739890637695_honda_civic_before_and_after.jpg"
+    "spendStats": "/lp-images-files-videos-fonts/images/nexa/1739889840242_7777.webp",
+    "saveCar": "/lp-images-files-videos-fonts/images/nexa/1739889949798_9909990.webp",
+    "cleanPolish": "/lp-images-files-videos-fonts/images/nexa/1739890412191_modern_black_automobile_before_a.jpg",
+    "rustScratches": "/lp-images-files-videos-fonts/images/nexa/1765200510686_9.webp",
+    "whyChoose": "/lp-images-files-videos-fonts/images/nexa/1739890637695_honda_civic_before_and_after.jpg"
   },
   "testimonials": {
-    "userApproveIcon": "/images/nexa/1732520123546_1723972557_user_approve.webp",
+    "userApproveIcon": "/lp-images-files-videos-fonts/images/nexa/1732520123546_1723972557_user_approve.webp",
     "images": [
-      "/images/nexa/1739865958181_1731307929_1731236016_before_and_after_blac.webp",
-      "/images/nexa/1739865959763_1731307930_1731236124_333.webp",
-      "/images/nexa/1739865961726_1731307932_1731236019_Before_and_After_red.webp"
+      "/lp-images-files-videos-fonts/images/nexa/1739865958181_1731307929_1731236016_before_and_after_blac.webp",
+      "/lp-images-files-videos-fonts/images/nexa/1739865959763_1731307930_1731236124_333.webp",
+      "/lp-images-files-videos-fonts/images/nexa/1739865961726_1731307932_1731236019_Before_and_After_red.webp"
     ]
   },
   "productCard": {
-    "productImage": "/images/nexa/1765200385645_8.png",
-    "stars": "/images/nexa/1729108486626_1713260185_1711912960_stars.webp",
-    "star5": "/images/nexa/1729108873065_1713260298_1711913373_5_star.webp",
-    "star4": "/images/nexa/1738566304384_1713265630_1711913433_4_star.webp",
-    "star3": "/images/nexa/1738566305836_1713265749_1711913439_3_star.webp",
-    "star2": "/images/nexa/1738566307523_1713265753_1711913445_2_star.webp",
-    "star1": "/images/nexa/1738566309027_1713265827_1711913451_1_star.webp"
+    "productImage": "/lp-images-files-videos-fonts/images/nexa/1765200385645_8.png",
+    "stars": "/lp-images-files-videos-fonts/images/nexa/1729108486626_1713260185_1711912960_stars.webp",
+    "star5": "/lp-images-files-videos-fonts/images/nexa/1729108873065_1713260298_1711913373_5_star.webp",
+    "star4": "/lp-images-files-videos-fonts/images/nexa/1738566304384_1713265630_1711913433_4_star.webp",
+    "star3": "/lp-images-files-videos-fonts/images/nexa/1738566305836_1713265749_1711913439_3_star.webp",
+    "star2": "/lp-images-files-videos-fonts/images/nexa/1738566307523_1713265753_1711913445_2_star.webp",
+    "star1": "/lp-images-files-videos-fonts/images/nexa/1738566309027_1713265827_1711913451_1_star.webp"
   },
   "comments": {
     "avatars": {
-      "wilma": "/images/nexa/1729072653432_1689522054_1.webp",
-      "doris": "/images/nexa/1729172389910_1689523955_9_1_120x120.webp",
-      "skyler": "/images/nexa/1729172608070_1689524009_4_120x120.webp",
-      "marie": "/images/nexa/1729172681324_1689524278_5_120x120.webp",
-      "anna_boyd": "/images/nexa/1729276565818_1690673126_thumb_Irina_Travkina_executive_r.webp",
-      "david": "/images/nexa/1729276716603_1689524233_7_120x120.webp",
-      "alferd": "/images/nexa/1729277064849_1689524495_9_120x120.webp",
-      "edith": "/images/nexa/1729277123750_1689524512_1_1_120x120.webp",
-      "debra": "/images/nexa/1729277189377_1691413209_Anabel_Lorenzo.webp",
-      "agnes": "/images/nexa/1729277325463_1689524881_3_1_120x120.webp",
-      "barbara": "/images/nexa/1729277531271_1689525035_21_120x120.webp",
-      "harry": "/images/nexa/1729277610957_1689524987_19_120x120.webp",
-      "bridget": "/images/nexa/1729277679683_1689525025_20_120x120.webp",
-      "anna_madison": "/images/nexa/1729277723585_1689524890_5_1_120x120.webp",
-      "clara": "/images/nexa/1729277725437_1689525125_6_1_120x120.webp",
-      "dana": "/images/nexa/1729277728866_1690673012_brave_woman.webp",
-      "katharine": "/images/nexa/1729277730999_1690673025_eyJwYXRoIjoiaWhoLWhlYWx0aGNhcmUt.webp",
-      "amanda": "/images/nexa/1729277738316_1690673034_depositphotos_90874904_stock_pho.webp",
-      "samantha": "/images/nexa/1729277745835_1690673046_smiling_woman.webp"
+      "wilma": "/lp-images-files-videos-fonts/images/nexa/1729072653432_1689522054_1.webp",
+      "doris": "/lp-images-files-videos-fonts/images/nexa/1729172389910_1689523955_9_1_120x120.webp",
+      "skyler": "/lp-images-files-videos-fonts/images/nexa/1729172608070_1689524009_4_120x120.webp",
+      "marie": "/lp-images-files-videos-fonts/images/nexa/1729172681324_1689524278_5_120x120.webp",
+      "anna_boyd": "/lp-images-files-videos-fonts/images/nexa/1729276565818_1690673126_thumb_Irina_Travkina_executive_r.webp",
+      "david": "/lp-images-files-videos-fonts/images/nexa/1729276716603_1689524233_7_120x120.webp",
+      "alferd": "/lp-images-files-videos-fonts/images/nexa/1729277064849_1689524495_9_120x120.webp",
+      "edith": "/lp-images-files-videos-fonts/images/nexa/1729277123750_1689524512_1_1_120x120.webp",
+      "debra": "/lp-images-files-videos-fonts/images/nexa/1729277189377_1691413209_Anabel_Lorenzo.webp",
+      "agnes": "/lp-images-files-videos-fonts/images/nexa/1729277325463_1689524881_3_1_120x120.webp",
+      "barbara": "/lp-images-files-videos-fonts/images/nexa/1729277531271_1689525035_21_120x120.webp",
+      "harry": "/lp-images-files-videos-fonts/images/nexa/1729277610957_1689524987_19_120x120.webp",
+      "bridget": "/lp-images-files-videos-fonts/images/nexa/1729277679683_1689525025_20_120x120.webp",
+      "anna_madison": "/lp-images-files-videos-fonts/images/nexa/1729277723585_1689524890_5_1_120x120.webp",
+      "clara": "/lp-images-files-videos-fonts/images/nexa/1729277725437_1689525125_6_1_120x120.webp",
+      "dana": "/lp-images-files-videos-fonts/images/nexa/1729277728866_1690673012_brave_woman.webp",
+      "katharine": "/lp-images-files-videos-fonts/images/nexa/1729277730999_1690673025_eyJwYXRoIjoiaWhoLWhlYWx0aGNhcmUt.webp",
+      "amanda": "/lp-images-files-videos-fonts/images/nexa/1729277738316_1690673034_depositphotos_90874904_stock_pho.webp",
+      "samantha": "/lp-images-files-videos-fonts/images/nexa/1729277745835_1690673046_smiling_woman.webp"
     }
   }
 }

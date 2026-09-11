@@ -4,7 +4,7 @@ export const metadata: Metadata = {
   title: "Rejuvacare — Natural Joint & Mobility Relief That Works",
   description:
     "Rejuvacare targets the root cause of joint pain and stiffness with a clinically backed formula. Thousands report moving freely again. Try it risk-free today.",
-  icons: { icon: "/favicons/a-rejuvacare.svg" },
+  icons: { icon: "/lp-images-files-videos-fonts/favicons/a-rejuvacare.svg" },
 };
 
 export default function RejuvacareLayout({ children }: { children: React.ReactNode }) {

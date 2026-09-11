@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: "Emma — Empty Your Bowels Like Clockwork",
   description:
     "Top NYC Gut Doctor reveals a simple once-daily ritual for complete bowel elimination, reduced bloating, and a trim waistline.",
-  icons: { icon: "/favicons/emma.svg" },
+  icons: { icon: "/lp-images-files-videos-fonts/favicons/emma.svg" },
 };
 
 export default function EmmaLayout({

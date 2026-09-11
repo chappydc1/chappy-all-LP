@@ -29,7 +29,7 @@ export const LoraFooterNavColumn = (props: LoraFooterNavColumnProps) => {
         )}
         <span className="relative box-border caret-transparent flex shrink-0 min-h-[auto] min-w-[auto] outline-[3px] pointer-events-auto md:hidden md:min-h-0 md:min-w-0 md:pointer-events-none">
           <img
-            src="/images/gruns/icon-32.svg"
+            src="/lp-images-files-videos-fonts/images/gruns/icon-32.svg"
             alt="Icon"
             className="box-border caret-transparent h-6 outline-[3px] pointer-events-auto w-6 md:pointer-events-none"
           />

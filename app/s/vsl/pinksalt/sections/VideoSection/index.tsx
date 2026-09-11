@@ -7,7 +7,7 @@ type VideoSectionProps = {
 };
 
 export const PinksaltVideoSection = ({
-  iconSrc = "/images/pinksalt/icon-1.svg",
+  iconSrc = "/lp-images-files-videos-fonts/images/pinksalt/icon-1.svg",
   errorText = "Video not found, contact the support of",
   brand = "VTurb",
 }: VideoSectionProps) => {
