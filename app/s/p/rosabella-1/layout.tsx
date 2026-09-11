@@ -1,8 +1,9 @@
 import type { Metadata } from "next"
+import copy from "./copy.json"
 
 export const metadata: Metadata = {
-  title: "Rosabella Beetroot Capsules",
-  description: "Supports healthy blood flow and circulation - naturally, every day.",
+  title: copy.meta.title,
+  description: copy.meta.description,
 }
 
 export default function RosabellaPdpLayout({
