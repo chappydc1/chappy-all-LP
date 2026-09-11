@@ -146,9 +146,9 @@ export const RejuvacareAnnouncementBar = () => {
                       </i>
                     </div>
                   </div>
-                  <div className="items-center bg-[url('/images/rejuvacare/1722821367050_dr_james_barkley.webp"></div>
+                  <div className="items-center bg-[url('/lp-images-files-videos-fonts/images/rejuvacare/1722821367050_dr_james_barkley.webp"></div>
                 </div>
-                <div className="bg-white bg-[url('/images/rejuvacare/1713781536653_1713532949416_2_1_.png"></div>
+                <div className="bg-white bg-[url('/lp-images-files-videos-fonts/images/rejuvacare/1713781536653_1713532949416_2_1_.png"></div>
               </div>
               <div className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] w-full md:w-[70%]">
                 <div className="relative box-border caret-transparent outline-[3px] w-full overflow-hidden before:accent-auto before:box-border before:caret-transparent before:text-neutral-800 before:block before:text-base before:not-italic before:normal-nums before:font-normal before:tracking-[normal] before:leading-6 before:list-outside before:list-disc before:outline-[3px] before:pointer-events-auto before:no-underline before:indent-[0px] before:normal-case before:visible before:pt-[100%] before:border-separate before:font-apple_system">
@@ -323,7 +323,7 @@ export const RejuvacareAnnouncementBar = () => {
             </div>
           </div>
           <div className="items-center self-center bg-neutral-100 box-border caret-transparent flex flex-wrap justify-center max-w-full outline-[3px] md:flex-nowrap">
-            <div className="relative bg-[url('/images/rejuvacare/1722936415316_bg_gradient.webp">
+            <div className="relative bg-[url('/lp-images-files-videos-fonts/images/rejuvacare/1722936415316_bg_gradient.webp">
               <div className="items-center box-border caret-transparent flex flex-col outline-[3px] w-full p-px md:flex-row-reverse">
                 <div className="box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full pl-0 py-px md:pl-5">
                   <div className="text-neutral-900 text-[23px] font-bold box-border caret-transparent block leading-[33px] min-h-[auto] min-w-[auto] outline-[3px] text-left mb-2.5 pr-[30px] font-montserrat md:text-[33px] md:hidden md:leading-[42px] md:min-h-0 md:min-w-0 md:mb-0 md:pr-0">
@@ -2295,7 +2295,7 @@ export const RejuvacareAnnouncementBar = () => {
                       </i>
                     </div>
                   </div>
-                  <div className="items-center bg-[url('/images/rejuvacare/1722821367050_dr_james_barkley.webp"></div>
+                  <div className="items-center bg-[url('/lp-images-files-videos-fonts/images/rejuvacare/1722821367050_dr_james_barkley.webp"></div>
                 </div>
                 <div className="box-border caret-transparent outline-[3px] w-full mt-5">
                   <img

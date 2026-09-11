@@ -67,7 +67,7 @@ export const AmalaProductHero = ({ content }: AmalaProductHeroProps) => {
         <div className="w-full md:flex-1 mt-5 md:mt-0 text-left">
           <p
             className="text-[13.0583px] leading-[15.67px] text-black md:text-base md:leading-[19.2px]
-              before:bg-[url('/images/amala/1733321557-4_5_star-2x-1-.png.webp')]
+              before:bg-[url('/lp-images-files-videos-fonts/images/amala/1733321557-4_5_star-2x-1-.png.webp')]
               before:bg-no-repeat before:bg-contain before:inline-block before:h-[19px] before:w-[75px]
               before:align-middle before:mr-2.5 md:before:w-[85px] md:before:mr-3"
           >

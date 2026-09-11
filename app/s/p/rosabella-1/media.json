@@ -1,0 +1,99 @@
+{
+  "logo": "/lp-images-files-videos-fonts/p/rosabella-1/1776263915875_rosabella_logo.svg",
+  "icons": {
+    "stars": "/lp-images-files-videos-fonts/p/rosabella-1/icon-stars.svg",
+    "checkmark": "/lp-images-files-videos-fonts/p/rosabella-1/icon-checkmark.svg",
+    "stock": "/lp-images-files-videos-fonts/p/rosabella-1/icon-stock.svg",
+    "guarantee": "/lp-images-files-videos-fonts/p/rosabella-1/icon-guarantee.svg",
+    "fastDelivery": "/lp-images-files-videos-fonts/p/rosabella-1/icon-fast-delivery.svg",
+    "secureCheckout": "/lp-images-files-videos-fonts/p/rosabella-1/icon-secure-checkout.svg",
+    "check": "/lp-images-files-videos-fonts/p/rosabella-1/icon-check.svg",
+    "guaranteeBadge": "/lp-images-files-videos-fonts/p/rosabella-1/icon-guarantee-badge.svg",
+    "bullet": "/lp-images-files-videos-fonts/p/rosabella-1/icon-bullet.svg",
+    "guaranteeShield": "/lp-images-files-videos-fonts/p/rosabella-1/icon-guarantee-shield.svg"
+  },
+  "productGallery": {
+    "slides": [
+      "/lp-images-files-videos-fonts/p/rosabella-1/98.jpg",
+      "/lp-images-files-videos-fonts/p/rosabella-1/88.jpg",
+      "/lp-images-files-videos-fonts/p/rosabella-1/115.png",
+      "/lp-images-files-videos-fonts/p/rosabella-1/37.webp",
+      "/lp-images-files-videos-fonts/p/rosabella-1/41.webp",
+      "/lp-images-files-videos-fonts/p/rosabella-1/36.webp",
+      "/lp-images-files-videos-fonts/p/rosabella-1/39.webp",
+      "/lp-images-files-videos-fonts/p/rosabella-1/40.webp",
+      "/lp-images-files-videos-fonts/p/rosabella-1/42.webp",
+      "/lp-images-files-videos-fonts/p/rosabella-1/38.webp"
+    ],
+    "thumbnails": [
+      "/lp-images-files-videos-fonts/p/rosabella-1/4.avif",
+      "/lp-images-files-videos-fonts/p/rosabella-1/5.avif",
+      "/lp-images-files-videos-fonts/p/rosabella-1/6.avif",
+      "/lp-images-files-videos-fonts/p/rosabella-1/11.avif",
+      "/lp-images-files-videos-fonts/p/rosabella-1/9.avif",
+      "/lp-images-files-videos-fonts/p/rosabella-1/10.avif",
+      "/lp-images-files-videos-fonts/p/rosabella-1/12.avif",
+      "/lp-images-files-videos-fonts/p/rosabella-1/13.avif",
+      "/lp-images-files-videos-fonts/p/rosabella-1/14.avif",
+      "/lp-images-files-videos-fonts/p/rosabella-1/15.avif"
+    ],
+    "prevArrow": "/lp-images-files-videos-fonts/p/rosabella-1/icon-gallery-prev.svg",
+    "nextArrow": "/lp-images-files-videos-fonts/p/rosabella-1/icon-gallery-next.svg"
+  },
+  "checkout": {
+    "paymentBadges": "/lp-images-files-videos-fonts/p/rosabella-1/3.webp"
+  },
+  "testimonials": {
+    "ratingStars": "/lp-images-files-videos-fonts/p/rosabella-1/icon-rating-stars.svg",
+    "carouselPrev": "/lp-images-files-videos-fonts/p/rosabella-1/icon-carousel-prev.svg",
+    "carouselNext": "/lp-images-files-videos-fonts/p/rosabella-1/icon-carousel-next.svg",
+    "customerImages": [
+      "/lp-images-files-videos-fonts/p/rosabella-1/17.avif",
+      "/lp-images-files-videos-fonts/p/rosabella-1/18.avif",
+      "/lp-images-files-videos-fonts/p/rosabella-1/19.webp",
+      "/lp-images-files-videos-fonts/p/rosabella-1/20.webp"
+    ]
+  },
+  "problemSolution": {
+    "problemImage": "/lp-images-files-videos-fonts/p/rosabella-1/22.webp",
+    "featureIcons": [
+      "/lp-images-files-videos-fonts/p/rosabella-1/icon-feature-blood-flow.svg",
+      "/lp-images-files-videos-fonts/p/rosabella-1/icon-feature-energy.svg",
+      "/lp-images-files-videos-fonts/p/rosabella-1/icon-feature-brain-fog.svg",
+      "/lp-images-files-videos-fonts/p/rosabella-1/icon-feature-heart.svg"
+    ],
+    "bottleImage": "/lp-images-files-videos-fonts/p/rosabella-1/1779452736797_bottle_3x.webp"
+  },
+  "stages": {
+    "images": [
+      "/lp-images-files-videos-fonts/p/rosabella-1/96.png",
+      "/lp-images-files-videos-fonts/p/rosabella-1/99.png",
+      "/lp-images-files-videos-fonts/p/rosabella-1/97.png"
+    ]
+  },
+  "circulationComparison": {
+    "statsChart": "/lp-images-files-videos-fonts/p/rosabella-1/1776879798903_Stats.webp"
+  },
+  "brandComparison": {
+    "rosabellaBottle": "/lp-images-files-videos-fonts/p/rosabella-1/1779537039377_beet_img_1_.webp",
+    "competitorImage": "/lp-images-files-videos-fonts/p/rosabella-1/29.avif",
+    "checkIcon": "/lp-images-files-videos-fonts/p/rosabella-1/icon-comparison-check.svg",
+    "crossIcon": "/lp-images-files-videos-fonts/p/rosabella-1/icon-comparison-cross.svg"
+  },
+  "surveyResults": {
+    "surveyImage": "/lp-images-files-videos-fonts/p/rosabella-1/33.webp",
+    "bottleImage": "/lp-images-files-videos-fonts/p/rosabella-1/1779452766873_bottle_3x_848x837_.webp"
+  },
+  "customerReviews": {
+    "initialImages": [
+      "/lp-images-files-videos-fonts/p/rosabella-1/110.png",
+      "/lp-images-files-videos-fonts/p/rosabella-1/117.png",
+      "/lp-images-files-videos-fonts/p/rosabella-1/118.png"
+    ],
+    "additionalImages": [
+      "/lp-images-files-videos-fonts/p/rosabella-1/110.png",
+      "/lp-images-files-videos-fonts/p/rosabella-1/117.png",
+      "/lp-images-files-videos-fonts/p/rosabella-1/118.png"
+    ]
+  }
+}

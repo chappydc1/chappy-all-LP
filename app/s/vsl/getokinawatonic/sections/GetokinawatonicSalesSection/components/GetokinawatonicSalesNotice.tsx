@@ -393,7 +393,7 @@ export const GetokinawatonicSalesNotice = () => {
           />
         </a>
         <h3 className="text-[29px] font-bold box-border caret-transparent leading-[41.18px] outline-[3px] text-center mt-5 mb-2.5 font-montserrat md:text-4xl md:leading-[51.12px]">
-          <span className="text-[29px] bg-[url('/images/getokinawatonic/line.png')] bg-no-repeat box-border caret-transparent leading-[41.18px] outline-[3px] bg-bottom pb-2.5 md:text-4xl md:leading-[51.12px]">
+          <span className="text-[29px] bg-[url('/lp-images-files-videos-fonts/images/getokinawatonic/line.png')] bg-no-repeat box-border caret-transparent leading-[41.18px] outline-[3px] bg-bottom pb-2.5 md:text-4xl md:leading-[51.12px]">
             Get 3 FREE Bonuses
           </span>
           <br className="text-[29px] box-border caret-transparent leading-[41.18px] outline-[3px] md:text-4xl md:leading-[51.12px]" />

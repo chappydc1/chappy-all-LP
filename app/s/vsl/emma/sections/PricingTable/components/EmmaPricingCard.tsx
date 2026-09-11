@@ -24,7 +24,7 @@ export const EmmaPricingCard = (props: EmmaPricingCardProps) => {
       <div className="shadow-[rgba(0,0,0,0.2)_0px_0px_5px_0px] box-border border border-teal-800 overflow-hidden rounded-[10px] border-solid transition-transform duration-300 hover:-translate-y-1 hover:shadow-[rgba(0,0,0,0.3)_0px_8px_24px_0px]">
         <div className={`box-border ${props.headerClassName}`}>
           {props.isBestValue ? (
-            <div className="bg-amber-300 bg-[url('/images/emma/bestvalue.png')] bg-no-repeat bg-contain box-border text-center bg-[position:left_50%] rounded-t-sm">
+            <div className="bg-amber-300 bg-[url('/lp-images-files-videos-fonts/images/emma/bestvalue.png')] bg-no-repeat bg-contain box-border text-center bg-[position:left_50%] rounded-t-sm">
               <img
                 src="/lp-images-files-videos-fonts/images/emma/Header.webp"
                 className="box-border inline w-full"

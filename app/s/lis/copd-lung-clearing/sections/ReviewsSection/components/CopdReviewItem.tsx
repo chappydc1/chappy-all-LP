@@ -195,7 +195,7 @@ export const CopdReviewItem = (props: CopdReviewItemProps) => {
         </div>
         <div className="box-border caret-transparent gap-x-4 flex outline-[3px] gap-y-4 mt-6">
           <div className="text-sm items-center box-border caret-transparent flex leading-[14px] min-h-[auto] min-w-[auto] outline-[3px]">
-            <div className="items-center bg-[url('/images/gruns/4402299c7b701bcfc128.svg">
+            <div className="items-center bg-[url('/lp-images-files-videos-fonts/images/gruns/4402299c7b701bcfc128.svg">
                
             </div>
             <div className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px]">

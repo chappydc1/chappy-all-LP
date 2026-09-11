@@ -82,7 +82,7 @@ export const JavySpinWheelModal = () => {
 
           <div
             className="absolute inset-0 opacity-10"
-            style={{ backgroundImage: "url('/images/javy/desktopbgmin21380beb8da5188c.webp-1754589668126.webp')", backgroundSize: "cover", backgroundPosition: "center" }}
+            style={{ backgroundImage: "url('/lp-images-files-videos-fonts/images/javy/desktopbgmin21380beb8da5188c.webp-1754589668126.webp')", backgroundSize: "cover", backgroundPosition: "center" }}
           />
 
           <div className="relative z-10 flex flex-col items-center gap-4 px-6 py-8">

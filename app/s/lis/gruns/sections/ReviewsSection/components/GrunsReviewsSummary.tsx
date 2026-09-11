@@ -497,7 +497,7 @@ export const GrunsReviewsSummary = () => {
             </div>
             <div className="box-border caret-transparent gap-x-4 flex outline-[3px] gap-y-4 mt-6">
               <div className="text-sm items-center box-border caret-transparent flex leading-[14px] min-h-[auto] min-w-[auto] outline-[3px]">
-                <div className="items-center bg-[url('/images/gruns/4402299c7b701bcfc128.svg">
+                <div className="items-center bg-[url('/lp-images-files-videos-fonts/images/gruns/4402299c7b701bcfc128.svg">
                    
                 </div>
                 <div className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px]">
@@ -726,7 +726,7 @@ export const GrunsReviewsSummary = () => {
             </div>
             <div className="box-border caret-transparent gap-x-4 flex outline-[3px] gap-y-4 mt-6">
               <div className="text-sm items-center box-border caret-transparent flex leading-[14px] min-h-[auto] min-w-[auto] outline-[3px]">
-                <div className="items-center bg-[url('/images/gruns/4402299c7b701bcfc128.svg">
+                <div className="items-center bg-[url('/lp-images-files-videos-fonts/images/gruns/4402299c7b701bcfc128.svg">
                    
                 </div>
                 <div className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px]">
@@ -941,7 +941,7 @@ export const GrunsReviewsSummary = () => {
             </div>
             <div className="box-border caret-transparent gap-x-4 flex outline-[3px] gap-y-4 mt-6">
               <div className="text-sm items-center box-border caret-transparent flex leading-[14px] min-h-[auto] min-w-[auto] outline-[3px]">
-                <div className="items-center bg-[url('/images/gruns/4402299c7b701bcfc128.svg">
+                <div className="items-center bg-[url('/lp-images-files-videos-fonts/images/gruns/4402299c7b701bcfc128.svg">
                    
                 </div>
                 <div className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px]">
@@ -1170,7 +1170,7 @@ export const GrunsReviewsSummary = () => {
             </div>
             <div className="box-border caret-transparent gap-x-4 flex outline-[3px] gap-y-4 mt-6">
               <div className="text-sm items-center box-border caret-transparent flex leading-[14px] min-h-[auto] min-w-[auto] outline-[3px]">
-                <div className="items-center bg-[url('/images/gruns/4402299c7b701bcfc128.svg">
+                <div className="items-center bg-[url('/lp-images-files-videos-fonts/images/gruns/4402299c7b701bcfc128.svg">
                    
                 </div>
                 <div className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px]">
@@ -1387,7 +1387,7 @@ export const GrunsReviewsSummary = () => {
             </div>
             <div className="box-border caret-transparent gap-x-4 flex outline-[3px] gap-y-4 mt-6">
               <div className="text-sm items-center box-border caret-transparent flex leading-[14px] min-h-[auto] min-w-[auto] outline-[3px]">
-                <div className="items-center bg-[url('/images/gruns/4402299c7b701bcfc128.svg">
+                <div className="items-center bg-[url('/lp-images-files-videos-fonts/images/gruns/4402299c7b701bcfc128.svg">
                    
                 </div>
                 <div className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px]">
@@ -1603,7 +1603,7 @@ export const GrunsReviewsSummary = () => {
             </div>
             <div className="box-border caret-transparent gap-x-4 flex outline-[3px] gap-y-4 mt-6">
               <div className="text-sm items-center box-border caret-transparent flex leading-[14px] min-h-[auto] min-w-[auto] outline-[3px]">
-                <div className="items-center bg-[url('/images/gruns/4402299c7b701bcfc128.svg">
+                <div className="items-center bg-[url('/lp-images-files-videos-fonts/images/gruns/4402299c7b701bcfc128.svg">
                    
                 </div>
                 <div className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px]">
@@ -1819,7 +1819,7 @@ export const GrunsReviewsSummary = () => {
             </div>
             <div className="box-border caret-transparent gap-x-4 flex outline-[3px] gap-y-4 mt-6">
               <div className="text-sm items-center box-border caret-transparent flex leading-[14px] min-h-[auto] min-w-[auto] outline-[3px]">
-                <div className="items-center bg-[url('/images/gruns/4402299c7b701bcfc128.svg">
+                <div className="items-center bg-[url('/lp-images-files-videos-fonts/images/gruns/4402299c7b701bcfc128.svg">
                    
                 </div>
                 <div className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px]">
@@ -2034,7 +2034,7 @@ export const GrunsReviewsSummary = () => {
             </div>
             <div className="box-border caret-transparent gap-x-4 flex outline-[3px] gap-y-4 mt-6">
               <div className="text-sm items-center box-border caret-transparent flex leading-[14px] min-h-[auto] min-w-[auto] outline-[3px]">
-                <div className="items-center bg-[url('/images/gruns/4402299c7b701bcfc128.svg">
+                <div className="items-center bg-[url('/lp-images-files-videos-fonts/images/gruns/4402299c7b701bcfc128.svg">
                    
                 </div>
                 <div className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px]">
@@ -2252,7 +2252,7 @@ export const GrunsReviewsSummary = () => {
             </div>
             <div className="box-border caret-transparent gap-x-4 flex outline-[3px] gap-y-4 mt-6">
               <div className="text-sm items-center box-border caret-transparent flex leading-[14px] min-h-[auto] min-w-[auto] outline-[3px]">
-                <div className="items-center bg-[url('/images/gruns/4402299c7b701bcfc128.svg">
+                <div className="items-center bg-[url('/lp-images-files-videos-fonts/images/gruns/4402299c7b701bcfc128.svg">
                    
                 </div>
                 <div className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px]">
@@ -2468,7 +2468,7 @@ export const GrunsReviewsSummary = () => {
             </div>
             <div className="box-border caret-transparent gap-x-4 flex outline-[3px] gap-y-4 mt-6">
               <div className="text-sm items-center box-border caret-transparent flex leading-[14px] min-h-[auto] min-w-[auto] outline-[3px]">
-                <div className="items-center bg-[url('/images/gruns/4402299c7b701bcfc128.svg">
+                <div className="items-center bg-[url('/lp-images-files-videos-fonts/images/gruns/4402299c7b701bcfc128.svg">
                    
                 </div>
                 <div className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px]">
@@ -2524,7 +2524,7 @@ export const GrunsReviewsSummary = () => {
         <a
           href="https://junip.co/reviews/gruns?utm_source=powered_by_footer&referrer=https%3A%2F%2Fgruns.co%2Fpages%2Ffiber"
           aria-label="See Grüns on Junip (opens in a new tab)"
-          className="bg-[url('/images/gruns/58672aa73f33fbf4a708.svg"
+          className="bg-[url('/lp-images-files-videos-fonts/images/gruns/58672aa73f33fbf4a708.svg"
         >
            
         </a>

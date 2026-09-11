@@ -2,7 +2,6 @@ export type TestimonialCardProps = {
   ariaLabel: string;
   title: string;
   ratingIconUrl: string;
-  rating: string;
   testimonial: string;
   customerImageUrl: string;
   customerName: string;
@@ -28,7 +27,7 @@ export const TestimonialCard = (props: TestimonialCardProps) => {
             className="box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px]"
           />
           <div className="text-black text-sm font-medium box-border caret-transparent leading-[15.4px] min-h-[auto] min-w-[auto] outline-[3px] font-montserrat md:text-base md:leading-[17.6px]">
-            {props.rating}
+            5.0
           </div>
         </div>
         <div className="text-black text-[13px] box-border caret-transparent tracking-[-0.32px] leading-[16.9px] outline-[3px] mt-3 font-montserrat md:text-base md:leading-[20.8px]">
@@ -44,7 +43,7 @@ export const TestimonialCard = (props: TestimonialCardProps) => {
         />
         <div className="box-border caret-transparent gap-x-[3px] flex flex-col min-h-[auto] min-w-[auto] outline-[3px] gap-y-[3px]">
           <div className="text-black text-[13px] box-border caret-transparent tracking-[-0.32px] leading-[16.9px] min-h-[auto] min-w-[auto] outline-[3px] font-montserrat md:text-sm md:leading-[18.2px]">
-            {props.customerName}
+            {props.customerName} &bull; Verified Customer
           </div>
           <div className="text-black text-[11px] box-border caret-transparent tracking-[-0.32px] leading-[14.3px] min-h-[auto] min-w-[auto] outline-[3px] font-montserrat md:text-sm md:leading-[18.2px]">
             {props.date}

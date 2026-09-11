@@ -25,7 +25,7 @@ export const EmmaMobilePricingCards = (props: EmmaMobilePricingCardsProps) => {
     <div className="box-border block pt-4 px-4 md:hidden">
       {/* 6-Pack Card */}
       <div className="box-border reveal">
-        <div className="bg-amber-300 bg-[url('/images/emma/bestvalue.png')] bg-no-repeat bg-contain box-border text-center bg-[position:left_50%] rounded-t-sm">
+        <div className="bg-amber-300 bg-[url('/lp-images-files-videos-fonts/images/emma/bestvalue.png')] bg-no-repeat bg-contain box-border text-center bg-[position:left_50%] rounded-t-sm">
           <img
             src={props.headerImageSrc}
             className="box-border inline w-full"

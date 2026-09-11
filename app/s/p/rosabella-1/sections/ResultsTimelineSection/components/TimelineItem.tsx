@@ -1,3 +1,5 @@
+import media from "../../../media.json"
+
 export type TimelineItemProps = {
   week: string;
   title: string;
@@ -34,7 +36,7 @@ export const TimelineItem = (props: TimelineItemProps) => {
         <div className="box-border caret-transparent flex outline-[3px] w-full mt-3.5">
           <img
             title=""
-            src="/lp-images-files-videos-fonts/p/rosabella-1/56.svg"
+            src={media.icons.check}
             alt=""
             className="text-black box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-3.5 mr-2"
           />
@@ -45,7 +47,7 @@ export const TimelineItem = (props: TimelineItemProps) => {
         <div className="box-border caret-transparent flex outline-[3px] w-full mt-3.5">
           <img
             title=""
-            src="/lp-images-files-videos-fonts/p/rosabella-1/56.svg"
+            src={media.icons.check}
             alt=""
             className="text-black box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-3.5 mr-2"
           />

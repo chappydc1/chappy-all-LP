@@ -162,7 +162,7 @@ export const PipiteaMatchaCustomerReview = (props: PipiteaMatchaCustomerReviewPr
                           className="items-start box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full mt-[15px]"
                         >
                           <img
-                            src="https://assets.imagehub.io/Funnel/assets/images/685dc02f-ad1b-4b94-9dd2-e66cffd8a679/adc833e4-9b9c-4e36-a8a6-db8a9e0c5b42/1699804355-1678653183-829-8299060_5-stars-transparent-background-5-star.webp?versionId=w8PG0w5snHii_MiveWXSqUXoYmvcMFmg"
+                            src="https://assets.imagehub.io/Funnel/assets/lp-images-files-videos-fonts/images/685dc02f-ad1b-4b94-9dd2-e66cffd8a679/adc833e4-9b9c-4e36-a8a6-db8a9e0c5b42/1699804355-1678653183-829-8299060_5-stars-transparent-background-5-star.webp?versionId=w8PG0w5snHii_MiveWXSqUXoYmvcMFmg"
                             alt=""
                             href=""
                             title=""
@@ -347,7 +347,7 @@ export const PipiteaMatchaCustomerReview = (props: PipiteaMatchaCustomerReviewPr
                           className="items-start box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full mt-[15px]"
                         >
                           <img
-                            src="https://assets.imagehub.io/Funnel/assets/images/685dc02f-ad1b-4b94-9dd2-e66cffd8a679/adc833e4-9b9c-4e36-a8a6-db8a9e0c5b42/1699804355-1678653183-829-8299060_5-stars-transparent-background-5-star.webp?versionId=w8PG0w5snHii_MiveWXSqUXoYmvcMFmg"
+                            src="https://assets.imagehub.io/Funnel/assets/lp-images-files-videos-fonts/images/685dc02f-ad1b-4b94-9dd2-e66cffd8a679/adc833e4-9b9c-4e36-a8a6-db8a9e0c5b42/1699804355-1678653183-829-8299060_5-stars-transparent-background-5-star.webp?versionId=w8PG0w5snHii_MiveWXSqUXoYmvcMFmg"
                             alt=""
                             href=""
                             title=""

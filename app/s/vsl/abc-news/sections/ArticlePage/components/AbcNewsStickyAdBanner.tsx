@@ -546,7 +546,7 @@ export const AbcNewsStickyAdBanner = () => {
                 </h2>
                 <div className="relative box-border caret-transparent clear-both outline-[3px] mt-6 md:mt-8">
                   <div className="box-border caret-transparent hidden outline-[3px] w-full pb-2.5 px-[5px]">
-                    <div className="bg-[url('/images/abc-news/1e20e8ff-b903-43c3-81e2-8f9e185614d9.svg')] bg-no-repeat bg-contain box-border caret-transparent inline-block h-[11px] outline-[3px] w-[76px] bg-[position:0px_0px]"></div>
+                    <div className="bg-[url('/lp-images-files-videos-fonts/images/abc-news/1e20e8ff-b903-43c3-81e2-8f9e185614d9.svg')] bg-no-repeat bg-contain box-border caret-transparent inline-block h-[11px] outline-[3px] w-[76px] bg-[position:0px_0px]"></div>
                   </div>
                   <div className="shadow-[rgba(0,0,0,0.05)_0px_2px_5px_0px] box-border caret-transparent clear-both outline-[3px] border border-neutral-200 rounded-lg border-solid">
                     <div className="box-border caret-transparent outline-[3px] text-left">
@@ -571,7 +571,7 @@ export const AbcNewsStickyAdBanner = () => {
                                       <span
                                         role="img"
                                         aria-label="Image for Taboola Advertising Unit"
-                                        className="absolute bg-[url('/images/abc-news/f65806d1da195b506d0585cfdd4dfb4d.jpeg')] bg-no-repeat bg-cover box-border caret-transparent block outline-[3px] overflow-hidden bg-center inset-0"
+                                        className="absolute bg-[url('/lp-images-files-videos-fonts/images/abc-news/f65806d1da195b506d0585cfdd4dfb4d.jpeg')] bg-no-repeat bg-cover box-border caret-transparent block outline-[3px] overflow-hidden bg-center inset-0"
                                       >
                                         <span className="absolute bg-no-repeat bg-contain box-border caret-transparent block outline-[3px] z-50 bg-[position:5%_5%]"></span>
                                       </span>
@@ -650,10 +650,10 @@ export const AbcNewsStickyAdBanner = () => {
                                       <span
                                         role="img"
                                         aria-label="Image for Taboola Advertising Unit"
-                                        className="absolute bg-[url('/images/abc-news/c677a4ce086e7abbaba13fa34ca291dc.jpg')] bg-no-repeat bg-cover box-border caret-transparent block outline-[3px] overflow-hidden bg-center rounded-lg inset-0"
+                                        className="absolute bg-[url('/lp-images-files-videos-fonts/images/abc-news/c677a4ce086e7abbaba13fa34ca291dc.jpg')] bg-no-repeat bg-cover box-border caret-transparent block outline-[3px] overflow-hidden bg-center rounded-lg inset-0"
                                       >
                                         <span className="absolute bg-no-repeat bg-contain box-border caret-transparent block outline-[3px] z-50 bg-[position:5%_5%]"></span>
-                                        <span className="absolute bg-white bg-[url('/images/abc-news/35d6dd43-e40a-4e6a-ae34-d4bf859d5af4.svg')] bg-no-repeat bg-cover box-border caret-transparent hidden h-6 outline-[3px] w-14 z-50 bg-bottom rounded-tr-md border-8 border-solid border-transparent left-0 bottom-0"></span>
+                                        <span className="absolute bg-white bg-[url('/lp-images-files-videos-fonts/images/abc-news/35d6dd43-e40a-4e6a-ae34-d4bf859d5af4.svg')] bg-no-repeat bg-cover box-border caret-transparent hidden h-6 outline-[3px] w-14 z-50 bg-bottom rounded-tr-md border-8 border-solid border-transparent left-0 bottom-0"></span>
                                       </span>
                                       <div className="box-border caret-transparent outline-[3px] w-full pb-[56.25%]"></div>
                                     </div>
@@ -766,10 +766,10 @@ export const AbcNewsStickyAdBanner = () => {
                                       <span
                                         role="img"
                                         aria-label="Image for Taboola Advertising Unit"
-                                        className="absolute bg-[url('/images/abc-news/dfb150df-38ff-497a-9d5c-2329f3ec692c__9JqtBOL2.jpg')] bg-no-repeat bg-cover box-border caret-transparent block outline-[3px] overflow-hidden bg-center rounded-lg inset-0"
+                                        className="absolute bg-[url('/lp-images-files-videos-fonts/images/abc-news/dfb150df-38ff-497a-9d5c-2329f3ec692c__9JqtBOL2.jpg')] bg-no-repeat bg-cover box-border caret-transparent block outline-[3px] overflow-hidden bg-center rounded-lg inset-0"
                                       >
                                         <span className="absolute bg-no-repeat bg-contain box-border caret-transparent block outline-[3px] z-50 bg-[position:5%_5%]"></span>
-                                        <span className="absolute bg-white bg-[url('/images/abc-news/35d6dd43-e40a-4e6a-ae34-d4bf859d5af4.svg')] bg-no-repeat bg-cover box-border caret-transparent hidden h-6 outline-[3px] w-14 z-50 bg-bottom rounded-tr-md border-8 border-solid border-transparent left-0 bottom-0"></span>
+                                        <span className="absolute bg-white bg-[url('/lp-images-files-videos-fonts/images/abc-news/35d6dd43-e40a-4e6a-ae34-d4bf859d5af4.svg')] bg-no-repeat bg-cover box-border caret-transparent hidden h-6 outline-[3px] w-14 z-50 bg-bottom rounded-tr-md border-8 border-solid border-transparent left-0 bottom-0"></span>
                                       </span>
                                       <div className="box-border caret-transparent outline-[3px] w-full pb-[56.25%]"></div>
                                     </div>
@@ -883,10 +883,10 @@ export const AbcNewsStickyAdBanner = () => {
                                       <span
                                         role="img"
                                         aria-label="Image for Taboola Advertising Unit"
-                                        className="absolute bg-[url('/images/abc-news/f64f1c4f91900b6598aec44bca5cbd5b.png')] bg-no-repeat bg-cover box-border caret-transparent block outline-[3px] overflow-hidden bg-center rounded-lg inset-0"
+                                        className="absolute bg-[url('/lp-images-files-videos-fonts/images/abc-news/f64f1c4f91900b6598aec44bca5cbd5b.png')] bg-no-repeat bg-cover box-border caret-transparent block outline-[3px] overflow-hidden bg-center rounded-lg inset-0"
                                       >
                                         <span className="absolute bg-no-repeat bg-contain box-border caret-transparent block outline-[3px] z-50 bg-[position:5%_5%]"></span>
-                                        <span className="absolute bg-white bg-[url('/images/abc-news/35d6dd43-e40a-4e6a-ae34-d4bf859d5af4.svg')] bg-no-repeat bg-cover box-border caret-transparent hidden h-6 outline-[3px] w-14 z-50 bg-bottom rounded-tr-md border-8 border-solid border-transparent left-0 bottom-0"></span>
+                                        <span className="absolute bg-white bg-[url('/lp-images-files-videos-fonts/images/abc-news/35d6dd43-e40a-4e6a-ae34-d4bf859d5af4.svg')] bg-no-repeat bg-cover box-border caret-transparent hidden h-6 outline-[3px] w-14 z-50 bg-bottom rounded-tr-md border-8 border-solid border-transparent left-0 bottom-0"></span>
                                       </span>
                                       <div className="box-border caret-transparent outline-[3px] w-full pb-[56.25%]"></div>
                                     </div>
@@ -992,10 +992,10 @@ export const AbcNewsStickyAdBanner = () => {
                                       <span
                                         role="img"
                                         aria-label="Image for Taboola Advertising Unit"
-                                        className="absolute bg-[url('/images/abc-news/b9bcefca751e9babfac55b9aef61850e.jpg')] bg-no-repeat bg-cover box-border caret-transparent block outline-[3px] overflow-hidden bg-center rounded-lg inset-0"
+                                        className="absolute bg-[url('/lp-images-files-videos-fonts/images/abc-news/b9bcefca751e9babfac55b9aef61850e.jpg')] bg-no-repeat bg-cover box-border caret-transparent block outline-[3px] overflow-hidden bg-center rounded-lg inset-0"
                                       >
                                         <span className="absolute bg-no-repeat bg-contain box-border caret-transparent block outline-[3px] z-50 bg-[position:5%_5%]"></span>
-                                        <span className="absolute bg-white bg-[url('/images/abc-news/35d6dd43-e40a-4e6a-ae34-d4bf859d5af4.svg')] bg-no-repeat bg-cover box-border caret-transparent hidden h-6 outline-[3px] w-14 z-50 bg-bottom rounded-tr-md border-8 border-solid border-transparent left-0 bottom-0"></span>
+                                        <span className="absolute bg-white bg-[url('/lp-images-files-videos-fonts/images/abc-news/35d6dd43-e40a-4e6a-ae34-d4bf859d5af4.svg')] bg-no-repeat bg-cover box-border caret-transparent hidden h-6 outline-[3px] w-14 z-50 bg-bottom rounded-tr-md border-8 border-solid border-transparent left-0 bottom-0"></span>
                                       </span>
                                       <div className="box-border caret-transparent outline-[3px] w-full pb-[56.25%]"></div>
                                     </div>
@@ -1065,10 +1065,10 @@ export const AbcNewsStickyAdBanner = () => {
                                       <span
                                         role="img"
                                         aria-label="Image for Taboola Advertising Unit"
-                                        className="absolute bg-[url('/images/abc-news/c389af2da9ded4f89e280cff4816a89b.jpg')] bg-no-repeat bg-cover box-border caret-transparent block outline-[3px] invisible overflow-hidden bg-center rounded-lg inset-0 md:visible"
+                                        className="absolute bg-[url('/lp-images-files-videos-fonts/images/abc-news/c389af2da9ded4f89e280cff4816a89b.jpg')] bg-no-repeat bg-cover box-border caret-transparent block outline-[3px] invisible overflow-hidden bg-center rounded-lg inset-0 md:visible"
                                       >
                                         <span className="absolute bg-no-repeat bg-contain box-border caret-transparent block outline-[3px] invisible z-50 bg-[position:5%_5%] md:visible"></span>
-                                        <span className="absolute bg-white bg-[url('/images/abc-news/35d6dd43-e40a-4e6a-ae34-d4bf859d5af4.svg')] bg-no-repeat bg-cover box-border caret-transparent hidden h-6 outline-[3px] invisible w-14 z-50 bg-bottom rounded-tr-md border-8 border-solid border-transparent left-0 bottom-0 md:visible"></span>
+                                        <span className="absolute bg-white bg-[url('/lp-images-files-videos-fonts/images/abc-news/35d6dd43-e40a-4e6a-ae34-d4bf859d5af4.svg')] bg-no-repeat bg-cover box-border caret-transparent hidden h-6 outline-[3px] invisible w-14 z-50 bg-bottom rounded-tr-md border-8 border-solid border-transparent left-0 bottom-0 md:visible"></span>
                                       </span>
                                       <div className="box-border caret-transparent outline-[3px] invisible w-full pb-[56.25%] md:visible"></div>
                                     </div>
@@ -1174,10 +1174,10 @@ export const AbcNewsStickyAdBanner = () => {
                                       <span
                                         role="img"
                                         aria-label="Image for Taboola Advertising Unit"
-                                        className="absolute bg-[url('/images/abc-news/2a4f495e8ecd111eb6eca7f2b3ac8761.png')] bg-no-repeat bg-cover box-border caret-transparent block outline-[3px] overflow-hidden bg-center rounded-lg inset-0"
+                                        className="absolute bg-[url('/lp-images-files-videos-fonts/images/abc-news/2a4f495e8ecd111eb6eca7f2b3ac8761.png')] bg-no-repeat bg-cover box-border caret-transparent block outline-[3px] overflow-hidden bg-center rounded-lg inset-0"
                                       >
                                         <span className="absolute bg-no-repeat bg-contain box-border caret-transparent block outline-[3px] z-50 bg-[position:5%_5%]"></span>
-                                        <span className="absolute bg-white bg-[url('/images/abc-news/35d6dd43-e40a-4e6a-ae34-d4bf859d5af4.svg')] bg-no-repeat bg-cover box-border caret-transparent hidden h-6 outline-[3px] w-14 z-50 bg-bottom rounded-tr-md border-8 border-solid border-transparent left-0 bottom-0"></span>
+                                        <span className="absolute bg-white bg-[url('/lp-images-files-videos-fonts/images/abc-news/35d6dd43-e40a-4e6a-ae34-d4bf859d5af4.svg')] bg-no-repeat bg-cover box-border caret-transparent hidden h-6 outline-[3px] w-14 z-50 bg-bottom rounded-tr-md border-8 border-solid border-transparent left-0 bottom-0"></span>
                                       </span>
                                       <div className="box-border caret-transparent outline-[3px] w-full pb-[56.25%]"></div>
                                     </div>
@@ -1284,10 +1284,10 @@ export const AbcNewsStickyAdBanner = () => {
                                       <span
                                         role="img"
                                         aria-label="Image for Taboola Advertising Unit"
-                                        className="absolute bg-[url('/images/abc-news/6c04d9ed5c9e6b94da5fc0ba5f5c2cfa.jpg')] bg-no-repeat bg-cover box-border caret-transparent block outline-[3px] overflow-hidden bg-center rounded-lg inset-0"
+                                        className="absolute bg-[url('/lp-images-files-videos-fonts/images/abc-news/6c04d9ed5c9e6b94da5fc0ba5f5c2cfa.jpg')] bg-no-repeat bg-cover box-border caret-transparent block outline-[3px] overflow-hidden bg-center rounded-lg inset-0"
                                       >
                                         <span className="absolute bg-no-repeat bg-contain box-border caret-transparent block outline-[3px] z-50 bg-[position:5%_5%]"></span>
-                                        <span className="absolute bg-white bg-[url('/images/abc-news/35d6dd43-e40a-4e6a-ae34-d4bf859d5af4.svg')] bg-no-repeat bg-cover box-border caret-transparent hidden h-6 outline-[3px] w-14 z-50 bg-bottom rounded-tr-md border-8 border-solid border-transparent left-0 bottom-0"></span>
+                                        <span className="absolute bg-white bg-[url('/lp-images-files-videos-fonts/images/abc-news/35d6dd43-e40a-4e6a-ae34-d4bf859d5af4.svg')] bg-no-repeat bg-cover box-border caret-transparent hidden h-6 outline-[3px] w-14 z-50 bg-bottom rounded-tr-md border-8 border-solid border-transparent left-0 bottom-0"></span>
                                       </span>
                                       <div className="box-border caret-transparent outline-[3px] w-full pb-[56.25%]"></div>
                                     </div>
@@ -1358,10 +1358,10 @@ export const AbcNewsStickyAdBanner = () => {
                                       <span
                                         role="img"
                                         aria-label="Image for Taboola Advertising Unit"
-                                        className="absolute bg-[url('/images/abc-news/127edab80da04c20ae5bf36de7475c7d.png')] bg-no-repeat bg-cover box-border caret-transparent block outline-[3px] invisible overflow-hidden bg-center rounded-lg inset-0 md:visible"
+                                        className="absolute bg-[url('/lp-images-files-videos-fonts/images/abc-news/127edab80da04c20ae5bf36de7475c7d.png')] bg-no-repeat bg-cover box-border caret-transparent block outline-[3px] invisible overflow-hidden bg-center rounded-lg inset-0 md:visible"
                                       >
                                         <span className="absolute bg-no-repeat bg-contain box-border caret-transparent block outline-[3px] invisible z-50 bg-[position:5%_5%] md:visible"></span>
-                                        <span className="absolute bg-white bg-[url('/images/abc-news/35d6dd43-e40a-4e6a-ae34-d4bf859d5af4.svg')] bg-no-repeat bg-cover box-border caret-transparent hidden h-6 outline-[3px] invisible w-14 z-50 bg-bottom rounded-tr-md border-8 border-solid border-transparent left-0 bottom-0 md:visible"></span>
+                                        <span className="absolute bg-white bg-[url('/lp-images-files-videos-fonts/images/abc-news/35d6dd43-e40a-4e6a-ae34-d4bf859d5af4.svg')] bg-no-repeat bg-cover box-border caret-transparent hidden h-6 outline-[3px] invisible w-14 z-50 bg-bottom rounded-tr-md border-8 border-solid border-transparent left-0 bottom-0 md:visible"></span>
                                       </span>
                                       <div className="box-border caret-transparent outline-[3px] invisible w-full pb-[56.25%] md:visible"></div>
                                     </div>

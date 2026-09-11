@@ -315,13 +315,13 @@ body {
   height: 12px;
   width: 65px;
   overflow: hidden;
-  background-image: url('/images/forbes/star-empty-slim.svg');
+  background-image: url('/lp-images-files-videos-fonts/images/forbes/star-empty-slim.svg');
   background-repeat: repeat-x;
 }
 .forbes-stars__fill {
   height: 12px;
   max-width: 100%;
-  background-image: url('/images/forbes/star-slim.svg');
+  background-image: url('/lp-images-files-videos-fonts/images/forbes/star-slim.svg');
 }
 
 /* Product card */
@@ -363,10 +363,10 @@ body {
   background: no-repeat center / contain;
 }
 .forbes-badge__icon--trophy {
-  background-image: url('/images/forbes/trophy-primary.svg');
+  background-image: url('/lp-images-files-videos-fonts/images/forbes/trophy-primary.svg');
 }
 .forbes-badge__icon--trophy-health {
-  background-image: url('/images/forbes/superlative-trophy.svg');
+  background-image: url('/lp-images-files-videos-fonts/images/forbes/superlative-trophy.svg');
 }
 .forbes-badge__text {
   color: #fff;
@@ -463,7 +463,7 @@ body {
   height: 17px;
   width: 17px;
   margin-top: 4px;
-  background: url('/images/forbes/circle-tick-dark.svg') no-repeat center / contain;
+  background: url('/lp-images-files-videos-fonts/images/forbes/circle-tick-dark.svg') no-repeat center / contain;
 }
 @media (min-width: 768px) {
   .forbes-feature-tick { display: block; }

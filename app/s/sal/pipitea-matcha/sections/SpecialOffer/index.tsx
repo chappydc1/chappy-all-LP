@@ -222,7 +222,7 @@ export const PipiteaMatchaSpecialOffer = () => {
                               className="items-center box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full"
                             >
                               <img
-                                src="https://assets.imagehub.io/Funnel/assets/images/685dc02f-ad1b-4b94-9dd2-e66cffd8a679/adc833e4-9b9c-4e36-a8a6-db8a9e0c5b42/1730862302-1711793671165_1690904490000_Payment_Options_1_.png?versionId=kvVbtKsAu_AXuEx1RcVqrGucRdB6y9Sd"
+                                src="https://assets.imagehub.io/Funnel/assets/lp-images-files-videos-fonts/images/685dc02f-ad1b-4b94-9dd2-e66cffd8a679/adc833e4-9b9c-4e36-a8a6-db8a9e0c5b42/1730862302-1711793671165_1690904490000_Payment_Options_1_.png?versionId=kvVbtKsAu_AXuEx1RcVqrGucRdB6y9Sd"
                                 alt="Payment options"
                                 href=""
                                 title=""
@@ -259,7 +259,7 @@ export const PipiteaMatchaSpecialOffer = () => {
                               className="items-center box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full"
                             >
                               <img
-                                src="https://assets.imagehub.io/Funnel/assets/images/685dc02f-ad1b-4b94-9dd2-e66cffd8a679/adc833e4-9b9c-4e36-a8a6-db8a9e0c5b42/1730026958-green_chk_60x60.webp?versionId=v9DikPfCLTU65sdLTHwcb69OTq1cNh3W"
+                                src="https://assets.imagehub.io/Funnel/assets/lp-images-files-videos-fonts/images/685dc02f-ad1b-4b94-9dd2-e66cffd8a679/adc833e4-9b9c-4e36-a8a6-db8a9e0c5b42/1730026958-green_chk_60x60.webp?versionId=v9DikPfCLTU65sdLTHwcb69OTq1cNh3W"
                                 alt="Secure"
                                 href=""
                                 title=""

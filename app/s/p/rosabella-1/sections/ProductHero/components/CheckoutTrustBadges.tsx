@@ -1,3 +1,5 @@
+import media from "../../../media.json"
+
 export const CheckoutTrustBadges = () => {
   return (
     <div className="bg-stone-50 box-border caret-transparent outline-[3px] w-full mt-5 p-[18px] rounded-sm">
@@ -5,7 +7,7 @@ export const CheckoutTrustBadges = () => {
         <div className="items-center box-border caret-transparent flex min-h-[auto] min-w-[auto] outline-[3px]">
           <img
             title=""
-            src="/lp-images-files-videos-fonts/p/rosabella-1/2.svg"
+            src={media.icons.fastDelivery}
             alt=""
             className="text-black box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-[13px] mr-2"
           />
@@ -19,7 +21,7 @@ export const CheckoutTrustBadges = () => {
         <div className="items-center box-border caret-transparent flex min-h-[auto] min-w-[auto] outline-[3px]">
           <img
             title=""
-            src="/lp-images-files-videos-fonts/p/rosabella-1/8.svg"
+            src={media.icons.secureCheckout}
             alt=""
             className="text-black box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-[13px] mr-2"
           />
@@ -31,7 +33,7 @@ export const CheckoutTrustBadges = () => {
       <div className="box-border caret-transparent outline-[3px] w-full mt-2.5 text-center">
         <img
           title=""
-          src="/lp-images-files-videos-fonts/p/rosabella-1/3.webp"
+          src={media.checkout.paymentBadges}
           alt=""
           className="text-black box-border caret-transparent inline max-w-full outline-[3px] w-[308px]"
         />

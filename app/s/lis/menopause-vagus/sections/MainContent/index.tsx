@@ -16,7 +16,7 @@ const benefitImageConfigs = [
   },
   {
     mediaLayoutClassName: "grid-cols-[repeat(2,minmax(0px,1fr))]",
-    primaryImageUrl: "/lp-images-files-videos-fonts/lis/gruns/images/showing-bottle-lora.png",
+    primaryImageUrl: "/lp-images-files-videos-fonts/lis/gruns/lp-images-files-videos-fonts/images/showing-bottle-lora.png",
     primaryImageAlt: "Woman showing a Meno liquid drops bottle",
     primaryImageClassName: "aspect-[auto_300_/_420] object-[49.121%_39.746%]",
     secondaryImageUrl: "/lp-images-files-videos-fonts/images/gruns/135.png",
@@ -37,16 +37,16 @@ const benefitImageConfigs = [
   },
   {
     mediaLayoutClassName: "grid-cols-[repeat(1,minmax(0px,1fr))]",
-    primaryImageUrl: "/lp-images-files-videos-fonts/lis/gruns/images/girl-chair.png",
+    primaryImageUrl: "/lp-images-files-videos-fonts/lis/gruns/lp-images-files-videos-fonts/images/girl-chair.png",
     primaryImageAlt: "Woman relaxing in a wicker chair with a kiwi eye mask, holding a Grüns package",
     primaryImageClassName: "aspect-[auto_645_/_645] object-[65.6451%_49.0844%]",
   },
   {
     mediaLayoutClassName: "grid-cols-[repeat(2,minmax(0px,1fr))]",
-    primaryImageUrl: "/lp-images-files-videos-fonts/lis/gruns/images/girl1.png",
+    primaryImageUrl: "/lp-images-files-videos-fonts/lis/gruns/lp-images-files-videos-fonts/images/girl1.png",
     primaryImageAlt: "Woman smiling and holding a Grüns packet with kale",
     primaryImageClassName: "aspect-[auto_300_/_420] object-[52.93%_50%]",
-    secondaryImageUrl: "/lp-images-files-videos-fonts/lis/gruns/images/guy1.png",
+    secondaryImageUrl: "/lp-images-files-videos-fonts/lis/gruns/lp-images-files-videos-fonts/images/guy1.png",
     secondaryImageAlt: "Man smiling and holding a Grüns packet",
     secondaryImageClassName: "object-[52.93%_37.207%]",
   },

@@ -105,8 +105,8 @@ export const GetokinawatonicVideoPlayer = () => {
           onClick={() => setPlaying(true)}
           aria-label="Click to play video"
           className="absolute inset-0 w-full h-full z-10 cursor-pointer
-            bg-[url('/images/getokinawatonic/alt-player-continue-2-m.png')]
-            md:bg-[url('/images/getokinawatonic/video-cover.png            bg-cover bg-center"
+            bg-[url('/lp-images-files-videos-fonts/images/getokinawatonic/alt-player-continue-2-m.png')]
+            md:bg-[url('/lp-images-files-videos-fonts/images/getokinawatonic/video-cover.png            bg-cover bg-center"
         />
       )}
       {playing && (

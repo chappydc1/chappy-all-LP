@@ -4,7 +4,7 @@ import { RejuvacareSplitText } from "../../components/RejuvacareSplitText";
 export const RejuvacareSplitContentSection = () => {
   return (
     <div className="items-center self-center bg-neutral-100 box-border caret-transparent flex flex-wrap justify-center max-w-full outline-[3px] md:flex-nowrap">
-      <div className="relative bg-[url('/images/rejuvacare/1722936415316_bg_gradient.webp">
+      <div className="relative bg-[url('/lp-images-files-videos-fonts/images/rejuvacare/1722936415316_bg_gradient.webp">
         <div className="items-center box-border caret-transparent flex flex-col outline-[3px] w-full p-px md:flex-row-reverse">
           <RejuvacareSplitMedia
             containerVariant="flex flex-col min-h-[auto] min-w-[auto] pl-0 md:pl-5"

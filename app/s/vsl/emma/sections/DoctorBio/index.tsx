@@ -71,7 +71,7 @@ export const EmmaDoctorBio = () => {
             ].map((c, i) => (
               <div key={c.name} className={`items-start box-border gap-x-[13.2px] flex gap-y-[13.2px] reveal${i === 0 ? " mt-4" : ""}`} style={{ transitionDelay: `${Math.min(i * 0.04, 0.5)}s` }}>
                 <img
-                  src={`/images/emma/${c.img}.webp`}
+                  src={`/lp-images-files-videos-fonts/images/emma/${c.img}.webp`}
                   className="box-border w-[44.35px] md:w-[63.36px] flex-shrink-0"
                   alt={c.name}
                 />

@@ -1,3 +1,4 @@
+import media from "../../media.json"
 import { SurveyStats } from "./components/SurveyStats"
 import { MoneyBackGuarantee } from "./components/MoneyBackGuarantee"
 
@@ -14,7 +15,7 @@ export const SurveyResultsSection = () => {
             <div className="box-border caret-transparent basis-full shrink-0 min-h-[auto] min-w-[auto] outline-[3px] w-full md:basis-[415px] md:w-[415px]">
               <img
                 title=""
-                src="/lp-images-files-videos-fonts/p/rosabella-1/33.webp"
+                src={media.surveyResults.surveyImage}
                 alt=""
                 className="text-black box-border caret-transparent inline max-w-full outline-[3px] rounded-tl rounded-tr md:rounded-t-none"
               />
