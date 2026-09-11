@@ -22,7 +22,7 @@ export const HikeArticleIntro = () => {
         <img
           sizes="(max-width: 479px) 100vw, 333.3203125px"
           alt=""
-          src="/images/hike/68cb9d4d325d91cad8b9e969_2.png"
+          src="/lp-images-files-videos-fonts/images/hike/68cb9d4d325d91cad8b9e969_2.png"
           className="box-border caret-transparent inline-block max-w-full outline-[3px]"
         />
       </div>
@@ -53,7 +53,7 @@ export const HikeArticleIntro = () => {
         <div className="box-border caret-transparent gap-x-5 grid auto-cols-[1fr] grid-cols-[1fr] grid-rows-[auto] outline-[3px] gap-y-5 md:gap-x-[50px] md:grid-cols-[1fr_1fr] md:gap-y-[50px]">
           <div className="box-border caret-transparent hidden min-h-0 min-w-0 outline-[3px] md:block md:min-h-[auto] md:min-w-[auto]">
             <img
-              src="/images/hike/68c430577138253372109a99_3.png"
+              src="/lp-images-files-videos-fonts/images/hike/68c430577138253372109a99_3.png"
               alt=""
               className="box-border caret-transparent inline-block max-w-[1000px] outline-[3px] w-[1000px] md:max-w-full"
             />
@@ -68,7 +68,7 @@ export const HikeArticleIntro = () => {
             </div>
             <div className="box-border caret-transparent block outline-[3px] my-2.5 md:hidden md:my-0">
               <img
-                src="/images/hike/68c430577138253372109a99_3.png"
+                src="/lp-images-files-videos-fonts/images/hike/68c430577138253372109a99_3.png"
                 alt=""
                 className="box-border caret-transparent inline-block max-w-full outline-[3px] w-auto md:w-[1000px]"
               />

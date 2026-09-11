@@ -1,4 +1,4 @@
-const CROSS = "/images/nebroo/1700045983205_1666773955_cross_v1642658299531_svg.png";
+const CROSS = "/lp-images-files-videos-fonts/images/nebroo/1700045983205_1666773955_cross_v1642658299531_svg.png";
 
 export const NebrooPricingSection = () => {
   return (

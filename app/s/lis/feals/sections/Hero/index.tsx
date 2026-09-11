@@ -14,7 +14,7 @@ export const FealsHero = () => {
             <div className="relative items-center self-stretch box-border caret-transparent flex shrink-0 justify-center max-w-full min-h-px min-w-[auto] outline-[3px] w-20 md:w-auto">
               <picture className="items-center box-border caret-transparent flex basis-0 grow h-6 min-w-[auto] object-contain outline-[3px] overflow-x-auto overflow-y-hidden md:basis-auto md:min-w-0">
                 <img
-                  src="/images/feals/53.png"
+                  src="/lp-images-files-videos-fonts/images/feals/53.png"
                   className="box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-contain outline-[3px] align-baseline"
                 />
               </picture>
@@ -22,7 +22,7 @@ export const FealsHero = () => {
             <div className="relative items-center self-stretch box-border caret-transparent flex shrink-0 justify-center max-w-full min-h-px min-w-[auto] outline-[3px] w-20 md:w-auto">
               <picture className="items-center box-border caret-transparent flex basis-0 grow h-6 min-w-[auto] object-contain outline-[3px] overflow-x-auto overflow-y-hidden md:basis-auto md:min-w-0">
                 <img
-                  src="/images/feals/55.png"
+                  src="/lp-images-files-videos-fonts/images/feals/55.png"
                   className="box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-contain outline-[3px] align-baseline"
                 />
               </picture>
@@ -30,7 +30,7 @@ export const FealsHero = () => {
             <div className="relative items-center self-stretch box-border caret-transparent flex shrink-0 justify-center max-w-full min-h-px min-w-[auto] outline-[3px] w-20 md:w-auto">
               <picture className="items-center box-border caret-transparent flex basis-0 grow h-6 min-w-[auto] object-contain outline-[3px] overflow-x-auto overflow-y-hidden md:basis-auto md:min-w-0">
                 <img
-                  src="/images/feals/50.png"
+                  src="/lp-images-files-videos-fonts/images/feals/50.png"
                   className="box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-contain outline-[3px] align-baseline"
                 />
               </picture>
@@ -38,7 +38,7 @@ export const FealsHero = () => {
             <div className="relative items-center self-stretch box-border caret-transparent flex shrink-0 justify-center max-w-full min-h-px min-w-[auto] outline-[3px] w-20 md:w-auto">
               <picture className="items-center box-border caret-transparent flex basis-0 grow h-6 min-w-[auto] object-contain outline-[3px] overflow-x-auto overflow-y-hidden md:basis-auto md:min-w-0">
                 <img
-                  src="/images/feals/51.png"
+                  src="/lp-images-files-videos-fonts/images/feals/51.png"
                   className="box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-contain outline-[3px] align-baseline"
                 />
               </picture>
@@ -46,7 +46,7 @@ export const FealsHero = () => {
             <div className="relative items-center self-stretch box-border caret-transparent flex shrink-0 justify-center max-w-full min-h-px min-w-[auto] outline-[3px] w-20 md:w-auto">
               <picture className="items-center box-border caret-transparent flex basis-0 grow h-6 min-w-[auto] object-contain outline-[3px] overflow-x-auto overflow-y-hidden md:basis-auto md:min-w-0">
                 <img
-                  src="/images/feals/56.png"
+                  src="/lp-images-files-videos-fonts/images/feals/56.png"
                   className="box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-contain outline-[3px] align-baseline"
                 />
               </picture>
@@ -54,7 +54,7 @@ export const FealsHero = () => {
             <div className="relative items-center self-stretch box-border caret-transparent flex shrink-0 justify-center max-w-full min-h-px min-w-[auto] outline-[3px] w-20 md:w-auto">
               <picture className="items-center box-border caret-transparent flex basis-0 grow h-6 min-w-[auto] object-contain outline-[3px] overflow-x-auto overflow-y-hidden md:basis-auto md:min-w-0">
                 <img
-                  src="/images/feals/52.png"
+                  src="/lp-images-files-videos-fonts/images/feals/52.png"
                   className="box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-contain outline-[3px] align-baseline"
                 />
               </picture>
@@ -62,7 +62,7 @@ export const FealsHero = () => {
             <div className="relative items-center self-stretch box-border caret-transparent flex shrink-0 justify-center max-w-full min-h-px min-w-[auto] outline-[3px] w-20 md:w-auto">
               <picture className="items-center box-border caret-transparent flex basis-0 grow h-6 min-w-[auto] object-contain outline-[3px] overflow-x-auto overflow-y-hidden md:basis-auto md:min-w-0">
                 <img
-                  src="/images/feals/54.png"
+                  src="/lp-images-files-videos-fonts/images/feals/54.png"
                   className="box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-contain outline-[3px] align-baseline"
                 />
               </picture>
@@ -81,7 +81,7 @@ export const FealsHero = () => {
                     className="text-stone-600 items-center self-auto box-border caret-transparent flex basis-0 grow h-[300px] object-cover outline-[3px] overflow-x-auto overflow-y-hidden md:text-black md:self-stretch md:h-full"
                   >
                     <img
-                      src="/images/feals/65.jpg"
+                      src="/lp-images-files-videos-fonts/images/feals/65.jpg"
                       className="text-stone-600 box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-cover outline-[3px] align-baseline md:text-black"
                     />
                   </picture>
@@ -153,7 +153,7 @@ export const FealsHero = () => {
                     className="text-stone-600 items-center self-auto box-border caret-transparent flex basis-0 grow h-[300px] object-cover object-[50%_40%] outline-[3px] overflow-x-auto overflow-y-hidden md:text-black md:self-stretch md:h-full"
                   >
                     <img
-                      src="/images/feals/78.gif"
+                      src="/lp-images-files-videos-fonts/images/feals/78.gif"
                       className="text-stone-600 box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-cover object-[50%_40%] outline-[3px] align-baseline md:text-black"
                     />
                   </picture>
@@ -237,7 +237,7 @@ export const FealsHero = () => {
                     className="text-stone-600 items-center self-auto box-border caret-transparent flex basis-0 grow h-auto object-cover outline-[3px] overflow-x-auto overflow-y-hidden md:text-black md:self-stretch md:h-full"
                   >
                     <img
-                      src="/images/feals/71.png"
+                      src="/lp-images-files-videos-fonts/images/feals/71.png"
                       className="text-stone-600 box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-cover outline-[3px] align-baseline md:text-black"
                     />
                   </picture>
@@ -310,25 +310,25 @@ export const FealsHero = () => {
                 >
                   <picture className="text-stone-600 items-center self-auto box-border caret-transparent flex basis-0 grow h-full max-h-none max-w-[400px] min-h-[auto] object-cover outline-[3px] overflow-x-auto overflow-y-hidden md:text-black md:self-stretch md:basis-auto md:max-h-[291px] md:min-h-0">
                     <img
-                      src="/images/feals/77.jpg"
+                      src="/lp-images-files-videos-fonts/images/feals/77.jpg"
                       className="text-stone-600 box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-cover outline-[3px] align-baseline md:text-black"
                     />
                   </picture>
                   <picture className="text-stone-600 items-center self-auto box-border caret-transparent flex basis-0 grow h-full max-h-none max-w-[400px] min-h-[auto] object-cover outline-[3px] overflow-x-auto overflow-y-hidden md:text-black md:self-stretch md:basis-auto md:max-h-[291px] md:min-h-0">
                     <img
-                      src="/images/feals/49.jpg"
+                      src="/lp-images-files-videos-fonts/images/feals/49.jpg"
                       className="text-stone-600 box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-cover outline-[3px] align-baseline md:text-black"
                     />
                   </picture>
                   <picture className="text-stone-600 items-center self-auto box-border caret-transparent flex basis-0 grow h-full max-h-none max-w-[400px] min-h-[auto] object-cover outline-[3px] overflow-x-auto overflow-y-hidden md:text-black md:self-stretch md:basis-auto md:max-h-[291px] md:min-h-0">
                     <img
-                      src="/images/feals/76.png"
+                      src="/lp-images-files-videos-fonts/images/feals/76.png"
                       className="text-stone-600 box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-cover outline-[3px] align-baseline md:text-black"
                     />
                   </picture>
                   <picture className="text-stone-600 items-center self-auto box-border caret-transparent flex basis-0 grow h-full max-h-none max-w-[400px] min-h-[auto] object-cover outline-[3px] overflow-x-auto overflow-y-hidden md:text-black md:self-stretch md:basis-auto md:max-h-[291px] md:min-h-0">
                     <img
-                      src="/images/feals/73.jpg"
+                      src="/lp-images-files-videos-fonts/images/feals/73.jpg"
                       className="text-stone-600 box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-cover outline-[3px] align-baseline md:text-black"
                     />
                   </picture>
@@ -399,13 +399,13 @@ export const FealsHero = () => {
                 >
                   <picture className="absolute text-stone-600 items-center box-border caret-transparent flex shrink-0 object-contain outline-[3px] overflow-x-auto overflow-y-hidden pointer-events-none w-20 z-[1] left-[15%] top-[5%] md:text-black md:w-[120px] md:left-[20.51%] md:top-[10%]">
                     <img
-                      src="/images/feals/16.svg"
+                      src="/lp-images-files-videos-fonts/images/feals/16.svg"
                       className="text-stone-600 box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-contain outline-[3px] align-baseline md:text-black"
                     />
                   </picture>
                   <picture className="text-stone-600 items-center self-auto box-border caret-transparent flex basis-0 grow h-[300px] object-contain object-[50%_45%] outline-[3px] overflow-x-auto overflow-y-hidden px-4 md:text-black md:self-stretch md:h-full md:object-[50%_50%]">
                     <img
-                      src="/images/feals/72.png"
+                      src="/lp-images-files-videos-fonts/images/feals/72.png"
                       className="text-stone-600 box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-contain object-[50%_45%] outline-[3px] align-baseline md:text-black md:object-[50%_50%]"
                     />
                   </picture>
@@ -479,27 +479,27 @@ export const FealsHero = () => {
             <div className="relative items-center self-auto box-border caret-transparent flex flex-col grow justify-start max-w-full min-h-px min-w-[auto] outline-[3px] border-stone-600 px-6 py-8 border-b md:items-start md:self-stretch md:justify-center md:px-4">
               <div className="self-start box-border caret-transparent gap-x-0.5 flex shrink-0 min-h-[auto] min-w-[auto] outline-[3px] gap-y-0.5 mb-2.5 md:mb-2">
                 <img
-                  src="/images/feals/icon-10.svg"
+                  src="/lp-images-files-videos-fonts/images/feals/icon-10.svg"
                   alt="Icon"
                   className="box-border caret-transparent h-6 outline-[3px] align-baseline w-6"
                 />
                 <img
-                  src="/images/feals/icon-10.svg"
+                  src="/lp-images-files-videos-fonts/images/feals/icon-10.svg"
                   alt="Icon"
                   className="box-border caret-transparent h-6 outline-[3px] align-baseline w-6"
                 />
                 <img
-                  src="/images/feals/icon-10.svg"
+                  src="/lp-images-files-videos-fonts/images/feals/icon-10.svg"
                   alt="Icon"
                   className="box-border caret-transparent h-6 outline-[3px] align-baseline w-6"
                 />
                 <img
-                  src="/images/feals/icon-10.svg"
+                  src="/lp-images-files-videos-fonts/images/feals/icon-10.svg"
                   alt="Icon"
                   className="box-border caret-transparent h-6 outline-[3px] align-baseline w-6"
                 />
                 <img
-                  src="/images/feals/icon-10.svg"
+                  src="/lp-images-files-videos-fonts/images/feals/icon-10.svg"
                   alt="Icon"
                   className="box-border caret-transparent h-6 outline-[3px] align-baseline w-6"
                 />
@@ -531,7 +531,7 @@ export const FealsHero = () => {
               <div className="relative items-center self-start box-border caret-transparent flex shrink-0 justify-center max-w-full min-h-px min-w-[auto] outline-[3px]">
                 <picture className="items-center box-border caret-transparent flex shrink-0 max-w-[400px] object-cover outline-[3px] overflow-x-auto overflow-y-hidden mr-1 md:mr-2">
                   <img
-                    src="/images/feals/45.svg"
+                    src="/lp-images-files-videos-fonts/images/feals/45.svg"
                     className="box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-cover outline-[3px] align-baseline"
                   />
                 </picture>
@@ -547,27 +547,27 @@ export const FealsHero = () => {
             <div className="relative items-center self-auto box-border caret-transparent flex flex-col grow justify-start max-w-full min-h-px min-w-[auto] outline-[3px] border-stone-600 px-6 py-8 border-b md:items-start md:self-stretch md:justify-center md:px-4">
               <div className="self-start box-border caret-transparent gap-x-0.5 flex shrink-0 min-h-[auto] min-w-[auto] outline-[3px] gap-y-0.5 mb-2.5 md:mb-2">
                 <img
-                  src="/images/feals/icon-11.svg"
+                  src="/lp-images-files-videos-fonts/images/feals/icon-11.svg"
                   alt="Icon"
                   className="box-border caret-transparent h-6 outline-[3px] align-baseline w-6"
                 />
                 <img
-                  src="/images/feals/icon-11.svg"
+                  src="/lp-images-files-videos-fonts/images/feals/icon-11.svg"
                   alt="Icon"
                   className="box-border caret-transparent h-6 outline-[3px] align-baseline w-6"
                 />
                 <img
-                  src="/images/feals/icon-11.svg"
+                  src="/lp-images-files-videos-fonts/images/feals/icon-11.svg"
                   alt="Icon"
                   className="box-border caret-transparent h-6 outline-[3px] align-baseline w-6"
                 />
                 <img
-                  src="/images/feals/icon-11.svg"
+                  src="/lp-images-files-videos-fonts/images/feals/icon-11.svg"
                   alt="Icon"
                   className="box-border caret-transparent h-6 outline-[3px] align-baseline w-6"
                 />
                 <img
-                  src="/images/feals/icon-11.svg"
+                  src="/lp-images-files-videos-fonts/images/feals/icon-11.svg"
                   alt="Icon"
                   className="box-border caret-transparent h-6 outline-[3px] align-baseline w-6"
                 />
@@ -602,7 +602,7 @@ export const FealsHero = () => {
               <div className="relative items-center self-start box-border caret-transparent flex shrink-0 justify-center max-w-full min-h-px min-w-[auto] outline-[3px]">
                 <picture className="items-center box-border caret-transparent flex shrink-0 max-w-[400px] object-cover outline-[3px] overflow-x-auto overflow-y-hidden mr-1 md:mr-2">
                   <img
-                    src="/images/feals/45.svg"
+                    src="/lp-images-files-videos-fonts/images/feals/45.svg"
                     className="box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-cover outline-[3px] align-baseline"
                   />
                 </picture>
@@ -618,27 +618,27 @@ export const FealsHero = () => {
             <div className="relative items-center self-auto box-border caret-transparent flex flex-col grow justify-start max-w-full min-h-px min-w-[auto] outline-[3px] border-stone-600 px-6 py-8 border-b md:items-start md:self-stretch md:justify-center md:px-4">
               <div className="self-start box-border caret-transparent gap-x-0.5 flex shrink-0 min-h-[auto] min-w-[auto] outline-[3px] gap-y-0.5 mb-2.5 md:mb-2">
                 <img
-                  src="/images/feals/icon-12.svg"
+                  src="/lp-images-files-videos-fonts/images/feals/icon-12.svg"
                   alt="Icon"
                   className="box-border caret-transparent h-6 outline-[3px] align-baseline w-6"
                 />
                 <img
-                  src="/images/feals/icon-12.svg"
+                  src="/lp-images-files-videos-fonts/images/feals/icon-12.svg"
                   alt="Icon"
                   className="box-border caret-transparent h-6 outline-[3px] align-baseline w-6"
                 />
                 <img
-                  src="/images/feals/icon-12.svg"
+                  src="/lp-images-files-videos-fonts/images/feals/icon-12.svg"
                   alt="Icon"
                   className="box-border caret-transparent h-6 outline-[3px] align-baseline w-6"
                 />
                 <img
-                  src="/images/feals/icon-12.svg"
+                  src="/lp-images-files-videos-fonts/images/feals/icon-12.svg"
                   alt="Icon"
                   className="box-border caret-transparent h-6 outline-[3px] align-baseline w-6"
                 />
                 <img
-                  src="/images/feals/icon-12.svg"
+                  src="/lp-images-files-videos-fonts/images/feals/icon-12.svg"
                   alt="Icon"
                   className="box-border caret-transparent h-6 outline-[3px] align-baseline w-6"
                 />
@@ -671,7 +671,7 @@ export const FealsHero = () => {
               <div className="relative items-center self-start box-border caret-transparent flex shrink-0 justify-center max-w-full min-h-px min-w-[auto] outline-[3px]">
                 <picture className="items-center box-border caret-transparent flex shrink-0 max-w-[400px] object-cover outline-[3px] overflow-x-auto overflow-y-hidden mr-1 md:mr-2">
                   <img
-                    src="/images/feals/45.svg"
+                    src="/lp-images-files-videos-fonts/images/feals/45.svg"
                     className="box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-cover outline-[3px] align-baseline"
                   />
                 </picture>
@@ -687,27 +687,27 @@ export const FealsHero = () => {
             <div className="relative items-center self-auto box-border caret-transparent flex flex-col grow justify-start max-w-full min-h-px min-w-[auto] outline-[3px] border-stone-600 px-6 py-8 border-b md:items-start md:self-stretch md:justify-center md:px-4">
               <div className="self-start box-border caret-transparent gap-x-0.5 flex shrink-0 min-h-[auto] min-w-[auto] outline-[3px] gap-y-0.5 mb-2.5 md:mb-2">
                 <img
-                  src="/images/feals/icon-13.svg"
+                  src="/lp-images-files-videos-fonts/images/feals/icon-13.svg"
                   alt="Icon"
                   className="box-border caret-transparent h-6 outline-[3px] align-baseline w-6"
                 />
                 <img
-                  src="/images/feals/icon-13.svg"
+                  src="/lp-images-files-videos-fonts/images/feals/icon-13.svg"
                   alt="Icon"
                   className="box-border caret-transparent h-6 outline-[3px] align-baseline w-6"
                 />
                 <img
-                  src="/images/feals/icon-13.svg"
+                  src="/lp-images-files-videos-fonts/images/feals/icon-13.svg"
                   alt="Icon"
                   className="box-border caret-transparent h-6 outline-[3px] align-baseline w-6"
                 />
                 <img
-                  src="/images/feals/icon-13.svg"
+                  src="/lp-images-files-videos-fonts/images/feals/icon-13.svg"
                   alt="Icon"
                   className="box-border caret-transparent h-6 outline-[3px] align-baseline w-6"
                 />
                 <img
-                  src="/images/feals/icon-13.svg"
+                  src="/lp-images-files-videos-fonts/images/feals/icon-13.svg"
                   alt="Icon"
                   className="box-border caret-transparent h-6 outline-[3px] align-baseline w-6"
                 />
@@ -741,7 +741,7 @@ export const FealsHero = () => {
               <div className="relative items-center self-start box-border caret-transparent flex shrink-0 justify-center max-w-full min-h-px min-w-[auto] outline-[3px]">
                 <picture className="items-center box-border caret-transparent flex shrink-0 max-w-[400px] object-cover outline-[3px] overflow-x-auto overflow-y-hidden mr-1 md:mr-2">
                   <img
-                    src="/images/feals/45.svg"
+                    src="/lp-images-files-videos-fonts/images/feals/45.svg"
                     className="box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-cover outline-[3px] align-baseline"
                   />
                 </picture>
@@ -757,27 +757,27 @@ export const FealsHero = () => {
             <div className="relative items-center self-auto box-border caret-transparent flex flex-col grow justify-start max-w-full min-h-px min-w-[auto] outline-[3px] border-stone-600 px-6 py-8 border-b md:items-start md:self-stretch md:justify-center md:px-4">
               <div className="self-start box-border caret-transparent gap-x-0.5 flex shrink-0 min-h-[auto] min-w-[auto] outline-[3px] gap-y-0.5 mb-2.5 md:mb-2">
                 <img
-                  src="/images/feals/icon-14.svg"
+                  src="/lp-images-files-videos-fonts/images/feals/icon-14.svg"
                   alt="Icon"
                   className="box-border caret-transparent h-6 outline-[3px] align-baseline w-6"
                 />
                 <img
-                  src="/images/feals/icon-14.svg"
+                  src="/lp-images-files-videos-fonts/images/feals/icon-14.svg"
                   alt="Icon"
                   className="box-border caret-transparent h-6 outline-[3px] align-baseline w-6"
                 />
                 <img
-                  src="/images/feals/icon-14.svg"
+                  src="/lp-images-files-videos-fonts/images/feals/icon-14.svg"
                   alt="Icon"
                   className="box-border caret-transparent h-6 outline-[3px] align-baseline w-6"
                 />
                 <img
-                  src="/images/feals/icon-14.svg"
+                  src="/lp-images-files-videos-fonts/images/feals/icon-14.svg"
                   alt="Icon"
                   className="box-border caret-transparent h-6 outline-[3px] align-baseline w-6"
                 />
                 <img
-                  src="/images/feals/icon-14.svg"
+                  src="/lp-images-files-videos-fonts/images/feals/icon-14.svg"
                   alt="Icon"
                   className="box-border caret-transparent h-6 outline-[3px] align-baseline w-6"
                 />
@@ -811,7 +811,7 @@ export const FealsHero = () => {
               <div className="relative items-center self-start box-border caret-transparent flex shrink-0 justify-center max-w-full min-h-px min-w-[auto] outline-[3px]">
                 <picture className="items-center box-border caret-transparent flex shrink-0 max-w-[400px] object-cover outline-[3px] overflow-x-auto overflow-y-hidden mr-1 md:mr-2">
                   <img
-                    src="/images/feals/45.svg"
+                    src="/lp-images-files-videos-fonts/images/feals/45.svg"
                     className="box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-cover outline-[3px] align-baseline"
                   />
                 </picture>
@@ -830,7 +830,7 @@ export const FealsHero = () => {
                 className="items-center self-auto box-border caret-transparent flex shrink-0 max-w-[400px] object-cover outline-[3px] overflow-x-auto overflow-y-hidden px-4 md:self-stretch md:max-w-none"
               >
                 <img
-                  src="/images/feals/70.png"
+                  src="/lp-images-files-videos-fonts/images/feals/70.png"
                   className="box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-cover outline-[3px] align-baseline"
                 />
               </picture>
@@ -839,7 +839,7 @@ export const FealsHero = () => {
                 className="items-center self-auto box-border caret-transparent flex shrink-0 max-w-[400px] object-cover outline-[3px] overflow-x-auto overflow-y-hidden px-4 md:self-stretch md:max-w-none"
               >
                 <img
-                  src="/images/feals/66.jpg"
+                  src="/lp-images-files-videos-fonts/images/feals/66.jpg"
                   className="box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-cover outline-[3px] align-baseline"
                 />
               </picture>
@@ -848,7 +848,7 @@ export const FealsHero = () => {
                 className="items-center self-auto box-border caret-transparent flex shrink-0 max-w-[400px] object-cover outline-[3px] overflow-x-auto overflow-y-hidden px-4 md:self-stretch md:max-w-none"
               >
                 <img
-                  src="/images/feals/63.jpg"
+                  src="/lp-images-files-videos-fonts/images/feals/63.jpg"
                   className="box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-cover outline-[3px] align-baseline"
                 />
               </picture>
@@ -857,7 +857,7 @@ export const FealsHero = () => {
                 className="items-center self-auto box-border caret-transparent flex shrink-0 max-w-[400px] object-cover outline-[3px] overflow-x-auto overflow-y-hidden px-4 md:self-stretch md:max-w-none"
               >
                 <img
-                  src="/images/feals/61.jpg"
+                  src="/lp-images-files-videos-fonts/images/feals/61.jpg"
                   className="box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-cover outline-[3px] align-baseline"
                 />
               </picture>

@@ -47,7 +47,7 @@ export const JonesCookieConsent = () => {
                   className="absolute box-border caret-transparent flex h-3 outline-[3px] w-3 right-[7.2px] top-[7.2px]"
                 >
                   <img
-                    src="/images/jones/icon-1.svg"
+                    src="/lp-images-files-videos-fonts/images/jones/icon-1.svg"
                     alt="Icon"
                     className="box-border caret-transparent outline-[3px] align-baseline"
                   />

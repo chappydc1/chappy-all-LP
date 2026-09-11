@@ -1,49 +1,49 @@
 {
   "header": {
-    "logoSrc": "/images/hear/hearcom-v2.svg",
-    "heroImageSrc": "/images/hear/founders-25-desk.jpg",
+    "logoSrc": "/lp-images-files-videos-fonts/images/hear/hearcom-v2.svg",
+    "heroImageSrc": "/lp-images-files-videos-fonts/images/hear/founders-25-desk.jpg",
     "heroImageAlt": "Hearing aids",
-    "featuredOnLogosSrc": "/images/hear/static-logos-desk.png"
+    "featuredOnLogosSrc": "/lp-images-files-videos-fonts/images/hear/static-logos-desk.png"
   },
   "mediaBlock": {
-    "imageSrc": "/images/hear/ha-25-desk.jpg"
+    "imageSrc": "/lp-images-files-videos-fonts/images/hear/ha-25-desk.jpg"
   },
   "videos": [
     {
-      "poster": "/images/hear/clear-sound-25.jpg",
+      "poster": "/lp-images-files-videos-fonts/images/hear/clear-sound-25.jpg",
       "src": "https://media.audibene.net/dhqvlsb3l/video/upload/f_auto,q_auto,vc_auto,w_auto,c_limit/v1/assets/na/video/clear-sound-25.mp4"
     },
     {
-      "poster": "/images/hear/store-room-25.jpg",
+      "poster": "/lp-images-files-videos-fonts/images/hear/store-room-25.jpg",
       "src": "https://media.audibene.net/dhqvlsb3l/video/upload/f_auto,q_auto,vc_auto,w_auto,c_limit/v1/assets/na/video/store-room-25.mp4"
     }
   ],
   "featuresList": {
-    "checkmarkIconSrc": "/images/hear/miracle.png"
+    "checkmarkIconSrc": "/lp-images-files-videos-fonts/images/hear/miracle.png"
   },
   "stateSelector": {
     "states": [
-      { "name": "Oregon",      "imgSrc": "/images/hear/oregon-yellow.svg" },
-      { "name": "Georgia",     "imgSrc": "/images/hear/georgia-red.svg" },
-      { "name": "Alaska",      "imgSrc": "/images/hear/alaska-lightblue.svg" },
-      { "name": "Connecticut", "imgSrc": "/images/hear/connecticut-lightgreen.svg" },
-      { "name": "Michigan",    "imgSrc": "/images/hear/michigan-blue.svg" },
-      { "name": "Arkansas",    "imgSrc": "/images/hear/arkansas-green.svg" }
+      { "name": "Oregon",      "imgSrc": "/lp-images-files-videos-fonts/images/hear/oregon-yellow.svg" },
+      { "name": "Georgia",     "imgSrc": "/lp-images-files-videos-fonts/images/hear/georgia-red.svg" },
+      { "name": "Alaska",      "imgSrc": "/lp-images-files-videos-fonts/images/hear/alaska-lightblue.svg" },
+      { "name": "Connecticut", "imgSrc": "/lp-images-files-videos-fonts/images/hear/connecticut-lightgreen.svg" },
+      { "name": "Michigan",    "imgSrc": "/lp-images-files-videos-fonts/images/hear/michigan-blue.svg" },
+      { "name": "Arkansas",    "imgSrc": "/lp-images-files-videos-fonts/images/hear/arkansas-green.svg" }
     ],
-    "doubleArrowSrc": "/images/hear/double-arrow.svg",
-    "trustLogosSrc": "/images/hear/trust-logos-new-desk.png",
+    "doubleArrowSrc": "/lp-images-files-videos-fonts/images/hear/double-arrow.svg",
+    "trustLogosSrc": "/lp-images-files-videos-fonts/images/hear/trust-logos-new-desk.png",
     "trustLogosAlt": "happy customers",
-    "starsImageSrc": "/images/hear/stars.svg"
+    "starsImageSrc": "/lp-images-files-videos-fonts/images/hear/stars.svg"
   },
   "relatedStories": {
     "stories": [
-      { "imageSrc": "/images/hear/hearing-aids-and-flag-25.jpg" },
-      { "imageSrc": "/images/hear/harvard-25.jpg" },
-      { "imageSrc": "/images/hear/aids-in-hands-25.jpg" }
+      { "imageSrc": "/lp-images-files-videos-fonts/images/hear/hearing-aids-and-flag-25.jpg" },
+      { "imageSrc": "/lp-images-files-videos-fonts/images/hear/harvard-25.jpg" },
+      { "imageSrc": "/lp-images-files-videos-fonts/images/hear/aids-in-hands-25.jpg" }
     ]
   },
   "newsletter": {
-    "logoSrc": "/images/hear/hearcom-logo.svg",
+    "logoSrc": "/lp-images-files-videos-fonts/images/hear/hearcom-logo.svg",
     "logoAlt": "hearcom logo"
   }
 }

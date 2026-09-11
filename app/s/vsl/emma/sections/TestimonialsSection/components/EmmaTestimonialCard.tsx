@@ -27,12 +27,12 @@ export const EmmaTestimonialCard = (props: EmmaTestimonialCardProps) => {
             Verified customer
           </span>
           <img
-            src="/images/emma/check-mark.webp"
+            src="/lp-images-files-videos-fonts/images/emma/check-mark.webp"
             className="box-border caret-transparent inline w-[17px]"
           />
         </div>
         <img
-          src="/images/emma/storystars.webp"
+          src="/lp-images-files-videos-fonts/images/emma/storystars.webp"
           className="box-border caret-transparent float-right pt-6"
         />
       </div>

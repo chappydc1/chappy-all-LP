@@ -23,31 +23,31 @@ export const JonesTestimonial = (props: JonesTestimonialProps) => {
           <div className="relative items-center self-center box-border caret-transparent gap-x-0.5 flex shrink-0 justify-center max-w-full min-h-px min-w-[auto] outline-[3px] gap-y-0.5 md:items-start md:self-auto">
             <picture className="items-center box-border caret-transparent flex shrink-0 object-cover outline-[3px] overflow-x-auto overflow-y-hidden w-2 md:w-[9px]">
               <img
-                src="/images/jones/139.png"
+                src="/lp-images-files-videos-fonts/images/jones/139.png"
                 className="box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-cover outline-[3px] align-baseline"
               />
             </picture>
             <picture className="items-center box-border caret-transparent flex shrink-0 object-cover outline-[3px] overflow-x-auto overflow-y-hidden w-2 md:w-[9px]">
               <img
-                src="/images/jones/139.png"
+                src="/lp-images-files-videos-fonts/images/jones/139.png"
                 className="box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-cover outline-[3px] align-baseline"
               />
             </picture>
             <picture className="items-center box-border caret-transparent flex shrink-0 object-cover outline-[3px] overflow-x-auto overflow-y-hidden w-2 md:w-[9px]">
               <img
-                src="/images/jones/139.png"
+                src="/lp-images-files-videos-fonts/images/jones/139.png"
                 className="box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-cover outline-[3px] align-baseline"
               />
             </picture>
             <picture className="items-center box-border caret-transparent flex shrink-0 object-cover outline-[3px] overflow-x-auto overflow-y-hidden w-2 md:w-[9px]">
               <img
-                src="/images/jones/139.png"
+                src="/lp-images-files-videos-fonts/images/jones/139.png"
                 className="box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-cover outline-[3px] align-baseline"
               />
             </picture>
             <picture className="items-center box-border caret-transparent flex shrink-0 object-cover outline-[3px] overflow-x-auto overflow-y-hidden w-2 md:w-[9px]">
               <img
-                src="/images/jones/139.png"
+                src="/lp-images-files-videos-fonts/images/jones/139.png"
                 className="box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-cover outline-[3px] align-baseline"
               />
             </picture>
@@ -61,7 +61,7 @@ export const JonesTestimonial = (props: JonesTestimonialProps) => {
           </div>
           <picture className="items-center box-border caret-transparent flex grow-0 shrink-0 object-cover outline-[3px] overflow-x-auto overflow-y-hidden w-2 md:grow md:shrink md:w-auto">
             <img
-              src="/images/jones/129.svg"
+              src="/lp-images-files-videos-fonts/images/jones/129.svg"
               className="box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-cover outline-[3px] align-baseline"
             />
           </picture>

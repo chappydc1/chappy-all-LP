@@ -5,7 +5,7 @@ import copy from "./copy.json";
 export const metadata: Metadata = {
   title: copy.meta.title,
   description: copy.meta.description,
-  icons: { icon: "/favicons/lora.svg" },
+  icons: { icon: "/lp-images-files-videos-fonts/favicons/lora.svg" },
 };
 
 export default function LoraLayout({

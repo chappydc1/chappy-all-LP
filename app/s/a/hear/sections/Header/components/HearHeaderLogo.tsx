@@ -3,7 +3,7 @@ export const HearHeaderLogo = () => {
     <div className="items-center caret-transparent flex justify-between">
       <div className="caret-transparent min-h-[auto] min-w-[auto] w-[85px] md:w-[145px]">
         <img
-          src="/images/hear/hearcom-v2.svg"
+          src="/lp-images-files-videos-fonts/images/hear/hearcom-v2.svg"
           alt="Hearcom logo"
           className="caret-transparent align-baseline w-full"
         />

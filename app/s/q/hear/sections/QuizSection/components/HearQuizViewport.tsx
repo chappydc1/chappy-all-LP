@@ -31,7 +31,7 @@ export const HearQuizViewport = () => {
     return (
       <div className="relative max-w-[568px] min-h-[690px] mx-auto flex flex-col items-center justify-center gap-6 px-6 md:min-h-[640px]">
         <img
-          src="/images/hear/loader-hearcom-logo.svg"
+          src="/lp-images-files-videos-fonts/images/hear/loader-hearcom-logo.svg"
           alt="hear.com"
           className="h-[52px] w-[140px] object-contain"
         />

@@ -3,12 +3,12 @@ export const TodayVideoPlayer = () => {
     <div className="items-center box-border caret-transparent flex h-full justify-center outline-[3px] w-full z-[9999]">
       <div className="relative aspect-[9_/_16] box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] w-[78%] overflow-hidden rounded-lg md:w-[24%]">
         <img
-          src="/images/today/vertical_modelo.png"
+          src="/lp-images-files-videos-fonts/images/today/vertical_modelo.png"
           alt="Thumbnail"
           className="absolute box-border caret-transparent h-full max-w-full object-contain outline-[3px] w-full z-[2] left-0 top-0"
         />
         <video
-          poster="/images/today/thumbnail.jpg"
+          poster="/lp-images-files-videos-fonts/images/today/thumbnail.jpg"
           playsInline
           preload="metadata"
           src="blob://https://sugarhealthnotice.com/36a15415-5021-44dd-b6db-71268e39cf3d"
@@ -32,7 +32,7 @@ export const TodayVideoPlayer = () => {
         </div>
         <div className="absolute text-white items-center bg-black/70 box-border caret-transparent gap-x-2.5 hidden flex-col h-full justify-center outline-[3px] gap-y-2.5 text-center w-full z-[4] left-0 top-0">
           <img
-            src="/images/today/pause-9_16-1771189608084.gif"
+            src="/lp-images-files-videos-fonts/images/today/pause-9_16-1771189608084.gif"
             alt="Pause Image"
             className="box-border caret-transparent h-full max-w-full object-contain outline-[3px]"
           />

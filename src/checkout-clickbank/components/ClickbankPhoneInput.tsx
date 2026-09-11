@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState, type KeyboardEvent } from "react";
 
-const FLAG_SPRITE = "/images/clickbank-checkout/flags.png";
+const FLAG_SPRITE = "/lp-images-files-videos-fonts/images/clickbank-checkout/flags.png";
 
 type Country = { code: string; name: string; dial: string; pos: number };
 

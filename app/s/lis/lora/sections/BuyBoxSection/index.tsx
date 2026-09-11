@@ -24,7 +24,7 @@ export const LoraBuyBoxSection = () => {
                       thumbnailPictureClassName="box-border caret-transparent block min-h-[auto] min-w-[auto] outline-[3px]"
                       images={[
                         {
-                          src: "/images/gruns/3.webp",
+                          src: "/lp-images-files-videos-fonts/images/gruns/3.webp",
                           alt: "",
                           wrapperClassName:
                             "box-border caret-transparent basis-full shrink-0 min-h-[auto] outline-[3px]",
@@ -34,7 +34,7 @@ export const LoraBuyBoxSection = () => {
                             "aspect-[auto_1286_/_1286] box-border caret-transparent max-w-full outline-[3px] w-[1286px]",
                         },
                         {
-                          src: "/images/gruns/10.webp",
+                          src: "/lp-images-files-videos-fonts/images/gruns/10.webp",
                           alt: "",
                           wrapperClassName:
                             "box-border caret-transparent basis-full shrink-0 min-h-[auto] outline-[3px]",
@@ -44,7 +44,7 @@ export const LoraBuyBoxSection = () => {
                             "aspect-[auto_2160_/_2160] box-border caret-transparent max-w-full outline-[3px] w-[2160px]",
                         },
                         {
-                          src: "/images/gruns/11.webp",
+                          src: "/lp-images-files-videos-fonts/images/gruns/11.webp",
                           alt: "Product advertisement with customer testimonials and trust metrics, over 1,000,000 customers, 4.8 stars",
                           wrapperClassName:
                             "box-border caret-transparent basis-full shrink-0 min-h-[auto] outline-[3px]",
@@ -54,7 +54,7 @@ export const LoraBuyBoxSection = () => {
                             "aspect-[auto_2400_/_2400] box-border caret-transparent max-w-full outline-[3px] w-[2400px]",
                         },
                         {
-                          src: "/images/gruns/20.webp",
+                          src: "/lp-images-files-videos-fonts/images/gruns/20.webp",
                           alt: "What to expect taking Lora for the first 30 days",
                           wrapperClassName:
                             "box-border caret-transparent basis-full shrink-0 min-h-[auto] outline-[3px]",
@@ -64,7 +64,7 @@ export const LoraBuyBoxSection = () => {
                             "aspect-[auto_1080_/_1080] box-border caret-transparent max-w-full outline-[3px] w-[1080px]",
                         },
                         {
-                          src: "/images/gruns/21.webp",
+                          src: "/lp-images-files-videos-fonts/images/gruns/21.webp",
                           alt: "Lora Clinical study shows improvements in Vitamin C and Folate levels after 90 days",
                           wrapperClassName:
                             "box-border caret-transparent basis-full shrink-0 min-h-[auto] outline-[3px]",
@@ -74,7 +74,7 @@ export const LoraBuyBoxSection = () => {
                             "aspect-[auto_1250_/_1250] box-border caret-transparent max-w-full outline-[3px] w-[1250px]",
                         },
                         {
-                          src: "/images/gruns/43.webp",
+                          src: "/lp-images-files-videos-fonts/images/gruns/43.webp",
                           alt: "Lora Supports Digestion, Immunity, and Energy",
                           wrapperClassName:
                             "box-border caret-transparent basis-full shrink-0 min-h-[auto] outline-[3px]",
@@ -89,7 +89,7 @@ export const LoraBuyBoxSection = () => {
                           ariaLabel: "Go to slide 1",
                           buttonClassName:
                             "items-center bg-white caret-transparent flex h-[50px] justify-center min-h-[50px] min-w-[50px] outline-[3px] text-center w-[50px] border overflow-hidden p-0 rounded-[5px] border-black md:h-[85px] md:min-h-[85px] md:min-w-[85px] md:w-[85px]",
-                          src: "/images/gruns/9.avif",
+                          src: "/lp-images-files-videos-fonts/images/gruns/9.avif",
                           alt: "",
                           imageClassName:
                             "aspect-[auto_1286_/_1286] box-border caret-transparent max-w-full outline-[3px] w-[1286px]",
@@ -100,7 +100,7 @@ export const LoraBuyBoxSection = () => {
                           ariaLabel: "View nutrition label",
                           buttonClassName:
                             "items-center bg-white caret-transparent flex h-[50px] justify-center min-h-[50px] min-w-[50px] opacity-50 outline-[3px] text-center w-[50px] border overflow-hidden p-0 rounded-[5px] border-black md:h-[85px] md:min-h-[85px] md:min-w-[85px] md:w-[85px]",
-                          src: "/images/gruns/12.avif",
+                          src: "/lp-images-files-videos-fonts/images/gruns/12.avif",
                           alt: "",
                           imageClassName:
                             "aspect-[auto_100_/_100] box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-[100px]",
@@ -109,7 +109,7 @@ export const LoraBuyBoxSection = () => {
                           ariaLabel: "Go to slide 3",
                           buttonClassName:
                             "items-center bg-white caret-transparent flex h-[50px] justify-center min-h-[50px] min-w-[50px] opacity-50 outline-[3px] text-center w-[50px] border overflow-hidden p-0 rounded-[5px] border-black md:h-[85px] md:min-h-[85px] md:min-w-[85px] md:w-[85px]",
-                          src: "/images/gruns/13.avif",
+                          src: "/lp-images-files-videos-fonts/images/gruns/13.avif",
                           alt: "Product advertisement with customer testimonials and trust metrics, over 1,000,000 customers, 4.8 stars",
                           imageClassName:
                             "aspect-[auto_2400_/_2400] box-border caret-transparent max-w-full outline-[3px] w-[2400px]",
@@ -120,7 +120,7 @@ export const LoraBuyBoxSection = () => {
                           ariaLabel: "Go to slide 4",
                           buttonClassName:
                             "items-center bg-white caret-transparent flex h-[50px] justify-center min-h-[50px] min-w-[50px] opacity-50 outline-[3px] text-center w-[50px] border overflow-hidden p-0 rounded-[5px] border-black md:h-[85px] md:min-h-[85px] md:min-w-[85px] md:w-[85px]",
-                          src: "/images/gruns/14.avif",
+                          src: "/lp-images-files-videos-fonts/images/gruns/14.avif",
                           alt: "What to expect taking Lora for the first 30 days",
                           imageClassName:
                             "aspect-[auto_1080_/_1080] box-border caret-transparent max-w-full outline-[3px] w-[1080px]",
@@ -131,7 +131,7 @@ export const LoraBuyBoxSection = () => {
                           ariaLabel: "Go to slide 5",
                           buttonClassName:
                             "items-center bg-white caret-transparent flex h-[50px] justify-center min-h-[50px] min-w-[50px] opacity-50 outline-[3px] text-center w-[50px] border overflow-hidden p-0 rounded-[5px] border-black md:h-[85px] md:min-h-[85px] md:min-w-[85px] md:w-[85px]",
-                          src: "/images/gruns/17.avif",
+                          src: "/lp-images-files-videos-fonts/images/gruns/17.avif",
                           alt: "Lora Clinical study shows improvements in Vitamin C and Folate levels after 90 days",
                           imageClassName:
                             "aspect-[auto_1250_/_1250] box-border caret-transparent max-w-full outline-[3px] w-[1250px]",
@@ -142,7 +142,7 @@ export const LoraBuyBoxSection = () => {
                           ariaLabel: "Go to slide 6",
                           buttonClassName:
                             "items-center bg-white caret-transparent flex h-[50px] justify-center min-h-[50px] min-w-[50px] opacity-50 outline-[3px] text-center w-[50px] border overflow-hidden p-0 rounded-[5px] border-black md:h-[85px] md:min-h-[85px] md:min-w-[85px] md:w-[85px]",
-                          src: "/images/gruns/18.webp",
+                          src: "/lp-images-files-videos-fonts/images/gruns/18.webp",
                           alt: "Lora Supports Digestion, Immunity, and Energy",
                           imageClassName:
                             "aspect-[auto_1250_/_1250] box-border caret-transparent max-w-full outline-[3px] w-[1250px]",
@@ -150,8 +150,8 @@ export const LoraBuyBoxSection = () => {
                             "box-border caret-transparent block min-h-[auto] min-w-[auto] outline-[3px]",
                         },
                       ]}
-                      previousIconSrc="/images/gruns/icon-10.svg"
-                      nextIconSrc="/images/gruns/icon-11.svg"
+                      previousIconSrc="/lp-images-files-videos-fonts/images/gruns/icon-10.svg"
+                      nextIconSrc="/lp-images-files-videos-fonts/images/gruns/icon-11.svg"
                     />
                   </div>
                   <div className="[align-items:normal] box-border caret-transparent hidden outline-[3px] md:items-start">
@@ -162,7 +162,7 @@ export const LoraBuyBoxSection = () => {
                       thumbnailPictureClassName="box-border caret-transparent block outline-[3px]"
                       images={[
                         {
-                          src: "/images/gruns/1.webp",
+                          src: "/lp-images-files-videos-fonts/images/gruns/1.webp",
                           alt: "",
                           wrapperClassName:
                             "box-border caret-transparent basis-full shrink-0 outline-[3px]",
@@ -172,7 +172,7 @@ export const LoraBuyBoxSection = () => {
                             "aspect-[auto_2160_/_2160] box-border caret-transparent max-w-full outline-[3px] w-[2160px]",
                         },
                         {
-                          src: "/images/gruns/46.webp",
+                          src: "/lp-images-files-videos-fonts/images/gruns/46.webp",
                           alt: "",
                           wrapperClassName:
                             "box-border caret-transparent basis-full shrink-0 outline-[3px]",
@@ -182,7 +182,7 @@ export const LoraBuyBoxSection = () => {
                             "aspect-[auto_2160_/_2160] box-border caret-transparent max-w-full outline-[3px] w-[2160px]",
                         },
                         {
-                          src: "/images/gruns/52.webp",
+                          src: "/lp-images-files-videos-fonts/images/gruns/52.webp",
                           alt: "Popsicle® Firecracker Lora",
                           wrapperClassName:
                             "box-border caret-transparent basis-full shrink-0 outline-[3px]",
@@ -192,7 +192,7 @@ export const LoraBuyBoxSection = () => {
                             "aspect-[auto_2160_/_2160] box-border caret-transparent max-w-full outline-[3px] w-[2160px]",
                         },
                         {
-                          src: "/images/gruns/45.webp",
+                          src: "/lp-images-files-videos-fonts/images/gruns/45.webp",
                           alt: "Popsicle® Firecracker Lora",
                           wrapperClassName:
                             "box-border caret-transparent basis-full shrink-0 outline-[3px]",
@@ -202,7 +202,7 @@ export const LoraBuyBoxSection = () => {
                             "aspect-[auto_2160_/_2160] box-border caret-transparent max-w-full outline-[3px] w-[2160px]",
                         },
                         {
-                          src: "/images/gruns/44.webp",
+                          src: "/lp-images-files-videos-fonts/images/gruns/44.webp",
                           alt: "Popsicle® Firecracker Lora",
                           wrapperClassName:
                             "box-border caret-transparent basis-full shrink-0 outline-[3px]",
@@ -212,7 +212,7 @@ export const LoraBuyBoxSection = () => {
                             "aspect-[auto_2160_/_2160] box-border caret-transparent max-w-full outline-[3px] w-[2160px]",
                         },
                         {
-                          src: "/images/gruns/47.webp",
+                          src: "/lp-images-files-videos-fonts/images/gruns/47.webp",
                           alt: "Popsicle® Firecracker Lora",
                           wrapperClassName:
                             "box-border caret-transparent basis-full shrink-0 outline-[3px]",
@@ -222,7 +222,7 @@ export const LoraBuyBoxSection = () => {
                             "aspect-[auto_2160_/_2160] box-border caret-transparent max-w-full outline-[3px] w-[2160px]",
                         },
                         {
-                          src: "/images/gruns/48.webp",
+                          src: "/lp-images-files-videos-fonts/images/gruns/48.webp",
                           alt: "Popsicle® Firecracker Lora",
                           wrapperClassName:
                             "box-border caret-transparent basis-full shrink-0 outline-[3px]",
@@ -237,7 +237,7 @@ export const LoraBuyBoxSection = () => {
                           ariaLabel: "Go to slide 1",
                           buttonClassName:
                             "items-center bg-white caret-transparent flex h-[50px] justify-center min-h-[50px] min-w-[50px] outline-[3px] text-center w-[50px] border overflow-hidden p-0 rounded-[5px] border-black md:h-[85px] md:min-h-[85px] md:min-w-[85px] md:w-[85px]",
-                          src: "/images/gruns/27.avif",
+                          src: "/lp-images-files-videos-fonts/images/gruns/27.avif",
                           alt: "",
                           imageClassName:
                             "aspect-[auto_2160_/_2160] box-border caret-transparent max-w-full outline-[3px] w-[2160px]",
@@ -248,7 +248,7 @@ export const LoraBuyBoxSection = () => {
                           ariaLabel: "View nutrition label",
                           buttonClassName:
                             "items-center bg-white caret-transparent flex h-[50px] justify-center min-h-[50px] min-w-[50px] opacity-50 outline-[3px] text-center w-[50px] border overflow-hidden p-0 rounded-[5px] border-black md:h-[85px] md:min-h-[85px] md:min-w-[85px] md:w-[85px]",
-                          src: "/images/gruns/26.avif",
+                          src: "/lp-images-files-videos-fonts/images/gruns/26.avif",
                           alt: "",
                           imageClassName:
                             "aspect-[auto_100_/_100] box-border caret-transparent max-w-full outline-[3px] w-[100px]",
@@ -257,7 +257,7 @@ export const LoraBuyBoxSection = () => {
                           ariaLabel: "Go to slide 3",
                           buttonClassName:
                             "items-center bg-white caret-transparent flex h-[50px] justify-center min-h-[50px] min-w-[50px] opacity-50 outline-[3px] text-center w-[50px] border overflow-hidden p-0 rounded-[5px] border-black md:h-[85px] md:min-h-[85px] md:min-w-[85px] md:w-[85px]",
-                          src: "/images/gruns/29.avif",
+                          src: "/lp-images-files-videos-fonts/images/gruns/29.avif",
                           alt: "Popsicle® Firecracker Lora",
                           imageClassName:
                             "aspect-[auto_2160_/_2160] box-border caret-transparent max-w-full outline-[3px] w-[2160px]",
@@ -268,7 +268,7 @@ export const LoraBuyBoxSection = () => {
                           ariaLabel: "Go to slide 4",
                           buttonClassName:
                             "items-center bg-white caret-transparent flex h-[50px] justify-center min-h-[50px] min-w-[50px] opacity-50 outline-[3px] text-center w-[50px] border overflow-hidden p-0 rounded-[5px] border-black md:h-[85px] md:min-h-[85px] md:min-w-[85px] md:w-[85px]",
-                          src: "/images/gruns/22.avif",
+                          src: "/lp-images-files-videos-fonts/images/gruns/22.avif",
                           alt: "Popsicle® Firecracker Lora",
                           imageClassName:
                             "aspect-[auto_2160_/_2160] box-border caret-transparent max-w-full outline-[3px] w-[2160px]",
@@ -279,7 +279,7 @@ export const LoraBuyBoxSection = () => {
                           ariaLabel: "Go to slide 5",
                           buttonClassName:
                             "items-center bg-white caret-transparent flex h-[50px] justify-center min-h-[50px] min-w-[50px] opacity-50 outline-[3px] text-center w-[50px] border overflow-hidden p-0 rounded-[5px] border-black md:h-[85px] md:min-h-[85px] md:min-w-[85px] md:w-[85px]",
-                          src: "/images/gruns/28.avif",
+                          src: "/lp-images-files-videos-fonts/images/gruns/28.avif",
                           alt: "Popsicle® Firecracker Lora",
                           imageClassName:
                             "aspect-[auto_2160_/_2160] box-border caret-transparent max-w-full outline-[3px] w-[2160px]",
@@ -290,7 +290,7 @@ export const LoraBuyBoxSection = () => {
                           ariaLabel: "Go to slide 6",
                           buttonClassName:
                             "items-center bg-white caret-transparent flex h-[50px] justify-center min-h-[50px] min-w-[50px] opacity-50 outline-[3px] text-center w-[50px] border overflow-hidden p-0 rounded-[5px] border-black md:h-[85px] md:min-h-[85px] md:min-w-[85px] md:w-[85px]",
-                          src: "/images/gruns/23.avif",
+                          src: "/lp-images-files-videos-fonts/images/gruns/23.avif",
                           alt: "Popsicle® Firecracker Lora",
                           imageClassName:
                             "aspect-[auto_2160_/_2160] box-border caret-transparent max-w-full outline-[3px] w-[2160px]",
@@ -301,7 +301,7 @@ export const LoraBuyBoxSection = () => {
                           ariaLabel: "Go to slide 7",
                           buttonClassName:
                             "items-center bg-white caret-transparent flex h-[50px] justify-center min-h-[50px] min-w-[50px] opacity-50 outline-[3px] text-center w-[50px] border overflow-hidden p-0 rounded-[5px] border-black md:h-[85px] md:min-h-[85px] md:min-w-[85px] md:w-[85px]",
-                          src: "/images/gruns/24.webp",
+                          src: "/lp-images-files-videos-fonts/images/gruns/24.webp",
                           alt: "Popsicle® Firecracker Lora",
                           imageClassName:
                             "aspect-[auto_2160_/_2160] box-border caret-transparent max-w-full outline-[3px] w-[2160px]",
@@ -309,8 +309,8 @@ export const LoraBuyBoxSection = () => {
                             "box-border caret-transparent block outline-[3px]",
                         },
                       ]}
-                      previousIconSrc="/images/gruns/icon-10.svg"
-                      nextIconSrc="/images/gruns/icon-11.svg"
+                      previousIconSrc="/lp-images-files-videos-fonts/images/gruns/icon-10.svg"
+                      nextIconSrc="/lp-images-files-videos-fonts/images/gruns/icon-11.svg"
                     />
                   </div>
                 </div>
@@ -331,7 +331,7 @@ export const LoraBuyBoxSection = () => {
                               className="items-center box-border caret-transparent flex h-[68px] min-h-[auto] min-w-[auto] outline-[3px] px-4"
                             >
                               <img
-                                src="/images/gruns/icon.svg"
+                                src="/lp-images-files-videos-fonts/images/gruns/icon.svg"
                                 alt="Light Labs"
                                 className="aspect-[auto_31_/_22] box-border caret-transparent max-w-full min-h-[auto] min-w-[31px] outline-[3px]"
                               />
@@ -357,7 +357,7 @@ export const LoraBuyBoxSection = () => {
                                   35 substances tested for quality
                                 </p>
                                 <img
-                                  src="/images/gruns/icon-12.svg"
+                                  src="/lp-images-files-videos-fonts/images/gruns/icon-12.svg"
                                   alt="Icon"
                                   className="box-border caret-transparent outline-[3px] text-nowrap"
                                 />

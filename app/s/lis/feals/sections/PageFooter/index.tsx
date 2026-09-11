@@ -9,7 +9,7 @@ export const FealsPageFooter = () => {
       <div className="relative items-center self-center box-border caret-transparent gap-x-2 flex flex-col shrink-0 justify-start max-w-[767px] min-h-px min-w-[auto] outline-[3px] gap-y-2 px-4 md:max-w-[1180px] md:px-0">
         <picture className="items-center box-border caret-transparent flex shrink-0 object-contain outline-[3px] overflow-x-auto overflow-y-hidden w-[90px]">
           <img
-            src="/images/feals/46.svg"
+            src="/lp-images-files-videos-fonts/images/feals/46.svg"
             className="box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-contain outline-[3px] align-baseline"
           />
         </picture>

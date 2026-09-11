@@ -4,7 +4,7 @@ export const NebrooVoxHumanaImage = () => {
       <img
         alt="Breakthrough Discovery.webp"
         title=""
-        src="/images/nebroo/1729153692689_1712407440934_Breakthrough_Discovery.webp"
+        src="/lp-images-files-videos-fonts/images/nebroo/1729153692689_1712407440934_Breakthrough_Discovery.webp"
         
         className="self-center box-border caret-transparent inline max-w-full mx-auto rounded-[10px] md:self-auto"
       />

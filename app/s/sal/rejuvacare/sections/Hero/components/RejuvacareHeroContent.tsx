@@ -79,7 +79,7 @@ export const RejuvacareHeroContent = () => {
         containerVariant="bg-white min-h-[auto] min-w-[auto] rounded-[10px] md:rounded-[5px]"
         badgeVariant="leading-[19.2px]"
       />
-      <div className="bg-white bg-[url('/images/rejuvacare/1713781536653_1713532949416_2_1_.png"></div>
+      <div className="bg-white bg-[url('/lp-images-files-videos-fonts/images/rejuvacare/1713781536653_1713532949416_2_1_.png"></div>
     </div>
   );
 };

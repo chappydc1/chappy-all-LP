@@ -82,7 +82,7 @@ export const FooterBottom = () => {
                   >
                     My Privacy Choices
                     <img
-                      src="/images/product/datagrail-dnsos-toggle-icon.webp"
+                      src="/lp-images-files-videos-fonts/images/product/datagrail-dnsos-toggle-icon.webp"
                       alt="California Consumer Privacy Act (CCPA) Opt-Out Icon"
                       className="aspect-[auto_30_/_17] box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] w-[30px] ml-1"
                     />

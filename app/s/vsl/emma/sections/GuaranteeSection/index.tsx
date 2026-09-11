@@ -4,7 +4,7 @@ export const EmmaGuaranteeSection = () => {
       <div className="box-border max-w-[1440px] m-auto pt-40 pb-12 px-2 md:px-0">
         <div className="bg-white box-border max-w-[830px] w-full m-auto border-8 border-solid reveal-scale">
           <img
-            src="/images/emma/guaranteed.webp"
+            src="/lp-images-files-videos-fonts/images/emma/guaranteed.webp"
             className="box-border mt-[-110px] mb-auto mx-auto"
           />
           <div className="box-border">
@@ -46,10 +46,10 @@ export const EmmaGuaranteeSection = () => {
               Yours FREE with any multipack purchase - Instant access
             </h2>
           </div>
-          <div className="bg-white bg-none bg-no-repeat bg-size-[272px] shadow-[rgba(0,0,0,0.4)_0px_4px_10px_0px] box-border flex flex-wrap max-w-[870px] w-full bg-right m-auto px-2 rounded-b-[5px] md:bg-[url('/images/emma/leanbellyshakebook.png')]">
+          <div className="bg-white bg-none bg-no-repeat bg-size-[272px] shadow-[rgba(0,0,0,0.4)_0px_4px_10px_0px] box-border flex flex-wrap max-w-[870px] w-full bg-right m-auto px-2 rounded-b-[5px] md:bg-[url('/lp-images-files-videos-fonts/images/emma/leanbellyshakebook.png')]">
             <div className="box-border block shrink-0 max-w-[485px] text-center w-full m-auto pt-6 px-3 md:hidden md:w-6/12">
               <img
-                src="/images/emma/leanbellyshakebook.webp"
+                src="/lp-images-files-videos-fonts/images/emma/leanbellyshakebook.webp"
                 className="box-border inline max-w-[220px] w-full"
               />
             </div>
@@ -82,9 +82,9 @@ export const EmmaGuaranteeSection = () => {
                   <div className="box-border inline-block align-middle">
                     <span className="text-emerald-800 text-lg font-bold box-border block leading-[18px] font-myriad_pro">{t.name}</span>
                     <span className="text-emerald-800 text-sm box-border leading-[16.8px] font-myriad_pro">Verified customer</span>
-                    <img src="/images/emma/check-mark.webp" className="box-border inline w-[17px]" />
+                    <img src="/lp-images-files-videos-fonts/images/emma/check-mark.webp" className="box-border inline w-[17px]" />
                   </div>
-                  <img src="/images/emma/storystars.webp" className="box-border float-right pt-6" />
+                  <img src="/lp-images-files-videos-fonts/images/emma/storystars.webp" className="box-border float-right pt-6" />
                 </div>
                 <div className="bg-white box-border mt-1 p-6 rounded-b-sm">
                   <h3 className="text-black text-xl italic font-bold box-border mb-2 font-myriad_pro">{t.title}</h3>
@@ -102,9 +102,9 @@ export const EmmaGuaranteeSection = () => {
                   <div className="box-border inline-block align-middle">
                     <span className="text-emerald-800 text-lg font-bold box-border block leading-[18px] font-myriad_pro">{t.name}</span>
                     <span className="text-emerald-800 text-sm box-border leading-[16.8px] font-myriad_pro">Verified customer</span>
-                    <img src="/images/emma/check-mark.webp" className="box-border inline w-[17px]" />
+                    <img src="/lp-images-files-videos-fonts/images/emma/check-mark.webp" className="box-border inline w-[17px]" />
                   </div>
-                  <img src="/images/emma/storystars.webp" className="box-border float-right pt-6" />
+                  <img src="/lp-images-files-videos-fonts/images/emma/storystars.webp" className="box-border float-right pt-6" />
                 </div>
                 <div className="bg-white box-border mt-1 p-6 rounded-b-sm">
                   <h3 className="text-black text-xl italic font-bold box-border mb-2 font-myriad_pro">{t.title}</h3>

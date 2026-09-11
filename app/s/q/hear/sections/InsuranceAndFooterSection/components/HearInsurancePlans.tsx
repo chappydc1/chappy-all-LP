@@ -5,7 +5,7 @@ export const HearInsurancePlans = () => {
         We work with all major plans:
       </h2>
       <img
-        src="/images/hear/logos-grid.svg"
+        src="/lp-images-files-videos-fonts/images/hear/logos-grid.svg"
         alt=""
         className="caret-transparent inline max-w-[90%] outline-[3px] align-bottom w-full mb-[30px]"
       />

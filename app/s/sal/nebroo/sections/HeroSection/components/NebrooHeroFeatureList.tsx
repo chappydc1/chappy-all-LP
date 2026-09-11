@@ -1,4 +1,4 @@
-const TICK = "/images/nebroo/1729048495546_bluetick_1_.webp";
+const TICK = "/lp-images-files-videos-fonts/images/nebroo/1729048495546_bluetick_1_.webp";
 
 const Item = ({ children }: { children: React.ReactNode }) => (
   <div className="items-center flex justify-start mt-5 first:mt-4">

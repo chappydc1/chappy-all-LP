@@ -24,7 +24,7 @@ export const RejuvacareDoctorReview = (props: RejuvacareDoctorReviewProps) => {
           </i>
         </div>
       </div>
-      <div className="items-center bg-[url('/images/rejuvacare/1722821367050_dr_james_barkley.webp"></div>
+      <div className="items-center bg-[url('/lp-images-files-videos-fonts/images/rejuvacare/1722821367050_dr_james_barkley.webp"></div>
     </div>
   );
 };

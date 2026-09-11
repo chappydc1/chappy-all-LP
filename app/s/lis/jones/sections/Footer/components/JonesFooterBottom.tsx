@@ -25,7 +25,7 @@ export const JonesFooterBottom = () => {
           >
             Do not sell my personal information
             <img
-              src="/images/jones/image-2.svg"
+              src="/lp-images-files-videos-fonts/images/jones/image-2.svg"
               alt="California Consumer Privacy Act (CCPA) Opt-Out Icon"
               role="presentation"
               className="caret-transparent inline h-[8.4px] max-w-full outline-[3px] text-start ml-[3px] md:text-right"

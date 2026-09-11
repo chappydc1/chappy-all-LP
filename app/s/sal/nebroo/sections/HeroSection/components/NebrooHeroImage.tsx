@@ -3,7 +3,7 @@ export const NebrooHeroImage = () => {
     <div className="box-border caret-transparent w-full md:w-auto">
       <img
         title=""
-        src="/images/nebroo/1739335662047_BG_Mobile_v1.webp"
+        src="/lp-images-files-videos-fonts/images/nebroo/1739335662047_BG_Mobile_v1.webp"
         
         alt=""
         className="text-black box-border caret-transparent block h-auto max-w-full w-full md:text-neutral-800 md:hidden md:h-0 md:w-0"

@@ -12,13 +12,13 @@ const storyRail = [
 ];
 
 const headlineImage =
-  "/images/today/headline.jpg";
+  "/lp-images-files-videos-fonts/images/today/headline.jpg";
 const interviewerImage =
-  "/images/today/entrevistador.webp";
+  "/lp-images-files-videos-fonts/images/today/entrevistador.webp";
 const doctorImage =
-  "/images/today/doutor.webp";
+  "/lp-images-files-videos-fonts/images/today/doutor.webp";
 const videoGif =
-  "/images/today/gif_video.gif";
+  "/lp-images-files-videos-fonts/images/today/gif_video.gif";
 const ctaHref =
   "https://portal.sugarhealthnotice.com/preclick?clickid=6a025c130a098620e6cc27ab&rtkck=1778684153";
 

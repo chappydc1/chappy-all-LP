@@ -1,56 +1,56 @@
 {
-  "logo": "/images/primepicks/PrimePicks_logo_black.svg",
-  "heroBg": "/images/primepicks/aGVyb193ZWIuanBn.jpg",
-  "authorPhoto": "/images/primepicks/ZXhwZXJ0LTQ0LmpwZw.jpg",
+  "logo": "/lp-images-files-videos-fonts/images/primepicks/PrimePicks_logo_black.svg",
+  "heroBg": "/lp-images-files-videos-fonts/images/primepicks/aGVyb193ZWIuanBn.jpg",
+  "authorPhoto": "/lp-images-files-videos-fonts/images/primepicks/ZXhwZXJ0LTQ0LmpwZw.jpg",
   "icons": {
-    "checkFill": "/images/primepicks/lets-icons_check-fill.svg",
-    "flagUs": "/images/primepicks/flag-us.svg",
-    "ratingStars": "/images/primepicks/rating-stars.svg",
-    "arrowRight": "/images/primepicks/icon-1.svg",
-    "subtract": "/images/primepicks/subtract.svg",
-    "proCheck": "/images/primepicks/fe_checked-icon.svg",
-    "conX": "/images/primepicks/con-x.svg",
-    "showMore": "/images/primepicks/icon-2.svg",
-    "sidebarPro": "/images/primepicks/icon-3.svg",
-    "sidebarCon": "/images/primepicks/icon-4.svg",
-    "star5": "/images/primepicks/star-5.svg",
-    "quoteBg": "/images/primepicks/quote-top-left.svg"
+    "checkFill": "/lp-images-files-videos-fonts/images/primepicks/lets-icons_check-fill.svg",
+    "flagUs": "/lp-images-files-videos-fonts/images/primepicks/flag-us.svg",
+    "ratingStars": "/lp-images-files-videos-fonts/images/primepicks/rating-stars.svg",
+    "arrowRight": "/lp-images-files-videos-fonts/images/primepicks/icon-1.svg",
+    "subtract": "/lp-images-files-videos-fonts/images/primepicks/subtract.svg",
+    "proCheck": "/lp-images-files-videos-fonts/images/primepicks/fe_checked-icon.svg",
+    "conX": "/lp-images-files-videos-fonts/images/primepicks/con-x.svg",
+    "showMore": "/lp-images-files-videos-fonts/images/primepicks/icon-2.svg",
+    "sidebarPro": "/lp-images-files-videos-fonts/images/primepicks/icon-3.svg",
+    "sidebarCon": "/lp-images-files-videos-fonts/images/primepicks/icon-4.svg",
+    "star5": "/lp-images-files-videos-fonts/images/primepicks/star-5.svg",
+    "quoteBg": "/lp-images-files-videos-fonts/images/primepicks/quote-top-left.svg"
   },
   "stars": {
-    "5stars": "/images/primepicks/TrustRate-5-stars-1-1-2-6.svg",
-    "4halfStars": "/images/primepicks/TrustRate-4-half-stars-1-1-1-2-2-2.svg",
-    "greenStars": "/images/primepicks/green-stars.svg",
-    "testimonialStars": "/images/primepicks/Testimonials-stars-icons-7-4-1-1.svg",
-    "product3Rating": "/images/primepicks/product-3-rating-2.svg",
-    "product4Rating": "/images/primepicks/product-4-rating-2.svg",
-    "product5Rating": "/images/primepicks/product-5-rating-2.svg"
+    "5stars": "/lp-images-files-videos-fonts/images/primepicks/TrustRate-5-stars-1-1-2-6.svg",
+    "4halfStars": "/lp-images-files-videos-fonts/images/primepicks/TrustRate-4-half-stars-1-1-1-2-2-2.svg",
+    "greenStars": "/lp-images-files-videos-fonts/images/primepicks/green-stars.svg",
+    "testimonialStars": "/lp-images-files-videos-fonts/images/primepicks/Testimonials-stars-icons-7-4-1-1.svg",
+    "product3Rating": "/lp-images-files-videos-fonts/images/primepicks/product-3-rating-2.svg",
+    "product4Rating": "/lp-images-files-videos-fonts/images/primepicks/product-4-rating-2.svg",
+    "product5Rating": "/lp-images-files-videos-fonts/images/primepicks/product-5-rating-2.svg"
   },
   "products": {
     "tagsley": {
-      "image": "/images/primepicks/MV8uanBn.jpg",
-      "ratingStars": "/images/primepicks/TrustRate-5-stars-1-1-2-6.svg"
+      "image": "/lp-images-files-videos-fonts/images/primepicks/MV8uanBn.jpg",
+      "ratingStars": "/lp-images-files-videos-fonts/images/primepicks/TrustRate-5-stars-1-1-2-6.svg"
     },
     "tilePro": {
-      "image": "/images/primepicks/Ml8uanBn.jpg",
-      "ratingStars": "/images/primepicks/TrustRate-4-half-stars-1-1-1-2-2-2.svg"
+      "image": "/lp-images-files-videos-fonts/images/primepicks/Ml8uanBn.jpg",
+      "ratingStars": "/lp-images-files-videos-fonts/images/primepicks/TrustRate-4-half-stars-1-1-1-2-2-2.svg"
     },
     "smartTrackCard": {
-      "image": "/images/primepicks/M18uanBn.jpg",
-      "ratingStars": "/images/primepicks/product-3-rating-2.svg"
+      "image": "/lp-images-files-videos-fonts/images/primepicks/M18uanBn.jpg",
+      "ratingStars": "/lp-images-files-videos-fonts/images/primepicks/product-3-rating-2.svg"
     },
     "cardUniversal": {
-      "image": "/images/primepicks/NF8uanBn.jpg",
-      "ratingStars": "/images/primepicks/product-4-rating-2.svg"
+      "image": "/lp-images-files-videos-fonts/images/primepicks/NF8uanBn.jpg",
+      "ratingStars": "/lp-images-files-videos-fonts/images/primepicks/product-4-rating-2.svg"
     },
     "trackingCard": {
-      "image": "/images/primepicks/NV8uanBn.jpg",
-      "ratingStars": "/images/primepicks/product-5-rating-2.svg"
+      "image": "/lp-images-files-videos-fonts/images/primepicks/NV8uanBn.jpg",
+      "ratingStars": "/lp-images-files-videos-fonts/images/primepicks/product-5-rating-2.svg"
     }
   },
   "article": {
-    "videoPoster1": "/images/primepicks/image-160-scaled.jpg",
-    "videoPoster2": "/images/primepicks/image-161.jpg",
-    "articleImage1": "/images/primepicks/M19UYWdzbGV5X1RyYWNraW5nLUNhcmQuanBn-w_720.jpg",
-    "articleImage2": "/images/primepicks/NF9UYWdzbGV5X1RyYWNraW5nLUNhcmQuanBn-w_720.jpg"
+    "videoPoster1": "/lp-images-files-videos-fonts/images/primepicks/image-160-scaled.jpg",
+    "videoPoster2": "/lp-images-files-videos-fonts/images/primepicks/image-161.jpg",
+    "articleImage1": "/lp-images-files-videos-fonts/images/primepicks/M19UYWdzbGV5X1RyYWNraW5nLUNhcmQuanBn-w_720.jpg",
+    "articleImage2": "/lp-images-files-videos-fonts/images/primepicks/NF9UYWdzbGV5X1RyYWNraW5nLUNhcmQuanBn-w_720.jpg"
   }
 }

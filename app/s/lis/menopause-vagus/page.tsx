@@ -10,7 +10,7 @@ export default function MenoLandingPage() {
     <>
       <MenoAccessibilityWidgets
         variant="icon"
-        src="/images/gruns/icon-1.svg"
+        src="/lp-images-files-videos-fonts/images/gruns/icon-1.svg"
         alt="Icon"
         href=""
         linkText=""
@@ -91,7 +91,7 @@ export default function MenoLandingPage() {
       <div className="box-border caret-transparent h-px outline-[3px] w-px overflow-hidden">
         <img
           alt=""
-          src="/images/gruns/92.gif"
+          src="/lp-images-files-videos-fonts/images/gruns/92.gif"
           className="aspect-[auto_1_/_1] box-border caret-transparent max-w-full opacity-[0.01] outline-[3px] w-px"
         />
       </div>

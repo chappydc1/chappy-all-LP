@@ -4,7 +4,7 @@ export const metadata: Metadata = {
   title: "Steady Blood Sugar, Fewer Cravings | Today",
   description:
     "Discover the simple daily habit adults are using to support balanced blood sugar and steadier energy. Try Today's blood sugar supplement now.",
-  icons: { icon: "/favicons/a-today.svg" },
+  icons: { icon: "/lp-images-files-videos-fonts/favicons/a-today.svg" },
 };
 
 export default function TodayLayout({ children }: { children: React.ReactNode }) {

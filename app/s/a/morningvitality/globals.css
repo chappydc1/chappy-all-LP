@@ -8,14 +8,14 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url('/fonts/morningvitality/Roboto-400-latin.woff2') format('woff2');
+  src: url('/lp-images-files-videos-fonts/fonts/morningvitality/Roboto-400-latin.woff2') format('woff2');
 }
 @font-face {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 900;
   font-display: swap;
-  src: url('/fonts/morningvitality/Roboto-900-latin.woff2') format('woff2');
+  src: url('/lp-images-files-videos-fonts/fonts/morningvitality/Roboto-900-latin.woff2') format('woff2');
 }
 
 /* Self-hosted Open Sans */
@@ -24,7 +24,7 @@
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url('/fonts/morningvitality/OpenSans-700-latin.woff2') format('woff2');
+  src: url('/lp-images-files-videos-fonts/fonts/morningvitality/OpenSans-700-latin.woff2') format('woff2');
 }
 
 /* Self-hosted Inter UI */
@@ -33,35 +33,35 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url('/fonts/morningvitality/Inter-UI-Regular.woff2') format('woff2');
+  src: url('/lp-images-files-videos-fonts/fonts/morningvitality/Inter-UI-Regular.woff2') format('woff2');
 }
 @font-face {
   font-family: 'Inter UI';
   font-style: italic;
   font-weight: 400;
   font-display: swap;
-  src: url('/fonts/morningvitality/Inter-UI-Italic.woff2') format('woff2');
+  src: url('/lp-images-files-videos-fonts/fonts/morningvitality/Inter-UI-Italic.woff2') format('woff2');
 }
 @font-face {
   font-family: 'Inter UI';
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: url('/fonts/morningvitality/Inter-UI-Medium.woff2') format('woff2');
+  src: url('/lp-images-files-videos-fonts/fonts/morningvitality/Inter-UI-Medium.woff2') format('woff2');
 }
 @font-face {
   font-family: 'Inter UI';
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url('/fonts/morningvitality/Inter-UI-Bold.woff2') format('woff2');
+  src: url('/lp-images-files-videos-fonts/fonts/morningvitality/Inter-UI-Bold.woff2') format('woff2');
 }
 @font-face {
   font-family: 'Inter UI';
   font-style: normal;
   font-weight: 900;
   font-display: swap;
-  src: url('/fonts/morningvitality/Inter-UI-Black.woff2') format('woff2');
+  src: url('/lp-images-files-videos-fonts/fonts/morningvitality/Inter-UI-Black.woff2') format('woff2');
 }
 
 /* Base resets matching live site */

@@ -4,7 +4,7 @@ export const NebrooProductIntroImage = () => {
       <img
         alt="You Are Just One Step Away From RESTORING Your Hearing....webp"
         title=""
-        src="/images/nebroo/1739604866247_One_Step_Away_v3.webp"
+        src="/lp-images-files-videos-fonts/images/nebroo/1739604866247_One_Step_Away_v3.webp"
         
         className="self-center box-border caret-transparent inline max-w-full mx-auto rounded-[10px] md:self-auto"
       />

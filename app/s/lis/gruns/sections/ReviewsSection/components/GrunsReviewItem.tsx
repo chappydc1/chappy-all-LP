@@ -36,7 +36,7 @@ export const GrunsReviewItem = (props: GrunsReviewItemProps) => {
               >
                 <div className="box-border caret-transparent outline-[3px]">
                   <img
-                    src="/images/gruns/icon-27.svg"
+                    src="/lp-images-files-videos-fonts/images/gruns/icon-27.svg"
                     alt="Icon"
                     className="box-border caret-transparent h-3 outline-[3px] w-3"
                   />
@@ -51,7 +51,7 @@ export const GrunsReviewItem = (props: GrunsReviewItemProps) => {
               <div className="text-sm items-center box-border caret-transparent flex leading-[14px] outline-[3px] mt-1">
                 <div className="items-start box-border caret-transparent flex h-3.5 min-h-[auto] min-w-[auto] outline-[3px] w-3.5">
                   <img
-                    src="/images/gruns/icon-28.svg"
+                    src="/lp-images-files-videos-fonts/images/gruns/icon-28.svg"
                     alt="Icon"
                     className="box-border caret-transparent h-3.5 outline-[3px] w-3.5"
                   />
@@ -75,35 +75,35 @@ export const GrunsReviewItem = (props: GrunsReviewItemProps) => {
               <div className="items-center box-border caret-transparent gap-x-1 flex min-h-[auto] min-w-[auto] outline-[3px] gap-y-1">
                 <div className="box-border caret-transparent h-[18px] min-h-[auto] min-w-[auto] outline-[3px] w-[18px]">
                   <img
-                    src="/images/gruns/icon-25.svg"
+                    src="/lp-images-files-videos-fonts/images/gruns/icon-25.svg"
                     alt="Icon"
                     className="box-border caret-transparent outline-[3px] m-auto"
                   />
                 </div>
                 <div className="box-border caret-transparent h-[18px] min-h-[auto] min-w-[auto] outline-[3px] w-[18px]">
                   <img
-                    src="/images/gruns/icon-25.svg"
+                    src="/lp-images-files-videos-fonts/images/gruns/icon-25.svg"
                     alt="Icon"
                     className="box-border caret-transparent outline-[3px] m-auto"
                   />
                 </div>
                 <div className="box-border caret-transparent h-[18px] min-h-[auto] min-w-[auto] outline-[3px] w-[18px]">
                   <img
-                    src="/images/gruns/icon-25.svg"
+                    src="/lp-images-files-videos-fonts/images/gruns/icon-25.svg"
                     alt="Icon"
                     className="box-border caret-transparent outline-[3px] m-auto"
                   />
                 </div>
                 <div className="box-border caret-transparent h-[18px] min-h-[auto] min-w-[auto] outline-[3px] w-[18px]">
                   <img
-                    src="/images/gruns/icon-25.svg"
+                    src="/lp-images-files-videos-fonts/images/gruns/icon-25.svg"
                     alt="Icon"
                     className="box-border caret-transparent outline-[3px] m-auto"
                   />
                 </div>
                 <div className="box-border caret-transparent h-[18px] min-h-[auto] min-w-[auto] outline-[3px] w-[18px]">
                   <img
-                    src="/images/gruns/icon-25.svg"
+                    src="/lp-images-files-videos-fonts/images/gruns/icon-25.svg"
                     alt="Icon"
                     className="box-border caret-transparent outline-[3px] m-auto"
                   />
@@ -112,35 +112,35 @@ export const GrunsReviewItem = (props: GrunsReviewItemProps) => {
               <div className="absolute items-center box-border caret-transparent gap-x-1 flex h-full outline-[3px] gap-y-1 w-full overflow-hidden left-0 top-0">
                 <div className="box-border caret-transparent shrink-0 h-[18px] min-h-[auto] min-w-[auto] outline-[3px] w-[18px]">
                   <img
-                    src="/images/gruns/icon-26.svg"
+                    src="/lp-images-files-videos-fonts/images/gruns/icon-26.svg"
                     alt="Icon"
                     className="box-border caret-transparent outline-[3px] m-auto"
                   />
                 </div>
                 <div className="box-border caret-transparent shrink-0 h-[18px] min-h-[auto] min-w-[auto] outline-[3px] w-[18px]">
                   <img
-                    src="/images/gruns/icon-26.svg"
+                    src="/lp-images-files-videos-fonts/images/gruns/icon-26.svg"
                     alt="Icon"
                     className="box-border caret-transparent outline-[3px] m-auto"
                   />
                 </div>
                 <div className="box-border caret-transparent shrink-0 h-[18px] min-h-[auto] min-w-[auto] outline-[3px] w-[18px]">
                   <img
-                    src="/images/gruns/icon-26.svg"
+                    src="/lp-images-files-videos-fonts/images/gruns/icon-26.svg"
                     alt="Icon"
                     className="box-border caret-transparent outline-[3px] m-auto"
                   />
                 </div>
                 <div className="box-border caret-transparent shrink-0 h-[18px] min-h-[auto] min-w-[auto] outline-[3px] w-[18px]">
                   <img
-                    src="/images/gruns/icon-26.svg"
+                    src="/lp-images-files-videos-fonts/images/gruns/icon-26.svg"
                     alt="Icon"
                     className="box-border caret-transparent outline-[3px] m-auto"
                   />
                 </div>
                 <div className="box-border caret-transparent shrink-0 h-[18px] min-h-[auto] min-w-[auto] outline-[3px] w-[18px]">
                   <img
-                    src="/images/gruns/icon-26.svg"
+                    src="/lp-images-files-videos-fonts/images/gruns/icon-26.svg"
                     alt="Icon"
                     className="box-border caret-transparent outline-[3px] m-auto"
                   />
@@ -195,7 +195,7 @@ export const GrunsReviewItem = (props: GrunsReviewItemProps) => {
         </div>
         <div className="box-border caret-transparent gap-x-4 flex outline-[3px] gap-y-4 mt-6">
           <div className="text-sm items-center box-border caret-transparent flex leading-[14px] min-h-[auto] min-w-[auto] outline-[3px]">
-            <div className="items-center bg-[url('/images/gruns/4402299c7b701bcfc128.svg">
+            <div className="items-center bg-[url('/lp-images-files-videos-fonts/images/gruns/4402299c7b701bcfc128.svg">
                
             </div>
             <div className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px]">
@@ -213,7 +213,7 @@ export const GrunsReviewItem = (props: GrunsReviewItemProps) => {
             >
               <div className="items-end box-border caret-transparent flex h-3.5 min-h-[auto] min-w-[auto] outline-[3px] w-3.5">
                 <img
-                  src="/images/gruns/icon-29.svg"
+                  src="/lp-images-files-videos-fonts/images/gruns/icon-29.svg"
                   alt="Icon"
                   className="box-border caret-transparent h-3.5 outline-[3px] w-3.5"
                 />
@@ -229,7 +229,7 @@ export const GrunsReviewItem = (props: GrunsReviewItemProps) => {
             >
               <div className="items-end box-border caret-transparent flex h-3.5 min-h-[auto] min-w-[auto] outline-[3px] w-3.5">
                 <img
-                  src="/images/gruns/icon-30.svg"
+                  src="/lp-images-files-videos-fonts/images/gruns/icon-30.svg"
                   alt="Icon"
                   className="box-border caret-transparent h-3.5 outline-[3px] w-3.5"
                 />

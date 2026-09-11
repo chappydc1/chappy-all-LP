@@ -25,7 +25,7 @@ export const RejuvacareBenefitCard = (props: RejuvacareBenefitCardProps) => {
           <div className="box-border caret-transparent outline-[3px] text-center">
             <img
               title=""
-              src="/images/rejuvacare/1713536915312_12_1_.png"
+              src="/lp-images-files-videos-fonts/images/rejuvacare/1713536915312_12_1_.png"
               alt=""
               className="text-black box-border caret-transparent inline max-w-full outline-[3px] w-5 mr-[5px] mb-[3px]"
             />

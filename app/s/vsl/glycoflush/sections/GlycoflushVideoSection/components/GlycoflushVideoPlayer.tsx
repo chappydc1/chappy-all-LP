@@ -13,7 +13,7 @@ export const GlycoflushVideoPlayer = () => {
             id="69e16f36ed35062270c606c2"
             playsInline
             preload="metadata"
-            poster="/images/glycoflush/poster.jpg"
+            poster="/lp-images-files-videos-fonts/images/glycoflush/poster.jpg"
             className="w-full h-full"
           />
         </div>

@@ -59,7 +59,7 @@ export const AbcNewsNavbarActions = (props: AbcNewsNavbarActionsProps) => {
               <img
                 src={
                   props.iconSrc ||
-                  "/images/abc-news/icon-2.svg"
+                  "/lp-images-files-videos-fonts/images/abc-news/icon-2.svg"
                 }
                 alt={props.iconAlt || "Icon"}
                 className={
@@ -123,7 +123,7 @@ export const AbcNewsNavbarActions = (props: AbcNewsNavbarActionsProps) => {
           <img
             src={
               props.streamLogoSrc ||
-              "/images/abc-news/DisneyPlus.svg"
+              "/lp-images-files-videos-fonts/images/abc-news/DisneyPlus.svg"
             }
             alt={props.streamLogoAlt || "stream logo"}
             className={

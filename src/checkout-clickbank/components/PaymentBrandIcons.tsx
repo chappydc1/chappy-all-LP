@@ -1,4 +1,4 @@
-const ICON_BASE = "/images/clickbank-checkout";
+const ICON_BASE = "/lp-images-files-videos-fonts/images/clickbank-checkout";
 
 export const VisaIcon = (): JSX.Element => (
   <img src={`${ICON_BASE}/cc-visa.947247ea.svg`} alt="Visa" className="h-6 w-auto" />

@@ -27,7 +27,7 @@ export const RejuvacareSetupSection = () => {
             <video
               src="https://cdn.shopify.com/videos/c/o/v/f3561b42fa794e4abd7e94375cf2f506.mp4"
               controls
-              poster="/images/rejuvacare/43.jpg"
+              poster="/lp-images-files-videos-fonts/images/rejuvacare/43.jpg"
               className="relative box-border caret-transparent inline max-w-full outline-[3px] align-baseline w-full rounded-[10px] md:rounded-[15px]"
             ></video>
           </div>
