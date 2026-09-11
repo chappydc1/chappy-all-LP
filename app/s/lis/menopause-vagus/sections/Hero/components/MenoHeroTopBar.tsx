@@ -18,7 +18,7 @@ export const MenoHeroTopBar = () => {
       </div>
       <div className="items-center box-border caret-transparent flex justify-center outline-[3px] py-4">
         <img
-          src="/lp-images-files-videos-fonts/lis/gruns/images/logo_1_new.png"
+          src="/lp-images-files-videos-fonts/lis/gruns/lp-images-files-videos-fonts/images/logo_1_new.png"
           alt="grüns logo"
           className="box-border caret-transparent outline-[3px] w-[125px]"
         />

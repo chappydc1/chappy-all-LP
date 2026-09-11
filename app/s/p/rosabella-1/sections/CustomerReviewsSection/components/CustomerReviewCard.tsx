@@ -10,7 +10,7 @@ export const CustomerReviewCard = (props: CustomerReviewCardProps) => {
       <div className="items-center box-border caret-transparent flex justify-start outline-[3px] w-full">
         <img
           title=""
-          src="/lp-images-files-videos-fonts/s/p/rosabella-1/icon-stars.svg"
+          src="/lp-images-files-videos-fonts/p/rosabella-1/icon-stars.svg"
           alt=""
           className="text-black box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-20 mr-2"
         />

@@ -84,7 +84,7 @@ export const PipiteaMatchaSupplementComparison = () => {
         contentVariant="flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full"
         ctaText="BUY NOW & SAVE"
         ctaTitle="BUY NOW & SAVE"
-        imageSrc="https://assets.imagehub.io/Funnel/assets/images/685dc02f-ad1b-4b94-9dd2-e66cffd8a679/adc833e4-9b9c-4e36-a8a6-db8a9e0c5b42/1734001034-chk.svg?versionId=eTUOT1M.uN.fuanC9TRsxfmkyC4jRRke"
+        imageSrc="https://assets.imagehub.io/Funnel/assets/lp-images-files-videos-fonts/images/685dc02f-ad1b-4b94-9dd2-e66cffd8a679/adc833e4-9b9c-4e36-a8a6-db8a9e0c5b42/1734001034-chk.svg?versionId=eTUOT1M.uN.fuanC9TRsxfmkyC4jRRke"
         imageSizes=""
         guaranteeText="90-Day Money Back Guarantee"
         guaranteeTag="p"

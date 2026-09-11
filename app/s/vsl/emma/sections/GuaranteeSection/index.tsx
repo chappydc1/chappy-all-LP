@@ -78,7 +78,7 @@ export const EmmaGuaranteeSection = () => {
             ].map((t, i) => (
               <div key={t.name} className={`box-border shrink-0 max-w-full w-full px-3 md:w-6/12 reveal-left`} style={{ transitionDelay: `${i * 0.15}s` }}>
                 <div className="box-border">
-                  <img src={`/images/emma/${t.img}.webp`} className="box-border inline" alt={t.name} />
+                  <img src={`/lp-images-files-videos-fonts/images/emma/${t.img}.webp`} className="box-border inline" alt={t.name} />
                   <div className="box-border inline-block align-middle">
                     <span className="text-emerald-800 text-lg font-bold box-border block leading-[18px] font-myriad_pro">{t.name}</span>
                     <span className="text-emerald-800 text-sm box-border leading-[16.8px] font-myriad_pro">Verified customer</span>
@@ -98,7 +98,7 @@ export const EmmaGuaranteeSection = () => {
             ].map((t, i) => (
               <div key={t.name} className="box-border shrink-0 max-w-full w-full px-3 md:w-6/12 mt-12 reveal-right" style={{ transitionDelay: `${i * 0.15}s` }}>
                 <div className="box-border">
-                  <img src={`/images/emma/${t.img}.webp`} className="box-border inline" alt={t.name} />
+                  <img src={`/lp-images-files-videos-fonts/images/emma/${t.img}.webp`} className="box-border inline" alt={t.name} />
                   <div className="box-border inline-block align-middle">
                     <span className="text-emerald-800 text-lg font-bold box-border block leading-[18px] font-myriad_pro">{t.name}</span>
                     <span className="text-emerald-800 text-sm box-border leading-[16.8px] font-myriad_pro">Verified customer</span>
