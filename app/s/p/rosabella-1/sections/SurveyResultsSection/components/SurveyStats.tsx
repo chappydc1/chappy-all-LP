@@ -21,7 +21,6 @@ export const SurveyStats = () => {
               key={stat.percentage}
               percentage={stat.percentage}
               title={stat.title}
-              titleVariant={stat.titleVariant}
               description={stat.description}
             />
           </>

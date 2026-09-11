@@ -13,7 +13,7 @@ function getArrivalDate(): string {
 
 export const ProductPurchasePanel = () => {
   const arrivalDate = getArrivalDate();
-  const { ratingText, ratingLabel, productName, tagline, stockText, ctaText, ctaHref, subscriptionNote, guarantee } = copy.productHero;
+  const { productName, tagline, ctaHref, subscriptionNote, guarantee } = copy.productHero;
   return (
     <div className="box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full mt-[23px] px-5 md:max-w-[calc(51.5%_-_35px)] md:mt-0 md:px-0">
       <div className="box-border caret-transparent outline-[3px] w-full">
@@ -25,8 +25,8 @@ export const ProductPurchasePanel = () => {
             className="text-black box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left w-[104px] mr-3"
           />
           <div className="text-black text-sm box-border caret-transparent tracking-[-0.32px] leading-[18.2px] min-h-[auto] min-w-[auto] outline-[3px] text-left font-montserrat md:text-base md:leading-[20.8px]">
-            {ratingText} | <span className="text-sm font-medium box-border caret-transparent leading-[18.2px] outline-[3px] md:text-base md:leading-[20.8px]">
-              &lsquo;{ratingLabel}&rsquo;
+            Rated 4.8 / 5.0 | <span className="text-sm font-medium box-border caret-transparent leading-[18.2px] outline-[3px] md:text-base md:leading-[20.8px]">
+              &lsquo;Excellent&rsquo;
             </span>
           </div>
         </div>
@@ -45,7 +45,7 @@ export const ProductPurchasePanel = () => {
             className="text-black box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-[13px] mr-2"
           />
           <div className="text-black text-[15px] font-medium box-border caret-transparent tracking-[-0.32px] leading-[19.5px] min-h-[auto] min-w-[auto] outline-[3px] text-left font-montserrat md:text-base md:leading-[20.8px]">
-            {stockText}{' '}
+            In Stock, ready to ship - arrives by{' '}
             <span className="text-[15px] box-border caret-transparent leading-[19.5px] outline-[3px] md:text-base md:leading-[20.8px]">
               {arrivalDate}
             </span>
@@ -53,11 +53,11 @@ export const ProductPurchasePanel = () => {
         </div>
         <div className="box-border caret-transparent h-[69px] outline-[3px] w-full mt-2.5 md:h-[88px]">
           <a
-            title={ctaText}
+            title="ADD TO CART"
             href={ctaHref}
             className="text-white text-lg font-semibold items-center bg-[#C82084] box-border caret-transparent flex h-full justify-center tracking-[-0.72px] leading-[21.6px] max-w-full outline-[3px] text-center border-[#C82084] px-2.5 rounded-bl rounded-br rounded-tl rounded-tr border-2 border-solid font-montserrat md:text-2xl md:leading-[28.8px] hover:text-[#C82084] hover:bg-transparent"
           >
-            {ctaText}
+            ADD TO CART
           </a>
         </div>
         <div className="text-black text-sm box-border caret-transparent leading-[21px] outline-[3px] mt-[15px] font-montserrat md:text-[15px] md:leading-[22.5px]">

@@ -20,15 +20,14 @@ export const TestimonialCarousel = () => {
           className="relative items-stretch caret-transparent flex h-full outline-[3px] w-full z-[1] transition-transform duration-300 ease-in-out"
           style={{ transform: `translateX(calc(-${current} * (238.833px + 0.75rem)))` }}
         >
-          {items.map((item) => (
+          {items.map((item, i) => (
             <TestimonialCard
               key={item.ariaLabel}
               ariaLabel={item.ariaLabel}
               title={item.title}
               ratingIconUrl={media.icons.stars}
-              rating={item.rating}
               testimonial={item.testimonial}
-              customerImageUrl={item.customerImageUrl}
+              customerImageUrl={media.testimonials.customerImages[i]}
               customerName={item.customerName}
               date={item.date}
             />

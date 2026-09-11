@@ -6,7 +6,7 @@ import { CustomerReviewCard } from "./components/CustomerReviewCard"
 
 export const CustomerReviewsSection = () => {
   const [showMore, setShowMore] = useState(false);
-  const { eyebrow, heading, ratingText, ratingLabel, loadMoreText, initial, additional } = copy.customerReviews;
+  const { eyebrow, heading, loadMoreText, initial, additional } = copy.customerReviews;
 
   return (
     <div className="items-stretch box-border caret-transparent flex flex-wrap justify-start max-w-full outline-[3px] pb-[30px] px-5 md:flex-nowrap md:pb-[60px]">
@@ -26,9 +26,9 @@ export const CustomerReviewsSection = () => {
               className="text-black box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left w-[104px] mr-3"
             />
             <div className="text-black text-sm box-border caret-transparent tracking-[-0.32px] leading-[18.2px] min-h-[auto] min-w-[auto] outline-[3px] text-left font-montserrat md:text-base md:leading-[20.8px]">
-              {ratingText} |{" "}
+              Rated 4.8 / 5.0 |{" "}
               <span className="text-sm font-medium box-border caret-transparent leading-[18.2px] outline-[3px] md:text-base md:leading-[20.8px]">
-                &lsquo;{ratingLabel}&rsquo;
+                &lsquo;Excellent&rsquo;
               </span>
             </div>
           </div>
@@ -42,9 +42,8 @@ export const CustomerReviewsSection = () => {
                 )}
                 <CustomerReviewCard
                   key={review.customerName}
-                  rating={review.rating}
                   reviewText={review.reviewText}
-                  customerImageUrl={review.customerImageUrl}
+                  customerImageUrl={media.customerReviews.initialImages[i]}
                   customerName={review.customerName}
                 />
               </>
@@ -61,9 +60,8 @@ export const CustomerReviewsSection = () => {
                   )}
                   <CustomerReviewCard
                     key={review.customerName}
-                    rating={review.rating}
                     reviewText={review.reviewText}
-                    customerImageUrl={review.customerImageUrl}
+                    customerImageUrl={media.customerReviews.additionalImages[i]}
                     customerName={review.customerName}
                   />
                 </>
