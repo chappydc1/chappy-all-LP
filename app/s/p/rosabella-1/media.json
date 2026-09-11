@@ -1,0 +1,99 @@
+{
+  "logo": "/s/p/rosabella-1/1776263915875_rosabella_logo.svg",
+  "icons": {
+    "stars": "/s/p/rosabella-1/icon-stars.svg",
+    "checkmark": "/s/p/rosabella-1/icon-checkmark.svg",
+    "stock": "/s/p/rosabella-1/icon-stock.svg",
+    "guarantee": "/s/p/rosabella-1/icon-guarantee.svg",
+    "fastDelivery": "/s/p/rosabella-1/icon-fast-delivery.svg",
+    "secureCheckout": "/s/p/rosabella-1/icon-secure-checkout.svg",
+    "check": "/s/p/rosabella-1/icon-check.svg",
+    "guaranteeBadge": "/s/p/rosabella-1/icon-guarantee-badge.svg",
+    "bullet": "/s/p/rosabella-1/icon-bullet.svg",
+    "guaranteeShield": "/s/p/rosabella-1/icon-guarantee-shield.svg"
+  },
+  "productGallery": {
+    "slides": [
+      "/s/p/rosabella-1/98.jpg",
+      "/s/p/rosabella-1/88.jpg",
+      "/s/p/rosabella-1/115.png",
+      "/s/p/rosabella-1/37.webp",
+      "/s/p/rosabella-1/41.webp",
+      "/s/p/rosabella-1/36.webp",
+      "/s/p/rosabella-1/39.webp",
+      "/s/p/rosabella-1/40.webp",
+      "/s/p/rosabella-1/42.webp",
+      "/s/p/rosabella-1/38.webp"
+    ],
+    "thumbnails": [
+      "/s/p/rosabella-1/4.avif",
+      "/s/p/rosabella-1/5.avif",
+      "/s/p/rosabella-1/6.avif",
+      "/s/p/rosabella-1/11.avif",
+      "/s/p/rosabella-1/9.avif",
+      "/s/p/rosabella-1/10.avif",
+      "/s/p/rosabella-1/12.avif",
+      "/s/p/rosabella-1/13.avif",
+      "/s/p/rosabella-1/14.avif",
+      "/s/p/rosabella-1/15.avif"
+    ],
+    "prevArrow": "/s/p/rosabella-1/icon-gallery-prev.svg",
+    "nextArrow": "/s/p/rosabella-1/icon-gallery-next.svg"
+  },
+  "checkout": {
+    "paymentBadges": "/s/p/rosabella-1/3.webp"
+  },
+  "testimonials": {
+    "ratingStars": "/s/p/rosabella-1/icon-rating-stars.svg",
+    "carouselPrev": "/s/p/rosabella-1/icon-carousel-prev.svg",
+    "carouselNext": "/s/p/rosabella-1/icon-carousel-next.svg",
+    "customerImages": [
+      "/s/p/rosabella-1/17.avif",
+      "/s/p/rosabella-1/18.avif",
+      "/s/p/rosabella-1/19.webp",
+      "/s/p/rosabella-1/20.webp"
+    ]
+  },
+  "problemSolution": {
+    "problemImage": "/s/p/rosabella-1/22.webp",
+    "featureIcons": [
+      "/s/p/rosabella-1/icon-feature-blood-flow.svg",
+      "/s/p/rosabella-1/icon-feature-energy.svg",
+      "/s/p/rosabella-1/icon-feature-brain-fog.svg",
+      "/s/p/rosabella-1/icon-feature-heart.svg"
+    ],
+    "bottleImage": "/s/p/rosabella-1/1779452736797_bottle_3x.webp"
+  },
+  "stages": {
+    "images": [
+      "/s/p/rosabella-1/96.png",
+      "/s/p/rosabella-1/99.png",
+      "/s/p/rosabella-1/97.png"
+    ]
+  },
+  "circulationComparison": {
+    "statsChart": "/s/p/rosabella-1/1776879798903_Stats.webp"
+  },
+  "brandComparison": {
+    "rosabellaBottle": "/s/p/rosabella-1/1779537039377_beet_img_1_.webp",
+    "competitorImage": "/s/p/rosabella-1/29.avif",
+    "checkIcon": "/s/p/rosabella-1/icon-comparison-check.svg",
+    "crossIcon": "/s/p/rosabella-1/icon-comparison-cross.svg"
+  },
+  "surveyResults": {
+    "surveyImage": "/s/p/rosabella-1/33.webp",
+    "bottleImage": "/s/p/rosabella-1/1779452766873_bottle_3x_848x837_.webp"
+  },
+  "customerReviews": {
+    "initialImages": [
+      "/s/p/rosabella-1/110.png",
+      "/s/p/rosabella-1/117.png",
+      "/s/p/rosabella-1/118.png"
+    ],
+    "additionalImages": [
+      "/s/p/rosabella-1/110.png",
+      "/s/p/rosabella-1/117.png",
+      "/s/p/rosabella-1/118.png"
+    ]
+  }
+}

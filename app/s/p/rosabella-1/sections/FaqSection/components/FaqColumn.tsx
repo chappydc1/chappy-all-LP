@@ -3,8 +3,6 @@ import { FaqItem } from "./FaqItem"
 export type FaqColumnItem = {
   question: string;
   answer: string;
-  closedIconUrl: string;
-  openIconUrl: string;
 };
 
 export type FaqColumnProps = {
@@ -28,8 +26,6 @@ export const FaqColumn = (props: FaqColumnProps) => {
                   <FaqItem
                     question={item.question}
                     answer={item.answer}
-                    closedIconUrl={item.closedIconUrl}
-                    openIconUrl={item.openIconUrl}
                   />
                 </div>
               </div>
