@@ -29,7 +29,7 @@ export const OprahDoctorBio = ({ showComments = false }: { showComments?: boolea
           <div className="box-border gap-x-2.5 flex flex-row gap-y-2.5 md:flex-col">
             <div className="box-border min-h-[auto] min-w-[auto] md:min-h-0 md:min-w-0">
               <img
-                src="/images/oprah/drginasam.webp"
+                src="/lp-images-files-videos-fonts/images/oprah/drginasam.webp"
                 className="box-border inline h-[81.96px] w-[81.96px]"
                 alt="Dr. Gina Sam"
               />

@@ -4,7 +4,7 @@ export const GuaranteeCallout = () => {
       <div className="items-center box-border caret-transparent flex outline-[3px] w-full">
         <img
           title=""
-          src="/s/p/rosabella-1/28.svg"
+          src="/lp-images-files-videos-fonts/p/rosabella-1/28.svg"
           alt=""
           className="text-black box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-[21px] mr-2"
         />

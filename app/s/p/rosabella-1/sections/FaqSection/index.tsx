@@ -18,22 +18,22 @@ export const FaqSection = () => {
                   question: "How do I take Rosabella Beetroot?",
                   answer:
                     "Take 2 capsules daily with water, ideally in the morning. Taking Rosabella Beetroot consistently helps support healthy blood flow and circulation over time. Regular daily use is key.",
-                  closedIconUrl: "/s/p/rosabella-1/icon-13.svg",
-                  openIconUrl: "/s/p/rosabella-1/icon-14.svg",
+                  closedIconUrl: "/lp-images-files-videos-fonts/p/rosabella-1/icon-13.svg",
+                  openIconUrl: "/lp-images-files-videos-fonts/p/rosabella-1/icon-14.svg",
                 },
                 {
                   question: "When will I see results?",
                   answer:
                     "Many users notice improvements in energy levels and circulation within the first 2 weeks. Overall vitality and daily stamina often continue to improve over the following weeks. Long term circulatory support builds gradually with consistent daily use.",
-                  closedIconUrl: "/s/p/rosabella-1/icon-15.svg",
-                  openIconUrl: "/s/p/rosabella-1/icon-16.svg",
+                  closedIconUrl: "/lp-images-files-videos-fonts/p/rosabella-1/icon-15.svg",
+                  openIconUrl: "/lp-images-files-videos-fonts/p/rosabella-1/icon-16.svg",
                 },
                 {
                   question: "What if it doesn't work for me?",
                   answer:
                     "You are covered by our 90 Day Empty Bottle Guarantee. Try Rosabella Beetroot for a full 90 days. If you are not satisfied, contact us for a full refund. No need to return the empty bottles.",
-                  closedIconUrl: "/s/p/rosabella-1/icon-17.svg",
-                  openIconUrl: "/s/p/rosabella-1/icon-18.svg",
+                  closedIconUrl: "/lp-images-files-videos-fonts/p/rosabella-1/icon-17.svg",
+                  openIconUrl: "/lp-images-files-videos-fonts/p/rosabella-1/icon-18.svg",
                 },
               ]}
             />
@@ -44,22 +44,22 @@ export const FaqSection = () => {
                   question: "Is this a natural formula?",
                   answer:
                     "Yes. Rosabella Beetroot contains a single ingredient: pure organic beetroot powder. No fillers, binders, or synthetic ingredients. Non GMO and third party tested for purity and quality.",
-                  closedIconUrl: "/s/p/rosabella-1/icon-19.svg",
-                  openIconUrl: "/s/p/rosabella-1/icon-20.svg",
+                  closedIconUrl: "/lp-images-files-videos-fonts/p/rosabella-1/icon-19.svg",
+                  openIconUrl: "/lp-images-files-videos-fonts/p/rosabella-1/icon-20.svg",
                 },
                 {
                   question: "Will this help with my energy levels?",
                   answer:
                     "Rosabella Beetroot naturally contains dietary nitrates, which play a key role in how the body supports healthy blood flow and oxygen delivery. Rather than forcing stimulation like caffeine, it supports your body's natural circulation and energy systems over time.",
-                  closedIconUrl: "/s/p/rosabella-1/icon-21.svg",
-                  openIconUrl: "/s/p/rosabella-1/icon-22.svg",
+                  closedIconUrl: "/lp-images-files-videos-fonts/p/rosabella-1/icon-21.svg",
+                  openIconUrl: "/lp-images-files-videos-fonts/p/rosabella-1/icon-22.svg",
                 },
                 {
                   question: "How fast is shipping?",
                   answer:
                     "Orders ship from our US facility within 24 hours. Tracking is provided immediately and most US orders arrive within 3 to 5 business days.",
-                  closedIconUrl: "/s/p/rosabella-1/icon-23.svg",
-                  openIconUrl: "/s/p/rosabella-1/icon-24.svg",
+                  closedIconUrl: "/lp-images-files-videos-fonts/p/rosabella-1/icon-23.svg",
+                  openIconUrl: "/lp-images-files-videos-fonts/p/rosabella-1/icon-24.svg",
                 },
               ]}
             />

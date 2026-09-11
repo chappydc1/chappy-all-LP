@@ -3,7 +3,7 @@ export const FooterBrand = () => {
     <div className="box-border caret-transparent outline-[3px] w-full pt-[9px] text-center">
       <img
         title=""
-        src="/s/p/rosabella-1/1776263915875_rosabella_logo.svg"
+        src="/lp-images-files-videos-fonts/p/rosabella-1/1776263915875_rosabella_logo.svg"
         alt=""
         className="text-black box-border caret-transparent inline max-w-full outline-[3px] w-[180px]"
       />

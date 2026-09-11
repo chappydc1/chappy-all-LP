@@ -1,7 +1,7 @@
 import type { AmalaProductHeroBenefit } from "../../AmalaProductHero/types";
 
 const CHECK_ICON_SRC =
-  "/images/amala/1763702956506_1730181221_checkIcon.svg";
+  "/lp-images-files-videos-fonts/images/amala/1763702956506_1730181221_checkIcon.svg";
 
 type AmalaBenefitListProps = {
   benefits: AmalaProductHeroBenefit[];

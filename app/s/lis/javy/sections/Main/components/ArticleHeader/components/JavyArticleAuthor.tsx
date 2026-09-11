@@ -3,7 +3,7 @@ export const JavyArticleAuthor = () => {
     <div className="box-border caret-transparent flex flex-wrap justify-between min-h-[auto] min-w-[auto] w-full md:flex-nowrap">
       <div className="items-center box-border caret-transparent flex min-h-[auto] min-w-[auto]">
         <img
-          src="/images/javy/66e0a9b786f105ff696cfcb1_ps02-avi.webp"
+          src="/lp-images-files-videos-fonts/images/javy/66e0a9b786f105ff696cfcb1_ps02-avi.webp"
           alt="Javy Buzz Writer"
           className="box-border caret-transparent h-[50px] max-w-full min-h-[auto] min-w-[auto] w-[50px] overflow-hidden rounded-[200px]"
         />

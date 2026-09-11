@@ -6,7 +6,7 @@ export const FealsTestimonialGallery = () => {
         className="items-center self-auto box-border caret-transparent flex shrink-0 max-w-[400px] object-cover outline-[3px] overflow-x-auto overflow-y-hidden px-4 md:self-stretch md:max-w-none"
       >
         <img
-          src="/images/feals/70.png"
+          src="/lp-images-files-videos-fonts/images/feals/70.png"
           className="box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-cover outline-[3px] align-baseline"
         />
       </picture>
@@ -15,7 +15,7 @@ export const FealsTestimonialGallery = () => {
         className="items-center self-auto box-border caret-transparent flex shrink-0 max-w-[400px] object-cover outline-[3px] overflow-x-auto overflow-y-hidden px-4 md:self-stretch md:max-w-none"
       >
         <img
-          src="/images/feals/66.jpg"
+          src="/lp-images-files-videos-fonts/images/feals/66.jpg"
           className="box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-cover outline-[3px] align-baseline"
         />
       </picture>
@@ -24,7 +24,7 @@ export const FealsTestimonialGallery = () => {
         className="items-center self-auto box-border caret-transparent flex shrink-0 max-w-[400px] object-cover outline-[3px] overflow-x-auto overflow-y-hidden px-4 md:self-stretch md:max-w-none"
       >
         <img
-          src="/images/feals/63.jpg"
+          src="/lp-images-files-videos-fonts/images/feals/63.jpg"
           className="box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-cover outline-[3px] align-baseline"
         />
       </picture>
@@ -33,7 +33,7 @@ export const FealsTestimonialGallery = () => {
         className="items-center self-auto box-border caret-transparent flex shrink-0 max-w-[400px] object-cover outline-[3px] overflow-x-auto overflow-y-hidden px-4 md:self-stretch md:max-w-none"
       >
         <img
-          src="/images/feals/61.jpg"
+          src="/lp-images-files-videos-fonts/images/feals/61.jpg"
           className="box-border caret-transparent h-full max-h-full max-w-full min-h-full min-w-full object-cover outline-[3px] align-baseline"
         />
       </picture>

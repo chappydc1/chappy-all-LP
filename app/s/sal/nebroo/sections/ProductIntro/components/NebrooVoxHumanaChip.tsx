@@ -11,7 +11,7 @@ export const NebrooVoxHumanaChip = () => {
         <img
           alt="Breakthrough Discovery.webp"
           title=""
-          src="/images/nebroo/1729153692689_1712407440934_Breakthrough_Discovery.webp"
+          src="/lp-images-files-videos-fonts/images/nebroo/1729153692689_1712407440934_Breakthrough_Discovery.webp"
           
           className="self-center box-border caret-transparent block max-w-full min-h-[auto] min-w-[auto] w-full mt-5 rounded-[10px] md:self-auto md:hidden md:min-h-0 md:min-w-0 md:w-auto"
         />
@@ -28,7 +28,7 @@ export const NebrooVoxHumanaChip = () => {
                   <div className="box-border caret-transparent basis-[6.57%] grow min-h-[25px] min-w-[auto]">
                     <img
                       title=""
-                      src="/images/nebroo/1729048495546_bluetick_1_.webp"
+                      src="/lp-images-files-videos-fonts/images/nebroo/1729048495546_bluetick_1_.webp"
                       
                       alt=""
                       className="text-black items-start box-border caret-transparent inline flex-col-reverse justify-center max-w-full w-[25px] md:[align-items:normal] md:flex-row md:justify-normal"
@@ -53,7 +53,7 @@ export const NebrooVoxHumanaChip = () => {
                   <div className="box-border caret-transparent basis-[6.57%] grow min-h-[25px] min-w-[auto]">
                     <img
                       title=""
-                      src="/images/nebroo/1729048495546_bluetick_1_.webp"
+                      src="/lp-images-files-videos-fonts/images/nebroo/1729048495546_bluetick_1_.webp"
                       
                       alt=""
                       className="text-black box-border caret-transparent inline max-w-full w-[25px]"
@@ -106,7 +106,7 @@ export const NebrooVoxHumanaChip = () => {
         <img
           alt="Breakthrough Discovery.webp"
           title=""
-          src="/images/nebroo/1729153692689_1712407440934_Breakthrough_Discovery.webp"
+          src="/lp-images-files-videos-fonts/images/nebroo/1729153692689_1712407440934_Breakthrough_Discovery.webp"
           
           className="self-center box-border caret-transparent inline max-w-full mx-auto rounded-[10px] md:self-auto"
         />

@@ -12,7 +12,7 @@ export const RejuvacareSplitContentSection = () => {
             titleVariant="min-h-[auto] min-w-[auto] mb-2.5 pr-[30px] md:min-h-0 md:min-w-0 md:pr-0"
             mediaContainerVariant="flex flex-col-reverse min-h-[auto] min-w-[auto] rounded-[15px] md:flex-col md:mt-0 before:min-h-[auto] before:min-w-[auto]"
             videoSrc="https://cdn.shopify.com/videos/c/o/v/9d9035fc73f84f1e9b88fff4923b298a.mp4"
-            videoPoster="/images/rejuvacare/1728697926859_crippling_pain_poster.webp"
+            videoPoster="/lp-images-files-videos-fonts/images/rejuvacare/1728697926859_crippling_pain_poster.webp"
             videoVariant="h-auto md:h-full"
           />
           <RejuvacareSplitText

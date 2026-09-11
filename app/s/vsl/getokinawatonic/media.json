@@ -2,155 +2,155 @@
   "images": [
     {
       "id": "hero-background",
-      "localPath": "/images/light-background.jpg",
-      "originalUrl": "/images/getokinawatonic/light-background.jpg",
+      "localPath": "/lp-images-files-videos-fonts/images/light-background.jpg",
+      "originalUrl": "/lp-images-files-videos-fonts/images/getokinawatonic/light-background.jpg",
       "description": "Hero section background — light gradient/texture",
       "usedIn": ["HeroSection"]
     },
     {
       "id": "video-cover-desktop",
-      "localPath": "/images/video-cover.png",
-      "originalUrl": "/images/getokinawatonic/video-cover.png",
+      "localPath": "/lp-images-files-videos-fonts/images/video-cover.png",
+      "originalUrl": "/lp-images-files-videos-fonts/images/getokinawatonic/video-cover.png",
       "description": "Video player thumbnail/cover for desktop",
       "usedIn": ["HeroContent", "VideoPlayer"]
     },
     {
       "id": "video-cover-mobile",
-      "localPath": "/images/alt-player-continue-2-m.png",
-      "originalUrl": "/images/getokinawatonic/alt-player-continue-2-m.png",
+      "localPath": "/lp-images-files-videos-fonts/images/alt-player-continue-2-m.png",
+      "originalUrl": "/lp-images-files-videos-fonts/images/getokinawatonic/alt-player-continue-2-m.png",
       "description": "Video player thumbnail/cover for mobile",
       "usedIn": ["HeroContent", "VideoPlayer"]
     },
     {
       "id": "video-tap-sound",
-      "localPath": "/images/tap-sound.png",
-      "originalUrl": "/images/getokinawatonic/tap-sound.png",
+      "localPath": "/lp-images-files-videos-fonts/images/tap-sound.png",
+      "originalUrl": "/lp-images-files-videos-fonts/images/getokinawatonic/tap-sound.png",
       "description": "Tap-to-unmute sound overlay on video player",
       "usedIn": ["HeroContent", "VideoPlayer"]
     },
     {
       "id": "product-1-bottle",
-      "localPath": "/images/product-bottles-1.png",
-      "originalUrl": "/images/getokinawatonic/product-bottles-1.png",
+      "localPath": "/lp-images-files-videos-fonts/images/product-bottles-1.png",
+      "originalUrl": "/lp-images-files-videos-fonts/images/getokinawatonic/product-bottles-1.png",
       "description": "1-bottle product image for desktop pricing cards",
       "usedIn": ["SalesNotice", "ProductCard"]
     },
     {
       "id": "product-3-bottle",
-      "localPath": "/images/product-bottles-3-extra.png",
-      "originalUrl": "/images/getokinawatonic/product-bottles-3-extra.png",
+      "localPath": "/lp-images-files-videos-fonts/images/product-bottles-3-extra.png",
+      "originalUrl": "/lp-images-files-videos-fonts/images/getokinawatonic/product-bottles-3-extra.png",
       "description": "3-bottle product image for desktop pricing cards",
       "usedIn": ["SalesNotice", "ProductCard"]
     },
     {
       "id": "product-6-bottle",
-      "localPath": "/images/product-bottles-6-extra.png",
-      "originalUrl": "/images/getokinawatonic/product-bottles-6-extra.png",
+      "localPath": "/lp-images-files-videos-fonts/images/product-bottles-6-extra.png",
+      "originalUrl": "/lp-images-files-videos-fonts/images/getokinawatonic/product-bottles-6-extra.png",
       "description": "6-bottle product image for desktop pricing cards",
       "usedIn": ["SalesNotice", "ProductCard"]
     },
     {
       "id": "mobile-package-3-bottle",
-      "localPath": "/images/package-3-np3-blue-nw-new.png",
-      "originalUrl": "/images/getokinawatonic/package-3-np3-blue-nw-new.png",
+      "localPath": "/lp-images-files-videos-fonts/images/package-3-np3-blue-nw-new.png",
+      "originalUrl": "/lp-images-files-videos-fonts/images/getokinawatonic/package-3-np3-blue-nw-new.png",
       "description": "3-bottle package card for mobile pricing section",
       "usedIn": ["SalesNotice", "MobileProductPricingSection"]
     },
     {
       "id": "mobile-package-6-bottle",
-      "localPath": "/images/package-6-np3-red-n-new.png",
-      "originalUrl": "/images/getokinawatonic/package-6-np3-red-n-new.png",
+      "localPath": "/lp-images-files-videos-fonts/images/package-6-np3-red-n-new.png",
+      "originalUrl": "/lp-images-files-videos-fonts/images/getokinawatonic/package-6-np3-red-n-new.png",
       "description": "6-bottle package card for mobile pricing section",
       "usedIn": ["SalesNotice", "MobileProductPricingSection"]
     },
     {
       "id": "mobile-package-1-bottle",
-      "localPath": "/images/package-1-np3-grey-nw.png",
-      "originalUrl": "/images/getokinawatonic/package-1-np3-grey-nw.png",
+      "localPath": "/lp-images-files-videos-fonts/images/package-1-np3-grey-nw.png",
+      "originalUrl": "/lp-images-files-videos-fonts/images/getokinawatonic/package-1-np3-grey-nw.png",
       "description": "1-bottle package card for mobile pricing section",
       "usedIn": ["SalesNotice", "MobileProductPricingSection"]
     },
     {
       "id": "buy-now-button",
-      "localPath": "/images/buy-now.svg",
-      "originalUrl": "/images/getokinawatonic/buy-now.svg",
+      "localPath": "/lp-images-files-videos-fonts/images/buy-now.svg",
+      "originalUrl": "/lp-images-files-videos-fonts/images/getokinawatonic/buy-now.svg",
       "description": "Buy Now CTA button (SVG) used inside product cards",
       "usedIn": ["ProductCard", "SalesNotice"]
     },
     {
       "id": "buy-now-large",
-      "localPath": "/images/buynow.png",
-      "originalUrl": "/images/getokinawatonic/buynow.png",
+      "localPath": "/lp-images-files-videos-fonts/images/buynow.png",
+      "originalUrl": "/lp-images-files-videos-fonts/images/getokinawatonic/buynow.png",
       "description": "Large Buy Now banner button between sections",
       "usedIn": ["SalesNotice"]
     },
     {
       "id": "free-shipping-bonus",
-      "localPath": "/images/free-shippng-bounus-us.png",
-      "originalUrl": "/images/getokinawatonic/free-shippng-bounus-us.png",
+      "localPath": "/lp-images-files-videos-fonts/images/free-shippng-bounus-us.png",
+      "originalUrl": "/lp-images-files-videos-fonts/images/getokinawatonic/free-shippng-bounus-us.png",
       "description": "Free shipping + bonus badge shown on 3 and 6 bottle cards",
       "usedIn": ["SalesNotice", "ProductCard"]
     },
     {
       "id": "payment-methods",
-      "localPath": "/images/credit-card.jpg",
-      "originalUrl": "/images/getokinawatonic/credit-card.jpg",
+      "localPath": "/lp-images-files-videos-fonts/images/credit-card.jpg",
+      "originalUrl": "/lp-images-files-videos-fonts/images/getokinawatonic/credit-card.jpg",
       "description": "Accepted payment methods (Visa, Mastercard, etc.)",
       "usedIn": ["SalesNotice", "ProductCard"]
     },
     {
       "id": "guarantee-badge",
-      "localPath": "/images/grt.png",
-      "originalUrl": "/images/getokinawatonic/grt.png",
+      "localPath": "/lp-images-files-videos-fonts/images/grt.png",
+      "originalUrl": "/lp-images-files-videos-fonts/images/getokinawatonic/grt.png",
       "description": "90-day money back guarantee seal/badge",
       "usedIn": ["SalesNotice", "GuaranteeSection"]
     },
     {
       "id": "testimonial-courtney",
-      "localPath": "/images/courtney.jpg",
-      "originalUrl": "/images/getokinawatonic/courtney.jpg",
+      "localPath": "/lp-images-files-videos-fonts/images/courtney.jpg",
+      "originalUrl": "/lp-images-files-videos-fonts/images/getokinawatonic/courtney.jpg",
       "description": "Testimonial photo — Courtney from Pennsylvania",
       "usedIn": ["SalesNotice", "TestimonialSection"]
     },
     {
       "id": "testimonial-john",
-      "localPath": "/images/john.jpg",
-      "originalUrl": "/images/getokinawatonic/john.jpg",
+      "localPath": "/lp-images-files-videos-fonts/images/john.jpg",
+      "originalUrl": "/lp-images-files-videos-fonts/images/getokinawatonic/john.jpg",
       "description": "Testimonial photo — John from New Jersey",
       "usedIn": ["SalesNotice", "TestimonialSection"]
     },
     {
       "id": "testimonial-rina",
-      "localPath": "/images/rina.jpg",
-      "originalUrl": "/images/getokinawatonic/rina.jpg",
+      "localPath": "/lp-images-files-videos-fonts/images/rina.jpg",
+      "originalUrl": "/lp-images-files-videos-fonts/images/getokinawatonic/rina.jpg",
       "description": "Testimonial photo — Rina from Texas",
       "usedIn": ["SalesNotice", "TestimonialSection"]
     },
     {
       "id": "decorative-underline",
-      "localPath": "/images/line.png",
-      "originalUrl": "/images/getokinawatonic/line.png",
+      "localPath": "/lp-images-files-videos-fonts/images/line.png",
+      "originalUrl": "/lp-images-files-videos-fonts/images/getokinawatonic/line.png",
       "description": "Decorative underline used beneath the bonuses headline",
       "usedIn": ["SalesNotice"]
     },
     {
       "id": "bonus-1-cover",
-      "localPath": "/images/bonus-1.png",
-      "originalUrl": "/images/getokinawatonic/bonus-1.png",
+      "localPath": "/lp-images-files-videos-fonts/images/bonus-1.png",
+      "originalUrl": "/lp-images-files-videos-fonts/images/getokinawatonic/bonus-1.png",
       "description": "Bonus 1 book cover — Sleep The Fat Off",
       "usedIn": ["SalesNotice", "BonusCard"]
     },
     {
       "id": "bonus-2-cover",
-      "localPath": "/images/bonus-2.png",
-      "originalUrl": "/images/getokinawatonic/bonus-2.png",
+      "localPath": "/lp-images-files-videos-fonts/images/bonus-2.png",
+      "originalUrl": "/lp-images-files-videos-fonts/images/getokinawatonic/bonus-2.png",
       "description": "Bonus 2 book cover — Flat Belly Smoothies",
       "usedIn": ["SalesNotice", "BonusCard"]
     },
     {
       "id": "bonus-3-membership",
-      "localPath": "/images/membership.png",
-      "originalUrl": "/images/getokinawatonic/membership.png",
+      "localPath": "/lp-images-files-videos-fonts/images/membership.png",
+      "originalUrl": "/lp-images-files-videos-fonts/images/getokinawatonic/membership.png",
       "description": "Bonus 3 membership image — 14 Days FREE VIP Health Coaching",
       "usedIn": ["SalesNotice", "BonusCard"]
     }

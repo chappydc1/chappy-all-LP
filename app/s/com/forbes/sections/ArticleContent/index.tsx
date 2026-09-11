@@ -227,7 +227,7 @@ export const ForbesArticleContent = (props: ForbesArticleContentProps) => {
                 <picture className="box-border caret-transparent block max-w-full min-h-[auto] min-w-[auto]">
                   <img
                     role="presentation"
-                    src="/images/forbes/21.jpg"
+                    src="/lp-images-files-videos-fonts/images/forbes/21.jpg"
                     sizes="(max-width: 638px) 93vw,  (max-width: 998px) 40vw, 29vw"
                     className="absolute box-border caret-transparent h-full max-w-full object-contain align-baseline w-full left-0 top-0"
                   />

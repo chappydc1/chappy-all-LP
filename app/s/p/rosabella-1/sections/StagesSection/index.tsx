@@ -10,21 +10,21 @@ export const StagesSection = () => {
           </div>
           <div className="box-border caret-transparent flex flex-col outline-[3px] w-full mt-[30px] md:flex-row md:mt-10">
             <StageCard
-              imageUrl="/s/p/rosabella-1/96.png"
+              imageUrl="/lp-images-files-videos-fonts/p/rosabella-1/96.png"
               stage="Stage 1"
               title="Early Warning Signs"
               description="You feel tired even after a full night of sleep. Your hands and feet are always cold and your energy feels inconsistent throughout the day."
             />
             <div className="box-border caret-transparent basis-5 shrink-0 min-h-[auto] min-w-[auto] outline-[3px] w-full"></div>
             <StageCard
-              imageUrl="/s/p/rosabella-1/99.png"
+              imageUrl="/lp-images-files-videos-fonts/p/rosabella-1/99.png"
               stage="Stage 2"
               title="Your Body Starts Slowing Down"
               description="Daily tasks feel harder than they used to. You notice more brain fog, less stamina, and a heavy feeling that does not go away no matter how much you rest."
             />
             <div className="box-border caret-transparent basis-5 shrink-0 min-h-[auto] min-w-[auto] outline-[3px] w-full"></div>
             <StageCard
-              imageUrl="/s/p/rosabella-1/97.png"
+              imageUrl="/lp-images-files-videos-fonts/p/rosabella-1/97.png"
               stage="Stage 3"
               title="It Becomes Your New Normal"
               description="You stop expecting to feel good. Fatigue, sluggishness, and poor circulation start feeling like just part of getting older. But they do not have to be."

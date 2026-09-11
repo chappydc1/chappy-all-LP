@@ -7,7 +7,7 @@ export const SupplementComparison = () => {
         </div>
         <img
           title=""
-          src="/s/p/rosabella-1/1776879798903_Stats.webp"
+          src="/lp-images-files-videos-fonts/p/rosabella-1/1776879798903_Stats.webp"
           alt=""
           className="text-black box-border caret-transparent inline max-w-full outline-[3px] w-[264px] mt-6"
         />

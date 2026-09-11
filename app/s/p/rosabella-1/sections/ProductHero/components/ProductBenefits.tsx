@@ -4,7 +4,7 @@ export const ProductBenefits = () => {
       <div className="box-border caret-transparent flex outline-[3px] w-full">
         <img
           title=""
-          src="/s/p/rosabella-1/45.svg"
+          src="/lp-images-files-videos-fonts/p/rosabella-1/45.svg"
           alt=""
           className="text-black box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-4 mr-2"
         />
@@ -17,7 +17,7 @@ export const ProductBenefits = () => {
       <div className="box-border caret-transparent flex outline-[3px] w-full mt-4">
         <img
           title=""
-          src="/s/p/rosabella-1/45.svg"
+          src="/lp-images-files-videos-fonts/p/rosabella-1/45.svg"
           alt=""
           className="text-black box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-4 mr-2"
         />
@@ -30,7 +30,7 @@ export const ProductBenefits = () => {
       <div className="box-border caret-transparent flex outline-[3px] w-full mt-4">
         <img
           title=""
-          src="/s/p/rosabella-1/45.svg"
+          src="/lp-images-files-videos-fonts/p/rosabella-1/45.svg"
           alt=""
           className="text-black box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-4 mr-2"
         />
@@ -43,7 +43,7 @@ export const ProductBenefits = () => {
       <div className="box-border caret-transparent flex outline-[3px] w-full mt-4">
         <img
           title=""
-          src="/s/p/rosabella-1/45.svg"
+          src="/lp-images-files-videos-fonts/p/rosabella-1/45.svg"
           alt=""
           className="text-black box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-4 mr-2"
         />

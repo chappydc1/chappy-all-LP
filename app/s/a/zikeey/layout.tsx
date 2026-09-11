@@ -5,7 +5,7 @@ import adv from "./copy.json";
 export const metadata: Metadata = {
   title: adv.meta.title,
   description: adv.meta.description,
-  icons: { icon: "/favicons/zikeey.svg" },
+  icons: { icon: "/lp-images-files-videos-fonts/favicons/zikeey.svg" },
 };
 
 export default function ZikeeyLayout({ children }: { children: React.ReactNode }) {

@@ -35,11 +35,11 @@ export const NebrooHeroSection = () => {
             />
           </div>
           <NebrooHeroProductImage
-            src="/images/nebroo/1740116482834_1729153699510_1727912647492_Top_Comment_WEBP_50Kb.webp"
+            src="/lp-images-files-videos-fonts/images/nebroo/1740116482834_1729153699510_1727912647492_Top_Comment_WEBP_50Kb.webp"
             className="hidden md:inline"
           />
           <NebrooHeroProductImage
-            src="/images/nebroo/1740397514621_Patricia_Green_Desktop_v3.1.webp"
+            src="/lp-images-files-videos-fonts/images/nebroo/1740397514621_Patricia_Green_Desktop_v3.1.webp"
             className="block md:hidden"
           />
         </div>

@@ -17,7 +17,7 @@ export const ProductPurchasePanel = () => {
         <div className="items-center box-border caret-transparent flex justify-start outline-[3px] text-left w-full mb-3">
           <img
             title=""
-            src="/s/p/rosabella-1/44.svg"
+            src="/lp-images-files-videos-fonts/p/rosabella-1/44.svg"
             alt=""
             className="text-black box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left w-[104px] mr-3"
           />
@@ -37,7 +37,7 @@ export const ProductPurchasePanel = () => {
         <div className="items-center box-border caret-transparent flex justify-center outline-[3px] w-full mt-5">
           <img
             title=""
-            src="/s/p/rosabella-1/1.svg"
+            src="/lp-images-files-videos-fonts/p/rosabella-1/1.svg"
             alt=""
             className="text-black box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-[13px] mr-2"
           />
@@ -67,7 +67,7 @@ export const ProductPurchasePanel = () => {
           <div className="items-center box-border caret-transparent flex outline-[3px] w-full">
             <img
               title=""
-              src="/s/p/rosabella-1/7.svg"
+              src="/lp-images-files-videos-fonts/p/rosabella-1/7.svg"
               alt=""
               className="text-black box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-[15px] mr-2"
             />

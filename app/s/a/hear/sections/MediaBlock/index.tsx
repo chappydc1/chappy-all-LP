@@ -10,7 +10,7 @@ export const HearMediaBlock = () => {
           <picture className="caret-transparent block overflow-hidden">
             <img
               alt="horizon hearing aids"
-              src="/images/hear/ha-25-desk.jpg"
+              src="/lp-images-files-videos-fonts/images/hear/ha-25-desk.jpg"
               className="caret-transparent align-baseline w-full transition-transform duration-700 hover:scale-[1.01]"
             />
           </picture>

@@ -1,70 +1,70 @@
 {
-  "logoStrip": "/images/oprah/jhbmyD1749942.webp",
-  "videoIcon": "/images/oprah/icon-1.svg",
-  "closeIcon": "/images/oprah/icon-7.svg",
-  "likeEmoji": "/images/oprah/1f44d.svg",
-  "replyEmoji": "/images/oprah/1f501.svg",
+  "logoStrip": "/lp-images-files-videos-fonts/images/oprah/jhbmyD1749942.webp",
+  "videoIcon": "/lp-images-files-videos-fonts/images/oprah/icon-1.svg",
+  "closeIcon": "/lp-images-files-videos-fonts/images/oprah/icon-7.svg",
+  "likeEmoji": "/lp-images-files-videos-fonts/images/oprah/1f44d.svg",
+  "replyEmoji": "/lp-images-files-videos-fonts/images/oprah/1f501.svg",
   "doctor": {
-    "photo": "/images/oprah/drginasam.webp"
+    "photo": "/lp-images-files-videos-fonts/images/oprah/drginasam.webp"
   },
   "doctorCommentAvatars": {
-    "emily": "/images/oprah/commemily.webp",
-    "josh": "/images/oprah/commjosh.webp",
-    "ava": "/images/oprah/commava.webp",
-    "matthew": "/images/oprah/commmatthew.webp",
-    "sophia": "/images/oprah/commsophia.webp",
-    "leo": "/images/oprah/commleo.webp",
-    "grace": "/images/oprah/commgrace.webp",
-    "james": "/images/oprah/commjames.webp",
-    "samantha": "/images/oprah/commsamantha.webp",
-    "oliver": "/images/oprah/commoliver.webp",
-    "megan": "/images/oprah/commmegan.webp",
-    "noah": "/images/oprah/commnoah.webp",
-    "isabella": "/images/oprah/commisabella.webp",
-    "ryan": "/images/oprah/commryan.webp",
-    "jessica": "/images/oprah/commjessica.webp",
-    "alex": "/images/oprah/commalex.webp",
-    "ella": "/images/oprah/commella.webp",
-    "tyler": "/images/oprah/commtyler.webp",
-    "chloe": "/images/oprah/commchloe.webp",
-    "zack": "/images/oprah/commzack.webp"
+    "emily": "/lp-images-files-videos-fonts/images/oprah/commemily.webp",
+    "josh": "/lp-images-files-videos-fonts/images/oprah/commjosh.webp",
+    "ava": "/lp-images-files-videos-fonts/images/oprah/commava.webp",
+    "matthew": "/lp-images-files-videos-fonts/images/oprah/commmatthew.webp",
+    "sophia": "/lp-images-files-videos-fonts/images/oprah/commsophia.webp",
+    "leo": "/lp-images-files-videos-fonts/images/oprah/commleo.webp",
+    "grace": "/lp-images-files-videos-fonts/images/oprah/commgrace.webp",
+    "james": "/lp-images-files-videos-fonts/images/oprah/commjames.webp",
+    "samantha": "/lp-images-files-videos-fonts/images/oprah/commsamantha.webp",
+    "oliver": "/lp-images-files-videos-fonts/images/oprah/commoliver.webp",
+    "megan": "/lp-images-files-videos-fonts/images/oprah/commmegan.webp",
+    "noah": "/lp-images-files-videos-fonts/images/oprah/commnoah.webp",
+    "isabella": "/lp-images-files-videos-fonts/images/oprah/commisabella.webp",
+    "ryan": "/lp-images-files-videos-fonts/images/oprah/commryan.webp",
+    "jessica": "/lp-images-files-videos-fonts/images/oprah/commjessica.webp",
+    "alex": "/lp-images-files-videos-fonts/images/oprah/commalex.webp",
+    "ella": "/lp-images-files-videos-fonts/images/oprah/commella.webp",
+    "tyler": "/lp-images-files-videos-fonts/images/oprah/commtyler.webp",
+    "chloe": "/lp-images-files-videos-fonts/images/oprah/commchloe.webp",
+    "zack": "/lp-images-files-videos-fonts/images/oprah/commzack.webp"
   },
   "commentAvatars": {
-    "sarahSmith": "/images/oprah/hEMtnu2001596.webp",
-    "jenniferTaylor": "/images/oprah/kbPeho2025190.webp",
-    "oliviaMoore": "/images/oprah/aAtbjA2058308.webp",
-    "emilyJohnson": "/images/oprah/cIxqDb2133076.webp",
-    "elizabethMiller": "/images/oprah/IeAIgy2205219.webp",
-    "abigailMartinez": "/images/oprah/KtysvY2314645.webp",
-    "natalieClark": "/images/oprah/JSKEQM2241629.webp",
-    "jessicaBrown": "/images/oprah/pberKS2391370.webp",
-    "chloeGarcia": "/images/oprah/FEksgJ2345870.webp"
+    "sarahSmith": "/lp-images-files-videos-fonts/images/oprah/hEMtnu2001596.webp",
+    "jenniferTaylor": "/lp-images-files-videos-fonts/images/oprah/kbPeho2025190.webp",
+    "oliviaMoore": "/lp-images-files-videos-fonts/images/oprah/aAtbjA2058308.webp",
+    "emilyJohnson": "/lp-images-files-videos-fonts/images/oprah/cIxqDb2133076.webp",
+    "elizabethMiller": "/lp-images-files-videos-fonts/images/oprah/IeAIgy2205219.webp",
+    "abigailMartinez": "/lp-images-files-videos-fonts/images/oprah/KtysvY2314645.webp",
+    "natalieClark": "/lp-images-files-videos-fonts/images/oprah/JSKEQM2241629.webp",
+    "jessicaBrown": "/lp-images-files-videos-fonts/images/oprah/pberKS2391370.webp",
+    "chloeGarcia": "/lp-images-files-videos-fonts/images/oprah/FEksgJ2345870.webp"
   },
   "bottles": {
-    "one": "/images/oprah/emma-bottle-1.webp",
-    "three": "/images/oprah/emma-bottle-3.webp",
-    "six": "/images/oprah/emma-bottle-6.webp"
+    "one": "/lp-images-files-videos-fonts/images/oprah/emma-bottle-1.webp",
+    "three": "/lp-images-files-videos-fonts/images/oprah/emma-bottle-3.webp",
+    "six": "/lp-images-files-videos-fonts/images/oprah/emma-bottle-6.webp"
   },
   "pricing": {
-    "header": "/images/oprah/Header.webp",
-    "checkmark": "/images/oprah/check-Copy.webp",
-    "cta": "/images/oprah/CTA.webp",
-    "paymentMethods": "/images/oprah/paymentmethod.webp"
+    "header": "/lp-images-files-videos-fonts/images/oprah/Header.webp",
+    "checkmark": "/lp-images-files-videos-fonts/images/oprah/check-Copy.webp",
+    "cta": "/lp-images-files-videos-fonts/images/oprah/CTA.webp",
+    "paymentMethods": "/lp-images-files-videos-fonts/images/oprah/paymentmethod.webp"
   },
   "guarantee": {
-    "badge": "/images/oprah/guaranteed.webp"
+    "badge": "/lp-images-files-videos-fonts/images/oprah/guaranteed.webp"
   },
   "bonus": {
-    "leanBellyShakes": "/images/oprah/leanbellyshakebook.webp"
+    "leanBellyShakes": "/lp-images-files-videos-fonts/images/oprah/leanbellyshakebook.webp"
   },
   "testimonials": {
-    "natasha": "/images/oprah/ava1.webp",
-    "lucy": "/images/oprah/lucy.webp",
-    "amberlyn": "/images/oprah/amberlyn.webp",
-    "patricia": "/images/oprah/patricia.webp"
+    "natasha": "/lp-images-files-videos-fonts/images/oprah/ava1.webp",
+    "lucy": "/lp-images-files-videos-fonts/images/oprah/lucy.webp",
+    "amberlyn": "/lp-images-files-videos-fonts/images/oprah/amberlyn.webp",
+    "patricia": "/lp-images-files-videos-fonts/images/oprah/patricia.webp"
   },
   "ratings": {
-    "checkMark": "/images/oprah/check-mark.webp",
-    "stars": "/images/oprah/storystars.webp"
+    "checkMark": "/lp-images-files-videos-fonts/images/oprah/check-mark.webp",
+    "stars": "/lp-images-files-videos-fonts/images/oprah/storystars.webp"
   }
 }

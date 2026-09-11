@@ -1,18 +1,18 @@
 {
   "authorAvatar": {
-    "src": "/daily-health/author-avatar.jpg",
+    "src": "/lp-images-files-videos-fonts/ps/daily-health/author-avatar.jpg",
     "alt": "Author photo"
   },
   "heroImage": {
-    "src": "/daily-health/hero-image.webp",
+    "src": "/lp-images-files-videos-fonts/ps/daily-health/hero-image.webp",
     "alt": "John Smith presentation"
   },
   "ctaImageDesktop": {
-    "src": "/daily-health/cta-desktop.webp",
+    "src": "/lp-images-files-videos-fonts/ps/daily-health/cta-desktop.webp",
     "alt": ""
   },
   "ctaImageMobile": {
-    "src": "/daily-health/cta-mobile.webp",
+    "src": "/lp-images-files-videos-fonts/ps/daily-health/cta-mobile.webp",
     "alt": ""
   }
 }

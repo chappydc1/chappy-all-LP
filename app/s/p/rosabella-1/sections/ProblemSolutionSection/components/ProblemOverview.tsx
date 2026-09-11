@@ -4,7 +4,7 @@ export const ProblemOverview = () => {
       <div className="box-border caret-transparent basis-full shrink-0 min-h-[auto] min-w-[auto] outline-[3px] w-full md:basis-[542px]">
         <img
           title=""
-          src="/s/p/rosabella-1/22.webp"
+          src="/lp-images-files-videos-fonts/p/rosabella-1/22.webp"
           alt=""
           className="text-black box-border caret-transparent inline max-w-full outline-[3px] rounded-bl rounded-br rounded-tl rounded-tr"
         />
@@ -24,7 +24,7 @@ export const ProblemOverview = () => {
           <div className="box-border caret-transparent flex outline-[3px] w-full mt-5">
             <img
               title=""
-              src="/s/p/rosabella-1/21.svg"
+              src="/lp-images-files-videos-fonts/p/rosabella-1/21.svg"
               alt=""
               className="text-black box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-[21px] mr-3.5"
             />
@@ -35,7 +35,7 @@ export const ProblemOverview = () => {
           <div className="box-border caret-transparent flex outline-[3px] w-full mt-4">
             <img
               title=""
-              src="/s/p/rosabella-1/21.svg"
+              src="/lp-images-files-videos-fonts/p/rosabella-1/21.svg"
               alt=""
               className="text-black box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-[21px] mr-3.5"
             />
@@ -46,7 +46,7 @@ export const ProblemOverview = () => {
           <div className="box-border caret-transparent flex outline-[3px] w-full mt-4">
             <img
               title=""
-              src="/s/p/rosabella-1/21.svg"
+              src="/lp-images-files-videos-fonts/p/rosabella-1/21.svg"
               alt=""
               className="text-black box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-[21px] mr-3.5"
             />
@@ -57,7 +57,7 @@ export const ProblemOverview = () => {
           <div className="box-border caret-transparent flex outline-[3px] w-full mt-4">
             <img
               title=""
-              src="/s/p/rosabella-1/21.svg"
+              src="/lp-images-files-videos-fonts/p/rosabella-1/21.svg"
               alt=""
               className="text-black box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-[21px] mr-3.5"
             />

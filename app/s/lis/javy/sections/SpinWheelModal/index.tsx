@@ -74,7 +74,7 @@ export const JavySpinWheelModal = () => {
             className="absolute z-20 right-4 top-4 w-8 h-8 flex items-center justify-center rounded-full bg-black/10 hover:bg-black/20 transition-colors duration-200 cursor-pointer"
           >
             <img
-              src="/images/javy/icon-5.svg"
+              src="/lp-images-files-videos-fonts/images/javy/icon-5.svg"
               alt="Close"
               className="h-5 w-5"
             />
@@ -87,7 +87,7 @@ export const JavySpinWheelModal = () => {
 
           <div className="relative z-10 flex flex-col items-center gap-4 px-6 py-8">
             <img
-              src="/images/javy/javvylogoblueyellowsparkles.svg-1753727812740.svg"
+              src="/lp-images-files-videos-fonts/images/javy/javvylogoblueyellowsparkles.svg-1753727812740.svg"
               alt="Javvy Coffee Logo"
               className="w-[110px] mb-2"
             />

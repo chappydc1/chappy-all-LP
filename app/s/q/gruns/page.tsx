@@ -18,15 +18,15 @@ const TLIT = "#888888";
 // ── Assets ────────────────────────────────────────────────────────────────────
 
 const LOGO =
-  "/images/chappy2/52e09de0-original.webp";
+  "/lp-images-files-videos-fonts/images/chappy2/52e09de0-original.webp";
 const IMG_SUM_A =
-  "/images/chappy2/fae28bb8-original.webp";
+  "/lp-images-files-videos-fonts/images/chappy2/fae28bb8-original.webp";
 const IMG_SUM_B =
-  "/images/chappy2/1ca733b1-original.webp";
+  "/lp-images-files-videos-fonts/images/chappy2/1ca733b1-original.webp";
 const IMG_PRODUCT =
-  "/images/chappy2/82bed9cf-original.webp";
+  "/lp-images-files-videos-fonts/images/chappy2/82bed9cf-original.webp";
 const IMG_OFFER =
-  "/images/chappy2/6e36d176-original.webp";
+  "/lp-images-files-videos-fonts/images/chappy2/6e36d176-original.webp";
 
 // ── Flow definition ───────────────────────────────────────────────────────────
 

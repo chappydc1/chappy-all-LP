@@ -1,31 +1,31 @@
 {
   "contentSections": {
     "hiddenDeficiencies": {
-      "mobileImageSrc": "/images/amala/1763721394184_PCH_1.webp",
+      "mobileImageSrc": "/lp-images-files-videos-fonts/images/amala/1763721394184_PCH_1.webp",
       "mobileImageAlt": "",
-      "desktopImageSrc": "/images/amala/1763721394184_PCH_1.webp",
+      "desktopImageSrc": "/lp-images-files-videos-fonts/images/amala/1763721394184_PCH_1.webp",
       "desktopImageAlt": "",
-      "bottomDesktopImageSrc": "/images/amala/1763721578564_PCH_2.webp",
+      "bottomDesktopImageSrc": "/lp-images-files-videos-fonts/images/amala/1763721578564_PCH_2.webp",
       "bottomDesktopImageAlt": "",
-      "topDecorationImageSrc": "/images/amala/18.svg",
+      "topDecorationImageSrc": "/lp-images-files-videos-fonts/images/amala/18.svg",
       "topDecorationImageAlt": "",
-      "bottomDecorationImageSrc": "/images/amala/19.svg",
+      "bottomDecorationImageSrc": "/lp-images-files-videos-fonts/images/amala/19.svg",
       "bottomDecorationImageAlt": ""
     },
     "cellularSupport": {
-      "mobileImageSrc": "/images/amala/1763721651460_PCH_3.webp",
+      "mobileImageSrc": "/lp-images-files-videos-fonts/images/amala/1763721651460_PCH_3.webp",
       "mobileImageAlt": "",
-      "desktopImageSrc": "/images/amala/1763721651460_PCH_3.webp",
+      "desktopImageSrc": "/lp-images-files-videos-fonts/images/amala/1763721651460_PCH_3.webp",
       "desktopImageAlt": "",
-      "topDecorationImageSrc": "/images/amala/18.svg",
+      "topDecorationImageSrc": "/lp-images-files-videos-fonts/images/amala/18.svg",
       "topDecorationImageAlt": "",
-      "bottomDecorationImageSrc": "/images/amala/19.svg",
+      "bottomDecorationImageSrc": "/lp-images-files-videos-fonts/images/amala/19.svg",
       "bottomDecorationImageAlt": ""
     }
   },
   "assets": {
-    "imagesBasePath": "/images/amala",
-    "videosBasePath": "/video/amala",
-    "commentsBasePath": "/comments/amala"
+    "imagesBasePath": "/lp-images-files-videos-fonts/images/amala",
+    "videosBasePath": "/lp-images-files-videos-fonts/video/amala",
+    "commentsBasePath": "/lp-images-files-videos-fonts/comments/amala"
   }
 }

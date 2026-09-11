@@ -26,7 +26,7 @@ export const SleepApneaHeroContent = () => {
       <div className="box-border caret-transparent max-w-[420px] outline-[3px] mx-auto md:mx-0">
         <div className="box-border caret-transparent hidden outline-[3px]">
           <img
-            src="/images/gruns/icon-8.svg"
+            src="/lp-images-files-videos-fonts/images/gruns/icon-8.svg"
             alt="Icon"
             className="box-border caret-transparent h-[30px] outline-[3px] w-[70px]"
           />
@@ -42,7 +42,7 @@ export const SleepApneaHeroContent = () => {
             {[...Array(5)].map((_, i) => (
               <img
                 key={i}
-                src="/images/gruns/icon-9.svg"
+                src="/lp-images-files-videos-fonts/images/gruns/icon-9.svg"
                 alt="Star"
                 className="box-border caret-transparent h-3.5 outline-[3px] w-3.5"
               />

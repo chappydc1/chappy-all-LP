@@ -1,24 +1,24 @@
 {
   "video": {
-    "icon": "/images/pinksalt/icon-1.svg"
+    "icon": "/lp-images-files-videos-fonts/images/pinksalt/icon-1.svg"
   },
   "scientificReferences": {
-    "image": "/images/pinksalt/jhbmyD1749942.webp"
+    "image": "/lp-images-files-videos-fonts/images/pinksalt/jhbmyD1749942.webp"
   },
   "icons": {
-    "like": "/images/pinksalt/1f44d.svg",
-    "reply": "/images/pinksalt/1f501.svg"
+    "like": "/lp-images-files-videos-fonts/images/pinksalt/1f44d.svg",
+    "reply": "/lp-images-files-videos-fonts/images/pinksalt/1f501.svg"
   },
   "avatars": {
-    "sarah-smith": "/images/pinksalt/hEMtnu2001596.webp",
-    "jennifer-taylor": "/images/pinksalt/kbPeho2025190.webp",
-    "olivia-moore": "/images/pinksalt/aAtbjA2058308.webp",
-    "emily-johnson": "/images/pinksalt/cIxqDb2133076.webp",
-    "elizabeth-miller": "/images/pinksalt/IeAIgy2205219.webp",
-    "abigail-martinez": "/images/pinksalt/KtysvY2314645.webp",
-    "natalie-clark": "/images/pinksalt/JSKEQM2241629.webp",
-    "jessica-brown": "/images/pinksalt/pberKS2391370.webp",
-    "chloe-garcia": "/images/pinksalt/FEksgJ2345870.webp",
-    "olivia-moore-reply": "/images/pinksalt/aAtbjA2058308.webp"
+    "sarah-smith": "/lp-images-files-videos-fonts/images/pinksalt/hEMtnu2001596.webp",
+    "jennifer-taylor": "/lp-images-files-videos-fonts/images/pinksalt/kbPeho2025190.webp",
+    "olivia-moore": "/lp-images-files-videos-fonts/images/pinksalt/aAtbjA2058308.webp",
+    "emily-johnson": "/lp-images-files-videos-fonts/images/pinksalt/cIxqDb2133076.webp",
+    "elizabeth-miller": "/lp-images-files-videos-fonts/images/pinksalt/IeAIgy2205219.webp",
+    "abigail-martinez": "/lp-images-files-videos-fonts/images/pinksalt/KtysvY2314645.webp",
+    "natalie-clark": "/lp-images-files-videos-fonts/images/pinksalt/JSKEQM2241629.webp",
+    "jessica-brown": "/lp-images-files-videos-fonts/images/pinksalt/pberKS2391370.webp",
+    "chloe-garcia": "/lp-images-files-videos-fonts/images/pinksalt/FEksgJ2345870.webp",
+    "olivia-moore-reply": "/lp-images-files-videos-fonts/images/pinksalt/aAtbjA2058308.webp"
   }
 }

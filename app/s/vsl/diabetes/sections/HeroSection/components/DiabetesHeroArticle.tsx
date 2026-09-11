@@ -25,7 +25,7 @@ export const DiabetesHeroArticle = () => {
         </h2>
         <DiabetesVideoPlayer />
         <img
-          src="/images/seen-on.webp"
+          src="/lp-images-files-videos-fonts/images/seen-on.webp"
           className="box-border caret-transparent inline max-w-[500px] outline-[3px] w-full mt-5 md:w-4/5"
           alt="As seen in"
         />

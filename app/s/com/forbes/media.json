@@ -1,41 +1,41 @@
 {
   "logos": {
-    "header": "/images/forbes/icon-1.svg",
-    "footer": "/images/forbes/icon-2.svg"
+    "header": "/lp-images-files-videos-fonts/images/forbes/icon-1.svg",
+    "footer": "/lp-images-files-videos-fonts/images/forbes/icon-2.svg"
   },
   "hero": {
-    "background": "/images/forbes/20.jpg"
+    "background": "/lp-images-files-videos-fonts/images/forbes/20.jpg"
   },
   "products": {
-    "medvi": "/images/forbes/11.webp",
-    "remedyMeds": "/images/forbes/13.webp",
-    "noom": "/images/forbes/14.webp",
-    "hers": "/images/forbes/15.webp",
-    "hims": "/images/forbes/16.webp",
-    "sprout": "/images/forbes/17.webp",
-    "ivim": "/images/forbes/2.webp",
-    "eden": "/images/forbes/4.webp",
-    "medviStickyBar": "/images/forbes/43a5ccbcf58e4857a2e674374aeb981c.png"
+    "medvi": "/lp-images-files-videos-fonts/images/forbes/11.webp",
+    "remedyMeds": "/lp-images-files-videos-fonts/images/forbes/13.webp",
+    "noom": "/lp-images-files-videos-fonts/images/forbes/14.webp",
+    "hers": "/lp-images-files-videos-fonts/images/forbes/15.webp",
+    "hims": "/lp-images-files-videos-fonts/images/forbes/16.webp",
+    "sprout": "/lp-images-files-videos-fonts/images/forbes/17.webp",
+    "ivim": "/lp-images-files-videos-fonts/images/forbes/2.webp",
+    "eden": "/lp-images-files-videos-fonts/images/forbes/4.webp",
+    "medviStickyBar": "/lp-images-files-videos-fonts/images/forbes/43a5ccbcf58e4857a2e674374aeb981c.png"
   },
   "article": {
-    "howItWorks": "/images/forbes/21.jpg"
+    "howItWorks": "/lp-images-files-videos-fonts/images/forbes/21.jpg"
   },
   "ui": {
-    "rightArrow": "/images/forbes/right-arrow.svg",
-    "starEmpty": "/images/forbes/star-empty-slim.svg",
-    "starFull": "/images/forbes/star-slim.svg",
-    "trophyPrimary": "/images/forbes/trophy-primary.svg",
-    "trophyHealth": "/images/forbes/superlative-trophy.svg",
-    "circleTick": "/images/forbes/circle-tick-dark.svg"
+    "rightArrow": "/lp-images-files-videos-fonts/images/forbes/right-arrow.svg",
+    "starEmpty": "/lp-images-files-videos-fonts/images/forbes/star-empty-slim.svg",
+    "starFull": "/lp-images-files-videos-fonts/images/forbes/star-slim.svg",
+    "trophyPrimary": "/lp-images-files-videos-fonts/images/forbes/trophy-primary.svg",
+    "trophyHealth": "/lp-images-files-videos-fonts/images/forbes/superlative-trophy.svg",
+    "circleTick": "/lp-images-files-videos-fonts/images/forbes/circle-tick-dark.svg"
   },
   "fonts": {
     "euclidCircularB": {
-      "regular": "/fonts/forbes/Euclid_Circular_B_Regular.woff2",
-      "italic": "/fonts/forbes/Euclid_Circular_B_Italic.woff2",
-      "medium": "/fonts/forbes/Euclid_Circular_B_Medium.woff2",
-      "semibold": "/fonts/forbes/Euclid_Circular_B_SemiBold.woff2",
-      "bold": "/fonts/forbes/Euclid_Circular_B_Bold.woff2",
-      "boldItalic": "/fonts/forbes/Euclid_Circular_B_Bold_Italic.woff2"
+      "regular": "/lp-images-files-videos-fonts/fonts/forbes/Euclid_Circular_B_Regular.woff2",
+      "italic": "/lp-images-files-videos-fonts/fonts/forbes/Euclid_Circular_B_Italic.woff2",
+      "medium": "/lp-images-files-videos-fonts/fonts/forbes/Euclid_Circular_B_Medium.woff2",
+      "semibold": "/lp-images-files-videos-fonts/fonts/forbes/Euclid_Circular_B_SemiBold.woff2",
+      "bold": "/lp-images-files-videos-fonts/fonts/forbes/Euclid_Circular_B_Bold.woff2",
+      "boldItalic": "/lp-images-files-videos-fonts/fonts/forbes/Euclid_Circular_B_Bold_Italic.woff2"
     }
   }
 }

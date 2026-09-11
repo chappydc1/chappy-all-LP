@@ -4,12 +4,12 @@ import { useScrollReveal } from "../../hooks/useScrollReveal";
 type State = { name: string; imgSrc: string };
 
 const STATES: State[] = [
-  { name: "Oregon", imgSrc: "/images/hear/oregon-yellow.svg" },
-  { name: "Georgia", imgSrc: "/images/hear/georgia-red.svg" },
-  { name: "Alaska", imgSrc: "/images/hear/alaska-lightblue.svg" },
-  { name: "Connecticut", imgSrc: "/images/hear/connecticut-lightgreen.svg" },
-  { name: "Michigan", imgSrc: "/images/hear/michigan-blue.svg" },
-  { name: "Arkansas", imgSrc: "/images/hear/arkansas-green.svg" },
+  { name: "Oregon", imgSrc: "/lp-images-files-videos-fonts/images/hear/oregon-yellow.svg" },
+  { name: "Georgia", imgSrc: "/lp-images-files-videos-fonts/images/hear/georgia-red.svg" },
+  { name: "Alaska", imgSrc: "/lp-images-files-videos-fonts/images/hear/alaska-lightblue.svg" },
+  { name: "Connecticut", imgSrc: "/lp-images-files-videos-fonts/images/hear/connecticut-lightgreen.svg" },
+  { name: "Michigan", imgSrc: "/lp-images-files-videos-fonts/images/hear/michigan-blue.svg" },
+  { name: "Arkansas", imgSrc: "/lp-images-files-videos-fonts/images/hear/arkansas-green.svg" },
 ];
 
 const reviews = [
@@ -141,7 +141,7 @@ export const HearStateSelector = () => {
                 <span className="caret-transparent">Click</span>
                 {" "}here{" "}
                 <img
-                  src="/images/hear/double-arrow.svg"
+                  src="/lp-images-files-videos-fonts/images/hear/double-arrow.svg"
                   alt=""
                   className="caret-transparent inline align-baseline"
                 />
@@ -151,7 +151,7 @@ export const HearStateSelector = () => {
           <div className="caret-transparent mb-10">
             <picture className="caret-transparent">
               <img
-                src="/images/hear/trust-logos-new-desk.png"
+                src="/lp-images-files-videos-fonts/images/hear/trust-logos-new-desk.png"
                 alt="happy customers"
                 className="caret-transparent align-baseline w-full"
               />
@@ -186,7 +186,7 @@ export const HearStateSelector = () => {
                     {review.title}
                   </p>
                   <img
-                    src="/images/hear/stars.svg"
+                    src="/lp-images-files-videos-fonts/images/hear/stars.svg"
                     alt="5 stars"
                     className="caret-transparent max-w-[100px] min-h-[auto] min-w-[auto] align-baseline w-full"
                   />

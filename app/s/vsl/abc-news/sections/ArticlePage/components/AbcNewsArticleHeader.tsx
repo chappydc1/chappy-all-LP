@@ -44,7 +44,7 @@ export const AbcNewsArticleHeader = () => {
                 >
                   <span className="box-border caret-transparent block leading-[0px] min-h-[auto] min-w-[auto] outline-[3px]">
                     <img
-                      src="/images/abc-news/icon-5.svg"
+                      src="/lp-images-files-videos-fonts/images/abc-news/icon-5.svg"
                       alt="Icon"
                       className="box-border caret-transparent inline h-4 outline-[3px] align-baseline md:h-[18px]"
                     />
@@ -59,7 +59,7 @@ export const AbcNewsArticleHeader = () => {
                 >
                   <span className="box-border caret-transparent block leading-[0px] min-h-[auto] min-w-[auto] outline-[3px]">
                     <img
-                      src="/images/abc-news/icon-6.svg"
+                      src="/lp-images-files-videos-fonts/images/abc-news/icon-6.svg"
                       alt="Icon"
                       className="box-border caret-transparent inline h-4 outline-[3px] align-baseline md:h-[18px]"
                     />
@@ -74,7 +74,7 @@ export const AbcNewsArticleHeader = () => {
                 >
                   <span className="box-border caret-transparent block leading-[0px] min-h-[auto] min-w-[auto] outline-[3px]">
                     <img
-                      src="/images/abc-news/icon-7.svg"
+                      src="/lp-images-files-videos-fonts/images/abc-news/icon-7.svg"
                       alt="Icon"
                       className="box-border caret-transparent inline h-4 outline-[3px] align-baseline md:h-[18px]"
                     />
@@ -90,7 +90,7 @@ export const AbcNewsArticleHeader = () => {
                   >
                     <span className="box-border caret-transparent block leading-[0px] min-h-[auto] min-w-[auto] outline-[3px]">
                       <img
-                        src="/images/abc-news/icon-8.svg"
+                        src="/lp-images-files-videos-fonts/images/abc-news/icon-8.svg"
                         alt="Icon"
                         className="box-border caret-transparent inline h-4 outline-[3px] align-baseline md:h-[18px]"
                       />
@@ -129,7 +129,7 @@ export const AbcNewsArticleHeader = () => {
                 </div>
                 <div className="StoryDivider StoryDivider--logo box-border caret-transparent flex h-16 items-center justify-center outline-[3px] w-full md:h-28">
                   <img
-                    src="/images/abc-news/jhbmyD1749942.webp"
+                    src="/lp-images-files-videos-fonts/images/abc-news/jhbmyD1749942.webp"
                     alt="Logo"
                     className="box-border caret-transparent block h-auto max-w-full outline-[3px] align-baseline w-[90%]"
                   />
@@ -200,7 +200,7 @@ export const AbcNewsArticleHeader = () => {
                     <picture className="text-base box-border caret-transparent tracking-[-0.16px] leading-[26px] outline-[3px] md:text-lg md:tracking-[-0.18px] md:leading-7">
                       <img
                         alt=""
-                        src="/images/abc-news/suicidenote_1778118052036_hpEmbed_19x14.jpg"
+                        src="/lp-images-files-videos-fonts/images/abc-news/suicidenote_1778118052036_hpEmbed_19x14.jpg"
                         className="text-base box-border caret-transparent tracking-[-0.16px] leading-[26px] max-h-full max-w-full outline-[3px] align-baseline w-full rounded-md md:text-lg md:tracking-[-0.18px] md:leading-7"
                       />
                     </picture>
@@ -256,7 +256,7 @@ export const AbcNewsArticleHeader = () => {
                     >
                       <div className="text-base items-center box-border caret-transparent flex h-4 justify-center tracking-[-0.16px] leading-[26px] min-h-[auto] min-w-[auto] outline-[3px] w-4 md:text-lg md:tracking-[-0.18px] md:leading-7">
                         <img
-                          src="/images/abc-news/icon-10.svg"
+                          src="/lp-images-files-videos-fonts/images/abc-news/icon-10.svg"
                           alt="Icon"
                           className="text-blue-700 text-base box-border caret-transparent h-[9.5px] tracking-[-0.16px] leading-[26px] outline-[3px] align-baseline w-[9.5px] md:text-lg md:tracking-[-0.18px] md:leading-7"
                         />
@@ -296,7 +296,7 @@ export const AbcNewsArticleHeader = () => {
                         <div className="absolute text-base box-border caret-transparent tracking-[-0.16px] leading-[26px] outline-[3px] inset-0 md:text-lg md:tracking-[-0.18px] md:leading-7">
                           <img
                             alt=""
-                            src="/images/abc-news/69.avif"
+                            src="/lp-images-files-videos-fonts/images/abc-news/69.avif"
                             className="absolute text-base box-border caret-transparent tracking-[-0.16px] leading-[26px] outline-[3px] align-baseline w-full inset-0 md:text-lg md:tracking-[-0.18px] md:leading-7"
                           />
                         </div>
@@ -340,7 +340,7 @@ export const AbcNewsArticleHeader = () => {
                         <div className="absolute text-base box-border caret-transparent tracking-[-0.16px] leading-[26px] outline-[3px] inset-0 md:text-lg md:tracking-[-0.18px] md:leading-7">
                           <img
                             alt=""
-                            src="/images/abc-news/70.avif"
+                            src="/lp-images-files-videos-fonts/images/abc-news/70.avif"
                             className="absolute text-base box-border caret-transparent tracking-[-0.16px] leading-[26px] outline-[3px] align-baseline w-full inset-0 md:text-lg md:tracking-[-0.18px] md:leading-7"
                           />
                         </div>
@@ -384,7 +384,7 @@ export const AbcNewsArticleHeader = () => {
                         <div className="absolute text-base box-border caret-transparent tracking-[-0.16px] leading-[26px] outline-[3px] inset-0 md:text-lg md:tracking-[-0.18px] md:leading-7">
                           <img
                             alt=""
-                            src="/images/abc-news/71.avif"
+                            src="/lp-images-files-videos-fonts/images/abc-news/71.avif"
                             className="absolute text-base box-border caret-transparent tracking-[-0.16px] leading-[26px] outline-[3px] align-baseline w-full inset-0 md:text-lg md:tracking-[-0.18px] md:leading-7"
                           />
                         </div>
@@ -434,7 +434,7 @@ export const AbcNewsArticleHeader = () => {
                     <picture className="text-base box-border caret-transparent tracking-[-0.16px] leading-[26px] outline-[3px] md:text-lg md:tracking-[-0.18px] md:leading-7">
                       <img
                         alt=""
-                        src="/images/abc-news/jeffrey-epstein-gty-gmh-251126_1764193635060_hpMain_4x3.jpg"
+                        src="/lp-images-files-videos-fonts/images/abc-news/jeffrey-epstein-gty-gmh-251126_1764193635060_hpMain_4x3.jpg"
                         className="text-base box-border caret-transparent tracking-[-0.16px] leading-[26px] max-h-full max-w-full outline-[3px] align-baseline w-full rounded-md md:text-lg md:tracking-[-0.18px] md:leading-7"
                       />
                     </picture>
@@ -510,7 +510,7 @@ export const AbcNewsArticleHeader = () => {
           <hr className="text-zinc-500 caret-transparent h-0 min-h-[auto] min-w-[auto] outline-[3px] w-[48%] border-stone-300 overflow-visible mx-auto border-solid" />
           <img
             alt="ABC News"
-            src="/images/abc-news/logo.svg"
+            src="/lp-images-files-videos-fonts/images/abc-news/logo.svg"
             className="relative box-border caret-transparent h-28 min-h-[auto] min-w-[auto] outline-[3px] align-baseline w-28 mx-3"
           />
           <hr className="text-zinc-500 caret-transparent h-0 min-h-[auto] min-w-[auto] outline-[3px] w-[48%] border-stone-300 overflow-visible mx-auto border-solid" />

@@ -11,7 +11,7 @@ export const TestimonialsSection = () => {
           <div className="items-center box-border caret-transparent flex justify-center outline-[3px] text-left w-full mt-4">
             <img
               title=""
-              src="/s/p/rosabella-1/16.svg"
+              src="/lp-images-files-videos-fonts/p/rosabella-1/16.svg"
               alt=""
               className="text-black box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left w-[75px] mr-2 md:w-[107px]"
             />

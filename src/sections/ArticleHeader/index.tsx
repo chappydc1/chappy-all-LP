@@ -122,7 +122,7 @@ export const ArticleHeader = () => {
                 <div className="relative box-border caret-transparent pt-[54%]">
                   <div className="absolute box-border caret-transparent h-full w-full left-0 top-0">
                     <img
-                      src="/images/spartan-nmn/discount.png"
+                      src="/lp-images-files-videos-fonts/images/spartan-nmn/discount.png"
                       title=""
                       href=""
                       alt=""
@@ -501,7 +501,7 @@ export const ArticleHeader = () => {
                 <div className="relative box-border caret-transparent pt-[56.46%]">
                   <div className="absolute box-border caret-transparent h-full w-full left-0 top-0">
                     <img
-                      src="/images/spartan-nmn/Results.png"
+                      src="/lp-images-files-videos-fonts/images/spartan-nmn/Results.png"
                       title=""
                       href=""
                       alt=""
@@ -721,7 +721,7 @@ export const ArticleHeader = () => {
               </div>
               <img
                 title=""
-                src="/images/spartan-nmn/Go-Make-a-Mistake-and-Be-a-Disappointment.webp"
+                src="/lp-images-files-videos-fonts/images/spartan-nmn/Go-Make-a-Mistake-and-Be-a-Disappointment.webp"
                 href=""
                 alt=""
                 className="text-black box-border caret-transparent inline max-w-full w-full border border-zinc-400 border-solid"
@@ -866,7 +866,7 @@ export const ArticleHeader = () => {
                   <div className="absolute box-border caret-transparent h-full w-full left-0 top-0">
                     <div className="relative box-border caret-transparent w-full overflow-hidden before:accent-auto before:box-border before:caret-transparent before:text-neutral-800 before:block before:text-base before:not-italic before:normal-nums before:font-normal before:tracking-[normal] before:leading-6 before:list-outside before:list-disc before:pointer-events-auto before:no-underline before:indent-[0px] before:normal-case before:visible before:pt-[56.25%] before:border-separate before:font-apple_system">
                       <video
-                        src="/video/spartan-nmn/30day.mp4"
+                        src="/lp-images-files-videos-fonts/video/spartan-nmn/30day.mp4"
                         autoplay=""
                         muted=""
                         playsinline=""
@@ -1038,7 +1038,7 @@ export const ArticleHeader = () => {
               </div>
               <img
                 title=""
-                src="/images/spartan-nmn/discount.png"
+                src="/lp-images-files-videos-fonts/images/spartan-nmn/discount.png"
                 href=""
                 alt=""
                 className="text-black box-border caret-transparent inline max-w-full w-full"
@@ -1123,7 +1123,7 @@ export const ArticleHeader = () => {
               </div>
               <img
                 title=""
-                src="/images/spartan-nmn/showcase.png"
+                src="/lp-images-files-videos-fonts/images/spartan-nmn/showcase.png"
                 href=""
                 alt=""
                 className="text-black box-border caret-transparent inline max-w-full w-full mt-[15px] mb-4 rounded-[10px] md:mb-[26px]"

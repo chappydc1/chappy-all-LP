@@ -4,7 +4,7 @@ export const ComparisonTable = () => {
       <div className="relative bg-pink-400 box-border caret-transparent basis-[0%] grow min-h-[auto] min-w-[auto] outline-[3px] w-full pt-[42px] pb-4 rounded-bl rounded-br rounded-tl rounded-tr md:pt-8">
         <img
           title=""
-          src="/s/p/rosabella-1/1779537039377_beet_img_1_.webp"
+          src="/lp-images-files-videos-fonts/p/rosabella-1/1779537039377_beet_img_1_.webp"
           alt=""
           className="absolute text-black box-border caret-transparent max-h-[70px] max-w-full outline-[3px] top-[-52px] translate-x-[-50.0%] left-2/4 md:max-h-[152px] md:top-[-113px]"
         />
@@ -16,7 +16,7 @@ export const ComparisonTable = () => {
             >
               <img
                 title=""
-                src="/s/p/rosabella-1/31.svg"
+                src="/lp-images-files-videos-fonts/p/rosabella-1/31.svg"
                 alt=""
                 className="text-black box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-[23px] md:w-[37px]"
               />
@@ -46,7 +46,7 @@ export const ComparisonTable = () => {
       <div className="relative bg-zinc-100 box-border caret-transparent basis-[0%] grow min-h-[auto] min-w-[auto] outline-[3px] w-full pt-[42px] pb-4 rounded-bl rounded-br rounded-tl rounded-tr md:pt-8">
         <img
           title=""
-          src="/s/p/rosabella-1/29.avif"
+          src="/lp-images-files-videos-fonts/p/rosabella-1/29.avif"
           alt=""
           className="absolute text-black box-border caret-transparent max-h-[70px] max-w-full outline-[3px] top-[-52px] translate-x-[-50.0%] left-2/4 md:max-h-[152px] md:top-[-113px]"
         />
@@ -58,7 +58,7 @@ export const ComparisonTable = () => {
             >
               <img
                 title=""
-                src="/s/p/rosabella-1/32.svg"
+                src="/lp-images-files-videos-fonts/p/rosabella-1/32.svg"
                 alt=""
                 className="text-black box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-[23px] md:w-[37px]"
               />

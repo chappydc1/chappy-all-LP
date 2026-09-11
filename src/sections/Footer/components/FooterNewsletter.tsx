@@ -106,7 +106,7 @@ export const FooterNewsletter = () => {
               </form>
               <div className="items-center bg-slate-200 box-border caret-transparent gap-x-2 hidden w-full overflow-hidden mt-4 p-3 rounded-bl rounded-br rounded-tl rounded-tr md:w-fit">
                 <img
-                  src="/images/product/icon-29.svg"
+                  src="/lp-images-files-videos-fonts/images/product/icon-29.svg"
                   alt="Icon"
                   className="box-border caret-transparent h-4 w-4"
                 />

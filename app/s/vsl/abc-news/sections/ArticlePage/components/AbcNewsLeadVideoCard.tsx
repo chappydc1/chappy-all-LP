@@ -26,7 +26,7 @@ export const AbcNewsLeadVideoCard = () => {
               </div>
               <div className="StoryDivider StoryDivider--logo box-border caret-transparent flex h-16 items-center justify-center outline-[3px] w-full md:h-28">
                 <img
-                  src="/images/abc-news/jhbmyD1749942.webp"
+                  src="/lp-images-files-videos-fonts/images/abc-news/jhbmyD1749942.webp"
                   alt="Logo"
                   className="box-border caret-transparent block h-auto max-w-full outline-[3px] align-baseline w-[90%]"
                 />

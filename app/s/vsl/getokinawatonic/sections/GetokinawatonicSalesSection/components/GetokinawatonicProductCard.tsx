@@ -61,7 +61,7 @@ export const GetokinawatonicProductCard = (props: GetokinawatonicProductCardProp
         className="text-teal-500 box-border caret-transparent outline-[3px] hover:outline-0 hover:underline"
       >
         <img
-          src="/images/getokinawatonic/buy-now.svg"
+          src="/lp-images-files-videos-fonts/images/getokinawatonic/buy-now.svg"
           alt="img"
           className={`shadow-[rgba(0,0,0,0.4)_1px_4px_4px_0px] box-border caret-transparent max-w-full outline-[3px] w-[88%] mt-0 mx-auto rounded-[50px] md:w-[90%] md:mt-[5px] ${props.buttonImageVariantClass}`}
         />

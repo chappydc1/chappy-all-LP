@@ -11,7 +11,7 @@ export const EmmaTestimonialsSection = () => {
           testimonials={[
             {
               avatarSrc:
-                "/images/emma/ava1.webp",
+                "/lp-images-files-videos-fonts/images/emma/ava1.webp",
               name: "Natasha K",
               title: "“This has given me my life back...”",
               body: (
@@ -37,7 +37,7 @@ export const EmmaTestimonialsSection = () => {
             },
             {
               avatarSrc:
-                "/images/emma/lucy.webp",
+                "/lp-images-files-videos-fonts/images/emma/lucy.webp",
               name: "Lucy C",
               title:
                 "“The feeling I get when it enters into my body it’s better than coffee...”",
@@ -68,7 +68,7 @@ export const EmmaTestimonialsSection = () => {
           testimonials={[
             {
               avatarSrc:
-                "/images/emma/amberlyn.webp",
+                "/lp-images-files-videos-fonts/images/emma/amberlyn.webp",
               name: "Amberlyn F",
               title: "“My stomach is noticeably flatter...” ",
               body: (
@@ -87,7 +87,7 @@ export const EmmaTestimonialsSection = () => {
             },
             {
               avatarSrc:
-                "/images/emma/patricia.webp",
+                "/lp-images-files-videos-fonts/images/emma/patricia.webp",
               name: "Patricia G",
               title:
                 "“No bloat and it’s helping clean out my body in a natural way                                    (Pooping!)...”",

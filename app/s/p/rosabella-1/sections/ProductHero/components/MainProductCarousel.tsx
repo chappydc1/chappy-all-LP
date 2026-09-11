@@ -99,7 +99,7 @@ export const MainProductCarousel = () => {
         disabled={current === 0}
         className="absolute md:hidden text-black items-center bg-white box-border caret-transparent flex h-9 justify-center left-1 leading-4 outline-[3px] w-9 z-10 border-neutral-950 rounded-[50%] border-2 border-solid top-1/2 -translate-y-1/2 cursor-pointer disabled:opacity-30"
       >
-        <img src="/s/p/rosabella-1/icon-1.svg" alt="" className="w-[7px] pointer-events-none" />
+        <img src="/lp-images-files-videos-fonts/p/rosabella-1/icon-1.svg" alt="" className="w-[7px] pointer-events-none" />
       </button>
       <button
         type="button"
@@ -108,7 +108,7 @@ export const MainProductCarousel = () => {
         disabled={current === MAIN_SLIDES.length - 1}
         className="absolute md:hidden text-black items-center bg-white box-border caret-transparent flex h-9 justify-center right-1 leading-4 outline-[3px] w-9 z-10 border-neutral-950 rounded-[50%] border-2 border-solid top-1/2 -translate-y-1/2 cursor-pointer disabled:opacity-30"
       >
-        <img src="/s/p/rosabella-1/icon-2.svg" alt="" className="w-[7px] pointer-events-none" />
+        <img src="/lp-images-files-videos-fonts/p/rosabella-1/icon-2.svg" alt="" className="w-[7px] pointer-events-none" />
       </button>
 
       {/* Desktop thumbnails + arrows */}
@@ -152,7 +152,7 @@ export const MainProductCarousel = () => {
           className="absolute text-black items-center bg-white box-border caret-transparent flex h-[46px] justify-center left-[-22.5px] leading-4 mt-[-22px] outline-[3px] w-[46px] z-10 border-neutral-950 rounded-[50%] border-2 border-solid bottom-[22px] cursor-pointer select-none"
         >
           <img
-            src="/s/p/rosabella-1/icon-1.svg"
+            src="/lp-images-files-videos-fonts/p/rosabella-1/icon-1.svg"
             alt="Icon"
             className="box-border caret-transparent h-full object-contain outline-[3px] pointer-events-none w-[9px]"
           />
@@ -167,7 +167,7 @@ export const MainProductCarousel = () => {
           className="absolute text-black items-center bg-white box-border caret-transparent flex h-[46px] justify-center leading-4 mt-[-22px] outline-[3px] right-[-22.5px] w-[46px] z-10 border-neutral-950 rounded-[50%] border-2 border-solid bottom-[22px] cursor-pointer select-none"
         >
           <img
-            src="/s/p/rosabella-1/icon-2.svg"
+            src="/lp-images-files-videos-fonts/p/rosabella-1/icon-2.svg"
             alt="Icon"
             className="box-border caret-transparent h-full object-contain outline-[3px] pointer-events-none w-[9px]"
           />

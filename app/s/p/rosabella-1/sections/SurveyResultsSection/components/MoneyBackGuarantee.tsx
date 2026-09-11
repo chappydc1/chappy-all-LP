@@ -5,7 +5,7 @@ export const MoneyBackGuarantee = () => {
         <div className="box-border caret-transparent outline-[3px] w-full mt-0 md:mt-[-60px]">
           <img
             title=""
-            src="/s/p/rosabella-1/1779452766873_bottle_3x_848x837_.webp"
+            src="/lp-images-files-videos-fonts/p/rosabella-1/1779452766873_bottle_3x_848x837_.webp"
             alt=""
             className="text-black box-border caret-transparent inline max-w-full outline-[3px]"
           />
@@ -17,7 +17,7 @@ export const MoneyBackGuarantee = () => {
           <div className="items-center box-border caret-transparent flex justify-start outline-[3px] w-full mb-4">
             <img
               title=""
-              src="/s/p/rosabella-1/35.svg"
+              src="/lp-images-files-videos-fonts/p/rosabella-1/35.svg"
               alt=""
               className="text-black box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-[51px]"
             />
@@ -36,7 +36,7 @@ export const MoneyBackGuarantee = () => {
             <div className="box-border caret-transparent flex min-h-[auto] min-w-[auto] outline-[3px] w-full">
               <img
                 title=""
-                src="/s/p/rosabella-1/56.svg"
+                src="/lp-images-files-videos-fonts/p/rosabella-1/56.svg"
                 alt=""
                 className="text-black box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-4 mr-2"
               />
@@ -47,7 +47,7 @@ export const MoneyBackGuarantee = () => {
             <div className="box-border caret-transparent flex min-h-[auto] min-w-[auto] outline-[3px] w-full mt-3 md:mt-0">
               <img
                 title=""
-                src="/s/p/rosabella-1/56.svg"
+                src="/lp-images-files-videos-fonts/p/rosabella-1/56.svg"
                 alt=""
                 className="text-black box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-4 mr-2"
               />

@@ -7,7 +7,7 @@ export const EmmaDoctorBio = () => {
           <div className="box-border gap-x-2.5 flex flex-row gap-y-2.5 md:flex-col">
             <div className="box-border min-h-[auto] min-w-[auto] md:min-h-0 md:min-w-0">
               <img
-                src="/images/emma/drginasam.webp"
+                src="/lp-images-files-videos-fonts/images/emma/drginasam.webp"
                 className="box-border inline h-[81.96px] w-[81.96px]"
               />
             </div>
@@ -97,11 +97,11 @@ export const EmmaDoctorBio = () => {
             <div className="box-border flex flex-wrap -mx-3 pt-6">
               <div className="box-border shrink-0 max-w-full w-full px-3">
                 <img
-                  src="/images/emma/asseenond.webp"
+                  src="/lp-images-files-videos-fonts/images/emma/asseenond.webp"
                   className="box-border hidden max-w-[772px] w-full m-auto md:block"
                 />
                 <img
-                  src="/images/emma/asseenonm.webp"
+                  src="/lp-images-files-videos-fonts/images/emma/asseenonm.webp"
                   className="box-border block max-w-[343px] w-full m-auto md:hidden"
                 />
               </div>

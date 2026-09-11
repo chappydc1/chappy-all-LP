@@ -4,7 +4,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Anima Project",
   description: "VSL Landing Page",
-  icons: { icon: "/favicons/oprah.svg" },
+  icons: { icon: "/lp-images-files-videos-fonts/favicons/oprah.svg" },
 };
 
 export default function OprahLayout({

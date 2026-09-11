@@ -1,32 +1,32 @@
 {
-  "logo": "/images/shilajit/13.png",
-  "amazonBadge": "/images/shilajit/14.png",
-  "footerBg": "/images/shilajit/27.png",
-  "footerLogo": "/images/shilajit/26.png",
+  "logo": "/lp-images-files-videos-fonts/images/shilajit/13.png",
+  "amazonBadge": "/lp-images-files-videos-fonts/images/shilajit/14.png",
+  "footerBg": "/lp-images-files-videos-fonts/images/shilajit/27.png",
+  "footerLogo": "/lp-images-files-videos-fonts/images/shilajit/26.png",
   "icons": {
-    "nav": "/images/shilajit/icon-1.svg",
-    "dropdown": "/images/shilajit/icon-2.svg",
-    "disclosure": "/images/shilajit/icon-3.svg",
-    "check": "/images/shilajit/icon-4.svg",
-    "starFull": "/images/shilajit/icon-5.svg",
-    "starHalf": "/images/shilajit/icon-6.svg"
+    "nav": "/lp-images-files-videos-fonts/images/shilajit/icon-1.svg",
+    "dropdown": "/lp-images-files-videos-fonts/images/shilajit/icon-2.svg",
+    "disclosure": "/lp-images-files-videos-fonts/images/shilajit/icon-3.svg",
+    "check": "/lp-images-files-videos-fonts/images/shilajit/icon-4.svg",
+    "starFull": "/lp-images-files-videos-fonts/images/shilajit/icon-5.svg",
+    "starHalf": "/lp-images-files-videos-fonts/images/shilajit/icon-6.svg"
   },
   "products": [
-    "/images/shilajit/17.jpg",
-    "/images/shilajit/18.jpg",
-    "/images/shilajit/20.jpg",
-    "/images/shilajit/15.jpg",
-    "/images/shilajit/13.png",
-    "/images/shilajit/14.png",
-    "/images/shilajit/26.png",
-    "/images/shilajit/27.png",
-    "/images/shilajit/13.png",
-    "/images/shilajit/14.png"
+    "/lp-images-files-videos-fonts/images/shilajit/17.jpg",
+    "/lp-images-files-videos-fonts/images/shilajit/18.jpg",
+    "/lp-images-files-videos-fonts/images/shilajit/20.jpg",
+    "/lp-images-files-videos-fonts/images/shilajit/15.jpg",
+    "/lp-images-files-videos-fonts/images/shilajit/13.png",
+    "/lp-images-files-videos-fonts/images/shilajit/14.png",
+    "/lp-images-files-videos-fonts/images/shilajit/26.png",
+    "/lp-images-files-videos-fonts/images/shilajit/27.png",
+    "/lp-images-files-videos-fonts/images/shilajit/13.png",
+    "/lp-images-files-videos-fonts/images/shilajit/14.png"
   ],
   "relatedCategories": [
-    "/images/shilajit/23.jpg",
-    "/images/shilajit/25.jpg",
-    "/images/shilajit/24.jpg",
-    "/images/shilajit/28.jpg"
+    "/lp-images-files-videos-fonts/images/shilajit/23.jpg",
+    "/lp-images-files-videos-fonts/images/shilajit/25.jpg",
+    "/lp-images-files-videos-fonts/images/shilajit/24.jpg",
+    "/lp-images-files-videos-fonts/images/shilajit/28.jpg"
   ]
 }

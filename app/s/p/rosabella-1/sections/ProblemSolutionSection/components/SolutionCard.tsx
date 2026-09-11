@@ -19,7 +19,7 @@ export const SolutionCard = () => {
               <div className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] w-full">
                 <img
                   title=""
-                  src="/s/p/rosabella-1/27.svg"
+                  src="/lp-images-files-videos-fonts/p/rosabella-1/27.svg"
                   alt=""
                   className="text-black box-border caret-transparent inline max-w-full outline-[3px] w-9"
                 />
@@ -36,7 +36,7 @@ export const SolutionCard = () => {
               <div className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] w-full">
                 <img
                   title=""
-                  src="/s/p/rosabella-1/25.svg"
+                  src="/lp-images-files-videos-fonts/p/rosabella-1/25.svg"
                   alt=""
                   className="text-black box-border caret-transparent inline max-w-full outline-[3px] w-9"
                 />
@@ -54,7 +54,7 @@ export const SolutionCard = () => {
                 <div className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] w-full">
                   <img
                     title=""
-                    src="/s/p/rosabella-1/24.svg"
+                    src="/lp-images-files-videos-fonts/p/rosabella-1/24.svg"
                     alt=""
                     className="text-black box-border caret-transparent inline max-w-full outline-[3px] w-9"
                   />
@@ -69,7 +69,7 @@ export const SolutionCard = () => {
                 <div className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] w-full">
                   <img
                     title=""
-                    src="/s/p/rosabella-1/26.svg"
+                    src="/lp-images-files-videos-fonts/p/rosabella-1/26.svg"
                     alt=""
                     className="text-black box-border caret-transparent inline max-w-full outline-[3px] w-9"
                   />
@@ -90,7 +90,7 @@ export const SolutionCard = () => {
         <div className="box-border caret-transparent outline-[3px] w-full">
           <img
             title=""
-            src="/s/p/rosabella-1/1779452736797_bottle_3x.webp"
+            src="/lp-images-files-videos-fonts/p/rosabella-1/1779452736797_bottle_3x.webp"
             alt=""
             className="text-black box-border caret-transparent inline max-w-full outline-[3px] translate-y-[75px] md:translate-y-[62px]"
           />

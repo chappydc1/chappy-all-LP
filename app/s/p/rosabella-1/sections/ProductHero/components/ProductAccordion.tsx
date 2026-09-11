@@ -9,8 +9,8 @@ export const ProductAccordion = () => {
             <div className="box-border caret-transparent outline-[3px]">
               <ProductAccordionItem
                 title="Description"
-                collapsedIconSrc="/s/p/rosabella-1/icon-3.svg"
-                expandedIconSrc="/s/p/rosabella-1/icon-4.svg"
+                collapsedIconSrc="/lp-images-files-videos-fonts/p/rosabella-1/icon-3.svg"
+                expandedIconSrc="/lp-images-files-videos-fonts/p/rosabella-1/icon-4.svg"
               >
                 <div className="text-black text-[15px] box-border caret-transparent tracking-[-0.32px] leading-[19.5px] outline-[3px] font-montserrat md:text-base md:leading-[20.8px]">
                   <b className="text-[15px] font-bold box-border caret-transparent leading-[19.5px] outline-[3px] md:text-base md:leading-[20.8px]">
@@ -42,7 +42,7 @@ export const ProductAccordion = () => {
                   <div className="box-border caret-transparent flex outline-[3px] w-full">
                     <img
                       title=""
-                      src="/s/p/rosabella-1/45.svg"
+                      src="/lp-images-files-videos-fonts/p/rosabella-1/45.svg"
                       alt=""
                       className="text-black box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-4 mr-2"
                     />
@@ -56,7 +56,7 @@ export const ProductAccordion = () => {
                   <div className="box-border caret-transparent flex outline-[3px] w-full mt-4">
                     <img
                       title=""
-                      src="/s/p/rosabella-1/45.svg"
+                      src="/lp-images-files-videos-fonts/p/rosabella-1/45.svg"
                       alt=""
                       className="text-black box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-4 mr-2"
                     />
@@ -70,7 +70,7 @@ export const ProductAccordion = () => {
                   <div className="box-border caret-transparent flex outline-[3px] w-full mt-4">
                     <img
                       title=""
-                      src="/s/p/rosabella-1/45.svg"
+                      src="/lp-images-files-videos-fonts/p/rosabella-1/45.svg"
                       alt=""
                       className="text-black box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-4 mr-2"
                     />
@@ -89,8 +89,8 @@ export const ProductAccordion = () => {
             <div className="box-border caret-transparent outline-[3px]">
               <ProductAccordionItem
                 title="The Results"
-                collapsedIconSrc="/s/p/rosabella-1/icon-5.svg"
-                expandedIconSrc="/s/p/rosabella-1/icon-6.svg"
+                collapsedIconSrc="/lp-images-files-videos-fonts/p/rosabella-1/icon-5.svg"
+                expandedIconSrc="/lp-images-files-videos-fonts/p/rosabella-1/icon-6.svg"
               >
                 <div className="text-black text-[15px] box-border caret-transparent tracking-[-0.32px] leading-[19.5px] outline-[3px] font-montserrat md:text-base md:leading-[20.8px]">
                   A Complete 90-Day Circulation Support Cycle. Rosabella
@@ -102,7 +102,7 @@ export const ProductAccordion = () => {
                   <div className="box-border caret-transparent flex outline-[3px] w-full">
                     <img
                       title=""
-                      src="/s/p/rosabella-1/45.svg"
+                      src="/lp-images-files-videos-fonts/p/rosabella-1/45.svg"
                       alt=""
                       className="text-black box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-4 mr-2"
                     />
@@ -119,7 +119,7 @@ export const ProductAccordion = () => {
                   <div className="box-border caret-transparent flex outline-[3px] w-full mt-4">
                     <img
                       title=""
-                      src="/s/p/rosabella-1/45.svg"
+                      src="/lp-images-files-videos-fonts/p/rosabella-1/45.svg"
                       alt=""
                       className="text-black box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-4 mr-2"
                     />
@@ -136,7 +136,7 @@ export const ProductAccordion = () => {
                   <div className="box-border caret-transparent flex outline-[3px] w-full mt-4">
                     <img
                       title=""
-                      src="/s/p/rosabella-1/45.svg"
+                      src="/lp-images-files-videos-fonts/p/rosabella-1/45.svg"
                       alt=""
                       className="text-black box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-4 mr-2"
                     />
@@ -158,8 +158,8 @@ export const ProductAccordion = () => {
             <div className="box-border caret-transparent outline-[3px]">
               <ProductAccordionItem
                 title="90 Day Guarantee"
-                collapsedIconSrc="/s/p/rosabella-1/icon-7.svg"
-                expandedIconSrc="/s/p/rosabella-1/icon-8.svg"
+                collapsedIconSrc="/lp-images-files-videos-fonts/p/rosabella-1/icon-7.svg"
+                expandedIconSrc="/lp-images-files-videos-fonts/p/rosabella-1/icon-8.svg"
               >
                 <div className="text-black text-[15px] box-border caret-transparent tracking-[-0.32px] leading-[19.5px] outline-[3px] font-montserrat md:text-base md:leading-[20.8px]">
                   <b className="text-[15px] font-bold box-border caret-transparent leading-[19.5px] outline-[3px] md:text-base md:leading-[20.8px]">
@@ -191,8 +191,8 @@ export const ProductAccordion = () => {
             <div className="box-border caret-transparent outline-[3px]">
               <ProductAccordionItem
                 title="Shipping & Returns"
-                collapsedIconSrc="/s/p/rosabella-1/icon-9.svg"
-                expandedIconSrc="/s/p/rosabella-1/icon-10.svg"
+                collapsedIconSrc="/lp-images-files-videos-fonts/p/rosabella-1/icon-9.svg"
+                expandedIconSrc="/lp-images-files-videos-fonts/p/rosabella-1/icon-10.svg"
               >
                 <div className="text-black text-[15px] box-border caret-transparent tracking-[-0.32px] leading-[19.5px] outline-[3px] font-montserrat md:text-base md:leading-[20.8px]">
                   <b className="text-[15px] font-bold box-border caret-transparent leading-[19.5px] outline-[3px] md:text-base md:leading-[20.8px]">

@@ -7,12 +7,12 @@ export default function JonesLandingPage() {
     <>
       <JonesCookieConsent />
       <img
-        src="/images/jones/icon-2.svg"
+        src="/lp-images-files-videos-fonts/images/jones/icon-2.svg"
         alt="Icon"
         className="caret-transparent hidden outline-[3px] align-baseline"
       />
       <img
-        src="/images/jones/image-1.svg"
+        src="/lp-images-files-videos-fonts/images/jones/image-1.svg"
         alt=""
         className="absolute caret-transparent h-[960px] max-h-[990px] max-w-[371.25px] outline-[3px] pointer-events-none align-baseline w-[360px] left-0 top-0 md:max-w-[1267.2px] md:w-[1228.8px]"
       />

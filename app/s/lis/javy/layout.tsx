@@ -4,7 +4,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "11 Reasons Why This High-Protein Iced Coffee is the #1 Trending Drink for Spring 2026",
   description: "Drinking Javvy Protein Coffee has 11+ life changing benefits",
-  icons: { icon: "/favicons/javy.svg" },
+  icons: { icon: "/lp-images-files-videos-fonts/favicons/javy.svg" },
 };
 
 export default function JavyLayout({ children }: { children: React.ReactNode }) {

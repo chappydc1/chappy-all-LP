@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: "Hike Footwear — HF Shade Barefoot Shoes",
   description:
     "Why Americans Over 50 Are Switching to These Pain-Relieving Barefoot Shoes",
-  icons: { icon: "/favicons/hike.svg" },
+  icons: { icon: "/lp-images-files-videos-fonts/favicons/hike.svg" },
 };
 
 export default function HikeLayout({

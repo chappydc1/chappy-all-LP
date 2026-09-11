@@ -4,7 +4,7 @@ export const NebrooHsaFsaSection = () => {
       {/* Image — left */}
       <div className="w-full md:flex-1 shrink-0">
         <img
-          src="/images/nebroo/1756189641488_HSA_FSA_Eligible_Squared_v4_1_.webp"
+          src="/lp-images-files-videos-fonts/images/nebroo/1756189641488_HSA_FSA_Eligible_Squared_v4_1_.webp"
           alt="HSA/FSA Eligible"
           className="w-full rounded-[10px] object-cover"
         />

@@ -5,7 +5,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: copy.meta.title,
   description: copy.meta.description,
-  icons: { icon: "/favicons/healthinsider-gynocologist.svg" },
+  icons: { icon: "/lp-images-files-videos-fonts/favicons/healthinsider-gynocologist.svg" },
 };
 
 export default function HealthinsiderGynocologistLayout({ children }: { children: React.ReactNode }) {

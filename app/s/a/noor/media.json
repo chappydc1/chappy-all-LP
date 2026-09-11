@@ -1,54 +1,54 @@
 {
   "icons": {
-    "calendar": "/images/skinmag-v1/calendar.webp",
-    "facebook": "/images/skinmag-v1/facebook.webp",
-    "twitter": "/images/noor/twitter.webp",
-    "like": "/images/skinmag-v1/like.webp",
-    "redTick": "/images/skinmag-v1/red-tick.webp",
-    "scissors": "/images/skinmag-v1/scissors.webp"
+    "calendar": "/lp-images-files-videos-fonts/images/skinmag-v1/calendar.webp",
+    "facebook": "/lp-images-files-videos-fonts/images/skinmag-v1/facebook.webp",
+    "twitter": "/lp-images-files-videos-fonts/images/noor/twitter.webp",
+    "like": "/lp-images-files-videos-fonts/images/skinmag-v1/like.webp",
+    "redTick": "/lp-images-files-videos-fonts/images/skinmag-v1/red-tick.webp",
+    "scissors": "/lp-images-files-videos-fonts/images/skinmag-v1/scissors.webp"
   },
   "logos": {
-    "nbc": "/images/skinmag-v1/nbc.webp",
-    "cbs": "/images/skinmag-v1/cbs.webp",
-    "fox": "/images/skinmag-v1/fox.webp",
-    "aol": "/images/skinmag-v1/aol.webp",
-    "usaToday": "/images/skinmag-v1/usa-today.webp",
-    "yahoo": "/images/skinmag-v1/yahoo.webp"
+    "nbc": "/lp-images-files-videos-fonts/images/skinmag-v1/nbc.webp",
+    "cbs": "/lp-images-files-videos-fonts/images/skinmag-v1/cbs.webp",
+    "fox": "/lp-images-files-videos-fonts/images/skinmag-v1/fox.webp",
+    "aol": "/lp-images-files-videos-fonts/images/skinmag-v1/aol.webp",
+    "usaToday": "/lp-images-files-videos-fonts/images/skinmag-v1/usa-today.webp",
+    "yahoo": "/lp-images-files-videos-fonts/images/skinmag-v1/yahoo.webp"
   },
   "article": {
-    "hero": "/images/noor/hero.webp",
-    "section1": "/images/noor/section1.webp",
-    "section2": "/images/noor/section2.webp",
-    "section3": "/images/noor/section3.webp",
-    "section4": "/images/noor/section4.webp",
-    "week1Open": "/images/noor/week1-open.webp",
-    "week1Apply": "/images/noor/week1-apply.webp",
-    "week1Result": "/images/noor/week1-result.webp",
-    "week2": "/images/noor/week2.webp",
-    "week4": "/images/noor/week4.webp",
-    "week6": "/images/noor/week6.webp",
-    "emotional": "/images/noor/emotional.webp",
-    "drPark": "/images/noor/dr-park.webp",
-    "synAke": "/images/noor/syn-ake.webp",
-    "caprylic": "/images/noor/caprylic.webp",
-    "skeptical": "/images/noor/skeptical.webp",
-    "ctaButton": "/images/noor/cta-button.webp",
-    "guarantee": "/images/noor/guarantee.webp"
+    "hero": "/lp-images-files-videos-fonts/images/noor/hero.webp",
+    "section1": "/lp-images-files-videos-fonts/images/noor/section1.webp",
+    "section2": "/lp-images-files-videos-fonts/images/noor/section2.webp",
+    "section3": "/lp-images-files-videos-fonts/images/noor/section3.webp",
+    "section4": "/lp-images-files-videos-fonts/images/noor/section4.webp",
+    "week1Open": "/lp-images-files-videos-fonts/images/noor/week1-open.webp",
+    "week1Apply": "/lp-images-files-videos-fonts/images/noor/week1-apply.webp",
+    "week1Result": "/lp-images-files-videos-fonts/images/noor/week1-result.webp",
+    "week2": "/lp-images-files-videos-fonts/images/noor/week2.webp",
+    "week4": "/lp-images-files-videos-fonts/images/noor/week4.webp",
+    "week6": "/lp-images-files-videos-fonts/images/noor/week6.webp",
+    "emotional": "/lp-images-files-videos-fonts/images/noor/emotional.webp",
+    "drPark": "/lp-images-files-videos-fonts/images/noor/dr-park.webp",
+    "synAke": "/lp-images-files-videos-fonts/images/noor/syn-ake.webp",
+    "caprylic": "/lp-images-files-videos-fonts/images/noor/caprylic.webp",
+    "skeptical": "/lp-images-files-videos-fonts/images/noor/skeptical.webp",
+    "ctaButton": "/lp-images-files-videos-fonts/images/noor/cta-button.webp",
+    "guarantee": "/lp-images-files-videos-fonts/images/noor/guarantee.webp"
   },
   "product": {
-    "jar": "/images/skinmag-v1/product-jar.webp",
-    "wheel": "/images/skinmag-v1/wheel.webp"
+    "jar": "/lp-images-files-videos-fonts/images/skinmag-v1/product-jar.webp",
+    "wheel": "/lp-images-files-videos-fonts/images/skinmag-v1/wheel.webp"
   },
   "sidebar": {
-    "award": "/images/noor/award.webp",
-    "product": "/images/noor/product.webp",
-    "clinicalTrials": "/images/noor/clinical-trials.webp",
-    "testimonial1": "/images/noor/testimonial1.webp",
-    "testimonial2": "/images/noor/testimonial2.webp"
+    "award": "/lp-images-files-videos-fonts/images/noor/award.webp",
+    "product": "/lp-images-files-videos-fonts/images/noor/product.webp",
+    "clinicalTrials": "/lp-images-files-videos-fonts/images/noor/clinical-trials.webp",
+    "testimonial1": "/lp-images-files-videos-fonts/images/noor/testimonial1.webp",
+    "testimonial2": "/lp-images-files-videos-fonts/images/noor/testimonial2.webp"
   },
   "comments": {
-    "defaultAvatar": "/images/noor/default-avatar.webp",
-    "johnAttachment": "/images/noor/john-attachment.webp",
-    "anitaAttachment": "/images/noor/anita-attachment.webp"
+    "defaultAvatar": "/lp-images-files-videos-fonts/images/noor/default-avatar.webp",
+    "johnAttachment": "/lp-images-files-videos-fonts/images/noor/john-attachment.webp",
+    "anitaAttachment": "/lp-images-files-videos-fonts/images/noor/anita-attachment.webp"
   }
 }

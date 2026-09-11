@@ -1,54 +1,54 @@
 {
   "global": {
     "ctaHref": "#order",
-    "lockIconUrl": "/images/nuz-neck-pain/lock_black.svg",
-    "creditCardsImageUrl": "/images/nuz-neck-pain/cc-light_1.svg"
+    "lockIconUrl": "/lp-images-files-videos-fonts/images/nuz-neck-pain/lock_black.svg",
+    "creditCardsImageUrl": "/lp-images-files-videos-fonts/images/nuz-neck-pain/cc-light_1.svg"
   },
   "countdownBanner": {
     "initialSeconds": 75378,
-    "backgroundMobile": "/images/nuz-neck-pain/banner-mobile-r7.svg",
-    "backgroundDesktop": "/images/nuz-neck-pain/banner-web-r7.svg",
-    "leftIcon": "/images/nuz-neck-pain/banner-web-left-r7.svg",
-    "rightIconMobile": "/images/nuz-neck-pain/banner-asset-mobile-r5.svg",
-    "rightIconDesktop": "/images/nuz-neck-pain/banner-asset-r5.svg"
+    "backgroundMobile": "/lp-images-files-videos-fonts/images/nuz-neck-pain/banner-mobile-r7.svg",
+    "backgroundDesktop": "/lp-images-files-videos-fonts/images/nuz-neck-pain/banner-web-r7.svg",
+    "leftIcon": "/lp-images-files-videos-fonts/images/nuz-neck-pain/banner-web-left-r7.svg",
+    "rightIconMobile": "/lp-images-files-videos-fonts/images/nuz-neck-pain/banner-asset-mobile-r5.svg",
+    "rightIconDesktop": "/lp-images-files-videos-fonts/images/nuz-neck-pain/banner-asset-r5.svg"
   },
   "navbar": {
-    "logoUrl": "/images/nuz-neck-pain/banner-sub.svg",
-    "logoSecondaryUrl": "/images/nuz-neck-pain/logo.webp"
+    "logoUrl": "/lp-images-files-videos-fonts/images/nuz-neck-pain/banner-sub.svg",
+    "logoSecondaryUrl": "/lp-images-files-videos-fonts/images/nuz-neck-pain/logo.webp"
   },
   "stickyBar": {
     "shoppersInitial": 116,
     "shoppersMax": 248,
-    "fireIconUrl": "/images/nuz-neck-pain/fire.svg",
-    "greenCircleIconUrl": "/images/nuz-neck-pain/Green-circle.svg"
+    "fireIconUrl": "/lp-images-files-videos-fonts/images/nuz-neck-pain/fire.svg",
+    "greenCircleIconUrl": "/lp-images-files-videos-fonts/images/nuz-neck-pain/Green-circle.svg"
   },
   "mobileOrderBar": {
     "countdownSeconds": 75360,
-    "fireIconUrl": "/images/nuz-neck-pain/small-fire.svg",
-    "boxIconUrl": "/images/nuz-neck-pain/box-fast.svg"
+    "fireIconUrl": "/lp-images-files-videos-fonts/images/nuz-neck-pain/small-fire.svg",
+    "boxIconUrl": "/lp-images-files-videos-fonts/images/nuz-neck-pain/box-fast.svg"
   },
   "hero": {
-    "productImageUrl": "/images/nuz-neck-pain/bg11-r15.webp",
-    "badgeImageUrl": "/images/nuz-neck-pain/badges-long-1.png",
-    "trustpilotStarsUrl": "/images/nuz-neck-pain/Trustpilot_Stars.svg",
-    "trustpilotLogoUrl": "/images/nuz-neck-pain/trustpilot_full_icon.svg",
+    "productImageUrl": "/lp-images-files-videos-fonts/images/nuz-neck-pain/bg11-r15.webp",
+    "badgeImageUrl": "/lp-images-files-videos-fonts/images/nuz-neck-pain/badges-long-1.png",
+    "trustpilotStarsUrl": "/lp-images-files-videos-fonts/images/nuz-neck-pain/Trustpilot_Stars.svg",
+    "trustpilotLogoUrl": "/lp-images-files-videos-fonts/images/nuz-neck-pain/trustpilot_full_icon.svg",
     "ctaCountdownSeconds": 23819,
     "shippingBadges": [
-      { "icon": "/images/nuz-neck-pain/shipping-fast.svg" },
-      { "icon": "/images/nuz-neck-pain/money-back.svg" }
+      { "icon": "/lp-images-files-videos-fonts/images/nuz-neck-pain/shipping-fast.svg" },
+      { "icon": "/lp-images-files-videos-fonts/images/nuz-neck-pain/money-back.svg" }
     ],
     "benefitTags": [
-      { "icon": "/images/nuz-neck-pain/neck.svg" },
-      { "icon": "/images/nuz-neck-pain/shoulder.svg" },
-      { "icon": "/images/nuz-neck-pain/back.svg" },
-      { "icon": "/images/nuz-neck-pain/head.svg" },
-      { "icon": "/images/nuz-neck-pain/numb.svg" },
-      { "icon": "/images/nuz-neck-pain/tingle.svg" }
+      { "icon": "/lp-images-files-videos-fonts/images/nuz-neck-pain/neck.svg" },
+      { "icon": "/lp-images-files-videos-fonts/images/nuz-neck-pain/shoulder.svg" },
+      { "icon": "/lp-images-files-videos-fonts/images/nuz-neck-pain/back.svg" },
+      { "icon": "/lp-images-files-videos-fonts/images/nuz-neck-pain/head.svg" },
+      { "icon": "/lp-images-files-videos-fonts/images/nuz-neck-pain/numb.svg" },
+      { "icon": "/lp-images-files-videos-fonts/images/nuz-neck-pain/tingle.svg" }
     ],
     "guaranteeCard": {
-      "imageUrl": "/images/nuz-neck-pain/v5/Money-Back-Guarantee.svg"
+      "imageUrl": "/lp-images-files-videos-fonts/images/nuz-neck-pain/v5/Money-Back-Guarantee.svg"
     },
-    "ccCardImageUrl": "/images/nuz-neck-pain/cc-card-img.svg",
+    "ccCardImageUrl": "/lp-images-files-videos-fonts/images/nuz-neck-pain/cc-card-img.svg",
     "faq": [
       { "type": "shipping" },
       { "type": "text" },
@@ -59,47 +59,47 @@
   },
   "mediaBanner": {
     "logos": [
-      { "src": "/images/nuz-neck-pain/usa-today-seeklogo.com.webp", "heightClass": "h-8" },
-      { "src": "/images/nuz-neck-pain/yahoo-new-2019-seeklogo.com-2.webp", "heightClass": "h-5" },
-      { "src": "/images/nuz-neck-pain/the-atlantic-magazine-seeklogo.com.webp", "heightClass": "h-[25px]" },
-      { "src": "/images/nuz-neck-pain/us-weekly-magazine_1us-weekly-magazine.webp", "heightClass": "h-8" },
-      { "src": "/images/nuz-neck-pain/nbc002_logo_vertical_bw_1nbc002_logo_vertical_bw.webp", "heightClass": "h-10" },
-      { "src": "/images/nuz-neck-pain/bustle-ar21_1bustle-ar21.webp", "heightClass": "h-7 md:h-8" },
-      { "src": "/images/nuz-neck-pain/futurism.webp", "heightClass": "h-[15px] md:h-[17px]" },
-      { "src": "/images/nuz-neck-pain/NBC_1NBC.webp", "heightClass": "h-10" },
-      { "src": "/images/nuz-neck-pain/lat_logo.webp", "heightClass": "h-[15px]" },
-      { "src": "/images/nuz-neck-pain/hp_logo.webp", "heightClass": "h-7 md:h-8" },
-      { "src": "/images/nuz-neck-pain/Allure_logo.webp", "heightClass": "h-[15px] md:h-[17px]" },
-      { "src": "/images/nuz-neck-pain/bi_logo.webp", "heightClass": "h-6" }
+      { "src": "/lp-images-files-videos-fonts/images/nuz-neck-pain/usa-today-seeklogo.com.webp", "heightClass": "h-8" },
+      { "src": "/lp-images-files-videos-fonts/images/nuz-neck-pain/yahoo-new-2019-seeklogo.com-2.webp", "heightClass": "h-5" },
+      { "src": "/lp-images-files-videos-fonts/images/nuz-neck-pain/the-atlantic-magazine-seeklogo.com.webp", "heightClass": "h-[25px]" },
+      { "src": "/lp-images-files-videos-fonts/images/nuz-neck-pain/us-weekly-magazine_1us-weekly-magazine.webp", "heightClass": "h-8" },
+      { "src": "/lp-images-files-videos-fonts/images/nuz-neck-pain/nbc002_logo_vertical_bw_1nbc002_logo_vertical_bw.webp", "heightClass": "h-10" },
+      { "src": "/lp-images-files-videos-fonts/images/nuz-neck-pain/bustle-ar21_1bustle-ar21.webp", "heightClass": "h-7 md:h-8" },
+      { "src": "/lp-images-files-videos-fonts/images/nuz-neck-pain/futurism.webp", "heightClass": "h-[15px] md:h-[17px]" },
+      { "src": "/lp-images-files-videos-fonts/images/nuz-neck-pain/NBC_1NBC.webp", "heightClass": "h-10" },
+      { "src": "/lp-images-files-videos-fonts/images/nuz-neck-pain/lat_logo.webp", "heightClass": "h-[15px]" },
+      { "src": "/lp-images-files-videos-fonts/images/nuz-neck-pain/hp_logo.webp", "heightClass": "h-7 md:h-8" },
+      { "src": "/lp-images-files-videos-fonts/images/nuz-neck-pain/Allure_logo.webp", "heightClass": "h-[15px] md:h-[17px]" },
+      { "src": "/lp-images-files-videos-fonts/images/nuz-neck-pain/bi_logo.webp", "heightClass": "h-6" }
     ]
   },
   "video": {
     "videoId": "f662b0818598d7254ed3a4ba816fa2eb",
-    "playIconUrl": "/images/nuz-neck-pain/icon-10.svg"
+    "playIconUrl": "/lp-images-files-videos-fonts/images/nuz-neck-pain/icon-10.svg"
   },
   "painPoints": {
-    "bulletIconUrl": "/images/nuz-neck-pain/icon-11.svg",
+    "bulletIconUrl": "/lp-images-files-videos-fonts/images/nuz-neck-pain/icon-11.svg",
     "grid": [
-      { "src": "/images/nuz-neck-pain/01.webp", "sizes": "(max-width: 479px) 100vw, 239.9921875px" },
-      { "src": "/images/nuz-neck-pain/02.webp", "sizes": "(max-width: 479px) 100vw, 240px" },
-      { "src": "/images/nuz-neck-pain/03.webp", "sizes": "(max-width: 479px) 100vw, 240px" },
-      { "src": "/images/nuz-neck-pain/04.webp", "sizes": "(max-width: 479px) 100vw, 239.9921875px" },
-      { "src": "/images/nuz-neck-pain/05.webp", "sizes": "(max-width: 479px) 100vw, 240px" },
-      { "src": "/images/nuz-neck-pain/06.webp", "sizes": "(max-width: 479px) 100vw, 240px" }
+      { "src": "/lp-images-files-videos-fonts/images/nuz-neck-pain/01.webp", "sizes": "(max-width: 479px) 100vw, 239.9921875px" },
+      { "src": "/lp-images-files-videos-fonts/images/nuz-neck-pain/02.webp", "sizes": "(max-width: 479px) 100vw, 240px" },
+      { "src": "/lp-images-files-videos-fonts/images/nuz-neck-pain/03.webp", "sizes": "(max-width: 479px) 100vw, 240px" },
+      { "src": "/lp-images-files-videos-fonts/images/nuz-neck-pain/04.webp", "sizes": "(max-width: 479px) 100vw, 239.9921875px" },
+      { "src": "/lp-images-files-videos-fonts/images/nuz-neck-pain/05.webp", "sizes": "(max-width: 479px) 100vw, 240px" },
+      { "src": "/lp-images-files-videos-fonts/images/nuz-neck-pain/06.webp", "sizes": "(max-width: 479px) 100vw, 240px" }
     ],
     "ctaCountdownSeconds": 15634
   },
   "features": {
-    "productImageUrl": "/images/nuz-neck-pain/pillow-new-image.webp",
+    "productImageUrl": "/lp-images-files-videos-fonts/images/nuz-neck-pain/pillow-new-image.webp",
     "leftCards": [
-      { "iconSrc": "/images/nuz-neck-pain/Icons-Sets-03.svg" },
-      { "iconSrc": "/images/nuz-neck-pain/Icons-Sets-06.svg" },
-      { "iconSrc": "/images/nuz-neck-pain/Icons-Sets-01.svg" }
+      { "iconSrc": "/lp-images-files-videos-fonts/images/nuz-neck-pain/Icons-Sets-03.svg" },
+      { "iconSrc": "/lp-images-files-videos-fonts/images/nuz-neck-pain/Icons-Sets-06.svg" },
+      { "iconSrc": "/lp-images-files-videos-fonts/images/nuz-neck-pain/Icons-Sets-01.svg" }
     ],
     "rightCards": [
-      { "iconSrc": "/images/nuz-neck-pain/Icons-Sets-04.svg" },
-      { "iconSrc": "/images/nuz-neck-pain/Icons-Sets-02.svg" },
-      { "iconSrc": "/images/nuz-neck-pain/Icons-Sets-05.svg" }
+      { "iconSrc": "/lp-images-files-videos-fonts/images/nuz-neck-pain/Icons-Sets-04.svg" },
+      { "iconSrc": "/lp-images-files-videos-fonts/images/nuz-neck-pain/Icons-Sets-02.svg" },
+      { "iconSrc": "/lp-images-files-videos-fonts/images/nuz-neck-pain/Icons-Sets-05.svg" }
     ],
     "ctaCountdownSeconds": 17470
   },
@@ -123,15 +123,15 @@
     ]
   },
   "comparison": {
-    "nuzzleColumnImageUrl": "/images/nuz-neck-pain/pill_1pill.webp",
-    "nuzzleLogoUrl": "/images/nuz-neck-pain/Logo_tiny_1Logo_tiny.webp",
+    "nuzzleColumnImageUrl": "/lp-images-files-videos-fonts/images/nuz-neck-pain/pill_1pill.webp",
+    "nuzzleLogoUrl": "/lp-images-files-videos-fonts/images/nuz-neck-pain/Logo_tiny_1Logo_tiny.webp",
     "competitors": [
-      { "img": "/images/nuz-neck-pain/sn2.webp" },
-      { "img": "/images/nuz-neck-pain/sn3.webp" },
-      { "img": "/images/nuz-neck-pain/sn4.webp" }
+      { "img": "/lp-images-files-videos-fonts/images/nuz-neck-pain/sn2.webp" },
+      { "img": "/lp-images-files-videos-fonts/images/nuz-neck-pain/sn3.webp" },
+      { "img": "/lp-images-files-videos-fonts/images/nuz-neck-pain/sn4.webp" }
     ],
-    "yesIconUrl": "/images/nuz-neck-pain/right.svg",
-    "noIconUrl": "/images/nuz-neck-pain/wrong.svg",
+    "yesIconUrl": "/lp-images-files-videos-fonts/images/nuz-neck-pain/right.svg",
+    "noIconUrl": "/lp-images-files-videos-fonts/images/nuz-neck-pain/wrong.svg",
     "rows": [
       { "nuzzle": true, "competitors": [false, false, false] },
       { "nuzzle": true, "competitors": [false, false, false] },
@@ -159,15 +159,15 @@
     ]
   },
   "testimonials": {
-    "heroImageUrl": "/images/nuz-neck-pain/re-one.webp",
-    "starIconUrl": "/images/nuz-neck-pain/star-new.svg",
-    "shieldCheckIconUrl": "/images/nuz-neck-pain/shield-check.svg"
+    "heroImageUrl": "/lp-images-files-videos-fonts/images/nuz-neck-pain/re-one.webp",
+    "starIconUrl": "/lp-images-files-videos-fonts/images/nuz-neck-pain/star-new.svg",
+    "shieldCheckIconUrl": "/lp-images-files-videos-fonts/images/nuz-neck-pain/shield-check.svg"
   },
   "guarantee": {
-    "imageUrl": "/images/nuz-neck-pain/v5/gg1.png",
+    "imageUrl": "/lp-images-files-videos-fonts/images/nuz-neck-pain/v5/gg1.png",
     "ctaCountdownSeconds": 75360
   },
   "footer": {
-    "logoUrl": "/images/nuz-neck-pain/footer-logo.webp"
+    "logoUrl": "/lp-images-files-videos-fonts/images/nuz-neck-pain/footer-logo.webp"
   }
 }

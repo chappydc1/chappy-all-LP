@@ -26,7 +26,7 @@ export const EmmaPricingCard = (props: EmmaPricingCardProps) => {
           {props.isBestValue ? (
             <div className="bg-amber-300 bg-[url('/images/emma/bestvalue.png')] bg-no-repeat bg-contain box-border text-center bg-[position:left_50%] rounded-t-sm">
               <img
-                src="/images/emma/Header.webp"
+                src="/lp-images-files-videos-fonts/images/emma/Header.webp"
                 className="box-border inline w-full"
               />
             </div>
@@ -63,7 +63,7 @@ export const EmmaPricingCard = (props: EmmaPricingCardProps) => {
                 {props.showBiggestDiscount && (
                   <span className="text-white font-extrabold box-border block max-w-[315px] text-left w-full px-6 py-1 font-inter bg-red-500 m-auto">
                     <img
-                      src="/images/emma/check-Copy.webp"
+                      src="/lp-images-files-videos-fonts/images/emma/check-Copy.webp"
                       className="box-border inline"
                     />
                     BIGGEST DISCOUNT
@@ -72,7 +72,7 @@ export const EmmaPricingCard = (props: EmmaPricingCardProps) => {
                 {props.showLeanBellyRecipes && (
                   <span className="text-white font-extrabold bg-blue-500 box-border block max-w-[315px] text-left w-full mt-1 mb-auto mx-auto px-6 py-1 font-inter">
                     <img
-                      src="/images/emma/check-Copy.webp"
+                      src="/lp-images-files-videos-fonts/images/emma/check-Copy.webp"
                       className="box-border inline"
                     />
                     LEAN BELLY SHAKES RECIPES
@@ -87,12 +87,12 @@ export const EmmaPricingCard = (props: EmmaPricingCardProps) => {
               className="text-blue-600 box-border underline inline-block cta-pulse rounded-sm transition-opacity duration-200 hover:opacity-90 active:scale-95"
             >
               <img
-                src="/images/emma/CTA.webp"
+                src="/lp-images-files-videos-fonts/images/emma/CTA.webp"
                 className="box-border inline"
               />
             </a>
             <img
-              src="/images/emma/paymentmethod.webp"
+              src="/lp-images-files-videos-fonts/images/emma/paymentmethod.webp"
               className="box-border inline"
             />
           </div>

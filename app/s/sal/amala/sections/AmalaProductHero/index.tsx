@@ -6,14 +6,14 @@ import { AmalaAddToCart } from "../AmalaProductHero/components/AmalaAddToCart";
 import type { AmalaProductHeroContent } from "../AmalaProductHero/types";
 
 const IMAGE_URLS = [
-  "/images/amala/42.jpg",
-  "/images/amala/43.jpg",
-  "/images/amala/51.jpg",
-  "/images/amala/52.jpg",
-  "/images/amala/53.jpg",
-  "/images/amala/45.jpg",
-  "/images/amala/54.jpg",
-  "/images/amala/48.jpg",
+  "/lp-images-files-videos-fonts/images/amala/42.jpg",
+  "/lp-images-files-videos-fonts/images/amala/43.jpg",
+  "/lp-images-files-videos-fonts/images/amala/51.jpg",
+  "/lp-images-files-videos-fonts/images/amala/52.jpg",
+  "/lp-images-files-videos-fonts/images/amala/53.jpg",
+  "/lp-images-files-videos-fonts/images/amala/45.jpg",
+  "/lp-images-files-videos-fonts/images/amala/54.jpg",
+  "/lp-images-files-videos-fonts/images/amala/48.jpg",
 ];
 
 type AmalaProductHeroProps = {

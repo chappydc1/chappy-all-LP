@@ -77,7 +77,7 @@ export const MenoFooterNav = () => {
             { href: "https://juced.co/", label: "Jüced" },
           ]}
           showLogo="true"
-          logoSrc="/images/gruns/39.svg"
+          logoSrc="/lp-images-files-videos-fonts/images/gruns/39.svg"
           logoAlt="U Snacks"
         />
       </ul>
