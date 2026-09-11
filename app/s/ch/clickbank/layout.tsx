@@ -3,7 +3,7 @@ import type { ReactNode } from "react";
 const FONT_FACE_CSS = `
 @font-face {
   font-family: "clickbank-checkout";
-  src: url("/fonts/clickbank-checkout.woff2") format("woff2");
+  src: url("/lp-images-files-videos-fonts/fonts/clickbank-checkout.woff2") format("woff2");
   font-weight: 400 800;
   font-style: normal;
   font-display: swap;

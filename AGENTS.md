@@ -42,7 +42,7 @@ src/
     Breadcrumb.tsx            # Shared breadcrumb
 
 public/
-  fonts/                      # Self-hosted font files
+  lp-images-files-videos-fonts/  # All LP assets (images, fonts, videos, favicons, comments)
 
 next.config.js                # Redirects, remote image hostnames
 tailwind.config.js            # Theme tokens, custom animations, font families
@@ -95,7 +95,7 @@ If a new external image hostname is used in `<Image src="https://new-cdn.example
 This means a dynamic class fragment was used. See the rule in `REVIEW.md`. Fix by switching to a full-class lookup map or `cn()` with explicit class names.
 
 ### Font not loading
-Self-hosted fonts must be referenced from `public/fonts/`. The `@font-face` declarations live in `app/globals.css`. If a new font file is added to `public/fonts/`, add the corresponding `@font-face` rule in `globals.css` and register the font family in `tailwind.config.js` under `theme.extend.fontFamily`.
+Self-hosted fonts must be referenced from `public/lp-images-files-videos-fonts/fonts/`. The `@font-face` declarations live in `app/globals.css`. If a new font file is added to `public/lp-images-files-videos-fonts/fonts/`, add the corresponding `@font-face` rule in `globals.css` and register the font family in `tailwind.config.js` under `theme.extend.fontFamily`.
 
 ## Text File Format
 
