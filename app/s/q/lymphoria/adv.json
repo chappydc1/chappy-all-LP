@@ -1,0 +1,13 @@
+{
+  "header": {
+    "logoAlt": "Logo"
+  },
+  "genderForm": {
+    "question": "What's your gender?",
+    "options": [
+      { "number": "1", "label": "Male" },
+      { "number": "2", "label": "Female" }
+    ]
+  },
+  "footer": {}
+}
