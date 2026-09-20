@@ -63,6 +63,7 @@ module.exports = {
           '"Segoe UI Symbol"',
           '"Noto Color Emoji"',
         ],
+        "inter": ["Inter", "ui-sans-serif", "system-ui", "sans-serif"],
         "montserrat": ["Montserrat", "ui-sans-serif", "system-ui", "sans-serif", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"],
         "alexandria": ["Alexandria", "Inter", "ui-sans-serif", "system-ui", "sans-serif"],
         "helvetica": ["Helvetica", "Arial", "ui-sans-serif", "system-ui", "sans-serif"],
