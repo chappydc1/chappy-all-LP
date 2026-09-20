@@ -3,6 +3,97 @@
 @tailwind utilities;
 
 @font-face {
+  font-family: 'filson-pro';
+  src: url('https://use.typekit.net/af/f70ca3/00000000000000007735a59e/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n9&v=3');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'filson-pro';
+  src: url('https://use.typekit.net/af/9411bd/00000000000000007735a5ac/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'filson-pro';
+  src: url('https://use.typekit.net/af/09ab07/00000000000000007735a5b6/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i3&v=3');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'filson-pro';
+  src: url('https://use.typekit.net/af/860063/00000000000000007735a5b4/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n8&v=3');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'filson-pro';
+  src: url('https://use.typekit.net/af/007799/00000000000000007735a5b8/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i8&v=3');
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'filson-pro';
+  src: url('https://use.typekit.net/af/d226c7/00000000000000007735a5bc/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n2&v=3');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'filson-pro';
+  src: url('https://use.typekit.net/af/24c50a/00000000000000007735a5c2/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i2&v=3');
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'filson-pro';
+  src: url('https://use.typekit.net/af/8f0c0e/00000000000000007735a5c6/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i5&v=3');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'filson-pro';
+  src: url('https://use.typekit.net/af/4ec7c1/00000000000000007735a5c9/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'filson-pro';
+  src: url('https://use.typekit.net/af/0510c6/00000000000000007735a5cb/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'filson-pro';
+  src: url('https://use.typekit.net/af/e52c0a/00000000000000007735a5ce/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'filson-pro';
+  src: url('https://use.typekit.net/af/c6f28d/00000000000000007735a5d1/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n1&v=3');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'filson-pro';
+  src: url('https://use.typekit.net/af/6bfd19/00000000000000007735a5d3/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i1&v=3');
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
   font-family: "Mango Display";
   src: url('/lp-images-files-videos-fonts/fonts/mango-display.woff2') format('woff2');
   font-weight: 400;

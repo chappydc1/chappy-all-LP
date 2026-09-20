@@ -96,7 +96,10 @@ module.exports = {
         "gilroy_medium": ["Gilroy-Medium", "ui-sans-serif", "system-ui", "sans-serif"],
         "euclidcircularb": ["euclidCircularB", "ui-sans-serif", "system-ui", "sans-serif"],
         "georgia": ["Georgia", "ui-serif", "serif"],
-        "times": ["Times New Roman", "Times", "ui-serif", "serif"]
+        "times": ["Times New Roman", "Times", "ui-serif", "serif"],
+        "filson_pro": ["filson-pro", "ui-sans-serif", "system-ui", "sans-serif"],
+        "inter": ["Inter", "ui-sans-serif", "system-ui", "sans-serif"],
+        "alia_kefir": ["Times New Roman", "Times", "ui-serif", "serif"]
       },
       keyframes: {
         "accordion-down": {
