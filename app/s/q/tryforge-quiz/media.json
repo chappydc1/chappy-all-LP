@@ -1,0 +1,18 @@
+{
+  "headerLogo": "https://c.animaapp.com/mr3oj0vhoM8tDE/assets/original.png",
+  "headerBackIcon": "https://c.animaapp.com/mr3oj0vhoM8tDE/assets/icon-4.svg",
+  "concern": {
+    "wrinkles": "https://assets.prd.heyflow.com/flows/55XaBFaBCk7q9ibbGf44/www/assets/6534a1ce-bec8-41d2-947b-62e9ae3633a3/original.jpeg",
+    "eyeBags": "https://assets.prd.heyflow.com/flows/55XaBFaBCk7q9ibbGf44/www/assets/b4ef88a3-1960-4034-a595-abbda41a722d/original.jpeg",
+    "saggySkin": "https://assets.prd.heyflow.com/flows/55XaBFaBCk7q9ibbGf44/www/assets/57640163-1f3a-4592-bddd-eaac2255789e/original.jpeg",
+    "darkSpots": "https://assets.prd.heyflow.com/flows/55XaBFaBCk7q9ibbGf44/www/assets/79b9c7ae-693b-4f02-b25e-8b235a7b3bfd/original.jpeg"
+  },
+  "summary": {
+    "manImage": "https://img.funnelish.com/21128/355059/1730725158-Untitled%20design%20%2825%29.webp",
+    "agingType": "https://img.funnelish.com/21128/355059/1730469629-shield-warning-svgrepo-com.svg",
+    "room": "https://img.funnelish.com/21128/355059/1730469873-graph-svgrepo-com.svg",
+    "trigger": "https://img.funnelish.com/21128/355059/1729850742-bolt-thunder-svgrepo-com.svg",
+    "impact": "https://img.funnelish.com/21128/355059/1729850799-magnifying-glass-svgrepo-com.svg"
+  },
+  "didYouKnow": "https://assets.prd.heyflow.com/flows/55XaBFaBCk7q9ibbGf44/www/assets/896ab126-da98-4eee-a6e2-59362c6bb81e/original.webp"
+}

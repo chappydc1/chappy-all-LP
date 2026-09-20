@@ -1,0 +1,219 @@
+{
+  "header": {
+    "logoAlt": "Forge Logo",
+    "backButtonAlt": "Icon"
+  },
+  "consent": {
+    "prefix": "By clicking any of the options above, you agree with the ",
+    "termsLabel": "Terms of Use and Service",
+    "middle": "and ",
+    "privacyLabel": "Privacy Policy.",
+    "termsHref": "https://try-forge.com/pages/terms-and-conditions",
+    "privacyHref": "https://try-forge.com/pages/privacy-policy"
+  },
+  "steps": {
+    "age": {
+      "type": "single-select",
+      "optionStyle": "text",
+      "heading": "Take This 1-Minute Quiz to ",
+      "highlightedHeading": "Claim Your Discount!",
+      "subheading": "How old are you?🤔",
+      "chooseLabel": "Please choose an option",
+      "options": [
+        { "value": "30-39", "label": "30-39" },
+        { "value": "40-49", "label": "40-49" },
+        { "value": "50-59", "label": "50-59" },
+        { "value": "60+", "label": "60+" }
+      ]
+    },
+    "concern": {
+      "type": "multi-select-image",
+      "heading": "When I Look In The Mirror, I See…",
+      "continueLabel": "Continue",
+      "options": [
+        { "value": "wrinkles", "label": "Wrinkles & Fine Lines", "image": "wrinkles" },
+        { "value": "eye-bags", "label": "Eye Bags & Dark Circles", "image": "eyeBags" },
+        { "value": "saggy-skin", "label": "Saggy Skin", "image": "saggySkin" },
+        { "value": "dark-spots", "label": "Dark spots", "image": "darkSpots" }
+      ]
+    },
+    "goal": {
+      "type": "single-select",
+      "optionStyle": "icon",
+      "heading": "What Most Interests You In Forge?",
+      "options": [
+        { "value": "skin-aging", "label": "I want to take years of skin aging off my face.", "icon": "skin" },
+        { "value": "natural-slowdown", "label": "I want to slow down skin aging naturally.", "icon": "stars" },
+        { "value": "hydration", "label": "I want skin hydration that actually lasts.", "icon": "hydration" },
+        { "value": "all", "label": "All of the above.", "icon": "all" }
+      ]
+    },
+    "coffee": {
+      "type": "single-select",
+      "optionStyle": "emoji",
+      "heading": "How Much Coffee Do You Drink Daily?",
+      "options": [
+        { "value": "1-cup", "label": "1 Cup", "emoji": "☕" },
+        { "value": "2-3-cups", "label": "2-3 Cups", "emoji": "🤔" },
+        { "value": "4-plus-cups", "label": "4+ Cups", "emoji": "😣" },
+        { "value": "none", "label": "I don't drink coffee", "emoji": "❌" }
+      ]
+    },
+    "showers": {
+      "type": "single-select",
+      "optionStyle": "text",
+      "heading": "My Shower Temperature Preference Is…",
+      "options": [
+        { "value": "hot", "label": "Steaming hot" },
+        { "value": "warm", "label": "Warm, but not too hot" },
+        { "value": "cold", "label": "Cold/lukewarm" }
+      ]
+    },
+    "shaving": {
+      "type": "single-select",
+      "optionStyle": "emoji",
+      "heading": "How Often Do You Shave?",
+      "options": [
+        { "value": "daily", "label": "Daily", "emoji": "👍" },
+        { "value": "weekly", "label": "2-3x Weekly", "emoji": "🥱" },
+        { "value": "never", "label": "Never (maintaining a beard)", "emoji": "🧔" }
+      ]
+    },
+    "smoke": {
+      "type": "single-select",
+      "optionStyle": "emoji",
+      "heading": "How Often Do You Smoke?",
+      "options": [
+        { "value": "rarely", "label": "Rarely (social smoker)", "emoji": "🚬" },
+        { "value": "often", "label": "Several times a day", "emoji": "🤔" },
+        { "value": "quit", "label": "Used to smoke, but quit", "emoji": "😌" },
+        { "value": "never", "label": "I've never smoked", "emoji": "🚭" }
+      ]
+    },
+    "drink": {
+      "type": "single-select",
+      "optionStyle": "emoji",
+      "heading": "How Often Do You Drink Alcohol?",
+      "options": [
+        { "value": "light-drinker", "label": "1-3 drinks a week", "emoji": "🍻" },
+        { "value": "heavy-drinker", "label": "7+ drinks a week", "emoji": "🍷" },
+        { "value": "daily-drinker", "label": "Daily drinker", "emoji": "🍺" },
+        { "value": "quit", "label": "Used to drink, but quit", "emoji": "😌" },
+        { "value": "non-drinker", "label": "I don't drink alcohol", "emoji": "❌" }
+      ]
+    },
+    "sun": {
+      "type": "single-select",
+      "optionStyle": "emoji",
+      "heading": "My Skin Deals With...",
+      "options": [
+        { "value": "constant-sun", "label": "Constant sun exposure", "emoji": "☀️" },
+        { "value": "some-sun", "label": "Some sun exposure", "emoji": "🌤️" },
+        { "value": "little-sun", "label": "Little sun exposure", "emoji": "⛅" },
+        { "value": "minimal-sun", "label": "Minimal sun", "emoji": "☁️" }
+      ]
+    },
+    "stress": {
+      "type": "single-select",
+      "optionStyle": "emoji",
+      "heading": "I Feel The Pressure Of Stress...",
+      "options": [
+        { "value": "constant", "label": "Every day, constantly", "emoji": "😰" },
+        { "value": "frequent", "label": "Several days throughout the week", "emoji": "🙁" },
+        { "value": "sometimes", "label": "Sometimes", "emoji": "😐" },
+        { "value": "rarely", "label": "Rarely - I'm pretty lucky!", "emoji": "😎" }
+      ]
+    },
+    "sleep2": {
+      "type": "single-select",
+      "optionStyle": "emoji",
+      "heading": "How Much Sleep Do You Get Most Nights?",
+      "options": [
+        { "value": "8-plus", "label": "8+ hours", "emoji": "💤" },
+        { "value": "6-7", "label": "6-7 hours", "emoji": "😴" },
+        { "value": "under-6", "label": "Less than 6 hours", "emoji": "😓" }
+      ]
+    },
+    "other": {
+      "type": "single-select",
+      "optionStyle": "emoji",
+      "heading": "With Anti-Aging Products, I've...",
+      "options": [
+        { "value": "disappointed", "label": "Been disappointed by results", "emoji": "😞" },
+        { "value": "improvements", "label": "Seen some improvements", "emoji": "🙂" },
+        { "value": "never-tried", "label": "Never tried anything yet", "emoji": "😶" },
+        { "value": "ready", "label": "Ready to find what actually works!", "emoji": "😁" }
+      ]
+    },
+    "summary": {
+      "type": "summary",
+      "heading": "Summary Of Your Skin Profile",
+      "continueLabel": "Continue",
+      "gaugeLabels": {
+        "low": "Low",
+        "normal": "Normal",
+        "medium": "Medium",
+        "high": "High"
+      },
+      "warningBody": {
+        "low": "Low levels of skin aging mean your skin is holding up well — small preventative habits now go a long way.",
+        "normal": "Normal levels of skin aging are expected for your profile, but a few lifestyle factors are starting to add up.",
+        "medium": "Medium levels of skin aging can lead to early fine lines and uneven texture if left unaddressed.",
+        "high": "High levels of skin aging can lead to deep wrinkles, a saggy inelastic complexion and a lack of confidence."
+      },
+      "statCards": {
+        "agingType": { "label": "Aging type" },
+        "room": { "label": "Room For Improvement" },
+        "trigger": { "label": "Trigger" },
+        "impact": { "label": "Impact on Appearance:" }
+      }
+    },
+    "chart": {
+      "type": "chart",
+      "heading": "Based On Your Skin Profile, We Expect You To Visibly Reduce The Appearance Of Wrinkles, Eye Bags, And Crow's Feet ",
+      "headingAccent": "By {date}",
+      "subheading": "Based on your answers, we expect you to visibly reduce the appearance of wrinkles, eye bags, and crow's feet by {date}",
+      "continueLabel": "Continue",
+      "goalLabel": "Goal",
+      "barColors": ["#E6978C", "#E6B18C", "#F4CC9C", "#F4E69D", "#9CE579", "#85C1E9"],
+      "barHeights": [250, 180, 210, 160, 110, 80]
+    },
+    "didYouKnow": {
+      "type": "info",
+      "heading": "Did You Know?",
+      "bodyHtml": "Researchers discovered <strong>men can look 10 years younger</strong> within 6 months, if they apply <strong>“bio-identical oil”</strong> on their face for just 30 seconds per day",
+      "image": "didYouKnow",
+      "continueLabel": "Continue"
+    },
+    "final": {
+      "type": "loading",
+      "heading": "Your ",
+      "highlightedHeading": "Transformation Plan",
+      "suffixHeading": " Is Almost Ready",
+      "stages": [
+        {
+          "activeLabel": "Setting Goals",
+          "doneLabel": "Goals",
+          "popupQuestion": "Would looking younger help you feel more confident?"
+        },
+        {
+          "activeLabel": "Assessing lifestyle answers..",
+          "doneLabel": "Custom skin profile matched",
+          "popupQuestion": "Do you want to reverse skin aging, without changing your daily habits?"
+        },
+        {
+          "activeLabel": "Custom Fit",
+          "doneLabel": "Essential skincare selected",
+          "popupQuestion": "Does a simpler, effective skincare routine sound good to you?"
+        }
+      ],
+      "popup": {
+        "eyebrow": "To move forward, please specify",
+        "noLabel": "No",
+        "yesLabel": "Yes"
+      },
+      "ctaLabel": "Get Your Essential Skincare",
+      "ctaUrl": "https://shop.try-forge.com/quizpage"
+    }
+  }
+}

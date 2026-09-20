@@ -73,6 +73,7 @@ export type QuizStep =
       duration: string
       daysWithSupport: number
       ctaLabel: string
+      ctaUrl: string
     }
 
 export const genderStep: QuizStep = {
@@ -216,6 +217,7 @@ export const maleSteps: QuizStep[] = [
     duration: '3+ years of buildup',
     daysWithSupport: 21,
     ctaLabel: 'See my recommendation',
+    ctaUrl: 'https://lymphoria.com/products/lymphoria',
   },
 ]
 
@@ -348,5 +350,6 @@ export const femaleSteps: QuizStep[] = [
     duration: '3+ years of buildup',
     daysWithSupport: 21,
     ctaLabel: 'See my recommendation',
+    ctaUrl: 'https://lymphoria.com/products/lymphoria',
   },
 ]

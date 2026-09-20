@@ -69,7 +69,6 @@ export function QuizFlow() {
 
   // Rendering helpers
   function renderImageSingle(step: Extract<QuizStep, { type: 'image-single' }>) {
-    const isTwoCol = step.options.length === 2
     return (
       <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '16px', width: '100%' }}>
         <h1 style={{ fontFamily: 'Poppins, sans-serif', fontSize: '26px', fontWeight: 600, color: GREEN, textAlign: 'center', margin: 0 }}>
@@ -80,9 +79,10 @@ export function QuizFlow() {
         )}
         <div style={{
           display: 'grid',
-          gridTemplateColumns: isTwoCol ? 'repeat(2, 160px)' : 'repeat(2, 160px)',
+          gridTemplateColumns: 'repeat(2, minmax(0, 160px))',
           gap: '16px',
           justifyContent: 'center',
+          width: '100%',
           marginTop: '8px',
         }}>
           {step.options.map(opt => (
@@ -91,12 +91,17 @@ export function QuizFlow() {
               onClick={() => {
                 saveAnswer(step.id, opt.value ?? opt.label)
                 if (step.id === 'gender') {
+                  // Set gender and jump directly to step 1; calling advance() here
+                  // would use a stale `steps` closure that still only has genderStep.
                   setGender((opt.value ?? opt.label).toLowerCase() as 'male' | 'female')
+                  setMultiSelected([])
+                  setStepIndex(1)
+                } else {
+                  advance()
                 }
-                advance()
               }}
               style={{
-                width: '160px',
+                width: '100%',
                 border: `1px solid ${BORDER}`,
                 borderRadius: '10px',
                 background: '#fff',
@@ -134,9 +139,10 @@ export function QuizFlow() {
         )}
         <div style={{
           display: 'grid',
-          gridTemplateColumns: 'repeat(2, 160px)',
+          gridTemplateColumns: 'repeat(2, minmax(0, 160px))',
           gap: '16px',
           justifyContent: 'center',
+          width: '100%',
           marginTop: '8px',
         }}>
           {step.options.map(opt => {
@@ -150,7 +156,7 @@ export function QuizFlow() {
                   )
                 }}
                 style={{
-                  width: '160px',
+                  width: '100%',
                   border: `2px solid ${selected ? GREEN : BORDER}`,
                   borderRadius: '10px',
                   background: selected ? GREEN_LIGHT : '#fff',
@@ -361,9 +367,12 @@ export function QuizFlow() {
           </p>
         </div>
 
-        <button style={{ ...btnStyle, marginTop: '8px' }} onClick={() => {}}>
+        <a
+          href={step.ctaUrl}
+          style={{ ...btnStyle, marginTop: '8px', display: 'block', textAlign: 'center', textDecoration: 'none' }}
+        >
           {step.ctaLabel}
-        </button>
+        </a>
       </div>
     )
   }
