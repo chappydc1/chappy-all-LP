@@ -34,8 +34,8 @@
     "Severe": "https://nooro.nyc3.cdn.digitaloceanspaces.com/heyflow-images/Severe_new.png"
   },
   "afterImages": {
-    "Normal": "https://nooro.nyc3.cdn.digitaloceanspaces.com/heyflow-images/Normal_new1.png",
-    "Slim": "https://nooro.nyc3.cdn.digitaloceanspaces.com/heyflow-images/Slim_new1.png",
-    "Toned": "https://nooro.nyc3.cdn.digitaloceanspaces.com/heyflow-images/Toned_new1.png"
+    "Normal": "https://assets.prd.heyflow.com/flows/Y5KqIoJR3z2ecE2w9FkZ/www/assets/c5bdd48c-f408-4f35-b8ba-59f9edc10afe/original.png",
+    "Slim": "https://assets.prd.heyflow.com/flows/Y5KqIoJR3z2ecE2w9FkZ/www/assets/58e4c7c4-df95-4b33-b364-8ceabc95247e/original.png",
+    "Toned": "https://assets.prd.heyflow.com/flows/Y5KqIoJR3z2ecE2w9FkZ/www/assets/a8fb3f34-71bd-4d89-8ce6-2f6ff2631773/original.png"
   }
 }

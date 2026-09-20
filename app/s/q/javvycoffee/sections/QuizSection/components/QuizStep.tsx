@@ -39,6 +39,7 @@ export type QuizStepProps = {
   selectedOptionIndex?: number;
   onOptionSelect?: (index: number) => void;
   onContinue?: () => void;
+  onBack?: () => void;
   isActive?: boolean;
 };
 
@@ -149,8 +150,10 @@ export const QuizStep = (props: QuizStepProps) => {
                 key={index}
                 role="button"
                 tabIndex={0}
+                aria-label={typeof option.label === "string" ? option.label : undefined}
+                aria-pressed={props.selectedOptionIndex === index}
                 onClick={() => props.onOptionSelect?.(index)}
-                onKeyDown={(e) => e.key === "Enter" && props.onOptionSelect?.(index)}
+                onKeyDown={(e) => (e.key === "Enter" || e.key === " ") && (e.preventDefault(), props.onOptionSelect?.(index))}
                 className={`${option.buttonClassName} cursor-pointer transition-all${
                   props.selectedOptionIndex === index
                     ? " !border-indigo-900 !border-2 !shadow-none !bg-[#fff5e3]"
@@ -177,7 +180,7 @@ export const QuizStep = (props: QuizStepProps) => {
                     {option.imageUrl ? (
                       <img
                         src={option.imageUrl}
-                        alt={option.imageAlt ?? ""}
+                        alt={option.imageAlt ?? (typeof option.label === "string" ? option.label : "")}
                         sizes={option.imageSizes}
                         className={option.imageClassName}
                       />
@@ -221,18 +224,20 @@ export const QuizStep = (props: QuizStepProps) => {
               </>
             ) : null}
             {props.showBackButton ? (
-              <a
-                href="#"
-                className="items-center box-border caret-transparent gap-x-3 flex justify-center max-w-full outline-[3px] overflow-hidden rounded-lg md:px-8 hover:outline-0 absolute text-base font-medium bg-transparent flex-col h-[61.6px] left-[-60px] leading-6 min-h-14 w-auto mx-auto p-4 top-[2%] bottom-[0%] md:relative md:text-xl md:bg-white md:h-auto md:leading-[30px] md:min-h-[61.6px] md:w-3/12 md:mx-0 md:left-auto md:inset-y-auto hover:bg-white hover:border-white"
+              <button
+                type="button"
+                aria-label="Go back"
+                onClick={props.onBack}
+                className="items-center box-border caret-transparent gap-x-3 flex justify-center max-w-full outline-[3px] overflow-hidden rounded-lg md:px-8 hover:outline-0 absolute text-base font-medium bg-transparent flex-col h-[61.6px] left-[-60px] leading-6 min-h-14 w-auto mx-auto p-4 top-[2%] bottom-[0%] md:relative md:text-xl md:bg-white md:h-auto md:leading-[30px] md:min-h-[61.6px] md:w-3/12 md:mx-0 md:left-auto md:inset-y-auto hover:bg-white hover:border-white cursor-pointer"
               >
                 <div className="box-border caret-transparent flex outline-[3px] text-base items-center flex-col h-6 justify-center leading-6 w-6 md:text-xl md:h-4 md:leading-[30px] md:w-4">
                   <img
                     src="https://c.animaapp.com/yNHRUeS-CJuG-mcvwTd3-Q/assets/icon-1.svg"
-                    alt="Icon"
+                    alt="Back"
                     className="box-border caret-transparent outline-[3px] text-base h-full leading-6 align-baseline w-full md:text-xl md:leading-[30px]"
                   />
                 </div>
-              </a>
+              </button>
             ) : null}
             <button
               type="button"

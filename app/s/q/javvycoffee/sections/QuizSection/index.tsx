@@ -9,7 +9,14 @@ export const QuizSection = () => {
   const [currentStep, setCurrentStep] = useState(0);
   const [selectedOptions, setSelectedOptions] = useState<Record<number, number>>({});
 
-  const advance = () => setCurrentStep((s) => s + 1);
+  const advance = () => {
+    setCurrentStep((s) => s + 1);
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+  const goBack = () => {
+    setCurrentStep((s) => Math.max(0, s - 1));
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
   const selectOption = (stepIndex: number, optionIndex: number) =>
     setSelectedOptions((prev) => ({ ...prev, [stepIndex]: optionIndex }));
 
@@ -232,6 +239,7 @@ export const QuizSection = () => {
                 footerClassName="fixed bg-white box-border caret-transparent gap-x-2 flex flex-col outline-[3px] gap-y-2 z-[5] px-4 py-2 bottom-[0%] inset-x-[0%] md:static md:bg-transparent md:gap-x-4 md:gap-y-4 md:z-auto md:p-0 md:bottom-auto md:inset-x-auto"
                 footerInnerClassName="relative box-border caret-transparent gap-x-4 flex max-h-[61.6px] max-w-[85%] outline-[3px] gap-y-4 w-full z-[5] ml-auto md:static md:max-w-none md:w-auto md:z-auto md:ml-0"
                 showBackButton={true}
+                onBack={goBack}
                 ctaClassName="relative text-stone-300 font-bold items-center bg-gray-50 box-border caret-transparent gap-x-3 flex shrink-0 justify-center max-w-full min-h-[61.6px] outline-[3px] pointer-events-none w-full overflow-hidden mx-auto px-8 py-4 rounded-lg border-2 border-solid border-transparent md:shrink md:mx-0 hover:outline-0"
                 ctaTextClassName="box-border caret-transparent shrink-0 outline-[3px] md:shrink"
                 ctaText="NEXT"
@@ -272,6 +280,7 @@ export const QuizSection = () => {
                 footerInnerClassName="relative box-border caret-transparent gap-x-4 flex max-h-[61.6px] max-w-[85%] outline-[3px] gap-y-4 w-full z-[5] ml-auto md:static md:max-w-none md:w-auto md:z-auto md:ml-0"
                 showTrustpilot={false}
                 showBackButton={true}
+                onBack={goBack}
                 ctaClassName="relative text-stone-300 font-bold items-center bg-gray-50 box-border caret-transparent gap-x-3 flex shrink-0 justify-center max-w-full min-h-[61.6px] outline-[3px] pointer-events-none w-full overflow-hidden mx-auto px-8 py-4 rounded-lg border-2 border-solid border-transparent md:shrink md:mx-0 hover:outline-0"
                 ctaTextClassName="box-border caret-transparent shrink-0 outline-[3px] md:shrink"
                 ctaText="NEXT"
@@ -317,6 +326,7 @@ export const QuizSection = () => {
                 footerInnerClassName="relative box-border caret-transparent gap-x-4 flex max-h-[61.6px] max-w-[85%] outline-[3px] gap-y-4 w-full z-[5] ml-auto md:static md:max-w-none md:w-auto md:z-auto md:ml-0"
                 showTrustpilot={false}
                 showBackButton={true}
+                onBack={goBack}
                 ctaClassName="relative text-stone-300 font-bold items-center bg-gray-50 box-border caret-transparent gap-x-3 flex shrink-0 justify-center max-w-full min-h-[61.6px] outline-[3px] pointer-events-none w-full overflow-hidden mx-auto px-8 py-4 rounded-lg border-2 border-solid border-transparent md:shrink md:mx-0 hover:outline-0"
                 ctaTextClassName="box-border caret-transparent shrink-0 outline-[3px] md:shrink"
                 ctaText="NEXT"
@@ -358,6 +368,7 @@ export const QuizSection = () => {
                 footerClassName="fixed bg-white box-border caret-transparent gap-x-2 flex flex-col outline-[3px] gap-y-2 z-[5] px-4 py-2 bottom-[0%] inset-x-[0%] md:static md:bg-transparent md:gap-x-4 md:gap-y-4 md:z-auto md:p-0 md:bottom-auto md:inset-x-auto"
                 footerInnerClassName="relative box-border caret-transparent gap-x-4 flex max-h-[61.6px] max-w-[85%] outline-[3px] gap-y-4 w-full z-[5] ml-auto md:static md:max-w-none md:w-auto md:z-auto md:ml-0"
                 showBackButton={true}
+                onBack={goBack}
                 ctaClassName="relative text-stone-300 font-bold items-center bg-gray-50 box-border caret-transparent gap-x-3 flex shrink-0 justify-center max-w-full min-h-[61.6px] outline-[3px] pointer-events-none w-full overflow-hidden mx-auto px-8 py-4 rounded-lg border-2 border-solid border-transparent md:shrink md:mx-0 hover:outline-0"
                 ctaTextClassName="box-border caret-transparent shrink-0 outline-[3px] md:shrink"
                 ctaText="NEXT"
@@ -403,6 +414,7 @@ export const QuizSection = () => {
                 footerClassName="fixed bg-white box-border caret-transparent gap-x-2 flex flex-col outline-[3px] gap-y-2 z-[5] px-4 py-2 bottom-[0%] inset-x-[0%] md:static md:bg-transparent md:gap-x-4 md:gap-y-4 md:z-auto md:p-0 md:bottom-auto md:inset-x-auto"
                 footerInnerClassName="relative box-border caret-transparent gap-x-4 flex max-h-[61.6px] max-w-[85%] outline-[3px] gap-y-4 w-full z-[5] ml-auto md:static md:max-w-none md:w-auto md:z-auto md:ml-0"
                 showBackButton={true}
+                onBack={goBack}
                 ctaClassName="relative text-stone-300 font-bold items-center bg-gray-50 box-border caret-transparent gap-x-3 flex shrink-0 justify-center max-w-full min-h-[61.6px] outline-[3px] pointer-events-none w-full overflow-hidden mx-auto px-8 py-4 rounded-lg border-2 border-solid border-transparent md:shrink md:mx-0 hover:outline-0"
                 ctaTextClassName="box-border caret-transparent shrink-0 outline-[3px] md:shrink"
                 ctaText="NEXT"
@@ -440,6 +452,7 @@ export const QuizSection = () => {
                 footerClassName="fixed bg-white box-border caret-transparent gap-x-2 flex flex-col outline-[3px] gap-y-2 z-[5] px-4 py-2 bottom-[0%] inset-x-[0%] md:static md:bg-transparent md:gap-x-4 md:gap-y-4 md:z-auto md:p-0 md:bottom-auto md:inset-x-auto"
                 footerInnerClassName="relative box-border caret-transparent gap-x-4 flex max-h-[61.6px] max-w-[85%] outline-[3px] gap-y-4 w-full z-[5] ml-auto md:static md:max-w-none md:w-auto md:z-auto md:ml-0"
                 showBackButton={true}
+                onBack={goBack}
                 ctaClassName="relative text-stone-300 font-bold items-center bg-gray-50 box-border caret-transparent gap-x-3 flex shrink-0 justify-center max-w-full min-h-[61.6px] outline-[3px] pointer-events-none w-full overflow-hidden mx-auto px-8 py-4 rounded-lg border-2 border-solid border-transparent md:shrink md:mx-0 hover:outline-0"
                 ctaTextClassName="box-border caret-transparent shrink-0 outline-[3px] md:shrink"
                 ctaText="NEXT"
@@ -474,6 +487,7 @@ export const QuizSection = () => {
                 footerClassName="fixed bg-white box-border caret-transparent gap-x-2 flex flex-col outline-[3px] gap-y-2 z-[5] px-4 py-2 bottom-[0%] inset-x-[0%] md:static md:bg-transparent md:gap-x-4 md:gap-y-4 md:z-auto md:p-0 md:bottom-auto md:inset-x-auto"
                 footerInnerClassName="relative box-border caret-transparent gap-x-4 flex max-h-[61.6px] max-w-[85%] outline-[3px] gap-y-4 w-full z-[5] ml-auto md:static md:max-w-none md:w-auto md:z-auto md:ml-0"
                 showBackButton={true}
+                onBack={goBack}
                 ctaClassName="relative text-stone-300 font-bold items-center bg-gray-50 box-border caret-transparent gap-x-3 flex shrink-0 justify-center max-w-full min-h-[61.6px] outline-[3px] pointer-events-none w-full overflow-hidden mx-auto px-8 py-4 rounded-lg border-2 border-solid border-transparent md:shrink md:mx-0 hover:outline-0"
                 ctaTextClassName="box-border caret-transparent shrink-0 outline-[3px] md:shrink"
                 ctaText="NEXT"
