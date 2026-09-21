@@ -98,6 +98,9 @@ module.exports = {
         "euclidcircularb": ["euclidCircularB", "ui-sans-serif", "system-ui", "sans-serif"],
         "georgia": ["Georgia", "ui-serif", "serif"],
         "times": ["Times New Roman", "Times", "ui-serif", "serif"],
+        "filson_pro": ["filson-pro", "ui-sans-serif", "system-ui", "sans-serif"],
+        "inter": ["Inter", "ui-sans-serif", "system-ui", "sans-serif"],
+        "alia_kefir": ["Times New Roman", "Times", "ui-serif", "serif"],
         "kapraneuepro_semibold": ["KapraNeuePro-SemiBold", "ui-sans-serif", "system-ui", "sans-serif"],
         "hvdtrial_brandontext_regular": ["HvDTrial_BrandonText-Regular", "ui-sans-serif", "system-ui", "sans-serif"]
       },
