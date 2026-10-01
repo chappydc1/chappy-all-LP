@@ -44,7 +44,7 @@ src/
 public/
   lp-images-files-videos-fonts/  # All LP assets (images, fonts, videos, favicons, comments)
 
-next.config.js                # Redirects, remote image hostnames
+next.config.js                # Static export config, remote image hostnames
 tailwind.config.js            # Theme tokens, custom animations, font families
 tsconfig.json                 # Path aliases (@/ → src/)
 ```
@@ -59,7 +59,7 @@ pnpm build     # Production build
 pnpm start     # Serve production build
 ```
 
-The root path `/` redirects to the first advertorial route (`/s/a/why-high-performers-crash`), defined in `next.config.js`.
+The root path `/` redirects to `/s/com/forbes/`, defined in both `app/page.tsx` (dev + static export) and `vercel.json` (Vercel edge). Keep them in sync.
 
 There is no test runner configured in this project. Validation means a successful `pnpm build`.
 
@@ -67,7 +67,7 @@ There is no test runner configured in this project. Validation means a successfu
 
 - **`app/globals.css`** — CSS custom properties for all design tokens (colors, radius). Edit here to change the design system baseline.
 - **`tailwind.config.js`** — Custom colors, font families (`montserrat`, `helvetica`), border-radius tokens, and animation keyframes. All Tailwind customizations live here.
-- **`next.config.js`** — Remote image hostnames (`c.animaapp.com`, `cdn.shopify.com`, `images.unsplash.com`) and the root redirect. Add new external image hosts here before using them in `<Image>`.
+- **`next.config.js`** — Remote image hostnames (`c.animaapp.com`, `cdn.shopify.com`, `images.unsplash.com`). Add new external image hosts here before using them in `<Image>`.
 - **`tsconfig.json`** — Path alias `@/` maps to `src/`. Use `@/sections/...` and `@/components/...` for all internal imports.
 - **`src/sections/TopBar/index.tsx`** — The primary component file containing the full advertorial layout. Most page-level changes happen here.
 

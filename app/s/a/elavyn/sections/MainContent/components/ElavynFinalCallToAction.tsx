@@ -15,7 +15,7 @@ export const ElavynFinalCallToAction = (props: ElavynFinalCallToActionProps) => 
       <div className="relative text-[15px] box-border caret-transparent flex flex-col justify-start leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] md:text-base md:leading-[28.8px]">
         <div className="text-[15px] box-border caret-transparent leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left mb-2 md:text-base md:leading-[28.8px]">
           <div className="text-[15px] box-border caret-transparent flex leading-[27px] max-w-full outline-[3px] md:text-base md:leading-[28.8px]">
-            <h2 className="text-neutral-900 text-2xl font-bold bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[31.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-playfair_display md:text-[32px] md:leading-[41.6px]">
+            <h2 className="text-neutral-900 text-2xl font-bold bg-no-repeat bg-cover box-border caret-transparent leading-[31.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-playfair_display md:text-[32px] md:leading-[41.6px]">
               {props.title}
             </h2>
           </div>
@@ -36,14 +36,14 @@ export const ElavynFinalCallToAction = (props: ElavynFinalCallToActionProps) => 
         </div>
         <div className="text-[15px] box-border caret-transparent leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left md:text-base md:leading-[28.8px]">
           <div className="text-[15px] box-border caret-transparent flex leading-[27px] max-w-full outline-[3px] md:text-base md:leading-[28.8px]">
-            <h2 className="text-neutral-900 bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-bitter md:leading-[25.2px] text-[17px] leading-[22.1px] md:text-lg">
+            <h2 className="text-neutral-900 bg-no-repeat bg-cover box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-bitter md:leading-[25.2px] text-[17px] leading-[22.1px] md:text-lg">
               {props.introContent}
             </h2>
           </div>
         </div>
         <div className="text-[15px] box-border caret-transparent leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] md:text-base md:leading-[28.8px]">
           <div className="text-[15px] box-border caret-transparent flex leading-[27px] max-w-full outline-[3px] my-3 md:text-base md:leading-[28.8px]">
-            <div className="text-[15px] bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent flex leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full bg-center md:text-base md:leading-[28.8px]">
+            <div className="text-[15px] bg-no-repeat bg-cover box-border caret-transparent flex leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full bg-center md:text-base md:leading-[28.8px]">
               <div className="text-[15px] box-border caret-transparent flex flex-col leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] gap-y-1 md:text-base md:leading-[28.8px]">
                 {props.bulletItems.map((bulletItem, index) => (
                   <div
@@ -85,7 +85,7 @@ export const ElavynFinalCallToAction = (props: ElavynFinalCallToActionProps) => 
               <h2
                 className={
                   props.closingHeadingClassName ??
-                  "text-neutral-900 bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-bitter md:leading-[25.2px] text-[17px] leading-[22.1px] md:text-lg"
+                  "text-neutral-900 bg-no-repeat bg-cover box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-bitter md:leading-[25.2px] text-[17px] leading-[22.1px] md:text-lg"
                 }
               >
                 {props.closingContent}
@@ -132,7 +132,7 @@ export const ElavynFinalCallToAction = (props: ElavynFinalCallToActionProps) => 
             </div>
             <div className="text-[15px] box-border caret-transparent leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left mb-6 md:text-base md:leading-[28.8px]">
               <div className="text-[15px] box-border caret-transparent flex leading-[27px] max-w-full outline-[3px] md:text-base md:leading-[28.8px]">
-                <h2 className="text-neutral-900 text-lg bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[23.4px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-center w-full overflow-hidden bg-center font-bitter md:text-xl md:leading-7">
+                <h2 className="text-neutral-900 text-lg bg-no-repeat bg-cover box-border caret-transparent leading-[23.4px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-center w-full overflow-hidden bg-center font-bitter md:text-xl md:leading-7">
                   <a
                     href="https://getelavyn.com/pages/flow"
                     className="text-lg box-border caret-transparent leading-[23.4px] max-w-full outline-[3px] md:text-xl md:leading-7"
@@ -177,7 +177,7 @@ export const ElavynFinalCallToAction = (props: ElavynFinalCallToActionProps) => 
               <div className="relative text-[15px] box-border caret-transparent flex flex-col justify-start leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] md:text-base md:leading-[28.8px]">
                 <div className="text-[15px] box-border caret-transparent leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left md:text-base md:leading-[28.8px]">
                   <div className="text-[15px] box-border caret-transparent flex leading-[27px] max-w-full outline-[3px] md:text-base md:leading-[28.8px]">
-                    <div className="text-neutral-900 text-[22px] font-bold bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[30.8px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-center w-full overflow-hidden bg-center font-bitter md:text-[28px] md:leading-[39.2px]">
+                    <div className="text-neutral-900 text-[22px] font-bold bg-no-repeat bg-cover box-border caret-transparent leading-[30.8px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-center w-full overflow-hidden bg-center font-bitter md:text-[28px] md:leading-[39.2px]">
                       <p className="text-[22px] box-border caret-transparent leading-[30.8px] max-w-full outline-[3px] md:text-[28px] md:leading-[39.2px]">
                         INTERNET ONLY OFFER!
                       </p>
@@ -204,7 +204,7 @@ export const ElavynFinalCallToAction = (props: ElavynFinalCallToActionProps) => 
                 </div>
                 <div className="text-[15px] box-border caret-transparent leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left md:text-base md:leading-[28.8px]">
                   <div className="text-[15px] box-border caret-transparent flex leading-[27px] max-w-full outline-[3px] md:text-base md:leading-[28.8px]">
-                    <div className="text-neutral-900 text-lg font-bold bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[25.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-center w-full overflow-hidden bg-center font-bitter md:text-2xl md:leading-[33.6px]">
+                    <div className="text-neutral-900 text-lg font-bold bg-no-repeat bg-cover box-border caret-transparent leading-[25.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-center w-full overflow-hidden bg-center font-bitter md:text-2xl md:leading-[33.6px]">
                       <p className="text-lg box-border caret-transparent leading-[25.2px] max-w-full outline-[3px] md:text-2xl md:leading-[33.6px]">
                         FOR A LIMITED TIME:
                         <br className="text-lg box-border caret-transparent leading-[25.2px] max-w-full outline-[3px] md:text-2xl md:leading-[33.6px]" />
@@ -215,11 +215,11 @@ export const ElavynFinalCallToAction = (props: ElavynFinalCallToActionProps) => 
                 </div>
               </div>
             </div>
-            <div className="relative text-[15px] content-start bg-yellow-100 bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent gap-x-4 grid grid-cols-[minmax(0px,12fr)] grid-rows-[1fr] justify-start leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] gap-y-0 w-full border-red-700 bg-center mb-6 mx-auto p-2 border-2 border-dashed md:text-base md:leading-[28.8px] md:w-[1200px]">
+            <div className="relative text-[15px] content-start bg-yellow-100 bg-no-repeat bg-cover box-border caret-transparent gap-x-4 grid grid-cols-[minmax(0px,12fr)] grid-rows-[1fr] justify-start leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] gap-y-0 w-full border-red-700 bg-center mb-6 mx-auto p-2 border-2 border-dashed md:text-base md:leading-[28.8px] md:w-[1200px]">
               <div className="relative text-[15px] box-border caret-transparent flex flex-col justify-start leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] md:text-base md:leading-[28.8px]">
                 <div className="text-[15px] box-border caret-transparent leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left md:text-base md:leading-[28.8px]">
                   <div className="text-[15px] box-border caret-transparent flex leading-[27px] max-w-full outline-[3px] md:text-base md:leading-[28.8px]">
-                    <div className="text-neutral-900 text-lg font-bold bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[25.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-center w-full overflow-hidden bg-center font-bitter">
+                    <div className="text-neutral-900 text-lg font-bold bg-no-repeat bg-cover box-border caret-transparent leading-[25.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-center w-full overflow-hidden bg-center font-bitter">
                       <p className="box-border caret-transparent max-w-full outline-[3px]">
                         <span className="text-red-600 box-border caret-transparent max-w-full outline-[3px]">
                           LIMITED TIME READER-ONLY SPECIAL
@@ -235,7 +235,7 @@ export const ElavynFinalCallToAction = (props: ElavynFinalCallToActionProps) => 
             </div>
             <div className="text-[15px] box-border caret-transparent leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left md:text-base md:leading-[28.8px]">
               <div className="text-[15px] box-border caret-transparent flex leading-[27px] max-w-full outline-[3px] md:text-base md:leading-[28.8px]">
-                <h2 className="text-neutral-900 text-lg bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[23.4px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-bitter md:leading-[25.2px]">
+                <h2 className="text-neutral-900 text-lg bg-no-repeat bg-cover box-border caret-transparent leading-[23.4px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-bitter md:leading-[25.2px]">
                   <a
                     href="https://getelavyn.com/pages/flow"
                     className="box-border caret-transparent leading-[23.4px] max-w-full outline-[3px] md:leading-[25.2px]"

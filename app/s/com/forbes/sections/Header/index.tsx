@@ -13,7 +13,7 @@ export const ForbesHeader = ({ logoSrc }: { logoSrc: string }) => {
   }, []);
 
   return (
-    <header className={`forbes-header animate-slide-down ${scrolled ? "forbes-header--scrolled" : ""}`}>
+    <header className={`forbes-header ${scrolled ? "forbes-header--scrolled" : ""}`}>
       <div className="forbes-header__inner">
         <ForbesHeaderLogo logoSrc={logoSrc} />
       </div>
