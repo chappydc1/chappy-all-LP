@@ -105,8 +105,9 @@ export function SleepingProductCard(props: ProductCardProps) {
 
           {props.discountText && (
             <p className="static text-sm leading-[19.999px] md:absolute md:text-base md:right-[-11px] md:z-10 md:top-[15px]">
-              <span className="text-black text-sm bg-transparent inline md:relative md:text-white md:text-[16.8px] md:bg-red-500 md:inline-block md:min-w-[85px] md:px-[16.8px] md:py-[8.4px]">
-                <strong className="font-bold">{props.discountText}</strong>
+              <span className="text-black text-sm bg-transparent inline md:relative md:text-white md:text-[20px] md:leading-6 md:bg-[#ff4747] md:inline-block md:min-w-[85px] md:px-5 md:py-2.5">
+                <strong className="font-extrabold">{props.discountText}</strong>
+                <span className="hidden md:block absolute right-0 top-full w-0 h-0 border-t-[11px] border-t-[#b21f1f] border-r-[11px] border-r-transparent" />
               </span>
             </p>
           )}
