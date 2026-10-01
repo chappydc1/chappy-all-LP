@@ -36,11 +36,11 @@
   ],
   "videos": {
     "video1": {
-      "src": "https://cdn.primepicks.review/1_Tagsley_Tracking Card_20251105-134857.mp4",
+      "src": "/lp-images-files-videos-fonts/video/primepicks-v2/tagsley-tracking-card-1.mp4",
       "poster": "/lp-images-files-videos-fonts/images/primepicks/image-160-scaled.jpg"
     },
     "video2": {
-      "src": "https://cdn.primepicks.review/2_Tagsley_Tracking Card_20251105-134907.mp4",
+      "src": "/lp-images-files-videos-fonts/video/primepicks-v2/tagsley-tracking-card-2.mp4",
       "poster": "/lp-images-files-videos-fonts/images/primepicks/image-161.jpg"
     }
   },
