@@ -21,6 +21,8 @@ You MUST maintain this file to track your work across messages. This is NON-NEGO
 <!-- NEXT_ENTRY_HERE -->
 
 ## 2026-10-01
+- Added `/s/com/sleeping-2` (`app/s/com/sleeping-2/`), a duplicate of `/s/com/primepicks-v2` retargeted to side-sleeper pillows with AURELUNE Cloud as #1 (components renamed `Sleeping2*`).
+- The `video` article block type was dropped (no pillow videos); article media are Aurelune listing images in `public/lp-images-files-videos-fonts/com/sleeping-2/images/`, competitor images reused from `com/sleeping/images/`.
 - Added `/s/com/sleeping` (`app/s/com/sleeping/`), a duplicate of the `/s/com/shilajit` top-10 comparison template retargeted to side-sleeper pillows, with AURELUNE Cloud as the #1 pick.
 - New `SleepingTopPick` spotlight section after the top 3 cards; `SleepingProductCard` gains `featured` ring and `availabilityNote` (replaces the Amazon badge for official-store-only products).
 - Assets are self-hosted in `public/lp-images-files-videos-fonts/com/sleeping/images/` (shared UI icons copied from `com/shilajit/images`); favicon at `favicons/sleeping.svg`.
