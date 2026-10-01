@@ -1,23 +1,28 @@
 import type { Metadata } from "next";
 import type { ReactNode } from "react";
-import { Domine, Playfair_Display, Montserrat } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
 import copy from "./copy.json";
 
-const domine = Domine({
-  subsets: ["latin"],
+const domine = localFont({
+  src: "../../../../public/lp-images-files-videos-fonts/fonts/google/Domine-latin-variable.woff2",
+  weight: "400 700",
+  adjustFontFallback: "Times New Roman",
   variable: "--font-domine",
   display: "swap",
 });
 
-const playfairDisplay = Playfair_Display({
-  subsets: ["latin"],
+const playfairDisplay = localFont({
+  src: "../../../../public/lp-images-files-videos-fonts/fonts/google/PlayfairDisplay-latin-variable.woff2",
+  weight: "400 900",
+  adjustFontFallback: "Times New Roman",
   variable: "--font-playfair",
   display: "swap",
 });
 
-const montserrat = Montserrat({
-  subsets: ["latin"],
+const montserrat = localFont({
+  src: "../../../../public/lp-images-files-videos-fonts/fonts/google/Montserrat-latin-variable.woff2",
+  weight: "100 900",
   variable: "--font-montserrat",
   display: "swap",
 });

@@ -210,7 +210,7 @@ function CtaBtn({
     cursor: disabled ? "default" : "pointer",
     transition: "background-color 0.15s, transform 0.1s",
     transform: hov && !disabled ? "translateY(-1px)" : "translateY(0)",
-    fontFamily: '"Open Sans", sans-serif',
+    fontFamily: "var(--font-open-sans), sans-serif",
     textAlign: "center",
     textDecoration: "none",
     boxSizing: "border-box",
@@ -252,7 +252,7 @@ function BackBtn({ onClick, disabled }: { onClick: () => void; disabled: boolean
         color: disabled ? "#bbb" : hov ? GD : TMED,
         cursor: disabled ? "default" : "pointer",
         padding: 0,
-        fontFamily: '"Open Sans", sans-serif',
+        fontFamily: "var(--font-open-sans), sans-serif",
         transition: "color 0.15s",
       }}
       onMouseEnter={() => setHov(true)}
@@ -339,7 +339,7 @@ function OptBtn({
             fontWeight: 700,
             flexShrink: 0,
             transition: "background-color 0.15s, color 0.15s",
-            fontFamily: '"Open Sans", sans-serif',
+            fontFamily: "var(--font-open-sans), sans-serif",
           }}
         >
           {num}
@@ -354,7 +354,7 @@ function OptBtn({
           fontWeight: 500,
           color: TEXT,
           lineHeight: 1.4,
-          fontFamily: '"Open Sans", sans-serif',
+          fontFamily: "var(--font-open-sans), sans-serif",
         }}
       >
         {opt.text}
@@ -375,7 +375,7 @@ function WelcomeScreen({ onStart }: { onStart: () => void }) {
           color: TEXT,
           lineHeight: 1.2,
           margin: "0 0 18px",
-          fontFamily: '"Open Sans", sans-serif',
+          fontFamily: "var(--font-open-sans), sans-serif",
         }}
       >
         Find out if low fiber is behind your bloating, irregularity, &amp; low energy
@@ -393,7 +393,7 @@ function WelcomeScreen({ onStart }: { onStart: () => void }) {
         }}
       >
         <span style={{ fontSize: "16px" }}>✅</span>
-        <span style={{ fontSize: "13px", fontWeight: 600, color: TMED, fontFamily: '"Open Sans", sans-serif' }}>
+        <span style={{ fontSize: "13px", fontWeight: 600, color: TMED, fontFamily: "var(--font-open-sans), sans-serif" }}>
           Trusted by 1M+ customers
         </span>
       </div>
@@ -413,11 +413,11 @@ function QuestionScreen({
 }) {
   return (
     <div>
-      <h2 style={{ fontSize: "clamp(19px, 4vw, 26px)", fontWeight: 700, color: TEXT, margin: "0 0 6px", lineHeight: 1.3, fontFamily: '"Open Sans", sans-serif' }}>
+      <h2 style={{ fontSize: "clamp(19px, 4vw, 26px)", fontWeight: 700, color: TEXT, margin: "0 0 6px", lineHeight: 1.3, fontFamily: "var(--font-open-sans), sans-serif" }}>
         {screen.title}
       </h2>
       {screen.subtitle ? (
-        <p style={{ fontSize: "13px", color: TLIT, margin: "0 0 18px", fontStyle: "italic", fontFamily: '"Open Sans", sans-serif' }}>
+        <p style={{ fontSize: "13px", color: TLIT, margin: "0 0 18px", fontStyle: "italic", fontFamily: "var(--font-open-sans), sans-serif" }}>
           {screen.subtitle}
         </p>
       ) : (
@@ -447,10 +447,10 @@ function MultiScreen({
 }) {
   return (
     <div>
-      <h2 style={{ fontSize: "clamp(19px, 4vw, 24px)", fontWeight: 700, color: TEXT, margin: "0 0 6px", lineHeight: 1.3, fontFamily: '"Open Sans", sans-serif' }}>
+      <h2 style={{ fontSize: "clamp(19px, 4vw, 24px)", fontWeight: 700, color: TEXT, margin: "0 0 6px", lineHeight: 1.3, fontFamily: "var(--font-open-sans), sans-serif" }}>
         {screen.title}
       </h2>
-      <p style={{ fontSize: "13px", color: TLIT, margin: "0 0 14px", fontFamily: '"Open Sans", sans-serif' }}>
+      <p style={{ fontSize: "13px", color: TLIT, margin: "0 0 14px", fontFamily: "var(--font-open-sans), sans-serif" }}>
         Select all that apply
       </p>
       <div style={{ display: "flex", flexDirection: "column", gap: "9px", marginBottom: "18px" }}>
@@ -475,11 +475,11 @@ function InfoScreen({ screen, onContinue }: { screen: Extract<Screen, { type: "i
             <path d="M10 2a8 8 0 100 16A8 8 0 0010 2zm0 4v5m0 2.5v.5" stroke={G} strokeWidth="1.8" strokeLinecap="round" />
           </svg>
         </div>
-        <h2 style={{ fontSize: "clamp(20px, 4vw, 26px)", fontWeight: 700, color: TEXT, margin: "0 0 18px", lineHeight: 1.3, fontFamily: '"Open Sans", sans-serif' }}>
+        <h2 style={{ fontSize: "clamp(20px, 4vw, 26px)", fontWeight: 700, color: TEXT, margin: "0 0 18px", lineHeight: 1.3, fontFamily: "var(--font-open-sans), sans-serif" }}>
           {screen.title}
         </h2>
         {screen.body.split("\n\n").map((para, i, arr) => (
-          <p key={i} style={{ fontSize: "15px", color: TMED, margin: i < arr.length - 1 ? "0 0 14px" : "0", lineHeight: 1.7, fontFamily: '"Open Sans", sans-serif' }}>
+          <p key={i} style={{ fontSize: "15px", color: TMED, margin: i < arr.length - 1 ? "0 0 14px" : "0", lineHeight: 1.7, fontFamily: "var(--font-open-sans), sans-serif" }}>
             {para}
           </p>
         ))}
@@ -498,16 +498,16 @@ function AnalyzingScreen({ progress }: { progress: number }) {
           <circle cx="15" cy="15" r="5" fill={G} />
         </svg>
       </div>
-      <h2 style={{ fontSize: "clamp(20px, 4vw, 28px)", fontWeight: 700, color: TEXT, margin: "0 0 14px", lineHeight: 1.3, fontFamily: '"Open Sans", sans-serif' }}>
+      <h2 style={{ fontSize: "clamp(20px, 4vw, 28px)", fontWeight: 700, color: TEXT, margin: "0 0 14px", lineHeight: 1.3, fontFamily: "var(--font-open-sans), sans-serif" }}>
         Analyzing your fiber intake profile…
       </h2>
-      <p style={{ fontSize: "15px", color: TMED, margin: "0 0 36px", lineHeight: 1.65, fontFamily: '"Open Sans", sans-serif', maxWidth: "420px", marginLeft: "auto", marginRight: "auto" }}>
+      <p style={{ fontSize: "15px", color: TMED, margin: "0 0 36px", lineHeight: 1.65, fontFamily: "var(--font-open-sans), sans-serif", maxWidth: "420px", marginLeft: "auto", marginRight: "auto" }}>
         Based on your answers so far, we're looking at patterns in digestion, energy, and daily habits to understand how consistently your body is getting fiber.
       </p>
       <div style={{ height: "10px", backgroundColor: "#d9d3cb", borderRadius: "999px", overflow: "hidden", maxWidth: "360px", margin: "0 auto" }}>
         <div style={{ height: "100%", width: `${progress}%`, backgroundColor: G, borderRadius: "999px", transition: "width 0.05s linear" }} />
       </div>
-      <p style={{ fontSize: "13px", color: TLIT, marginTop: "10px", fontFamily: '"Open Sans", sans-serif' }}>
+      <p style={{ fontSize: "13px", color: TLIT, marginTop: "10px", fontFamily: "var(--font-open-sans), sans-serif" }}>
         {Math.round(progress)}%
       </p>
     </div>
@@ -517,10 +517,10 @@ function AnalyzingScreen({ progress }: { progress: number }) {
 function FinalizingScreen({ progress, done, activeStage }: { progress: number[]; done: boolean[]; activeStage: number }) {
   return (
     <div style={{ paddingTop: "32px" }}>
-      <h2 style={{ fontSize: "clamp(22px, 4.5vw, 32px)", fontWeight: 800, color: TEXT, margin: "0 0 2px", lineHeight: 1.2, fontFamily: '"Open Sans", sans-serif' }}>
+      <h2 style={{ fontSize: "clamp(22px, 4.5vw, 32px)", fontWeight: 800, color: TEXT, margin: "0 0 2px", lineHeight: 1.2, fontFamily: "var(--font-open-sans), sans-serif" }}>
         Building your fiber
       </h2>
-      <h2 style={{ fontSize: "clamp(22px, 4.5vw, 32px)", fontWeight: 800, color: G, margin: "0 0 36px", lineHeight: 1.2, fontFamily: '"Open Sans", sans-serif' }}>
+      <h2 style={{ fontSize: "clamp(22px, 4.5vw, 32px)", fontWeight: 800, color: G, margin: "0 0 36px", lineHeight: 1.2, fontFamily: "var(--font-open-sans), sans-serif" }}>
         intake profile…
       </h2>
       {FIN_STAGES.map((stage, i) => {
@@ -531,7 +531,7 @@ function FinalizingScreen({ progress, done, activeStage }: { progress: number[];
         return (
           <div key={stage.label} style={{ marginBottom: "24px" }}>
             <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "8px" }}>
-              <span style={{ fontSize: "14px", fontWeight: isDone ? 600 : isActive ? 600 : 400, color: isDone ? GD : isActive ? TEXT : "#aaa8a3", fontFamily: '"Open Sans", sans-serif', transition: "color 0.4s" }}>
+              <span style={{ fontSize: "14px", fontWeight: isDone ? 600 : isActive ? 600 : 400, color: isDone ? GD : isActive ? TEXT : "#aaa8a3", fontFamily: "var(--font-open-sans), sans-serif", transition: "color 0.4s" }}>
                 {stage.label}
               </span>
               {isDone ? (
@@ -540,7 +540,7 @@ function FinalizingScreen({ progress, done, activeStage }: { progress: number[];
                   <path d="M6 10.5l3 3 5.5-6" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                 </svg>
               ) : isActive && prog > 0 ? (
-                <span style={{ fontSize: "12px", fontWeight: 700, color: G, fontFamily: '"Open Sans", sans-serif' }}>
+                <span style={{ fontSize: "12px", fontWeight: 700, color: G, fontFamily: "var(--font-open-sans), sans-serif" }}>
                   {Math.round(prog)}%
                 </span>
               ) : null}
@@ -558,7 +558,7 @@ function FinalizingScreen({ progress, done, activeStage }: { progress: number[];
 function SummaryScreen({ onContinue }: { onContinue: () => void }) {
   return (
     <div style={{ paddingTop: "12px", textAlign: "center" }}>
-      <h2 style={{ fontSize: "clamp(22px, 4.5vw, 30px)", fontWeight: 800, color: TEXT, margin: "0 0 24px", fontFamily: '"Open Sans", sans-serif' }}>
+      <h2 style={{ fontSize: "clamp(22px, 4.5vw, 30px)", fontWeight: 800, color: TEXT, margin: "0 0 24px", fontFamily: "var(--font-open-sans), sans-serif" }}>
         Summary of your profile
       </h2>
       {[IMG_SUM_A, IMG_SUM_B].map((src, i) => (
@@ -573,12 +573,12 @@ function SummaryScreen({ onContinue }: { onContinue: () => void }) {
 function ProductScreen({ onContinue }: { onContinue: () => void }) {
   return (
     <div style={{ paddingTop: "12px" }}>
-      <h2 style={{ fontSize: "clamp(20px, 4vw, 26px)", fontWeight: 700, color: TEXT, margin: "0 0 20px", lineHeight: 1.3, fontFamily: '"Open Sans", sans-serif' }}>
+      <h2 style={{ fontSize: "clamp(20px, 4vw, 26px)", fontWeight: 700, color: TEXT, margin: "0 0 20px", lineHeight: 1.3, fontFamily: "var(--font-open-sans), sans-serif" }}>
         Grüns gummies: the simplest way to close your fiber gap and improve your gut health.
       </h2>
       <img src={IMG_PRODUCT} alt="Grüns gummies" style={{ width: "100%", borderRadius: "16px", marginBottom: "18px", display: "block" }} onError={(e) => { (e.target as HTMLImageElement).style.display = "none"; }} />
       <div style={{ backgroundColor: WHITE, borderRadius: "16px", padding: "22px 20px", marginBottom: "22px", boxShadow: "0 2px 12px rgba(0,0,0,0.06)" }}>
-        <p style={{ fontSize: "15px", color: TMED, margin: 0, lineHeight: 1.7, fontFamily: '"Open Sans", sans-serif' }}>
+        <p style={{ fontSize: "15px", color: TMED, margin: 0, lineHeight: 1.7, fontFamily: "var(--font-open-sans), sans-serif" }}>
           <strong style={{ color: TEXT }}>Progress doesn't happen overnight.</strong>
           <br /><br />
           But when fiber intake becomes consistent, digestion and energy tend to stabilize gradually — often sooner than people expect.
@@ -593,19 +593,19 @@ function OfferScreen() {
   return (
     <div style={{ paddingTop: "12px", textAlign: "center" }}>
       <img src={LOGO} alt="Grüns" style={{ height: "36px", objectFit: "contain", marginBottom: "20px" }} />
-      <h2 style={{ fontSize: "clamp(20px, 4.5vw, 28px)", fontWeight: 800, color: TEXT, margin: "0 0 14px", lineHeight: 1.25, fontFamily: '"Open Sans", sans-serif' }}>
+      <h2 style={{ fontSize: "clamp(20px, 4.5vw, 28px)", fontWeight: 800, color: TEXT, margin: "0 0 14px", lineHeight: 1.25, fontFamily: "var(--font-open-sans), sans-serif" }}>
         Transform Your Gut Health With Daily Fiber from Grüns
       </h2>
-      <p style={{ fontSize: "15px", color: TMED, margin: "0 0 8px", lineHeight: 1.65, fontFamily: '"Open Sans", sans-serif' }}>
+      <p style={{ fontSize: "15px", color: TMED, margin: "0 0 8px", lineHeight: 1.65, fontFamily: "var(--font-open-sans), sans-serif" }}>
         <strong>Based on your profile, you qualify for up to 52% off your first order. Try it risk-free with our 30-day guarantee*.</strong>
       </p>
-      <p style={{ fontSize: "14px", color: TMED, margin: "0 0 6px", fontFamily: '"Open Sans", sans-serif' }}>No extremes. No complicated routines.</p>
-      <p style={{ fontSize: "14px", color: TMED, margin: "0 0 22px", fontFamily: '"Open Sans", sans-serif' }}>
+      <p style={{ fontSize: "14px", color: TMED, margin: "0 0 6px", fontFamily: "var(--font-open-sans), sans-serif" }}>No extremes. No complicated routines.</p>
+      <p style={{ fontSize: "14px", color: TMED, margin: "0 0 22px", fontFamily: "var(--font-open-sans), sans-serif" }}>
         <strong>85k+ 5-star reviews, 4.8/5.0 on TrustPilot.</strong>
       </p>
       <img src={IMG_OFFER} alt="Grüns product" style={{ width: "100%", maxWidth: "400px", borderRadius: "16px", display: "block", margin: "0 auto 24px" }} onError={(e) => { (e.target as HTMLImageElement).style.display = "none"; }} />
       <CtaBtn label="Claim Your Discount →" href="/products/gruns-superfood-gummies#buybox" />
-      <p style={{ fontSize: "11px", color: TLIT, marginTop: "14px", fontFamily: '"Open Sans", sans-serif' }}>
+      <p style={{ fontSize: "11px", color: TLIT, marginTop: "14px", fontFamily: "var(--font-open-sans), sans-serif" }}>
         *30-day money-back guarantee applies to first orders only.
       </p>
     </div>
@@ -701,7 +701,7 @@ export default function GrunsQuizChappy2Page() {
   const answerPopup = () => { popupAnswered.current = true; setPopup(null); };
 
   return (
-    <div style={{ minHeight: "100vh", backgroundColor: BG, fontFamily: '"Open Sans", sans-serif' }}>
+    <div style={{ minHeight: "100vh", backgroundColor: BG, fontFamily: "var(--font-open-sans), sans-serif" }}>
       <style>{`
         @keyframes gruns-in {
           from { opacity: 0; transform: translateY(14px); }
@@ -739,10 +739,10 @@ export default function GrunsQuizChappy2Page() {
       {popup && (
         <div style={{ position: "fixed", inset: 0, display: "flex", alignItems: "center", justifyContent: "center", zIndex: 60, padding: "24px" }}>
           <div style={{ backgroundColor: WHITE, borderRadius: "22px", padding: "40px 30px", maxWidth: "400px", width: "100%", textAlign: "center", boxShadow: "0 20px 60px rgba(0,0,0,0.22)", animation: "gruns-in 0.22s ease both" }}>
-            <p style={{ fontSize: "11px", color: TLIT, margin: "0 0 12px", textTransform: "uppercase", letterSpacing: "0.1em", fontFamily: '"Open Sans", sans-serif' }}>
+            <p style={{ fontSize: "11px", color: TLIT, margin: "0 0 12px", textTransform: "uppercase", letterSpacing: "0.1em", fontFamily: "var(--font-open-sans), sans-serif" }}>
               To continue, please specify
             </p>
-            <p style={{ fontSize: "20px", fontWeight: 700, color: TEXT, margin: "0 0 30px", lineHeight: 1.4, fontFamily: '"Open Sans", sans-serif' }}>
+            <p style={{ fontSize: "20px", fontWeight: 700, color: TEXT, margin: "0 0 30px", lineHeight: 1.4, fontFamily: "var(--font-open-sans), sans-serif" }}>
               {popup}
             </p>
             <div style={{ display: "flex", gap: "10px" }}>
@@ -775,7 +775,7 @@ function PopupBtn({ label, onClick }: { label: string; onClick: () => void }) {
         fontSize: "16px",
         fontWeight: 700,
         cursor: "pointer",
-        fontFamily: '"Open Sans", sans-serif',
+        fontFamily: "var(--font-open-sans), sans-serif",
         transition: "background-color 0.15s",
       }}
     >

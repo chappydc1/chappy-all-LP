@@ -97,6 +97,9 @@ This means a dynamic class fragment was used. See the rule in `REVIEW.md`. Fix b
 ### Font not loading
 Self-hosted fonts must be referenced from `public/lp-images-files-videos-fonts/fonts/`. The `@font-face` declarations live in `app/globals.css`. If a new font file is added to `public/lp-images-files-videos-fonts/fonts/`, add the corresponding `@font-face` rule in `globals.css` and register the font family in `tailwind.config.js` under `theme.extend.fontFamily`.
 
+### Do not use `next/font/google`
+`next/font/google` downloads fonts at build time, and Vercel builds intermittently fail with "Failed to fetch `<Font>` from Google Fonts". Use `next/font/local` with woff2 files committed under `public/lp-images-files-videos-fonts/fonts/google/` instead. `next/font/local` names the `@font-face` after the JS variable (e.g. `openSans`), not the real family name, so reference the font through its `className` or CSS `variable` — a literal `"Open Sans"` in `fontFamily` or a Tailwind family will not match it.
+
 ## Text File Format
 
 - Keep all source, config, and style files with **LF** line endings.
