@@ -6,7 +6,7 @@ type ArticleBlocksProps = {
   ctaUrl: string;
 };
 
-const PARAGRAPH = "mb-6 text-base leading-[1.5] text-[#636363] md:text-lg md:leading-[27px] [&_a]:font-bold [&_a]:text-[#0060C3] [&_a]:underline [&_strong]:font-bold";
+const PARAGRAPH = "mb-6 text-base leading-[1.5] text-black md:text-lg md:leading-[27px] [&_a]:font-bold [&_a]:text-[#0060C3] [&_a]:underline [&_strong]:font-bold";
 
 function ArticleBlock({
   block,
@@ -75,7 +75,7 @@ function ArticleBlock({
                 {`${index + 1}.`}
               </span>
               <p
-                className="relative top-px mb-[18px] text-base leading-[24.4px] text-[#636363] md:text-lg md:leading-[24.4px] [&_a]:font-bold [&_a]:text-[#0060C3] [&_a]:underline [&_strong]:font-bold"
+                className="relative top-px mb-[18px] text-base leading-[24.4px] text-black md:text-lg md:leading-[24.4px] [&_a]:font-bold [&_a]:text-[#0060C3] [&_a]:underline [&_strong]:font-bold"
                 dangerouslySetInnerHTML={{ __html: html }}
               />
             </div>
@@ -91,10 +91,10 @@ function ArticleBlock({
               style={{ backgroundImage: `url("${media.quoteTopLeft}"), url("${media.quoteBottomRight}")` }}
               className="mb-[18.8px] rounded-[5px] border border-[#E0E0E0] bg-white bg-no-repeat p-8 [background-position:25px_25px,calc(100%-25px)_calc(100%-25px)] md:px-16 md:py-8"
             >
-              <q className="text-base italic leading-[1.5] text-[#636363] [quotes:none] md:text-lg md:leading-[27px]">
+              <q className="text-base italic leading-[1.5] text-black [quotes:none] md:text-lg md:leading-[27px]">
                 {review.quote}
               </q>
-              <p className="mt-2.5 text-base font-bold italic leading-[27px] text-[#636363] md:text-lg md:leading-[27px]">
+              <p className="mt-2.5 text-base font-bold italic leading-[27px] text-black md:text-lg md:leading-[27px]">
                 {review.author}
               </p>
               <div
