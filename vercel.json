@@ -1,6 +1,6 @@
 {
   "outputDirectory": "out",
   "redirects": [
-    { "source": "/", "destination": "/s/a/spartan/", "permanent": false }
+    { "source": "/", "destination": "/s/com/forbes/", "permanent": false }
   ]
 }
