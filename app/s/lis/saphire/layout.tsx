@@ -1,10 +1,13 @@
 import type { Metadata } from "next";
-import { Libre_Baskerville } from "next/font/google";
+import localFont from "next/font/local";
 import "./saphire.css";
 
-const libreBaskerville = Libre_Baskerville({
-  subsets: ["latin"],
-  weight: ["400", "700"],
+const libreBaskerville = localFont({
+  src: [
+    { path: "../../../../public/lp-images-files-videos-fonts/fonts/google/LibreBaskerville-latin-variable.woff2", weight: "400" },
+    { path: "../../../../public/lp-images-files-videos-fonts/fonts/google/LibreBaskerville-latin-variable.woff2", weight: "700" },
+  ],
+  adjustFontFallback: "Times New Roman",
   variable: "--font-baskerville",
   display: "swap",
   preload: false,

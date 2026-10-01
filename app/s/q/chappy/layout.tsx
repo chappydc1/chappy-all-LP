@@ -1,4 +1,4 @@
-import { Open_Sans } from "next/font/google";
+import localFont from "next/font/local";
 import type { Metadata } from "next";
 import type { ReactNode } from "react";
 
@@ -8,9 +8,13 @@ export const metadata: Metadata = {
   icons: { icon: "/lp-images-files-videos-fonts/favicons/chappy.svg" },
 };
 
-const openSans = Open_Sans({
-  subsets: ["latin"],
-  weight: ["400", "600", "700", "800"],
+const openSans = localFont({
+  src: [
+    { path: "../../../../public/lp-images-files-videos-fonts/fonts/google/OpenSans-latin-variable.woff2", weight: "400" },
+    { path: "../../../../public/lp-images-files-videos-fonts/fonts/google/OpenSans-latin-variable.woff2", weight: "600" },
+    { path: "../../../../public/lp-images-files-videos-fonts/fonts/google/OpenSans-latin-variable.woff2", weight: "700" },
+    { path: "../../../../public/lp-images-files-videos-fonts/fonts/google/OpenSans-latin-variable.woff2", weight: "800" },
+  ],
   display: "swap",
   variable: "--font-open-sans",
 });

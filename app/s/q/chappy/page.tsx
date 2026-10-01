@@ -177,7 +177,7 @@ export default function ChappyQuizChappyPage() {
               return (
                 <div key={stage.label} style={{ marginBottom: "32px" }}>
                   <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "10px" }}>
-                    <span style={{ fontSize: "16px", fontWeight: 400, color: "#333333", fontFamily: '"Open Sans", sans-serif' }}>
+                    <span style={{ fontSize: "16px", fontWeight: 400, color: "#333333", fontFamily: "var(--font-open-sans), sans-serif" }}>
                       {stage.label}
                     </span>
                     {done ? (
@@ -185,7 +185,7 @@ export default function ChappyQuizChappyPage() {
                         <path d="M4 10.5l4.5 4.5 7.5-9" stroke="#3d9e3d" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round"/>
                       </svg>
                     ) : isActive && prog > 0 ? (
-                      <span style={{ fontSize: "14px", fontWeight: 600, color: "#555555", fontFamily: '"Open Sans", sans-serif' }}>
+                      <span style={{ fontSize: "14px", fontWeight: 600, color: "#555555", fontFamily: "var(--font-open-sans), sans-serif" }}>
                         {Math.round(prog)}%
                       </span>
                     ) : null}
@@ -226,10 +226,10 @@ export default function ChappyQuizChappyPage() {
               textAlign: "center",
               boxShadow: "0 8px 40px rgba(0,0,0,0.18)",
             }}>
-              <p style={{ fontSize: "13px", color: "#888888", margin: "0 0 12px", fontFamily: '"Open Sans", sans-serif' }}>
+              <p style={{ fontSize: "13px", color: "#888888", margin: "0 0 12px", fontFamily: "var(--font-open-sans), sans-serif" }}>
                 To move forward, please specify
               </p>
-              <p style={{ fontSize: "20px", fontWeight: 700, color: "#111111", margin: "0 0 28px", lineHeight: 1.35, fontFamily: '"Open Sans", sans-serif' }}>
+              <p style={{ fontSize: "20px", fontWeight: 700, color: "#111111", margin: "0 0 28px", lineHeight: 1.35, fontFamily: "var(--font-open-sans), sans-serif" }}>
                 {popup}
               </p>
               <div style={{ display: "flex", gap: "12px", justifyContent: "center" }}>
@@ -247,7 +247,7 @@ export default function ChappyQuizChappyPage() {
                       fontSize: "16px",
                       fontWeight: 700,
                       cursor: "pointer",
-                      fontFamily: '"Open Sans", sans-serif',
+                      fontFamily: "var(--font-open-sans), sans-serif",
                       minWidth: "96px",
                     }}
                   >
