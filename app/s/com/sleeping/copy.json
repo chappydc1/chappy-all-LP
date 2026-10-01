@@ -7,14 +7,30 @@
   "navbar": {
     "brand": "BuyReviews",
     "links": [
-      { "label": "Categories", "href": "#" },
-      { "label": "About us", "href": "#" }
+      {
+        "label": "Categories",
+        "href": "#"
+      },
+      {
+        "label": "About us",
+        "href": "#"
+      }
     ]
   },
   "breadcrumb": [
-    { "label": "Home & Kitchen", "href": "#" },
-    { "label": "Bedding", "href": "#" },
-    { "label": "Pillows for Side Sleepers", "href": "#", "current": true }
+    {
+      "label": "Home & Kitchen",
+      "href": "#"
+    },
+    {
+      "label": "Bedding",
+      "href": "#"
+    },
+    {
+      "label": "Pillows for Side Sleepers",
+      "href": "#",
+      "current": true
+    }
   ],
   "hero": {
     "title": "10 Best Pillows for Side Sleepers",
@@ -44,17 +60,17 @@
     },
     {
       "rank": "2",
-      "name": "Coop Home Goods Original Adjustable Pillow",
+      "name": "Tempur-Pedic TEMPUR-Cloud® Pillow",
       "features": [
-        "Removable shredded foam fill to tune the loft.",
-        "Soft, cushy feel for combination sleepers.",
-        "Fill can shift and flatten during the night."
+        "Signature TEMPUR® pressure-relieving foam.",
+        "Plush, soft feel that molds to your head.",
+        "Too soft to keep a side sleeper's neck level; runs warm."
       ],
-      "score": "9.3",
+      "score": "9.4",
       "stars": 5,
-      "reviewCount": "(3,412 reviews)",
+      "reviewCount": "(6,214 reviews)",
       "cta": "Check Price",
-      "ctaUrl": "https://coopsleepgoods.com/products/the-original-pillow"
+      "ctaUrl": "https://www.tempurpedic.com/shop-pillows/tempur-cloud-pillow/"
     },
     {
       "rank": "3",
@@ -65,114 +81,113 @@
         "Firm foam that holds its height.",
         "No room for your arm; awkward if you roll onto your back."
       ],
-      "score": "9.0",
+      "score": "9.2",
       "stars": 5,
-      "reviewCount": "(2,187 reviews)",
+      "reviewCount": "(4,187 reviews)",
       "discountText": "10% off",
       "cta": "Check Price",
       "ctaUrl": "https://pillowcube.com/products/side-cube-original"
     },
     {
       "rank": "4",
-      "badge": "Best Affordable",
-      "name": "Kally Ultimate Side Sleeper Pillow",
+      "badge": "Hot Deal",
+      "name": "Coop Home Goods Original Adjustable Pillow",
       "features": [
-        "Budget-friendly contoured design.",
-        "Curved cutout for the shoulder.",
-        "Lower-density foam softens over time."
+        "Removable shredded foam fill to tune the loft.",
+        "Soft, cushy feel for combination sleepers.",
+        "Fill shifts and flattens under your shoulder overnight."
       ],
-      "score": "8.8",
-      "stars": 4,
-      "reviewCount": "(1,904 reviews)",
+      "score": "9.0",
+      "stars": 5,
+      "reviewCount": "(8,412 reviews)",
       "discountText": "15% off",
       "cta": "Check Price",
-      "ctaUrl": "https://kallysleep.com/products/ultimate-side-sleeper-pillow"
+      "ctaUrl": "https://coopsleepgoods.com/products/the-original-pillow"
     },
     {
       "rank": "5",
-      "name": "Mediflow Water Pillow – Memory Foam",
+      "name": "Purple Harmony™ Pillow",
       "features": [
-        "Water base lets you adjust firmness.",
-        "Memory foam top layer for comfort.",
-        "Heavy and can slosh when you change position."
+        "Hex grid latex core sleeps cool.",
+        "Bouncy, responsive support.",
+        "Premium price with no arm or shoulder zones."
       ],
-      "score": "8.6",
+      "score": "8.8",
       "stars": 4,
-      "reviewCount": "(1,288 reviews)",
+      "reviewCount": "(2,968 reviews)",
       "cta": "Check Price",
-      "ctaUrl": "https://mediflow.com/products/the-water-pillow-by-mediflow-european-memory-foam-1"
+      "ctaUrl": "https://purple.com/pillows/harmony-pillow"
     },
     {
       "rank": "6",
+      "name": "Eli & Elm Side Sleeper Pillow",
+      "features": [
+        "U-shaped cutout curves around the shoulder.",
+        "Adjustable latex and fiber fill.",
+        "Heavy and bulky; fill needs regular fluffing."
+      ],
+      "score": "8.6",
+      "stars": 4,
+      "reviewCount": "(1,742 reviews)",
+      "cta": "Check Price",
+      "ctaUrl": "https://www.eliandelm.com/products/side-sleeper-pillow"
+    },
+    {
+      "rank": "7",
+      "name": "Tempur-Pedic TEMPUR-Neck™ Pillow",
+      "features": [
+        "Ergonomic wave contour for neck support.",
+        "Firm, dense TEMPUR® material.",
+        "Contour suits back sleepers more than side sleepers."
+      ],
+      "score": "8.4",
+      "stars": 4,
+      "reviewCount": "(3,105 reviews)",
+      "cta": "Check Price",
+      "ctaUrl": "https://www.tempurpedic.com/shop-pillows/tempur-neck-pillow/"
+    },
+    {
+      "rank": "8",
+      "name": "Avocado Green Pillow",
+      "features": [
+        "Organic latex and kapok fill.",
+        "Adjustable loft with removable fill.",
+        "Firm latex chunks can feel lumpy at first."
+      ],
+      "score": "8.2",
+      "stars": 4,
+      "reviewCount": "(1,236 reviews)",
+      "cta": "Check Price",
+      "ctaUrl": "https://www.avocadogreenmattress.com/products/green-pillow"
+    },
+    {
+      "rank": "9",
+      "badge": "Best Affordable",
+      "name": "Brooklinen Marlow Pillow",
+      "features": [
+        "Zippered sides let you adjust the loft.",
+        "Cooling cover and polyester-foam blend.",
+        "Traditional rectangle shape with no shoulder contour."
+      ],
+      "score": "8.0",
+      "stars": 4,
+      "reviewCount": "(2,051 reviews)",
+      "cta": "Check Price",
+      "ctaUrl": "https://www.brooklinen.com/products/marlow-pillow"
+    },
+    {
+      "rank": "10",
       "name": "Coop Home Goods Eden Adjustable Pillow",
       "features": [
         "Gel-infused shredded foam fill.",
         "Adjustable loft for different sleepers.",
         "No dedicated arm or shoulder zones."
       ],
-      "score": "8.4",
+      "score": "7.8",
       "stars": 4,
       "reviewCount": "(986 reviews)",
       "cta": "Check Price",
       "ctaUrl": "https://coopsleepgoods.com/products/the-eden-pillow"
-    },
-    {
-      "rank": "7",
-      "badge": "Hot Deal",
-      "name": "Kally Neck Pain Pillow",
-      "features": [
-        "Cervical contour with raised neck roll.",
-        "Entry-level price point.",
-        "Firm neck roll can feel too high for some."
-      ],
-      "score": "8.2",
-      "stars": 4,
-      "reviewCount": "(1,563 reviews)",
-      "discountText": "20% off",
-      "cta": "Check Price",
-      "ctaUrl": "https://kallysleep.com/products/neck-pain-pillow"
-    },
-    {
-      "rank": "8",
-      "name": "Coop Home Goods Cool+ Adjustable Pillow",
-      "features": [
-        "Cooling cover for hot sleepers.",
-        "Customizable shredded foam fill.",
-        "Premium price for a traditional shape."
-      ],
-      "score": "8.0",
-      "stars": 4,
-      "reviewCount": "(742 reviews)",
-      "cta": "Check Price",
-      "ctaUrl": "https://coopsleepgoods.com/products/the-eden-cool"
-    },
-    {
-      "rank": "9",
-      "name": "SleepJoy CopperFresh Advanced Contour Pillow",
-      "features": [
-        "Copper-infused memory foam.",
-        "Classic wave contour for neck support.",
-        "Contour is sized more for back sleepers."
-      ],
-      "score": "7.8",
-      "stars": 4,
-      "reviewCount": "(615 reviews)",
-      "cta": "Check Price",
-      "ctaUrl": "https://sleepjoy.com/products/copperfresh-advanced-contour-antimicrobial-cooling-pillow"
-    },
-    {
-      "rank": "10",
-      "name": "Kally Cooling Pillow",
-      "features": [
-        "Breathable cooling fabric.",
-        "Soft, plush traditional feel.",
-        "Flat profile offers little shoulder support."
-      ],
-      "score": "7.6",
-      "stars": 4,
-      "reviewCount": "(498 reviews)",
-      "cta": "Check Price",
-      "ctaUrl": "https://kallysleep.com/products/cooling-pillow"
     }
   ],
   "topPick": {
@@ -222,10 +237,22 @@
   "relatedCategories": {
     "title": "You Might Also Like",
     "items": [
-      { "label": "Knee Pillows", "href": "#" },
-      { "label": "Body Pillows", "href": "#" },
-      { "label": "Wedge Pillows", "href": "#" },
-      { "label": "Cooling Pillowcases", "href": "#" }
+      {
+        "label": "Knee Pillows",
+        "href": "#"
+      },
+      {
+        "label": "Body Pillows",
+        "href": "#"
+      },
+      {
+        "label": "Wedge Pillows",
+        "href": "#"
+      },
+      {
+        "label": "Cooling Pillowcases",
+        "href": "#"
+      }
     ]
   },
   "overview": {
@@ -239,7 +266,7 @@
     "title": "Top Pillows for Side Sleepers",
     "items": [
       "AURELUNE Cloud Ergonomic Contoured Pillow",
-      "Coop Home Goods Original Adjustable Pillow",
+      "Tempur-Pedic TEMPUR-Cloud® Pillow",
       "Pillow Cube Side Cube Original"
     ]
   },
@@ -278,12 +305,30 @@
       "successMessage": "Subscribed successfully!"
     },
     "links": [
-      { "label": "About Us", "href": "#" },
-      { "label": "Privacy Policy", "href": "#" },
-      { "label": "Terms and Conditions", "href": "#" },
-      { "label": "CCPA Privacy Notice", "href": "#" },
-      { "label": "Data Subject Request Form", "href": "#" },
-      { "label": "Contact Us", "href": "#" }
+      {
+        "label": "About Us",
+        "href": "#"
+      },
+      {
+        "label": "Privacy Policy",
+        "href": "#"
+      },
+      {
+        "label": "Terms and Conditions",
+        "href": "#"
+      },
+      {
+        "label": "CCPA Privacy Notice",
+        "href": "#"
+      },
+      {
+        "label": "Data Subject Request Form",
+        "href": "#"
+      },
+      {
+        "label": "Contact Us",
+        "href": "#"
+      }
     ],
     "copyright": "© BuyReviews",
     "advertisingDisclosure": "We may earn a commission when you buy through links on this page. Rankings reflect our editorial assessment.",

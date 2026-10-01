@@ -34,9 +34,10 @@ export function SleepingProductCard(props: ProductCardProps) {
             {props.rank}
           </div>
           {props.badge && (
-            <div className="items-center flex flex-col h-fit justify-center ml-[35px] md:ml-[50px]">
-              <div className="relative bg-amber-400 h-[30px] w-40" />
-              <span className="absolute text-base font-bold block">{props.badge}</span>
+            <div className="flex h-fit ml-[35px] md:ml-[50px]">
+              <span className="bg-amber-400 text-base font-bold leading-[30px] min-w-40 px-4 text-center whitespace-nowrap">
+                {props.badge}
+              </span>
             </div>
           )}
         </div>
