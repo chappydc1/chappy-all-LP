@@ -1,0 +1,33 @@
+{
+  "logo": "/lp-images-files-videos-fonts/com/sleeping/images/logo.png",
+  "amazonBadge": "/lp-images-files-videos-fonts/com/sleeping/images/amazon-badge.png",
+  "footerBg": "/lp-images-files-videos-fonts/com/sleeping/images/footer-bg.png",
+  "footerLogo": "/lp-images-files-videos-fonts/com/sleeping/images/footer-logo.png",
+  "topPick": "/lp-images-files-videos-fonts/com/sleeping/images/aurelune-cloud-side.jpg",
+  "icons": {
+    "nav": "/lp-images-files-videos-fonts/com/sleeping/images/icon-nav.svg",
+    "dropdown": "/lp-images-files-videos-fonts/com/sleeping/images/icon-dropdown.svg",
+    "disclosure": "/lp-images-files-videos-fonts/com/sleeping/images/icon-disclosure.svg",
+    "check": "/lp-images-files-videos-fonts/com/sleeping/images/icon-check.svg",
+    "starFull": "/lp-images-files-videos-fonts/com/sleeping/images/icon-star-full.svg",
+    "starHalf": "/lp-images-files-videos-fonts/com/sleeping/images/icon-star-half.svg"
+  },
+  "products": [
+    "/lp-images-files-videos-fonts/com/sleeping/images/01-aurelune-cloud.jpg",
+    "/lp-images-files-videos-fonts/com/sleeping/images/02-coop-original.png",
+    "/lp-images-files-videos-fonts/com/sleeping/images/03-pillow-cube-side.jpg",
+    "/lp-images-files-videos-fonts/com/sleeping/images/04-kally-side-sleeper.png",
+    "/lp-images-files-videos-fonts/com/sleeping/images/05-mediflow-memory-foam.png",
+    "/lp-images-files-videos-fonts/com/sleeping/images/06-coop-eden.png",
+    "/lp-images-files-videos-fonts/com/sleeping/images/07-kally-neck-pain.png",
+    "/lp-images-files-videos-fonts/com/sleeping/images/08-coop-cool-plus.png",
+    "/lp-images-files-videos-fonts/com/sleeping/images/09-sleepjoy-contour.jpg",
+    "/lp-images-files-videos-fonts/com/sleeping/images/10-kally-cooling.jpg"
+  ],
+  "relatedCategories": [
+    "/lp-images-files-videos-fonts/com/sleeping/images/related-knee-pillow.jpg",
+    "/lp-images-files-videos-fonts/com/sleeping/images/related-body-pillow.png",
+    "/lp-images-files-videos-fonts/com/sleeping/images/related-wedge-pillow.jpg",
+    "/lp-images-files-videos-fonts/com/sleeping/images/related-cooling-pillowcase.jpg"
+  ]
+}
