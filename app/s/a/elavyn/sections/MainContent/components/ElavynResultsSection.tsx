@@ -4,7 +4,7 @@ export const ElavynResultsSection = () => {
       <div className="relative text-[15px] box-border caret-transparent flex flex-col justify-start leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] md:text-base md:leading-[28.8px]">
         <div className="text-[15px] box-border caret-transparent leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left mb-2 md:text-base md:leading-[28.8px]">
           <div className="text-[15px] box-border caret-transparent flex leading-[27px] max-w-full outline-[3px] md:text-base md:leading-[28.8px]">
-            <h2 className="text-neutral-900 text-2xl font-bold bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[31.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-playfair_display md:text-[32px] md:leading-[41.6px]">
+            <h2 className="text-neutral-900 text-2xl font-bold bg-no-repeat bg-cover box-border caret-transparent leading-[31.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-playfair_display md:text-[32px] md:leading-[41.6px]">
               The Results That Have Doctors Quietly Ordering For Themselves
             </h2>
           </div>
@@ -25,7 +25,7 @@ export const ElavynResultsSection = () => {
         </div>
         <div className="text-[15px] box-border caret-transparent leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left md:text-base md:leading-[28.8px]">
           <div className="text-[15px] box-border caret-transparent flex leading-[27px] max-w-full outline-[3px] md:text-base md:leading-[28.8px]">
-            <h2 className="text-neutral-900 text-lg bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[25.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-bitter">
+            <h2 className="text-neutral-900 text-lg bg-no-repeat bg-cover box-border caret-transparent leading-[25.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-bitter">
               In the 11 months since we launched, over 13,900 Black folk with
               declining kidney function have tried Elavyn Flow+.
               <br className="box-border caret-transparent max-w-full outline-[3px]" />
@@ -36,7 +36,7 @@ export const ElavynResultsSection = () => {
         </div>
         <div className="text-[15px] box-border caret-transparent leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] md:text-base md:leading-[28.8px]">
           <div className="text-[15px] box-border caret-transparent flex leading-[27px] max-w-full outline-[3px] my-3 md:text-base md:leading-[28.8px]">
-            <div className="text-[15px] bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent flex leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full bg-center md:text-base md:leading-[28.8px]">
+            <div className="text-[15px] bg-no-repeat bg-cover box-border caret-transparent flex leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full bg-center md:text-base md:leading-[28.8px]">
               <div className="text-[15px] box-border caret-transparent flex flex-col leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] gap-y-1 md:text-base md:leading-[28.8px]">
                 <div className="text-[15px] items-center box-border caret-transparent gap-x-0 flex leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] md:text-base md:leading-[28.8px]">
                   <div className="text-[15px] box-border caret-transparent flex shrink-0 leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] overflow-hidden md:text-base md:leading-[28.8px]">
@@ -185,7 +185,7 @@ export const ElavynResultsSection = () => {
         </div>
         <div className="text-[15px] box-border caret-transparent leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left mb-6 md:text-base md:leading-[28.8px]">
           <div className="text-[15px] box-border caret-transparent flex leading-[27px] max-w-full outline-[3px] md:text-base md:leading-[28.8px]">
-            <h2 className="text-neutral-900 text-lg bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[25.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-bitter">
+            <h2 className="text-neutral-900 text-lg bg-no-repeat bg-cover box-border caret-transparent leading-[25.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-bitter">
               But here&#39;s the number that tells you everything you need to
               know:
               <br className="box-border caret-transparent max-w-full outline-[3px]" />
@@ -213,7 +213,7 @@ export const ElavynResultsSection = () => {
           <div className="relative text-[15px] box-border caret-transparent flex flex-col justify-start leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] md:text-base md:leading-[28.8px]">
             <div className="text-[15px] box-border caret-transparent leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left md:text-base md:leading-[28.8px]">
               <div className="text-[15px] box-border caret-transparent flex leading-[27px] max-w-full outline-[3px] md:text-base md:leading-[28.8px]">
-                <div className="text-black text-lg bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[28.8px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-bitter md:leading-[27px]">
+                <div className="text-black text-lg bg-no-repeat bg-cover box-border caret-transparent leading-[28.8px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-bitter md:leading-[27px]">
                   <p className="box-border caret-transparent leading-[28.8px] max-w-full outline-[3px] md:leading-[27px]">
                     <span className="text-slate-800 bg-white box-border caret-transparent leading-[28.8px] max-w-full outline-[3px] md:leading-[27px]">
                       <strong className="font-bold box-border caret-transparent leading-[28.8px] max-w-full outline-[3px] md:leading-[27px]">
@@ -239,7 +239,7 @@ export const ElavynResultsSection = () => {
           <div className="relative text-[15px] box-border caret-transparent flex flex-col justify-start leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] md:text-base md:leading-[28.8px]">
             <div className="text-[15px] box-border caret-transparent leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left md:text-base md:leading-[28.8px]">
               <div className="text-[15px] box-border caret-transparent flex leading-[27px] max-w-full outline-[3px] md:text-base md:leading-[28.8px]">
-                <div className="text-black text-lg bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[28.8px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-bitter md:leading-[27px]">
+                <div className="text-black text-lg bg-no-repeat bg-cover box-border caret-transparent leading-[28.8px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-bitter md:leading-[27px]">
                   <p className="box-border caret-transparent leading-[28.8px] max-w-full outline-[3px] md:leading-[27px]">
                     <span className="text-slate-800 bg-white box-border caret-transparent leading-[28.8px] max-w-full outline-[3px] md:leading-[27px]">
                       <strong className="font-bold box-border caret-transparent leading-[28.8px] max-w-full outline-[3px] md:leading-[27px]">
@@ -265,7 +265,7 @@ export const ElavynResultsSection = () => {
           <div className="relative text-[15px] box-border caret-transparent flex flex-col justify-start leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] md:text-base md:leading-[28.8px]">
             <div className="text-[15px] box-border caret-transparent leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left md:text-base md:leading-[28.8px]">
               <div className="text-[15px] box-border caret-transparent flex leading-[27px] max-w-full outline-[3px] md:text-base md:leading-[28.8px]">
-                <div className="text-black text-lg bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[28.8px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-bitter md:leading-[27px]">
+                <div className="text-black text-lg bg-no-repeat bg-cover box-border caret-transparent leading-[28.8px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-bitter md:leading-[27px]">
                   <p className="box-border caret-transparent leading-[28.8px] max-w-full outline-[3px] md:leading-[27px]">
                     <span className="text-slate-800 bg-white box-border caret-transparent leading-[28.8px] max-w-full outline-[3px] md:leading-[27px]">
                       <strong className="font-bold box-border caret-transparent leading-[28.8px] max-w-full outline-[3px] md:leading-[27px]">

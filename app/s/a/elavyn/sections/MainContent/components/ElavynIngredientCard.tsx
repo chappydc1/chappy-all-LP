@@ -27,7 +27,7 @@ export const ElavynIngredientCard = (props: ElavynIngredientCardProps) => {
         </div>
         <div className="text-[15px] box-border caret-transparent leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left md:text-base md:leading-[28.8px]">
           <div className="text-[15px] box-border caret-transparent flex leading-[27px] max-w-full outline-[3px] md:text-base md:leading-[28.8px]">
-            <div className="text-black text-xl font-bold bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-8 max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-center w-full overflow-hidden bg-center font-bitter md:leading-[30px]">
+            <div className="text-black text-xl font-bold bg-no-repeat bg-cover box-border caret-transparent leading-8 max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-center w-full overflow-hidden bg-center font-bitter md:leading-[30px]">
               <p className="box-border caret-transparent leading-8 max-w-full outline-[3px] md:leading-[30px]">
                 {props.title}
               </p>
@@ -36,7 +36,7 @@ export const ElavynIngredientCard = (props: ElavynIngredientCardProps) => {
         </div>
         <div className="text-[15px] box-border caret-transparent leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left md:text-base md:leading-[28.8px]">
           <div className="text-[15px] box-border caret-transparent flex leading-[27px] max-w-full outline-[3px] md:text-base md:leading-[28.8px]">
-            <div className="text-black text-lg bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[25.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-center w-full overflow-hidden bg-center font-bitter md:leading-[27px]">
+            <div className="text-black text-lg bg-no-repeat bg-cover box-border caret-transparent leading-[25.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-center w-full overflow-hidden bg-center font-bitter md:leading-[27px]">
               {props.children}
             </div>
           </div>

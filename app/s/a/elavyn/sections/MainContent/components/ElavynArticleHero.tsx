@@ -5,11 +5,11 @@ export const ElavynArticleHero = () => {
   return (
     <section className="text-[15px] box-border caret-transparent contents leading-[27px] outline-[3px] scroll-smooth font-ui_sans_serif md:text-base md:leading-[28.8px]">
       <section className="text-[15px] box-border caret-transparent leading-[27px] max-w-full outline-[3px] w-[calc(100%_+_32px)] mx-auto md:text-base md:leading-[28.8px] md:w-full">
-        <div className="relative text-[15px] content-start bg-gray-100 bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent gap-x-4 grid grid-cols-[minmax(0px,12fr)] grid-rows-[1fr] justify-start leading-[27px] max-w-full outline-[3px] gap-y-0 w-full bg-center mx-auto pt-4 md:text-base md:leading-[28.8px] md:pt-8">
+        <div className="relative text-[15px] content-start bg-gray-100 bg-no-repeat bg-cover box-border caret-transparent gap-x-4 grid grid-cols-[minmax(0px,12fr)] grid-rows-[1fr] justify-start leading-[27px] max-w-full outline-[3px] gap-y-0 w-full bg-center mx-auto pt-4 md:text-base md:leading-[28.8px] md:pt-8">
           <div className="relative text-[15px] box-border caret-transparent flex flex-col justify-start leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] md:text-base md:leading-[28.8px]">
-            <div className="relative text-[15px] content-start bg-white bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent gap-x-8 grid grid-cols-[minmax(0px,12fr)] grid-rows-[1fr] justify-start leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] gap-y-0 w-full bg-center mx-auto p-4 md:text-base md:grid-cols-[minmax(0px,9fr)_minmax(0px,3fr)] md:leading-[28.8px] md:w-3/5">
+            <div className="relative text-[15px] content-start bg-white bg-no-repeat bg-cover box-border caret-transparent gap-x-8 grid grid-cols-[minmax(0px,12fr)] grid-rows-[1fr] justify-start leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] gap-y-0 w-full bg-center mx-auto p-4 md:text-base md:grid-cols-[minmax(0px,9fr)_minmax(0px,3fr)] md:leading-[28.8px] md:w-3/5">
               <div className="relative text-[15px] box-border caret-transparent flex flex-col justify-start leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] md:text-base md:leading-[28.8px]">
-                <div className="text-[15px] bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left bg-center mb-1 md:text-base md:leading-[28.8px]">
+                <div className="text-[15px] bg-no-repeat bg-cover box-border caret-transparent leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left bg-center mb-1 md:text-base md:leading-[28.8px]">
                   <div className="text-[15px] box-border caret-transparent leading-[27px] max-w-full outline-[3px] md:text-base md:leading-[28.8px]">
                     <div className="text-neutral-600 text-sm items-center box-border caret-transparent flex leading-[25.2px] max-w-full outline-[3px] font-arial">
                       <div className="bg-cyan-950 box-border caret-transparent hidden h-6 max-w-full outline-[3px] w-6 mr-4"></div>
@@ -29,7 +29,7 @@ export const ElavynArticleHero = () => {
                 </div>
                 <div className="text-[15px] box-border caret-transparent leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left md:text-base md:leading-[28.8px]">
                   <div className="text-[15px] box-border caret-transparent flex leading-[27px] max-w-full outline-[3px] md:text-base md:leading-[28.8px]">
-                    <h2 className="text-neutral-900 text-[26px] font-bold bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[33.8px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-playfair_display md:text-[38px] md:leading-[49.4px]">
+                    <h2 className="text-neutral-900 text-[26px] font-bold bg-no-repeat bg-cover box-border caret-transparent leading-[33.8px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-playfair_display md:text-[38px] md:leading-[49.4px]">
                       Black Nephrologist Exposes the
                       <span className="text-black text-[26px] box-border caret-transparent leading-[33.8px] max-w-full outline-[3px] md:text-[38px] md:leading-[49.4px]">
                         {" "}
@@ -42,7 +42,7 @@ export const ElavynArticleHero = () => {
                 </div>
                 <div className="text-[15px] box-border caret-transparent leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left my-2 md:text-base md:leading-[28.8px]">
                   <div className="text-[15px] box-border caret-transparent flex leading-[27px] max-w-full outline-[3px] md:text-base md:leading-[28.8px]">
-                    <h2 className="text-neutral-900 text-base bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[22.4px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-bitter md:text-lg md:leading-[25.2px]">
+                    <h2 className="text-neutral-900 text-base bg-no-repeat bg-cover box-border caret-transparent leading-[22.4px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-bitter md:text-lg md:leading-[25.2px]">
                       Former chronic kidney disease sufferer&#39;s husband and
                       board-certified nephrologist exposes the kidney
                       industry&#39;s &#39;ACE Inhibitor Playbook&#39; conspiracy
@@ -54,7 +54,7 @@ export const ElavynArticleHero = () => {
                 </div>
                 <div className="text-[15px] box-border caret-transparent leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left mt-2 mb-1 md:text-base md:leading-[28.8px] md:mb-0">
                   <div className="text-[15px] box-border caret-transparent flex leading-[27px] max-w-full outline-[3px] md:text-base md:leading-[28.8px]">
-                    <h2 className="text-blue-700 text-sm font-medium bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[18.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-figtree md:leading-[19.6px]">
+                    <h2 className="text-blue-700 text-sm font-medium bg-no-repeat bg-cover box-border caret-transparent leading-[18.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-figtree md:leading-[19.6px]">
                       Tue. March 17th, 2026 | 11:11 am EST - 238,392{" "}
                       <strong className="font-bold box-border caret-transparent leading-[18.2px] max-w-full outline-[3px] md:leading-[19.6px]">
                         👁
@@ -87,7 +87,7 @@ export const ElavynArticleHero = () => {
                 />
                 <div className="text-[15px] box-border caret-transparent leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left mb-6 md:text-base md:leading-[28.8px] md:mb-4">
                   <div className="text-[15px] box-border caret-transparent flex leading-[27px] max-w-full outline-[3px] md:text-base md:leading-[28.8px]">
-                    <h2 className="text-zinc-800 text-lg bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[25.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-bitter">
+                    <h2 className="text-zinc-800 text-lg bg-no-repeat bg-cover box-border caret-transparent leading-[25.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-bitter">
                       I&#39;m about to piss off every nephrologist, dialysis
                       center, and pharmaceutical company in America.
                       <br className="box-border caret-transparent max-w-full outline-[3px]" />
@@ -166,7 +166,7 @@ export const ElavynArticleHero = () => {
                   <div className="relative text-[15px] box-border caret-transparent flex flex-col justify-start leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] md:text-base md:leading-[28.8px]">
                     <div className="text-[15px] box-border caret-transparent leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left mb-2 md:text-base md:leading-[28.8px]">
                       <div className="text-[15px] box-border caret-transparent flex leading-[27px] max-w-full outline-[3px] md:text-base md:leading-[28.8px]">
-                        <h2 className="text-neutral-900 text-2xl font-bold bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[31.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-playfair_display md:text-[32px] md:leading-[41.6px]">
+                        <h2 className="text-neutral-900 text-2xl font-bold bg-no-repeat bg-cover box-border caret-transparent leading-[31.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-playfair_display md:text-[32px] md:leading-[41.6px]">
                           The Day Everything Changed...
                         </h2>
                       </div>
@@ -187,7 +187,7 @@ export const ElavynArticleHero = () => {
                     </div>
                     <div className="text-[15px] box-border caret-transparent leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left md:text-base md:leading-[28.8px]">
                       <div className="text-[15px] box-border caret-transparent flex leading-[27px] max-w-full outline-[3px] md:text-base md:leading-[28.8px]">
-                        <h2 className="text-neutral-900 text-lg bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[25.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-bitter">
+                        <h2 className="text-neutral-900 text-lg bg-no-repeat bg-cover box-border caret-transparent leading-[25.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-bitter">
                           It was 9:14 AM on a Saturday. March 4th, 2023.
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
@@ -294,7 +294,7 @@ export const ElavynArticleHero = () => {
                   <div className="relative text-[15px] box-border caret-transparent flex flex-col justify-start leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] md:text-base md:leading-[28.8px]">
                     <div className="text-[15px] box-border caret-transparent leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left md:text-base md:leading-[28.8px]">
                       <div className="text-[15px] box-border caret-transparent flex leading-[27px] max-w-full outline-[3px] md:text-base md:leading-[28.8px]">
-                        <h2 className="text-neutral-900 text-lg bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[25.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-bitter">
+                        <h2 className="text-neutral-900 text-lg bg-no-repeat bg-cover box-border caret-transparent leading-[25.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-bitter">
                           I&#39;d tried everything 26 years of training taught
                           me:
                         </h2>
@@ -302,7 +302,7 @@ export const ElavynArticleHero = () => {
                     </div>
                     <div className="text-[15px] box-border caret-transparent leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] md:text-base md:leading-[28.8px]">
                       <div className="text-[15px] box-border caret-transparent flex leading-[27px] max-w-full outline-[3px] my-3 md:text-base md:leading-[28.8px]">
-                        <div className="text-[15px] bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent flex leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full bg-center md:text-base md:leading-[28.8px]">
+                        <div className="text-[15px] bg-no-repeat bg-cover box-border caret-transparent flex leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full bg-center md:text-base md:leading-[28.8px]">
                           <div className="text-[15px] box-border caret-transparent flex flex-col leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] gap-y-2 md:text-base md:leading-[28.8px]">
                             <div className="text-[15px] items-center box-border caret-transparent gap-x-2 flex leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] md:text-base md:leading-[28.8px]">
                               <div className="text-[15px] box-border caret-transparent flex shrink-0 leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] overflow-hidden md:text-base md:leading-[28.8px]">
@@ -435,7 +435,7 @@ export const ElavynArticleHero = () => {
                     </div>
                     <div className="text-[15px] box-border caret-transparent leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left md:text-base md:leading-[28.8px]">
                       <div className="text-[15px] box-border caret-transparent flex leading-[27px] max-w-full outline-[3px] md:text-base md:leading-[28.8px]">
-                        <h2 className="text-neutral-900 text-lg bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[25.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-bitter">
+                        <h2 className="text-neutral-900 text-lg bg-no-repeat bg-cover box-border caret-transparent leading-[25.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-bitter">
                           <span className="text-black box-border caret-transparent max-w-full outline-[3px]">
                             Nothing worked for more than a few weeks.
                           </span>
@@ -521,7 +521,7 @@ export const ElavynArticleHero = () => {
                   <div className="relative text-[15px] box-border caret-transparent flex flex-col justify-start leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] md:text-base md:leading-[28.8px]">
                     <div className="text-[15px] box-border caret-transparent leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left mb-2 md:text-base md:leading-[28.8px]">
                       <div className="text-[15px] box-border caret-transparent flex leading-[27px] max-w-full outline-[3px] md:text-base md:leading-[28.8px]">
-                        <h2 className="text-neutral-900 text-2xl font-bold bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[31.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-playfair_display md:text-[32px] md:leading-[41.6px]">
+                        <h2 className="text-neutral-900 text-2xl font-bold bg-no-repeat bg-cover box-border caret-transparent leading-[31.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-playfair_display md:text-[32px] md:leading-[41.6px]">
                           What 94 Days Of Research Finally Revealed
                         </h2>
                       </div>
@@ -543,7 +543,7 @@ export const ElavynArticleHero = () => {
                     </div>
                     <div className="text-[15px] box-border caret-transparent leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left md:text-base md:leading-[28.8px]">
                       <div className="text-[15px] box-border caret-transparent flex leading-[27px] max-w-full outline-[3px] md:text-base md:leading-[28.8px]">
-                        <h2 className="text-neutral-900 text-lg bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[25.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-bitter">
+                        <h2 className="text-neutral-900 text-lg bg-no-repeat bg-cover box-border caret-transparent leading-[25.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-bitter">
                           <span className="text-black box-border caret-transparent max-w-full outline-[3px]">
                             For the next 94 days, I lived like a man possessed.
                           </span>
@@ -601,11 +601,11 @@ export const ElavynArticleHero = () => {
                         </h2>
                       </div>
                     </div>
-                    <div className="relative text-[15px] content-start bg-red-700 bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent gap-x-4 grid grid-cols-[minmax(0px,12fr)] grid-rows-[1fr] justify-start leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] gap-y-0 w-full bg-center mx-auto my-3.5 p-2 md:text-base md:leading-[28.8px] md:w-[1200px]">
+                    <div className="relative text-[15px] content-start bg-red-700 bg-no-repeat bg-cover box-border caret-transparent gap-x-4 grid grid-cols-[minmax(0px,12fr)] grid-rows-[1fr] justify-start leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] gap-y-0 w-full bg-center mx-auto my-3.5 p-2 md:text-base md:leading-[28.8px] md:w-[1200px]">
                       <div className="relative text-[15px] box-border caret-transparent flex flex-col justify-start leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] md:text-base md:leading-[28.8px]">
                         <div className="text-[15px] box-border caret-transparent leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left md:text-base md:leading-[28.8px]">
                           <div className="text-[15px] box-border caret-transparent flex leading-[27px] max-w-full outline-[3px] md:text-base md:leading-[28.8px]">
-                            <h2 className="text-white text-lg bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[25.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-bitter md:text-xl md:leading-7">
+                            <h2 className="text-white text-lg bg-no-repeat bg-cover box-border caret-transparent leading-[25.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-bitter md:text-xl md:leading-7">
                               <strong className="text-lg font-bold box-border caret-transparent leading-[25.2px] max-w-full outline-[3px] md:text-xl md:leading-7">
                                 Chronic kidney decline is an INVASION — zombie
                                 cells destroying filtration from the inside.
@@ -617,7 +617,7 @@ export const ElavynArticleHero = () => {
                     </div>
                     <div className="text-[15px] box-border caret-transparent leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left md:text-base md:leading-[28.8px]">
                       <div className="text-[15px] box-border caret-transparent flex leading-[27px] max-w-full outline-[3px] md:text-base md:leading-[28.8px]">
-                        <h2 className="text-neutral-900 text-lg bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[25.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-bitter">
+                        <h2 className="text-neutral-900 text-lg bg-no-repeat bg-cover box-border caret-transparent leading-[25.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-bitter">
                           And for reasons tied directly to biology, it targets
                           Black folk at more than 3x the rate of anyone else.
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
@@ -651,7 +651,7 @@ export const ElavynArticleHero = () => {
                   <div className="relative text-[15px] box-border caret-transparent flex flex-col justify-start leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] md:text-base md:leading-[28.8px]">
                     <div className="text-[15px] box-border caret-transparent leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left mb-2 md:text-base md:leading-[28.8px]">
                       <div className="text-[15px] box-border caret-transparent flex leading-[27px] max-w-full outline-[3px] md:text-base md:leading-[28.8px]">
-                        <h2 className="text-neutral-900 text-2xl font-bold bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[31.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-playfair_display md:text-[32px] md:leading-[41.6px]">
+                        <h2 className="text-neutral-900 text-2xl font-bold bg-no-repeat bg-cover box-border caret-transparent leading-[31.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-playfair_display md:text-[32px] md:leading-[41.6px]">
                           The Real Root Cause They&#39;re Hiding
                         </h2>
                       </div>
@@ -673,7 +673,7 @@ export const ElavynArticleHero = () => {
                     </div>
                     <div className="text-[15px] box-border caret-transparent leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left md:text-base md:leading-[28.8px]">
                       <div className="text-[15px] box-border caret-transparent flex leading-[27px] max-w-full outline-[3px] md:text-base md:leading-[28.8px]">
-                        <h2 className="text-neutral-900 text-lg bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[25.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-bitter">
+                        <h2 className="text-neutral-900 text-lg bg-no-repeat bg-cover box-border caret-transparent leading-[25.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-bitter">
                           Let me break this down in plain terms.
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
@@ -756,7 +756,7 @@ export const ElavynArticleHero = () => {
                 </div>
                 <div className="text-[15px] box-border caret-transparent leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left mb-2 md:text-base md:leading-[28.8px]">
                   <div className="text-[15px] box-border caret-transparent flex leading-[27px] max-w-full outline-[3px] md:text-base md:leading-[28.8px]">
-                    <h2 className="text-neutral-900 text-2xl font-bold bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[31.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-playfair_display md:text-[32px] md:leading-[41.6px]">
+                    <h2 className="text-neutral-900 text-2xl font-bold bg-no-repeat bg-cover box-border caret-transparent leading-[31.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-playfair_display md:text-[32px] md:leading-[41.6px]">
                       The &quot;Weathering Effect&quot;: Why Black People
                       Produce 247% More Zombie Cells Than ANY Other Race
                     </h2>
@@ -781,7 +781,7 @@ export const ElavynArticleHero = () => {
                     </div>
                     <div className="text-[15px] box-border caret-transparent leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left md:text-base md:leading-[28.8px]">
                       <div className="text-[15px] box-border caret-transparent flex leading-[27px] max-w-full outline-[3px] md:text-base md:leading-[28.8px]">
-                        <h2 className="text-neutral-900 text-lg bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[25.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-bitter">
+                        <h2 className="text-neutral-900 text-lg bg-no-repeat bg-cover box-border caret-transparent leading-[25.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-bitter">
                           <span className="text-red-600 box-border caret-transparent max-w-full outline-[3px]">
                             <strong className="font-bold box-border caret-transparent max-w-full outline-[3px]">
                               But here&#39;s the part that made me grip the edge
@@ -823,11 +823,11 @@ export const ElavynArticleHero = () => {
                         </h2>
                       </div>
                     </div>
-                    <div className="relative text-[15px] content-start bg-red-700 bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent gap-x-4 grid grid-cols-[minmax(0px,12fr)] grid-rows-[1fr] justify-start leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] gap-y-0 w-full bg-center mx-auto my-3.5 p-2 md:text-base md:leading-[28.8px] md:w-[1200px]">
+                    <div className="relative text-[15px] content-start bg-red-700 bg-no-repeat bg-cover box-border caret-transparent gap-x-4 grid grid-cols-[minmax(0px,12fr)] grid-rows-[1fr] justify-start leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] gap-y-0 w-full bg-center mx-auto my-3.5 p-2 md:text-base md:leading-[28.8px] md:w-[1200px]">
                       <div className="relative text-[15px] box-border caret-transparent flex flex-col justify-start leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] md:text-base md:leading-[28.8px]">
                         <div className="text-[15px] box-border caret-transparent leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left md:text-base md:leading-[28.8px]">
                           <div className="text-[15px] box-border caret-transparent flex leading-[27px] max-w-full outline-[3px] md:text-base md:leading-[28.8px]">
-                            <h2 className="text-white text-lg bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[25.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-bitter md:text-xl md:leading-7">
+                            <h2 className="text-white text-lg bg-no-repeat bg-cover box-border caret-transparent leading-[25.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-bitter md:text-xl md:leading-7">
                               <strong className="text-lg font-bold box-border caret-transparent leading-[25.2px] max-w-full outline-[3px] md:text-xl md:leading-7">
                                 Black people produced an average of 247% more
                                 &quot;zombie cells&quot; inside their kidneys
@@ -840,7 +840,7 @@ export const ElavynArticleHero = () => {
                     </div>
                     <div className="text-[15px] box-border caret-transparent leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left mb-2 md:text-base md:leading-[28.8px]">
                       <div className="text-[15px] box-border caret-transparent flex leading-[27px] max-w-full outline-[3px] md:text-base md:leading-[28.8px]">
-                        <h2 className="text-neutral-900 text-lg bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[25.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-bitter">
+                        <h2 className="text-neutral-900 text-lg bg-no-repeat bg-cover box-border caret-transparent leading-[25.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-bitter">
                           <span className="text-black box-border caret-transparent max-w-full outline-[3px]">
                             That&#39;s not a coincidence.
                           </span>
@@ -878,7 +878,7 @@ export const ElavynArticleHero = () => {
                     </div>
                     <div className="text-[15px] box-border caret-transparent leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] md:text-base md:leading-[28.8px]">
                       <div className="text-[15px] box-border caret-transparent flex leading-[27px] max-w-full outline-[3px] my-3 md:text-base md:leading-[28.8px]">
-                        <div className="text-[15px] bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent flex leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full bg-center md:text-base md:leading-[28.8px]">
+                        <div className="text-[15px] bg-no-repeat bg-cover box-border caret-transparent flex leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full bg-center md:text-base md:leading-[28.8px]">
                           <div className="text-[15px] box-border caret-transparent flex flex-col leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] gap-y-4 md:text-base md:leading-[28.8px]">
                             <div className="text-[15px] items-center box-border caret-transparent gap-x-2 flex leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] md:text-base md:leading-[28.8px]">
                               <div className="text-[15px] box-border caret-transparent flex shrink-0 leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] overflow-hidden md:text-base md:leading-[28.8px]">
@@ -1010,7 +1010,7 @@ export const ElavynArticleHero = () => {
                     </div>
                     <div className="text-[15px] box-border caret-transparent leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left md:text-base md:leading-[28.8px]">
                       <div className="text-[15px] box-border caret-transparent flex leading-[27px] max-w-full outline-[3px] md:text-base md:leading-[28.8px]">
-                        <h2 className="text-neutral-900 text-lg bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[25.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-bitter">
+                        <h2 className="text-neutral-900 text-lg bg-no-repeat bg-cover box-border caret-transparent leading-[25.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-bitter">
                           It&#39;s genius, really.
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                            
@@ -1027,7 +1027,7 @@ export const ElavynArticleHero = () => {
                   <div className="relative text-[15px] box-border caret-transparent flex flex-col justify-start leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] md:text-base md:leading-[28.8px]">
                     <div className="text-[15px] box-border caret-transparent leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left mb-2 md:text-base md:leading-[28.8px]">
                       <div className="text-[15px] box-border caret-transparent flex leading-[27px] max-w-full outline-[3px] md:text-base md:leading-[28.8px]">
-                        <h2 className="text-neutral-900 text-2xl font-bold bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[31.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-playfair_display md:text-[32px] md:leading-[41.6px]">
+                        <h2 className="text-neutral-900 text-2xl font-bold bg-no-repeat bg-cover box-border caret-transparent leading-[31.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-playfair_display md:text-[32px] md:leading-[41.6px]">
                           The Miracle Hiding In Plain Sight
                         </h2>
                       </div>
@@ -1049,7 +1049,7 @@ export const ElavynArticleHero = () => {
                     </div>
                     <div className="text-[15px] box-border caret-transparent leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left md:text-base md:leading-[28.8px]">
                       <div className="text-[15px] box-border caret-transparent flex leading-[27px] max-w-full outline-[3px] md:text-base md:leading-[28.8px]">
-                        <h2 className="text-neutral-900 text-lg bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[25.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-bitter">
+                        <h2 className="text-neutral-900 text-lg bg-no-repeat bg-cover box-border caret-transparent leading-[25.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-bitter">
                           <span className="text-black box-border caret-transparent max-w-full outline-[3px]">
                             Remember how I found my dear wife Denise crying on
                             the edge of our bed?
@@ -1063,11 +1063,11 @@ export const ElavynArticleHero = () => {
                         </h2>
                       </div>
                     </div>
-                    <div className="relative text-[15px] content-start bg-slate-200 bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent gap-x-4 grid grid-cols-[minmax(0px,12fr)] grid-rows-[1fr] justify-start leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] gap-y-0 w-full bg-center mx-auto my-3.5 p-2 md:text-base md:leading-[28.8px] md:w-[1200px]">
+                    <div className="relative text-[15px] content-start bg-slate-200 bg-no-repeat bg-cover box-border caret-transparent gap-x-4 grid grid-cols-[minmax(0px,12fr)] grid-rows-[1fr] justify-start leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] gap-y-0 w-full bg-center mx-auto my-3.5 p-2 md:text-base md:leading-[28.8px] md:w-[1200px]">
                       <div className="relative text-[15px] box-border caret-transparent flex flex-col justify-start leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] md:text-base md:leading-[28.8px]">
                         <div className="text-[15px] box-border caret-transparent leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left md:text-base md:leading-[28.8px]">
                           <div className="text-[15px] box-border caret-transparent flex leading-[27px] max-w-full outline-[3px] md:text-base md:leading-[28.8px]">
-                            <h2 className="text-neutral-900 text-lg bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[25.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-bitter md:text-xl md:leading-7">
+                            <h2 className="text-neutral-900 text-lg bg-no-repeat bg-cover box-border caret-transparent leading-[25.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-bitter md:text-xl md:leading-7">
                               <span className="text-black text-lg box-border caret-transparent leading-[25.2px] max-w-full outline-[3px] md:leading-7">
                                 <strong className="font-bold box-border caret-transparent leading-[25.2px] max-w-full outline-[3px] md:leading-7">
                                   61 days after my discovery, she hosted our
@@ -1081,7 +1081,7 @@ export const ElavynArticleHero = () => {
                     </div>
                     <div className="text-[15px] box-border caret-transparent leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left md:text-base md:leading-[28.8px]">
                       <div className="text-[15px] box-border caret-transparent flex leading-[27px] max-w-full outline-[3px] md:text-base md:leading-[28.8px]">
-                        <h2 className="text-neutral-900 text-lg bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[25.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-bitter">
+                        <h2 className="text-neutral-900 text-lg bg-no-repeat bg-cover box-border caret-transparent leading-[25.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-bitter">
                           <span className="text-black box-border caret-transparent max-w-full outline-[3px]">
                             On her feet for 5 hours. Her ring back on her
                             finger. Cooking, serving, laughing. 
@@ -1122,7 +1122,7 @@ export const ElavynArticleHero = () => {
                     </div>
                     <div className="text-[15px] box-border caret-transparent leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] md:text-base md:leading-[28.8px]">
                       <div className="text-[15px] box-border caret-transparent flex leading-[27px] max-w-full outline-[3px] my-3 md:text-base md:leading-[28.8px]">
-                        <div className="text-[15px] bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent flex leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full bg-center md:text-base md:leading-[28.8px]">
+                        <div className="text-[15px] bg-no-repeat bg-cover box-border caret-transparent flex leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full bg-center md:text-base md:leading-[28.8px]">
                           <div className="text-[15px] box-border caret-transparent flex flex-col leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] gap-y-1 md:text-base md:leading-[28.8px]">
                             <div className="text-[15px] items-center box-border caret-transparent gap-x-0 flex leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] md:text-base md:leading-[28.8px]">
                               <div className="text-[15px] box-border caret-transparent flex shrink-0 leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] overflow-hidden md:text-base md:leading-[28.8px]">
@@ -1225,7 +1225,7 @@ export const ElavynArticleHero = () => {
                     </div>
                     <div className="text-[15px] box-border caret-transparent leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left md:text-base md:leading-[28.8px]">
                       <div className="text-[15px] box-border caret-transparent flex leading-[27px] max-w-full outline-[3px] md:text-base md:leading-[28.8px]">
-                        <h2 className="text-neutral-900 text-lg bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[25.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-bitter">
+                        <h2 className="text-neutral-900 text-lg bg-no-repeat bg-cover box-border caret-transparent leading-[25.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-bitter">
                           So the fix isn&#39;t restricting what goes in. 
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
@@ -1271,7 +1271,7 @@ export const ElavynArticleHero = () => {
                     </div>
                     <div className="text-[15px] box-border caret-transparent leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] md:text-base md:leading-[28.8px]">
                       <div className="text-[15px] box-border caret-transparent flex leading-[27px] max-w-full outline-[3px] my-3 md:text-base md:leading-[28.8px]">
-                        <div className="text-[15px] bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent flex leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full bg-center md:text-base md:leading-[28.8px]">
+                        <div className="text-[15px] bg-no-repeat bg-cover box-border caret-transparent flex leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full bg-center md:text-base md:leading-[28.8px]">
                           <div className="text-[15px] box-border caret-transparent flex flex-col leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] gap-y-1 md:text-base md:leading-[28.8px]">
                             <div className="text-[15px] items-center box-border caret-transparent gap-x-0 flex leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] md:text-base md:leading-[28.8px]">
                               <div className="text-[15px] box-border caret-transparent flex shrink-0 leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] overflow-hidden md:text-base md:leading-[28.8px]">
@@ -1370,7 +1370,7 @@ export const ElavynArticleHero = () => {
                     </div>
                     <div className="text-[15px] box-border caret-transparent leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left md:text-base md:leading-[28.8px]">
                       <div className="text-[15px] box-border caret-transparent flex leading-[27px] max-w-full outline-[3px] md:text-base md:leading-[28.8px]">
-                        <h2 className="text-neutral-900 text-lg bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[25.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-bitter">
+                        <h2 className="text-neutral-900 text-lg bg-no-repeat bg-cover box-border caret-transparent leading-[25.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-bitter">
                           <span className="text-black box-border caret-transparent max-w-full outline-[3px]">
                             That&#39;s not a promise. 
                           </span>
@@ -1389,7 +1389,7 @@ export const ElavynArticleHero = () => {
                   <div className="relative text-[15px] box-border caret-transparent flex flex-col justify-start leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] md:text-base md:leading-[28.8px]">
                     <div className="text-[15px] box-border caret-transparent leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left mb-2 md:text-base md:leading-[28.8px]">
                       <div className="text-[15px] box-border caret-transparent flex leading-[27px] max-w-full outline-[3px] md:text-base md:leading-[28.8px]">
-                        <h2 className="text-neutral-900 text-2xl font-bold bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[31.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-playfair_display md:text-[32px] md:leading-[41.6px]">
+                        <h2 className="text-neutral-900 text-2xl font-bold bg-no-repeat bg-cover box-border caret-transparent leading-[31.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-playfair_display md:text-[32px] md:leading-[41.6px]">
                           This Breakthrough Is Pissing Off An Entire Industry
                         </h2>
                       </div>
@@ -1410,7 +1410,7 @@ export const ElavynArticleHero = () => {
                     </div>
                     <div className="text-[15px] box-border caret-transparent leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left md:text-base md:leading-[28.8px]">
                       <div className="text-[15px] box-border caret-transparent flex leading-[27px] max-w-full outline-[3px] md:text-base md:leading-[28.8px]">
-                        <h2 className="text-neutral-900 text-lg bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[25.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-bitter">
+                        <h2 className="text-neutral-900 text-lg bg-no-repeat bg-cover box-border caret-transparent leading-[25.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-bitter">
                           After Denise&#39;s transformation, word spread fast.
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
@@ -1444,11 +1444,11 @@ export const ElavynArticleHero = () => {
                         </h2>
                       </div>
                     </div>
-                    <div className="relative text-[15px] content-start bg-slate-200 bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent gap-x-4 grid grid-cols-[minmax(0px,12fr)] grid-rows-[1fr] justify-start leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] gap-y-0 w-full bg-center mx-auto my-3.5 p-2 md:text-base md:leading-[28.8px] md:w-[1200px]">
+                    <div className="relative text-[15px] content-start bg-slate-200 bg-no-repeat bg-cover box-border caret-transparent gap-x-4 grid grid-cols-[minmax(0px,12fr)] grid-rows-[1fr] justify-start leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] gap-y-0 w-full bg-center mx-auto my-3.5 p-2 md:text-base md:leading-[28.8px] md:w-[1200px]">
                       <div className="relative text-[15px] box-border caret-transparent flex flex-col justify-start leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] md:text-base md:leading-[28.8px]">
                         <div className="text-[15px] box-border caret-transparent leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left md:text-base md:leading-[28.8px]">
                           <div className="text-[15px] box-border caret-transparent flex leading-[27px] max-w-full outline-[3px] md:text-base md:leading-[28.8px]">
-                            <h2 className="text-neutral-900 text-lg bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[25.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-bitter md:text-xl md:leading-7">
+                            <h2 className="text-neutral-900 text-lg bg-no-repeat bg-cover box-border caret-transparent leading-[25.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-bitter md:text-xl md:leading-7">
                               <span className="text-black text-lg box-border caret-transparent leading-[25.2px] max-w-full outline-[3px] md:leading-7">
                                 <i className="italic box-border caret-transparent leading-[25.2px] max-w-full outline-[3px] md:leading-7">
                                   <strong className="font-bold box-border caret-transparent leading-[25.2px] max-w-full outline-[3px] md:leading-7">
@@ -1465,7 +1465,7 @@ export const ElavynArticleHero = () => {
                     </div>
                     <div className="text-[15px] box-border caret-transparent leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left md:text-base md:leading-[28.8px]">
                       <div className="text-[15px] box-border caret-transparent flex leading-[27px] max-w-full outline-[3px] md:text-base md:leading-[28.8px]">
-                        <h2 className="text-neutral-900 text-lg bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[25.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-bitter">
+                        <h2 className="text-neutral-900 text-lg bg-no-repeat bg-cover box-border caret-transparent leading-[25.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-bitter">
                           Within eight weeks I had people finding me from
                           everywhere.
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
@@ -1505,7 +1505,7 @@ export const ElavynArticleHero = () => {
                   <div className="relative text-[15px] box-border caret-transparent flex flex-col justify-start leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] md:text-base md:leading-[28.8px]">
                     <div className="text-[15px] box-border caret-transparent leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left mb-2 md:text-base md:leading-[28.8px]">
                       <div className="text-[15px] box-border caret-transparent flex leading-[27px] max-w-full outline-[3px] md:text-base md:leading-[28.8px]">
-                        <h2 className="text-neutral-900 text-2xl font-bold bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[31.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-playfair_display md:text-[32px] md:leading-[41.6px]">
+                        <h2 className="text-neutral-900 text-2xl font-bold bg-no-repeat bg-cover box-border caret-transparent leading-[31.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-playfair_display md:text-[32px] md:leading-[41.6px]">
                           When You Mess With $73 Billion, They Come For You
                         </h2>
                       </div>
@@ -1526,7 +1526,7 @@ export const ElavynArticleHero = () => {
                     </div>
                     <div className="text-[15px] box-border caret-transparent leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left md:text-base md:leading-[28.8px]">
                       <div className="text-[15px] box-border caret-transparent flex leading-[27px] max-w-full outline-[3px] md:text-base md:leading-[28.8px]">
-                        <h2 className="text-neutral-900 text-lg bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[25.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-bitter">
+                        <h2 className="text-neutral-900 text-lg bg-no-repeat bg-cover box-border caret-transparent leading-[25.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-bitter">
                           Dr. Sandra Okafor — someone I&#39;d called a colleague
                           for 14 years — pulled me aside at a conference in
                           Philadelphia.
@@ -1581,7 +1581,7 @@ export const ElavynArticleHero = () => {
                     </div>
                     <div className="text-[15px] box-border caret-transparent leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] md:text-base md:leading-[28.8px]">
                       <div className="text-[15px] box-border caret-transparent flex leading-[27px] max-w-full outline-[3px] my-3 md:text-base md:leading-[28.8px]">
-                        <div className="text-[15px] bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent flex leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full bg-center md:text-base md:leading-[28.8px]">
+                        <div className="text-[15px] bg-no-repeat bg-cover box-border caret-transparent flex leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full bg-center md:text-base md:leading-[28.8px]">
                           <div className="text-[15px] box-border caret-transparent flex flex-col leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] gap-y-1 md:text-base md:leading-[28.8px]">
                             <div className="text-[15px] items-center box-border caret-transparent gap-x-0 flex leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] md:text-base md:leading-[28.8px]">
                               <div className="text-[15px] box-border caret-transparent flex shrink-0 leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] overflow-hidden md:text-base md:leading-[28.8px]">
@@ -1696,7 +1696,7 @@ export const ElavynArticleHero = () => {
                     </div>
                     <div className="text-[15px] box-border caret-transparent leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left md:text-base md:leading-[28.8px]">
                       <div className="text-[15px] box-border caret-transparent flex leading-[27px] max-w-full outline-[3px] md:text-base md:leading-[28.8px]">
-                        <h2 className="text-neutral-900 text-lg bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[25.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-bitter">
+                        <h2 className="text-neutral-900 text-lg bg-no-repeat bg-cover box-border caret-transparent leading-[25.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-bitter">
                           But here&#39;s what they didn&#39;t count on...
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
                           <br className="box-border caret-transparent max-w-full outline-[3px]" />
@@ -1737,7 +1737,7 @@ export const ElavynArticleHero = () => {
                   <div className="relative text-[15px] box-border caret-transparent flex flex-col justify-start leading-[27px] max-w-full min-h-0 min-w-0 outline-[3px] md:text-base md:leading-[28.8px] md:min-h-[auto] md:min-w-[auto]">
                     <div className="text-[15px] box-border caret-transparent leading-[27px] max-w-full min-h-0 min-w-0 outline-[3px] text-left mb-2 md:text-base md:leading-[28.8px] md:min-h-[auto] md:min-w-[auto]">
                       <div className="text-[15px] box-border caret-transparent flex leading-[27px] max-w-full outline-[3px] md:text-base md:leading-[28.8px]">
-                        <div className="text-black text-sm font-semibold bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[25.2px] max-w-full min-h-0 min-w-0 outline-[3px] text-center w-full overflow-hidden bg-center font-figtree md:text-base md:leading-[22.4px] md:min-h-[auto] md:min-w-[auto]">
+                        <div className="text-black text-sm font-semibold bg-no-repeat bg-cover box-border caret-transparent leading-[25.2px] max-w-full min-h-0 min-w-0 outline-[3px] text-center w-full overflow-hidden bg-center font-figtree md:text-base md:leading-[22.4px] md:min-h-[auto] md:min-w-[auto]">
                           <p className="text-sm box-border caret-transparent leading-[25.2px] max-w-full outline-[3px] md:text-base md:leading-[22.4px]">
                             A breakthrough botanical formula is making headlines
                             for slowing kidney function decline by up to 84% —
@@ -1764,7 +1764,7 @@ export const ElavynArticleHero = () => {
                     </div>
                     <div className="text-[15px] box-border caret-transparent leading-[27px] max-w-full min-h-0 min-w-0 outline-[3px] text-left mb-2 md:text-base md:leading-[28.8px] md:min-h-[auto] md:min-w-[auto]">
                       <div className="text-[15px] box-border caret-transparent flex leading-[27px] max-w-full outline-[3px] md:text-base md:leading-[28.8px]">
-                        <div className="text-black text-sm font-semibold bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[25.2px] max-w-full min-h-0 min-w-0 outline-[3px] text-center w-full overflow-hidden bg-center font-figtree md:text-base md:leading-[22.4px] md:min-h-[auto] md:min-w-[auto]">
+                        <div className="text-black text-sm font-semibold bg-no-repeat bg-cover box-border caret-transparent leading-[25.2px] max-w-full min-h-0 min-w-0 outline-[3px] text-center w-full overflow-hidden bg-center font-figtree md:text-base md:leading-[22.4px] md:min-h-[auto] md:min-w-[auto]">
                           <p className="text-sm box-border caret-transparent leading-[25.2px] max-w-full outline-[3px] md:text-base md:leading-[22.4px]">
                             After 14 months of research and over 8,600 patients,
                             Dr. Malcolm Carter and his team identified natural

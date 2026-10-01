@@ -3,18 +3,18 @@ export const JevawellArticleContent = () => {
     <div className="relative box-border caret-transparent flex flex-col justify-start max-w-full min-h-[auto] min-w-[auto] outline-[3px] font-host_grotesk">
       <div className="box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left mb-1 md:mb-[39px]">
         <div className="box-border caret-transparent flex max-w-full outline-[3px]">
-          <div className="text-white text-xl bg-slate-800 bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[26px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] uppercase w-full overflow-hidden bg-center pl-5 py-2 md:text-[40px] md:leading-[52px]">
+          <div className="text-white text-xl bg-slate-800 bg-no-repeat bg-cover box-border caret-transparent leading-[26px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] uppercase w-full overflow-hidden bg-center pl-5 py-2 md:text-[40px] md:leading-[52px]">
             <p className="text-xl box-border caret-transparent leading-[26px] max-w-full outline-[3px] md:text-[40px] md:leading-[52px]">
               Swollen Legs RELIEF
             </p>
           </div>
         </div>
       </div>
-      <div className="relative content-start bg-white bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent gap-x-0 grid grid-cols-[minmax(0px,12fr)] grid-rows-[1fr] justify-start max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full bg-center mx-auto pt-5 px-5 md:grid-cols-[minmax(0px,7fr)_minmax(0px,5fr)] md:w-[1200px] md:pt-[15px] md:px-[15px]">
+      <div className="relative content-start bg-white bg-no-repeat bg-cover box-border caret-transparent gap-x-0 grid grid-cols-[minmax(0px,12fr)] grid-rows-[1fr] justify-start max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full bg-center mx-auto pt-5 px-5 md:grid-cols-[minmax(0px,7fr)_minmax(0px,5fr)] md:w-[1200px] md:pt-[15px] md:px-[15px]">
         <div className="relative box-border caret-transparent flex flex-col justify-start max-w-full min-h-[auto] min-w-[auto] outline-[3px]">
           <div className="box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left mb-1.5 md:mb-0">
             <div className="box-border caret-transparent flex max-w-full outline-[3px]">
-              <div className="text-neutral-600 text-sm bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[18.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center md:text-base md:leading-[20.8px]">
+              <div className="text-neutral-600 text-sm bg-no-repeat bg-cover box-border caret-transparent leading-[18.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center md:text-base md:leading-[20.8px]">
                 <p className="text-sm box-border caret-transparent leading-[18.2px] max-w-full outline-[3px] md:text-base md:leading-[20.8px]">
                   Home &gt; Health &gt; Leg Health
                 </p>
@@ -23,7 +23,7 @@ export const JevawellArticleContent = () => {
           </div>
           <div className="box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left mb-4">
             <div className="box-border caret-transparent flex max-w-full outline-[3px]">
-              <h1 className="text-[46px] font-extrabold bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[39.1px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center md:text-[52px] md:leading-[36.4px]">
+              <h1 className="text-[46px] font-extrabold bg-no-repeat bg-cover box-border caret-transparent leading-[39.1px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center md:text-[52px] md:leading-[36.4px]">
                 <span className="text-[35px] box-border caret-transparent leading-[39.1px] max-w-full outline-[3px] md:leading-[36.4px]">
                   <strong className="box-border caret-transparent leading-[39.1px] max-w-full outline-[3px] md:leading-[36.4px]">
                     Top Vascular Specialist{" "}
@@ -47,7 +47,7 @@ export const JevawellArticleContent = () => {
           </div>
           <div className="box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left mb-2 md:mb-[7px]">
             <div className="box-border caret-transparent flex max-w-full outline-[3px]">
-              <div className="text-neutral-800 text-xs bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-6 max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center md:text-base md:leading-[20.8px]">
+              <div className="text-neutral-800 text-xs bg-no-repeat bg-cover box-border caret-transparent leading-6 max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center md:text-base md:leading-[20.8px]">
                 <p className="text-xs box-border caret-transparent leading-6 max-w-full outline-[3px] md:text-base md:leading-[20.8px]">
                   <span className="text-black text-base box-border caret-transparent leading-6 max-w-full outline-[3px] md:leading-[20.8px]">
                     <i className="italic box-border caret-transparent leading-6 max-w-full outline-[3px] md:leading-[20.8px]">
@@ -65,7 +65,7 @@ export const JevawellArticleContent = () => {
           </div>
           <div className="box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left mb-0 md:mb-2">
             <div className="box-border caret-transparent flex max-w-full outline-[3px]">
-              <div className="text-cyan-700 text-[13px] bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[23.4px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center md:leading-[16.9px]">
+              <div className="text-cyan-700 text-[13px] bg-no-repeat bg-cover box-border caret-transparent leading-[23.4px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center md:leading-[16.9px]">
                 <p className="box-border caret-transparent leading-[23.4px] max-w-full outline-[3px] md:leading-[16.9px]">
                   <strong className="font-extrabold box-border caret-transparent leading-[23.4px] max-w-full outline-[3px] md:leading-[16.9px]">
                     Mon. Nov. 27th, 2025 | 11:11 am EST - 251.328 👁
@@ -78,7 +78,7 @@ export const JevawellArticleContent = () => {
             <div className="relative box-border caret-transparent flex flex-col justify-center max-w-full min-h-[auto] min-w-[auto] outline-[3px] md:justify-start">
               <div className="box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left">
                 <div className="box-border caret-transparent flex max-w-full outline-[3px]">
-                  <div className="text-black text-sm bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[16.8px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center md:text-[17px] md:leading-[17px]">
+                  <div className="text-black text-sm bg-no-repeat bg-cover box-border caret-transparent leading-[16.8px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center md:text-[17px] md:leading-[17px]">
                     <p className="text-sm box-border caret-transparent leading-[16.8px] max-w-full outline-[3px] md:text-[17px] md:leading-[17px]">
                       <span className="text-neutral-900 text-[13px] bg-white box-border caret-transparent leading-[16.8px] max-w-full outline-[3px] md:leading-[17px]">
                         <strong className="font-extrabold box-border caret-transparent leading-[16.8px] max-w-full outline-[3px] md:leading-[17px]">
@@ -96,7 +96,7 @@ export const JevawellArticleContent = () => {
               </div>
             </div>
             <div className="relative box-border caret-transparent flex flex-col justify-center max-w-full min-h-[auto] min-w-[auto] outline-[3px] md:justify-start">
-              <div className="relative content-center bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent gap-x-[7px] grid grid-cols-[minmax(0px,auto)_minmax(0px,auto)_minmax(0px,auto)_minmax(0px,auto)] grid-rows-[1fr] justify-center max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full bg-center mb-7 mx-auto md:gap-x-3 md:w-[1200px] md:mb-[15px]">
+              <div className="relative content-center bg-no-repeat bg-cover box-border caret-transparent gap-x-[7px] grid grid-cols-[minmax(0px,auto)_minmax(0px,auto)_minmax(0px,auto)_minmax(0px,auto)] grid-rows-[1fr] justify-center max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full bg-center mb-7 mx-auto md:gap-x-3 md:w-[1200px] md:mb-[15px]">
                 <div className="relative box-border caret-transparent flex flex-col justify-center max-w-full min-h-[auto] min-w-[auto] outline-[3px]">
                   <div className="box-border caret-transparent leading-[0px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left">
                     <div className="box-border caret-transparent inline-flex max-w-full outline-[3px] overflow-hidden">
@@ -192,7 +192,7 @@ export const JevawellArticleContent = () => {
           </div>
           <div className="box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left mb-[17px]">
             <div className="box-border caret-transparent flex max-w-full outline-[3px]">
-              <div className="text-black text-sm bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[21px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center">
+              <div className="text-black text-sm bg-no-repeat bg-cover box-border caret-transparent leading-[21px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center">
                 <p className="box-border caret-transparent max-w-full outline-[3px]">
                   <span className="text-[17px] box-border caret-transparent max-w-full outline-[3px]">
                     <i className="italic box-border caret-transparent max-w-full outline-[3px]">
@@ -214,7 +214,7 @@ export const JevawellArticleContent = () => {
           </div>
           <div className="box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left mb-3.5 md:mb-0">
             <div className="box-border caret-transparent flex max-w-full outline-[3px]">
-              <div className="text-black text-sm bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[21px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center">
+              <div className="text-black text-sm bg-no-repeat bg-cover box-border caret-transparent leading-[21px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center">
                 <p className="box-border caret-transparent max-w-full outline-[3px]">
                   <span className="text-[17px] box-border caret-transparent max-w-full outline-[3px]">
                     I&#39;m about to piss off every vascular surgeon, vein
@@ -365,7 +365,7 @@ export const JevawellArticleContent = () => {
           </div>
           <div className="box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left mb-3.5 md:mb-3">
             <div className="box-border caret-transparent flex max-w-full outline-[3px]">
-              <h2 className="text-[41px] font-extrabold bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[24.6px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center md:text-3xl md:leading-[30px]">
+              <h2 className="text-[41px] font-extrabold bg-no-repeat bg-cover box-border caret-transparent leading-[24.6px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center md:text-3xl md:leading-[30px]">
                 <span className="text-[27px] box-border caret-transparent leading-[24.6px] max-w-full outline-[3px] md:leading-[30px]">
                   <strong className="box-border caret-transparent leading-[24.6px] max-w-full outline-[3px] md:leading-[30px]">
                     THE NIGHT EVERYTHING CHANGED...
@@ -390,7 +390,7 @@ export const JevawellArticleContent = () => {
           </div>
           <div className="box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left mb-6">
             <div className="box-border caret-transparent flex max-w-full outline-[3px]">
-              <div className="text-black text-sm bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[21px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center">
+              <div className="text-black text-sm bg-no-repeat bg-cover box-border caret-transparent leading-[21px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center">
                 <p className="box-border caret-transparent max-w-full outline-[3px]">
                   <span className="text-[17px] box-border caret-transparent max-w-full outline-[3px]">
                     It was 7:23 PM on Saturday, October 14th, 2023.
@@ -525,7 +525,7 @@ export const JevawellArticleContent = () => {
           </div>
           <div className="box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left mb-6">
             <div className="box-border caret-transparent flex max-w-full outline-[3px]">
-              <div className="text-black text-sm bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[21px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center">
+              <div className="text-black text-sm bg-no-repeat bg-cover box-border caret-transparent leading-[21px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center">
                 <p className="box-border caret-transparent max-w-full outline-[3px]">
                   <span className="text-[17px] box-border caret-transparent max-w-full outline-[3px]">
                     I&#39;d tried everything my 34 years of training taught me:
@@ -765,7 +765,7 @@ export const JevawellArticleContent = () => {
           </div>
           <div className="box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left mb-[11px]">
             <div className="box-border caret-transparent flex max-w-full outline-[3px]">
-              <h2 className="text-[41px] font-extrabold bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[24.6px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center md:text-3xl md:leading-[30px]">
+              <h2 className="text-[41px] font-extrabold bg-no-repeat bg-cover box-border caret-transparent leading-[24.6px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center md:text-3xl md:leading-[30px]">
                 <span className="text-[27px] box-border caret-transparent leading-[24.6px] max-w-full outline-[3px] md:leading-[30px]">
                   THE MIND-BLOWING DISCOVERY
                 </span>
@@ -788,7 +788,7 @@ export const JevawellArticleContent = () => {
           </div>
           <div className="box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left mb-6">
             <div className="box-border caret-transparent flex max-w-full outline-[3px]">
-              <div className="text-black text-sm bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[21px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center">
+              <div className="text-black text-sm bg-no-repeat bg-cover box-border caret-transparent leading-[21px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center">
                 <p className="box-border caret-transparent max-w-full outline-[3px]">
                   <span className="text-lg box-border caret-transparent max-w-full outline-[3px]">
                     For the next 89 days, I lived like a man possessed.
@@ -937,7 +937,7 @@ export const JevawellArticleContent = () => {
           </div>
           <div className="box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left mb-6">
             <div className="box-border caret-transparent flex max-w-full outline-[3px]">
-              <h2 className="text-[41px] font-extrabold bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[24.6px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center md:text-3xl md:leading-[30px]">
+              <h2 className="text-[41px] font-extrabold bg-no-repeat bg-cover box-border caret-transparent leading-[24.6px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center md:text-3xl md:leading-[30px]">
                 <span className="text-[28px] box-border caret-transparent leading-[24.6px] max-w-full outline-[3px] md:leading-[30px]">
                   <strong className="box-border caret-transparent leading-[24.6px] max-w-full outline-[3px] md:leading-[30px]">
                     THE REAL ROOT CAUSE OF SWOLLEN LEGS (THAT THEY&#39;RE
@@ -963,7 +963,7 @@ export const JevawellArticleContent = () => {
           </div>
           <div className="box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left mb-6">
             <div className="box-border caret-transparent flex max-w-full outline-[3px]">
-              <div className="text-black text-sm bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[21px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center">
+              <div className="text-black text-sm bg-no-repeat bg-cover box-border caret-transparent leading-[21px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center">
                 <p className="box-border caret-transparent max-w-full outline-[3px]">
                   <span className="text-[17px] box-border caret-transparent max-w-full outline-[3px]">
                     Let me break this down in terms anyone can understand.
@@ -1135,7 +1135,7 @@ export const JevawellArticleContent = () => {
           </div>
           <div className="box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left mb-6">
             <div className="box-border caret-transparent flex max-w-full outline-[3px]">
-              <div className="text-black text-sm bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[21px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center">
+              <div className="text-black text-sm bg-no-repeat bg-cover box-border caret-transparent leading-[21px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center">
                 <p className="box-border caret-transparent max-w-full outline-[3px]">
                   <span className="text-red-600 text-[17px] box-border caret-transparent max-w-full outline-[3px]">
                     <strong className="font-extrabold box-border caret-transparent max-w-full outline-[3px]">
@@ -1247,7 +1247,7 @@ export const JevawellArticleContent = () => {
           </div>
           <div className="box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left mb-6">
             <div className="box-border caret-transparent flex max-w-full outline-[3px]">
-              <h2 className="text-[41px] font-extrabold bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[24.6px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center md:text-3xl md:leading-[30px]">
+              <h2 className="text-[41px] font-extrabold bg-no-repeat bg-cover box-border caret-transparent leading-[24.6px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center md:text-3xl md:leading-[30px]">
                 <span className="text-3xl box-border caret-transparent leading-[24.6px] max-w-full outline-[3px] md:leading-[30px]">
                   <strong className="box-border caret-transparent leading-[24.6px] max-w-full outline-[3px] md:leading-[30px]">
                     THE OVERNIGHT SOLUTION HIDING IN PLAIN SIGHT
@@ -1258,7 +1258,7 @@ export const JevawellArticleContent = () => {
           </div>
           <div className="box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left mb-6">
             <div className="box-border caret-transparent flex max-w-full outline-[3px]">
-              <div className="text-black text-sm bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[21px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center">
+              <div className="text-black text-sm bg-no-repeat bg-cover box-border caret-transparent leading-[21px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center">
                 <p className="box-border caret-transparent max-w-full outline-[3px]">
                   <span className="text-[17px] box-border caret-transparent max-w-full outline-[3px]">
                     Remember my wife Linda crying because she couldn&#39;t fit
@@ -1426,7 +1426,7 @@ export const JevawellArticleContent = () => {
           </div>
           <div className="box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left mb-6">
             <div className="box-border caret-transparent flex max-w-full outline-[3px]">
-              <h2 className="text-[41px] font-extrabold bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[28.7px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center md:text-3xl md:leading-[30px]">
+              <h2 className="text-[41px] font-extrabold bg-no-repeat bg-cover box-border caret-transparent leading-[28.7px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center md:text-3xl md:leading-[30px]">
                 <span className="text-3xl box-border caret-transparent leading-[28.7px] max-w-full outline-[3px] md:leading-[30px]">
                   <strong className="box-border caret-transparent leading-[28.7px] max-w-full outline-[3px] md:leading-[30px]">
                     THIS BREAKTHROUGH IS PISSING OFF A $18 BILLION INDUSTRY
@@ -1451,7 +1451,7 @@ export const JevawellArticleContent = () => {
           </div>
           <div className="box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left mb-6">
             <div className="box-border caret-transparent flex max-w-full outline-[3px]">
-              <div className="text-black text-sm bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[21px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center">
+              <div className="text-black text-sm bg-no-repeat bg-cover box-border caret-transparent leading-[21px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center">
                 <p className="box-border caret-transparent max-w-full outline-[3px]">
                   <span className="text-[17px] box-border caret-transparent max-w-full outline-[3px]">
                     After Linda&#39;s transformation, word spread like wildfire.
@@ -1616,7 +1616,7 @@ export const JevawellArticleContent = () => {
           </div>
           <div className="box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left mb-6">
             <div className="box-border caret-transparent flex max-w-full outline-[3px]">
-              <h2 className="text-[41px] font-extrabold bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[28.7px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center md:text-3xl md:leading-[30px]">
+              <h2 className="text-[41px] font-extrabold bg-no-repeat bg-cover box-border caret-transparent leading-[28.7px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center md:text-3xl md:leading-[30px]">
                 <span className="text-3xl box-border caret-transparent leading-[28.7px] max-w-full outline-[3px] md:leading-[30px]">
                   <strong className="box-border caret-transparent leading-[28.7px] max-w-full outline-[3px] md:leading-[30px]">
                     WHEN YOU MESS WITH $18 BILLION, THEY COME FOR YOU
@@ -1641,7 +1641,7 @@ export const JevawellArticleContent = () => {
           </div>
           <div className="box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left mb-6">
             <div className="box-border caret-transparent flex max-w-full outline-[3px]">
-              <div className="text-black text-sm bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[21px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center">
+              <div className="text-black text-sm bg-no-repeat bg-cover box-border caret-transparent leading-[21px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center">
                 <p className="box-border caret-transparent max-w-full outline-[3px]">
                   <span className="text-[17px] box-border caret-transparent max-w-full outline-[3px]">
                     Dr. Steven Marcus, chief of vascular medicine at Boston
@@ -1843,7 +1843,7 @@ export const JevawellArticleContent = () => {
           </div>
           <div className="box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left mb-6">
             <div className="box-border caret-transparent flex max-w-full outline-[3px]">
-              <h2 className="text-[41px] font-extrabold bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[32.8px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center md:text-3xl md:leading-[30px]">
+              <h2 className="text-[41px] font-extrabold bg-no-repeat bg-cover box-border caret-transparent leading-[32.8px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center md:text-3xl md:leading-[30px]">
                 <span className="text-3xl box-border caret-transparent leading-[32.8px] max-w-full outline-[3px] md:leading-[30px]">
                   <strong className="box-border caret-transparent leading-[32.8px] max-w-full outline-[3px] md:leading-[30px]">
                     THE GUMMY THAT&#39;S TERRIFYING VEIN CLINICS
@@ -1868,7 +1868,7 @@ export const JevawellArticleContent = () => {
           </div>
           <div className="box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left mb-6">
             <div className="box-border caret-transparent flex max-w-full outline-[3px]">
-              <div className="text-black text-sm bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[21px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center">
+              <div className="text-black text-sm bg-no-repeat bg-cover box-border caret-transparent leading-[21px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center">
                 <p className="box-border caret-transparent max-w-full outline-[3px]">
                   <span className="text-[17px] box-border caret-transparent max-w-full outline-[3px]">
                     <strong className="font-extrabold box-border caret-transparent max-w-full outline-[3px]">
@@ -2012,7 +2012,7 @@ export const JevawellArticleContent = () => {
           </div>
           <div className="box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left mb-6">
             <div className="box-border caret-transparent flex max-w-full outline-[3px]">
-              <div className="text-black text-sm bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[21px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center">
+              <div className="text-black text-sm bg-no-repeat bg-cover box-border caret-transparent leading-[21px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center">
                 <p className="box-border caret-transparent max-w-full outline-[3px]">
                   <span className="text-[17px] box-border caret-transparent max-w-full outline-[3px]">
                     <strong className="font-extrabold box-border caret-transparent max-w-full outline-[3px]">
@@ -2128,7 +2128,7 @@ export const JevawellArticleContent = () => {
           </div>
           <div className="box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left mb-4">
             <div className="box-border caret-transparent flex max-w-full outline-[3px]">
-              <h2 className="text-[41px] font-extrabold bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[28.7px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center md:text-3xl md:leading-[30px]">
+              <h2 className="text-[41px] font-extrabold bg-no-repeat bg-cover box-border caret-transparent leading-[28.7px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center md:text-3xl md:leading-[30px]">
                 <span className="text-3xl box-border caret-transparent leading-[28.7px] max-w-full outline-[3px] md:leading-[30px]">
                   <strong className="box-border caret-transparent leading-[28.7px] max-w-full outline-[3px] md:leading-[30px]">
                     THE RESULTS THAT HAVE DOCTORS SECRETLY ORDERING FOR
@@ -2154,7 +2154,7 @@ export const JevawellArticleContent = () => {
           </div>
           <div className="box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left mb-6">
             <div className="box-border caret-transparent flex max-w-full outline-[3px]">
-              <div className="text-black text-sm bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[21px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center">
+              <div className="text-black text-sm bg-no-repeat bg-cover box-border caret-transparent leading-[21px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center">
                 <p className="box-border caret-transparent max-w-full outline-[3px]">
                   <span className="text-[17px] box-border caret-transparent max-w-full outline-[3px]">
                     In the last 14 months, over 12,847 chronic edema sufferers
@@ -2272,7 +2272,7 @@ export const JevawellArticleContent = () => {
           </div>
           <div className="box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left mb-6">
             <div className="box-border caret-transparent flex max-w-full outline-[3px]">
-              <h2 className="text-[41px] font-extrabold bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[28.7px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center md:text-3xl md:leading-[30px]">
+              <h2 className="text-[41px] font-extrabold bg-no-repeat bg-cover box-border caret-transparent leading-[28.7px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center md:text-3xl md:leading-[30px]">
                 <span className="text-[27px] box-border caret-transparent leading-[28.7px] max-w-full outline-[3px] md:leading-[30px]">
                   <strong className="box-border caret-transparent leading-[28.7px] max-w-full outline-[3px] md:leading-[30px]">
                     Check out what real users with verified purchases are
@@ -2284,7 +2284,7 @@ export const JevawellArticleContent = () => {
           </div>
           <div className="box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left mb-6">
             <div className="box-border caret-transparent flex max-w-full outline-[3px]">
-              <div className="text-black text-sm bg-amber-300 bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[21px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center md:leading-[22.4px]">
+              <div className="text-black text-sm bg-amber-300 bg-no-repeat bg-cover box-border caret-transparent leading-[21px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center md:leading-[22.4px]">
                 <p className="box-border caret-transparent leading-[21px] max-w-full outline-[3px] md:leading-[22.4px]">
                   <span className="text-[19px] box-border caret-transparent leading-[21px] max-w-full outline-[3px] md:leading-[22.4px]">
                     <strong className="font-extrabold box-border caret-transparent leading-[21px] max-w-full outline-[3px] md:leading-[22.4px]">
@@ -2329,7 +2329,7 @@ export const JevawellArticleContent = () => {
           </div>
           <div className="box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left mb-6">
             <div className="box-border caret-transparent flex max-w-full outline-[3px]">
-              <div className="text-black text-sm bg-amber-300 bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[21px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center md:leading-[22.4px]">
+              <div className="text-black text-sm bg-amber-300 bg-no-repeat bg-cover box-border caret-transparent leading-[21px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center md:leading-[22.4px]">
                 <p className="box-border caret-transparent leading-[21px] max-w-full outline-[3px] md:leading-[22.4px]">
                   <span className="text-[19px] box-border caret-transparent leading-[21px] max-w-full outline-[3px] md:leading-[22.4px]">
                     <strong className="font-extrabold box-border caret-transparent leading-[21px] max-w-full outline-[3px] md:leading-[22.4px]">
@@ -2369,7 +2369,7 @@ export const JevawellArticleContent = () => {
           </div>
           <div className="box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left mb-6">
             <div className="box-border caret-transparent flex max-w-full outline-[3px]">
-              <div className="text-black text-sm bg-amber-300 bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[21px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center md:leading-[22.4px]">
+              <div className="text-black text-sm bg-amber-300 bg-no-repeat bg-cover box-border caret-transparent leading-[21px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center md:leading-[22.4px]">
                 <p className="box-border caret-transparent leading-[21px] max-w-full outline-[3px] md:leading-[22.4px]">
                   <span className="text-[19px] box-border caret-transparent leading-[21px] max-w-full outline-[3px] md:leading-[22.4px]">
                     <strong className="font-extrabold box-border caret-transparent leading-[21px] max-w-full outline-[3px] md:leading-[22.4px]">
@@ -2412,7 +2412,7 @@ export const JevawellArticleContent = () => {
           </div>
           <div className="box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left mb-[15px]">
             <div className="box-border caret-transparent flex max-w-full outline-[3px]">
-              <h2 className="text-[41px] font-extrabold bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[24.6px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center md:text-3xl md:leading-[30px]">
+              <h2 className="text-[41px] font-extrabold bg-no-repeat bg-cover box-border caret-transparent leading-[24.6px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center md:text-3xl md:leading-[30px]">
                 <span className="text-[27px] box-border caret-transparent leading-[24.6px] max-w-full outline-[3px] md:leading-[30px]">
                   <strong className="box-border caret-transparent leading-[24.6px] max-w-full outline-[3px] md:leading-[30px]">
                     THE 50% OFF &quot;MIDDLE FINGER&quot; TO THE MEDICAL
@@ -2438,7 +2438,7 @@ export const JevawellArticleContent = () => {
           </div>
           <div className="box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left">
             <div className="box-border caret-transparent flex max-w-full outline-[3px]">
-              <div className="text-black text-sm bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[21px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center">
+              <div className="text-black text-sm bg-no-repeat bg-cover box-border caret-transparent leading-[21px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center">
                 <p className="box-border caret-transparent max-w-full outline-[3px]">
                   <span className="text-[17px] box-border caret-transparent max-w-full outline-[3px]">
                     Remember those cease and desist letters I mentioned?
@@ -2593,7 +2593,7 @@ export const JevawellArticleContent = () => {
           </div>
           <div className="box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left mb-[15px]">
             <div className="box-border caret-transparent flex max-w-full outline-[3px]">
-              <h2 className="text-[41px] font-extrabold bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[24.6px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center md:text-3xl md:leading-[30px]">
+              <h2 className="text-[41px] font-extrabold bg-no-repeat bg-cover box-border caret-transparent leading-[24.6px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center md:text-3xl md:leading-[30px]">
                 <span className="text-[27px] box-border caret-transparent leading-[24.6px] max-w-full outline-[3px] md:leading-[30px]">
                   <strong className="box-border caret-transparent leading-[24.6px] max-w-full outline-[3px] md:leading-[30px]">
                     ⚠️ BUT HERE&#39;S THE BRUTAL REALITY
@@ -2618,7 +2618,7 @@ export const JevawellArticleContent = () => {
           </div>
           <div className="box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left">
             <div className="box-border caret-transparent flex max-w-full outline-[3px]">
-              <div className="text-black text-sm bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[21px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center">
+              <div className="text-black text-sm bg-no-repeat bg-cover box-border caret-transparent leading-[21px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center">
                 <p className="box-border caret-transparent max-w-full outline-[3px]">
                   <span className="text-[17px] box-border caret-transparent max-w-full outline-[3px]">
                     This 50% discount expires in exactly{" "}
@@ -2731,7 +2731,7 @@ export const JevawellArticleContent = () => {
           </div>
           <div className="box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left mb-[13px]">
             <div className="box-border caret-transparent flex max-w-full outline-[3px]">
-              <h2 className="text-[41px] font-extrabold bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[24.6px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center md:text-3xl md:leading-[30px]">
+              <h2 className="text-[41px] font-extrabold bg-no-repeat bg-cover box-border caret-transparent leading-[24.6px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center md:text-3xl md:leading-[30px]">
                 <span className="text-[27px] box-border caret-transparent leading-[24.6px] max-w-full outline-[3px] md:leading-[30px]">
                   <strong className="box-border caret-transparent leading-[24.6px] max-w-full outline-[3px] md:leading-[30px]">
                     MY PERSONAL 100-DAY &quot;ZERO RISK&quot; GUARANTEE
@@ -2756,7 +2756,7 @@ export const JevawellArticleContent = () => {
           </div>
           <div className="box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left">
             <div className="box-border caret-transparent flex max-w-full outline-[3px]">
-              <div className="text-black text-sm bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[21px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center">
+              <div className="text-black text-sm bg-no-repeat bg-cover box-border caret-transparent leading-[21px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center">
                 <p className="box-border caret-transparent max-w-full outline-[3px]">
                   <span className="text-[17px] box-border caret-transparent max-w-full outline-[3px]">
                     Look, I get it.
@@ -2936,7 +2936,7 @@ export const JevawellArticleContent = () => {
           </div>
           <div className="box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left mb-[15px]">
             <div className="box-border caret-transparent flex max-w-full outline-[3px]">
-              <h2 className="text-[41px] font-extrabold bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[28.7px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center md:text-3xl md:leading-[30px]">
+              <h2 className="text-[41px] font-extrabold bg-no-repeat bg-cover box-border caret-transparent leading-[28.7px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center md:text-3xl md:leading-[30px]">
                 <span className="text-[27px] box-border caret-transparent leading-[28.7px] max-w-full outline-[3px] md:leading-[30px]">
                   <strong className="box-border caret-transparent leading-[28.7px] max-w-full outline-[3px] md:leading-[30px]">
                     THE DECISION THAT WILL DEFINE YOUR NEXT DECADE
@@ -2961,7 +2961,7 @@ export const JevawellArticleContent = () => {
           </div>
           <div className="box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left">
             <div className="box-border caret-transparent flex max-w-full outline-[3px]">
-              <div className="text-black text-sm bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[21px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center">
+              <div className="text-black text-sm bg-no-repeat bg-cover box-border caret-transparent leading-[21px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center">
                 <p className="box-border caret-transparent max-w-full outline-[3px]">
                    
                 </p>
@@ -3114,7 +3114,7 @@ export const JevawellArticleContent = () => {
           </div>
           <div className="box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left mb-[19px]">
             <div className="box-border caret-transparent flex max-w-full outline-[3px]">
-              <h2 className="text-[41px] font-extrabold bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[24.6px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center md:text-3xl md:leading-[30px]">
+              <h2 className="text-[41px] font-extrabold bg-no-repeat bg-cover box-border caret-transparent leading-[24.6px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center md:text-3xl md:leading-[30px]">
                 <span className="text-3xl box-border caret-transparent leading-[24.6px] max-w-full outline-[3px] md:leading-[30px]">
                   <strong className="box-border caret-transparent leading-[24.6px] max-w-full outline-[3px] md:leading-[30px]">
                     HERE&#39;S EXACTLY WHAT HAPPENS NEXT
@@ -3139,7 +3139,7 @@ export const JevawellArticleContent = () => {
           </div>
           <div className="box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left mb-[13px] md:mb-0">
             <div className="box-border caret-transparent flex max-w-full outline-[3px]">
-              <div className="text-black text-sm bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[21px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center">
+              <div className="text-black text-sm bg-no-repeat bg-cover box-border caret-transparent leading-[21px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center">
                 <p className="box-border caret-transparent max-w-full outline-[3px]">
                   <span className="text-[17px] box-border caret-transparent max-w-full outline-[3px]">
                     <strong className="font-extrabold box-border caret-transparent max-w-full outline-[3px]">
@@ -3359,7 +3359,7 @@ export const JevawellArticleContent = () => {
           </div>
           <div className="box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left mt-[21px] md:mt-6">
             <div className="box-border caret-transparent flex max-w-full outline-[3px]">
-              <div className="text-neutral-800 text-sm bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[18.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center md:text-base md:leading-[20.8px]">
+              <div className="text-neutral-800 text-sm bg-no-repeat bg-cover box-border caret-transparent leading-[18.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center md:text-base md:leading-[20.8px]">
                 <p className="text-sm box-border caret-transparent leading-[18.2px] max-w-full outline-[3px] md:text-base md:leading-[20.8px]">
                   <span className="text-black text-xl bg-white box-border caret-transparent leading-[18.2px] max-w-full outline-[3px] md:leading-[20.8px]">
                     <strong className="font-extrabold box-border caret-transparent leading-[18.2px] max-w-full outline-[3px] md:leading-[20.8px]">
@@ -3389,7 +3389,7 @@ export const JevawellArticleContent = () => {
           </div>
           <div className="box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left">
             <div className="box-border caret-transparent flex max-w-full outline-[3px]">
-              <div className="text-black text-sm bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[21px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center">
+              <div className="text-black text-sm bg-no-repeat bg-cover box-border caret-transparent leading-[21px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center">
                 <p className="box-border caret-transparent max-w-full outline-[3px]">
                    
                 </p>
@@ -3462,7 +3462,7 @@ export const JevawellArticleContent = () => {
           </div>
           <div className="box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left mt-[21px] md:mt-6">
             <div className="box-border caret-transparent flex max-w-full outline-[3px]">
-              <div className="text-neutral-800 text-sm bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[18.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center md:text-base md:leading-[20.8px]">
+              <div className="text-neutral-800 text-sm bg-no-repeat bg-cover box-border caret-transparent leading-[18.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center md:text-base md:leading-[20.8px]">
                 <p className="text-sm box-border caret-transparent leading-[18.2px] max-w-full outline-[3px] md:text-base md:leading-[20.8px]">
                   <span className="text-sky-700 text-xl bg-white box-border caret-transparent leading-[18.2px] max-w-full outline-[3px] md:leading-[20.8px]">
                     <strong className="font-extrabold box-border caret-transparent leading-[18.2px] max-w-full outline-[3px] md:leading-[20.8px]">
@@ -3492,11 +3492,11 @@ export const JevawellArticleContent = () => {
           </div>
         </div>
         <div className="relative box-border caret-transparent flex flex-col justify-start max-w-full min-h-[auto] min-w-[auto] outline-[3px]">
-          <div className="relative content-start bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent gap-x-2 grid grid-cols-[minmax(0px,12fr)] grid-rows-[1fr] justify-start max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full bg-center mt-[21px] mx-auto pl-0 top-5 md:w-[1200px] md:mt-0 md:pl-[62px]">
+          <div className="relative content-start bg-no-repeat bg-cover box-border caret-transparent gap-x-2 grid grid-cols-[minmax(0px,12fr)] grid-rows-[1fr] justify-start max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full bg-center mt-[21px] mx-auto pl-0 top-5 md:w-[1200px] md:mt-0 md:pl-[62px]">
             <div className="relative box-border caret-transparent flex flex-col justify-start max-w-full min-h-[auto] min-w-[auto] outline-[3px]">
               <div className="box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left mb-3">
                 <div className="box-border caret-transparent flex max-w-full outline-[3px]">
-                  <div className="text-black text-sm bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[21px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center">
+                  <div className="text-black text-sm bg-no-repeat bg-cover box-border caret-transparent leading-[21px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center">
                     <p className="box-border caret-transparent max-w-full outline-[3px]">
                       <span className="text-[15px] box-border caret-transparent max-w-full outline-[3px]">
                         <strong className="font-extrabold box-border caret-transparent max-w-full outline-[3px]">
@@ -3526,7 +3526,7 @@ export const JevawellArticleContent = () => {
               </div>
               <div className="box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left mb-2.5 md:mb-3">
                 <div className="box-border caret-transparent flex max-w-full outline-[3px]">
-                  <div className="text-neutral-800 text-sm bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[18.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center md:text-base md:leading-[20.8px]">
+                  <div className="text-neutral-800 text-sm bg-no-repeat bg-cover box-border caret-transparent leading-[18.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center md:text-base md:leading-[20.8px]">
                     <p className="text-sm box-border caret-transparent leading-[18.2px] max-w-full outline-[3px] md:text-base md:leading-[20.8px]">
                       <span className="text-[15px] box-border caret-transparent leading-[18.2px] max-w-full outline-[3px] md:leading-[20.8px]">
                         <strong className="font-extrabold box-border caret-transparent leading-[18.2px] max-w-full outline-[3px] md:leading-[20.8px]">
@@ -3558,7 +3558,7 @@ export const JevawellArticleContent = () => {
               </div>
               <div className="box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left mb-2.5 md:mb-3">
                 <div className="box-border caret-transparent flex max-w-full outline-[3px]">
-                  <div className="text-neutral-800 text-sm bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[18.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center md:text-base md:leading-[20.8px]">
+                  <div className="text-neutral-800 text-sm bg-no-repeat bg-cover box-border caret-transparent leading-[18.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center md:text-base md:leading-[20.8px]">
                     <p className="text-sm box-border caret-transparent leading-[18.2px] max-w-full outline-[3px] md:text-base md:leading-[20.8px]">
                       <span className="text-base box-border caret-transparent leading-[18.2px] max-w-full outline-[3px] md:leading-[20.8px]">
                         <strong className="font-extrabold box-border caret-transparent leading-[18.2px] max-w-full outline-[3px] md:leading-[20.8px]">
@@ -3587,7 +3587,7 @@ export const JevawellArticleContent = () => {
               </div>
             </div>
           </div>
-          <div className="relative content-start bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent gap-x-2 grid grid-cols-[minmax(0px,12fr)] grid-rows-[1fr] justify-start max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full bg-center mt-[21px] mx-auto pl-0 top-5 md:w-[1200px] md:mt-0 md:pl-[62px]">
+          <div className="relative content-start bg-no-repeat bg-cover box-border caret-transparent gap-x-2 grid grid-cols-[minmax(0px,12fr)] grid-rows-[1fr] justify-start max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full bg-center mt-[21px] mx-auto pl-0 top-5 md:w-[1200px] md:mt-0 md:pl-[62px]">
             <div className="relative box-border caret-transparent flex flex-col justify-start max-w-full min-h-[auto] min-w-[auto] outline-[3px]">
               <div
                 role="presentation"
@@ -3605,7 +3605,7 @@ export const JevawellArticleContent = () => {
               </div>
               <div className="box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left mb-2.5 md:mb-0">
                 <div className="box-border caret-transparent flex max-w-full outline-[3px]">
-                  <div className="text-neutral-800 text-sm bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[18.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center md:text-base md:leading-[20.8px]">
+                  <div className="text-neutral-800 text-sm bg-no-repeat bg-cover box-border caret-transparent leading-[18.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center md:text-base md:leading-[20.8px]">
                     <p className="text-sm box-border caret-transparent leading-[18.2px] max-w-full outline-[3px] md:text-base md:leading-[20.8px]">
                       <strong className="text-sm font-extrabold box-border caret-transparent leading-[18.2px] max-w-full outline-[3px] md:text-base md:leading-[20.8px]">
                         Individual results may vary
@@ -3616,7 +3616,7 @@ export const JevawellArticleContent = () => {
               </div>
               <div className="box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left mb-2.5 md:mb-3">
                 <div className="box-border caret-transparent flex max-w-full outline-[3px]">
-                  <div className="text-neutral-800 text-sm bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[18.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center md:text-base md:leading-[20.8px]">
+                  <div className="text-neutral-800 text-sm bg-no-repeat bg-cover box-border caret-transparent leading-[18.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center md:text-base md:leading-[20.8px]">
                     <p className="text-sm box-border caret-transparent leading-[18.2px] max-w-full outline-[3px] md:text-base md:leading-[20.8px]">
                       <span className="text-slate-700 text-base box-border caret-transparent leading-[18.2px] max-w-full outline-[3px] md:leading-[20.8px]">
                         <strong className="font-extrabold box-border caret-transparent leading-[18.2px] max-w-full outline-[3px] md:leading-[20.8px]">
@@ -3673,7 +3673,7 @@ export const JevawellArticleContent = () => {
               </div>
             </div>
           </div>
-          <div className="relative content-start bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent gap-x-2 grid grid-cols-[minmax(0px,12fr)] grid-rows-[1fr] justify-start max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full bg-center mt-[21px] mx-auto pl-0 top-5 md:w-[1200px] md:mt-0 md:pl-[62px]">
+          <div className="relative content-start bg-no-repeat bg-cover box-border caret-transparent gap-x-2 grid grid-cols-[minmax(0px,12fr)] grid-rows-[1fr] justify-start max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full bg-center mt-[21px] mx-auto pl-0 top-5 md:w-[1200px] md:mt-0 md:pl-[62px]">
             <div className="relative box-border caret-transparent flex flex-col justify-start max-w-full min-h-[auto] min-w-[auto] outline-[3px]">
               <div
                 role="presentation"
@@ -3691,7 +3691,7 @@ export const JevawellArticleContent = () => {
               </div>
               <div className="box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left mb-2.5 md:mb-0">
                 <div className="box-border caret-transparent flex max-w-full outline-[3px]">
-                  <div className="text-neutral-800 text-sm bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[18.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center md:text-base md:leading-[20.8px]">
+                  <div className="text-neutral-800 text-sm bg-no-repeat bg-cover box-border caret-transparent leading-[18.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center md:text-base md:leading-[20.8px]">
                     <p className="text-sm box-border caret-transparent leading-[18.2px] max-w-full outline-[3px] md:text-base md:leading-[20.8px]">
                       <strong className="text-sm font-extrabold box-border caret-transparent leading-[18.2px] max-w-full outline-[3px] md:text-base md:leading-[20.8px]">
                         Individual results may vary
@@ -3702,7 +3702,7 @@ export const JevawellArticleContent = () => {
               </div>
               <div className="box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left mb-2.5 md:mb-3">
                 <div className="box-border caret-transparent flex max-w-full outline-[3px]">
-                  <div className="text-neutral-800 text-sm bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[18.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center md:text-base md:leading-[20.8px]">
+                  <div className="text-neutral-800 text-sm bg-no-repeat bg-cover box-border caret-transparent leading-[18.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center md:text-base md:leading-[20.8px]">
                     <p className="text-sm box-border caret-transparent leading-[18.2px] max-w-full outline-[3px] md:text-base md:leading-[20.8px]">
                       <strong className="text-sm font-extrabold box-border caret-transparent leading-[18.2px] max-w-full outline-[3px] md:text-base md:leading-[20.8px]">
                         Julia S., Chicago, Illinois
@@ -3748,7 +3748,7 @@ export const JevawellArticleContent = () => {
               </div>
             </div>
           </div>
-          <div className="relative content-start bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent gap-x-2 grid grid-cols-[minmax(0px,12fr)] grid-rows-[1fr] justify-start max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full bg-center mt-[21px] mx-auto pl-0 top-5 md:w-[1200px] md:mt-0 md:pl-[62px]">
+          <div className="relative content-start bg-no-repeat bg-cover box-border caret-transparent gap-x-2 grid grid-cols-[minmax(0px,12fr)] grid-rows-[1fr] justify-start max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full bg-center mt-[21px] mx-auto pl-0 top-5 md:w-[1200px] md:mt-0 md:pl-[62px]">
             <div className="relative box-border caret-transparent flex flex-col justify-start max-w-full min-h-[auto] min-w-[auto] outline-[3px]">
               <div
                 role="presentation"
@@ -3766,7 +3766,7 @@ export const JevawellArticleContent = () => {
               </div>
               <div className="box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left mb-2.5 md:mb-0">
                 <div className="box-border caret-transparent flex max-w-full outline-[3px]">
-                  <div className="text-neutral-800 text-sm bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[18.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center md:text-base md:leading-[20.8px]">
+                  <div className="text-neutral-800 text-sm bg-no-repeat bg-cover box-border caret-transparent leading-[18.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center md:text-base md:leading-[20.8px]">
                     <p className="text-sm box-border caret-transparent leading-[18.2px] max-w-full outline-[3px] md:text-base md:leading-[20.8px]">
                       <strong className="text-sm font-extrabold box-border caret-transparent leading-[18.2px] max-w-full outline-[3px] md:text-base md:leading-[20.8px]">
                         Individual results may vary
@@ -3777,7 +3777,7 @@ export const JevawellArticleContent = () => {
               </div>
               <div className="box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left mb-2.5 md:mb-3">
                 <div className="box-border caret-transparent flex max-w-full outline-[3px]">
-                  <div className="text-neutral-800 text-sm bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[18.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center md:text-base md:leading-[20.8px]">
+                  <div className="text-neutral-800 text-sm bg-no-repeat bg-cover box-border caret-transparent leading-[18.2px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center md:text-base md:leading-[20.8px]">
                     <p className="text-sm box-border caret-transparent leading-[18.2px] max-w-full outline-[3px] md:text-base md:leading-[20.8px]">
                       <strong className="text-sm font-extrabold box-border caret-transparent leading-[18.2px] max-w-full outline-[3px] md:text-base md:leading-[20.8px]">
                         Olivia P., Tucson, Arizona

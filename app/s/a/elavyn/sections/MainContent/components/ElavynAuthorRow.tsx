@@ -4,7 +4,7 @@ export const ElavynAuthorRow = () => {
       <div className="relative text-[15px] box-border caret-transparent flex flex-col justify-center leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] md:text-base md:leading-[28.8px]">
         <div className="text-[15px] box-border caret-transparent leading-[27px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-left md:text-base md:leading-[28.8px]">
           <div className="text-[15px] box-border caret-transparent flex leading-[27px] max-w-full outline-[3px] md:text-base md:leading-[28.8px]">
-            <h2 className="text-neutral-900 text-[13px] font-medium bg-[url('')] bg-no-repeat bg-cover box-border caret-transparent leading-[16.9px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-bitter md:text-sm md:leading-[21px]">
+            <h2 className="text-neutral-900 text-[13px] font-medium bg-no-repeat bg-cover box-border caret-transparent leading-[16.9px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-center font-bitter md:text-sm md:leading-[21px]">
               <strong className="text-[13px] font-bold box-border caret-transparent leading-[16.9px] max-w-full outline-[3px] md:text-sm md:leading-[21px]">
                 Written by Dr. Malcolm Carter
               </strong>
