@@ -34,7 +34,7 @@ export const PrimepicksHeroText = () => {
           Written by
         </span>
 
-        <span className="text-white text-[11px] box-border caret-transparent block leading-4 min-h-[auto] min-w-[auto] md:text-sm">
+        <span className="text-white text-[11px] box-border caret-transparent block leading-4 min-h-[auto] min-w-[auto] ml-1 md:text-sm">
           Benjamin Chos
         </span>
         <img

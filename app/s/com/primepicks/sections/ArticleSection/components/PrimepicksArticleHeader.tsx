@@ -48,7 +48,7 @@ export const PrimepicksArticleHeader = () => {
           />
           <span className="text-xs box-border caret-transparent leading-[18px] md:text-sm md:leading-[21px]">
             Written by
-          </span>
+          </span>{" "}
           <img
             src="/lp-images-files-videos-fonts/images/primepicks/ZXhwZXJ0LTQ0LmpwZw.jpg"
             alt="PrimePicks.Review"
@@ -56,14 +56,14 @@ export const PrimepicksArticleHeader = () => {
           />
           <span className="text-xs box-border caret-transparent leading-[18px] md:text-sm md:leading-[21px]">
             Benjamin Chos
-          </span>
+          </span>{" "}
           <br className="text-xs box-border caret-transparent block leading-[18px] md:text-sm md:hidden md:leading-[21px]" />
           <span className="text-xs box-border caret-transparent leading-[18px] md:text-sm md:leading-[21px]">
             on
-          </span>
+          </span>{" "}
           <span className="text-xs box-border caret-transparent leading-[18px] md:text-sm md:leading-[21px]">
             March 13, 2026
-          </span>
+          </span>{" "}
           <span className="text-xs box-border caret-transparent leading-[18px] md:text-sm md:leading-[21px]">
             Tech
           </span>
