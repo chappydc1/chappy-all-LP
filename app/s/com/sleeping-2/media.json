@@ -1,0 +1,45 @@
+{
+  "logo": "/lp-images-files-videos-fonts/images/primepicks/PrimePicks_logo_black.svg",
+  "logoWhite": "/lp-images-files-videos-fonts/images/primepicks-v2/PrimePicks_logo_white.svg",
+  "heroDesktop": "/lp-images-files-videos-fonts/com/sleeping-2/images/hero-desktop.jpg",
+  "heroMobile": "/lp-images-files-videos-fonts/com/sleeping-2/images/hero-mobile.jpg",
+  "socialPeople": "/lp-images-files-videos-fonts/images/primepicks-v2/social-people-fallback.png",
+  "ratingStarsSmall": "/lp-images-files-videos-fonts/images/primepicks-v2/rating-stars-small.png",
+  "flagUs": "/lp-images-files-videos-fonts/images/primepicks-v2/american-flag-fallback.svg",
+  "authorPhoto": "/lp-images-files-videos-fonts/images/primepicks/ZXhwZXJ0LTQ0LmpwZw.jpg",
+  "smarterChoiceBadge": "/lp-images-files-videos-fonts/images/primepicks-v2/smarter-choice-badge.svg",
+  "trustStarsFull": "/lp-images-files-videos-fonts/images/primepicks-v2/trust-rate-stars.svg",
+  "reviewStars": "/lp-images-files-videos-fonts/images/primepicks/Testimonials-stars-icons-7-4-1-1.svg",
+  "quoteTopLeft": "/lp-images-files-videos-fonts/images/primepicks/quote-top-left.svg",
+  "quoteBottomRight": "/lp-images-files-videos-fonts/images/primepicks-v2/quote-bottom-right.svg",
+  "products": [
+    {
+      "image": "/lp-images-files-videos-fonts/com/sleeping-2/images/aurelune-1.jpg",
+      "ratingStars": "/lp-images-files-videos-fonts/images/primepicks-v2/trust-rate-stars.svg"
+    },
+    {
+      "image": "/lp-images-files-videos-fonts/com/sleeping/images/02-tempur-cloud.jpg",
+      "ratingStars": "/lp-images-files-videos-fonts/images/primepicks-v2/TrustRate-4-half-stars-5-4.svg"
+    },
+    {
+      "image": "/lp-images-files-videos-fonts/com/sleeping/images/03-pillow-cube-side.jpg",
+      "ratingStars": "/lp-images-files-videos-fonts/images/primepicks-v2/TrustRate-4-half-stars-4-1.svg"
+    },
+    {
+      "image": "/lp-images-files-videos-fonts/com/sleeping/images/04-coop-original.jpg",
+      "ratingStars": "/lp-images-files-videos-fonts/images/primepicks-v2/TrustRate-4-half-stars-4.svg"
+    },
+    {
+      "image": "/lp-images-files-videos-fonts/com/sleeping/images/05-purple-harmony.jpg",
+      "ratingStars": "/lp-images-files-videos-fonts/images/primepicks-v2/TrustRate-4-half-stars-1-3.svg"
+    }
+  ],
+  "images": {
+    "neckSupport": "/lp-images-files-videos-fonts/com/sleeping-2/images/aurelune-2.jpg",
+    "fiveZone": "/lp-images-files-videos-fonts/com/sleeping-2/images/aurelune-3.jpg",
+    "positions": "/lp-images-files-videos-fonts/com/sleeping-2/images/aurelune-5.jpg",
+    "cooling": "/lp-images-files-videos-fonts/com/sleeping-2/images/aurelune-7.jpg",
+    "comparison": "/lp-images-files-videos-fonts/com/sleeping-2/images/aurelune-8.jpg",
+    "trial": "/lp-images-files-videos-fonts/com/sleeping-2/images/aurelune-9.jpg"
+  }
+}
