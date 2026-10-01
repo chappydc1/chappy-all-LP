@@ -2,9 +2,9 @@ type BreadcrumbProps = {
   items: { label: string; href: string; current?: boolean }[];
 };
 
-export function SleepingBreadcrumb({ items }: BreadcrumbProps) {
+export function SleepingBreadcrumb({ items }: BreadcrumbProps): React.JSX.Element {
   return (
-    <div className="items-center hidden h-[50px] max-w-full min-w-full p-[15px] md:flex md:min-w-[1024px] md:pl-0">
+    <div className="items-center hidden h-[50px] max-w-full min-w-full p-[15px] lg:flex lg:min-w-[1024px] lg:pl-0">
       <div className="text-zinc-500 flex flex-wrap leading-[21px] uppercase">
         {items.map((item, i) => (
           <div key={i} className="flex items-center">
