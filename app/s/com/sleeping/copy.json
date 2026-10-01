@@ -40,7 +40,7 @@
       "discountText": "Buy 1 Get 1 Free",
       "cta": "Check Price",
       "ctaUrl": "https://aurelunehealth.com/products/aurelune-cloud",
-      "availabilityNote": "Only at the official AURELUNE store"
+      "hideAmazonBadge": true
     },
     {
       "rank": "2",

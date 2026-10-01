@@ -16,7 +16,7 @@ type ProductCardProps = {
   starHalf: string;
   checkIcon: string;
   amazonBadge: string;
-  availabilityNote?: string;
+  hideAmazonBadge?: boolean;
   featured?: boolean;
   wrapperClassName?: string;
 };
@@ -91,11 +91,7 @@ export function SleepingProductCard(props: ProductCardProps) {
                 {props.cta}
               </button>
             </a>
-            {props.availabilityNote ? (
-              <p className="text-xs font-semibold text-emerald-700 mt-2.5 md:mt-3">
-                ✓ {props.availabilityNote}
-              </p>
-            ) : (
+            {!props.hideAmazonBadge && (
               <div className="mt-0 md:-mt-2.5">
                 <img
                   alt="available at amazon"
