@@ -20,6 +20,11 @@ You MUST maintain this file to track your work across messages. This is NON-NEGO
 <changelog>
 <!-- NEXT_ENTRY_HERE -->
 
+## 2026-10-02
+- Added `/s/com/best-toe-socks` (`app/s/com/best-toe-socks/`), a duplicate of `/s/com/primepicks-v2` retargeted to running toe socks with AURELUNE Injinji Run Lightweight Mini-Crew as #1 (components renamed `BestToeSocks*`).
+- Angle/features come from the Aurelune product page (five-toe blister prevention, toe splay, CoolMax, 200-needle knit, BOGO deal, 90-day returns); `video` block type dropped.
+- Assets in `public/lp-images-files-videos-fonts/com/best-toe-socks/images/`; hero banners and article images are composites built from the product shots.
+
 ## 2026-10-01
 - Added `/s/com/sleeping-2` (`app/s/com/sleeping-2/`), a duplicate of `/s/com/primepicks-v2` retargeted to side-sleeper pillows with AURELUNE Cloud as #1 (components renamed `Sleeping2*`).
 - The `video` article block type was dropped (no pillow videos); article media are Aurelune listing images in `public/lp-images-files-videos-fonts/com/sleeping-2/images/`, competitor images reused from `com/sleeping/images/`.
