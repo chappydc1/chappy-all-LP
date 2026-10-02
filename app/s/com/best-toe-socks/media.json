@@ -14,7 +14,7 @@
   "quoteBottomRight": "/lp-images-files-videos-fonts/images/primepicks-v2/quote-bottom-right.svg",
   "products": [
     {
-      "image": "/lp-images-files-videos-fonts/com/best-toe-socks/images/product-1-aurelune-injinji.jpg",
+      "image": "/lp-images-files-videos-fonts/com/best-toe-socks/images/product-1-aurelune.jpg",
       "ratingStars": "/lp-images-files-videos-fonts/images/primepicks-v2/trust-rate-stars.svg"
     },
     {
@@ -35,7 +35,7 @@
     }
   ],
   "images": {
-    "articleImage1": "/lp-images-files-videos-fonts/com/best-toe-socks/images/article-injinji-mini-crew.jpg",
+    "articleImage1": "/lp-images-files-videos-fonts/com/best-toe-socks/images/article-aurelune-sock.jpg",
     "articleImage2": "/lp-images-files-videos-fonts/com/best-toe-socks/images/article-bogo-bundle.jpg"
   }
 }
