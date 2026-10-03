@@ -1,5 +1,6 @@
 // @ts-nocheck
 import adv from "../copy.json";
+import links from "../links.json";
 
 export const NexaStickyCta = () => {
   return (
@@ -13,7 +14,7 @@ export const NexaStickyCta = () => {
           <a
             title="Enter link text here"
             loop="none"
-            href={adv.meta.ctaUrl}
+            href={links.cta}
             className="text-black text-[21px] font-bold bg-yellow-400 box-border caret-transparent block justify-center leading-[21px] max-w-full outline-[3px] text-center mx-[25px] px-2.5 py-[15px] rounded-bl rounded-br rounded-tl rounded-tr font-montserrat md:text-red-600 md:text-base md:font-normal md:bg-transparent md:hidden md:justify-normal md:leading-4 md:mx-0 md:p-0 md:rounded-none md:font-times_new_roman"
           >
             {adv.stickyCta.mobileText}
@@ -37,7 +38,7 @@ export const NexaStickyCta = () => {
           <a
             title="GET 50% OFF Now!"
             loop="none"
-            href={adv.meta.ctaUrl}
+            href={links.cta}
             className="text-black text-xl font-bold bg-yellow-400 box-border caret-transparent hidden leading-5 max-w-full outline-[3px] text-center px-[50px] py-[17px] rounded-bl rounded-br rounded-tl rounded-tr font-montserrat md:text-[27px] md:flex md:leading-[27px] md:px-[140px]"
           >
             {adv.stickyCta.desktopText}
