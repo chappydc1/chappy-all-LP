@@ -20,6 +20,11 @@ You MUST maintain this file to track your work across messages. This is NON-NEGO
 <changelog>
 <!-- NEXT_ENTRY_HERE -->
 
+## 2026-10-03 (pilates grip socks)
+- Added `/s/com/best-pilates-grip-socks` (`app/s/com/best-pilates-grip-socks/`), a duplicate of `/s/com/best-toe-socks` with components renamed `BestPilatesGripSocks*`.
+- #1 is AURELUNE Happy Full Foot Grip Sock; #2–#5 are Tavi Savvy, Arebesk Classic Crew, ToeSox Full Toe Low Rise, Gaiam Grippy Yoga Socks (prices and review counts from their stores).
+- Images live in `public/lp-images-files-videos-fonts/com/best-pilates-grip-socks/images/`; the hero is a collage of all five products.
+
 ## 2026-10-03
 - `/s/com/best-toe-socks`: #2 pick is now Injinji Ultra Run Crew (replaces Tabio Signature Run) in `app/s/com/best-toe-socks/copy.json` + `media.json`.
 - Image `com/best-toe-socks/images/product-2-injinji.jpg` is the official injinji.com dual shot flattened to 436×436 JPG; `product-2-tabio.jpg` removed.
