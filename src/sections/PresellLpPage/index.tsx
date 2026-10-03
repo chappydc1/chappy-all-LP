@@ -1,75 +1,70 @@
 "use client";
 
-/** Each body block is a single-key object: { sectionName: copyText }
- *  String → paragraph (or blockquote / cta depending on the key name)
- *  string[] → bullet list
- *  null → cta image (no copy)
- */
-type BodyBlock = Record<string, string | string[] | null>;
+type Story = Record<string, string | string[]>;
 
-const BLOCKQUOTE_KEYS = new Set(["expert_quote", "results_teaser", "testimonial_quote"]);
-const BULLETS_KEYS    = new Set(["objections_crushed", "discover_bullets"]);
+const BLOCKQUOTE_KEYS = new Set(["expertQuote", "resultsTeaser", "testimonialQuote"]);
+const BULLETS_KEYS    = new Set(["objectionsCrushed", "discoverBullets"]);
+const RATING_STARS = 5;
+const ACTIVE_NAV_INDEX = 2;
+const VISIBLE_COMMENT_COUNT = 4;
 
 /** Convert **bold** markdown to <strong>bold</strong>. No other HTML allowed in copy.json. */
 function md(text: string): string {
   return text.replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>");
 }
 
-type NavLink = { label: string; active: boolean };
-
 type Comment = {
   initial: string;
-  avatarColor: string;
   name: string;
   timestamp: string;
   text: string;
   likes: string;
-  hidden?: boolean;
 };
-
-type LegalLink = { label: string; href: string };
 
 export type LpCopy = {
   seo: { title: string; description: string };
+  advertorialLabel: string;
   nav: {
-    advertorialLabel: string;
     date: string;
-    siteNameParts: string[];
     signIn: string;
     subscribe: string;
-    navLinks: NavLink[];
+    siteNameParts: string[];
+    items: string[];
   };
-  article: {
+  hero: {
     category: string;
     headline: string;
     author: string;
     datePublished: string;
     views: string;
     rating: string;
-    ratingStars: number;
     heroImageAlt: string;
-    body: BodyBlock[];
-    relatedTopics: string[];
   };
+  story: Story;
+  relatedTopics: string[];
   comments: {
     title: string;
     topCommentsLabel: string;
     sortOptions: string[];
     commentPlaceholder: string;
     postButtonLabel: string;
-    loadMoreLabel: string;
     items: Comment[];
+    loadMoreLabel: string;
   };
   footer: {
     brandName: string;
     brandHighlight: string;
     tagline: string;
     legalTitle: string;
-    legalLinks: LegalLink[];
+    legalLinks: string[];
     disclaimer: string;
     copyright: string;
   };
-  ctaUrl: string;
+};
+
+export type LpLinks = {
+  cta: string;
+  footer: { legal: string[] };
 };
 
 export type LpMedia = {
@@ -82,6 +77,8 @@ export type LpMedia = {
 export type PresellLpPageProps = {
   content: LpCopy;
   media: LpMedia;
+  links: LpLinks;
+  commentAvatarClasses: string[];
 };
 
 function StarRating({ count, rating }: { count: number; rating: string }){
@@ -95,11 +92,11 @@ function StarRating({ count, rating }: { count: number; rating: string }){
   );
 }
 
-function CommentItem({ item, ctaUrl }: { item: Comment; ctaUrl: string }){
+function CommentItem({ item, avatarClass, ctaUrl }: { item: Comment; avatarClass: string; ctaUrl: string }){
   return (
     <div className="items-start flex flex-wrap max-w-full md:flex-nowrap md:max-w-none md:break-normal">
       <div
-        className={`text-white font-bold items-center flex shrink-0 h-10 justify-center max-w-full min-h-[auto] min-w-[auto] w-10 mr-3 rounded-[50%] md:max-w-none md:break-normal ${item.avatarColor}`}
+        className={`text-white font-bold items-center flex shrink-0 h-10 justify-center max-w-full min-h-[auto] min-w-[auto] w-10 mr-3 rounded-[50%] md:max-w-none md:break-normal ${avatarClass}`}
       >
         {item.initial}
       </div>
@@ -130,26 +127,12 @@ function CommentItem({ item, ctaUrl }: { item: Comment; ctaUrl: string }){
   );
 }
 
-export function PresellLpPage({ content, media }: PresellLpPageProps){
-  const { nav: header, article, comments, footer, ctaUrl } = content;
+export function PresellLpPage({ content, media, links, commentAvatarClasses }: PresellLpPageProps){
+  const { advertorialLabel, nav: header, hero: article, story, relatedTopics, comments, footer } = content;
+  const ctaUrl = links.cta;
 
-  function renderBlock(block: BodyBlock, index: number){
-    const [key, value] = Object.entries(block)[0];
-
-    if (key === "cta_image") {
-      return (
-        <div key={index}>
-          <a href={ctaUrl} className="hidden md:inline md:break-normal">
-            <img src={media.ctaImageDesktop.src} alt={media.ctaImageDesktop.alt} className="max-w-full w-full my-3 rounded md:break-normal" />
-          </a>
-          <a href={ctaUrl} className="inline-block md:hidden md:break-normal">
-            <img src={media.ctaImageMobile.src} alt={media.ctaImageMobile.alt} className="max-w-full w-full my-3 rounded md:break-normal" />
-          </a>
-        </div>
-      );
-    }
-
-    if (key === "cta_link") {
+  function renderBlock(key: string, value: string | string[], index: number){
+    if (key === "ctaText") {
       return (
         <p key={index} className="text-xl leading-[34px] max-w-full mb-5 font-domine md:max-w-none md:break-normal">
           <a href={ctaUrl} className="text-sky-600 font-bold md:break-normal">
@@ -191,14 +174,14 @@ export function PresellLpPage({ content, media }: PresellLpPageProps){
     );
   }
 
-  const visibleComments = comments.items.filter((c) => !c.hidden);
-  const hiddenComments = comments.items.filter((c) => c.hidden);
+  const visibleComments = comments.items.slice(0, VISIBLE_COMMENT_COUNT);
+  const hiddenComments = comments.items.slice(VISIBLE_COMMENT_COUNT);
 
   return (
     <>
       <header className="bg-white shadow-[0_1px_3px_rgba(0,0,0,0.1),0_1px_2px_rgba(0,0,0,0.06)]">
         <div className="text-neutral-500 text-[10px] leading-[15px] max-w-full text-center uppercase md:max-w-none">
-          {header.advertorialLabel}
+          {advertorialLabel}
         </div>
 
         <div className="max-w-full overflow-x-hidden overflow-y-auto w-full mx-auto pb-2 px-3 md:max-w-screen-xl md:px-4">
@@ -230,15 +213,15 @@ export function PresellLpPage({ content, media }: PresellLpPageProps){
 
             <div className="hidden max-w-full md:block md:max-w-none md:min-h-[auto] md:min-w-[auto]">
               <div className="flex flex-wrap max-w-full md:flex-nowrap md:max-w-none">
-                {header.navLinks.map((link, i) => (
+                {header.items.map((label, i) => (
                   <a
                     key={i}
                     href={ctaUrl}
                     className={`font-medium block min-h-0 min-w-0 md:min-h-[auto] md:min-w-[auto] hover:text-blue-600 ${
                       i === 0 ? "text-gray-800 mr-3 md:mr-0" : "ml-6"
-                    } ${link.active ? "text-red-600" : "text-gray-800"}`}
+                    } ${i === ACTIVE_NAV_INDEX ? "text-red-600" : "text-gray-800"}`}
                   >
-                    {link.label}
+                    {label}
                   </a>
                 ))}
               </div>
@@ -272,7 +255,7 @@ export function PresellLpPage({ content, media }: PresellLpPageProps){
                 <div className="text-neutral-600 items-center flex max-w-full min-h-[auto] min-w-[auto] mr-4 mt-1 md:max-w-none">
                   👁 {article.views}
                 </div>
-                <StarRating count={article.ratingStars} rating={article.rating} />
+                <StarRating count={RATING_STARS} rating={article.rating} />
               </div>
             </div>
           </div>
@@ -287,7 +270,15 @@ export function PresellLpPage({ content, media }: PresellLpPageProps){
 
           <div className="leading-[27.2px] max-w-full overflow-x-hidden overflow-y-auto px-2 md:max-w-[800px] md:overflow-x-visible md:overflow-y-visible md:break-normal md:px-0">
             <article className="md:break-normal">
-              {article.body.map((block, i) => renderBlock(block, i))}
+              {Object.entries(story).map(([key, value], i) => renderBlock(key, value, i))}
+              <div>
+                <a href={ctaUrl} className="hidden md:inline md:break-normal">
+                  <img src={media.ctaImageDesktop.src} alt={media.ctaImageDesktop.alt} className="max-w-full w-full my-3 rounded md:break-normal" />
+                </a>
+                <a href={ctaUrl} className="inline-block md:hidden md:break-normal">
+                  <img src={media.ctaImageMobile.src} alt={media.ctaImageMobile.alt} className="max-w-full w-full my-3 rounded md:break-normal" />
+                </a>
+              </div>
             </article>
 
             <div className="max-w-full border-gray-200 mt-8 pt-4 border-t border-solid md:max-w-none md:break-normal">
@@ -295,7 +286,7 @@ export function PresellLpPage({ content, media }: PresellLpPageProps){
                 Related Topics:
               </div>
               <div className="gap-x-2 flex flex-wrap max-w-full gap-y-2 mt-2 md:max-w-none md:break-normal">
-                {article.relatedTopics.map((topic) => (
+                {relatedTopics.map((topic) => (
                   <a
                     key={topic}
                     href={ctaUrl}
@@ -350,7 +341,7 @@ export function PresellLpPage({ content, media }: PresellLpPageProps){
                     i > 0 ? "mt-6" : ""
                   } pl-4 border-l-[3px] border-solid md:max-w-none md:overflow-x-visible md:overflow-y-visible md:break-normal`}
                 >
-                  <CommentItem item={item} ctaUrl={ctaUrl} />
+                  <CommentItem item={item} avatarClass={commentAvatarClasses[i]} ctaUrl={ctaUrl} />
                 </div>
               ))}
 
@@ -363,7 +354,7 @@ export function PresellLpPage({ content, media }: PresellLpPageProps){
                         i > 0 ? "mt-6" : ""
                       } pl-4 border-l-[3px] border-solid md:max-w-none md:overflow-x-visible md:overflow-y-visible md:break-normal`}
                     >
-                      <CommentItem item={item} ctaUrl={ctaUrl} />
+                      <CommentItem item={item} avatarClass={commentAvatarClasses[VISIBLE_COMMENT_COUNT + i]} ctaUrl={ctaUrl} />
                     </div>
                   ))}
                 </div>
@@ -393,10 +384,10 @@ export function PresellLpPage({ content, media }: PresellLpPageProps){
             <div className="max-w-full min-h-[auto] min-w-[auto] md:max-w-none">
               <h4 className="font-bold mb-4">{footer.legalTitle}</h4>
               <ul className="list-none pl-0">
-                {footer.legalLinks.map((link, i) => (
-                  <li key={link.href} className={i > 0 ? "mt-2" : ""}>
-                    <a href={link.href} className="text-gray-400 hover:text-white">
-                      {link.label}
+                {footer.legalLinks.map((label, i) => (
+                  <li key={links.footer.legal[i]} className={i > 0 ? "mt-2" : ""}>
+                    <a href={links.footer.legal[i]} className="text-gray-400 hover:text-white">
+                      {label}
                     </a>
                   </li>
                 ))}

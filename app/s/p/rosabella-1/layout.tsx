@@ -2,8 +2,8 @@ import type { Metadata } from "next"
 import copy from "./copy.json"
 
 export const metadata: Metadata = {
-  title: copy.meta.title,
-  description: copy.meta.description,
+  title: copy.seo.title,
+  description: copy.seo.description,
 }
 
 export default function RosabellaPdpLayout({

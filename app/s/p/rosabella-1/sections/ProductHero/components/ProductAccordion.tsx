@@ -2,8 +2,10 @@ import copy from "../../../copy.json"
 import media from "../../../media.json"
 import { ProductAccordionItem } from "./ProductAccordionItem"
 
+const ACCORDION_PANEL_TYPES = ["description", "results", "guarantee", "shipping"] as const
+
 export const ProductAccordion = () => {
-  const accordion = copy.productHero.accordion;
+  const accordion = copy.hero.accordion;
   return (
     <div className="box-border caret-transparent outline-[3px] w-full mt-5">
       <div className="box-border caret-transparent outline-[3px] w-full">
@@ -15,7 +17,7 @@ export const ProductAccordion = () => {
             >
               <div className="box-border caret-transparent outline-[3px]">
                 <ProductAccordionItem title={item.title}>
-                  {item.type === "description" && (
+                  {ACCORDION_PANEL_TYPES[i] === "description" && (
                     <>
                       <div className="text-black text-[15px] box-border caret-transparent tracking-[-0.32px] leading-[19.5px] outline-[3px] font-montserrat md:text-base md:leading-[20.8px]">
                         <b className="text-[15px] font-bold box-border caret-transparent leading-[19.5px] outline-[3px] md:text-base md:leading-[20.8px]">
@@ -45,7 +47,7 @@ export const ProductAccordion = () => {
                       </div>
                     </>
                   )}
-                  {item.type === "results" && (
+                  {ACCORDION_PANEL_TYPES[i] === "results" && (
                     <>
                       <div className="text-black text-[15px] box-border caret-transparent tracking-[-0.32px] leading-[19.5px] outline-[3px] font-montserrat md:text-base md:leading-[20.8px]">
                         {item.intro}
@@ -63,7 +65,7 @@ export const ProductAccordion = () => {
                       </div>
                     </>
                   )}
-                  {item.type === "guarantee" && (
+                  {ACCORDION_PANEL_TYPES[i] === "guarantee" && (
                     <div className="text-black text-[15px] box-border caret-transparent tracking-[-0.32px] leading-[19.5px] outline-[3px] font-montserrat md:text-base md:leading-[20.8px]">
                       <b className="text-[15px] font-bold box-border caret-transparent leading-[19.5px] outline-[3px] md:text-base md:leading-[20.8px]">{item.heading}</b>
                       <div className="text-[15px] box-border caret-transparent leading-[19.5px] outline-[3px] md:text-base md:leading-[20.8px]">
@@ -77,7 +79,7 @@ export const ProductAccordion = () => {
                       </div>
                     </div>
                   )}
-                  {item.type === "shipping" && (
+                  {ACCORDION_PANEL_TYPES[i] === "shipping" && (
                     <div className="text-black text-[15px] box-border caret-transparent tracking-[-0.32px] leading-[19.5px] outline-[3px] font-montserrat md:text-base md:leading-[20.8px]">
                       <b className="text-[15px] font-bold box-border caret-transparent leading-[19.5px] outline-[3px] md:text-base md:leading-[20.8px]">{item.heading}</b>
                       <div className="text-[15px] box-border caret-transparent leading-[19.5px] outline-[3px] md:text-base md:leading-[20.8px]">
