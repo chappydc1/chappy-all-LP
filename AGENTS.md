@@ -21,7 +21,8 @@ app/                          # Next.js App Router
     a/
       <slug>/
         page.tsx              # Route page component — imports and renders TopBar
-        copy.json              # Page text content (headings, CTAs, comments, footer)
+        copy.json         # Copy only, DR-named sections in page order
+        links.json        # Outbound URLs (CTA, checkout, footer links)
         media.json        # Page media content (image/video URLs, icon URLs)
 
 src/
@@ -197,8 +198,11 @@ import { useState, useEffect } from "react"
 
 Each advertorial route is driven by two JSON files co-located with the page:
 
-- `copy.json` — all text content: headings, paragraphs, CTA labels, comment items, footer copy
+- `copy.json` — copy only: the words a reader sees (headlines, paragraphs, CTA labels, comments, FAQ, footer text, SEO title/description, image alt text). Top-level keys are direct-response section names in page order (`seo`, `hero`, `lead`, `problem`, `mechanism`, `offer`, `guarantee`, `faq`, `comments`, `footer`, …). No URLs, Tailwind classes, colors, booleans, numbers, `null`s, IDs, or asset paths — displayed numbers like prices and ratings are strings.
+- `links.json` — all outbound URLs (CTA, checkout, footer, nav, references), shaped by the same section names
 - `media.json` — all media references: image URLs, video URLs, icon URLs, avatar URLs
+
+Styling, layout flags, timers, and other behavior config live in the route's TSX as constants or are derived from list position — never in `copy.json`.
 
 The page passes both files as props to `TopBar`. Downstream components read from these via `AdvertorialContext`. To add a new advertorial route:
 
