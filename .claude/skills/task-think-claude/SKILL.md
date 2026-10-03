@@ -242,14 +242,14 @@ Phase 0 (main) → Phase 1 PARALLEL (3× Explore + synthesis, subagents) → Pha
 
 | Phase | `subagent_type` | `model` | Why |
 |-------|-----------------|---------|-----|
-| 1 (context, new project) | `Explore` for mapping; `general-purpose` for synthesis | `claude-haiku-4-5-20251001` | Read-heavy, Haiku handles it |
-| 1F (context, follow-up) | `general-purpose` | `claude-haiku-4-5-20251001` | Same |
-| 2 (plan) | `general-purpose` | `claude-opus-4-7` | Real reasoning required |
-| 3 (assess) | `general-purpose` | `claude-opus-4-7` | Adversarial critique |
-| 2+3 merged | `general-purpose` | `claude-opus-4-7` | Plan + self-critique |
-| 4 (implementation) | `general-purpose` | `claude-opus-4-7` | Writing real code |
-| 7a (review) | `general-purpose` | `claude-haiku-4-5-20251001` | Checklist work |
-| 7b (fix) | `general-purpose` | `claude-opus-4-7` | Writing code again |
+| 1 (context, new project) | `Explore` for mapping; `general-purpose` for synthesis | `claude-sonnet-5-5` | 
+| 1F (context, follow-up) | `general-purpose` | `claude-haiku-4-5-20251001` | 
+| 2 (plan) | `general-purpose` | `claude-opus-5-5` | Real reasoning required |
+| 3 (assess) | `general-purpose` | `claude-opus-5-5` | Adversarial critique |
+| 2+3 merged | `general-purpose` | `claude-opus-5-5` | Plan + self-critique |
+| 4 (implementation) | `general-purpose` | `claude-opus-5-5` | Writing real code |
+| 7a (review) | `general-purpose` | `claude-sonnet-5-5` | Checklist work |
+| 7b (fix) | `general-purpose` | `claude-opus-5-5` | Writing code again |
 
 Pass file paths explicitly in every subagent prompt — never assume context inheritance.
 
