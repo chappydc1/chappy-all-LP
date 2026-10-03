@@ -20,10 +20,10 @@ export const StickyBar = () => {
       <div className="flex items-center justify-between w-full py-3 px-3 lg:px-4">
         <StickyBarInfo />
         <a
-          href={content.global.ctaHref}
+          href={content.ui.ctaHref}
           className="text-white font-bold items-center bg-green-500 flex h-[37px] justify-center leading-[18px] uppercase ml-2.5 px-6 py-[9px] rounded-[20px] border-2 border-solid border-transparent transition-all duration-200 active:scale-95 cursor-pointer whitespace-nowrap text-sm"
         >
-          {content.global.orderNowShort}
+          {content.ui.orderNowShort}
         </a>
       </div>
     </div>

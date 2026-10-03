@@ -1,9 +1,8 @@
 {
-  "ctaUrl": "https://loraritual.com/products/nrx",
   "announcementBar": {
     "text": "SPECIAL OFFER NOW! 65% OFF"
   },
-  "header": {
+  "nav": {
     "logoAlt": "Pipitea"
   },
   "hero": {
@@ -13,7 +12,7 @@
     "shipsBy": "Ships by Sat, Jun 6 from our Ohio warehouse",
     "inStock": "In stock",
     "delivery": "Expected delivery in 3 to 6 business days",
-    "ctaLabel": "BUY NOW & SAVE NOW!",
+    "ctaText": "BUY NOW & SAVE NOW!",
     "guarantee": {
       "headline": "Feel better or it's free!",
       "body": "If you don't love the taste, notice improvement in your kidney function readings, or find yourself reaching for it daily within 90 days, we'll refund you in full. No hassle. No questions asked."
@@ -50,15 +49,17 @@
     "mobileTestimonialAuthor": "Margaret T.",
     "moneyBackLabel": "90-Day Money Back Guarantee"
   },
-  "education": {
-    "block1Heading": "Your Kidney Function Isn't a Life Sentence. (You Just Haven't Found the Right Support Yet.)",
-    "block1Paragraphs": [
+  "problem": {
+    "headline": "Your Kidney Function Isn't a Life Sentence. (You Just Haven't Found the Right Support Yet.)",
+    "body": [
       "You're not imagining it. The creeping numbers that keep your doctor concerned. The anxiety every time you sit down for a reading. The mental math of every meal. The nagging worry that something needs to change before it becomes a bigger problem.",
       "These aren't just 'part of getting older.' They're signs that your kidney system needs support. And the usual solutions come with their own problems. Medications have side effects - fatigue, dizziness, frequent bathroom trips, and worse. Cutting protein completely is miserable and often not enough. 'Drink more water and reduce stress' is easier said than done when you're already stressed about your numbers.",
       "You've tried the lifestyle changes and watched your numbers barely budge. You've dreaded the medication conversation with your doctor. What you need is something that actually works AND doesn't come with a list of side effects - something you'll actually do every single day."
-    ],
-    "block2Heading": "The Caffeine-Free Tea Backed by 100+ Clinical Studies and Centuries of Traditional Use",
-    "block2Paragraphs": [
+    ]
+  },
+  "discovery": {
+    "headline": "The Caffeine-Free Tea Backed by 100+ Clinical Studies and Centuries of Traditional Use",
+    "body": [
       "Hibiscus Tea is one of the most clinically researched natural compounds for kidney function support. Over 100 peer-reviewed studies confirm benefits for kidney health, eGFR maintenance, creatinine balance, and antioxidant protection. This isn't marketing hype. It's science your doctor can verify.",
       "Just 1 cup each day helps to:",
       "Support healthy eGFR and creatinine levels already in normal range",
@@ -70,21 +71,35 @@
       "It has centuries of safe use. From Egyptian royalty to Mexican Agua de Jamaica to Traditional Ayurvedic medicine. Millions drink for kidney health. This isn't a trendy supplement that appeared last. It's time-tested."
     ]
   },
-  "customerSurvey": {
-    "heading": "Real Feedback from Hibiscus Tea Customers with Kidney Concerns",
-    "subheading": "In a recent customer survey, users reported:",
+  "proof": {
+    "headline": "Real Feedback from Hibiscus Tea Customers with Kidney Concerns",
+    "subheadline": "In a recent customer survey, users reported:",
     "stats": [
-      { "percentage": "76%", "description": "reported feeling more confident about their kidney health within the first month of daily use.*" },
-      { "percentage": "74%", "description": "noticed stable or improved eGFR at checkups.*" },
-      { "percentage": "67%", "description": "say their doctors commented positively on their numbers.*" },
-      { "percentage": "64%", "description": "report feeling less stressed and anxious about their kidney health overall.*" }
+      {
+        "percentage": "76%",
+        "description": "reported feeling more confident about their kidney health within the first month of daily use.*"
+      },
+      {
+        "percentage": "74%",
+        "description": "noticed stable or improved eGFR at checkups.*"
+      },
+      {
+        "percentage": "67%",
+        "description": "say their doctors commented positively on their numbers.*"
+      },
+      {
+        "percentage": "64%",
+        "description": "report feeling less stressed and anxious about their kidney health overall.*"
+      }
     ],
     "disclaimer": "*Results based on a voluntary, self-reported customer survey conducted by PiPi Tea in 2025. Individual results may vary."
   },
-  "supportComparison": {
-    "heading": "One Tea. Complete Daily Kidney Support.",
-    "body1": "Unlike prescription medications with side effect lists, restrictive diets that are impossible to maintain, or supplements that do nothing measurable, Hibiscus Tea keeps it simple: one delicious drink with powerful kidney-supporting benefits.",
-    "body2": "Here's how Hibiscus compares to other popular kidney support options:",
+  "solution": {
+    "headline": "One Tea. Complete Daily Kidney Support.",
+    "body": [
+      "Unlike prescription medications with side effect lists, restrictive diets that are impossible to maintain, or supplements that do nothing measurable, Hibiscus Tea keeps it simple: one delicious drink with powerful kidney-supporting benefits.",
+      "Here's how Hibiscus compares to other popular kidney support options:"
+    ],
     "comparisons": [
       {
         "title": "Instead of Prescription Medications:",
@@ -112,9 +127,9 @@
       }
     ]
   },
-  "featuredTestimonials": {
-    "heading": "See Why This Ancient Superfood Is Loved Daily for Supporting Healthy Kidney Function",
-    "ctaLabel": "BUY NOW & SAVE",
+  "testimonials": {
+    "headline": "See Why This Ancient Superfood Is Loved Daily for Supporting Healthy Kidney Function",
+    "ctaText": "BUY NOW & SAVE",
     "moneyBackLabel": "90-Day Money Back Guarantee",
     "testimonials": [
       {
@@ -136,7 +151,7 @@
     ]
   },
   "qualityPromise": {
-    "heading": "PiPi Tea Promise",
+    "headline": "PiPi Tea Promise",
     "certifications": [
       "USDA Organic",
       "Heavy Metal Tested",
@@ -155,8 +170,8 @@
     ]
   },
   "resultsTimeline": {
-    "heading": "What Should I Expect From Consistent Use Of Hibiscus Tea for Kidney Function Support?",
-    "ctaLabel": "BUY NOW & SAVE",
+    "headline": "What Should I Expect From Consistent Use Of Hibiscus Tea for Kidney Function Support?",
+    "ctaText": "BUY NOW & SAVE",
     "moneyBackLabel": "90-Day Money Back Guarantee",
     "items": [
       {
@@ -185,9 +200,9 @@
       }
     ]
   },
-  "optionsComparison": {
-    "heading": "Why Hibiscus Tea Beats Other Kidney Support Options",
-    "ctaLabel": "BUY NOW & SAVE",
+  "comparison": {
+    "headline": "Why Hibiscus Tea Beats Other Kidney Support Options",
+    "ctaText": "BUY NOW & SAVE",
     "moneyBackLabel": "90-Day Money Back Guarantee",
     "comparisonHeader": {
       "hibiscusLabel": "Hibiscus Tea",
@@ -196,18 +211,42 @@
       "othersLabel": "Other Options"
     },
     "rows": [
-      { "hibiscus": "No prescription required", "others": "Medications require doctor visits and ongoing prescriptions" },
-      { "hibiscus": "No side effects to worry about", "others": "Fatigue, dizziness, frequent urination common with meds" },
-      { "hibiscus": "Genuinely delicious, tart-cranberry flavor", "others": "Pills taste like nothing; medications can cause taste changes" },
-      { "hibiscus": "100+ clinical studies on kidney support benefits", "others": "Many supplements lack robust kidney research" },
-      { "hibiscus": "Centuries of safe traditional use", "others": "Many kidney supplements are relatively new" },
-      { "hibiscus": "Supports multiple areas (eGFR, creatinine, circulation, antioxidants)", "others": "Most options are single-purpose" },
-      { "hibiscus": "Results you can feel AND verify at checkups", "others": "Many supplements show no measurable change" },
-      { "hibiscus": "Easy daily ritual you'll actually stick with", "others": "Pills get forgotten; restrictive diets get abandoned" }
+      {
+        "hibiscus": "No prescription required",
+        "others": "Medications require doctor visits and ongoing prescriptions"
+      },
+      {
+        "hibiscus": "No side effects to worry about",
+        "others": "Fatigue, dizziness, frequent urination common with meds"
+      },
+      {
+        "hibiscus": "Genuinely delicious, tart-cranberry flavor",
+        "others": "Pills taste like nothing; medications can cause taste changes"
+      },
+      {
+        "hibiscus": "100+ clinical studies on kidney support benefits",
+        "others": "Many supplements lack robust kidney research"
+      },
+      {
+        "hibiscus": "Centuries of safe traditional use",
+        "others": "Many kidney supplements are relatively new"
+      },
+      {
+        "hibiscus": "Supports multiple areas (eGFR, creatinine, circulation, antioxidants)",
+        "others": "Most options are single-purpose"
+      },
+      {
+        "hibiscus": "Results you can feel AND verify at checkups",
+        "others": "Many supplements show no measurable change"
+      },
+      {
+        "hibiscus": "Easy daily ritual you'll actually stick with",
+        "others": "Pills get forgotten; restrictive diets get abandoned"
+      }
     ]
   },
-  "preparation": {
-    "heading": "How to Prepare Hibiscus Tea for Kidney Support",
+  "howItWorks": {
+    "headline": "How to Prepare Hibiscus Tea for Kidney Support",
     "steps": [
       {
         "title": "Add",
@@ -224,8 +263,8 @@
     ]
   },
   "offer": {
-    "heading": "Special Offer On Now!",
-    "subheading": "Try Our Caffeine-Free Hibiscus Tea for Kidney Function Support 100% Risk-Free",
+    "headline": "Special Offer On Now!",
+    "subheadline": "Try Our Caffeine-Free Hibiscus Tea for Kidney Function Support 100% Risk-Free",
     "actNowLabel": "Act Now and You'll Get:",
     "benefits": [
       "Premium Organic Hibiscus Tea (30+ servings of daily kidney support)",
@@ -235,28 +274,28 @@
     ],
     "totalValue": "$75+",
     "todayPrice": "$29.99",
-    "ctaLabel": "BUY NOW & SAVE",
+    "ctaText": "BUY NOW & SAVE",
     "securityNote": "All transactions are secure and encrypted",
     "availabilityNote": "Note: Not Available on Amazon or eBay",
     "doctorReview": {
-      "heading": "Doctor Reviewed",
+      "headline": "Doctor Reviewed",
       "quote": "'Hibiscus is one of the most underrated natural tools for kidney health. The research on its nephroprotective benefits is robust - we're talking over 100 peer-reviewed studies showing real effects on eGFR and creatinine readings. What makes it special is that patients actually enjoy drinking it, which means they stick with it. Consistency is everything for kidney function management, and this is something people will actually do daily.'",
       "doctorName": "Dr. Sandra Mitchell",
       "doctorTitle": "Integrative Medicine Physician"
     }
   },
-  "customerReviews": {
-    "heading": "What Our Customers Say About Us",
-    "ctaLabel": "BUY NOW & SAVE",
+  "reviews": {
+    "headline": "What Our Customers Say About Us",
+    "ctaText": "BUY NOW & SAVE",
     "moneyBackLabel": "90-Day Money Back Guarantee",
     "rating": "4.8",
     "ratingLabel": "Average Rating",
     "ratingBars": [
-      { "stars": 5, "percentage": "88%" },
-      { "stars": 4, "percentage": "12%" },
-      { "stars": 3, "percentage": "0%" },
-      { "stars": 2, "percentage": "0%" },
-      { "stars": 1, "percentage": "0%" }
+      "88%",
+      "12%",
+      "0%",
+      "0%",
+      "0%"
     ],
     "reviews": [
       {
@@ -286,8 +325,8 @@
     ]
   },
   "faq": {
-    "heading": "Frequently Asked Questions",
-    "ctaLabel": "BUY NOW & SAVE",
+    "headline": "Frequently Asked Questions",
+    "ctaText": "BUY NOW & SAVE",
     "moneyBackLabel": "90-Day Money Back Guarantee",
     "items": [
       {
@@ -344,15 +383,12 @@
     "logoAlt": "Pipitea",
     "copyright": "© 2025 PiPi Tea. All Rights Reserved.",
     "links": [
-      { "label": "Terms & Conditions", "href": "https://pipitea.com/policies/terms-of-service" },
-      { "label": "Privacy Policy", "href": "https://pipitea.com/policies/privacy-policy" },
-      { "label": "Return Policy", "href": "https://pipitea.com/policies/refund-policy" }
+      "Terms & Conditions",
+      "Privacy Policy",
+      "Return Policy"
     ]
   },
-  "stickyMobileCta": {
+  "stickyCta": {
     "label": "BUY NOW & SAVE NOW!"
-  },
-  "tracking": {
-    "clymSrc": "https://cf.clym-widget.net/latest/api-bridge/?api=aHR0cHM6Ly9wcml2YWN5LWFwaS11czcuY2x5bS5pbw%3D%3D&is_dedicated=true&id=5e6b0c428e324287bad9bbdkb2wohxz7&channel=38b1bd263ae0ed1378ae9c032df964fd&origin=shop.pipitea.com&native=true&instance=us7.clym.io"
   }
 }

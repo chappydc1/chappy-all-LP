@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useRef } from "react"
 import type advRaw from "./copy.json"
+import links from "./links.json"
 import type mediaRaw from "./media.json"
 
 type Adv = typeof advRaw
@@ -137,7 +138,7 @@ function StickyBar({ adv }: { adv: Adv }) {
           href="#offer"
           className="block w-full text-center bg-blue-700 text-white font-bold rounded-lg px-4 py-3 text-base font-open_sans"
         >
-          {adv.stickyBar.ctaLabel}&nbsp;<span className="text-xs font-normal opacity-80">Sale ends: {adv.stickyBar.saleNote}</span>
+          {adv.stickyCta.ctaText}&nbsp;<span className="text-xs font-normal opacity-80">Sale ends: {adv.stickyCta.saleNote}</span>
         </a>
       </div>
     </div>
@@ -197,9 +198,9 @@ export function SmoothspineSalesPage({ adv, media }: { adv: Adv; media: Media })
               {adv.hero.badge}
             </div>
             <h1 className="text-2xl md:text-[32px] font-bold font-poppins leading-tight mb-3 text-black">
-              {adv.hero.h1}
+              {adv.hero.headline}
             </h1>
-            <p className="text-[16px] font-poppins text-neutral-700 mb-4">{adv.hero.subtitle}</p>
+            <p className="text-[16px] font-poppins text-neutral-700 mb-4">{adv.hero.subheadline}</p>
             {adv.hero.bullets.map((b, i) => (
               <div key={i} className="flex items-start gap-2 mb-2">
                 <img src={media.checkIcon} alt="✓" className="w-5 mt-0.5 flex-shrink-0" />
@@ -207,7 +208,7 @@ export function SmoothspineSalesPage({ adv, media }: { adv: Adv; media: Media })
               </div>
             ))}
             <div className="mt-5">
-              <CTAButton label={adv.hero.ctaLabel} href={adv.ctaUrl} />
+              <CTAButton label={adv.hero.ctaText} href={links.cta} />
               <div className="flex items-center justify-center gap-2 mt-2">
                 <img src={media.checkIcon} alt="✓" className="w-5" />
                 <span className="font-bold font-poppins text-[15px]">{adv.hero.riskFreeNote}</span>
@@ -258,19 +259,19 @@ export function SmoothspineSalesPage({ adv, media }: { adv: Adv; media: Media })
       <section className="py-10 px-4 bg-white">
         <div className="max-w-[1200px] mx-auto">
           <h2 className="text-blue-700 text-xl md:text-2xl font-bold font-poppins text-center mb-1">
-            {adv.spineSection.heading}
+            {adv.problem.headline}
           </h2>
           <div className="w-12 h-1.5 bg-blue-700 mx-auto rounded-full mb-8" />
 
           <div className="flex flex-col md:flex-row gap-8 mb-10">
             <div className="w-full md:w-1/2">
-              <h3 className="text-xl font-bold font-poppins text-black mb-3 md:hidden">{adv.spineSection.row1.heading}</h3>
+              <h3 className="text-xl font-bold font-poppins text-black mb-3 md:hidden">{adv.problem.subheadline}</h3>
               <video loop autoPlay playsInline muted src={media.spineVideo} className="w-full rounded-2xl" />
             </div>
             <div className="w-full md:w-1/2 flex flex-col justify-center">
-              <h3 className="text-xl font-bold font-poppins text-black mb-3 hidden md:block">{adv.spineSection.row1.heading}</h3>
+              <h3 className="text-xl font-bold font-poppins text-black mb-3 hidden md:block">{adv.problem.subheadline}</h3>
               <div className="text-[15px] font-poppins text-black leading-relaxed space-y-3">
-                {adv.spineSection.row1.paragraphs.map((p, i) => (
+                {adv.problem.body.map((p, i) => (
                   <p key={i} className={i === 4 ? "font-semibold" : ""}>{p}</p>
                 ))}
               </div>
@@ -279,30 +280,30 @@ export function SmoothspineSalesPage({ adv, media }: { adv: Adv; media: Media })
 
           <div className="flex flex-col md:flex-row-reverse gap-8 mb-10">
             <div className="w-full md:w-1/2">
-              <h3 className="text-xl font-bold font-poppins text-black mb-3 md:hidden">{adv.spineSection.row2.heading}</h3>
+              <h3 className="text-xl font-bold font-poppins text-black mb-3 md:hidden">{adv.mechanism.headline}</h3>
             </div>
             <div className="w-full md:w-1/2 flex flex-col justify-center">
-              <h3 className="text-xl font-bold font-poppins text-black mb-3 hidden md:block">{adv.spineSection.row2.heading}</h3>
-              <p className="text-[15px] font-poppins text-black leading-relaxed mb-4">{adv.spineSection.row2.intro}</p>
+              <h3 className="text-xl font-bold font-poppins text-black mb-3 hidden md:block">{adv.mechanism.headline}</h3>
+              <p className="text-[15px] font-poppins text-black leading-relaxed mb-4">{adv.mechanism.intro}</p>
               <div className="bg-sky-50 border border-neutral-200 rounded-xl p-4 text-[14px] font-poppins text-black leading-relaxed space-y-3">
-                {adv.spineSection.row2.phases.map((ph, i) => (
+                {adv.mechanism.phases.map((ph, i) => (
                   <p key={i}><strong>{ph.time} {ph.label}</strong> {ph.desc}</p>
                 ))}
               </div>
-              <p className="text-[15px] font-poppins text-black mt-4 leading-relaxed">{adv.spineSection.row2.outro}</p>
+              <p className="text-[15px] font-poppins text-black mt-4 leading-relaxed">{adv.mechanism.outro}</p>
             </div>
           </div>
 
           <div className="flex flex-col md:flex-row gap-8 mb-10 bg-sky-50 rounded-2xl p-6">
             <div className="w-full md:w-1/2 flex flex-col justify-center">
-              <h3 className="text-xl font-bold font-poppins text-black mb-4">{adv.spineSection.row3.heading}</h3>
+              <h3 className="text-xl font-bold font-poppins text-black mb-4">{adv.proof.headline}</h3>
               <div className="text-[15px] font-poppins text-black leading-relaxed space-y-2 italic mb-4">
-                {adv.spineSection.row3.quotes.map((q, i) => (
+                {adv.proof.quotes.map((q, i) => (
                   <p key={i}><strong>{q.quote}</strong><br /><span className="not-italic text-xs">{q.author}</span></p>
                 ))}
               </div>
               <ul className="bg-white border border-neutral-200 rounded-xl p-4 space-y-2 text-[14px] font-bold font-poppins">
-                {adv.spineSection.row3.stats.map((s, i) => (
+                {adv.proof.stats.map((s, i) => (
                   <li key={i} className="flex items-center gap-2"><span className="text-green-500">✓</span>{s}</li>
                 ))}
               </ul>
@@ -317,9 +318,9 @@ export function SmoothspineSalesPage({ adv, media }: { adv: Adv; media: Media })
               <img src={media.mechanismsImage} alt="" className="w-full max-w-sm rounded-xl" />
             </div>
             <div className="w-full md:w-1/2 flex flex-col justify-center">
-              <h3 className="text-xl font-bold font-poppins text-black mb-4">{adv.spineSection.row4.heading}</h3>
-              <p className="text-[15px] font-poppins text-black mb-4">{adv.spineSection.row4.intro}</p>
-              {adv.spineSection.row4.steps.map((s, i) => (
+              <h3 className="text-xl font-bold font-poppins text-black mb-4">{adv.howItWorks.headline}</h3>
+              <p className="text-[15px] font-poppins text-black mb-4">{adv.howItWorks.intro}</p>
+              {adv.howItWorks.steps.map((s, i) => (
                 <div key={i} className="flex items-start gap-3 mb-3">
                   <span className="bg-blue-700 text-white font-bold rounded-full w-7 h-7 flex items-center justify-center flex-shrink-0 text-sm">{i + 1}</span>
                   <p className="text-[15px] font-poppins">{s}</p>
@@ -333,8 +334,8 @@ export function SmoothspineSalesPage({ adv, media }: { adv: Adv; media: Media })
       {/* COMPARISON */}
       <section className="bg-blue-50 py-10 px-4">
         <div className="max-w-[1200px] mx-auto">
-          <h2 className="text-2xl font-bold font-poppins text-black text-center mb-2">{adv.comparison.heading}</h2>
-          <p className="text-center text-[15px] font-poppins text-black mb-8">{adv.comparison.subtitle}</p>
+          <h2 className="text-2xl font-bold font-poppins text-black text-center mb-2">{adv.comparison.headline}</h2>
+          <p className="text-center text-[15px] font-poppins text-black mb-8">{adv.comparison.subheadline}</p>
           <div className="flex flex-col md:flex-row">
             <div className="w-full md:w-1/2 bg-white rounded-t-2xl md:rounded-l-2xl md:rounded-r-none p-6 border border-neutral-200">
               <h3 className="text-xl font-bold font-poppins text-black text-center mb-4">{adv.comparison.smoothspineHeading}</h3>
@@ -361,10 +362,10 @@ export function SmoothspineSalesPage({ adv, media }: { adv: Adv; media: Media })
       {/* STEPS */}
       <section className="bg-blue-50 py-10 px-4">
         <div className="max-w-[1200px] mx-auto">
-          <h2 className="text-xl md:text-2xl font-bold font-poppins text-black text-center mb-1">{adv.steps.heading}</h2>
-          <p className="text-center text-[15px] font-poppins text-black mb-8">{adv.steps.subtitle}</p>
+          <h2 className="text-xl md:text-2xl font-bold font-poppins text-black text-center mb-1">{adv.simpleSteps.headline}</h2>
+          <p className="text-center text-[15px] font-poppins text-black mb-8">{adv.simpleSteps.subheadline}</p>
           <div className="flex flex-col md:flex-row gap-6">
-            {adv.steps.items.map((s, i) => (
+            {adv.simpleSteps.items.map((s, i) => (
               <div key={i} className="bg-indigo-100 rounded-2xl p-5 flex-1">
                 <p className="font-bold text-black font-open_sans text-lg mb-1">{s.step}</p>
                 <div className="w-10 h-1 bg-blue-700 rounded-full mb-3" />
@@ -378,7 +379,7 @@ export function SmoothspineSalesPage({ adv, media }: { adv: Adv; media: Media })
       {/* TESTIMONIALS GRID */}
       <section className="bg-white py-10 px-4">
         <div className="max-w-[1200px] mx-auto">
-          <h2 className="text-xl md:text-2xl font-bold font-poppins text-black text-center mb-2">{adv.testimonials.heading}</h2>
+          <h2 className="text-xl md:text-2xl font-bold font-poppins text-black text-center mb-2">{adv.testimonials.headline}</h2>
           <div className="flex flex-col md:flex-row gap-6 mt-6">
             {adv.testimonials.items.map((t, i) => (
               <div key={i} className="flex-1 bg-indigo-100 rounded-2xl overflow-hidden">
@@ -397,14 +398,14 @@ export function SmoothspineSalesPage({ adv, media }: { adv: Adv; media: Media })
       {/* OFFER */}
       <section id="offer" className="bg-white py-10 px-4">
         <div className="max-w-[1200px] mx-auto">
-          <h2 className="text-xl md:text-[26px] font-bold font-poppins text-center mb-6">{adv.offer.heading}</h2>
+          <h2 className="text-xl md:text-[26px] font-bold font-poppins text-center mb-6">{adv.offer.headline}</h2>
           <div className="bg-blue-50 border-2 border-indigo-200 rounded-2xl p-5 md:p-8 flex flex-col md:flex-row gap-8">
             <div className="flex items-center justify-center md:w-5/12">
               <img src={media.bundleImage} alt="SmoothSpine bundle" className="max-w-full w-full md:max-w-[340px]" />
             </div>
             <div className="flex-1">
               <h3 className="text-xl md:text-2xl font-bold font-poppins mb-1">{adv.offer.productName}</h3>
-              <p className="text-[15px] font-poppins mb-4">{adv.offer.subtitle}</p>
+              <p className="text-[15px] font-poppins mb-4">{adv.offer.subheadline}</p>
               <p className="font-bold text-[15px] font-poppins mb-3"><u>{adv.offer.listHeading}</u></p>
               <ul className="space-y-2">
                 {adv.offer.items.map((item, i) => (
@@ -415,7 +416,7 @@ export function SmoothspineSalesPage({ adv, media }: { adv: Adv; media: Media })
                 ))}
               </ul>
               <div className="mt-6">
-                <CTAButton label={adv.offer.ctaLabel} href={adv.ctaUrl} className="md:w-[90%]" />
+                <CTAButton label={adv.offer.ctaText} href={links.cta} className="md:w-[90%]" />
                 <div className="flex items-center justify-center gap-2 mt-2 bg-yellow-50 border border-neutral-200 rounded-xl px-4 py-2 md:w-[90%]">
                   <img src={media.usFlag} alt="" className="h-5 w-7 object-contain" />
                   <span className="text-rose-700 text-xs font-bold font-montserrat">{adv.offer.shippingNote}</span>
@@ -432,7 +433,7 @@ export function SmoothspineSalesPage({ adv, media }: { adv: Adv; media: Media })
       {/* GUARANTEE */}
       <section className="bg-white py-8 px-4">
         <div className="max-w-[1200px] mx-auto">
-          <h2 className="text-xl font-bold font-poppins mb-4 whitespace-pre-line">{adv.guarantee.heading}</h2>
+          <h2 className="text-xl font-bold font-poppins mb-4 whitespace-pre-line">{adv.guarantee.headline}</h2>
           <div className="flex flex-col md:flex-row gap-6 items-center">
             <img src={media.moneyBackImage} alt="Money back guarantee" className="w-[200px] flex-shrink-0 mx-auto md:mx-0" />
             <div className="text-[15px] font-poppins leading-relaxed text-neutral-700">
@@ -468,15 +469,15 @@ export function SmoothspineSalesPage({ adv, media }: { adv: Adv; media: Media })
               <button onClick={scrollRight} aria-label="Scroll right" className="absolute right-0 top-1/2 -translate-y-1/2 bg-white border border-neutral-200 shadow rounded-full w-7 h-7 flex items-center justify-center text-neutral-500 transition z-10">›</button>
             </div>
           </div>
-          <p className="text-xl md:text-2xl font-bold font-poppins text-center mt-8">{adv.reviews.heading}</p>
+          <p className="text-xl md:text-2xl font-bold font-poppins text-center mt-8">{adv.reviews.headline}</p>
         </div>
       </section>
 
       {/* FAQ */}
       <section className="bg-white py-10 px-4 border-t border-zinc-100" id="faq">
         <div className="max-w-[1200px] mx-auto">
-          <h2 className="text-[22px] font-bold font-poppins mb-6">{adv.faqs.heading}</h2>
-          {adv.faqs.items.map((f, i) => <FAQItem key={i} q={f.q} a={f.a} />)}
+          <h2 className="text-[22px] font-bold font-poppins mb-6">{adv.faq.headline}</h2>
+          {adv.faq.items.map((f, i) => <FAQItem key={i} q={f.question} a={f.answer} />)}
         </div>
       </section>
 
@@ -487,10 +488,10 @@ export function SmoothspineSalesPage({ adv, media }: { adv: Adv; media: Media })
             <strong>MEDICAL &amp; HEALTH DISCLAIMER:</strong> {adv.footer.disclaimer}
           </p>
           <div className="text-xs text-zinc-600">
-            {adv.footer.links.map((l, i) => (
+            {adv.footer.links.map((label, i) => (
               <span key={i}>
                 {i > 0 && <span className="mx-2">|</span>}
-                <a href={l.href} className="text-gray-400 transition">{l.label}</a>
+                <a href="#" className="text-gray-400 transition">{label}</a>
               </span>
             ))}
           </div>

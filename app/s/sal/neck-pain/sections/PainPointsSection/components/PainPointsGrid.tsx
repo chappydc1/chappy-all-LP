@@ -3,7 +3,7 @@ import { content } from "../../../content";
 export const PainPointsGrid = () => {
   return (
     <div className="box-border caret-transparent gap-x-[25px] grid auto-cols-[1fr] grid-cols-[1fr_1fr_1fr] grid-rows-[auto_auto] gap-y-[15px] px-5 md:px-0">
-      {content.painPoints.grid.map((p, i) => (
+      {content.problem.grid.map((p, i) => (
         <div
           key={i}
           className="items-center box-border caret-transparent flex flex-col leading-[22px] min-h-[auto] min-w-[auto] text-center"
