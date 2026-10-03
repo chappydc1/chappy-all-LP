@@ -1,71 +1,64 @@
 {
-  "meta": {
+  "seo": {
     "title": "6 Reasons Why Grüns Is Your Gut's New Bestie",
     "description": "Your gut is like your second brain—it affects everything from digestion and energy to mood and immunity. Grüns helps it thrive with 60+ real, nutrient-dense ingredients in a fun-sized snack pack of daily gummies."
   },
-  "topBar": {
+  "announcementBar": {
     "label": "Limited-Time Sale:",
     "offer": "Get 52% off + free shipping",
     "suffix": "on your first order"
   },
   "hero": {
     "badge": "Limited-Time Sale - Get Up To 52% Off",
-    "heading": {
+    "headline": {
       "highlight1": "6 Reasons",
       "text": "Why Grüns Is Your",
       "highlight2": "Gut's New Bestie"
     },
-    "subheading": "Your gut is like your second brain—it affects everything from digestion and energy to mood and immunity. Grüns helps it thrive with 60+ real, nutrient-dense ingredients in a fun-sized snack pack of daily gummies.",
-    "cta": {
-      "primary": "Save 52% + Free Shipping",
-      "href": "#offers"
-    },
+    "subheadline": "Your gut is like your second brain—it affects everything from digestion and energy to mood and immunity. Grüns helps it thrive with 60+ real, nutrient-dense ingredients in a fun-sized snack pack of daily gummies.",
+    "ctaText": "Save 52% + Free Shipping",
     "socialProof": {
       "rating": "4.8",
       "reviews": "100K+",
       "members": "1M+"
     }
   },
-  "benefits": [
-    {
-      "number": "01",
-      "category": "Digestion",
-      "title": "Better poops (seriously)",
-      "description": "Constipation affects about 15% of the population in the U.S. If that's you, your gut is begging for help. Grüns delivers 6g of prebiotic fiber to get things moving—naturally. No laxatives, no guesswork. Just easier, more regular, feel-good digestion, every day."
-    },
-    {
-      "number": "02",
-      "category": "Gut Health",
-      "title": "Healthy Gut Microbiome",
-      "description": "The trillions of bacteria in your gut control way more than you think. Grüns feeds the good ones with prebiotic fiber that help your microbiome thrive. A happy gut means less bloating, better nutrient absorption, healthy blood sugar support, fewer cravings, and support for weight management."
-    },
-    {
-      "number": "03",
-      "category": "Energy",
-      "title": "More Energy, Better Mood",
-      "description": "Your gut plays a major role in how you feel. With B-vitamins for steady energy and adaptogens to help regulate stress, Grüns supports your second brain—so you're not just feeling lighter, you're feeling better overall."
-    },
-    {
-      "number": "04",
-      "category": "Immunity",
-      "title": "Immunity Boost",
-      "description": "About 70% of your immune system lives in your gut. A healthy gut helps you absorb nutrients properly and defend against harmful bacteria. Grüns supports that gut-immune connection with Vitamin C, D3, Zinc, and antioxidants that help your body fight back, daily."
-    },
-    {
-      "number": "05",
-      "category": "Benefits",
-      "title": "A Healthy Habit You'll Stick To",
-      "description": "Let's be honest—powders are messy, and counting pills gets old fast. Grüns is the one supplement that actually sticks. You get 20+ vitamins & minerals, organic fruits and veggies, adaptogens, prebiotics, and more—all in a little pack of gummies. No prep, no mess, no excuses."
-    },
-    {
-      "number": "06",
-      "category": "Loved By Millions",
-      "title": "Trusted by 1M+ customers",
-      "description": "With over 80,000 five-star reviews and a growing subscriber base, Grüns is the top choice for those looking to fill nutrient gaps in a convenient, tasty, and fun way while boosting overall health."
-    }
-  ],
+  "reasonsWhy": {
+    "items": [
+      {
+        "category": "Digestion",
+        "headline": "Better poops (seriously)",
+        "body": "Constipation affects about 15% of the population in the U.S. If that's you, your gut is begging for help. Grüns delivers 6g of prebiotic fiber to get things moving—naturally. No laxatives, no guesswork. Just easier, more regular, feel-good digestion, every day."
+      },
+      {
+        "category": "Gut Health",
+        "headline": "Healthy Gut Microbiome",
+        "body": "The trillions of bacteria in your gut control way more than you think. Grüns feeds the good ones with prebiotic fiber that help your microbiome thrive. A happy gut means less bloating, better nutrient absorption, healthy blood sugar support, fewer cravings, and support for weight management."
+      },
+      {
+        "category": "Energy",
+        "headline": "More Energy, Better Mood",
+        "body": "Your gut plays a major role in how you feel. With B-vitamins for steady energy and adaptogens to help regulate stress, Grüns supports your second brain—so you're not just feeling lighter, you're feeling better overall."
+      },
+      {
+        "category": "Immunity",
+        "headline": "Immunity Boost",
+        "body": "About 70% of your immune system lives in your gut. A healthy gut helps you absorb nutrients properly and defend against harmful bacteria. Grüns supports that gut-immune connection with Vitamin C, D3, Zinc, and antioxidants that help your body fight back, daily."
+      },
+      {
+        "category": "Benefits",
+        "headline": "A Healthy Habit You'll Stick To",
+        "body": "Let's be honest—powders are messy, and counting pills gets old fast. Grüns is the one supplement that actually sticks. You get 20+ vitamins & minerals, organic fruits and veggies, adaptogens, prebiotics, and more—all in a little pack of gummies. No prep, no mess, no excuses."
+      },
+      {
+        "category": "Loved By Millions",
+        "headline": "Trusted by 1M+ customers",
+        "body": "With over 80,000 five-star reviews and a growing subscriber base, Grüns is the top choice for those looking to fill nutrient gaps in a convenient, tasty, and fun way while boosting overall health."
+      }
+    ]
+  },
   "testimonials": {
-    "heading": {
+    "headline": {
       "text": "Real Customers.",
       "highlight": "Real Gut Relief."
     },
@@ -104,9 +97,12 @@
   },
   "reviews": {
     "overallRating": "4.76",
-    "tabs": ["Product reviews", "Store reviews"]
+    "tabs": [
+      "Product reviews",
+      "Store reviews"
+    ]
   },
-  "buyBox": {
+  "offer": {
     "badge": "3rd-Party & Clinically Tested"
   }
 }

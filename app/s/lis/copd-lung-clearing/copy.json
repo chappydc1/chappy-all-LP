@@ -1,65 +1,59 @@
 {
-  "meta": {
+  "seo": {
     "title": "5 Reasons Why This Formula Is Helping Thousands of COPD Patients Finally Clear the Mucus Nothing Else Could Reach",
     "description": "Heavy mornings, endless clearing sessions, and inhalers that only scratch the surface — discover 5 reasons why thousands of COPD patients are finally clearing the mucus nothing else could reach."
   },
-  "topBar": {
+  "announcementBar": {
     "label": "Summer Sale 50% Discount!",
     "offer": "Get Up To 50% Off + Free Shipping",
     "suffix": "on your first order"
   },
   "hero": {
     "badge": "Summer Sale — Get Up To 50% Off",
-    "heading": {
+    "headline": {
       "highlight1": "5 Reasons",
       "text": "COPD Patients Are Finally Clearing The Mucus",
       "highlight2": "Nothing Else Could Reach"
     },
-    "subheading": "No more heavy mornings, endless clearing sessions, or inhalers that only do half the job. This is the first supplement that reaches the COPD buildup from the inside out — with 10 powerful botanicals that work where nothing else can.",
-    "cta": {
-      "primary": "Save 50% + Free Shipping",
-      "href": "https://loraritual.com/products/somara-copd"
-    },
+    "subheadline": "No more heavy mornings, endless clearing sessions, or inhalers that only do half the job. This is the first supplement that reaches the COPD buildup from the inside out — with 10 powerful botanicals that work where nothing else can.",
+    "ctaText": "Save 50% + Free Shipping",
     "socialProof": {
       "rating": "4.8",
       "reviews": "67K+",
       "members": "2M+"
     }
   },
-  "benefits": [
-    {
-      "number": "01",
-      "category": "Root Cause",
-      "title": "Your Spiriva Reaches the Big Airways. The Buildup Lives in the Small Ones.",
-      "description": "Your Spiriva, Advair, or Symbicort lands in airways 10–15mm wide.<br><br>The bronchioles where COPD mucus actually cements are 1–2mm wide. Inhalers don't reach them.<br><br>That's why patients with an FEV1 of 35% keep taking their meds correctly and still get worse. The buildup blocking those tiny passages is never touched.<br><br>SOMARA absorbs sublingually — directly into your bloodstream — and reaches the small airways nothing inhaled ever will. That's the difference between opening an airway temporarily and actually clearing what's blocking it."
-    },
-    {
-      "number": "02",
-      "category": "Deep Tissue",
-      "title": "Mucinex Thins the Top Layer. The Cemented Layer Underneath? Untouched.",
-      "description": "You have two mucus layers right now.<br><br>The thin top layer: Mucinex thins it. You cough some out. You feel slightly better for an hour.<br><br>The thick, hardened layer cemented against your airway walls for months or years: nothing you've swallowed has ever reached it. That's what drops your SpO2 to 88% walking to the mailbox. That's what causes the 20-minute clearing session every morning.<br><br>Soursop (Graviola) and Irish Sea Moss in SOMARA work from inside your bloodstream — loosening the cemented bottom layer Mucinex never touches. The layer that's been there since your GOLD Stage was still Stage 2."
-    },
-    {
-      "number": "03",
-      "category": "Brown Mucus",
-      "title": "Brown Mucus Coming Up Means It's Working. The Darker It Is, the Longer It Was Stuck.",
-      "description": "Brown. Thick. Almost black.<br><br>Most COPD patients panic and call their pulmonologist.<br><br>That's not infection. That's the cemented layer finally breaking apart — the buildup that's been against your airway walls since your FEV1 was still in the 40s.<br><br>Oregano Oil and Ginger in SOMARA break down the hardened mucus that has calcified over buried cilia. When it starts surfacing — dark, dense, productive — that's it dissolving. Most people see it between days 7 and 14. The more productive your morning sessions get, the more is clearing."
-    },
-    {
-      "number": "04",
-      "category": "FEV1 Decline",
-      "title": "Every Exacerbation Destroys More Cilia. That's Why Your FEV1 Keeps Sliding.",
-      "description": "After every flare-up, your airway inflammation doesn't fully resolve. It leaves scarring. It buries more cilia — the tiny hairs supposed to sweep your lungs clean.<br><br>That's why patients do everything right and still hear their FEV1 dropped another 3–5% at their next pulmonology visit.<br><br>Turmeric and Black Seed Oil in SOMARA target the chronic airway inflammation destroying your cilia. Moringa's concentrated antioxidants support repair of damaged bronchial tissue. Chlorella and Chlorophyll help clear the cellular toxin buildup that accumulates with every exacerbation.<br><br>Less inflammation. Fewer exacerbations. Slower decline."
-    },
-    {
-      "number": "05",
-      "category": "Simple Routine",
-      "title": "Two Droppers. No Nebulizer. No 40-Minute Postural Drainage.",
-      "description": "Steam inhalation. Nebulizers. Flutter valves. Postural drainage. Percussion therapy.<br><br>You may have tried some. They help a little. They take 30–40 minutes you don't always have — and they don't fix the inflammation creating the buildup in the first place.<br><br>Two droppers of SOMARA daily. Ten botanicals — Soursop, Sea Moss, Moringa, Turmeric, Black Seed Oil, Oregano Oil, Ashwagandha, Chlorella, Chlorophyll, and Ginger — working from inside your system.<br><br>Shorter morning sessions. Less wheezing after stairs. Fewer nights waking up at 3 AM to cough. No devices. No 30-minute routines."
-    }
-  ],
+  "reasonsWhy": {
+    "items": [
+      {
+        "category": "Root Cause",
+        "headline": "Your Spiriva Reaches the Big Airways. The Buildup Lives in the Small Ones.",
+        "body": "Your Spiriva, Advair, or Symbicort lands in airways 10–15mm wide.<br><br>The bronchioles where COPD mucus actually cements are 1–2mm wide. Inhalers don't reach them.<br><br>That's why patients with an FEV1 of 35% keep taking their meds correctly and still get worse. The buildup blocking those tiny passages is never touched.<br><br>SOMARA absorbs sublingually — directly into your bloodstream — and reaches the small airways nothing inhaled ever will. That's the difference between opening an airway temporarily and actually clearing what's blocking it."
+      },
+      {
+        "category": "Deep Tissue",
+        "headline": "Mucinex Thins the Top Layer. The Cemented Layer Underneath? Untouched.",
+        "body": "You have two mucus layers right now.<br><br>The thin top layer: Mucinex thins it. You cough some out. You feel slightly better for an hour.<br><br>The thick, hardened layer cemented against your airway walls for months or years: nothing you've swallowed has ever reached it. That's what drops your SpO2 to 88% walking to the mailbox. That's what causes the 20-minute clearing session every morning.<br><br>Soursop (Graviola) and Irish Sea Moss in SOMARA work from inside your bloodstream — loosening the cemented bottom layer Mucinex never touches. The layer that's been there since your GOLD Stage was still Stage 2."
+      },
+      {
+        "category": "Brown Mucus",
+        "headline": "Brown Mucus Coming Up Means It's Working. The Darker It Is, the Longer It Was Stuck.",
+        "body": "Brown. Thick. Almost black.<br><br>Most COPD patients panic and call their pulmonologist.<br><br>That's not infection. That's the cemented layer finally breaking apart — the buildup that's been against your airway walls since your FEV1 was still in the 40s.<br><br>Oregano Oil and Ginger in SOMARA break down the hardened mucus that has calcified over buried cilia. When it starts surfacing — dark, dense, productive — that's it dissolving. Most people see it between days 7 and 14. The more productive your morning sessions get, the more is clearing."
+      },
+      {
+        "category": "FEV1 Decline",
+        "headline": "Every Exacerbation Destroys More Cilia. That's Why Your FEV1 Keeps Sliding.",
+        "body": "After every flare-up, your airway inflammation doesn't fully resolve. It leaves scarring. It buries more cilia — the tiny hairs supposed to sweep your lungs clean.<br><br>That's why patients do everything right and still hear their FEV1 dropped another 3–5% at their next pulmonology visit.<br><br>Turmeric and Black Seed Oil in SOMARA target the chronic airway inflammation destroying your cilia. Moringa's concentrated antioxidants support repair of damaged bronchial tissue. Chlorella and Chlorophyll help clear the cellular toxin buildup that accumulates with every exacerbation.<br><br>Less inflammation. Fewer exacerbations. Slower decline."
+      },
+      {
+        "category": "Simple Routine",
+        "headline": "Two Droppers. No Nebulizer. No 40-Minute Postural Drainage.",
+        "body": "Steam inhalation. Nebulizers. Flutter valves. Postural drainage. Percussion therapy.<br><br>You may have tried some. They help a little. They take 30–40 minutes you don't always have — and they don't fix the inflammation creating the buildup in the first place.<br><br>Two droppers of SOMARA daily. Ten botanicals — Soursop, Sea Moss, Moringa, Turmeric, Black Seed Oil, Oregano Oil, Ashwagandha, Chlorella, Chlorophyll, and Ginger — working from inside your system.<br><br>Shorter morning sessions. Less wheezing after stairs. Fewer nights waking up at 3 AM to cough. No devices. No 30-minute routines."
+      }
+    ]
+  },
   "testimonials": {
-    "heading": {
+    "headline": {
       "text": "Real COPD Patients.",
       "highlight": "Real Results."
     },
@@ -99,7 +93,10 @@
   "reviews": {
     "overallRating": "4.8",
     "totalReviews": "67,328",
-    "tabs": ["Product reviews", "Store reviews"],
+    "tabs": [
+      "Product reviews",
+      "Store reviews"
+    ],
     "items": [
       {
         "avatarInitials": "MT",
@@ -151,7 +148,7 @@
       }
     ]
   },
-  "buyBox": {
+  "offer": {
     "badge": "30-Day Money-Back Guarantee"
   }
 }

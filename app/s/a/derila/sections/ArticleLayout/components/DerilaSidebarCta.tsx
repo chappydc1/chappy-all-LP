@@ -1,8 +1,10 @@
 import adv from "../../../copy.json";
+import links from "../../../links.json";
 import media from "../../../media.json";
 
 export const DerilaSidebarCta = () => {
-  const { productUrl, sidebar } = adv;
+  const { sidebar } = adv;
+  const productUrl = links.product;
   const img = media.sidebarImage;
 
   return (
@@ -25,7 +27,7 @@ export const DerilaSidebarCta = () => {
         href={productUrl}
         className="text-white text-base font-bold bg-[linear-gradient(rgb(136,42,223),rgb(124,12,225))] box-border caret-transparent inline-block leading-[19.2px] uppercase align-middle w-full border border-purple-900 mb-1 px-5 py-4 rounded-bl rounded-br rounded-tl rounded-tr border-solid"
       >
-        {sidebar.ctaButton}
+        {sidebar.ctaText}
       </a>
     </div>
   );

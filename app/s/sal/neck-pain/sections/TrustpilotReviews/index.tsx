@@ -285,13 +285,13 @@ type Props = {
 };
 
 export const TrustpilotReviews = ({
-  reviews = content.trustpilot.reviews,
+  reviews = content.reviews.items,
   heading,
-  ratingLabel = content.trustpilot.ratingLabel,
-  ratingValue = content.trustpilot.ratingValue,
-  totalReviews = content.trustpilot.totalReviews,
+  ratingLabel = content.reviews.ratingLabel,
+  ratingValue = content.reviews.ratingValue,
+  totalReviews = content.reviews.totalReviews,
 }: Props) => {
-  const tp = content.trustpilot;
+  const tp = content.reviews;
   return (
     <section className="bg-stone-100 box-border caret-transparent px-5 py-12 md:py-16">
       <div className="box-border caret-transparent max-w-screen-xl w-full mx-auto">

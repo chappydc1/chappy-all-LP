@@ -2,7 +2,7 @@ import copy from "../../../copy.json"
 import media from "../../../media.json"
 
 export const ComparisonTable = () => {
-  const { features } = copy.brandComparison;
+  const { features } = copy.comparison;
   return (
     <div className="box-border caret-transparent flex max-w-[774px] outline-[3px] w-full mt-[76px] md:mt-[139px] mx-auto">
       <div className="relative bg-pink-400 box-border caret-transparent basis-[0%] grow min-h-[auto] min-w-[auto] outline-[3px] w-full pt-[42px] pb-4 rounded-bl rounded-br rounded-tl rounded-tr md:pt-8">

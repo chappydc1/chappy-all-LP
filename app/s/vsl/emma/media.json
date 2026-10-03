@@ -219,5 +219,11 @@
       "poster": "/lp-images-files-videos-fonts/images/emma/blank.gif",
       "usage": "Main VSL video — Emma gut health"
     }
-  }
+  },
+  "testimonials": [
+    "ava1",
+    "lucy",
+    "amberlyn",
+    "patricia"
+  ]
 }

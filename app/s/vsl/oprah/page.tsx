@@ -38,7 +38,7 @@ const HealthTopBar = () => (
     {/* Invisible spacer mirrors the menu icon width so brand stays truly centered */}
     <div className="h-12 w-12 md:h-14 md:w-14" aria-hidden="true" />
     <div className="text-[28px] font-medium leading-none tracking-[0.08em] md:text-[36px]">
-      {advJson.topBar.brandName}
+      {advJson.nav.brandName}
     </div>
     <Menu className="h-12 w-12 stroke-[3.5] md:h-14 md:w-14" aria-label="Open menu" />
   </header>

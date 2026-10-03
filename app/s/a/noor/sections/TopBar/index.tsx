@@ -13,18 +13,18 @@ function renderMd(text: string): string {
 
 // ---------- types ----------------------------------------------------------
 
-export type SkinmagV1ArticleSection =
+type StoryBlock =
   | { type: "paragraphs"; paragraphs: string[] }
   | { type: "heading"; text: string }
   | { type: "image"; mediaKey: string }
   | { type: "cta" };
 
+type StorySection = { headline: string; body: string[] };
+
 type Comment = {
   author: string;
   content: string;
   meta: string;
-  hasLikeIcon?: boolean;
-  attachmentKey?: string;
   replies?: {
     author: string;
     mention?: string;
@@ -34,14 +34,8 @@ type Comment = {
 };
 
 export type SkinmagV1AdvertorialContent = {
-  meta: {
-    ctaUrl: string;
-    productName: string;
-    currentDate: string;
-    restockDate: string;
-  };
-  header: { siteTitle: string };
-  article: {
+  nav: { siteTitle: string };
+  hero: {
     breadcrumb: string;
     exclusiveBadge: string;
     headline: string;
@@ -49,11 +43,39 @@ export type SkinmagV1AdvertorialContent = {
     timeLabel: string;
     authorName: string;
     authorRole: string;
+  };
+  lead: { body: string[] };
+  problem: StorySection;
+  failedSolutions: { body: string[] };
+  agitation: StorySection;
+  discovery: StorySection & { intro: string[] };
+  studies: { body: string[] };
+  guarantee: { body: string[] };
+  firstWeek: StorySection & { firstImpression: string[] };
+  breakthrough: { body: string[] };
+  secondWeek: StorySection;
+  fourthWeek: StorySection;
+  relationship: StorySection;
+  emotionalChange: StorySection;
+  mechanism: StorySection;
+  ingredients: {
+    headline: string;
+    intro: string[];
+    items: StorySection[];
+  };
+  howItWorks: StorySection;
+  objection: StorySection;
+  cta: {
     ctaText: string;
     readerOffer: string;
     inventoryWarning: string;
-    articleSections: SkinmagV1ArticleSection[];
+    productName: string;
+    updateDate: string;
+    restockDate: string;
   };
+  emotionalClose: StorySection;
+  finalAppeal: StorySection;
+  comments: Comment[];
   sidebar: {
     blurb1: string;
     blurb2: string;
@@ -70,12 +92,10 @@ export type SkinmagV1AdvertorialContent = {
     dealText: string;
     suppliesDate: string;
   };
-  stockUpdate: { status: string; label: string; date: string };
-  comments: Comment[];
+  scarcity: { status: string; label: string; date: string };
   footer: {
-    references: string[];
     disclaimers: string[];
-    links: { label: string; href: string }[];
+    linkLabels: string[];
     copyright: string;
   };
 };
@@ -87,12 +107,94 @@ export type SkinmagV1AdvertorialMedia = {
   product: Record<string, string>;
   sidebar: Record<string, string>;
   comments: Record<string, string>;
+  commentAttachments: Record<string, string>;
+};
+
+export type SkinmagV1AdvertorialLinks = {
+  cta: string;
+  references: string[];
 };
 
 type AdvertorialData = {
   content: SkinmagV1AdvertorialContent;
   media: SkinmagV1AdvertorialMedia;
+  links: SkinmagV1AdvertorialLinks;
 };
+
+const LIKED_COMMENT_INDEXES = new Set([3]);
+
+function buildStory(content: SkinmagV1AdvertorialContent): StoryBlock[] {
+  const paragraphs = (body: string[]): StoryBlock => ({ type: "paragraphs", paragraphs: body });
+  const heading = (text: string): StoryBlock => ({ type: "heading", text });
+  const image = (mediaKey: string): StoryBlock => ({ type: "image", mediaKey });
+  const cta: StoryBlock = { type: "cta" };
+  const [synAke, synColl, ceramides, caprylic] = content.ingredients.items;
+
+  return [
+    paragraphs(content.lead.body),
+    heading(content.problem.headline),
+    image("article.section1"),
+    paragraphs(content.problem.body),
+    image("article.section2"),
+    paragraphs(content.failedSolutions.body),
+    heading(content.agitation.headline),
+    image("article.section3"),
+    paragraphs(content.agitation.body),
+    heading(content.discovery.headline),
+    paragraphs(content.discovery.intro),
+    image("article.section4"),
+    paragraphs(content.discovery.body),
+    image("article.week1Open"),
+    paragraphs(content.studies.body),
+    image("article.guarantee"),
+    paragraphs(content.guarantee.body),
+    heading(content.firstWeek.headline),
+    image("article.week1Apply"),
+    paragraphs(content.firstWeek.body),
+    image("article.week1Result"),
+    paragraphs(content.firstWeek.firstImpression),
+    image("article.week2"),
+    paragraphs(content.breakthrough.body),
+    heading(content.secondWeek.headline),
+    image("article.week4"),
+    paragraphs(content.secondWeek.body),
+    heading(content.fourthWeek.headline),
+    image("article.week6"),
+    paragraphs(content.fourthWeek.body),
+    heading(content.relationship.headline),
+    image("article.emotional"),
+    paragraphs(content.relationship.body),
+    heading(content.emotionalChange.headline),
+    paragraphs(content.emotionalChange.body),
+    heading(content.mechanism.headline),
+    image("article.drPark"),
+    paragraphs(content.mechanism.body),
+    heading(content.ingredients.headline),
+    paragraphs(content.ingredients.intro),
+    heading(synAke.headline),
+    image("article.synAke"),
+    paragraphs(synAke.body),
+    heading(synColl.headline),
+    paragraphs(synColl.body),
+    heading(ceramides.headline),
+    paragraphs(ceramides.body),
+    heading(caprylic.headline),
+    image("article.caprylic"),
+    paragraphs(caprylic.body),
+    heading(content.howItWorks.headline),
+    paragraphs(content.howItWorks.body),
+    heading(content.objection.headline),
+    image("article.skeptical"),
+    paragraphs(content.objection.body),
+    cta,
+    heading(content.emotionalClose.headline),
+    paragraphs(content.emotionalClose.body),
+    cta,
+    heading(content.finalAppeal.headline),
+    paragraphs(content.finalAppeal.body),
+    cta,
+  ];
+}
 
 // ---------- context --------------------------------------------------------
 
@@ -122,7 +224,7 @@ function SiteHeader(): React.JSX.Element {
       <div className="relative box-border basis-full grow max-w-[1170px] min-h-[25px] w-min px-[15px] md:basis-0">
         <div className="items-center box-border flex justify-center w-full my-2.5 text-center md:justify-between md:text-left">
           <div className="text-white text-[23px] font-black leading-[32.2px] text-center font-georgia md:text-[28px] md:leading-[39.2px]">
-            {content.header.siteTitle}
+            {content.nav.siteTitle}
           </div>
         </div>
       </div>
@@ -133,12 +235,12 @@ function SiteHeader(): React.JSX.Element {
 // ---------- Article CTA block ---------------------------------------------
 
 function ArticleCta(): React.JSX.Element {
-  const { content, media } = useAdvertorialData();
+  const { content, media, links } = useAdvertorialData();
   const imgSrc = resolveMedia(media, "article.ctaButton");
   return (
     <div className="items-center box-border flex flex-col justify-center w-full">
       <a
-        href={content.meta.ctaUrl}
+        href={links.cta}
         title="Route Next"
         className="text-blue-700 items-center bg-sky-600 box-border flex justify-center max-w-full w-[600px] px-2.5 py-3 rounded-[10px]"
       >
@@ -150,11 +252,11 @@ function ArticleCta(): React.JSX.Element {
           />
         )}
         <div className="text-white text-[22px] font-bold leading-[30.8px] ml-0 p-px md:text-2xl md:font-semibold md:leading-[31.2px] md:ml-[5px]">
-          {content.article.ctaText}
+          {content.cta.ctaText}
         </div>
       </a>
       <a
-        href={content.meta.ctaUrl}
+        href={links.cta}
         className="box-border block max-w-full text-center"
       >
         {imgSrc && (
@@ -166,7 +268,7 @@ function ArticleCta(): React.JSX.Element {
         )}
       </a>
       <a
-        href={content.meta.ctaUrl}
+        href={links.cta}
         title="Route Next"
         className="text-blue-700 items-center bg-sky-600 box-border flex justify-center max-w-full w-[600px] mt-[30px] px-2.5 py-3 rounded-[10px]"
       >
@@ -178,18 +280,18 @@ function ArticleCta(): React.JSX.Element {
           />
         )}
         <div className="text-white text-[22px] font-bold leading-[30.8px] ml-0 p-px md:text-2xl md:font-semibold md:leading-[31.2px] md:ml-[5px]">
-          {content.article.ctaText}
+          {content.cta.ctaText}
         </div>
       </a>
       <div className="bg-yellow-100 min-h-[auto] w-full mt-5 px-2.5 py-3 rounded-[3px]">
         <div className="text-neutral-800 leading-7">
           <i>
             <b>
-              <span>{content.meta.currentDate}</span>
+              <span>{content.cta.updateDate}</span>
               {" Update: "}
             </b>
-            Due to recent high demand and media coverage, {content.meta.productName} supplies are running extremely low. As of today it&apos;s still in stock, but if you miss out it won&apos;t be back in stock until{" "}
-            <span>{content.meta.restockDate}</span>.
+            Due to recent high demand and media coverage, {content.cta.productName} supplies are running extremely low. As of today it&apos;s still in stock, but if you miss out it won&apos;t be back in stock until{" "}
+            <span>{content.cta.restockDate}</span>.
           </i>
         </div>
       </div>
@@ -204,7 +306,7 @@ function ArticleSections(): React.JSX.Element {
 
   return (
     <>
-      {content.article.articleSections.map((section, i) => {
+      {buildStory(content).map((section, i) => {
         if (section.type === "heading") {
           return (
             <div
@@ -298,10 +400,10 @@ function AuthorMeta(): React.JSX.Element {
       <div className="text-xs leading-[15.6px] font-roboto md:text-sm md:leading-[18.2px]">
         By&nbsp;
         <b className="text-xs font-bold leading-[15.6px] md:text-sm md:leading-[18.2px]">
-          {content.article.authorName}
+          {content.hero.authorName}
         </b>
         <div className="text-xs leading-[15.6px] md:text-sm md:leading-[18.2px]">
-          {content.article.authorRole}
+          {content.hero.authorRole}
         </div>
       </div>
       <div className="items-center flex mt-px">
@@ -323,15 +425,15 @@ function Article(): React.JSX.Element {
     <div className="text-xl bg-white box-border basis-full grow leading-[30px] w-full pt-2.5 pb-10 px-[15px] md:basis-[70%]">
       {/* Breadcrumb */}
       <div className="text-blue-600 text-lg font-bold leading-[23.4px] mt-5 md:text-xl md:leading-[26px]">
-        {content.article.breadcrumb}
+        {content.hero.breadcrumb}
       </div>
 
       {/* Headline */}
       <div className="text-[26px] font-bold leading-[33.8px] mt-5 pt-2.5 pb-[5px] font-roboto">
         <span className="text-white bg-red-600 mr-2.5 px-2 py-0.5">
-          {content.article.exclusiveBadge}
+          {content.hero.exclusiveBadge}
         </span>
-        {content.article.headline}
+        {content.hero.headline}
       </div>
 
       {/* Date / views */}
@@ -343,9 +445,9 @@ function Article(): React.JSX.Element {
         />
         <div className="text-slate-500 text-xs leading-[16.8px] font-roboto md:text-base md:leading-[22.4px]">
           <span className="text-xs leading-[16.8px] md:text-base md:leading-[22.4px]">
-            {content.article.dateLabel}
+            {content.hero.dateLabel}
           </span>
-          {" | "}{content.article.timeLabel}
+          {" | "}{content.hero.timeLabel}
         </div>
       </div>
 
@@ -381,12 +483,15 @@ function CommentRow({
   comment,
   avatarSrc,
   likeIconSrc,
+  attachmentSrc,
+  hasLikeIcon,
 }: {
   comment: Comment;
   avatarSrc: string;
   likeIconSrc: string;
+  attachmentSrc?: string;
+  hasLikeIcon: boolean;
 }): React.JSX.Element {
-  const { media } = useAdvertorialData();
   return (
     <div className="items-start box-border flex w-full mt-5">
       <img
@@ -402,10 +507,10 @@ function CommentRow({
           className="text-base leading-[22.4px] mt-1"
           dangerouslySetInnerHTML={{ __html: renderMd(comment.content) }}
         />
-        {comment.attachmentKey && (
+        {attachmentSrc && (
           <img
             alt=""
-            src={resolveMedia(media, comment.attachmentKey)}
+            src={attachmentSrc}
             className="max-w-full w-[400px] mt-2.5"
           />
         )}
@@ -413,7 +518,7 @@ function CommentRow({
           <div className="text-slate-500 text-sm leading-[19.6px] ml-px mt-px">
             Like · Reply ·{" "}
           </div>
-          {comment.hasLikeIcon && (
+          {hasLikeIcon && (
             <img
               alt=""
               src={likeIconSrc}
@@ -480,6 +585,8 @@ function CommentsSection(): React.JSX.Element {
           comment={comment}
           avatarSrc={avatarSrc}
           likeIconSrc={likeIconSrc}
+          attachmentSrc={resolveMedia(media, media.commentAttachments[String(i)] ?? "")}
+          hasLikeIcon={LIKED_COMMENT_INDEXES.has(i)}
         />
       ))}
     </div>
@@ -552,7 +659,7 @@ function MainLayout(): React.JSX.Element {
 // ---------- Offer section --------------------------------------------------
 
 function OfferSection(): React.JSX.Element {
-  const { content, media } = useAdvertorialData();
+  const { content, media, links } = useAdvertorialData();
   const o = content.offer;
   return (
     <div className="items-stretch box-border hidden flex-wrap justify-center max-w-full font-open_sans md:flex-nowrap">
@@ -597,7 +704,7 @@ function OfferSection(): React.JSX.Element {
                 </div>
               </div>
               <a
-                href={content.meta.ctaUrl}
+                href={links.cta}
                 className="text-white text-2xl font-bold bg-green-500 inline-block leading-[31.2px] max-w-full text-center px-5 py-[15px] rounded-[10px] md:text-3xl md:leading-[39px]"
               >
                 {o.ctaLabel}
@@ -633,7 +740,7 @@ function OfferSection(): React.JSX.Element {
 
 function StockUpdateBar(): React.JSX.Element {
   const { content } = useAdvertorialData();
-  const s = content.stockUpdate;
+  const s = content.scarcity;
   return (
     <div className="items-stretch box-border hidden flex-wrap justify-center max-w-full font-open_sans md:flex-nowrap">
       <div className="relative bg-white box-border basis-full grow max-w-[1170px] min-h-[25px] w-min px-[15px] md:basis-0 md:px-[30px]">
@@ -656,7 +763,7 @@ function StockUpdateBar(): React.JSX.Element {
 // ---------- Footer ---------------------------------------------------------
 
 function Footer(): React.JSX.Element {
-  const { content } = useAdvertorialData();
+  const { content, links } = useAdvertorialData();
   const f = content.footer;
   return (
     <div className="items-stretch box-border flex flex-wrap justify-center max-w-full pb-10 font-open_sans md:flex-nowrap">
@@ -665,7 +772,7 @@ function Footer(): React.JSX.Element {
           REFERENCES:
         </div>
         <div className="text-xs break-all mt-2.5 md:text-base md:leading-[22.4px]">
-          {f.references.map((ref, i) => (
+          {links.references.map((ref, i) => (
             <span key={i}>
               {i + 1}. {ref}
               <br />
@@ -675,13 +782,13 @@ function Footer(): React.JSX.Element {
 
         {/* Footer links */}
         <div className="items-center box-border flex flex-wrap justify-center mt-5 gap-x-4">
-          {f.links.map((link) => (
+          {f.linkLabels.map((label) => (
             <a
-              key={link.label}
-              href={link.href}
+              key={label}
+              href="#"
               className="text-blue-600 text-sm underline"
             >
-              {link.label}
+              {label}
             </a>
           ))}
         </div>
@@ -707,17 +814,17 @@ function Footer(): React.JSX.Element {
 // ---------- Sticky CTA -----------------------------------------------------
 
 function StickyCta(): React.JSX.Element {
-  const { content } = useAdvertorialData();
+  const { content, links } = useAdvertorialData();
   return (
     <div className="relative items-stretch bg-neutral-300 box-border flex flex-wrap justify-center max-w-full text-center w-full font-open_sans md:flex-nowrap">
       <div className="relative box-border basis-full grow max-w-[850px] min-h-[25px] w-min md:basis-0">
         <div className="box-border w-full py-1.5 md:py-2.5">
           <a
-            href={content.meta.ctaUrl}
+            href={links.cta}
             title="Route Next Sticky"
             className="text-white text-2xl font-bold bg-stone-500 inline-block leading-[31.2px] max-w-full text-center w-[350px] px-2.5 py-3 rounded-[10px]"
           >
-            Try {content.meta.productName} Today &gt;&gt;
+            Try {content.cta.productName} Today &gt;&gt;
           </a>
         </div>
       </div>
@@ -730,12 +837,14 @@ function StickyCta(): React.JSX.Element {
 export function SkinmagV1TopBar({
   content,
   media,
+  links,
 }: {
   content: SkinmagV1AdvertorialContent;
   media: SkinmagV1AdvertorialMedia;
+  links: SkinmagV1AdvertorialLinks;
 }): React.JSX.Element {
   return (
-    <AdvertorialContext.Provider value={{ content, media }}>
+    <AdvertorialContext.Provider value={{ content, media, links }}>
       <div className="text-black text-base font-normal bg-stone-100 h-full tracking-[normal] leading-6 list-outside list-disc overscroll-x-none overscroll-y-none text-left">
         <SiteHeader />
         <MainLayout />

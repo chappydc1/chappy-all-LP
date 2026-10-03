@@ -5,7 +5,7 @@ import { content } from "../../content";
 
 export const MediaBanner = () => {
   const { ref, visible } = useScrollReveal();
-  const c = content.mediaBanner;
+  const c = content.asSeenOn;
 
   return (
     <div

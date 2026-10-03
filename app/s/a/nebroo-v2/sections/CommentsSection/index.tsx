@@ -6,15 +6,13 @@ type CommentReply = {
   text: string;
   likeCount: string;
   time: string;
-  showReactionIcon: boolean;
 };
 type CommentCopy = {
   author: string;
   text: string;
   likeCount: string;
   time: string;
-  showReactionIcon: boolean;
-  replies: CommentReply[];
+  replies?: CommentReply[];
 };
 type CommentMedia = {
   avatarSrc: string;

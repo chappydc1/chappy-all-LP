@@ -36,6 +36,11 @@
     { "id": "reviewer-4", "src": "/lp-images-files-videos-fonts/images/brez/028_Image_1_857658e4-c2f2-4ed6-b7e9-1a6eca4b2a60_400x400.jpg", "alt": "Reviewer 4" },
     { "id": "reviewer-5", "src": "/lp-images-files-videos-fonts/images/brez/029_Image_1_6_400x400.jpg", "alt": "Reviewer 5" }
   ],
+  "reviewSlots": [
+    { "id": "review-1", "reviewerImageId": "reviewer-1" },
+    { "id": "review-2", "reviewerImageId": "reviewer-2" },
+    { "id": "review-3", "reviewerImageId": "reviewer-3" }
+  ],
   "cta": {
     "productImage": "/lp-images-files-videos-fonts/images/brez/024_Can_Scene_1_Desktop.jpg"
   }

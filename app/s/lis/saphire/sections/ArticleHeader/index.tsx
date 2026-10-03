@@ -4,7 +4,7 @@ import { ComparisonTable } from "./components/ComparisonTable";
 
 export function ArticleHeader() {
   const { content, media } = useAdvertorialData();
-  const { siteHeader, hero } = content;
+  const { nav, hero } = content;
 
   return (
     <>
@@ -13,18 +13,18 @@ export function ArticleHeader() {
           className="font-serif text-base font-black uppercase tracking-[1.5px] text-white md:text-[28px] md:tracking-[3px]"
           style={{ fontFamily: "Georgia, 'Times New Roman', serif" }}
         >
-          {siteHeader.title}
+          {nav.siteName}
         </div>
       </div>
       <div className="mx-auto flex max-w-[1000px] items-center justify-end gap-1.5 border-b border-[#e8e8e8] px-5 py-1.5 text-xs font-semibold text-[#333]">
         <span className="text-base leading-none">🇺🇸</span>
-        {siteHeader.trendingLabel}
+        {nav.trendingLabel}
       </div>
 
       <section className="mx-auto max-w-[800px] px-4 pt-5 md:px-5 md:pt-6">
         <h1
           className="mb-3.5 font-[family-name:var(--font-baskerville)] text-2xl font-bold leading-[1.22] tracking-[0.5px] text-black md:mb-[18px] md:text-[44px] md:leading-[1.3]"
-          dangerouslySetInnerHTML={{ __html: hero.titleHtml }}
+          dangerouslySetInnerHTML={{ __html: hero.headline }}
         />
         <div className="mb-3.5 flex items-center gap-2.5 md:mb-[18px]">
           <Image
@@ -49,7 +49,7 @@ export function ArticleHeader() {
         </div>
         <div
           className="mb-3.5 border-l-[3px] border-adv-orange bg-[#fff3e0] px-2.5 py-2 text-[13px] leading-[1.4] text-[#1c1d1f] md:mb-4 md:text-[15px]"
-          dangerouslySetInnerHTML={{ __html: hero.calloutHtml }}
+          dangerouslySetInnerHTML={{ __html: hero.callout }}
         />
       </section>
 

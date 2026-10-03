@@ -9,58 +9,58 @@ const P = ({ text }: { text: string }) => (
 );
 
 export function ZikeeyArticleStory() {
-  const { story } = adv.article;
+  const { lead, discovery, solution } = adv;
 
   return (
     <section>
-      <a href={story.heroUrl} className="text-teal-600 block transition-opacity duration-200 hover:opacity-90">
+      <a href="#" className="text-teal-600 block transition-opacity duration-200 hover:opacity-90">
         <img
           src={media.hero}
-          alt={story.heroAlt}
+          alt={lead.imageAlt}
           className="max-w-full align-baseline mx-auto rounded"
         />
       </a>
 
       <div className="mt-6">
-        {story.paragraphs1.map((text, i) => (
+        {lead.body.map((text, i) => (
           <P key={i} text={text} />
         ))}
       </div>
 
       <h3 className="text-teal-600 text-[34px] leading-[44.2px] my-[25px]">
-        <b>{story.h2first}</b>
+        <b>{discovery.headline}</b>
       </h3>
 
       <p className="text-neutral-800 text-[22px] leading-[35.2px] mb-[25px]">
-        {story.paragraphs2[0] && renderText(story.paragraphs2[0])}
+        {discovery.body[0] && renderText(discovery.body[0])}
       </p>
 
       <img
         src={media.backPain}
-        alt={story.backPainAlt}
+        alt={discovery.imageAlt}
         className="max-w-full align-baseline mx-auto rounded"
       />
 
       <p className="text-neutral-800 text-[22px] bg-zinc-100 leading-[35.2px] mb-[25px] p-4 rounded border-l-4 border-teal-500">
-        <i>{story.blockquote}</i>
+        <i>{discovery.quote}</i>
       </p>
 
-      {story.paragraphs2.slice(1).map((text, i) => (
+      {discovery.body.slice(1).map((text, i) => (
         <P key={i} text={text} />
       ))}
 
       <h3 className="text-teal-600 text-[34px] leading-[44.2px] my-[25px]">
-        <b>{story.h2second}</b>
+        <b>{solution.headline}</b>
       </h3>
 
       <img
         src={media.sitting}
-        alt={story.sittingAlt}
+        alt={solution.imageAlt}
         className="max-w-full align-baseline mx-auto rounded"
       />
 
       <div className="mt-6">
-        {story.paragraphs3.map((text, i) => (
+        {solution.body.map((text, i) => (
           <P key={i} text={text} />
         ))}
       </div>

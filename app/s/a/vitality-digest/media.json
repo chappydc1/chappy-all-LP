@@ -30,5 +30,95 @@
     "jerryHannig": "https://c.animaapp.com/mriicmxrzmX32u/assets/1754570259-68796868b5de56b077f1d950_ss-zu-14.jpg",
     "pattyBates": "https://c.animaapp.com/mriicmxrzmX32u/assets/1754570266-68796a4d5c6870fd0f2c8095_ss-zu-15.jpg",
     "jeanneDuchesneau": "https://c.animaapp.com/mriicmxrzmX32u/assets/1754570308-68796a56c9fcb056aa2_ss-zu-16.jpg"
-  }
+  },
+  "comments": [
+    {
+      "id": "diane-french",
+      "avatarKey": "dianeFrench"
+    },
+    {
+      "id": "cheryl-mattison",
+      "avatarKey": "cherylMattison",
+      "replies": [
+        {
+          "id": "marilyn-paraiso-1",
+          "avatarKey": "marilynParaiso"
+        },
+        {
+          "id": "cheryl-mattison-reply",
+          "avatarKey": "cherylMattison"
+        },
+        {
+          "id": "marilyn-paraiso-2",
+          "avatarKey": "marilynParaiso"
+        }
+      ]
+    },
+    {
+      "id": "phyllis-miller",
+      "avatarKey": "phyllisMiller"
+    },
+    {
+      "id": "kris-lowell-furman",
+      "avatarKey": "krisLowellFurman"
+    },
+    {
+      "id": "catherine-williams",
+      "avatarKey": "catherineWilliams"
+    },
+    {
+      "id": "allison-marie",
+      "avatarKey": "allisonMarie",
+      "replies": [
+        {
+          "id": "claire-kiffmeyer-fullam",
+          "avatarKey": "claireKiffmeyerFullam"
+        },
+        {
+          "id": "christine-morales-bennett",
+          "avatarKey": "christineMoralesBennett"
+        }
+      ]
+    },
+    {
+      "id": "jennifer-griffith",
+      "avatarKey": "jenniferGriffith",
+      "replies": [
+        {
+          "id": "linda-m-lee",
+          "avatarKey": "lindaMLee"
+        },
+        {
+          "id": "carla-booley",
+          "avatarKey": "carlaBooley"
+        }
+      ]
+    },
+    {
+      "id": "rick-crawford",
+      "avatarKey": "rickCrawford"
+    },
+    {
+      "id": "marilyn-pafford",
+      "avatarKey": "marilynPafford",
+      "replies": [
+        {
+          "id": "andrea-capone",
+          "avatarKey": "andreaCapone"
+        },
+        {
+          "id": "jerry-hannig",
+          "avatarKey": "jerryHannig"
+        },
+        {
+          "id": "patty-bates",
+          "avatarKey": "pattyBates"
+        },
+        {
+          "id": "jeanne-duchesneau",
+          "avatarKey": "jeanneDuchesneau"
+        }
+      ]
+    }
+  ]
 }

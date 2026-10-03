@@ -1,19 +1,20 @@
 type BreadcrumbProps = {
-  items: { label: string; href: string; current?: boolean }[];
+  items: string[];
+  links: string[];
 };
 
-export function ShilajitBreadcrumb({ items }: BreadcrumbProps) {
+export function ShilajitBreadcrumb({ items, links }: BreadcrumbProps) {
   return (
     <div className="items-center hidden h-[50px] max-w-full min-w-full p-[15px] md:flex md:min-w-[1024px] md:pl-0">
       <div className="text-zinc-500 flex flex-wrap leading-[21px] uppercase">
-        {items.map((item, i) => (
+        {items.map((label, i) => (
           <div key={i} className="flex items-center">
-            {item.current ? (
-              <span className="font-bold cursor-default">{item.label}</span>
+            {i === items.length - 1 ? (
+              <span className="font-bold cursor-default">{label}</span>
             ) : (
               <>
-                <a href={item.href}>
-                  {item.label}
+                <a href={links[i]}>
+                  {label}
                 </a>
                 <span className="px-[5px]">/</span>
               </>

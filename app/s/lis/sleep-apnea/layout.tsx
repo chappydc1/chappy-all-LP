@@ -3,8 +3,8 @@ import "./globals.css";
 import copy from "./copy.json";
 
 export const metadata: Metadata = {
-  title: copy.meta.title,
-  description: copy.meta.description,
+  title: copy.seo.title,
+  description: copy.seo.description,
   icons: { icon: "/lp-images-files-videos-fonts/favicons/lora.svg" },
 };
 

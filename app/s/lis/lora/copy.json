@@ -1,71 +1,64 @@
 {
-  "meta": {
+  "seo": {
     "title": "6 Reasons Why Lora Is the #1 Fix for Parasites & Bloating",
     "description": "Chronic bloating isn't just what you eat—it's what's living in your gut. Lora's SOMARA liquid complex uses 10 powerful botanicals to flush parasites, eliminate deep gut buildup, and restore flat, comfortable digestion."
   },
-  "topBar": {
+  "announcementBar": {
     "label": "Limited-Time Sale:",
     "offer": "Get Up To 41% Off + Free Shipping",
     "suffix": "on your first order"
   },
   "hero": {
     "badge": "Limited-Time Sale - Get Up To 41% Off",
-    "heading": {
+    "headline": {
       "highlight1": "6 Reasons",
       "text": "Why Lora Ends",
       "highlight2": "Parasites & Bloating"
     },
-    "subheading": "Chronic bloating isn't just about what you eat—it's what's building up in your gut. Lora's SOMARA liquid complex uses 10 powerful botanicals to flush toxic buildup, eliminate bloat, and restore clean, vibrant daily energy.",
-    "cta": {
-      "primary": "Save 41% + Free Shipping",
-      "href": "https://loraritual.com/products/somara-liquid-complex"
-    },
+    "subheadline": "Chronic bloating isn't just about what you eat—it's what's building up in your gut. Lora's SOMARA liquid complex uses 10 powerful botanicals to flush toxic buildup, eliminate bloat, and restore clean, vibrant daily energy.",
+    "ctaText": "Save 41% + Free Shipping",
     "socialProof": {
       "rating": "4.8",
       "reviews": "67K+",
       "members": "2M+"
     }
   },
-  "benefits": [
-    {
-      "number": "01",
-      "category": "Parasites",
-      "title": "Flushes Parasites & Toxic Buildup",
-      "description": "Most gut supplements only mask symptoms—they never clear the root cause. Lora's SOMARA targets deep digestive stagnation with a concentrated Soursop (Graviola) extract and Oregano Oil that work together to flush harmful buildup and parasites from your gut lining, leaving your system clean and running properly again."
-    },
-    {
-      "number": "02",
-      "category": "Bloating",
-      "title": "Flat, Comfortable Stomach All Day",
-      "description": "If your stomach feels tight, puffed, and heavy by midday no matter what you eat, stagnant waste pathways are the culprit. Lora delivers fast-absorbing liquid botanicals—Irish Sea Moss and Ginger—that clear those clogged pathways so bloating eases quickly and your stomach stays flat and light all day long."
-    },
-    {
-      "number": "03",
-      "category": "Energy",
-      "title": "Sustained Energy Without the Crash",
-      "description": "When parasites and gut buildup are draining your body, no amount of caffeine fixes it. Lora's 10-in-1 blend—Moringa, Ashwagandha, and Chlorella—feeds your cells directly for calm, continuous daily stamina. No jitters, no afternoon crash. Just real, steady energy from the moment you wake up."
-    },
-    {
-      "number": "04",
-      "category": "Immunity",
-      "title": "Stronger Natural Immune Defense",
-      "description": "70% of your immune system lives in your gut. When your gut is overrun with buildup and parasites, your immune defenses collapse. Lora combines Turmeric, Black Seed Oil, Vitamin C, and Vitamin D3 to fortify your gut lining and rebuild the natural immune defense that parasites quietly strip away."
-    },
-    {
-      "number": "05",
-      "category": "Formula",
-      "title": "10 Botanicals in One Easy Dropper",
-      "description": "Forget swallowing handfuls of pills that barely absorb. SOMARA packs Soursop, Sea Moss, Moringa, Turmeric, Black Seed Oil, Oregano Oil, Ashwagandha, Chlorella, Chlorophyll, and Ginger into one fast-absorbing liquid dropper. Alcohol-free, stimulant-free, sugar-free. Just two droppers a day—done."
-    },
-    {
-      "number": "06",
-      "category": "Loved By Millions",
-      "title": "Trusted by 2M+ Customers",
-      "description": "With over 67,000 five-star reviews and 2 million bottles sold, Lora's SOMARA is the go-to choice for anyone done with persistent bloating, unexplained fatigue, and the heavy gut feeling that won't quit. Backed by a 30-day money-back guarantee—completely risk-free."
-    }
-  ],
+  "reasonsWhy": {
+    "items": [
+      {
+        "category": "Parasites",
+        "headline": "Flushes Parasites & Toxic Buildup",
+        "body": "Most gut supplements only mask symptoms—they never clear the root cause. Lora's SOMARA targets deep digestive stagnation with a concentrated Soursop (Graviola) extract and Oregano Oil that work together to flush harmful buildup and parasites from your gut lining, leaving your system clean and running properly again."
+      },
+      {
+        "category": "Bloating",
+        "headline": "Flat, Comfortable Stomach All Day",
+        "body": "If your stomach feels tight, puffed, and heavy by midday no matter what you eat, stagnant waste pathways are the culprit. Lora delivers fast-absorbing liquid botanicals—Irish Sea Moss and Ginger—that clear those clogged pathways so bloating eases quickly and your stomach stays flat and light all day long."
+      },
+      {
+        "category": "Energy",
+        "headline": "Sustained Energy Without the Crash",
+        "body": "When parasites and gut buildup are draining your body, no amount of caffeine fixes it. Lora's 10-in-1 blend—Moringa, Ashwagandha, and Chlorella—feeds your cells directly for calm, continuous daily stamina. No jitters, no afternoon crash. Just real, steady energy from the moment you wake up."
+      },
+      {
+        "category": "Immunity",
+        "headline": "Stronger Natural Immune Defense",
+        "body": "70% of your immune system lives in your gut. When your gut is overrun with buildup and parasites, your immune defenses collapse. Lora combines Turmeric, Black Seed Oil, Vitamin C, and Vitamin D3 to fortify your gut lining and rebuild the natural immune defense that parasites quietly strip away."
+      },
+      {
+        "category": "Formula",
+        "headline": "10 Botanicals in One Easy Dropper",
+        "body": "Forget swallowing handfuls of pills that barely absorb. SOMARA packs Soursop, Sea Moss, Moringa, Turmeric, Black Seed Oil, Oregano Oil, Ashwagandha, Chlorella, Chlorophyll, and Ginger into one fast-absorbing liquid dropper. Alcohol-free, stimulant-free, sugar-free. Just two droppers a day—done."
+      },
+      {
+        "category": "Loved By Millions",
+        "headline": "Trusted by 2M+ Customers",
+        "body": "With over 67,000 five-star reviews and 2 million bottles sold, Lora's SOMARA is the go-to choice for anyone done with persistent bloating, unexplained fatigue, and the heavy gut feeling that won't quit. Backed by a 30-day money-back guarantee—completely risk-free."
+      }
+    ]
+  },
   "testimonials": {
-    "heading": {
+    "headline": {
       "text": "Real Customers.",
       "highlight": "Real Gut Relief."
     },
@@ -105,7 +98,10 @@
   "reviews": {
     "overallRating": "4.8",
     "totalReviews": "67,328",
-    "tabs": ["Product reviews", "Store reviews"],
+    "tabs": [
+      "Product reviews",
+      "Store reviews"
+    ],
     "items": [
       {
         "avatarInitials": "SM",
@@ -157,7 +153,7 @@
       }
     ]
   },
-  "buyBox": {
+  "offer": {
     "badge": "30-Day Money-Back Guarantee"
   }
 }

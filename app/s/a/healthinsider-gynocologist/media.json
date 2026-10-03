@@ -54,5 +54,15 @@
     "youtubeFooter": "/lp-images-files-videos-fonts/images/healthinsider-gynocologist/image-18.svg",
     "instagramFooter": "/lp-images-files-videos-fonts/images/healthinsider-gynocologist/image-19.svg",
     "chevron": "/lp-images-files-videos-fonts/images/healthinsider-gynocologist/image-20.svg"
+  },
+  "figures": {
+    "agitation": "cortisol",
+    "productRankings": [
+      "",
+      "supplementComparison",
+      "",
+      "",
+      "maryBeforeAfter"
+    ]
   }
 }

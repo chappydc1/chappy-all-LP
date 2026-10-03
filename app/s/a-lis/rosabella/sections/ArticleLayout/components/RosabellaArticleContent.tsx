@@ -29,13 +29,13 @@ const withProductLink = (text: string, productName: string, url: string) => {
 };
 
 export const RosabellaArticleContent = () => {
-  const { copy, media } = useAdvertorial();
+  const { copy, links, media } = useAdvertorial();
 
   return (
     <div className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] align-top w-full md:w-9/12">
-      <RosabellaArticleHeader variant="breadcrumb" breadcrumbText={copy.breadcrumb} />
-      <RosabellaArticleHeader variant="headline" headline={copy.headline} />
-      <RosabellaArticleHeader variant="subheadline" subheadline={copy.subheadline} />
+      <RosabellaArticleHeader variant="breadcrumb" breadcrumbText={copy.hero.breadcrumb} />
+      <RosabellaArticleHeader variant="headline" headline={copy.hero.headline} />
+      <RosabellaArticleHeader variant="subheadline" subheadline={copy.hero.subheadline} />
       <RosabellaArticleHeader
         variant="rating"
         ratingImageUrl={media.starsImage}
@@ -49,12 +49,12 @@ export const RosabellaArticleContent = () => {
       />
       <RosabellaArticleHeader
         variant="quote"
-        quoteText={copy.quoteText}
-        quoteAuthor={copy.quoteAuthor}
+        quoteText={copy.hero.quoteText}
+        quoteAuthor={copy.hero.quoteAuthor}
       />
       <RosabellaArticleHeader
         variant="body"
-        bodyContent={<span className={pClass}>{copy.introBody}</span>}
+        bodyContent={<span className={pClass}>{copy.hero.body}</span>}
       />
       <RosabellaArticleHeader variant="default" />
 
@@ -62,7 +62,7 @@ export const RosabellaArticleContent = () => {
       <RosabellaReasonSection
         containerClassName="text-[23.4583px] box-border caret-transparent leading-[28.15px] min-h-[auto] min-w-[auto] outline-[3px] w-full mt-2.5 p-2.5 md:text-3xl md:leading-9"
         variant="title"
-        title={copy.introSection.title}
+        title={copy.problem.headline}
         titleTag="h1"
         titleStrongClassName="text-black text-[23.4583px] font-bold box-border caret-transparent leading-[28.15px] outline-[3px] md:text-3xl md:leading-9"
         imageSrc=""
@@ -97,27 +97,27 @@ export const RosabellaArticleContent = () => {
         videoPoster=""
         videoSrc=""
       >
-        <p className={pClass}>{copy.introSection.p1}</p>
+        <p className={pClass}>{copy.problem.body[0]}</p>
         <p className={pClass}><br /></p>
-        <p className={pClass}>{copy.introSection.p2}</p>
+        <p className={pClass}>{copy.problem.body[1]}</p>
         <p className={pClass}><br /></p>
-        <p className={pClass}>{copy.introSection.p3}</p>
+        <p className={pClass}>{copy.problem.body[2]}</p>
         <p className={pClass}><br /></p>
-        <p className={pClass}>{copy.introSection.p4}</p>
+        <p className={pClass}>{copy.problem.body[3]}</p>
         <p className={pClass}><br /></p>
-        <p className={pClass}>{copy.introSection.p5}</p>
+        <p className={pClass}>{copy.problem.body[4]}</p>
         <p className={pClass}><br /></p>
-        <p className={pClass}>{copy.introSection.p6}</p>
+        <p className={pClass}>{copy.problem.body[5]}</p>
         <p className={pClass}><br /></p>
-        <p className={pClass}>{copy.introSection.p7}</p>
+        <p className={pClass}>{copy.problem.body[6]}</p>
         <p className={pClass}>
-          {withProductLink(copy.introSection.p8, copy.productName, copy.ctaUrl)}
+          {withProductLink(copy.problem.body[7], copy.ui.productName, links.cta)}
         </p>
         <p className={pClass}><br /></p>
-        <p className={pClass}>{copy.introSection.p9}</p>
+        <p className={pClass}>{copy.problem.body[8]}</p>
         <p className={pClass}><br /></p>
         <p className={pClass}>
-          {withProductLink(copy.introSection.p10, copy.productName, copy.ctaUrl)}
+          {withProductLink(copy.problem.body[9], copy.ui.productName, links.cta)}
         </p>
       </RosabellaReasonSection>
 
@@ -125,7 +125,7 @@ export const RosabellaArticleContent = () => {
       <RosabellaReasonSection
         containerClassName="text-[23.4583px] box-border caret-transparent leading-[28.15px] min-h-[auto] min-w-[auto] outline-[3px] w-full mt-5 p-2.5 md:text-3xl md:leading-9"
         variant="title"
-        title={copy.reason1Section.title}
+        title={copy.reasonsWhy[0].headline}
         titleTag="p"
         titleStrongClassName="text-[23.4583px] font-bold box-border caret-transparent leading-[28.15px] outline-[3px] md:text-3xl md:leading-9"
         imageSrc=""
@@ -173,30 +173,30 @@ export const RosabellaArticleContent = () => {
         videoPoster=""
         videoSrc=""
       >
-        <p className={pClass}>{copy.reason1Section.p1}</p>
+        <p className={pClass}>{copy.reasonsWhy[0].problemIntro[0]}</p>
         <p className={pClass}><br /></p>
-        <p className={pClass}>{copy.reason1Section.p2}</p>
+        <p className={pClass}>{copy.reasonsWhy[0].problemIntro[1]}</p>
         <p className={pClass}><br /></p>
-        {copy.reason1Section.problems.map((problem) => (
+        {copy.reasonsWhy[0].problems.map((problem) => (
           <p key={problem} className={pClass}>{problem}</p>
         ))}
         <p className={pClass}><br /></p>
-        <p className={pClass}>{copy.reason1Section.p3}</p>
+        <p className={pClass}>{copy.reasonsWhy[0].solutionIntro[0]}</p>
         <p className={pClass}><br /></p>
-        <p className={pClass}>{copy.reason1Section.p4}</p>
+        <p className={pClass}>{copy.reasonsWhy[0].solutionIntro[1]}</p>
         <p className={pClass}><br /></p>
-        {copy.reason1Section.benefits.map((benefit) => (
+        {copy.reasonsWhy[0].benefits.map((benefit) => (
           <p key={benefit} className={pClass}>{benefit}</p>
         ))}
         <p className={pClass}><br /></p>
-        <p className={pClass}>{copy.reason1Section.p5}</p>
+        <p className={pClass}>{copy.reasonsWhy[0].closing}</p>
       </RosabellaReasonSection>
 
       {/* Reason 2 */}
       <RosabellaReasonSection
         containerClassName="text-[23.4583px] box-border caret-transparent leading-[28.15px] min-h-[auto] min-w-[auto] outline-[3px] w-full mt-2.5 p-2.5 md:text-3xl md:leading-9"
         variant="title"
-        title={copy.reason2Section.title}
+        title={copy.reasonsWhy[1].headline}
         titleTag="p"
         titleStrongClassName="text-[23.4583px] font-bold box-border caret-transparent leading-[28.15px] outline-[3px] md:text-3xl md:leading-9"
         imageSrc=""
@@ -218,13 +218,13 @@ export const RosabellaArticleContent = () => {
         videoPoster=""
         videoSrc=""
       >
-        <p className={pClass}>{copy.reason2Section.p1}</p>
+        <p className={pClass}>{copy.reasonsWhy[1].body[0]}</p>
         <p className={pClass}><br /></p>
-        <p className={pClass}>{copy.reason2Section.p2}</p>
+        <p className={pClass}>{copy.reasonsWhy[1].body[1]}</p>
         <p className={pClass}><br /></p>
-        <p className={pClass}>{copy.reason2Section.p3}</p>
+        <p className={pClass}>{copy.reasonsWhy[1].body[2]}</p>
         <p className={pClass}><br /></p>
-        <p className={pClass}>{copy.reason2Section.p4}</p>
+        <p className={pClass}>{copy.reasonsWhy[1].body[3]}</p>
       </RosabellaReasonSection>
       <RosabellaReasonSection
         containerClassName="relative bg-black box-border caret-transparent flex min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden mt-2.5 mx-2.5 rounded-[10px]"
@@ -244,7 +244,7 @@ export const RosabellaArticleContent = () => {
       <RosabellaReasonSection
         containerClassName="text-[23.4583px] leading-[28.15px] min-h-[auto] min-w-[auto] mt-2.5 p-2.5 md:text-3xl md:leading-9"
         variant="title"
-        title={copy.reason3Section.title}
+        title={copy.reasonsWhy[2].headline}
         titleTag="h1"
         titleStrongClassName="text-[23.4583px] font-bold box-border caret-transparent leading-[28.15px] outline-[3px] md:text-3xl md:leading-9"
         imageSrc=""
@@ -272,7 +272,7 @@ export const RosabellaArticleContent = () => {
       <RosabellaReasonSection
         containerClassName="text-[23.4583px] box-border caret-transparent leading-[28.15px] min-h-[auto] min-w-[auto] outline-[3px] w-full mt-2.5 p-2.5 md:text-3xl md:leading-9"
         variant="title"
-        title={copy.reason4Section.title}
+        title={copy.reasonsWhy[3].headline}
         titleTag="h1"
         titleStrongClassName="text-black text-[23.4583px] font-bold box-border caret-transparent leading-[28.15px] outline-[3px] md:text-3xl md:leading-9"
         imageSrc=""
@@ -294,13 +294,13 @@ export const RosabellaArticleContent = () => {
         videoPoster=""
         videoSrc=""
       >
-        <p className={pClass}>{copy.reason4Section.p1}</p>
+        <p className={pClass}>{copy.reasonsWhy[3].body[0]}</p>
         <p className={pClass}><br /></p>
-        <p className={pClass}>{copy.reason4Section.p2}</p>
+        <p className={pClass}>{copy.reasonsWhy[3].body[1]}</p>
         <p className={pClass}><br /></p>
-        <p className={pClass}>{copy.reason4Section.p3}</p>
+        <p className={pClass}>{copy.reasonsWhy[3].body[2]}</p>
         <p className={pClass}><br /></p>
-        <p className={pClass}>{copy.reason4Section.p4}</p>
+        <p className={pClass}>{copy.reasonsWhy[3].body[3]}</p>
       </RosabellaReasonSection>
       <RosabellaReasonSection
         containerClassName="min-h-[auto] min-w-[auto] mt-2.5"
@@ -320,7 +320,7 @@ export const RosabellaArticleContent = () => {
       <RosabellaReasonSection
         containerClassName="text-black text-[23.4583px] box-border caret-transparent leading-[28.15px] min-h-[auto] min-w-[auto] outline-[3px] w-full mt-5 p-2.5 md:text-3xl md:leading-9"
         variant="title"
-        title={copy.reason5Section.title}
+        title={copy.reasonsWhy[4].headline}
         titleTag="p"
         titleStrongClassName="text-[23.4583px] font-bold box-border caret-transparent leading-[28.15px] outline-[3px] md:text-3xl md:leading-9"
         imageSrc=""
@@ -342,17 +342,17 @@ export const RosabellaArticleContent = () => {
         videoPoster=""
         videoSrc=""
       >
-        <p className={pClass}>{copy.reason5Section.p1}</p>
+        <p className={pClass}>{copy.reasonsWhy[4].body[0]}</p>
         <p className={pClass}><br /></p>
-        <p className={pClass}>{copy.reason5Section.p2}</p>
+        <p className={pClass}>{copy.reasonsWhy[4].body[1]}</p>
         <p className={pClass}><br /></p>
-        <p className={pClass}>{copy.reason5Section.p3}</p>
+        <p className={pClass}>{copy.reasonsWhy[4].body[2]}</p>
         <p className={pClass}><br /></p>
-        <p className={pClass}>{copy.reason5Section.p4}</p>
+        <p className={pClass}>{copy.reasonsWhy[4].body[3]}</p>
         <p className={pClass}><br /></p>
-        <p className={pClass}>{copy.reason5Section.p5}</p>
+        <p className={pClass}>{copy.reasonsWhy[4].body[4]}</p>
         <p className={pClass}><br /></p>
-        <p className={pClass}>{copy.reason5Section.p6}</p>
+        <p className={pClass}>{copy.reasonsWhy[4].body[5]}</p>
       </RosabellaReasonSection>
       <RosabellaReasonSection
         containerClassName="relative bg-black box-border caret-transparent flex min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden mt-2.5 mx-2.5 rounded-[10px]"
@@ -370,16 +370,16 @@ export const RosabellaArticleContent = () => {
 
       <RosabellaCallToActionSection
         variant="ctaButton"
-        href={copy.ctaUrl}
-        ctaText={copy.ctaText}
+        href={links.cta}
+        ctaText={copy.finalCta.ctaText}
         ctaClassName="text-sm hidden min-h-0 min-w-0 px-2.5 py-5 md:text-xl md:flex md:tracking-[0.4px] md:leading-6 md:min-h-[auto] md:min-w-[auto]"
         ctaSpanClassName="text-white text-3xl box-border caret-transparent inline tracking-[0.28px] leading-9 min-h-0 min-w-0 outline-[3px] pointer-events-none text-center md:block md:tracking-[0.4px] md:min-h-[auto] md:min-w-[auto]"
       />
 
       <RosabellaCallToActionSection
         variant="ctaButton"
-        href={copy.ctaUrl}
-        ctaText={copy.ctaText}
+        href={links.cta}
+        ctaText={copy.finalCta.ctaText}
         ctaClassName="px-[5px] py-[15px] md:hidden md:min-h-0 md:min-w-0"
         ctaSpanClassName="text-white text-[17px] box-border caret-transparent block leading-[20.4px] min-h-[auto] min-w-[auto] outline-[3px] pointer-events-none text-center md:inline md:min-h-0 md:min-w-0"
       />
@@ -399,8 +399,8 @@ export const RosabellaArticleContent = () => {
       />
       <RosabellaCallToActionSection
         variant="trustAndCta"
-        href={copy.ctaUrl}
-        ctaText={copy.ctaText}
+        href={links.cta}
+        ctaText={copy.finalCta.ctaText}
         ctaClassName=""
         ctaSpanClassName=""
       />

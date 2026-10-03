@@ -2,14 +2,16 @@ import { BoughtPill, DealPill, RatingBars, TrustScore, VisitButton } from "../..
 import type { BestToeSocksCopy, BestToeSocksProduct, BestToeSocksProductMedia } from "../../../types";
 
 type ReviewCardProps = {
-  card: BestToeSocksCopy["reviewCard"];
+  card: BestToeSocksCopy["finalCta"];
   product: BestToeSocksProduct;
+  href: string;
   productMedia: BestToeSocksProductMedia;
 };
 
 export function BestToeSocksReviewCard({
   card,
   product,
+  href,
   productMedia,
 }: ReviewCardProps): JSX.Element {
   return (
@@ -34,11 +36,11 @@ export function BestToeSocksReviewCard({
         </div>
       </div>
       <div>
-        <h4 className="hidden text-center text-2xl font-bold leading-[31.2px] text-[#333] md:block">{card.heading}</h4>
+        <h4 className="hidden text-center text-2xl font-bold leading-[31.2px] text-[#333] md:block">{card.headline}</h4>
         <p className="my-4 hidden text-sm leading-[21px] text-[#636363] md:block">{card.text}</p>
         {product.deal && <DealPill text={product.deal} className="mb-2" />}
         <VisitButton
-          href={product.url}
+          href={href}
           label={product.buttonText}
         />
         {product.boughtThisWeek && <BoughtPill text={product.boughtThisWeek} className="mt-[18px]" />}

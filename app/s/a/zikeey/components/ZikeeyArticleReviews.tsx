@@ -2,15 +2,15 @@ import adv from "../copy.json";
 import media from "../media.json";
 
 export function ZikeeyArticleReviews() {
-  const { reviews } = adv.article;
+  const { reviews } = adv;
 
   return (
     <section>
       <h3 className="text-teal-600 text-[34px] leading-[44.2px] my-[25px]">
-        <b>{reviews.h2}</b>
+        <b>{reviews.headline}</b>
       </h3>
       <p className="text-neutral-800 text-[22px] leading-[35.2px] mb-[25px]">
-        {reviews.subheading}
+        {reviews.subheadline}
       </p>
 
       <div className="space-y-3">

@@ -6,22 +6,23 @@ type FooterProps = {
     brand: string;
     tagline: string;
     newsletter: {
-      title: string;
+      headline: string;
       placeholder: string;
-      cta: string;
+      ctaText: string;
       successMessage: string;
     };
-    links: { label: string; href: string }[];
+    links: string[];
     copyright: string;
     advertisingDisclosure: string;
   };
+  links: string[];
   media: {
     footerBg: string;
     footerLogo: string;
   };
 };
 
-export function SleepingFooter({ adv, media }: FooterProps): React.JSX.Element {
+export function SleepingFooter({ adv, links, media }: FooterProps): React.JSX.Element {
   const [email, setEmail] = useState("");
   const [submitted, setSubmitted] = useState(false);
   const [error, setError] = useState("");
@@ -44,7 +45,7 @@ export function SleepingFooter({ adv, media }: FooterProps): React.JSX.Element {
           className="absolute hue-rotate-[195deg] h-[220px] w-full rounded-t-none left-0 top-0 lg:h-auto lg:rounded-t-xl object-cover"
         />
         <div className="relative text-white text-[26.6px] font-bold leading-[35px] text-left w-full pl-0 lg:text-[30.8px] lg:w-[70%] lg:pl-[25px]">
-          {adv.newsletter.title}
+          {adv.newsletter.headline}
         </div>
         {submitted ? (
           <div className="relative text-green-400 font-bold text-base z-10 mt-4 lg:mt-0">
@@ -66,7 +67,7 @@ export function SleepingFooter({ adv, media }: FooterProps): React.JSX.Element {
               onClick={handleSubmit}
               className="text-white text-[16.8px] font-bold bg-stone-900 h-[45px] min-w-full w-1/5 z-20 px-[25px] py-[5px] rounded-[50px] lg:min-w-[170px] cursor-pointer"
             >
-              {adv.newsletter.cta}
+              {adv.newsletter.ctaText}
             </button>
           </div>
         )}
@@ -85,10 +86,10 @@ export function SleepingFooter({ adv, media }: FooterProps): React.JSX.Element {
         <div className="flex flex-col w-max mt-10 lg:flex-row lg:mt-0">
           <div className="font-bold text-left pr-10 pb-5 lg:pb-0">{adv.brand}</div>
           <ul className="gap-x-5 flex flex-col list-none gap-y-2.5 text-left pl-0 lg:grid lg:grid-cols-[repeat(2,minmax(120px,1fr))] lg:flex-row">
-            {adv.links.map((link) => (
-              <li key={link.label}>
-                <a href={link.href}>
-                  {link.label}
+            {adv.links.map((label, i) => (
+              <li key={label}>
+                <a href={links[i]}>
+                  {label}
                 </a>
               </li>
             ))}

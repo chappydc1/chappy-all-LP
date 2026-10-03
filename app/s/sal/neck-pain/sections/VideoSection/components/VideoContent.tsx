@@ -1,7 +1,7 @@
 import { content, renderInlineBold } from "../../../content";
 
 export const VideoContent = () => {
-  const v = content.video;
+  const v = content.lead;
   return (
     <div className="items-start box-border caret-transparent flex flex-col justify-start max-w-full min-h-[auto] min-w-[auto] md:max-w-[46%]">
       <div className="items-center box-border caret-transparent flex min-h-[auto] min-w-[auto] mb-1.5 md:mb-[5px]">

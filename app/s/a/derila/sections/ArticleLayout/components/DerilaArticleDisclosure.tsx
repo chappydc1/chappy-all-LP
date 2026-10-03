@@ -1,7 +1,7 @@
 import adv from "../../../copy.json";
 
 export const DerilaArticleDisclosure = () => {
-  const { lines } = adv.disclosure;
+  const { lines } = adv.disclaimer;
 
   return (
     <div className="text-[10px] box-border caret-transparent outline-[3px] text-center mt-12">

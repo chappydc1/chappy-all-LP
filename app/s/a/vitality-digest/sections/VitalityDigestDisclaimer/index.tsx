@@ -18,7 +18,7 @@ export const VitalityDigestDisclaimer = (): React.ReactElement => {
         </div>
 
         <div className="text-stone-300 text-xs leading-[18px] w-full p-2.5">
-          {footer.disclaimerParagraphs.map((paragraph, index) => (
+          {footer.disclaimer.map((paragraph, index) => (
             <p
               key={index}
               className="mb-4 last:mb-0"

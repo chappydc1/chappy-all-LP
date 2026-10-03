@@ -1,13 +1,13 @@
 {
-  "meta": {
+  "seo": {
     "title": "Rosabella Beetroot Capsules",
     "description": "Supports healthy blood flow and circulation - naturally, every day."
   },
-  "shippingBar": {
+  "announcementBar": {
     "message": "Free US shipping On orders over",
     "threshold": "$50"
   },
-  "productHero": {
+  "hero": {
     "productName": "Rosabella Beetroot Capsules",
     "tagline": "Supports healthy blood flow and circulation - naturally, every day.",
     "benefits": [
@@ -28,7 +28,6 @@
         "detail": "1,300mg of beetroot powder. One ingredient"
       }
     ],
-    "ctaHref": "https://get.tryrosabella.com/beetroot/subtxt/of?utm_source=s3",
     "subscriptionNote": "By default your selected package will continue to be delivered automatically unless you choose to change or cancel. You can easily adjust or cancel anytime.",
     "guarantee": {
       "title": "90 Day Money Back Guarantee",
@@ -37,7 +36,6 @@
     "accordion": [
       {
         "title": "Description",
-        "type": "description",
         "heading": "Your Blood Is Working Hard.",
         "paragraphs": [
           "Give It What It Needs.  Modern life puts constant pressure on your cardiovascular system. Processed foods, stress, and inactivity can all affect how efficiently your blood flows and how well your body circulates nutrients where they need to go.",
@@ -60,7 +58,6 @@
       },
       {
         "title": "The Results",
-        "type": "results",
         "intro": "A Complete 90-Day Circulation Support Cycle. Rosabella Beetroot works with your body's natural rhythms, supporting gradual and lasting improvements to your circulation rather than quick fixes.",
         "timeline": [
           {
@@ -79,7 +76,6 @@
       },
       {
         "title": "90 Day Guarantee",
-        "type": "guarantee",
         "heading": "The Empty Bottle Promise.",
         "paragraphs": [
           "We are so confident in Rosabella Beetroot that we take all the risk. You have 3 full months to try it. Use the entire supply.",
@@ -88,7 +84,6 @@
       },
       {
         "title": "Shipping & Returns",
-        "type": "shipping",
         "heading": "Fast, Free & Easy.",
         "items": [
           {
@@ -108,7 +103,7 @@
     ]
   },
   "testimonials": {
-    "heading": "Real People. Real Results.",
+    "headline": "Real People. Real Results.",
     "items": [
       {
         "ariaLabel": "1 / 4",
@@ -142,7 +137,7 @@
   },
   "faq": {
     "eyebrow": "Frequently Asked Questions",
-    "heading": "Everything You Want to Know Before You Order",
+    "headline": "Everything You Want to Know Before You Order",
     "columns": [
       [
         {
@@ -174,41 +169,41 @@
       ]
     ]
   },
-  "problemSolution": {
-    "heading": "Why Feeling 'Off' Is Not a Willpower Problem",
+  "problem": {
+    "headline": "Why Feeling 'Off' Is Not a Willpower Problem",
     "body": "Poor diet, chronic stress, and inactivity can all affect how efficiently your body circulates blood and delivers oxygen where it needs to go. Over time the effects build up and become your new normal.",
     "symptoms": [
       "Constant low energy",
       "Heavy and sluggish all day",
       "Poor circulation",
       "Persistent brain fog"
-    ],
-    "solution": {
-      "eyebrow": "THE CIRCULATION ROOT",
-      "heading": "Support your body from the inside out",
-      "body": "Rosabella Beetroot delivers 1,300mg of pure beetroot powder per serving, naturally rich in dietary nitrates that your body depends on for healthy blood flow and daily energy.",
-      "features": [
-        {
-          "line1": "Supports Healthy",
-          "line2": "Blood Flow"
-        },
-        {
-          "line1": "Boosts Natural",
-          "line2": "Energy Levels"
-        },
-        {
-          "line1": "Clears Brain",
-          "line2": "Fog"
-        },
-        {
-          "line1": "Supports Heart",
-          "line2": "Health"
-        }
-      ]
-    }
+    ]
   },
-  "stages": {
-    "heading": "Why Feeling 'Off' Is Not a Willpower Problem",
+  "solution": {
+    "eyebrow": "THE CIRCULATION ROOT",
+    "headline": "Support your body from the inside out",
+    "body": "Rosabella Beetroot delivers 1,300mg of pure beetroot powder per serving, naturally rich in dietary nitrates that your body depends on for healthy blood flow and daily energy.",
+    "features": [
+      {
+        "line1": "Supports Healthy",
+        "line2": "Blood Flow"
+      },
+      {
+        "line1": "Boosts Natural",
+        "line2": "Energy Levels"
+      },
+      {
+        "line1": "Clears Brain",
+        "line2": "Fog"
+      },
+      {
+        "line1": "Supports Heart",
+        "line2": "Health"
+      }
+    ]
+  },
+  "agitation": {
+    "headline": "Why Feeling 'Off' Is Not a Willpower Problem",
     "items": [
       {
         "stage": "Stage 1",
@@ -227,15 +222,15 @@
       }
     ]
   },
-  "circulationComparison": {
+  "mechanism": {
     "eyebrow": "CIRCULATION DECLINES WITH AGE",
-    "heading": "The Hidden Driver of Poor Circulation",
+    "headline": "The Hidden Driver of Poor Circulation",
     "body": "As we age, the body's ability to maintain healthy blood flow naturally declines. Modern stressors like poor diet and inactivity accelerate this, making it harder for your body to circulate nutrients and oxygen efficiently.",
-    "comparisonHeading": "Rosabella Beetroot vs Other Supplements",
-    "comparisonCallout": "Rosabella contains 1300mg of beet concentrate \u2014 3.3x more than the average competitor, and is designed to support healthy blood flow and circulation from the inside out."
+    "comparisonHeadline": "Rosabella Beetroot vs Other Supplements",
+    "comparisonCallout": "Rosabella contains 1300mg of beet concentrate — 3.3x more than the average competitor, and is designed to support healthy blood flow and circulation from the inside out."
   },
   "resultsTimeline": {
-    "heading": "What Rosabella Beetroot Users Experience Over Time",
+    "headline": "What Rosabella Beetroot Users Experience Over Time",
     "items": [
       {
         "week": "Week 1-2:",
@@ -271,9 +266,9 @@
       "text": "Love your results within 90 days or get 100% of your money back, no questions asked."
     }
   },
-  "brandComparison": {
+  "comparison": {
     "eyebrow": "Why Rosabella Beetroot?",
-    "heading": "Circulation Support vs Other Brands",
+    "headline": "Circulation Support vs Other Brands",
     "features": [
       "1,300mg Pure Beetroot Per Serving",
       "Naturally Rich in Nitrates",
@@ -283,9 +278,9 @@
       "90 Day Money Back Guarantee"
     ]
   },
-  "surveyResults": {
-    "heading": "Results Felt by Those Who Tried Rosabella Beetroot",
-    "subheading": "We surveyed daily users to see how Rosabella Beetroot changed their lives.",
+  "proof": {
+    "headline": "Results Felt by Those Who Tried Rosabella Beetroot",
+    "subheadline": "We surveyed daily users to see how Rosabella Beetroot changed their lives.",
     "stats": [
       {
         "percentage": "71%",
@@ -302,21 +297,20 @@
         "title": "Would recommend to a friend",
         "description": "Satisfied with the results and continuing as part of their daily wellness routine."
       }
-    ],
-    "guarantee": {
-      "label": "90 Day",
-      "title": "Rosabella Money Back Guarantee",
-      "body": "If you don't notice a difference within 90 days of the product being delivered, return it within 90 days for a full refund.",
-      "points": [
-        "100% Money Back Guarantee",
-        "No Questions Asked"
-      ]
-    }
+    ]
   },
-  "customerReviews": {
+  "guarantee": {
+    "label": "90 Day",
+    "title": "Rosabella Money Back Guarantee",
+    "body": "If you don't notice a difference within 90 days of the product being delivered, return it within 90 days for a full refund.",
+    "points": [
+      "100% Money Back Guarantee",
+      "No Questions Asked"
+    ]
+  },
+  "reviews": {
     "eyebrow": "Reviews",
-    "heading": "Verified Customer Reviews",
-    "loadMoreText": "Load More Reviews",
+    "headline": "Verified Customer Reviews",
     "initial": [
       {
         "reviewText": "I used to wake up feeling stiff and sluggish every single morning. My circulation has always been something I worried about as I got older. By week two of taking Rosabella Beetroot I noticed my hands and feet felt warmer and I had actual energy by 9am. I have not felt this good in years and I am not stopping.",
@@ -344,9 +338,10 @@
         "reviewText": "I bought this for my husband and he noticed a difference within the first two weeks. His hands and feet are warmer, he has more energy in the evenings, and he has actually started going on evening walks with me again. Cannot recommend this enough.",
         "customerName": "Linda F."
       }
-    ]
+    ],
+    "loadMoreText": "Load More Reviews"
   },
   "footer": {
-    "copyright": "\u00a9 2026, Rosabella"
+    "copyright": "© 2026, Rosabella"
   }
 }

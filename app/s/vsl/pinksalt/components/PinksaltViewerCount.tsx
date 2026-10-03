@@ -1,6 +1,12 @@
 "use client";
 import { useEffect, useState } from "react";
 
+const VIEWER_BASE_COUNT = 575;
+const VIEWER_MIN = 540;
+const VIEWER_MAX = 620;
+const VIEWER_INTERVAL_MS = 3500;
+const VIEWER_DELTA = 3;
+
 type ViewerCountProps = {
   label?: string;
   baseCount?: number;
@@ -10,9 +16,9 @@ type ViewerCountProps = {
 
 export const PinksaltViewerCount = ({
   label = "viewers are watching right now...",
-  baseCount = 575,
-  min = 540,
-  max = 620,
+  baseCount = VIEWER_BASE_COUNT,
+  min = VIEWER_MIN,
+  max = VIEWER_MAX,
 }: ViewerCountProps) => {
   const [count, setCount] = useState(baseCount);
   const [flash, setFlash] = useState(false);
@@ -20,12 +26,12 @@ export const PinksaltViewerCount = ({
   useEffect(() => {
     const interval = setInterval(() => {
       setCount((prev) => {
-        const delta = Math.floor(Math.random() * 7) - 3;
+        const delta = Math.floor(Math.random() * (VIEWER_DELTA * 2 + 1)) - VIEWER_DELTA;
         const next = Math.max(min, Math.min(max, prev + delta));
         if (next !== prev) setFlash(true);
         return next;
       });
-    }, 3500);
+    }, VIEWER_INTERVAL_MS);
     return () => clearInterval(interval);
   }, [min, max]);
 

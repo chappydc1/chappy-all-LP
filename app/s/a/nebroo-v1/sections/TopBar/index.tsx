@@ -8,24 +8,96 @@ type VideoSource =
   | { format: "wistia"; id: string; layout?: "standard" | "alternate" }
   | { format: "mp4"; src: string };
 
-type StructuralBodySection =
-  | { type: "heading"; text: string; extraClass?: string }
+type ArticleSectionKey =
+  | "painAgitation"
+  | "credibilityGap"
+  | "authorityEducation"
+  | "rootCauseReveal"
+  | "objectionPreempt"
+  | "reframeSolution"
+  | "eliminatingAlternatives"
+  | "productReveal"
+  | "uniqueMechanism"
+  | "priceAnchor"
+  | "offerReveal"
+  | "benefitProof"
+  | "usabilityProof"
+  | "valueJustification"
+  | "riskReversal"
+  | "callToAction"
+  | "futurePacing";
+
+type ArticleSection = { headline?: string; body?: string[]; disclaimer?: string };
+
+type ArticleBlock =
+  | { type: "heading"; section: ArticleSectionKey; className?: string }
+  | { type: "body"; section: ArticleSectionKey }
+  | { type: "disclaimer"; section: ArticleSectionKey }
   | { type: "video"; mediaKey: string; containerClass?: string }
-  | { type: "image"; mediaKey: string; className?: string }
+  | { type: "image"; mediaKey: string; className: string }
   | { type: "cta" }
   | { type: "reviews" }
-  | { type: "as-seen-on" }
-  | { type: "disclaimer"; text: string };
+  | { type: "as-seen-on" };
 
-// Any other section is a block of prose (p1, p2, p3, ...), named after what
-// it covers in the advertorial (e.g. "howEarsWork") instead of a generic
-// "paragraph" label, so the copy is easier to navigate and edit.
-type ProseSection = { type: string } & Record<string, string>;
+const ARTICLE_LAYOUT: ArticleBlock[] = [
+  { type: "video", mediaKey: "v1" },
+  { type: "body", section: "painAgitation" },
+  { type: "heading", section: "credibilityGap" },
+  { type: "video", mediaKey: "v2" },
+  { type: "body", section: "credibilityGap" },
+  { type: "heading", section: "authorityEducation" },
+  { type: "video", mediaKey: "v3" },
+  { type: "body", section: "authorityEducation" },
+  { type: "heading", section: "rootCauseReveal" },
+  { type: "video", mediaKey: "v4" },
+  { type: "body", section: "rootCauseReveal" },
+  { type: "heading", section: "objectionPreempt" },
+  { type: "video", mediaKey: "v5" },
+  { type: "body", section: "objectionPreempt" },
+  { type: "heading", section: "reframeSolution" },
+  { type: "video", mediaKey: "v6", containerClass: "mt-2.5" },
+  { type: "body", section: "reframeSolution" },
+  { type: "heading", section: "eliminatingAlternatives" },
+  { type: "image", mediaKey: "optionsImg", className: "w-full border border-zinc-400 border-solid" },
+  { type: "body", section: "eliminatingAlternatives" },
+  { type: "heading", section: "productReveal" },
+  { type: "video", mediaKey: "v7", containerClass: "mt-2.5" },
+  { type: "body", section: "productReveal" },
+  { type: "heading", section: "uniqueMechanism" },
+  { type: "video", mediaKey: "v8", containerClass: "py-3" },
+  { type: "body", section: "uniqueMechanism" },
+  { type: "heading", section: "priceAnchor" },
+  { type: "image", mediaKey: "costImg", className: "w-full" },
+  { type: "body", section: "priceAnchor" },
+  { type: "heading", section: "offerReveal" },
+  { type: "image", mediaKey: "purchaseImg", className: "w-full" },
+  { type: "body", section: "offerReveal" },
+  { type: "disclaimer", section: "offerReveal" },
+  { type: "reviews" },
+  { type: "as-seen-on" },
+  { type: "heading", section: "benefitProof", className: "mt-10" },
+  { type: "video", mediaKey: "v9", containerClass: "py-3" },
+  { type: "body", section: "benefitProof" },
+  { type: "heading", section: "usabilityProof", className: "mt-10" },
+  { type: "image", mediaKey: "chooseSizeImg", className: "w-full" },
+  { type: "body", section: "usabilityProof" },
+  { type: "heading", section: "valueJustification" },
+  { type: "video", mediaKey: "v10", containerClass: "py-3" },
+  { type: "body", section: "valueJustification" },
+  { type: "heading", section: "riskReversal" },
+  { type: "image", mediaKey: "warrantyImg", className: "w-full h-[117px] md:h-auto mt-[15px] rounded-[10px]" },
+  { type: "body", section: "riskReversal" },
+  { type: "heading", section: "callToAction" },
+  { type: "body", section: "callToAction" },
+  { type: "cta" },
+  { type: "heading", section: "futurePacing" },
+  { type: "body", section: "futurePacing" },
+  { type: "cta" },
+];
 
-type BodySection = StructuralBodySection | ProseSection;
+const LIKE_ICON_COMMENT_COUNT = 3;
 
 type Review = {
-  avatarKey: string;
   name: string;
   title: string;
   location: string;
@@ -33,48 +105,43 @@ type Review = {
 };
 
 type CommentReply = {
-  avatarKey: string;
   name: string;
   text: string;
-  likeCount: number;
+  likeCount: string;
   timeAgo: string;
-  showLikeIcon: boolean;
 };
 
-type Comment = {
-  avatarKey: string;
-  name: string;
-  text: string;
-  likeCount: number;
-  timeAgo: string;
-  showLikeIcon: boolean;
-  replies?: CommentReply[];
-};
+type Comment = CommentReply & { replies?: CommentReply[] };
 
-type FooterLink = { label: string; href: string };
+type CommentAvatarKeys = { comment: string; replies?: string[] };
 
 export type NebrooV1AdvContent = {
-  ctaUrl: string;
-  meta: { title: string };
-  alert: { text: string };
-  breadcrumb: string;
-  headline: string;
-  headlineBold: string;
-  subheadline: { highlighted: string; rest: string };
-  sidebar: { heading: string[]; ctaLine1: string; ctaLine2: string };
-  ctaButton: { line1: string; line2: string };
-  stickyBar: { text: string };
-  bodySections: BodySection[];
+  seo: { title: string };
+  urgency: { text: string };
+  hero: {
+    breadcrumb: string;
+    headline: string;
+    headlineBold: string;
+    subheadline: { highlighted: string; rest: string };
+  };
   reviews: Review[];
+  sidebar: { headline: string[]; ctaLine1: string; ctaLine2: string };
   comments: Comment[];
   footer: {
     disclosure: string;
     copyright: string;
-    links: FooterLink[];
+    links: string[];
     phone: string;
     email: string;
     address: string;
   };
+  stickyCta: { text: string };
+  ui: { ctaButton: { line1: string; line2: string } };
+} & Record<ArticleSectionKey, ArticleSection>;
+
+export type NebrooV1AdvLinks = {
+  cta: string;
+  footer: string[];
 };
 
 export type NebrooV1AdvMedia = {
@@ -89,11 +156,17 @@ export type NebrooV1AdvMedia = {
   images: Record<string, string>;
   reviewAvatars: Record<string, string>;
   commentAvatars: Record<string, string>;
+  reviewAvatarKeys: string[];
+  commentAvatarKeys: CommentAvatarKeys[];
 };
 
 // ─── Context ──────────────────────────────────────────────────────────────────
 
-type AdvertorialData = { content: NebrooV1AdvContent; media: NebrooV1AdvMedia };
+type AdvertorialData = {
+  content: NebrooV1AdvContent;
+  links: NebrooV1AdvLinks;
+  media: NebrooV1AdvMedia;
+};
 const AdvertorialContext = createContext<AdvertorialData | null>(null);
 
 function useAdvertorialData(): AdvertorialData {
@@ -146,24 +219,30 @@ function VideoPlayer({
 // ─── CtaButton ────────────────────────────────────────────────────────────────
 
 function CtaButton(): React.JSX.Element {
-  const { content } = useAdvertorialData();
+  const { content, links } = useAdvertorialData();
   return (
     <a
-      href={content.ctaUrl}
+      href={links.cta}
       className="text-slate-50 text-xl font-bold bg-green-700 shadow-[rgba(0,0,0,0.19)_0px_4px_7px_1px] inline-block tracking-[0.02px] leading-6 max-w-full text-center w-full px-2.5 py-[15px] rounded font-montserrat md:text-3xl md:leading-9 md:px-10"
     >
-      {content.ctaButton.line1}
+      {content.ui.ctaButton.line1}
       <br />
-      {content.ctaButton.line2}
+      {content.ui.ctaButton.line2}
     </a>
   );
 }
 
 // ─── ReviewCard ───────────────────────────────────────────────────────────────
 
-function ReviewCard({ review }: { review: Review }): React.JSX.Element {
+function ReviewCard({
+  review,
+  avatarKey,
+}: {
+  review: Review;
+  avatarKey: string;
+}): React.JSX.Element {
   const { media } = useAdvertorialData();
-  const avatarSrc = media.reviewAvatars[review.avatarKey] ?? "";
+  const avatarSrc = media.reviewAvatars[avatarKey] ?? "";
 
   return (
     <div className="p-px mt-6">
@@ -204,9 +283,17 @@ function ReviewCard({ review }: { review: Review }): React.JSX.Element {
 
 // ─── CommentItem ──────────────────────────────────────────────────────────────
 
-function CommentItem({ comment }: { comment: Comment }): React.JSX.Element {
+function CommentItem({
+  comment,
+  avatarKeys,
+  showLikeIcon,
+}: {
+  comment: Comment;
+  avatarKeys: CommentAvatarKeys;
+  showLikeIcon: boolean;
+}): React.JSX.Element {
   const { media } = useAdvertorialData();
-  const avatarSrc = media.commentAvatars[comment.avatarKey] ?? "";
+  const avatarSrc = media.commentAvatars[avatarKeys.comment] ?? "";
 
   return (
     <li className="items-start flex mt-2.5">
@@ -226,7 +313,7 @@ function CommentItem({ comment }: { comment: Comment }): React.JSX.Element {
             {" · "}
             <span className="text-indigo-800">Reply</span>
             {" · "}
-            {comment.showLikeIcon && (
+            {showLikeIcon && (
               <img
                 src="https://ucarecdn.com/6f24fed0-64b8-4e56-9fdd-c76e61fae250/-/format/auto/-/preview/3000x3000/-/quality/lighter/"
                 alt="like"
@@ -241,7 +328,7 @@ function CommentItem({ comment }: { comment: Comment }): React.JSX.Element {
         {comment.replies && comment.replies.length > 0 && (
           <ul className="list-none pl-0 border-l border-gray-300">
             {comment.replies.map((reply, i) => {
-              const replyAvatar = media.commentAvatars[reply.avatarKey] ?? "";
+              const replyAvatar = media.commentAvatars[avatarKeys.replies?.[i] ?? ""] ?? "";
               return (
                 <li key={i} className="items-start flex border-dotted border-gray-300">
                   <img
@@ -260,7 +347,7 @@ function CommentItem({ comment }: { comment: Comment }): React.JSX.Element {
                         {" · "}
                         <span className="text-indigo-800">Reply</span>
                         {" · "}
-                        {reply.showLikeIcon && (
+                        {showLikeIcon && (
                           <img
                             src="https://ucarecdn.com/6f24fed0-64b8-4e56-9fdd-c76e61fae250/-/format/auto/-/preview/3000x3000/-/quality/lighter/"
                             alt="like"
@@ -318,7 +405,7 @@ function AlertBox(): React.JSX.Element {
     <div className="pt-8 pb-4">
       <div className="bg-[#fdfad9] border-[1.5px] border-[rgb(221,221,166)] text-zinc-800 text-[18px] leading-[27px] text-left p-4 font-montserrat md:text-[23px] md:leading-[34.5px]">
         <b className="text-red-600">UPDATE:</b>{" "}
-        {content.alert.text}
+        {content.urgency.text}
       </div>
     </div>
   );
@@ -326,23 +413,23 @@ function AlertBox(): React.JSX.Element {
 
 // ─── BodySection renderer ─────────────────────────────────────────────────────
 
-function RenderBodySection({
-  section,
+function RenderArticleBlock({
+  block,
   idx,
 }: {
-  section: BodySection;
+  block: ArticleBlock;
   idx: number;
 }): React.JSX.Element {
   const { content, media } = useAdvertorialData();
 
-  switch (section.type) {
+  switch (block.type) {
     case "heading":
       return (
         <div
           key={idx}
-          className={`text-zinc-800 text-[26px] font-extrabold leading-8 text-left px-px py-[5px] font-montserrat md:text-[33px] md:leading-[46.2px] ${section.extraClass ?? "mt-[30px]"}`}
+          className={`text-zinc-800 text-[26px] font-extrabold leading-8 text-left px-px py-[5px] font-montserrat md:text-[33px] md:leading-[46.2px] ${block.className ?? "mt-[30px]"}`}
         >
-          {section.text}
+          {content[block.section].headline}
         </div>
       );
 
@@ -350,19 +437,19 @@ function RenderBodySection({
       return (
         <VideoPlayer
           key={idx}
-          mediaKey={section.mediaKey}
-          containerClass={section.containerClass}
+          mediaKey={block.mediaKey}
+          containerClass={block.containerClass}
         />
       );
 
     case "image": {
-      const src = media.images[section.mediaKey] ?? "";
+      const src = media.images[block.mediaKey] ?? "";
       return (
         <img
           key={idx}
           src={src}
           alt=""
-          className={`inline max-w-full ${section.className ?? ""}`}
+          className={`inline max-w-full ${block.className}`}
         />
       );
     }
@@ -380,7 +467,7 @@ function RenderBodySection({
           key={idx}
           className="text-neutral-500 text-sm leading-[21px] text-left mt-[15px] pt-2.5 px-px font-montserrat"
         >
-          {section.text}
+          {content[block.section].disclaimer}
         </div>
       );
 
@@ -388,7 +475,11 @@ function RenderBodySection({
       return (
         <div key={idx}>
           {content.reviews.map((review, i) => (
-            <ReviewCard key={i} review={review} />
+            <ReviewCard
+              key={i}
+              review={review}
+              avatarKey={media.reviewAvatarKeys[i] ?? ""}
+            />
           ))}
         </div>
       );
@@ -419,16 +510,10 @@ function RenderBodySection({
         </div>
       );
 
-    default: {
-      // Named prose section (p1, p2, p3, ...) — anything that isn't one of
-      // the structural types above.
-      const lines = Object.entries(section)
-        .filter(([key]) => /^p\d+$/.test(key))
-        .sort(([a], [b]) => Number(a.slice(1)) - Number(b.slice(1)))
-        .map(([, value]) => value);
+    case "body":
       return (
         <div key={idx} className="mt-[15px] px-px py-2.5">
-          {lines.map((paragraph, pIdx) => (
+          {(content[block.section].body ?? []).map((paragraph, pIdx) => (
             <p
               key={pIdx}
               className="text-zinc-800 text-[17px] leading-[25.5px] text-left font-montserrat first:mt-0 mt-[15px]"
@@ -438,39 +523,42 @@ function RenderBodySection({
           ))}
         </div>
       );
-    }
   }
 }
 
 // ─── ArticleContent ───────────────────────────────────────────────────────────
 
 function ArticleContent(): React.JSX.Element {
-  const { content, media } = useAdvertorialData();
+  const { content, links, media } = useAdvertorialData();
 
   return (
     <div className="items-stretch flex flex-wrap justify-start max-w-full mt-1.5 md:flex-nowrap md:mt-5">
       <div className="relative basis-full grow max-w-full min-h-[25px] w-full pb-[58px] md:basis-9/12">
         <div className="text-zinc-400 font-medium hidden leading-4 text-left px-px font-montserrat md:block">
-          {content.breadcrumb}
+          {content.hero.breadcrumb}
         </div>
         <div className="text-[26px] font-medium leading-9 text-left mt-px p-px font-montserrat md:text-[40px] md:leading-[48px] md:mt-5">
           <span className="text-[26px] leading-9 md:text-[40px] md:leading-[48px]">
-            {content.headline.replace(content.headlineBold, "").trim()}{" "}
+            {content.hero.headline.replace(content.hero.headlineBold, "").trim()}{" "}
             <b className="text-[26px] font-bold leading-9 md:text-[40px] md:leading-[48px]">
-              {content.headlineBold}
+              {content.hero.headlineBold}
             </b>
           </span>
         </div>
         <div className="text-zinc-800 text-lg font-bold leading-7 text-left mt-[5px] mb-px pt-[5px] pb-px px-px font-montserrat md:text-[22px] md:leading-9 md:mb-[5px] md:pb-[5px]">
           <span className="text-lg leading-7 md:text-[22px] md:leading-9">
             <span className="text-lg bg-yellow-400 leading-7 md:text-[22px] md:leading-9">
-              {content.subheadline.highlighted}
+              {content.hero.subheadline.highlighted}
             </span>
-            {content.subheadline.rest}
+            {content.hero.subheadline.rest}
           </span>
         </div>
-        {content.bodySections.map((section, idx) => (
-          <RenderBodySection key={idx} section={section} idx={idx} />
+        {ARTICLE_LAYOUT.map((block, idx) => (
+          <RenderArticleBlock
+            key={idx}
+            block={block}
+            idx={idx}
+          />
         ))}
       </div>
 
@@ -478,7 +566,7 @@ function ArticleContent(): React.JSX.Element {
         <div className="items-start block h-full justify-start min-h-0 min-w-0 w-full px-px py-3 md:flex md:min-h-[auto] md:min-w-[auto] md:px-2.5">
           <div className="bg-zinc-100 min-h-0 min-w-0 w-full mt-2.5 p-2.5 rounded-[1px] text-center top-[50px] md:min-h-[auto] md:min-w-[auto]">
             <div className="text-blue-400 text-xl font-bold hidden mt-[5px] font-montserrat md:block">
-              {content.sidebar.heading.map((line, i) => (
+              {content.sidebar.headline.map((line, i) => (
                 <div key={i}>{line}</div>
               ))}
             </div>
@@ -488,7 +576,7 @@ function ArticleContent(): React.JSX.Element {
               className="hidden basis-[0%] shrink-0 max-w-full w-[90%] mt-2.5 mb-[15px] rounded-[1px] md:inline md:w-[200px]"
             />
             <a
-              href={content.ctaUrl}
+              href={links.cta}
               className="text-blue-700 items-center self-center bg-yellow-400 hidden justify-center max-w-full text-center w-[95%] border-amber-600 pl-5 pr-2.5 py-2.5 rounded-[5px] border-b-4 border-solid font-helvetica md:block"
             >
               <h1
@@ -514,7 +602,7 @@ function ArticleContent(): React.JSX.Element {
 // ─── CommentsSection ──────────────────────────────────────────────────────────
 
 function CommentsSection(): React.JSX.Element {
-  const { content } = useAdvertorialData();
+  const { content, media } = useAdvertorialData();
 
   return (
     <div className="items-stretch flex flex-wrap justify-start max-w-full min-h-full p-2.5 md:flex-nowrap">
@@ -538,7 +626,12 @@ function CommentsSection(): React.JSX.Element {
         <div className="relative mb-[15px] top-2.5 md:mb-[-150px] md:top-auto">
           <ul className="pl-0 font-montserrat list-none">
             {content.comments.map((comment, i) => (
-              <CommentItem key={i} comment={comment} />
+              <CommentItem
+                key={i}
+                comment={comment}
+                avatarKeys={media.commentAvatarKeys[i] ?? { comment: "" }}
+                showLikeIcon={i < LIKE_ICON_COMMENT_COUNT}
+              />
             ))}
           </ul>
         </div>
@@ -550,7 +643,7 @@ function CommentsSection(): React.JSX.Element {
 // ─── Footer ───────────────────────────────────────────────────────────────────
 
 function Footer(): React.JSX.Element {
-  const { content, media } = useAdvertorialData();
+  const { content, links, media } = useAdvertorialData();
   const { footer } = content;
 
   return (
@@ -563,11 +656,11 @@ function Footer(): React.JSX.Element {
         <div className="text-neutral-500 text-xs leading-[22px] text-center mt-[15px] px-px py-2.5 font-montserrat md:text-base md:px-2.5">
           {footer.copyright}
           <div className="text-blue-700 text-xs text-center md:text-base">
-            {footer.links.map((link, i) => (
-              <React.Fragment key={link.href}>
+            {footer.links.map((label, i) => (
+              <React.Fragment key={links.footer[i]}>
                 {i > 0 && " - "}
-                <a href={link.href} className="text-blue-700 text-xs md:text-base">
-                  <u className="underline">{link.label}</u>
+                <a href={links.footer[i]} className="text-blue-700 text-xs md:text-base">
+                  <u className="underline">{label}</u>
                 </a>
               </React.Fragment>
             ))}
@@ -601,15 +694,15 @@ function Footer(): React.JSX.Element {
 // ─── StickyCtaBar ─────────────────────────────────────────────────────────────
 
 function StickyCtaBar(): React.JSX.Element {
-  const { content } = useAdvertorialData();
+  const { content, links } = useAdvertorialData();
   return (
     <div className="sticky items-stretch bg-zinc-400 flex flex-wrap justify-center max-w-full z-10 px-2.5 py-[15px] bottom-0 md:flex-nowrap">
       <div className="relative items-center flex basis-0 flex-row-reverse grow justify-center max-w-[1200px] min-h-[25px] w-full">
         <a
-          href={content.ctaUrl}
+          href={links.cta}
           className="text-slate-50 text-[22px] font-bold bg-green-700 shadow-[rgba(0,0,0,0.19)_0px_4px_7px_1px] block tracking-[0.02px] leading-[30px] max-w-full min-h-[auto] min-w-[auto] text-center p-2.5 rounded font-montserrat md:text-2xl md:leading-10 md:px-10 md:py-[25px]"
         >
-          {content.stickyBar.text}
+          {content.stickyCta.text}
         </a>
       </div>
     </div>
@@ -620,13 +713,15 @@ function StickyCtaBar(): React.JSX.Element {
 
 export function NebrooV1TopBar({
   content,
+  links,
   media,
 }: {
   content: NebrooV1AdvContent;
+  links: NebrooV1AdvLinks;
   media: NebrooV1AdvMedia;
 }): React.JSX.Element {
   return (
-    <AdvertorialContext.Provider value={{ content, media }}>
+    <AdvertorialContext.Provider value={{ content, links, media }}>
       <div className="text-neutral-800 text-base font-normal bg-white">
         <TopBanner />
         <div className="max-w-[1170px] mx-auto w-full px-5">

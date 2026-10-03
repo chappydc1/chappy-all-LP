@@ -3,21 +3,25 @@ import type { BestToeSocksCopy, BestToeSocksProduct, BestToeSocksProductMedia } 
 
 type ProductCardProps = {
   product: BestToeSocksProduct;
+  href: string;
+  featured: boolean;
   productMedia: BestToeSocksProductMedia;
   badgeSrc: string;
-  labels: BestToeSocksCopy["labels"];
+  labels: BestToeSocksCopy["ui"];
 };
 
 const DIVIDER = <div className="my-4 h-px bg-[#E9E9E9]" />;
 
 export function BestToeSocksProductCard({
   product,
+  href,
+  featured,
   productMedia,
   badgeSrc,
   labels,
 }: ProductCardProps): JSX.Element {
-  const variant = product.featured ? "primary" : "secondary";
-  const frame = product.featured
+  const variant = featured ? "primary" : "secondary";
+  const frame = featured
     ? "border-4 border-[#234E78] shadow-[0_4px_10px_rgba(0,0,0,0.2)]"
     : "border border-[#E0E0E0]";
   const productImage = (
@@ -39,7 +43,7 @@ export function BestToeSocksProductCard({
           className="mt-1 text-sm font-bold leading-[normal] text-[#333] min-[993px]:mt-0 min-[993px]:text-2xl min-[993px]:leading-[31.2px] [&_a]:text-[#0060C3] [&_a]:underline"
           dangerouslySetInnerHTML={{ __html: product.subtitleHtml }}
         />
-        {product.featured && (
+        {featured && (
           <img
             src={badgeSrc}
             alt="Smarter choice #1"
@@ -75,7 +79,7 @@ export function BestToeSocksProductCard({
           />
           {product.deal && <DealPill text={product.deal} className="mb-3" />}
           <VisitButton
-            href={product.url}
+            href={href}
             label={product.buttonText}
             variant={variant}
           />
@@ -92,11 +96,11 @@ export function BestToeSocksProductCard({
             starsSrc={productMedia.ratingStars}
           />
         </div>
-        {product.featured && (
+        {featured && (
           <div className="mt-4">
             {product.deal && <DealPill text={product.deal} className="mb-2" />}
             <VisitButton
-              href={product.url}
+              href={href}
               label={product.buttonText}
               variant={variant}
             />
@@ -121,11 +125,11 @@ export function BestToeSocksProductCard({
         />
         {DIVIDER}
         <VisitButton
-          href={product.url}
+          href={href}
           label={product.buttonText}
           variant={variant}
         />
-        {product.featured && (
+        {featured && (
           <a
             href="#product-info"
             className="mt-[15px] text-center font-bold leading-6 text-[#0060C3] underline"

@@ -47,5 +47,33 @@
   "images": {
     "articleImage1": "/lp-images-files-videos-fonts/images/primepicks/M19UYWdzbGV5X1RyYWNraW5nLUNhcmQuanBn-w_720.jpg",
     "articleImage2": "/lp-images-files-videos-fonts/images/primepicks/NF9UYWdzbGV5X1RyYWNraW5nLUNhcmQuanBn-w_720.jpg"
+  },
+  "articleInserts": {
+    "discovery": [
+      {
+        "beforeParagraph": 0,
+        "video": "video1"
+      }
+    ],
+    "proof": [
+      {
+        "beforeParagraph": 5,
+        "video": "video2"
+      }
+    ],
+    "pricing": [],
+    "solution": [
+      {
+        "beforeParagraph": 0,
+        "image": "articleImage1"
+      }
+    ],
+    "purchaseProcess": [],
+    "offer": [
+      {
+        "beforeParagraph": 0,
+        "image": "articleImage2"
+      }
+    ]
   }
 }

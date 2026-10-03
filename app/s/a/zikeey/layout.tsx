@@ -3,8 +3,8 @@ import { ZikeeyReadProgressBar } from "./components/ZikeeyReadProgressBar";
 import adv from "./copy.json";
 
 export const metadata: Metadata = {
-  title: adv.meta.title,
-  description: adv.meta.description,
+  title: adv.seo.title,
+  description: adv.seo.description,
   icons: { icon: "/lp-images-files-videos-fonts/favicons/zikeey.svg" },
 };
 
