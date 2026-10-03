@@ -23,6 +23,7 @@ You MUST maintain this file to track your work across messages. This is NON-NEGO
 ## 2026-10-03
 - `/s/com/best-toe-socks`: #2 pick is now Injinji Ultra Run Crew (replaces Tabio Signature Run) in `app/s/com/best-toe-socks/copy.json` + `media.json`.
 - Image `com/best-toe-socks/images/product-2-injinji.jpg` is the official injinji.com dual shot flattened to 436×436 JPG; `product-2-tabio.jpg` removed.
+- #3 pick is now Creepers Quarter Crew Merino Toe Socks (replaces Knitido); image `product-3-creepers.jpg` from the creeperssocks.com listing, `product-3-knitido.jpg` removed.
 
 ## 2026-10-02
 - Added `/s/com/best-toe-socks` (`app/s/com/best-toe-socks/`), a duplicate of `/s/com/primepicks-v2` retargeted to running toe socks with AURELUNE Run Lightweight Mini-Crew as #1 (components renamed `BestToeSocks*`).
