@@ -1,0 +1,41 @@
+{
+  "logo": "/lp-images-files-videos-fonts/images/primepicks/PrimePicks_logo_black.svg",
+  "logoWhite": "/lp-images-files-videos-fonts/images/primepicks-v2/PrimePicks_logo_white.svg",
+  "heroDesktop": "/lp-images-files-videos-fonts/com/best-pilates-grip-socks/images/hero-desktop.jpg",
+  "heroMobile": "/lp-images-files-videos-fonts/com/best-pilates-grip-socks/images/hero-mobile.jpg",
+  "socialPeople": "/lp-images-files-videos-fonts/images/primepicks-v2/social-people-fallback.png",
+  "ratingStarsSmall": "/lp-images-files-videos-fonts/images/primepicks-v2/rating-stars-small.png",
+  "flagUs": "/lp-images-files-videos-fonts/images/primepicks-v2/american-flag-fallback.svg",
+  "authorPhoto": "/lp-images-files-videos-fonts/images/primepicks/ZXhwZXJ0LTQ0LmpwZw.jpg",
+  "smarterChoiceBadge": "/lp-images-files-videos-fonts/images/primepicks-v2/smarter-choice-badge.svg",
+  "trustStarsFull": "/lp-images-files-videos-fonts/images/primepicks-v2/trust-rate-stars.svg",
+  "reviewStars": "/lp-images-files-videos-fonts/images/primepicks/Testimonials-stars-icons-7-4-1-1.svg",
+  "quoteTopLeft": "/lp-images-files-videos-fonts/images/primepicks/quote-top-left.svg",
+  "quoteBottomRight": "/lp-images-files-videos-fonts/images/primepicks-v2/quote-bottom-right.svg",
+  "products": [
+    {
+      "image": "/lp-images-files-videos-fonts/com/best-pilates-grip-socks/images/product-1-aurelune.jpg",
+      "ratingStars": "/lp-images-files-videos-fonts/images/primepicks-v2/trust-rate-stars.svg"
+    },
+    {
+      "image": "/lp-images-files-videos-fonts/com/best-pilates-grip-socks/images/product-2-tavi.jpg",
+      "ratingStars": "/lp-images-files-videos-fonts/images/primepicks-v2/TrustRate-4-half-stars-5-4.svg"
+    },
+    {
+      "image": "/lp-images-files-videos-fonts/com/best-pilates-grip-socks/images/product-3-arebesk.jpg",
+      "ratingStars": "/lp-images-files-videos-fonts/images/primepicks-v2/TrustRate-4-half-stars-4-1.svg"
+    },
+    {
+      "image": "/lp-images-files-videos-fonts/com/best-pilates-grip-socks/images/product-4-toesox.jpg",
+      "ratingStars": "/lp-images-files-videos-fonts/images/primepicks-v2/TrustRate-4-half-stars-4.svg"
+    },
+    {
+      "image": "/lp-images-files-videos-fonts/com/best-pilates-grip-socks/images/product-5-gaiam.jpg",
+      "ratingStars": "/lp-images-files-videos-fonts/images/primepicks-v2/TrustRate-4-half-stars-1-3.svg"
+    }
+  ],
+  "images": {
+    "articleImage1": "/lp-images-files-videos-fonts/com/best-pilates-grip-socks/images/article-aurelune-grip.jpg",
+    "articleImage2": "/lp-images-files-videos-fonts/com/best-pilates-grip-socks/images/article-grip-features.jpg"
+  }
+}
