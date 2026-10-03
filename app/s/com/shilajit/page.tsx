@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import adv from "./copy.json";
+import links from "./links.json";
 import media from "./media.json";
 import { ShilajitNavbar } from "./components/ShilajitNavbar";
 import { ShilajitBreadcrumb } from "./components/ShilajitBreadcrumb";
@@ -9,16 +10,25 @@ import { ShilajitFooter } from "./components/ShilajitFooter";
 import { ShilajitFAQSection } from "./components/ShilajitFAQSection";
 
 export const metadata: Metadata = {
-  title: adv.meta.title,
-  description: adv.meta.description,
+  title: adv.seo.title,
+  description: adv.seo.description,
 };
+
+const PRODUCT_STARS = [5, 5, 5, 4, 4, 4, 4, 4, 4, 4];
 
 export default function ShilajitPage() {
   return (
     <div className="text-black text-sm font-normal bg-white w-full overflow-x-hidden font-[Lato,sans-serif]">
-      <ShilajitNavbar adv={adv.navbar} media={media} />
+      <ShilajitNavbar
+        adv={adv.nav}
+        links={links.nav}
+        media={media}
+      />
       <main className="flex flex-col items-center w-full">
-        <ShilajitBreadcrumb items={adv.breadcrumb} />
+        <ShilajitBreadcrumb
+          items={adv.breadcrumb}
+          links={links.breadcrumb}
+        />
 
         {/* Product list container */}
         <div className="box-border flex flex-col max-w-none min-h-[auto] w-full mb-0 md:max-w-screen-lg md:min-w-[1024px] md:mb-20">
@@ -26,14 +36,14 @@ export default function ShilajitPage() {
           {/* Hero header */}
           <div className="static bg-transparent p-0 md:relative md:items-start md:bg-sky-300/10 md:flex md:flex-col md:px-[15px] md:py-2">
             <h1 className="text-slate-700 text-[22.4px] font-bold border-b border-b-slate-700/30 flow-root leading-7 min-h-3.5 text-left uppercase overflow-hidden mr-auto my-2.5 pb-2.5 px-2.5 md:text-black md:text-[35px] md:font-extrabold md:leading-[42px] md:mt-0 md:pb-0 md:px-0">
-              {adv.hero.title}
+              {adv.hero.headline}
             </h1>
             <div className="relative text-slate-700 text-left pl-2.5 md:hidden">
               <b className="font-bold">Last Updated:</b> {adv.hero.lastUpdated}
             </div>
             <div className="hidden min-h-0 text-center px-2.5 py-0 md:flow-root md:text-left md:px-0 md:py-2.5">
               <span className="text-stone-500 text-[18.2px] font-bold leading-[25.2px] text-left">
-                {adv.hero.subtitle}
+                {adv.hero.subheadline}
               </span>
             </div>
             <div className="hidden md:flex items-baseline flex-row-reverse justify-between w-full pr-2.5">
@@ -50,15 +60,18 @@ export default function ShilajitPage() {
           </div>
 
           <h2 className="text-[22.4px] font-extrabold hidden leading-7 underline decoration-sky-500/80 w-full pt-5 pb-[25px] px-3 md:text-[39.2px] md:leading-[47.6px] md:pt-[60px] md:pb-[42px] md:px-[42px]">
-            {adv.comparisonTitle}
+            {adv.productRankings.headline}
           </h2>
 
           {/* Product cards */}
           <div className="static md:relative">
-            {adv.products.slice(0, 3).map((product, i) => (
+            {adv.productRankings.items.slice(0, 3).map((product, i) => (
               <ShilajitProductCard
-                key={product.rank}
+                key={product.name}
                 {...product}
+                rank={String(i + 1)}
+                stars={PRODUCT_STARS[i]}
+                ctaUrl={links.productRankings[i]}
                 imageSrc={media.products[i]}
                 imageAlt={product.name}
                 starFull={media.icons.starFull}
@@ -68,10 +81,13 @@ export default function ShilajitPage() {
               />
             ))}
           </div>
-          {adv.products.slice(3).map((product, i) => (
+          {adv.productRankings.items.slice(3).map((product, i) => (
             <ShilajitProductCard
-              key={product.rank}
+              key={product.name}
               {...product}
+              rank={String(4 + i)}
+              stars={PRODUCT_STARS[3 + i]}
+              ctaUrl={links.productRankings[3 + i]}
               imageSrc={media.products[3 + i]}
               imageAlt={product.name}
               starFull={media.icons.starFull}
@@ -88,22 +104,22 @@ export default function ShilajitPage() {
           {/* Related categories */}
           <div className="text-left pt-10 pb-2.5 px-2.5">
             <h2 className="text-xl font-bold leading-[25.7143px] decoration-sky-500/80 underline uppercase pb-2.5 md:text-[32px] md:leading-[41.1429px] md:pb-[30px]">
-              {adv.relatedCategories.title}
+              {adv.relatedCategories.headline}
             </h2>
             <div className="gap-x-4 grid grid-cols-[repeat(2,1fr)] gap-y-4 capitalize w-full ml-4 md:flex md:flex-row">
-              {adv.relatedCategories.items.map((item, i) => (
+              {adv.relatedCategories.items.map((label, i) => (
                 <a
                   key={i}
-                  href={item.href}
+                  href={links.relatedCategories[i]}
                   className="items-center flex flex-col h-[150px] justify-center w-[150px] border-neutral-300 rounded-2xl border-2 border-solid md:h-[200px] md:w-[200px]"
                 >
                   <img
-                    alt={item.label}
+                    alt={label}
                     src={media.relatedCategories[i]}
                     className="h-[120px] w-[120px] object-scale-down md:h-[120px] md:w-[120px]"
                   />
                   <div className="text-[16.8px] font-semibold text-center pt-2.5 pb-[5px] px-[5px]">
-                    {item.label}
+                    {label}
                   </div>
                 </a>
               ))}
@@ -113,9 +129,9 @@ export default function ShilajitPage() {
           {/* Overview */}
           <div className="text-left pt-10 pb-2.5 px-2.5">
             <h2 className="text-xl font-bold leading-[25.7143px] decoration-sky-500/80 underline uppercase pb-2.5 md:text-[32px] md:leading-[41.1429px] md:pb-[30px]">
-              {adv.overview.title}
+              {adv.overview.headline}
             </h2>
-            {adv.overview.paragraphs.map((p, i) => (
+            {adv.overview.body.map((p, i) => (
               <p key={i} className="text-[15.4px] font-light leading-[25.2px] mt-[15px] md:text-[19.6px] md:leading-[30.8px] md:mt-10">
                 {p}
               </p>
@@ -125,9 +141,9 @@ export default function ShilajitPage() {
           {/* Top list */}
           <div className="text-left pt-5 pb-2.5 px-2.5">
             <h2 className="text-xl font-bold leading-[25.7143px] decoration-sky-500/80 underline uppercase pb-2.5 md:text-[32px] md:leading-[41.1429px] md:pb-[30px]">
-              {adv.topList.title}
+              {adv.shortlist.headline}
             </h2>
-            {adv.topList.items.map((name, i) => (
+            {adv.shortlist.items.map((name, i) => (
               <a key={i} href="#" className="block">
                 <span className="text-sm font-bold flow-root leading-[25.2px] max-h-[30px] overflow-hidden pr-[15px] md:text-[19.6px] md:leading-[35px] md:max-h-[35px]">
                   • {name}
@@ -149,7 +165,11 @@ export default function ShilajitPage() {
           {" "}apply.
         </div>
 
-        <ShilajitFooter adv={adv.footer} media={media} />
+        <ShilajitFooter
+          adv={adv.footer}
+          links={links.footer}
+          media={media}
+        />
       </main>
     </div>
   );

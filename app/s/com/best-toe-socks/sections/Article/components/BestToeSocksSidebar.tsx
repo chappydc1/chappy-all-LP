@@ -3,12 +3,14 @@ import type { BestToeSocksCopy, BestToeSocksProduct, BestToeSocksProductMedia } 
 
 type SidebarProps = {
   product: BestToeSocksProduct;
+  href: string;
   productMedia: BestToeSocksProductMedia;
-  labels: BestToeSocksCopy["labels"];
+  labels: BestToeSocksCopy["ui"];
 };
 
 export function BestToeSocksSidebar({
   product,
+  href,
   productMedia,
   labels,
 }: SidebarProps): JSX.Element {
@@ -41,7 +43,7 @@ export function BestToeSocksSidebar({
           />
         </div>
         <VisitButton
-          href={product.url}
+          href={href}
           label={product.buttonText}
         />
       </section>

@@ -6,6 +6,7 @@ import type { PrimepicksV2Copy, PrimepicksV2Media } from "../../types";
 
 type HeroProps = {
   hero: PrimepicksV2Copy["hero"];
+  disclosureUrl: string;
   daysAgo: number;
   authorName: string;
   media: PrimepicksV2Media;
@@ -13,6 +14,7 @@ type HeroProps = {
 
 export function PrimepicksV2Hero({
   hero,
+  disclosureUrl,
   daysAgo,
   authorName,
   media,
@@ -28,7 +30,7 @@ export function PrimepicksV2Hero({
       className="flex flex-col items-center justify-center gap-4 bg-cover bg-center p-2.5 text-center md:mb-5 md:px-0 [background-image:linear-gradient(rgba(6,6,6,0.5),rgba(6,6,6,0.5)),var(--pp-hero-mobile)] md:py-5 md:[background-image:linear-gradient(rgba(6,6,6,0.5),rgba(6,6,6,0.5)),var(--pp-hero-desktop)]"
     >
       <h1 className="px-3 text-[28px] font-bold leading-[1.3] text-white md:px-0 md:text-[40px] md:leading-[52px]">
-        {hero.heading}
+        {hero.headline}
       </h1>
       <div className="flex flex-col justify-center gap-1 rounded-[15px] border-2 border-[#DFDFDF] bg-white px-4 py-1.5 text-center md:px-6 md:py-3">
         <h4 className="text-sm font-bold leading-[1.3] text-[#333] md:text-lg md:leading-[23.4px]">
@@ -58,7 +60,7 @@ export function PrimepicksV2Hero({
           <DaysAgoDate daysAgo={daysAgo} />
           {" | "}
           <a
-            href={hero.disclosureUrl}
+            href={disclosureUrl}
             target="_blank"
             rel="noopener noreferrer"
             className="text-[#DFDFDF] no-underline"

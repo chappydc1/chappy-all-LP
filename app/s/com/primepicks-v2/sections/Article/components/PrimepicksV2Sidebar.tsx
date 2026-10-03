@@ -3,12 +3,14 @@ import type { PrimepicksV2Copy, PrimepicksV2Product, PrimepicksV2ProductMedia } 
 
 type SidebarProps = {
   product: PrimepicksV2Product;
+  href: string;
   productMedia: PrimepicksV2ProductMedia;
-  labels: PrimepicksV2Copy["labels"];
+  labels: PrimepicksV2Copy["ui"];
 };
 
 export function PrimepicksV2Sidebar({
   product,
+  href,
   productMedia,
   labels,
 }: SidebarProps): JSX.Element {
@@ -41,7 +43,7 @@ export function PrimepicksV2Sidebar({
           />
         </div>
         <VisitButton
-          href={product.url}
+          href={href}
           label={product.buttonText}
         />
       </section>

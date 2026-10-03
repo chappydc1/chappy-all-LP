@@ -8,7 +8,7 @@ type ProductCardProps = {
   reviewCount: string;
   boughtBadge?: string;
   discountText?: string;
-  cta: string;
+  ctaText: string;
   ctaUrl?: string;
   imageSrc: string;
   imageAlt: string;
@@ -90,7 +90,7 @@ export function ShilajitProductCard(props: ProductCardProps) {
             )}
             <a href={props.ctaUrl ?? "#"} className="inline w-auto no-underline md:block md:w-full">
               <button className="text-black text-[13.3333px] bg-zinc-100 h-auto w-auto p-0 rounded-none border-2 border-black md:text-white md:text-base md:font-bold md:bg-blue-500 md:h-10 md:w-full md:rounded-lg md:border-0 cursor-pointer">
-                {props.cta}
+                {props.ctaText}
               </button>
             </a>
             <div className="mt-0 md:-mt-2.5">

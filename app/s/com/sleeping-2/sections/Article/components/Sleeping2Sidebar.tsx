@@ -3,12 +3,14 @@ import type { Sleeping2Copy, Sleeping2Product, Sleeping2ProductMedia } from "../
 
 type SidebarProps = {
   product: Sleeping2Product;
+  href: string;
   productMedia: Sleeping2ProductMedia;
-  labels: Sleeping2Copy["labels"];
+  labels: Sleeping2Copy["ui"];
 };
 
 export function Sleeping2Sidebar({
   product,
+  href,
   productMedia,
   labels,
 }: SidebarProps): JSX.Element {
@@ -41,7 +43,7 @@ export function Sleeping2Sidebar({
           />
         </div>
         <VisitButton
-          href={product.url}
+          href={href}
           label={product.buttonText}
         />
       </section>
