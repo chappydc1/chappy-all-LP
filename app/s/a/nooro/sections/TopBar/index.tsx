@@ -1,105 +1,106 @@
 "use client";
 
+import links from "../../links.json";
+
 type CommentEntry = {
   name: string;
-  avatarKey: string;
   date: string;
   text: string;
-  likeCount: number;
-  photoKey?: string;
+  likeCount: string;
   replies?: CommentEntry[];
 };
 
-type StructuralSectionEntry =
+type CommentMediaEntry = {
+  avatar: string;
+  photo?: string;
+  replies?: CommentMediaEntry[];
+};
+
+type CtaLines = {
+  line1: string;
+  line2: string;
+};
+
+type TestimonialEntry = {
+  name: string;
+  title: string;
+  reviewMeta: string;
+  verifiedLabel: string;
+  text: string;
+  helpfulText: string;
+};
+
+type TestimonialMedia = {
+  badgeSrc: string;
+  starsSrc: string;
+  photoSrcs: string[];
+};
+
+type TrustpilotEntry = {
+  score: string;
+  reviewCountLabel: string;
+};
+
+type ProseBeat =
+  | "painAgitation"
+  | "breakthroughDiscovery"
+  | "rootCauseReveal"
+  | "uniqueMechanism"
+  | "productReveal"
+  | "socialProof"
+  | "benefitProof"
+  | "usabilityProof"
+  | "scarcityBuildup"
+  | "urgencyEscalation"
+  | "priceAnchor"
+  | "valueJustification"
+  | "objectionPreempt"
+  | "offerReveal"
+  | "riskReversal"
+  | "bundleUpsell"
+  | "futurePacing"
+  | "emotionalAppeal"
+  | "callToAction";
+
+type StoryBlock =
+  | { type: "prose"; beat: ProseBeat; paragraphs: string[] }
   | { type: "heading"; text: string }
   | { type: "list"; items: string[] }
   | { type: "image"; imageKey: string; alt: string }
   | { type: "video" }
   | { type: "cta"; line1: string; line2: string }
-  | { type: "trustpilot"; score: string; reviewCountLabel: string; url: string }
-  | {
-      type: "testimonial";
-      name: string;
-      title: string;
-      reviewMeta: string;
-      verifiedLabel: string;
-      text: string;
-      helpfulText: string;
-      mediaKey: string;
-    }
+  | { type: "trustpilot"; trustpilot: TrustpilotEntry }
+  | { type: "testimonial"; testimonial: TestimonialEntry; mediaIndex: number }
   | { type: "asSeenOn"; label: string }
   | { type: "iconGrid" };
 
-// Any other section is a block of prose (p1, p2, p3, ...), named after the
-// direct-response beat it plays (e.g. "rootCauseReveal") instead of a
-// generic "paragraph" label, so the copy is easier to navigate and edit.
-type ProseSectionEntry = { type: string } & Record<string, string>;
+type HeadlineBodySection = {
+  headline: string;
+  body: string[];
+};
 
-type ArticleSectionEntry = StructuralSectionEntry | ProseSectionEntry;
-
-const STRUCTURAL_SECTION_TYPES = new Set<StructuralSectionEntry["type"]>([
-  "heading",
-  "list",
-  "image",
-  "video",
-  "cta",
-  "trustpilot",
-  "testimonial",
-  "asSeenOn",
-  "iconGrid",
-]);
-
-// A prose section's `type` is a plain string, so equality checks alone can't
-// rule it out when narrowing — this guard fully separates the two branches
-// so the structural members keep their literal (non-string) field types.
-function isStructuralSection(section: ArticleSectionEntry): section is StructuralSectionEntry {
-  return (STRUCTURAL_SECTION_TYPES as Set<string>).has(section.type);
-}
+type ImageSection = HeadlineBodySection & {
+  imageAlt: string;
+};
 
 export type NooroAdvertorialContent = {
-  ctaUrl: string;
-  alert: {
-    label: string;
-    text: string;
-  };
-  advertorialBar: {
+  advertorialLabel: {
     label: string;
     trendingText: string;
   };
-  header: {
+  announcementBar: {
+    label: string;
+    text: string;
+  };
+  hero: {
     breadcrumb: string;
-    titleIntro: string;
-    titleBold: string;
-    introHighlighted: string;
-    introText: string;
+    eyebrow: string;
+    headline: string;
+    subheadlineHighlighted: string;
+    subheadline: string;
     ratingsText: string;
     authorName: string;
-    dateText: string;
-  };
-  article: {
-    conditions: string[];
-    intro: string | string[];
-    sections: ArticleSectionEntry[];
-    checkoutUpdate: {
-      label: string;
-      date: string;
-      productName: string;
-      offerText: string;
-      location: string;
-      noteLabel: string;
-      noteText: string;
-    };
-    guarantees: {
-      guaranteeText: string;
-      checkoutText: string;
-      returnsText: string;
-      shippingText: string;
-    };
-    cta: {
-      title: string;
-      line1: string;
-      line2: string;
-    };
+    date: string;
   };
   sidebar: {
     offerText: string;
@@ -113,15 +114,91 @@ export type NooroAdvertorialContent = {
     featureTitle: string;
     featureItems: Array<{ label: string; rating: string }>;
   };
-  stickyCta: string;
-  footer: {
-    disclaimer: string;
-    copyright: string;
-    links: Array<{ label: string; href: string }>;
+  lead: {
+    body: string[];
+    conditions: string[];
+  };
+  problem: {
+    body: string[];
+  };
+  discovery: ImageSection;
+  rootCause: ImageSection;
+  mechanism: HeadlineBodySection;
+  productReveal: HeadlineBodySection;
+  socialProof: {
+    body: string[];
+    trustpilot: TrustpilotEntry;
+    testimonials: TestimonialEntry[];
+    asSeenOnLabel: string;
+  };
+  benefits: ImageSection & {
+    bullets: string[];
+  };
+  howItWorks: {
+    body: string[];
+  };
+  scarcity: HeadlineBodySection;
+  urgency: ImageSection;
+  pricing: ImageSection;
+  valueJustification: HeadlineBodySection & {
+    bullets: string[];
+  };
+  objection: {
+    body: string[];
+  };
+  offer: ImageSection & {
+    cta: CtaLines;
+  };
+  guarantee: HeadlineBodySection;
+  howToOrder: {
+    headline: string;
+    steps: string[];
+  };
+  bundleOffer: {
+    body: string[];
+    cta: CtaLines;
+  };
+  futurePacing: HeadlineBodySection;
+  emotionalAppeal: {
+    imageAlt: string;
+    body: string[];
+    bullets: string[];
+  };
+  finalCta: {
+    body: string[];
+    cta: CtaLines;
+  };
+  checkout: {
+    update: {
+      label: string;
+      date: string;
+      productName: string;
+      offerText: string;
+      location: string;
+      noteLabel: string;
+      noteText: string;
+    };
+    guaranteeBadges: {
+      guaranteeText: string;
+      checkoutText: string;
+      returnsText: string;
+      shippingText: string;
+    };
+    cta: CtaLines & {
+      title: string;
+    };
   };
   comments: {
     title: string;
     items: CommentEntry[];
+  };
+  footer: {
+    disclaimer: string;
+    copyright: string;
+    linkLabels: string[];
+  };
+  stickyCta: {
+    ctaText: string;
   };
 };
 
@@ -153,7 +230,8 @@ export type NooroAdvertorialMedia = {
     asSeenOnImageSrc: string;
     trustpilotBannerImageSrc: string;
     images: Record<string, string>;
-    testimonials: Record<string, { badgeSrc: string; starsSrc: string; photoSrcs: string[] }>;
+    testimonials: Record<string, TestimonialMedia>;
+    testimonialKeys: string[];
   };
   sidebar: {
     productImageSrc: string;
@@ -165,6 +243,7 @@ export type NooroAdvertorialMedia = {
     likeIconSrc: string;
     avatars: Record<string, string>;
     photos: Record<string, string>;
+    threads: CommentMediaEntry[];
   };
   footer: {
     logoSrc: string;
@@ -172,6 +251,89 @@ export type NooroAdvertorialMedia = {
     dmcaImageSrc: string;
   };
 };
+
+function buildStory(content: NooroAdvertorialContent): StoryBlock[] {
+  const {
+    problem,
+    discovery,
+    rootCause,
+    mechanism,
+    productReveal,
+    socialProof,
+    benefits,
+    howItWorks,
+    scarcity,
+    urgency,
+    pricing,
+    valueJustification,
+    objection,
+    offer,
+    guarantee,
+    howToOrder,
+    bundleOffer,
+    futurePacing,
+    emotionalAppeal,
+    finalCta,
+  } = content;
+
+  return [
+    { type: "prose", beat: "painAgitation", paragraphs: problem.body },
+    { type: "heading", text: discovery.headline },
+    { type: "image", imageKey: "edemaBad", alt: discovery.imageAlt },
+    { type: "prose", beat: "breakthroughDiscovery", paragraphs: discovery.body },
+    { type: "heading", text: rootCause.headline },
+    { type: "image", imageKey: "calvesRootCause", alt: rootCause.imageAlt },
+    { type: "prose", beat: "rootCauseReveal", paragraphs: rootCause.body },
+    { type: "heading", text: mechanism.headline },
+    { type: "prose", beat: "uniqueMechanism", paragraphs: mechanism.body },
+    { type: "heading", text: productReveal.headline },
+    { type: "video" },
+    { type: "prose", beat: "productReveal", paragraphs: productReveal.body },
+    { type: "prose", beat: "socialProof", paragraphs: socialProof.body },
+    { type: "trustpilot", trustpilot: socialProof.trustpilot },
+    ...socialProof.testimonials.map((testimonial, mediaIndex): StoryBlock => ({
+      type: "testimonial",
+      testimonial,
+      mediaIndex,
+    })),
+    { type: "asSeenOn", label: socialProof.asSeenOnLabel },
+    { type: "heading", text: benefits.headline },
+    { type: "image", imageKey: "beforeAfter", alt: benefits.imageAlt },
+    { type: "prose", beat: "benefitProof", paragraphs: benefits.body },
+    { type: "list", items: benefits.bullets },
+    { type: "prose", beat: "usabilityProof", paragraphs: howItWorks.body },
+    { type: "heading", text: scarcity.headline },
+    { type: "prose", beat: "scarcityBuildup", paragraphs: scarcity.body },
+    { type: "heading", text: urgency.headline },
+    { type: "image", imageKey: "sellOutWarning", alt: urgency.imageAlt },
+    { type: "prose", beat: "urgencyEscalation", paragraphs: urgency.body },
+    { type: "heading", text: pricing.headline },
+    { type: "image", imageKey: "officialWebsite", alt: pricing.imageAlt },
+    { type: "prose", beat: "priceAnchor", paragraphs: pricing.body },
+    { type: "heading", text: valueJustification.headline },
+    { type: "prose", beat: "valueJustification", paragraphs: valueJustification.body },
+    { type: "list", items: valueJustification.bullets },
+    { type: "prose", beat: "objectionPreempt", paragraphs: objection.body },
+    { type: "heading", text: offer.headline },
+    { type: "image", imageKey: "discountReveal", alt: offer.imageAlt },
+    { type: "prose", beat: "offerReveal", paragraphs: offer.body },
+    { type: "cta", ...offer.cta },
+    { type: "heading", text: guarantee.headline },
+    { type: "prose", beat: "riskReversal", paragraphs: guarantee.body },
+    { type: "heading", text: howToOrder.headline },
+    { type: "list", items: howToOrder.steps },
+    { type: "prose", beat: "bundleUpsell", paragraphs: bundleOffer.body },
+    { type: "cta", ...bundleOffer.cta },
+    { type: "heading", text: futurePacing.headline },
+    { type: "iconGrid" },
+    { type: "prose", beat: "futurePacing", paragraphs: futurePacing.body },
+    { type: "image", imageKey: "emotionalClose", alt: emotionalAppeal.imageAlt },
+    { type: "prose", beat: "emotionalAppeal", paragraphs: emotionalAppeal.body },
+    { type: "list", items: emotionalAppeal.bullets },
+    { type: "prose", beat: "callToAction", paragraphs: finalCta.body },
+    { type: "cta", ...finalCta.cta },
+  ];
+}
 
 export function NooroTopBar({
   content,
@@ -183,7 +345,7 @@ export function NooroTopBar({
   return (
     <div className="text-neutral-800 text-base font-normal bg-white">
       <AdvertorialBar content={content} media={media} />
-      <UpdateBanner banner={content.alert} icon={media.alert} />
+      <UpdateBanner banner={content.announcementBar} icon={media.alert} />
       <ArticleSection content={content} media={media} />
       <CommentsSection content={content} media={media} />
       <FooterSection content={content} media={media} />
@@ -204,7 +366,7 @@ function AdvertorialBar({
       <div className="relative flex basis-full grow max-w-[1170px] min-h-[25px] w-min mx-auto px-px md:basis-0 md:px-2.5">
         <div className="self-center flex justify-start w-[30%] px-px py-3">
           <div className="text-white text-sm font-bold leading-[14px] px-px py-2.5 font-montserrat">
-            <span className="text-[13px] md:text-sm">{content.advertorialBar.label}</span>
+            <span className="text-[13px] md:text-sm">{content.advertorialLabel.label}</span>
           </div>
         </div>
         <div className="items-center self-center flex justify-end w-full px-px py-3">
@@ -214,7 +376,7 @@ function AdvertorialBar({
             className="max-w-full w-10 md:w-[50px]"
           />
           <div className="text-white text-[13px] font-bold leading-[13px] pl-2.5 pr-px py-2.5 font-montserrat md:text-sm md:leading-[14px] md:pl-5">
-            {content.advertorialBar.trendingText}
+            {content.advertorialLabel.trendingText}
           </div>
         </div>
       </div>
@@ -243,7 +405,7 @@ function ArticleSection({
   );
 }
 
-function UpdateBanner({ banner, icon }: { banner: NooroAdvertorialContent["alert"]; icon: NooroAdvertorialMedia["alert"] }): React.ReactElement {
+function UpdateBanner({ banner, icon }: { banner: NooroAdvertorialContent["announcementBar"]; icon: NooroAdvertorialMedia["alert"] }): React.ReactElement {
   return (
     <div className="flex justify-center px-[15px] pt-[15px] pb-[15px] md:px-2.5">
       <div className="w-full max-w-[1200px]">
@@ -282,7 +444,7 @@ function GuaranteeIconsGrid({
   guarantees,
   media,
 }: {
-  guarantees: NooroAdvertorialContent["article"]["guarantees"];
+  guarantees: NooroAdvertorialContent["checkout"]["guaranteeBadges"];
   media: NooroAdvertorialMedia["article"];
 }): React.ReactElement {
   const items = [
@@ -305,15 +467,17 @@ function GuaranteeIconsGrid({
 
 function TrustpilotBadge({
   trustpilot,
+  url,
   bannerSrc,
 }: {
-  trustpilot: Extract<ArticleSectionEntry, { type: "trustpilot" }>;
+  trustpilot: TrustpilotEntry;
+  url: string;
   bannerSrc: string;
 }): React.ReactElement {
   const score = parseFloat(trustpilot.score) || 0;
   return (
     <div className="mt-[15px]">
-      <a href={trustpilot.url} target="_blank" rel="noopener noreferrer" className="inline-flex flex-col items-start gap-1.5 font-open_sans">
+      <a href={url} target="_blank" rel="noopener noreferrer" className="inline-flex flex-col items-start gap-1.5 font-open_sans">
         <span className="flex items-center gap-1.5">
           <svg viewBox="0 0 24 24" width="22" height="22">
             <polygon points="12,2 15,9 22,9 16.5,13.5 18.5,21 12,16.5 5.5,21 7.5,13.5 2,9 9,9" fill="#00b67a" />
@@ -346,8 +510,8 @@ function TestimonialCard({
   testimonial,
   media,
 }: {
-  testimonial: Extract<ArticleSectionEntry, { type: "testimonial" }>;
-  media: NooroAdvertorialMedia["article"]["testimonials"][string];
+  testimonial: TestimonialEntry;
+  media: TestimonialMedia;
 }): React.ReactElement {
   return (
     <div className="mt-5 pb-4 border-b border-gray-200">
@@ -388,28 +552,28 @@ function MainArticle({
   content: NooroAdvertorialContent;
   media: NooroAdvertorialMedia;
 }): React.ReactElement {
-  const { header, article } = content;
+  const { hero, lead } = content;
 
   return (
     <div className="relative basis-full grow max-w-full min-h-[25px] w-min pb-[58px] md:basis-9/12">
       <div className="text-zinc-400 text-sm font-medium leading-[14px] text-left px-px font-montserrat">
-        {header.breadcrumb}
+        {hero.breadcrumb}
       </div>
 
       <div className="text-[26px] font-medium leading-9 mt-px p-px font-montserrat md:text-[38px] md:leading-[48px] md:mt-5">
-        <span>{header.titleIntro}{" "}</span>
-        <b className="font-extrabold">{header.titleBold}</b>
+        <span>{hero.eyebrow}{" "}</span>
+        <b className="font-extrabold">{hero.headline}</b>
       </div>
 
       <div className="text-zinc-800 text-lg font-bold leading-7 text-left mt-[5px] mb-px pt-[5px] pb-px px-px font-montserrat md:text-[22px] md:leading-9 md:mb-[5px] md:pb-[5px]">
-        <span className="bg-yellow-400">{header.introHighlighted}</span>
-        {header.introText}
+        <span className="bg-yellow-400">{hero.subheadlineHighlighted}</span>
+        {hero.subheadline}
       </div>
 
       <div className="items-center flex justify-start w-full mb-2.5 p-px md:mb-5">
         <img src={media.header.starsSrc} alt="stars" className="max-w-full w-[100px] mr-2.5" />
         <div className="text-cyan-700 text-[15px] font-semibold leading-[18px] my-[5px] px-px py-[5px] font-montserrat">
-          {header.ratingsText}
+          {hero.ratingsText}
         </div>
       </div>
 
@@ -429,12 +593,12 @@ function MainArticle({
         <div className="text-left items-center block justify-start w-full ml-2.5 md:flex">
           <div className="items-center flex ml-px mt-px md:mt-0">
             <div className="text-zinc-800 text-[15px] font-bold leading-6 font-montserrat md:text-base md:leading-[27px]">
-              {header.authorName}
+              {hero.authorName}
             </div>
             <img src={media.header.verifiedIconSrc} alt={media.header.verifiedIconAlt} className="max-w-full ml-[5px] mr-[15px]" />
           </div>
           <div className="text-zinc-600 text-[15px] leading-6 font-montserrat md:text-base md:leading-[27px]">
-            <i>{header.dateText}</i>
+            <i>{hero.date}</i>
           </div>
         </div>
       </div>
@@ -443,21 +607,14 @@ function MainArticle({
         <Sidebar content={content} media={media} />
       </div>
 
-      {Array.isArray(article.intro)
-        ? article.intro.map((line, i) => (
-            <div key={i} className="text-zinc-800 text-[17px] leading-[25.5px] text-left mt-[15px] px-px py-2.5 font-open_sans">
-              {line}
-            </div>
-          ))
-        : (
-            <div className="text-zinc-800 text-[17px] leading-[25.5px] text-left mt-[15px] px-px py-2.5 font-open_sans">
-              {article.intro}
-            </div>
-          )
-      }
+      {lead.body.map((line, i) => (
+        <div key={i} className="text-zinc-800 text-[17px] leading-[25.5px] text-left mt-[15px] px-px py-2.5 font-open_sans">
+          {line}
+        </div>
+      ))}
 
       <ul className="text-zinc-800 text-[17px] bg-[rgb(226,244,249)] leading-[25.5px] list-none text-left my-2.5 px-[15px] py-0.5 font-open_sans">
-        {article.conditions.map((condition) => (
+        {lead.conditions.map((condition) => (
           <li key={condition} className="p-[5px]">
             <div className="items-baseline flex p-[5px]">
               <span className="text-green-700 mr-2.5 text-lg leading-none">⊕</span>
@@ -467,92 +624,94 @@ function MainArticle({
         ))}
       </ul>
 
-      {article.sections.map((section, i) => {
-        if (isStructuralSection(section)) {
-          if (section.type === "heading") {
-            return (
-              <div
-                key={i}
-                className="text-zinc-800 text-[26px] font-extrabold leading-8 text-left mt-[30px] px-px py-[5px] font-montserrat md:text-[33px] md:leading-[46.2px]"
-              >
-                {section.text}
-              </div>
-            );
-          }
-          if (section.type === "list") {
-            return (
-              <ul key={i} className="text-zinc-800 text-[17px] bg-[rgb(226,244,249)] leading-[25.5px] list-none text-left mb-2.5 px-[15px] py-0.5 font-open_sans">
-                {section.items.map((item) => (
-                  <li key={item} className="p-[5px]">
-                    <div className="items-baseline flex p-[5px]">
-                      <span className="text-green-700 mr-2.5">✓</span>
-                      {item}
-                    </div>
-                  </li>
-                ))}
-              </ul>
-            );
-          }
-          if (section.type === "image") {
-            return (
-              <img
-                key={i}
-                src={media.article.images[section.imageKey]}
-                alt={section.alt}
-                className="max-w-full mt-[15px] rounded-[10px] inline"
-              />
-            );
-          }
-          if (section.type === "video") {
-            return (
-              <div key={i} className="relative w-full overflow-hidden mt-[15px]" style={{ paddingTop: "56.25%" }}>
-                <video
-                  loop
-                  autoPlay
-                  playsInline
-                  muted
-                  src={media.article.secondVideoSrc}
-                  className="absolute h-full max-w-full w-full rounded-[10px] left-0 inset-y-0 object-cover"
-                />
-              </div>
-            );
-          }
-          if (section.type === "cta") {
-            return (
-              <div key={i} className="mt-[15px]">
-                <CtaButton ctaUrl={content.ctaUrl} line1={section.line1} line2={section.line2} />
-              </div>
-            );
-          }
-          if (section.type === "trustpilot") {
-            return <TrustpilotBadge key={i} trustpilot={section} bannerSrc={media.article.trustpilotBannerImageSrc} />;
-          }
-          if (section.type === "testimonial") {
-            return (
-              <TestimonialCard key={i} testimonial={section} media={media.article.testimonials[section.mediaKey]} />
-            );
-          }
-          if (section.type === "asSeenOn") {
-            return <AsSeenOnBar key={i} label={section.label} imageSrc={media.article.asSeenOnImageSrc} />;
-          }
-          if (section.type === "iconGrid") {
-            return (
-              <div key={i} className="mt-[15px]">
-                <GuaranteeIconsGrid guarantees={content.article.guarantees} media={media.article} />
-              </div>
-            );
-          }
+      {buildStory(content).map((section, i) => {
+        if (section.type === "heading") {
+          return (
+            <div
+              key={i}
+              className="text-zinc-800 text-[26px] font-extrabold leading-8 text-left mt-[30px] px-px py-[5px] font-montserrat md:text-[33px] md:leading-[46.2px]"
+            >
+              {section.text}
+            </div>
+          );
         }
-
-        // Named prose section (p1, p2, p3, ...) — anything that isn't one of
-        // the structural types above.
-        const lines = Object.entries(section)
-          .filter(([key]) => /^p\d+$/.test(key))
-          .sort(([a], [b]) => Number(a.slice(1)) - Number(b.slice(1)))
-          .map(([, value]) => value);
+        if (section.type === "list") {
+          return (
+            <ul key={i} className="text-zinc-800 text-[17px] bg-[rgb(226,244,249)] leading-[25.5px] list-none text-left mb-2.5 px-[15px] py-0.5 font-open_sans">
+              {section.items.map((item) => (
+                <li key={item} className="p-[5px]">
+                  <div className="items-baseline flex p-[5px]">
+                    <span className="text-green-700 mr-2.5">✓</span>
+                    {item}
+                  </div>
+                </li>
+              ))}
+            </ul>
+          );
+        }
+        if (section.type === "image") {
+          return (
+            <img
+              key={i}
+              src={media.article.images[section.imageKey]}
+              alt={section.alt}
+              className="max-w-full mt-[15px] rounded-[10px] inline"
+            />
+          );
+        }
+        if (section.type === "video") {
+          return (
+            <div key={i} className="relative w-full overflow-hidden mt-[15px]" style={{ paddingTop: "56.25%" }}>
+              <video
+                loop
+                autoPlay
+                playsInline
+                muted
+                src={media.article.secondVideoSrc}
+                className="absolute h-full max-w-full w-full rounded-[10px] left-0 inset-y-0 object-cover"
+              />
+            </div>
+          );
+        }
+        if (section.type === "cta") {
+          return (
+            <div key={i} className="mt-[15px]">
+              <CtaButton ctaUrl={links.cta} line1={section.line1} line2={section.line2} />
+            </div>
+          );
+        }
+        if (section.type === "trustpilot") {
+          return (
+            <TrustpilotBadge
+              key={i}
+              trustpilot={section.trustpilot}
+              url={links.trustpilot}
+              bannerSrc={media.article.trustpilotBannerImageSrc}
+            />
+          );
+        }
+        if (section.type === "testimonial") {
+          return (
+            <TestimonialCard
+              key={i}
+              testimonial={section.testimonial}
+              media={media.article.testimonials[media.article.testimonialKeys[section.mediaIndex]]}
+            />
+          );
+        }
+        if (section.type === "asSeenOn") {
+          return <AsSeenOnBar key={i} label={section.label} imageSrc={media.article.asSeenOnImageSrc} />;
+        }
+        if (section.type === "iconGrid") {
+          return (
+            <div key={i} className="mt-[15px]">
+              <GuaranteeIconsGrid guarantees={content.checkout.guaranteeBadges} media={media.article} />
+            </div>
+          );
+        }
         return (
           <div key={i} className="mt-[15px] px-px py-2.5">
-            {lines.map((paragraph, pIdx) => (
+            {section.paragraphs.map((paragraph, pIdx) => (
               <p
                 key={pIdx}
                 className="text-zinc-800 text-[17px] leading-[25.5px] text-left font-open_sans first:mt-0 mt-[15px]"
@@ -576,7 +735,7 @@ function CheckoutOfferSection({
   content: NooroAdvertorialContent;
   media: NooroAdvertorialMedia;
 }): React.ReactElement {
-  const { checkoutUpdate, guarantees, cta } = content.article;
+  const { update: checkoutUpdate, guaranteeBadges: guarantees, cta } = content.checkout;
 
   return (
     <div className="mt-[10px]">
@@ -611,7 +770,7 @@ function CheckoutOfferSection({
 
       <div className="w-full pt-[15px] pb-8 px-[25px] bg-yellow-100">
         <GuaranteeIconsGrid guarantees={guarantees} media={media.article} />
-        <CtaButton ctaUrl={content.ctaUrl} line1={cta.line1} line2={cta.line2} />
+        <CtaButton ctaUrl={links.cta} line1={cta.line1} line2={cta.line2} />
       </div>
     </div>
   );
@@ -641,7 +800,7 @@ function Sidebar({
           />
 
           <a
-            href={content.ctaUrl}
+            href={links.cta}
             className="bg-yellow-400 hidden justify-center items-center max-w-full text-center w-full border-amber-600 px-4 py-3 rounded-[5px] border-b-4 border-solid font-montserrat md:flex"
           >
             <span className="text-zinc-800 text-[22px] font-bold leading-tight">
@@ -710,10 +869,12 @@ function Sidebar({
 
 function CommentItem({
   comment,
+  commentMedia,
   media,
   nested,
 }: {
   comment: CommentEntry;
+  commentMedia: CommentMediaEntry;
   media: NooroAdvertorialMedia["comments"];
   nested?: boolean;
 }): React.ReactElement {
@@ -722,13 +883,13 @@ function CommentItem({
   return (
     <div className="flex items-start mt-2.5">
       <div className={`shrink-0 mr-[5px] ${avatarSize}`}>
-        <img src={media.avatars[comment.avatarKey]} alt={comment.name} className={`${avatarSize} object-cover`} />
+        <img src={media.avatars[commentMedia.avatar]} alt={comment.name} className={`${avatarSize} object-cover`} />
       </div>
       <div className="flex-1">
         <p className="text-indigo-800 text-[15px] font-bold font-montserrat">{comment.name}</p>
         <p className="text-black text-[15px] leading-5 font-open_sans">{comment.text}</p>
-        {comment.photoKey && (
-          <img src={media.photos[comment.photoKey]} alt={`Photo shared by ${comment.name}`} className="mt-2.5 w-32 rounded-[5px]" />
+        {commentMedia.photo && (
+          <img src={media.photos[commentMedia.photo]} alt={`Photo shared by ${comment.name}`} className="mt-2.5 w-32 rounded-[5px]" />
         )}
         <div className="flex items-center gap-1 mt-[5px] text-[13px] text-zinc-500 font-montserrat">
           <span className="text-indigo-800">Like</span>
@@ -747,19 +908,30 @@ function CommentItem({
 
 function CommentThread({
   comment,
+  commentMedia,
   media,
 }: {
   comment: CommentEntry;
+  commentMedia: CommentMediaEntry;
   media: NooroAdvertorialMedia["comments"];
 }): React.ReactElement {
   return (
     <div className="mt-2.5">
-      <CommentItem comment={comment} media={media} />
+      <CommentItem
+        comment={comment}
+        commentMedia={commentMedia}
+        media={media}
+      />
       {comment.replies?.map((reply, i) => (
         <div key={`${reply.name}-${i}`} className="flex mt-[5px]">
           <div className="w-[10%] shrink-0" />
           <div className="flex-1 border-l border-stone-300 pl-2.5">
-            <CommentItem comment={reply} media={media} nested />
+            <CommentItem
+              comment={reply}
+              commentMedia={commentMedia.replies?.[i] ?? { avatar: "" }}
+              media={media}
+              nested
+            />
           </div>
         </div>
       ))}
@@ -781,7 +953,12 @@ function CommentsSection({ content, media }: { content: NooroAdvertorialContent;
           />
           <div>
             {content.comments.items.map((comment, i) => (
-              <CommentThread key={`${comment.name}-${i}`} comment={comment} media={media.comments} />
+              <CommentThread
+                key={`${comment.name}-${i}`}
+                comment={comment}
+                commentMedia={media.comments.threads[i]}
+                media={media.comments}
+              />
             ))}
           </div>
         </div>
@@ -800,9 +977,9 @@ function FooterSection({ content, media }: { content: NooroAdvertorialContent; m
         <div className="flex items-center justify-between flex-wrap gap-2">
           <p className="text-zinc-500 text-xs font-montserrat">{content.footer.copyright}</p>
           <div className="flex gap-4">
-            {content.footer.links.map((link) => (
-              <a key={link.label} href={link.href} className="text-zinc-500 text-xs underline font-montserrat hover:text-zinc-800">
-                {link.label}
+            {content.footer.linkLabels.map((label, i) => (
+              <a key={label} href={links.footer[i]} className="text-zinc-500 text-xs underline font-montserrat hover:text-zinc-800">
+                {label}
               </a>
             ))}
           </div>
@@ -820,10 +997,10 @@ function StickyCtaBar({ content }: { content: NooroAdvertorialContent }): React.
     <div className="sticky items-stretch bg-zinc-400 flex flex-wrap justify-center max-w-full z-10 px-5 py-[15px] bottom-0 md:flex-nowrap md:px-2.5">
       <div className="relative items-center flex basis-full flex-row-reverse grow justify-center max-w-[1200px] min-h-[25px] w-min md:basis-0">
         <a
-          href={content.ctaUrl}
+          href={links.cta}
           className="text-slate-50 text-2xl font-bold bg-green-700 shadow-[rgba(0,0,0,0.19)_0px_4px_7px_1px] block tracking-[0.02px] leading-[30px] max-w-full text-center p-2.5 rounded font-montserrat md:leading-10 md:px-10 md:py-[25px]"
         >
-          {content.stickyCta}
+          {content.stickyCta.ctaText}
         </a>
       </div>
     </div>

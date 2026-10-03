@@ -1,12 +1,17 @@
 import advertorial from "./copy.json";
 import advertorialMedia from "./media.json";
+import advertorialLinks from "./links.json";
 
 import { TopBar } from "@/sections/TopBar";
 
 export default function SpartanCellularEnergyDiscoveryPage() {
   return (
     <main className="text-neutral-800 text-base not-italic normal-nums font-normal accent-auto bg-white tracking-[normal] leading-6 pointer-events-auto text-left indent-[0px] normal-case visible border-separate font-apple_system">
-      <TopBar content={advertorial} media={advertorialMedia} />
+      <TopBar
+        content={advertorial}
+        media={advertorialMedia}
+        links={advertorialLinks}
+      />
     </main>
   );
 }
