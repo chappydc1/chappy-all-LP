@@ -5,22 +5,24 @@ import { useAdvertorialData } from "../../TopBar/context";
 import { CtaButton } from "../../../components/CtaButton";
 import { useCountdown } from "../../../hooks/useCountdown";
 
+const TIMER_START_SECONDS = 873;
+
 export function FinalCta() {
-  const { content, media } = useAdvertorialData();
+  const { content, links, media } = useAdvertorialData();
   const { finalCta } = content;
-  const timer = useCountdown(finalCta.timerStartSeconds);
+  const timer = useCountdown(TIMER_START_SECONDS);
 
   return (
     <section className="bg-white px-4 py-7 text-center md:px-5 md:py-10">
       <div className="mx-auto max-w-[800px]">
         <p className="mb-1.5 text-[13px] font-bold uppercase tracking-[1.5px] text-[#888]">
-          {finalCta.label}
+          {finalCta.eyebrow}
         </p>
         <h2 className="mb-2 text-[26px] font-black leading-[1.2] text-black md:text-[32px]">
           {finalCta.headline}
         </h2>
         <p className="mx-auto mb-[18px] max-w-[500px] text-sm leading-[1.4] text-[#555]">
-          {finalCta.sub}
+          {finalCta.subheadline}
         </p>
 
         <div className="mx-auto mb-5 flex max-w-[750px] flex-col overflow-hidden rounded-xl bg-adv-navy md:flex-row md:rounded-2xl">
@@ -41,7 +43,7 @@ export function FinalCta() {
               {finalCta.headline}
             </h3>
             <p className="mb-3.5 text-[13px] leading-[1.4] text-[#555] md:text-sm">
-              {finalCta.sub}
+              {finalCta.subheadline}
             </p>
             <div className="my-2.5 mb-3.5">
               <span className="mr-2 text-lg text-[#999] line-through">{finalCta.priceOld}</span>
@@ -49,8 +51,8 @@ export function FinalCta() {
                 {finalCta.priceNew}
               </span>
             </div>
-            <CtaButton href={media.ctaUrl} className="mb-3.5">
-              {finalCta.buttonLabel}
+            <CtaButton href={links.finalCta} className="mb-3.5">
+              {finalCta.ctaText}
             </CtaButton>
             <div className="text-center text-[13px] font-bold leading-[1.6] text-black md:text-sm">
               {finalCta.timerLabel}{" "}

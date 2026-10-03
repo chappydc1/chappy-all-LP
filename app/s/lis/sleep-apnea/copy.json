@@ -1,71 +1,64 @@
 {
-  "meta": {
+  "seo": {
     "title": "6 Reasons Why This Is the #1 Fix for Sleep Apnea & Snoring",
     "description": "Snoring isn't just a nuisance—it's a sign your airway is struggling while you sleep. Discover 6 science-backed reasons why thousands are waking up rested, silent, and breathing freely again."
   },
-  "topBar": {
+  "announcementBar": {
     "label": "Limited-Time Sale:",
     "offer": "Get Up To 41% Off + Free Shipping",
     "suffix": "on your first order"
   },
   "hero": {
     "badge": "Limited-Time Sale - Get Up To 41% Off",
-    "heading": {
+    "headline": {
       "highlight1": "6 Reasons",
       "text": "Why This Ends",
       "highlight2": "Sleep Apnea & Snoring"
     },
-    "subheading": "Snoring and interrupted breathing aren't just annoying—they're signs your body is starving for oxygen while you sleep. Our targeted formula uses 10 powerful botanicals to open airways, reduce nighttime inflammation, and restore deep, silent, restorative sleep.",
-    "cta": {
-      "primary": "Save 41% + Free Shipping",
-      "href": "https://loraritual.com/products/somara-liquid-complex"
-    },
+    "subheadline": "Snoring and interrupted breathing aren't just annoying—they're signs your body is starving for oxygen while you sleep. Our targeted formula uses 10 powerful botanicals to open airways, reduce nighttime inflammation, and restore deep, silent, restorative sleep.",
+    "ctaText": "Save 41% + Free Shipping",
     "socialProof": {
       "rating": "4.8",
       "reviews": "67K+",
       "members": "2M+"
     }
   },
-  "benefits": [
-    {
-      "number": "01",
-      "category": "Airway",
-      "title": "Opens & Clears Your Airway While You Sleep",
-      "description": "Most snoring solutions only treat surface noise—they never fix the root cause. Our SOMARA formula targets inflamed, narrowed airways with a concentrated Soursop (Graviola) extract and Oregano Oil that work together to reduce swelling in throat tissues, allowing air to flow freely and quietly all night long."
-    },
-    {
-      "number": "02",
-      "category": "Snoring",
-      "title": "Silences Snoring From the First Night",
-      "description": "If you or your partner dread bedtime because of relentless snoring, swollen throat tissues and poor muscle tone are usually the culprit. Our fast-absorbing liquid botanicals—Irish Sea Moss and Ginger—soothe and tone the soft palate and throat muscles so snoring eases quickly and sleep becomes quiet and deep again."
-    },
-    {
-      "number": "03",
-      "category": "Energy",
-      "title": "Wake Up With Real Energy—Finally",
-      "description": "When sleep apnea and snoring rob you of oxygen all night, no amount of caffeine compensates for that exhaustion. Our 10-in-1 blend—Moringa, Ashwagandha, and Chlorella—nourishes your cells and supports deeper sleep cycles so you wake up refreshed, alert, and energized. No more dragging through your day."
-    },
-    {
-      "number": "04",
-      "category": "Inflammation",
-      "title": "Reduces Throat Inflammation Overnight",
-      "description": "Chronic airway inflammation is one of the leading drivers of sleep apnea and nightly snoring. Our formula combines Turmeric, Black Seed Oil, Vitamin C, and Vitamin D3 to cool inflamed tissues, strengthen the muscles lining your airway, and help you breathe silently and deeply all the way through the night."
-    },
-    {
-      "number": "05",
-      "category": "Formula",
-      "title": "10 Botanicals in One Easy Dropper",
-      "description": "Forget bulky CPAP masks or sprays that wear off in an hour. SOMARA packs Soursop, Sea Moss, Moringa, Turmeric, Black Seed Oil, Oregano Oil, Ashwagandha, Chlorella, Chlorophyll, and Ginger into one fast-absorbing liquid dropper. Alcohol-free, stimulant-free, sugar-free. Just two droppers before bed—done."
-    },
-    {
-      "number": "06",
-      "category": "Loved By Millions",
-      "title": "Trusted by 2M+ Customers",
-      "description": "With over 67,000 five-star reviews and 2 million bottles sold, SOMARA is the go-to choice for anyone done with restless nights, morning headaches, and the exhaustion that comes from never truly sleeping. Backed by a 30-day money-back guarantee—completely risk-free."
-    }
-  ],
+  "reasonsWhy": {
+    "items": [
+      {
+        "category": "Airway",
+        "headline": "Opens & Clears Your Airway While You Sleep",
+        "body": "Most snoring solutions only treat surface noise—they never fix the root cause. Our SOMARA formula targets inflamed, narrowed airways with a concentrated Soursop (Graviola) extract and Oregano Oil that work together to reduce swelling in throat tissues, allowing air to flow freely and quietly all night long."
+      },
+      {
+        "category": "Snoring",
+        "headline": "Silences Snoring From the First Night",
+        "body": "If you or your partner dread bedtime because of relentless snoring, swollen throat tissues and poor muscle tone are usually the culprit. Our fast-absorbing liquid botanicals—Irish Sea Moss and Ginger—soothe and tone the soft palate and throat muscles so snoring eases quickly and sleep becomes quiet and deep again."
+      },
+      {
+        "category": "Energy",
+        "headline": "Wake Up With Real Energy—Finally",
+        "body": "When sleep apnea and snoring rob you of oxygen all night, no amount of caffeine compensates for that exhaustion. Our 10-in-1 blend—Moringa, Ashwagandha, and Chlorella—nourishes your cells and supports deeper sleep cycles so you wake up refreshed, alert, and energized. No more dragging through your day."
+      },
+      {
+        "category": "Inflammation",
+        "headline": "Reduces Throat Inflammation Overnight",
+        "body": "Chronic airway inflammation is one of the leading drivers of sleep apnea and nightly snoring. Our formula combines Turmeric, Black Seed Oil, Vitamin C, and Vitamin D3 to cool inflamed tissues, strengthen the muscles lining your airway, and help you breathe silently and deeply all the way through the night."
+      },
+      {
+        "category": "Formula",
+        "headline": "10 Botanicals in One Easy Dropper",
+        "body": "Forget bulky CPAP masks or sprays that wear off in an hour. SOMARA packs Soursop, Sea Moss, Moringa, Turmeric, Black Seed Oil, Oregano Oil, Ashwagandha, Chlorella, Chlorophyll, and Ginger into one fast-absorbing liquid dropper. Alcohol-free, stimulant-free, sugar-free. Just two droppers before bed—done."
+      },
+      {
+        "category": "Loved By Millions",
+        "headline": "Trusted by 2M+ Customers",
+        "body": "With over 67,000 five-star reviews and 2 million bottles sold, SOMARA is the go-to choice for anyone done with restless nights, morning headaches, and the exhaustion that comes from never truly sleeping. Backed by a 30-day money-back guarantee—completely risk-free."
+      }
+    ]
+  },
   "testimonials": {
-    "heading": {
+    "headline": {
       "text": "Real Customers.",
       "highlight": "Real Sleep Relief."
     },
@@ -105,7 +98,10 @@
   "reviews": {
     "overallRating": "4.8",
     "totalReviews": "67,328",
-    "tabs": ["Product reviews", "Store reviews"],
+    "tabs": [
+      "Product reviews",
+      "Store reviews"
+    ],
     "items": [
       {
         "avatarInitials": "SM",
@@ -157,7 +153,7 @@
       }
     ]
   },
-  "buyBox": {
+  "offer": {
     "badge": "30-Day Money-Back Guarantee"
   }
 }
