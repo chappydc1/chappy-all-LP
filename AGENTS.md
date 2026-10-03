@@ -212,6 +212,8 @@ The page passes both files as props to `TopBar`. Downstream components read from
 
 **Template interpolation**: Paragraph strings in `copy.json` may contain `{{countdown}}` placeholders, which `interpolateTemplate` replaces at render time with the live countdown value. To add a new interpolation key, add the key to the `values` object passed to `<HtmlParagraphs>` and use `{{keyName}}` in the JSON.
 
+**Links inside copy**: When copy contains an inline `<a>`, write `href="{{ctaUrl}}"` instead of a literal URL; the route's `page.tsx` swaps in `links.cta` so the destination lives only in `links.json`.
+
 **HTML in paragraphs**: Paragraph strings may contain inline HTML (`<b>`, `<em>`, `<a>`, etc.), rendered via `dangerouslySetInnerHTML`. When editing paragraph content in JSON, ensure HTML is well-formed — unmatched tags will silently break rendering.
 
 ## CTA URL

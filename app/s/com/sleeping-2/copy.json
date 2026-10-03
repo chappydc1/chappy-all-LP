@@ -12,18 +12,18 @@
   },
   "lead": {
     "body": [
-      "I’ve spent three months sleeping on the <a href=\"https://aurelunehealth.com/products/aurelune-cloud\"><strong>top-rated side sleeper pillows</strong></a> because most of them completely miss the mark. Soft pillows collapse under your head, “cervical” pillows are built for back sleepers, and shredded foam fill flattens out before 3 AM.",
+      "I’ve spent three months sleeping on the <a href=\"{{ctaUrl}}\"><strong>top-rated side sleeper pillows</strong></a> because most of them completely miss the mark. Soft pillows collapse under your head, “cervical” pillows are built for back sleepers, and shredded foam fill flattens out before 3 AM.",
       "After testing them night after night (and tracking how I felt every morning), I’ve narrowed it down to five worth considering. One finally ended the stiff neck, sore shoulder and dead, tingling arm I’d been waking up with for years."
     ],
     "mobileBody": [
-      "I spent 3 months sleeping on <a href=\"https://aurelunehealth.com/products/aurelune-cloud\">side sleeper pillows</a>. Most had a catch: too soft, too flat, or no room for your arm. I found a few worth using, and one I still sleep on every night."
+      "I spent 3 months sleeping on <a href=\"{{ctaUrl}}\">side sleeper pillows</a>. Most had a catch: too soft, too flat, or no room for your arm. I found a few worth using, and one I still sleep on every night."
     ]
   },
   "productRankings": {
     "items": [
       {
         "name": "1. AURELUNE Cloud",
-        "subtitleHtml": "<a href=\"https://aurelunehealth.com/products/aurelune-cloud\">Best Choice in 2026</a>",
+        "subtitleHtml": "<a href=\"{{ctaUrl}}\">Best Choice in 2026</a>",
         "ratings": [
           {
             "label": "Product Quality",
@@ -258,7 +258,7 @@
   "topPick": {
     "headline": "#1 Side Sleeper Pillow in 2026",
     "body": [
-      "<a href=\"https://aurelunehealth.com/products/aurelune-cloud\"><strong>AURELUNE Cloud</strong></a> solves the biggest problem with sleeping on your side – where your shoulder and arm are supposed to go.",
+      "<a href=\"{{ctaUrl}}\"><strong>AURELUNE Cloud</strong></a> solves the biggest problem with sleeping on your side – where your shoulder and arm are supposed to go.",
       "Most pillows are a flat rectangle that forces your shoulder to jam up into your neck and pins your arm under your head. AURELUNE Cloud adds dedicated Arm Pocket Zones and 5-zone contouring so your head sits at shoulder height and your arm can rest freely all night.",
       "It ships free from the US, comes with a cooling CleanWeave™ cover, and is backed by a 30-night sleep trial, so you can test it and feel the difference for yourself."
     ]
@@ -274,7 +274,7 @@
     "body": [
       "I’ve been a side sleeper my whole life, and for years I woke up the same way: a stiff neck, a throbbing shoulder and an arm so numb I had to shake it back to life before I could pick up my phone.",
       "I blamed my mattress, then my age, then my posture. I went through soft pillows, firm pillows, shredded foam, feather pillows and a “cervical” roll that was clearly designed for back sleepers. They all ended up the same way – sinking flat by the middle of the night.",
-      "Then I came across <a href=\"https://aurelunehealth.com/products/aurelune-cloud\">AURELUNE Cloud</a>. With <strong>over 11,900 reviews and a 4.9/5 rating</strong>, and a strange-looking shape that claimed to give your arm somewhere to go, I figured it was worth putting to the test.",
+      "Then I came across <a href=\"{{ctaUrl}}\">AURELUNE Cloud</a>. With <strong>over 11,900 reviews and a 4.9/5 rating</strong>, and a strange-looking shape that claimed to give your arm somewhere to go, I figured it was worth putting to the test.",
       "It arrived in 3 days, ready to use straight out of the box. The first thing I noticed was the shape – wide, contoured “wings” on the sides and a lower cradle in the middle. It looked unusual, but it felt dense and premium in a way the cheaper foam pillows I’d tried never did.",
       "AURELUNE Cloud is built around a <strong>5-zone head and neck support system</strong> made from 100% high-density structural memory foam – not shredded fill – so it holds its contours instead of collapsing under the weight of your head.",
       "But what really sets it apart are the <strong>Arm Pocket Zones</strong>. They lift your head to shoulder height while giving your arm room to settle naturally, so you’re not lying on it and cutting off circulation all night.",
@@ -308,7 +308,7 @@
   "pricing": {
     "headline": "Value",
     "body": [
-      "When it comes to fixing the way you wake up every single morning, <a href=\"https://aurelunehealth.com/products/aurelune-cloud\">AURELUNE Cloud</a> offers incredible value.",
+      "When it comes to fixing the way you wake up every single morning, <a href=\"{{ctaUrl}}\">AURELUNE Cloud</a> offers incredible value.",
       "It’s currently <strong>$49</strong> – a <strong>52% discount</strong> – and that includes a free CleanWeave™ cooling cover valued at $28, already fitted on the pillow.",
       "I’ve spent more than that on a single chiropractor visit. Between the pillows that didn’t work, the massage appointments and the painkillers for my neck, I’d easily spent hundreds trying to fix a problem that turned out to be my pillow.",
       "If you sleep on your side and wake up stiff, sore or numb, this is one of the cheapest fixes you can try.",
@@ -322,7 +322,7 @@
       "But AURELUNE Cloud isn’t just for strict side sleepers.",
       "The central cradle supports back sleepers, and the low-profile contouring works for stomach sleepers too – so it adapts to you, not the other way around.",
       "The breathable AirMesh-style CleanWeave™ cover promotes continuous airflow to keep you cool, resists dust mites, and unzips for easy washing. The foam core is OEKO-TEX® certified and simply needs a spot-clean with a damp cloth.",
-      "<a href=\"https://aurelunehealth.com/products/aurelune-cloud\">AURELUNE Cloud</a> gives you the comfort of a cloud with the support your neck and shoulders actually need."
+      "<a href=\"{{ctaUrl}}\">AURELUNE Cloud</a> gives you the comfort of a cloud with the support your neck and shoulders actually need."
     ]
   },
   "testimonials": {
@@ -349,7 +349,7 @@
   "purchaseProcess": {
     "headline": "Purchase and Delivery Process",
     "body": [
-      "Getting <a href=\"https://aurelunehealth.com/products/aurelune-cloud\">AURELUNE Cloud</a> is really simple.",
+      "Getting <a href=\"{{ctaUrl}}\">AURELUNE Cloud</a> is really simple.",
       "Since it’s sold exclusively online, you’re getting it at a much lower price without the markups you’d find in mattress stores.",
       "Orders are processed in 1–2 business days and shipped free from a US facility. Mine <strong>arrived just 3 days after I ordered</strong>, with tracking sent straight to my email.",
       "And the <strong>discount was already applied at checkout</strong>, so there was no need to hunt for codes. Plus, every order comes with a <strong>30-night sleep trial</strong> – if you’re not happy with your mornings, you can email them within 30 days of delivery for a full refund."
@@ -361,7 +361,7 @@
       "Getting your own AURELUNE Cloud with <strong>a 52% discount</strong> is simple. Just follow these steps:"
     ],
     "steps": [
-      "<strong>Go to</strong> the official AURELUNE <a href=\"https://aurelunehealth.com/products/aurelune-cloud\">website</a>;",
+      "<strong>Go to</strong> the official AURELUNE <a href=\"{{ctaUrl}}\">website</a>;",
       "<strong>Choose </strong>how many AURELUNE Cloud pillows you want;",
       "<strong>Enter </strong>your shipping and payment details;",
       "<strong>Confirm </strong>your order and enjoy waking up without neck pain or a numb arm!"

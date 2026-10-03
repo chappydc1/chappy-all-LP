@@ -1,4 +1,4 @@
-import copy from "./copy.json";
+import rawCopy from "./copy.json";
 import links from "./links.json";
 import media from "./media.json";
 import { Sleeping2Article } from "./sections/Article";
@@ -9,6 +9,12 @@ import { Sleeping2Hero } from "./sections/Hero";
 import { Sleeping2ProductList } from "./sections/ProductList";
 
 const DAYS_AGO = 2;
+
+const copy: typeof rawCopy = JSON.parse(
+  JSON.stringify(rawCopy)
+    .split("{{ctaUrl}}")
+    .join(JSON.stringify(links.cta).slice(1, -1)),
+);
 
 export default function Sleeping2Page(): JSX.Element {
   return (

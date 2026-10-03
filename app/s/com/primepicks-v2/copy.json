@@ -12,18 +12,18 @@
   },
   "lead": {
     "body": [
-      "I’ve spent three months testing <a href=\"https://tagsleyshop.com/pp/us/\"><strong>top tracking cards</strong></a> because most solutions completely miss the mark. AirTags are too thick, Tile trackers die when you need them, and subscription trackers drain your bank account.",
+      "I’ve spent three months testing <a href=\"{{ctaUrl}}\"><strong>top tracking cards</strong></a> because most solutions completely miss the mark. AirTags are too thick, Tile trackers die when you need them, and subscription trackers drain your bank account.",
       "After real-world testing in wallets, laptop bags, purses, and travel pouches, I’ve found five that actually work anywhere you need them. One completely changed how I think about never losing important things."
     ],
     "mobileBody": [
-      "I spent 3 months testing <a href=\"https://tagsleyshop.com/pp/us/\">tracking cards</a>. Most had a catch: bulky fit, weak signal, or extra fees. I found a few worth using, and one that stayed in my wallet after the test."
+      "I spent 3 months testing <a href=\"{{ctaUrl}}\">tracking cards</a>. Most had a catch: bulky fit, weak signal, or extra fees. I found a few worth using, and one that stayed in my wallet after the test."
     ]
   },
   "productRankings": {
     "items": [
       {
         "name": "1. Tagsley",
-        "subtitleHtml": "<a href=\"https://tagsleyshop.com/pp/us/\">Best Choice in 2026</a>",
+        "subtitleHtml": "<a href=\"{{ctaUrl}}\">Best Choice in 2026</a>",
         "ratings": [
           {
             "label": "Product Quality",
@@ -257,7 +257,7 @@
   "topPick": {
     "headline": "#1 Tracking Card in 2026",
     "body": [
-      "<a href=\"https://tagsleyshop.com/pp/us/\"><strong>Tagsley</strong></a> solves the biggest problem with card tracking – fitting where you need it.",
+      "<a href=\"{{ctaUrl}}\"><strong>Tagsley</strong></a> solves the biggest problem with card tracking – fitting where you need it.",
       "Many tracking cards are too thick or require expensive subscriptions, but Tagsley delivers ultra-slim 1.8mm design with wireless charging and lifetime free tracking through Apple’s network.",
       "It offers professional-grade tracking that goes anywhere you do. And it comes with a 30-day money-back guarantee, so you can test it and see the difference for yourself."
     ]
@@ -273,7 +273,7 @@
     "body": [
       "I’ve always been that person who loses important things at the worst possible moments. Wallet missing before a flight, laptop bag nowhere to be found during a crucial meeting, passport vanishing right before international travel.",
       "After my third “emergency replacement” situation in six months, I decided to finally solve this problem properly. The tracking market is flooded with options, but most are either too thick and bulky for daily use or come with expensive monthly subscriptions that add up fast.",
-      "Then I discovered <a href=\"https://tagsleyshop.com/pp/us/\">Tagsley</a>. With <strong>over 12,000 verified reviews</strong> and claims about being the thinnest tracker that perfectly does its job, I figured it was worth putting to the test.",
+      "Then I discovered <a href=\"{{ctaUrl}}\">Tagsley</a>. With <strong>over 12,000 verified reviews</strong> and claims about being the thinnest tracker that perfectly does its job, I figured it was worth putting to the test.",
       "The card arrived in 3 days, and I was immediately impressed by how genuinely thin it felt – exactly like a credit card. Everything about the packaging and build quality screamed premium without the premium price tag.",
       "Tagsley uses breakthrough 1.8mm technology that delivers <strong>wireless charging and Apple &ldquo;Find My&rdquo; integration</strong> without the bulk that makes other trackers impractical for daily carry.",
       "But what really sets Tagsley apart is its versatility. It’s <strong>ultra-slim, durable, and fits anywhere</strong> you need it – wallets, laptop sleeves, passport holders, purses.",
@@ -308,7 +308,7 @@
   "pricing": {
     "headline": "Value",
     "body": [
-      "When it comes to keeping track of your most important belongings,<strong> </strong><a href=\"https://tagsleyshop.com/pp/us/\">Tagsley</a><strong> </strong>offers incredible value.",
+      "When it comes to keeping track of your most important belongings,<strong> </strong><a href=\"{{ctaUrl}}\">Tagsley</a><strong> </strong>offers incredible value.",
       "At <strong>$43.99</strong> for a single card, it&rsquo;s reasonable considering what it protects. If you want to cover multiple items, the 4-card bundle brings it down to <strong>$29.99 per tracker</strong>.",
       "I&rsquo;ve had friends lose their wallets while traveling. My buddy Brandon spent $400 just on emergency document fees when his passport went missing in Barcelona. Between replacement cards, emergency cash transfers, and the sheer panic, it&rsquo;s a nightmare I never want to experience.",
       "If you occasionally leave things behind in places (coffee shops, Ubers, hotel rooms), having that backup plan just makes sense.",
@@ -322,7 +322,7 @@
       "But Tagsley isn’t just for wallets.",
       "It protects all your important items, including laptop bags, passport holders, purses, and even luggage.",
       "What’s even better is that it works silently and efficiently without interfering with your phone, Wi-Fi, or other devices. The tracking works seamlessly with iPhones through the Apple Find My app, leveraging Apple’s vast network of devices worldwide. So you don’t need to worry about connectivity issues or battery drain on your phone.",
-      "<a href=\"https://tagsleyshop.com/pp/us/\">Tagsley</a> gives you the ultimate peace of mind against losing your most valuable possessions, all without the hassle."
+      "<a href=\"{{ctaUrl}}\">Tagsley</a> gives you the ultimate peace of mind against losing your most valuable possessions, all without the hassle."
     ]
   },
   "testimonials": {
@@ -345,7 +345,7 @@
   "purchaseProcess": {
     "headline": "Purchase and Delivery Process",
     "body": [
-      "Getting <a href=\"https://tagsleyshop.com/pp/us/\">Tagsley</a> is really simple.",
+      "Getting <a href=\"{{ctaUrl}}\">Tagsley</a> is really simple.",
       "Since Tagsley is sold exclusively online, you’re getting it at an affordable price without the markups you’d find in stores.",
       "I placed my order at the start of the week, and to my surprise, it <strong>arrived just 3 days later</strong>. This was the fastest delivery out of all the products I’ve tested!",
       "And the <strong>discount was already applied at checkout</strong>, so there was no need to mess around with typing in discount codes or searching for deals. It was all done for me, which made the whole process even easier."
@@ -357,7 +357,7 @@
       "Getting your own Tagsley with <strong>a 75% discount</strong> is simple. Just follow these steps:"
     ],
     "steps": [
-      "<strong>Go to</strong> the official Tagsley <a href=\"https://tagsleyshop.com/pp/us/\">website</a>;",
+      "<strong>Go to</strong> the official Tagsley <a href=\"{{ctaUrl}}\">website</a>;",
       "<strong>Choose </strong>the number of Tagsley cards you want;",
       "<strong>Enter </strong>your shipping and payment details;",
       "<strong>Confirm </strong>your order and enjoy knowing your belongings are safe and trackable!"
