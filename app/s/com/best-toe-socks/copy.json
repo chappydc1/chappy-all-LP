@@ -12,18 +12,18 @@
   },
   "lead": {
     "body": [
-      "I’ve spent three months running in the <a href=\"https://aurelunehealth.com/products/aurelune-run-lightweight-mini-crew-toesocks/\"><strong>top-rated toe socks</strong></a> because most of them miss the point. Some are too thick for a snug running shoe, some bunch under the arch by mile six, and some are really yoga socks pretending to be running socks.",
+      "I’ve spent three months running in the <a href=\"{{ctaUrl}}\"><strong>top-rated toe socks</strong></a> because most of them miss the point. Some are too thick for a snug running shoe, some bunch under the arch by mile six, and some are really yoga socks pretending to be running socks.",
       "After real-world testing on long runs, hot-weather tempo days, wet trail loops and race day, I found five worth talking about. One completely changed how my feet feel at the end of a long run."
     ],
     "mobileBody": [
-      "I spent 3 months running in <a href=\"https://aurelunehealth.com/products/aurelune-run-lightweight-mini-crew-toesocks/\">toe socks</a>. Most had a catch: too thick, slipping arches, or no real running support. A few were worth it, and one ended my blister problem for good."
+      "I spent 3 months running in <a href=\"{{ctaUrl}}\">toe socks</a>. Most had a catch: too thick, slipping arches, or no real running support. A few were worth it, and one ended my blister problem for good."
     ]
   },
   "productRankings": {
     "items": [
       {
         "name": "1. AURELUNE",
-        "subtitleHtml": "<a href=\"https://aurelunehealth.com/products/aurelune-run-lightweight-mini-crew-toesocks/\">Best Choice in 2026</a>",
+        "subtitleHtml": "<a href=\"{{ctaUrl}}\">Best Choice in 2026</a>",
         "ratings": [
           {
             "label": "Blister Protection",
@@ -72,8 +72,8 @@
         "buttonText": "VISIT SITE"
       },
       {
-        "name": "2. Signature Run Toe Socks",
-        "subtitleHtml": "by Tabio",
+        "name": "2. Ultra Run Crew",
+        "subtitleHtml": "by Injinji",
         "ratings": [
           {
             "label": "Blister Protection",
@@ -97,26 +97,27 @@
           }
         ],
         "pros": [
-          "Well-made Japanese knit",
-          "Good heel and arch hold",
-          "Soft cushioned sole",
-          "Bright color options"
+          "Original five-toe sock brand",
+          "Cushioned terry through foot and toes",
+          "Crew cuff protects the Achilles",
+          "Good for long, high-mileage runs"
         ],
         "cons": [
-          "Pricey for a single pair",
-          "Runs warm in summer heat"
+          "Pricey at $20 for a single pair",
+          "Thick cushion runs warm in summer heat",
+          "Bulky in snug racing flats"
         ],
         "trust": {
           "label": "ReviewScore",
           "score": "8.6",
           "verdict": "Good",
-          "reviews": "1,134 Customer Reviews"
+          "reviews": "69 Customer Reviews"
         },
         "buttonText": "VISIT SITE"
       },
       {
-        "name": "3. Footies Invisible Toe Socks",
-        "subtitleHtml": "by Knitido",
+        "name": "3. Quarter Crew Merino Toe Socks",
+        "subtitleHtml": "by Creepers",
         "ratings": [
           {
             "label": "Blister Protection",
@@ -140,21 +141,21 @@
           }
         ],
         "pros": [
-          "Invisible no-show cut",
-          "Lightweight feel",
-          "Breathable knit",
-          "Good for casual shoes"
+          "Soft superfine merino wool blend",
+          "Naturally odor-resistant",
+          "Breathable mesh upper",
+          "Stay-up quarter-crew cuff"
         ],
         "cons": [
-          "No-show cut slips off the heel",
-          "No protection from collar rub",
-          "Thin sole wears quickly"
+          "Zero cushioning underfoot",
+          "Merino wears faster than nylon at the toes",
+          "Mainly ships from Europe"
         ],
         "trust": {
           "label": "ReviewScore",
           "score": "8.2",
           "verdict": "Good",
-          "reviews": "923 Customer Reviews"
+          "reviews": "1,351 Customer Reviews"
         },
         "buttonText": "VISIT SITE"
       },
@@ -257,7 +258,7 @@
   "topPick": {
     "headline": "#1 Toe Sock in 2026",
     "body": [
-      "<a href=\"https://aurelunehealth.com/products/aurelune-run-lightweight-mini-crew-toesocks/\"><strong>AURELUNE</strong></a> solves the biggest problem runners have with socks – blisters between and under the toes.",
+      "<a href=\"{{ctaUrl}}\"><strong>AURELUNE</strong></a> solves the biggest problem runners have with socks – blisters between and under the toes.",
       "Regular socks bundle your toes together so they rub on every single stride. AURELUNE gives each toe its own seamless CoolMax® sleeve, so skin-on-skin friction simply can’t happen, while the ultra-thin 200-needle knit still slips into your snuggest racing flats.",
       "It’s the kind of upgrade you feel on your very first long run. And it comes with a 90-day free return policy, so you can test it on your own miles and see the difference for yourself."
     ]
@@ -273,7 +274,7 @@
     "body": [
       "I’ve always been the runner whose feet give out before the legs do. Raw spots between my toes at mile ten, a blister on the ball of my foot halfway through a half marathon, and a black toenail after every single marathon training block.",
       "After my third race in a row ruined by a blister I could feel forming at mile 8, I decided to finally fix it properly. I’d tried tape, anti-chafe sticks, thicker socks and thinner socks. Nothing fixed the real problem: my toes rubbing against each other on every stride.",
-      "Then I discovered <a href=\"https://aurelunehealth.com/products/aurelune-run-lightweight-mini-crew-toesocks/\">AURELUNE</a>. With <strong>over 65,000 verified reviews</strong>, a 4.8 out of 5 rating and more than 2 million pairs sold, I figured it was worth putting to the test.",
+      "Then I discovered <a href=\"{{ctaUrl}}\">AURELUNE</a>. With <strong>over 65,000 verified reviews</strong>, a 4.8 out of 5 rating and more than 2 million pairs sold, I figured it was worth putting to the test.",
       "The socks arrived quickly, and I was immediately surprised by how thin and light they felt – each toe has its own sleeve, but there’s no bulk anywhere. The knit feels tight, smooth and genuinely premium.",
       "AURELUNE uses a <strong>patented five-toe design</strong> that wraps every toe in its own seamless, moisture-wicking sleeve. That means <strong>zero skin-on-skin contact</strong>, which is exactly where most running blisters start.",
       "But what really sets it apart is how it works with your foot instead of against it. Your toes can <strong>splay naturally</strong> on every push-off, which gives you a more stable, balanced stride – and the supportive arch band keeps the whole sock locked in place.",
@@ -308,7 +309,7 @@
   "pricing": {
     "headline": "Value",
     "body": [
-      "When it comes to protecting your feet mile after mile,<strong> </strong><a href=\"https://aurelunehealth.com/products/aurelune-run-lightweight-mini-crew-toesocks/\">AURELUNE</a><strong> </strong>offers incredible value.",
+      "When it comes to protecting your feet mile after mile,<strong> </strong><a href=\"{{ctaUrl}}\">AURELUNE</a><strong> </strong>offers incredible value.",
       "Right now there’s a <strong>Buy 1 Get 1 Free</strong> deal, which brings you <strong>two pairs for $14.99</strong>. If you run most days and want a rotation, the Family Pack gives you <strong>4 pairs for the price of 2</strong>, plus free foot-care gifts.",
       "I’ve seen running friends spend a fortune trying to fix blisters: boxes of blister plasters, rolls of kinesiology tape, anti-chafe sticks, and even a podiatrist visit for a damaged toenail. My training partner Brandon had to DNF a marathon he’d trained 16 weeks for because a blister opened up at mile 19.",
       "If you run long, run in the heat, or have ever finished a run limping, having the right socks just makes sense.",
@@ -322,7 +323,7 @@
       "And it doesn’t take long to feel the difference.",
       "<strong>In the first week</strong>, toe-on-toe rubbing disappears and your feet stay noticeably drier. <strong>After a month</strong>, weekend long runs finish without raw spots or tender hot spots on the balls of your feet. <strong>By three months</strong>, you stop thinking about taping your toes before twenty-milers – and through peak training and race season it’s zero blister downtime and zero damaged toenails.",
       "It’s also easy to put on: gather the sock down to the toe sleeves, slide your big toe in first, ease the rest into place, then pull it smoothly over your heel so the arch band sits centered.",
-      "<a href=\"https://aurelunehealth.com/products/aurelune-run-lightweight-mini-crew-toesocks/\">AURELUNE</a> gives you the ultimate peace of mind for every run, from your first warm-up stride to your final mile."
+      "<a href=\"{{ctaUrl}}\">AURELUNE</a> gives you the ultimate peace of mind for every run, from your first warm-up stride to your final mile."
     ]
   },
   "testimonials": {
@@ -345,7 +346,7 @@
   "purchaseProcess": {
     "headline": "Purchase and Delivery Process",
     "body": [
-      "Getting <a href=\"https://aurelunehealth.com/products/aurelune-run-lightweight-mini-crew-toesocks/\">AURELUNE</a> is really simple.",
+      "Getting <a href=\"{{ctaUrl}}\">AURELUNE</a> is really simple.",
       "Since it’s sold online directly, you’re getting it at a great price without the markups you’d find in running stores.",
       "Orders ship from a United States facility and are <strong>processed within 1 to 2 business days</strong>, with a tracking link emailed as soon as your package leaves the warehouse. Orders over $50 qualify for <strong>free 2-day shipping</strong>.",
       "And the <strong>Buy 1 Get 1 Free deal was already applied at checkout</strong>, so there was no need to mess around with discount codes. On top of that, there’s a <strong>90-day free return policy</strong> if the fit isn’t right for you."
@@ -357,7 +358,7 @@
       "Getting your own AURELUNE with the <strong>Buy 1 Get 1 Free</strong> deal is simple. Just follow these steps:"
     ],
     "steps": [
-      "<strong>Go to</strong> the official AURELUNE <a href=\"https://aurelunehealth.com/products/aurelune-run-lightweight-mini-crew-toesocks/\">website</a>;",
+      "<strong>Go to</strong> the official AURELUNE <a href=\"{{ctaUrl}}\">website</a>;",
       "<strong>Choose </strong>your size and how many pairs you want;",
       "<strong>Enter </strong>your shipping and payment details;",
       "<strong>Confirm </strong>your order and get ready for blister-free miles!"
