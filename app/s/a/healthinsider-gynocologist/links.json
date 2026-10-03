@@ -1,0 +1,96 @@
+{
+  "nav": {
+    "home": "https://healthinsider.news/",
+    "categories": [
+      "https://healthinsider.news/category/keto-diet/",
+      "https://healthinsider.news/category/diabetes/",
+      "https://healthinsider.news/category/fasting/",
+      "https://healthinsider.news/category/lifestyle/",
+      "https://healthinsider.news/category/sport/",
+      "https://healthinsider.news/category/gastro/",
+      "https://healthinsider.news/category/beauty/",
+      "https://healthinsider.news/category/psychology/"
+    ],
+    "languages": {
+      "nl": "https://healthinsider.news/nl/",
+      "fr": "https://healthinsider.news/fr/",
+      "de": "https://healthinsider.news/de/",
+      "it": "https://healthinsider.news/it/",
+      "no": "https://healthinsider.news/no/",
+      "pl": "https://healthinsider.news/pl/",
+      "es": "https://healthinsider.news/es/",
+      "tr": "https://healthinsider.news/tr/",
+      "pt": "https://healthinsider.news/pt/",
+      "se": "https://healthinsider.news/se/"
+    }
+  },
+  "disclaimer": "https://healthinsider.news/terms-of-service/#affiliate-advertising-disclosure",
+  "breadcrumbs": [
+    "https://healthinsider.news/",
+    "https://healthinsider.news/category/lifestyle/"
+  ],
+  "hero": {
+    "category": "https://healthinsider.news/category/lifestyle/"
+  },
+  "finalCta": "http://quiz.herbodhi.com/?flow=adv&utm_source=healthinsider-direct&utm_medium=referral&utm_term=blog_cortisolsuppv2_cv_en",
+  "references": [
+    "https://www.frontiersin.org/journals/global-womens-health/articles/10.3389/fgwh.2021.774308/full",
+    "https://pubmed.ncbi.nlm.nih.gov/16353426/",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC5958156/",
+    "https://www.mdpi.com/2076-3921/13/3/331",
+    "https://e-nrp.org/DOIx.php?id=10.4162%2Fnrp.2022.16.S1.S147",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC1764641/",
+    "https://www.goodrx.com/conditions/menopause/supplements-and-otc-meds",
+    "https://www.webmd.com/vitamins/ai/ingredientmono-936/dong-quai",
+    "https://www.naturalmedicinejournal.com/journal/ashwagandha-helps-manage-stress-related-weight-gain",
+    "https://pubmed.ncbi.nlm.nih.gov/33856729/",
+    "https://pubmed.ncbi.nlm.nih.gov/27055824/",
+    "https://pubmed.ncbi.nlm.nih.gov/34119421/",
+    "https://pubmed.ncbi.nlm.nih.gov/27055824/",
+    "https://pubmed.ncbi.nlm.nih.gov/28635182/"
+  ],
+  "share": {
+    "facebook": "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fhealthinsider.news%2Fgynecologists-tested-best-supplements-on-patients-to-reduce-cortisol-meno-supplements-en%2F",
+    "twitter": "https://twitter.com/intent/tweet?text=Gynecologists%20Tested%205%20Menopause%20Supplements%3A%20Only%201%20Helped%20With%20Weight%20Loss.%20Here%E2%80%99s%20Why.&url=https%3A%2F%2Fhealthinsider.news%2Fgynecologists-tested-best-supplements-on-patients-to-reduce-cortisol-meno-supplements-en%2F",
+    "pinterest": "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fhealthinsider.news%2Fgynecologists-tested-best-supplements-on-patients-to-reduce-cortisol-meno-supplements-en%2F&media=https%3A%2F%2Fhealthinsider.news%2Fapp%2Fuploads%2F2025%2F07%2FAdvertorial-featured-pics-1286-x-600-px-1.webp",
+    "linkedin": "https://www.linkedin.com/cws/share?url=https%3A%2F%2Fhealthinsider.news%2Fgynecologists-tested-best-supplements-on-patients-to-reduce-cortisol-meno-supplements-en%2F"
+  },
+  "comments": {
+    "replies": [
+      "#comment-57895",
+      "#comment-57896",
+      "#comment-57897"
+    ]
+  },
+  "footer": {
+    "home": "https://healthinsider.news/",
+    "social": {
+      "facebook": "https://www.facebook.com/HealthInsiderNew/",
+      "twitter": "https://twitter.com/Health_Insider_/",
+      "pinterest": "https://www.pinterest.com/HealthInsiderNews/",
+      "youtube": "https://www.youtube.com/channel/UCSYsQCFyN-0-smOTByy0xZA",
+      "instagram": "https://www.instagram.com/healthinsidernews/"
+    },
+    "categories": [
+      "https://healthinsider.news/category/keto-diet/",
+      "https://healthinsider.news/category/diabetes/",
+      "https://healthinsider.news/category/fasting/",
+      "https://healthinsider.news/category/lifestyle/",
+      "https://healthinsider.news/category/sport/",
+      "https://healthinsider.news/category/gastro/",
+      "https://healthinsider.news/category/beauty/",
+      "https://healthinsider.news/category/psychology/"
+    ],
+    "links": [
+      "https://healthinsider.news/contact-us/",
+      "https://healthinsider.news/medical-team/",
+      "https://healthinsider.news/editorial-process/",
+      "https://healthinsider.news/about/",
+      "https://healthinsider.news/terms-of-service/",
+      "https://healthinsider.news/cookie-policy/",
+      "#"
+    ],
+    "additionalInfo": "https://healthinsider.news/additional-information/",
+    "privacyPolicy": "https://healthinsider.news/privacy-policy/"
+  }
+}

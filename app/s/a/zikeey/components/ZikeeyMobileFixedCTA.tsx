@@ -5,7 +5,7 @@ import adv from "../copy.json";
 
 export function ZikeeyMobileFixedCTA() {
   const [visible, setVisible] = useState(false);
-  const { mobileCta } = adv.article;
+  const { stickyCta } = adv;
 
   useEffect(() => {
     const onScroll = () => setVisible(window.scrollY > 400);
@@ -20,11 +20,11 @@ export function ZikeeyMobileFixedCTA() {
       }`}
     >
       <a
-        href={mobileCta.buttonUrl}
+        href="#"
         className="text-white text-sm font-extrabold bg-teal-600 block mt-3 p-[15px] rounded-[10px] transition-all duration-200 hover:bg-teal-700 active:scale-95 select-none"
       >
         <span className="inline-flex items-center justify-center gap-1">
-          {mobileCta.buttonText}
+          {stickyCta.ctaText}
           <span>→</span>
         </span>
       </a>

@@ -49,14 +49,14 @@ function HeaderSection(): React.JSX.Element {
       <header className="bg-white z-[1000] pt-2.5 pb-5 md:pt-[30px] animate-fade-in">
         <div className="items-center flex justify-between">
           <div className="min-w-[auto] w-[85px] md:w-[145px]">
-            <img src={media.header.logoSrc} alt={content.header.logoAlt} className="align-baseline w-full" />
+            <img src={media.header.logoSrc} alt={content.nav.logoAlt} className="align-baseline w-full" />
           </div>
           <div className="min-w-[auto] text-right">
             <p className="text-gray-200 text-[15px] leading-[19.5px] font-archivo md:text-xl md:leading-[26px]">
-              {content.header.advertorialLabel}
+              {content.nav.advertorialLabel}
             </p>
             <p className="text-sky-600 text-xl font-bold leading-[26px] font-archivo md:text-[25px] md:leading-[32.5px]">
-              {content.header.sectionLabel}
+              {content.nav.sectionLabel}
             </p>
           </div>
         </div>
@@ -72,13 +72,13 @@ function HeaderSection(): React.JSX.Element {
           </picture>
           <div className="relative items-center bg-white flex overflow-hidden">
             <div className="text-base font-bold bg-amber-300 min-w-[auto] text-nowrap z-[2] pl-3 pr-[15px] py-3 font-archivo md:text-xl md:px-5 md:py-[15px]">
-              {content.header.featuredOnLabel}
+              {content.featuredOn.label}
             </div>
             <div className="min-w-[auto] mx-auto px-2.5 md:px-5">
               <picture>
                 <img
                   src={media.header.featuredOnLogosSrc}
-                  alt={content.header.featuredOnLogosAlt}
+                  alt={content.featuredOn.logosAlt}
                   className="align-baseline w-full"
                 />
               </picture>
@@ -97,15 +97,15 @@ function ArticleIntroSection(): React.JSX.Element {
     <div className="max-w-[830px] mx-auto px-5 md:px-8" ref={ref}>
       <div className="reveal mb-[30px] md:mb-10">
         <h1 className="text-[32px] font-bold leading-[37.44px] font-archivo md:text-[50px] md:leading-[58.5px]">
-          {content.articleIntro.heading}
+          {content.hero.headline}
         </h1>
       </div>
       <div className="reveal reveal-delay-1 mb-2.5">
         <p className="text-stone-500 text-sm leading-[18.2px] md:text-lg md:leading-[23.4px]">
-          {content.articleIntro.byline}
+          {content.hero.byline}
         </p>
       </div>
-      {content.articleIntro.paragraphs.map((p, i) => (
+      {content.lead.body.map((p, i) => (
         <div key={i} className={`reveal reveal-delay-${Math.min(i + 2, 5)} mb-[30px]`}>
           <p className="text-[26px] leading-[39px]">{p}</p>
         </div>
@@ -123,14 +123,14 @@ function MediaBlockSection(): React.JSX.Element {
         <div className="accent-left">
           <picture className="block overflow-hidden">
             <img
-              alt={content.mediaBlock.imageAlt}
+              alt={content.productReveal.imageAlt}
               src={media.mediaBlock.imageSrc}
               className="align-baseline w-full transition-transform duration-700 hover:scale-[1.01]"
             />
           </picture>
           <div className="pl-5 pr-[13px] pt-[13px] md:pl-[35px]">
             <p className="text-xl leading-[26px] md:text-[22px] md:leading-[37.4px]">
-              {content.mediaBlock.caption}
+              {content.productReveal.caption}
             </p>
           </div>
         </div>
@@ -146,11 +146,11 @@ function ArticleSection(): React.JSX.Element {
     <div className="max-w-[830px] mx-auto px-5 md:px-8" ref={ref}>
       <div className="reveal mb-[30px] md:mb-10">
         <h2 className="text-[32px] font-bold leading-[41.6px] font-archivo md:text-4xl md:leading-[46.8px]">
-          {content.articleSection.heading}
+          {content.discovery.headline}
         </h2>
       </div>
-      {content.articleSection.paragraphs.map((p, i) => (
-        <div key={i} className={`reveal reveal-delay-${Math.min(i + 1, 5)} mb-[30px]${i === content.articleSection.paragraphs.length - 1 ? " md:mb-10" : ""}`}>
+      {content.discovery.body.map((p, i) => (
+        <div key={i} className={`reveal reveal-delay-${Math.min(i + 1, 5)} mb-[30px]${i === content.discovery.body.length - 1 ? " md:mb-10" : ""}`}>
           <p className="text-[26px] leading-[39px]">{p}</p>
         </div>
       ))}
@@ -158,11 +158,10 @@ function ArticleSection(): React.JSX.Element {
   )
 }
 
-function VideoBlockSection({ videoIndex }: { videoIndex: number }): React.JSX.Element {
-  const { content, media } = useAdvertorialData()
+function VideoBlockSection({ videoIndex, caption }: { videoIndex: number; caption: string }): React.JSX.Element {
+  const { media } = useAdvertorialData()
   const ref = useScrollReveal()
   const video = media.videos[videoIndex]
-  const desc = content.videos[videoIndex]?.description ?? ""
   return (
     <div className="max-w-[1040px] mx-auto px-5 md:px-8" ref={ref}>
       <div className="reveal mb-10">
@@ -177,7 +176,7 @@ function VideoBlockSection({ videoIndex }: { videoIndex: number }): React.JSX.El
             className="align-baseline w-full"
           />
           <div className="pl-5 pr-[13px] pt-[13px] md:pl-[35px]">
-            <p className="text-xl leading-[26px] md:text-[22px] md:leading-[37.4px]">{desc}</p>
+            <p className="text-xl leading-[26px] md:text-[22px] md:leading-[37.4px]">{caption}</p>
           </div>
         </div>
       </div>
@@ -188,29 +187,29 @@ function VideoBlockSection({ videoIndex }: { videoIndex: number }): React.JSX.El
 function FeaturesListSection(): React.JSX.Element {
   const { content, media } = useAdvertorialData()
   const ref = useScrollReveal()
-  const { featuresList } = content
+  const { mechanism, features } = content
   return (
     <div className="max-w-[830px] mx-auto px-5 md:px-8" ref={ref}>
       <div className="reveal mb-[30px] md:mb-10">
         <h2 className="text-[32px] font-bold leading-[41.6px] font-archivo md:text-4xl md:leading-[46.8px]">
-          {featuresList.heading}
+          {mechanism.headline}
         </h2>
       </div>
-      {featuresList.paragraphs.map((p, i) => (
-        <div key={i} className={`reveal reveal-delay-${Math.min(i + 1, 5)} mb-[30px]${i === featuresList.paragraphs.length - 1 ? " md:mb-10" : ""}`}>
+      {mechanism.body.map((p, i) => (
+        <div key={i} className={`reveal reveal-delay-${Math.min(i + 1, 5)} mb-[30px]${i === mechanism.body.length - 1 ? " md:mb-10" : ""}`}>
           <p className="text-[26px] leading-[39px]">{p}</p>
         </div>
       ))}
       <div className="reveal mb-[30px]">
         <h2 className="text-[32px] font-bold leading-[41.6px] font-archivo md:text-4xl md:leading-[46.8px]">
-          {featuresList.featuresSubheading}
+          {features.headline}
         </h2>
       </div>
       <div className="reveal mb-[30px]">
-        <p className="text-[26px] leading-[39px]">{featuresList.featuresSubheadingBody}</p>
+        <p className="text-[26px] leading-[39px]">{features.subheadline}</p>
       </div>
       <ul className="text-[26px] leading-[34.58px] list-none pl-5">
-        {featuresList.features.map((f, i) => (
+        {features.items.map((f, i) => (
           <li
             key={i}
             className={`reveal reveal-delay-${Math.min(i + 1, 5)} bg-no-repeat bg-size-[39px_28px] bg-[position:left_0%] pl-16 pb-[35px] md:bg-size-[44px_32px] md:bg-[position:left_5px] md:pl-[74px]`}
@@ -220,7 +219,7 @@ function FeaturesListSection(): React.JSX.Element {
               {f.title}
               {f.sup && <sup className="text-xs leading-[15.96px]">{f.sup}</sup>}
             </strong>
-            <span className="hidden md:block text-[22px] leading-[33px] font-normal">{f.desc}</span>
+            <span className="hidden md:block text-[22px] leading-[33px] font-normal">{f.description}</span>
           </li>
         ))}
       </ul>
@@ -232,7 +231,7 @@ function StateSelectorSection(): React.JSX.Element {
   const { content, media } = useAdvertorialData()
   const [selected, setSelected] = useState<string | null>(null)
   const ref = useScrollReveal()
-  const { stateSelector } = content
+  const { offer, stateSelector, reviews } = content
   const stateMedia = media.stateSelector
 
   return (
@@ -240,11 +239,11 @@ function StateSelectorSection(): React.JSX.Element {
       <div className="mb-[60px]">
         <div className="reveal mb-[30px] md:mb-10">
           <h2 className="text-[32px] font-bold leading-[41.6px] font-archivo md:text-4xl md:leading-[46.8px]">
-            {stateSelector.heading}
+            {offer.headline}
           </h2>
         </div>
-        {stateSelector.paragraphs.map((p, i) => (
-          <div key={i} className={`reveal reveal-delay-${Math.min(i + 1, 4)} mb-[30px]${i === stateSelector.paragraphs.length - 1 ? " md:mb-10" : ""}`}>
+        {offer.body.map((p, i) => (
+          <div key={i} className={`reveal reveal-delay-${Math.min(i + 1, 4)} mb-[30px]${i === offer.body.length - 1 ? " md:mb-10" : ""}`}>
             <p className="text-[26px] leading-[39px]">{p}</p>
           </div>
         ))}
@@ -254,37 +253,37 @@ function StateSelectorSection(): React.JSX.Element {
             <div className="bg-sky-50 -mx-5 px-5 py-[30px] md:mx-0 md:px-[55px] md:py-10">
               <div className="mb-5">
                 <p className="text-[26px] font-bold leading-[39px] font-archivo md:text-3xl md:leading-[45px]">
-                  {stateSelector.stateSelectorLabel}
+                  {stateSelector.label}
                 </p>
               </div>
               {selected && (
                 <div className="mb-5 px-4 py-3 bg-green-50 border border-green-300 rounded-lg text-green-800 text-xl animate-fade-in">
-                  ✅ <strong>{selected}</strong> {stateSelector.stateAvailableMessage}
+                  ✅ <strong>{selected}</strong> {stateSelector.availableMessage}
                   <a href="#" className="block mt-2 text-sky-600 font-bold underline hover:text-sky-800 transition-colors">
-                    {stateSelector.stateAvailableCta}
+                    {stateSelector.availableCtaText}
                   </a>
                 </div>
               )}
               <div className="mb-5">
                 <div className="grid grid-cols-2 gap-2.5 md:grid-cols-3">
-                  {stateMedia.states.map((s) => (
+                  {stateSelector.states.map((name, i) => (
                     <button
-                      key={s.name}
-                      onClick={() => setSelected(s.name)}
+                      key={name}
+                      onClick={() => setSelected(name)}
                       className={`items-center bg-white flex justify-between border p-[7px] rounded-[10px] border-solid transition-all duration-200 cursor-pointer ${
-                        selected === s.name
+                        selected === name
                           ? "border-amber-500 bg-amber-100 shadow-md"
                           : "border-blue-300 hover:bg-amber-400 hover:border-amber-400 hover:shadow-sm"
                       }`}
                     >
-                      <img src={s.imgSrc} alt={`${s.name} state`} className="min-w-[auto] align-baseline" />
-                      <p className="text-[20px] md:text-[25px] grow min-w-[auto] text-left font-archivo">{s.name}</p>
+                      <img src={stateMedia.states[i]} alt={`${name} state`} className="min-w-[auto] align-baseline" />
+                      <p className="text-[20px] md:text-[25px] grow min-w-[auto] text-left font-archivo">{name}</p>
                     </button>
                   ))}
                 </div>
               </div>
               <a href="#" className="text-[22px] font-bold block text-center underline hover:text-sky-600 transition-colors duration-200">
-                {stateSelector.dontSeeStateText}{" "}
+                {stateSelector.notListedText}{" "}
                 <img src={stateMedia.doubleArrowSrc} alt="" className="inline align-baseline" />
               </a>
             </div>
@@ -301,17 +300,17 @@ function StateSelectorSection(): React.JSX.Element {
         </div>
         <div className="reveal mb-[25px]">
           <h2 className="text-[32px] font-bold leading-[41.6px] font-archivo md:text-4xl md:leading-[46.8px]">
-            {stateSelector.reviewsHeading}
+            {reviews.headline}
           </h2>
         </div>
         <div className="reveal reveal-delay-1 mb-[30px] md:mb-10">
           <p className="text-[26px] leading-[39px]">
-            <mark className="font-bold bg-orange-200">{stateSelector.reviewsSubheadingHighlight}</mark>{" "}
-            {stateSelector.reviewsSubheadingBody}
+            <mark className="font-bold bg-orange-200">{reviews.subheadlineHighlight}</mark>{" "}
+            {reviews.subheadline}
           </p>
         </div>
         <div>
-          {stateSelector.reviews.map((review, index) => (
+          {reviews.items.map((review, index) => (
             <div key={index}>
               <div className={`reveal reveal-delay-${index + 1}`}>
                 <div className="items-baseline gap-x-2.5 flex flex-wrap gap-y-2.5 mb-5">
@@ -327,7 +326,7 @@ function StateSelectorSection(): React.JSX.Element {
                   </p>
                 </div>
               </div>
-              {index < stateSelector.reviews.length - 1 && (
+              {index < reviews.items.length - 1 && (
                 <div className="mb-[30px]">
                   <div className="bg-neutral-400 h-px" />
                 </div>
@@ -353,7 +352,7 @@ function RelatedStoriesSection(): React.JSX.Element {
       </div>
       <div className="reveal reveal-delay-1 mb-[50px]">
         <div className="gap-x-[30px] flex flex-col gap-y-[30px] md:gap-x-2.5 md:flex-row md:gap-y-2.5">
-          {content.relatedStories.stories.map((story, i) => {
+          {content.relatedStories.items.map((story, i) => {
             const storyMedia = media.relatedStories.stories[i]
             return (
               <div
@@ -372,7 +371,7 @@ function RelatedStoriesSection(): React.JSX.Element {
                   <p className="text-[17px] font-bold grow leading-[22.1px] font-archivo md:text-xl md:leading-[26px]">
                     {story.description}
                   </p>
-                  <a href={story.linkHref} className="text-xs font-bold block underline font-archivo hover:text-sky-600 transition-colors duration-200">
+                  <a href="#" className="text-xs font-bold block underline font-archivo hover:text-sky-600 transition-colors duration-200">
                     READ MORE
                   </a>
                 </div>
@@ -391,7 +390,7 @@ function NewsletterSection(): React.JSX.Element {
   const [status, setStatus] = useState<"idle" | "success" | "error">("idle")
   const [loading, setLoading] = useState(false)
   const ref = useScrollReveal()
-  const { newsletter } = content
+  const { newsletter, footer } = content
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
@@ -457,7 +456,7 @@ function NewsletterSection(): React.JSX.Element {
                           Sending
                         </span>
                       ) : (
-                        newsletter.subscribeLabel
+                        newsletter.ctaText
                       )}
                     </button>
                   </form>
@@ -471,19 +470,19 @@ function NewsletterSection(): React.JSX.Element {
           </div>
         </div>
         <div className="reveal reveal-delay-1 mb-[30px]">
-          <p className="text-white leading-[20.8px]">{newsletter.companyDescription}</p>
+          <p className="text-white leading-[20.8px]">{footer.about}</p>
         </div>
-        {newsletter.footnotes.map((note, i) => (
+        {footer.footnotes.map((note, i) => (
           <div key={i} className={`reveal reveal-delay-${i + 2} mb-2.5`}>
             <p className="text-stone-300 text-xs leading-[15.6px]">{note}</p>
           </div>
         ))}
         <div className="reveal reveal-delay-4 mb-2.5">
           <footer className="text-neutral-300 flex flex-wrap gap-x-1 gap-y-1">
-            {newsletter.footerLinks.map((link, i, arr) => (
-              <span key={link.label} className="inline-flex items-center gap-1">
-                <a href={link.href} className="text-stone-300 text-xs hover:text-white transition-colors duration-200 underline-offset-2 hover:underline">
-                  {link.label}
+            {footer.links.map((label, i, arr) => (
+              <span key={label} className="inline-flex items-center gap-1">
+                <a href="#" className="text-stone-300 text-xs hover:text-white transition-colors duration-200 underline-offset-2 hover:underline">
+                  {label}
                 </a>
                 {i < arr.length - 1 && <span className="text-stone-500 text-xs">|</span>}
               </span>
@@ -491,7 +490,7 @@ function NewsletterSection(): React.JSX.Element {
           </footer>
         </div>
         <p className="text-stone-300 text-xs leading-[15.6px]">
-          © {newsletter.copyrightYear} All Rights Reserved.
+          © {footer.copyrightYear} All Rights Reserved.
         </p>
       </div>
     </div>
@@ -502,7 +501,7 @@ function FooterSection(): React.JSX.Element {
   const { content } = useAdvertorialData()
   return (
     <div className="bg-sky-700 py-4 text-center">
-      <p className="text-white text-sm opacity-80">{content.footer.text}</p>
+      <p className="text-white text-sm opacity-80">{content.footer.tagline}</p>
     </div>
   )
 }
@@ -520,9 +519,15 @@ export function HearTopBar({ content, media }: HearTopBarProps): React.JSX.Eleme
       <ArticleIntroSection />
       <MediaBlockSection />
       <ArticleSection />
-      <VideoBlockSection videoIndex={0} />
+      <VideoBlockSection
+        videoIndex={0}
+        caption={content.demoVideo.caption}
+      />
       <FeaturesListSection />
-      <VideoBlockSection videoIndex={1} />
+      <VideoBlockSection
+        videoIndex={1}
+        caption={content.socialProofVideo.caption}
+      />
       <StateSelectorSection />
       <RelatedStoriesSection />
       <NewsletterSection />

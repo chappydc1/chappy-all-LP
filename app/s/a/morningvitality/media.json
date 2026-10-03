@@ -16,5 +16,23 @@
     "section_guarantee": "/lp-images-files-videos-fonts/images/morningvitality/image10.jpg",
     "cta_product": "/lp-images-files-videos-fonts/images/morningvitality/image11.jpg",
     "section_healthy_vs_starving": "/lp-images-files-videos-fonts/images/morningvitality/image14.jpg"
+  },
+  "sections": {
+    "lead": "hero",
+    "problem": "section_night",
+    "failedSolutions": "section_patient",
+    "discovery": "section_discovery",
+    "mechanism": "section_nerve",
+    "solution": "section_miracle",
+    "breakthroughResults": "section_results",
+    "enemy": "section_threats",
+    "productReveal": "section_product",
+    "howItWorks": "section_howit",
+    "testimonials": "section_testimonials",
+    "pricing": "section_price",
+    "scarcity": "section_scarcity",
+    "guarantee": "section_guarantee",
+    "twoPaths": "section_healthy_vs_starving",
+    "finalCta": "cta_product"
   }
 }
