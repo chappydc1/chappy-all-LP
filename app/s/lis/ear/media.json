@@ -1,0 +1,82 @@
+{
+  "images": {
+    "author_avatar": {
+      "src": "/lp-images-files-videos-fonts/images/primepicks/ZXhwZXJ0LTQ0LmpwZw.jpg",
+      "alt": "Jade M., health writer"
+    },
+    "brand_logo": {
+      "src": "/lp-images-files-videos-fonts/images/ear/aurelune-logo.svg",
+      "alt": "AURELUNE"
+    },
+    "face_happy_green": {
+      "src": "/lp-images-files-videos-fonts/images/javy/67c74543a7ab85d00fb14d24_facehappy-green.svg",
+      "alt": ""
+    },
+    "face_happy_grey": {
+      "src": "/lp-images-files-videos-fonts/images/javy/67c7454306143bacf213c118_facehappy-grey.svg",
+      "alt": ""
+    },
+    "bundle": {
+      "src": "/lp-images-files-videos-fonts/images/ear/product-2.jpg",
+      "alt": "AURELUNE Ear Cleaner with Camera complete kit"
+    },
+    "icon_arrow": {
+      "src": "/lp-images-files-videos-fonts/images/javy/icon-1.svg",
+      "alt": ""
+    },
+    "icon_discount": {
+      "src": "/lp-images-files-videos-fonts/images/javy/icon-4.svg",
+      "alt": ""
+    },
+    "icon_close": {
+      "src": "/lp-images-files-videos-fonts/images/javy/icon-5.svg",
+      "alt": "Close"
+    },
+    "icon_gift": {
+      "src": "/lp-images-files-videos-fonts/images/javy/6724fdda94d57f82bf0c2f9a_bf-gift-icon.svg",
+      "alt": ""
+    }
+  },
+  "reasons": {
+    "reason_1": {
+      "src": "/lp-images-files-videos-fonts/images/ear/product-1.jpg",
+      "alt": "Ear cleaner streaming a live view of the ear canal to a phone"
+    },
+    "reason_2": {
+      "src": "/lp-images-files-videos-fonts/images/ear/product-5.jpg",
+      "alt": "One-piece molded ear spoon compared with ordinary ear picks"
+    },
+    "reason_3": {
+      "src": "/lp-images-files-videos-fonts/images/ear/product-3.jpg",
+      "alt": "Ear cleaner with soft silicone ear spoon covers"
+    },
+    "reason_4": {
+      "src": "/lp-images-files-videos-fonts/images/ear/product-4.jpg",
+      "alt": "Ear cleaner compatible with iOS, Android, HarmonyOS and tablets"
+    },
+    "reason_5": {
+      "src": "/lp-images-files-videos-fonts/images/ear/product-1.jpg",
+      "alt": "App screen showing photo and video capture controls"
+    },
+    "reason_6": {
+      "src": "/lp-images-files-videos-fonts/images/ear/product-2.jpg",
+      "alt": "Complete ear cleaning kit with picks, spiral cleaner and charging cable"
+    },
+    "reason_7": {
+      "src": "/lp-images-files-videos-fonts/images/ear/product-3.jpg",
+      "alt": "Color-coded ear spoon covers for each family member"
+    },
+    "reason_8": {
+      "src": "/lp-images-files-videos-fonts/images/ear/product-4.jpg",
+      "alt": "Ear cleaner camera used as an all-in-one examiner"
+    },
+    "reason_9": {
+      "src": "/lp-images-files-videos-fonts/images/ear/product-2.jpg",
+      "alt": "Rechargeable ear cleaner kit"
+    },
+    "reason_10": {
+      "src": "/lp-images-files-videos-fonts/images/ear/product-5.jpg",
+      "alt": "Durable one-piece molded ear spoon design"
+    }
+  }
+}
