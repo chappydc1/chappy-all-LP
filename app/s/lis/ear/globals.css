@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ── Scroll Reveal (disabled: content renders immediately) ── */
+.scroll-reveal,
+.scroll-reveal-visible {
+  opacity: 1;
+  transform: none;
+  transition: none;
+}
+
+/* ── Entrance animations (disabled: content renders immediately) ── */
+.animate-fade-in,
+.animate-fade-in-up {
+  animation: none !important;
+  opacity: 1 !important;
+  transform: none !important;
+}
