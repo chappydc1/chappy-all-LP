@@ -20,6 +20,11 @@ You MUST maintain this file to track your work across messages. This is NON-NEGO
 <changelog>
 <!-- NEXT_ENTRY_HERE -->
 
+## 2026-10-06 (ear cleaner 2)
+- Added `/s/com/ear-cleaner-2` (`app/s/com/ear-cleaner-2/`), a duplicate of `/s/com/best-toe-socks` with components renamed `EarCleaner2*`, retargeted to the AURELUNE Ear Cleaner with Camera ($17.97, reg. $34.99, 30-day money-back guarantee, 67,328 reviews).
+- #2–#5 are Bebird EarSight Note 5 ($71.99), Teslong Digital Ear Camera 4.5" ($79.99), eosera Wax Blaster MD ($29.99), Debrox Earwax Removal Kit; rating categories are Wax Removal / Camera Clarity / Ease of Use / Value / Customer Reviews.
+- Images live in `public/lp-images-files-videos-fonts/com/ear-cleaner-2/images/`; the hero is a collage of all five products.
+
 ## 2026-10-03 (pilates grip socks)
 - Added `/s/com/best-pilates-grip-socks` (`app/s/com/best-pilates-grip-socks/`), a duplicate of `/s/com/best-toe-socks` with components renamed `BestPilatesGripSocks*`.
 - #1 is AURELUNE Happy Full Foot Grip Sock; #2–#5 are Tavi Savvy, Arebesk Classic Crew, ToeSox Full Toe Low Rise, Gaiam Grippy Yoga Socks (prices and review counts from their stores).
