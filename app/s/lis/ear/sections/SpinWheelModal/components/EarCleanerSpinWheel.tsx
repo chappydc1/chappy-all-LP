@@ -25,6 +25,8 @@ interface ConfettiPiece {
   shape: "rect" | "circle";
 }
 
+const WINNING_SEGMENT_JITTER_DEG = 15;
+
 type SpinState = "idle" | "spinning" | "done";
 
 const WHEEL_CURSOR: Record<SpinState, string> = {
@@ -80,7 +82,9 @@ export const EarCleanerSpinWheel = (): JSX.Element => {
     if (spinState !== "idle") return;
     setSpinning(true);
     const extraSpins = 5 + Math.floor(Math.random() * 3);
-    const landingOffset = Math.floor(Math.random() * 360);
+    const currentAngle = ((rotation % 360) + 360) % 360;
+    const targetAngle = (360 + WINNING_SEGMENT_JITTER_DEG * (Math.random() * 2 - 1)) % 360;
+    const landingOffset = (targetAngle - currentAngle + 360) % 360;
     const newRotation = rotation + extraSpins * 360 + landingOffset;
     setRotation(newRotation);
 
@@ -94,9 +98,17 @@ export const EarCleanerSpinWheel = (): JSX.Element => {
     <div className="flex flex-col items-center gap-4 w-full">
       <div
         role="button"
+        tabIndex={0}
         aria-label="Spin to win"
+        aria-disabled={spinState !== "idle"}
         onClick={handleSpin}
-        className={`relative text-[15px] font-semibold items-center box-border h-[330px] leading-[18px] max-h-[350px] max-w-[350px] text-center uppercase w-[330px] border-stone-300 rounded-[99999px] border-[12px] border-solid font-alia_kefir transition-transform duration-100 ${WHEEL_CURSOR[spinState]}`}
+        onKeyDown={(e) => {
+          if (e.key === "Enter" || e.key === " ") {
+            e.preventDefault();
+            handleSpin();
+          }
+        }}
+        className={`relative text-[15px] font-semibold items-center box-border h-[330px] leading-[18px] max-h-[350px] max-w-[350px] text-center uppercase w-[330px] border-stone-300 rounded-[99999px] border-[12px] border-solid font-alia_kefir transition-transform duration-100 focus-visible:outline focus-visible:outline-4 focus-visible:outline-offset-4 focus-visible:outline-indigo-500 ${WHEEL_CURSOR[spinState]}`}
         style={{ touchAction: "manipulation" }}
       >
         <div
