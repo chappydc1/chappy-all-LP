@@ -144,15 +144,6 @@
     "badge": "FALL DISCOUNT ACTIVE",
     "scroll_threshold_px": 300
   },
-  "spin_wheel_modal": {
-    "title": "Spin the Wheel to Win Up to 49% OFF",
-    "badge": "FALL SPECIAL",
-    "badge_emoji": "🍂",
-    "result": "49% Off",
-    "result_note": "Discount applied at checkout automatically.",
-    "claim_text": "Claim My 49% Off →",
-    "hint": "Click the wheel to spin and reveal your discount!"
-  },
   "footer": {
     "disclaimer": "*49% OFF reflects the current sale price of $17.97 compared to the regular price of $34.99 on aurelunehealth.com. Pricing and availability are subject to change. The 30-Day Money-Back Guarantee applies to eligible U.S. orders; see the Aurelune Health refund policy for details. This product is not intended to diagnose, treat, cure or prevent any disease. If you have ear pain, discharge, hearing loss or a suspected ear infection, consult a healthcare professional before use.",
     "copyright": "© 2026 Aurelune Health. All rights reserved.",
