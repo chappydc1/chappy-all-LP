@@ -1,23 +1,32 @@
 {
-  "meta": {
+  "seo": {
     "title": "GlycoFlush VSL",
     "description": "GlycoFlush Video Sales Letter Landing Page"
   },
-  "header": {
+  "nav": {
     "broadcastLine1": "Sunday at 7 p.m. ET on CBS and Paramount+",
     "broadcastLine2": "Sunday starting at 4 p.m. ET on the CBS News app",
-    "nav": ["Latest", "Local News", "Live", "Shows"]
+    "items": [
+      "Latest",
+      "Local News",
+      "Live",
+      "Shows"
+    ]
   },
-  "offerBanner": {
+  "video": {
+    "resumeTitle": "You have already started watching this video",
+    "resumePlay": "Continue watching?",
+    "resumeReplay": "Start from beginning?"
+  },
+  "urgency": {
     "headline": "Claim your Discounted Glyco Lean now",
-    "urgency": "While Supplies Last!",
+    "subheadline": "While Supplies Last!",
     "countdown": "15:00"
   },
   "pricing": {
-    "sectionTitle": "Choose Your Package",
-    "cards": [
-      {
-        "id": "basic",
+    "headline": "Choose Your Package",
+    "packages": {
+      "basic": {
         "badge": "Basic",
         "title": "2 BOTTLES",
         "supply": "60 Day Supply",
@@ -36,8 +45,7 @@
         "ctaDiscountedPrice": "$158",
         "ctaShipping": "+ $9.99 SHIPPING"
       },
-      {
-        "id": "best-value",
+      "best-value": {
         "badge": "BEST VALUE!",
         "title": "6 BOTTLES",
         "supply": "180 Day Supply",
@@ -56,8 +64,7 @@
         "ctaFooterGuarantee": "60 DAYS GUARANTEE",
         "ctaFooterShipping": "+FREE SHIPPING"
       },
-      {
-        "id": "good-value",
+      "good-value": {
         "badge": "Good value!",
         "title": "3 BOTTLES",
         "supply": "90 Day Supply",
@@ -78,18 +85,23 @@
         "ctaShippingHighlight": "+FREE",
         "ctaShipping": "SHIPPING"
       }
-    ]
+    }
   },
   "guarantee": {
-    "headline1": "100% Satisfaction Guaranteed",
-    "headline2": "60-Days Money Back Guarantee",
+    "headline": "100% Satisfaction Guaranteed",
+    "subheadline": "60-Days Money Back Guarantee",
     "body": "Our supplements are backed by a 60-day money-back guarantee from the date of purchase. If, after at least 30 days of use, you are not completely satisfied with your results, the product, or your overall experience, simply contact us at contact@getglycolean.com.\n\nWe'll be ready to offer you all the guidance and support you need.\n\nThis is how confident we are in the quality and effectiveness of our products. Order your kit today, completely risk-free. We'll be by your side every step of your wellness journey!",
     "contactEmail": "contact@getglycolean.com",
-    "badgeLabels": ["GMP Certified", "All Natural", "Made in USA", "Non-GMO"]
+    "badgeLabels": [
+      "GMP Certified",
+      "All Natural",
+      "Made in USA",
+      "Non-GMO"
+    ]
   },
   "comments": {
-    "header": "Showing 16 of 552 comments",
-    "footer": "This post is no longer receiving comments!",
+    "headline": "Showing 16 of 552 comments",
+    "closedNotice": "This post is no longer receiving comments!",
     "items": [
       {
         "name": "Linda M.",
@@ -131,14 +143,5 @@
   },
   "footer": {
     "copyright": "Copyright 2026 by 60 Minutes. All rights reserved."
-  },
-  "video": {
-    "playerId": "69e16f36ed35062270c606c2",
-    "orgId": "b5e8472d-3421-4675-a219-1ae1b636b21f",
-    "videoId": "69e16ee9750b24d3132e385e",
-    "resumeTitle": "You have already started watching this video",
-    "resumePlay": "Continue watching?",
-    "resumeReplay": "Start from beginning?",
-    "pitchTimeSeconds": 3360
   }
 }

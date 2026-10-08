@@ -1,4 +1,5 @@
 import advData from "../../../copy.json";
+import linksData from "../../../links.json";
 
 export const MorningvitalityMorningVitalityReferencesFooter = () => {
   const { footer } = advData;
@@ -10,7 +11,7 @@ export const MorningvitalityMorningVitalityReferencesFooter = () => {
         <strong className="font-bold box-border caret-transparent outline-[3px]">References</strong>
       </p>
       <ul className="text-[0px] box-border caret-transparent leading-[0px] list-none outline-[3px] bg-[position:0px_0px] pl-0 pt-2.5">
-        {footer.references.map((ref, i) => (
+        {linksData.references.map((ref, i) => (
           <li key={i} className="text-xs box-border caret-transparent leading-[17.1429px] outline-[3px] bg-[position:0px_0px]">
             {ref}
           </li>
@@ -27,21 +28,21 @@ export const MorningvitalityMorningVitalityReferencesFooter = () => {
         </li>
       </ul>
       <a
-        href={footer.links.contact}
+        href={linksData.footer.contact}
         className="text-cyan-600 box-border caret-transparent outline-[3px] hover:text-cyan-800 hover:outline-0 hover:underline hover:border-cyan-800"
       >
         Contact
       </a>
       {" "}|{" "}
       <a
-        href={footer.links.privacy}
+        href={linksData.footer.privacy}
         className="text-cyan-600 box-border caret-transparent outline-[3px] hover:text-cyan-800 hover:outline-0 hover:underline hover:border-cyan-800"
       >
         Privacy Policy
       </a>
       {" "}|{" "}
       <a
-        href={footer.links.terms}
+        href={linksData.footer.terms}
         className="text-cyan-600 box-border caret-transparent outline-[3px] hover:text-cyan-800 hover:outline-0 hover:underline hover:border-cyan-800"
       >
         Terms &amp; Conditions

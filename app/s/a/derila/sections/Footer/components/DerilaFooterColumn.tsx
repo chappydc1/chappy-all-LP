@@ -1,11 +1,23 @@
 import media from "../../../media.json";
 
 type FooterItem = {
-  type: string;
   text: string;
   href?: string;
-  iconKey?: string;
-  underline?: boolean;
+  iconKey: string;
+};
+
+type FooterItemType = "button" | "link-with-icon" | "link";
+
+const UNDERLINED_ICON_KEY = "email";
+
+const getFooterItemType = (item: FooterItem): FooterItemType => {
+  if (!item.href) {
+    return "button";
+  }
+  if (item.iconKey) {
+    return "link-with-icon";
+  }
+  return "link";
 };
 
 export type DerilaFooterColumnProps = {
@@ -21,7 +33,9 @@ export const DerilaFooterColumn = ({ title, items }: DerilaFooterColumnProps) =>
       <p className="font-semibold box-border caret-transparent outline-[3px] mb-3">{title}</p>
       <div className="box-border caret-transparent gap-x-1.5 flex flex-col outline-[3px] gap-y-1.5">
         {items.map((item, index) => {
-          if (item.type === "button") {
+          const itemType = getFooterItemType(item);
+
+          if (itemType === "button") {
             const icon = item.iconKey ? icons[item.iconKey] : null;
             return (
               <button
@@ -38,7 +52,7 @@ export const DerilaFooterColumn = ({ title, items }: DerilaFooterColumnProps) =>
             );
           }
 
-          if (item.type === "link-with-icon" && item.iconKey && item.href) {
+          if (itemType === "link-with-icon") {
             const icon = icons[item.iconKey];
             return (
               <div
@@ -51,7 +65,7 @@ export const DerilaFooterColumn = ({ title, items }: DerilaFooterColumnProps) =>
                 </span>
                 <a
                   href={item.href}
-                  className={`box-border caret-transparent block min-h-[auto] min-w-[auto] outline-[3px]${item.underline ? " underline hover:no-underline" : ""}`}
+                  className={`box-border caret-transparent block min-h-[auto] min-w-[auto] outline-[3px]${item.iconKey === UNDERLINED_ICON_KEY ? " underline hover:no-underline" : ""}`}
                 >
                   {item.text}
                 </a>
@@ -59,19 +73,15 @@ export const DerilaFooterColumn = ({ title, items }: DerilaFooterColumnProps) =>
             );
           }
 
-          if (item.type === "link" && item.href) {
-            return (
-              <a
-                key={index}
-                href={item.href}
-                className="box-border caret-transparent block min-h-[auto] min-w-[auto] outline-[3px]"
-              >
-                {item.text}
-              </a>
-            );
-          }
-
-          return null;
+          return (
+            <a
+              key={index}
+              href={item.href}
+              className="box-border caret-transparent block min-h-[auto] min-w-[auto] outline-[3px]"
+            >
+              {item.text}
+            </a>
+          );
         })}
       </div>
     </div>

@@ -1,36 +1,16 @@
-import { ArticleContent } from "./ArticleContent";
+import { ArticleContent, type ArticleContentCopy } from "./ArticleContent";
 import { SidebarOffer } from "./SidebarOffer";
 
 type Review = {
   author: string;
   location: string;
   date: string;
-  stars: number;
   quote: string;
   text: string;
 };
 type ReviewMedia = { avatarSrc: string; starsSrc: string };
-type ArticleCopy = {
-  breadcrumb: string;
-  titleBold: string;
-  titleRest: string;
-  authorCaption: string;
-  ctaUrl: string;
-  ctaLabel: string;
-  ctaSidebarTitleLine1: string;
-  ctaSidebarTitleLine2: string;
-  ctaSidebarLabel: string;
-  disclaimer: string;
-  option1Heading: string;
-  option2Heading: string;
-  option3Heading: string;
-  productName: string;
-  productChipName: string;
-  regularPrice: string;
-  discountPct: string;
-  salePrice: string;
-  prescriptionAvgCost: string;
-  untreatedCount: string;
+export type ArticleLayoutCopy = ArticleContentCopy & {
+  sidebar: { headline: string[]; ctaText: string };
 };
 type ArticleMedia = {
   authorAvatarSrc: string;
@@ -53,22 +33,23 @@ type ArticleMedia = {
 type SidebarMedia = { productImageSrc: string; checkIconBgSrc: string };
 
 type Props = {
-  copy: ArticleCopy;
+  copy: ArticleLayoutCopy;
+  ctaUrl: string;
   media: ArticleMedia;
   reviewsCopy: Review[];
   reviewsMedia: ReviewMedia[];
   sidebarMedia: SidebarMedia;
 };
 
-export const ArticleLayout = ({ copy, media, reviewsCopy, reviewsMedia, sidebarMedia }: Props) => {
+export const ArticleLayout = ({ copy, ctaUrl, media, reviewsCopy, reviewsMedia, sidebarMedia }: Props) => {
   return (
     <div className="items-stretch box-border caret-transparent flex flex-wrap justify-start max-w-full outline-[3px] mt-1.5 md:flex-nowrap md:mt-5">
       <ArticleContent copy={copy} media={media} reviewsCopy={reviewsCopy} reviewsMedia={reviewsMedia} />
       <SidebarOffer
-        ctaUrl={copy.ctaUrl}
-        titleLine1={copy.ctaSidebarTitleLine1}
-        titleLine2={copy.ctaSidebarTitleLine2}
-        ctaLabel={copy.ctaSidebarLabel}
+        ctaUrl={ctaUrl}
+        titleLine1={copy.sidebar.headline[0] ?? ""}
+        titleLine2={copy.sidebar.headline[1] ?? ""}
+        ctaLabel={copy.sidebar.ctaText}
         productImageSrc={sidebarMedia.productImageSrc}
         checkIconBgSrc={sidebarMedia.checkIconBgSrc}
       />

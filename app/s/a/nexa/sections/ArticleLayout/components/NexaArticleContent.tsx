@@ -1,5 +1,6 @@
 // @ts-nocheck
 import adv from "../../../copy.json";
+import links from "../../../links.json";
 import media from "../../../media.json";
 import { NexaArticleHeader } from "./NexaArticleHeader";
 import { NexaArticleSection } from "./NexaArticleSection";
@@ -12,7 +13,7 @@ export const NexaArticleContent = () => {
     <div className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] w-[845px] pr-0 py-3 md:pr-2.5">
       <NexaArticleHeader
         variant="breadcrumb"
-        breadcrumbText={adv.article.breadcrumb}
+        breadcrumbText={adv.hero.breadcrumb}
         expertLabel=""
         expertText=""
         headlineText=""
@@ -33,8 +34,8 @@ export const NexaArticleContent = () => {
       <NexaArticleHeader
         variant="expert"
         breadcrumbText=""
-        expertLabel={adv.article.expert.label}
-        expertText={adv.article.expert.text}
+        expertLabel={adv.hero.eyebrow}
+        expertText={adv.hero.eyebrowText}
         headlineText=""
         subheadlineText=""
         ratingsImageSrc=""
@@ -50,8 +51,8 @@ export const NexaArticleContent = () => {
         breadcrumbText=""
         expertLabel=""
         expertText=""
-        headlineText={adv.article.headline}
-        subheadlineText={adv.article.subheadline}
+        headlineText={adv.hero.headline}
+        subheadlineText={adv.hero.subheadline}
         ratingsImageSrc=""
         ratingsText=""
         mainImageSrc=""
@@ -69,7 +70,7 @@ export const NexaArticleContent = () => {
         headlineText=""
         subheadlineText=""
         ratingsImageSrc={media.header.ratingsStars}
-        ratingsText={adv.article.ratingsText}
+        ratingsText={adv.hero.ratingsText}
         mainImageSrc=""
         authorImageSrc=""
         authorText=""
@@ -91,27 +92,27 @@ export const NexaArticleContent = () => {
         ratingsText=""
         mainImageSrc=""
         authorImageSrc={media.header.authorImage}
-        authorText={adv.article.author.name}
+        authorText={adv.hero.byline}
         verifiedImageSrc={media.header.verifiedIcon}
-        dateText={adv.article.author.date}
+        dateText={adv.hero.date}
       />
       <NexaArticleSection
         variant="paragraph"
         className="text-base box-border caret-transparent leading-[22px] outline-[3px] text-left pt-[15px] font-montserrat md:text-lg md:leading-[25px]"
       >
-        {adv.article.intro.p1}
+        {adv.lead.body[0]}
       </NexaArticleSection>
       <NexaArticleSection
         variant="paragraph"
         className="text-base font-bold box-border caret-transparent leading-[22px] outline-[3px] text-left pt-[15px] font-montserrat md:text-lg md:leading-[25px] md:pt-[25px]"
       >
-        {adv.article.intro.p2}
+        {adv.lead.body[1]}
       </NexaArticleSection>
       <NexaArticleSection
         variant="paragraph"
         className="text-base font-bold box-border caret-transparent leading-[22px] outline-[3px] text-left pt-[15px] font-montserrat md:text-lg md:leading-[25px] md:pt-[25px]"
       >
-        {adv.article.intro.p3}
+        {adv.lead.body[2]}
       </NexaArticleSection>
       <p className="box-border caret-transparent outline-[3px]"></p>
       <p className="box-border caret-transparent outline-[3px]"></p>
@@ -123,7 +124,7 @@ export const NexaArticleContent = () => {
         variant="statText"
         className="text-2xl font-bold box-border caret-transparent leading-[30px] outline-[3px] text-left mt-[30px] font-montserrat md:text-[37px] md:leading-[45px]"
       >
-        {adv.article.problemSection.statHeadline}
+        {adv.problem.headline}
       </NexaArticleSection>
       <NexaArticleSection
         variant="image"
@@ -135,33 +136,33 @@ export const NexaArticleContent = () => {
         variant="paragraph"
         className="text-base box-border caret-transparent leading-[22px] outline-[3px] text-left pt-[15px] font-montserrat md:text-lg md:leading-[25px]"
       >
-        {adv.article.problemSection.p1}
+        {adv.problem.body[0]}
       </NexaArticleSection>
       <div className="box-border caret-transparent outline-[3px]">
         <br className="box-border caret-transparent outline-[3px]" />
       </div>
       <div className="text-[19px] box-border caret-transparent leading-[22px] outline-[3px] text-left font-montserrat md:text-lg md:leading-[25px]">
         <span className="text-base box-border caret-transparent leading-[22px] outline-[3px] md:text-lg md:leading-[25px]">
-          {adv.article.problemSection.p2}
+          {adv.problem.body[1]}
         </span>
       </div>
       <div className="box-border caret-transparent outline-[3px]">
         <br className="box-border caret-transparent outline-[3px]" />
       </div>
       <div className="text-base box-border caret-transparent leading-[22px] outline-[3px] text-left font-montserrat md:text-lg md:leading-[25px]">
-        {adv.article.problemSection.p3}
+        {adv.problem.body[2]}
       </div>
       <div className="box-border caret-transparent outline-[3px]">
         <br className="box-border caret-transparent outline-[3px]" />
       </div>
       <div className="text-base box-border caret-transparent leading-[22px] outline-[3px] text-left font-montserrat md:text-lg md:leading-[25px]">
-        {adv.article.problemSection.p4}
+        {adv.problem.body[3]}
       </div>
       <p className="box-border caret-transparent outline-[3px]"></p>
       <NexaArticleSection
         variant="calloutTitle"
         className="text-black text-[28px] font-bold box-border caret-transparent leading-[34px] outline-[3px] text-left mt-[30px] font-montserrat md:text-neutral-800 md:text-[33px] md:leading-[43px]"
-        title={adv.article.solutionSection.heading}
+        title={adv.solution.headline}
       />
       <NexaArticleSection
         variant="image"
@@ -175,25 +176,25 @@ export const NexaArticleContent = () => {
         variant="paragraph"
         className="text-base box-border caret-transparent leading-[22px] outline-[3px] text-left pt-[15px] font-montserrat md:text-lg md:leading-[25px]"
       >
-        {adv.article.solutionSection.p1}
+        {adv.solution.body[0]}
       </NexaArticleSection>
       <div className="box-border caret-transparent outline-[3px]">
         <br className="box-border caret-transparent outline-[3px]" />
       </div>
       <div className="text-base box-border caret-transparent leading-[22px] outline-[3px] text-left font-montserrat md:text-lg md:leading-[25px]">
-        {adv.article.solutionSection.p2}
+        {adv.solution.body[1]}
       </div>
       <div className="box-border caret-transparent outline-[3px]">
         <br className="box-border caret-transparent outline-[3px]" />
       </div>
       <div className="text-base box-border caret-transparent leading-[22px] outline-[3px] text-left font-montserrat md:text-lg md:leading-[25px]">
-        {adv.article.solutionSection.p3}
+        {adv.solution.body[2]}
       </div>
       <div className="box-border caret-transparent outline-[3px]">
         <br className="box-border caret-transparent outline-[3px]" />
       </div>
       <div className="text-base box-border caret-transparent leading-[22px] outline-[3px] text-left font-montserrat md:text-lg md:leading-[25px]">
-        {adv.article.solutionSection.p4}
+        {adv.solution.body[3]}
       </div>
       <p className="box-border caret-transparent outline-[3px]"></p>
       <p className="box-border caret-transparent outline-[3px]"></p>
@@ -211,7 +212,7 @@ export const NexaArticleContent = () => {
       <NexaArticleSection
         variant="calloutTitle"
         className="text-[28px] font-bold box-border caret-transparent leading-[34px] outline-[3px] mt-[30px] font-montserrat md:text-[33px] md:leading-[43px]"
-        title={adv.article.productIntro.heading}
+        title={adv.productReveal.headline}
       />
       <NexaArticleSection
         variant="video"
@@ -224,25 +225,25 @@ export const NexaArticleContent = () => {
         variant="paragraph"
         className="text-base box-border caret-transparent leading-[22px] outline-[3px] text-left pt-[25px] font-montserrat md:text-lg md:leading-[25px]"
       >
-        {adv.article.productIntro.p1}
+        {adv.productReveal.body[0]}
       </NexaArticleSection>
       <div className="box-border caret-transparent outline-[3px]">
         <br className="box-border caret-transparent outline-[3px]" />
       </div>
       <div className="text-base box-border caret-transparent leading-[22px] outline-[3px] text-left font-montserrat md:text-lg md:leading-[25px]">
-        {adv.article.productIntro.p2}
+        {adv.productReveal.body[1]}
       </div>
       <div className="box-border caret-transparent outline-[3px]">
         <br className="box-border caret-transparent outline-[3px]" />
       </div>
       <div className="text-base box-border caret-transparent leading-[22px] outline-[3px] text-left font-montserrat md:text-lg md:leading-[25px]">
-        {adv.article.productIntro.p3}
+        {adv.productReveal.body[2]}
       </div>
       <p className="box-border caret-transparent outline-[3px]"></p>
       <NexaArticleSection
         variant="calloutTitle"
         className="text-[28px] font-bold box-border caret-transparent leading-[34px] outline-[3px] mt-[30px] font-montserrat md:text-[33px] md:leading-[43px]"
-        title={adv.article.cleanPolishSection.heading}
+        title={adv.benefits.headline}
       />
       <NexaArticleSection
         variant="image"
@@ -255,32 +256,32 @@ export const NexaArticleContent = () => {
         variant="paragraph"
         className="text-base box-border caret-transparent leading-[22px] outline-[3px] text-left pt-[15px] font-montserrat md:text-lg md:leading-[25px]"
       >
-        {adv.article.cleanPolishSection.p1}
+        {adv.benefits.body[0]}
       </NexaArticleSection>
       <div className="box-border caret-transparent outline-[3px]">
         <br className="box-border caret-transparent outline-[3px]" />
       </div>
       <div className="text-base box-border caret-transparent leading-[22px] outline-[3px] text-left font-montserrat md:text-lg md:leading-[25px]">
-        {adv.article.cleanPolishSection.p2}
+        {adv.benefits.body[1]}
       </div>
       <div className="box-border caret-transparent outline-[3px]">
         <br className="box-border caret-transparent outline-[3px]" />
       </div>
       <div className="text-base box-border caret-transparent leading-[22px] outline-[3px] text-left font-montserrat md:text-lg md:leading-[25px]">
-        {adv.article.cleanPolishSection.p3}
+        {adv.benefits.body[2]}
       </div>
       <div className="box-border caret-transparent outline-[3px]">
         <br className="box-border caret-transparent outline-[3px]" />
       </div>
       <div className="text-base box-border caret-transparent leading-[22px] outline-[3px] text-left font-montserrat md:text-lg md:leading-[25px]">
-        {adv.article.cleanPolishSection.p4}
+        {adv.benefits.body[3]}
       </div>
       <p className="box-border caret-transparent outline-[3px]"></p>
       <NexaArticleSection
         variant="nestedCalloutTitle"
         className="text-[28px] font-bold box-border caret-transparent leading-[34px] outline-[3px] mt-[30px] font-montserrat md:text-[33px] md:leading-[43px]"
       >
-        {adv.article.rustScratchesSection.heading}
+        {adv.mechanism.headline}
         <br className="text-2xl box-border caret-transparent leading-[30px] outline-[3px] md:text-[37px] md:leading-[45px]" />
       </NexaArticleSection>
       <NexaArticleSection
@@ -293,19 +294,19 @@ export const NexaArticleContent = () => {
         variant="paragraph"
         className="text-base box-border caret-transparent leading-[22px] outline-[3px] text-left pt-[15px] font-montserrat md:text-lg md:leading-[25px]"
       >
-        {adv.article.rustScratchesSection.p1}
+        {adv.mechanism.body[0]}
       </NexaArticleSection>
       <div className="box-border caret-transparent outline-[3px]">
         <br className="box-border caret-transparent outline-[3px]" />
       </div>
       <div className="text-base box-border caret-transparent leading-[22px] outline-[3px] text-left font-montserrat md:text-lg md:leading-[25px]">
-        {adv.article.rustScratchesSection.p2}
+        {adv.mechanism.body[1]}
       </div>
       <div className="box-border caret-transparent outline-[3px]">
         <br className="box-border caret-transparent outline-[3px]" />
       </div>
       <div className="text-base box-border caret-transparent leading-[22px] outline-[3px] text-left font-montserrat md:text-lg md:leading-[25px]">
-        {adv.article.rustScratchesSection.p3}
+        {adv.mechanism.body[2]}
       </div>
       <p className="box-border caret-transparent outline-[3px]"></p>
       <div className="text-lg box-border caret-transparent leading-[23px] outline-[3px] text-left mt-[15px]"></div>
@@ -316,7 +317,7 @@ export const NexaArticleContent = () => {
         variant="nestedCalloutTitle"
         className="text-[28px] font-bold box-border caret-transparent leading-[34px] outline-[3px] mt-[30px] font-montserrat md:text-[33px] md:leading-[43px]"
       >
-        {adv.article.featuresSection.heading}
+        {adv.reasonsWhy.headline}
       </NexaArticleSection>
       <NexaArticleSection
         variant="standaloneImage"
@@ -324,7 +325,7 @@ export const NexaArticleContent = () => {
         src={media.article.whyChoose}
       />
       <div className="box-border caret-transparent flex outline-[3px] w-full pr-2.5 pt-0 pb-2.5 md:pt-[5px]"></div>
-      {adv.article.featuresSection.items.map((item, i) => (
+      {adv.reasonsWhy.items.map((item, i) => (
         <div key={i}>
           <div className="text-base box-border caret-transparent leading-[22px] outline-[3px] text-left font-montserrat md:text-lg md:leading-[25px]">
             ✅ <b>{item.label}</b> {item.text}
@@ -335,13 +336,13 @@ export const NexaArticleContent = () => {
         </div>
       ))}
       <div className="text-base box-border caret-transparent leading-[22px] outline-[3px] text-left font-montserrat md:text-lg md:leading-[25px]">
-        {adv.article.featuresSection.closingP1}
+        {adv.reasonsWhy.closing[0]}
       </div>
       <div className="box-border caret-transparent outline-[3px]">
         <br className="box-border caret-transparent outline-[3px]" />
       </div>
       <div className="text-base box-border caret-transparent leading-[22px] outline-[3px] text-left font-montserrat md:text-lg md:leading-[25px]">
-        {adv.article.featuresSection.closingP2}
+        {adv.reasonsWhy.closing[1]}
       </div>
       <p className="box-border caret-transparent outline-[3px]"></p>
       <p className="box-border caret-transparent outline-[3px]"></p>
@@ -366,7 +367,7 @@ export const NexaArticleContent = () => {
               className="text-black box-border caret-transparent h-[25px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] align-baseline w-[25px] md:h-[35px] md:w-[35px]"
             />
             <div className="text-base font-bold box-border caret-transparent leading-4 min-h-[auto] min-w-[auto] outline-[3px] pl-[7px] pr-px py-px font-montserrat md:text-lg md:leading-[18px] md:pl-2.5">
-              {adv.testimonialsSection.items[0].name}
+              {adv.testimonials.items[0].name}
             </div>
             <div className="text-base font-bold box-border caret-transparent block leading-4 min-h-[auto] min-w-[auto] outline-[3px] pl-3 pr-px py-px font-montserrat md:text-lg md:hidden md:leading-[18px] md:min-h-0 md:min-w-0 md:pl-2.5">
               ⭐️⭐️⭐️⭐️⭐️
@@ -382,7 +383,7 @@ export const NexaArticleContent = () => {
             <div className="text-base box-border caret-transparent leading-5 outline-[3px] text-left pr-0 md:text-[17px] md:leading-6 md:pr-2.5">
               <span className="text-red-600 text-base box-border caret-transparent leading-[22px] outline-[3px] md:text-[17px] md:leading-6">
                 <span className="text-black text-base box-border caret-transparent leading-[22px] outline-[3px] pr-px md:text-[17px] md:leading-6 md:pr-[3px]">
-                  {adv.testimonialsSection.items[0].text}
+                  {adv.testimonials.items[0].text}
                 </span>
               </span>
             </div>
@@ -409,7 +410,7 @@ export const NexaArticleContent = () => {
               className="text-black box-border caret-transparent h-[25px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] align-baseline w-[25px] md:h-[35px] md:w-[35px]"
             />
             <div className="text-base font-bold box-border caret-transparent leading-4 min-h-[auto] min-w-[auto] outline-[3px] pl-[7px] pr-px py-px font-montserrat md:text-lg md:leading-[18px] md:pl-2.5">
-              {adv.testimonialsSection.items[1].name}
+              {adv.testimonials.items[1].name}
             </div>
             <div className="text-base font-bold box-border caret-transparent block leading-4 min-h-[auto] min-w-[auto] outline-[3px] pl-3 pr-px py-px font-montserrat md:text-lg md:hidden md:leading-[18px] md:min-h-0 md:min-w-0 md:pl-2.5">
               ⭐️⭐️⭐️⭐️⭐️
@@ -425,7 +426,7 @@ export const NexaArticleContent = () => {
             <div className="text-base box-border caret-transparent leading-6 outline-[3px] text-left pr-px md:text-[17px] md:pr-2.5">
               <span className="text-red-600 text-base box-border caret-transparent outline-[3px] md:text-[17px]">
                 <span className="text-black text-base box-border caret-transparent leading-[22px] outline-[3px] pr-px md:text-[17px] md:leading-6 md:pr-[3px]">
-                  {adv.testimonialsSection.items[1].text}
+                  {adv.testimonials.items[1].text}
                   <br className="text-base box-border caret-transparent leading-[22px] outline-[3px] md:text-[17px] md:leading-6" />
                 </span>
               </span>
@@ -453,7 +454,7 @@ export const NexaArticleContent = () => {
               className="text-black box-border caret-transparent h-[25px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] align-baseline w-[25px] md:h-[35px] md:w-[35px]"
             />
             <div className="text-base font-bold box-border caret-transparent leading-4 min-h-[auto] min-w-[auto] outline-[3px] pl-[7px] pr-px py-px font-montserrat md:text-lg md:leading-[18px] md:pl-2.5">
-              {adv.testimonialsSection.items[2].name}
+              {adv.testimonials.items[2].name}
             </div>
             <div className="text-base font-bold box-border caret-transparent block leading-4 min-h-[auto] min-w-[auto] outline-[3px] pl-3 pr-px py-px font-montserrat md:text-lg md:hidden md:leading-[18px] md:min-h-0 md:min-w-0 md:pl-2.5">
               ⭐️⭐️⭐️⭐️⭐️
@@ -469,7 +470,7 @@ export const NexaArticleContent = () => {
             <div className="box-border caret-transparent leading-6 outline-[3px] text-left pr-px md:pr-2.5">
               <span className="text-red-600 box-border caret-transparent outline-[3px]">
                 <span className="text-black text-base box-border caret-transparent leading-[22px] outline-[3px] pr-[3px] md:text-[17px] md:leading-6">
-                  {adv.testimonialsSection.items[2].text}
+                  {adv.testimonials.items[2].text}
                 </span>
               </span>
             </div>
@@ -526,7 +527,7 @@ export const NexaArticleContent = () => {
       <p className="box-border caret-transparent outline-[3px]"></p>
       <NexaOfferSection
         variant=""
-        buttonText={adv.offerSection.buttons.getYour50Off}
+        buttonText={adv.offer.ctaText.getYour50Off}
         buttonTitle=""
         href=""
         linkTitle=""
@@ -534,7 +535,7 @@ export const NexaArticleContent = () => {
       />
       <NexaOfferSection
         variant=""
-        buttonText={adv.offerSection.buttons.get50Off}
+        buttonText={adv.offer.ctaText.get50Off}
         buttonTitle=""
         href=""
         linkTitle=""
@@ -559,7 +560,7 @@ export const NexaArticleContent = () => {
       <p className="box-border caret-transparent outline-[3px]"></p>
       <NexaOfferSection
         variant=""
-        buttonText={adv.offerSection.buttons.get50Off}
+        buttonText={adv.offer.ctaText.get50Off}
         buttonTitle=""
         href=""
         linkTitle=""
@@ -567,14 +568,14 @@ export const NexaArticleContent = () => {
       />
       <NexaOfferSection
         variant="salesParagraph"
-        href={adv.meta.ctaUrl}
-        productName={adv.meta.productName}
+        href={links.cta}
+        productName={adv.offer.productName}
       />
       <div className="box-border caret-transparent outline-[3px]">
         <br className="box-border caret-transparent outline-[3px]" />
       </div>
       <div className="text-base box-border caret-transparent leading-[22px] outline-[3px] text-left font-montserrat md:text-lg md:leading-[25px]">
-        {adv.offerSection.priceText}
+        {adv.offer.priceText}
       </div>
       <div className="box-border caret-transparent outline-[3px]">
         <br className="box-border caret-transparent outline-[3px]" />
@@ -585,10 +586,10 @@ export const NexaArticleContent = () => {
             <a
               title="L5"
               loop="none"
-              href={adv.meta.ctaUrl}
+              href={links.cta}
               className="text-blue-600 text-base box-border caret-transparent leading-[22px] max-w-full outline-[3px] text-center underline md:text-lg md:leading-[25px]"
             >
-              {adv.offerSection.buttons.claimDiscounted}
+              {adv.offer.ctaText.claimDiscounted}
             </a>
           </b>
         </span>
@@ -597,7 +598,7 @@ export const NexaArticleContent = () => {
       <NexaOfferSection
         variant="secondaryButton"
         buttonTitle="9th"
-        buttonText={adv.offerSection.buttons.getYour50Off}
+        buttonText={adv.offer.ctaText.getYour50Off}
       />
       <NexaOfferSection
         variant="whereToGet"
@@ -605,7 +606,7 @@ export const NexaArticleContent = () => {
         buttonTitle=""
         href=""
         linkTitle=""
-        productName={adv.meta.productName}
+        productName={adv.offer.productName}
       />
       <p className="box-border caret-transparent outline-[3px]"></p>
       <p className="box-border caret-transparent outline-[3px]"></p>
@@ -614,42 +615,42 @@ export const NexaArticleContent = () => {
         <br className="box-border caret-transparent outline-[3px]" />
       </div>
       <div className="text-base box-border caret-transparent leading-[22px] outline-[3px] text-left font-montserrat md:text-lg md:leading-[25px]">
-        {adv.offerSection.authenticityP1}
+        {adv.offer.authenticity}
       </div>
       <div className="box-border caret-transparent outline-[3px]">
         <br className="box-border caret-transparent outline-[3px]" />
       </div>
       <div className="text-base box-border caret-transparent leading-[22px] outline-[3px] text-left font-montserrat md:text-lg md:leading-[25px]">
-        {adv.offerSection.bulkOrderP1}
+        {adv.offer.bulkOrder[0]}
       </div>
       <div className="box-border caret-transparent outline-[3px]">
         <br className="box-border caret-transparent outline-[3px]" />
       </div>
       <div className="text-base box-border caret-transparent leading-[22px] outline-[3px] text-left font-montserrat md:text-lg md:leading-[25px]">
-        {adv.offerSection.bulkOrderP2}
+        {adv.offer.bulkOrder[1]}
       </div>
       <div className="box-border caret-transparent outline-[3px]">
         <br className="box-border caret-transparent outline-[3px]" />
       </div>
       <div className="text-base box-border caret-transparent leading-[22px] outline-[3px] text-left font-montserrat md:text-lg md:leading-[25px]">
-        {adv.offerSection.knockoffWarning}
+        {adv.offer.knockoffWarning}
       </div>
       <p className="box-border caret-transparent outline-[3px]"></p>
       <NexaOfferSection
         variant="linkCta"
-        buttonText={adv.offerSection.buttons.get50OffProduct}
+        buttonText={adv.offer.ctaText.get50OffProduct}
         buttonTitle="GET 50% OFF Car Scratch Remover Nexa™ Now!"
-        href={adv.meta.ctaUrl}
+        href={links.cta}
         linkTitle="GET 50% OFF Car Scratch Remover Nexa™ Now!"
-        productName={adv.meta.productName}
+        productName={adv.offer.productName}
       />
       <NexaOfferSection
         variant="offerDetails"
-        buttonText={adv.offerSection.buttons.getYour50Off}
+        buttonText={adv.offer.ctaText.getYour50Off}
         buttonTitle="8th"
-        href={adv.meta.ctaUrl}
+        href={links.cta}
         linkTitle="GET 50% OFF Now!"
-        productName={adv.meta.productName}
+        productName={adv.offer.productName}
       />
       <p className="box-border caret-transparent outline-[3px]"></p>
       <div className="bg-orange-100 box-border caret-transparent outline-[3px] w-full pt-px pb-3"></div>
@@ -679,17 +680,17 @@ export const NexaArticleContent = () => {
       />
       <NexaOfferSection
         variant="ctaGroup"
-        buttonText={adv.offerSection.buttons.getYour50Off}
+        buttonText={adv.offer.ctaText.getYour50Off}
         buttonTitle="7th"
-        href={adv.meta.ctaUrl}
+        href={links.cta}
         linkTitle="GET 50% OFF Now!"
-        productName={adv.meta.productName}
+        productName={adv.offer.productName}
       />
       <NexaComments />
       {adv.comments.items.map((item, idx) => (
         <div key={idx} className="items-stretch box-border caret-transparent flex flex-wrap justify-start max-w-full outline-[3px] p-px md:flex-nowrap">
           <div className="relative box-border caret-transparent flex basis-full grow max-w-full min-h-[25px] outline-[3px] w-min mt-5 p-px md:basis-0">
-            <img title="" src={media.comments.avatars[item.avatarKey]} href="" alt="" className="text-black box-border caret-transparent h-[55px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] align-baseline w-[55px] mt-0.5" />
+            <img title="" src={media.comments.avatars[media.comments.items[idx].avatarKey]} href="" alt="" className="text-black box-border caret-transparent h-[55px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] align-baseline w-[55px] mt-0.5" />
             <div className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] pb-3 px-2.5">
               <div className="text-indigo-800 text-sm font-bold box-border caret-transparent leading-[14px] outline-[3px] p-px font-helvetica">{item.author}</div>
               <div className="text-sm box-border caret-transparent leading-[18px] outline-[3px] mt-[5px] p-px font-helvetica">
@@ -707,7 +708,7 @@ export const NexaArticleContent = () => {
               </div>
               {item.reply && (
                 <div className="box-border caret-transparent flex outline-[3px] w-full pr-2.5 pt-[5px]">
-                  <img title="" src={media.comments.avatars[item.reply.avatarKey]} href="" alt="" className="text-black box-border caret-transparent h-[45px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] align-baseline w-[45px] mt-0.5" />
+                  <img title="" src={media.comments.avatars[media.comments.items[idx].replyAvatarKey]} href="" alt="" className="text-black box-border caret-transparent h-[45px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] align-baseline w-[45px] mt-0.5" />
                   <div className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] w-full pb-3 px-2.5">
                     <div className="text-indigo-800 text-sm font-bold box-border caret-transparent leading-[14px] outline-[3px] p-px font-helvetica">{item.reply.author}</div>
                     <div className="text-sm box-border caret-transparent leading-[18px] outline-[3px] mt-[5px] p-px font-helvetica">

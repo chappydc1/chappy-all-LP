@@ -1,0 +1,13 @@
+{
+  "announcementBar": "/collections/all",
+  "hero": {
+    "eyebrow": "/pages/gummies-offer-alc-lp",
+    "cta": "/pages/gummies-offer-alc-lp"
+  },
+  "reasonsWhy": {
+    "cta": "/pages/gummies-offer-alc-lp"
+  },
+  "finalCta": {
+    "cta": "/pages/gummies-offer-alc-lp"
+  }
+}

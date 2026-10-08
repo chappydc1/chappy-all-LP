@@ -41,5 +41,37 @@
     "cooling": "/lp-images-files-videos-fonts/com/sleeping-2/images/aurelune-7.jpg",
     "comparison": "/lp-images-files-videos-fonts/com/sleeping-2/images/aurelune-8.jpg",
     "trial": "/lp-images-files-videos-fonts/com/sleeping-2/images/aurelune-9.jpg"
+  },
+  "articleInserts": {
+    "discovery": [
+      {
+        "beforeParagraph": 0,
+        "image": "neckSupport"
+      }
+    ],
+    "proof": [
+      {
+        "beforeParagraph": 1,
+        "image": "fiveZone"
+      },
+      {
+        "beforeParagraph": 5,
+        "image": "positions"
+      }
+    ],
+    "pricing": [],
+    "solution": [
+      {
+        "beforeParagraph": 0,
+        "image": "comparison"
+      }
+    ],
+    "purchaseProcess": [],
+    "offer": [
+      {
+        "beforeParagraph": 0,
+        "image": "trial"
+      }
+    ]
   }
 }

@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { content } from "../../../content";
 
 export const StickyBarInfo = () => {
-  const c = content.stickyBar;
+  const c = content.stickyCta;
   const [shoppers, setShoppers] = useState(c.shoppersInitial);
 
   useEffect(() => {

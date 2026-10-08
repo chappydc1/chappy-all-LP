@@ -1,5 +1,6 @@
 // @ts-nocheck
 import adv from "../../../copy.json";
+import links from "../../../links.json";
 import media from "../../../media.json";
 
 export const NexaProductReviewCard = () => {
@@ -7,7 +8,7 @@ export const NexaProductReviewCard = () => {
     <div className="relative box-border caret-transparent basis-full grow max-w-full min-h-[25px] outline-[3px] w-min ml-[7px] p-px md:basis-0">
       <div className="box-border caret-transparent flex flex-col outline-[3px] w-[200px] border mt-2.5 pt-3.5 pb-3 px-2.5 rounded-[15px] border-solid border-black/30 md:w-[245px]">
         <div className="text-black text-sm font-bold box-border caret-transparent basis-[0%] shrink-0 leading-6 min-h-0 min-w-0 outline-[3px] text-center mt-[3px] px-[5px] py-px rounded-[1px] font-montserrat md:text-[19px] md:min-h-[auto] md:min-w-[auto]">
-          {adv.productCard.name}
+          {adv.sidebar.productName}
         </div>
         <div className="items-center self-end box-border caret-transparent flex justify-center min-h-0 min-w-0 outline-[3px] w-full pt-[5px] px-2.5 md:min-h-[auto] md:min-w-[auto]">
           <img
@@ -22,15 +23,15 @@ export const NexaProductReviewCard = () => {
           <a
             title="L1"
             loop="none"
-            href={adv.meta.ctaUrl}
+            href={links.cta}
             className="text-black text-sm font-bold bg-yellow-400 box-border caret-transparent inline-block basis-[0%] shrink-0 leading-[14px] max-w-full outline-[3px] text-center px-2.5 py-3.5 rounded-bl rounded-br rounded-tl rounded-tr font-montserrat md:text-[15px] md:leading-[15px] md:px-5 md:py-[15px]"
           >
-            {adv.productCard.ctaText}
+            {adv.sidebar.ctaText}
           </a>
         </div>
         <div className="text-[32px] font-bold box-border caret-transparent leading-8 min-h-0 min-w-0 outline-[3px] mt-[15px] font-helvetica md:min-h-[auto] md:min-w-[auto]">
           <div className="text-base box-border caret-transparent leading-4 outline-[3px] text-center px-[5px] font-montserrat md:text-lg md:leading-[18px]">
-            {adv.productCard.reviewsHeading}
+            {adv.sidebar.reviewsHeading}
           </div>
         </div>
         <div className="box-border caret-transparent flex justify-between min-h-0 min-w-0 outline-[3px] text-left w-full px-[5px] py-3 md:min-h-[auto] md:min-w-[auto]">
@@ -42,11 +43,11 @@ export const NexaProductReviewCard = () => {
             className="text-black box-border caret-transparent h-[15px] max-w-full min-h-0 min-w-0 outline-[3px] align-baseline w-[73px] md:h-4 md:min-h-[auto] md:min-w-[auto] md:w-[83px]"
           />
           <div className="text-sm font-bold box-border caret-transparent leading-[14px] min-h-0 min-w-0 outline-[3px] text-right p-px font-montserrat md:min-h-[auto] md:min-w-[auto]">
-            {adv.productCard.rating}
+            {adv.sidebar.rating}
           </div>
         </div>
         <div className="text-neutral-400 text-xs font-light box-border caret-transparent leading-3 min-h-0 min-w-0 outline-[3px] p-px font-montserrat md:text-[13px] md:leading-[13px] md:min-h-[auto] md:min-w-[auto]">
-          {adv.productCard.ratingsCount}
+          {adv.sidebar.ratingsCount}
         </div>
         <div className="box-border caret-transparent flex justify-between min-h-0 min-w-0 outline-[3px] w-full pt-3 pb-[5px] px-[5px] md:min-h-[auto] md:min-w-[auto]">
           <div className="text-green-600 text-sm font-bold box-border caret-transparent leading-[14px] min-h-0 min-w-0 outline-[3px] p-px font-montserrat md:text-base md:leading-4 md:min-h-[auto] md:min-w-[auto]">
@@ -125,7 +126,7 @@ export const NexaProductReviewCard = () => {
         </div>
         <div className="text-base font-bold box-border caret-transparent leading-4 min-h-0 min-w-0 outline-[3px] text-center mt-[15px] pl-[5px] pb-[5px] font-montserrat md:text-lg md:leading-[18px] md:min-h-[auto] md:min-w-[auto]">
           <div className="text-base box-border caret-transparent leading-4 outline-[3px] md:text-lg md:leading-[18px]">
-            {adv.productCard.byFeatureHeading}
+            {adv.sidebar.byFeatureHeading}
           </div>
         </div>
         <div className="items-center box-border caret-transparent flex justify-between min-h-0 min-w-0 outline-[3px] w-full p-[5px] md:min-h-[auto] md:min-w-[auto]">

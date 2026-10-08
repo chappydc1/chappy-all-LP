@@ -2,7 +2,7 @@ import adv from "../copy.json";
 import media from "../media.json";
 
 export function ZikeeyArticleMeta() {
-  const { author } = adv.article;
+  const author = adv.hero.byline;
 
   return (
     <div className="flex mb-5">

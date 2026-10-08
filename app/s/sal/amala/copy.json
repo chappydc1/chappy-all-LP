@@ -1,48 +1,5 @@
 {
-  "contentSections": {
-    "hiddenDeficiencies": {
-      "title": "Modern Living May Be Creating Hidden Deficiencies",
-      "introParagraphs": [
-        "Thanks to modern environmental toxins, chronic stress, processed foods, and constant stimulation, oxidative stress is now the #1 driver of premature cellular aging - affecting over 85% of adults."
-      ],
-      "highlightedProductName": "PrimeCell H2",
-      "productParagraphAfter": " delivers ultra-pure, high-concentration molecular hydrogen (10+ PPM per tablet) in a rapidly dissolving tablet that releases therapeutic levels of H2 directly into your water.",
-      "extraParagraph": "Just drop one tablet in 12-16 oz of water, wait 90 seconds for complete dissolution, and drink immediately to flood your cells with the most selective, penetrating antioxidant known to science.",
-      "benefitsTitle": "With Consistent Daily Use PrimeCell H2 Can:",
-      "benefitsParagraphs": [
-        "Protect cells from cytotoxic oxidative damage by selectively neutralizing hydroxyl radicals (the most damaging) while preserving beneficial free radicals needed for immune function, exercise adaptation, and cellular communication - giving you protection without compromise.*",
-        "Enhance natural energy production by protecting mitochondrial membranes from oxidative damage and supporting efficient ATP synthesis - so you feel sustained energy throughout the day without stimulants, crashes, or dependence on caffeine.*",
-        "Accelerate recovery and performance by reducing exercise-induced oxidative stress and supporting balanced inflammatory response - helping you train harder, recover faster, and maintain the athletic performance of someone decades younger.*",
-        "Support cognitive clarity and neuroprotection by crossing the blood-brain barrier to protect neurons from oxidative damage, support neurotransmitter production, and maintain sharp focus, clear memory, and mental endurance well into your later years.*"
-      ],
-      "highlightParagraph": "Feel more energized, recover like you're in your 20s, think with razor-sharp clarity, and reverse visible signs of cellular aging.",
-      "closingParagraphs": [
-        "With clinically therapeutic molecular hydrogen in every tablet, PrimeCell H2 gives your cells the selective defense system they need to thrive - not just survive.",
-        "This is the cellular foundation that makes everything else in your protocol work better."
-      ],
-      "showDivider": true,
-      "showBottomSection": true
-    },
-    "cellularSupport": {
-      "title": "One Tablet. Complete Cellular Support",
-      "introParagraphs": [
-        "Your body relies on selective antioxidant defense to keep your mitochondria, brain, muscles, immune system, and DNA functioning at peak performance.",
-        "From neutralizing the most damaging free radicals to activating your body's own master antioxidant production and protecting against age-related cellular decline, molecular hydrogen is one of the most important therapeutic molecules for longevity and healthspan optimization.",
-        "But due to environmental toxins, chronic stress, poor diet, and the limitations of traditional antioxidants, most people's cells are under constant oxidative attack without adequate defense."
-      ],
-      "highlightedProductName": "PrimeCell H2",
-      "productParagraphAfter": " delivers a clean, high-concentration form of molecular hydrogen to help restore cellular protection right where it matters most - at the mitochondrial and genetic level.",
-      "extraParagraph": "Benefits:",
-      "benefitItems": [
-        "Selective antioxidant precision by targeting only cytotoxic hydroxyl radicals while preserving beneficial oxidative signaling necessary for exercise adaptation, immune function, and cellular communication - giving you maximum protection without disrupting your body's natural processes.*",
-        "Enhanced mitochondrial function and natural energy production by protecting mitochondrial membranes from oxidative damage and supporting efficient ATP synthesis - so you experience sustained energy, mental clarity, and physical stamina throughout the day without reliance on stimulants.*",
-        "Accelerated recovery and performance optimization by reducing exercise-induced oxidative stress, supporting balanced inflammatory response, and protecting muscle tissue from free radical damage - helping you train harder, recover faster, and maintain peak physical performance well beyond your chronological age.*",
-        "Neuroprotection and cognitive enhancement by crossing the blood-brain barrier to protect neurons from oxidative damage, support neurotransmitter production, and activate brain-derived neurotrophic factor (BDNF) - maintaining sharp focus, clear memory, and mental resilience against age-related cognitive decline.*"
-      ],
-      "desktopImageAlignment": "center"
-    }
-  },
-  "productHero": {
+  "hero": {
     "ratingText": "4.9/5 based on 45,000+ reviews",
     "headline": "Exhausted All Day, Aging Faster Than You Should? PrimeCell H2 Protects Your Cells From The Inside Out.",
     "descriptionParagraphs": [
@@ -62,7 +19,7 @@
         "text": "10+ PPM Therapeutic Hydrogen Per Tablet"
       },
       {
-        "text": "Drug-Free \u2022 Non-GMO \u2022 Zero Side Effects"
+        "text": "Drug-Free • Non-GMO • Zero Side Effects"
       }
     ],
     "addToCartBenefits": [
@@ -79,7 +36,6 @@
     "guarantee": {
       "title": "Feel Younger or It's Free!",
       "description": "If you don't notice measurable improvements in energy, recovery, mental clarity, or visible signs of aging reversal, we'll refund you within 90 days of the product being delivered to you.",
-      "imageSrc": "/lp-images-files-videos-fonts/images/amala/23.webp",
       "imageAlt": ""
     },
     "accordionItems": [
@@ -138,7 +94,7 @@
           "Professionals experiencing chronic stress and oxidative damage from demanding schedules",
           "Athletes and high performers who need faster recovery and sustained energy without stimulants",
           "It's backed by 1,500+ peer-reviewed studies, third-party tested for purity and concentration, and produces zero side effects in clinical literature - just selective cellular protection where it matters most.",
-          "If you refuse to accept aging as inevitable and want to reverse it at the cellular level\u2026 this was made for you."
+          "If you refuse to accept aging as inevitable and want to reverse it at the cellular level… this was made for you."
         ]
       },
       {
@@ -147,6 +103,44 @@
           "Your order today is protected by our 90-day money-back guarantee. If you don't experience measurable improvements in energy, recovery, mental clarity, or visible signs of biological age reversal - or if your biomarkers don't reflect the cellular protection you expected - just reach out within 90 days. We'll issue a full refund of your purchase price."
         ]
       }
+    ]
+  },
+  "problem": {
+    "title": "Modern Living May Be Creating Hidden Deficiencies",
+    "introParagraphs": [
+      "Thanks to modern environmental toxins, chronic stress, processed foods, and constant stimulation, oxidative stress is now the #1 driver of premature cellular aging - affecting over 85% of adults."
+    ],
+    "highlightedProductName": "PrimeCell H2",
+    "productParagraphAfter": " delivers ultra-pure, high-concentration molecular hydrogen (10+ PPM per tablet) in a rapidly dissolving tablet that releases therapeutic levels of H2 directly into your water.",
+    "extraParagraph": "Just drop one tablet in 12-16 oz of water, wait 90 seconds for complete dissolution, and drink immediately to flood your cells with the most selective, penetrating antioxidant known to science.",
+    "benefitsTitle": "With Consistent Daily Use PrimeCell H2 Can:",
+    "benefitsParagraphs": [
+      "Protect cells from cytotoxic oxidative damage by selectively neutralizing hydroxyl radicals (the most damaging) while preserving beneficial free radicals needed for immune function, exercise adaptation, and cellular communication - giving you protection without compromise.*",
+      "Enhance natural energy production by protecting mitochondrial membranes from oxidative damage and supporting efficient ATP synthesis - so you feel sustained energy throughout the day without stimulants, crashes, or dependence on caffeine.*",
+      "Accelerate recovery and performance by reducing exercise-induced oxidative stress and supporting balanced inflammatory response - helping you train harder, recover faster, and maintain the athletic performance of someone decades younger.*",
+      "Support cognitive clarity and neuroprotection by crossing the blood-brain barrier to protect neurons from oxidative damage, support neurotransmitter production, and maintain sharp focus, clear memory, and mental endurance well into your later years.*"
+    ],
+    "highlightParagraph": "Feel more energized, recover like you're in your 20s, think with razor-sharp clarity, and reverse visible signs of cellular aging.",
+    "closingParagraphs": [
+      "With clinically therapeutic molecular hydrogen in every tablet, PrimeCell H2 gives your cells the selective defense system they need to thrive - not just survive.",
+      "This is the cellular foundation that makes everything else in your protocol work better."
+    ]
+  },
+  "solution": {
+    "title": "One Tablet. Complete Cellular Support",
+    "introParagraphs": [
+      "Your body relies on selective antioxidant defense to keep your mitochondria, brain, muscles, immune system, and DNA functioning at peak performance.",
+      "From neutralizing the most damaging free radicals to activating your body's own master antioxidant production and protecting against age-related cellular decline, molecular hydrogen is one of the most important therapeutic molecules for longevity and healthspan optimization.",
+      "But due to environmental toxins, chronic stress, poor diet, and the limitations of traditional antioxidants, most people's cells are under constant oxidative attack without adequate defense."
+    ],
+    "highlightedProductName": "PrimeCell H2",
+    "productParagraphAfter": " delivers a clean, high-concentration form of molecular hydrogen to help restore cellular protection right where it matters most - at the mitochondrial and genetic level.",
+    "extraParagraph": "Benefits:",
+    "benefitItems": [
+      "Selective antioxidant precision by targeting only cytotoxic hydroxyl radicals while preserving beneficial oxidative signaling necessary for exercise adaptation, immune function, and cellular communication - giving you maximum protection without disrupting your body's natural processes.*",
+      "Enhanced mitochondrial function and natural energy production by protecting mitochondrial membranes from oxidative damage and supporting efficient ATP synthesis - so you experience sustained energy, mental clarity, and physical stamina throughout the day without reliance on stimulants.*",
+      "Accelerated recovery and performance optimization by reducing exercise-induced oxidative stress, supporting balanced inflammatory response, and protecting muscle tissue from free radical damage - helping you train harder, recover faster, and maintain peak physical performance well beyond your chronological age.*",
+      "Neuroprotection and cognitive enhancement by crossing the blood-brain barrier to protect neurons from oxidative damage, support neurotransmitter production, and activate brain-derived neurotrophic factor (BDNF) - maintaining sharp focus, clear memory, and mental resilience against age-related cognitive decline.*"
     ]
   }
 }

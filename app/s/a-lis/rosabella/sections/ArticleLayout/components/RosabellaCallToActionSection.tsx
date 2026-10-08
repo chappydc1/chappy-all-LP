@@ -54,15 +54,15 @@ export const RosabellaCallToActionSection = (props: RosabellaCallToActionSection
                   <div className="box-border caret-transparent outline-[3px]">
                     <div className="box-border caret-transparent outline-[3px] text-black text-[15.4583px] leading-[20.0958px] md:text-[21px] md:leading-[31.5px]">
                       <strong className="text-red-700 text-[15.4583px] font-bold box-border caret-transparent leading-[20.0958px] outline-[3px] md:text-[21px] md:leading-[31.5px]">
-                        {copy.updateOffer.updateLabel}
+                        {copy.scarcity.updateLabel}
                       </strong>
                       <strong className="text-[15.4583px] font-bold box-border caret-transparent leading-[20.0958px] outline-[3px] md:text-[21px] md:leading-[31.5px]">
                         &nbsp;As of&nbsp;
                         <strong className="text-[15.4583px] font-black box-border caret-transparent leading-[20.0958px] outline-[3px] md:text-[21px] md:leading-[31.5px]">
-                          {copy.updateOffer.dateText}
+                          {copy.scarcity.dateText}
                         </strong>
                         <strong className="text-[15.4583px] font-black box-border caret-transparent leading-[20.0958px] outline-[3px] md:text-[21px] md:leading-[31.5px]">
-                          {copy.updateOffer.message.replace("50% OFF + FAST SHIPPING", "")}
+                          {copy.scarcity.message.replace("50% OFF + FAST SHIPPING", "")}
                           <span className="text-red-600 text-[15.4583px] box-border caret-transparent leading-[20.0958px] outline-[3px] md:text-[21px] md:leading-[31.5px]">
                             50% OFF + FAST SHIPPING
                           </span>{" "}
@@ -90,7 +90,7 @@ export const RosabellaCallToActionSection = (props: RosabellaCallToActionSection
                         <div className="box-border caret-transparent outline-[3px] w-full text-zinc-800 text-[19.4583px] leading-[29.1875px] min-h-[auto] min-w-[auto] md:text-[21px] md:leading-[31.5px]">
                           <div className="box-border caret-transparent outline-[3px] w-full text-[19.4583px] leading-[29.1875px] md:text-[21px] md:leading-[31.5px]">
                             <p className="text-[19.4583px] box-border caret-transparent leading-[29.1875px] outline-[3px] md:text-[21px] md:leading-[31.5px]">
-                              {copy.updateOffer.lockInText.replace("50% OFF + FAST SHIPPING", "")}
+                              {copy.scarcity.lockInText.replace("50% OFF + FAST SHIPPING", "")}
                               <strong className="text-[19.4583px] font-bold box-border caret-transparent leading-[29.1875px] outline-[3px] md:text-[21px] md:leading-[31.5px]">
                                 50% OFF + FAST SHIPPING
                               </strong>
@@ -98,10 +98,10 @@ export const RosabellaCallToActionSection = (props: RosabellaCallToActionSection
                             <p><br /></p>
                             <p className="text-[19.4583px] box-border caret-transparent leading-[29.1875px] outline-[3px] md:text-[21px] md:leading-[31.5px]">
                               <strong className="text-red-600 text-[19.4583px] font-bold box-border caret-transparent leading-[29.1875px] outline-[3px] md:text-[21px] md:leading-[31.5px]">
-                                {copy.updateOffer.noteLabel}
+                                {copy.scarcity.noteLabel}
                               </strong>
                               <strong className="text-[19.4583px] font-bold box-border caret-transparent leading-[29.1875px] outline-[3px] md:text-[21px] md:leading-[31.5px]">
-                                &nbsp;{copy.updateOffer.noteText}
+                                &nbsp;{copy.scarcity.noteText}
                               </strong>
                             </p>
                           </div>

@@ -5,15 +5,24 @@ import advMedia from "./media.json";
 export default function AmalaLandingPage() {
   return (
     <AmalaApp
-      productHero={advContent.productHero}
+      productHero={{
+        ...advContent.hero,
+        guarantee: {
+          ...advContent.hero.guarantee,
+          imageSrc: advMedia.hero.guaranteeImageSrc,
+        },
+      }}
       contentSections={{
         hiddenDeficiencies: {
-          ...advContent.contentSections.hiddenDeficiencies,
-          ...advMedia.contentSections.hiddenDeficiencies,
+          ...advContent.problem,
+          ...advMedia.problem,
+          showDivider: true,
+          showBottomSection: true,
         },
         cellularSupport: {
-          ...advContent.contentSections.cellularSupport,
-          ...advMedia.contentSections.cellularSupport,
+          ...advContent.solution,
+          ...advMedia.solution,
+          desktopImageAlignment: "center",
         },
       }}
     />

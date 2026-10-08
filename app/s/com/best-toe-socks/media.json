@@ -37,5 +37,33 @@
   "images": {
     "articleImage1": "/lp-images-files-videos-fonts/com/best-toe-socks/images/article-aurelune-sock.jpg",
     "articleImage2": "/lp-images-files-videos-fonts/com/best-toe-socks/images/article-bogo-bundle.jpg"
+  },
+  "articleInserts": {
+    "discovery": [
+      {
+        "beforeParagraph": 0,
+        "image": "articleImage1"
+      }
+    ],
+    "proof": [
+      {
+        "beforeParagraph": 5,
+        "image": "articleImage2"
+      }
+    ],
+    "pricing": [],
+    "solution": [
+      {
+        "beforeParagraph": 0,
+        "image": "articleImage1"
+      }
+    ],
+    "purchaseProcess": [],
+    "offer": [
+      {
+        "beforeParagraph": 0,
+        "image": "articleImage2"
+      }
+    ]
   }
 }

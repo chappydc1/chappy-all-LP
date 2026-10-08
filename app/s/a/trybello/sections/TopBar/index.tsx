@@ -1,46 +1,43 @@
 "use client";
 
-type TrustBadge = { text: string };
-type FooterLink = { label: string; href: string };
-type Comment = { authorName: string; commentText: string; metaText: string; indent: boolean };
-type CustomerReviewImages = { smoothStars: string; cr1: string; cr2: string; cr3: string; cr4: string; cr5: string };
-// A block of prose, keyed p1, p2, p3, ... instead of a plain array so each
-// paragraph is independently addressable when editing the copy.
-type ProseBlock = Record<string, string>;
-type TwoPaths = { intro: ProseBlock; path1Heading: string; path1: ProseBlock; path2Heading: string; path2: ProseBlock; outro: ProseBlock };
-type ClosingBlock = { signoff: string; byline: string; ps: string; pps: string; ppps: string };
-type UrgencyUpdate = { label: string; date: string; text: string; noteLabel: string; note: string };
-type AdvBody = {
-  opening: ProseBlock;
-  patientBroke: ProseBlock;
-  rootCause: ProseBlock;
-  dhtBiology: ProseBlock;
-  treatmentsFailed: ProseBlock;
-  discovery60sec: ProseBlock;
-  firstTestSubject: ProseBlock;
-  patientRevolution: ProseBlock;
-  industryOpposition: ProseBlock;
-  productIntro: ProseBlock;
-  ingredientTruth: ProseBlock;
-  realWomen: ProseBlock;
-  pricingSection: ProseBlock;
-  guarantee: ProseBlock;
-  twoPaths: TwoPaths;
-  whatToDoNext: ProseBlock;
-  ctaBenefits: ProseBlock;
-  closing: ClosingBlock;
-  urgencyUpdate: UrgencyUpdate;
-};
-type SectionHeadings = {
-  patientBroke: string; whatIDiscovered: string; comparableToBaldingMen: string; treatmentsFailed: string;
-  discovery60sec: string; firstTestSubject: string; patientRevolution: string; industryOpposition: string;
-  productIntro: string; ingredientTruth: string; realWomen: string; pricingSection: string; guarantee: string;
-  twoPaths: string; whatToDoNext: string;
-};
+type ProseSection = { headline: string; body: string[] };
+type TwoPaths = { headline: string; intro: string[]; path1Headline: string; path1: string[]; path2Headline: string; path2: string[]; outro: string[] };
+type FinalCta = { headline: string; body: string[]; ctaText: string; benefits: string[] };
+type Closing = { signoff: string; byline: string; ps: string; pps: string; ppps: string; ctaText: string };
+type Urgency = { label: string; date: string; text: string; noteLabel: string; note: string; ctaText: string };
 type ReviewStar = { label: string; percent: string };
 type ReviewFeature = { label: string; score: string };
-type CustomerReviews = { title: string; rating: string; ratingCount: string; byFeatureLabel: string; stars: ReviewStar[]; features: ReviewFeature[] };
-type AdvContent = { headline: string; subheadline: string; authorPublished: string; authorByline: string; ctaLabel: string; disclaimerText: string; copyright: string; footerLinks: FooterLink[]; trustBadges: TrustBadge[]; comments: Comment[]; sectionHeadings: SectionHeadings; body: AdvBody; ctaButtons: string[]; customerReviews: CustomerReviews };
+type Reviews = { headline: string; rating: string; ratingCount: string; byFeatureHeadline: string; stars: ReviewStar[]; features: ReviewFeature[] };
+type Comment = { authorName: string; commentText: string; metaText: string };
+type AdvContent = {
+  hero: { headline: string; subheadline: string; date: string; byline: string };
+  lead: { body: string[] };
+  problem: ProseSection;
+  discovery: ProseSection;
+  mechanism: ProseSection;
+  failedSolutions: ProseSection;
+  solution: ProseSection;
+  proof: ProseSection;
+  socialProof: ProseSection;
+  opposition: ProseSection;
+  productReveal: ProseSection;
+  ingredients: ProseSection;
+  testimonials: ProseSection;
+  pricing: ProseSection;
+  guarantee: ProseSection;
+  twoPaths: TwoPaths;
+  finalCta: FinalCta;
+  closing: Closing;
+  urgency: Urgency;
+  reviews: Reviews;
+  trustBadges: string[];
+  comments: Comment[];
+  disclaimer: string;
+  footer: { copyright: string; links: string[] };
+  ui: { ctaText: string };
+};
+type AdvLinks = { footer: string[] };
+type CustomerReviewImages = { smoothStars: string; cr1: string; cr2: string; cr3: string; cr4: string; cr5: string };
 type AdvMedia = { heroGif: string; heroVideo: string; authorAvatar: string; ctaArrowIcon: string; articleImages: string[]; trustBadgeImages: string[]; commentAvatars: string[]; customerReviewImages: CustomerReviewImages };
 
 const ADV_CTA_URL = "https://trybello.com/products/bello-hair-helper-spray";
@@ -48,15 +45,6 @@ const ADV_CTA_URL = "https://trybello.com/products/bello-hair-helper-spray";
 const PROSE_PARAGRAPH_CLASSNAME = "box-border caret-transparent outline-[3px]";
 const PROSE_SPACER_CLASSNAME =
   "box-border caret-transparent outline-[3px] before:accent-auto before:caret-transparent before:text-black before:inline-block before:text-xl before:not-italic before:normal-nums before:font-normal before:tracking-[normal] before:leading-[26px] before:list-outside before:list-disc before:min-h-5 before:outline-[3px] before:pointer-events-auto before:text-left before:no-underline before:indent-[0px] before:normal-case before:visible before:border-separate before:font-open_sans";
-
-// A prose block's paragraphs are keyed p1, p2, p3, ... — this reads them
-// back out in order, ignoring any non-numbered keys.
-function proseLines(block: ProseBlock): string[] {
-  return Object.entries(block)
-    .filter(([key]) => /^p\d+$/.test(key))
-    .sort(([a], [b]) => Number(a.slice(1)) - Number(b.slice(1)))
-    .map(([, value]) => value);
-}
 
 // Renders a run of prose paragraphs with the blank spacer paragraph between
 // each pair (but not after the last one), matching the advertorial's copy rhythm.
@@ -72,12 +60,12 @@ function renderProse(lines: string[]) {
 // with the two path headings inline, all sharing one continuous spacer rhythm.
 function renderTwoPaths(twoPaths: TwoPaths) {
   const items: (string | { heading: string })[] = [
-    ...proseLines(twoPaths.intro),
-    { heading: twoPaths.path1Heading },
-    ...proseLines(twoPaths.path1),
-    { heading: twoPaths.path2Heading },
-    ...proseLines(twoPaths.path2),
-    ...proseLines(twoPaths.outro),
+    ...twoPaths.intro,
+    { heading: twoPaths.path1Headline },
+    ...twoPaths.path1,
+    { heading: twoPaths.path2Headline },
+    ...twoPaths.path2,
+    ...twoPaths.outro,
   ];
   return items.flatMap((item, idx) => {
     const paragraph =
@@ -93,7 +81,15 @@ function renderTwoPaths(twoPaths: TwoPaths) {
   });
 }
 
-export function TrybelloTopBar({ content, media }: { content: AdvContent; media: AdvMedia }) {
+export function TrybelloTopBar({
+  content,
+  links,
+  media,
+}: {
+  content: AdvContent;
+  links: AdvLinks;
+  media: AdvMedia;
+}) {
   return (
     <div className="text-gray-800 text-sm bg-white w-full font-roboto">
       <div className="max-w-[1200px] mx-auto">
@@ -108,7 +104,7 @@ export function TrybelloTopBar({ content, media }: { content: AdvContent; media:
                   <div className="box-border caret-transparent flex justify-center min-h-[auto] min-w-[auto] outline-[3px] w-full">
                     <div className="text-black text-[26px] font-bold box-border caret-transparent flex leading-8 min-h-[auto] min-w-[auto] outline-[3px] text-left w-full px-2.5 font-open_sans md:text-[40px] md:leading-[50px]">
                       <div className="text-[26px] box-border caret-transparent leading-8 min-h-[auto] min-w-[auto] outline-[3px] w-full md:text-[40px] md:leading-[50px]">
-                        <p className="text-[26px] box-border caret-transparent leading-8 outline-[3px] md:text-[40px] md:leading-[50px]">{content.headline}</p>
+                        <p className="text-[26px] box-border caret-transparent leading-8 outline-[3px] md:text-[40px] md:leading-[50px]">{content.hero.headline}</p>
                       </div>
                     </div>
                   </div>
@@ -158,8 +154,8 @@ export function TrybelloTopBar({ content, media }: { content: AdvContent; media:
                           <div className="box-border caret-transparent flex justify-center min-h-[auto] min-w-[auto] outline-[3px] w-full">
                             <div className="text-black text-sm italic box-border caret-transparent hidden leading-[21px] min-h-0 min-w-0 outline-[3px] text-left w-full py-2.5 font-open_sans md:text-[17px] md:flex md:leading-[25.5px] md:min-h-[auto] md:min-w-[auto]">
                               <div className="text-sm box-border caret-transparent leading-[21px] min-h-0 min-w-0 outline-[3px] w-full md:text-[17px] md:leading-[25.5px] md:min-h-[auto] md:min-w-[auto]">
-                                <p className="text-sm box-border caret-transparent leading-[21px] outline-[3px] md:text-[17px] md:leading-[25.5px]">{content.authorPublished}</p>
-                                <p className="text-sm box-border caret-transparent leading-[21px] outline-[3px] md:text-[17px] md:leading-[25.5px]">{content.authorByline}</p>
+                                <p className="text-sm box-border caret-transparent leading-[21px] outline-[3px] md:text-[17px] md:leading-[25.5px]">{content.hero.date}</p>
+                                <p className="text-sm box-border caret-transparent leading-[21px] outline-[3px] md:text-[17px] md:leading-[25.5px]">{content.hero.byline}</p>
                               </div>
                             </div>
                           </div>
@@ -168,8 +164,8 @@ export function TrybelloTopBar({ content, media }: { content: AdvContent; media:
                           <div className="box-border caret-transparent flex justify-center min-h-[auto] min-w-[auto] outline-[3px] w-full">
                             <div className="text-black text-sm italic box-border caret-transparent flex leading-[21px] min-h-[auto] min-w-[auto] outline-[3px] text-left w-full py-2.5 font-open_sans md:text-[17px] md:hidden md:leading-[25.5px] md:min-h-0 md:min-w-0">
                               <div className="text-sm box-border caret-transparent leading-[21px] min-h-[auto] min-w-[auto] outline-[3px] w-full md:text-[17px] md:leading-[25.5px] md:min-h-0 md:min-w-0">
-                                <p className="text-sm box-border caret-transparent leading-[21px] outline-[3px] md:text-[17px] md:leading-[25.5px]">{content.authorPublished}</p>
-                                <p className="text-sm box-border caret-transparent leading-[21px] outline-[3px] md:text-[17px] md:leading-[25.5px]">{content.authorByline}</p>
+                                <p className="text-sm box-border caret-transparent leading-[21px] outline-[3px] md:text-[17px] md:leading-[25.5px]">{content.hero.date}</p>
+                                <p className="text-sm box-border caret-transparent leading-[21px] outline-[3px] md:text-[17px] md:leading-[25.5px]">{content.hero.byline}</p>
                               </div>
                             </div>
                           </div>
@@ -182,7 +178,7 @@ export function TrybelloTopBar({ content, media }: { content: AdvContent; media:
                   <div className="box-border caret-transparent flex justify-center min-h-[auto] min-w-[auto] outline-[3px] w-full">
                     <div className="text-black text-xl box-border caret-transparent flex leading-[26px] min-h-[auto] min-w-[auto] outline-[3px] text-left w-full mt-2.5 py-2.5 font-open_sans">
                       <div className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] w-full">
-                        {renderProse(proseLines(content.body.opening))}
+                        {renderProse(content.lead.body)}
                       </div>
                     </div>
                   </div>
@@ -192,7 +188,7 @@ export function TrybelloTopBar({ content, media }: { content: AdvContent; media:
                     <div className="text-black text-2xl font-extrabold box-border caret-transparent flex leading-[31.2px] min-h-[auto] min-w-[auto] outline-[3px] text-left w-full py-[5px] font-open_sans md:text-[33px] md:leading-[42.9px]">
                       <div className="text-2xl box-border caret-transparent leading-[31.2px] min-h-[auto] min-w-[auto] outline-[3px] w-full md:text-[33px] md:leading-[42.9px]">
                         <p className="text-2xl box-border caret-transparent leading-[31.2px] outline-[3px] md:text-[33px] md:leading-[42.9px]">
-                          <strong className="text-2xl font-bold box-border caret-transparent leading-[31.2px] outline-[3px] md:text-[33px] md:leading-[42.9px]">{content.sectionHeadings.patientBroke}</strong>
+                          <strong className="text-2xl font-bold box-border caret-transparent leading-[31.2px] outline-[3px] md:text-[33px] md:leading-[42.9px]">{content.problem.headline}</strong>
                         </p>
                       </div>
                     </div>
@@ -220,7 +216,7 @@ export function TrybelloTopBar({ content, media }: { content: AdvContent; media:
                   <div className="box-border caret-transparent flex justify-center min-h-[auto] min-w-[auto] outline-[3px] w-full">
                     <div className="text-black text-xl box-border caret-transparent flex leading-[26px] min-h-[auto] min-w-[auto] outline-[3px] text-left w-full mt-2.5 py-2.5 font-open_sans">
                       <div className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] w-full">
-                        {renderProse(proseLines(content.body.patientBroke))}
+                        {renderProse(content.problem.body)}
                       </div>
                     </div>
                   </div>
@@ -230,7 +226,7 @@ export function TrybelloTopBar({ content, media }: { content: AdvContent; media:
                     <div className="text-black text-2xl font-extrabold box-border caret-transparent flex leading-[31.2px] min-h-[auto] min-w-[auto] outline-[3px] text-left w-full py-[5px] font-open_sans md:text-[33px] md:leading-[42.9px]">
                       <div className="text-2xl box-border caret-transparent leading-[31.2px] min-h-[auto] min-w-[auto] outline-[3px] w-full md:text-[33px] md:leading-[42.9px]">
                         <p className="text-2xl box-border caret-transparent leading-[31.2px] outline-[3px] md:text-[33px] md:leading-[42.9px]">
-                          <strong className="text-2xl font-bold box-border caret-transparent leading-[31.2px] outline-[3px] md:text-[33px] md:leading-[42.9px]">{content.sectionHeadings.whatIDiscovered}</strong>
+                          <strong className="text-2xl font-bold box-border caret-transparent leading-[31.2px] outline-[3px] md:text-[33px] md:leading-[42.9px]">{content.discovery.headline}</strong>
                         </p>
                       </div>
                     </div>
@@ -251,7 +247,7 @@ export function TrybelloTopBar({ content, media }: { content: AdvContent; media:
                   <div className="box-border caret-transparent flex justify-center min-h-[auto] min-w-[auto] outline-[3px] w-full">
                     <div className="text-black text-xl box-border caret-transparent flex leading-[26px] min-h-[auto] min-w-[auto] outline-[3px] text-left w-full mt-2.5 py-[5px] font-open_sans">
                       <div className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] w-full">
-                        {renderProse(proseLines(content.body.rootCause))}
+                        {renderProse(content.discovery.body)}
                       </div>
                     </div>
                   </div>
@@ -261,7 +257,7 @@ export function TrybelloTopBar({ content, media }: { content: AdvContent; media:
                     <div className="text-black text-2xl font-extrabold box-border caret-transparent flex leading-[31.2px] min-h-[auto] min-w-[auto] outline-[3px] text-left w-full py-[5px] font-open_sans md:text-[33px] md:leading-[42.9px]">
                       <div className="text-2xl box-border caret-transparent leading-[31.2px] min-h-[auto] min-w-[auto] outline-[3px] w-full md:text-[33px] md:leading-[42.9px]">
                         <p className="text-2xl box-border caret-transparent leading-[31.2px] outline-[3px] md:text-[33px] md:leading-[42.9px]">
-                          <strong className="text-2xl font-bold box-border caret-transparent leading-[31.2px] outline-[3px] md:text-[33px] md:leading-[42.9px]">{content.sectionHeadings.comparableToBaldingMen}</strong>
+                          <strong className="text-2xl font-bold box-border caret-transparent leading-[31.2px] outline-[3px] md:text-[33px] md:leading-[42.9px]">{content.mechanism.headline}</strong>
                         </p>
                       </div>
                     </div>
@@ -282,7 +278,7 @@ export function TrybelloTopBar({ content, media }: { content: AdvContent; media:
                   <div className="box-border caret-transparent flex justify-center min-h-[auto] min-w-[auto] outline-[3px] w-full">
                     <div className="text-black text-xl box-border caret-transparent flex leading-[26px] min-h-[auto] min-w-[auto] outline-[3px] text-left w-full mt-2.5 py-[5px] font-open_sans">
                       <div className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] w-full">
-                        {renderProse(proseLines(content.body.dhtBiology))}
+                        {renderProse(content.mechanism.body)}
                       </div>
                     </div>
                   </div>
@@ -292,7 +288,7 @@ export function TrybelloTopBar({ content, media }: { content: AdvContent; media:
                     <div className="text-black text-2xl font-extrabold box-border caret-transparent flex leading-[31.2px] min-h-[auto] min-w-[auto] outline-[3px] text-left w-full py-[5px] font-open_sans md:text-[33px] md:leading-[42.9px]">
                       <div className="text-2xl box-border caret-transparent leading-[31.2px] min-h-[auto] min-w-[auto] outline-[3px] w-full md:text-[33px] md:leading-[42.9px]">
                         <p className="text-2xl box-border caret-transparent leading-[31.2px] outline-[3px] md:text-[33px] md:leading-[42.9px]">
-                          <strong className="text-2xl font-bold box-border caret-transparent leading-[31.2px] outline-[3px] md:text-[33px] md:leading-[42.9px]">{content.sectionHeadings.treatmentsFailed}</strong>
+                          <strong className="text-2xl font-bold box-border caret-transparent leading-[31.2px] outline-[3px] md:text-[33px] md:leading-[42.9px]">{content.failedSolutions.headline}</strong>
                         </p>
                       </div>
                     </div>
@@ -313,7 +309,7 @@ export function TrybelloTopBar({ content, media }: { content: AdvContent; media:
                   <div className="box-border caret-transparent flex justify-center min-h-[auto] min-w-[auto] outline-[3px] w-full">
                     <div className="text-black text-xl box-border caret-transparent flex leading-[26px] min-h-[auto] min-w-[auto] outline-[3px] text-left w-full mt-2.5 py-[5px] font-open_sans">
                       <div className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] w-full">
-                        {renderProse(proseLines(content.body.treatmentsFailed))}
+                        {renderProse(content.failedSolutions.body)}
                       </div>
                     </div>
                   </div>
@@ -323,7 +319,7 @@ export function TrybelloTopBar({ content, media }: { content: AdvContent; media:
                     <div className="text-black text-2xl font-extrabold box-border caret-transparent flex leading-[31.2px] min-h-[auto] min-w-[auto] outline-[3px] text-left w-full py-[5px] font-open_sans md:text-[33px] md:leading-[42.9px]">
                       <div className="text-2xl box-border caret-transparent leading-[31.2px] min-h-[auto] min-w-[auto] outline-[3px] w-full md:text-[33px] md:leading-[42.9px]">
                         <p className="text-2xl box-border caret-transparent leading-[31.2px] outline-[3px] md:text-[33px] md:leading-[42.9px]">
-                          <strong className="text-2xl font-bold box-border caret-transparent leading-[31.2px] outline-[3px] md:text-[33px] md:leading-[42.9px]">{content.sectionHeadings.discovery60sec}</strong>
+                          <strong className="text-2xl font-bold box-border caret-transparent leading-[31.2px] outline-[3px] md:text-[33px] md:leading-[42.9px]">{content.solution.headline}</strong>
                         </p>
                       </div>
                     </div>
@@ -344,7 +340,7 @@ export function TrybelloTopBar({ content, media }: { content: AdvContent; media:
                   <div className="box-border caret-transparent flex justify-center min-h-[auto] min-w-[auto] outline-[3px] w-full">
                     <div className="text-black text-xl box-border caret-transparent flex leading-[26px] min-h-[auto] min-w-[auto] outline-[3px] text-left w-full mt-2.5 py-[5px] font-open_sans">
                       <div className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] w-full">
-                        {renderProse(proseLines(content.body.discovery60sec))}
+                        {renderProse(content.solution.body)}
                       </div>
                     </div>
                   </div>
@@ -354,7 +350,7 @@ export function TrybelloTopBar({ content, media }: { content: AdvContent; media:
                     <div className="text-black text-2xl font-extrabold box-border caret-transparent flex leading-[31.2px] min-h-[auto] min-w-[auto] outline-[3px] text-left w-full py-[5px] font-open_sans md:text-[33px] md:leading-[42.9px]">
                       <div className="text-2xl box-border caret-transparent leading-[31.2px] min-h-[auto] min-w-[auto] outline-[3px] w-full md:text-[33px] md:leading-[42.9px]">
                         <p className="text-2xl box-border caret-transparent leading-[31.2px] outline-[3px] md:text-[33px] md:leading-[42.9px]">
-                          <strong className="text-2xl font-bold box-border caret-transparent leading-[31.2px] outline-[3px] md:text-[33px] md:leading-[42.9px]">{content.sectionHeadings.firstTestSubject}</strong>
+                          <strong className="text-2xl font-bold box-border caret-transparent leading-[31.2px] outline-[3px] md:text-[33px] md:leading-[42.9px]">{content.proof.headline}</strong>
                         </p>
                       </div>
                     </div>
@@ -375,7 +371,7 @@ export function TrybelloTopBar({ content, media }: { content: AdvContent; media:
                   <div className="box-border caret-transparent flex justify-center min-h-[auto] min-w-[auto] outline-[3px] w-full">
                     <div className="text-black text-xl box-border caret-transparent flex leading-[26px] min-h-[auto] min-w-[auto] outline-[3px] text-left w-full mt-2.5 py-[5px] font-open_sans">
                       <div className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] w-full">
-                        {renderProse(proseLines(content.body.firstTestSubject))}
+                        {renderProse(content.proof.body)}
                       </div>
                     </div>
                   </div>
@@ -385,7 +381,7 @@ export function TrybelloTopBar({ content, media }: { content: AdvContent; media:
                     <div className="text-black text-2xl font-extrabold box-border caret-transparent flex leading-[31.2px] min-h-[auto] min-w-[auto] outline-[3px] text-left w-full py-[5px] font-open_sans md:text-[33px] md:leading-[42.9px]">
                       <div className="text-2xl box-border caret-transparent leading-[31.2px] min-h-[auto] min-w-[auto] outline-[3px] w-full md:text-[33px] md:leading-[42.9px]">
                         <p className="text-2xl box-border caret-transparent leading-[31.2px] outline-[3px] md:text-[33px] md:leading-[42.9px]">
-                          <strong className="text-2xl font-bold box-border caret-transparent leading-[31.2px] outline-[3px] md:text-[33px] md:leading-[42.9px]">{content.sectionHeadings.patientRevolution}</strong>
+                          <strong className="text-2xl font-bold box-border caret-transparent leading-[31.2px] outline-[3px] md:text-[33px] md:leading-[42.9px]">{content.socialProof.headline}</strong>
                         </p>
                       </div>
                     </div>
@@ -406,7 +402,7 @@ export function TrybelloTopBar({ content, media }: { content: AdvContent; media:
                   <div className="box-border caret-transparent flex justify-center min-h-[auto] min-w-[auto] outline-[3px] w-full">
                     <div className="text-black text-xl box-border caret-transparent flex leading-[26px] min-h-[auto] min-w-[auto] outline-[3px] text-left w-full mt-2.5 py-[5px] font-open_sans">
                       <div className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] w-full">
-                        {renderProse(proseLines(content.body.patientRevolution))}
+                        {renderProse(content.socialProof.body)}
                       </div>
                     </div>
                   </div>
@@ -416,7 +412,7 @@ export function TrybelloTopBar({ content, media }: { content: AdvContent; media:
                     <div className="text-black text-2xl font-extrabold box-border caret-transparent flex leading-[31.2px] min-h-[auto] min-w-[auto] outline-[3px] text-left w-full py-[5px] font-open_sans md:text-[33px] md:leading-[42.9px]">
                       <div className="text-2xl box-border caret-transparent leading-[31.2px] min-h-[auto] min-w-[auto] outline-[3px] w-full md:text-[33px] md:leading-[42.9px]">
                         <p className="text-2xl box-border caret-transparent leading-[31.2px] outline-[3px] md:text-[33px] md:leading-[42.9px]">
-                          <strong className="text-2xl font-bold box-border caret-transparent leading-[31.2px] outline-[3px] md:text-[33px] md:leading-[42.9px]">{content.sectionHeadings.industryOpposition}</strong>
+                          <strong className="text-2xl font-bold box-border caret-transparent leading-[31.2px] outline-[3px] md:text-[33px] md:leading-[42.9px]">{content.opposition.headline}</strong>
                         </p>
                       </div>
                     </div>
@@ -437,7 +433,7 @@ export function TrybelloTopBar({ content, media }: { content: AdvContent; media:
                   <div className="box-border caret-transparent flex justify-center min-h-[auto] min-w-[auto] outline-[3px] w-full">
                     <div className="text-black text-xl box-border caret-transparent flex leading-[26px] min-h-[auto] min-w-[auto] outline-[3px] text-left w-full mt-2.5 py-[5px] font-open_sans">
                       <div className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] w-full">
-                        {renderProse(proseLines(content.body.industryOpposition))}
+                        {renderProse(content.opposition.body)}
                       </div>
                     </div>
                   </div>
@@ -447,7 +443,7 @@ export function TrybelloTopBar({ content, media }: { content: AdvContent; media:
                     <div className="text-black text-2xl font-extrabold box-border caret-transparent flex leading-[31.2px] min-h-[auto] min-w-[auto] outline-[3px] text-left w-full py-[5px] font-open_sans md:text-[33px] md:leading-[42.9px]">
                       <div className="text-2xl box-border caret-transparent leading-[31.2px] min-h-[auto] min-w-[auto] outline-[3px] w-full md:text-[33px] md:leading-[42.9px]">
                         <p className="text-2xl box-border caret-transparent leading-[31.2px] outline-[3px] md:text-[33px] md:leading-[42.9px]">
-                          <strong className="text-2xl font-bold box-border caret-transparent leading-[31.2px] outline-[3px] md:text-[33px] md:leading-[42.9px]">{content.sectionHeadings.productIntro}</strong>
+                          <strong className="text-2xl font-bold box-border caret-transparent leading-[31.2px] outline-[3px] md:text-[33px] md:leading-[42.9px]">{content.productReveal.headline}</strong>
                         </p>
                       </div>
                     </div>
@@ -468,7 +464,7 @@ export function TrybelloTopBar({ content, media }: { content: AdvContent; media:
                   <div className="box-border caret-transparent flex justify-center min-h-[auto] min-w-[auto] outline-[3px] w-full">
                     <div className="text-black text-xl box-border caret-transparent flex leading-[26px] min-h-[auto] min-w-[auto] outline-[3px] text-left w-full mt-2.5 py-[5px] font-open_sans">
                       <div className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] w-full">
-                        {renderProse(proseLines(content.body.productIntro))}
+                        {renderProse(content.productReveal.body)}
                       </div>
                     </div>
                   </div>
@@ -478,7 +474,7 @@ export function TrybelloTopBar({ content, media }: { content: AdvContent; media:
                     <div className="text-black text-2xl font-extrabold box-border caret-transparent flex leading-[31.2px] min-h-[auto] min-w-[auto] outline-[3px] text-left w-full py-[5px] font-open_sans md:text-[33px] md:leading-[42.9px]">
                       <div className="text-2xl box-border caret-transparent leading-[31.2px] min-h-[auto] min-w-[auto] outline-[3px] w-full md:text-[33px] md:leading-[42.9px]">
                         <p className="text-2xl box-border caret-transparent leading-[31.2px] outline-[3px] md:text-[33px] md:leading-[42.9px]">
-                          <strong className="text-2xl font-bold box-border caret-transparent leading-[31.2px] outline-[3px] md:text-[33px] md:leading-[42.9px]">{content.sectionHeadings.ingredientTruth}</strong>
+                          <strong className="text-2xl font-bold box-border caret-transparent leading-[31.2px] outline-[3px] md:text-[33px] md:leading-[42.9px]">{content.ingredients.headline}</strong>
                         </p>
                       </div>
                     </div>
@@ -499,7 +495,7 @@ export function TrybelloTopBar({ content, media }: { content: AdvContent; media:
                   <div className="box-border caret-transparent flex justify-center min-h-[auto] min-w-[auto] outline-[3px] w-full">
                     <div className="text-black text-xl box-border caret-transparent flex leading-[26px] min-h-[auto] min-w-[auto] outline-[3px] text-left w-full mt-2.5 py-[5px] font-open_sans">
                       <div className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] w-full">
-                        {renderProse(proseLines(content.body.ingredientTruth))}
+                        {renderProse(content.ingredients.body)}
                       </div>
                     </div>
                   </div>
@@ -509,7 +505,7 @@ export function TrybelloTopBar({ content, media }: { content: AdvContent; media:
                     <div className="text-black text-2xl font-extrabold box-border caret-transparent flex leading-[31.2px] min-h-[auto] min-w-[auto] outline-[3px] text-left w-full py-[5px] font-open_sans md:text-[33px] md:leading-[42.9px]">
                       <div className="text-2xl box-border caret-transparent leading-[31.2px] min-h-[auto] min-w-[auto] outline-[3px] w-full md:text-[33px] md:leading-[42.9px]">
                         <p className="text-2xl box-border caret-transparent leading-[31.2px] outline-[3px] md:text-[33px] md:leading-[42.9px]">
-                          <strong className="text-2xl font-bold box-border caret-transparent leading-[31.2px] outline-[3px] md:text-[33px] md:leading-[42.9px]">{content.sectionHeadings.realWomen}</strong>
+                          <strong className="text-2xl font-bold box-border caret-transparent leading-[31.2px] outline-[3px] md:text-[33px] md:leading-[42.9px]">{content.testimonials.headline}</strong>
                         </p>
                       </div>
                     </div>
@@ -530,7 +526,7 @@ export function TrybelloTopBar({ content, media }: { content: AdvContent; media:
                   <div className="box-border caret-transparent flex justify-center min-h-[auto] min-w-[auto] outline-[3px] w-full">
                     <div className="text-black text-xl box-border caret-transparent flex leading-[26px] min-h-[auto] min-w-[auto] outline-[3px] text-left w-full mt-2.5 py-[5px] font-open_sans">
                       <div className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] w-full">
-                        {renderProse(proseLines(content.body.realWomen))}
+                        {renderProse(content.testimonials.body)}
                       </div>
                     </div>
                   </div>
@@ -540,7 +536,7 @@ export function TrybelloTopBar({ content, media }: { content: AdvContent; media:
                     <div className="text-black text-2xl font-extrabold box-border caret-transparent flex leading-[31.2px] min-h-[auto] min-w-[auto] outline-[3px] text-left w-full py-[5px] font-open_sans md:text-[33px] md:leading-[42.9px]">
                       <div className="text-2xl box-border caret-transparent leading-[31.2px] min-h-[auto] min-w-[auto] outline-[3px] w-full md:text-[33px] md:leading-[42.9px]">
                         <p className="text-2xl box-border caret-transparent leading-[31.2px] outline-[3px] md:text-[33px] md:leading-[42.9px]">
-                          <strong className="text-2xl font-bold box-border caret-transparent leading-[31.2px] outline-[3px] md:text-[33px] md:leading-[42.9px]">{content.sectionHeadings.pricingSection}</strong>
+                          <strong className="text-2xl font-bold box-border caret-transparent leading-[31.2px] outline-[3px] md:text-[33px] md:leading-[42.9px]">{content.pricing.headline}</strong>
                         </p>
                       </div>
                     </div>
@@ -561,7 +557,7 @@ export function TrybelloTopBar({ content, media }: { content: AdvContent; media:
                   <div className="box-border caret-transparent flex justify-center min-h-[auto] min-w-[auto] outline-[3px] w-full">
                     <div className="text-black text-xl box-border caret-transparent flex leading-[26px] min-h-[auto] min-w-[auto] outline-[3px] text-left w-full mt-2.5 py-[5px] font-open_sans">
                       <div className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] w-full">
-                        {renderProse(proseLines(content.body.pricingSection))}
+                        {renderProse(content.pricing.body)}
                       </div>
                     </div>
                   </div>
@@ -571,7 +567,7 @@ export function TrybelloTopBar({ content, media }: { content: AdvContent; media:
                     <div className="text-black text-2xl font-extrabold box-border caret-transparent flex leading-[31.2px] min-h-[auto] min-w-[auto] outline-[3px] text-left w-full py-[5px] font-open_sans md:text-[33px] md:leading-[42.9px]">
                       <div className="text-2xl box-border caret-transparent leading-[31.2px] min-h-[auto] min-w-[auto] outline-[3px] w-full md:text-[33px] md:leading-[42.9px]">
                         <p className="text-2xl box-border caret-transparent leading-[31.2px] outline-[3px] md:text-[33px] md:leading-[42.9px]">
-                          <strong className="text-2xl font-bold box-border caret-transparent leading-[31.2px] outline-[3px] md:text-[33px] md:leading-[42.9px]">{content.sectionHeadings.guarantee}</strong>
+                          <strong className="text-2xl font-bold box-border caret-transparent leading-[31.2px] outline-[3px] md:text-[33px] md:leading-[42.9px]">{content.guarantee.headline}</strong>
                         </p>
                       </div>
                     </div>
@@ -592,7 +588,7 @@ export function TrybelloTopBar({ content, media }: { content: AdvContent; media:
                   <div className="box-border caret-transparent flex justify-center min-h-[auto] min-w-[auto] outline-[3px] w-full">
                     <div className="text-black text-xl box-border caret-transparent flex leading-[26px] min-h-[auto] min-w-[auto] outline-[3px] text-left w-full mt-2.5 py-[5px] font-open_sans">
                       <div className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] w-full">
-                        {renderProse(proseLines(content.body.guarantee))}
+                        {renderProse(content.guarantee.body)}
                       </div>
                     </div>
                   </div>
@@ -602,7 +598,7 @@ export function TrybelloTopBar({ content, media }: { content: AdvContent; media:
                     <div className="text-black text-2xl font-extrabold box-border caret-transparent flex leading-[31.2px] min-h-[auto] min-w-[auto] outline-[3px] text-left w-full py-[5px] font-open_sans md:text-[33px] md:leading-[42.9px]">
                       <div className="text-2xl box-border caret-transparent leading-[31.2px] min-h-[auto] min-w-[auto] outline-[3px] w-full md:text-[33px] md:leading-[42.9px]">
                         <h2 className="text-2xl box-border caret-transparent leading-[31.2px] outline-[3px] md:text-[33px] md:leading-[42.9px]">
-                          <strong className="text-2xl font-bold box-border caret-transparent leading-[31.2px] outline-[3px] md:text-[33px] md:leading-[42.9px]">{content.sectionHeadings.twoPaths}</strong>
+                          <strong className="text-2xl font-bold box-border caret-transparent leading-[31.2px] outline-[3px] md:text-[33px] md:leading-[42.9px]">{content.twoPaths.headline}</strong>
                         </h2>
                       </div>
                     </div>
@@ -612,7 +608,7 @@ export function TrybelloTopBar({ content, media }: { content: AdvContent; media:
                   <div className="box-border caret-transparent flex justify-center min-h-[auto] min-w-[auto] outline-[3px] w-full">
                     <div className="text-black text-xl box-border caret-transparent flex leading-[26px] min-h-[auto] min-w-[auto] outline-[3px] text-left w-full mt-2.5 py-[5px] font-open_sans">
                       <div className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] w-full">
-                        {renderTwoPaths(content.body.twoPaths)}
+                        {renderTwoPaths(content.twoPaths)}
                       </div>
                     </div>
                   </div>
@@ -622,7 +618,7 @@ export function TrybelloTopBar({ content, media }: { content: AdvContent; media:
                     <div className="text-black text-2xl font-extrabold box-border caret-transparent flex leading-[31.2px] min-h-[auto] min-w-[auto] outline-[3px] text-left w-full py-[5px] font-open_sans md:text-[33px] md:leading-[42.9px]">
                       <div className="text-2xl box-border caret-transparent leading-[31.2px] min-h-[auto] min-w-[auto] outline-[3px] w-full md:text-[33px] md:leading-[42.9px]">
                         <h2 className="text-2xl box-border caret-transparent leading-[31.2px] outline-[3px] md:text-[33px] md:leading-[42.9px]">
-                          <strong className="text-2xl font-bold box-border caret-transparent leading-[31.2px] outline-[3px] md:text-[33px] md:leading-[42.9px]">{content.sectionHeadings.whatToDoNext}</strong>
+                          <strong className="text-2xl font-bold box-border caret-transparent leading-[31.2px] outline-[3px] md:text-[33px] md:leading-[42.9px]">{content.finalCta.headline}</strong>
                         </h2>
                       </div>
                     </div>
@@ -643,7 +639,7 @@ export function TrybelloTopBar({ content, media }: { content: AdvContent; media:
                   <div className="box-border caret-transparent flex justify-center min-h-[auto] min-w-[auto] outline-[3px] w-full">
                     <div className="text-black text-xl box-border caret-transparent flex leading-[26px] min-h-[auto] min-w-[auto] outline-[3px] text-left w-full mt-2.5 py-[5px] font-open_sans">
                       <div className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] w-full">
-                        {renderProse(proseLines(content.body.whatToDoNext))}
+                        {renderProse(content.finalCta.body)}
                       </div>
                     </div>
                   </div>
@@ -656,7 +652,7 @@ export function TrybelloTopBar({ content, media }: { content: AdvContent; media:
                     >
                       <div className="text-xl box-border caret-transparent tracking-[0.4px] leading-[30px] min-h-[auto] min-w-[auto] outline-[3px] pointer-events-none md:text-3xl md:tracking-[0.6px] md:leading-[45px]">
                         <p className="text-xl box-border caret-transparent tracking-[0.4px] leading-[30px] outline-[3px] md:text-3xl md:tracking-[0.6px] md:leading-[45px]">
-                          {content.ctaButtons[0]}
+                          {content.finalCta.ctaText}
                         </p>
                       </div>
                     </a>
@@ -666,7 +662,7 @@ export function TrybelloTopBar({ content, media }: { content: AdvContent; media:
                   <div className="box-border caret-transparent flex justify-center min-h-[auto] min-w-[auto] outline-[3px] w-full">
                     <div className="text-black text-xl box-border caret-transparent flex leading-[26px] min-h-[auto] min-w-[auto] outline-[3px] text-left w-full mt-2.5 py-[5px] font-open_sans">
                       <div className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] w-full">
-                        {proseLines(content.body.ctaBenefits).map((text, i) => (
+                        {content.finalCta.benefits.map((text, i) => (
                           <p key={i} className="box-border caret-transparent outline-[3px]">{text}</p>
                         ))}
                       </div>
@@ -678,23 +674,23 @@ export function TrybelloTopBar({ content, media }: { content: AdvContent; media:
                     <div className="text-black text-xl box-border caret-transparent flex leading-[26px] min-h-[auto] min-w-[auto] outline-[3px] text-left w-full mt-2.5 py-[5px] font-open_sans">
                       <div className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] w-full">
                         <p className="box-border caret-transparent outline-[3px]">
-                          {content.body.closing.signoff}
+                          {content.closing.signoff}
                         </p>
                         <p className="box-border caret-transparent outline-[3px] before:accent-auto before:caret-transparent before:text-black before:inline-block before:text-xl before:not-italic before:normal-nums before:font-normal before:tracking-[normal] before:leading-[26px] before:list-outside before:list-disc before:min-h-5 before:outline-[3px] before:pointer-events-auto before:text-left before:no-underline before:indent-[0px] before:normal-case before:visible before:border-separate before:font-open_sans"></p>
                         <p className="box-border caret-transparent outline-[3px]">
-                          {content.body.closing.byline}
+                          {content.closing.byline}
                         </p>
                         <p className="box-border caret-transparent outline-[3px] before:accent-auto before:caret-transparent before:text-black before:inline-block before:text-xl before:not-italic before:normal-nums before:font-normal before:tracking-[normal] before:leading-[26px] before:list-outside before:list-disc before:min-h-5 before:outline-[3px] before:pointer-events-auto before:text-left before:no-underline before:indent-[0px] before:normal-case before:visible before:border-separate before:font-open_sans"></p>
                         <p className="box-border caret-transparent outline-[3px]">
-                          {content.body.closing.ps}
+                          {content.closing.ps}
                         </p>
                         <p className="box-border caret-transparent outline-[3px] before:accent-auto before:caret-transparent before:text-black before:inline-block before:text-xl before:not-italic before:normal-nums before:font-normal before:tracking-[normal] before:leading-[26px] before:list-outside before:list-disc before:min-h-5 before:outline-[3px] before:pointer-events-auto before:text-left before:no-underline before:indent-[0px] before:normal-case before:visible before:border-separate before:font-open_sans"></p>
                         <p className="box-border caret-transparent outline-[3px]">
-                          {content.body.closing.pps}
+                          {content.closing.pps}
                         </p>
                         <p className="box-border caret-transparent outline-[3px] before:accent-auto before:caret-transparent before:text-black before:inline-block before:text-xl before:not-italic before:normal-nums before:font-normal before:tracking-[normal] before:leading-[26px] before:list-outside before:list-disc before:min-h-5 before:outline-[3px] before:pointer-events-auto before:text-left before:no-underline before:indent-[0px] before:normal-case before:visible before:border-separate before:font-open_sans"></p>
                         <p className="box-border caret-transparent outline-[3px]">
-                          {content.body.closing.ppps}
+                          {content.closing.ppps}
                         </p>
                       </div>
                     </div>
@@ -708,7 +704,7 @@ export function TrybelloTopBar({ content, media }: { content: AdvContent; media:
                     >
                       <div className="text-xl box-border caret-transparent tracking-[0.4px] leading-[30px] min-h-[auto] min-w-[auto] outline-[3px] pointer-events-none md:text-3xl md:tracking-[0.6px] md:leading-[45px]">
                         <p className="text-xl box-border caret-transparent tracking-[0.4px] leading-[30px] outline-[3px] md:text-3xl md:tracking-[0.6px] md:leading-[45px]">
-                          {content.ctaButtons[1]}{" "}
+                          {content.closing.ctaText}{" "}
                           <span className="relative text-xl box-border caret-transparent inline-flex tracking-[0.4px] leading-[30px] outline-[3px] align-middle md:text-3xl md:tracking-[0.6px] md:leading-[45px]">
                             <img
                               src={media.ctaArrowIcon}
@@ -743,14 +739,14 @@ export function TrybelloTopBar({ content, media }: { content: AdvContent; media:
                                 <p className="box-border caret-transparent outline-[3px]">
                                   <span className="text-red-600 box-border caret-transparent outline-[3px]">
                                     <strong className="font-bold box-border caret-transparent outline-[3px]">
-                                      {content.body.urgencyUpdate.label}{" "}
+                                      {content.urgency.label}{" "}
                                     </strong>
                                   </span>
                                   <span className="box-border caret-transparent outline-[3px]">
-                                    {content.body.urgencyUpdate.date}
+                                    {content.urgency.date}
                                     <strong className="font-bold box-border caret-transparent outline-[3px]">
                                       {" "}
-                                      {content.body.urgencyUpdate.text}
+                                      {content.urgency.text}
                                     </strong>
                                   </span>
                                 </p>
@@ -768,9 +764,9 @@ export function TrybelloTopBar({ content, media }: { content: AdvContent; media:
                                       <div className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] w-full">
                                         <p className="box-border caret-transparent outline-[3px]">
                                           <span className="text-red-600 box-border caret-transparent outline-[3px]">
-                                            {content.body.urgencyUpdate.noteLabel}
+                                            {content.urgency.noteLabel}
                                           </span>
-                                          {content.body.urgencyUpdate.note}
+                                          {content.urgency.note}
                                         </p>
                                       </div>
                                     </div>
@@ -805,7 +801,7 @@ export function TrybelloTopBar({ content, media }: { content: AdvContent; media:
                                     >
                                       <div className="text-xl box-border caret-transparent tracking-[0.4px] leading-[30px] min-h-[auto] min-w-[auto] outline-[3px] pointer-events-none md:text-3xl md:tracking-[0.6px] md:leading-[45px]">
                                         <p className="text-xl box-border caret-transparent tracking-[0.4px] leading-[30px] outline-[3px] md:text-3xl md:tracking-[0.6px] md:leading-[45px]">
-                                          {content.ctaButtons[2]}
+                                          {content.urgency.ctaText}
                                         </p>
                                       </div>
                                     </a>
@@ -941,7 +937,7 @@ export function TrybelloTopBar({ content, media }: { content: AdvContent; media:
                               <div className="text-xl box-border caret-transparent leading-[30px] outline-[3px] w-full font-open_sans md:text-lg md:leading-[27px] md:font-roboto">
                                 <p className="text-xl box-border caret-transparent leading-[30px] outline-[3px] font-open_sans md:text-lg md:leading-[27px] md:font-roboto">
                                   <strong className="text-xl font-bold box-border caret-transparent leading-[30px] outline-[3px] font-open_sans md:text-lg md:leading-[27px] md:font-roboto">
-                                    {content.customerReviews.title}
+                                    {content.reviews.headline}
                                   </strong>
                                 </p>
                               </div>
@@ -973,7 +969,7 @@ export function TrybelloTopBar({ content, media }: { content: AdvContent; media:
                               <div className="text-sm box-border caret-transparent leading-[21px] outline-[3px] text-left w-full font-open_sans md:text-lg md:leading-[27px] md:text-center md:font-roboto">
                                 <p className="text-sm box-border caret-transparent leading-[21px] outline-[3px] text-left font-open_sans md:text-lg md:leading-[27px] md:text-center md:font-roboto">
                                   <strong className="text-sm font-bold box-border caret-transparent leading-[21px] outline-[3px] text-left font-open_sans md:text-lg md:leading-[27px] md:text-center md:font-roboto">
-                                    {content.customerReviews.rating}
+                                    {content.reviews.rating}
                                   </strong>
                                 </p>
                               </div>
@@ -985,7 +981,7 @@ export function TrybelloTopBar({ content, media }: { content: AdvContent; media:
                             <div className="text-stone-300 text-sm box-border caret-transparent flex leading-[21px] outline-[3px] w-full font-open_sans md:text-zinc-800 md:text-lg md:leading-[27px] md:font-roboto">
                               <div className="text-stone-300 text-sm box-border caret-transparent leading-[21px] outline-[3px] w-full font-open_sans md:text-zinc-800 md:text-lg md:leading-[27px] md:font-roboto">
                                 <p className="text-stone-300 text-sm box-border caret-transparent leading-[21px] outline-[3px] font-open_sans md:text-zinc-800 md:text-lg md:leading-[27px] md:font-roboto">
-                                  {content.customerReviews.ratingCount}
+                                  {content.reviews.ratingCount}
                                 </p>
                               </div>
                             </div>
@@ -1000,7 +996,7 @@ export function TrybelloTopBar({ content, media }: { content: AdvContent; media:
                                     <div className="text-[15px] box-border caret-transparent flex leading-[22.5px] outline-[3px] text-left w-full font-open_sans md:text-lg md:leading-[27px] md:text-center md:font-roboto">
                                       <div className="text-[15px] box-border caret-transparent leading-[22.5px] outline-[3px] text-left w-full font-open_sans md:text-lg md:leading-[27px] md:text-center md:font-roboto">
                                         <p className="text-[15px] box-border caret-transparent leading-[22.5px] outline-[3px] text-left font-open_sans md:text-lg md:leading-[27px] md:text-center md:font-roboto">
-                                          {content.customerReviews.stars[0].percent}
+                                          {content.reviews.stars[0].percent}
                                         </p>
                                       </div>
                                     </div>
@@ -1026,7 +1022,7 @@ export function TrybelloTopBar({ content, media }: { content: AdvContent; media:
                                     <div className="text-[15px] box-border caret-transparent flex leading-[22.5px] outline-[3px] text-right w-full font-open_sans md:text-lg md:leading-[27px] md:text-center md:font-roboto">
                                       <div className="text-[15px] box-border caret-transparent leading-[22.5px] outline-[3px] text-right w-full font-open_sans md:text-lg md:leading-[27px] md:text-center md:font-roboto">
                                         <p className="text-[15px] box-border caret-transparent leading-[22.5px] outline-[3px] text-right font-open_sans md:text-lg md:leading-[27px] md:text-center md:font-roboto">
-                                          {content.customerReviews.stars[0].label}
+                                          {content.reviews.stars[0].label}
                                         </p>
                                       </div>
                                     </div>
@@ -1045,7 +1041,7 @@ export function TrybelloTopBar({ content, media }: { content: AdvContent; media:
                                     <div className="text-[15px] box-border caret-transparent flex leading-[22.5px] outline-[3px] text-left w-full font-open_sans md:text-lg md:leading-[27px] md:text-center md:font-roboto">
                                       <div className="text-[15px] box-border caret-transparent leading-[22.5px] outline-[3px] text-left w-full font-open_sans md:text-lg md:leading-[27px] md:text-center md:font-roboto">
                                         <p className="text-[15px] box-border caret-transparent leading-[22.5px] outline-[3px] text-left font-open_sans md:text-lg md:leading-[27px] md:text-center md:font-roboto">
-                                          {content.customerReviews.stars[1].percent}
+                                          {content.reviews.stars[1].percent}
                                         </p>
                                       </div>
                                     </div>
@@ -1071,7 +1067,7 @@ export function TrybelloTopBar({ content, media }: { content: AdvContent; media:
                                     <div className="text-[15px] box-border caret-transparent flex leading-[22.5px] outline-[3px] text-right w-full font-open_sans md:text-lg md:leading-[27px] md:text-center md:font-roboto">
                                       <div className="text-[15px] box-border caret-transparent leading-[22.5px] outline-[3px] text-right w-full font-open_sans md:text-lg md:leading-[27px] md:text-center md:font-roboto">
                                         <p className="text-[15px] box-border caret-transparent leading-[22.5px] outline-[3px] text-right font-open_sans md:text-lg md:leading-[27px] md:text-center md:font-roboto">
-                                          {content.customerReviews.stars[1].label}
+                                          {content.reviews.stars[1].label}
                                         </p>
                                       </div>
                                     </div>
@@ -1090,7 +1086,7 @@ export function TrybelloTopBar({ content, media }: { content: AdvContent; media:
                                     <div className="text-[15px] box-border caret-transparent flex leading-[22.5px] outline-[3px] text-left w-full font-open_sans md:text-lg md:leading-[27px] md:text-center md:font-roboto">
                                       <div className="text-[15px] box-border caret-transparent leading-[22.5px] outline-[3px] text-left w-full font-open_sans md:text-lg md:leading-[27px] md:text-center md:font-roboto">
                                         <p className="text-[15px] box-border caret-transparent leading-[22.5px] outline-[3px] text-left font-open_sans md:text-lg md:leading-[27px] md:text-center md:font-roboto">
-                                          {content.customerReviews.stars[2].percent}
+                                          {content.reviews.stars[2].percent}
                                         </p>
                                       </div>
                                     </div>
@@ -1116,7 +1112,7 @@ export function TrybelloTopBar({ content, media }: { content: AdvContent; media:
                                     <div className="text-[15px] box-border caret-transparent flex leading-[22.5px] outline-[3px] text-right w-full font-open_sans md:text-lg md:leading-[27px] md:text-center md:font-roboto">
                                       <div className="text-[15px] box-border caret-transparent leading-[22.5px] outline-[3px] text-right w-full font-open_sans md:text-lg md:leading-[27px] md:text-center md:font-roboto">
                                         <p className="text-[15px] box-border caret-transparent leading-[22.5px] outline-[3px] text-right font-open_sans md:text-lg md:leading-[27px] md:text-center md:font-roboto">
-                                          {content.customerReviews.stars[2].label}
+                                          {content.reviews.stars[2].label}
                                         </p>
                                       </div>
                                     </div>
@@ -1135,7 +1131,7 @@ export function TrybelloTopBar({ content, media }: { content: AdvContent; media:
                                     <div className="text-[15px] box-border caret-transparent flex leading-[22.5px] outline-[3px] text-left w-full font-open_sans md:text-lg md:leading-[27px] md:text-center md:font-roboto">
                                       <div className="text-[15px] box-border caret-transparent leading-[22.5px] outline-[3px] text-left w-full font-open_sans md:text-lg md:leading-[27px] md:text-center md:font-roboto">
                                         <p className="text-[15px] box-border caret-transparent leading-[22.5px] outline-[3px] text-left font-open_sans md:text-lg md:leading-[27px] md:text-center md:font-roboto">
-                                          {content.customerReviews.stars[3].percent}
+                                          {content.reviews.stars[3].percent}
                                         </p>
                                       </div>
                                     </div>
@@ -1161,7 +1157,7 @@ export function TrybelloTopBar({ content, media }: { content: AdvContent; media:
                                     <div className="text-[15px] box-border caret-transparent flex leading-[22.5px] outline-[3px] text-right w-full font-open_sans md:text-lg md:leading-[27px] md:text-center md:font-roboto">
                                       <div className="text-[15px] box-border caret-transparent leading-[22.5px] outline-[3px] text-right w-full font-open_sans md:text-lg md:leading-[27px] md:text-center md:font-roboto">
                                         <p className="text-[15px] box-border caret-transparent leading-[22.5px] outline-[3px] text-right font-open_sans md:text-lg md:leading-[27px] md:text-center md:font-roboto">
-                                          {content.customerReviews.stars[3].label}
+                                          {content.reviews.stars[3].label}
                                         </p>
                                       </div>
                                     </div>
@@ -1180,7 +1176,7 @@ export function TrybelloTopBar({ content, media }: { content: AdvContent; media:
                                     <div className="text-[15px] box-border caret-transparent flex leading-[22.5px] outline-[3px] text-left w-full font-open_sans md:text-lg md:leading-[27px] md:text-center md:font-roboto">
                                       <div className="text-[15px] box-border caret-transparent leading-[22.5px] outline-[3px] text-left w-full font-open_sans md:text-lg md:leading-[27px] md:text-center md:font-roboto">
                                         <p className="text-[15px] box-border caret-transparent leading-[22.5px] outline-[3px] text-left font-open_sans md:text-lg md:leading-[27px] md:text-center md:font-roboto">
-                                          {content.customerReviews.stars[4].percent}
+                                          {content.reviews.stars[4].percent}
                                         </p>
                                       </div>
                                     </div>
@@ -1206,7 +1202,7 @@ export function TrybelloTopBar({ content, media }: { content: AdvContent; media:
                                     <div className="text-[15px] box-border caret-transparent flex leading-[22.5px] outline-[3px] text-right w-full font-open_sans md:text-lg md:leading-[27px] md:text-center md:font-roboto">
                                       <div className="text-[15px] box-border caret-transparent leading-[22.5px] outline-[3px] text-right w-full font-open_sans md:text-lg md:leading-[27px] md:text-center md:font-roboto">
                                         <p className="text-[15px] box-border caret-transparent leading-[22.5px] outline-[3px] text-right font-open_sans md:text-lg md:leading-[27px] md:text-center md:font-roboto">
-                                          {content.customerReviews.stars[4].label}
+                                          {content.reviews.stars[4].label}
                                         </p>
                                       </div>
                                     </div>
@@ -1221,7 +1217,7 @@ export function TrybelloTopBar({ content, media }: { content: AdvContent; media:
                             <div className="text-xl font-bold box-border caret-transparent flex leading-[30px] outline-[3px] w-full mt-2.5 font-open_sans md:text-lg md:font-normal md:leading-[27px] md:font-roboto">
                               <div className="text-xl font-bold box-border caret-transparent leading-[30px] outline-[3px] w-full font-open_sans md:text-lg md:font-normal md:leading-[27px] md:font-roboto">
                                 <p className="text-xl font-bold box-border caret-transparent leading-[30px] outline-[3px] font-open_sans md:text-lg md:font-normal md:leading-[27px] md:font-roboto">
-                                  {content.customerReviews.byFeatureLabel}
+                                  {content.reviews.byFeatureHeadline}
                                 </p>
                               </div>
                             </div>
@@ -1236,7 +1232,7 @@ export function TrybelloTopBar({ content, media }: { content: AdvContent; media:
                                     <div className="text-base box-border caret-transparent flex leading-6 outline-[3px] text-left w-full md:text-lg md:leading-[27px] md:text-center">
                                       <div className="text-base box-border caret-transparent leading-6 outline-[3px] text-left w-full md:text-lg md:leading-[27px] md:text-center">
                                         <p className="text-base box-border caret-transparent leading-6 outline-[3px] text-left md:text-lg md:leading-[27px] md:text-center">
-                                          {content.customerReviews.features[0].label}
+                                          {content.reviews.features[0].label}
                                         </p>
                                       </div>
                                     </div>
@@ -1262,7 +1258,7 @@ export function TrybelloTopBar({ content, media }: { content: AdvContent; media:
                                     <div className="text-base box-border caret-transparent flex leading-6 outline-[3px] text-left w-full ml-[5px] md:text-lg md:leading-[27px] md:text-center">
                                       <div className="text-base box-border caret-transparent leading-6 outline-[3px] text-left w-full md:text-lg md:leading-[27px] md:text-center">
                                         <p className="text-base box-border caret-transparent leading-6 outline-[3px] text-left md:text-lg md:leading-[27px] md:text-center">
-                                          {content.customerReviews.features[0].score}
+                                          {content.reviews.features[0].score}
                                         </p>
                                       </div>
                                     </div>
@@ -1281,7 +1277,7 @@ export function TrybelloTopBar({ content, media }: { content: AdvContent; media:
                                     <div className="text-base box-border caret-transparent flex leading-6 outline-[3px] text-left w-full md:text-lg md:leading-[27px] md:text-center">
                                       <div className="text-base box-border caret-transparent leading-6 outline-[3px] text-left w-full md:text-lg md:leading-[27px] md:text-center">
                                         <p className="text-base box-border caret-transparent leading-6 outline-[3px] text-left md:text-lg md:leading-[27px] md:text-center">
-                                          {content.customerReviews.features[1].label}
+                                          {content.reviews.features[1].label}
                                         </p>
                                       </div>
                                     </div>
@@ -1307,7 +1303,7 @@ export function TrybelloTopBar({ content, media }: { content: AdvContent; media:
                                     <div className="text-base box-border caret-transparent flex leading-6 outline-[3px] text-left w-full ml-[5px] md:text-lg md:leading-[27px] md:text-center">
                                       <div className="text-base box-border caret-transparent leading-6 outline-[3px] text-left w-full md:text-lg md:leading-[27px] md:text-center">
                                         <p className="text-base box-border caret-transparent leading-6 outline-[3px] text-left md:text-lg md:leading-[27px] md:text-center">
-                                          {content.customerReviews.features[1].score}
+                                          {content.reviews.features[1].score}
                                         </p>
                                       </div>
                                     </div>
@@ -1326,7 +1322,7 @@ export function TrybelloTopBar({ content, media }: { content: AdvContent; media:
                                     <div className="text-base box-border caret-transparent flex leading-6 outline-[3px] text-left w-full md:text-lg md:leading-[27px] md:text-center">
                                       <div className="text-base box-border caret-transparent leading-6 outline-[3px] text-left w-full md:text-lg md:leading-[27px] md:text-center">
                                         <p className="text-base box-border caret-transparent leading-6 outline-[3px] text-left md:text-lg md:leading-[27px] md:text-center">
-                                          {content.customerReviews.features[2].label}
+                                          {content.reviews.features[2].label}
                                         </p>
                                       </div>
                                     </div>
@@ -1352,7 +1348,7 @@ export function TrybelloTopBar({ content, media }: { content: AdvContent; media:
                                     <div className="text-base box-border caret-transparent flex leading-6 outline-[3px] text-left w-full ml-[5px] md:text-lg md:leading-[27px] md:text-center">
                                       <div className="text-base box-border caret-transparent leading-6 outline-[3px] text-left w-full md:text-lg md:leading-[27px] md:text-center">
                                         <p className="text-base box-border caret-transparent leading-6 outline-[3px] text-left md:text-lg md:leading-[27px] md:text-center">
-                                          {content.customerReviews.features[2].score}
+                                          {content.reviews.features[2].score}
                                         </p>
                                       </div>
                                     </div>
@@ -1371,7 +1367,7 @@ export function TrybelloTopBar({ content, media }: { content: AdvContent; media:
                                     <div className="text-base box-border caret-transparent flex leading-6 outline-[3px] text-left w-full md:text-lg md:leading-[27px] md:text-center">
                                       <div className="text-base box-border caret-transparent leading-6 outline-[3px] text-left w-full md:text-lg md:leading-[27px] md:text-center">
                                         <p className="text-base box-border caret-transparent leading-6 outline-[3px] text-left md:text-lg md:leading-[27px] md:text-center">
-                                          {content.customerReviews.features[3].label}
+                                          {content.reviews.features[3].label}
                                         </p>
                                       </div>
                                     </div>
@@ -1397,7 +1393,7 @@ export function TrybelloTopBar({ content, media }: { content: AdvContent; media:
                                     <div className="text-base box-border caret-transparent flex leading-6 outline-[3px] text-left w-full ml-[5px] md:text-lg md:leading-[27px] md:text-center">
                                       <div className="text-base box-border caret-transparent leading-6 outline-[3px] text-left w-full md:text-lg md:leading-[27px] md:text-center">
                                         <p className="text-base box-border caret-transparent leading-6 outline-[3px] text-left md:text-lg md:leading-[27px] md:text-center">
-                                          {content.customerReviews.features[3].score}
+                                          {content.reviews.features[3].score}
                                         </p>
                                       </div>
                                     </div>
@@ -2275,7 +2271,7 @@ export function TrybelloTopBar({ content, media }: { content: AdvContent; media:
                         <div className="text-zinc-800 text-xs box-border caret-transparent flex leading-[18px] min-h-[auto] min-w-[auto] outline-[3px] text-left w-full font-open_sans">
                           <div className="text-xs box-border caret-transparent leading-[18px] min-h-[auto] min-w-[auto] outline-[3px] w-full">
                             <p className="box-border caret-transparent outline-[3px]">
-                              <strong>MEDICAL &amp; HEALTH DISCLAIMER:</strong> {content.disclaimerText}
+                              <strong>MEDICAL &amp; HEALTH DISCLAIMER:</strong> {content.disclaimer}
                             </p>
                           </div>
                         </div>
@@ -2285,16 +2281,16 @@ export function TrybelloTopBar({ content, media }: { content: AdvContent; media:
                       <div className="box-border caret-transparent flex justify-center min-h-[auto] min-w-[auto] outline-[3px] w-full">
                         <div className="text-zinc-800 text-xs box-border caret-transparent flex leading-[18px] min-h-[auto] min-w-[auto] outline-[3px] text-left w-full font-open_sans">
                           <div className="text-xs box-border caret-transparent leading-[18px] min-h-[auto] min-w-[auto] outline-[3px] w-full">
-                            <p className="box-border caret-transparent outline-[3px]">{content.copyright}</p>
+                            <p className="box-border caret-transparent outline-[3px]">{content.footer.copyright}</p>
                           </div>
                         </div>
                       </div>
                     </div>
                     <div className="items-center box-border caret-transparent flex justify-center min-w-[auto] outline-[3px] w-full mt-2">
                       <div className="box-border caret-transparent flex justify-start gap-x-4 min-h-[auto] min-w-[auto] outline-[3px] w-full flex-wrap">
-                        {content.footerLinks.map((link) => (
-                          <a key={link.href} href={link.href} target="_blank" rel="noopener noreferrer" className="text-xs text-zinc-600 underline font-open_sans hover:text-zinc-900">
-                            {link.label}
+                        {content.footer.links.map((label, index) => (
+                          <a key={links.footer[index]} href={links.footer[index]} target="_blank" rel="noopener noreferrer" className="text-xs text-zinc-600 underline font-open_sans hover:text-zinc-900">
+                            {label}
                           </a>
                         ))}
                       </div>

@@ -14,8 +14,6 @@ type CommentData = {
   author: string;
   content: string;
   meta: string;
-  rootClassName?: string;
-  avatarClassName?: string;
   likeIconSrc?: string;
   attachmentSrc?: string;
   replies?: CommentReplyData[];
@@ -27,17 +25,24 @@ type SidebarTestimonial = {
 };
 
 type Noor2Content = {
-  ctaUrl: string;
-  meta: { pageTitle: string; description: string };
-  header: { siteName: string };
-  article: {
-    breadcrumbs: string;
-    exclusiveLabel: string;
-    title: string;
+  seo: { title: string; description: string };
+  nav: { siteName: string };
+  hero: {
+    breadcrumb: string;
+    exclusiveBadge: string;
+    headline: string;
     date: string;
     timeAndViews: string;
-    author: { name: string; role: string };
+    authorName: string;
+    authorRole: string;
   };
+  cta: {
+    ctaText: string;
+    updateDate: string;
+    productName: string;
+    restockDate: string;
+  };
+  comments: CommentData[];
   sidebar: {
     paragraphs: string[];
     testimonials: SidebarTestimonial[];
@@ -54,30 +59,25 @@ type Noor2Content = {
     exclusiveDealText: string;
     freegiftsText: string;
   };
-  offerCallout: {
-    ctaText: string;
-    updateDate: string;
-    productName: string;
-    restockDate: string;
-  };
-  stockBanner: { prefix: string; date: string };
-  stickyCta: { label: string };
+  scarcity: { prefix: string; date: string };
   footer: {
-    copyrightYear: string;
-    brand: string;
-    references: string[];
-    links: {
-      privacy: { href: string; label: string };
-      contact: { href: string; label: string };
-    };
+    linkLabels: { privacy: string; contact: string };
     legal: {
       advertisement: string;
       efficacy: string;
       trademarks: string;
       disclaimer: string;
     };
+    copyrightYear: string;
+    brand: string;
   };
-  comments: CommentData[];
+  stickyCta: { label: string };
+};
+
+type Noor2Links = {
+  cta: string;
+  references: string[];
+  footer: { privacy: string; contact: string };
 };
 
 type Noor2Media = {
@@ -100,7 +100,7 @@ type Noor2Media = {
   comments: { defaultAvatar: string };
 };
 
-type Noor2Data = { content: Noor2Content; media: Noor2Media };
+type Noor2Data = { content: Noor2Content; media: Noor2Media; links: Noor2Links };
 const Noor2Context = createContext<Noor2Data | null>(null);
 
 function useNoor2(): Noor2Data {
@@ -113,6 +113,8 @@ const p = "box-border caret-transparent outline-[3px] no-underline font-open_san
 const br = <br className="box-border caret-transparent outline-[3px] no-underline" />;
 const gap = <div className={p}>{br}</div>;
 
+const COMPACT_AVATAR_COMMENT_INDEXES = new Set([6]);
+
 function Noor2Header(): React.ReactElement {
   const { content } = useNoor2();
   return (
@@ -120,7 +122,7 @@ function Noor2Header(): React.ReactElement {
       <div className="box-border caret-transparent basis-full grow max-w-[1170px] min-h-[25px] outline-[3px] relative no-underline w-min px-[15px] md:basis-0">
         <div className="items-center box-border caret-transparent flex justify-center outline-[3px] text-center no-underline w-full my-2.5 md:justify-between md:text-left">
           <div className="box-border caret-transparent text-white text-[23px] font-black leading-[32.2px] min-h-[auto] min-w-[auto] outline-[3px] text-center no-underline font-georgia md:text-[28px] md:leading-[39.2px]">
-            {content.header.siteName}
+            {content.nav.siteName}
           </div>
         </div>
       </div>
@@ -159,12 +161,12 @@ function Noor2AsSeenOn(): React.ReactElement {
 }
 
 function Noor2OfferCallout(): React.ReactElement {
-  const { content } = useNoor2();
-  const { offerCallout, ctaUrl } = content;
+  const { content, links } = useNoor2();
+  const offerCallout = content.cta;
   return (
     <div className="items-center box-border caret-transparent flex flex-col justify-center outline-[3px] no-underline w-full">
       <a
-        href={ctaUrl}
+        href={links.cta}
         className="items-center bg-sky-600 box-border caret-transparent text-blue-700 flex justify-center max-w-full min-h-[auto] min-w-[auto] outline-[3px] text-center no-underline w-[600px] px-2.5 py-3 rounded-[10px]"
       >
         <div className="box-border caret-transparent text-white text-[22px] font-bold leading-[30.8px] min-h-[auto] min-w-[auto] outline-[3px] no-underline ml-0 p-px md:text-2xl md:font-semibold md:leading-[31.2px] md:ml-[5px]">
@@ -193,12 +195,13 @@ function Noor2OfferCallout(): React.ReactElement {
   );
 }
 
-function Noor2CommentItem(props: CommentData & { defaultAvatar: string }): React.ReactElement {
+function Noor2CommentItem(props: CommentData & { defaultAvatar: string; index: number }): React.ReactElement {
   return (
     <div
       className={
-        props.rootClassName ??
-        "items-start box-border caret-transparent flex outline-[3px] no-underline w-full"
+        props.index === 0
+          ? "items-start box-border caret-transparent flex outline-[3px] no-underline w-full"
+          : "items-start box-border caret-transparent flex outline-[3px] no-underline w-full mt-5"
       }
     >
       <Image
@@ -207,8 +210,9 @@ function Noor2CommentItem(props: CommentData & { defaultAvatar: string }): React
         width={50}
         height={50}
         className={
-          props.avatarClassName ??
-          "box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] no-underline w-[50px]"
+          COMPACT_AVATAR_COMMENT_INDEXES.has(props.index)
+            ? "box-border caret-transparent h-[46px] max-w-full min-h-[auto] min-w-[auto] outline-[3px] no-underline w-[50px]"
+            : "box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] no-underline w-[50px]"
         }
       />
       <div className="box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] no-underline w-full px-2.5 py-px">
@@ -275,21 +279,21 @@ function Noor2CommentItem(props: CommentData & { defaultAvatar: string }): React
 
 function Noor2ArticleMain(): React.ReactElement {
   const { content, media } = useNoor2();
-  const { article, ctaUrl } = content;
+  const article = content.hero;
   const imgs = media.article.bodyImages;
   const defaultAvatar = media.comments.defaultAvatar;
 
   return (
     <div className="bg-white box-border caret-transparent basis-full grow text-xl leading-[30px] min-h-[auto] min-w-[auto] outline-[3px] no-underline w-full pt-2.5 pb-10 px-[15px] md:basis-[70%]">
       <div className="box-border caret-transparent outline-[3px] no-underline text-blue-600 text-lg font-bold leading-[23.4px] mt-5 md:text-xl md:leading-[26px]">
-        {article.breadcrumbs}
+        {article.breadcrumb}
       </div>
 
       <div className="box-border caret-transparent outline-[3px] no-underline text-[26px] font-bold leading-[33.8px] mt-5 pt-2.5 pb-[5px] font-roboto">
         <span className="bg-red-600 box-border caret-transparent text-white outline-[3px] no-underline mr-2.5 px-2 py-0.5">
-          {article.exclusiveLabel}
+          {article.exclusiveBadge}
         </span>
-        {article.title}
+        {article.headline}
       </div>
 
       <div className="box-border caret-transparent outline-[3px] no-underline items-center flex w-full py-2.5">
@@ -310,10 +314,10 @@ function Noor2ArticleMain(): React.ReactElement {
         <div className="box-border caret-transparent text-xs min-h-[auto] min-w-[auto] outline-[3px] no-underline font-roboto leading-[15.6px] md:text-sm md:leading-[18.2px]">
           By&#160;
           <b className="box-border caret-transparent text-xs font-bold leading-[15.6px] outline-[3px] no-underline md:text-sm md:leading-[18.2px]">
-            {article.author.name}
+            {article.authorName}
           </b>
           <div className="box-border caret-transparent text-xs leading-[15.6px] outline-[3px] no-underline md:text-sm md:leading-[18.2px]">
-            {article.author.role}
+            {article.authorRole}
           </div>
         </div>
         <div className="items-center box-border caret-transparent flex min-h-[auto] min-w-[auto] outline-[3px] no-underline mt-px">
@@ -898,6 +902,7 @@ function Noor2ArticleMain(): React.ReactElement {
           <Noor2CommentItem
             key={`${comment.author}-${i}`}
             defaultAvatar={defaultAvatar}
+            index={i}
             {...comment}
           />
         ))}
@@ -1006,7 +1011,7 @@ function Noor2ArticleLayout(): React.ReactElement {
 }
 
 function Noor2LimitedTimeOffer(): React.ReactElement {
-  const { content, media } = useNoor2();
+  const { content, media, links } = useNoor2();
   const { offer } = content;
 
   return (
@@ -1067,7 +1072,7 @@ function Noor2LimitedTimeOffer(): React.ReactElement {
                 </div>
               </div>
               <a
-                href={content.ctaUrl}
+                href={links.cta}
                 className="bg-green-500 box-border caret-transparent text-white inline-block text-2xl font-bold leading-[31.2px] max-w-full outline-[3px] text-center no-underline px-5 py-[15px] rounded-[10px] md:text-3xl md:leading-[39px]"
               >
                 {offer.ctaLabel}
@@ -1111,9 +1116,9 @@ function Noor2StockUpdateBanner(): React.ReactElement {
           <div className="box-border caret-transparent text-xl leading-[29px] outline-[3px] no-underline p-px">
             <i className="box-border caret-transparent italic outline-[3px] no-underline">
               <b className="box-border caret-transparent font-bold outline-[3px] no-underline">
-                Stock Update: {content.stockBanner.prefix}{" "}
+                Stock Update: {content.scarcity.prefix}{" "}
                 <span className="box-border caret-transparent outline-[3px] no-underline">
-                  {content.stockBanner.date}
+                  {content.scarcity.date}
                 </span>
               </b>
             </i>
@@ -1125,7 +1130,7 @@ function Noor2StockUpdateBanner(): React.ReactElement {
 }
 
 function Noor2Footer(): React.ReactElement {
-  const { content } = useNoor2();
+  const { content, links } = useNoor2();
   const { footer } = content;
 
   return (
@@ -1136,26 +1141,26 @@ function Noor2Footer(): React.ReactElement {
           REFERENCES:
         </div>
         <div className="box-border caret-transparent text-xs leading-[16.8px] outline-[3px] no-underline break-all mt-2.5 md:text-base md:leading-[22.4px]">
-          {footer.references.map((ref, i) => (
+          {links.references.map((ref, i) => (
             <span key={i}>
               {ref}
-              {i < footer.references.length - 1 && <br />}
+              {i < links.references.length - 1 && <br />}
             </span>
           ))}
         </div>
         <div className="box-border caret-transparent outline-[3px] no-underline mt-[30px] text-xs leading-[16.8px] md:text-sm md:leading-[19.6px]">
           <a
-            href={footer.links.privacy.href}
+            href={links.footer.privacy}
             className="box-border caret-transparent text-sky-900 text-xs leading-[16.8px] max-w-full outline-[3px] text-center underline md:text-sm md:leading-[19.6px]"
           >
-            {footer.links.privacy.label}
+            {footer.linkLabels.privacy}
           </a>
           {" | "}
           <a
-            href={footer.links.contact.href}
+            href={links.footer.contact}
             className="box-border caret-transparent text-sky-900 text-xs leading-[16.8px] max-w-full outline-[3px] text-center underline md:text-sm md:leading-[19.6px]"
           >
-            {footer.links.contact.label}
+            {footer.linkLabels.contact}
           </a>
         </div>
         <div className="box-border caret-transparent outline-[3px] no-underline mt-[30px] text-xs leading-[16.8px] md:text-sm md:leading-[19.6px]">
@@ -1184,13 +1189,13 @@ function Noor2Footer(): React.ReactElement {
 }
 
 function Noor2StickyCta(): React.ReactElement {
-  const { content } = useNoor2();
+  const { content, links } = useNoor2();
   return (
     <div className="items-stretch bg-neutral-300 box-border caret-transparent flex flex-wrap justify-center max-w-full outline-[3px] relative text-center no-underline w-full font-open_sans md:flex-nowrap">
       <div className="box-border caret-transparent basis-full grow max-w-[850px] min-h-[25px] outline-[3px] relative no-underline w-min md:basis-0">
         <div className="box-border caret-transparent outline-[3px] no-underline w-full py-1.5 md:py-2.5">
           <a
-            href={content.ctaUrl}
+            href={links.cta}
             className="bg-stone-500 box-border caret-transparent text-white inline-block text-2xl font-bold leading-[31.2px] max-w-full outline-[3px] text-center no-underline w-[350px] px-2.5 py-3 rounded-[10px]"
           >
             {content.stickyCta.label}
@@ -1204,11 +1209,12 @@ function Noor2StickyCta(): React.ReactElement {
 export type Noor2TopBarProps = {
   content: Noor2Content;
   media: Noor2Media;
+  links: Noor2Links;
 };
 
-export function Noor2TopBar({ content, media }: Noor2TopBarProps): React.ReactElement {
+export function Noor2TopBar({ content, media, links }: Noor2TopBarProps): React.ReactElement {
   return (
-    <Noor2Context.Provider value={{ content, media }}>
+    <Noor2Context.Provider value={{ content, media, links }}>
       <Noor2Header />
       <Noor2ArticleLayout />
       <Noor2LimitedTimeOffer />
