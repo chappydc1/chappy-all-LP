@@ -2,7 +2,7 @@
   "images": {
     "author_avatar": {
       "src": "/lp-images-files-videos-fonts/images/primepicks/ZXhwZXJ0LTQ0LmpwZw.jpg",
-      "alt": "Jade M., health writer"
+      "alt": "Daniel M., health writer"
     },
     "brand_logo": {
       "src": "/lp-images-files-videos-fonts/images/ear/aurelune-logo-430x100.png",
@@ -17,8 +17,8 @@
       "alt": ""
     },
     "bundle": {
-      "src": "/lp-images-files-videos-fonts/images/ear/product-2.jpg",
-      "alt": "AURELUNE Ear Cleaner with Camera complete kit"
+      "src": "/lp-images-files-videos-fonts/images/ear/product-4.jpg",
+      "alt": "AURELUNE Ear Cleaner with Camera complete kit with charging case, ear spoons and cleaning tips"
     },
     "icon_arrow": {
       "src": "/lp-images-files-videos-fonts/images/javy/icon-1.svg",
@@ -28,10 +28,6 @@
       "src": "/lp-images-files-videos-fonts/images/javy/icon-4.svg",
       "alt": ""
     },
-    "icon_close": {
-      "src": "/lp-images-files-videos-fonts/images/javy/icon-5.svg",
-      "alt": "Close"
-    },
     "icon_gift": {
       "src": "/lp-images-files-videos-fonts/images/javy/6724fdda94d57f82bf0c2f9a_bf-gift-icon.svg",
       "alt": ""
@@ -39,44 +35,44 @@
   },
   "reasons": {
     "reason_1": {
-      "src": "/lp-images-files-videos-fonts/images/ear/product-1.jpg",
-      "alt": "Ear cleaner streaming a live view of the ear canal to a phone"
+      "src": "/lp-images-files-videos-fonts/images/ear/product-10.jpg",
+      "alt": "Close-up HD view of the ear canal streamed live to a phone"
     },
     "reason_2": {
-      "src": "/lp-images-files-videos-fonts/images/ear/product-5.jpg",
-      "alt": "One-piece molded ear spoon compared with ordinary ear picks"
+      "src": "/lp-images-files-videos-fonts/images/ear/product-6.jpg",
+      "alt": "Curved ear spoon with depth markings for controlled wax removal"
     },
     "reason_3": {
-      "src": "/lp-images-files-videos-fonts/images/ear/product-3.jpg",
-      "alt": "Ear cleaner with soft silicone ear spoon covers"
+      "src": "/lp-images-files-videos-fonts/images/ear/product-7.jpg",
+      "alt": "Soft, flexible silicone tip on the AURELUNE ear cleaner"
     },
     "reason_4": {
-      "src": "/lp-images-files-videos-fonts/images/ear/product-4.jpg",
-      "alt": "Ear cleaner compatible with iOS, Android, HarmonyOS and tablets"
+      "src": "/lp-images-files-videos-fonts/images/ear/product-2.jpg",
+      "alt": "Woman cleaning her ear while watching the live view on her phone"
     },
     "reason_5": {
-      "src": "/lp-images-files-videos-fonts/images/ear/product-1.jpg",
-      "alt": "App screen showing photo and video capture controls"
+      "src": "/lp-images-files-videos-fonts/images/ear/product-3.jpg",
+      "alt": "AURELUNE app with photo and video capture next to the ear cleaner and case"
     },
     "reason_6": {
-      "src": "/lp-images-files-videos-fonts/images/ear/product-2.jpg",
-      "alt": "Complete ear cleaning kit with picks, spiral cleaner and charging cable"
+      "src": "/lp-images-files-videos-fonts/images/ear/product-4.jpg",
+      "alt": "Complete kit with charging case, ear cleaner, spoons and replacement tips"
     },
     "reason_7": {
-      "src": "/lp-images-files-videos-fonts/images/ear/product-3.jpg",
-      "alt": "Color-coded ear spoon covers for each family member"
+      "src": "/lp-images-files-videos-fonts/images/ear/product-8.jpg",
+      "alt": "Interchangeable color-coded ear spoon tips and the HD camera lens"
     },
     "reason_8": {
-      "src": "/lp-images-files-videos-fonts/images/ear/product-4.jpg",
-      "alt": "Ear cleaner camera used as an all-in-one examiner"
+      "src": "/lp-images-files-videos-fonts/images/ear/product-9.jpg",
+      "alt": "Man using the ear cleaner camera for a nasal exam on his phone"
     },
     "reason_9": {
-      "src": "/lp-images-files-videos-fonts/images/ear/product-2.jpg",
-      "alt": "Rechargeable ear cleaner kit"
+      "src": "/lp-images-files-videos-fonts/images/ear/product-1.jpg",
+      "alt": "AURELUNE Ear Cleaner with Camera in its navy charging case"
     },
     "reason_10": {
       "src": "/lp-images-files-videos-fonts/images/ear/product-5.jpg",
-      "alt": "Durable one-piece molded ear spoon design"
+      "alt": "AURELUNE ear cleaner charging case in white"
     }
   }
 }
