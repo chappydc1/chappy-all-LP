@@ -21,7 +21,7 @@ export const EarCleanerComparisonRow = ({ featured, brandName, cells }: EarClean
     >
       {featured ? (
         <div className="flex items-center justify-center h-14 mx-[3px] px-1 border-b border-slate-300/60 md:h-16 md:mx-3">
-          <img src={brand_logo.src} alt={brand_logo.alt} className="w-full max-h-8 md:max-h-10" />
+          <img src={brand_logo.src} alt={brand_logo.alt} className="w-full max-h-8 object-contain mix-blend-multiply md:max-h-10" />
         </div>
       ) : (
         <div className="flex items-center justify-center h-14 px-1 bg-red-50 border-y border-stone-300 md:h-16">
