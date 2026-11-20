@@ -3,7 +3,7 @@
 import { useAdvertorial } from "../../LandingPage/context";
 
 export const RosabellaSidebar = () => {
-  const { copy, media } = useAdvertorial();
+  const { copy, links, media } = useAdvertorial();
 
   return (
     <div className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] align-top w-full md:w-3/12">
@@ -37,7 +37,7 @@ export const RosabellaSidebar = () => {
                       <div className="items-center box-border caret-transparent flex justify-center min-w-0 outline-[3px] md:min-w-[auto]">
                         <div className="items-center box-border caret-transparent flex flex-col min-h-0 min-w-0 outline-[3px] w-full md:min-h-[auto] md:min-w-[auto]">
                           <a
-                            href={copy.sidebar.ctaUrlMobile}
+                            href={links.sidebar.mobile}
                             className="relative text-green-600 font-bold bg-green-600 shadow-[rgba(37,42,50,0.32)_0px_1px_4px_1px] box-border caret-transparent flex flex-col tracking-[0.28px] leading-[16.8px] underline px-[5px] py-[15px] rounded-bl rounded-br rounded-tl rounded-tr border-2 border-solid border-transparent md:hidden"
                           >
                             <span className="text-white box-border caret-transparent block outline-[3px] pointer-events-none text-center md:inline">
@@ -49,7 +49,7 @@ export const RosabellaSidebar = () => {
                       <div className="items-center box-border caret-transparent flex justify-center min-w-0 outline-[3px] md:min-w-[auto]">
                         <div className="items-center box-border caret-transparent flex flex-col min-h-0 min-w-0 outline-[3px] w-full md:min-h-[auto] md:min-w-[auto]">
                           <a
-                            href={copy.sidebar.ctaUrlDesktop}
+                            href={links.sidebar.desktop}
                             className="relative text-green-600 font-bold bg-green-600 shadow-[rgba(37,42,50,0.32)_0px_1px_4px_1px] box-border caret-transparent hidden flex-col tracking-[0.28px] leading-[16.8px] min-h-0 min-w-0 underline px-[5px] py-[15px] rounded-bl rounded-br rounded-tl rounded-tr border-2 border-solid border-transparent md:flex md:min-h-[auto] md:min-w-[auto]"
                           >
                             <span className="text-white text-lg box-border caret-transparent inline leading-[21.6px] min-h-0 min-w-0 outline-[3px] pointer-events-none text-center md:block md:min-h-[auto] md:min-w-[auto]">

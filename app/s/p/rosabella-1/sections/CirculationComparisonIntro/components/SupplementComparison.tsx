@@ -2,12 +2,12 @@ import copy from "../../../copy.json"
 import media from "../../../media.json"
 
 export const SupplementComparison = () => {
-  const { comparisonHeading, comparisonCallout } = copy.circulationComparison;
+  const { comparisonHeadline, comparisonCallout } = copy.mechanism;
   return (
     <div className="box-border caret-transparent basis-full shrink-0 min-h-[auto] min-w-[auto] outline-[3px] w-full md:basis-[578px] md:w-[578px]">
       <div className="box-border caret-transparent outline-[3px] w-full">
         <div className="text-black text-xl font-semibold box-border caret-transparent tracking-[-0.96px] leading-[26px] outline-[3px] font-montserrat md:text-2xl md:leading-[31.2px]">
-          {comparisonHeading}
+          {comparisonHeadline}
         </div>
         <img
           title=""

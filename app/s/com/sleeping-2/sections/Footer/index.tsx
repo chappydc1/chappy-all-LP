@@ -3,10 +3,11 @@ import type { Sleeping2Copy } from "../../types";
 
 type FooterProps = {
   footer: Sleeping2Copy["footer"];
+  linkUrls: string[];
   logo: string;
 };
 
-export function Sleeping2Footer({ footer, logo }: FooterProps): JSX.Element {
+export function Sleeping2Footer({ footer, linkUrls, logo }: FooterProps): JSX.Element {
   return (
     <footer className="bg-[#232F3E] pb-[92px] min-[1032px]:pb-0">
       <section className="mx-auto max-w-[1032px] p-4 md:px-4 md:py-6">
@@ -23,15 +24,15 @@ export function Sleeping2Footer({ footer, logo }: FooterProps): JSX.Element {
             />
           </div>
           <div className="my-6 flex flex-wrap justify-center gap-4 md:my-0">
-            {footer.links.map((link) => (
+            {footer.navLabels.map((label, index) => (
               <a
-                key={link.label}
-                href={link.url}
+                key={label}
+                href={linkUrls[index]}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-sm leading-6 text-white no-underline transition-colors hover:text-[#E0E0E0]"
               >
-                {link.label}
+                {label}
               </a>
             ))}
           </div>

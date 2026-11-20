@@ -169,7 +169,7 @@ export type TrustpilotContent = {
   ratedTemplate: string;
   trustpilotReviewUrl: string;
   showingLabel: string;
-  reviews: TrustpilotReview[];
+  items: TrustpilotReview[];
 };
 
 export type TestimonialReview = { name: string; daysAgo: string; review: string };
@@ -221,21 +221,21 @@ export type FooterContent = {
 };
 
 export type LandingPageContent = {
-  global: GlobalContent;
-  countdownBanner: CountdownBannerContent;
-  navbar: NavbarContent;
-  stickyBar: StickyBarContent;
-  mobileOrderBar: MobileOrderBarContent;
+  announcementBar: CountdownBannerContent;
+  stickyCta: StickyBarContent;
+  nav: NavbarContent;
   hero: HeroContent;
-  mediaBanner: MediaBannerContent;
-  video: VideoContent;
-  painPoints: PainPointsContent;
+  asSeenOn: MediaBannerContent;
+  lead: VideoContent;
+  problem: PainPointsContent;
   features: FeaturesContent;
   howItWorks: HowItWorksContent;
   comparison: ComparisonContent;
-  trustpilot: TrustpilotContent;
+  reviews: TrustpilotContent;
   testimonials: TestimonialsContent;
   faq: FaqContent;
   guarantee: GuaranteeContent;
   footer: FooterContent;
+  mobileStickyCta: MobileOrderBarContent;
+  ui: GlobalContent;
 };

@@ -2,7 +2,7 @@ import { CountdownTimer } from "./components/CountdownTimer";
 import { content } from "../../content";
 
 export const CountdownBanner = () => {
-  const c = content.countdownBanner;
+  const c = content.announcementBar;
   return (
     <div
       className="lp-countdown-banner-inner relative text-black text-[11.2px] font-bold items-stretch bg-stone-950 bg-size-[cover,cover] box-border caret-transparent flex flex-col h-[45px] justify-center max-h-[65px] min-h-[45px] z-[999] overflow-hidden bg-[position:0px,0px_0px,50%] top-[0%] inset-x-[0%] md:text-base md:h-[65px] md:bg-[position:0px,20%_top] md:top-auto md:inset-x-auto"

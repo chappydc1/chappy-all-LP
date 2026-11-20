@@ -1,30 +1,30 @@
 type TopPickProps = {
   copy: {
     eyebrow: string;
-    title: string;
+    headline: string;
+    rating: string;
     intro: string;
     points: { title: string; text: string }[];
-    rating: string;
-    guarantee: string;
-    offer: string;
-    cta: string;
-    ctaUrl: string;
-    note: string;
     testimonial: { quote: string; author: string };
+    offer: string;
+    ctaText: string;
+    guarantee: string;
+    note: string;
   };
+  ctaUrl: string;
   imageSrc: string;
   checkIcon: string;
   starFull: string;
 };
 
-export function SleepingTopPick({ copy, imageSrc, checkIcon, starFull }: TopPickProps): React.JSX.Element {
+export function SleepingTopPick({ copy, ctaUrl, imageSrc, checkIcon, starFull }: TopPickProps): React.JSX.Element {
   return (
     <section className="text-left mt-10 mx-2.5 rounded-lg border-2 border-amber-400 bg-amber-50/40 p-4 lg:p-8">
       <span className="inline-block bg-amber-400 text-black text-sm font-bold uppercase px-3 py-1 rounded">
         {copy.eyebrow}
       </span>
       <h2 className="text-[22.4px] font-extrabold leading-7 mt-3 lg:text-[32px] lg:leading-[41px]">
-        {copy.title}
+        {copy.headline}
       </h2>
       <div className="flex items-center gap-2 mt-2">
         <div className="flex">
@@ -72,10 +72,10 @@ export function SleepingTopPick({ copy, imageSrc, checkIcon, starFull }: TopPick
       <div className="mt-6 flex flex-col items-center text-center">
         <p className="text-base font-bold text-red-600 lg:text-lg">{copy.offer}</p>
         <a
-          href={copy.ctaUrl}
+          href={ctaUrl}
           className="mt-2.5 block w-full rounded-lg bg-blue-500 py-3 text-lg font-bold text-white no-underline hover:bg-blue-600 lg:w-[420px]"
         >
-          {copy.cta} →
+          {copy.ctaText} →
         </a>
         <p className="mt-2.5 text-sm font-semibold text-emerald-700">✓ {copy.guarantee}</p>
         <p className="mt-2 max-w-[560px] text-xs text-stone-500">{copy.note}</p>

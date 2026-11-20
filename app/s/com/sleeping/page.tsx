@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import adv from "./copy.json";
+import links from "./links.json";
 import media from "./media.json";
 import { SleepingNavbar } from "./components/SleepingNavbar";
 import { SleepingBreadcrumb } from "./components/SleepingBreadcrumb";
@@ -10,27 +11,36 @@ import { SleepingFAQSection } from "./components/SleepingFAQSection";
 import { SleepingTopPick } from "./components/SleepingTopPick";
 
 export const metadata: Metadata = {
-  title: adv.meta.title,
-  description: adv.meta.description,
+  title: adv.seo.title,
+  description: adv.seo.description,
 };
+
+const PRODUCT_STARS = [5, 5, 5, 5, 4, 4, 4, 4, 4, 4];
 
 export default function SleepingPage(): React.JSX.Element {
   return (
     <div className="text-black text-sm font-normal bg-white w-full overflow-x-hidden font-[Lato,sans-serif]">
-      <SleepingNavbar adv={adv.navbar} media={media} />
+      <SleepingNavbar
+        adv={adv.nav}
+        links={links.nav}
+        media={media}
+      />
       <main className="flex flex-col items-center w-full">
-        <SleepingBreadcrumb items={adv.breadcrumb} />
+        <SleepingBreadcrumb
+          items={adv.breadcrumb}
+          links={links.breadcrumb}
+        />
         <div className="box-border flex flex-col max-w-none min-h-[auto] w-full mb-0 lg:max-w-screen-lg lg:min-w-[1024px] lg:mb-20">
           <div className="static bg-transparent p-0 lg:relative lg:items-start lg:bg-sky-300/10 lg:flex lg:flex-col lg:px-[15px] lg:py-2">
             <h1 className="text-slate-700 text-[22.4px] font-bold border-b border-b-slate-700/30 flow-root leading-7 min-h-3.5 text-left uppercase overflow-hidden mr-auto my-2.5 pb-2.5 px-2.5 lg:text-black lg:text-[35px] lg:font-extrabold lg:leading-[42px] lg:mt-0 lg:pb-0 lg:px-0">
-              {adv.hero.title}
+              {adv.hero.headline}
             </h1>
             <div className="relative text-slate-700 text-left pl-2.5 lg:hidden">
               <b className="font-bold">Last Updated:</b> {adv.hero.lastUpdated}
             </div>
             <div className="hidden min-h-0 text-center px-2.5 py-0 lg:flow-root lg:text-left lg:px-0 lg:py-2.5">
               <span className="text-stone-500 text-[18.2px] font-bold leading-[25.2px] text-left">
-                {adv.hero.subtitle}
+                {adv.hero.subheadline}
               </span>
             </div>
             <div className="hidden lg:flex items-baseline flex-row-reverse justify-between w-full pr-2.5">
@@ -46,30 +56,38 @@ export default function SleepingPage(): React.JSX.Element {
             </div>
           </div>
           <div className="static lg:relative">
-            {adv.products.slice(0, 3).map((product, i) => (
+            {adv.productRankings.items.slice(0, 3).map((product, i) => (
               <SleepingProductCard
-                key={product.rank}
+                key={product.name}
                 {...product}
+                rank={String(i + 1)}
+                stars={PRODUCT_STARS[i]}
+                ctaUrl={links.productRankings[i]}
                 imageSrc={media.products[i]}
                 imageAlt={product.name}
                 starFull={media.icons.starFull}
                 starHalf={media.icons.starHalf}
                 checkIcon={media.icons.check}
                 amazonBadge={media.amazonBadge}
+                hideAmazonBadge={i === 0}
                 featured={i === 0}
               />
             ))}
           </div>
           <SleepingTopPick
             copy={adv.topPick}
+            ctaUrl={links.topPick}
             imageSrc={media.topPick}
             checkIcon={media.icons.check}
             starFull={media.icons.starFull}
           />
-          {adv.products.slice(3).map((product, i) => (
+          {adv.productRankings.items.slice(3).map((product, i) => (
             <SleepingProductCard
-              key={product.rank}
+              key={product.name}
               {...product}
+              rank={String(4 + i)}
+              stars={PRODUCT_STARS[3 + i]}
+              ctaUrl={links.productRankings[3 + i]}
               imageSrc={media.products[3 + i]}
               imageAlt={product.name}
               starFull={media.icons.starFull}
@@ -83,22 +101,22 @@ export default function SleepingPage(): React.JSX.Element {
           <SleepingNewsletter copy={adv.newsletter} />
           <div className="text-left pt-10 pb-2.5 px-2.5">
             <h2 className="text-xl font-bold leading-[25.7143px] decoration-sky-500/80 underline uppercase pb-2.5 lg:text-[32px] lg:leading-[41.1429px] lg:pb-[30px]">
-              {adv.relatedCategories.title}
+              {adv.relatedCategories.headline}
             </h2>
             <div className="gap-x-4 grid grid-cols-[repeat(2,1fr)] gap-y-4 capitalize w-full ml-4 lg:flex lg:flex-row">
-              {adv.relatedCategories.items.map((item, i) => (
+              {adv.relatedCategories.items.map((label, i) => (
                 <a
                   key={i}
-                  href={item.href}
+                  href={links.relatedCategories[i]}
                   className="items-center flex flex-col h-[150px] justify-center w-[150px] border-neutral-300 rounded-2xl border-2 border-solid lg:h-[200px] lg:w-[200px]"
                 >
                   <img
-                    alt={item.label}
+                    alt={label}
                     src={media.relatedCategories[i]}
                     className="h-[120px] w-[120px] object-scale-down lg:h-[120px] lg:w-[120px]"
                   />
                   <div className="text-[16.8px] font-semibold text-center pt-2.5 pb-[5px] px-[5px]">
-                    {item.label}
+                    {label}
                   </div>
                 </a>
               ))}
@@ -106,9 +124,9 @@ export default function SleepingPage(): React.JSX.Element {
           </div>
           <div className="text-left pt-10 pb-2.5 px-2.5">
             <h2 className="text-xl font-bold leading-[25.7143px] decoration-sky-500/80 underline uppercase pb-2.5 lg:text-[32px] lg:leading-[41.1429px] lg:pb-[30px]">
-              {adv.overview.title}
+              {adv.overview.headline}
             </h2>
-            {adv.overview.paragraphs.map((p, i) => (
+            {adv.overview.body.map((p, i) => (
               <p key={i} className="text-[15.4px] font-light leading-[25.2px] mt-[15px] lg:text-[19.6px] lg:leading-[30.8px] lg:mt-10">
                 {p}
               </p>
@@ -116,9 +134,9 @@ export default function SleepingPage(): React.JSX.Element {
           </div>
           <div className="text-left pt-5 pb-2.5 px-2.5">
             <h2 className="text-xl font-bold leading-[25.7143px] decoration-sky-500/80 underline uppercase pb-2.5 lg:text-[32px] lg:leading-[41.1429px] lg:pb-[30px]">
-              {adv.topList.title}
+              {adv.shortlist.headline}
             </h2>
-            {adv.topList.items.map((name, i) => (
+            {adv.shortlist.items.map((name, i) => (
               <a key={i} href="#" className="block">
                 <span className="text-sm font-bold flow-root leading-[25.2px] max-h-[30px] overflow-hidden pr-[15px] lg:text-[19.6px] lg:leading-[35px] lg:max-h-[35px]">
                   • {name}
@@ -135,7 +153,11 @@ export default function SleepingPage(): React.JSX.Element {
           <a href="#" className="ml-1">Terms of Service</a>
           {" "}apply.
         </div>
-        <SleepingFooter adv={adv.footer} media={media} />
+        <SleepingFooter
+          adv={adv.footer}
+          links={links.footer}
+          media={media}
+        />
       </main>
     </div>
   );

@@ -48,5 +48,61 @@
     "cMarcella": "/lp-images-files-videos-fonts/images/nebroo-v1/1733616940914_Betty_Martinez.webp",
     "cGwendolyn": "/lp-images-files-videos-fonts/images/nebroo-v1/1733617139898_Lucille_Langley.webp",
     "cDesmond": "/lp-images-files-videos-fonts/images/nebroo-v1/1733616887966_Lionel_Beckett.webp"
-  }
+  },
+  "reviewAvatarKeys": [
+    "reviewLynne",
+    "reviewBobby",
+    "reviewDan"
+  ],
+  "commentAvatarKeys": [
+    {
+      "comment": "cBarbara"
+    },
+    {
+      "comment": "cRichard"
+    },
+    {
+      "comment": "cDoug",
+      "replies": [
+        "cJose"
+      ]
+    },
+    {
+      "comment": "cLionel"
+    },
+    {
+      "comment": "cMark",
+      "replies": [
+        "cRowena"
+      ]
+    },
+    {
+      "comment": "cCecelia"
+    },
+    {
+      "comment": "cLucille",
+      "replies": [
+        "cSharon",
+        "cZelda"
+      ]
+    },
+    {
+      "comment": "cCurtis"
+    },
+    {
+      "comment": "cWinston"
+    },
+    {
+      "comment": "cFranklin"
+    },
+    {
+      "comment": "cMarcella",
+      "replies": [
+        "cGwendolyn"
+      ]
+    },
+    {
+      "comment": "cDesmond"
+    }
+  ]
 }

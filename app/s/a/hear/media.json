@@ -23,12 +23,12 @@
   },
   "stateSelector": {
     "states": [
-      { "name": "Oregon",      "imgSrc": "/lp-images-files-videos-fonts/images/hear/oregon-yellow.svg" },
-      { "name": "Georgia",     "imgSrc": "/lp-images-files-videos-fonts/images/hear/georgia-red.svg" },
-      { "name": "Alaska",      "imgSrc": "/lp-images-files-videos-fonts/images/hear/alaska-lightblue.svg" },
-      { "name": "Connecticut", "imgSrc": "/lp-images-files-videos-fonts/images/hear/connecticut-lightgreen.svg" },
-      { "name": "Michigan",    "imgSrc": "/lp-images-files-videos-fonts/images/hear/michigan-blue.svg" },
-      { "name": "Arkansas",    "imgSrc": "/lp-images-files-videos-fonts/images/hear/arkansas-green.svg" }
+      "/lp-images-files-videos-fonts/images/hear/oregon-yellow.svg",
+      "/lp-images-files-videos-fonts/images/hear/georgia-red.svg",
+      "/lp-images-files-videos-fonts/images/hear/alaska-lightblue.svg",
+      "/lp-images-files-videos-fonts/images/hear/connecticut-lightgreen.svg",
+      "/lp-images-files-videos-fonts/images/hear/michigan-blue.svg",
+      "/lp-images-files-videos-fonts/images/hear/arkansas-green.svg"
     ],
     "doubleArrowSrc": "/lp-images-files-videos-fonts/images/hear/double-arrow.svg",
     "trustLogosSrc": "/lp-images-files-videos-fonts/images/hear/trust-logos-new-desk.png",
@@ -37,9 +37,15 @@
   },
   "relatedStories": {
     "stories": [
-      { "imageSrc": "/lp-images-files-videos-fonts/images/hear/hearing-aids-and-flag-25.jpg" },
-      { "imageSrc": "/lp-images-files-videos-fonts/images/hear/harvard-25.jpg" },
-      { "imageSrc": "/lp-images-files-videos-fonts/images/hear/aids-in-hands-25.jpg" }
+      {
+        "imageSrc": "/lp-images-files-videos-fonts/images/hear/hearing-aids-and-flag-25.jpg"
+      },
+      {
+        "imageSrc": "/lp-images-files-videos-fonts/images/hear/harvard-25.jpg"
+      },
+      {
+        "imageSrc": "/lp-images-files-videos-fonts/images/hear/aids-in-hands-25.jpg"
+      }
     ]
   },
   "newsletter": {

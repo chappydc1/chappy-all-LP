@@ -1,4 +1,8 @@
 {
+  "seo": {
+    "favicon": "/lp-images-files-videos-fonts/favicons/nebroo-v1.svg"
+  },
+
   "topBar": {
     "flagSrc": "https://c.animaapp.com/mrj44hg5QubImt/assets/1711366759829_bitmap.png"
   },

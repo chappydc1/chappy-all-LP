@@ -1,21 +1,22 @@
 /* eslint-disable @next/next/no-img-element */
 import Image from "next/image";
 import adv from "./copy.json";
+import links from "./links.json";
 import media from "./media.json";
 
 export const metadata = {
-  title: adv.meta.title,
-  description: adv.meta.description,
+  title: adv.seo.title,
+  description: adv.seo.description,
 };
 
 export default function BrezLandingPage() {
   return (
     <main className="overflow-x-hidden">
       {/* ── Announcement Bar ── */}
-      <a href={adv.announcement.href} className="bg-lime-200 block w-full py-2.5">
+      <a href={links.announcementBar} className="bg-lime-200 block w-full py-2.5">
         <div className="max-w-[1400px] mx-auto px-[15px] md:px-[50px]">
           <p className="text-[10px] font-light tracking-[1px] leading-[13px] text-center">
-            {adv.announcement.text}
+            {adv.announcementBar.text}
           </p>
         </div>
       </a>
@@ -62,7 +63,7 @@ export default function BrezLandingPage() {
         </div>
         {/* CTA — pinned near bottom */}
         <div className="absolute bottom-[120px] left-1/2 -translate-x-1/2 z-10">
-          <a href={adv.hero.ctaHref}
+          <a href={links.hero.cta}
             className="flex items-center justify-center gap-2.5 bg-lime-200 rounded-[65px] border-2 border-solid px-8 py-2.5 w-[315px]">
             <span className="text-base font-light tracking-[-1px]">Try Now</span>
             {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -107,7 +108,7 @@ export default function BrezLandingPage() {
             </div>
           </div>
           {/* CTA */}
-          <a href={adv.hero.ctaHref}
+          <a href={links.hero.cta}
             className="flex items-center justify-center gap-2.5 bg-lime-200 rounded-[65px] border-2 border-solid px-8 py-5 max-w-[520px] w-full">
             <span className="text-xl font-light tracking-[-1px]">Try Now</span>
             {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -123,14 +124,14 @@ export default function BrezLandingPage() {
       {/* ── Benefits Bar ── */}
       <div className="flex items-center justify-center w-full bg-lime-200 py-[25px]">
         <div className="grid grid-cols-3 gap-5 max-w-[343px] md:flex md:gap-[90px] md:max-w-full">
-          {adv.hero.benefitItems.map((item) => {
-            const m = media.benefits.find((b) => b.id === item.id);
+          {adv.benefits.items.map((label, index) => {
+            const m = media.benefits[index];
             if (!m) return null;
             return (
-              <div key={item.id} className="flex flex-col items-center gap-[5px]">
+              <div key={label} className="flex flex-col items-center gap-[5px]">
                 <Image src={m.src} alt={m.alt} width={40} height={40} className="object-contain" />
                 <p className="text-base font-light leading-5 text-center md:text-xl md:leading-6">
-                  {item.label}
+                  {label}
                 </p>
               </div>
             );
@@ -142,7 +143,7 @@ export default function BrezLandingPage() {
       <section className="flex flex-col items-center w-full bg-lime-200 py-10 md:py-[60px]">
         <div className="flex flex-col items-center gap-2.5 max-w-[700px] md:max-w-[820px] w-full mb-10">
           <h2 className="text-xl font-light leading-[26px] text-center md:text-[40px] md:leading-[54px]">
-            {adv.reviews.sectionTitle}
+            {adv.reviews.headline}
           </h2>
           <div className="flex items-center gap-2.5">
             <span className="text-yellow-500 text-lg">★★★★★</span>
@@ -150,10 +151,11 @@ export default function BrezLandingPage() {
           </div>
         </div>
         <div className="flex gap-5 overflow-x-auto w-full px-5 md:px-[60px] pb-3">
-          {adv.reviews.items.map((review) => {
-            const rm = media.reviews.find((r) => r.id === review.reviewerImageId);
+          {adv.reviews.items.map((review, index) => {
+            const slot = media.reviewSlots[index];
+            const rm = media.reviews.find((r) => r.id === slot.reviewerImageId);
             return (
-              <div key={review.id} className="flex-shrink-0 bg-white rounded-[15px] p-[15px] w-[320px] md:w-[550px]">
+              <div key={slot.id} className="flex-shrink-0 bg-white rounded-[15px] p-[15px] w-[320px] md:w-[550px]">
                 <div className="flex gap-[15px]">
                   {rm && (
                     <Image src={rm.src} alt={rm.alt} width={90} height={90}
@@ -174,31 +176,27 @@ export default function BrezLandingPage() {
       {/* ── 6 Reasons ── */}
       <section className="flex flex-col items-center px-[25px] py-[50px] md:px-8 md:py-24">
         <div className="flex flex-col gap-10 md:gap-[50px] max-w-[1150px] w-full">
-          {adv.reasons.map((reason) => {
-            const rm = media.reasons.find((r) => r.id === reason.id);
-            if (!rm || (!reason.title && !reason.description)) return null;
+          {adv.reasonsWhy.items.map((reason, index) => {
+            const rm = media.reasons[index];
+            if (!rm) return null;
             return (
-              <div key={reason.id} className="flex flex-col gap-[30px] md:flex-row md:items-center">
+              <div key={reason.headline} className="flex flex-col gap-[30px] md:flex-row md:items-center">
                 <div className="flex-1">
-                  <Image src={rm.mainImage} alt={reason.title ?? "BRĒZ"} width={600} height={400}
+                  <Image src={rm.mainImage} alt={reason.headline} width={600} height={400}
                     className="rounded-xl object-cover w-full h-auto" />
                 </div>
                 <div className="flex flex-col gap-5 flex-1">
                   {rm.iconImage && (
                     <Image src={rm.iconImage} alt="" width={50} height={50} className="object-contain" />
                   )}
-                  {reason.title && (
-                    <h2 className="text-2xl font-light tracking-[0.4px] leading-[30px] md:text-[43px] md:leading-[48px]">
-                      {reason.title}
-                    </h2>
-                  )}
-                  {reason.description && (
-                    <p className="text-sm font-light leading-5 md:text-[17px] md:leading-[22px]">
-                      {reason.description}
-                    </p>
-                  )}
-                  {reason.showCta && reason.ctaHref && reason.ctaText && (
-                    <a href={reason.ctaHref}
+                  <h2 className="text-2xl font-light tracking-[0.4px] leading-[30px] md:text-[43px] md:leading-[48px]">
+                    {reason.headline}
+                  </h2>
+                  <p className="text-sm font-light leading-5 md:text-[17px] md:leading-[22px]">
+                    {reason.body}
+                  </p>
+                  {reason.ctaText && (
+                    <a href={links.reasonsWhy.cta}
                       className="inline-flex items-center bg-lime-200 text-black font-light text-base px-8 py-3 rounded-[10px] hover:bg-lime-300 transition-colors w-fit md:text-xl">
                       {reason.ctaText}
                     </a>

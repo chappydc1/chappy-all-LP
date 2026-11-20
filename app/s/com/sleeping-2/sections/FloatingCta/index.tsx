@@ -2,7 +2,7 @@ import { ChevronRightIcon, GoldStarsIcon } from "../../components/icons";
 import type { Sleeping2Copy } from "../../types";
 
 type FloatingCtaProps = {
-  floater: Sleeping2Copy["floater"];
+  floater: Sleeping2Copy["stickyCta"];
   ctaUrl: string;
   productImage: string;
 };
@@ -16,7 +16,7 @@ export function Sleeping2FloatingCta({
     <section className="fixed inset-x-0 bottom-0 z-50 bg-[#333] min-[1032px]:hidden">
       <div className="bg-[#333] text-white">
         <div className="mx-auto flex max-w-[1132px] items-center gap-2 text-xs font-bold leading-4">
-          <div className="flex items-center justify-center bg-[#00A871] px-7 py-[6px]">{floater.rankLabel}</div>
+          <div className="flex items-center justify-center bg-[#00A871] px-7 py-[6px]">#1</div>
           <div className="flex items-center gap-1">
             {floater.description}
             <div className="h-4 w-px bg-white" />

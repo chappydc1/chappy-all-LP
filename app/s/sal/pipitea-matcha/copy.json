@@ -1,20 +1,19 @@
 {
-  "ctaUrl": "",
-  "announcement": {
+  "announcementBar": {
     "slides": [
       "90-DAY 100% MONEYBACK GUARANTEE",
       "Free shipping On all orders over $50+"
     ]
   },
-  "header": {
+  "nav": {
     "logoAlt": "PiPi Tea logo"
   },
   "hero": {
     "rating": "4.8/5 based on 45,000+",
     "ratingLabel": "reviews",
-    "heading": "Bloated After Every Meal, Exhausted All Day, Stuck With Stubborn Weight?",
-    "subheadingBold": "This Ancient Ceremonial Tea Targets the Hidden Root Cause, Restoring Your Body From the Inside Out",
-    "subheading": "Just one daily cup helps restore balance from within — naturally supporting gut health, metabolism, and mental clarity.",
+    "headline": "Bloated After Every Meal, Exhausted All Day, Stuck With Stubborn Weight?",
+    "subheadlineBold": "This Ancient Ceremonial Tea Targets the Hidden Root Cause, Restoring Your Body From the Inside Out",
+    "subheadline": "Just one daily cup helps restore balance from within — naturally supporting gut health, metabolism, and mental clarity.",
     "benefits": [
       "Helps Seal Leaky Gut & Reduces Bloating After Meals",
       "Supports Healthy Weight Loss & Melts Stubborn Belly Fat",
@@ -59,32 +58,23 @@
     ]
   },
   "finalCta": {
-    "headingMobile": "Claim Your PiPi Tea Now",
-    "headingDesktop": "Claim Your PiPi Tea Ceremonial Matcha Now",
-    "subheading": "or Risk Paying Full Price Tomorrow",
+    "headlineMobile": "Claim Your PiPi Tea Now",
+    "headlineDesktop": "Claim Your PiPi Tea Ceremonial Matcha Now",
+    "subheadline": "or Risk Paying Full Price Tomorrow",
     "saleText": "(Take advantage of our One-Time 50% OFF Sale - It's ending soon!)",
     "ctaText": "BUY NOW & SAVE",
     "guarantee": "90-Day Money Back Guarantee"
   },
-  "stickyMobileCta": {
+  "stickyCta": {
     "ctaText": "UNLOCK THE POWER OF PIPI TEA"
   },
   "footer": {
     "copyright": "PiPi Tea™ - Copyright 2025 - All Rights Reserved.",
     "disclaimer": "*These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease. Individual results may vary. Consult your healthcare provider before starting any new dietary supplement, especially if you are pregnant, nursing, taking medication, or have a medical condition.",
     "links": {
-      "privacy": {
-        "label": "Privacy Policy",
-        "href": "https://pipitea.com/pages/privacy-policy-pipi-tea"
-      },
-      "terms": {
-        "label": "Terms Of Service",
-        "href": "https://pipitea.com/pages/terms-of-use-pipi-tea"
-      },
-      "returns": {
-        "label": "Return Policy",
-        "href": "https://pipitea.com/pages/returns-refund-policy"
-      }
+      "privacy": "Privacy Policy",
+      "terms": "Terms Of Service",
+      "returns": "Return Policy"
     },
     "support": {
       "label": "Customer Support:",

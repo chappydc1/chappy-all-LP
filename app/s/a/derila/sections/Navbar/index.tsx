@@ -1,20 +1,21 @@
 import adv from "../../copy.json";
+import links from "../../links.json";
 import media from "../../media.json";
 import { DerilaNavbarLogo } from "./components/DerilaNavbarLogo";
 import { DerilaDesktopMenu } from "./components/DerilaDesktopMenu";
 import { DerilaMobileMenu } from "./components/DerilaMobileMenu";
 
 export const DerilaNavbar = () => {
-  const { links, homeUrl } = adv.navbar;
-  const [tracking, contact, order] = links;
+  const navLinks = adv.nav.items.map((text, i) => ({ href: links.nav.items[i], text }));
+  const [tracking, contact, order] = navLinks;
 
   return (
     <nav className="bg-[linear-gradient(284.84deg,rgb(36,86,160)_30.75%,rgb(74,163,233)_85.96%)] box-border caret-transparent flex flex-wrap list-none outline-[3px] w-full py-2.5">
       <div className="box-border caret-transparent max-w-none min-h-[auto] min-w-[auto] outline-[3px] w-full mx-auto px-[15px] md:max-w-[1023px] md:px-10">
         <div className="relative items-center box-border caret-transparent flex justify-between outline-[3px]">
           <div className="box-border caret-transparent block min-h-[auto] min-w-[auto] outline-[3px] w-[75px] md:hidden md:min-h-0 md:min-w-0"></div>
-          <DerilaNavbarLogo homeUrl={homeUrl} logo={media.logo} />
-          <DerilaDesktopMenu links={links} />
+          <DerilaNavbarLogo homeUrl={links.nav.home} logo={media.logo} />
+          <DerilaDesktopMenu links={navLinks} />
           <DerilaMobileMenu
             variant="icon"
             containerVariantClass="flex justify-end min-h-[auto] min-w-[auto] w-[75px] md:hidden md:min-h-0 md:min-w-0"

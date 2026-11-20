@@ -50,5 +50,9 @@
     "defaultAvatar": "/lp-images-files-videos-fonts/images/noor/default-avatar.webp",
     "johnAttachment": "/lp-images-files-videos-fonts/images/noor/john-attachment.webp",
     "anitaAttachment": "/lp-images-files-videos-fonts/images/noor/anita-attachment.webp"
+  },
+  "commentAttachments": {
+    "3": "comments.johnAttachment",
+    "15": "comments.anitaAttachment"
   }
 }

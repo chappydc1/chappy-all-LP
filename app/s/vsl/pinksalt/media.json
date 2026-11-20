@@ -20,5 +20,36 @@
     "jessica-brown": "/lp-images-files-videos-fonts/images/pinksalt/pberKS2391370.webp",
     "chloe-garcia": "/lp-images-files-videos-fonts/images/pinksalt/FEksgJ2345870.webp",
     "olivia-moore-reply": "/lp-images-files-videos-fonts/images/pinksalt/aAtbjA2058308.webp"
-  }
+  },
+  "comments": [
+    {
+      "avatar": "sarah-smith",
+      "replies": [
+        "jennifer-taylor"
+      ]
+    },
+    {
+      "avatar": "olivia-moore",
+      "replies": [
+        "emily-johnson",
+        "olivia-moore-reply"
+      ]
+    },
+    {
+      "avatar": "elizabeth-miller",
+      "replies": []
+    },
+    {
+      "avatar": "abigail-martinez",
+      "replies": [
+        "natalie-clark"
+      ]
+    },
+    {
+      "avatar": "jessica-brown",
+      "replies": [
+        "chloe-garcia"
+      ]
+    }
+  ]
 }

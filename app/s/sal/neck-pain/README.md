@@ -1,6 +1,6 @@
 # Nuzzle — Neck Pain LP
 
-A complete, self-contained Next.js landing page. **Copy and media live in two sibling JSON files** — `copy.json` (user-visible text) and `media.json` (asset URLs, icons, video IDs, numeric timers, structural Tailwind classes). `content.ts` deep-merges them into the single shape the section components consume.
+A complete, self-contained Next.js landing page. **Copy, media, links, and config live in sibling files** — `copy.json` (user-visible text only), `media.json` (asset URLs, icons, video IDs), `links.json` (hrefs), and `config.ts` (numeric timers, counters, structural Tailwind classes, comparison flags, review ratings). `content.ts` deep-merges them into the single shape the section components consume.
 
 Lives at `s/a/nuz/neck-pain/`. The path convention is `s/a/<brand>/<campaign>/` — copy this folder to a sibling path (e.g. `s/a/nuz/back-pain/` or `s/a/cloudrest/mattress/`) to spin up a new LP fast.
 
@@ -8,9 +8,11 @@ Lives at `s/a/nuz/neck-pain/`. The path convention is `s/a/<brand>/<campaign>/` 
 
 ```
 neck-pain/
-  copy.json         ← user-visible text. Edit this with AI for new copy.
-  media.json        ← image/icon/video URLs, numbers, Tailwind classes.
-  content.ts        ← deep-merges both JSONs into LandingPageContent
+  copy.json         ← user-visible text only. Edit this with AI for new copy.
+  media.json        ← image/icon/video URLs.
+  links.json        ← CTA href + Trustpilot review link.
+  config.ts         ← timers, counters, Tailwind classes, comparison flags, review ratings.
+  content.ts        ← deep-merges all four into LandingPageContent
   types.ts           ← TypeScript shape for the merged content
   styles.css         ← @font-face + page-specific utilities
   LandingPage.tsx    ← composed page — render this from app/page.tsx
@@ -21,46 +23,48 @@ neck-pain/
 
 ## Editing copy
 
-Open `copy.json`. Each top-level key matches a section of the page:
+Open `copy.json`. Each top-level key is a direct-response section name, in page order (the same keys are used in `media.json`, `links.json`, and `config.ts`):
 
 | Key | Section |
 |-----|---------|
-| `global` | Shared CTA label, sale-ends prefix, secure badge, lock + cc images |
-| `countdownBanner` | Top sale banner with countdown timer |
-| `navbar` | Top logo bar |
-| `stickyBar` | Desktop sticky bar that appears on scroll |
-| `mobileOrderBar` | Mobile bottom CTA bar |
+| `announcementBar` | Top sale banner with countdown timer |
+| `stickyCta` | Desktop sticky bar that appears on scroll |
+| `nav` | Top logo bar |
 | `hero` | Headline + benefit tags + subhead + 5 expanding FAQ accordions |
-| `mediaBanner` | "As Seen On" marquee of media logos |
-| `video` | Cloudflare Stream video + headline + body copy |
-| `painPoints` | "Professionally Recommended" section with bullets + 6-tile grid |
+| `asSeenOn` | "As Seen On" marquee of media logos |
+| `lead` | Cloudflare Stream video + headline + body copy |
+| `problem` | "Professionally Recommended" section with bullets + 6-tile grid |
 | `features` | "Why Nuzzle Has Worked" — 6 cards around the product image |
 | `howItWorks` | 3 numbered explainer steps with 2 videos each |
 | `comparison` | Comparison table vs 3 competitors |
-| `trustpilot` | Trustpilot-styled reviews grid (heading + rating + reviews[]) |
+| `reviews` | Trustpilot-styled reviews grid (heading + rating + items[]) |
 | `testimonials` | Verified-buyer reviews (heading + rating summary + 10 reviews) |
 | `faq` | Closing FAQ with 6 expandable items |
 | `guarantee` | 90-day guarantee section + final CTA |
 | `footer` | Footer links + copyright + address |
+| `mobileStickyCta` | Mobile bottom CTA bar |
+| `ui` | Shared CTA label, sale-ends prefix, secure badge |
 
 ### Editing rules
 
 - **Plain strings** are the default. Just edit them.
 - **`**bold**`** inside a string renders inline as `<strong>` (used in video body paragraphs and pain-points bullets).
 - **Multi-paragraph bodies** are arrays of strings. Each becomes its own paragraph (rendered with a blank line between them).
-- **Countdown timers** (`ctaCountdownSeconds`, `countdownBanner.initialSeconds`, etc.) live in `media.json` as a starting number of seconds. The hook ticks down from there on each render.
+- **Countdown timers** (`ctaCountdownSeconds`, `announcementBar.initialSeconds`, etc.) live in `config.ts` as a starting number of seconds. The hook ticks down from there on each render.
 - **Image, icon, and video URLs** live in `media.json` — easy to swap when re-branding.
-- **`hero.faq[].type`** lives in `media.json` (it's a structural discriminator) and can be `"shipping"`, `"text"`, or `"returns"`. The matching text fields (`question`, `text`, `email`, etc.) live in `copy.json`. See `types.ts` for the full merged shape.
-- **Tailwind classes in JSON** (e.g. `mediaBanner.logos[].heightClass`, `howItWorks.steps[].containerVariantClass`) live in `media.json`. `tailwind.config.js` scans `./app/**/*.json` so these classes are picked up at build time.
-- **Mixed arrays** (e.g. `hero.shippingBadges: [{ icon, label }]`) are split element-wise — `icon` lives in `media.json` and `label` in `copy.json`. The merger zips them by index, so **both files must keep the same array length** when you add or remove an entry.
+- **Hrefs** (`ui.ctaHref`, `reviews.trustpilotReviewUrl`) live in `links.json`.
+- **Review star ratings** (`reviews.items[].rating`) and **comparison checkmarks** (`comparison.rows[]`) live in `config.ts`.
+- **`hero.faq[].type`** lives in `config.ts` (it's a structural discriminator) and can be `"shipping"`, `"text"`, or `"returns"`. The matching text fields (`question`, `text`, `email`, etc.) live in `copy.json`. See `types.ts` for the full merged shape.
+- **Tailwind classes** (e.g. `asSeenOn.logos[].heightClass`, `howItWorks.steps[].containerVariantClass`) live in `config.ts`, which `tailwind.config.js` scans as part of `app/**/*.{ts,tsx}`.
+- **Mixed arrays** (e.g. `hero.shippingBadges: [{ icon, label }]`) are split element-wise — `icon` lives in `media.json` and `label` in `copy.json`. The merger zips them by index, so **every file that has the array must keep the same length** when you add or remove an entry.
 
 ### "Asking AI" workflow
 
-Hand AI both JSONs (or just `copy.json` when only the wording is changing) plus a brief like:
+Hand AI `copy.json` (plus `media.json` and `config.ts` when assets or structure change) plus a brief like:
 
 > Here is copy.json for a landing page. Rewrite all copy for a memory-foam mattress brand called Cloudrest. Keep the same structure, key names, array lengths, and `**bold**` conventions.
 
-For a full re-brand including assets, hand AI both files and ask it to keep array indices aligned. The TypeScript types will catch any shape errors at build time.
+For a full re-brand including assets, hand AI all the files and ask it to keep array indices aligned. The TypeScript types will catch any shape errors at build time.
 
 ## Spinning up a new LP in this repo
 
@@ -73,7 +77,7 @@ For a full re-brand including assets, hand AI both files and ask it to keep arra
    ```css
    @import "../s/a/nuz/back-pain/styles.css";
    ```
-4. Edit `copy.json` for wording and `media.json` for assets (handing both to AI is the fast path)
+4. Edit `copy.json` for wording, `media.json` for assets, and `links.json` for hrefs
 5. `npm run dev`
 
 That's it — tailwind, types, and aliases work because they're wildcard-scoped to `./s/**` and `@/*`.
@@ -102,7 +106,6 @@ If you're starting from a brand-new Next.js + Tailwind project:
    ```js
    content: [
      "./s/**/*.{ts,tsx}",
-     "./s/**/*.json", // Tailwind classes live in some JSON files (media.json)
      "./app/**/*.{ts,tsx}",
    ],
    ```

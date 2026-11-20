@@ -9,43 +9,43 @@ const P = ({ text }: { text: string }) => (
 );
 
 export function ZikeeyArticleConclusion() {
-  const { conclusion } = adv.article;
+  const { offer, ui } = adv;
 
   return (
     <section>
       <h3 className="text-teal-600 text-[34px] leading-[44.2px] my-[25px]">
-        <b>{conclusion.h2}</b>
+        <b>{offer.headline}</b>
       </h3>
 
       <img
         src={media.conclusion}
-        alt={conclusion.conclusionAlt}
+        alt={offer.imageAlt}
         className="max-w-full align-baseline mx-auto rounded"
       />
 
       <div className="mt-4">
-        {conclusion.paragraphs1.map((text, i) => (
+        {offer.body.map((text, i) => (
           <P key={i} text={text} />
         ))}
       </div>
 
       <h3 className="text-teal-600 text-[34px] leading-[44.2px] my-[25px]">
-        <b>{conclusion.h2second}</b>
+        <b>{offer.urgencyHeadline}</b>
       </h3>
 
-      {conclusion.paragraphs2.map((text, i) => (
+      {offer.comparisonBody.map((text, i) => (
         <P key={i} text={text} />
       ))}
 
       <p className="text-neutral-800 text-[22px] leading-[35.2px] mb-[25px]">
         At the moment, you can get{" "}
-        <a href={adv.article.productUrl} className="text-teal-600 transition-colors duration-150 hover:text-teal-700 hover:underline">
-          {adv.article.productName}
+        <a href="#" className="text-teal-600 transition-colors duration-150 hover:text-teal-700 hover:underline">
+          {ui.productName}
         </a>{" "}
         for just{" "}
-        <b><span className="text-red-600">{conclusion.price}</span></b>{" "}
+        <b><span className="text-red-600">{offer.price}</span></b>{" "}
         with a whopping{" "}
-        <b><span className="text-red-600">{conclusion.discount}</span></b>{" "}
+        <b><span className="text-red-600">{offer.discount}</span></b>{" "}
         discount. It&apos;s an amazing deal and we&apos;re sure this won&apos;t last long…
       </p>
 
@@ -56,15 +56,15 @@ export function ZikeeyArticleConclusion() {
       <p className="text-neutral-800 text-[22px] leading-[35.2px] mb-[25px]">
         <u>
           <a
-            href={conclusion.claimUrl}
+            href="#"
             className="text-teal-600 transition-colors duration-150 hover:text-teal-700"
           >
-            {conclusion.claimLinkText}
+            {offer.claimCtaText}
           </a>
         </u>
       </p>
 
-      {conclusion.paragraphs3.map((text, i) => (
+      {offer.closingBody.map((text, i) => (
         <P key={i} text={text} />
       ))}
     </section>

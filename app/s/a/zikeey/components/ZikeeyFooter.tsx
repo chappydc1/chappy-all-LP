@@ -18,13 +18,13 @@ export function ZikeeyFooter() {
           </p>
         ))}
         <div className="flex flex-wrap justify-center gap-4 mt-3">
-          {links.map((link) => (
+          {links.map((label) => (
             <a
-              key={link.text}
-              href={link.url}
+              key={label}
+              href="#"
               className="text-white text-[15px] leading-6 hover:text-teal-400 transition-colors duration-150 underline"
             >
-              {link.text}
+              {label}
             </a>
           ))}
         </div>

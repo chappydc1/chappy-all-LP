@@ -5,7 +5,7 @@ export const NexaComments = () => {
     <div className="text-lg font-bold box-border caret-transparent leading-[18px] outline-[3px] mt-[55px] font-montserrat">
       <div className="box-border caret-transparent outline-[3px] text-left">
         <span className="box-border caret-transparent outline-[3px]">
-          {adv.comments.heading}
+          {adv.comments.headline}
         </span>
       </div>
     </div>

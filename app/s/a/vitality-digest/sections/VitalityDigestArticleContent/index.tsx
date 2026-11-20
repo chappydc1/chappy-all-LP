@@ -7,8 +7,10 @@ import { VitalityDigestArticleBlocks } from "./components/VitalityDigestArticleB
 import { VitalityDigestCommentsSection } from "../VitalityDigestCommentsSection";
 
 export const VitalityDigestArticleContent = (): React.ReactElement => {
-  const { content, media } = useAdvertorialData();
-  const { intro, article, faq, ctaUrl, ctaText } = content;
+  const { content, links, media } = useAdvertorialData();
+  const { lead, faq } = content;
+  const ctaUrl = links.cta;
+  const { ctaText } = content.ui;
 
   return (
     <section className="items-center flex flex-col justify-items-center relative w-full px-2.5">
@@ -30,26 +32,26 @@ export const VitalityDigestArticleContent = (): React.ReactElement => {
               </div>
 
               <div className="bg-yellow-100 text-zinc-800 text-base leading-6 w-full mx-2.5 p-2.5 md:text-xl md:leading-[30px]">
-                <p className="italic font-bold m-0">{intro.quote}</p>
+                <p className="italic font-bold m-0">{lead.quote}</p>
               </div>
 
               <VitalityDigestHtmlParagraphs
-                paragraphs={intro.paragraphs}
+                paragraphs={lead.body}
                 className="text-zinc-800 text-xl leading-[30px] w-full pt-[5px] pb-2.5 px-2.5"
               />
 
               <VitalityDigestArticleBlocks
-                blocks={article}
+                content={content}
                 media={media}
                 ctaUrl={ctaUrl}
                 ctaText={ctaText}
               />
 
               <p className="text-black text-[26px] leading-[31.2px] font-bold w-full pt-[5px] pb-2.5 px-2.5 md:text-[34px] md:leading-[40.8px]">
-                {faq.heading}
+                {faq.headline}
               </p>
               <VitalityDigestHtmlParagraphs
-                paragraphs={faq.paragraphs}
+                paragraphs={faq.body}
                 className="text-zinc-800 text-xl leading-[30px] w-full pt-[5px] pb-2.5 px-2.5"
               />
 

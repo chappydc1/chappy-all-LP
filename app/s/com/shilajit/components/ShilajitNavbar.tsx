@@ -4,15 +4,16 @@ import { useState, useEffect } from "react";
 type NavbarProps = {
   adv: {
     brand: string;
-    links: { label: string; href: string }[];
+    items: string[];
   };
+  links: string[];
   media: {
     logo: string;
     icons: { nav: string; dropdown: string };
   };
 };
 
-export function ShilajitNavbar({ adv, media }: NavbarProps) {
+export function ShilajitNavbar({ adv, links, media }: NavbarProps) {
   const [mobileOpen, setMobileOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
@@ -43,12 +44,12 @@ export function ShilajitNavbar({ adv, media }: NavbarProps) {
             <div className="flex items-center h-[45px] justify-end max-w-[700px] min-w-[700px]">
               <img src={media.icons.nav} alt="Categories" className="h-[17px] w-4 mr-[30px] opacity-80 cursor-pointer" />
               <div className="text-white text-base font-bold flex items-center gap-[7px] h-[19px] w-[78px] mr-[50px] cursor-pointer">
-                {adv.links[0].label}
+                {adv.items[0]}
                 <img src={media.icons.dropdown} alt="" className="block h-3 w-[13px] mt-[3px]" />
               </div>
               <div className="text-white text-base font-bold flex items-center h-[19px] w-[78px]">
-                <a href={adv.links[1].href} className="text-white text-base font-bold">
-                  {adv.links[1].label}
+                <a href={links[1]} className="text-white text-base font-bold">
+                  {adv.items[1]}
                 </a>
               </div>
             </div>
@@ -77,14 +78,14 @@ export function ShilajitNavbar({ adv, media }: NavbarProps) {
       {/* Mobile drawer */}
       <div className={`fixed top-[62px] left-0 right-0 z-50 bg-stone-900 md:hidden transition-all duration-300 ease-in-out overflow-hidden ${mobileOpen ? "max-h-64 opacity-100" : "max-h-0 opacity-0"}`}>
         <div className="flex flex-col px-5 py-4 gap-4">
-          {adv.links.map((link) => (
+          {adv.items.map((label, i) => (
             <a
-              key={link.label}
-              href={link.href}
+              key={label}
+              href={links[i]}
               onClick={() => setMobileOpen(false)}
               className="text-white text-base font-bold py-2 border-b border-stone-700 last:border-0"
             >
-              {link.label}
+              {label}
             </a>
           ))}
         </div>

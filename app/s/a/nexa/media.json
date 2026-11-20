@@ -55,6 +55,61 @@
       "katharine": "/lp-images-files-videos-fonts/images/nexa/1729277730999_1690673025_eyJwYXRoIjoiaWhoLWhlYWx0aGNhcmUt.webp",
       "amanda": "/lp-images-files-videos-fonts/images/nexa/1729277738316_1690673034_depositphotos_90874904_stock_pho.webp",
       "samantha": "/lp-images-files-videos-fonts/images/nexa/1729277745835_1690673046_smiling_woman.webp"
-    }
+    },
+    "items": [
+      {
+        "avatarKey": "wilma"
+      },
+      {
+        "avatarKey": "doris"
+      },
+      {
+        "avatarKey": "skyler",
+        "replyAvatarKey": "marie"
+      },
+      {
+        "avatarKey": "anna_boyd"
+      },
+      {
+        "avatarKey": "david"
+      },
+      {
+        "avatarKey": "alferd",
+        "replyAvatarKey": "edith"
+      },
+      {
+        "avatarKey": "debra"
+      },
+      {
+        "avatarKey": "agnes"
+      },
+      {
+        "avatarKey": "barbara"
+      },
+      {
+        "avatarKey": "harry"
+      },
+      {
+        "avatarKey": "bridget"
+      },
+      {
+        "avatarKey": "anna_madison"
+      },
+      {
+        "avatarKey": "clara"
+      },
+      {
+        "avatarKey": "dana"
+      },
+      {
+        "avatarKey": "katharine"
+      },
+      {
+        "avatarKey": "amanda"
+      },
+      {
+        "avatarKey": "samantha"
+      }
+    ]
   }
 }

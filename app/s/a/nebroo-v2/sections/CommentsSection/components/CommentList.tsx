@@ -5,20 +5,20 @@ type CommentReply = {
   text: string;
   likeCount: string;
   time: string;
-  showReactionIcon: boolean;
 };
 type CommentCopy = {
   author: string;
   text: string;
   likeCount: string;
   time: string;
-  showReactionIcon: boolean;
-  replies: CommentReply[];
+  replies?: CommentReply[];
 };
 type CommentMedia = {
   avatarSrc: string;
   replyAvatars?: string[];
 };
+
+const REACTION_ICON_COMMENT_COUNT = 3;
 
 type Props = {
   copy: CommentCopy[];
@@ -32,8 +32,10 @@ export const CommentList = ({ copy, media, sharedMedia }: Props) => {
       <ul className="box-border caret-transparent outline-[3px] pl-0 font-montserrat">
         {copy.map((comment, i) => {
           const m = media[i] ?? { avatarSrc: "" };
-          const replies = comment.replies.map((r, j) => ({
+          const showReactionIcon = i < REACTION_ICON_COMMENT_COUNT;
+          const replies = (comment.replies ?? []).map((r, j) => ({
             ...r,
+            showReactionIcon,
             imageSrc: m.replyAvatars?.[j] ?? "",
             listItemClassName: "border-gray-300 border-l border-dotted",
           }));
@@ -45,7 +47,7 @@ export const CommentList = ({ copy, media, sharedMedia }: Props) => {
               text={comment.text}
               likeCount={comment.likeCount}
               time={comment.time}
-              showReactionIcon={comment.showReactionIcon}
+              showReactionIcon={showReactionIcon}
               replies={replies}
               reactionIconSrc={sharedMedia.reactionIconSrc}
             />

@@ -1,16 +1,6 @@
 "use client";
 
-import { useAdvertorial } from "../../LandingPage/context";
-
-type Comment = {
-  id: string;
-  author: string;
-  text: string;
-  likes: string;
-  time: string;
-  level: "top" | "reply";
-  avatarKey: string;
-};
+import { useAdvertorial, type RosabellaComment } from "../../LandingPage/context";
 
 function CommentItem({
   comment,
@@ -18,7 +8,7 @@ function CommentItem({
   likeIcon,
   isReply = false,
 }: {
-  comment: Comment;
+  comment: RosabellaComment;
   avatarSrc: string;
   likeIcon: string;
   isReply?: boolean;
@@ -109,20 +99,10 @@ function CommentItem({
 
 export const RosabellaCommentsSection = () => {
   const { copy, media } = useAdvertorial();
-
-  // Group comments: top-level with their replies
-  const topComments = copy.comments.filter((c) => c.level === "top");
-  const replies = copy.comments.filter((c) => c.level === "reply");
-
-  // Build a map of top comment id prefix → replies
-  // Replies have ids like "c1r1", "c3r1", etc — they follow top comment ids
-  const replyMap: Record<string, Comment[]> = {};
-  replies.forEach((r) => {
-    // Extract parent id by removing trailing "r\d+"
-    const parentId = r.id.replace(/r\d+$/, "");
-    if (!replyMap[parentId]) replyMap[parentId] = [];
-    replyMap[parentId].push(r as Comment);
-  });
+  const avatarFor = (key: string | undefined): string => (
+    (key && media.commentAvatars[key])
+    || media.defaultProductImage
+  );
 
   return (
     <div className="items-center box-border caret-transparent flex justify-center outline-[3px]">
@@ -147,15 +127,14 @@ export const RosabellaCommentsSection = () => {
               </div>
             </div>
 
-            {topComments.map((comment) => {
-              const commentReplies = replyMap[comment.id] || [];
-              const avatarSrc =
-                media.commentAvatars[comment.avatarKey] ||
-                media.defaultProductImage;
+            {copy.comments.map((comment, commentIndex) => {
+              const commentReplies = comment.replies || [];
+              const avatarKeys = media.commentAvatarKeys[commentIndex];
+              const avatarSrc = avatarFor(avatarKeys?.avatar);
 
               return (
                 <div
-                  key={comment.id}
+                  key={commentIndex}
                   className="items-center box-border caret-transparent flex justify-center min-w-[auto] outline-[3px]"
                 >
                   <div className="box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full">
@@ -164,7 +143,7 @@ export const RosabellaCommentsSection = () => {
                         <div className="items-center box-border caret-transparent flex justify-center min-w-[auto] outline-[3px]">
                           <div className="box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full">
                             <CommentItem
-                              comment={comment as Comment}
+                              comment={comment}
                               avatarSrc={avatarSrc}
                               likeIcon={media.likeIcon}
                               isReply={false}
@@ -172,13 +151,11 @@ export const RosabellaCommentsSection = () => {
                           </div>
                         </div>
 
-                        {commentReplies.map((reply) => {
-                          const replyAvatarSrc =
-                            media.commentAvatars[reply.avatarKey] ||
-                            media.defaultProductImage;
+                        {commentReplies.map((reply, replyIndex) => {
+                          const replyAvatarSrc = avatarFor(avatarKeys?.replies?.[replyIndex]);
                           return (
                             <div
-                              key={reply.id}
+                              key={replyIndex}
                               className="items-center box-border caret-transparent flex justify-center min-w-[auto] outline-[3px]"
                             >
                               <div className="box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full">
@@ -189,7 +166,7 @@ export const RosabellaCommentsSection = () => {
                                       <div className="box-border caret-transparent flex flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full">
                                         <div className="items-start box-border caret-transparent flex flex-wrap min-h-[auto] min-w-[auto] border-stone-300 mt-2.5 mb-5 border-l">
                                           <CommentItem
-                                            comment={reply as Comment}
+                                            comment={reply}
                                             avatarSrc={replyAvatarSrc}
                                             likeIcon={media.likeIcon}
                                             isReply={true}

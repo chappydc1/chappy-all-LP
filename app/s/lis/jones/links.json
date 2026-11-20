@@ -1,0 +1,47 @@
+{
+  "cookieConsent": {
+    "privacy": "https://www.jonesroadbeauty.com/pages/privacy-policy"
+  },
+  "nav": {
+    "shopNow": "https://www.jonesroadbeauty.com/pages/what-the-foundation-custom-quiz",
+    "findShade": "https://jonesroadbeauty.com/pages/miracle-balm-quiz/"
+  },
+  "reasonsWhy": {
+    "findShade": "https://www.jonesroadbeauty.com/pages/what-the-foundation-custom-quiz",
+    "shopNow": "https://www.jonesroadbeauty.com/pages/what-the-foundation-custom-quiz"
+  },
+  "finalCta": {
+    "cta": "https://www.jonesroadbeauty.com/pages/what-the-foundation-custom-quiz"
+  },
+  "footer": {
+    "columns": {
+      "help": [
+        "https://jonesroadbeauty.customerdesk.io/#rp-customer-widget-home",
+        "https://www.jonesroadbeauty.com/pages/tracking-v2",
+        "/pages/quiz-landing",
+        "/pages/shipping-returns",
+        "/pages/faq",
+        "/pages/contact-us",
+        "/pages/careers"
+      ],
+      "about": [
+        "/pages/about",
+        "/blogs/justbobbi"
+      ],
+      "connect": [
+        "https://www.instagram.com/jonesroadbeauty/",
+        "https://www.facebook.com/jonesroadbeauty",
+        "https://twitter.com/jonesroadbeauty",
+        "https://www.pinterest.com/jonesroadbeauty/"
+      ],
+      "stores": [
+        "/pages/our-stores"
+      ]
+    },
+    "policies": [
+      "/pages/privacy-policy",
+      "/pages/terms-conditions",
+      "/pages/ccpa-opt-out"
+    ]
+  }
+}

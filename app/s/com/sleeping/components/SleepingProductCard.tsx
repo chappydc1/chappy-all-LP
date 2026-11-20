@@ -8,7 +8,7 @@ type ProductCardProps = {
   reviewCount: string;
   boughtBadge?: string;
   discountText?: string;
-  cta: string;
+  ctaText: string;
   ctaUrl?: string;
   imageSrc: string;
   imageAlt: string;
@@ -102,7 +102,7 @@ export function SleepingProductCard(props: ProductCardProps): React.JSX.Element 
             )}
             <a href={props.ctaUrl ?? "#"} className="inline w-auto no-underline lg:block lg:w-full">
               <button className="text-black text-[13.3333px] bg-zinc-100 h-auto w-auto p-0 rounded-none border-2 border-black lg:text-white lg:text-base lg:font-bold lg:bg-blue-500 lg:h-10 lg:w-full lg:rounded-lg lg:border-0 cursor-pointer">
-                {props.cta}
+                {props.ctaText}
               </button>
             </a>
             {!props.hideAmazonBadge && (

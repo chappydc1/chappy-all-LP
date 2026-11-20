@@ -3,13 +3,17 @@
 import { createContext, useContext } from "react";
 
 export type CommentEntry = {
-  id: string;
   author: string;
-  avatarKey: string;
   time: string;
   text: string;
   reactionCount?: string;
   replies?: CommentEntry[];
+};
+
+export type CommentMedia = {
+  id: string;
+  avatarKey: string;
+  replies?: CommentMedia[];
 };
 
 export type ArticleBlock =
@@ -24,36 +28,51 @@ export type ArticleBlock =
     }
   | { type: "cta" };
 
+type HeadlineSection = {
+  headline: string;
+  body: string[];
+};
+
+type BodySection = {
+  body: string[];
+};
+
 export type AdvertorialContent = {
-  header: {
-    titleLine1: string;
-    titleLine2: string;
-    titleMobile: string;
-    posted: string;
-    author: string;
+  hero: {
+    headlineLine1: string;
+    headlineLine2: string;
+    headlineMobile: string;
+    date: string;
+    byline: string;
   };
-  ctaUrl: string;
-  ctaText: string;
-  intro: {
+  lead: {
     quote: string;
-    paragraphs: string[];
+    body: string[];
   };
-  article: ArticleBlock[];
-  faq: {
-    heading: string;
-    paragraphs: string[];
-  };
+  problem: HeadlineSection;
+  agitation: HeadlineSection;
+  offer: BodySection;
+  guarantee: BodySection;
+  urgency: BodySection;
+  faq: HeadlineSection;
   comments: {
-    header: string;
+    headline: string;
     items: CommentEntry[];
   };
-  stickyBar: {
+  stickyCta: {
     ctaText: string;
   };
   footer: {
     copyrightLines: string[];
-    disclaimerParagraphs: string[];
+    disclaimer: string[];
   };
+  ui: {
+    ctaText: string;
+  };
+};
+
+export type AdvertorialLinks = {
+  cta: string;
 };
 
 export type AdvertorialMedia = {
@@ -67,10 +86,12 @@ export type AdvertorialMedia = {
   productImageCombined: string;
   reactionIcons: string[];
   commentAvatars: Record<string, string>;
+  comments: CommentMedia[];
 };
 
 type AdvertorialData = {
   content: AdvertorialContent;
+  links: AdvertorialLinks;
   media: AdvertorialMedia;
 };
 
@@ -78,15 +99,17 @@ const AdvertorialContext = createContext<AdvertorialData | null>(null);
 
 export function VitalityDigestAdvertorialProvider({
   content,
+  links,
   media,
   children,
 }: {
   content: AdvertorialContent;
+  links: AdvertorialLinks;
   media: AdvertorialMedia;
   children: React.ReactNode;
 }): React.ReactElement {
   return (
-    <AdvertorialContext.Provider value={{ content, media }}>
+    <AdvertorialContext.Provider value={{ content, links, media }}>
       {children}
     </AdvertorialContext.Provider>
   );

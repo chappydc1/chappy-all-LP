@@ -5,7 +5,7 @@ import { useCountdown } from "../../../hooks/useCountdown";
 import { content, renderInlineBold } from "../../../content";
 
 export const RecommendedSection = () => {
-  const pp = content.painPoints;
+  const pp = content.problem;
   const { formatted } = useCountdown(pp.ctaCountdownSeconds);
 
   return (
@@ -55,20 +55,20 @@ export const RecommendedSection = () => {
       </div>
       <div className="flex flex-col items-center mt-10 md:mt-12 px-5">
         <a
-          href={content.global.ctaHref}
+          href={content.ui.ctaHref}
           className="text-white font-bold bg-green-500 shadow-[rgb(0,62,14)_0px_4px_0px_0px] block w-full max-w-[420px] mb-3 px-2 py-3 rounded-[250px] text-center transition-all duration-200 active:shadow-none cursor-pointer animate-pulse-green"
         >
           <div className="text-[13px] font-normal leading-[20.8px] uppercase md:text-[14.4px] md:leading-[23.04px]">
-            {content.global.ctaSaleEndsPrefix} <span className="tabular-nums">{formatted}</span>
+            {content.ui.ctaSaleEndsPrefix} <span className="tabular-nums">{formatted}</span>
           </div>
           <div className="text-[17.6px] leading-[22px] uppercase md:text-[20.8px]">
-            {content.global.ctaLabel}
+            {content.ui.ctaLabel}
           </div>
         </a>
         <div className="flex items-center justify-center gap-2 mt-2">
-          <img src={content.global.lockIconUrl} alt="" className="inline-block h-4" />
-          <span className="text-slate-900 text-xs leading-3 md:text-[12.6px]">{content.global.secureBadge}</span>
-          <img src={content.global.creditCardsImageUrl} alt="" className="inline-block w-[168px] ml-2" />
+          <img src={content.ui.lockIconUrl} alt="" className="inline-block h-4" />
+          <span className="text-slate-900 text-xs leading-3 md:text-[12.6px]">{content.ui.secureBadge}</span>
+          <img src={content.ui.creditCardsImageUrl} alt="" className="inline-block w-[168px] ml-2" />
         </div>
       </div>
     </>

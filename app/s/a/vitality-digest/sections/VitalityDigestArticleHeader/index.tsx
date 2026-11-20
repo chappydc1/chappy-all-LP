@@ -4,7 +4,7 @@ import { useAdvertorialData } from "../VitalityDigestTopBar/context";
 
 export const VitalityDigestArticleHeader = (): React.ReactElement => {
   const { content, media } = useAdvertorialData();
-  const { header } = content;
+  const { hero } = content;
 
   return (
     <section className="items-center bg-sky-950 flex flex-col justify-items-center relative w-full pt-5 px-2.5">
@@ -23,19 +23,19 @@ export const VitalityDigestArticleHeader = (): React.ReactElement => {
 
               <h1 className="text-white text-3xl leading-9 font-bold w-full px-2.5 pt-[5px] pb-2.5 font-merriweather md:text-[56px] md:leading-[67.2px]">
                 <span className="hidden md:inline">
-                  {header.titleLine1}
+                  {hero.headlineLine1}
                   <br />
-                  {header.titleLine2}
+                  {hero.headlineLine2}
                 </span>
-                <span className="md:hidden">{header.titleMobile}</span>
+                <span className="md:hidden">{hero.headlineMobile}</span>
               </h1>
 
               <p className="text-white text-[13px] leading-[13px] w-full px-2.5 pt-2.5 pb-[5px] md:text-sm md:leading-[14px]">
-                {header.posted}
+                {hero.date}
               </p>
 
               <p className="text-white text-sm leading-[14px] w-full px-2.5 pt-[5px] pb-2.5">
-                {header.author}
+                {hero.byline}
               </p>
             </div>
           </div>

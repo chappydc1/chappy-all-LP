@@ -4,10 +4,11 @@ import { VitalityDigestCtaButton } from "../../components/VitalityDigestCtaButto
 import type {
   AdvertorialContent,
   AdvertorialMedia,
+  ArticleBlock,
 } from "../../VitalityDigestTopBar/context";
 
 export type VitalityDigestArticleBlocksProps = {
-  blocks: AdvertorialContent["article"];
+  content: AdvertorialContent;
   media: AdvertorialMedia;
   ctaUrl: string;
   ctaText: string;
@@ -19,15 +20,31 @@ const PRODUCT_IMAGE_ALT: Record<string, string> = {
   productImageDecision: "Nutrissa Saffron Gummies product bottle",
 };
 
+const buildArticleBlocks = (content: AdvertorialContent): ArticleBlock[] => [
+  { type: "heading", text: content.problem.headline },
+  { type: "paragraphs", items: content.problem.body },
+  { type: "heading", text: content.agitation.headline },
+  { type: "paragraphs", items: content.agitation.body },
+  { type: "image", mediaKey: "productImageSupplyDesktop" },
+  { type: "cta" },
+  { type: "paragraphs", items: content.offer.body },
+  { type: "paragraphs", items: content.guarantee.body },
+  { type: "image", mediaKey: "productImageGuarantee" },
+  { type: "cta" },
+  { type: "paragraphs", items: content.urgency.body },
+  { type: "image", mediaKey: "productImageDecision" },
+  { type: "cta" },
+];
+
 export const VitalityDigestArticleBlocks = ({
-  blocks,
+  content,
   media,
   ctaUrl,
   ctaText,
 }: VitalityDigestArticleBlocksProps): React.ReactElement => {
   return (
     <>
-      {blocks.map((block, index) => {
+      {buildArticleBlocks(content).map((block, index) => {
         if (block.type === "heading") {
           return (
             <p

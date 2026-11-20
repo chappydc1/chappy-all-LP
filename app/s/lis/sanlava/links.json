@@ -1,0 +1,28 @@
+{
+  "announcementBar": "https://www.sanlava.com/products/kidney-sub",
+  "saleBanner": "https://www.sanlava.com/products/berberine",
+  "offer": "https://www.sanlava.com/products/berberine",
+  "stickyCta": "https://www.sanlava.com/products/berberine",
+  "footer": {
+    "infoLinks": [
+      "https://sanlava.com/apps/parcelpanel",
+      "/pages/customer-support",
+      "/pages/faq",
+      "/pages/about-us",
+      "/pages/return-policy",
+      "https://www.sanlava.com/apps/juo/login"
+    ],
+    "moreLinks": [
+      "/pages/terms-and-conditions",
+      "/pages/privacy-policy-1",
+      "/pages/subscription-policy",
+      "/pages/shipping-policy",
+      "/pages/payment-policy"
+    ],
+    "socialLinks": [
+      "https://www.facebook.com/sanlava.us",
+      "https://www.instagram.com/sanlava_",
+      "https://www.youtube.com/@sanlava-us"
+    ]
+  }
+}

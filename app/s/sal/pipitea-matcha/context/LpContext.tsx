@@ -2,19 +2,18 @@
 import { createContext, useContext } from "react"
 
 export interface PipiteaMatchaLpCopy {
-  ctaUrl: string
-  announcement: {
+  announcementBar: {
     slides: string[]
   }
-  header: {
+  nav: {
     logoAlt: string
   }
   hero: {
     rating: string
     ratingLabel: string
-    heading: string
-    subheadingBold: string
-    subheading: string
+    headline: string
+    subheadlineBold: string
+    subheadline: string
     benefits: string[]
     shipsBy: string
     shipsFrom: string
@@ -29,23 +28,23 @@ export interface PipiteaMatchaLpCopy {
     faqItems: Array<{ question: string; answer: string }>
   }
   finalCta: {
-    headingMobile: string
-    headingDesktop: string
-    subheading: string
+    headlineMobile: string
+    headlineDesktop: string
+    subheadline: string
     saleText: string
     ctaText: string
     guarantee: string
   }
-  stickyMobileCta: {
+  stickyCta: {
     ctaText: string
   }
   footer: {
     copyright: string
     disclaimer: string
     links: {
-      privacy: { label: string; href: string }
-      terms: { label: string; href: string }
-      returns: { label: string; href: string }
+      privacy: string
+      terms: string
+      returns: string
     }
     support: {
       label: string

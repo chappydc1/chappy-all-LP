@@ -1,13 +1,12 @@
 export interface ComparisonSide {
-  headerHtml: string;
+  headline: string;
   rows: string[];
 }
 
 export interface ReasonEntry {
-  number: number;
-  titleHtml: string;
+  headline: string;
   imageAlt: string;
-  paragraphsHtml: string[];
+  body: string[];
 }
 
 export interface TestimonialEntry {
@@ -26,40 +25,38 @@ export interface FaqEntry {
 }
 
 export interface AdvertorialContent {
-  siteHeader: {
-    title: string;
+  nav: {
+    siteName: string;
     trendingLabel: string;
   };
   hero: {
-    titleHtml: string;
+    headline: string;
     authorName: string;
     authorTitle: string;
     authorDate: string;
-    calloutHtml: string;
+    callout: string;
   };
   comparison: {
     labels: string[];
     winner: ComparisonSide;
     loser: ComparisonSide;
   };
-  reasons: ReasonEntry[];
+  reasonsWhy: ReasonEntry[];
   midCta: {
-    headingHtml: string;
-    buttonLabel: string;
+    headline: string;
+    ctaText: string;
     timerLabel: string;
-    timerStartSeconds: number;
   };
   finalCta: {
-    label: string;
+    eyebrow: string;
     headline: string;
-    sub: string;
+    subheadline: string;
     offerLabel: string;
     priceOld: string;
     priceNew: string;
-    buttonLabel: string;
+    ctaText: string;
     timerLabel: string;
-    timerStartSeconds: number;
-    bottlesLeft: number;
+    bottlesLeft: string;
     sellOutRisk: string;
     shipping: string;
     guarantee: string;
@@ -69,8 +66,12 @@ export interface AdvertorialContent {
   disclaimer: string[];
 }
 
+export interface AdvertorialLinks {
+  midCta: string;
+  finalCta: string;
+}
+
 export interface AdvertorialMedia {
-  ctaUrl: string;
   authorAvatar: string;
   comparison: {
     winnerImage: string;
@@ -82,5 +83,6 @@ export interface AdvertorialMedia {
 
 export interface AdvertorialData {
   content: AdvertorialContent;
+  links: AdvertorialLinks;
   media: AdvertorialMedia;
 }

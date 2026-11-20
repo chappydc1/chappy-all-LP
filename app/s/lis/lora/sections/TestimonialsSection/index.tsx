@@ -9,9 +9,9 @@ export const LoraTestimonialsSection = () => {
         <div className="box-border caret-transparent outline-[3px] mb-8 px-8">
           <div className="text-green-700 text-[32px] font-bold box-border caret-transparent tracking-[-1.6px] leading-[35.2px] outline-[3px] text-center md:text-[44px] md:tracking-[-2.2px] md:leading-[48.4px]">
             <h2 className="text-[32px] box-border caret-transparent tracking-[-1.6px] leading-[35.2px] outline-[3px] md:text-[44px] md:tracking-[-2.2px] md:leading-[48.4px]">
-              {testimonials.heading.text}{" "}
+              {testimonials.headline.text}{" "}
               <strong className="text-[32px] box-border caret-transparent tracking-[-1.6px] leading-[35.2px] outline-[3px] md:text-[44px] md:tracking-[-2.2px] md:leading-[48.4px]">
-                {testimonials.heading.highlight}{" "}
+                {testimonials.headline.highlight}{" "}
               </strong>
             </h2>
           </div>

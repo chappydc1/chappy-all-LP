@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
 import copy from "./copy.json";
+import media from "./media.json";
 
 export const metadata: Metadata = {
-  title: copy.meta.title,
-  description: copy.meta.description,
-  icons: { icon: copy.meta.faviconPath },
+  title: copy.seo.title,
+  description: copy.seo.description,
+  icons: { icon: media.seo.favicon },
 };
 
 export default function NebrooV2Layout({

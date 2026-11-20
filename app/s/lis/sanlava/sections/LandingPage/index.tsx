@@ -2,13 +2,16 @@
 
 import { Fragment, useEffect, useState } from "react";
 import type copy from "../../copy.json";
+import type links from "../../links.json";
 import type media from "../../media.json";
 
 type CopyData = typeof copy;
+type LinksData = typeof links;
 type MediaData = typeof media;
 
 interface LandingPageProps {
   copy: CopyData;
+  links: LinksData;
   media: MediaData;
 }
 
@@ -77,8 +80,8 @@ function useScrollProgress() {
   return progress;
 }
 
-export function LandingPage({ copy, media }: LandingPageProps): React.JSX.Element {
-  const reasons = copy.article.reasons;
+export function LandingPage({ copy, links, media }: LandingPageProps): React.JSX.Element {
+  const reasons = copy.reasonsWhy;
   const scrollProgress = useScrollProgress();
 
   return (
@@ -88,10 +91,10 @@ export function LandingPage({ copy, media }: LandingPageProps): React.JSX.Elemen
           <div className="flex items-center justify-center gap-x-4 w-full max-w-[560px]">
             <div className="text-center">
               <div className="text-white text-[17px] font-black uppercase font-gilroy_bold leading-6">
-                <strong>{copy.promoBanner.saleName}</strong>
+                <strong>{copy.saleBanner.saleName}</strong>
               </div>
               <div className="text-stone-100 text-[12px] font-bold uppercase font-gilroy_medium leading-[18px]">
-                <strong>{copy.promoBanner.saleSubtitle}</strong>
+                <strong>{copy.saleBanner.saleSubtitle}</strong>
               </div>
             </div>
             <CountdownTimer />
@@ -100,7 +103,7 @@ export function LandingPage({ copy, media }: LandingPageProps): React.JSX.Elemen
 
         <div className="bg-stone-800 flex items-center justify-center pt-2 pb-1">
           <div className="text-white text-[22px] md:text-3xl font-black tracking-[-1px] leading-tight font-gilroy_bold text-center">
-            <strong>{copy.promoBanner.publicationName}</strong>
+            <strong>{copy.nav.publicationName}</strong>
           </div>
         </div>
 
@@ -128,15 +131,15 @@ export function LandingPage({ copy, media }: LandingPageProps): React.JSX.Elemen
             <div className="flex items-center gap-x-3">
               <img
                 src={media.authorAvatar}
-                alt={copy.article.author}
+                alt={copy.hero.author}
                 className="w-10 h-10 rounded-full object-cover flex-shrink-0 md:w-[60px] md:h-[60px]"
               />
               <div className="font-poppins">
                 <div className="text-black text-[11px] font-extrabold leading-[13.2px] md:text-sm md:leading-[16.8px]">
-                  {copy.article.author}
+                  {copy.hero.author}
                 </div>
                 <div className="text-black text-[11px] leading-[13.2px] md:text-sm md:leading-[16.8px]">
-                  <b className="font-bold">Published:</b> {copy.article.publishedDate}
+                  <b className="font-bold">Published:</b> {copy.hero.publishedDate}
                 </div>
               </div>
             </div>
@@ -226,7 +229,7 @@ export function LandingPage({ copy, media }: LandingPageProps): React.JSX.Elemen
             </div>
 
             <div className="mt-5 font-suisse_intl text-sm leading-6 md:text-[17px]">
-              <p><strong>TLDR:</strong> {copy.article.tldr}</p>
+              <p><strong>TLDR:</strong> {copy.lead.tldr}</p>
             </div>
           </div>
         </div>
@@ -234,20 +237,20 @@ export function LandingPage({ copy, media }: LandingPageProps): React.JSX.Elemen
         <div className="px-5 pt-[30px] pb-[60px] flex justify-center">
           <div className="w-full max-w-[850px] flex flex-col gap-y-[60px]">
             {reasons.map((reason, idx) => (
-              <div key={reason.number} className="flex flex-col gap-y-5 md:flex-row md:items-start md:gap-x-[30px]">
+              <div key={reason.headline} className="flex flex-col gap-y-5 md:flex-row md:items-start md:gap-x-[30px]">
                 <h2 className="text-xl font-bold leading-7 font-poppins md:hidden">
-                  {reason.number}. <span className="text-green-800">{reason.title}</span>
+                  {idx + 1}. <span className="text-green-800">{reason.headline}</span>
                 </h2>
                 <div className="flex-1">
                   <img
                     src={media.reasonImages[idx]}
-                    alt={reason.title}
+                    alt={reason.headline}
                     className="w-full h-auto object-cover"
                   />
                 </div>
                 <div className="flex-1 flex flex-col justify-center">
                   <h2 className="hidden text-[22px] font-bold leading-7 mb-[15px] font-poppins md:block">
-                    {reason.number}. <span className="text-green-800">{reason.title}</span>
+                    {idx + 1}. <span className="text-green-800">{reason.headline}</span>
                   </h2>
                   <div className="text-base leading-[30px] font-poppins md:text-[17px]">
                     {reason.body.split("\n").map((line, li) => (
@@ -277,7 +280,7 @@ export function LandingPage({ copy, media }: LandingPageProps): React.JSX.Elemen
         <div className="px-5 flex justify-center">
           <div className="w-full max-w-[850px]">
             <h2 className="text-[28px] font-bold leading-tight text-center font-poppins md:text-[40px] md:text-start">
-              <strong>{copy.callToAction.heading}</strong>
+              <strong>{copy.offer.headline}</strong>
             </h2>
           </div>
         </div>
@@ -293,39 +296,39 @@ export function LandingPage({ copy, media }: LandingPageProps): React.JSX.Elemen
                 />
               </div>
               <div className="md:w-[45%] flex flex-col items-center justify-center px-5 py-[15px] md:px-[30px]">
-                <p className="text-base leading-6 mb-[5px] font-poppins">{copy.offerCard.saleLabel}</p>
+                <p className="text-base leading-6 mb-[5px] font-poppins">{copy.offer.saleLabel}</p>
                 <p className="text-[22px] font-black leading-6 text-center mb-2.5 font-poppins md:text-3xl md:leading-[34px]">
-                  <span className="text-green-800">{copy.offerCard.discount}</span>
-                  {" "}<span className="text-black">{copy.offerCard.limitedClaim}</span>
+                  <span className="text-green-800">{copy.offer.discount}</span>
+                  {" "}<span className="text-black">{copy.offer.limitedClaim}</span>
                 </p>
                 <p className="text-base leading-[22px] text-center mb-2.5 font-poppins md:text-[17px] md:leading-6">
-                  {copy.offerCard.urgencyText}
+                  {copy.offer.urgencyText}
                 </p>
                 <a
-                  href={copy.offerCard.ctaUrl}
+                  href={links.offer}
                   className="text-white w-full bg-green-800 flex justify-center text-center overflow-hidden p-5 rounded-[7px] mb-3 md:px-8"
                 >
                   <span className="text-sm font-semibold leading-5 font-poppins md:text-[17px] md:leading-6">
-                    {copy.offerCard.ctaLabel}
+                    {copy.offer.ctaText}
                   </span>
                 </a>
                 <div className="flex items-center gap-x-2 justify-center mb-2.5">
-                  <span className="text-lg font-bold leading-6">{copy.offerCard.dealEndingLabel}</span>
+                  <span className="text-lg font-bold leading-6">{copy.offer.dealEndingLabel}</span>
                   <OfferCountdownTimer />
                 </div>
                 <p className="text-base leading-5 text-center mb-2.5">
-                  <strong>{copy.offerCard.bottlesLeftLabel}</strong>{" "}
-                  <span className="text-red-600"><strong>{copy.offerCard.bottlesLeft}</strong></span>
+                  <strong>{copy.offer.bottlesLeftLabel}</strong>{" "}
+                  <span className="text-red-600"><strong>{copy.offer.bottlesLeft}</strong></span>
                 </p>
                 <div className="w-full bg-orange-50 border border-amber-100 text-center px-2.5 py-[15px] mb-2.5 md:px-[15px]">
                   <p className="text-base leading-5">
-                    <strong>{copy.offerCard.sellOutRiskLabel}</strong>{" "}
-                    <span className="text-red-600"><strong>{copy.offerCard.sellOutRisk}</strong></span>
-                    <strong> | {copy.offerCard.freeShipping}</strong>
+                    <strong>{copy.offer.sellOutRiskLabel}</strong>{" "}
+                    <span className="text-red-600"><strong>{copy.offer.sellOutRisk}</strong></span>
+                    <strong> | {copy.offer.freeShipping}</strong>
                   </p>
                 </div>
                 <div className="text-base text-center leading-5">
-                  {copy.offerCard.guarantee.split("\n").map((line, i) => (
+                  {copy.offer.guarantee.split("\n").map((line, i) => (
                     <p key={i}>{line}</p>
                   ))}
                 </div>
@@ -337,11 +340,11 @@ export function LandingPage({ copy, media }: LandingPageProps): React.JSX.Elemen
 
       <div className="fixed bottom-0 left-0 right-0 z-50 bg-gray-200 flex flex-col items-center px-[15px] py-3 md:px-5 md:py-4">
         <a
-          href={copy.stickyCta.ctaUrl}
+          href={links.stickyCta}
           className="text-white bg-green-800 flex justify-center w-full max-w-xs text-center px-[25px] py-3.5 rounded-lg md:max-w-[403px] md:px-8"
         >
           <strong className="font-bold text-stone-100 leading-[21px] font-suisse_intl md:text-base">
-            {copy.stickyCta.label}
+            {copy.stickyCta.ctaText}
           </strong>
         </a>
         <div className="flex items-center gap-x-1 justify-center mt-2.5 font-poppins md:gap-x-2">

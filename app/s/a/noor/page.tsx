@@ -1,4 +1,5 @@
 import rawContent from "./copy.json";
+import links from "./links.json";
 import rawMedia from "./media.json";
 import { SkinmagV1TopBar } from "./sections/TopBar";
 import type { SkinmagV1AdvertorialContent, SkinmagV1AdvertorialMedia } from "./sections/TopBar";
@@ -30,8 +31,8 @@ const media = rawMedia as unknown as SkinmagV1AdvertorialMedia;
 export default function SkinmagV1SkinmagPage() {
   const content: SkinmagV1AdvertorialContent = {
     ...baseContent,
-    article: {
-      ...baseContent.article,
+    hero: {
+      ...baseContent.hero,
       // Computed at build time: always 1 month before the deploy date
       dateLabel: getDateLabelOneMonthAgo(),
     },
@@ -39,7 +40,11 @@ export default function SkinmagV1SkinmagPage() {
 
   return (
     <main>
-      <SkinmagV1TopBar content={content} media={media} />
+      <SkinmagV1TopBar
+        content={content}
+        media={media}
+        links={links}
+      />
     </main>
   );
 }

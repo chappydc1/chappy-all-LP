@@ -2,7 +2,7 @@ import copy from "../../../copy.json"
 import media from "../../../media.json"
 
 export const SolutionCard = () => {
-  const { eyebrow, heading, body, features } = copy.problemSolution.solution;
+  const { eyebrow, headline, body, features } = copy.solution;
   return (
     <div className="bg-pink-50 box-border caret-transparent flex flex-col outline-[3px] w-full mt-[30px] pt-[30px] pb-0 px-[22px] rounded-bl rounded-br rounded-tl rounded-tr md:flex-row md:mt-[60px] md:pl-[66px] md:pr-[73px] md:pt-[50px] md:pb-[33px]">
       <div className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] w-full">
@@ -11,7 +11,7 @@ export const SolutionCard = () => {
             {eyebrow}
           </div>
           <div className="text-black text-[26px] font-semibold box-border caret-transparent tracking-[-0.96px] leading-[33.8px] outline-[3px] text-center font-montserrat md:text-[32px] md:leading-[41.6px] md:text-left">
-            {heading}
+            {headline}
           </div>
           <div className="text-black text-[15px] box-border caret-transparent tracking-[-0.32px] leading-[19.5px] outline-[3px] text-center mt-5 font-montserrat md:text-base md:leading-[20.8px] md:text-left">
             {body}

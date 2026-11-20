@@ -1,4 +1,5 @@
 import copy from "../../../copy.json";
+import links from "../../../links.json";
 
 export const LoraHeroContent = () => {
   const { hero } = copy;
@@ -10,17 +11,17 @@ export const LoraHeroContent = () => {
       <div className="box-border caret-transparent outline-[3px] mb-4">
         <h1 className="text-4xl font-medium box-border caret-transparent tracking-[-1.8px] leading-[39.6px] outline-[3px] md:text-[52px] md:tracking-[-2.6px] md:leading-[57.2px]">
           <strong className="text-green-700 text-4xl box-border caret-transparent tracking-[-1.8px] leading-[39.6px] outline-[3px] md:text-[52px] md:tracking-[-2.6px] md:leading-[57.2px]">
-            {hero.heading.highlight1}
+            {hero.headline.highlight1}
           </strong>{" "}
-          {hero.heading.text}{" "}
+          {hero.headline.text}{" "}
           <strong className="text-green-700 text-4xl box-border caret-transparent tracking-[-1.8px] leading-[39.6px] outline-[3px] md:text-[52px] md:tracking-[-2.6px] md:leading-[57.2px]">
-            {hero.heading.highlight2}
+            {hero.headline.highlight2}
           </strong>
         </h1>
       </div>
       <div className="box-border caret-transparent outline-[3px] mb-5">
         <p className="text-base font-medium box-border caret-transparent leading-[25.6px] outline-[3px] md:text-lg md:leading-[28.8px]">
-          {hero.subheading}
+          {hero.subheadline}
         </p>
       </div>
       <div className="box-border caret-transparent max-w-[420px] outline-[3px] mx-auto md:mx-0">
@@ -32,10 +33,10 @@ export const LoraHeroContent = () => {
           />
         </div>
         <a
-          href={hero.cta.href}
+          href={links.hero.cta}
           className="text-white text-lg font-semibold items-center bg-green-700 box-border caret-transparent flex h-14 justify-center tracking-[-0.54px] leading-[28.8px] outline-[3px] w-full mb-2 px-8 rounded-[3.35544e+07px]"
         >
-          {hero.cta.primary}
+          {hero.ctaText}
         </a>
         <div className="items-center box-border caret-transparent gap-x-2 flex justify-center outline-[3px] gap-y-2 md:gap-x-2.5 md:justify-center md:gap-y-0">
           <div className="items-center box-border caret-transparent gap-x-0.5 flex min-h-[auto] min-w-[auto] outline-[3px] gap-y-0.5">

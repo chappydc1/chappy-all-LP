@@ -1,8 +1,9 @@
 import adv from "../../../copy.json";
+import links from "../../../links.json";
 import media from "../../../media.json";
 import { DerilaArticleDisclosure } from "./DerilaArticleDisclosure";
 
-const { productUrl, publishedDate, article } = adv;
+const productUrl = links.product;
 const imgs = media.articleImages;
 
 const linkClass = "text-sky-600 font-bold box-border caret-transparent underline";
@@ -30,20 +31,20 @@ function ArticleImage({ index }: { index: number }) {
 }
 
 export const DerilaArticleContent = () => {
-  const { intro, section1, section2, section3, section4, section5, section6, features, testimonials, closing } = article;
+  const { hero, problem, discovery, solution, benefits, mechanism, howItWorks, commonMistake, features, testimonials, finalCta } = adv;
 
   return (
     <div className="relative box-border caret-transparent basis-full shrink-0 max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full mb-12 px-[15px] md:basis-9/12 md:max-w-[75%]">
 
       {/* Headline */}
       <h1 className="text-[35px] font-extrabold box-border caret-transparent leading-[42px] outline-[3px] mt-4 mb-2 md:text-5xl md:leading-[57.6px]">
-        {article.headline}
+        {hero.headline}
       </h1>
       <div className="box-border caret-transparent outline-[3px] mb-4">
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img src={media.stars.src} alt={media.stars.alt} className="box-border caret-transparent max-w-[150px] outline-[3px]" />
         <small className="text-stone-500 text-[15.75px] box-border caret-transparent block outline-[3px] mt-1">
-          {publishedDate}
+          {hero.date}
         </small>
       </div>
 
@@ -51,12 +52,12 @@ export const DerilaArticleContent = () => {
       <ArticleImage index={0} />
 
       {/* Intro */}
-      <h2 className={h2Class}>{intro.h2}</h2>
-      {intro.paragraphs.map((p, i) => (
+      <h2 className={h2Class}>{problem.headline}</h2>
+      {problem.body.map((p, i) => (
         <p key={i} className={pClass}>{p}</p>
       ))}
       <ul className="box-border caret-transparent list-none outline-[3px] mb-4 pl-0">
-        {intro.listItems.map((item, i) => (
+        {problem.bullets.map((item, i) => (
           <li key={i} className="box-border caret-transparent outline-[3px]">
             <b className="font-bold box-border caret-transparent outline-[3px]">{item.bold}</b>
             {item.text}
@@ -68,10 +69,10 @@ export const DerilaArticleContent = () => {
       <ArticleImage index={1} />
 
       {/* Section 1 */}
-      <h2 className={h2Class}>{section1.h2}</h2>
-      <p className={pClass}>{section1.paragraphs[0]}</p>
-      <p className={pClass}>{section1.paragraphs[1]}</p>
-      <p className={pClass}>{section1.paragraphs[2]}</p>
+      <h2 className={h2Class}>{discovery.headline}</h2>
+      <p className={pClass}>{discovery.body[0]}</p>
+      <p className={pClass}>{discovery.body[1]}</p>
+      <p className={pClass}>{discovery.body[2]}</p>
       <p className={`font-bold ${pClass}`}>
         Meet <ProductLink>Derila</ProductLink> - the cost-effective way to reduce sleep problems and increase energy levels throughout the day.
       </p>
@@ -80,25 +81,25 @@ export const DerilaArticleContent = () => {
       <ArticleImage index={2} />
 
       {/* Section 2 */}
-      <h2 className={h2Class}>{section2.h2}</h2>
-      <p className={pClass}>{section2.paragraphs[0]}</p>
-      <p className={pClass}>{section2.paragraphs[1]}</p>
+      <h2 className={h2Class}>{solution.headline}</h2>
+      <p className={pClass}>{solution.body[0]}</p>
+      <p className={pClass}>{solution.body[1]}</p>
       <p className={pClass}>
         This is why specialists designed the <ProductLink>Derila Memory Foam Pillow</ProductLink> to provide the ultimate comfort and rest.
       </p>
-      <p className={pClass}>{section2.paragraphs[3]}</p>
-      <p className={pClass}>{section2.paragraphs[4]}</p>
+      <p className={pClass}>{solution.body[3]}</p>
+      <p className={pClass}>{solution.body[4]}</p>
       <p className={pClass}>
         The <ProductLink>Derila Memory Foam Pillow</ProductLink> will give you the excellent night&apos;s sleep you deserve and allow you to wake up feeling refreshed, re-energized, and uplifted.
       </p>
 
       {/* Section 3 */}
-      <h2 className={h2Class}>{section3.h2}</h2>
+      <h2 className={h2Class}>{benefits.headline}</h2>
 
       {/* Article image 4 */}
       <ArticleImage index={3} />
 
-      <p className={pClass}>{section3.paragraphs[0]}</p>
+      <p className={pClass}>{benefits.body[0]}</p>
       <p className={pClass}>
         <ProductLink>Derila</ProductLink> provides contoured support to reduce muscle pain and headaches caused by poor sleeping habits
       </p>
@@ -107,27 +108,27 @@ export const DerilaArticleContent = () => {
       <h2 className={h2Class}>
         Why does <ProductLink>Derila</ProductLink> work so well?
       </h2>
-      <p className={pClass}>{section4.paragraphs[0]}</p>
-      <p className={pClass}>{section4.paragraphs[1]}</p>
+      <p className={pClass}>{mechanism.body[0]}</p>
+      <p className={pClass}>{mechanism.body[1]}</p>
       <p className={pClass}>
         <ProductLink>Derila</ProductLink> uses advanced memory foam technology to straighten and support your spine in its natural position, in this way reducing pain and improving sleep.
       </p>
-      <p className={pClass}>{section4.paragraphs[3]}</p>
+      <p className={pClass}>{mechanism.body[3]}</p>
 
       {/* Article image 5 (placeholder) */}
       <ArticleImage index={4} />
 
       {/* Section 5 */}
-      <h2 className={h2Class}>{section5.h2}</h2>
-      <p className={pClass}>{section5.paragraphs[0]}</p>
-      <p className={pClass}>{section5.paragraphs[1]}</p>
-      <p className={pClass}>{section5.paragraphs[2]}</p>
+      <h2 className={h2Class}>{howItWorks.headline}</h2>
+      <p className={pClass}>{howItWorks.body[0]}</p>
+      <p className={pClass}>{howItWorks.body[1]}</p>
+      <p className={pClass}>{howItWorks.body[2]}</p>
       <p className={pClass}>
         Made from this material, <ProductLink>Derila</ProductLink> not only supports – it molds to your unique shape, just like a custom pillow (at a fraction of the price). This means that however you like to sleep (back, side or stomach), you&apos;ll get the restful sleep you need.
       </p>
 
       {/* Section 6 */}
-      <h2 className={h2Class}>{section6.h2}</h2>
+      <h2 className={h2Class}>{commonMistake.headline}</h2>
 
       {/* Article image 6 (placeholder) */}
       <ArticleImage index={5} />
@@ -182,8 +183,8 @@ export const DerilaArticleContent = () => {
       <h2 className={h2Class}>
         <ProductLink>Derila</ProductLink> Customers Wake Up Feeling Their Best…
       </h2>
-      <h2 className={h2Class}>{closing.h2_2}</h2>
-      {closing.paragraphs.map((p, i) => (
+      <h2 className={h2Class}>{finalCta.subheadline}</h2>
+      {finalCta.body.map((p, i) => (
         <p key={i} className={pClass}>
           {p.includes("<a>Derila</a>") ? (
             <>
@@ -204,9 +205,9 @@ export const DerilaArticleContent = () => {
         href={productUrl}
         className="text-white text-[26px] font-bold bg-[linear-gradient(rgb(75,166,20),rgb(0,140,0))] box-border caret-transparent block leading-[31.2px] text-center align-middle border border-lime-800 my-6 px-5 py-4 rounded-bl rounded-br rounded-tl rounded-tr border-solid hover:bg-lime-700 hover:border-lime-900"
       >
-        {closing.ctaButton.split("\n")[0]}
+        {finalCta.ctaText.split("\n")[0]}
         <br />
-        {closing.ctaButton.split("\n")[1]}
+        {finalCta.ctaText.split("\n")[1]}
       </a>
 
       <DerilaArticleDisclosure />

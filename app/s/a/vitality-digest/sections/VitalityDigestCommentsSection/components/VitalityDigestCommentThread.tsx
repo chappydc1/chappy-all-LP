@@ -1,22 +1,33 @@
-import type { CommentEntry } from "../../VitalityDigestTopBar/context";
+import type {
+  CommentEntry,
+  CommentMedia,
+} from "../../VitalityDigestTopBar/context";
 
 export type VitalityDigestCommentThreadProps = {
   comment: CommentEntry;
+  commentMedia: CommentMedia;
   avatars: Record<string, string>;
   reactionIcons: string[];
 };
 
+type VitalityDigestCommentBubbleProps = {
+  comment: CommentEntry;
+  avatar: string;
+  reactionIcons: string[];
+  isReply: boolean;
+};
+
 const VitalityDigestCommentBubble = ({
   comment,
-  avatars,
+  avatar,
   reactionIcons,
   isReply,
-}: VitalityDigestCommentThreadProps & { isReply: boolean }): React.ReactElement => {
+}: VitalityDigestCommentBubbleProps): React.ReactElement => {
   return (
     <div className={`flex w-full ${isReply ? "gap-2.5" : "gap-2.5 mt-[5px]"}`}>
       <img
         alt=""
-        src={avatars[comment.avatarKey]}
+        src={avatar}
         className={`rounded-full shrink-0 ${isReply ? "w-[35px] h-[35px]" : "w-[45px] h-[45px]"}`}
       />
       <div className="flex flex-col w-full">
@@ -59,6 +70,7 @@ const VitalityDigestCommentBubble = ({
 
 export const VitalityDigestCommentThread = ({
   comment,
+  commentMedia,
   avatars,
   reactionIcons,
 }: VitalityDigestCommentThreadProps): React.ReactElement => {
@@ -66,21 +78,25 @@ export const VitalityDigestCommentThread = ({
     <div className="w-full">
       <VitalityDigestCommentBubble
         comment={comment}
-        avatars={avatars}
+        avatar={avatars[commentMedia.avatarKey]}
         reactionIcons={reactionIcons}
         isReply={false}
       />
       {comment.replies ? (
         <div className="pl-10 mt-[5px] flex flex-col gap-[5px]">
-          {comment.replies.map((reply) => (
-            <VitalityDigestCommentBubble
-              key={reply.id}
-              comment={reply}
-              avatars={avatars}
-              reactionIcons={reactionIcons}
-              isReply
-            />
-          ))}
+          {comment.replies.map((reply, index) => {
+            const replyMedia = commentMedia.replies?.[index];
+
+            return (
+              <VitalityDigestCommentBubble
+                key={replyMedia?.id ?? index}
+                comment={reply}
+                avatar={avatars[replyMedia?.avatarKey ?? ""]}
+                reactionIcons={reactionIcons}
+                isReply
+              />
+            );
+          })}
         </div>
       ) : null}
     </div>

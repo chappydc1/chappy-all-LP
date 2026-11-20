@@ -9,9 +9,9 @@ import type { AdvertorialData } from "./types";
 
 export { useAdvertorialData } from "./context";
 
-export function TopBar({ content, media }: AdvertorialData) {
+export function TopBar({ content, links, media }: AdvertorialData) {
   return (
-    <AdvertorialContext.Provider value={{ content, media }}>
+    <AdvertorialContext.Provider value={{ content, links, media }}>
       <ArticleHeader />
       <ArticleContent />
       <CommentsSection />

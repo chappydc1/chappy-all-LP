@@ -6,7 +6,8 @@ import media from "../media.json";
 
 export function ZikeeySidebar() {
   const [isSticky, setIsSticky] = useState(false);
-  const { productName, productUrl, sidebar } = adv.article;
+  const { sidebar, ui } = adv;
+  const { productName } = ui;
 
   useEffect(() => {
     const onScroll = () => setIsSticky(window.scrollY > 200);
@@ -23,7 +24,7 @@ export function ZikeeySidebar() {
           className="max-w-full align-baseline mx-auto rounded"
         />
         <p className="text-neutral-800 text-[22px] tracking-[-1px] leading-[35.2px] text-center mb-2.5 mt-3">
-          <a href={productUrl} className="text-teal-600 font-bold transition-colors duration-150 hover:text-teal-700">
+          <a href="#" className="text-teal-600 font-bold transition-colors duration-150 hover:text-teal-700">
             {productName}
           </a>
         </p>
@@ -31,11 +32,11 @@ export function ZikeeySidebar() {
           <i><b>{sidebar.tagline}</b></i>
         </p>
         <a
-          href={sidebar.buttonUrl}
+          href="#"
           className="text-white text-sm font-extrabold bg-teal-600 block text-center mt-5 p-[15px] rounded-[10px] transition-all duration-200 hover:bg-teal-700 active:scale-95 select-none"
         >
           <span className="inline-flex items-center gap-1">
-            {sidebar.buttonText}
+            {sidebar.ctaText}
             <span>→</span>
           </span>
         </a>

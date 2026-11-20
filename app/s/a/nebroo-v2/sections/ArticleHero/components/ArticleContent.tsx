@@ -1,16 +1,14 @@
 import { ArticleHeader } from "./ArticleHeader";
 import { ArticleBody } from "./ArticleBody";
 
-type Review = { author: string; location: string; date: string; stars: number; quote: string; text: string };
+type Review = { author: string; location: string; date: string; quote: string; text: string };
 type ReviewMedia = { avatarSrc: string; starsSrc: string };
-type ArticleCopy = {
-  breadcrumb: string; titleBold: string; titleRest: string; authorCaption: string;
-  ctaUrl: string; ctaLabel: string;
-  disclaimer: string;
-  option1Heading: string; option2Heading: string; option3Heading: string;
-  productName: string; productChipName: string;
-  regularPrice: string; discountPct: string; salePrice: string;
-  prescriptionAvgCost: string; untreatedCount: string;
+export type ArticleContentCopy = {
+  hero: { breadcrumb: string; headlineBold: string; headlineRest: string; byline: string };
+  comparison: { optionHeadlines: string[]; prescriptionAvgCost: string; untreatedCount: string };
+  productReveal: { productName: string };
+  mechanism: { chipName: string };
+  offer: { discountPct: string; regularPrice: string; salePrice: string; ctaText: string; disclaimer: string };
 };
 type ArticleMedia = {
   authorAvatarSrc: string;
@@ -23,7 +21,7 @@ type ArticleMedia = {
 };
 
 type Props = {
-  copy: ArticleCopy;
+  copy: ArticleContentCopy;
   media: ArticleMedia;
   reviewsCopy: Review[];
   reviewsMedia: ReviewMedia[];
@@ -38,7 +36,11 @@ const B = ({ children }: { children: React.ReactNode }) => (
 );
 
 export const ArticleContent = ({ copy, media, reviewsCopy, reviewsMedia }: Props) => {
-  const { ctaUrl, ctaLabel } = copy;
+  const ctaLabel = copy.offer.ctaText;
+  const { productName } = copy.productReveal;
+  const { chipName } = copy.mechanism;
+  const { optionHeadlines, prescriptionAvgCost, untreatedCount } = copy.comparison;
+  const { discountPct, regularPrice, salePrice } = copy.offer;
   const CtaButton = ({ title }: { title: string }) => (
     <ArticleBody
       variant="link"
@@ -49,9 +51,9 @@ export const ArticleContent = ({ copy, media, reviewsCopy, reviewsMedia }: Props
 
   return (
     <div className="relative box-border caret-transparent basis-full grow max-w-full min-h-[25px] outline-[3px] w-min pb-[58px] md:basis-9/12">
-      <ArticleHeader variant="breadcrumb" breadcrumbText={copy.breadcrumb} titleBoldText="" titleText="" imageTitle="" imageSrc="" imageHref="" imageAlt="" imageCaption="" />
-      <ArticleHeader variant="title" breadcrumbText="" titleBoldText={copy.titleBold} titleText={copy.titleRest} imageTitle="" imageSrc="" imageHref="" imageAlt="" imageCaption="" />
-      <ArticleHeader variant="" breadcrumbText="" titleBoldText="" titleText="" imageTitle="" imageSrc={media.authorAvatarSrc} imageHref="" imageAlt="" imageCaption={copy.authorCaption} />
+      <ArticleHeader variant="breadcrumb" breadcrumbText={copy.hero.breadcrumb} titleBoldText="" titleText="" imageTitle="" imageSrc="" imageHref="" imageAlt="" imageCaption="" />
+      <ArticleHeader variant="title" breadcrumbText="" titleBoldText={copy.hero.headlineBold} titleText={copy.hero.headlineRest} imageTitle="" imageSrc="" imageHref="" imageAlt="" imageCaption="" />
+      <ArticleHeader variant="" breadcrumbText="" titleBoldText="" titleText="" imageTitle="" imageSrc={media.authorAvatarSrc} imageHref="" imageAlt="" imageCaption={copy.hero.byline} />
 
       {/* Intro */}
       <ArticleBody className="text-zinc-800 text-[17px] box-border caret-transparent leading-[25.5px] outline-[3px] text-left mt-[15px] px-px py-2.5 font-montserrat">
@@ -176,7 +178,7 @@ export const ArticleContent = ({ copy, media, reviewsCopy, reviewsMedia }: Props
 
       {/* Option 1 */}
       <ArticleBody variant="default" className="text-zinc-800 text-[26px] font-extrabold box-border caret-transparent leading-8 outline-[3px] text-left mt-10 px-px py-[5px] font-montserrat md:text-[33px] md:leading-[46.2px]">
-        {copy.option1Heading}
+        {optionHeadlines[0]}
       </ArticleBody>
       <ArticleBody variant="image" imageSrc={media.image5Src} imageAlt="" imageTitle="" />
       <ArticleBody className="text-zinc-800 text-[17px] box-border caret-transparent leading-[25.5px] outline-[3px] text-left mt-[15px] px-px py-2.5 font-montserrat">
@@ -185,27 +187,27 @@ export const ArticleContent = ({ copy, media, reviewsCopy, reviewsMedia }: Props
 
       {/* Option 2 */}
       <ArticleBody className="text-zinc-800 text-[26px] font-extrabold box-border caret-transparent leading-8 outline-[3px] text-left mt-10 px-px py-[5px] font-montserrat md:text-[33px] md:leading-[46.2px]">
-        {copy.option2Heading}
+        {optionHeadlines[1]}
       </ArticleBody>
       <ArticleBody variant="image" imageSrc={media.image6Src} imageAlt="" imageTitle="" imageClassName="text-black box-border caret-transparent inline max-w-full outline-[3px] w-full rounded-[20px]" />
       <ArticleBody className="text-zinc-800 text-[17px] box-border caret-transparent leading-[25.5px] outline-[3px] text-left mt-[15px] px-px py-2.5 font-montserrat">
         <P>If your hearing loss is severe, you may need this or even a cochlear implant.</P><Br />
         <P>But for mild to moderate hearing loss, price is the problem.</P><Br />
-        <P>The average cost is <B><span className="box-border caret-transparent outline-[3px]">{copy.prescriptionAvgCost}</span>.</B></P>
+        <P>The average cost is <B><span className="box-border caret-transparent outline-[3px]">{prescriptionAvgCost}</span>.</B></P>
         <B><br className="box-border caret-transparent outline-[3px]" /></B>
         <P>Plus audiologist fees.</P><Br />
-        <P>This is why almost {copy.untreatedCount} Americans walk around with untreated hearing loss.</P>
+        <P>This is why almost {untreatedCount} Americans walk around with untreated hearing loss.</P>
       </ArticleBody>
 
       {/* Option 3 */}
       <ArticleBody className="text-zinc-800 text-[26px] font-extrabold box-border caret-transparent leading-8 outline-[3px] text-left mt-10 px-px py-[5px] font-montserrat md:text-[33px] md:leading-[46.2px]">
-        {copy.option3Heading}
+        {optionHeadlines[2]}
       </ArticleBody>
       <ArticleBody variant="image" imageTitle="" imageSrc={media.image7Src} imageAlt="" imageClassName="text-black box-border caret-transparent inline max-w-full outline-[3px] w-full rounded-[20px]" />
       <ArticleBody variant="default">
         <P>There is now an <B>affordable way</B> to get clear hearing without going to a doctor.</P><Br />
-        <P>It is called a {copy.productName} hearing aid.</P><Br />
-        <P><B>What is a {copy.productName} hearing aid?</B></P>
+        <P>It is called a {productName} hearing aid.</P><Br />
+        <P><B>What is a {productName} hearing aid?</B></P>
       </ArticleBody>
 
       <ArticleBody variant="spacer" className="box-border caret-transparent block outline-[3px] w-full px-0 py-3 md:hidden md:px-2.5" />
@@ -216,11 +218,11 @@ export const ArticleContent = ({ copy, media, reviewsCopy, reviewsMedia }: Props
         <div className="box-border caret-transparent outline-[3px]">
           <Br /><P>There is no big case behind your ear.</P>
           <Br /><P><B>Most people won&apos;t even notice</B> you are wearing one.</P>
-          <Br /><P>The {copy.productName} takes the sounds around you and processes them before sending them down your ear canal.</P>
+          <Br /><P>The {productName} takes the sounds around you and processes them before sending them down your ear canal.</P>
           <Br /><P>Even though many of us stereocilia are gone, a lot of us still work perfectly.</P>
           <Br /><P>To help me, you need more than volume.</P>
           <Br /><P>You need <B>clarity.</B></P>
-          <Br /><P>How does {copy.productName} make conversations easy again?</P>
+          <Br /><P>How does {productName} make conversations easy again?</P>
         </div>
       </ArticleBody>
 
@@ -228,14 +230,14 @@ export const ArticleContent = ({ copy, media, reviewsCopy, reviewsMedia }: Props
 
       <ArticleBody variant="default" className="text-zinc-800 text-[17px] box-border caret-transparent leading-[25.5px] outline-[3px] text-left mt-[15px] px-px py-2.5 font-montserrat">
         <div className="box-border caret-transparent outline-[3px]">
-          <P>Inside the {copy.productName} is a microchip called <B>{copy.productChipName}.</B></P>
+          <P>Inside the {productName} is a microchip called <B>{chipName}.</B></P>
           <Br /><P>This genius little sound chip is designed and programmed to <B>improve the clarity of human speech.</B></P>
           <Br /><P>Not just amplify it… Clarify it!</P>
           <Br /><P>That means <B>clearer conversations.</B></P>
           <Br /><P>Less stress.</P>
           <Br /><P>Less confusion.</P>
           <Br /><P>And <B>you can hear people even when there is background noise.</B></P>
-          <Br /><P>The {copy.productChipName} chip gives me a massive upgrade.</P>
+          <Br /><P>The {chipName} chip gives me a massive upgrade.</P>
           <Br /><P>It helps me send your brain much cleaner, sharper information.</P>
           <Br /><P><B>So how much does it cost?</B></P>
         </div>
@@ -245,17 +247,17 @@ export const ArticleContent = ({ copy, media, reviewsCopy, reviewsMedia }: Props
 
       <ArticleBody variant="" className="text-zinc-800 text-[17px] box-border caret-transparent leading-[25.5px] outline-[3px] text-left my-[15px] px-px py-2.5 font-montserrat">
         <div className="box-border caret-transparent outline-[3px]">
-          <P>Right now, there is a <B>{copy.discountPct} percent sale</B> running on the {copy.productName}.</P>
-          <Br /><P><B>The usual price without a discount is <span className="box-border caret-transparent outline-[3px]">{copy.regularPrice}</span>.</B></P>
+          <P>Right now, there is a <B>{discountPct} percent sale</B> running on the {productName}.</P>
+          <Br /><P><B>The usual price without a discount is <span className="box-border caret-transparent outline-[3px]">{regularPrice}</span>.</B></P>
           <Br /><P>So use the green buttons on this page to make sure you take the right deal.</P>
-          <Br /><P><B>This discount brings your price to under <span className="box-border caret-transparent outline-[3px]">{copy.salePrice}</span> today.</B></P>
+          <Br /><P><B>This discount brings your price to under <span className="box-border caret-transparent outline-[3px]">{salePrice}</span> today.</B></P>
         </div>
       </ArticleBody>
 
       <CtaButton title="Get Nebroo 1" />
 
       <ArticleBody className="text-neutral-500 text-sm box-border caret-transparent leading-[21px] outline-[3px] text-left mt-[15px] pt-2.5 px-px font-montserrat">
-        <P>{copy.disclaimer}</P>
+        <P>{copy.offer.disclaimer}</P>
       </ArticleBody>
 
       {/* Reviews */}

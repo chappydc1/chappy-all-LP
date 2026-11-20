@@ -30,7 +30,7 @@ export function ComparisonTable() {
             />
             <span
               className="text-center text-[9px] font-bold leading-tight text-adv-orange md:text-base"
-              dangerouslySetInnerHTML={{ __html: winner.headerHtml }}
+              dangerouslySetInnerHTML={{ __html: winner.headline }}
             />
           </div>
           {winner.rows.map((row, index) => (
@@ -56,7 +56,7 @@ export function ComparisonTable() {
             />
             <span
               className="text-center text-[9px] font-bold leading-tight text-[#888] md:text-base"
-              dangerouslySetInnerHTML={{ __html: loser.headerHtml }}
+              dangerouslySetInnerHTML={{ __html: loser.headline }}
             />
           </div>
           {loser.rows.map((row) => (

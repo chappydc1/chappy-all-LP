@@ -1,5 +1,5 @@
-import { isArticleBlock } from "../../types";
-import type { PrimepicksV2Copy, PrimepicksV2Media } from "../../types";
+import { buildArticleBlocks } from "../../types";
+import type { PrimepicksV2Copy, PrimepicksV2Links, PrimepicksV2Media } from "../../types";
 import { PrimepicksV2ArticleBlocks } from "./components/PrimepicksV2ArticleBlocks";
 import { PrimepicksV2ArticleTop } from "./components/PrimepicksV2ArticleTop";
 import { PrimepicksV2AuthorBox } from "./components/PrimepicksV2AuthorBox";
@@ -8,31 +8,35 @@ import { PrimepicksV2Sidebar } from "./components/PrimepicksV2Sidebar";
 
 type ArticleProps = {
   copy: PrimepicksV2Copy;
+  links: PrimepicksV2Links;
   media: PrimepicksV2Media;
+  daysAgo: number;
 };
 
-export function PrimepicksV2Article({ copy, media }: ArticleProps): JSX.Element {
-  const featured = copy.products[0];
+export function PrimepicksV2Article({ copy, links, media, daysAgo }: ArticleProps): JSX.Element {
+  const featured = copy.productRankings.items[0];
+  const featuredUrl = links.productRankings[0];
   const featuredMedia = media.products[0];
 
   return (
     <div className="relative mx-auto block max-w-[1032px] px-4 py-10 md:flex md:gap-8 md:pb-16">
       <div className="min-w-0 max-w-[670px] flex-1">
         <PrimepicksV2ArticleTop
-          article={copy.article}
-          ctaUrl={copy.ctaUrl}
-          daysAgo={copy.daysAgo}
+          article={copy.review}
+          ctaUrl={links.cta}
+          daysAgo={daysAgo}
           authorName={copy.author.name}
           authorPhoto={media.authorPhoto}
         />
         <PrimepicksV2ArticleBlocks
-          blocks={copy.article.blocks.filter(isArticleBlock)}
+          blocks={buildArticleBlocks(copy, media)}
           media={media}
-          ctaUrl={copy.ctaUrl}
+          ctaUrl={links.cta}
         />
         <PrimepicksV2ReviewCard
-          card={copy.reviewCard}
+          card={copy.finalCta}
           product={featured}
+          href={featuredUrl}
           productMedia={featuredMedia}
         />
         <PrimepicksV2AuthorBox
@@ -42,8 +46,9 @@ export function PrimepicksV2Article({ copy, media }: ArticleProps): JSX.Element 
       </div>
       <PrimepicksV2Sidebar
         product={featured}
+        href={featuredUrl}
         productMedia={featuredMedia}
-        labels={copy.labels}
+        labels={copy.ui}
       />
     </div>
   );

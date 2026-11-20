@@ -2,69 +2,58 @@
 
 import { createContext, useContext } from "react";
 
+export type RosabellaComment = {
+  author: string;
+  text: string;
+  likes: string;
+  time: string;
+};
+
 export type RosabellaCopyType = {
-  alertBanner: {
+  announcementBar: {
     message: string;
   };
-  breadcrumb: string;
-  headline: string;
-  subheadline: string;
-  quoteText: string;
-  quoteAuthor: string;
-  introBody: string;
-  productName: string;
-  ctaUrl: string;
-  ctaText: string;
-  introSection: {
-    title: string;
-    p1: string;
-    p2: string;
-    p3: string;
-    p4: string;
-    p5: string;
-    p6: string;
-    p7: string;
-    p8: string;
-    p9: string;
-    p10: string;
+  hero: {
+    breadcrumb: string;
+    headline: string;
+    subheadline: string;
+    quoteText: string;
+    quoteAuthor: string;
+    body: string;
   };
-  reason1Section: {
-    title: string;
-    p1: string;
-    p2: string;
-    problems: string[];
-    p3: string;
-    p4: string;
-    benefits: string[];
-    p5: string;
+  problem: {
+    headline: string;
+    body: string[];
   };
-  reason2Section: {
-    title: string;
-    p1: string;
-    p2: string;
-    p3: string;
-    p4: string;
+  reasonsWhy: [
+    {
+      headline: string;
+      problemIntro: string[];
+      problems: string[];
+      solutionIntro: string[];
+      benefits: string[];
+      closing: string;
+    },
+    {
+      headline: string;
+      body: string[];
+    },
+    {
+      headline: string;
+    },
+    {
+      headline: string;
+      body: string[];
+    },
+    {
+      headline: string;
+      body: string[];
+    },
+  ];
+  finalCta: {
+    ctaText: string;
   };
-  reason3Section: {
-    title: string;
-  };
-  reason4Section: {
-    title: string;
-    p1: string;
-    p2: string;
-    p3: string;
-    p4: string;
-  };
-  reason5Section: {
-    title: string;
-    p1: string;
-    p2: string;
-    p3: string;
-    p4: string;
-    p5: string;
-    p6: string;
-  };
-  updateOffer: {
+  scarcity: {
     updateLabel: string;
     dateText: string;
     message: string;
@@ -73,21 +62,22 @@ export type RosabellaCopyType = {
     noteText: string;
   };
   trustBadges: string[];
-  comments: Array<{
-    id: string;
-    author: string;
-    text: string;
-    likes: string;
-    time: string;
-    level: "top" | "reply";
-    avatarKey: string;
-  }>;
+  comments: Array<RosabellaComment & { replies?: RosabellaComment[] }>;
   sidebar: {
     recommendedLabel: string;
     ctaTextMobile: string;
     ctaTextDesktop: string;
-    ctaUrlMobile: string;
-    ctaUrlDesktop: string;
+  };
+  ui: {
+    productName: string;
+  };
+};
+
+export type RosabellaLinksType = {
+  cta: string;
+  sidebar: {
+    mobile: string;
+    desktop: string;
   };
 };
 
@@ -116,10 +106,12 @@ export type RosabellaMediaType = {
   sidebarReviewsImage: string;
   likeIcon: string;
   commentAvatars: Record<string, string>;
+  commentAvatarKeys: Array<{ avatar: string; replies?: string[] }>;
 };
 
 type AdvertorialContextType = {
   copy: RosabellaCopyType;
+  links: RosabellaLinksType;
   media: RosabellaMediaType;
 };
 
@@ -127,15 +119,17 @@ const AdvertorialContext = createContext<AdvertorialContextType | null>(null);
 
 export function RosabellaAdvertorialProvider({
   copy,
+  links,
   media,
   children,
 }: {
   copy: RosabellaCopyType;
+  links: RosabellaLinksType;
   media: RosabellaMediaType;
   children: React.ReactNode;
 }) {
   return (
-    <AdvertorialContext.Provider value={{ copy, media }}>
+    <AdvertorialContext.Provider value={{ copy, links, media }}>
       {children}
     </AdvertorialContext.Provider>
   );

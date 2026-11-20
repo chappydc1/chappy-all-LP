@@ -1,0 +1,60 @@
+{
+  "announcementBar": "/products/15-serving-variety-pack-shake",
+  "nav": {
+    "rewards": "/rewards",
+    "account": "/account",
+    "shop": "/products/shakes"
+  },
+  "reasonsWhy": {
+    "cta": "/products/shakes"
+  },
+  "footer": {
+    "columns": [
+      [
+        "/how-to-make-kachava",
+        "/ingredients",
+        "/benefits",
+        "/quality",
+        "/compare",
+        "/recipes",
+        "/reviews",
+        "/blog/health-wellness",
+        "/products/gift-cards"
+      ],
+      [
+        "/hsa-fsa",
+        "https://support.kachava.com/",
+        null,
+        "https://support.kachava.com/hc/en-us/articles/204678165-Our-Love-It-Guarantee-",
+        "/track-order",
+        "/accessibility"
+      ],
+      [
+        "/our-story",
+        "/our-cause",
+        "/refer-a-friend",
+        "/retail"
+      ],
+      [
+        "/account",
+        "/account/subscriptions",
+        "/account/profile",
+        "/account/orders",
+        "/account/rewards"
+      ]
+    ],
+    "social": [
+      "https://www.facebook.com/kachavatribe/",
+      "https://www.instagram.com/kachava/",
+      "https://www.pinterest.com/kachavatribe/",
+      "https://www.youtube.com/channel/UCtYDNWODTkuPQp4dnmPHlgA"
+    ],
+    "legalLinks": [
+      "/terms-of-service",
+      "/privacy-policy",
+      "/return-policy",
+      "/terms-of-sale",
+      null
+    ]
+  }
+}

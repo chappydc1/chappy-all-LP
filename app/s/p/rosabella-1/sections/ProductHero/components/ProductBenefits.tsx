@@ -2,7 +2,7 @@ import copy from "../../../copy.json"
 import media from "../../../media.json"
 
 export const ProductBenefits = () => {
-  const benefits = copy.productHero.benefits;
+  const benefits = copy.hero.benefits;
   return (
     <div className="bg-stone-200/40 box-border caret-transparent max-w-[482px] outline-[3px] w-full mr-auto mt-5 p-4 rounded-sm">
       {benefits.map((benefit, i) => (

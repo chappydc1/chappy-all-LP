@@ -12,36 +12,133 @@
     "alt": "Star rating"
   },
   "articleImages": [
-    { "src": "/lp-images-files-videos-fonts/images/derila/1.jpg", "alt": "Derila Memory Foam Pillow" },
-    { "src": "/lp-images-files-videos-fonts/images/derila/2.jpg", "alt": "Derila Pillow - Sleep Better" },
-    { "src": "/lp-images-files-videos-fonts/images/derila/3.jpg", "alt": "Derila Pillow - Ergonomic Design" },
-    { "src": "/lp-images-files-videos-fonts/images/derila/4.jpg", "alt": "Derila Pillow - Undo Sleep Damage" },
-    { "src": "", "alt": "Derila Pillow - Memory Foam Technology" },
-    { "src": "", "alt": "Derila Pillow - Posture Support" },
-    { "src": "", "alt": "Derila Pillow - Comfort" },
-    { "src": "", "alt": "Derila Pillow - Customer Results" }
+    {
+      "src": "/lp-images-files-videos-fonts/images/derila/1.jpg",
+      "alt": "Derila Memory Foam Pillow"
+    },
+    {
+      "src": "/lp-images-files-videos-fonts/images/derila/2.jpg",
+      "alt": "Derila Pillow - Sleep Better"
+    },
+    {
+      "src": "/lp-images-files-videos-fonts/images/derila/3.jpg",
+      "alt": "Derila Pillow - Ergonomic Design"
+    },
+    {
+      "src": "/lp-images-files-videos-fonts/images/derila/4.jpg",
+      "alt": "Derila Pillow - Undo Sleep Damage"
+    },
+    {
+      "src": "",
+      "alt": "Derila Pillow - Memory Foam Technology"
+    },
+    {
+      "src": "",
+      "alt": "Derila Pillow - Posture Support"
+    },
+    {
+      "src": "",
+      "alt": "Derila Pillow - Comfort"
+    },
+    {
+      "src": "",
+      "alt": "Derila Pillow - Customer Results"
+    }
   ],
   "testimonialImages": [
-    { "src": "", "alt": "Customer review" },
-    { "src": "", "alt": "Customer review" },
-    { "src": "", "alt": "Customer review" }
+    {
+      "src": "",
+      "alt": "Customer review"
+    },
+    {
+      "src": "",
+      "alt": "Customer review"
+    },
+    {
+      "src": "",
+      "alt": "Customer review"
+    }
   ],
   "sidebarImage": {
     "src": "/lp-images-files-videos-fonts/images/derila/12-2.jpg",
     "alt": "Derila Memory Foam Pillow"
   },
   "icons": {
-    "mobileMenu": { "src": "/lp-images-files-videos-fonts/images/derila/icon-1.svg", "alt": "Menu" },
-    "privacy": { "src": "/lp-images-files-videos-fonts/images/derila/icon-3.svg", "alt": "Privacy" },
-    "phone": { "src": "/lp-images-files-videos-fonts/images/derila/icon-4.svg", "alt": "Phone" },
-    "email": { "src": "/lp-images-files-videos-fonts/images/derila/icon-5.svg", "alt": "Email" },
-    "payment1": { "src": "/lp-images-files-videos-fonts/images/derila/icon-6.svg", "alt": "Payment method" },
-    "payment2": { "src": "/lp-images-files-videos-fonts/images/derila/icon-7.svg", "alt": "Payment method" },
-    "payment3": { "src": "/lp-images-files-videos-fonts/images/derila/icon-8.svg", "alt": "Payment method" },
-    "payment4": { "src": "/lp-images-files-videos-fonts/images/derila/icon-9.svg", "alt": "Payment method" },
-    "cookieClose": { "src": "/lp-images-files-videos-fonts/images/derila/icon-10.svg", "alt": "Close" },
-    "cookieOn": { "src": "/lp-images-files-videos-fonts/images/derila/icon-11.svg", "alt": "Enabled" },
-    "cookieOff": { "src": "/lp-images-files-videos-fonts/images/derila/icon-12.svg", "alt": "Disabled" },
-    "chat": { "src": "/lp-images-files-videos-fonts/images/derila/icon-14.svg", "alt": "Chat" }
-  }
+    "mobileMenu": {
+      "src": "/lp-images-files-videos-fonts/images/derila/icon-1.svg",
+      "alt": "Menu"
+    },
+    "privacy": {
+      "src": "/lp-images-files-videos-fonts/images/derila/icon-3.svg",
+      "alt": "Privacy"
+    },
+    "phone": {
+      "src": "/lp-images-files-videos-fonts/images/derila/icon-4.svg",
+      "alt": "Phone"
+    },
+    "email": {
+      "src": "/lp-images-files-videos-fonts/images/derila/icon-5.svg",
+      "alt": "Email"
+    },
+    "payment1": {
+      "src": "/lp-images-files-videos-fonts/images/derila/icon-6.svg",
+      "alt": "Payment method"
+    },
+    "payment2": {
+      "src": "/lp-images-files-videos-fonts/images/derila/icon-7.svg",
+      "alt": "Payment method"
+    },
+    "payment3": {
+      "src": "/lp-images-files-videos-fonts/images/derila/icon-8.svg",
+      "alt": "Payment method"
+    },
+    "payment4": {
+      "src": "/lp-images-files-videos-fonts/images/derila/icon-9.svg",
+      "alt": "Payment method"
+    },
+    "cookieClose": {
+      "src": "/lp-images-files-videos-fonts/images/derila/icon-10.svg",
+      "alt": "Close"
+    },
+    "cookieOn": {
+      "src": "/lp-images-files-videos-fonts/images/derila/icon-11.svg",
+      "alt": "Enabled"
+    },
+    "cookieOff": {
+      "src": "/lp-images-files-videos-fonts/images/derila/icon-12.svg",
+      "alt": "Disabled"
+    },
+    "chat": {
+      "src": "/lp-images-files-videos-fonts/images/derila/icon-14.svg",
+      "alt": "Chat"
+    }
+  },
+  "footerIcons": [
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "privacy"
+    ],
+    [
+      "phone",
+      "phone",
+      "phone",
+      "phone",
+      "email"
+    ]
+  ]
 }

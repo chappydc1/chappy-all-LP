@@ -1,9 +1,9 @@
 {
-  "meta": {
+  "seo": {
     "title": "Nebroo PRO 2.0 Hearing Aids - 70% OFF Today",
     "description": "Revolutionary hearing aids with advanced noise-canceling technology. Try risk-free for 120 days."
   },
-  "saleBanner": {
+  "announcementBar": {
     "text": "FREE Shipping + 70% OFF",
     "emoji": "🔥",
     "label": "SALE:"
@@ -15,22 +15,40 @@
   },
   "trustBadges": {
     "headline": "Over 100,000 Real Satisfied Customers",
-    "badge1": {
-      "title": "RESULTS OR MONEY BACK GUARANTEE",
-      "description": "If you're not absolutely thrilled with the results within 120 days, we don't want your money. No hassles, no questions asked."
-    },
-    "badge2": {
-      "title": "FREE SHIPPING",
-      "description": "We offer free shipping & handling on all orders."
-    },
-    "badge3": {
-      "title": "GUARANTEED HIGH QUALITY",
-      "description": "Nebroo PRO 2.0 Hearing Aids are made of high quality materials so that you can enjoy consistent, trouble-free performance."
-    }
+    "items": [
+      {
+        "title": "RESULTS OR MONEY BACK GUARANTEE",
+        "description": "If you're not absolutely thrilled with the results within 120 days, we don't want your money. No hassles, no questions asked."
+      },
+      {
+        "title": "FREE SHIPPING",
+        "description": "We offer free shipping & handling on all orders."
+      },
+      {
+        "title": "GUARANTEED HIGH QUALITY",
+        "description": "Nebroo PRO 2.0 Hearing Aids are made of high quality materials so that you can enjoy consistent, trouble-free performance."
+      }
+    ]
   },
-  "asSeen": {
+  "asSeenOn": {
     "headline": "As Seen On",
     "disclaimer": "'Paid Advertisements'"
+  },
+  "reviews": {
+    "headline": "Our Customers Love The Nebroo Hearing Aids!",
+    "disclaimer": "*All individuals are unique, results may vary."
+  },
+  "offer": {
+    "headline": "Special Offer On Now!",
+    "subheadline": "Try Your Nebroo PRO 2.0 Hearing Aids NOW at an All Time Low Price!",
+    "actNowLabel": "Act Now and You'll Get:",
+    "items": [
+      "70% OFF - Nebroo PRO 2.0 Hearing Aids",
+      "FREE Shipping & Handling",
+      "FREE Premium Carry Case",
+      "FREE Cleaning Kit",
+      "120-Day Money Back Guarantee"
+    ]
   },
   "faq": {
     "headline": "Have a Question?",
@@ -50,25 +68,10 @@
       }
     ]
   },
-  "offer": {
-    "headline": "Special Offer On Now!",
-    "subheadline": "Try Your Nebroo PRO 2.0 Hearing Aids NOW at an All Time Low Price!",
-    "actNowLabel": "Act Now and You'll Get:",
-    "items": [
-      "70% OFF - Nebroo PRO 2.0 Hearing Aids",
-      "FREE Shipping & Handling",
-      "FREE Premium Carry Case",
-      "FREE Cleaning Kit",
-      "120-Day Money Back Guarantee"
-    ]
-  },
-  "reviews": {
-    "headline": "Our Customers Love The Nebroo Hearing Aids!",
-    "disclaimer": "*All individuals are unique, results may vary."
-  },
-  "stickyFooter": {
+  "stickyCta": {
     "ctaText": "🛒 Apply Discount & Check Availability"
   },
-  "productName": "Nebroo PRO 2.0",
-  "ctaUrl": "#offer"
+  "ui": {
+    "productName": "Nebroo PRO 2.0"
+  }
 }

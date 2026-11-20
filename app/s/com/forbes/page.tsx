@@ -5,11 +5,12 @@ import { ForbesStickyBar } from "./components/ForbesStickyBar";
 import type { Metadata } from "next";
 
 import adv from "./copy.json";
+import links from "./links.json";
 import media from "./media.json";
 
 export const metadata: Metadata = {
-  title: adv.meta.title,
-  description: adv.meta.description,
+  title: adv.seo.title,
+  description: adv.seo.description,
 };
 
 export default function ForbesPage() {
@@ -19,16 +20,25 @@ export default function ForbesPage() {
       <div className="pt-[50px]">
         <ForbesMain
           heroBgSrc={media.hero.background}
-          heading={adv.hero.heading}
-          subheading={adv.hero.subheading}
+          heading={adv.hero.headline}
+          subheading={adv.hero.subheadline}
           date={adv.hero.date}
-          products={adv.products}
+          products={adv.productRankings}
+          productLinks={links.productRankings}
           productImages={media.products}
           articleMedia={{ howItWorks: media.article.howItWorks }}
           ui={media.ui}
-          articles={adv.articles}
-          medviUrl={adv.products[0].visitUrl}
-          remedyUrl={adv.products[1].visitUrl}
+          articles={{
+            disclaimer: adv.disclaimer,
+            discovery: adv.discovery,
+            methodology: adv.methodology,
+            mechanism: adv.mechanism,
+            benefits: adv.benefits,
+            offer: adv.offer,
+          }}
+          medviUrl={links.productRankings[0]}
+          remedyUrl={links.productRankings[1]}
+          offerUrl={links.offer}
         />
       </div>
       <ForbesFooter
@@ -37,13 +47,13 @@ export default function ForbesPage() {
         copyright={adv.footer.copyright}
       />
       <ForbesStickyBar
-        visitUrl={adv.stickyBar.visitUrl}
+        visitUrl={links.stickyCta}
         logoSrc={media.products.medviStickyBar}
-        promo={adv.stickyBar.promo}
-        ctaText={adv.stickyBar.ctaText}
-        ctaSubtext={adv.stickyBar.ctaSubtext}
-        score={adv.stickyBar.score}
-        scoreLabel={adv.stickyBar.scoreLabel}
+        promo={adv.stickyCta.promo}
+        ctaText={adv.stickyCta.ctaText}
+        ctaSubtext={adv.stickyCta.ctaSubtext}
+        score={adv.stickyCta.score}
+        scoreLabel={adv.stickyCta.scoreLabel}
         rightArrowSrc={media.ui.rightArrow}
         starEmptySrc={media.ui.starEmpty}
         starFullSrc={media.ui.starFull}

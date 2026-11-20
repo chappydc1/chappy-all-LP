@@ -1,7 +1,7 @@
 export type HearFeatureItem = {
   title: string
-  desc: string
-  sup: string | null
+  description: string
+  sup?: string
 }
 
 export type HearReviewItem = {
@@ -13,94 +13,90 @@ export type HearReviewItem = {
 export type HearStoryItem = {
   category: string
   description: string
-  linkHref: string
-}
-
-export type HearFooterLink = {
-  label: string
-  href: string
-}
-
-export type HearStateItem = {
-  name: string
-}
-
-export type HearVideoItem = {
-  description: string
 }
 
 export type HearAdvertorialContent = {
-  meta: {
+  seo: {
     title: string
     description: string
   }
-  header: {
+  nav: {
     logoAlt: string
     advertorialLabel: string
     sectionLabel: string
-    featuredOnLabel: string
-    featuredOnLogosAlt: string
   }
-  articleIntro: {
-    heading: string
+  featuredOn: {
+    label: string
+    logosAlt: string
+  }
+  hero: {
+    headline: string
     byline: string
-    paragraphs: string[]
   }
-  mediaBlock: {
+  lead: {
+    body: string[]
+  }
+  productReveal: {
     imageAlt: string
     caption: string
   }
-  articleSection: {
-    heading: string
-    paragraphs: string[]
+  discovery: {
+    headline: string
+    body: string[]
   }
-  videos: HearVideoItem[]
-  featuresList: {
-    heading: string
-    paragraphs: string[]
-    featuresSubheading: string
-    featuresSubheadingBody: string
-    features: HearFeatureItem[]
+  demoVideo: {
+    caption: string
+  }
+  mechanism: {
+    headline: string
+    body: string[]
+  }
+  features: {
+    headline: string
+    subheadline: string
+    items: HearFeatureItem[]
+  }
+  socialProofVideo: {
+    caption: string
+  }
+  offer: {
+    headline: string
+    body: string[]
   }
   stateSelector: {
-    heading: string
-    paragraphs: string[]
-    stateSelectorLabel: string
-    stateAvailableMessage: string
-    stateAvailableCta: string
-    dontSeeStateText: string
-    states: HearStateItem[]
-    reviewsHeading: string
-    reviewsSubheadingHighlight: string
-    reviewsSubheadingBody: string
-    reviews: HearReviewItem[]
+    label: string
+    availableMessage: string
+    availableCtaText: string
+    notListedText: string
+    states: string[]
+  }
+  reviews: {
+    headline: string
+    subheadlineHighlight: string
+    subheadline: string
+    items: HearReviewItem[]
   }
   relatedStories: {
     label: string
-    stories: HearStoryItem[]
+    items: HearStoryItem[]
   }
   newsletter: {
+    logoAlt: string
     curiosityLabel: string
     freeGuideLabel: string
     emailPlaceholder: string
-    subscribeLabel: string
+    ctaText: string
     successMessage: string
     errorMessage: string
     disclaimer: string
-    companyDescription: string
-    footnotes: string[]
-    footerLinks: HearFooterLink[]
-    copyrightYear: string
-    logoAlt: string
   }
   footer: {
-    text: string
+    about: string
+    footnotes: string[]
+    links: string[]
+    copyrightYear: string
+    tagline: string
   }
-}
-
-export type HearStateMediaItem = {
-  name: string
-  imgSrc: string
 }
 
 export type HearAdvertorialMedia = {
@@ -121,7 +117,7 @@ export type HearAdvertorialMedia = {
     checkmarkIconSrc: string
   }
   stateSelector: {
-    states: HearStateMediaItem[]
+    states: string[]
     doubleArrowSrc: string
     trustLogosSrc: string
     trustLogosAlt: string

@@ -2,7 +2,7 @@ import copy from "../../../copy.json"
 import media from "../../../media.json"
 
 export const ProblemOverview = () => {
-  const { heading, body, symptoms } = copy.problemSolution;
+  const { headline, body, symptoms } = copy.problem;
   return (
     <div className="box-border caret-transparent flex flex-col outline-[3px] w-full md:flex-row">
       <div className="box-border caret-transparent basis-full shrink-0 min-h-[auto] min-w-[auto] outline-[3px] w-full md:basis-[542px]">
@@ -17,7 +17,7 @@ export const ProblemOverview = () => {
       <div className="items-center box-border caret-transparent flex basis-[0%] grow min-h-[auto] min-w-[auto] outline-[3px] w-full">
         <div className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] w-full">
           <div className="text-black text-[26px] font-semibold box-border caret-transparent tracking-[-0.96px] leading-[33.8px] outline-[3px] text-left font-montserrat md:text-[32px] md:leading-[41.6px]">
-            {heading}
+            {headline}
           </div>
           <div className="text-black text-[15px] box-border caret-transparent tracking-[-0.32px] leading-[19.5px] outline-[3px] text-left mt-5 font-montserrat md:text-base md:leading-[20.8px]">
             {body}

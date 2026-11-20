@@ -3,6 +3,7 @@ import { SleepApneaBenefitSection } from "../BenefitSection";
 import { SleepApneaTestimonialsSection } from "../TestimonialsSection";
 import { SleepApneaReviewsSection } from "../ReviewsSection";
 import copy from "../../copy.json";
+import links from "../../links.json";
 
 // Image configs are layout-specific and stay here; text comes from copy.json
 const benefitImageConfigs = [
@@ -59,13 +60,13 @@ export const SleepApneaMainContent = () => {
       className="box-border caret-transparent w-full max-w-screen-xl outline-[3px] overflow-x-clip mx-auto"
     >
       <SleepApneaHero />
-      {copy.benefits.map((benefit, i) => (
+      {copy.reasonsWhy.items.map((benefit, i) => (
         <SleepApneaBenefitSection
-          key={benefit.number}
+          key={i}
           category={benefit.category}
-          number={benefit.number}
-          title={benefit.title}
-          description={benefit.description}
+          number={String(i + 1).padStart(2, "0")}
+          title={benefit.headline}
+          description={benefit.body}
           {...benefitImageConfigs[i]}
         />
       ))}
@@ -75,10 +76,10 @@ export const SleepApneaMainContent = () => {
       >
         <div className="box-border caret-transparent max-w-[420px] outline-[3px] mx-auto">
           <a
-            href={copy.hero.cta.href}
+            href={links.hero.cta}
             className="text-white text-lg font-semibold items-center bg-green-700 box-border caret-transparent flex h-14 justify-center tracking-[-0.54px] leading-[28.8px] outline-[3px] w-full px-8 rounded-[3.35544e+07px]"
           >
-            {copy.hero.cta.primary}
+            {copy.hero.ctaText}
           </a>
         </div>
       </section>

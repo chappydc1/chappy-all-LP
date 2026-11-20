@@ -35,20 +35,20 @@ export const GuaranteeSection = () => {
 
       <div className="items-center box-border caret-transparent flex flex-col justify-center max-w-full text-center mt-5 mx-auto">
         <a
-          href={content.global.ctaHref}
+          href={content.ui.ctaHref}
           className="text-white font-bold bg-green-500 shadow-[rgb(0,62,14)_0px_4px_0px_0px] caret-transparent block min-h-[auto] min-w-[auto] w-full max-w-[420px] mx-auto mb-2.5 px-[5px] py-2.5 rounded-[250px] transition-all duration-200 active:translate-y-[4px] active:shadow-none cursor-pointer animate-pulse-green"
         >
           <div className="text-[13px] font-normal box-border caret-transparent leading-[20.8px] uppercase md:text-[14.4px] md:leading-[23.04px]">
-            {content.global.ctaSaleEndsPrefix} <span className="tabular-nums">{formatted}</span>
+            {content.ui.ctaSaleEndsPrefix} <span className="tabular-nums">{formatted}</span>
           </div>
           <div className="text-[17.6px] box-border caret-transparent leading-[22px] uppercase md:text-[20.8px]">
-            {content.global.ctaLabel}
+            {content.ui.ctaLabel}
           </div>
         </a>
         <div className="items-center box-border caret-transparent flex justify-between min-h-[auto] min-w-[auto] mt-3 gap-2">
-          <img src={content.global.lockIconUrl} alt="" className="box-border caret-transparent inline-block max-w-full mr-2" />
-          <div className="text-slate-900 text-xs box-border caret-transparent leading-3 md:text-[12.6px] md:leading-[12.6px]">{content.global.secureBadge}</div>
-          <img src={content.global.creditCardsImageUrl} alt="" className="box-border caret-transparent inline-block max-w-full w-[168px] ml-3" />
+          <img src={content.ui.lockIconUrl} alt="" className="box-border caret-transparent inline-block max-w-full mr-2" />
+          <div className="text-slate-900 text-xs box-border caret-transparent leading-3 md:text-[12.6px] md:leading-[12.6px]">{content.ui.secureBadge}</div>
+          <img src={content.ui.creditCardsImageUrl} alt="" className="box-border caret-transparent inline-block max-w-full w-[168px] ml-3" />
         </div>
       </div>
     </section>

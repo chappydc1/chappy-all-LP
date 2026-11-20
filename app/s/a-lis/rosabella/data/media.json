@@ -43,5 +43,40 @@
     "alfred": "/lp-images-files-videos-fonts/images/rosabella/1717809443-92766295b35fcd509bf3366e75acb283-3977122341.jpg",
     "editha": "/lp-images-files-videos-fonts/images/rosabella/1717809460-random_selfie_2017-1707495390.jpg",
     "debra": "/lp-images-files-videos-fonts/images/rosabella/1717809449-opx5fvrfetl81-1229124921.jpg"
-  }
+  },
+  "commentAvatarKeys": [
+    {
+      "avatar": "wilma",
+      "replies": [
+        "mary"
+      ]
+    },
+    {
+      "avatar": "doris"
+    },
+    {
+      "avatar": "skyler",
+      "replies": [
+        "marie"
+      ]
+    },
+    {
+      "avatar": "leonard"
+    },
+    {
+      "avatar": "emma"
+    },
+    {
+      "avatar": "louis"
+    },
+    {
+      "avatar": "alfred",
+      "replies": [
+        "editha"
+      ]
+    },
+    {
+      "avatar": "debra"
+    }
+  ]
 }

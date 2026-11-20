@@ -1,9 +1,10 @@
 import adv from "./copy.json";
+import links from "./links.json";
 import media from "./media.json";
 
 export const metadata = {
-  title: `${adv.product} — ${adv.headline}`,
-  description: adv.intro.pivot,
+  title: `${adv.seo.product} — ${adv.hero.headline}`,
+  description: adv.productReveal.pivot,
 };
 
 function TestimonialBlock({
@@ -30,11 +31,13 @@ function TestimonialBlock({
 
 function BenefitSection({
   benefit,
+  number,
   mediaSrc,
   mediaType,
   reversed = false,
 }: {
-  benefit: (typeof adv.benefits)[0];
+  benefit: (typeof adv.reasonsWhy.items)[0];
+  number: number;
   mediaSrc: string;
   mediaType: "video" | "image";
   reversed?: boolean;
@@ -50,7 +53,7 @@ function BenefitSection({
         className="w-full rounded-[10px]"
       />
     ) : (
-      <img src={mediaSrc} alt={benefit.title} className="w-full rounded-[10px]" />
+      <img src={mediaSrc} alt={benefit.headline} className="w-full rounded-[10px]" />
     );
 
   return (
@@ -61,10 +64,10 @@ function BenefitSection({
         <div className="md:flex-1">
           <div className="flex items-center pt-3 pb-[15px] md:hidden">
             <span className="text-emerald-500 text-[45px] font-bold leading-[49px] font-montserrat w-10 shrink-0 text-center">
-              {benefit.number}
+              {number}
             </span>
             <span className="text-stone-800 text-[21px] font-extrabold leading-[30px] pl-[15px] font-montserrat">
-              {benefit.title}
+              {benefit.headline}
             </span>
           </div>
           {mediaEl}
@@ -73,10 +76,10 @@ function BenefitSection({
         <div className="md:flex-1 mt-[15px] md:mt-0 md:pl-10">
           <div className="hidden md:flex items-center pb-2.5 pt-3">
             <span className="text-emerald-500 text-[73px] font-bold leading-[85px] font-montserrat w-[80px] shrink-0 text-center">
-              {benefit.number}
+              {number}
             </span>
             <span className="text-stone-800 text-[26px] font-extrabold leading-8 pl-2.5 font-montserrat">
-              {benefit.title}
+              {benefit.headline}
             </span>
           </div>
           <div className="text-stone-800 text-lg font-medium leading-[22px] text-left font-montserrat mt-[5px]">
@@ -117,8 +120,8 @@ export default function RejuvacarePage() {
         {/* Headline + hero */}
         <div className="max-w-[1000px] mx-auto w-[95%] md:w-full mt-2.5 md:mt-0">
           <div className="text-stone-800 text-[21px] font-extrabold leading-[35px] text-left mt-0 mb-[15px] pt-px font-montserrat md:text-4xl md:leading-[55px] md:mt-2.5 md:mb-5">
-            {adv.headline}{" "}
-            <span className="bg-yellow-400">{adv.headlineHighlight}</span>
+            {adv.hero.headline}{" "}
+            <span className="bg-yellow-400">{adv.hero.headlineHighlight}</span>
           </div>
           <img
             src={media.hero}
@@ -130,9 +133,9 @@ export default function RejuvacarePage() {
         {/* Intro body */}
         <div className="max-w-[1000px] mx-auto w-[95%] md:w-full my-4 md:pb-10">
           <div className="text-lg font-medium leading-[27px] text-left font-montserrat">
-            <b>{adv.intro.hook}</b>
+            <b>{adv.lead.hook}</b>
             <div className="mt-2">
-              {adv.intro.body.split("\n\n").map((para, i) => (
+              {adv.lead.body.split("\n\n").map((para, i) => (
                 <div key={i} className="mt-2">
                   {para}
                 </div>
@@ -140,19 +143,20 @@ export default function RejuvacarePage() {
             </div>
           </div>
           <div className="text-[21px] font-extrabold leading-[31.5px] text-center my-[15px] font-montserrat md:text-[26px] md:leading-[39px]">
-            {adv.intro.pivot}
+            {adv.productReveal.pivot}
           </div>
           <div className="text-lg font-medium leading-[27px] text-left mt-2 font-montserrat">
-            {adv.intro.productIntro}
+            {adv.productReveal.body}
           </div>
           <div className="text-[21px] font-extrabold leading-[31.5px] text-center mt-[15px] font-montserrat md:text-[26px] md:leading-[39px]">
-            {adv.intro.sectionTitle}
+            {adv.reasonsWhy.headline}
           </div>
         </div>
 
         {/* Benefit 1 — video */}
         <BenefitSection
-          benefit={adv.benefits[0]}
+          benefit={adv.reasonsWhy.items[0]}
+          number={1}
           mediaSrc={media.benefits["1"].src}
           mediaType="video"
         />
@@ -163,10 +167,10 @@ export default function RejuvacarePage() {
             <div className="md:flex-1">
               <div className="flex items-center pt-3 pb-5 md:hidden">
                 <span className="text-emerald-500 text-[45px] font-bold leading-[49px] font-montserrat w-10 shrink-0 text-center">
-                  {adv.benefits[1].number}
+                  {2}
                 </span>
                 <span className="text-stone-800 text-[21px] font-extrabold leading-[30px] pl-[15px] font-montserrat">
-                  {adv.benefits[1].title}
+                  {adv.reasonsWhy.items[1].headline}
                 </span>
               </div>
               <div className="relative w-full overflow-hidden rounded-[10px]" style={{ paddingTop: "100%" }}>
@@ -184,32 +188,33 @@ export default function RejuvacarePage() {
             <div className="md:flex-1 mt-3 md:mt-0 md:pl-10">
               <div className="hidden md:flex items-center pb-2.5 pt-3">
                 <span className="text-emerald-500 text-[73px] font-bold leading-[85px] font-montserrat w-[80px] shrink-0 text-center">
-                  {adv.benefits[1].number}
+                  {2}
                 </span>
                 <span className="text-stone-800 text-[26px] font-extrabold leading-8 pl-2.5 font-montserrat">
-                  {adv.benefits[1].title}
+                  {adv.reasonsWhy.items[1].headline}
                 </span>
               </div>
               <div className="text-stone-800 text-lg font-medium leading-[22px] text-left mt-[5px] font-montserrat">
-                {adv.benefits[1].body.split("\n\n").map((para, i) => (
+                {adv.reasonsWhy.items[1].body.split("\n\n").map((para, i) => (
                   <p key={i} className={i > 0 ? "mt-3" : ""}>
                     {para}
                   </p>
                 ))}
               </div>
               <TestimonialBlock
-                quote={adv.benefits[1].testimonial.quote}
-                author={adv.benefits[1].testimonial.author}
+                quote={adv.reasonsWhy.items[1].testimonial.quote}
+                author={adv.reasonsWhy.items[1].testimonial.author}
               />
             </div>
           </div>
         </div>
 
         {/* Benefits 3–7 — images, alternating layout */}
-        {adv.benefits.slice(2).map((benefit, i) => (
+        {adv.reasonsWhy.items.slice(2).map((benefit, i) => (
           <BenefitSection
-            key={benefit.number}
+            key={benefit.headline}
             benefit={benefit}
+            number={i + 3}
             mediaSrc={media.benefits[(i + 3).toString() as keyof typeof media.benefits].src}
             mediaType="image"
             reversed={i % 2 !== 0}
@@ -224,8 +229,8 @@ export default function RejuvacarePage() {
                 <div className="w-full">
                   <div className="md:hidden pb-3 px-[5px]">
                     <h1 className="text-stone-800 text-[17px] font-bold leading-[27.2px] text-center mt-0 mb-2.5 font-montserrat">
-                      <span className="text-red-600">{adv.cta.urgencyPrefix}</span>{" "}
-                      {adv.cta.urgencyHeadline}
+                      <span className="text-red-600">{adv.finalCta.urgencyPrefix}</span>{" "}
+                      {adv.finalCta.urgencyHeadline}
                     </h1>
                   </div>
                   <img
@@ -239,11 +244,11 @@ export default function RejuvacarePage() {
               <div className="w-full md:basis-3/5 flex flex-col items-center md:items-start justify-center">
                 <div className="w-full">
                   <h1 className="hidden md:block text-stone-800 text-[19px] font-bold leading-[31.2px] text-center mt-5 mb-2.5 font-montserrat">
-                    <span className="text-red-700">{adv.cta.urgencyPrefix}</span>{" "}
-                    {adv.cta.urgencyHeadline}
+                    <span className="text-red-700">{adv.finalCta.urgencyPrefix}</span>{" "}
+                    {adv.finalCta.urgencyHeadline}
                   </h1>
                   <div className="text-[17px] leading-[25.5px] text-left mb-[15px] md:mb-0 font-montserrat">
-                    {adv.cta.body.split("\n\n").map((para, i) => (
+                    {adv.finalCta.body.split("\n\n").map((para, i) => (
                       <p key={i} className={i > 0 ? "mt-3" : ""}>
                         {para}
                       </p>
@@ -253,12 +258,12 @@ export default function RejuvacarePage() {
                     href=""
                     className="block w-full text-center text-slate-50 text-lg font-bold bg-emerald-500 shadow-[rgba(0,0,0,0.19)_0px_4px_7px_1px] tracking-[0.25px] leading-[27px] px-2.5 py-[15px] rounded font-montserrat md:text-3xl md:px-10 hover:bg-emerald-600"
                   >
-                    {adv.cta.buttonText}
+                    {adv.finalCta.ctaText}
                   </a>
                   <div className="bg-neutral-100 flex justify-around mt-2 px-2.5 py-[7px] rounded-[10px] md:mt-[7px]">
                     <div className="text-sm leading-[21px] pr-2.5 font-montserrat md:text-[17px] md:leading-[25.5px]">
                       <span>Sell-Out Risk: </span>
-                      <span className="text-red-700 font-extrabold">{adv.cta.sellOutRisk}</span>
+                      <span className="text-red-700 font-extrabold">{adv.finalCta.sellOutRisk}</span>
                     </div>
                     <div className="text-sm flex items-center leading-[21px] font-montserrat md:text-[17px] md:leading-[25.5px]">
                       <img
@@ -266,7 +271,7 @@ export default function RejuvacarePage() {
                         alt="Shipping"
                         className="h-[22px] w-[22px] mr-1"
                       />
-                      {adv.cta.shippingLabel}
+                      {adv.finalCta.shippingLabel}
                     </div>
                   </div>
                 </div>
@@ -296,17 +301,17 @@ export default function RejuvacarePage() {
             <p className="leading-[22px] mb-2.5">{adv.footer.copyright}</p>
             <div className="flex items-center md:ml-auto">
               <a
-                href={adv.footer.links.privacyPolicy.href}
+                href={links.footer.privacyPolicy}
                 className="text-blue-600 hover:text-sky-700"
               >
-                {adv.footer.links.privacyPolicy.label}
+                {adv.footer.privacyPolicy}
               </a>
               <div className="h-[9px] w-px bg-current mx-[7.5px]" />
               <a
-                href={adv.footer.links.termsOfUse.href}
+                href={links.footer.termsOfUse}
                 className="text-blue-600 hover:text-sky-700"
               >
-                {adv.footer.links.termsOfUse.label}
+                {adv.footer.termsOfUse}
               </a>
             </div>
           </div>

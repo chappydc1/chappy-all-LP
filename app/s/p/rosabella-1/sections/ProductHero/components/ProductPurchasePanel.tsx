@@ -1,5 +1,6 @@
 'use client';
 import copy from "../../../copy.json"
+import links from "../../../links.json"
 import media from "../../../media.json"
 import { ProductBenefits } from "./ProductBenefits"
 import { CheckoutTrustBadges } from "./CheckoutTrustBadges"
@@ -13,7 +14,7 @@ function getArrivalDate(): string {
 
 export const ProductPurchasePanel = () => {
   const arrivalDate = getArrivalDate();
-  const { productName, tagline, ctaHref, subscriptionNote, guarantee } = copy.productHero;
+  const { productName, tagline, subscriptionNote, guarantee } = copy.hero;
   return (
     <div className="box-border caret-transparent max-w-full min-h-[auto] min-w-[auto] outline-[3px] w-full mt-[23px] px-5 md:max-w-[calc(51.5%_-_35px)] md:mt-0 md:px-0">
       <div className="box-border caret-transparent outline-[3px] w-full">
@@ -54,7 +55,7 @@ export const ProductPurchasePanel = () => {
         <div className="box-border caret-transparent h-[69px] outline-[3px] w-full mt-2.5 md:h-[88px]">
           <a
             title="ADD TO CART"
-            href={ctaHref}
+            href={links.hero.cta}
             className="text-white text-lg font-semibold items-center bg-[#C82084] box-border caret-transparent flex h-full justify-center tracking-[-0.72px] leading-[21.6px] max-w-full outline-[3px] text-center border-[#C82084] px-2.5 rounded-bl rounded-br rounded-tl rounded-tr border-2 border-solid font-montserrat md:text-2xl md:leading-[28.8px] hover:text-[#C82084] hover:bg-transparent"
           >
             ADD TO CART

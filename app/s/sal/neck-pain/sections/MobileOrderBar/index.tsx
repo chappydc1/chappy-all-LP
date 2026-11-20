@@ -4,7 +4,7 @@ import { useCountdown } from "../../hooks/useCountdown";
 import { content } from "../../content";
 
 export const MobileOrderBar = () => {
-  const c = content.mobileOrderBar;
+  const c = content.mobileStickyCta;
   const { formatted } = useCountdown(c.countdownSeconds);
 
   return (
@@ -38,7 +38,7 @@ export const MobileOrderBar = () => {
         </div>
       </div>
       <a
-        href={content.global.ctaHref}
+        href={content.ui.ctaHref}
         className="text-white font-bold items-center bg-green-500 shadow-[rgb(0,62,14)_0px_4px_0px_0px] caret-transparent flex flex-col h-[55px] justify-center leading-[19.2px] max-w-full text-center w-full mb-2.5 px-[5px] py-2.5 rounded-[250px] transition-all duration-200 active:translate-y-[2px] active:shadow-none cursor-pointer animate-pulse-green"
       >
         <div className="text-[13px] font-normal box-border caret-transparent leading-[20.8px] min-h-[auto] min-w-[auto] uppercase">

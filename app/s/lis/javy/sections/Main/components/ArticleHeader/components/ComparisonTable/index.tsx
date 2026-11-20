@@ -1,5 +1,10 @@
 import { JavyComparisonRow } from "./components/JavyComparisonRow";
 
+const FACE_ICON_BY_SENTIMENT = {
+  positive: "/lp-images-files-videos-fonts/images/javy/67c74543a7ab85d00fb14d24_facehappy-green.svg",
+  negative: "/lp-images-files-videos-fonts/images/javy/67c7454306143bacf213c118_facehappy-grey.svg",
+};
+
 export const JavyComparisonTable = () => {
   return (
     <div className="items-start box-border caret-transparent flex justify-center min-h-[auto] min-w-[auto] w-full mt-0 md:mt-1">
@@ -69,7 +74,7 @@ export const JavyComparisonTable = () => {
         protein="20g"
         proteinSubtext="in 2 scoops"
         sugar={"<1g"}
-        faceIconSrc="/lp-images-files-videos-fonts/images/javy/67c74543a7ab85d00fb14d24_facehappy-green.svg"
+        faceIconSrc={FACE_ICON_BY_SENTIMENT.positive}
         faceIconClass="text-xs box-border caret-transparent h-[22px] leading-[18px] max-w-full min-h-[auto] min-w-[auto] text-center md:text-base md:h-7 md:leading-6 md:text-left"
         col1Class="relative border-b-slate-300/60 flex-col mx-[3px] pt-3 pb-4 px-1 border-b md:mx-3"
         col2Class="relative border-b-slate-300/60 flex-col mx-[3px] pt-3 pb-4 px-1 border-b md:mx-3"
@@ -84,7 +89,7 @@ export const JavyComparisonTable = () => {
         calories="150-400cal"
         protein="2-12g"
         sugar="20-50g"
-        faceIconSrc="/lp-images-files-videos-fonts/images/javy/67c7454306143bacf213c118_facehappy-grey.svg"
+        faceIconSrc={FACE_ICON_BY_SENTIMENT.negative}
         faceIconClass="text-[11.2px] h-5 leading-[16.8px] md:h-6 md:leading-6"
         col1Class="border-b-stone-300 pl-2 pr-1 py-4"
         col2Class="border-b-stone-300 pl-2 pr-1 py-4"
@@ -99,7 +104,7 @@ export const JavyComparisonTable = () => {
         protein="20g"
         sugar="5g"
         sugarSubtext="or artificial sweeteners"
-        faceIconSrc="/lp-images-files-videos-fonts/images/javy/67c7454306143bacf213c118_facehappy-grey.svg"
+        faceIconSrc={FACE_ICON_BY_SENTIMENT.negative}
         faceIconClass="text-[11.2px] h-5 leading-[16.8px]"
         col1Class="border-b-stone-300 px-1 py-4 border-b"
         col2Class="border-b-stone-300 px-1 py-4 border-b"

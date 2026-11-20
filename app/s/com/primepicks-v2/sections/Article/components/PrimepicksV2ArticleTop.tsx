@@ -3,7 +3,7 @@ import { GoldStarsIcon } from "../../../components/icons";
 import type { PrimepicksV2Copy } from "../../../types";
 
 type ArticleTopProps = {
-  article: PrimepicksV2Copy["article"];
+  article: PrimepicksV2Copy["review"];
   ctaUrl: string;
   daysAgo: number;
   authorName: string;
@@ -20,7 +20,7 @@ export function PrimepicksV2ArticleTop({
   return (
     <div className="flex flex-col gap-6">
       <h4 className="text-[28px] font-bold leading-[1.3] text-[#333] md:text-[42px] md:leading-[54.6px]">
-        {article.title}
+        {article.headline}
       </h4>
       <a
         href={ctaUrl}
@@ -28,7 +28,7 @@ export function PrimepicksV2ArticleTop({
         rel="noopener noreferrer"
         className="text-xl font-bold leading-[30px] text-[#0060C3] underline"
       >
-        {article.limitedOfferHtml}
+        {article.offerLinkText}
       </a>
       <div className="mb-6 flex flex-wrap items-center gap-2 text-sm text-[#636363]">
         <span className="relative -top-0.5">

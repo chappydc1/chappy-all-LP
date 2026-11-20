@@ -4,8 +4,8 @@ import { useCountdown } from "../../../hooks/useCountdown";
 import { content } from "../../../content";
 
 export const CountdownTimer = () => {
-  const { hrs, mins, secs } = useCountdown(content.countdownBanner.initialSeconds);
-  const labels = content.countdownBanner.labels;
+  const { hrs, mins, secs } = useCountdown(content.announcementBar.initialSeconds);
+  const labels = content.announcementBar.labels;
 
   return (
     <div className="relative text-[11.2px] items-center box-border caret-transparent gap-x-2 flex shrink-0 min-h-[auto] min-w-[auto] md:text-base md:shrink">

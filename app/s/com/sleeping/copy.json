@@ -1,197 +1,152 @@
 {
-  "meta": {
+  "seo": {
     "title": "10 Best Pillows for Side Sleepers – Top Picks for Neck Pain & Numb Arms",
-    "description": "Waking up with a stiff neck, sore shoulder or a numb arm? We compared the top ergonomic pillows for side sleepers so you can finally wake up restored. See our #1 pick.",
-    "lastUpdated": "Oct 1, 2026"
+    "description": "Waking up with a stiff neck, sore shoulder or a numb arm? We compared the top ergonomic pillows for side sleepers so you can finally wake up restored. See our #1 pick."
   },
-  "navbar": {
+  "nav": {
     "brand": "BuyReviews",
-    "links": [
-      {
-        "label": "Categories",
-        "href": "#"
-      },
-      {
-        "label": "About us",
-        "href": "#"
-      }
+    "items": [
+      "Categories",
+      "About us"
     ]
   },
   "breadcrumb": [
-    {
-      "label": "Home & Kitchen",
-      "href": "#"
-    },
-    {
-      "label": "Bedding",
-      "href": "#"
-    },
-    {
-      "label": "Pillows for Side Sleepers",
-      "href": "#",
-      "current": true
-    }
+    "Home & Kitchen",
+    "Bedding",
+    "Pillows for Side Sleepers"
   ],
   "hero": {
-    "title": "10 Best Pillows for Side Sleepers",
-    "subtitle": "Waking up with a stiff neck, a sore shoulder or a dead, tingling arm isn't normal. We compared the top ergonomic pillows for side sleepers to find the ones that actually keep your spine aligned and your arm free all night.",
+    "headline": "10 Best Pillows for Side Sleepers",
+    "subheadline": "Waking up with a stiff neck, a sore shoulder or a dead, tingling arm isn't normal. We compared the top ergonomic pillows for side sleepers to find the ones that actually keep your spine aligned and your arm free all night.",
     "lastUpdated": "Oct 1, 2026",
     "advertisingDisclosure": "Advertising Disclosure"
   },
-  "products": [
-    {
-      "rank": "1",
-      "badge": "Best Overall",
-      "name": "AURELUNE Cloud",
-      "features": [
-        "Arm Pocket Zones end the 3 AM numb, tingling arm.",
-        "5-zone contour keeps your neck and spine aligned.",
-        "Cooling CleanWeave™ cover + 30-night sleep trial."
-      ],
-      "score": "9.9",
-      "stars": 5,
-      "reviewCount": "(11,985 reviews)",
-      "boughtBadge": "45K+ side sleepers switched",
-      "discountText": "Buy 1 Get 1 Free",
-      "cta": "Check Price",
-      "ctaUrl": "https://aurelunehealth.com/products/aurelune-cloud",
-      "hideAmazonBadge": true
-    },
-    {
-      "rank": "2",
-      "name": "Tempur-Pedic TEMPUR-Cloud® Pillow",
-      "features": [
-        "Signature TEMPUR® pressure-relieving foam.",
-        "Plush, soft feel that molds to your head.",
-        "Too soft to keep a side sleeper's neck level; runs warm."
-      ],
-      "score": "9.4",
-      "stars": 5,
-      "reviewCount": "(6,214 reviews)",
-      "cta": "Check Price",
-      "ctaUrl": "https://www.tempurpedic.com/shop-pillows/tempur-cloud-pillow/"
-    },
-    {
-      "rank": "3",
-      "badge": "Best for Strict Side Sleepers",
-      "name": "Pillow Cube Side Cube Original",
-      "features": [
-        "Square block shape fills the shoulder gap.",
-        "Firm foam that holds its height.",
-        "No room for your arm; awkward if you roll onto your back."
-      ],
-      "score": "9.2",
-      "stars": 5,
-      "reviewCount": "(4,187 reviews)",
-      "discountText": "10% off",
-      "cta": "Check Price",
-      "ctaUrl": "https://pillowcube.com/products/side-cube-original"
-    },
-    {
-      "rank": "4",
-      "badge": "Hot Deal",
-      "name": "Coop Home Goods Original Adjustable Pillow",
-      "features": [
-        "Removable shredded foam fill to tune the loft.",
-        "Soft, cushy feel for combination sleepers.",
-        "Fill shifts and flattens under your shoulder overnight."
-      ],
-      "score": "9.0",
-      "stars": 5,
-      "reviewCount": "(8,412 reviews)",
-      "discountText": "15% off",
-      "cta": "Check Price",
-      "ctaUrl": "https://coopsleepgoods.com/products/the-original-pillow"
-    },
-    {
-      "rank": "5",
-      "name": "Purple Harmony™ Pillow",
-      "features": [
-        "Hex grid latex core sleeps cool.",
-        "Bouncy, responsive support.",
-        "Premium price with no arm or shoulder zones."
-      ],
-      "score": "8.8",
-      "stars": 4,
-      "reviewCount": "(2,968 reviews)",
-      "cta": "Check Price",
-      "ctaUrl": "https://purple.com/pillows/harmony-pillow"
-    },
-    {
-      "rank": "6",
-      "name": "Eli & Elm Side Sleeper Pillow",
-      "features": [
-        "U-shaped cutout curves around the shoulder.",
-        "Adjustable latex and fiber fill.",
-        "Heavy and bulky; fill needs regular fluffing."
-      ],
-      "score": "8.6",
-      "stars": 4,
-      "reviewCount": "(1,742 reviews)",
-      "cta": "Check Price",
-      "ctaUrl": "https://www.eliandelm.com/products/side-sleeper-pillow"
-    },
-    {
-      "rank": "7",
-      "name": "Tempur-Pedic TEMPUR-Neck™ Pillow",
-      "features": [
-        "Ergonomic wave contour for neck support.",
-        "Firm, dense TEMPUR® material.",
-        "Contour suits back sleepers more than side sleepers."
-      ],
-      "score": "8.4",
-      "stars": 4,
-      "reviewCount": "(3,105 reviews)",
-      "cta": "Check Price",
-      "ctaUrl": "https://www.tempurpedic.com/shop-pillows/tempur-neck-pillow/"
-    },
-    {
-      "rank": "8",
-      "name": "Avocado Green Pillow",
-      "features": [
-        "Organic latex and kapok fill.",
-        "Adjustable loft with removable fill.",
-        "Firm latex chunks can feel lumpy at first."
-      ],
-      "score": "8.2",
-      "stars": 4,
-      "reviewCount": "(1,236 reviews)",
-      "cta": "Check Price",
-      "ctaUrl": "https://www.avocadogreenmattress.com/products/green-pillow"
-    },
-    {
-      "rank": "9",
-      "badge": "Best Affordable",
-      "name": "Brooklinen Marlow Pillow",
-      "features": [
-        "Zippered sides let you adjust the loft.",
-        "Cooling cover and polyester-foam blend.",
-        "Traditional rectangle shape with no shoulder contour."
-      ],
-      "score": "8.0",
-      "stars": 4,
-      "reviewCount": "(2,051 reviews)",
-      "cta": "Check Price",
-      "ctaUrl": "https://www.brooklinen.com/products/marlow-pillow"
-    },
-    {
-      "rank": "10",
-      "name": "Coop Home Goods Eden Adjustable Pillow",
-      "features": [
-        "Gel-infused shredded foam fill.",
-        "Adjustable loft for different sleepers.",
-        "No dedicated arm or shoulder zones."
-      ],
-      "score": "7.8",
-      "stars": 4,
-      "reviewCount": "(986 reviews)",
-      "cta": "Check Price",
-      "ctaUrl": "https://coopsleepgoods.com/products/the-eden-pillow"
-    }
-  ],
+  "productRankings": {
+    "items": [
+      {
+        "badge": "Best Overall",
+        "name": "AURELUNE Cloud",
+        "features": [
+          "Arm Pocket Zones end the 3 AM numb, tingling arm.",
+          "5-zone contour keeps your neck and spine aligned.",
+          "Cooling CleanWeave™ cover + 30-night sleep trial."
+        ],
+        "score": "9.9",
+        "reviewCount": "(11,985 reviews)",
+        "boughtBadge": "45K+ side sleepers switched",
+        "discountText": "Buy 1 Get 1 Free",
+        "ctaText": "Check Price"
+      },
+      {
+        "name": "Tempur-Pedic TEMPUR-Cloud® Pillow",
+        "features": [
+          "Signature TEMPUR® pressure-relieving foam.",
+          "Plush, soft feel that molds to your head.",
+          "Too soft to keep a side sleeper's neck level; runs warm."
+        ],
+        "score": "9.4",
+        "reviewCount": "(6,214 reviews)",
+        "ctaText": "Check Price"
+      },
+      {
+        "badge": "Best for Strict Side Sleepers",
+        "name": "Pillow Cube Side Cube Original",
+        "features": [
+          "Square block shape fills the shoulder gap.",
+          "Firm foam that holds its height.",
+          "No room for your arm; awkward if you roll onto your back."
+        ],
+        "score": "9.2",
+        "reviewCount": "(4,187 reviews)",
+        "discountText": "10% off",
+        "ctaText": "Check Price"
+      },
+      {
+        "badge": "Hot Deal",
+        "name": "Coop Home Goods Original Adjustable Pillow",
+        "features": [
+          "Removable shredded foam fill to tune the loft.",
+          "Soft, cushy feel for combination sleepers.",
+          "Fill shifts and flattens under your shoulder overnight."
+        ],
+        "score": "9.0",
+        "reviewCount": "(8,412 reviews)",
+        "discountText": "15% off",
+        "ctaText": "Check Price"
+      },
+      {
+        "name": "Purple Harmony™ Pillow",
+        "features": [
+          "Hex grid latex core sleeps cool.",
+          "Bouncy, responsive support.",
+          "Premium price with no arm or shoulder zones."
+        ],
+        "score": "8.8",
+        "reviewCount": "(2,968 reviews)",
+        "ctaText": "Check Price"
+      },
+      {
+        "name": "Eli & Elm Side Sleeper Pillow",
+        "features": [
+          "U-shaped cutout curves around the shoulder.",
+          "Adjustable latex and fiber fill.",
+          "Heavy and bulky; fill needs regular fluffing."
+        ],
+        "score": "8.6",
+        "reviewCount": "(1,742 reviews)",
+        "ctaText": "Check Price"
+      },
+      {
+        "name": "Tempur-Pedic TEMPUR-Neck™ Pillow",
+        "features": [
+          "Ergonomic wave contour for neck support.",
+          "Firm, dense TEMPUR® material.",
+          "Contour suits back sleepers more than side sleepers."
+        ],
+        "score": "8.4",
+        "reviewCount": "(3,105 reviews)",
+        "ctaText": "Check Price"
+      },
+      {
+        "name": "Avocado Green Pillow",
+        "features": [
+          "Organic latex and kapok fill.",
+          "Adjustable loft with removable fill.",
+          "Firm latex chunks can feel lumpy at first."
+        ],
+        "score": "8.2",
+        "reviewCount": "(1,236 reviews)",
+        "ctaText": "Check Price"
+      },
+      {
+        "badge": "Best Affordable",
+        "name": "Brooklinen Marlow Pillow",
+        "features": [
+          "Zippered sides let you adjust the loft.",
+          "Cooling cover and polyester-foam blend.",
+          "Traditional rectangle shape with no shoulder contour."
+        ],
+        "score": "8.0",
+        "reviewCount": "(2,051 reviews)",
+        "ctaText": "Check Price"
+      },
+      {
+        "name": "Coop Home Goods Eden Adjustable Pillow",
+        "features": [
+          "Gel-infused shredded foam fill.",
+          "Adjustable loft for different sleepers.",
+          "No dedicated arm or shoulder zones."
+        ],
+        "score": "7.8",
+        "reviewCount": "(986 reviews)",
+        "ctaText": "Check Price"
+      }
+    ]
+  },
   "topPick": {
     "eyebrow": "Our #1 Pick",
-    "title": "Why AURELUNE Cloud Is the Best Pillow for Side Sleepers",
+    "headline": "Why AURELUNE Cloud Is the Best Pillow for Side Sleepers",
+    "rating": "4.9/5 from 45,000+ sleepers",
     "intro": "Most pillows are flat blocks that ignore the width of your shoulder. When you sleep on your side, your head drops, your neck bends, and your arm gets pinned under your body. That's why you wake up at 3 AM shaking feeling back into your hand. AURELUNE Cloud is the only pillow in our test built around that exact problem.",
     "points": [
       {
@@ -215,54 +170,40 @@
         "text": "A breathable, hypoallergenic knit that vents heat, unzips easily and is machine-washable at 30°C."
       }
     ],
-    "rating": "4.9/5 from 45,000+ sleepers",
-    "guarantee": "30-Night Risk-Free Sleep Trial · Free US Shipping",
-    "offer": "Buy 1 Get 1 Free + Free Cooling Cover",
-    "cta": "Check Today's Price",
-    "ctaUrl": "https://aurelunehealth.com/products/aurelune-cloud",
-    "note": "Not sold on Amazon or eBay. Buy only from the official AURELUNE website to get the genuine pillow and the sleep-trial guarantee.",
     "testimonial": {
       "quote": "After years of waking up with my arm completely dead, I finally wake up without it. The shape looked unusual at first, but the arm cutouts and side wings are pure genius.",
       "author": "James B., Verified Buyer"
-    }
+    },
+    "offer": "Buy 1 Get 1 Free + Free Cooling Cover",
+    "ctaText": "Check Today's Price",
+    "guarantee": "30-Night Risk-Free Sleep Trial · Free US Shipping",
+    "note": "Not sold on Amazon or eBay. Buy only from the official AURELUNE website to get the genuine pillow and the sleep-trial guarantee."
   },
   "newsletter": {
-    "title": "Tired of Hunting for Deals?",
-    "subtitle": "Get the best daily discounts delivered straight to your inbox",
+    "headline": "Tired of Hunting for Deals?",
+    "subheadline": "Get the best daily discounts delivered straight to your inbox",
     "placeholder": "Your Email Address",
-    "cta": "Send Me Deals",
+    "ctaText": "Send Me Deals",
     "successMessage": "You're subscribed! Check your inbox for deals."
   },
   "relatedCategories": {
-    "title": "You Might Also Like",
+    "headline": "You Might Also Like",
     "items": [
-      {
-        "label": "Knee Pillows",
-        "href": "#"
-      },
-      {
-        "label": "Body Pillows",
-        "href": "#"
-      },
-      {
-        "label": "Wedge Pillows",
-        "href": "#"
-      },
-      {
-        "label": "Cooling Pillowcases",
-        "href": "#"
-      }
+      "Knee Pillows",
+      "Body Pillows",
+      "Wedge Pillows",
+      "Cooling Pillowcases"
     ]
   },
   "overview": {
-    "title": "How to Choose a Pillow for Side Sleeping",
-    "paragraphs": [
+    "headline": "How to Choose a Pillow for Side Sleeping",
+    "body": [
       "More than half of adults sleep mostly on their side, and it's the position most often linked with waking up sore. The reason is simple geometry. When you lie on your side there's a 5 to 7-inch gap between your head and the mattress, roughly the width of your shoulder. A standard pillow is too flat to fill that gap, so your head tilts down, your neck bends sideways, and your shoulder takes the weight of your upper body. Many people also tuck an arm under the pillow, which presses on nerves and blood flow. That's why so many side sleepers wake up with a stiff neck, a sore shoulder, or the familiar pins-and-needles of a 'dead' arm. The right pillow solves this by doing three things: filling the shoulder gap so your head stays level with your spine, giving your shoulder and arm somewhere to go, and holding that shape for the whole night instead of flattening by 3 AM.",
       "When comparing pillows, start with loft and structure. Shredded foam and feather pillows feel soft at first but shift away from your head as you move. Solid high-density memory foam keeps a consistent height. Next, look at the shape. Contoured pillows with raised side sections support the neck much better than flat rectangles, and designs with built-in arm or shoulder cutouts are the most effective for preventing arm numbness. Temperature matters too: memory foam can trap heat, so a breathable, removable, washable cover makes a real difference for warm sleepers. Finally, look for a meaningful trial period. It takes a few nights for your neck to adjust to a new pillow, so a 30-night guarantee lets you judge it properly. In our comparison, AURELUNE Cloud was the only pillow that ticked every box: a 5-zone contour, dedicated arm pockets, a non-collapsing foam core, a cooling washable cover, and a 30-night risk-free trial. As with any sleep product, if you have an ongoing neck or nerve condition, talk to a healthcare professional."
     ]
   },
-  "topList": {
-    "title": "Top Pillows for Side Sleepers",
+  "shortlist": {
+    "headline": "Top Pillows for Side Sleepers",
     "items": [
       "AURELUNE Cloud",
       "Tempur-Pedic TEMPUR-Cloud® Pillow",
@@ -270,27 +211,27 @@
     ]
   },
   "faq": {
-    "title": "FAQ",
+    "headline": "FAQ",
     "items": [
       {
-        "q": "What is the best pillow for side sleepers with neck pain?",
-        "a": "Look for a contoured pillow that lifts your head to shoulder height so your neck stays in line with your spine. In our comparison, AURELUNE Cloud scored highest because its 5-zone contour, side wings and arm pockets keep the neck aligned while taking pressure off the shoulder."
+        "question": "What is the best pillow for side sleepers with neck pain?",
+        "answer": "Look for a contoured pillow that lifts your head to shoulder height so your neck stays in line with your spine. In our comparison, AURELUNE Cloud scored highest because its 5-zone contour, side wings and arm pockets keep the neck aligned while taking pressure off the shoulder."
       },
       {
-        "q": "Why do I wake up with a numb arm when I sleep on my side?",
-        "a": "On a flat pillow your shoulder carries your upper body weight and your arm often ends up pinned under your head or torso. That compresses nerves and blood flow, which causes tingling and numbness. Pillows with dedicated arm pocket zones give your arm room to rest without pressure."
+        "question": "Why do I wake up with a numb arm when I sleep on my side?",
+        "answer": "On a flat pillow your shoulder carries your upper body weight and your arm often ends up pinned under your head or torso. That compresses nerves and blood flow, which causes tingling and numbness. Pillows with dedicated arm pocket zones give your arm room to rest without pressure."
       },
       {
-        "q": "How high should a side sleeper's pillow be?",
-        "a": "High enough to fill the gap between your ear and the outside of your shoulder, usually about 4 to 6 inches once compressed. Too low and your head drops; too high and your neck bends upward. A contoured pillow with raised side sections handles this automatically."
+        "question": "How high should a side sleeper's pillow be?",
+        "answer": "High enough to fill the gap between your ear and the outside of your shoulder, usually about 4 to 6 inches once compressed. Too low and your head drops; too high and your neck bends upward. A contoured pillow with raised side sections handles this automatically."
       },
       {
-        "q": "Are memory foam pillows too hot?",
-        "a": "Low-density foam can trap heat. High-density structural foam paired with a breathable cover, like AURELUNE Cloud's CleanWeave™ cooling cover, stays noticeably cooler and is easy to wash."
+        "question": "Are memory foam pillows too hot?",
+        "answer": "Low-density foam can trap heat. High-density structural foam paired with a breathable cover, like AURELUNE Cloud's CleanWeave™ cooling cover, stays noticeably cooler and is easy to wash."
       },
       {
-        "q": "How long does it take to get used to a contoured pillow?",
-        "a": "Most people notice less pressure on the first night and adapt fully within one to two weeks as the neck and shoulder muscles relax into a neutral position. That's why a 30-night trial is worth looking for."
+        "question": "How long does it take to get used to a contoured pillow?",
+        "answer": "Most people notice less pressure on the first night and adapt fully within one to two weeks as the neck and shoulder muscles relax into a neutral position. That's why a 30-night trial is worth looking for."
       }
     ]
   },
@@ -298,36 +239,18 @@
     "brand": "BuyReviews",
     "tagline": "Your ultimate destination for comprehensive comparisons and reviews of the top 10 products across a wide range of categories.",
     "newsletter": {
-      "title": "Deals Newsletter",
+      "headline": "Deals Newsletter",
       "placeholder": "Your Email Address",
-      "cta": "Send Me Deals",
+      "ctaText": "Send Me Deals",
       "successMessage": "Subscribed successfully!"
     },
     "links": [
-      {
-        "label": "About Us",
-        "href": "#"
-      },
-      {
-        "label": "Privacy Policy",
-        "href": "#"
-      },
-      {
-        "label": "Terms and Conditions",
-        "href": "#"
-      },
-      {
-        "label": "CCPA Privacy Notice",
-        "href": "#"
-      },
-      {
-        "label": "Data Subject Request Form",
-        "href": "#"
-      },
-      {
-        "label": "Contact Us",
-        "href": "#"
-      }
+      "About Us",
+      "Privacy Policy",
+      "Terms and Conditions",
+      "CCPA Privacy Notice",
+      "Data Subject Request Form",
+      "Contact Us"
     ],
     "copyright": "© BuyReviews",
     "advertisingDisclosure": "We may earn a commission when you buy through links on this page. Rankings reflect our editorial assessment.",

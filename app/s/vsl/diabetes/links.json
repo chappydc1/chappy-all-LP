@@ -1,0 +1,15 @@
+{
+  "offer": {
+    "packages": {
+      "6-bottle": "https://glycoceptt.pay.clickbank.net/?cbitems=FE-GLC-06B-C&cbfid=62887&template=6bottles&param=vsl",
+      "3-bottle": "https://glycoceptt.pay.clickbank.net/?cbitems=FE-GLC-03B-C&cbfid=62886&template=3bottles&param=vsl",
+      "1-bottle": "https://glycoceptt.pay.clickbank.net/?cbitems=FE-GLC-01B-C&template=1bottle&param=vsl"
+    }
+  },
+  "footer": {
+    "terms": "https://glycocept.com/terms",
+    "privacy": "https://glycocept.com/privacy",
+    "returnPolicy": "https://glycocept.com/refunds",
+    "contactUs": "https://glycocept.com/contact-us"
+  }
+}

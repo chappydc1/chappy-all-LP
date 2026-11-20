@@ -1,0 +1,44 @@
+{
+  "product": "https://derila.com/derila/product",
+  "nav": {
+    "home": "https://derila.com/",
+    "items": [
+      "https://derila.com/derila/tracking",
+      "https://support.derila.com/en/support/home",
+      "https://derila.com/derila/product"
+    ]
+  },
+  "footer": {
+    "columns": [
+      [
+        "https://derila.com/derila/wholesale"
+      ],
+      [
+        "https://derila.com/derila/tracking",
+        "https://derila.com/derila/return",
+        "https://support.derila.com/en/support/home",
+        "https://support.derila.com/en/support/home"
+      ],
+      [
+        "https://derila.com/derila/terms",
+        "https://derila.com/derila/privacy",
+        "https://derila.com/derila/shipping",
+        "https://derila.com/derila/about-us",
+        "https://ekomlita.everflowclient.io/affiliate/signup/?q=5J473L",
+        "https://derila.com/derila/user-guide",
+        "https://derila.com/derila/cookie-policy"
+      ],
+      [
+        "tel://+14046788537",
+        "tel://+442080891401",
+        "tel://+498004009820",
+        "tel://+61390216802",
+        "https://derila.com/derila/contact"
+      ]
+    ]
+  },
+  "cookieConsent": {
+    "policy": "https://derila.com/derila/cookie-policy"
+  },
+  "tracker": "https://tracktor.derila.com/"
+}

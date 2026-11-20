@@ -1,0 +1,29 @@
+{
+  "hero": {
+    "advertisingDisclosure": "https://primepicks.review/legal/advertising-disclosure/"
+  },
+  "lead": "https://tagsleyshop.com/pp/us/",
+  "productRankings": [
+    "https://tagsleyshop.com/pp/us/",
+    "https://www.target.com/p/tile-by-life360-pro/-/A-91700381/#lnk=sametab",
+    "https://www.eufy.com/products/t87b2011/?variant=42123903107258",
+    "https://pebblebee.com/products/pebblebee-card-universal/",
+    "https://nomadgoods.com/eu/products/tracking-card/"
+  ],
+  "topPick": "https://tagsleyshop.com/pp/us/",
+  "stickyCta": "https://tagsleyshop.com/pp/us/",
+  "review": {
+    "sale": "https://tagsleyshop.com/pp/us/"
+  },
+  "offer": "https://tagsleyshop.com/pp/us/",
+  "sidebar": "https://tagsleyshop.com/pp/us/",
+  "footer": {
+    "nav": [
+      "https://primepicks.review/legal/about-us/",
+      "https://primepicks.review/legal/terms-of-use/",
+      "https://primepicks.review/legal/privacy-policy/",
+      "https://primepicks.review/legal/advertising-disclosure/",
+      "https://primepicks.review/legal/contact-us/"
+    ]
+  }
+}

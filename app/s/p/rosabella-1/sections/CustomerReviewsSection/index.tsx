@@ -6,7 +6,7 @@ import { CustomerReviewCard } from "./components/CustomerReviewCard"
 
 export const CustomerReviewsSection = () => {
   const [showMore, setShowMore] = useState(false);
-  const { eyebrow, heading, loadMoreText, initial, additional } = copy.customerReviews;
+  const { eyebrow, headline, loadMoreText, initial, additional } = copy.reviews;
 
   return (
     <div className="items-stretch box-border caret-transparent flex flex-wrap justify-start max-w-full outline-[3px] pb-[30px] px-5 md:flex-nowrap md:pb-[60px]">
@@ -16,7 +16,7 @@ export const CustomerReviewsSection = () => {
             {eyebrow}
           </div>
           <div className="text-black text-[26px] font-semibold box-border caret-transparent tracking-[-0.96px] leading-[33.8px] outline-[3px] text-center font-montserrat md:text-[32px] md:leading-[41.6px]">
-            {heading}
+            {headline}
           </div>
           <div className="items-center box-border caret-transparent flex justify-start outline-[3px] text-left w-full mt-4 md:justify-center">
             <img

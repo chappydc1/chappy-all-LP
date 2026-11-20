@@ -33,7 +33,7 @@ export const RosabellaAlertBanner = () => {
                             UPDATE:{" "}
                           </strong>
                           <strong className="text-[15.4583px] font-bold box-border caret-transparent leading-[23.1875px] outline-[3px] md:text-[19px] md:leading-[28.5px]">
-                            {copy.alertBanner.message}
+                            {copy.announcementBar.message}
                           </strong>
                         </p>
                       </div>

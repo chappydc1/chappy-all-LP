@@ -1,16 +1,21 @@
 import type { ReactNode } from "react";
 import copy from "./copy.json";
+import links from "./links.json";
 import media from "./media.json";
 
 type Source = { href: string; text: string };
 
 type BodySection =
   | { type: "p" | "h2" | "h3"; text?: string }
-  | { type: "figure"; mediaKey: keyof typeof media }
+  | { type: "figure"; mediaKey: string }
   | { type: "list"; items: string[] };
 
+const ACTIVE_NAV_CATEGORY_INDEX = 3;
+
+const AVATAR_COLOR_CLASS = "bg-sky-300";
+
 // Body text embeds citation markers like "[3]" instead of raw HTML links, so
-// they render as real superscript links to `article.sources[N - 1]` without
+// they render as real superscript links to `references[N - 1]` without
 // needing dangerouslySetInnerHTML.
 const CITATION_MARKER = /\[(\d+)\]/g;
 
@@ -100,9 +105,38 @@ function ArticleSection({ section, sources }: { section: BodySection; sources: S
   return null;
 }
 
+const paragraphs = (texts: string[]): BodySection[] => texts.map((text) => ({ type: "p", text }));
+
+const figure = (mediaKey: string): BodySection[] => (mediaKey ? [{ type: "figure", mediaKey }] : []);
+
+const buildArticleBody = (): BodySection[] => {
+  const { lead, problem, agitation, solution, productRankings, topPick } = copy;
+  return [
+    ...paragraphs(lead.body),
+    { type: "h2", text: problem.headline },
+    ...paragraphs(problem.body),
+    ...figure(media.figures.agitation),
+    ...paragraphs(agitation.body),
+    { type: "h2", text: solution.headline },
+    ...paragraphs(solution.body),
+    { type: "h2", text: productRankings.headline },
+    ...paragraphs(productRankings.body),
+    ...productRankings.items.flatMap((item, i): BodySection[] => [
+      { type: "h3", text: item.name },
+      ...paragraphs(item.body),
+      ...figure(media.figures.productRankings[i]),
+    ]),
+    { type: "h2", text: topPick.headline },
+    ...paragraphs(topPick.body),
+    { type: "list", items: topPick.bullets },
+    ...paragraphs([topPick.closing]),
+  ];
+};
+
 export default function HealthinsiderGynocologistPage() {
-  const { nav, disclosure, breadcrumbs, article, newsletter, footer } = copy;
+  const { nav, disclaimer, breadcrumbs, hero, urgency, finalCta, references, share, comments, newsletter, footer } = copy;
   const m = media;
+  const sources: Source[] = references.items.map((text, i) => ({ href: links.references[i], text }));
 
   return (
     <div className="text-black text-base font-normal">
@@ -111,7 +145,7 @@ export default function HealthinsiderGynocologistPage() {
         <div className="relative items-stretch flex h-full justify-between max-w-none outline-[3px] mx-0 px-5 md:max-w-[1000px] md:mx-auto md:px-0">
           {/* Logo */}
           <div className="min-h-[auto] min-w-[auto] outline-[3px]">
-            <a href={nav.logoHref}>
+            <a href={links.nav.home}>
               <img
                 src={m.logo.src}
                 alt={m.logo.alt}
@@ -122,13 +156,13 @@ export default function HealthinsiderGynocologistPage() {
           {/* Desktop Nav */}
           <div className="items-center flex min-h-[auto] min-w-[auto] outline-[3px]">
             <ul className="items-center hidden leading-[14px] list-none outline-[3px] mr-[30px] pl-0 md:flex">
-              {nav.categories.map((cat) => (
-                <li key={cat.label} className="text-sm inline-block min-h-0 min-w-0 outline-[3px] align-middle mr-[30px] md:block md:min-h-[auto] md:min-w-[auto]">
+              {nav.categories.map((label, i) => (
+                <li key={label} className="text-sm inline-block min-h-0 min-w-0 outline-[3px] align-middle mr-[30px] md:block md:min-h-[auto] md:min-w-[auto]">
                   <a
-                    href={cat.href}
-                    className={`font-medium outline-[3px] uppercase md:mb-0 ${"active" in cat && cat.active ? "text-cyan-600" : "text-black hover:text-cyan-600"}`}
+                    href={links.nav.categories[i]}
+                    className={`font-medium outline-[3px] uppercase md:mb-0 ${i === ACTIVE_NAV_CATEGORY_INDEX ? "text-cyan-600" : "text-black hover:text-cyan-600"}`}
                   >
-                    {cat.label}
+                    {label}
                   </a>
                 </li>
               ))}
@@ -145,9 +179,9 @@ export default function HealthinsiderGynocologistPage() {
         <div className="relative max-w-none outline-[3px] mx-0 px-5 md:max-w-[1000px] md:mx-auto md:px-0">
           <div className="max-w-[854px] outline-[3px] mx-auto">
             <div className="text-neutral-500 text-sm leading-5 outline-[3px] my-[15px] md:my-5">
-              {disclosure.text}{" "}
-              <a href={disclosure.linkHref} className="outline-[3px] underline">
-                {disclosure.linkText}
+              {disclaimer.text}{" "}
+              <a href={links.disclaimer} className="outline-[3px] underline">
+                {disclaimer.linkText}
               </a>
               .
             </div>
@@ -160,18 +194,18 @@ export default function HealthinsiderGynocologistPage() {
         <div className="relative max-w-none outline-[3px] mx-0 px-5 md:max-w-[1000px] md:mx-auto md:px-0">
           <div className="max-w-[854px] outline-[3px] mx-auto">
             <span className="text-[10px] items-center flex shrink-0 outline-[3px] overflow-hidden md:text-xs">
-              {breadcrumbs.map((crumb, i) => (
+              {breadcrumbs.map((label, i) => (
                 <span key={i} className="text-[10px] items-center flex shrink-0 min-h-[auto] min-w-[auto] outline-[3px] overflow-hidden md:text-xs">
-                  {"href" in crumb && crumb.href ? (
+                  {links.breadcrumbs[i] ? (
                     <a
-                      href={crumb.href}
+                      href={links.breadcrumbs[i]}
                       className="text-[10px] items-center flex shrink-0 min-h-[auto] min-w-[auto] outline-[3px] text-nowrap md:text-xs hover:text-cyan-600 after:content-['>'] after:mx-2 after:text-black"
                     >
-                      {crumb.label}
+                      {label}
                     </a>
                   ) : (
                     <span className="text-neutral-500 text-[10px] items-center block min-h-[auto] min-w-[auto] outline-[3px] text-ellipsis text-nowrap align-middle overflow-hidden md:text-xs">
-                      {crumb.label}
+                      {label}
                     </span>
                   )}
                 </span>
@@ -188,7 +222,7 @@ export default function HealthinsiderGynocologistPage() {
             {/* Article Header */}
             <div className="outline-[3px]">
               <h1 className="text-black text-[22px] font-bold border-b-zinc-300 leading-[30px] outline-[3px] pb-5 border-b md:text-3xl md:leading-10 md:pb-[25px]">
-                {article.headline}
+                {hero.headline}
               </h1>
 
               {/* Article Meta */}
@@ -197,27 +231,27 @@ export default function HealthinsiderGynocologistPage() {
                   <div className="text-[11px] inline-block leading-5 outline-[3px] align-middle">
                     <div className="block leading-[22px] outline-[3px] align-middle md:inline-block">
                       <span className="inline-block outline-[3px] align-middle">Published By </span>
-                      <span className="text-cyan-600 font-bold inline-block outline-[3px] align-middle">{article.meta.publishedBy}</span>
+                      <span className="text-cyan-600 font-bold inline-block outline-[3px] align-middle">{hero.byline.publishedBy}</span>
                       <span className="font-semibold inline-block outline-[3px] align-middle mx-[5px]">|</span>
-                      <a href={article.meta.categoryHref} className="font-bold inline-block outline-[3px] align-middle">{article.meta.category}</a>
+                      <a href={links.hero.category} className="font-bold inline-block outline-[3px] align-middle">{hero.byline.category}</a>
                     </div>
                     <div className="block leading-[22px] outline-[3px] align-middle md:inline-block">
                       <span className="hidden outline-[3px] align-middle mx-[5px] md:inline-block">•</span>
                       <span className="inline-block outline-[3px] align-middle">
-                        <span>Last update: </span>{article.meta.lastUpdate}
+                        <span>Last update: </span>{hero.byline.lastUpdate}
                       </span>
                       <span className="inline-block outline-[3px] align-middle mx-[5px]">•</span>
                       <span className="inline-block outline-[3px] align-middle mr-[7px]">
                         <img src={m.icons.comments} alt="comments" className="inline h-2.5 w-[10.58px] mr-[5px]" />
-                        <span className="align-middle">{article.meta.commentsCount}</span>
+                        <span className="align-middle">{hero.byline.commentsCount}</span>
                       </span>
                       <span className="inline-block outline-[3px] align-middle mr-[7px]">
                         <img src={m.icons.views} alt="views" className="inline h-[9px] w-[15.77px] mr-[5px]" />
-                        <span className="align-middle">{article.meta.viewsCount}</span>
+                        <span className="align-middle">{hero.byline.viewsCount}</span>
                       </span>
                       <span className="inline-block outline-[3px] align-middle">
                         <img src={m.icons.readingTime} alt="reading-time" className="inline h-[11px] w-[7.69px] mr-[5px]" />
-                        <span className="align-middle">{article.meta.readTime}</span>
+                        <span className="align-middle">{hero.byline.readTime}</span>
                       </span>
                     </div>
                   </div>
@@ -233,17 +267,17 @@ export default function HealthinsiderGynocologistPage() {
                 />
 
                 {/* Article Body Sections */}
-                {(article.body as BodySection[]).map((section, i) => (
-                  <ArticleSection key={i} section={section} sources={article.sources} />
+                {buildArticleBody().map((section, i) => (
+                  <ArticleSection key={i} section={section} sources={sources} />
                 ))}
 
                 {/* Important Update Box */}
                 <div className="outline-[3px] border-rose-600 p-[30px] border-[3px] border-solid">
                   <h3 className="text-black text-[27px] font-bold outline-[3px] mb-[30px]">
-                    <span className="font-normal">{article.importantUpdate.label}</span>
+                    <span className="font-normal">{urgency.eyebrow}</span>
                   </h3>
                   <p className="text-black text-lg leading-[30px] outline-[3px] mb-[30px]">
-                    {article.importantUpdate.text}
+                    {urgency.body}
                   </p>
                 </div>
 
@@ -253,16 +287,16 @@ export default function HealthinsiderGynocologistPage() {
               {/* CTA Box */}
               <div className="bg-zinc-100 outline-[3px] text-center w-full mt-10 p-[30px]">
                 <div className="text-black text-2xl font-bold leading-[34px] outline-[3px]">
-                  {article.cta.heading}
+                  {finalCta.headline}
                 </div>
                 <a
-                  href={article.cta.buttonHref}
+                  href={links.finalCta}
                   className="text-white text-lg font-bold bg-rose-600 inline-block outline-[3px] w-full mt-5 px-[30px] py-[15px] md:w-auto hover:bg-rose-700"
                 >
-                  {article.cta.buttonText}
+                  {finalCta.ctaText}
                 </a>
                 <div className="text-zinc-400 text-xs leading-5 outline-[3px] mt-5">
-                  {article.cta.disclaimer}
+                  {finalCta.disclaimer}
                 </div>
               </div>
 
@@ -274,10 +308,10 @@ export default function HealthinsiderGynocologistPage() {
                     alt="plus"
                     className="absolute w-[18px] left-0 top-2/4 -translate-y-1/2"
                   />
-                  {article.sourcesLabel}
+                  {references.label}
                 </p>
                 <ol className="hidden list-inside list-decimal outline-[3px] ml-[25px] mt-5 mb-[30px] pl-0">
-                  {article.sources.map((source, i) => (
+                  {sources.map((source, i) => (
                     <li key={i} className="text-[13px] font-extralight leading-[30px] outline-[3px] mb-2.5">
                       <p className="text-black inline outline-[3px]">
                         {source.text}
@@ -293,17 +327,17 @@ export default function HealthinsiderGynocologistPage() {
 
               {/* Share Bar */}
               <div className="text-neutral-500 text-[10px] font-medium items-center border-t-zinc-300 flex justify-end outline-[3px] uppercase mt-5 pt-5 border-t">
-                <div className="min-h-[auto] min-w-[auto] outline-[3px]">{article.shareBar.label}</div>
-                <a href={article.shareBar.facebook} className="block min-h-[auto] min-w-[auto] outline-[3px] ml-[23px]">
+                <div className="min-h-[auto] min-w-[auto] outline-[3px]">{share.label}</div>
+                <a href={links.share.facebook} className="block min-h-[auto] min-w-[auto] outline-[3px] ml-[23px]">
                   <img src={m.icons.facebookShare} alt="facebook" className="inline h-4 w-3 align-baseline" />
                 </a>
-                <a href={article.shareBar.twitter} className="block min-h-[auto] min-w-[auto] outline-[3px] ml-[15px]">
+                <a href={links.share.twitter} className="block min-h-[auto] min-w-[auto] outline-[3px] ml-[15px]">
                   <img src={m.icons.twitterShare} alt="twitter" className="inline h-4 w-5 align-baseline" />
                 </a>
-                <a href={article.shareBar.pinterest} className="block min-h-[auto] min-w-[auto] outline-[3px] ml-[15px]">
+                <a href={links.share.pinterest} className="block min-h-[auto] min-w-[auto] outline-[3px] ml-[15px]">
                   <img src={m.icons.pinterestShare} alt="pinterest" className="inline h-4 w-4 align-baseline" />
                 </a>
-                <a href={article.shareBar.linkedin} className="block min-h-[auto] min-w-[auto] outline-[3px] ml-[15px]">
+                <a href={links.share.linkedin} className="block min-h-[auto] min-w-[auto] outline-[3px] ml-[15px]">
                   <img src={m.icons.linkedinShare} alt="linkedin" className="inline h-4 w-5 align-baseline" />
                 </a>
               </div>
@@ -311,15 +345,15 @@ export default function HealthinsiderGynocologistPage() {
               {/* Comments */}
               <div className="relative outline-[3px] mt-10">
                 <h2 className="text-black text-[22px] font-bold outline-[3px] mb-[30px]">
-                  {article.comments.heading}{" "}
-                  <span className="outline-[3px]">({article.comments.count})</span>
+                  {comments.headline}{" "}
+                  <span className="outline-[3px]">({comments.count})</span>
                 </h2>
                 <ol className="list-none outline-[3px] pl-0">
-                  {article.comments.items.map((comment) => (
-                    <li key={comment.commentId} className="border-b-zinc-100 outline-[3px] mb-5 pb-5 border-b">
+                  {comments.items.map((comment, i) => (
+                    <li key={links.comments.replies[i]} className="border-b-zinc-100 outline-[3px] mb-5 pb-5 border-b">
                       <div className="outline-[3px]">
                         <div className="items-start flex outline-[3px]">
-                          <div className={`relative ${comment.avatarColor} h-10 min-h-[auto] min-w-[auto] outline-[3px] w-10 rounded-full`}>
+                          <div className={`relative ${AVATAR_COLOR_CLASS} h-10 min-h-[auto] min-w-[auto] outline-[3px] w-10 rounded-full`}>
                             <img
                               src={m.icons.avatar}
                               alt="avatar"
@@ -338,7 +372,7 @@ export default function HealthinsiderGynocologistPage() {
                             </div>
                           </div>
                           <a
-                            href={`#comment-${comment.commentId}`}
+                            href={links.comments.replies[i]}
                             aria-label={`Reply to ${comment.username}`}
                             className="relative bg-neutral-100 block h-10 min-h-[auto] min-w-10 outline-[3px] rounded-full hover:bg-cyan-600"
                           >
@@ -362,16 +396,16 @@ export default function HealthinsiderGynocologistPage() {
                 {/* Leave a Comment Form */}
                 <div className="relative outline-[3px] my-10">
                   <h3 className="text-black text-[22px] font-bold outline-[3px] uppercase mb-2.5">
-                    {article.comments.leaveCommentHeading}
+                    {comments.form.headline}
                   </h3>
                   <form className="outline-[3px]">
                     <p className="text-neutral-500 text-[13px] leading-5 outline-[3px] mb-5">
-                      {article.comments.emailNotPublished}
+                      {comments.form.emailNotPublished}
                     </p>
                     <p className="block outline-[3px] align-middle w-full mr-[5px] md:inline-block md:w-[calc(50%_-_5px)]">
                       <input
                         name="author"
-                        placeholder={article.comments.namePlaceholder}
+                        placeholder={comments.form.namePlaceholder}
                         type="text"
                         className="appearance-none text-black text-sm font-semibold h-[50px] outline-[3px] w-full border border-zinc-300 px-[15px] py-0 border-solid"
                       />
@@ -379,34 +413,34 @@ export default function HealthinsiderGynocologistPage() {
                     <p className="block outline-[3px] align-middle w-full ml-0 mt-[15px] md:inline-block md:w-[calc(50%_-_5px)] md:ml-[5px] md:mt-0">
                       <input
                         name="email"
-                        placeholder={article.comments.emailPlaceholder}
+                        placeholder={comments.form.emailPlaceholder}
                         className="text-black text-sm font-semibold h-[50px] outline-[3px] w-full border border-zinc-300 px-[15px] py-0 border-solid"
                       />
                     </p>
                     <p className="outline-[3px] mt-2.5 mb-5">
                       <textarea
                         name="comment"
-                        placeholder={article.comments.commentPlaceholder}
+                        placeholder={comments.form.commentPlaceholder}
                         className="appearance-none text-black text-sm font-semibold h-[100px] outline-[3px] resize-none w-full border-zinc-300 p-[15px]"
                       />
                     </p>
                     <div className="text-neutral-500 text-[13px] items-start flex leading-5 outline-[3px]">
                       <div className="relative bg-white h-4 min-h-[auto] min-w-4 outline-[3px] w-4 border border-zinc-300 mt-[3px] border-solid" />
                       <label className="block min-h-[auto] min-w-[auto] outline-[3px] ml-2.5">
-                        {article.comments.saveLabel}
+                        {comments.form.saveLabel}
                       </label>
                     </div>
                     <p className="relative outline-[3px]">
-                      <label className="outline-[3px]">{article.comments.attachmentsLabel} </label>
+                      <label className="outline-[3px]">{comments.form.attachmentsLabel} </label>
                       <input name="attachment[]" type="file" className="appearance-none p-0" />
-                      <span className="block outline-[3px]">{article.comments.attachmentsNote}</span>
-                      <span className="block outline-[3px]">{article.comments.attachmentsTypes}</span>
+                      <span className="block outline-[3px]">{comments.form.attachmentsNote}</span>
+                      <span className="block outline-[3px]">{comments.form.attachmentsTypes}</span>
                     </p>
                     <div className="items-center flex flex-col outline-[3px] mt-[30px] md:flex-row">
                       <input
                         name="submit"
                         type="submit"
-                        value={article.comments.submitButtonText}
+                        value={comments.form.ctaText}
                         className="appearance-none text-white text-base font-bold bg-cyan-600 block min-h-[auto] min-w-[auto] outline-[3px] text-center text-nowrap w-full px-[45px] py-5 md:w-auto hover:bg-cyan-700"
                       />
                     </div>
@@ -435,11 +469,11 @@ export default function HealthinsiderGynocologistPage() {
             <div className="items-center flex justify-center outline-[3px] text-center md:justify-normal md:text-start">
               <img src={m.newsletterIcon.src} alt={m.newsletterIcon.alt} className="h-6 w-[26px] align-baseline" />
               <h2 className="text-white text-3xl font-bold min-h-[auto] min-w-[auto] outline-[3px] uppercase ml-5">
-                {newsletter.heading}
+                {newsletter.headline}
               </h2>
             </div>
             <p className="text-white leading-[22px] outline-[3px] text-center mt-[15px] md:text-start">
-              {newsletter.description}
+              {newsletter.body}
             </p>
           </div>
           <form className="flex basis-6/12 flex-col min-h-[auto] min-w-[auto] outline-[3px] w-full md:flex-row md:w-auto">
@@ -452,7 +486,7 @@ export default function HealthinsiderGynocologistPage() {
               type="submit"
               className="text-white font-bold bg-rose-600 block h-auto min-h-[60px] min-w-[30%] outline-[3px] text-center text-wrap w-full ml-0 mt-4 px-[30px] py-0 md:h-[60px] md:min-h-[auto] md:min-w-[auto] md:text-nowrap md:w-auto md:ml-2.5 md:mt-0 hover:bg-rose-700"
             >
-              {newsletter.buttonText}
+              {newsletter.ctaText}
             </button>
           </form>
         </div>
@@ -464,41 +498,41 @@ export default function HealthinsiderGynocologistPage() {
           {/* Footer nav columns — desktop grid */}
           <div className="hidden grid-cols-[25%_50%_25%] justify-center order-2 outline-[3px] pb-10 border-b border-b-neutral-700 md:grid md:justify-normal md:order-none">
             <div className="hidden min-h-0 min-w-0 outline-[3px] align-top w-[85%] md:block md:min-h-[auto] md:min-w-[auto]">
-              <a href={footer.logoHref}>
+              <a href={links.footer.home}>
                 <img src={m.footerLogo.src} alt={m.footerLogo.alt} className="h-10 max-w-[110px] min-w-[110px] w-[110px] align-baseline" />
               </a>
               <div className="items-center flex outline-[3px] mt-[30px]">
-                <a href={footer.social.facebook} className="block min-h-0 min-w-0 outline-[3px] mr-5 md:min-h-[auto] md:min-w-[auto]">
+                <a href={links.footer.social.facebook} className="block min-h-0 min-w-0 outline-[3px] mr-5 md:min-h-[auto] md:min-w-[auto]">
                   <img src={m.icons.facebookFooter} alt="Facebook" className="inline h-5 w-3 align-baseline" />
                 </a>
-                <a href={footer.social.twitter} className="block min-h-0 min-w-0 outline-[3px] mr-5 md:min-h-[auto] md:min-w-[auto]">
+                <a href={links.footer.social.twitter} className="block min-h-0 min-w-0 outline-[3px] mr-5 md:min-h-[auto] md:min-w-[auto]">
                   <img src={m.icons.twitterFooter} alt="twitter" className="inline h-[17px] w-[21px] align-baseline" />
                 </a>
-                <a href={footer.social.pinterest} className="block min-h-0 min-w-0 outline-[3px] mr-5 md:min-h-[auto] md:min-w-[auto]">
+                <a href={links.footer.social.pinterest} className="block min-h-0 min-w-0 outline-[3px] mr-5 md:min-h-[auto] md:min-w-[auto]">
                   <img src={m.icons.pinterestFooter} alt="Pinterest" className="inline h-5 w-4 align-baseline" />
                 </a>
-                <a href={footer.social.youtube} className="block min-h-0 min-w-0 outline-[3px] mr-5 md:min-h-[auto] md:min-w-[auto]">
+                <a href={links.footer.social.youtube} className="block min-h-0 min-w-0 outline-[3px] mr-5 md:min-h-[auto] md:min-w-[auto]">
                   <img src={m.icons.youtubeFooter} alt="youtube" className="inline h-[15px] w-[21px] align-baseline" />
                 </a>
-                <a href={footer.social.instagram} className="block min-h-0 min-w-0 outline-[3px] md:min-h-[auto] md:min-w-[auto]">
+                <a href={links.footer.social.instagram} className="block min-h-0 min-w-0 outline-[3px] md:min-h-[auto] md:min-w-[auto]">
                   <img src={m.icons.instagramFooter} alt="HI instagram icon" className="inline h-5 w-5 align-baseline" />
                 </a>
               </div>
             </div>
             <div className="inline-block basis-6/12 min-h-0 min-w-0 outline-[3px] align-top md:block md:basis-auto md:min-h-[auto] md:min-w-[auto]">
               <ul className="grid grid-cols-[1fr_1fr] outline-[3px] gap-y-[15px] pl-0">
-                {footer.categories.map((cat) => (
-                  <li key={cat.label} className="min-h-0 min-w-0 outline-[3px] md:min-h-[auto] md:min-w-[auto]">
-                    <a href={cat.href} className="text-white text-xs outline-[3px] uppercase hover:text-cyan-600">{cat.label}</a>
+                {footer.categories.map((label, i) => (
+                  <li key={label} className="min-h-0 min-w-0 outline-[3px] md:min-h-[auto] md:min-w-[auto]">
+                    <a href={links.footer.categories[i]} className="text-white text-xs outline-[3px] uppercase hover:text-cyan-600">{label}</a>
                   </li>
                 ))}
               </ul>
             </div>
             <div className="inline-block basis-6/12 min-h-0 min-w-0 outline-[3px] align-top md:block md:basis-auto md:min-h-[auto] md:min-w-[auto]">
               <ul className="grid grid-cols-[1fr_1fr] outline-[3px] gap-y-[15px] pl-0 md:block">
-                {footer.links.map((link) => (
-                  <li key={link.label} className="outline-[3px] mb-0 md:mb-[15px]">
-                    <a href={link.href} className="text-white text-xs outline-[3px] uppercase hover:text-cyan-600">{link.label}</a>
+                {footer.links.map((label, i) => (
+                  <li key={label} className="outline-[3px] mb-0 md:mb-[15px]">
+                    <a href={links.footer.links[i]} className="text-white text-xs outline-[3px] uppercase hover:text-cyan-600">{label}</a>
                   </li>
                 ))}
               </ul>
@@ -510,13 +544,13 @@ export default function HealthinsiderGynocologistPage() {
             <div className="min-h-[auto] min-w-[auto] outline-[3px] align-top w-full mb-5 pr-0 md:w-[85%] md:mb-0 md:pr-[30px]">
               <p className="outline-[3px]">
                 {footer.copyright}{" "}
-                <a href={footer.additionalInfoHref} className="outline-[3px] underline">{footer.additionalInfoText}</a>.
+                <a href={links.footer.additionalInfo} className="outline-[3px] underline">{footer.additionalInfoText}</a>.
               </p>
             </div>
             <div className="shrink-0 min-h-[auto] min-w-[auto] outline-[3px] align-top">
               <ul className="list-none outline-[3px] pl-0">
                 <li className="outline-[3px]">
-                  <a href={footer.privacyPolicy.href} className="outline-[3px] uppercase">{footer.privacyPolicy.label}</a>
+                  <a href={links.footer.privacyPolicy} className="outline-[3px] uppercase">{footer.privacyPolicy}</a>
                 </li>
               </ul>
             </div>

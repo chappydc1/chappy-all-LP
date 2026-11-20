@@ -51,7 +51,11 @@
           "https://assets.imagehub.io/0fae3c70-45dd-11ee-86e4-45d907ee05ed/1713871732712_b.jpg"
         ]
       }
-    }
+    },
+    "testimonialKeys": [
+      "charlotte",
+      "william"
+    ]
   },
   "sidebar": {
     "productImageSrc": "https://assets.imagehub.io/0fae3c70-45dd-11ee-86e4-45d907ee05ed/1712996201769_1712082719605_1706799612968_ZCM_Product_v001.png",
@@ -95,7 +99,97 @@
     "photos": {
       "leonard_massager": "https://assets.imagehub.io/0fae3c70-45dd-11ee-86e4-45d907ee05ed/1713875379985_1_1_.jpg",
       "isabella_delivery": "https://assets.imagehub.io/0fae3c70-45dd-11ee-86e4-45d907ee05ed/1712230344532_11.jpg"
-    }
+    },
+    "threads": [
+      {
+        "avatar": "wilma",
+        "replies": [
+          {
+            "avatar": "mary"
+          }
+        ]
+      },
+      {
+        "avatar": "doris"
+      },
+      {
+        "avatar": "skyler",
+        "replies": [
+          {
+            "avatar": "marie"
+          }
+        ]
+      },
+      {
+        "avatar": "leonard",
+        "photo": "leonard_massager"
+      },
+      {
+        "avatar": "emma_e",
+        "replies": [
+          {
+            "avatar": "lois"
+          }
+        ]
+      },
+      {
+        "avatar": "alfred",
+        "replies": [
+          {
+            "avatar": "edith"
+          }
+        ]
+      },
+      {
+        "avatar": "debra"
+      },
+      {
+        "avatar": "paula",
+        "replies": [
+          {
+            "avatar": "sarah"
+          }
+        ]
+      },
+      {
+        "avatar": "agnes"
+      },
+      {
+        "avatar": "barbara"
+      },
+      {
+        "avatar": "ethel",
+        "replies": [
+          {
+            "avatar": "clara"
+          },
+          {
+            "avatar": "emma_s"
+          }
+        ]
+      },
+      {
+        "avatar": "harry"
+      },
+      {
+        "avatar": "bridget"
+      },
+      {
+        "avatar": "anna"
+      },
+      {
+        "avatar": "clara",
+        "replies": [
+          {
+            "avatar": "kate"
+          }
+        ]
+      },
+      {
+        "avatar": "isabella",
+        "photo": "isabella_delivery"
+      }
+    ]
   },
   "footer": {
     "logoSrc": "https://assets.imagehub.io/0fae3c70-45dd-11ee-86e4-45d907ee05ed/1711366759829_bitmap.png",

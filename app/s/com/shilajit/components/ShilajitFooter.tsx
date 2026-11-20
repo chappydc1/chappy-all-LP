@@ -6,22 +6,23 @@ type FooterProps = {
     brand: string;
     tagline: string;
     newsletter: {
-      title: string;
+      headline: string;
       placeholder: string;
-      cta: string;
+      ctaText: string;
       successMessage: string;
     };
-    links: { label: string; href: string }[];
+    links: string[];
     copyright: string;
     advertisingDisclosure: string;
   };
+  links: string[];
   media: {
     footerBg: string;
     footerLogo: string;
   };
 };
 
-export function ShilajitFooter({ adv, media }: FooterProps) {
+export function ShilajitFooter({ adv, links, media }: FooterProps) {
   const [email, setEmail] = useState("");
   const [submitted, setSubmitted] = useState(false);
   const [error, setError] = useState("");
@@ -45,7 +46,7 @@ export function ShilajitFooter({ adv, media }: FooterProps) {
           className="absolute hue-rotate-[195deg] h-[220px] w-full rounded-t-none left-0 top-0 md:h-auto md:rounded-t-xl object-cover"
         />
         <div className="relative text-white text-[26.6px] font-bold leading-[35px] text-left w-full pl-0 md:text-[30.8px] md:w-[70%] md:pl-[25px]">
-          {adv.newsletter.title}
+          {adv.newsletter.headline}
         </div>
         {submitted ? (
           <div className="relative text-green-400 font-bold text-base z-10 mt-4 md:mt-0">
@@ -67,7 +68,7 @@ export function ShilajitFooter({ adv, media }: FooterProps) {
               onClick={handleSubmit}
               className="text-white text-[16.8px] font-bold bg-stone-900 h-[45px] min-w-full w-1/5 z-20 px-[25px] py-[5px] rounded-[50px] md:min-w-[170px] cursor-pointer"
             >
-              {adv.newsletter.cta}
+              {adv.newsletter.ctaText}
             </button>
           </div>
         )}
@@ -87,10 +88,10 @@ export function ShilajitFooter({ adv, media }: FooterProps) {
         <div className="flex flex-col w-max mt-10 md:flex-row md:mt-0">
           <div className="font-bold text-left pr-10 pb-5 md:pb-0">{adv.brand}</div>
           <ul className="gap-x-5 flex flex-col list-none gap-y-2.5 text-left pl-0 md:grid md:grid-cols-[repeat(2,minmax(120px,1fr))] md:flex-row">
-            {adv.links.map((link) => (
-              <li key={link.label}>
-                <a href={link.href}>
-                  {link.label}
+            {adv.links.map((label, i) => (
+              <li key={label}>
+                <a href={links[i]}>
+                  {label}
                 </a>
               </li>
             ))}

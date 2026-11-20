@@ -2,7 +2,7 @@ import copy from "../../../copy.json"
 import media from "../../../media.json"
 
 export const MoneyBackGuarantee = () => {
-  const { label, title, body, points } = copy.surveyResults.guarantee;
+  const { label, title, body, points } = copy.guarantee;
   return (
     <div className="relative box-border caret-transparent flex flex-col outline-[3px] w-full mt-[143px] px-[23px] md:flex-row md:-mt-5 md:px-0">
       <div className="absolute box-border caret-transparent basis-full shrink-0 max-w-[207px] min-h-0 min-w-0 outline-[3px] top-[-111px] w-6/12 right-[15px] md:static md:basis-[396px] md:max-w-none md:min-h-[auto] md:min-w-[auto] md:w-full md:right-auto md:top-auto">

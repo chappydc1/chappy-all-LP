@@ -1,4 +1,6 @@
 import adv from "../../../copy.json";
+import links from "../../../links.json";
+import media from "../../../media.json";
 import { DerilaFooterLogo } from "./DerilaFooterLogo";
 import { DerilaFooterColumn } from "./DerilaFooterColumn";
 
@@ -12,8 +14,16 @@ export const DerilaFooterMain = () => {
       <div className="box-border caret-transparent gap-x-[120px] flex flex-col outline-[3px] md:flex-row">
         <hr className="caret-transparent block h-0 min-h-[auto] min-w-[auto] opacity-[0.16] outline-[3px] overflow-visible mb-6 border-b-0 border-x-0 border-white md:hidden md:min-h-0 md:min-w-0" />
         <div className="box-border caret-transparent gap-x-6 grid grid-cols-none min-h-[auto] min-w-[auto] outline-[3px] gap-y-6 w-full md:grid-cols-[repeat(4,minmax(0px,1fr))]">
-          {columns.map((col) => (
-            <DerilaFooterColumn key={col.title} title={col.title} items={col.items} />
+          {columns.map((col, colIndex) => (
+            <DerilaFooterColumn
+              key={col.title}
+              title={col.title}
+              items={col.items.map((text, i) => ({
+                text,
+                href: links.footer.columns[colIndex][i],
+                iconKey: media.footerIcons[colIndex][i],
+              }))}
+            />
           ))}
         </div>
       </div>

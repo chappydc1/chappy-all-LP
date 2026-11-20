@@ -6,13 +6,13 @@ const CONNECTOR_BASE = "absolute items-start box-border caret-transparent flex h
 const CONNECTOR_LAST = "absolute items-start box-border caret-transparent flex h-full justify-start outline-[3px] w-full top-2 md:h-auto md:-top-8";
 
 export const ResultsTimelineSection = () => {
-  const { heading, items } = copy.resultsTimeline;
+  const { headline, items } = copy.resultsTimeline;
   return (
     <div className="items-stretch bg-stone-200 box-border caret-transparent flex flex-wrap justify-start max-w-full outline-[3px] px-5 py-[30px] md:flex-nowrap md:py-[60px]">
       <div className="relative box-border caret-transparent basis-full grow max-w-[1328px] min-h-2.5 outline-[3px] w-min mx-auto md:basis-0">
         <div className="box-border caret-transparent outline-[3px] w-full">
           <div className="text-black text-[26px] font-semibold box-border caret-transparent tracking-[-0.96px] leading-[33.8px] outline-[3px] text-center font-montserrat md:text-[32px] md:leading-[41.6px]">
-            {heading}
+            {headline}
           </div>
           <div className="box-border caret-transparent flex flex-col outline-[3px] w-full mt-[30px] md:flex-row md:mt-[72px]">
             {items.map((item, i) => (

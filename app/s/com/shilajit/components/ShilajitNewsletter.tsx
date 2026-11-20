@@ -3,10 +3,10 @@ import { useState } from "react";
 
 type NewsletterProps = {
   copy: {
-    title: string;
-    subtitle: string;
+    headline: string;
+    subheadline: string;
     placeholder: string;
-    cta: string;
+    ctaText: string;
     successMessage: string;
   };
 };
@@ -29,10 +29,10 @@ export function ShilajitNewsletter({ copy }: NewsletterProps) {
     <div className="items-center bg-stone-900 flex flex-col justify-center w-full mt-10 p-2.5 rounded-none md:p-5 md:rounded-xl">
       <div className="relative items-center flex flex-col h-full justify-center w-full pt-[15px] pb-[30px] px-5 rounded-[10px] md:pb-[15px] md:px-[100px]">
         <div className="relative text-white text-[28px] font-bold leading-[36.4px] max-w-[220px] mt-[5px] mb-2.5 md:leading-7 md:max-w-none">
-          {copy.title}
+          {copy.headline}
         </div>
         <div className="text-white text-[15.4px] leading-[20.482px] max-w-[300px] mt-[5px] mb-5 md:max-w-none">
-          {copy.subtitle}
+          {copy.subheadline}
         </div>
         {submitted ? (
           <div className="text-green-400 font-bold text-lg py-4">
@@ -54,7 +54,7 @@ export function ShilajitNewsletter({ copy }: NewsletterProps) {
               onClick={handleSubmit}
               className="text-white text-[15.4px] font-light bg-sky-500 h-10 w-[300px] ml-0 px-[25px] py-[5px] rounded-[45px] md:w-40 md:ml-2.5 cursor-pointer"
             >
-              {copy.cta}
+              {copy.ctaText}
             </button>
           </div>
         )}

@@ -7,12 +7,14 @@ type MainProps = {
   subheading: string;
   date: string;
   products: Parameters<typeof ForbesProductList>[0]["products"];
+  productLinks: string[];
   productImages: Parameters<typeof ForbesProductList>[0]["productImages"];
   articleMedia: Parameters<typeof ForbesProductList>[0]["articleMedia"];
   ui: Parameters<typeof ForbesProductList>[0]["ui"];
   articles: Parameters<typeof ForbesProductList>[0]["articles"];
   medviUrl: string;
   remedyUrl: string;
+  offerUrl: string;
 };
 
 export const ForbesMain = ({
@@ -21,12 +23,14 @@ export const ForbesMain = ({
   subheading,
   date,
   products,
+  productLinks,
   productImages,
   articleMedia,
   ui,
   articles,
   medviUrl,
   remedyUrl,
+  offerUrl,
 }: MainProps) => {
   return (
     <main className="box-border caret-transparent grow min-h-[auto] min-w-[auto]">
@@ -44,12 +48,14 @@ export const ForbesMain = ({
               </div>
               <ForbesProductList
                 products={products}
+                productLinks={productLinks}
                 productImages={productImages}
                 articleMedia={articleMedia}
                 ui={ui}
                 articles={articles}
                 medviUrl={medviUrl}
                 remedyUrl={remedyUrl}
+                offerUrl={offerUrl}
               />
             </div>
           </div>

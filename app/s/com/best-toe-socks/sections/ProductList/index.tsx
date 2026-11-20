@@ -3,7 +3,7 @@
 import { useState } from "react";
 
 import { ChevronDownIcon } from "../../components/icons";
-import type { BestToeSocksCopy, BestToeSocksMedia } from "../../types";
+import type { BestToeSocksCopy, BestToeSocksLinks, BestToeSocksMedia } from "../../types";
 import { BestToeSocksProductCard } from "./components/BestToeSocksProductCard";
 import { BestToeSocksPromoCard } from "./components/BestToeSocksPromoCard";
 
@@ -11,26 +11,27 @@ const INITIAL_VISIBLE_PRODUCTS = 3;
 
 type ProductListProps = {
   copy: BestToeSocksCopy;
+  links: BestToeSocksLinks;
   media: BestToeSocksMedia;
 };
 
-export function BestToeSocksProductList({ copy, media }: ProductListProps): JSX.Element {
+export function BestToeSocksProductList({ copy, links, media }: ProductListProps): JSX.Element {
   const [expanded, setExpanded] = useState(false);
   const visibleProducts = expanded
-    ? copy.products
-    : copy.products.slice(0, INITIAL_VISIBLE_PRODUCTS);
+    ? copy.productRankings.items
+    : copy.productRankings.items.slice(0, INITIAL_VISIBLE_PRODUCTS);
 
   return (
     <div className="mx-auto max-w-[1032px] px-4 pt-3 md:pt-0">
       <div className="flex flex-col gap-6 text-sm leading-[1.5] text-[#636363] md:text-lg md:leading-6 [&_a]:font-bold [&_a]:text-[#0060C3] [&_a]:underline">
-        {copy.hero.introParagraphs.map((html) => (
+        {copy.lead.body.map((html) => (
           <p
             key={html}
             className="hidden md:block"
             dangerouslySetInnerHTML={{ __html: html }}
           />
         ))}
-        {copy.hero.introMobileParagraphs.map((html) => (
+        {copy.lead.mobileBody.map((html) => (
           <p
             key={html}
             className="md:hidden"
@@ -43,9 +44,11 @@ export function BestToeSocksProductList({ copy, media }: ProductListProps): JSX.
         <BestToeSocksProductCard
           key={product.name}
           product={product}
+          href={links.productRankings[index]}
+          featured={index === 0}
           productMedia={media.products[index]}
           badgeSrc={media.smarterChoiceBadge}
-          labels={copy.labels}
+          labels={copy.ui}
         />
       ))}
 
@@ -61,13 +64,14 @@ export function BestToeSocksProductList({ copy, media }: ProductListProps): JSX.
           </span>
         </span>
         <span className="mt-12 block w-full text-center text-lg leading-[normal] text-[#4F4F4F]">
-          {expanded ? copy.toggle.less : copy.toggle.more}
+          {expanded ? copy.productRankings.toggle.less : copy.productRankings.toggle.more}
         </span>
       </button>
 
       <BestToeSocksPromoCard
-        promo={copy.promoCard}
-        product={copy.products[0]}
+        promo={copy.topPick}
+        product={copy.productRankings.items[0]}
+        href={links.productRankings[0]}
         productMedia={media.products[0]}
       />
     </div>

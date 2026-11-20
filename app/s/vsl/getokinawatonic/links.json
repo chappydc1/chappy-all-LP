@@ -1,0 +1,29 @@
+{
+  "offer": {
+    "primary": "https://getokinawatonic.com/sp/vsl-1/?hopId=4be8dca2-401a-49f0-83a1-6c74b127cae6#productarea",
+    "secondary": "https://getokinawatonic.com/sp/vsl-1/?hopId=4be8dca2-401a-49f0-83a1-6c74b127cae6#productarea2",
+    "sticky": "https://getokinawatonic.com/sp/vsl-1/?hopId=4be8dca2-401a-49f0-83a1-6c74b127cae6#productarea"
+  },
+  "pricing": {
+    "1-bottle": {
+      "desktop": "https://fbtonic.pay.clickbank.net/?cbitems=FBTONIC-001-4&cbfid=49693&cbskin=35185&vtid=vsl1&cbexit=1925",
+      "mobile": "https://fbtonic.pay.clickbank.net/?cbitems=FBTONIC-001-4&cbfid=49693&cbskin=35181&vtid=vsl"
+    },
+    "3-bottle": {
+      "desktop": "https://fbtonic.pay.clickbank.net/?cbitems=FBTONIC-003-4&cbfid=49693&cbskin=35186&vtid=vsl1&cbexit=1925",
+      "mobile": "https://fbtonic.pay.clickbank.net/?cbitems=FBTONIC-003-4&cbfid=49693&cbskin=35182&vtid=vsl"
+    },
+    "6-bottle": {
+      "desktop": "https://fbtonic.pay.clickbank.net/?cbitems=FBTONIC-006-1&cbfid=49693&cbskin=35187&vtid=vsl1&cbexit=1925",
+      "mobile": "https://fbtonic.pay.clickbank.net/?cbitems=FBTONIC-006-1&cbfid=49693&cbskin=35184&vtid=vsl"
+    }
+  },
+  "footer": {
+    "privacy": "https://getokinawatonic.com/privacy.php",
+    "terms": "https://getokinawatonic.com/terms-conditions.php",
+    "disclaimer": "https://getokinawatonic.com/disclaimer.php",
+    "references": "https://getokinawatonic.com/references.php",
+    "returnsRefunds": "https://getokinawatonic.com/returns-refund.php",
+    "contact": "https://getokinawatonic.com/contact.php"
+  }
+}

@@ -3,7 +3,7 @@ import { VideoDesktop } from "./components/VideoDesktop";
 import { content } from "../../content";
 
 export const VideoSection = () => {
-  const v = content.video;
+  const v = content.lead;
   return (
     <div className="bg-slate-200/60 box-border caret-transparent py-0 md:pt-[59px] md:pb-[70px]">
       <div className="box-border caret-transparent max-w-none w-full mx-auto md:max-w-[1200px]">
