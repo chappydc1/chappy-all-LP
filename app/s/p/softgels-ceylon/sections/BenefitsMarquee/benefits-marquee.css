@@ -1,0 +1,19 @@
+.ceylon-lp .cy-mq.cy-bm {
+  border-bottom: 1px solid #cccccc;
+  border-top: 1px solid #cccccc;
+  padding: 4px 0;
+}
+
+.ceylon-lp .cy-bm .cy-mq-icon {
+  filter: brightness(0) saturate(100%) invert(19%) sepia(48%) saturate(1450%) hue-rotate(10deg) brightness(92%) contrast(97%);
+}
+
+.ceylon-lp .cy-bm .cy-mq-text {
+  font-weight: 700;
+}
+
+@media (max-width: 769px) {
+  .ceylon-lp .cy-bm .cy-mq-track {
+    animation-duration: 8s;
+  }
+}

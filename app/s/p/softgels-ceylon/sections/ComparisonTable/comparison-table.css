@@ -1,0 +1,324 @@
+.ceylon-lp .cy-cmp {
+  background-color: #c47245;
+  box-sizing: border-box;
+  padding: 80px 24px;
+}
+
+.ceylon-lp .cy-cmp__inner {
+  align-items: center;
+  display: grid;
+  gap: 40px;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 auto;
+  max-width: 1080px;
+}
+
+.ceylon-lp .cy-cmp__table-wrap {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  margin-top: 72px;
+  overflow: visible;
+}
+
+.ceylon-lp .cy-cmp__table {
+  border-collapse: separate;
+  border-spacing: 12px 0;
+  margin-left: -12px;
+  margin-right: -12px;
+  table-layout: fixed;
+  width: calc(100% + 24px);
+}
+
+.ceylon-lp .cy-cmp__thead-left,
+.ceylon-lp .cy-cmp__thead-right {
+  box-sizing: border-box;
+  padding: 18px 12px 16px;
+  text-align: center;
+  vertical-align: bottom;
+  width: 50%;
+}
+
+.ceylon-lp .cy-cmp__thead-left {
+  background-color: #a23b13;
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.ceylon-lp .cy-cmp__thead-right {
+  background-color: #fff;
+  border: 1.5px solid #e2e2e2;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  position: relative;
+}
+
+.ceylon-lp .cy-cmp__header-img {
+  display: block;
+  margin: 0 auto 10px;
+  object-fit: contain;
+  position: relative;
+  z-index: 5;
+}
+
+.ceylon-lp .cy-cmp__thead-left .cy-cmp__header-img {
+  margin-top: -72px;
+  width: 120px;
+}
+
+.ceylon-lp .cy-cmp__thead-right .cy-cmp__header-img {
+  margin-top: -72px;
+  width: 100px;
+}
+
+.ceylon-lp .cy-cmp__col-label {
+  display: block;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.3;
+}
+
+.ceylon-lp .cy-cmp__thead-left .cy-cmp__col-label {
+  color: #fff;
+}
+
+.ceylon-lp .cy-cmp__thead-right .cy-cmp__col-label {
+  color: #555;
+  position: relative;
+  z-index: 2;
+}
+
+.ceylon-lp .cy-cmp__table tbody td {
+  box-sizing: border-box;
+  font-size: 13.5px;
+  line-height: 1.35;
+  padding: 14px 12px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.ceylon-lp .cy-cmp__td-left {
+  background-color: #a23b13;
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+  color: #fff;
+}
+
+.ceylon-lp .cy-cmp__td-right {
+  background-color: #fff;
+  border: 1.5px solid #e2e2e2;
+  border-top: none;
+  color: #000;
+}
+
+.ceylon-lp .cy-cmp__table tr:last-child td.cy-cmp__td-left {
+  border-bottom: none;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+.ceylon-lp .cy-cmp__table tr:last-child td.cy-cmp__td-right {
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+.ceylon-lp .cy-cmp__icon {
+  display: block;
+  height: 26px;
+  margin: 0 auto 6px;
+  opacity: 0.9;
+  width: 26px;
+}
+
+.ceylon-lp .cy-cmp__cross {
+  align-items: center;
+  background-color: #786d6d;
+  border-radius: 50%;
+  display: inline-flex;
+  flex-shrink: 0;
+  height: 22px;
+  justify-content: center;
+  margin: 0 auto 4px;
+  width: 22px;
+}
+
+.ceylon-lp .cy-cmp__cross svg {
+  fill: none;
+  height: 10px;
+  stroke: #fff;
+  width: 10px;
+}
+
+.ceylon-lp .cy-cmp__info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.ceylon-lp .cy-cmp__info-heading {
+  color: #fff;
+  font-size: clamp(22px, 2.8vw, 32px);
+  font-weight: 500;
+  line-height: 1.25;
+  margin: 0;
+}
+
+.ceylon-lp .cy-cmp__checklist {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.ceylon-lp .cy-cmp__check-item {
+  align-items: flex-start;
+  color: #fff;
+  display: flex;
+  font-size: 15px;
+  gap: 12px;
+  line-height: 1.5;
+}
+
+.ceylon-lp .cy-cmp__check-icon {
+  align-items: center;
+  background-color: #fff;
+  border-radius: 50%;
+  display: flex;
+  flex-shrink: 0;
+  height: 22px;
+  justify-content: center;
+  margin-top: 1px;
+  width: 22px;
+}
+
+.ceylon-lp .cy-cmp__check-icon svg {
+  fill: none;
+  height: 11px;
+  stroke: #c47245;
+  width: 11px;
+}
+
+.ceylon-lp .cy-cmp__check-label {
+  flex: 1;
+  font-weight: 300;
+}
+
+.ceylon-lp .cy-cmp__check-label strong {
+  color: #fff;
+  font-weight: 700;
+}
+
+.ceylon-lp .cy-cmp__cta-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.ceylon-lp .cy-cmp__cta-btn {
+  background-color: #fff;
+  border: none;
+  border-radius: 999px;
+  box-sizing: border-box;
+  color: #1a1a1a;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: normal;
+  line-height: normal;
+  padding: 17px 32px;
+  text-align: center;
+  text-decoration: none;
+  transition: opacity 0.2s, transform 0.15s;
+  width: 100%;
+}
+
+.ceylon-lp .cy-cmp__cta-btn:hover {
+  opacity: 0.88;
+  transform: scale(1.02);
+}
+
+.ceylon-lp .cy-cmp__guarantee {
+  align-items: center;
+  color: #fff;
+  display: flex;
+  font-size: 14.5px;
+  font-weight: 600;
+  gap: 6px;
+  justify-content: center;
+  opacity: 0.9;
+}
+
+.ceylon-lp .cy-cmp__guarantee svg {
+  color: #fff;
+  fill: currentColor;
+  flex-shrink: 0;
+  height: 15px;
+  width: 15px;
+}
+
+@media (max-width: 767px) {
+  .ceylon-lp .cy-cmp {
+    padding: 53px 16px;
+  }
+
+  .ceylon-lp .cy-cmp__inner {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .ceylon-lp .cy-cmp__info {
+    display: contents;
+  }
+
+  .ceylon-lp .cy-cmp__info-heading {
+    font-size: clamp(26px, 5vw, 28px);
+    margin-bottom: 12px;
+    order: 1;
+    text-align: center;
+    width: 100%;
+  }
+
+  .ceylon-lp .cy-cmp__table-wrap {
+    margin-top: 52px;
+    order: 2;
+    width: 100%;
+  }
+
+  .ceylon-lp .cy-cmp__checklist {
+    display: none;
+  }
+
+  .ceylon-lp .cy-cmp__cta-wrap {
+    margin-top: 12px;
+    order: 3;
+    width: 100%;
+  }
+
+  .ceylon-lp .cy-cmp__thead-left .cy-cmp__header-img {
+    margin-top: -52px;
+    width: 90px;
+  }
+
+  .ceylon-lp .cy-cmp__thead-right .cy-cmp__header-img {
+    margin-top: -52px;
+    width: 75px;
+  }
+
+  .ceylon-lp .cy-cmp__table tbody td {
+    font-size: 12px;
+    padding: 12px 8px;
+  }
+
+  .ceylon-lp .cy-cmp__icon {
+    height: 22px;
+    width: 22px;
+  }
+}

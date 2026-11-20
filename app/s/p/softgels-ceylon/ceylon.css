@@ -1,0 +1,65 @@
+.ceylon-lp {
+  --ceylon-body-family: var(--font-ceylon-body), "Plus Jakarta Sans", sans-serif;
+  --ceylon-heading-family: var(--font-ceylon-heading), Poppins, sans-serif;
+  --ceylon-accent: #c0703f;
+  --ceylon-text: #121212;
+  --ceylon-page-width: 1400px;
+  background: #fff;
+  color: var(--ceylon-text);
+  font-family: var(--ceylon-body-family);
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 0.6px;
+  line-height: 1.8;
+  overflow-x: clip;
+  -webkit-font-smoothing: antialiased;
+}
+
+.ceylon-lp h1,
+.ceylon-lp h2,
+.ceylon-lp h3,
+.ceylon-lp h4,
+.ceylon-lp h5 {
+  font-family: var(--ceylon-heading-family);
+  font-weight: 500;
+  letter-spacing: 0.6px;
+  line-height: 1.3;
+  margin: 0;
+}
+
+.ceylon-lp img,
+.ceylon-lp video {
+  max-width: 100%;
+}
+
+.ceylon-lp a {
+  color: inherit;
+}
+
+.ceylon-lp button {
+  font-family: inherit;
+}
+
+.ceylon-lp .ceylon-page-width {
+  margin: 0 auto;
+  max-width: var(--ceylon-page-width);
+  padding: 0 15px;
+}
+
+@media (min-width: 750px) {
+  .ceylon-lp .ceylon-page-width {
+    padding: 0 50px;
+  }
+}
+
+.ceylon-lp .ceylon-visually-hidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}

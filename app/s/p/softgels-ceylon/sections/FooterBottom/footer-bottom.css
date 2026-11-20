@@ -1,0 +1,121 @@
+.ceylon-lp .cy-fbt {
+  --cy-fbt-fg: 201, 184, 171;
+  background-color: #2b1c13;
+  color: rgba(var(--cy-fbt-fg), 0.75);
+  margin-top: 0;
+  padding: 0;
+}
+
+.ceylon-lp .cy-fbt-content {
+  padding-top: 30px;
+}
+
+.ceylon-lp .cy-fbt-wrapper {
+  display: flex;
+  margin: 0 auto;
+  max-width: 1400px;
+  padding: 0 15px;
+  width: 100%;
+}
+
+.ceylon-lp .cy-fbt-wrapper--center {
+  justify-content: center;
+}
+
+.ceylon-lp .cy-fbt-column {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 100%;
+}
+
+.ceylon-lp .cy-fbt-list-payment {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  margin: -5px 0;
+  padding-left: 0;
+  padding-top: 10px;
+}
+
+.ceylon-lp .cy-fbt-list-payment-item {
+  align-items: center;
+  display: flex;
+  padding: 5px;
+}
+
+.ceylon-lp .cy-fbt-icon {
+  display: block;
+  height: 24px;
+  width: 38px;
+}
+
+.ceylon-lp .cy-fbt-copyright {
+  font-size: 10px;
+  letter-spacing: 0.7px;
+  line-height: 1.7;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.ceylon-lp .cy-fbt-copyright-content {
+  font-size: 11px;
+}
+
+.ceylon-lp .cy-fbt .cy-fbt-copyright-content a {
+  color: currentColor;
+  font-size: 13.3px;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 749px) {
+  .ceylon-lp .cy-fbt-content {
+    padding-top: 0;
+  }
+
+  .ceylon-lp .cy-fbt-wrapper {
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 15px;
+  }
+
+  .ceylon-lp .cy-fbt-column {
+    padding-top: 15px;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .ceylon-lp .cy-fbt-wrapper {
+    padding: 0 50px;
+  }
+
+  .ceylon-lp .cy-fbt-column {
+    align-items: flex-end;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .ceylon-lp .cy-fbt-payment {
+    margin-top: 15px;
+  }
+
+  .ceylon-lp .cy-fbt-list-payment {
+    justify-content: flex-end;
+    margin: -5px;
+    padding-top: 0;
+  }
+
+  .ceylon-lp .cy-fbt-copyright {
+    font-size: 12px;
+  }
+
+  .ceylon-lp .cy-fbt .cy-fbt-copyright-content a:hover {
+    color: rgb(var(--cy-fbt-fg));
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+}

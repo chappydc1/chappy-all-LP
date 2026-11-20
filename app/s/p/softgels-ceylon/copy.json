@@ -1,0 +1,740 @@
+{
+  "meta": {
+    "title": "Metabolae Ceylon Cinnamon 7200mg",
+    "description": "Ceylon Cinnamon 7200mg Equivalent with MCT Oil. Supports healthy blood sugar, insulin sensitivity, and steady energy. 90-Day Money-Back Guarantee."
+  },
+  "checkout": {
+    "cartUrlTemplate": "https://metabolae.com/cart/{variantId}:1",
+    "defaultVariantId": "57554201674076",
+    "variants": [
+      {
+        "id": "57554201641308",
+        "title": "Buy 1",
+        "price": "$29.99",
+        "compareAtPrice": "$59.99"
+      },
+      {
+        "id": "57554201674076",
+        "title": "Buy 2 Get 1 Free",
+        "price": "$59.99",
+        "compareAtPrice": "$179.97"
+      },
+      {
+        "id": "57554201706844",
+        "title": "Buy 3 Get 2 Free",
+        "price": "$89.99",
+        "compareAtPrice": "$299.95"
+      }
+    ]
+  },
+  "feelBetter": {
+    "heading": "Feel Better. Every Day.",
+    "subheading": "From steady metabolic support to effortless daily use, here’s what makes Metabolae Ceylon Cinnamon different.",
+    "features": [
+      "Blood Sugar Support",
+      "Better Daily Absorption",
+      "Gentle on the Stomach",
+      "Liver-Friendly Formula"
+    ]
+  },
+  "provenBenefits": {
+    "titleAccent": "Proven Benefits.",
+    "titleRest": " Backed by Science.",
+    "subtitleHtml": "Your body deserves more than empty promises <strong>Ceylon Cinnamon Extract </strong>supports healthy blood sugar, liver function, and daily metabolic balance using clinically studied ingredients and a bioavailable MCT oil delivery system.",
+    "cards": [
+      {
+        "title": "Blood Sugar Support",
+        "text": "Supports healthy blood sugar levels",
+        "back": "True Ceylon cinnamon is studied for supporting healthy glucose metabolism. Metabolae uses a concentrated 12:1 extract with MCT oil to help your body actually absorb and use it."
+      },
+      {
+        "title": "Gentle on the Stomach",
+        "text": "Designed for comfortable daily use",
+        "back": "Metabolae uses a liquid cinnamon extract suspended in MCT oil. No harsh powder. No stomach irritation. No cinnamon burps hours later."
+      },
+      {
+        "title": "Liver Health Support",
+        "text": "Made with coumarin free Ceylon cinnamon",
+        "back": "Unlike Cassia cinnamon, Ceylon contains virtually no coumarin. This makes Metabolae a safer option for daily use and long term liver wellness."
+      },
+      {
+        "title": "Enhanced Absorption",
+        "text": "Helps your body absorb cinnamon",
+        "back": "Cinnamon compounds are fat soluble. MCT oil acts as a carrier, helping the 7,200 mg equivalent Ceylon extract absorb efficiently instead of passing through unused."
+      }
+    ],
+    "cta": "Try Risk-Free Today",
+    "guarantee": "90-day money back guarantee"
+  },
+  "wellnessJourney": {
+    "logoAlt": "Journey with Metabolae",
+    "subtitle": "Your Wellness",
+    "heading": "Journey with Metabolae",
+    "description": "Metabolae is designed to support your daily wellness routine over time. Stay consistent with your softgel, follow your free movement plan, and build healthier habits week by week.",
+    "cta": "Start My Routine",
+    "guarantee": "90-day money back guarantee",
+    "steps": [
+      {
+        "label": "Week 1-2: Easy Start",
+        "bullets": [
+          "One softgel per day fits easily into your routine",
+          "Many adults notice more stable energy and fewer afternoon crashes",
+          "Reduced sugar cravings for some users",
+          "Body begins responding to daily Ceylon cinnamon support"
+        ]
+      },
+      {
+        "label": "Week 3-4: Daily Balance",
+        "bullets": [
+          "Feeling more balanced throughout the day",
+          "Less of the energy ups and downs many experienced before",
+          "Daily routine starts to feel natural and sustainable",
+          "Consistency becomes easier"
+        ]
+      },
+      {
+        "label": "Week 5-6: Metabolic Support",
+        "bullets": [
+          "Most people notice their biggest improvements here",
+          "Supports healthy glucose metabolism already within normal range*",
+          "Greater confidence in daily energy and overall well-being",
+          "Benefits become more noticeable with continued use"
+        ]
+      },
+      {
+        "label": "Week 7-8+: Long-Term Wellness",
+        "bullets": [
+          "Ongoing metabolic and antioxidant support*",
+          "Designed for consistent, long-term daily use",
+          "Focused on stability, not quick fixes",
+          "Results depend on individual health, diet, and lifestyle"
+        ]
+      }
+    ]
+  },
+  "fiveReasons": {
+    "badge": "5 Reasons Why",
+    "heading": "Metabolae Ceylon Cinnamon is Different From Everything You've Tried",
+    "cards": [
+      {
+        "badge": "Reason 1",
+        "title": "12:1 Concentrated Ceylon Cinnamon",
+        "alt": "12:1 Concentrated Ceylon Cinnamon",
+        "text": "Unlike cheap Cassia cinnamon which contains high levels of liver-damaging coumarin, Metabolae is 100% genuine Ceylon cinnamon. We pack the equivalent of 7,200 mg of raw cinnamon into a single daily softgel."
+      },
+      {
+        "badge": "Reason 2",
+        "title": "MCT Oil Enhanced Absorption",
+        "alt": "MCT Oil Enhanced Absorption",
+        "text": "Active cinnamon compounds are fat-soluble, meaning they pass right through you without healthy fats. We dissolve our premium extract in organic MCT oil so your body can absorb and utilize it immediately."
+      },
+      {
+        "badge": "Reason 3",
+        "title": "Anti-Inflammatory & Metabolic Support",
+        "alt": "Anti-Inflammatory & Metabolic Support",
+        "text": "True Ceylon cinnamon contains powerful antioxidants that promote normal blood sugar balance, insulin sensitivity, cardiovascular function, and healthy kidney circulation."
+      },
+      {
+        "badge": "Reason 4",
+        "title": "No Aftertaste, No Stomach Issues",
+        "alt": "No Aftertaste, No Stomach Issues",
+        "text": "Unlike chalky powders, oversized capsules, or raw powders that cause acid reflux and burps, our softgels are small, smooth, and incredibly gentle on your stomach."
+      },
+      {
+        "badge": "Reason 5",
+        "title": "Clean, Third-Party Tested Ingredients",
+        "alt": "Clean, Third-Party Tested Ingredients",
+        "text": "Vegan, non-GMO, and free from gluten, dairy, soy, sugar, and artificial fillers. Every single batch is independently tested for purity and potency, manufactured in the USA."
+      }
+    ],
+    "cta": "Try Risk-Free Today",
+    "guarantee": "90-day money back guarantee",
+    "prevLabel": "Previous Slide",
+    "nextLabel": "Next Slide",
+    "dotLabel": "Go to slide"
+  },
+  "statsHero": {
+    "stats": [
+      {
+        "value": "86%",
+        "text": "Said they would continue using Metabolae Ceylon Cinnamon as part of their daily routine"
+      },
+      {
+        "value": "72%",
+        "text": "Reported feeling more stable energy<br>and better day-to-day balance*"
+      },
+      {
+        "value": "91%",
+        "text": "Noticed better tolerance compared to other cinnamon supplements,<br>with no aftertaste or digestive discomfort.*"
+      },
+      {
+        "value": "79%",
+        "text": "Said they were satisfied with the overall product quality and would recommend it to others*"
+      }
+    ],
+    "heading": "What Customers Report After Using Metabolae",
+    "cta": "Try Risk-Free Today",
+    "guarantee": "90-day money back guarantee"
+  },
+  "reasonsCarousel": {
+    "title": "Why This Ceylon Cinnamon Formula Actually Works",
+    "cards": [
+      {
+        "title": "Genuine Ceylon, Not Cassia",
+        "text": "Each softgel contains Cinnamomum verum, the authentic Ceylon variety, harvested in Sri Lanka and concentrated 12:1 to equal 7,200 mg of raw cinnamon per dose. Unlike Cassia, it's naturally low in coumarin, which matters if you're 50+ and taking it daily for years, not just weeks.",
+        "alt": "Genuine Ceylon, Not Cassia"
+      },
+      {
+        "title": "7,200 mg Potency, One Softgel",
+        "text": "Most cinnamon supplements underdose you, a few hundred milligrams of powder isn't enough to matter. One Metabolae softgel delivers a full therapeutic-level dose in a single serving, so you're not swallowing a handful of capsules or stirring powder into your coffee just to get a meaningful amount.",
+        "alt": "7,200 mg Potency, One Softgel"
+      },
+      {
+        "title": "MCT-Powered Absorption",
+        "text": "Cinnamon's active compounds are fat-soluble, which most people don't realize. Without a fat carrier, they largely pass through your digestive system unused, and that effect only gets worse as digestion slows with age. MCT oil solves this by carrying the extract directly into your bloodstream, where it can actually go to work.",
+        "alt": "MCT-Powered Absorption"
+      },
+      {
+        "title": "Third-Party Lab Verified",
+        "text": "Every batch is sent to an independent lab, not as a formality, but because you deserve to know exactly what you're putting in your body. Each batch is verified free of coumarin, GMOs, gluten, and artificial fillers, so there's nothing hidden in what you're taking every day.",
+        "alt": "Third-Party Lab Verified"
+      }
+    ],
+    "dotLabel": "Go to slide",
+    "prevLabel": "Previous Slide",
+    "nextLabel": "Next Slide"
+  },
+  "socialProofSlider": {
+    "stars": "★★★★★",
+    "titleLead": "Real Stories,",
+    "titleAccent": "Real Results",
+    "description": "Honest experiences with Metabolae Ceylon Cinnamon"
+  },
+  "reviewsCarousel": {
+    "ariaLabel": "Customer reviews",
+    "navLabel": "Reviews carousel navigation",
+    "verified": "Verified Customer",
+    "starsLabel": "out of 5 stars",
+    "pageLabel": "Go to page",
+    "prevLabel": "Previous reviews",
+    "nextLabel": "Next reviews",
+    "reviews": [
+      {
+        "rating": "5.0",
+        "title": "Finally Back in Control!",
+        "text": "For years my blood sugar was all over the place and every reading stressed me out. I felt like no matter how clean I ate or how hard I tried, my numbers never stayed consistent. Since starting Metabolae, everything feels steadier and those afternoon crashes don’t control me anymore. My energy lasts through the day and I’m not constantly reaching for caffeine or sugar. For the first time in a long time, I feel like I’m back in charge of my health.",
+        "author": "Jacob M.",
+        "tags": [
+          "Stable Sugar",
+          "Steady Energy"
+        ]
+      },
+      {
+        "rating": "5.0",
+        "title": "Mornings Finally Feel Clear",
+        "text": "I used to start every morning tired, foggy, and already worrying about what my numbers would look like. I tried every so-called ‘healthy fix’ but nothing really moved the needle. With Metabolae, my mornings feel clear, my cravings are under control, and my energy is steady throughout the day. I’m not dealing with those late-night sugar crashes anymore and I finally feel balanced. It feels good knowing I’ve found something simple that actually works.",
+        "author": "David L.",
+        "tags": [
+          "Morning Clarity",
+          "Balanced Cravings"
+        ]
+      },
+      {
+        "rating": "5.0",
+        "title": "My Doctor Asked What I Changed!",
+        "text": "I was skeptical about another cinnamon supplement because I'd tried so many that did nothing. But my neighbor insisted this Ceylon one was different because it's concentrated and in oil form instead of powder. After 8 weeks, my doctor noticed my numbers were more stable and asked what I'd changed. I told him about the Ceylon cinnamon and he said whatever I'm doing, keep it up. No stomach issues like the other brands gave me either.",
+        "author": "Margaret R.",
+        "tags": [
+          "Doctor Approved",
+          "Gentle Digestion"
+        ]
+      },
+      {
+        "rating": "4.9",
+        "title": "Wish I'd Known About Ceylon vs Cassia Years Ago!",
+        "text": "My husband had been taking cinnamon capsules from the drugstore for blood sugar support, but they weren’t doing much and sometimes caused heartburn. I researched and learned most store brands use Cassia cinnamon, which can stress your liver. Metabolae uses real Ceylon cinnamon. Within a month, his energy was steadier and his morning readings improved from the 140s to consistent 120s. The softgels are much easier on his stomach too.",
+        "author": "Patricia S.",
+        "tags": [
+          "True Ceylon",
+          "Stomach Friendly"
+        ]
+      },
+      {
+        "rating": "5.0",
+        "title": "Quality You Can Actually Feel Working!",
+        "text": "As a retired nurse, I'm very particular about supplements. Most are cheap fillers with barely any active ingredients. Metabolae Ceylon Cinnamon is clearly premium — you can tell by the MCT oil delivery system and 12-to-1 concentration from authentic Sri Lankan Ceylon bark. I've been taking it for 3 months and my energy levels are the most stable they've been in years. No more 2 PM sugar cravings, no digestive upset, and my labs showed improvements. Worth every penny.",
+        "author": "Joyce T.",
+        "tags": [
+          "Premium Quality",
+          "Stable Energy"
+        ]
+      },
+      {
+        "rating": "5.0",
+        "title": "The First Thing That Works",
+        "text": "I’ve thrown away so much money on powders, gummies, and sugar support blends that made big promises but never delivered. Nothing ever stuck and I just kept feeling more frustrated. Metabolae was different from the start — one softgel a day actually gave me the steady energy I’d been missing for years. My focus is sharper, I don’t hit the wall in the afternoons, and I finally feel consistent. It’s the first product I can honestly say has changed my daily routine.",
+        "author": "Michael T.",
+        "tags": [
+          "Daily Focus",
+          "Lasting Energy"
+        ]
+      }
+    ]
+  },
+  "comparisonTable": {
+    "heading": "Metabolae vs. Other Brands",
+    "brandLabel": "Metabolae",
+    "competitorLabel": "Other Brands",
+    "rows": [
+      {
+        "brand": "Research-Backed",
+        "competitor": "Chasing Trend Over Quality"
+      },
+      {
+        "brand": "Independently Lab Tested",
+        "competitor": "No Verified Testing"
+      },
+      {
+        "brand": "Zero Coumarin, Clean Formula",
+        "competitor": "Cheap Cassia High in Coumarin"
+      },
+      {
+        "brand": "Full-Strength 12:1 Extract",
+        "competitor": "Weak Low-Dose Formulas"
+      },
+      {
+        "brand": "MCT Oil Enhanced",
+        "competitor": "Does Not Get Absorbed Properly"
+      },
+      {
+        "brand": "High-Absorption Softgels",
+        "competitor": "Hard-to-Swallow Capsules"
+      }
+    ],
+    "checklist": [
+      {
+        "bold": "Clinically Studied Ingredients—",
+        "text": "Ingredients proven to work"
+      },
+      {
+        "bold": "Noticeable Support Within Weeks—",
+        "text": "Feel a difference in weeks"
+      },
+      {
+        "bold": "Built for Long-Term Use, Not Quick Fixes—",
+        "text": "Not just symptom relief"
+      },
+      {
+        "bold": "Clean & Pure Ingredients—",
+        "text": "No fillers, GMOs, or unnecessary additives"
+      }
+    ],
+    "cta": "Try Risk-Free Today",
+    "guarantee": "90-day money back guarantee"
+  },
+  "riskFreeTrial": {
+    "badgeAlt": "Money-back guarantee badge",
+    "eyebrow": "Feel the Difference",
+    "heading": "90-Day Risk-Free Trial",
+    "description": "If you’re not completely satisfied in your first 90 days, simply return your order for a full refund — no questions asked.",
+    "cta": "Try Risk-Free Today",
+    "personAlt": "90-Day Risk-Free Trial"
+  },
+  "videoCarousel": {
+    "heading": "Real People.  Real Results.",
+    "subheading": "Hear it in their own words.",
+    "thumbAlt": "Video",
+    "prevLabel": "Previous",
+    "nextLabel": "Next",
+    "slideLabel": "Slide",
+    "soundLabel": "Toggle sound"
+  },
+  "pricingCards": {
+    "subheading": "Share the benefits.",
+    "heading": "Stock up. Save more.",
+    "description": "We concentrate genuine Ceylon cinnamon 12-to-1 in MCT oil for maximum absorption and zero stomach discomfort. Safe for daily use.",
+    "cards": [
+      {
+        "variantId": "57554201641308",
+        "title": "Buy One",
+        "badge": "",
+        "save": "You save 50%"
+      },
+      {
+        "variantId": "57554201674076",
+        "title": "Buy 2 Get 1 Free",
+        "badge": "Most Popular",
+        "save": "You save 67%"
+      },
+      {
+        "variantId": "57554201706844",
+        "title": "Buy 3 Get 2 Free",
+        "badge": "Free Shipping",
+        "save": "You save 70%"
+      }
+    ],
+    "cta": "Add to Cart",
+    "mobileCtaSeparator": " | ",
+    "mobileCtaSub": "90 Day Money-Back Guarantee",
+    "trustBadges": [
+      "Refills  every 30 days",
+      "Stop any time"
+    ]
+  },
+  "reviewsList": {
+    "stars": "★★★★★",
+    "rated": "Rated 4.9 / 5",
+    "trustedHtml": "Trusted by <strong>4,000+</strong>",
+    "heading": "They Felt the Shift. You Will Too.",
+    "reviews": [
+      {
+        "rating": "4.9",
+        "text": "I've been consistent with one softgel every morning for almost two months now, and my blood sugar readings have never been steadier. The first few weeks I didn't notice much, but by week 6 the difference was clear. Sticking with it daily is what made it work.",
+        "tags": [
+          "Consistent Use",
+          "Steady Blood Sugar"
+        ]
+      },
+      {
+        "rating": "5.0",
+        "text": "I was skeptical that a supplement could actually move the needle, but three months of daily use later, my fasting numbers are the best they've been in years. It's not a quick fix but it's something you have to stick with, and for me that consistency paid off.",
+        "tags": [
+          "Long-Term Results",
+          "Balanced Blood Sugar"
+        ]
+      },
+      {
+        "rating": "4.9",
+        "text": "The key for me was just not skipping days. Once I made it part of my morning routine alongside breakfast, my energy leveled out and my blood sugar readings became a lot more predictable week to week. Small habit, real difference.",
+        "tags": [
+          "Daily Routine",
+          "Blood Sugar Support"
+        ]
+      }
+    ],
+    "readMore": "Read More Reviews",
+    "readLess": "Read Less Reviews"
+  },
+  "faq": {
+    "headingFirst": "Frequently",
+    "headingRest": "Asked Questions",
+    "items": [
+      {
+        "question": "What makes Ceylon cinnamon different from what most supplements use?",
+        "answer": "Nearly all cinnamon supplements are made with Cassia and it matters more than most people realize. Cassia is high in coumarin, which builds up and can stress your liver with regular use. Ceylon from Sri Lanka has almost none, making it the right choice for daily, therapeutic-level supplementation. Our 12-to-1 concentration delivers 7,200mg equivalent of actual Ceylon per softgel, in a bioavailable form your body can put to use."
+      },
+      {
+        "question": "How does Metabolae compare to standard cinnamon capsules at the pharmacy?",
+        "answer": "What you'll find at the pharmacy is almost always low-dose Cassia in a basic capsule — minimal potency, minimal absorption. Metabolae uses a 12:1 Ceylon extract delivered in MCT oil. The difference in strength and bioavailability is significant: each softgel delivers the equivalent of 7,200mg of raw Ceylon bark in a form your body can genuinely absorb."
+      },
+      {
+        "question": "Is it safe to take alongside my current medications?",
+        "answer": "Most people tolerate Ceylon cinnamon well, but if you're currently managing blood sugar with medication or taking blood thinners, have a conversation with your doctor before you start. That's good practice with any new supplement and worth the phone call."
+      },
+      {
+        "question": "When can I expect to notice a difference?",
+        "answer": "Energy and balance improvements tend to show up first, usually within the first 2–4 weeks for people who take it consistently. Blood sugar support takes longer to become measurable; plan for at least 6–8 weeks before drawing conclusions. How quickly you notice a difference depends on your starting point, diet, and daily habits."
+      }
+    ]
+  },
+  "announcementCountdown": {
+    "heading": "BLACK FRIDAY SALE",
+    "subheading": "Shop Now and Get Up To 70% Off",
+    "labels": {
+      "days": "Days",
+      "hrs": "Hrs",
+      "mins": "Mins",
+      "secs": "Secs"
+    },
+    "endedText": "This sale has ended",
+    "endDate": "2026-11-27",
+    "endTime": "23:59",
+    "timezone": "America/New_York",
+    "whenEnded": "hide"
+  },
+  "header": {
+    "homeUrl": "https://metabolae.com/",
+    "logoAlt": "Metabolae",
+    "nav": [
+      {
+        "label": "Home",
+        "href": "https://metabolae.com/"
+      },
+      {
+        "label": "Shop Ceylon Cinnamon",
+        "href": "https://metabolae.com/products/ceylon-cinnamon-7200mg"
+      },
+      {
+        "label": "Contact",
+        "href": "https://metabolae.com/pages/contact"
+      },
+      {
+        "label": "Track Order",
+        "href": "https://metabolae.com/a/tracking"
+      }
+    ],
+    "accountUrl": "https://metabolae.com/customer_authentication/redirect?locale=en&region_country=US",
+    "menuLabel": "Menu",
+    "searchLabel": "Search",
+    "accountLabel": "Log in",
+    "cartLabel": "Cart"
+  },
+  "topMarquee": {
+    "items": [
+      "90-Day Money-Back Guarantee",
+      "Subscribe & Save",
+      "Buy 2 Get 1 Free",
+      "Up To 70% Off"
+    ]
+  },
+  "benefitsMarquee": {
+    "items": [
+      "Zero additives",
+      "GMO-Free",
+      "Gluten-Free"
+    ]
+  },
+  "footerMain": {
+    "logoAlt": "Metabolae",
+    "tagline": "One softgel a day. Real Ceylon cinnamon. Steadier energy, no fillers.",
+    "email": "support@metabolae.com",
+    "hours": "Here for you 24/7. Evenings and weekends too.",
+    "callbackHtml": "Phone support available 8am to 4pm, Monday to Saturday. <a href=\"https://metabolae.com/pages/contact\" title=\"Contact\">Reach out to our team for a callback request.</a>",
+    "columns": [
+      {
+        "heading": "Quick Links",
+        "area": "explore",
+        "links": [
+          {
+            "label": "Home",
+            "href": "https://metabolae.com/"
+          },
+          {
+            "label": "Manage My Subscription",
+            "href": "https://metabolae.com/a/loop_subscriptions/customer"
+          },
+          {
+            "label": "Contact",
+            "href": "https://metabolae.com/pages/contact"
+          },
+          {
+            "label": "FAQ",
+            "href": "https://metabolae.com/pages/faq"
+          },
+          {
+            "label": "Track My Order",
+            "href": "https://metabolae.com/a/tracking"
+          },
+          {
+            "label": "Cancel or Change My Order",
+            "href": "https://metabolae.com/policies/contact-information"
+          }
+        ]
+      },
+      {
+        "heading": "Policies",
+        "area": "goodtoknow",
+        "links": [
+          {
+            "label": "Privacy Policy",
+            "href": "https://metabolae.com/policies/privacy-policy"
+          },
+          {
+            "label": "Terms of Service",
+            "href": "https://metabolae.com/policies/terms-of-service"
+          },
+          {
+            "label": "Refund Policy",
+            "href": "https://metabolae.com/policies/refund-policy"
+          },
+          {
+            "label": "Shipping Policy",
+            "href": "https://metabolae.com/policies/shipping-policy"
+          }
+        ]
+      }
+    ],
+    "newsletter": {
+      "heading": "Join Our Email List",
+      "subtext": "Get our sale alerts, special offers, and simple tips for steadier energy. Nothing else.",
+      "placeholder": "Email address",
+      "button": "Sign Up",
+      "fineprint": "Unsubscribe anytime, no hard feelings.",
+      "success": "Thanks for subscribing!"
+    },
+    "disclosureHtml": "<strong>Disclosure:</strong> <em>These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.</em>"
+  },
+  "footerBottom": {
+    "paymentLabel": "Payment methods",
+    "payments": [
+      {
+        "key": "american_express",
+        "label": "American Express"
+      },
+      {
+        "key": "apple_pay",
+        "label": "Apple Pay"
+      },
+      {
+        "key": "bancontact",
+        "label": "Bancontact"
+      },
+      {
+        "key": "bizum",
+        "label": "Bizum"
+      },
+      {
+        "key": "diners_club",
+        "label": "Diners Club"
+      },
+      {
+        "key": "discover",
+        "label": "Discover"
+      },
+      {
+        "key": "google_pay",
+        "label": "Google Pay"
+      },
+      {
+        "key": "spidealwero",
+        "label": "iDEAL Wero"
+      },
+      {
+        "key": "master",
+        "label": "Mastercard"
+      },
+      {
+        "key": "satispay",
+        "label": "Satispay"
+      },
+      {
+        "key": "shopify_pay",
+        "label": "Shop Pay"
+      },
+      {
+        "key": "visa",
+        "label": "Visa"
+      }
+    ],
+    "copyrightPrefix": "© 2026,",
+    "brand": "Metabolae",
+    "brandUrl": "https://metabolae.com/"
+  },
+  "productMain": {
+    "gallery": {
+      "imageAlt": "Ceylon Cinnamon 7200mg Equivalent with MCT Oil",
+      "prevLabel": "Slide left",
+      "nextLabel": "Slide right",
+      "thumbLabel": "Load image {n} in gallery view"
+    },
+    "rating": {
+      "stars": "★★★★★",
+      "text": "Rated 4.9 • Thousands of 5-Star Reviews"
+    },
+    "title": "Ceylon Cinnamon 7200mg Equivalent with MCT Oil",
+    "bullets": [
+      "Restores Insulin Sensitivity",
+      "Stabilizes Blood Sugar Levels",
+      "Supports Blood Pressure Naturally",
+      "Supports Steady Energy"
+    ],
+    "progress": {
+      "percent": 93,
+      "suffix": "% Sold"
+    },
+    "priceBadge": {
+      "label": "Black Friday - Save"
+    },
+    "bundles": {
+      "title": "Low Stock - Selling Fast",
+      "options": [
+        {
+          "variantId": "57554201641308",
+          "title": "Buy One",
+          "subtitle": "You save 50%",
+          "badge": ""
+        },
+        {
+          "variantId": "57554201674076",
+          "title": "Buy 2 Get 1 FREE",
+          "subtitle": "You save 67%",
+          "badge": "Most Popular"
+        },
+        {
+          "variantId": "57554201706844",
+          "title": "Buy 3 Get 2 FREE",
+          "subtitle": "You save 70%",
+          "badge": "Free Shipping"
+        }
+      ]
+    },
+    "atc": {
+      "label": "Add To Cart",
+      "guarantee": "90-Day Money-Back Guarantee"
+    },
+    "subscription": [
+      {
+        "text": "Refills Ship Every 30 Days",
+        "iconAlt": "Refills icon"
+      },
+      {
+        "text": "Stop or Cancel Anytime",
+        "iconAlt": "Cancel anytime icon"
+      }
+    ],
+    "guarantee": {
+      "heading": "90-Day Money Back Guarantee",
+      "lead": "Less than 1%",
+      "body": " of customers claim our 90-Days Money Back Guarantee.",
+      "badgeAlt": "90-Day Money Back Guarantee"
+    },
+    "warning": {
+      "title": "WARNING: Low Stock Notice",
+      "body": "This product sold out 12 times last year. We encourage you to take advantage of the limited sale and buy now. Subscribing protects you against future stockouts. PS: Only available here, don't buy fakes on Amazon/eBay."
+    },
+    "accordions": [
+      {
+        "title": "Clinically Supported Benefits",
+        "html": "<p>Supported by studies on true Ceylon cinnamon (<em>Cinnamomum verum</em>)</p><ul><li>Helps maintain blood sugar levels that are already in a healthy range</li><li>Promotes insulin sensitivity and efficient use of glucose by the body</li><li>Encourages healthy circulation and everyday metabolic function</li><li>Delivers antioxidant activity to help shield cells from oxidative damage</li><li>A mild, well-tolerated extract designed for consistent, long-term daily use</li><li>Virtually coumarin-free Ceylon cinnamon — a key distinction from common Cassia</li></ul><p><em>Findings drawn from clinical and observational research on g</em><em><strong>enuine Ceylon cinnamon,</strong></em><em> used regularly alongside a healthy lifestyle. Results vary by individual.</em></p>"
+      },
+      {
+        "title": "Key ingredients",
+        "html": "<p><strong>True Ceylon Cinnamon Extract (Cinnamomum verum)</strong></p><ul><li>Grown in Sri Lanka — <strong>not the cheaper Cassia variety</strong></li><li>A 1<strong>2:1 concentrated</strong> liquid extract</li><li>Every softgel provides the <strong>equivalent of 7,200 mg</strong> of raw Ceylon cinnamon</li><li>Naturally f<strong>ree of coumarin.</strong> Safe to take every day, long-term</li><li>Promotes healthy blood sugar, metabolic function, and circulation</li></ul><p><strong>🥥 MCT Oil (Medium-Chain Triglycerides)</strong></p><ul><li>Serves as a <strong>natural carrier to boost absorption</strong></li><li>Cinnamon's active compounds are fat-soluble. MCT oil gets them <strong>into your bloodstream effectively</strong></li><li>Enables the extract to be absorbed quickly rather than passing through without effect</li><li>Easy on your digestive system. No harsh powders, no stomach upset</li></ul><p><strong>Softgel Delivery System</strong></p><ul><li>Smooth softgels that go down easily</li><li>No chalky powder capsules</li><li>Made for comfortable daily use, just <strong>one softgel a day</strong></li></ul>"
+      },
+      {
+        "title": "How it works",
+        "html": "<p>Most cinnamon supplements don't work because they rely on <strong>cheap Cassia powder</strong> pressed into hard capsules that are difficult for your stomach to break down properly. The active compounds get stuck in fiber and move through your body largely untouched.</p><p><strong>Metabolae takes a different approach. </strong>We start with <strong>genuine Ceylon cinnamon from Sri Lanka</strong>, concentrate it <strong>12-to-1</strong> into a smooth liquid extract, then blend it with MCT oil and encase it in easy-to-swallow softgels.</p><p>Once the softgel dissolves, the extract is <strong>already suspended in oil,</strong> creating a highly bioavailable form your body can take in efficiently.</p><ul><li>No rough powder.</li><li>No cinnamon aftertaste hours afterward.</li><li>No active compounds going to waste.</li></ul><p><strong>MCT oil works as a natural transport system</strong>, carrying the concentrated Ceylon cinnamon compounds into your bloodstream to support healthy glucose metabolism, circulation, and cellular wellness.</p><p>A <strong>single softgel each day</strong> delivers the equivalent of 7<strong>,200 mg of Ceylon cinnamon</strong>. The potency that dozens of standard capsules try to match, in a form your body can genuinely absorb.</p><p>It's why so many adults over 50 who had written off cinnamon supplements entirely are finally feeling a genuine difference with <strong>Metabolae</strong>.</p>"
+      }
+    ],
+    "ugc": {
+      "heading": "What our customers are saying:",
+      "prevLabel": "Previous Slide",
+      "nextLabel": "Next Slide",
+      "alts": [
+        "Metabolae doctor talking about blood sugar",
+        "Metabolae customer talking about the benefits",
+        "Metabolae doctor talking about the diabetes industry"
+      ]
+    },
+    "trust": {
+      "heading": "Why Trust Metabolae",
+      "badges": [
+        "Clinically Backed Formulas",
+        "Third-Party Tested",
+        "Clean Formulas",
+        "Globally Trusted Facilities"
+      ],
+      "items": [
+        "True Ceylon Cinnamon",
+        "12:1 Concentrated Extract",
+        "MCT Oil Delivery System",
+        "Gentle on the Stomach",
+        "Non-GMO & Gluten-Free",
+        "Third-Party Tested"
+      ]
+    },
+    "stickyAtc": {
+      "buttonText": "ADD TO CART"
+    }
+  }
+}
