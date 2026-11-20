@@ -1,0 +1,143 @@
+.ceylon-lp .cy-fb {
+  background: linear-gradient(180deg, #d27f52 0%, #a55328 100%);
+  color: #fff;
+  overflow: hidden;
+  padding: 36px 15px 0;
+  position: relative;
+}
+
+.ceylon-lp .cy-fb-container {
+  margin: auto;
+  max-width: 1200px;
+  text-align: center;
+  width: 100%;
+}
+
+.ceylon-lp .cy-fb-top-text h2 {
+  color: #fff;
+  font-size: 31px;
+  font-weight: 400;
+  line-height: 38px;
+  margin: 0 0 13px;
+  text-align: center;
+}
+
+.ceylon-lp .cy-fb-top-text p {
+  font-size: 15.2px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 26px;
+  margin: 0 0 40px;
+  text-align: center;
+}
+
+.ceylon-lp .cy-fb-content {
+  align-items: flex-end;
+  display: flex;
+  gap: 40px;
+  justify-content: space-between;
+}
+
+.ceylon-lp .cy-fb-grid {
+  box-sizing: border-box;
+  display: grid;
+  gap: 40px;
+  grid-template-columns: repeat(2, 1fr);
+  max-width: 36%;
+  padding-bottom: 92px;
+  width: 100%;
+}
+
+.ceylon-lp .cy-fb-box {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.ceylon-lp .cy-fb-icon {
+  height: auto;
+  margin-bottom: 8px;
+  width: 80px;
+}
+
+.ceylon-lp .cy-fb-box h4 {
+  color: #fff;
+  font-size: 21.375px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin: 0 auto;
+  max-width: 165px;
+  text-align: center;
+}
+
+.ceylon-lp .cy-fb-image {
+  align-items: flex-end;
+  align-self: flex-end;
+  display: flex;
+}
+
+.ceylon-lp .cy-fb-image img {
+  display: block;
+  height: auto;
+  margin-bottom: 0;
+  max-height: 460px;
+  max-width: 460px;
+  width: 100%;
+}
+
+@media (max-width: 1200px) {
+  .ceylon-lp .cy-fb-image img {
+    max-width: 480px;
+  }
+}
+
+@media (max-width: 900px) {
+  .ceylon-lp .cy-fb-content {
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .ceylon-lp .cy-fb-grid {
+    gap: 20px;
+    max-width: 100%;
+    padding-bottom: 0;
+    width: 100%;
+  }
+
+  .ceylon-lp .cy-fb-top-text h2 {
+    font-size: 28px;
+    line-height: 32px;
+  }
+
+  .ceylon-lp .cy-fb-top-text p {
+    font-size: 15.2px;
+    margin-bottom: 20px;
+  }
+
+  .ceylon-lp .cy-fb-icon {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .ceylon-lp .cy-fb {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .ceylon-lp .cy-fb-content {
+    gap: 30px;
+  }
+
+  .ceylon-lp .cy-fb-top-text h2 {
+    font-size: 26px;
+  }
+
+  .ceylon-lp .cy-fb-box h4 {
+    font-size: 17.1px;
+  }
+}

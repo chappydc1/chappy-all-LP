@@ -1,0 +1,213 @@
+.ceylon-lp .cy-stats {
+  position: relative;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.ceylon-lp .cy-stats-container {
+  position: relative;
+  z-index: 2;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 90px 15px 90px;
+  color: #ffffff;
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 900px) {
+  .ceylon-lp .cy-stats-container {
+    display: grid;
+    grid-template-columns: 1.15fr 1fr;
+    gap: 80px;
+    align-items: center;
+    padding: 120px 20px 120px;
+  }
+}
+
+.ceylon-lp .cy-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px 24px;
+  position: relative;
+}
+
+@media screen and (min-width: 900px) {
+  .ceylon-lp .cy-stats-grid::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.3);
+    transform: translateY(-50%);
+  }
+}
+
+.ceylon-lp .cy-stats-card {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  text-align: left;
+}
+
+.ceylon-lp .cy-stats-card-percentage {
+  font-size: clamp(36px, 5vw, 48px);
+  font-weight: 800;
+  line-height: 1;
+  color: #ffffff;
+  letter-spacing: -0.02em;
+}
+
+.ceylon-lp .cy-stats-card-desc {
+  font-size: 14px;
+  line-height: 1.45;
+  color: rgba(255, 255, 255, 0.9);
+  font-weight: 400;
+  margin: 0;
+}
+
+.ceylon-lp .cy-stats-right-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.ceylon-lp .cy-stats-heading {
+  font-size: clamp(28px, 4vw, 36px);
+  font-weight: 400;
+  line-height: 1.25;
+  color: #ffffff;
+  margin: 0 auto 42px;
+  letter-spacing: -0.02em;
+}
+
+.ceylon-lp .cy-stats-cta-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.ceylon-lp .cy-stats-cta-btn {
+  display: inline-block;
+  width: 100%;
+  max-width: 480px;
+  text-align: center;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  color: #121212;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: normal;
+  padding: 24px 48px;
+  border-radius: 40px;
+  border: none;
+  cursor: pointer;
+  transition: opacity 0.2s ease, transform 0.15s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.ceylon-lp .cy-stats-cta-btn:hover {
+  opacity: 0.95;
+  transform: scale(1.02);
+}
+
+.ceylon-lp .cy-stats-subtext {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  color: #ffffff;
+  margin-top: 14px;
+  opacity: 0.95;
+}
+
+.ceylon-lp .cy-stats-subtext svg {
+  width: 14px;
+  height: 14px;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 899px) {
+  .ceylon-lp .cy-stats-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "heading-desc"
+      "stats-grid"
+      "cta-wrap";
+    gap: 24px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+
+  .ceylon-lp .cy-stats-left-col {
+    grid-area: stats-grid;
+  }
+
+  .ceylon-lp .cy-stats-right-col {
+    display: contents;
+  }
+
+  .ceylon-lp .cy-stats-heading-desc {
+    grid-area: heading-desc;
+    text-align: center;
+  }
+
+  .ceylon-lp .cy-stats-heading {
+    font-size: 26px;
+    margin-bottom: 30px;
+  }
+
+  .ceylon-lp .cy-stats-cta-wrap {
+    grid-area: cta-wrap;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .ceylon-lp .cy-stats-cta-btn {
+    font-size: 18px;
+    font-weight: 400;
+    padding: 20px 36px;
+    border-radius: 35px;
+  }
+
+  .ceylon-lp .cy-stats-subtext {
+    font-size: 13px;
+    margin-top: 10px;
+  }
+
+  .ceylon-lp .cy-stats-grid {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .ceylon-lp .cy-stats-card {
+    padding: 16px 0;
+    gap: 4px;
+  }
+
+  .ceylon-lp .cy-stats-card-percentage {
+    font-size: 36px;
+    font-weight: 500;
+  }
+
+  .ceylon-lp .cy-stats-card-desc {
+    font-size: 16px;
+    line-height: 1.4;
+  }
+
+  .ceylon-lp .cy-stats-card:not(:last-child) {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  }
+}

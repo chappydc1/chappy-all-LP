@@ -20,6 +20,12 @@ You MUST maintain this file to track your work across messages. This is NON-NEGO
 <changelog>
 <!-- NEXT_ENTRY_HERE -->
 
+## 2026-11-20 (softgels ceylon PDP)
+- Added `/s/p/softgels-ceylon` (`app/s/p/softgels-ceylon/`), a full clone of metabolae.com/products/softgels-ceylon: 21 sections (countdown, header, marquees, product hero with bundle picker + sticky ATC, stats, carousels, comparison, pricing, reviews, FAQ, footer).
+- Each section lives in `sections/<Name>/` with its own scoped CSS (`.ceylon-lp .cy-*`); text in `copy.json`, media in `media.json`, one key per section. Theme rem values were converted at 1rem = 10px.
+- Every buy CTA goes to the Shopify cart permalink `metabolae.com/cart/<variantId>:1` via `lib/checkout.ts`. Assets live in `public/lp-images-files-videos-fonts/s/p/softgels-ceylon/`; videos were re-encoded to 720p (103MB → 6MB).
+- Added self-hosted `fonts/google/PlusJakartaSans-latin-variable.woff2`.
+
 ## 2026-10-06 (ear cleaner 2)
 - Added `/s/com/ear-cleaner-2` (`app/s/com/ear-cleaner-2/`), a duplicate of `/s/com/best-toe-socks` with components renamed `EarCleaner2*`, retargeted to the AURELUNE Ear Cleaner with Camera ($17.97, reg. $34.99, 30-day money-back guarantee, 67,328 reviews).
 - #2–#5 are Bebird EarSight Note 5 ($71.99), Teslong Digital Ear Camera 4.5" ($79.99), eosera Wax Blaster MD ($29.99), Debrox Earwax Removal Kit; rating categories are Wax Removal / Camera Clarity / Ease of Use / Value / Customer Reviews.

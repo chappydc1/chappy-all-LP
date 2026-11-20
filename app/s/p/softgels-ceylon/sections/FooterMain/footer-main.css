@@ -1,0 +1,333 @@
+.ceylon-lp .cy-fm {
+  background-color: #2b1c13;
+  color: #fdf2e9;
+  padding-bottom: 0;
+  padding-top: 30px;
+}
+
+.ceylon-lp .cy-fm p {
+  margin: 0;
+}
+
+.ceylon-lp .cy-fm-inner {
+  margin: 0 auto;
+  max-width: 1280px;
+  padding: 0 24px;
+}
+
+.ceylon-lp .cy-fm-grid {
+  display: grid;
+  gap: 40px;
+  grid-template-areas:
+    "brand"
+    "explore"
+    "goodtoknow"
+    "subscribe";
+  grid-template-columns: 1fr;
+  text-align: left;
+}
+
+.ceylon-lp .cy-fm-tagline a,
+.ceylon-lp .cy-fm-contact-hours a,
+.ceylon-lp .cy-fm-callback a,
+.ceylon-lp .cy-fm-newsletter-heading a,
+.ceylon-lp .cy-fm-newsletter-subtext a,
+.ceylon-lp .cy-fm-newsletter-fineprint a,
+.ceylon-lp .cy-fm-newsletter-success a,
+.ceylon-lp .cy-fm-link-heading a {
+  color: #c47245;
+  text-decoration: underline;
+}
+
+.ceylon-lp .cy-fm-tagline a:hover,
+.ceylon-lp .cy-fm-contact-hours a:hover,
+.ceylon-lp .cy-fm-callback a:hover,
+.ceylon-lp .cy-fm-newsletter-heading a:hover,
+.ceylon-lp .cy-fm-newsletter-subtext a:hover,
+.ceylon-lp .cy-fm-newsletter-fineprint a:hover,
+.ceylon-lp .cy-fm-newsletter-success a:hover,
+.ceylon-lp .cy-fm-link-heading a:hover {
+  opacity: 0.85;
+}
+
+.ceylon-lp .cy-fm-brand {
+  grid-area: brand;
+}
+
+.ceylon-lp .cy-fm-logo {
+  display: inline-block;
+  height: auto;
+  max-width: 220px;
+  width: 100%;
+}
+
+.ceylon-lp .cy-fm-tagline {
+  color: #c9b8ab;
+  font-size: 13px;
+  font-style: italic;
+  line-height: 1.6;
+  margin: 10px 0 0;
+}
+
+.ceylon-lp .cy-fm hr {
+  background: none;
+  border: none;
+  display: block;
+  height: 0;
+}
+
+.ceylon-lp .cy-fm .cy-fm-brand-divider {
+  border-top: 1px solid #46362a;
+  margin: 18px 0;
+}
+
+.ceylon-lp .cy-fm-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.ceylon-lp .cy-fm-contact-row {
+  align-items: flex-start;
+  display: flex;
+  gap: 10px;
+}
+
+.ceylon-lp .cy-fm-contact-icon {
+  color: #c47245;
+  flex-shrink: 0;
+  height: 15px;
+  margin-top: 2px;
+  width: 15px;
+}
+
+.ceylon-lp .cy-fm-contact a {
+  color: #c9b8ab;
+  font-size: 14px;
+  line-height: 1.5;
+  text-decoration: none;
+}
+
+.ceylon-lp .cy-fm-contact a:hover {
+  color: #c47245;
+}
+
+.ceylon-lp .cy-fm-contact-hours {
+  color: #c9b8ab;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.ceylon-lp .cy-fm-callback {
+  color: #c9b8ab;
+  font-size: 13px;
+  line-height: 1.55;
+  margin-top: 16px;
+}
+
+.ceylon-lp .cy-fm-col--explore {
+  grid-area: explore;
+}
+
+.ceylon-lp .cy-fm-col--goodtoknow {
+  grid-area: goodtoknow;
+}
+
+.ceylon-lp .cy-fm-link-heading {
+  color: #fdf2e9;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  margin: 0 0 16px;
+  text-transform: uppercase;
+}
+
+.ceylon-lp .cy-fm .cy-fm-rich-links p {
+  color: #c9b8ab;
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 0 0 10px;
+}
+
+.ceylon-lp .cy-fm .cy-fm-rich-links p:last-child {
+  margin-bottom: 0;
+}
+
+.ceylon-lp .cy-fm-rich-links a {
+  color: #c9b8ab;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.ceylon-lp .cy-fm-rich-links a:hover {
+  color: #c47245;
+}
+
+.ceylon-lp .cy-fm-subscribe {
+  grid-area: subscribe;
+}
+
+.ceylon-lp .cy-fm-newsletter-heading {
+  color: #fdf2e9;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  margin: 0 0 10px;
+  text-transform: uppercase;
+}
+
+.ceylon-lp .cy-fm-newsletter-subtext {
+  color: #c9b8ab;
+  font-size: 14px;
+  line-height: 1.6;
+  margin: 0 0 18px;
+}
+
+.ceylon-lp .cy-fm form {
+  margin: 0;
+}
+
+.ceylon-lp .cy-fm-newsletter-form {
+  align-items: center;
+  background-color: #fff;
+  border-radius: 999px;
+  display: flex;
+  gap: 8px;
+  max-width: 420px;
+  padding: 6px 6px 6px 20px;
+}
+
+.ceylon-lp .cy-fm-newsletter-form input[type="email"] {
+  background: transparent;
+  border: none;
+  color: #1a1a1a;
+  flex: 1 1 auto;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  letter-spacing: normal;
+  min-width: 0;
+  outline: none;
+}
+
+.ceylon-lp .cy-fm-newsletter-form input[type="email"]::placeholder {
+  color: #1a1a1a;
+  opacity: 0.55;
+}
+
+.ceylon-lp .cy-fm-newsletter-btn {
+  background-color: #c47245;
+  border: none;
+  border-radius: 999px;
+  color: #fff;
+  cursor: pointer;
+  flex-shrink: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: normal;
+  line-height: normal;
+  padding: 12px 22px;
+  transition:
+    opacity 0.2s ease,
+    transform 0.2s ease;
+}
+
+.ceylon-lp .cy-fm-newsletter-btn:hover {
+  opacity: 0.9;
+  transform: scale(1.02);
+}
+
+.ceylon-lp .cy-fm-newsletter-fineprint {
+  color: #c9b8ab;
+  font-size: 12px;
+  line-height: 1.5;
+  margin-top: 12px;
+  opacity: 0.8;
+}
+
+.ceylon-lp .cy-fm-newsletter-success {
+  color: #c47245;
+  font-size: 14px;
+  margin-top: 12px;
+}
+
+.ceylon-lp .cy-fm .cy-fm-divider {
+  border-top: 1px solid #46362a;
+  margin: 44px 0;
+}
+
+.ceylon-lp .cy-fm-disclosure {
+  color: #c9b8ab;
+  font-size: 12px;
+  line-height: 1.6;
+  margin: 0;
+  max-width: 640px;
+  text-align: left;
+}
+
+.ceylon-lp .cy-fm .cy-fm-disclosure p {
+  margin: 0 0 6px;
+}
+
+.ceylon-lp .cy-fm .cy-fm-disclosure p:last-child {
+  margin-bottom: 0;
+}
+
+@media screen and (min-width: 750px) {
+  .ceylon-lp .cy-fm {
+    padding-bottom: 0;
+    padding-top: 40px;
+  }
+
+  .ceylon-lp .cy-fm-grid {
+    align-items: start;
+    column-gap: 48px;
+    grid-template-areas: "brand explore goodtoknow subscribe";
+    grid-template-columns: minmax(240px, 300px) 1fr 1fr minmax(280px, 320px);
+  }
+
+  .ceylon-lp .cy-fm-subscribe {
+    border-left: 1px solid #46362a;
+    padding-left: 40px;
+  }
+
+  .ceylon-lp .cy-fm-col--explore,
+  .ceylon-lp .cy-fm-col--goodtoknow,
+  .ceylon-lp .cy-fm-subscribe {
+    padding-top: 12px;
+  }
+
+  .ceylon-lp .cy-fm-disclosure {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 749px) {
+  .ceylon-lp .cy-fm .cy-fm-divider {
+    margin: 32px 0;
+  }
+
+  .ceylon-lp .cy-fm-newsletter-form {
+    align-items: stretch;
+    background-color: transparent;
+    border-radius: 0;
+    flex-direction: column;
+    gap: 12px;
+    max-width: 100%;
+    padding: 0;
+  }
+
+  .ceylon-lp .cy-fm-newsletter-form input[type="email"] {
+    background-color: #fff;
+    border: 1.5px solid rgba(0, 0, 0, 0.18);
+    border-radius: 999px;
+    box-sizing: border-box;
+    padding: 14px 20px;
+    width: 100%;
+  }
+
+  .ceylon-lp .cy-fm-newsletter-btn {
+    padding: 14px 20px;
+    width: 100%;
+  }
+}

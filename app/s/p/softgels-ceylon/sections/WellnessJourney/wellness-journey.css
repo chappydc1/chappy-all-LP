@@ -1,0 +1,283 @@
+.ceylon-lp .cy-wj {
+  background-color: #fff;
+  padding: 80px 20px;
+}
+
+.ceylon-lp .cy-wj-inner {
+  align-items: start;
+  display: grid;
+  gap: 60px;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.ceylon-lp .cy-wj-left {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: sticky;
+  text-align: center;
+  top: 100px;
+}
+
+.ceylon-lp .cy-wj-logo {
+  border-radius: 16px;
+  display: block;
+  margin: 0 auto;
+  max-width: 480px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.ceylon-lp .cy-wj-subtitle {
+  color: #c47245;
+  font-size: clamp(24px, 3.5vw, 36px);
+  font-weight: 400;
+  line-height: 1.2;
+  margin: 0 0 -12px;
+}
+
+.ceylon-lp .cy-wj-heading {
+  color: #1a1a1a;
+  font-size: clamp(24px, 3.5vw, 36px);
+  font-weight: 400;
+  line-height: 1.2;
+  margin: 0;
+}
+
+.ceylon-lp .cy-wj-desc {
+  color: #000;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.65;
+  margin: 0;
+}
+
+.ceylon-lp .cy-wj-cta {
+  background-color: #c47245;
+  border: none;
+  border-radius: 999px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: normal;
+  line-height: normal;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  transition: opacity 0.2s, transform 0.15s;
+  width: 100%;
+}
+
+.ceylon-lp .cy-wj-cta:hover {
+  opacity: 0.88;
+  transform: scale(1.02);
+}
+
+.ceylon-lp .cy-wj-guarantee {
+  align-items: center;
+  color: #000;
+  display: flex;
+  font-size: 15px;
+  gap: 6px;
+  justify-content: center;
+  opacity: 0.95;
+}
+
+.ceylon-lp .cy-wj-guarantee svg {
+  flex-shrink: 0;
+  height: 16px;
+  width: 16px;
+}
+
+.ceylon-lp .cy-wj-info {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+.ceylon-lp .cy-wj-cta-wrap {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  text-align: center;
+  width: 100%;
+}
+
+.ceylon-lp .cy-wj-steps {
+  padding-left: 36px;
+  position: relative;
+}
+
+.ceylon-lp .cy-wj-track-bg,
+.ceylon-lp .cy-wj-track-fill {
+  border-radius: 999px;
+  display: block;
+  left: 8px;
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  width: 2px;
+  z-index: 1;
+}
+
+.ceylon-lp .cy-wj-track-bg {
+  background-color: #d9d9d9;
+  bottom: 0;
+}
+
+.ceylon-lp .cy-wj-track-fill {
+  background-color: #c47245;
+  height: 0;
+}
+
+.ceylon-lp .cy-wj-step {
+  margin-bottom: 36px;
+  position: relative;
+}
+
+.ceylon-lp .cy-wj-step:last-child {
+  margin-bottom: 0;
+}
+
+.ceylon-lp .cy-wj-dot {
+  background-color: #d9d9d9;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 0 2px #d9d9d9;
+  display: block;
+  height: 18px;
+  left: -36px;
+  position: absolute;
+  top: 11px;
+  transition: background-color 0.4s ease, box-shadow 0.4s ease;
+  width: 18px;
+  z-index: 2;
+}
+
+.ceylon-lp .cy-wj-dot-active {
+  background-color: #c47245;
+  box-shadow: 0 0 0 2px #c47245;
+}
+
+.ceylon-lp .cy-wj-week {
+  background-color: #c47245;
+  border-radius: 8px;
+  color: #fff;
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.3;
+  margin-bottom: 14px;
+  padding: 10px 16px;
+  width: 100%;
+}
+
+.ceylon-lp .cy-wj-bullets {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.ceylon-lp .cy-wj-bullet {
+  align-items: flex-start;
+  color: #000;
+  display: flex;
+  font-size: 15px;
+  font-weight: 400;
+  gap: 8px;
+  line-height: 1.55;
+}
+
+.ceylon-lp .cy-wj-check {
+  align-items: center;
+  color: #c47245;
+  display: inline-flex;
+  flex-shrink: 0;
+  height: 14px;
+  justify-content: center;
+  margin-top: 5px;
+  width: 14px;
+}
+
+.ceylon-lp .cy-wj-check svg {
+  fill: none;
+  height: 100%;
+  stroke: currentColor;
+  stroke-width: 3.5;
+  width: 100%;
+}
+
+@media (max-width: 767px) {
+  .ceylon-lp .cy-wj {
+    padding: 30px 20px;
+  }
+
+  .ceylon-lp .cy-wj-guarantee {
+    font-size: 14px;
+  }
+
+  .ceylon-lp .cy-wj-subtitle {
+    font-size: 24px;
+    margin-bottom: -12px;
+  }
+
+  .ceylon-lp .cy-wj-heading {
+    font-size: 24px;
+    margin-top: 0;
+  }
+
+  .ceylon-lp .cy-wj-inner {
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+  }
+
+  .ceylon-lp .cy-wj-left {
+    display: contents;
+  }
+
+  .ceylon-lp .cy-wj-info {
+    order: 1;
+  }
+
+  .ceylon-lp .cy-wj-right {
+    order: 2;
+  }
+
+  .ceylon-lp .cy-wj-cta-wrap {
+    margin-top: 12px;
+    order: 3;
+  }
+
+  .ceylon-lp .cy-wj-logo {
+    max-width: 100%;
+  }
+
+  .ceylon-lp .cy-wj-steps {
+    padding-left: 28px;
+  }
+
+  .ceylon-lp .cy-wj-dot {
+    height: 14px;
+    left: -28px;
+    width: 14px;
+  }
+
+  .ceylon-lp .cy-wj-track-bg,
+  .ceylon-lp .cy-wj-track-fill {
+    left: 6px;
+  }
+}

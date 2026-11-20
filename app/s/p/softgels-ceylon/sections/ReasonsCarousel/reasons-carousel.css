@@ -1,0 +1,235 @@
+.ceylon-lp .cy-reasons {
+  padding-top: 36px;
+  padding-bottom: 36px;
+  background-color: #ffffff;
+}
+
+.ceylon-lp .cy-reasons-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  text-align: center;
+  font-family: inherit;
+}
+
+.ceylon-lp .cy-reasons-title {
+  font-size: clamp(20px, 2.8vw, 30px);
+  font-weight: 400;
+  color: #000000;
+  margin: 0 auto 32px;
+  max-width: 800px;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+}
+
+.ceylon-lp .cy-reasons-scroll-container {
+  position: relative;
+  width: 100%;
+  margin-bottom: 24px;
+  overflow: hidden;
+}
+
+.ceylon-lp .cy-reasons-row {
+  display: flex;
+  padding: 10px 4px 20px;
+  text-align: left;
+  transition: transform 0.3s ease;
+  box-sizing: border-box;
+  touch-action: pan-y;
+  cursor: grab;
+}
+
+.ceylon-lp .cy-reasons-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  flex-shrink: 0;
+  width: calc((100% + 3.2px) / 1.3);
+  margin-right: 16px;
+  transition: transform 0.2s ease, border-color 0.2s ease;
+  border: 1.5px solid #eaeaea;
+  box-sizing: border-box;
+}
+
+.ceylon-lp .cy-reasons-card:hover {
+  transform: translateY(-2px);
+  border-color: #c47245;
+}
+
+.ceylon-lp .cy-reasons-card-img-wrap {
+  width: 100%;
+  aspect-ratio: 16 / 12;
+  overflow: hidden;
+  position: relative;
+  background-color: #f2efec;
+}
+
+.ceylon-lp .cy-reasons-card-img-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 10px 10px 0 0;
+}
+
+.ceylon-lp .cy-reasons-card-info {
+  padding: 24px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  flex-grow: 1;
+  background: #ffffff;
+}
+
+.ceylon-lp .cy-reasons-card-title {
+  font-size: 17px;
+  font-weight: 500;
+  color: #000000;
+  margin: 0 0 12px;
+  line-height: 1.3;
+  text-align: center;
+}
+
+.ceylon-lp .cy-reasons-card-desc {
+  font-size: 15px;
+  line-height: 1.55;
+  font-weight: 400;
+  color: #444;
+  margin: 0;
+  text-align: center;
+}
+
+.ceylon-lp .cy-reasons-controls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  margin-top: 10px;
+  margin-bottom: 32px;
+}
+
+.ceylon-lp .cy-reasons-dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.ceylon-lp .cy-reasons-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #ccc;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  transition: background-color 0.25s ease, width 0.25s ease, border-radius 0.25s ease;
+}
+
+.ceylon-lp .cy-reasons-dot.is-active {
+  background-color: #c47245;
+  width: 24px;
+  border-radius: 4px;
+}
+
+.ceylon-lp .cy-reasons-nav-arrows {
+  display: flex;
+  gap: 12px;
+}
+
+.ceylon-lp .cy-reasons-nav-btn {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: #eceae6;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: #3b3b3b;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+  padding: 0;
+}
+
+.ceylon-lp .cy-reasons-nav-btn:hover {
+  background-color: #ddd9d2;
+}
+
+.ceylon-lp .cy-reasons-nav-btn:active {
+  transform: scale(0.95);
+}
+
+.ceylon-lp .cy-reasons-nav-btn.is-disabled {
+  opacity: 0.35;
+  cursor: default;
+  pointer-events: none;
+  background-color: #eceae6;
+}
+
+.ceylon-lp .cy-reasons-nav-btn svg {
+  width: 18px;
+  height: 18px;
+  display: block;
+}
+
+@media screen and (min-width: 750px) {
+  .ceylon-lp .cy-reasons {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+
+  .ceylon-lp .cy-reasons-scroll-container {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .ceylon-lp .cy-reasons-row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 14px;
+    width: 100%;
+    padding: 10px 4px 20px;
+    cursor: auto;
+  }
+
+  .ceylon-lp .cy-reasons-card {
+    width: auto;
+    margin-right: 0;
+  }
+
+  .ceylon-lp .cy-reasons-controls {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 749px) {
+  .ceylon-lp .cy-reasons {
+    padding-bottom: 12px;
+  }
+
+  .ceylon-lp .cy-reasons-scroll-container {
+    margin-bottom: 8px;
+  }
+
+  .ceylon-lp .cy-reasons-row {
+    padding-bottom: 8px;
+  }
+
+  .ceylon-lp .cy-reasons-controls {
+    margin-bottom: 12px;
+  }
+
+  .ceylon-lp .cy-reasons-title {
+    font-size: 24px;
+  }
+
+  .ceylon-lp .cy-reasons-card-info {
+    padding: 20px 10px;
+  }
+}

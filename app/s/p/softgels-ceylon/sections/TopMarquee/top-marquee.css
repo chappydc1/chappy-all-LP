@@ -1,0 +1,18 @@
+.ceylon-lp .cy-mq.cy-tm {
+  padding: 4px;
+}
+
+.ceylon-lp .cy-tm .cy-mq-item {
+  gap: 4px;
+}
+
+.ceylon-lp .cy-tm .cy-mq-icon {
+  height: auto;
+  width: 14px;
+}
+
+@media (min-width: 768px) {
+  .ceylon-lp .cy-tm .cy-mq-track {
+    gap: 100px;
+  }
+}
